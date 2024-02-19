@@ -1,0 +1,113 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <OutputType>Library</OutputType>
+        <PlatformTarget>x64</PlatformTarget>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <AllowedReferenceRelatedFileExtensions>none</AllowedReferenceRelatedFileExtensions>
+        <DebugSymbols>true</DebugSymbols>
+        <RootNamespace>LimbusCompanyFR</RootNamespace>
+        <LangVersion>10.0</LangVersion>
+        <Configurations>ML_Cpp_net6_interop</Configurations>
+        <IsPublishable>True</IsPublishable>
+        <Platforms>x64</Platforms>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
+    </PropertyGroup>
+    <!-- ~~~~~ CONFIGURATIONS ~~~~~ -->
+    <!-- ML IL2CPP Interop net6 -->
+    <PropertyGroup Condition="'$(Configuration)'=='ML_Cpp_net6_interop'">
+        <TargetFramework>net6</TargetFramework>
+        <OutputPath>..\Release</OutputPath>
+		<AssemblyName>LimbusCompanyFR_BIE</AssemblyName>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ML_Cpp_net6_interop|x64'">
+      <NoWarn>1701;1702;2211;CA2211;IDE1006;IDE0060</NoWarn>
+      <DebugType>none</DebugType>
+      <Optimize>True</Optimize>
+    </PropertyGroup>
+    <ItemGroup>
+      <None Include="LCB_EOMod.cs" />
+    </ItemGroup>
+
+	<!-- ~~~~~ NUGET ~~~~~ -->
+	<ItemGroup>
+		<PackageReference Include="HarmonyX" Version="2.5.2" IncludeAssets="compile" />
+		<PackageReference Include="Il2CppInterop.Runtime" Version="1.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Reference Include="Assembly-CSharp">
+	    <HintPath>..\..\Fuck it\Assembly-CSharp.dll</HintPath>
+	  </Reference>
+	  <Reference Include="BepInEx.Core">
+	    <HintPath>..\..\Steam\steamapps\common\Limbus Company\BepInEx\core\BepInEx.Core.dll</HintPath>
+	  </Reference>
+	  <Reference Include="BepInEx.Unity.IL2CPP">
+	    <HintPath>..\..\Steam\steamapps\common\Limbus Company\BepInEx\core\BepInEx.Unity.IL2CPP.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Il2Cppmscorlib">
+	    <HintPath>..\..\Fuck it\Il2Cppmscorlib.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Il2CppSystem">
+	    <HintPath>..\..\Fuck it\Il2CppSystem.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Il2CppSystem.Core">
+	    <HintPath>..\..\Fuck it\Il2CppSystem.Core.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Unity.TextMeshPro">
+	    <HintPath>..\..\Fuck it\Unity.TextMeshPro.dll</HintPath>
+	  </Reference>
+	  <Reference Include="UnityEngine">
+	    <HintPath>..\..\Fuck it\UnityEngine.dll</HintPath>
+	  </Reference>
+	  <Reference Include="UnityEngine.AssetBundleModule">
+	    <HintPath>..\..\Fuck it\UnityEngine.AssetBundleModule.dll</HintPath>
+	  </Reference>
+	  <Reference Include="UnityEngine.AudioModule">
+	    <HintPath>..\..\Fuck it\UnityEngine.AudioModule.dll</HintPath>
+	  </Reference>
+	  <Reference Include="UnityEngine.CoreModule">
+	    <HintPath>..\..\Fuck it\UnityEngine.CoreModule.dll</HintPath>
+	  </Reference>
+	  <Reference Include="UnityEngine.ImageConversionModule">
+	    <HintPath>..\..\Fuck it\UnityEngine.ImageConversionModule.dll</HintPath>
+	  </Reference>
+	  <Reference Include="UnityEngine.IMGUIModule">
+	    <HintPath>..\..\Fuck it\UnityEngine.IMGUIModule.dll</HintPath>
+	  </Reference>
+	  <Reference Include="UnityEngine.JSONSerializeModule">
+	    <HintPath>..\..\Fuck it\UnityEngine.JSONSerializeModule.dll</HintPath>
+	  </Reference>
+	  <Reference Include="UnityEngine.PhysicsModule">
+	    <HintPath>..\..\Fuck it\UnityEngine.PhysicsModule.dll</HintPath>
+	  </Reference>
+	  <Reference Include="UnityEngine.TextRenderingModule">
+	    <HintPath>..\..\Fuck it\UnityEngine.TextRenderingModule.dll</HintPath>
+	  </Reference>
+	  <Reference Include="UnityEngine.UI">
+	    <HintPath>..\..\Fuck it\UnityEngine.UI.dll</HintPath>
+	  </Reference>
+	  <Reference Include="UnityEngine.UIModule">
+	    <HintPath>..\..\Fuck it\UnityEngine.UIModule.dll</HintPath>
+	  </Reference>
+	  <Reference Include="UnityEngine.UnityWebRequestModule">
+	    <HintPath>..\..\Fuck it\UnityEngine.UnityWebRequestModule.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+
+	<!-- ~~~~~ ASSEMBLY REFERENCES ~~~~~ -->
+	<ItemGroup>
+		<Compile Update="Properties\Resources.Designer.cs">
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>Resources.resx</DependentUpon>
+		</Compile>
+	</ItemGroup>
+	<ItemGroup>
+		<EmbeddedResource Update="Properties\Resources.resx">
+			<Generator>ResXFileCodeGenerator</Generator>
+			<LastGenOutput>Resources.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+	</ItemGroup>
+</Project>

@@ -1,0 +1,940 @@
+{
+  "dataList": [
+    {
+      "id": "mirrordungeon_product_list",
+      "content": "Catalogue de Produits"
+    },
+    {
+      "id": "ego_gift_list",
+      "content": "Dons E.G.O Possédés"
+    },
+    {
+      "id": "normal_difficulty",
+      "content": "Normal"
+    },
+    {
+      "id": "hard_difficulty",
+      "content": "Difficile"
+    },
+    {
+      "id": "start_buffs",
+      "content": "Effets Actifs"
+    },
+    {
+      "id": "enter_normal_difficulty",
+      "content": "Entrer dans le Donjon Normal"
+    },
+    {
+      "id": "enter_hard_difficulty",
+      "content": "Entrer dans le Donjon Difficile"
+    },
+    {
+      "id": "list_of_applied_effects",
+      "content": "Effets Actifs"
+    },
+    {
+      "id": "activation_complete",
+      "content": "Activé"
+    },
+    {
+      "id": "lack_of_points",
+      "content": "Pas assez de Lumière Stellaire."
+    },
+    {
+      "id": "require_to_activate_former_buffs",
+      "content": "Engravez d’abord les Étoiles du\nprécédant niveau de Buff de Départ."
+    },
+    {
+      "id": "weekly_bonus_reward",
+      "content": "Bonus Hebdomadaires"
+    },
+    {
+      "id": "hard_dungeon_reward",
+      "content": "Récompenses de Difficulté Difficile"
+    },
+    {
+      "id": "dungeon_shop_return_title",
+      "content": "Ne pas acheter."
+    },
+    {
+      "id": "dungeon_shop_return_desc",
+      "content": "Aller au Magasin"
+    },
+    {
+      "id": "dungeon_shop_heal_title_one",
+      "content": "Choisir le tonique onéreux."
+    },
+    {
+      "id": "dungeon_shop_heal_desc_one_hp_perc_mp_int",
+      "content": "Le Pécheur sélectionné regagne {0}% de PV et {1} PSM"
+    },
+    {
+      "id": "dungeon_shop_heal_title_all",
+      "content": "Choisir les boissons énergisantes."
+    },
+    {
+      "id": "dungeon_shop_heal_desc_all_hp_perc_mp_int",
+      "content": "Tous les Pécheurs regagnent {0}% de PV et {1} PSM"
+    },
+    {
+      "id": "dungeon_shop_purchase_title",
+      "content": "Acheter."
+    },
+    {
+      "id": "dungeon_shop_change_formation_title",
+      "content": "Ramasser un fragment de miroir au milieu des miettes."
+    },
+    {
+      "id": "dungeon_shop_change_formation_desc",
+      "content": "Ajouter une nouvelle Identité ou E.G.O à l’équipe actuelle"
+    },
+    {
+      "id": "dungeon_shop_heal_character",
+      "content": "Soigner un Pécheur"
+    },
+    {
+      "id": "dungeon_shop_change_formation",
+      "content": "Équipe"
+    },
+    {
+      "id": "dungeon_shop_upgrade_personality",
+      "content": "Remplacer Capa. de {0}"
+    },
+    {
+      "id": "dungeon_shop_upgrade_personality_0_title",
+      "content": "Payer un prix modéré."
+    },
+    {
+      "id": "dungeon_shop_upgrade_personality_1_title",
+      "content": "Payer une grosse somme."
+    },
+    {
+      "id": "dungeon_shop_upgrade_personality_2_title",
+      "content": "Payer une somme immense."
+    },
+    {
+      "id": "dungeon_shop_upgrade_personality_desc",
+      "content": "Échanger une [Capa. {2} - {0}] de l’Identité pour une [Capa. {3} - {1}]"
+    },
+    {
+      "id": "dungeon_shop_out",
+      "content": "Quitter"
+    },
+    {
+      "id": "mirrordungeon_2_hard_open_at",
+      "content": "Complétez le Miroir des Miroirs en Normal pour le Débloquer"
+    },
+    {
+      "id": "mirrordungeon_with_number",
+      "content": "Donjon Miroir {0}"
+    },
+    {
+      "id": "mirrordungeon_select_buffs_title",
+      "content": "Choisir un Effet d’Évent"
+    },
+    {
+      "id": "acquire_additional_rewards",
+      "content": "Recevoir des récompenses supplémentaires"
+    },
+    {
+      "id": "mirrordungeon_acquire_rewards_using_chance_desc",
+      "content": "Souhaitez-vous réclamer des récompenses bonus en utilisant un Bonus Hebdomadaire Éligible ?"
+    },
+    {
+      "id": "mirrordungeon_acquire_rewards_not_using_chance_desc",
+      "content": "Il vous reste des Bonus Hebdomadaire Éligibles. Êtes-vous sûr de vouloir réclamer les récompenses actuelles sans utiliser d’Éligibilité ?"
+    },
+    {
+      "id": "mirrordungeon_acquire_rewards_no_chance_desc",
+      "content": "Réclamer les récompenses ?"
+    },
+    {
+      "id": "mirror_dungeon_start_buffs_chip_name",
+      "content": "Lumière Stellaire"
+    },
+    {
+      "id": "mirror_dungeon_exit_without_acquire_rewards",
+      "content": "Finir l’expédition sans réclamer de récompenses ?"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_1",
+      "content": "Un Demi Pas de Plus"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_2",
+      "content": "Esprit Combatif"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_3",
+      "content": "Repérage de Faiblesses"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_4",
+      "content": "Volonté d’Avancer"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_5",
+      "content": "Concentration sur les Faiblesses"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_6",
+      "content": "Entraînement Physique"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_7",
+      "content": "Aperçu de Sincérité"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_8",
+      "content": "Entraînement Intense"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_9",
+      "content": "Autogène"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_10",
+      "content": "Possibilités Croisées"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_11",
+      "content": "Juste Une Poche"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_12",
+      "content": "Un Pas de Plus"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_13",
+      "content": "Trouvaille Fortuite"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_14",
+      "content": "Poche Distincte"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_15",
+      "content": "Défense Solide"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_16",
+      "content": "Jambes Rapides"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_17",
+      "content": "Grande Rapidité"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_18",
+      "content": "Attaque Égratignante"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_19",
+      "content": "Esprit Robuste"
+    },
+    {
+      "id": "mirrordungeon_unable_to_purchase_buffs_when_running_dungeon",
+      "content": "Vous ne pouvez pas acheter de buffs de départ pendant qu’une expédition est en cours."
+    },
+    {
+      "id": "mirrordungeon_resting_open",
+      "content": "Prenez le temps de vous reposer ici !\n\nSi vous souhaitez une rencontre fortuite, posez cela sur la table.\n\n- Le propriétaire du magasin en quête d’un distributeur dans le labyrinthe"
+    },
+    {
+      "id": "mirrordungeon_shop_open",
+      "content": "Le bourdonnement du distributeur remplit l’air.\n\nIl sait ce que nous voulons.\n\nEt nous savons ce qu’il veut."
+    },
+    {
+      "id": "mirrordungeon_resting_heal_title",
+      "content": "Se Reposer."
+    },
+    {
+      "id": "mirrordungeon_resting_heal_desc",
+      "content": "Soin de Pécheurs"
+    },
+    {
+      "id": "mirrordungeon_resting_heal_desc_1",
+      "content": "Le Pécheur sélectionné regagne {0}% de PV"
+    },
+    {
+      "id": "mirrordungeon_resting_heal_desc_2",
+      "content": "Tous les Pécheurs regagnent {0}% de PV"
+    },
+    {
+      "id": "mirrordungeon_resting_change_formation_title",
+      "content": "Placer la mie sur la table."
+    },
+    {
+      "id": "mirrordungeon_resting_change_formation_desc",
+      "content": "Ajouter une nouvelle Identité ou E.G.O à l’équipe actuelle"
+    },
+    {
+      "id": "hard_difficulty_en",
+      "content": "Difficile"
+    },
+    {
+      "id": "mirrordungeon_2_normal_open_at",
+      "content": "Complétez l’Histoire Principale 4-54 et le Miroir du Commencement pour débloquer"
+    },
+    {
+      "id": "mirrordungeon_2_shop_stageinfo_title",
+      "content": "Grand Bourdonnement Épais"
+    },
+    {
+      "id": "mirrordungeon_2_shop_stageinfo_desc",
+      "content": "Cet espace vide mystérieux n’est occupé que par le bourdonnement du distributeur.\n\nLa voix s’exclame : ‘Laissez cette mie que vous portez, et vous recevrez quelque chose d’utile.’\n\nVous êtes attiré par l’étrange objet."
+    },
+    {
+      "id": "mirrordungeon_2_resting_stageinfo_title",
+      "content": "Silence Lourd"
+    },
+    {
+      "id": "mirrordungeon_2_resting_stageinfo_desc",
+      "content": "Vous pouvez ensevelir votre douleur dans le silence,\nou faire venir quelqu’un avec qui la partager."
+    },
+    {
+      "id": "dungeon_resting_change_formation_title",
+      "content": "Ramasser un fragment de miroir parmi les miettes."
+    },
+    {
+      "id": "dungeon_resting_change_formation_desc",
+      "content": "Ajouter une nouvelle Identité ou E.G.O à l’équipe actuelle"
+    },
+    {
+      "id": "dungeon_resting_heal_title_one",
+      "content": "Laisser s’assoir le Pécheur le plus épuisé."
+    },
+    {
+      "id": "dungeon_resting_heal_title_all",
+      "content": "Tous les Pécheurs s’assoient pour se reposer."
+    },
+    {
+      "id": "ego_gift_info",
+      "content": "Info Don E.G.O"
+    },
+    {
+      "id": "mirrordungeon_shop_gift_entrance",
+      "content": "Les choses bizarres et curieuses attirent votre attention."
+    },
+    {
+      "id": "mirrordungeon_shop_gift_purchase",
+      "content": "Vous entendez quelque chose tomber avec un klang."
+    },
+    {
+      "id": "mirrordungeon_reenter",
+      "content": "Autre chose à acheter ?"
+    },
+    {
+      "id": "mirrordungeon_shop_heal_one_who",
+      "content": "Malheureusement, il n’y a qu’une seule de ces précieuses boissons réparatrices.\nQui devrait la boire ?"
+    },
+    {
+      "id": "mirrordungeon_shop_heal_one_answer",
+      "content": "On dirait que l’objet valait mieux que son prix.\nAprès avoir bu le tonique, le Pécheur semble déborder d’énergie."
+    },
+    {
+      "id": "mirrordungeon_shop_heal_all_answer",
+      "content": "Vous avez acheté des boissons énergisantes pour tous les Pécheurs.\nSavourant les liquides sucrés et acidulés, la fatigue des Pécheurs semble s’envoler."
+    },
+    {
+      "id": "mirrordungeon_resting_heal_one_answer",
+      "content": "J’ai laissé le Pécheur faire une courte sieste.\nHeureusement, le Pécheur semble avoir retrouvé ses forces lorsque je l’ai regardé à la fin de la pause."
+    },
+    {
+      "id": "mirrordungeon_resting_heal_all_answer",
+      "content": "C’était un petit peu serré pour que tout le monde rendre,\nMais le repos était des plus propices."
+    },
+    {
+      "id": "mirrordungeon_shop_heal_one_after",
+      "content": "C’était un petit peu serré pour que tout le monde rendre,\nMais le repos était des plus propices."
+    },
+    {
+      "id": "mirrordungeon_shop_heal_one_who_right",
+      "content": "Choisir le Pécheur qui semble épuisé."
+    },
+    {
+      "id": "mirrordungeon_shop_upgrade_start_left",
+      "content": "Des possibilités infinies pouvaient-elles vraiment se trouver dans ce distributeur ?"
+    },
+    {
+      "id": "dungeon_encounter_guide_mirror_shop",
+      "content": "Boutique"
+    },
+    {
+      "id": "dungeon_encounter_guide_mirror_select_event",
+      "content": "Point de Repos"
+    },
+    {
+      "id": "dungeon_explore_floor",
+      "content": "Exploration de l’Étage {0}"
+    },
+    {
+      "id": "lack_of_point_for_shop",
+      "content": "Pas Assez de Coût"
+    },
+    {
+      "id": "mirrordungeon_select_less_character_at_start",
+      "content": "Vous avez déployé moins de Pécheurs que le maximum possible pour votre équipe.\nÊtes-vous sûr de vouloir continuer ?"
+    },
+    {
+      "id": "list_of_applied_effects_is_empty",
+      "content": "Aucun effet actif."
+    },
+    {
+      "id": "give_up_rewards",
+      "content": "Refuser\nLes Récompenses"
+    },
+    {
+      "id": "mirror_dungeon_rewards_back_to_lobby_button",
+      "content": "Vers la Fenêtre"
+    },
+    {
+      "id": "mirror_dungeon_rewards_back_to_lobby_desc",
+      "content": "Voulez-vous aller à la Fenêtre ?\nLes récompenses d’expédition réapparaîtront lorsque vous retournerez au menu des Donjons Miroir."
+    },
+    {
+      "id": "mirror_dungeon_rewards_back_to_lobby_button_lobby",
+      "content": "Vers la Liste"
+    },
+    {
+      "id": "mirrordungeon_resting_heal_one_who",
+      "content": "Il n’y a pas beaucoup d’espace.\nQui devrait se reposer ?"
+    },
+    {
+      "id": "mirrordungeon_resting_heal_one_who_right",
+      "content": "Choisir le Pécheur qui semble épuisé."
+    },
+    {
+      "id": "mirror_dungeon_change_formation_release_character",
+      "content": "Annuler Tous les Sélectionnés"
+    },
+    {
+      "id": "mirrordungeon_exit_shop",
+      "content": "Quitter la boutique ?"
+    },
+    {
+      "id": "mirrordungeon_exit_resting",
+      "content": "Quitter le point de repos ?"
+    },
+    {
+      "id": "mirrordungeon_change_formation_confirm_less_participants",
+      "content": "Il vous reste des places disponibles.\nÊtes-vous sûr de vouloir valider cette configuration ?"
+    },
+    {
+      "id": "mirrordungeon_change_formation_confirm_exact_participants",
+      "content": "Dépenser le Coût pour déployer les Identités et E.G.O sélectionnés ?"
+    },
+    {
+      "id": "mirror_dungeon_clear_battle_reward_label",
+      "content": "Récompenses Obtenables"
+    },
+    {
+      "id": "mirror_dungeon_start_change_formation_but_button",
+      "content": "Acheter"
+    },
+    {
+      "id": "mirror_dungeon_give_up_ego_gift",
+      "content": "Refuser le Don"
+    },
+    {
+      "id": "mirror_dungeon_give_up_ego_gift_ask",
+      "content": "Continuer sans choisir de Don E.G.O ?"
+    },
+    {
+      "id": "mirror_dungeon_challenge_mode_description",
+      "content": "Lorsque le Mode Challenge est actif, l’équipe sera choisie aléatoirement.\nL’équipe ne changera pas tant que les récompenses de l’expédition n’auront pas été réclamées avec elle.\nVous pouvez recevoir plus de récompenses en Mode Challenge."
+    },
+    {
+      "id": "mirror_dungeon_challenge_mode_ask",
+      "content": "Activater le Mode Challenge ?"
+    },
+    {
+      "id": "mirror_dungeon_challenge_mode",
+      "content": "Mode Challenge"
+    },
+    {
+      "id": "mirror_dungeon_hard_require_condition_title",
+      "content": "Recommendations"
+    },
+    {
+      "id": "mirror_dungeon_hard_require_condition_level",
+      "content": "- Identité Niveau 40"
+    },
+    {
+      "id": "mirror_dungeon_hard_require_condition_ego_gacksung",
+      "content": "- E.G.O de Tier 3"
+    },
+    {
+      "id": "mirror_dungeon_hard_require_condition_personality_gacksung",
+      "content": "- Identité avec Uptie de Tier 3"
+    },
+    {
+      "id": "mirror_dungeon_hard_require_condition_start_buf",
+      "content": "- Tous les Buffs de Départ actifs"
+    },
+    {
+      "id": "mirrordungeon_acquire_rewards_using_hard_using_chance_desc",
+      "content": "Utiliser tous vos <color=#a16a3b>Bonus Hebdomadaire</color> restants et <color=#ff0000>compte de Récompenses de Difficultés Difficiles</color> pour réclamer les récompenses ?"
+    },
+    {
+      "id": "mirrordungeon_acquire_rewards_using_hard_not_using_chance_desc",
+      "content": "Il vous reste des <color=#a16a3b>Bonus Hebdomadaire</color>.\n\nUtiliser uniquement le <color=#ff0000>compte de Récompenses de Difficultés Difficiles</color> pour débloquer les récompenses ?"
+    },
+    {
+      "id": "mirrordungeon_acquire_rewards_using_hard_no_chance_desc",
+      "content": "Utiliser le <color=#ff0000>compte de Récompenses de Difficultés Difficiles</color> pour débloquer les récompenses ?"
+    },
+    {
+      "id": "mirrordungeon_acquire_rewards_not_using_hard_chance_using_chance_desc",
+      "content": "Il vous reste un <color=#ff0000>compte de Récompenses de Difficultés Difficiles</color>.\n\nUtiliser uniquement le <color=#a16a3b>Bonus Hebdomadaire</color> pour débloquer les récompenses ?"
+    },
+    {
+      "id": "mirrordungeon_acquire_rewards_not_using_hard_chance_not_using_chance_desc",
+      "content": "Il vous reste des <color=#a16a3b>Bonus Hebdomadaire</color> et <color=#ff0000>compte de Récompenses de Difficultés Difficiles</color>.\n\nDébloquer les récompenses sans les utiliser ?"
+    },
+    {
+      "id": "mirrordungeon_acquire_rewards_not_using_hard_chance_no_chance_desc",
+      "content": "Il vous reste un <color=#ff0000>compte de Récompenses de Difficultés Difficiles</color>.\n\nDébloquer les récompenses sans les utiliser ?"
+    },
+    {
+      "id": "mirrordungeon_acquire_rewards_no_hard_chance_using_chance_desc",
+      "content": "Utiliser un <color=#a16a3b>Bonus Hebdomadaire</color> pour débloquer les récompenses ?"
+    },
+    {
+      "id": "mirrordungeon_acquire_rewards_no_hard_chance_not_using_chance_desc",
+      "content": "Il vous reste des <color=#a16a3b>Bonus Hebdomadaire</color>.\n\nDébloquer les récompenses sans les utiliser ?"
+    },
+    {
+      "id": "mirrordungeon_acquire_rewards_no_hard_chance_no_chance_desc",
+      "content": "Réclamer les récompenses ?"
+    },
+    {
+      "id": "mirrordungeon_hard_no_reward_desc",
+      "content": "<color=#ff0000>Les récompenses de ce contenu ont déjà été réclamées.</color>"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_1",
+      "content": "Début d’un Voyage"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_2",
+      "content": "Saisir l’Opportunité"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_3",
+      "content": "Juste au Cas Où"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_4",
+      "content": "Fruits du Travail"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_5",
+      "content": "Récompense à la Hauteur"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_6",
+      "content": "Nouvelle Découverte"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_7",
+      "content": "Le Butin de Guerre"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_8",
+      "content": "Plus c’est Mieux"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_9",
+      "content": "Confiance Établie"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_10",
+      "content": "Persévérance"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_11",
+      "content": "Homonyme"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_12",
+      "content": "Gloire et Accomplissements"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_13",
+      "content": "Droits"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_14",
+      "content": "Retour Triomphant"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_15",
+      "content": "Objectifs"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_16",
+      "content": "Réactivité"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_17",
+      "content": "Esprit d’Avancer"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_18",
+      "content": "Entraînement Physique"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_101",
+      "content": "Apparition des Dons de Tier 3"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1011",
+      "content": "Apparition de Dons de Brûlure de plus Haut Tier"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1012",
+      "content": "Apparition de Dons de Saignement de plus Haut Tier"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1013",
+      "content": "Apparition de Dons de Tremblement de plus Haut Tier"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1014",
+      "content": "Apparition de Dons de Déchirure de plus Haut Tier"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1015",
+      "content": "Apparition de Dons de Lourdeur de plus Haut Tier"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1016",
+      "content": "Apparition de Dons de Calme de plus Haut Tier"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1017",
+      "content": "Apparition de Dons de Charge de plus Haut Tier"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1018",
+      "content": "Apparition de Dons Aléatoires de plus Haut Tier"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_102",
+      "content": "Apparition de Dons de plus Haut Tier et de Tier 4+"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1021",
+      "content": "Apparition de Dons de plus Haut Tier"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1022",
+      "content": "Apparition de Dons de plus Haut Tier"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1023",
+      "content": "Apparition de Dons de plus Haut Tier"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_103",
+      "content": "Dons E.G.O Sélectionnables +1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1031",
+      "content": "Dons E.G.O Sélectionnables +1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_104",
+      "content": "Dons E.G.O Sélectionnables +1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1041",
+      "content": "Dons E.G.O de Brûlure Sélectionnables +1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1042",
+      "content": "Dons E.G.O de Saignement Sélectionnables +1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1043",
+      "content": "Dons E.G.O de Tremblement Sélectionnables +1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1044",
+      "content": "Dons E.G.O de Déchirure Sélectionnables +1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1045",
+      "content": "Dons E.G.O de Lourdeur Sélectionnables +1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1046",
+      "content": "Dons E.G.O de Calme Sélectionnables +1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1047",
+      "content": "Dons E.G.O de Charge Sélectionnables +1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1048",
+      "content": "Dons E.G.O de Aléatoires Sélectionnables +1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_105",
+      "content": "Gagne +50 Coût de Départ"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1051",
+      "content": "Coût de Départ +50"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1052",
+      "content": "Coût de Départ +50"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1053",
+      "content": "Coût de Départ +50"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_106",
+      "content": "Rajoute 3 nouveaux Dons"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1061",
+      "content": "Rajoute 2 nouveaux Dons de Brûlure"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1062",
+      "content": "Rajoute 2 nouveaux Dons de Saignement"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1063",
+      "content": "Rajoute 2 nouveaux Dons de Tremblement"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1064",
+      "content": "Rajoute 2 nouveaux Dons de Déchirure"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1065",
+      "content": "Rajoute 2 nouveaux Dons de Lourdeur"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1066",
+      "content": "Rajoute 2 nouveaux Dons de Calme"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1067",
+      "content": "Rajoute 2 nouveaux Dons de Charge"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_107",
+      "content": "Gagnez plus de Coût après des Combats"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1071",
+      "content": "Gagnez plus de Coût après des Combats Normaux"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1072",
+      "content": "Gagnez plus de Coût après des Combats Concentrés"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1073",
+      "content": "Gagnez plus de Coût après des Combats Risqués"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1074",
+      "content": "Gagnez plus de Coût après des Combats de Boss d’Étage"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_108",
+      "content": "Choix de Don +1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_109",
+      "content": "Coût de Rafraîchissement moins cher"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1091",
+      "content": "Coût de Rafraîchissement moins cher"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1092",
+      "content": "Faible chance de Rafraîchissement gratuit"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1093",
+      "content": "[Boutiques] Coût de Remplacement de Capacité moins cher"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1094",
+      "content": "[Boutiques] Coût de Remplacement de Capacité moins cher"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_110",
+      "content": "Coût d’Amélioration moins Cher"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1101",
+      "content": "Faible chance d’Amélioration gratuite"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1102",
+      "content": "Coût d’Amélioration de Dons de Brûlure moins cher"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1103",
+      "content": "Coût d’Amélioration de Dons de Saignement moins cher"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1104",
+      "content": "Coût d’Amélioration de Dons de Tremblement moins cher"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1105",
+      "content": "Coût d’Amélioration de Dons de Déchirure moins cher"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1106",
+      "content": "Coût d’Amélioration de Dons de Lourdeur moins cher"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1107",
+      "content": "Coût d’Amélioration de Dons de Calme moins cher"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1108",
+      "content": "Coût d’Amélioration de Dons de Charge moins cher"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_111",
+      "content": "Gagnez plus de Coût en vendant des Dons"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1111",
+      "content": "Gagnez plus de Coût en vendant des Dons"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_112",
+      "content": "Coût d’Achat de Dons moins cher"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1121",
+      "content": "Coût d’Achat de Dons de Brûlure moins cher"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1122",
+      "content": "Coût d’Achat de Dons de Saignement moins cher"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1123",
+      "content": "Coût d’Achat de Dons de Tremblement moins cher"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1124",
+      "content": "Coût d’Achat de Dons de Déchirure moins cher"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1125",
+      "content": "Coût d’Achat de Dons de Lourdeur moins cher"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1126",
+      "content": "Coût d’Achat de Dons de Calme moins cher"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1127",
+      "content": "Coût d’Achat de Dons de Charge moins cher"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1128",
+      "content": "Coût d’Achat de Dons Non Catégorisés moins cher"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_151",
+      "content": "Sélection de Don E.G.O +1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_152",
+      "content": "Coût de Départ +250"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_153",
+      "content": "Après sélection d’un Don E.G.O de Départ, recevez un Don E.G.O aléatoire de Tier 4"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_121",
+      "content": "+1 ressource E.G.O pour toutes les Affinités"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1211",
+      "content": "+1 ressource E.G.O pour toutes les Affinités"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1212",
+      "content": "Vitesse Max +1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1213",
+      "content": "Vitesse Max +1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_122",
+      "content": "Infligez +3% de Dégâts"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1221",
+      "content": "Infligez +3% de Dégâts"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1222",
+      "content": "Niveau Offensif +1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1223",
+      "content": "Niveau Offensif +1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1224",
+      "content": "Infligez +4% de Dégâts Tranchants"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1225",
+      "content": "Infligez +4% de Dégâts Perçants"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1226",
+      "content": "Infligez +4% de Dégâts Contondants"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_123",
+      "content": "Subissez -3% de Dégâts"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1231",
+      "content": "Subissez -3% de Dégâts"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1232",
+      "content": "Niveau Défensif +1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1233",
+      "content": "Niveau Défensif +2"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1234",
+      "content": "Résistance Tranchante -0.1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1235",
+      "content": "Résistance Perçante -0.1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1236",
+      "content": "Résistance Contondante -0.1"
+    }
+  ]
+}
