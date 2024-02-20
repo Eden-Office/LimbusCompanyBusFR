@@ -18,7 +18,7 @@ Traduction française pour le jeu "Limbus Company"
 </div>
 
 # Installation
-### 0. 1. Téléchargez et installez [.NET 6.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-6.0.413-windows-x64-installer)
+### 0. Téléchargez et installez [.NET 6.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-6.0.413-windows-x64-installer)
 ### 1. Installez le framework mod
    - Téléchargez [BepInEx](https://builds.bepinex.dev/projects/bepinex_be/674/BepInEx-Unity.IL2CPP-win-x64-6.0.0-be.674%2B82077ec.zip) puis transférez le contenu de l'archive dans le dossier du jeu
 ### 3. Lancez le jeu jusqu'à l'écran d'accueil (l'écran avec le logo du jeu) puis fermez le jeu.
