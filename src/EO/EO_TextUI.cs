@@ -669,7 +669,7 @@ namespace LimbusCompanyFR
                 coming_soon.GetComponent<TextMeshProUGUI>().fontMaterial = LCB_French_Font.tmpfrenchfonts[1].material;
             }
         }
-        [HarmonyPatch(typeof(OtherStorySlot), nameof(OtherStorySlot.SetCallback))]
+        [HarmonyPatch(typeof(OtherStorySlot), nameof(OtherStorySlot.SetData_Event))]
         [HarmonyPostfix]
         private static void OSS_Init(OtherStorySlot __instance)
         {

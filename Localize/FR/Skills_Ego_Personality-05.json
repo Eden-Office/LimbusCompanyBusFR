@@ -1,0 +1,122 @@
+{
+  "dataList": [
+    {
+      "id": 2050511,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Regret",
+          "abName": "Meurtrier Abandonné",
+          "desc": "[BeforeAttack] Se retire 1 effet négatif aléatoire retirable",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de Tremblement ; inflige (Réson.-A de Colère /3) de Compte de Tremblement supplémentaire"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un Sursaut de Tremblement"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Regret",
+          "abName": "Meurtrier Abandonné",
+          "desc": "[BeforeAttack] Se retire 1 effet négatif aléatoire retirable",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de Tremblement ; inflige (Réson.-A de Colère /3) de Compte de Tremblement supplémentaire"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un Sursaut de Tremblement\nSi la cible ne possède pas de Seuil de Déséquilibre lors du Sursaut de Tremblement,\nInflige des Dégâts de Colère égaux à (6 + 2*(Réson.-A de Colère))% du Seuil de Déséquilibre élevé final"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Regret",
+          "abName": "Meurtrier Abandonné",
+          "desc": "[BeforeAttack] Se retire 2 effets négatifs aléatoires retirables",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de Tremblement ; inflige (Réson.-A de Colère /3) de Compte de Tremblement supplémentaire"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un Sursaut de Tremblement\nSi la cible ne possède pas de Seuil de Déséquilibre lors du Sursaut de Tremblement,\nInflige des Dégâts de Colère égaux à (12 + 3*(Réson.-A de Colère))% du Seuil de Déséquilibre élevé final"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050521,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Regret",
+          "abName": "Meurtrier Abandonné",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[BeforeAttack] Si cette unité a un effet de statut négatif, +1 de Poids d’Attaque",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un Sursaut de Tremblement.\nLa quantité de Seuil de Déséquilibre élevé par le Sursaut de Tremblement augmente de 30% des Tremblements sur la cible.\nRéduit de 1 le Compte de Tremblement"
+                },
+                {
+                  "desc": "[EndSkill] Gagne 3 de Ralentissement et 1 de Bonus de Puissance Contondante au prochain tour."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Regret",
+          "abName": "Meurtrier Abandonné",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[BeforeAttack] Si cette unité a un effet de statut négatif, +1 de Poids d’Attaque",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un Sursaut de Tremblement\nLa quantité de Seuil de Déséquilibre élevé par le Sursaut de Tremblement augmente de 40% des Tremblements sur la cible.\nSi la cible ne possède pas de Seuil de Déséquilibre lors du Sursaut de Tremblement,\nInflige des Dégâts de Colère égaux à (6 + 2*(Réson.-A de Colère))% du Seuil de Déséquilibre élevé final\nRéduit de 1 le Compte de Tremblement"
+                },
+                {
+                  "desc": "[EndSkill] Gagne 3 de Ralentissement et 1 de Bonus de Puissance Contondante au prochain tour."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Regret",
+          "abName": "Meurtrier Abandonné",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[BeforeAttack] Si cette unité a un effet de statut négatif, +2 de Poids d’Attaque",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un Sursaut de Tremblement\nAmount of Stagger Threshold raised by Tremor Burst increases by 50% of Tremor on target.\nSi la cible ne possède pas de Seuil de Déséquilibre lors du Sursaut de Tremblement,\nInflige des Dégâts de Colère égaux à (12 + 3*(Réson.-A de Colère))% du Seuil de Déséquilibre élevé final\nRéduit de 1 le Compte de Tremblement"
+                },
+                {
+                  "desc": "[EndSkill] Gagne 3 de Ralentissement et 1 de Bonus de Puissance Contondante au prochain tour."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

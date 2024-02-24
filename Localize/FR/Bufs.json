@@ -373,17 +373,17 @@
     {
       "id": "SlashResistUp",
       "name": "Bonus de Résistance au Tranchant",
-      "desc": ""
+      "desc": "Réduit la Résistance au Tranchant de 0.{0}"
     },
     {
       "id": "PenetrateResistUp",
       "name": "Bonus de Résistance au Perçant",
-      "desc": ""
+      "desc": "Réduit la Résistance au Perçant de 0.{0}"
     },
     {
       "id": "HitResistUp",
       "name": "Bonus de Résistance au Contondant",
-      "desc": ""
+      "desc": "Réduit la Résistance au Contondant de 0.{0}"
     },
     {
       "id": "SlashDamageUp",
@@ -406,17 +406,17 @@
     {
       "id": "SlashResistDown",
       "name": "Malus de Résistance au Tranchant",
-      "desc": "Réduit de 0.{0}% la Résistance au Tranchant"
+      "desc": "Augmente de 0.{0} la Résistance au Tranchant"
     },
     {
       "id": "PenetrateResistDown",
       "name": "Malus de Résistance au Perçant",
-      "desc": "Réduit de 0.{0}% la Résistance au Perçant"
+      "desc": "Augmente de 0.{0} la Résistance au Perçant"
     },
     {
       "id": "HitResistDown",
       "name": "Malus de Résistance au Contondant",
-      "desc": "Réduit de 0.{0}% la Résistance au Contondant"
+      "desc": "Augmente de 0.{0} la Résistance au Contondant"
     },
     {
       "id": "SlashDamageDown",
@@ -1732,6 +1732,36 @@
       "name": "Bonus de Puissance d’Orgueil",
       "desc": "Durant ce tour, +{0} de Puissance Finale de Capacités d’Orgueil.",
       "summary": "+{0} Puissance Finale de Capacités d’Orgueil"
+    },
+    {
+      "id": "BladeResultUpTier1",
+      "name": "Épée Patriote - Déchirement",
+      "desc": "Durant ce tour, +{0} de Puissance Finale de la Capacité 1.",
+      "summary": "+{0} de Puissance Finale de la Capacité 1"
+    },
+    {
+      "id": "BladeResultUpTier2",
+      "name": "Épée Patriote - Pénétration",
+      "desc": "Durant ce tour, +{0} de Puissance Finale de la Capacité 2.",
+      "summary": "+{0} de Puissance Finale de la Capacité 2"
+    },
+    {
+      "id": "SwordPlayOfTheHomeland",
+      "name": "Maniement de l’Épée Patriote",
+      "desc": "- Lorsqu’à 5+ de Calme, en utilisant une Capacité, les Capacités 1 et 2 gagnent +(3/# de Pièces, minimum 1) de Puissance de Pièce et infligent +(30/# de Pièces)% de dégâts en Coup Critique\n- Lorsqu’à 7+ de Calme, en utilisant une Capacité, la Capacité 3 inflige +(30/# de Pièces)% de dégâts supplémentaires et inflige +(50/# de Pièces)% de dégâts en Coup Critique",
+      "summary": "Améliore les Capacités lorsqu’au dessus d’un certain seuil de Calme"
+    },
+    {
+      "id": "SwordPlayOfTheMemorial",
+      "name": "Remembrance",
+      "desc": "Lorsqu’à 5+ de Calme, en utilisant une Capacité, les Capacités 1 et 2 gagnent +(3/# de Pièces, minimum 1) de Puissance de Pièce et infligent +(30/# de Pièces)% de dégâts en Coup Critique\nLorsqu’à 7+ de Calme, en utilisant une Capacité, la Capacité 3 inflige +(30/# de Pièces)% de dégâts supplémentaires et inflige +(50/# de Pièces)% de dégâts en Coup Critique",
+      "summary": "Améliore les Capacités lorsqu’au dessus d’un certain seuil de Calme"
+    },
+    {
+      "id": "RedApricotBlossom",
+      "name": "Fleur de Prune Rouge",
+      "desc": "- Saignement Unique\n- Valeur Max. : 10\n- +10% de chance pour cette unité d’être Critiquement Touché si cette unité est la cible principale\n- Lorsque touché par un Coup Critique, gagne du Saignement égal à la moitié de la valeur et subit +(valeur * 3)% de dégâts en Coup Critique\n- Réduit la valeur de 1 lorsque touché",
+      "summary": "Plus de chances d’être Critiquement Touché ; subit plus de dégâts de Coups Critiques"
     }
   ]
 }

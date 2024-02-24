@@ -154,7 +154,7 @@
     },
     {
       "id": "DefenseDown",
-      "name": "au Malus de NiveDéfensif",
+      "name": "Malus de Niveau Défensif",
       "desc": "Le Niveau Défensif diminue selon la Puissance de l’effet pendant un tour.",
       "summary": "Niveau Défensif -{0}"
     },
@@ -296,17 +296,17 @@
     {
       "id": "SlashResistUp",
       "name": "Bonus de Résistance au Tranchant",
-      "desc": "Augmente la résistance au Tranchant d’un % basé sur le Compte.\n(0.1% par Compte)"
+      "desc": "Réduit la résistance au Tranchant selon le Compte.\n(0.1 par Compte)"
     },
     {
       "id": "PenetrateResistUp",
       "name": "Bonus de Résistance au Perçant",
-      "desc": "Augmente la résistance au Perçant d’un % basé sur le Compte.\n(0.1% par Compte)"
+      "desc": "Réduit la résistance au Perçant selon le Compte.\n(0.1 par Compte)"
     },
     {
       "id": "HitResistUp",
       "name": "Bonus de Résistance au Contondant",
-      "desc": "Augmente la résistance au Contondant d’un % basé sur le Compte.\n(0.1% par Compte)"
+      "desc": "Réduit la résistance au Contondant selon le Compte.\n(0.1 par Compte)"
     },
     {
       "id": "SlashDamageUp",
@@ -326,17 +326,17 @@
     {
       "id": "SlashResistDown",
       "name": "Malus de Résistance au Tranchant",
-      "desc": "Réduit la résistance au Tranchant d’un % basé sur le Compte.\n(0.1% par Compte)"
+      "desc": "Augmente la résistance au Tranchant selon le Compte.\n(0.1 par Compte)"
     },
     {
       "id": "PenetrateResistDown",
       "name": "Malus de Résistance au Perçant",
-      "desc": "Réduit la résistance au Perçant d’un % basé sur le Compte.\n(0.1% par Compte)"
+      "desc": "Augmente la résistance au Perçant selon le Compte.\n(0.1 par Compte)"
     },
     {
       "id": "HitResistDown",
       "name": "Malus de Résistance au Contondant",
-      "desc": "Réduit la résistance au Contondant d’un % basé sur le Compte.\n(0.1% par Compte)"
+      "desc": "Augmente la résistance au Contondant selon le Compte.\n(0.1 par Compte)"
     },
     {
       "id": "SlashDamageDown",
@@ -496,7 +496,7 @@
     {
       "id": "Curse",
       "name": "Malédiction",
-      "desc": "Fin du Tour : Gagne l’un des effets suivant, puis réduit le Compte de cet effet 1.\n1de Malus d’Attaque/1 de Malus de Défense/2 de Malus de Niveau Offensif/2 de Malus de Niveau Défensif."
+      "desc": "Fin du Tour : Gagne l’un des effets suivant, puis réduit le Compte de cet effet 1.\n1 de Malus d’Attaque/1 de Malus de Défense/2 de Malus de Niveau Offensif/2 de Malus de Niveau Défensif."
     },
     {
       "id": "AttackDmgUp_Weak",
@@ -1334,7 +1334,33 @@
     {
       "id": "IndigoResultUp",
       "name": "Bonus de Puissance d’Orgueil",
-      "desc": "Les capacités d’Orgueil gagnent de la Puissance finale selon le Compte de l’effet penant un tour."
+      "desc": "Les capacités d’Orgueil gagnent de la Puissance finale selon le Compte de l’effet pendant un tour."
+    },
+    {
+      "id": "BladeResultUpTier1",
+      "name": "Épée Patriote - Déchirement",
+      "desc": "Durant ce tour, la Capacité 1 gagne de la Puissance Finale selon le Compte de l’effet."
+    },
+    {
+      "id": "BladeResultUpTier2",
+      "name": "Épée Patriote - Pénétration",
+      "desc": "Durant ce tour, la Capacité 2 gagne de la Puissance Finale selon le Compte de l’effet."
+    },
+    {
+      "id": "SwordPlayOfTheHomeland",
+      "name": "Maniement de l’Épée Patriote",
+      "desc": "- Lorsqu’à 5+ de Calme, en utilisant une Capacité, les Capacités 1 et 2 gagnent +(3/# de Pièces, minimum 1) de Puissance de Pièce et infligent +(30/# de Pièces)% de dégâts en Coup Critique\n- Lorsqu’à 7+ de Calme, en utilisant une Capacité, la Capacité 3 inflige +(30/# de Pièces)% de dégâts supplémentaires et inflige +(50/# de Pièces)% de dégâts en Coup Critique"
+    },
+    {
+      "id": "SwordPlayOfTheMemorial",
+      "name": "Commémoration",
+      "desc": "- Lorsqu’à 5+ de Calme, en utilisant une Capacité, les Capacités 1 et 2 gagnent +(3/# de Pièces, minimum 1) de Puissance de Pièce et infligent +(30/# de Pièces)% de dégâts en Coup Critique\n- Lorsqu’à 7+ de Calme, en utilisant une Capacité, la Capacité 3 inflige +(30/# de Pièces)% de dégâts supplémentaires et inflige +(50/# de Pièces)% de dégâts en Coup Critique"
+    },
+    {
+      "id": "RedApricotBlossom",
+      "name": "Fleur de Prune Rouge",
+      "desc": "- Saignement Unique\n- Valeur Max. : 10\n- +10% de chance pour cette unité d’être Critiquement Touché si cette unité est la cible principale\n- Lorsque touché par un Coup Critique, gagne du Saignement égal à la moitié de la valeur et subit +(valeur * 3)% de dégâts en Coup Critique\n- Réduit la valeur de 1 lorsque touché",
+      "summary": "Plus de chances d’être Critiquement Touché ; subit plus de dégâts de Coups Critiques"
     }
   ]
 }

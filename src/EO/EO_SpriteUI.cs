@@ -4,7 +4,6 @@ using BattleUI;
 using BattleUI.Typo;
 using MainUI;
 using MainUI.VendingMachine;
-using Dungeon.Map.UI;
 using Login;
 using UI;
 using static UI.Utility.InfoModels;
@@ -12,13 +11,10 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using StorySystem;
-using System.Collections;
-using System.Collections.Generic;
-using UtilityUI;
-using TMPro;
-using Dungeon;
-using BattleUI.BattleUnit;
 using Dungeon.Mirror;
+using BattleUI.BattleUnit;
+using MainUI.Gacha;
+using Dungeon.Shop;
 
 namespace LimbusCompanyFR
 {
@@ -95,37 +91,30 @@ namespace LimbusCompanyFR
             img_isParticipaged.GetComponentInChildren<Image>().sprite = EO_ReadmeManager.ReadmeSprites["EO_InParty"];
             __instance._newAcquiredRedDot.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_New"];
         }
-        [HarmonyPatch(typeof(FormationEgoSlot), nameof(FormationEgoSlot.SetData))]
-        [HarmonyPostfix]
-        private static void FormationEgoSlot_Init(FormationEgoSlot __instance)
-        {
-            __instance._redDot.GetComponentInChildren<Image>(true).overrideSprite = EO_ReadmeManager.ReadmeSprites["EO_New"];
-        }
+
         [HarmonyPatch(typeof(FormationSwitchablePersonalityUIPanel), nameof(FormationSwitchablePersonalityUIPanel.SetDataOpen))]
         [HarmonyPostfix]
-        private static void FormationSwitchablePersonalityUIPanel_Init(FormationSwitchablePersonalityUIPanel __instance)
+        private static void RedDot(FormationSwitchablePersonalityUIPanel __instance)
         {
-            Transform newPersonality = __instance.transform.Find("[Script]RightPanel/[Script]FormationEgoList/[Script]RedDot");
-            __instance._egoRedDot.GetComponentInChildren<Image>(true).overrideSprite = EO_ReadmeManager.ReadmeSprites["EO_New"];
-            __instance._personalityRedDot.GetComponentInChildren<Image>(true).overrideSprite = EO_ReadmeManager.ReadmeSprites["EO_New"];
-            if (newPersonality != null)
-                newPersonality.GetComponentInChildren<Image>(true).overrideSprite = EO_ReadmeManager.ReadmeSprites["EO_New"];
-        }
-        [HarmonyPatch(typeof(FormationSwitchableEgoUIScrollViewItem), nameof(FormationSwitchableEgoUIScrollViewItem.SetData))]
-        [HarmonyPostfix]
-        private static void RedDotAgain_Init(FormationSwitchableEgoUIScrollViewItem __instance)
-        {
-            __instance._newAcquiredRedDot.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_New"];
-        }
-        #endregion
+            __instance._egoRedDot.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_New"];
+            __instance._personalityRedDot.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_New"];
+            __instance._egoList._personalityRedDot.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_New"];
 
-        #region Dungeon Formation UI
-        [HarmonyPatch(typeof(FormationPersonalityUI), nameof(FormationPersonalityUI.SetData))]
-        [HarmonyPostfix]
-        private static void AnythingFormationPersonalityUI_Init(FormationPersonalityUI __instance)
-        {
-            __instance.img_isParticipaged.sprite = EO_ReadmeManager.ReadmeSprites["EO_InParty"];
-            __instance.img_support.sprite = EO_ReadmeManager.ReadmeSprites["EO_SupportTag"];
+            Transform zayin = __instance.transform.Find("[Script]RightPanel/[Script]FormationEgoList/[Layout]EgoList/[Script]FormationEgoSlot_Zayin/[Rect]Contents/[Script]RedDot");
+            Transform teth = __instance.transform.Find("[Script]RightPanel/[Script]FormationEgoList/[Layout]EgoList/[Script]FormationEgoSlot_Teth/[Rect]Contents/[Script]RedDot");
+            Transform he = __instance.transform.Find("[Script]RightPanel/[Script]FormationEgoList/[Layout]EgoList/[Script]FormationEgoSlot_He/[Rect]Contents/[Script]RedDot");
+            Transform waw = __instance.transform.Find("[Script]RightPanel/[Script]FormationEgoList/[Layout]EgoList/[Script]FormationEgoSlot_Waw/[Rect]Contents/[Script]RedDot");
+            Transform aleph = __instance.transform.Find("[Script]RightPanel/[Script]FormationEgoList/[Layout]EgoList/[Script]FormationEgoSlot_Aleph/[Rect]Contents/[Script]RedDot");
+            if (zayin != null)
+                zayin.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_New"];
+            if (teth != null)
+                teth.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_New"];
+            if (he != null)
+                he.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_New"];
+            if (waw != null)
+                waw.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_New"];
+            if (aleph != null)
+                aleph.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_New"];
         }
         #endregion
 
@@ -138,8 +127,7 @@ namespace LimbusCompanyFR
             Transform support_tag = __instance.transform.Find("[Script]RightPanel/[Script]FormationEgoList/[Image]SupportTag");
             if (support_tag != null)
                 support_tag.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_SupportTag"];
-        
-    }
+        }
         #endregion
 
         #region Mirror Dungeon
@@ -233,22 +221,11 @@ namespace LimbusCompanyFR
         [HarmonyPostfix]
         private static void AutoButton_Init(StoryManager __instance)
         {
-            GameObject autoButton = GameObject.Find("StoryManager/[Rect]NonPostProcessCanvas/[Rect]Buttons/[Rect]MenuObject/[Button]Auto");
-            GameObject autoButton_between = GameObject.Find("[Rect]Story/[Canvas]Story/[Rect]NonPostProcessCanvas/[Rect]Buttons/[Rect]MenuObject/[Button]Auto");
-            if (autoButton != null)
-            {
-                autoButton.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_AutoButton"];
-                autoButton.GetComponentInChildren<StoryUIButton>(true)._buttonImageList[0] = EO_ReadmeManager.ReadmeSprites["EO_AutoButton"];
-                autoButton.GetComponentInChildren<StoryUIButton>(true)._buttonImageList[1] = EO_ReadmeManager.ReadmeSprites["EO_AutoButton_Enabled"];
-                autoButton.GetComponentInChildren<StoryUIButton>(true)._buttonImageList[2] = EO_ReadmeManager.ReadmeSprites["EO_TextButton"];
-            }
-            if (autoButton_between != null)
-            {
-                autoButton_between.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_AutoButton"];
-                autoButton_between.GetComponentInChildren<StoryUIButton>(true)._buttonImageList[0] = EO_ReadmeManager.ReadmeSprites["EO_AutoButton"];
-                autoButton_between.GetComponentInChildren<StoryUIButton>(true)._buttonImageList[1] = EO_ReadmeManager.ReadmeSprites["EO_AutoButton_Enabled"];
-                autoButton_between.GetComponentInChildren<StoryUIButton>(true)._buttonImageList[2] = EO_ReadmeManager.ReadmeSprites["EO_TextButton"];
-            }
+            Transform autoButton = __instance._nonPostProcessRectTransform.transform.Find("[Rect]Buttons/[Rect]MenuObject/[Button]Auto");
+            autoButton.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_AutoButton"];
+            autoButton.GetComponentInChildren<StoryUIButton>(true)._buttonImageList[0] = EO_ReadmeManager.ReadmeSprites["EO_AutoButton"];
+            autoButton.GetComponentInChildren<StoryUIButton>(true)._buttonImageList[1] = EO_ReadmeManager.ReadmeSprites["EO_AutoButton_Enabled"];
+            autoButton.GetComponentInChildren<StoryUIButton>(true)._buttonImageList[2] = EO_ReadmeManager.ReadmeSprites["EO_TextButton"];
         }
         #endregion
 
@@ -275,6 +252,15 @@ namespace LimbusCompanyFR
                 __instance.img_ResultMark.overrideSprite = EO_ReadmeManager.ReadmeSprites["EO_Victory"];
             }
             __instance.img_exclear.overrideSprite = EO_ReadmeManager.ReadmeSprites["EO_EX"];
+        }
+        #endregion
+
+        #region GachaResult
+        [HarmonyPatch(typeof(GachaCardUI), nameof(GachaCardUI.OnDisable))]
+        [HarmonyPostfix]
+        private static void GachaCardUI_SetData(GachaCardUI __instance)
+        {
+            __instance.img_newMark.overrideSprite = EO_ReadmeManager.ReadmeSprites["EO_NewGacha"];
         }
         #endregion
     }

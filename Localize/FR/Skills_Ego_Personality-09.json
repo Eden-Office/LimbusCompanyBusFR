@@ -1,0 +1,264 @@
+{
+  "dataList": [
+    {
+      "id": 2090411,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Corrosion Effervescente",
+          "abName": "Perle Flânante",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de Tremblement"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 2 de Ralentissement au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Corrosion Effervescente",
+          "abName": "Perle Flânante",
+          "desc": "[BeforeAttack] Si la cible a 50%+ PV, +1 Poids d’Attaque",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de Tremblement et +5 de Compte de Tremblement"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 2 de Ralentissement au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Déclenche un Sursaut de Tremblement"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Corrosion Effervescente",
+          "abName": "Perle Flânante",
+          "desc": "[BeforeAttack] Si la cible a 50%+ PV, +1 Poids d’Attaque ;\nSi la cible principale a 75%+ PV, +1 Poids d’Attaque supplémentaire",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de Tremblement et +7 de Compte de Tremblement"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 2 de Ralentissement au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un Sursaut de Tremblement"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090421,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Corrosion Effervescente",
+          "abName": "Perle Flânante",
+          "desc": "[CantIdentify]\nCible aléatoirement",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se soigne de 30% des dégâts infligés"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un Sursaut de Tremblement"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Corrosion Effervescente",
+          "abName": "Perle Flânante",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[BeforeAttack] Si la cible a 50%+ PV, +1 Poids d’Attaque",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se soigne de 30% des dégâts infligés"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de Malus de Niveau Défensif"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un Sursaut de Tremblement"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Corrosion Effervescente",
+          "abName": "Perle Flânante",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[BeforeAttack] Si la cible a 50%+ PV, +1 Poids d’Attaque ;\nSi la cible principale a 75%+ PV, +1 Poids d’Attaque supplémentaire",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se soigne de 30% des dégâts infligés"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 de Malus de Niveau Défensif"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un Sursaut de Tremblement"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090511,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Poursuite",
+          "abName": "Scribe de l’Exécuteur Divin",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 de Vulnérabilité de Paresse au prochain tour"
+                },
+                {
+                  "desc": "[EndSkill] Soigne 2 autres alliés avec le moins de pourcentage de PV de 15% des PV Max. de cette unité"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Poursuite",
+          "abName": "Scribe de l’Exécuteur Divin",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 de Vulnérabilité de Paresse au prochain tour"
+                },
+                {
+                  "desc": "[EndSkill] Soigne 2 autres alliés avec le moins de pourcentage de PV de 25% des PV Max. de cette unité"
+                },
+                {
+                  "desc": "[EndSkillHead] Si la cible est Déséquilibrée ou vaincue, applique 10% de PV Max. de cette unité en Bouclier que cette unité a soigné"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Poursuite",
+          "abName": "Scribe de l’Exécuteur Divin",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de Vulnérabilité de Paresse au prochain tour"
+                },
+                {
+                  "desc": "[EndSkill] Soigne 2 autres alliés avec le moins de pourcentage de PV de 30% des PV Max. de cette unité"
+                },
+                {
+                  "desc": "[EndSkillHead] Si la cible est Déséquilibrée ou vaincue, applique 15% de PV Max. de cette unité en Bouclier que cette unité a soigné"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090521,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Poursuite",
+          "abName": "Scribe de l’Exécuteur Divin",
+          "desc": "[CantIdentify]\nCible aléatoirement",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un Sursaut de Tremblement"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 15 dégâts de PSM"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Poursuite",
+          "abName": "Scribe de l’Exécuteur Divin",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[BeforeAttack] À 50%- de PV, +1 de Poids d’Attaque",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un Sursaut de Tremblement"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 20 dégâts de PSM"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Si la cible est Déséquilibrée ou vaincue, se soigne de 5 PSM"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Poursuite",
+          "abName": "Scribe de l’Exécuteur Divin",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[BeforeAttack] À 50%- de PV, +2 de Poids d’Attaque",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un Sursaut de Tremblement"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 20 dégâts de PSM"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible est Déséquilibrée ou vaincue, se soigne de 7 PSM"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
