@@ -12,13 +12,13 @@ Traduction française pour le jeu "Limbus Company"
    
 [Nos Amis](https://github.com/LocalizeLimbusCompany/LocalizeLimbusCompany)
    
-[![Téléchargements totaux](https://img.shields.io/github/downloads/TheRedPacman83/LimbusCompanyBusFR/total?label=%D0%92%D1%81%D0%B5%D0%B3%D0%BE%20%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BE%D0%BA&color=%23707489)](../../releases)
+[![Téléchargements totaux](https://img.shields.io/github/downloads/Eden-Office/LimbusCompanyBusFR/total?label=T%C3%A9l%C3%A9chargements%20Totaux)](../../releases)
 [![Discord](https://img.shields.io/discord/884713391753666630)](https://discord.gg/kcQv8CrKG8)
-[![Version](https://img.shields.io/github/v/release/TheRedPacman83/LimbusCompanyBusFR?label=%D0%9F%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D1%8F%D1%8F%20%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F&labelColor=%23707489&color=%23484f58)](../../releases/latest)
+[![Version](https://img.shields.io/github/v/release/Eden-Office/LimbusCompanyBusFR?sort=date&label=Version)](../../releases/latest)
 </div>
 
 # Installation
-### 0. 1. Téléchargez et installez [.NET 6.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-6.0.413-windows-x64-installer)
+### 0. Téléchargez et installez [.NET 6.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-6.0.413-windows-x64-installer)
 ### 1. Installez le framework mod
    - Téléchargez [BepInEx](https://builds.bepinex.dev/projects/bepinex_be/674/BepInEx-Unity.IL2CPP-win-x64-6.0.0-be.674%2B82077ec.zip) puis transférez le contenu de l'archive dans le dossier du jeu
 ### 3. Lancez le jeu jusqu'à l'écran d'accueil (l'écran avec le logo du jeu) puis fermez le jeu.
