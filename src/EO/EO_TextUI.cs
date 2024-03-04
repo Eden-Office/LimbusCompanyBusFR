@@ -87,29 +87,52 @@ namespace LimbusCompanyFR
         [HarmonyPostfix]
         private static void StageUIPresenter_Init(StageUIPresenter __instance)
         {
+            Color velvet_red = new Color(1.0f, 0.339f, 0.339f, 0.2f);
+            Color reddish = new Color(0.686f, 0.003f, 0.003f, 1.0f);
             Transform district4 = __instance.transform.Find("[Rect]Active/[Script]PartAndChapterSelectionUIPanel/[Rect]Active/[Rect]Right/[Rect]Pivot/[Rect]StoryMap/[Mask]StoryMap/[Rect]ZoomPivot/[Image]MapBG/[Script]D_4/[Rect]TextData/[Tmpro]Area");
             Transform district10 = __instance.transform.Find("[Rect]Active/[Script]PartAndChapterSelectionUIPanel/[Rect]Active/[Rect]Right/[Rect]Pivot/[Rect]StoryMap/[Mask]StoryMap/[Rect]ZoomPivot/[Image]MapBG/[Script]J_10/[Rect]TextData/[Tmpro]Area");
             Transform district11 = __instance.transform.Find("[Rect]Active/[Script]PartAndChapterSelectionUIPanel/[Rect]Active/[Rect]Right/[Rect]Pivot/[Rect]StoryMap/[Mask]StoryMap/[Rect]ZoomPivot/[Image]MapBG/[Script]K_11/[Rect]TextData/[Tmpro]Area");
             Transform district21 = __instance.transform.Find("[Rect]Active/[Script]PartAndChapterSelectionUIPanel/[Rect]Active/[Rect]Right/[Rect]Pivot/[Rect]StoryMap/[Mask]StoryMap/[Rect]ZoomPivot/[Image]MapBG/[Script]U_21/[Rect]TextData/[Tmpro]Area");
+            Transform district20 = __instance.transform.Find("[Rect]Active/[Script]PartAndChapterSelectionUIPanel/[Rect]Active/[Rect]Right/[Rect]Pivot/[Rect]StoryMap/[Mask]StoryMap/[Rect]ZoomPivot/[Image]MapBG/[Script]T_20/[Rect]TextData/[Tmpro]Area");
             if (district4 != null)
             {
                 district4.GetComponentInChildren<TextMeshProUGUI>(true).text = "District 4";
+                district4.GetComponentInChildren<TextMeshProUGUI>(true).color = reddish;
                 district4.GetComponentInChildren<TextMeshProUGUI>(true).font = LCB_French_Font.tmpfrenchfonts[0];
+                district4.GetComponentInChildren<TextMeshProUGUI>(true).m_sharedMaterial = LCB_French_Font.GetFrenchMats(1);
+                district4.GetComponentInChildren<TextMeshProUGUI>(true).fontMaterial.SetColor("_GlowColor", velvet_red);
             }
             if (district10 != null)
             {
                 district10.GetComponentInChildren<TextMeshProUGUI>(true).text = "District 10";
+                district10.GetComponentInChildren<TextMeshProUGUI>(true).color = reddish;
                 district10.GetComponentInChildren<TextMeshProUGUI>(true).font = LCB_French_Font.tmpfrenchfonts[0];
+                district10.GetComponentInChildren<TextMeshProUGUI>(true).m_sharedMaterial = LCB_French_Font.GetFrenchMats(1);
+                district10.GetComponentInChildren<TextMeshProUGUI>(true).fontMaterial.SetColor("_GlowColor", velvet_red);
             }
             if (district11 != null)
             {
                 district11.GetComponentInChildren<TextMeshProUGUI>(true).text = "District 11";
+                district11.GetComponentInChildren<TextMeshProUGUI>(true).color = reddish;
                 district11.GetComponentInChildren<TextMeshProUGUI>(true).font = LCB_French_Font.tmpfrenchfonts[0];
+                district11.GetComponentInChildren<TextMeshProUGUI>(true).m_sharedMaterial = LCB_French_Font.GetFrenchMats(1);
+                district11.GetComponentInChildren<TextMeshProUGUI>(true).fontMaterial.SetColor("_GlowColor", velvet_red);
             }
             if (district21 != null)
             {
                 district21.GetComponentInChildren<TextMeshProUGUI>(true).text = "District 21";
+                district21.GetComponentInChildren<TextMeshProUGUI>(true).color = reddish;
                 district21.GetComponentInChildren<TextMeshProUGUI>(true).font = LCB_French_Font.tmpfrenchfonts[0];
+                district21.GetComponentInChildren<TextMeshProUGUI>(true).m_sharedMaterial = LCB_French_Font.GetFrenchMats(1);
+                district21.GetComponentInChildren<TextMeshProUGUI>(true).fontMaterial.SetColor("_GlowColor", velvet_red);
+            }
+            if (district20 != null)
+            {
+                district20.GetComponentInChildren<TextMeshProUGUI>(true).text = "District 20";
+                district20.GetComponentInChildren<TextMeshProUGUI>(true).color = reddish;
+                district20.GetComponentInChildren<TextMeshProUGUI>(true).font = LCB_French_Font.tmpfrenchfonts[0];
+                district20.GetComponentInChildren<TextMeshProUGUI>(true).m_sharedMaterial = LCB_French_Font.GetFrenchMats(1);
+                district20.GetComponentInChildren<TextMeshProUGUI>(true).fontMaterial.SetColor("_GlowColor", velvet_red);
             }
         }
         [HarmonyPatch(typeof(StageInfoUI), nameof(StageInfoUI.SetDataOpen))]
@@ -648,7 +671,7 @@ namespace LimbusCompanyFR
             GameObject episode = GameObject.Find("[Canvas]RatioMainUI/[Rect]PanelRoot/[UIPanel]StoryUIPanel(Clone)/[Rect]MainStoryUI/[Rect]MainStory/Scroll View/Viewport/Content/[Rect]MainStorySlot(Clone)/[Rect]Panel/[Rect]Title/[Text]Chapter");
             if (episode != null)
             {
-                episode.GetComponentInChildren<TextMeshProUGUI>(true).name = "Épisode";
+                episode.GetComponentInChildren<TextMeshProUGUI>(true).name = "Episodes";
                 episode.GetComponentInChildren<TextMeshProUGUI>(true).text = "Épisode";
                 episode.GetComponentInChildren<TextMeshProUGUI>(true).font = LCB_French_Font.tmpfrenchfonts[1];
                 episode.GetComponentInChildren<TextMeshProUGUI>(true).fontMaterial = LCB_French_Font.tmpfrenchfonts[1].material;
@@ -667,6 +690,13 @@ namespace LimbusCompanyFR
                 coming_soon.GetComponent<TextMeshProUGUI>().text = "Prochainement";
                 coming_soon.GetComponent<TextMeshProUGUI>().font = LCB_French_Font.tmpfrenchfonts[1];
                 coming_soon.GetComponent<TextMeshProUGUI>().fontMaterial = LCB_French_Font.tmpfrenchfonts[1].material;
+            }
+            Transform episode = __instance.transform.Find("[Button]OtherStorySlot/[Rect]UnLockObject/[Text]EPISODE");
+            if (episode != null)
+            {
+                episode.GetComponentInChildren<TextMeshProUGUI>(true).text = "Épisode";
+                episode.GetComponentInChildren<TextMeshProUGUI>(true).font = LCB_French_Font.tmpfrenchfonts[1];
+                episode.GetComponentInChildren<TextMeshProUGUI>(true).fontMaterial = LCB_French_Font.tmpfrenchfonts[1].material;
             }
         }
         [HarmonyPatch(typeof(OtherStorySlot), nameof(OtherStorySlot.SetData_Event))]

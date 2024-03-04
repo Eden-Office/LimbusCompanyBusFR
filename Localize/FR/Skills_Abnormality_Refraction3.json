@@ -1,0 +1,656 @@
+{
+  "dataList": [
+    {
+      "id": 857801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Plantation de Gossypium",
+          "desc": "[WhenUse] Inflige 3 de [MRcAfBa]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Laceration] et +1 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 857802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Plantation de Blessure",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 4 de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 857803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Racines Drainantes",
+          "desc": "[CantDuel]\nParmi les cibles avec [MRcAfBa], attaque l’unité avec la plus basse Vitesse ;\nInflige ([MRcAfBa] * 10)% de dégâts supplémentaires",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se soigne de ([MRcAfBa] x 5)% des dégâts infligés"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se soigne de ([MRcAfBa] x 5)% des dégâts infligés"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 857804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Gossypium Florissant",
+          "desc": " Attaque la cible avec le plus de [Laceration]\n[WhenUse] Si la cible principale est la cible avec le plus de [Laceration], +5 de Puissance de Base, inflige le double d’effets",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Binding] et 2 de [ScarletTakeDamageUp] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 8 de [Laceration] et +4 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 857805,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Dispersion de Gossypium",
+          "desc": "Parmi les cibles avec [MRcAfBa], attaque l’unité avec le moins de PV\n[WhenUse] Si la cible principale est la cible avec le plus de [Laceration], +5 de Puissance de Base\n[EndBattle] L’état [MRcAfBb] expire au prochain tour.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 de [Laceration] et +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 de [Laceration] et +2 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 857806,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vent Dispersif",
+          "desc": "[OnSucceedEvade] Inflige 3 de [Laceration] et +1 de Compte de [Laceration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 857807,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Gossypium Empiétant",
+          "desc": "[CantDuel]\nPriorise l’unité avec la Vitesse la plus basse\nLes dégâts infligés par cette Capacite d’Attaque sont fixés à 0.\n[StartBattle] Entre dans l’état [MRcAfBb] au prochain tour.",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [MRcAfBa]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 857808,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Dispersion de Gossypium Rougi",
+          "desc": "Priorise l’unité avec le plus de [Laceration]\n[WhenUse] Si la cible principale est la cible avec le plus de [Laceration], +10 de Puissance de Base\nSi la cible a 10+ de [Laceration], inflige +50% de dégâts supplémentaires",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 de [Laceration] et +4 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Regagne autant de PV que de [Laceration] sur la cible"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 de [Laceration] et +4 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Regagne autant de PV que de [Laceration] sur la cible"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 857701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Coup de Flamme",
+          "desc": "[WhenUse] Gagne 1 de [MRcAiBa]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 3 [Combustion] and +2 [Combustion] Count"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 857702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ailes de Floraison Ardante",
+          "desc": "[WhenUse] Gagne 1 de [MRcAiBa]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [CrimsonResistDown] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 857703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Étincelle",
+          "desc": "[WinDuel] Inflige de la [Combustion] égale à la [Combustion] de la cible.\n[WhenUse] Inflige +2 de Compte de [Combustion].",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 3+ de [MRcAiBb], inflige +2 de Compte de [Combustion], 10 de [Combustion] et 2 de [MRcAiBc]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 6 de [Combustion] et +4 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [CrimsonResistDown] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 857704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Explosion de Poussière",
+          "desc": "[WhenUse] Si la cible a 7+ de [Combustion], cette Capacité gagne +2 de Puissance de Duel",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige du Compte de [Combustion] égal au nombre de Capacités d’Affinité de Colère que la Mite de Floraison Ardante utilisera ce tour"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Contre l’ennemi avec la Vitesse la plus basse, inflige du Compte de [Combustion] égal au nombre de Capacités d’Affinité de Colère que la Mite de Floraison Ardante utilisera ce tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige de la [Combustion] égale au nombre de Capacités d’Affinité de Colère que la Mite de Floraison Ardante utilisera ce tour"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Contre l’ennemi avec la Vitesse la plus basse, inflige de la [Combustion] égale au nombre de Capacités d’Affinité de Colère que la Mite de Floraison Ardante utilisera ce tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 857705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Étoile de Floraison Ardante",
+          "desc": "Gagne de la  Puissance de Duel égale à (# de Capacités d’Affinité de Colère que la Mite de Floraison Ardante utilisera ce tour * 2)\n[WhenUse] Inflige (# de Capacités d’Affinité de Colère que la Mite de Floraison Ardante utilisera ce tour x2) de [Combustion] à tous les ennemis",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige de la [Combustion] égale au nombre de Capacités d’Affinité de Colère que la Mite de Floraison Ardante utilisera ce tour"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Contre l’ennemi avec la Vitesse la plus basse, inflige de la [Combustion] et du Compte de [Combustion] égaux au nombre de Capacités d’Affinité de Colère que la Mite de Floraison Ardante utilisera ce tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige de la [Combustion] égale au nombre de Capacités d’Affinité de Colère que la Mite de Floraison Ardante utilisera ce tour"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Contre l’ennemi avec la Vitesse la plus basse, inflige de la [Combustion] et du Compte de [Combustion] égaux au nombre de Capacités d’Affinité de Colère que la Mite de Floraison Ardante utilisera ce tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Augmente de 10% des dégâts infligés le Seuil de Déséquilibre"
+                },
+                {
+                  "desc": "[EndSkill] Inflige 10 de [Combustion] contre les cibles ayant été Déséquilibrées par cette Attaque."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 857706,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Esquive",
+          "desc": "[WhenUse] Inflige 4 de [Combustion].\n[OnSucceedEvade] Gagne 1 de [MRcAiBa] au prochain tour.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 857712,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Attiser les Flammes",
+          "desc": "[CantDuel]\n[CantChangeTarget]\nLes dégâts infligés par cette Capacité d’Attaque sont fixés à 0.",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [MRcAiBb] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 858501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Il Pénétrera",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 858502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Il Sera Insidieux",
+          "desc": "[WinDuel] Double la [Vulnerable] et le [Binding] infligés par les effets de Pièce.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 de [Laceration] et +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 de [Vulnerable] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 de [Binding] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 858503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Il Agrippera",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [AttackDown] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 3 de [DefenseDown] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [AttackDmgDown] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne 1 de [AttackDmgUp] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 858504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Il Comprimera",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [MRcAmBb]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de [AttackDmgUp] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [MRcAmBb]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de [AttackDmgUp] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 858505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Il Évitera",
+          "desc": "Si une unité avec 'Agrippage' est vivante, +5 de Puissance Finale",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 8 de [Laceration] et +3 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 10 dégâts de PSM"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Augmente de 20 le Seuil de Déséquilibre"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 858506,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Et il Méprisera Tous",
+          "desc": "Si une unité avec 'Agrippage' est vivante, +5 de Puissance Finale\n[EndBattle] Retire [MRcAmBc] à tous les ennemis",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 10 de [Laceration] et +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 8 de [Laceration] et +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 15 dégâts de PSM"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Augmente de 30 le Seuil de Déséquilibre"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 858507,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Esquive",
+          "desc": "[OnSucceedEvade] Inflige 4 dégâts de PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 857101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "6:5",
+          "desc": "[CantDuel][CantChangeTarget]\nSubit des dégâts à la place de la cible. Devient déséquilibré au prochain tour.\nInflige Marqué à un ennemi aléatoire sans [AaCePcBa].\n[EndBattle] Toutes les Bougies regagnent tous leurs PV",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Les PV Max de cette unité diminuent de 5%."
+                },
+                {
+                  "desc": "[OnSucceedAttack] S’inflige 10 de Brûlure"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Les PV Max de cette unité diminuent de 5%."
+                },
+                {
+                  "desc": "[OnSucceedAttack] S’inflige 10 de Brûlure"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 857102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ne Méprise Pas la Prophétie",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 de [Combustion] et +2 de Compte de [Combustion] à la cible"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se soigne de 20 PV"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 858201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lividification Insidieuse",
+          "desc": "[StartBattle] Gagne 10% des PV Max. en Bouclier. Pour chaque Ego de Queequeg, gagne 0.3% de PV Max. supplémentaires en Bouclier supplémentaire.\nLorsqu’attaqué lorsque protégé, l’attaquant perd 5 PSM\nLorsqu’attaqué, utilise cette Capacité une fois pour tous les 10 d’Ego de Queequeg",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de Saignement"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de Saignement"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

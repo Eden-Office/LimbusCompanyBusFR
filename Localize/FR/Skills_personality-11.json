@@ -1,0 +1,634 @@
+{
+  "dataList": [
+    {
+      "id": 1110501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Attendez !",
+          "desc": "Si cette Capacité est Défaussée, gagne +3 de Compte de Tremblement",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Réduit le Seuil de Déséquilibre de l’utilisateur pour chaque Compte de Tremblement sur soi (10 Max) "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Attendez !",
+          "desc": "Si cette Capacité est Défaussée, gagne +4 de Compte de Tremblement\n[WhenUse] Gagne +2 de Compte de Tremblement\nÀ 6+ de Compte de Tremblement, gagne +1 de Puissance Finale",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Réduit le Seuil de Déséquilibre de l’utilisateur pour chaque Compte de Tremblement sur soi (10 Max) "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Attendez !",
+          "desc": "Si cette Capacité est Défaussée, gagne +4 de Compte de Tremblement\n[WhenUse] Gagne +2 de Compte de Tremblement\nÀ 6+ de Compte de Tremblement, gagne +2 de Puissance Finale",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Réduit le Seuil de Déséquilibre de l’utilisateur pour chaque Compte de Tremblement sur soi (10 Max) "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1110502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tranche",
+          "desc": "[WhenUse] Défausse la Capacité du rang inférieur dans tous les Emplacements de Capacité de cette unité",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 de Tremblement"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 de Tremblement"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] À 6+ de Compte de Tremblement, déclenche un Sursaut de Tremblement. Réduit le Compte de Tremblement de la cible de 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Tranche",
+          "desc": "Si cette Capacité est Défaussée, gagne 1 de Bonus de Niveau Offensif\n[WhenUse] Défausse la Capacité du rang inférieur dans tous les Emplacements de Capacité de cette unité",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de Tremblement"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de Tremblement"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] À 6+ de Compte de Tremblement, déclenche un Sursaut de Tremblement. Réduit le Compte de Tremblement de la cible de 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Tranche",
+          "desc": "Si cette Capacité est Défaussée, gagne 1 de Bonus de Niveau Offensif\n[WhenUse] Défausse la Capacité du rang inférieur dans tous les Emplacements de Capacité de cette unité",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de Tremblement"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de Tremblement"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] À 6+ de Compte de Tremblement, déclenche un Sursaut de Tremblement. Réduit le Compte de Tremblement de la cible de 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1110503,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Décision Audacieuse",
+          "desc": "[WhenUse] Défausse les Capacités de cette unité par ordre descendant de rang dans tous les Emplacements de Capacité\nDépense 10 de Compte de Tremblement pour gagner +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 de Tremblement"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cette Capacité a dépensé du Compte de Tremblement, inflige +3 de Compte de Tremblement"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Déclenche un Sursaut de Tremblement ; après le Sursaut de Tremblement, réduit le Compte de Tremblement de la cible de 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Déclenche un Sursaut de Tremblement ; après le Sursaut de Tremblement, réduit le Compte de Tremblement de la cible de 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Déclenche un Sursaut de Tremblement ; après le Sursaut de Tremblement, réduit le Compte de Tremblement de la cible de 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Décision Audacieuse",
+          "desc": "[WhenUse] Défausse les Capacités de cette unité par ordre descendant de rang dans tous les Emplacements de Capacité\nDépense 10 de Compte de Tremblement pour gagner +2 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 de Tremblement"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cette Capacité a dépensé du Compte de Tremblement, inflige +3 de Compte de Tremblement"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un Sursaut de Tremblement ; après le Sursaut de Tremblement, réduit le Compte de Tremblement de la cible de 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un Sursaut de Tremblement ; après le Sursaut de Tremblement, réduit le Compte de Tremblement de la cible de 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un Sursaut de Tremblement ; après le Sursaut de Tremblement, réduit le Compte de Tremblement de la cible de 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1110504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Remède Anti Gueule de Bois",
+          "desc": "[WhenUse] Défausse la Capacité du rang inférieur dans tous les Emplacements de Capacité de cette unité",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Remède Anti Gueule de Bois",
+          "desc": "[WhenUse] Défausse la Capacité du rang inférieur dans tous les Emplacements de Capacité de cette unité",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1110601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Marche",
+          "desc": "[WhenUse] Gagne 2 de [Agility] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne +1 de Compte de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne +1 de Compte de [Breath]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Marche",
+          "desc": "[WhenUse] Gagne 2 de [Agility] au prochain tour\n[WhenUse] Cet emplacement gagne 1 d’Aggro au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Breath]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Marche",
+          "desc": "[WhenUse] Gagne 2 de [Agility] au prochain tour\n[WhenUse] Cet Emplacement de Capacité gagne 3 d’Aggro au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Breath]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1110602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Punition",
+          "desc": "[WhenUse] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Binding] au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Punition",
+          "desc": "Si la Vitesse de cette unité est supérieure à celle de la cible, +1 de Puissance de Pièce\n[WhenUse] Gagne +2 de Compte de [Breath]\n[WhenUse] Cet Emplacement de Capacité gagne 2 d’Aggro au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Binding] au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Punition",
+          "desc": "Si la Vitesse de cette unité est supérieure à celle de la cible, +2 de Puissance de Pièce\n[WhenUse] Gagne +2 de Compte de [Breath]\n[WhenUse] Cet Emplacement de Capacité gagne 4 d’Aggro au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Binding] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1110603,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Balestra",
+          "desc": "À 7+ de [Breath], +2 de Puissance Finale\n[WinDuel] Gagne du Calme selon le Compte de Calme (10 Max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige [DuelDeclaration_Outis]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Applique 1 de Vitesse à 2 alliés avec la Vitesse la plus basse au prochain tour"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] +50% de Dégâts en Coup Critique"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Balestra",
+          "desc": "À 7+ de [Breath], +4 de Puissance Finale\n[WinDuel] Gagne du Calme selon le Compte de Calme (10 Max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige [DuelDeclaration_Outis]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Applique 2 de Vitesse à 2 alliés avec la Vitesse la plus basse au prochain tour"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] +70% de Dégâts en Coup Critique"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1110604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Retraite",
+          "desc": "Si la Vitesse de cette unité est supérieure à celle de la cible, +1 de Puissance de Pièce\n[OnSucceedEvade] Gagne 1 de [Breath] (5 Max)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Retraite",
+          "desc": "Si la Vitesse de cette unité est supérieure à celle de la cible, +1 de Puissance de Pièce pour chaque différence de Vitesse (+1 de Puissance de Pièce par 1 de différence de Vitesse ; 3 Max)\n[OnSucceedEvade] Gagne 1 de [Breath] (10 Max)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1110701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Mise à Feu",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 de [DarkFlame] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige de la [Combustion] égale aux [DarkFlame] de la cible"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Mise à Feu",
+          "desc": "+1 de Puissance de Pièce pour chaque 3 de [Combustion] sur la cible (2 Max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 de [DarkFlame] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige de la [Combustion] égale aux [DarkFlame] de la cible"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Mise à Feu",
+          "desc": "+1 de Puissance de Pièce pour chaque 3 de [Combustion] sur la cible (3 Max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [DarkFlame] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige de la [Combustion] égale aux [DarkFlame] de la cible"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1110702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Déclenchement de Balle Magique",
+          "desc": "Si la cible a 6+ de [Combustion], +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] À moins de 4 de [FreischutzShotCount], gagne 1 de [FreischutzShotCount] ; puis, inflige de la [DarkFlame] égale à [FreischutzShotCount] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige de la [Combustion] égale aux [DarkFlame] de la cible"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Déclenchement de Balle Magique",
+          "desc": "+1 de Puissance de Pièce pour chaque 6 de [Combustion] sur la cible (2 Max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] À moins de 4 de [FreischutzShotCount], gagne 1 de [FreischutzShotCount] ; puis, inflige de la [DarkFlame] égale à [FreischutzShotCount] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige de la [Combustion] égale aux [DarkFlame] de la cible"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Déclenchement de Balle Magique",
+          "desc": "+1 de Puissance de Pièce pour chaque 6 de [Combustion] sur la cible (3 Max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] À moins de 4 de [FreischutzShotCount], gagne 1 de [FreischutzShotCount] ; puis, inflige de la [DarkFlame] égale à [FreischutzShotCount] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige de la [Combustion] égale aux [DarkFlame] de la cible"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1110703,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Tir de Balle Magique",
+          "desc": "Inflige +0.5% de dégâts pour chaque [Combustion] sur la cible (15% Max)\n\n[BeforeAttack] Gagne 1 de [FreischutzShotCount]\n- Perd (([FreischutzShotCount] - 1)*5) PSM\n- Le Poids d’Atq est égal à la valeur de [FreischutzShotCount]\n- À 10 de PSM ou moins, 50% de chance d’attaquer sans distinction\n\n[EndSkill] Si à 7 de [FreischutzShotCount], remet à 0 (Compte comme utiliser la dernière Munition)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige de la [DarkFlame] égale à [FreischutzShotCount] au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Tir de Balle Magique",
+          "desc": "<style=\"highlight\">Inflige +1% de dégâts pour chaque [Combustion] sur la cible (30% Max)</style>\n\n[BeforeAttack] Gagne 1 de [FreischutzShotCount]\n- Perd (([FreischutzShotCount] - 1)*5) PSM\n- Le Poids d’Atq est égal à la valeur de [FreischutzShotCount]\n- À 10 de PSM ou moins, 50% de chance d’attaquer sans distinction\n\n[EndSkill] Si à 7 de [FreischutzShotCount], remet à 0 (Compte comme utiliser la dernière Munition)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige de la [DarkFlame] égale à [FreischutzShotCount] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1110704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "The Price of a Bullet",
+          "desc": "[WhenUse] Gagne 1 de [FreischutzShotCount] (Une fois par tour)\n[EndSkillAll] Perd [FreischutzShotCount] de PSM",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "The Price of a Bullet",
+          "desc": "[WhenUse] Gagne 1 de [FreischutzShotCount] (Une fois par tour)\n[WhenUse] Gagne ([FreischutzShotCount] * 2) de Puissance Finale\n[EndSkillAll] Perd [FreischutzShotCount] de PSM",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    }
+  ]
+}

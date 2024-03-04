@@ -75,7 +75,7 @@ namespace LimbusCompanyFR
         #endregion
 
         #region Formation UI
-        [HarmonyPatch(typeof(FormationPersonalityUI), nameof(FormationPersonalityUI.SetData))]
+        [HarmonyPatch(typeof(FormationPersonalityUI), nameof(FormationPersonalityUI.Initialize))]
         [HarmonyPostfix]
         private static void FormationPersonalityUI_Init(FormationPersonalityUI __instance)
         {
@@ -83,38 +83,41 @@ namespace LimbusCompanyFR
             __instance.img_support.sprite = EO_ReadmeManager.ReadmeSprites["EO_SupportTag"];
             __instance._redDot.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_New"];
         }
-        [HarmonyPatch(typeof(FormationSwitchablePersonalityUIScrollViewItem), nameof(FormationSwitchablePersonalityUIScrollViewItem.SetData))]
+        [HarmonyPatch(typeof(FormationSwitchablePersonalityUIScrollViewItem), nameof(FormationSwitchablePersonalityUIScrollViewItem.Initialize))]
         [HarmonyPostfix]
         private static void FormationSwitchablePersonalityUIScrollViewItem_Init(FormationSwitchablePersonalityUIScrollViewItem __instance)
         {
             Transform img_isParticipaged = __instance._participatedObject.transform.parent.parent.parent.Find("[Image]ParticipateSlotUI");
-            img_isParticipaged.GetComponentInChildren<Image>().sprite = EO_ReadmeManager.ReadmeSprites["EO_InParty"];
+            img_isParticipaged.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_InParty"];
             __instance._newAcquiredRedDot.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_New"];
         }
-
+        [HarmonyPatch(typeof(FormationSwitchableSupporterPersonalityUIScrollViewItem), nameof(FormationSwitchableSupporterPersonalityUIScrollViewItem.SetData))]
+        [HarmonyPostfix]
+        private static void YobenBoben(FormationSwitchableSupporterPersonalityUIScrollViewItem __instance)
+        {
+            __instance._selectedFrame.sprite = EO_ReadmeManager.ReadmeSprites["EO_InParty"];
+        }
+        [HarmonyPatch(typeof(FormationEgoSlot), nameof(FormationEgoSlot.SetData))]
+        [HarmonyPostfix]
+        private static void FormationEgoSlot_Init(FormationEgoSlot __instance)
+        {
+            __instance._redDot.GetComponentInChildren<Image>(true).overrideSprite = EO_ReadmeManager.ReadmeSprites["EO_New"];
+        }
         [HarmonyPatch(typeof(FormationSwitchablePersonalityUIPanel), nameof(FormationSwitchablePersonalityUIPanel.SetDataOpen))]
         [HarmonyPostfix]
-        private static void RedDot(FormationSwitchablePersonalityUIPanel __instance)
+        private static void FormationSwitchablePersonalityUIPanel_Init(FormationSwitchablePersonalityUIPanel __instance)
         {
-            __instance._egoRedDot.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_New"];
-            __instance._personalityRedDot.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_New"];
-            __instance._egoList._personalityRedDot.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_New"];
-
-            Transform zayin = __instance.transform.Find("[Script]RightPanel/[Script]FormationEgoList/[Layout]EgoList/[Script]FormationEgoSlot_Zayin/[Rect]Contents/[Script]RedDot");
-            Transform teth = __instance.transform.Find("[Script]RightPanel/[Script]FormationEgoList/[Layout]EgoList/[Script]FormationEgoSlot_Teth/[Rect]Contents/[Script]RedDot");
-            Transform he = __instance.transform.Find("[Script]RightPanel/[Script]FormationEgoList/[Layout]EgoList/[Script]FormationEgoSlot_He/[Rect]Contents/[Script]RedDot");
-            Transform waw = __instance.transform.Find("[Script]RightPanel/[Script]FormationEgoList/[Layout]EgoList/[Script]FormationEgoSlot_Waw/[Rect]Contents/[Script]RedDot");
-            Transform aleph = __instance.transform.Find("[Script]RightPanel/[Script]FormationEgoList/[Layout]EgoList/[Script]FormationEgoSlot_Aleph/[Rect]Contents/[Script]RedDot");
-            if (zayin != null)
-                zayin.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_New"];
-            if (teth != null)
-                teth.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_New"];
-            if (he != null)
-                he.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_New"];
-            if (waw != null)
-                waw.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_New"];
-            if (aleph != null)
-                aleph.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_New"];
+            Transform newPersonality = __instance.transform.Find("[Script]RightPanel/[Script]FormationEgoList/[Script]RedDot");
+            __instance._egoRedDot.GetComponentInChildren<Image>(true).overrideSprite = EO_ReadmeManager.ReadmeSprites["EO_New"];
+            __instance._personalityRedDot.GetComponentInChildren<Image>(true).overrideSprite = EO_ReadmeManager.ReadmeSprites["EO_New"];
+            if (newPersonality != null)
+                newPersonality.GetComponentInChildren<Image>(true).overrideSprite = EO_ReadmeManager.ReadmeSprites["EO_New"];
+        }
+        [HarmonyPatch(typeof(FormationSwitchableEgoUIScrollViewItem), nameof(FormationSwitchableEgoUIScrollViewItem.SetData))]
+        [HarmonyPostfix]
+        private static void RedDotAgain_Init(FormationSwitchableEgoUIScrollViewItem __instance)
+        {
+            __instance._newAcquiredRedDot.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_New"];
         }
         #endregion
 

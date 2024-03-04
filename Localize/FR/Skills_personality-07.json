@@ -1,0 +1,221 @@
+{
+  "dataList": [
+    {
+      "id": 1070701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Suivre la Proie",
+          "desc": "[WhenUse] Gagne +2 de Compte de Calme\n[WhenUse] Gagne +2 d’Aggro sur cet Emplacement de Capacité au prochain tour",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 2 de Saignement"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Suivre la Proie",
+          "desc": "[WhenUse] Gagne +3 de Compte de Calme\n[WhenUse] Gagne +3 d’Aggro sur cet Emplacement de Capacité au prochain tour",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de Saignement"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Suivre la Proie",
+          "desc": "[WhenUse] Gagne +4 de Compte de Calme\n[WhenUse] Gagne +5 d’Aggro sur cet Emplacement de Capacité au prochain tour",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de Saignement"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1070702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Harpon d’Accroche",
+          "desc": "[WhenUse] Gagne +2 d’Aggro sur cet Emplacement de Capacité au prochain tour",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige du Compte de Saignement égal à 1/4 de la Puissance de Saignement de la cible (10 Max)"
+                }
+              ]
+            },
+            {}
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Harpon d’Accroche",
+          "desc": "[WhenUse] Gagne +3 d’Aggro sur cet Emplacement de Capacité au prochain tour\n[WhenUse] Gagne 1 de Calme pour chaque 3 de Saignement sur la cible (10 Max)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige du Compte de Saignement égal à 1/4 de la Puissance de Saignement de la cible (10 Max)"
+                }
+              ]
+            },
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Harpon d’Accroche",
+          "desc": "[WhenUse] Gagne +5 d’Aggro sur cet Emplacement de Capacité au prochain tour\n[WhenUse] Gagne 1 de Calme pour chaque 3 de Saignement sur la cible (10 Max)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige du Compte de Saignement égal à 1/3 de la Puissance de Saignement de la cible (10 Max)"
+                }
+              ]
+            },
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1070703,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Rompre le Nœud",
+          "desc": "À 3+ de Réson. d’Envie, +1 de Puissance de Duel\nÀ 4+ de Réson. d’Envie, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de Saignement"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 50%- de PV, inflige 1 de Saignement"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de Saignement"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 50%- de PV, inflige 1 de Saignement"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] +30% de Dégâts en Coup Critique"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Rompre le Nœud",
+          "desc": "À 3+ de Réson. d’Envie, +1 de Puissance de Duel\nÀ 4+ de Réson. d’Envie, +1 de Puissance de Pièce\nÀ 6+ de Réson.-A d’Envie, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de Saignement"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 75%- de PV, inflige 1 de Saignement"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 50%- de PV, inflige 1 de Saignement"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de Saignement"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 75%- de PV, inflige 1 de Saignement"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 50%- de PV, inflige 1 de Saignement"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] +50% de Dégâts en Coup Critique"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1070704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Remboursement",
+          "desc": "[WhenUse] Gagne +2 d’Aggro sur cet Emplacement de Capacité au prochain tour\n[StartBattle] Gagne du [DefenseUp] pour chaque [Breath] sur soi (10 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Remboursement",
+          "desc": "[WhenUse] Gagne +5 d’Aggro sur cet Emplacement de Capacité au prochain tour\n[StartBattle] Gagne du [DefenseUp] pour chaque [Breath] sur soi (10 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

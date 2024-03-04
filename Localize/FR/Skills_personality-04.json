@@ -1,0 +1,480 @@
+{
+  "dataList": [
+    {
+      "id": 1040501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "C.E.",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de Charge"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de Charge"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "C.E.",
+          "desc": "À 10+ de Compte de Charge, inflige +10% de dégâts",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de Charge"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de Charge"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "C.E.",
+          "desc": "À 10+ de Compte de Charge, inflige +10% de dégâts\nÀ 15+ de Compte de Charge, inflige +10% de dégâts supplémentaires",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de Charge"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de Charge"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Bond",
+          "desc": "[WhenUse] Gagne +5 de Compte de Charge",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] À 10+ de Compte de Charge, inflige 1 de Vulnérabilité Tranchante"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si les PV de la cible sont en-dessous de 30%, inflige +15% de dégâts"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Bond",
+          "desc": "[WhenUse] Gagne +6 de Compte de Charge\nÀ 10+ de Compte de Charge, gagne +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] À 10+ de Compte de Charge, inflige 1 de Vulnérabilité Tranchante"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si les PV de la cible sont en-dessous de 30%, inflige +20% de dégâts"
+                },
+                {
+                  "desc": "[EnemyKill] Gagne 1 de Vitesse au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Bond",
+          "desc": "[WhenUse] Gagne +7 de Compte de Charge\nÀ 10+ de Compte de Charge, gagne +1 de Puissance de Pièce\nÀ 15+ de Compte de Charge, gagne +1 de Puissance de Pièce supplémentaire",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] À 10+ de Compte de Charge, inflige 2 de Vulnérabilité Tranchante"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si les PV de la cible sont en-dessous de 30%, inflige +30% de dégâts"
+                },
+                {
+                  "desc": "[EnemyKill] Gagne 3 de Vitesse au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040503,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "L.D.D.R.D.",
+          "desc": "[WhenUse] À 7~14 de Compte de Charge\nConsomme tout le Compte de Charge,\nEt consomme 3 * (15 - Compte de Charge Consommé)% de PV pour gagne +3 de Puissance de Pièce\n[WhenUse] Consomme 15 de Compte de Charge pour gagner +3 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] La Pièce finale inflige +5% de dégâts"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] La Pièce finale inflige +5% de dégâts"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] La Pièce finale inflige +5% de dégâts"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[EnemyKill] Si la capacité a consommé 15 de Compte de Charge à l’utilisation, applique 5 de <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Barrière de Charge</color></link></u> à soi et 1 autre allié"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "L.D.D.R.D.",
+          "desc": "[WhenUse] À 7~14 de Compte de Charge\nConsomme tout le Compte de Charge,\nEt consomme 3 * (15 - Compte de Charge Consommé)% de PV pour gagne +5 de Puissance de Pièce\n[WhenUse] Consomme 15 de Compte de Charge pour gagner +5 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] La Pièce finale inflige +10% de dégâts"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] La Pièce finale inflige +10% de dégâts"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] La Pièce finale inflige +10% de dégâts"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[EnemyKill] Si la capacité a consommé 15 de Compte de Charge à l’utilisation, applique 7 de <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Barrière de Charge</color></link></u> à soi et 1 autre allié"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Esquive Chargée",
+          "desc": "+1 de Puissance de Base par 5 de Compte de Charge (2 Max)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Esquive Chargée",
+          "desc": "+1 de Puissance de Base par 5 de Compte de Charge (3 Max)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Bousculer",
+          "desc": "[WhenUse] Gagne +2 de Compte de Calme",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] La cible perd 4 PSM"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Bousculer",
+          "desc": "[WhenUse] Gagne +2 de Compte de Calme",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] La cible perd 6 PSM"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Bousculer",
+          "desc": "[WhenUse] Gagne +2 de Compte de Calme\n<style=\"highlight\">À 7+ de <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Calme</color></color></link></u>, +1 de Puissance de Pièce</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] La cible perd 8 PSM"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "N.C.",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de Calme"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 1 de Malus de Niveau Défensif"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de Calme"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 1 de Malus de Niveau Défensif"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "N.C.",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 de Calme"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 1 de Malus de Niveau Défensif"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de Calme"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 1 de Malus de Niveau Défensif"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "N.C.",
+          "desc": "À 7+ de <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Calme</color></link></u>, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 de Calme"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 2 de Malus de Niveau Défensif"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de Calme"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 1 de Malus de Niveau Défensif"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040603,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "E.D.F.",
+          "desc": "[WhenUse] Gagne 4 de Calme\nÀ 10+ de <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Calme</color></link></u>, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            },
+            {
+              "coindescs": [
+                {}
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 Munition"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Double l’application de Puissance et de Compte de Tremblement et de Déchirure"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de Tremblement et +1 de Compte de Tremblement"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de Déchirure et +1 de Compte de Déchirure"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Déclenche un Sursaut de Tremblement"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "E.D.F.",
+          "desc": "[WhenUse] Gagne 4 de Calme\nGagne +1 de Puissance de Pièce pour chaque 7 de Calme sur soi (2 Max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Gagne +1 de Compte de Calme"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Gagne +1 de Compte de Calme"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 Munition"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Double l’application de Puissance et de Compte de Tremblement et de Déchirure"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 de Tremblement et +2 de Compte de Tremblement"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 de Déchirure et +2 de Compte de Déchirure"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un Sursaut de Tremblement"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Garde",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Garde",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    }
+  ]
+}

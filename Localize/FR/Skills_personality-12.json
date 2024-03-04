@@ -1,0 +1,677 @@
+{
+  "dataList": [
+    {
+      "id": 1120601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Confrontation",
+          "desc": "[WhenUse] Gagne 2 de Bonus de Niveau Défensif",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne 1 de Vitesse au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Confrontation",
+          "desc": "[WhenUse] Gagne 2 de Bonus de Niveau Défensif\n[DefeatDuel] Gagne (3 * Bonus de Niveau Défensif sur soi) de Bouclier ; gagne 1 de Bonus de Niveau Défensif au prochain tour",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de Vitesse au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Confrontation",
+          "desc": "[WhenUse] Gagne 2 de Bonus de Niveau Défensif\n[DefeatDuel] Gagne (5 * Bonus de Niveau Défensif sur soi) de Bouclier ; gagne 2 de Bonus de Niveau Défensif au prochain tour",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 de Vitesse au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1120602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Répression Souple",
+          "desc": "[WhenUse] Gagne 2 de Bonus de Niveau Défensif",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne 1 de Bonus de Niveau Défensif au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne 1 de Bonus de Niveau Défensif au prochain tour"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "À 6+ de Bonus de Niveau Défensif, inflige +20% de dégâts"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Répression Souple",
+          "desc": "[WhenUse] Gagne 3 de Bonus de Niveau Défensif\n[WhenUse] Gagne +2 d’Aggro sur cet Emplacement de Capacité au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de Bonus de Niveau Défensif au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de Bonus de Niveau Défensif au prochain tour"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "À 6+ de Bonus de Niveau Défensif, inflige +30% de dégâts"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Répression Souple",
+          "desc": "[WhenUse] Gagne 3 de Bonus de Niveau Défensif\n[WhenUse] Gagne +3 d’Aggro sur cet Emplacement de Capacité au prochain tour\nÀ 6+ de Bonus de Niveau Défensif, +1 de Puissance de Duel",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de Bonus de Niveau Défensif au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de Bonus de Niveau Défensif au prochain tour"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "À 6+ de Bonus de Niveau Défensif, inflige +40% de dégâts"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1120603,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Gardien",
+          "desc": "[WhenUse] Applique 2 de Bonus de Puissance de Défense et 3 de Bonus de Niveau Défensif à tous les alliés\nÀ 6+ de Bonus de Niveau Défensif, +1 de Puissance de Pièce\nÀ 10+ de Bonus de Niveau Défensif, inflige +30% de dégâts",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Applique 3 de Bonus de Niveau Défensif à tous les alliés au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Gardien",
+          "desc": "[WhenUse] Applique 2 de Bonus de Puissance de Défense et 3 de Bonus de Niveau Défensif à tous les alliés\n+1 de Puissance de Pièce tous les 6 de Bonus de Niveau Défensif (3 Max)\nÀ 10+ de Bonus de Niveau Défensif, inflige +50% de dégâts",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Applique 3 de Bonus de Niveau Défensif à tous les alliés au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1120604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "La Meilleure Défense",
+          "desc": "[StartBattle] Gagne (2 * Bonus de Niveau Défensif sur soi) de Bouclier",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "La Meilleure Défense",
+          "desc": "[StartBattle] Gagne (2 * Bonus de Niveau Défensif sur soi) de Bouclier\n[WhenUse] Gagne +5 d’Aggro sur cet Emplacement de Capacité au prochain tour",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1120701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Début des Négociations",
+          "desc": "[WhenUse] Gagne 2 de Calme",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne +1 de Compte de Calme"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Début des Négociations",
+          "desc": "[WhenUse] Gagne 3 de Calme",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de Calme"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 2 de Saignement"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 2 de Saignement"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Début des Négociations",
+          "desc": "[WhenUse] Gagne 3 de Calme\nSi la cible a 7+ de <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Saignement</color></link></u>, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de Calme"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 2 de Saignement"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 2 de Saignement"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1120702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Affaire Unilatérale",
+          "desc": "[WhenUse] Gagne +2 de Compte de Calme",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne 3 de Calme"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de Saignement"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 2 de Saignement"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Affaire Unilatérale",
+          "desc": "[WhenUse] Gagne +3 de Compte de Calme",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne 4 de Calme"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 2 de Saignement"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de Saignement"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 2 de Saignement"
+                },
+                {
+                  "desc": "+30% de Dégâts en Coup Critique"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Affaire Unilatérale",
+          "desc": "+1 de Puissance de Pièce pour chaque 7 de Saignement sur la cible (2 Max)\n[WhenUse] Gagne +3 de Compte de Calme",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 4 de Calme"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 2 de Saignement"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de Saignement"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 2 de Saignement"
+                },
+                {
+                  "desc": "+50% de Dégâts en Coup Critique"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1120703,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Conclusion Prédéfinie",
+          "desc": "[WhenUse] Gagne 1 de Calme pour chaque 3 de Saignement sur la cible (5 Max)\nÀ 7+ de <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Calme</color></color></link></u>, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige +2 de Compte de Saignement"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 Munition"
+                },
+                {
+                  "desc": "+50% de Dégâts en Coup Critique"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Conclusion Prédéfinie",
+          "desc": "[WhenUse] Gagne 1 de Calme pour chaque 3 de Saignement sur la cible (10 Max)\nGagne +1 de Puissance de Pièce pour chaque 7 de <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Calme</color></color></link></u> sur soi (+3 Max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige +2 de Compte de Saignement"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 Munition"
+                },
+                {
+                  "desc": "+100% de Dégâts en Coup Critique"
+                },
+                {
+                  "desc": "[EnemyKill] Gagne 1 de Bonus de Puissance de Pièce Positive au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1120704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Faire une Pause",
+          "desc": "[OnSucceedEvade] Gagne 1 de Calme (3 Max par tour)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Faire une Pause",
+          "desc": "[OnSucceedEvade] Gagne 1 de Calme (5 Max par tour)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1120801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Déchirure Lenticulaire",
+          "desc": "[WinDuel] Inflige 1 de [Laceration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Déchirure Lenticulaire",
+          "desc": "<style=\"highlight\">[WhenUse] Si la cible a 7+ de [Laceration], +1 de Puissance de Duel</style>\n[WinDuel] Inflige 1 de [Laceration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Déchirure Lenticulaire",
+          "desc": "[WhenUse_Force] <color=#EBCAA2>Si la cible a 7+ de [Laceration], +1 de Puissance de Duel</color>\n[WinDuel] Inflige 1 de [Laceration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Déchirure Lenticulaire",
+          "desc": "[WhenUse] Si la cible a 7+ de [Laceration], +<style=\"highlight\">2</style> de Puissance de Duel\n[WinDuel] Inflige 1 de [Laceration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1120802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Nuage d’Ombre",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 2 de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de Malus de Niveau Défensif"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 10+ de [Laceration], inflige 1 de Malus de Puissance d’Attaque au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Nuage d’Ombre",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 2 de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de Malus de Niveau Défensif"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 10+ de [Laceration], inflige 1 de Malus de Puissance d’Attaque au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Nuage d’Ombre",
+          "desc": "[WhenUse] Si la cible a 7+ de [Laceration], +2 de Puissance de Duel",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 2 de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de Malus de Niveau Défensif"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 7+ de [Laceration], inflige 1 de Malus de Puissance d’Attaque au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1120803,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Fente du Nuage d’Ombre Éclatant",
+          "desc": "[WhenUse] Si la cible a 7+ de [Laceration], +1 de Puissance de Duel",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de Malus de Niveau Défensif"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 7+ de [Laceration], inflige 1 de Malus de Niveau Offensif au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de Malus de Niveau Défensif"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 7+ de [Laceration], inflige 1 de Malus de Niveau Offensif au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 10+ de [Laceration], inflige 1 de Malus de Puissance de Pièce Positive au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Fente du Nuage d’Ombre Éclatant",
+          "desc": "[WhenUse] Si la cible a 7+ de [Laceration], +1 de Puissance de Duel\n[WhenUse] Si la cible a 10+ de [Laceration], +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de Malus de Niveau Défensif"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 7+ de [Laceration], inflige 1 de Malus de Niveau Offensif au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de Malus de Niveau Défensif"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 7+ de [Laceration], inflige 1 de Malus de Niveau Offensif au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 3 de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a <style=\"highlight\">7</style>+ de [Laceration], inflige 1 de Malus de Puissance de Pièce Positive au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1120804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Garde",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Garde",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    }
+  ]
+}

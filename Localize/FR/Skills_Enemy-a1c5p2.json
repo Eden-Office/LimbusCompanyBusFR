@@ -1,0 +1,984 @@
+{
+    "dataList": [
+        {
+            "id": 9008801,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Répandre la Peur",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackTail] Inflige 2 dégâts de PSM"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackTail] Inflige 2 dégâts de PSM"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9008802,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Graver l’Horreur",
+                    "desc": "[WinDuel] Inflige 10 dégâts de PSM à la cible ; cette unité regagne 10 PV",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 1 de Ralentissement au prochain tour"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9008803,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Récolter l’Horreur",
+                    "desc": "Si les PSM de la cible sont en-dessous de 20, regagne 20% de PV supplémentaire de cette attaque",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackTail] Inflige 3 dégâts de PSM"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Se soigne de 30% des dégâts infligés"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackTail] Inflige 3 dégâts de PSM"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Se soigne de 30% des dégâts infligés"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9008804,
+            "levelList": [
+              {
+                "level": 1,
+                "name": "Paralyser l’Esprit",
+                "desc": "Si les PSM de la cible sont en-dessous de -15, inflige +50% de dégâts",
+                "coinlist": [
+                  {
+                    "coindescs": [
+                      {
+                        "desc": "[OnSucceedAttack] Inflige 2 de Paralysie au prochain tour"
+                      }
+                    ]
+                  },
+                  {
+                    "coindescs": [
+                      {
+                        "desc": "[OnSucceedAttack] Inflige 2 de Paralysie au prochain tour"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+        },
+        {
+            "id": 9008901,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "-... - ..-",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 3 de Lourdeur"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 3 de Lourdeur"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9008902,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "-- ... -.-",
+                    "desc": "[WinDuel] Inflige 1 de Bruit Livide",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 3 de Lourdeur"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] Inflige +3 de Compte de Lourdeur"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9008903,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "...- .",
+                    "desc": "+1 de Puissance Finale pour chaque allié Lividifié (ne compte pas cette unité)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Se soigne de 40% des dégâts infligés"
+                                },
+                              {
+                                "desc": "[OnSucceedAttack] Copie l’un des buffs actuellement sur la cible. Gagne le buff copié au prochain tour.\n(Limité à : Bonus de Puissance d’Attaque, Vitesse, Bonus de Dégâts et <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Protection</link></u></color>)"
+                              }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Se soigne de 40% des dégâts infligés"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009001,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "..-. .",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige +2 de Compte de Lourdeur"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige +2 de Compte de Lourdeur"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009002,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "..-. . --",
+                    "desc": "[WinDuel] Inflige 1 de Bruit Livide",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige +2 de Compte de Lourdeur"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] Inflige 2 de Lourdeur"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009003,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": ".-.. -",
+                    "desc": "[WinDuel] Inflige 1 dégât de PSM à la cible pour chaque allié Lividifié survivant (ne compte pas cette unité)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Se soigne de 40% des dégâts infligés"
+                                },
+                              {
+                                "desc": "Copie l’un des buffs actuellement sur la cible. Gagne le buff copié au prochain tour.\n(Limité à : Bonus de Puissance d’Attaque, Vitesse, Bonus de Dégâts et <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Protection</link></u></color>)"
+                              }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Se soigne de 40% des dégâts infligés"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009101,
+            "levelList": [
+              {
+                "level": 1,
+                "name": "-... .…",
+                "desc": "Si la cible a <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Lourdeur</link></u></color>, l’effet de soin de PV s’applique aussi à 1 autre allié Lividifié avec le moins de PSM",
+                "coinlist": [
+                  {
+                    "coindescs": [
+                      {
+                        "desc": "[OnSucceedAttack] Se soigne de 30% des dégâts infligés"
+                      },
+                      {
+                        "desc": "[OnSucceedAttackHead] Inflige 1 de Lourdeur"
+                      }
+                    ]
+                  },
+                  {
+                    "coindescs": [
+                      {
+                        "desc": "[OnSucceedAttack] Se soigne de 30% des dégâts infligés"
+                      },
+                      {
+                        "desc": "[OnSucceedAttackHead] Inflige 1 de Lourdeur"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+        },
+        {
+            "id": 9009102,
+            "levelList": [
+              {
+                "level": 1,
+                "name": ".--- .",
+                "desc": "Si la cible a <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Lourdeur</link></u></color>, l’effet de soin de PV s’applique aussi à 1 autre allié Lividifié avec le moins de PSM",
+                "coinlist": [
+                  {
+                    "coindescs": [
+                      {
+                        "desc": "[OnSucceedAttack] Se soigne de 50% des dégâts infligés"
+                      },
+                      {
+                        "desc": "[OnSucceedAttack] Inflige 2 de Bruit Livide"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+        },
+        {
+            "id": 9009103,
+            "levelList": [
+              {
+                "level": 1,
+                "name": "-. .…",
+                "desc": "[WhenUse] Si la cible a <sprite name=\"AaCePbBa\"><color=#e30000><u><link=\"AaCePbBa\">Bruit Livide</link></u></color>, tous les autres alliés Lividifiés regagnent 30 PV",
+                "coinlist": [
+                  {
+                    "coindescs": [
+                      {
+                        "desc": "Copie l’un des buffs actuellement sur la cible. Gagne le buff copié au prochain tour.\n(Limité à : Bonus de Puissance d’Attaque, Vitesse, Bonus de Dégâts et <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Protection</link></u></color>)"
+                      }
+                    ]
+                  },
+                  {
+                    "coindescs": [
+                      {
+                        "desc": "[OnSucceedAttack] Se soigne de 20 PV"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+        },
+        {
+            "id": 9009201,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "-- . -.-",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 3 de Tremblement"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 3 de Tremblement"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009202,
+            "levelList": [
+              {
+                "level": 1,
+                "name": "-... .-",
+                "desc": "[WhenUse] Applique 1 de Protection à 1 autre allié aléatoire au prochain tour. Si l’allié est un allié Lividifié, applique 1 de Protection supplémentaire.",
+                "coinlist": [
+                  {
+                    "coindescs": [
+                      {
+                        "desc": "[OnSucceedAttack] Inflige +4 de Compte de Tremblement"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+        },
+        {
+            "id": 9009203,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "-.-. ..-",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Déclenche un Sursaut de Tremblement"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Réduit de 2 le Compte de Tremblement"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 1 de Bruit Livide"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 10 de Déchirure et +4 de Compte de Dchirure"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009204,
+            "levelList": [
+              {
+                "level": 1,
+                "name": ".--. .",
+                "desc": "[StartBattle] Gagne  1 de Protection pour chaque 2 alliés Lividifiés (ne compte pas cette unité)\nLorsqu’attaqué alors que cette unité a Bouclier, inflige 1 de Tremblement à l’attaquant",
+                "coinlist": [
+                  {
+                    "coindescs": [
+                      {
+                        "desc": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+        },
+        {
+            "id": 9009301,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "..-. .",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 2 de Malus de Niveau Défensif"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009302,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": ".-.. .",
+                    "desc": "[WhenUse] Applique 1 de Bonus de Dégâts à 1 autre allié Lividifié aléatoire au prochain tour",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 2 de Paralysie"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] Inflige 1 de Bruit Livide"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009303,
+            "levelList": [
+              {
+                "level": 1,
+                "name": ".-.. .-",
+                "desc": "[WhenUse] Applique 1 de Bonus de Dégâts à 1 allié Lividifié aléatoire au prochain tour",
+                "coinlist": [
+                  {
+                    "coindescs": [
+                      {
+                        "desc": "[OnSucceedAttack] Inflige 2 de Malus de Niveau Défensif"
+                      },
+                      {
+                        "desc": "[OnSucceedAttack] Inflige 1 de Bruit Livide"
+                      }
+                    ]
+                  },
+                  {
+                    "coindescs": [
+                      {
+                        "desc": "[OnSucceedAttack] Inflige 2 de Malus de Niveau Défensif"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+        },
+        {
+            "id": 9009401,
+            "levelList": [
+              {
+                "level": 1,
+                "name": "--. . ...-",
+                "desc": "Si la cible a <sprite name=\"AaCePbBa\"><color=#e30000><u><link=\"AaCePbBa\">Bruit Livide</link></u></color>, inflige 1 dégât de PSM à la cible pour chaque autre allié survivant",
+                "coinlist": [
+                  {
+                    "coindescs": [
+                      {
+                        "desc": "[OnSucceedAttack] Inflige +2 de Compte de Saignement"
+                      },
+                      {
+                        "desc": "[OnSucceedAttackHead] Inflige 3 de Saignement"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+        },
+        {
+            "id": 9009402,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "...- …",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 1 de Bruit Livide"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige +3 de Compte de Saignement"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 3 de Saignement"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009403,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": ".--. .... -",
+                    "desc": "[WinDuel] Inflige 1 de Bruit Livide",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 4 de Saignement au prochain tour"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 2 de Vulnérabilité au prochain tour"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009404,
+            "levelList": [
+              {
+                "level": 1,
+                "name": "-.- -",
+                "desc": "Lorsqu’attaqué alors que cette unité a Bouclier, inflige 1 de Bruit Livide à la cible\n[EndBattle] Si cette unité a Bouclier, gagne 3 de Calme au prochain tour",
+                "coinlist": [
+                  {
+                    "coindescs": [
+                      {
+                        "desc": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+        },
+        {
+            "id": 9009501,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": ".--. -",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 2 de Ralentissement au prochain tour"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 2 de Saignement"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009502,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": ".-.. - ..-",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 1 de Paralysie au prochain tour"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 2 de Saignement"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 2 de Malus de Dégâts au prochain tour"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 2 de Saignement"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009503,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "-- .... -",
+                    "desc": "[WhenUse] Gagne 1 de Protection pour chaque allié survivant. (3 Max)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gagne 2 de Protection"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] Inflige 1 de Bruit Livide"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gagne 2 de Protection au prochain tour"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] Inflige 4 de Saignement au prochain tour"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009504,
+            "levelList": [
+              {
+                "level": 1,
+                "name": "-.- ..",
+                "desc": "[WhenUse] Gagne 2 de Protection\nLorsqu’attaqué alors que cette unité a Bouclier, inflige 1 de Bruit Livide à la cible\n[EndBattle] Regagne 2x les PV de Bouclier restant en PV.",
+                "coinlist": [
+                  {
+                    "coindescs": [
+                      {
+                        "desc": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+        },
+        {
+            "id": 9009601,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "En Plein dans le Plexus Solaire",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Inflige 1 de Paralysie au prochain tour"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009602,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Nous nous Souvenons !",
+                    "desc": "[DefeatDuel] Gagne 1 de Bonus de Dégâts au prochain tour",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 2 de Ralentissement au prochain tour"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                              {
+                                "desc": "[OnSucceedAttack] Inflige des dégâts supplémentaires fixes égaux au nombre d’alliés du Majeur tués durant cette vague"
+                              }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009603,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Brisage de Crâne",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 1 de Malus de Puissance d’Attaque au prochain tour"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 2 de Paralysie au prochain tour"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009604,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Prêt à Écrire",
+                    "desc": "[EndBattle] Si cette unité a Bouclier, gagne 1 de Bonus de Puissance d’Attaque au prochain tour",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009605,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Vengeance",
+                    "desc": "[DefeatDuel] Gagne 1 de Bonus de Dégâts au prochain tour",
+                    "coinlist": [
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 2 de Paralysie au prochain tour"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackTail] Augmente de 8 le Seuil de Déséquilibre"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009606,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Punition Multiple",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Augmente de 30 le Seuil de Déséquilibre"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 20 de dégâts de PV fixes"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 3 de Paralysie au prochain tour"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009701,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "En Plein dans le Plexus Solaire",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 1 de Paralysie au prochain tour"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009702,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Écrire Leurs Péchés !",
+                    "desc": "[DefeatDuel] Gagne 1 de Bonus de Dégâts au prochain tour",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 2 de Malus de Dégâts au prochain tour"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige des dégâts supplémentaires fixes égaux au nombre d’alliés du Majeur tués durant cette vague"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009703,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Cassage de Crâne",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 1 de Malus de Puissance de Pièce Positive au prochain tour"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 1 de Malus de Puissance de Pièce Positive au prochain tour"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009704,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Prêt à Écrire",
+                    "desc": "Si le Bouclier de cette unité est complètement épuisé, gagne 1 de Bonus de Puissance d’Attaque au prochain tour",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009705,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Vengeance",
+                    "desc": "[DefeatDuel] Gagne 1 de Bonus de Dégâts au prochain tour",
+                    "coinlist": [
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 2 de Paralysie au prochain tour"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackTail] Augmente de 8 le Seuil de Déséquilibre"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9009706,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Punition Multiple",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Augmente de 30 le Seuil de Déséquilibre"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 20 de dégâts de PV fixes"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 3 de Paralysie au prochain tour"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

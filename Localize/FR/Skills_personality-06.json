@@ -1,0 +1,600 @@
+{
+  "dataList": [
+    {
+      "id": 1060601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cycle Énergétique",
+          "desc": "[WhenUse] Gagne +2 de Compte de Charge",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de Charge"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de Charge"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Cycle Énergétique",
+          "desc": "[WhenUse] Gagne +3 de Compte de Charge",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de Charge"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de Charge"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Cycle Énergétique",
+          "desc": "[WhenUse] Gagne +4 de Compte de Charge",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de Charge"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de Charge"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1060602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Aide au Nettoyage",
+          "desc": "[WhenUse] Gagne +2 de Compte de Charge\n+1 de Puissance de Duel lorsque Protégé",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] À 10+ de Compte de Charge, gagne 2 de <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Barrière de Charge</color></link></u> next turn"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Aide au Nettoyage",
+          "desc": "[WhenUse] Gagne +3 de Compte de Charge\n+2 de Puissance de Duel lorsque Protégé",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +3 de Compte de Charge"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] À 10+ de Compte de Charge, gagne 2 de <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Barrière de Charge</color></link></u> next turn"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Aide au Nettoyage",
+          "desc": "[WhenUse] Gagne +3 de Compte de Charge\n+2 de Puissance de Duel lorsque Protégé",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +3 de Compte de Charge"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] À 5+ de Compte de Charge, gagne 1 de <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Barrière de Charge</color></link></u> pour chaque 5 de Compte de Charge au prochain tour (4 Max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1060603,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Déploiement de la Barrière de Charge",
+          "desc": "[WhenUse] À 10+ de Compte de Charge, consomme tout le Compte de Charge et applique (Compte de Charge Consommé / 2) de <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Barrière de Charge</color></link></u> (Arrondi à l’inférieur) à 2 alliés avec le plus faible pourcentage de PV",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de Déchirure"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 de <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Barrière de Charge</color></link></u> au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Déploiement de la Barrière de Charge",
+          "desc": "[WhenUse] À 10+ de Compte de Charge, consomme tout le Compte de Charge et applique (Compte de Charge Consommé / 2) de <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Barrière de Charge</color></link></u> (Arrondi à l’inférieur) à 2 alliés avec le plus faible pourcentage de PV",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 de Déchirure"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 de <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Barrière de Charge</color></link></u> au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1060604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Garde",
+          "desc": "[WhenUse] Gagne 2 de <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Barrière de Charge</color></link></u> (3 fois par tour)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Garde",
+          "desc": "[WhenUse] Gagne <style=\"highlight\">3</style> de <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Barrière de Charge</color></link></u> (3 fois par tour)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1060701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pister",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 de Saignement"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige +1 de Compte de Saignement"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Pister",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de Saignement"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige +1 de Compte de Saignement"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Pister",
+          "desc": "À 2+ de Vitesse, +1 de Puissance Finale",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de Saignement"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige +1 de Compte de Saignement"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1060702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "’Vais d’Abord",
+          "desc": "[WhenUse] Gagne 1 de Vitesse au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 de Saignement"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 de Saignement"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si cette unité est plus rapide que la cible, inflige du Compte de Saignement égal à la différance de Vitesse (2 Max)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "’Vais d’Abord",
+          "desc": "[WhenUse] Gagne 2 de Vitesse au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 de Saignement"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 de Saignement"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si cette unité est plus rapide que la cible, inflige du Compte de Saignement égal à la différance de Vitesse (3 Max)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "’Vais d’Abord",
+          "desc": "À 6+ de Vitesse, +1 de Puissance de Pièce\n[WhenUse] Gagne 2 de Vitesse au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 de Saignement"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 de Saignement"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si cette unité est plus rapide que la cible, inflige du Compte de Saignement égal à la différance de Vitesse (4 Max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1060703,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Massacre",
+          "desc": "À 8+ de Vitesse, +1 de Puissance de Pièce\nInflige plus de dégâts selon les PV manquants de la cible (+0.3% de dégâts par 1% de PV manquant)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Regagne 1 de PSM par Saignement de la cible (5 Max)"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 de Saignement"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 2 de Saignement"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Massacre",
+          "desc": "À 6+ de Vitesse, +1 de Puissance de Pièce\nInflige plus de dégâts selon les PV manquants de la cible (+0.5% de dégâts par 1% de PV manquant)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Regagne 1 de PSM par Saignement de la cible (10 Max)"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de Saignement"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de Saignement"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1060704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Rapidité",
+          "desc": "[OnSucceedEvade] Gagne 1 de Vitesse au prochain tour (3 fois par tour)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Rapidité",
+          "desc": "Si la cible a 7+ de Saignement, gagne +2 de Puissance de Pièce\n[OnSucceedEvade] Gagne 1 de Vitesse au prochain tour (3 fois par tour)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1060801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Dépenser la Connaissance",
+          "desc": "[WhenUse] Défausse 1 Capacité du rang supérieur dans tous les Emplacements de Capacité de cette unité",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige +1 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Dépenser la Connaissance",
+          "desc": "[WhenUse] Défausse 1 Capacité du rang supérieur dans tous les Emplacements de Capacité de cette unité\n[WhenUse] À 3+ de [KnowledgeExplored], +1 de Puissance de Duel",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige +1 de Compte de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 3+ de [KnowledgeExplored], réutilise cette Pièce une fois"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Dépenser la Connaissance",
+          "desc": "[WhenUse] Défausse 1 Capacité du rang supérieur dans tous les Emplacements de Capacité de cette unité\n[WhenUse] +([KnowledgeExplored] - 1) de Puissance de Duel",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige +1 de Compte de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Réutilise cette Pièce ([KnowledgeExplored] - 1) fois"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1060802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Dévoiler",
+          "desc": "[WhenUse] Défausse aléatoirement 2 des Capacités de cette unité par ordre ascendant de rang dans tous ses Emplacements de Capacité",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 3 de [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Dévoiler",
+          "desc": "[WhenUse] Défausse aléatoirement 2 des Capacités de cette unité par ordre ascendant de rang dans tous ses Emplacements de Capacité\n[WhenUse] À 3+ de [KnowledgeExplored], +1 de Puissance de Pièce",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Dévoiler",
+          "desc": "[WhenUse] Défausse aléatoirement 2 des Capacités de cette unité par ordre ascendant de rang dans tous ses Emplacements de Capacité\n[WhenUse] +([KnowledgeExplored] - 1) de Puissance de Pièce",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1060803,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Savoir Cyclique",
+          "desc": "[WhenUse] À 2+ de [KnowledgeExplored], gagne de la Puissance de Pièce égale à [KnowledgeExplored]\n[WhenUse] Inflige +1.5% de dégâts par [Sinking] sur la cible (15% Max)",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Sinking]"
+                },
+                {
+                  "desc": "[EndSkill] Si la cible est Déséquilibrée ou vaincue, regagne 10 PSM"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Savoir Cyclique",
+          "desc": "[WhenUse] À 2+ de [KnowledgeExplored], gagne de la Puissance de Pièce égale à [KnowledgeExplored]\n[WhenUse] Inflige +3% de dégâts par [Sinking] sur la cible (30% Max)",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict +4 [Sinking] Count"
+                },
+                {
+                  "desc": "[EndSkill] Si la cible est Déséquilibrée ou vaincue, regagne 10 PSM"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1060804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Étapes d’Orientation",
+          "desc": "[WhenUse] Défausse aléatoirement 2 des Capacités de cette unité par ordre ascendant de rang dans tous ses Emplacements de Capacité",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Étapes d’Orientation",
+          "desc": "[WhenUse] Défausse aléatoirement 2 des Capacités de cette unité par ordre ascendant de rang dans tous ses Emplacements de Capacité",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,642 @@
+{
+  "dataList": [
+    {
+      "id": 1020501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "En Patrouille",
+          "desc": "[DefeatDuel] Gagne 2 de Bonus de Niveau Défensif",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne 2 de Bonus de Niveau Défensif au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "En Patrouille",
+          "desc": "[DefeatDuel] Gagne 3 de Bonus de Niveau Défensif",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 de Bonus de Niveau Défensif au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "En Patrouille",
+          "desc": "[WhenUse] Gagne +2 d’Aggro sur cet Emplacement de Capacité au prochain tour\n[DefeatDuel] Gagne 3 de Bonus de Niveau Défensif",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 de Bonus de Niveau Défensif au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1020502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Protection de Client",
+          "desc": "[WhenUse] Applique 2 de Bonus de Niveau Défensif à l’allié avec le plus bas pourcentage de PV (3 fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne 1 de Bonus de Niveau Défensif au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne 1 de Bonus de Niveau Défensif au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne 1 de Bonus de Niveau Défensif au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Protection de Client",
+          "desc": "[WhenUse] Applique 3 de Bonus de Niveau Défensif à l’allié avec le plus bas pourcentage de PV (3 fois par tour)\nÀ 5+ de Bonus de Niveau Défensif, +1 de Puissance de Duel",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de Bonus de Niveau Défensif au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de Bonus de Niveau Défensif au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de Bonus de Niveau Défensif au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Protection de Client",
+          "desc": "[WhenUse] Applique 4 de Bonus de Niveau Défensif à l’allié avec le plus bas pourcentage de PV (3 fois par tour)\nÀ 5+ de Bonus de Niveau Défensif, +2 de Puissance de Duel",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de Bonus de Niveau Défensif au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de Bonus de Niveau Défensif au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de Bonus de Niveau Défensif au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1020503,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Maintien de l’Ordre",
+          "desc": "À 5+ de Bonus de Niveau Défensif, +1 de Puissance de Pièce\n[WinDuel] Regagne 2 PV",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "Applique 1 de Vitesse et 2 de Bonus de Niveau Défensif à l’allié avec le plus bas pourcentage de PV au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Maintien de l’Ordre",
+          "desc": "À 5+ de Bonus de Niveau Défensif, +1 de Puissance de Pièce\n[WinDuel] Regagne 4 PV",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "Applique 1 de Vitesse et 2 de Bonus de Niveau Défensif à l’allié avec le plus bas pourcentage de PV au prochain tour"
+                },
+                {
+                  "desc": "Si l’allié est un Fixer de l’Association Zwei, applique 1 de Vitesse et 1 de Bonus de Niveau Défensif supplémentaire"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1020504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Garde",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Garde",
+          "desc": "[WhenUse] Gagne +3 d’Aggro sur cet Emplacement de Capacité au prochain tour",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1020701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Camisole de Force Contractante",
+          "desc": "[WhenUse] Gagne +3 de Compte de Tremblement",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +3 de Compte de Tremblement"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de Tremblement"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Camisole de Force Contractante",
+          "desc": "[WhenUse] Gagne +3 de Compte de Tremblement",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +3 de Compte de Tremblement"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de Tremblement"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Camisole de Force Contractante",
+          "desc": "[WhenUse] Gagne +3 de Compte de Tremblement\n[DefeatDuel] Gagne +3 de Compte de Tremblement",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +3 de Compte de Tremblement"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de Tremblement"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1020702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Bourdonnement Métallique",
+          "desc": "[WhenUse] Gagne +4 de Compte de Tremblement",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 de Malus de Niveau Offensif au prochain tour"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 de Tremblement"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Bourdonnement Métallique",
+          "desc": "[StartBattle] Dépense 5 de Compte de Tremblement et gagne 1 de Poids d’Atq pour cette capacité\n[WhenUse] Gagne +4 de Compte de Tremblement",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne +1 de Compte de Tremblement"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 de Malus de Niveau Offensif au prochain tour"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 de Tremblement"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 de Malus de Puissance de Pièce Positive au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Bourdonnement Métallique",
+          "desc": "[StartBattle] Dépense 5 de Compte de Tremblement et gagne 1 de Poids d’Atq pour cette capacité\n[WhenUse] Gagne +4 de Compte de Tremblement",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne +1 de Compte de Tremblement"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de Malus de Niveau Offensif au prochain tour"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 de Tremblement"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de Malus de Puissance de Pièce Positive au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1020703,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Violence Déchaînée",
+          "desc": "[StartBattle] Dépense 5 de Compte de Tremblement et gagne 1 de Poids d’Atq pour cette capacité (Max +2)\n[DefeatDuel] Perd 20 PSM\nInflige 3% de Dégâts supplémentaires par type d’effet de statut négatif sur la cible (15% Max)\n[EnemyKill] Gagne +2 de Compte de Tremblement",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un Sursaut de Tremblement,\nPuis inflige des Dégâts de Colère égaux à 20% du Seuil de Déséquilibré final augmenté par le Sursaut de Tremblement. (13 Max)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un Sursaut de Tremblement,\nPuis inflige des Dégâts de Colère égaux à 20% du Seuil de Déséquilibré final augmenté par le Sursaut de Tremblement. (13 Max)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un Sursaut de Tremblement,\nPuis inflige des Dégâts de Colère égaux à 20% du Seuil de Déséquilibré final augmenté par le Sursaut de Tremblement. (13 Max)\nRéduit le Compte de Tremblement de 3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Violence Déchaînée",
+          "desc": "[StartBattle] Dépense 5 de Compte de Tremblement et gagne 1 de Poids d’Atq pour cette capacité (Max +2)\n[DefeatDuel] Perd 20 PSM\nInflige 6% de Dégâts supplémentaires par type d’effet de statut négatif sur la cible (30% Max)\n[EnemyKill] Gagne +2 de Compte de Tremblement",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un Sursaut de Tremblement,\nPuis inflige des Dégâts de Colère égaux à 30% du Seuil de Déséquilibré final augmenté par le Sursaut de Tremblement. (20 Max)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un Sursaut de Tremblement,\nPuis inflige des Dégâts de Colère égaux à 30% du Seuil de Déséquilibré final augmenté par le Sursaut de Tremblement. (20 Max)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un Sursaut de Tremblement,\nPuis inflige des Dégâts de Colère égaux à 30% du Seuil de Déséquilibré final augmenté par le Sursaut de Tremblement. (20 Max)\nRéduit le Compte de Tremblement de 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1020704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Collecte de Rancune",
+          "desc": "[WhenUse] Gagne +3 de Compte de Tremblement",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Collecte de Rancune",
+          "desc": "[WhenUse] Gagne +6 de Compte de Tremblement",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1020801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Danse des Lames au Clair de Lune",
+          "desc": "[WhenUse] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 1 de [RedApricotBlossom]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Danse des Lames au Clair de Lune",
+          "desc": "[WhenUse] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne 1 de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 1 de [RedApricotBlossom]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Danse des Lames au Clair de Lune",
+          "desc": "<style=\"highlight\">À 5+ de [Breath], +1 de Puissance de Pièce</style>\n[WhenUse] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne 1 de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 1 de [RedApricotBlossom]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1020802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Acupuncture",
+          "desc": "[WhenUse] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 2 de [RedApricotBlossom]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Acupuncture",
+          "desc": "[WhenUse] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Breath]"
+                },
+                {
+                  "desc": "+30% de Dégâts en Coup Critique"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de Ralentissement au prochain tour"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 2 de [RedApricotBlossom]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Acupuncture",
+          "desc": "<style=\"highlight\">À 7+ de [Breath], +1 de Puissance de Pièce\n</style>[WhenUse] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Breath]"
+                },
+                {
+                  "desc": "+30% de Dégâts en Coup Critique"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de Ralentissement au prochain tour"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 2 de [RedApricotBlossom]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1020803,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Éparpillement de Fleurs Rouges de Prunier",
+          "desc": "Inflige +3% de dégâts pour chaque [RedApricotBlossom] sur la cible\n[WinDuel] Consomme la moitié du Compte de [Breath] sur soi, puis gagne du [Breath] égal au Compte de [Breath] consommé. (10 Max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 5 de [RedApricotBlossom]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 5 de [RedApricotBlossom]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Éparpillement de Fleurs Rouges de Prunier",
+          "desc": "Inflige +3% de dégâts pour chaque [RedApricotBlossom] sur la cible\n<style=\"highlight\">+1 de Puissance de Pièce pour chaque 7 de [Breath] sur soi (3 Max)</style>\n[WinDuel] Consomme la moitié du Compte de [Breath] sur soi, puis gagne du [Breath] égal au Compte de [Breath] consommé. (10 Max)\n<style=\"highlight\">Cette Capacité ne consomme pas de [RedApricotBlossom] en Coup Critique</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 5 de [RedApricotBlossom]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Si la cible a 10 de [RedApricotBlossom], inflige 1 de Vulnérabilité Tranchante"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 5 de [RedApricotBlossom]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Si la cible a 10 de [RedApricotBlossom], inflige 1 de Vulnérabilité Tranchante"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1020804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Rediriger",
+          "desc": "[WhenUse] Pour chaque 4 de [Breath] sur soi, gagne +1 de Puissance Finale (3 Max)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Rediriger",
+          "desc": "[WhenUse] Pour chaque 4 de [Breath] sur soi, gagne +1 de Puissance Finale (5 Max)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    }
+  ]
+}

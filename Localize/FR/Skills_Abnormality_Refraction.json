@@ -1,0 +1,827 @@
+{
+    "dataList": [
+        {
+            "id": 851001,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Claque Pleureuse",
+                    "desc": "[WhenUse] La cible perd 15 PSM",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Inflige 5 de Lourdeur et +5 de Compte de Lourdeur"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 851002,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Claque Morose",
+                    "desc": "[StartDuel] La cible regagne 5 PSM",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[AlwaysUse] Inflige des dégâts de PSM égaux à la moitié des dégâts affichés"
+                                },
+                              {
+                                "desc": "[AlwaysUse] Aucun dégât de PV n’est infligé"
+                              }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 851003,
+            "levelList": [
+              {
+                "level": 1,
+                "name": "Globe Oculaire Fondant",
+                "desc": "[WhenUse] La cible perd 5 PSM\nSi la cible a moins de 0 PSM, +10% de Dégâts",
+                "coinlist": [
+                  {
+                    "coindescs": [
+                      {
+                        "desc": "[OnSucceedAttackHead] Inflige des dégâts supplémentaires selon la Lourdeur de la cible"
+                      }
+                    ]
+                  },
+                  {
+                    "coindescs": [
+                      {
+                        "desc": "[OnSucceedAttackHead] Inflige des dégâts de PSM supplémentaires selon la Lourdeur de la cible"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+        },
+        {
+            "id": 851004,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Morosité Jaillissante",
+                    "desc": "[WhenUse] La cible perd 5 PSM\nCible l’ennemi avec le plus de Lourdeur",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige +3 de Compte de Lourdeur"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Inflige des dégâts supplémentaires selon la Lourdeur de la cible"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Inflige des dégâts de PSM supplémentaires selon la Lourdeur de la cible"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 851005,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Poids de Globe Oculaire",
+                    "desc": "[DefeatDuel] Annule toutes les capacités\n[DefeatDuel] Gagne 3 de Vulnérabilité\nSi la cible a moins de 0 PSM, +10% de Dégâts",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Double la Lourdeur de la cible et son Compte"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 851006,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Globe Oculaire Fondu",
+                    "desc": "[WhenUse] La cible perd 5 PSM\nSi la cible a moins de 0 PSM, +10% de Dégâts",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Inflige des dégâts de PSM supplémentaires selon la Lourdeur de la cible"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 851007,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Globe Oculaire Fondu",
+                    "desc": "[WhenUse] La cible perd 5 PSM\nSi la cible a moins de 0 PSM, +10% de Dégâts",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Inflige des dégâts supplémentaires selon la Lourdeur de la cible"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 851008,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Crouiiiin",
+                    "desc": "[StartBattle] Gagne 2 de Protection",
+                    "coinlist": []
+                }
+            ]
+        },
+        {
+            "id": 851901,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Démarrage du Tour de Ville",
+                    "desc": "[WhenUse] Gagne +4 de Compte de Charge",
+                    "coinlist": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 851902,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Bienvenue à la Visite",
+                    "desc": "",
+                    "coinlist": [
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Inflige 1 de Malus de Puissance de Pièce Positive au prochain tour"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 851903,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Veuillez Coopérer !",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 3 de Paralysie au prochain tour"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 851904,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Traitement du Transfert Reg",
+                    "desc": "[WhenUse] Dépense toutes les Charges",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Met la cible en Captivité"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 851905,
+            "levelList": [
+              {
+                "level": 1,
+                "name": "Ravi de Vous Rencontrer, Cher Voisin",
+                "desc": "Attaque la cible en Captivité ; ne peut pas être affronté en duel",
+                "coinlist": [
+                  {
+                    "coindescs": [
+                      {
+                        "desc": "[OnSucceedAttack] Inflige 10 de Brûlure"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+        },
+        {
+            "id": 851906,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Erreur de Système Détectée",
+                    "desc": "Devient Déséquilibré au prochain tour",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Dépense 2 de Charge pour infliger 5 de Brûlure"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Dépense 2 de Charge pour infliger 5 de Brûlure"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 851907,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Calcul de Traitement",
+                    "desc": "[WhenUse] Gagne 5 de Protection",
+                    "coinlist": []
+                }
+            ]
+        },
+        {
+            "id": 851908,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Redémarrage…",
+                    "desc": "",
+                    "coinlist": []
+                }
+            ]
+        },
+        {
+            "id": 851909,
+            "levelList": [
+              {
+                "level": 1,
+                "name": "Traitement du Transfert Reg",
+                "desc": "Non affrontable en duel ; ne peut pas être redirigé ; cible l’unité avec le plus de PV\n[WhenUse] Dépense toutes les Charges",
+                "coinlist": [
+                  {
+                    "coindescs": [
+                      {
+                        "desc": "[OnSucceedAttack] Met la cible en Captivité"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+        },
+        {
+            "id": 852101,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Ne Pas Entrer",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Inflige 1 de Déchirure"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852102,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Soumettre",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Inflige 3 de Déchirure"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige +3 de Compte de Déchirure"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852103,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Entrée Interdite",
+                    "desc": "[DefeatDuel] Regagne 10 PV",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige +2 de Compte de Déchirure"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Inflige des dégâts supplémentaires par la Déchirure de la cible fois son Compte\nRetire toute Déchirure de la cible"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852301,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Individus Suspicieux",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Inflige 3 de Déchirure"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852302,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Maîtriser",
+                    "desc": "",
+                    "coinlist": [
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Inflige 3 de Déchirure"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852303,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Défense d’Entrer",
+                    "desc": "Cible l’unité avec le plus de PV",
+                    "coinlist": [
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "Si la Pièce 1 fait Pile, +10% de Dégâts"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "Si la Pièce 2 fait Pile, +10% de Dégâts"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "Si les Pièces 2 & 3 font Pile, +30% de Dégâts"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852701,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Dāna",
+                    "desc": "[WhenUse] Applique 2 de Protection à un autre allié aléatoire",
+                    "coinlist": [
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 3 de Malus de Dégâts au prochain tour"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852702,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Exposer les Sutras",
+                    "desc": "[WhenUse] Applique 2 de Bonus de Puissance d’Attaque à un autre allié aléatoire",
+                    "coinlist": [
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Applique 2 de Bonus de Puissance d’Attaque à un autre allié aléatoire au prochain tour"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852703,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Mahāsrī",
+                    "desc": "[WhenUse] Donne 3 de Protection au prochain tour",
+                    "coinlist": []
+                }
+            ]
+        },
+        {
+            "id": 852704,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Svāhā",
+                    "desc": "[WhenUse] Donne 3 de Bonus de Dégâts au prochain tour",
+                    "coinlist": []
+                }
+            ]
+        },
+        {
+            "id": 852705,
+            "levelList": [
+              {
+                "level": 1,
+                "name": "Prajñāpāramitā",
+                "desc": "[CantIdentify] Cible l’unité avec le plus de Karma\nInflige plus de dégâts selon le Karma de la cible (+2% par Compte)\nSi la cible n’a pas de Karma, -50% de Dégâts",
+                "coinlist": [
+                  {
+                    "coindescs": [
+                      {
+                        "desc": "[OnSucceedAttack] Si la cible a Karma, inflige 50 de Karma"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+        },
+        {
+            "id": 852706,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Dhyāna",
+                    "desc": "[WinDuel] Réduit de moitié les effets de statut négatifs de cette unité",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 2 de Malus de Puissance d’Attaque au prochain tour"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852707,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Offrande Compulsive",
+                    "desc": "[DefeatDuel] Applique 20 de Karma à un autre allié aléatoire au prochain tour",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 20 de Karma"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852708,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Réveil Paresseux",
+                    "desc": "[DefeatDuel] Applique 20 de Karma à un autre allié aléatoire au prochain tour",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 10 de Karma"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 10 de Karma"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852709,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Mantra",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Retire 3 ressources E.G.O. d’une Affinité aléatoire"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Retire 3 ressources E.G.O. d’une Affinité aléatoire"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852710,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Réveil Paresseux",
+                    "desc": "[CantDuel]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 1 de Samsara"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] Inflige 3 de Paralysie au prochain tour"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "Inflige 3 de Vulnérabilité au prochain tour"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852711,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Bodhi Svāhā",
+                    "desc": "[WhenUse] Gagne 10 de Bonus de Dégâts\nCible d’abord les ennemis Déséquilibrés",
+                    "coinlist": []
+                }
+            ]
+        },
+        {
+            "id": 852801,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Enfoncée",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Inflige 1 de Malus de Dégâts au prochain tour"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852802,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "… Soyez Purgés",
+                    "desc": "",
+                    "coinlist": [
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Inflige 1 de Ralentissement au prochain tour"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852803,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Châtiment Inquisitoire",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 3 de Paralysie au prochain tour"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852901,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Rápidamente ~",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Inflige 1 de Malus de Puissance de Pièce Positive au prochain tour"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852902,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Pañata Party~!",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 2 de Malus de Puissance de Pièce Positive au prochain tour"
+                                }
+                            ]
+                        },
+                        {},
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 1 de Vulnérabilité au prochain tour"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 853001,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Poussée de Chair",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Inflige 2 de Paralysie au prochain tour"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 853002,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Dominer l’Esprit",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 1 de Malus de Dégâts au prochain tour"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

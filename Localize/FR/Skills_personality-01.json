@@ -1,0 +1,837 @@
+{
+  "dataList": [
+    {
+      "id": 1010501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Rester Calme",
+          "desc": "Gagne +3 de Compte de Tremblement si cette Capacité est Défaussée",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige +2 de Compte de Tremblement"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Rester Calme",
+          "desc": "Si cette Capacité est Défaussée, gagne +4 de Compte de Tremblement\n[WhenUse] Gagne +2 de Compte de Tremblement",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de Tremblement"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Rester Calme",
+          "desc": "Si cette Capacité est Défaussée, gagne +4 de Compte de Tremblement\n[WhenUse] Gagne +2 de Compte de Tremblement\nÀ 5+ de Compte de Tremblement, gagne +1 de Puissance de Pièce",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de Tremblement"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pari",
+          "desc": "Si cette Capacité est Défaussée, gagne +3 de Compte de Tremblement\n[WhenUse] Défausse 1 Capacité du rang inférieur dans tous les Emplacements de Capacité de cette unité",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] À 5+ de Compte de Tremblement, déclenche un Sursaut de Tremblement. Réduit de 2 le Compte de Tremblement de la cible"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Pari",
+          "desc": "Si cette Capacité est Défaussée, gagne +4 de Compte de Tremblement\n[WhenUse] Défausse 1 Capacité du rang inférieur dans tous les Emplacements de Capacité de cette unité",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de Tremblement"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 5+ de Compte de Tremblement, déclenche un Sursaut de Tremblement. Réduit de 2 le Compte de Tremblement de la cible"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Pari",
+          "desc": "Si cette Capacité est Défaussée, gagne +4 de Compte de Tremblement\n[WhenUse] Défausse 1 Capacité du rang inférieur dans tous les Emplacements de Capacité de cette unité",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de Tremblement"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 5+ de Compte de Tremblement, déclenche un Sursaut de Tremblement. Réduit de 2 le Compte de Tremblement de la cible"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010503,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Polir les Molaires",
+          "desc": "[WhenUse] Défausse 1 Capacité du rang inférieur dans tous les Emplacements de Capacité de cette unité\n[WhenUse] Dépense 10 de Compte de Tremblement pour gagner +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 de Tremblement"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cette Capacité a dépensé du Compte de Tremblement, déclenche un Sursaut de Tremblement"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 2 de Malus de Niveau Défensif"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cette Capacité a dépensé du Compte de Tremblement, déclenche un Sursaut de Tremblement"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Polir les Molaires",
+          "desc": "[WhenUse] Défausse 1 Capacité du rang inférieur dans tous les Emplacements de Capacité de cette unité\n[WhenUse] Dépense 10 de Compte de Tremblement pour gagner +2 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 de Tremblement"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cette Capacité a dépensé du Compte de Tremblement, déclenche un Sursaut de Tremblement"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de Malus de Niveau Défensif"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cette Capacité a dépensé du Compte de Tremblement, déclenche un Sursaut de Tremblement"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Garde",
+          "desc": "[WhenUse] Défausse 1 Capacité du rang inférieur dans tous les Emplacements de Capacité de cette unité",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Garde",
+          "desc": "[WhenUse] Défausse 1 Capacité du rang inférieur dans tous les Emplacements de Capacité de cette unité",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Incision Dimensionnelle",
+          "desc": "[WhenUse] Gagne +2 de Compte de Charge",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de Charge"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Incision Dimensionnelle",
+          "desc": "[WhenUse] Gagne +2 de Compte de Charge",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de Charge"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 2 de Déchirure"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Incision Dimensionnelle",
+          "desc": "[WhenUse] Gagne +2 de Compte de Charge\nAt 10+ Charge Count, Coin Power +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de Charge"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de Déchirure"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cycle Énergétique",
+          "desc": "[WhenUse] Gagne +5 de Compte de Charge",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 de Ralentissement au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de Déchirure"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Cycle Énergétique",
+          "desc": "[WhenUse] Gagne +6 de Compte de Charge\nÀ 10+ de Compte de Charge, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de Ralentissement au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de Déchirure"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 10+ de Compte de Charge, inflige 3 de Déchirure"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Cycle Énergétique",
+          "desc": "[WhenUse] Gain +7 Charge Count\nÀ 10+ de Compte de Charge, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de Ralentissement au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de Déchirure"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 10+ de Compte de Charge, inflige 3 de Déchirure et +2 de Compte de Déchirure"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010603,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Faille Dimensionnelle",
+          "desc": "[WhenUse] À moins de 15 de Compte de Charge, consomme 10 Compte de Charge pour gagne +1 de Puissance de Pièce\n[WhenUse] Consomme 15 de Compte de Charge pour gagner +2 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 de Déchirure"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 de Déchirure"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de Déchirure pour tous les 5 Compte de Charge consommés par la Capacité (6 Max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la Capacité a consommé 15 de Compte de Charge lors de l’utilisation, inflige 2 de Faille Dimensionnelle"
+                },
+                {
+                  "desc": "[EnemyKill] Gagne 3 de Barrière de Charge"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Faille Dimensionnelle",
+          "desc": "[WhenUse] À moins de 15 de Compte de Charge, consomme 10 Compte de Charge pour gagne +1 de Puissance de Pièce\n[WhenUse] Consomme 15 de Compte de Charge pour gagner +2 de Puissance de Pièce\n[BeforeAttack] Si 15 de Compte de Charge a été consommé, inflige +3 de Compte de Déchirure",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 de Déchirure"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 de Déchirure"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de Déchirure pour tous les 5 Compte de Charge consommés par la Capacité (9 Max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la Capacité a consommé 15 de Compte de Charge lors de l’utilisation, inflige 2 de Faille Dimensionnelle"
+                },
+                {
+                  "desc": "[EnemyKill] Gagne 5 de Barrière de Charge"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Dimension Vide",
+          "desc": "+1 de Puissance de Base par 5 de Compte de Charge (2 Max)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Dimension Vide",
+          "desc": "+1 de Puissance de Base par 5 de Compte de Charge (2 Max)\n[OnSucceedEvade] +1 de Puissance en appliquant pour la première fois de la Déchirure avec un effet de Capacité au prochain tour (+3 Max par tour)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Empaler",
+          "desc": "[WhenUse] Gagne +2 de Compte de Calme",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 2 de Saignement"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Empaler",
+          "desc": "[WhenUse] Gagne +2 de Compte de Calme",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 de Ralentissement au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de Saignement"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Empaler",
+          "desc": "[WhenUse] Gagne +2 de Compte de Calme",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de Ralentissement au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de Saignement"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Poignardage Incessant",
+          "desc": "[WhenUse] Gagne +2 de Compte de Calme\nÀ 5+ de Calme, +2 de Puissance de Duel",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne 2 de Calme"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de Saignement"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Poignardage Incessant",
+          "desc": "[WhenUse] Gagne +2 de Compte de Calme\nÀ 5+ de Calme, +2 de Puissance de Duel",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne 2 de Calme"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de Saignement"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Réutilise cette Pièce (1 fois max)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Poignardage Incessant",
+          "desc": "[WhenUse] Gagne +2 de Compte de Calme\nÀ 5+ de Calme, +3 de Puissance de Duel",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 de Calme"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de Saignement"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Réutilise cette Pièce (3 fois max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010703,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Embuscade",
+          "desc": "[WhenUse] Gagne 5 de Calme",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne +2 de Compte de Calme"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 de Saignement"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige +4 de Compte de Saignement"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Embuscade",
+          "desc": "[WhenUse] Gagne 5 de Calme\nÀ 7+ de Calme, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de Calme"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 de Saignement"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige +6 de Compte de Saignement"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Esquive",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Esquive",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Dépenser la Connaissance",
+          "desc": "Gagne ([KnowledgeExplored] * 2% des PV Max.) Bouclier si cette Capacité est Défaussée\n[WhenUse] Défausse 1 Capacité du rang supérieur dans tous les Emplacements de Capacité de cette unité",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Réduit de [KnowledgeExplored] le Seuil de Déséquilibre de l’utilisateur"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Réduit de [KnowledgeExplored] le Seuil de Déséquilibre de l’utilisateur"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Dépenser la Connaissance",
+          "desc": "Gagne ([KnowledgeExplored] * 3% des PV Max.) Bouclier si cette Capacité est Défaussée\n[WhenUse] Défausse 1 Capacité du rang supérieur dans tous les Emplacements de Capacité de cette unité",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Réduit de [KnowledgeExplored] le Seuil de Déséquilibre de l’utilisateur"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Réduit de [KnowledgeExplored] le Seuil de Déséquilibre de l’utilisateur"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Dépenser la Connaissance",
+          "desc": "Gagne ([KnowledgeExplored] * 3% des PV Max.) Bouclier si cette Capacité est Défaussée\n[WhenUse] Défausse 1 Capacité du rang supérieur dans tous les Emplacements de Capacité de cette unité\n[WhenUse] Si la cible a 5+ de [Sinking], +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Réduit de [KnowledgeExplored] le Seuil de Déséquilibre de l’utilisateur"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Réduit de [KnowledgeExplored] le Seuil de Déséquilibre de l’utilisateur"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sceller",
+          "desc": "Gagne ([KnowledgeExplored] * 4% des PV Max.) Bouclier si cette Capacité est Défaussée\n[WhenUse] Défausse 1 Capacité du rang supérieur dans tous les Emplacements de Capacité de cette unité",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige de la [Sinking] égale à [KnowledgeExplored]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige de la [Sinking] égale à [KnowledgeExplored]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Sceller",
+          "desc": "Gagne ([KnowledgeExplored] * 5% des PV Max.) Bouclier si cette Capacité est Défaussée\n[WhenUse] Défausse 1 Capacité du rang supérieur dans tous les Emplacements de Capacité de cette unité\n[WhenUse] Gagne +3 d’Aggro sur cet Emplacement de Capacité au prochain tour",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige de la [Sinking] égale à [KnowledgeExplored]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige de la [Sinking] égale à [KnowledgeExplored]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Sceller",
+          "desc": "Gagne ([KnowledgeExplored] * 6% des PV Max.) Bouclier si cette Capacité est Défaussée\n[WhenUse] Défausse 1 Capacité du rang supérieur dans tous les Emplacements de Capacité de cette unité\n[WhenUse] Si la cible a 5+ de [Sinking], +1 de Puissance de Pièce\n[WhenUse] Gagne +3 d’Aggro sur cet Emplacement de Capacité au prochain tour",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige de la [Sinking] égale à [KnowledgeExplored]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige de la [Sinking] égale à [KnowledgeExplored]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010803,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Grâce de la Connaissance",
+          "desc": "Gagne ([KnowledgeExplored] * 9% des PV Max.) Bouclier si cette Capacité est Défaussée\n[WhenUse] Gagne +8 d’Aggro sur cet Emplacement de Capacité au prochain tour",
+          "coinlist": [
+            {},
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Grâce de la Connaissance",
+          "desc": "Gagne ([KnowledgeExplored] * 12% des PV Max.) Bouclier si cette Capacité est Défaussée\n[WhenUse] Gagne +10 d’Aggro sur cet Emplacement de Capacité au prochain tour\n[WhenUse] À 50%- de PV, +1 de Puissance de Pièce",
+          "coinlist": [
+            {},
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Étude Obsédée",
+          "desc": "[WhenUse] Défausse aléatoirement 2 des Capacités de cette unité par ordre ascendant de rang dans tous ses Emplacements de Capacité\n[WhenUse] Gagne +3 d’Aggro sur cet Emplacement de Capacité au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Étude Obsédée",
+          "desc": "[WhenUse] Défausse aléatoirement 2 des Capacités de cette unité par ordre ascendant de rang dans tous ses Emplacements de Capacité\n[WhenUse] Gagne +5 d’Aggro sur cet Emplacement de Capacité au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
