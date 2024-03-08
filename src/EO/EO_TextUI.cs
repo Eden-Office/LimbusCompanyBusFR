@@ -300,7 +300,7 @@ namespace LimbusCompanyFR
                 guard.GetComponentInChildren<TextMeshProUGUI>(true).fontMaterial = LCB_French_Font.tmpfrenchfonts[3].material;
             }
         }
-        [HarmonyPatch(typeof(FormationUIPanel), nameof(FormationUIPanel.InitializeBase))]
+        [HarmonyPatch(typeof(FormationUIPanel), nameof(FormationUIPanel.Initialize))]
         [HarmonyPostfix]
         private static void FormationSecondChance_Init(FormationUIPanel __instance)
         {
@@ -591,7 +591,7 @@ namespace LimbusCompanyFR
             __instance.cg_selectedTag.GetComponentInChildren<TextMeshProUGUI>().font = LCB_French_Font.tmpfrenchfonts[0];
             __instance.cg_selectedTag.GetComponentInChildren<TextMeshProUGUI>().fontMaterial = LCB_French_Font.tmpfrenchfonts[0].material;
         }
-        [HarmonyPatch(typeof(FormationUIPanel), nameof(FormationUIPanel.InitializeBase))]
+        [HarmonyPatch(typeof(FormationUIPanel), nameof(FormationUIPanel.Initialize))]
         [HarmonyPostfix]
         private static void FixedAnnouncer_Init(FormationUIPanel __instance)
         {

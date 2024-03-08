@@ -193,21 +193,27 @@ namespace LimbusCompanyFR
         [HarmonyPostfix]
         private static void Lobby_Init(MainLobbyUIPanel __instance)
         {
-            __instance.tmpro_dialog.m_sharedMaterial = LCB_French_Font.GetFrenchMats(14);
-            __instance.tmpro_dialog.m_currentMaterial = LCB_French_Font.GetFrenchMats(14);
+            __instance.tmpro_dialog.m_sharedMaterial = LCB_French_Font.GetFrenchMats(15);
+            __instance.tmpro_dialog.m_currentMaterial = LCB_French_Font.GetFrenchMats(15);
+            __instance.tmpro_dialog.m_sharedMaterial.SetColor("_GlowColor", __instance.tmpro_dialog.m_underlineColor);
+            __instance.tmpro_dialog.m_sharedMaterial.SetFloat("_GlowPower", 0.025f);
         }
         [HarmonyPatch(typeof(TierUpEffectUIPanel), nameof(TierUpEffectUIPanel.SetupAndOpen))]
         [HarmonyPostfix]
         private static void TierUp_Init(TierUpEffectUIPanel __instance)
         {
             __instance._subtitle.tmp_punchLine.m_sharedMaterial = LCB_French_Font.GetFrenchMats(15);
+            __instance._subtitle.tmp_punchLine.fontMaterial.SetColor("_GlowColor", __instance._subtitle.tmp_punchLine.m_underlineColor);
+            __instance._subtitle.tmp_punchLine.m_sharedMaterial.SetFloat("_GlowPower", 0.025f);
         }
         [HarmonyPatch(typeof(PersonalityStoryPersonalityUI), nameof(PersonalityStoryPersonalityUI.OpenPersonalityVoiceTab))]
         [HarmonyPostfix]
         private static void PersonalityStoryPersonalityUI_Init(PersonalityStoryPersonalityUI __instance)
         {
-            __instance._voiceText.m_sharedMaterial = LCB_French_Font.GetFrenchMats(14);
+            __instance._voiceText.m_sharedMaterial = LCB_French_Font.GetFrenchMats(15);
             __instance._voiceText.m_sharedMaterial.EnableKeyword("UNDELAY_ON");
+            __instance._voiceText.m_sharedMaterial.SetColor("_GlowColor", __instance._voiceText.m_underlineColor);
+            __instance._voiceText.m_sharedMaterial.SetFloat("_GlowPower", 0.025f);
             __instance._voiceText.GetComponentInChildren<TextMeshProLanguageSetter>().enabled = false;
         }
         [HarmonyPatch(typeof(BattleDialogUI), nameof(BattleDialogUI.Init))]
@@ -220,7 +226,9 @@ namespace LimbusCompanyFR
         [HarmonyPostfix]
         private static void BattleResult_Init(BattleResultUIPanel __instance)
         {
-            __instance.tmp_dialog.m_sharedMaterial = LCB_French_Font.GetFrenchMats(14);
+            __instance.tmp_dialog.m_sharedMaterial = LCB_French_Font.GetFrenchMats(15);
+            __instance.tmp_dialog.m_sharedMaterial.SetColor("_GlowColor", __instance.tmp_dialog.m_underlineColor);
+            __instance.tmp_dialog.m_sharedMaterial.SetFloat("_GlowPower", 0.025f);
 
             Color yellowish = new Color(1.0f, 0.306f, 0, 0.502f);
             Color reddish = new Color(0.686f, 0.003f, 0.003f, 1.0f);
