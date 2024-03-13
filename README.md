@@ -26,6 +26,7 @@ Traduction française pour le jeu "Limbus Company"
    -  Contrairement à MelonLoader, pour un fonctionnement correct des plug-ins dans BIE, il est nécessaire de placer tous les plug-ins dans un seul dossier. Créez un tel dossier dans le chemin ``...\Limbus Company\BepInEx\plugins``. Le nom peut être n'importe quoi
 ### 5. Installez les fichiers de police
    - Téléchargez le [fichier de police française](https://mega.nz/folder/jfpXCITY#lIR8cGWquj53lsC-73r7gQ/file/CS5GnaTB) pour le jeu et déplacez-le dans le dossier **créé à l'étape 4.**
+   - Pensez à renommer le fichier téléchargé pour qu'il s'appelle tmpfrenchfonts
    - [(Miroir avec polices sur Yandex disc)](https://disk.yandex.ru/d/ZKi3tK4krhPrWA)
 ### 6. Réglez la localisation
    - Téléchargez [archive](../../releases), et copiez le dossier Localize et le fichier LimbusCompanyFR_BIE.dll du dossier dans l'archive vers le dossier **créé à l'étape 4**.
