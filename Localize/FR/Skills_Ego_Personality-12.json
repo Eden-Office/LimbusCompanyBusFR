@@ -1,5 +1,113 @@
 {
   "dataList": [
-    {}
+    {
+      "id": 2120511,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Jardin d’Épines",
+          "abName": "Panneau de Roses",
+          "desc": "[BeforeAttack] À 3+ de plus haute Réson., +1 de Poids d’Atq\n[WhenUse] Applique 1 de 'Bonus de Dégâts de (Affinité de Péché Correspondante)' et 1 de 'Bonus de Puissance de (Affinité de Péché Correspondante) à (1 + # de plus haute Réson.) alliés.\n- À 4+ de Réson. Correspondante, applique 1 de 'Bonus de Dégâts de (Affinité de Péché Correspondante)' supplémentaire",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] Soigne 1 allié avec le plus bas pourcentage de PV de 15% de ses PV Max.\n- Soigne (Plus haut # de Réson. - 2) alliés supplémentaires (3 max)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Jardin d’Épines",
+          "abName": "Panneau de Roses",
+          "desc": "[BeforeAttack] Gagne (# de plus haute Réson. - 2) de Poids d’Atq (2 Max)\n[WhenUse] Applique 1 de 'Bonus de Dégâts de (Affinité de Péché Correspondante)' et 1 de 'Bonus de Puissance de (Affinité de Péché Correspondante) à (2 + # de plus haute Réson.) alliés.\n- À 4+ de Réson. Correspondante, applique 1 de 'Bonus de Dégâts de (Affinité de Péché Correspondante)' supplémentaire\n- À 5+ de Réson. Correspondante, applique 1 de 'Bonus de Puissance de (Affinité de Péché Correspondante)' supplémentaire",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] Soigne 2 alliés avec le plus bas pourcentage de PV de 18% de ses PV Max.\n- Soigne (Plus haut # de Réson. - 2) alliés supplémentaires (3 max)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Jardin d’Épines",
+          "abName": "Panneau de Roses",
+          "desc": "[BeforeAttack] Gagne (# de plus haute Réson. - 2) de Poids d’Atq (3 max)\n[WhenUse] Applique 1 de 'Bonus de Dégâts de (Affinité de Péché Correspondante)' et 1 de 'Bonus de Puissance de (Affinité de Péché Correspondante) à (4 + # de plus haute Réson.) alliés.\n- À 4+ de Réson. Correspondante, applique 1 de 'Bonus de Dégâts de (Affinité de Péché Correspondante)' supplémentaire\n- À 5+ de Réson. Correspondante, applique 1 de 'Bonus de Puissance de (Affinité de Péché Correspondante)' supplémentaire\n- À 6+ de Réson. Correspondante, applique également les effets ci-dessus au tour suivant",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] Soigne 4 alliés avec le plus bas pourcentage de PV de 22% de ses PV Max.\n- Soigne (Plus haut # de Réson. - 2) alliés supplémentaires (3 max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120521,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Jardin d’Épines",
+          "abName": "Panneau de Roses",
+          "desc": "[CantIdentify]\nCible Aléatoirement\n[BeforeAttack] À 3+ de plus haute Réson., +1 de Poids d’Atq",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [AttackDmgDown]. Inflige 2 de [Binding] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de 'Vulnérabilité' et 1 de 'Malus de Puissance' à l’Affinité de Péché avec le plus haut compte de Réson.\n- À 4+ de Réson. Correspondante, inflige 1 de 'Vulnérabilité de (Affinité de Péché Correspondante)' supplémentaire"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Jardin d’Épines",
+          "abName": "Panneau de Roses",
+          "desc": "[CantIdentify]\nCible Aléatoirement\n[BeforeAttack] Gagne (Plus haut # de Réson. - 2) de Poids d’Atq (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [AttackDmgDown]. Inflige 2 de [Binding] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de 'Vulnérabilité' et 1 de 'Malus de Puissance' à l’Affinité de Péché avec le plus haut compte de Réson.\n- À 4+ de Réson. Correspondante, inflige 1 de 'Vulnérabilité de (Affinité de Péché Correspondante)' supplémentaire\n- À 5+ de Réson. Correspondante, inflige 1 de 'Malus de Puissance de (Affinité de Péché Correspondante)' supplémentaire"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Jardin d’Épines",
+          "abName": "Panneau de Roses",
+          "desc": "[CantIdentify]\nCible Aléatoirement\n[BeforeAttack] Gagne (Plus haut # de Réson. - 2) de Poids d’Atq (3 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [AttackDmgDown]. Inflige 2 de [Binding] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de 'Vulnérabilité' et 1 de 'Malus de Puissance' à l’Affinité de Péché avec le plus haut compte de Réson.\n- À 4+ de Réson. Correspondante, inflige 1 de 'Vulnérabilité de (Affinité de Péché Correspondante)' supplémentaire\n- À 5+ de Réson. Correspondante, inflige 1 de 'Malus de Puissance de (Affinité de Péché Correspondante)' supplémentaire\n- À 6+ de Réson. Correspondante, applique également les effets ci-dessus au tour suivant"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   ]
 }
