@@ -371,7 +371,7 @@ namespace LimbusCompanyFR
         [HarmonyPrefix]
         private static bool GetTellerName(StoryData __instance, string name, LOCALIZE_LANGUAGE lang, ref string __result)
         {
-            if (__instance._modelAssetMap.TryGetValueEX(name, out var scenarioAssetData))
+            if (__instance._modelAssetMap._modelAssetMap.TryGetValueEX(name, out var scenarioAssetData))
                 __result = scenarioAssetData.krname ?? string.Empty;
             return false;
         }
@@ -379,7 +379,7 @@ namespace LimbusCompanyFR
         [HarmonyPrefix]
         private static bool GetTellerTitle(StoryData __instance, string name, LOCALIZE_LANGUAGE lang, ref string __result)
         {
-            if (__instance._modelAssetMap.TryGetValueEX(name, out var scenarioAssetData))
+            if (__instance._modelAssetMap._modelAssetMap.TryGetValueEX(name, out var scenarioAssetData))
                 __result = scenarioAssetData.nickName ?? string.Empty;
             return false;
         }
@@ -404,7 +404,7 @@ namespace LimbusCompanyFR
         private static void StoryDataInit(StoryData __instance)
         {
             foreach (ScenarioAssetData scenarioAssetData in JsonUtility.FromJson<ScenarioAssetDataList>(EO_Manager.Localizes["NickName"]).assetData)
-                __instance._modelAssetMap[scenarioAssetData.name] = scenarioAssetData;
+                __instance._modelAssetMap._modelAssetMap[scenarioAssetData.name] = scenarioAssetData;
         }
         [HarmonyPatch(typeof(LoginSceneManager), nameof(LoginSceneManager.SetLoginInfo))]
         [HarmonyPostfix]

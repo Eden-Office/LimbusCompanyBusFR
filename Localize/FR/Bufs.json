@@ -439,37 +439,37 @@
     {
       "id": "CrimsonResistDown",
       "name": "Malus de Résistance à la Colère",
-      "desc": "Réduit de 0.{0} la Résistance à la Colère"
+      "desc": "Augmente de 0.{0} la Résistance à la Colère"
     },
     {
       "id": "ScarletResistDown",
       "name": "Malus de Résistance à la Luxure",
-      "desc": "Réduit de 0.{0} la Résistance à la Luxure"
+      "desc": "Augmente de 0.{0} la Résistance à la Luxure"
     },
     {
       "id": "AmberResistDown",
       "name": "Malus de Résistance à la Paresse",
-      "desc": "Réduit de 0.{0} la Résistance à la Paresse"
+      "desc": "Augmente de 0.{0} la Résistance à la Paresse"
     },
     {
       "id": "ShamrockResistDown",
       "name": "Malus de Résistance à la Gourmandise",
-      "desc": "Réduit de 0.{0} la Résistance à la Gourmandise"
+      "desc": "Augmente de 0.{0} la Résistance à la Gourmandise"
     },
     {
       "id": "AzureResistDown",
       "name": "Malus de Résistance à la Peine",
-      "desc": "Réduit de 0.{0} la Résistance à la Peine"
+      "desc": "Augmente de 0.{0} la Résistance à la Peine"
     },
     {
       "id": "IndigoResistDown",
       "name": "Malus de Résistance à l’Orgueil",
-      "desc": "Réduit de 0.{0} la Résistance à l’Orgueil"
+      "desc": "Augmente de 0.{0} la Résistance à l’Orgueil"
     },
     {
       "id": "VioletResistDown",
       "name": "Malus de Résistance à l’Envie",
-      "desc": "Réduit de 0.{0} la Résistance à l’Envie"
+      "desc": "Augmente de 0.{0} la Résistance à l’Envie"
     },
     {
       "id": "CrimsonResistUp",
@@ -1748,14 +1748,14 @@
     {
       "id": "SwordPlayOfTheHomeland",
       "name": "Maniement de l’Épée Patriote",
-      "desc": "- Lorsqu’à 5+ de Calme, en utilisant une Capacité, les Capacités 1 et 2 gagnent +(3/# de Pièces, minimum 1) de Puissance de Pièce et infligent +(30/# de Pièces)% de dégâts en Coup Critique\n- Lorsqu’à 7+ de Calme, en utilisant une Capacité, la Capacité 3 inflige +(30/# de Pièces)% de dégâts supplémentaires et inflige +(50/# de Pièces)% de dégâts en Coup Critique",
-      "summary": "Améliore les Capacités lorsqu’au dessus d’un certain seuil de Calme"
+      "desc": "- Lorsque à 5+ de Calme, en utilisant une Capacité, les Capacités 1 et 2 gagnent +(3/# de Pièces, minimum 1) de Puissance de Pièce et infligent +(30/# de Pièces)% de dégâts en Coup Critique\n- Lorsque à 7+ de Calme, en utilisant une Capacité, la Capacité 3 inflige +(30/# de Pièces)% de dégâts supplémentaires et inflige +(50/# de Pièces)% de dégâts en Coup Critique",
+      "summary": "Améliore les Capacités lorsque au dessus d’un certain seuil de Calme"
     },
     {
       "id": "SwordPlayOfTheMemorial",
       "name": "Remembrance",
-      "desc": "Lorsqu’à 5+ de Calme, en utilisant une Capacité, les Capacités 1 et 2 gagnent +(3/# de Pièces, minimum 1) de Puissance de Pièce et infligent +(30/# de Pièces)% de dégâts en Coup Critique\nLorsqu’à 7+ de Calme, en utilisant une Capacité, la Capacité 3 inflige +(30/# de Pièces)% de dégâts supplémentaires et inflige +(50/# de Pièces)% de dégâts en Coup Critique",
-      "summary": "Améliore les Capacités lorsqu’au dessus d’un certain seuil de Calme"
+      "desc": "Lorsque à 5+ de Calme, en utilisant une Capacité, les Capacités 1 et 2 gagnent +(3/# de Pièces, minimum 1) de Puissance de Pièce et infligent +(30/# de Pièces)% de dégâts en Coup Critique\nLorsque à 7+ de Calme, en utilisant une Capacité, la Capacité 3 inflige +(30/# de Pièces)% de dégâts supplémentaires et inflige +(50/# de Pièces)% de dégâts en Coup Critique",
+      "summary": "Améliore les Capacités lorsque au dessus d’un certain seuil de Calme"
     },
     {
       "id": "RedApricotBlossom",
@@ -1840,6 +1840,12 @@
       "name": "Malus de Puissance d’Envie",
       "desc": "Durant ce tour, -{0} de Puissance Finale de Capacités d’Envie.",
       "summary": "-{0} Puissance Finale de Capacités d’Envie"
+    },
+    {
+      "id": "Vibration_Collapse",
+      "name": "Tremblement - Désintégration",
+      "desc": "Perd 1 Niveau Défensif pour chaque 4 de Puissance de Tremblement sur soi\nPendant {1} tours : lorsque Touché par des Capacités provoquant un Sursaut de Tremblement, augmente de {0} le Seuil de Déséquilibre\n(Interagit de la même manière que du Tremblement normal aux effets qui augmentent ou réduisent la Puissance/Compte de Tremblement)",
+      "summary": "Perd 1 Niveau Défensif pour chaque 4 de Puissance de Tremblement sur soi\nAugmente de {0} le Seuil de Déséquilibre"
     }
   ]
 }

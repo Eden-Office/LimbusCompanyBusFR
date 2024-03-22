@@ -216,6 +216,218 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1070801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Exécution Avisée",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Exécution Avisée",
+          "desc": "Si la cible a 3+ de [Vibration], +1 de Puissance de Pièce",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Exécution Avisée",
+          "desc": "+1 de Puissance de Pièce pour chaque 3 de [Vibration] sur la cible (2 Max)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1070802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Dernier Avertissement",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Dernier Avertissement",
+          "desc": "Si la cible a 6+ de [Vibration], +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Dernier Avertissement",
+          "desc": "+1 de Puissance de Pièce pour chaque 6 de [Vibration] sur la cible (2 Max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1070803,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Condamnation à l’Exécution",
+          "desc": "Si la cible a 6+ de [Vibration], +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la somme de la Puissance et du Compte de [Vibration] de la cible est supérieure ou égale à 20, déclenche une Conversion d’Amplitude sur la cible, convertissant le [Vibration] en [Vibration_Collapse]\n(Conversion d’Amplitude : Convertit [Vibration] ou le [Vibration] déjà converti de la cible en un type différent de [Vibration]. Les valeurs de Puissance et de Compte ne changent pas durant la conversion.)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Condamnation à l’Exécution",
+          "desc": "+1 de Puissance de Pièce pour chaque 6 de [Vibration] sur la cible (Max 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack]  Si la somme de la Puissance et du Compte de [Vibration] de la cible est supérieure ou égale à 20, déclenche une Conversion d’Amplitude sur la cible, convertissant le [Vibration] en [Vibration_Collapse]\n(Conversion d’Amplitude : Convertit [Vibration] ou le [Vibration] déjà converti de la cible en un type différent de [Vibration]. Les valeurs de Puissance et de Compte ne changent pas durant la conversion.)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1070804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Interdiction d’Entraver",
+          "desc": "Lorsque attaqué alors que cette unité a Bouclier, inflige +1 de Compte de [Vibration] à l’attaquant (cet effet ne se cumule pas avec des utilisations multiples)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Interdiction d’Entraver",
+          "desc": "Lorsque attaqué alors que cette unité a Bouclier, inflige +1 de Compte de [Vibration] à l’attaquant (cet effet ne se cumule pas avec des utilisations multiples)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
