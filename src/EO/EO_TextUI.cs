@@ -645,10 +645,19 @@ namespace LimbusCompanyFR
             Transform battle_pass_bought = __instance.transform.Find("[Rect]Right/[Rect]Ticket/[Image]LimTicketImage_YesIHave/[LocalizeText]Useing");
             Transform package = __instance.transform.Find("[Rect]Right/[Rect]Package/[Text]Title");
             Transform package_popUp = __instance.transform.Find("BattlePassPurchaseLimbusOrPackagePopup/PanelGroup/PopupBase/Container/[Rect]Contents/[Button]PurchasePackage/[Text]Title");
+            Transform until_pass = __instance.transform.Find("[Rect]Right/[Text]UntilSeason");
             limbus_pass.GetComponentInChildren<TextMeshProUGUI>(true).text = "<cspace=-2px>PASS LIMBUS</cspace>";
             limbus_pass_bought.GetComponentInChildren<TextMeshProUGUI>(true).text = "<cspace=-2px>PASS LIMBUS</cspace>";
-            List<Transform> transforms = new List<Transform> { limbus_pass, limbus_pass_bought, battle_pass, battle_pass_bought, package, package_popUp, __instance.tmp_be_in_use.transform, __instance.limbusPassPopup.tmp_description.transform };
+            List<Transform> transforms = new List<Transform> { limbus_pass, limbus_pass_bought, battle_pass, battle_pass_bought, package, package_popUp, until_pass, __instance.tmp_be_in_use.transform, __instance.limbusPassPopup.tmp_description.transform };
             BebasForPass(transforms);
+        }
+        [HarmonyPatch(typeof(BattlePassUIPopup), nameof(BattlePassUIPopup.SetRemainText))]
+        [HarmonyPostfix]
+        private static void BattleSeason_Init(BattlePassUIPopup __instance)
+        {
+            Transform until_pass = __instance.transform.Find("[Rect]Right/[Text]UntilSeason");
+            until_pass.GetComponentInChildren<TextMeshProUGUI>(true).m_fontAsset = LCB_French_Font.GetFrenchFonts(0);
+            until_pass.GetComponentInChildren<TextMeshProUGUI>(true).m_sharedMaterial = LCB_French_Font.GetFrenchMats(2);
         }
         [HarmonyPatch(typeof(BattlePassPurchasedModal), nameof(BattlePassPurchasedModal.SetCurrentSeasonOpen))]
         [HarmonyPostfix]

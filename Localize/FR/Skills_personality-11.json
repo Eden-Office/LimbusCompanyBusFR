@@ -629,6 +629,193 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1110801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cogne",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Cogne",
+          "desc": "[WhenUse] Si la cible a 7+ de Lourdeur, +1 de Puissance de Pièce",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Cogne",
+          "desc": "[WhenUse] Si la cible a 5+ de [Sinking], +1 de Puissance de Pièce",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1110802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Dépoussière",
+          "desc": "[WinDuel] Inflige +1 de Compte de [Sinking]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Dépoussière",
+          "desc": "[WinDuel] Inflige +2 de Compte de [Sinking]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Dépoussière",
+          "desc": "[WhenUse] Si la cible a 5+ de [Sinking], +1 de Puissance de Pièce\n[WinDuel] Inflige +2 de Compte de [Sinking]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1110803,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Comme Maîtresse l’Ordonne",
+          "desc": "[WinDuel] Inflige +3 de Compte de [Sinking]",
+          "coinlist": [
+            {},
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [EchoOfMansion] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [EchoOfMansion], inflige des dégâts d’Affinité de Peine égaux à la moitié de la Puissance de [Sinking] sur la cible (20 max)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Comme Maîtresse l’Ordonne",
+          "desc": "[WhenUse] Si la cible a 7+ de [Sinking], +1 de Puissance de Pièce\n[WinDuel] Inflige +3 de Compte de [Sinking]",
+          "coinlist": [
+            {},
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [EchoOfMansion] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [EchoOfMansion], inflige des dégâts d’Affinité de Peine égaux à la Puissance de [Sinking] sur la cible (30 max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1110804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Imbécile Insolent ! ...",
+          "desc": "[OnSucceedEvade] Inflige 1 de [Sinking] (3 fois par tour)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Imbécile Insolent ! ...",
+          "desc": "[OnSucceedEvade] Inflige 1 de [Sinking] (6 fois par tour)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
     }
   ]
 }

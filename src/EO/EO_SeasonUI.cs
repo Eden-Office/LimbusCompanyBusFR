@@ -41,7 +41,7 @@ namespace LimbusCompanyFR
         {
             __instance.seasonPeriod.font = LCB_French_Font.tmpfrenchfonts[1];
             __instance.seasonPeriod.fontMaterial = LCB_French_Font.tmpfrenchfonts[1].material;
-            __instance.seasonPeriod.text = "15.11.2023 04:00\n~ 13.03.2024 21:59 (CET)";
+            __instance.seasonPeriod.text = "28.03.2024 04:00 (CET) ~";
 
             //FLAGS
             __instance.seasonPeriod.m_isRebuildingLayout = false;

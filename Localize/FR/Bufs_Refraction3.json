@@ -15,7 +15,7 @@
     {
       "id": "MRcAiBa",
       "name": "Braises",
-      "desc": "5 Max\nEn gagnant des Braises, converti un nombre de Capacités d’Affinité autres que de Colère égal à la valeur de Braise en Capacités d’Affinité de Colère.\nLorsque les Ailes sont brisées, inflige des Braises Scintillantes égales à la valeur de Braises du dernier attaquant ; puis, toutes les Braises sur soi disparaissent.",
+      "desc": "5 Max\nEn gagnant des Braises, converti {0} Capacités d’Affinité autres que de Colère en Capacités d’Affinité de Colère.\nLorsque les Ailes sont brisées, inflige des Braises Scintillantes égales à la valeur de Braises du dernier attaquant ; puis, toutes les Braises sur soi disparaissent.",
       "summary": ""
     },
     {
@@ -27,7 +27,7 @@
     {
       "id": "MRcAiBc",
       "name": "Étincelle",
-      "desc": "Début du Combat : inflige autant de Brûlure que de Brûlure sur soi à 2 unités adjacentes (basés sur la Vitesse).\nNe peut pas gagner de Braises lorsque cette unité possède Étincelle.\nFin du Tour : réduit la valeur de 1",
+      "desc": "Combat Start: inflige autant de Brûlure que de Brûlure sur soi à 2 unités adjacentes (basés sur la Vitesse).\nNe peut pas gagner de Braises lorsque cette unité possède Étincelle.\nFin du Tour : réduit la valeur de 1",
       "summary": ""
     },
     {
@@ -39,7 +39,7 @@
     {
       "id": "MRcAmBb",
       "name": "Agrippage",
-      "desc": "3 Max\nNe peut pas agir\nFin du Tour : à 2- de valeur, inflige des dégâts égaux à la moitié des PV Max. de la cible. Puis, toutes les Parties de la Spirale de Mépris regagnent la même quantité de PV que de dégâts infligés par cet effet.\nFin du Tour : réduit la valeur de 1.\nSi cet effet porte les PVs de la cible à 0, la cible ne peut plus être soignée.",
+      "desc": "3 Max\nNe peut pas agir\nFin du Tour :  à 2- de valeur, inflige des dégâts égaux à la moitié des PV Max. de la cible. Puis, toutes les Parties de la Spirale de Mépris regagnent la même quantité de PV que de dégâts infligés par cet effet.\nFin du Tour : réduit la valeur de 1\nSi cet effet porte les PVs de la cible à 0, la cible ne peut plus être soignée.",
       "summary": ""
     },
     {
@@ -51,13 +51,13 @@
     {
       "id": "MRcAmBd",
       "name": "Regard Qui Contemple Tout",
-      "desc": "Gagne 1 à chaque Fin de Tour.\nFin du Tour : toutes les unités avec Regard subissent (4 * valeur) de dégâts fixes de PV et (4 * valeur) de dégâts fixes de PSM.",
+      "desc": "Gagne 1 à chaque Fin de Tour.\nFin du Tour : toutes les unités avec Regard subissent (4 * {0}) de dégâts fixes de PV et (4 * {0}) de dégâts fixes de PSM.",
       "summary": ""
     },
     {
       "id": "MRcAmBbDisplay",
       "name": "Agrippage",
-      "desc": "Max 3\nNe peut pas agir\nFin du Tour : à 2- de valeur, inflige des dégâts égaux à la moitié des PV Max. de la cible. Puis, toutes les Parties de la Spirale de Mépris regagnent la même quantité de PV que de dégâts infligés par cet effet.\nFin du Tour : réduit la valeur de 1.\nSi cet effet porte les PVs de la cible à 0, la cible ne peut plus être soignée.",
+      "desc": "3 Max\nNe peut pas agir\nFin du Tour :  à 2- de valeur, inflige des dégâts égaux à la moitié des PV Max. de la cible. Puis, toutes les Parties de la Spirale de Mépris regagnent la même quantité de PV que de dégâts infligés par cet effet.\nFin du Tour : réduit la valeur de 1.\nSi cet effet porte les PVs de la cible à 0, la cible ne peut plus être soignée.",
       "summary": ""
     }
   ]

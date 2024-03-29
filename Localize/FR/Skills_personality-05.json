@@ -520,6 +520,190 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1050901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Coup de Batte",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 2 de [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Coup de Batte",
+          "desc": "Si la cible a 5+ de [Burst], +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Coup de Batte",
+          "desc": "Si la cible a 5+ de [Burst], +<style=\"highlight\">2</style> de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1050902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Confrontation",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 6+ de [Burst], inflige 2 de [AttackDown]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Confrontation",
+          "desc": "[WinDuel] Inflige +2 de Compte de [Burst]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 6+ de [Burst], inflige 2 de [AttackDown]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Confrontation",
+          "desc": "<style=\"highlight\">[WhenUse] Si la cible a 6+ de [Burst], +1 de Puissance de Pièce</style>\n[WinDuel] Inflige +2 de Compte de [Burst]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 4+ de [Burst], inflige 2 de [AttackDown]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1050903,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Impitoyable",
+          "desc": "[WhenUse] Si la cible a 6+ de [Burst], +1 de Puissance de Pièce\n[WinDuel] Inflige 2 de [AttackDown]",
+          "coinlist": [
+            {},
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 6+ de [Burst], inflige 2 de [AttackDown] au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Impitoyable",
+          "desc": "<style=\"highlight\">[WhenUse] Si la cible a 3+ de [Burst], +1 de Puissance de Duel</style>\n[WhenUse] Si la cible a 6+ de [Burst], +1 de Puissance de Pièce\n[WinDuel] Inflige 2 de [AttackDown]",
+          "coinlist": [
+            {},
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 6+ de [Burst], inflige 2 de [AttackDown] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1050904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Riposte",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Riposte",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

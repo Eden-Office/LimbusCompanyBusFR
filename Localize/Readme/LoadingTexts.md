@@ -1,4 +1,4 @@
-- Carmen sort de ma tête, par pitié
+- Carmen sorts de ma tête, par pitié
 - C'est de ta faute Ishmael
 - Angela ne peut pas résoudre de CAPTCHA
 - Préparation du vroum vroum

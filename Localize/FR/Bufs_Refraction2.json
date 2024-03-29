@@ -3,32 +3,28 @@
     {
       "id": "TipsinessRail",
       "name": "Pompette",
-      "desc": "Perd de la Puissance de Duel selon le Compte de l’effet (5 Max)",
+      "desc": "-{0} de Puissance de Duel (Max 5)",
       "summary": "Perd de la Puissance de Duel selon le Compte de l’effet"
     },
     {
       "id": "PassedPortal_Red",
       "name": "Dimension Hémorragique",
-      "desc": "+10% de Bonus de Dégâts",
-      "summary": "+10% de Bonus de Dégâts"
+      "desc": "Traverse la Faille Dimensionnelle pour gagner +{0}0% de Bonus de Dégâts"
     },
     {
       "id": "PassedPortal_Green",
       "name": "Dimension Venimeuse",
-      "desc": "+20% de PV Max",
-      "summary": "+20% de PV Max"
+      "desc": "Traverse la Faille Dimensionnelle pour gagner +20% de PV Max"
     },
     {
       "id": "PassedPortal_Yellow",
       "name": "Dimension Tremblante",
-      "desc": "Augmente la Vitesse de 1",
-      "summary": "Augmente la Vitesse de 1"
+      "desc": "Traverse la Faille Dimensionnelle pour gagner {0} de Vitesse"
     },
     {
       "id": "PassedPortal_Blue",
       "name": "Dimension Électrifiante",
-      "desc": "+1 de Puissance de Pièce",
-      "summary": "+1 de Puissance de Pièce"
+      "desc": "Traverse la Faille Dimensionnelle pour gagner +{0} de Puissance de Pièce"
     },
     {
       "id": "FairyCharm",
@@ -39,13 +35,13 @@
     {
       "id": "DecoyRegenerated",
       "name": "Régénération",
-      "desc": "Gagne 1 chaque fois qu’une partie est restaurée",
+      "desc": "+1 de nombre d’Unité Charmée chaque fois qu’une partie est restaurée",
       "summary": ""
     },
     {
       "id": "WaveFoxUmbrella",
       "name": "Parapluie Protecteur",
-      "desc": "Toutes les parties gagnent de la Protection égale à la valeur\nEn utilisant la Capacité Attente, invoque autant de Vieux Parapluie que la valeur\n1 dépensé chaque fois qu’un Parapluie est brisé."
+      "desc": "Toutes les parties gagnent de la Protection égale à {0}\nEn utilisant la Capacité Attente, invoque {0} Vieux Parapluie\n1 dépensé chaque fois qu’un Parapluie est brisé."
     },
     {
       "id": "InterlockingTime_Re",
@@ -68,8 +64,8 @@
     {
       "id": "WrappedCurseTagRe",
       "name": "Talisman de Malédiction Enchevêtré",
-      "desc": "Inflige +1% de dégâts par Compte\nÀ 9+ de Compte, gagne 2 de Malus d’Attaque au début du tour. (9 Max)",
-      "summary": "Inflige +1% de dégâts par Compte ; à 9+ de Compte, gagne 2 de Malus d’Attaque au début du tour."
+      "desc": "Inflige +1% de dégâts par Compte\nÀ 9+ de Compte, gagne 2 de Malus d’Attaque au début du tour (9 Max)",
+      "summary": " "
     },
     {
       "id": "AccumulatedPast",
@@ -86,13 +82,13 @@
     {
       "id": "BloomingRose",
       "name": "Péché en Éclosion",
-      "desc": "À la fin du tour\n- Gagne 1 de Compte.\n- Les Identités Liées perdent des PV égaux à 25% des PV Max\n- Perd 10% des ressources E.G.O. de la même Affinité que la Rose.\n- Le Panneau de Roses regagne des PV égaux à 5% de ses PV Max\n\nÀ 4 de Compte,\n- Les Identités liées meurent.\n- Perd toutes les ressources E.G.O. de la même Affinité que la Rose.",
+      "desc": "À la fin du tour\n- Gagne 1 de Compte.\n- {2} perd des PV égaux à 25% des PV Max.\n- Perd 10% de ressource E.G.O. de {1}.\n- Le Panneau de Roses regagne des PV égaux à 5% de ses PV Max.\n\nÀ 4 de Compte,\n- {2} meurt.\n- Perd toutes les ressources E.G.O. de {1}.",
       "summary": ""
     },
     {
       "id": "EatingSin",
       "name": "Péché Trempé",
-      "desc": "PV Max augmentés de (Ressources E.G.O. drainées)%\n\nÀ la Mort\n- Regagne les ressources E.G.O. drainées.\n- Soigne l’Identité liée de (25% des PV Max de l’Identité * Compte de Péché en Éclosion) PV.",
+      "desc": "Gagne {0}% (Ressources E.G.O. drainées) de PV Max.\n\nÀ la Mort\n- Regagne {0} de ressource E.G.O. de {1}.\n- {2} se soigne de (25% des PV Max de l’Identité * Compte de Péché en Éclosion à la mort) PV.",
       "summary": ""
     },
     {
@@ -102,51 +98,19 @@
       "summary": ""
     },
     {
-      "id": "FullBloomRose_Crimson",
-      "name": "Rose Éclose",
-      "desc": "Augmente les dégâts infligés et reçus par l’Affinité de Colère de l’Identité",
+      "id": "RailLine2Buff",
+      "name": "Réfraction Miroir",
       "summary": ""
     },
     {
-      "id": "FullBloomRose_Scarlet",
+      "id": "FullBloomRose",
       "name": "Rose Éclose",
-      "desc": "Augmente les dégâts infligés et reçus par l’Affinité de Luxure de l’Identité",
-      "summary": ""
-    },
-    {
-      "id": "FullBloomRose_Amber",
-      "name": "Rose Éclose",
-      "desc": "Augmente les dégâts infligés et reçus par l’Affinité de Paresse de l’Identité",
-      "summary": ""
-    },
-    {
-      "id": "FullBloomRose_Shamrock",
-      "name": "Rose Éclose",
-      "desc": "Augmente les dégâts infligés et reçus par l’Affinité de Gourmandise de l’Identité",
-      "summary": ""
-    },
-    {
-      "id": "FullBloomRose_Azure",
-      "name": "Rose Éclose",
-      "desc": "Augmente les dégâts infligés et reçus par l’Affinité de Peine de l’Identité",
-      "summary": ""
-    },
-    {
-      "id": "FullBloomRose_Indigo",
-      "name": "Rose Éclose",
-      "desc": "Augmente les dégâts infligés et reçus par l’Affinité d’Orgueil de l’Identité",
-      "summary": ""
-    },
-    {
-      "id": "FullBloomRose_Violet",
-      "name": "Rose Éclose",
-      "desc": "Augmente les dégâts infligés et reçus par l’Affinité d’Envie de l’Identité",
       "summary": ""
     },
     {
       "id": "KalpaVine",
       "name": "Ronces de l’Éternité",
-      "desc": "Tous les personnages infligent moins de dégâts.\nTous les personnages subissent moins de dégâts.",
+      "desc": "Tous les personnages infligent -{0}0% de dégâts\nTous les personnages subissent -{0}0% de dégâts",
       "summary": ""
     }
   ]
