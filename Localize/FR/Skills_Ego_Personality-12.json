@@ -108,6 +108,118 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2120611,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Jours d’Antan",
+          "abName": "Portrait d’un Certain Jour",
+          "desc": "[EndSkill] Rend 10 PSM à soi-même et 2 autres alliés avec le moins de PSM\n- Si la cible survit à cette attaque, consomme 5 de Compte de [Sinking] sur la cible, puis rend des PSM supplémentaires (à soi et aux alliés affectés) égaux à la Puissance de [Sinking] sur la cible (Soin de PSM Max : 20)\n- Si la cible est vaincue, inflige 3 de [Sinking] sur 2 ennemis aléatoires (pour les Affrontements Concentrés, des Parties aléatoires)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Jours d’Antan",
+          "abName": "Portrait d’un Certain Jour",
+          "desc": "[EndSkill] Rend <style=\"highlight\">12</style> PSM à soi-même et 2 autres alliés avec le moins de PSM\n- Si la cible survit à cette attaque, consomme 5 de Compte de [Sinking] sur la cible, puis rend des PSM supplémentaires (à soi et aux alliés affectés) égaux à la Puissance de [Sinking] sur la cible (Soin de PSM Max : 20)\n- Si la cible est vaincue, inflige 3 de [Sinking] et <style=\"highlight\">1 de [Curse]</style> sur 2 ennemis aléatoires (pour les Affrontements Concentrés, des Parties aléatoires)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Jours d’Antan",
+          "abName": "Portrait d’un Certain Jour",
+          "desc": "[EndSkill] Rend <style=\"highlight\">15</style> PSM à soi-même et 2 autres alliés avec le moins de PSM\n- Si la cible survit à cette attaque, consomme <style=\"highlight\">3</style> de Compte de [Sinking] sur la cible, puis rend des PSM supplémentaires (à soi et aux alliés affectés) égaux à la Puissance de [Sinking] sur la cible (Soin de PSM Max : 20)\n- Si la cible est vaincue, inflige 3 de [Sinking] et 1 de [Curse] sur <style=\"highlight\">3</style> ennemis aléatoires (pour les Affrontements Concentrés, des Parties aléatoires)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120621,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Jours d’Antan",
+          "abName": "Portrait d’un Certain Jour",
+          "desc": "[CantIdentify]\nCible aléatoirement",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [AzureTakeDamageUp]. À 3+ de Réson. de Peine, inflige 1 de [AzureTakeDamageUp] supplémentaire"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Curse]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Jours d’Antan",
+          "abName": "Portrait d’un Certain Jour",
+          "desc": "[CantIdentify]\nCible aléatoirement",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [AzureTakeDamageUp]. Inflige 1 de [AzureTakeDamageUp] supplémentaire pour chaque 3 de Réson. de Peine (2 max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Curse]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Jours d’Antan",
+          "abName": "Portrait d’un Certain Jour",
+          "desc": "[CantIdentify]\nCible aléatoirement\nSi la cible a [Curse], inflige +50% de dégâts",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [AzureTakeDamageUp]. Inflige 1 de [AzureTakeDamageUp] supplémentaire pour chaque 2 de Réson. de Peine (2 max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Curse]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

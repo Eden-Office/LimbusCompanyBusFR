@@ -637,6 +637,184 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1020901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Confiscation",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 2 de [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Confiscation",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Confiscation",
+          "desc": "[WhenUse] Si la cible a 6+ de [Sinking], +1 de Puissance de Pièce",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1020902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Accueil d’Intrus",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige +2 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Accueil d’Intrus",
+          "desc": "[WhenUse] Si la cible a 5+ de [Sinking], +1 de Puissance de Duel",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Accueil d’Intrus",
+          "desc": "[WhenUse] Si la cible a 5+ de [Sinking], +1 de Puissance de Duel\n[WhenUse] Si la cible a 3+ de Compte de [Sinking], +1 de Puissance de Pièce",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1020903,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Arts de la Réception 4 : Sceau Cardiaque",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [EchoOfMansion] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [EchoOfMansion], inflige +3 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Arts de la Réception 4 : Sceau Cardiaque",
+          "desc": "[WhenUse] Si la cible a 5+ de Compte de [Sinking], +2 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [EchoOfMansion] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [EchoOfMansion], inflige +3 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1020904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Plans de Chasse",
+          "desc": "[WhenUse] Si la cible a 10+ de [Sinking], +3 de Puissance de Pièce",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Plans de Chasse",
+          "desc": "[WhenUse] Si la cible a 10+ de [Sinking], +7 de Puissance de Pièce",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
     }
   ]
 }

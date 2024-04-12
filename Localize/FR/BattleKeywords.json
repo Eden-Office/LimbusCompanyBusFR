@@ -59,7 +59,7 @@
     {
       "id": "Bleeding",
       "name": "Saignement",
-      "desc": "En attaquant, subit des dégâts fixes égaux à (Compte)% des PVs actuels puis le réduit de moitié."
+      "desc": "En attaquant, subit des dégâts fixes égaux à (Compte)% des PV actuels puis le réduit de moitié."
     },
     {
       "id": "Target",
@@ -68,23 +68,23 @@
     },
     {
       "id": "SelfHarm_LowMorale",
-      "name": "Compulsion (Moral Bas)",
-      "desc": "Au début du tour, gagne 2 de Vitesse et 2 de Vulnérabilité."
+      "name": "Compulsion",
+      "desc": "- Moral Bas\n- Début du Tour : gagne 2 de Vitesse et 2 de Vulnérabilité."
     },
     {
       "id": "SelfHarm_Panic",
-      "name": "Compulsion (Panique)",
-      "desc": "Au début du tour, lose 10 HP."
+      "name": "Compulsion",
+      "desc": "- Panique\n- Début du Tour : lose 10 HP."
     },
     {
       "id": "Blame_LowMorale",
-      "name": "Déchaînement (Moral Bas)",
-      "desc": "Au début du tour, gagne 2 de Bonus d’Attaque et 2 de Vulnérabilité."
+      "name": "Déchaînement",
+      "desc": "- Moral Bas\n- Début du Tour : gagne 2 de Bonus d’Attaque et 2 de Vulnérabilité."
     },
     {
       "id": "Blame_Panic",
-      "name": "Déchaînement (Panique)",
-      "desc": "Au début du tour, un allié aléatoire perd 20 PSM."
+      "name": "Déchaînement",
+      "desc": "- Panique\n- Début du Tour : un allié aléatoire perd 20 PSM."
     },
     {
       "id": "Charge",
@@ -555,7 +555,7 @@
     },
     {
       "id": "Aggressive",
-      "name": "Instincts",
+      "name": "Intuition",
       "desc": "À la fin du tour, si le Compte est à 4+, passe dans un état “agressif”."
     },
     {
@@ -747,7 +747,7 @@
     {
       "id": "TakeHpHealReduce",
       "name": "Malus de Soin de PV",
-      "desc": "Les soins de PV par des Passives, effets de Capacité ou effets de Pièces sont diminués selon la valeur de cet effet. (Max 5)"
+      "desc": "Les soins de PV par des Passives, effets de Capacité ou effets de Pièces sont diminués selon la valeur de cet effet. (5 Max)"
     },
     {
       "id": "AttackLevelAdder",
@@ -807,13 +807,13 @@
     {
       "id": "Exalted",
       "name": "Baume au Cœur",
-      "desc": "Gagne un Bonus de Dégâts selon le Compte de l’effet à chaque tour (Max 5)\nNe peut pas gagner ce statut en étant Pompette",
+      "desc": "Gagne un Bonus de Dégâts selon le Compte de l’effet à chaque tour (5 Max)\nNe peut pas gagner ce statut en étant Pompette",
       "summary": "Gagne un Bonus de Dégâts selon le Compte de l’effet à chaque tour ; ne peut pas gagner ce statut en étant Pompette"
     },
     {
       "id": "Tipsiness",
       "name": "Pompette",
-      "desc": "Perd de la Puissance de Duel selon le Compte de l’effet (Max 5)",
+      "desc": "Perd de la Puissance de Duel selon le Compte de l’effet (5 Max)",
       "summary": "Perd de la Puissance de Duel selon le Compte de l’effet"
     },
     {
@@ -931,57 +931,57 @@
     },
     {
       "id": "Crazy_LowMorale",
-      "name": "Affolé (Moral Bas)",
-      "desc": "Lorsqu’en moral bas pour la première fois, cible des unités sans distinction",
+      "name": "Affolé",
+      "desc": "- Moral Bas\n- Lorsqu’en moral bas pour la première fois, cible des unités sans distinction",
       "undefined": "-"
     },
     {
       "id": "Crazy_Panic",
-      "name": "Affolé (Panique)",
-      "desc": "Attaque sans distinction ; +1 de Puissance de Duel et gagne 2 de Bonus de Dégâts",
+      "name": "Affolé",
+      "desc": "- Panique\n- Attaque sans distinction ; +1 de Puissance de Duel et gagne 2 de Bonus de Dégâts",
       "undefined": "-"
     },
     {
       "id": "Suicide_LowMorale",
-      "name": "Suicidaire (Moral Bas)",
-      "desc": "Lorsqu’en moral bas pour la première fois, devient incapable d’agir",
+      "name": "Suicidaire",
+      "desc": "- Moral Bas\n- Lorsqu’en moral bas pour la première fois, devient incapable d’agir",
       "undefined": "-"
     },
     {
       "id": "Suicide_Panic",
-      "name": "Suicidaire (Panique)",
-      "desc": "Ne peut pas agir pendant 3 tours. L’unité meurt au début du tour ; tous ses alliés perdent 10 PSM",
+      "name": "Suicidaire",
+      "desc": "- Panique\n- Ne peut pas agir pendant 3 tours. L’unité meurt au début du tour ; tous ses alliés perdent 10 PSM",
       "undefined": "-"
     },
     {
       "id": "Prowl_LowMorale",
-      "name": "Errant (Moral Bas)",
-      "desc": "Fin du Tour : inflige 2 de dégâts de PSM aux alliés",
+      "name": "Errant",
+      "desc": "- Moral Bas\n- Fin du Tour : inflige 2 de dégâts de PSM aux alliés",
       "undefined": "-"
     },
     {
       "id": "Prowl_Panic",
-      "name": "Errant (Panique)",
-      "desc": "Fin du Tour : inflige 5 de dégâts de PSM aux alliés. Fuit le combat après que 3 tours soient passés",
+      "name": "Errant",
+      "desc": "- Panique\n- Fin du Tour : inflige 5 de dégâts de PSM aux alliés. Fuit le combat après que 3 tours soient passés",
       "undefined": "-"
     },
     {
       "id": "Blue_LowMorale",
-      "name": "Abattement (Moral Bas)",
-      "desc": "Dans un duel, si une Pièce tombe sur face, -1 de Puissance de Duel pour le duel",
+      "name": "Abattement",
+      "desc": "- Moral Bas\n- Dans un duel, si une Pièce tombe sur face, -1 de Puissance de Duel pour le duel",
       "undefined": "-"
     },
     {
       "id": "Blue_Panic",
-      "name": "Abattement (Panique)",
-      "desc": "Dans un duel, si une Pièce tombe sur face, -3 de Puissance de Duel pour le duel",
+      "name": "Abattement",
+      "desc": "- Panique\n- Dans un duel, si une Pièce tombe sur face, -3 de Puissance de Duel pour le duel",
       "undefined": "-"
     },
     {
       "id": "DongbaekGrow",
       "name": "En Croissance",
-      "desc": "À la fin du tour, ajoute +1 de Compte et gagne des PV Max. proportionnels au Compte. (Max 3)",
-      "summary": "À la fin du tour, ajoute +1 de Compte et gagne des PV Max. proportionnels au Compte. (Max 3)"
+      "desc": "À la fin du tour, ajoute +1 de Compte et gagne des PV Max. proportionnels au Compte. (3 Max)",
+      "summary": "À la fin du tour, ajoute +1 de Compte et gagne des PV Max. proportionnels au Compte. (3 Max)"
     },
     {
       "id": "DongbaekFlorescence",
@@ -1132,7 +1132,7 @@
     {
       "id": "TakeHpHealIncrease",
       "name": "Bonus de Soin de PV",
-      "desc": "Les soins de PV par des Passives, effets de Capacité ou effets de Pièces sont augmentés selon la valeur de cet effet. (Max 5)"
+      "desc": "Les soins de PV par des Passives, effets de Capacité ou effets de Pièces sont augmentés selon la valeur de cet effet. (5 Max)"
     },
     {
       "id": "SkillPowerUp",
@@ -1247,12 +1247,12 @@
     {
       "id": "Unjust_Enrichment",
       "name": "Enrichissement Injuste",
-      "desc": "- Gagné en Touche de Pile contre des cibles avec Saignement (Max 4)\n- Lorsque la Passive 'Les Balles c’est Cher' s’active, consomme toutes les charges d’Enrichissement Injuste pour infliger des dégâts supplémentaires"
+      "desc": "- Gagné en Touche de Pile contre des cibles avec Saignement (4 Max)\n- Lorsque la Passive 'Les Balles c’est Cher' s’active, consomme toutes les charges d’Enrichissement Injuste pour infliger des dégâts supplémentaires"
     },
     {
       "id": "Resentment",
       "name": "Rancœur",
-      "desc": "Si l’ennemi avec la <sprite name=\"RetaliationBook\"><color=#e30000><link=\"RetaliationBook\">Marque de VengeanceMark</color></link></u> est touché par une attaque, cet effet expire à la Fin de l’Attaque.\nExpire à la fin du tour",
+      "desc": "Si l’ennemi avec la <sprite name=\"RetaliationBook\"><color=#e30000><link=\"RetaliationBook\">Marque de Vengeance</color></link></u> est touché par une attaque, cet effet expire à la Fin de l’Attaque.\nExpire à la fin du tour",
       "undefined": "-"
     },
     {
@@ -1377,6 +1377,29 @@
       "id": "Switch_Vibration",
       "name": "Conversion d’Amplitude",
       "desc": "Convertit le Tremblement ou le Tremblement déjà converti de la cible en un type différent de Tremblement.\nLes valeurs de Puissance et de Compte ne changent pas durant la conversion."
+    },
+    {
+      "id": "AzureResultUp",
+      "name": "Bonus de Puissance de Peine",
+      "desc": "Les capacités de Peine gagnent de la Puissance finale selon le Compte de l’effet pendant un tour."
+    },
+    {
+      "id": "VibrationCrack",
+      "name": "Tremblement - Fracture",
+      "desc": "- Lorsque Déséquilibré, et lorsque la somme de la Puissance et du Compte de Tremblement est supérieure ou égale à 20, augmente le Niveau de Déséquilibre de 1\n- Ne peut pas dépasser le Niveau de Déséquilibre maximum avec cet effet",
+      "summary": ""
+    },
+    {
+      "id": "ForwardToTheKing",
+      "name": "Présence du Roi",
+      "desc": "Lorsque l’attaque avec 1 de Poids d’Atq de cette unité touche, inflige 50% des dégâts infligés en dégâts de (Affinité de la Capacité d’Attaque utilisée pour toucher) à 2 ennemis avec le moins de PV pouvant être attaqués.",
+      "summary": ""
+    },
+    {
+      "id": "ForwardToTheBoundKing",
+      "name": "Présence du Roi Attaché",
+      "desc": "Lorsque l’attaque avec 1 de Poids d’Atq de cette unité touche, inflige 100% des dégâts infligés en dégâts de (Affinité de la Capacité d’Attaque utilisée pour toucher) à 2 ennemis avec le moins de PV pouvant être attaqués.",
+      "summary": ""
     }
   ]
 }

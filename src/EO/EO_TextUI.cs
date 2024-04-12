@@ -19,6 +19,8 @@ using BattleUI.Typo;
 using Dungeon.Map.UI;
 using System.Collections.Generic;
 using BattleUI.BattleUnit;
+using Il2CppSystem;
+using Dungeon;
 
 namespace LimbusCompanyFR
 {
@@ -55,9 +57,9 @@ namespace LimbusCompanyFR
                 now_l.GetComponentInChildren<TextMeshProUGUI>(true).text = "Chargement...";
                 now_l.GetComponentInChildren<TextMeshProUGUI>(true).font = LCB_French_Font.tmpfrenchfonts[1];
                 now_l.GetComponentInChildren<TextMeshProUGUI>(true).fontMaterial = LCB_French_Font.tmpfrenchfonts[1].material;
-                __instance._loadingCategoryText.GetComponentInChildren<TextMeshProUGUI>(true).name = "Mise à jour";
+                __instance._loadingCategoryText.GetComponentInChildren<TextMeshProUGUI>(true).name = "Mises à jour";
                 __instance._loadingCategoryText.GetComponentInChildren<TextMeshProUGUI>(true).text = __instance._loadingCategoryText.GetComponentInChildren<TextMeshProUGUI>(true).text.Replace("Downloading", "Téléchargement des");
-                __instance._loadingCategoryText.GetComponentInChildren<TextMeshProUGUI>(true).text = __instance._loadingCategoryText.GetComponentInChildren<TextMeshProUGUI>(true).text.Replace("UPDATE", "MISE À JOUR");
+                __instance._loadingCategoryText.GetComponentInChildren<TextMeshProUGUI>(true).text = __instance._loadingCategoryText.GetComponentInChildren<TextMeshProUGUI>(true).text.Replace("UPDATE", "MISES À JOUR");
                 __instance._loadingCategoryText.GetComponentInChildren<TextMeshProUGUI>(true).text = __instance._loadingCategoryText.GetComponentInChildren<TextMeshProUGUI>(true).text.Replace("Sound", "Sons");
                 __instance._loadingCategoryText.GetComponentInChildren<TextMeshProUGUI>(true).text = __instance._loadingCategoryText.GetComponentInChildren<TextMeshProUGUI>(true).text.Replace("Sprite", "Sprites");
                 __instance._loadingCategoryText.GetComponentInChildren<TextMeshProUGUI>(true).font = LCB_French_Font.tmpfrenchfonts[1];
@@ -648,6 +650,9 @@ namespace LimbusCompanyFR
             Transform until_pass = __instance.transform.Find("[Rect]Right/[Text]UntilSeason");
             limbus_pass.GetComponentInChildren<TextMeshProUGUI>(true).text = "<cspace=-2px>PASS LIMBUS</cspace>";
             limbus_pass_bought.GetComponentInChildren<TextMeshProUGUI>(true).text = "<cspace=-2px>PASS LIMBUS</cspace>";
+            battle_pass_bought.GetComponentInChildren<TextMeshProUGUI>(true).fontSize = 44;
+            limbus_pass_bought.GetComponentInChildren<TextMeshProUGUI>(true).fontSize = 44;
+            battle_pass_bought.GetComponentInChildren<TextMeshProUGUI>(true).characterSpacing = -22;
             List<Transform> transforms = new List<Transform> { limbus_pass, limbus_pass_bought, battle_pass, battle_pass_bought, package, package_popUp, until_pass, __instance.tmp_be_in_use.transform, __instance.limbusPassPopup.tmp_description.transform };
             BebasForPass(transforms);
         }

@@ -286,6 +286,7 @@ namespace LimbusCompanyFR
                 }
 
                 Color charcoal = new Color(0.016f, 0.016f, 0.016f, 0.91f);
+                Color textcolor = __instance._text.color;
 
                 if (__instance.underlayHdrColorOn == false)
                 {
@@ -294,6 +295,12 @@ namespace LimbusCompanyFR
                     __instance._text.fontMaterial.SetFloat("_GlowPower", 0.3f);
                     __instance._text.color = Color.white;
                     return false;
+                }
+                else if (__instance._text.text.EndsWith("</color>"))
+                {
+                    __instance._text.fontMaterial.SetColor("_UnderlayColor", underlayColor);
+                    __instance._text.fontMaterial.SetColor("_GlowColor", charcoal);
+                    __instance._text.color = textcolor;
                 }
                 else
                 {

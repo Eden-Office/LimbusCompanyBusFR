@@ -510,7 +510,7 @@
     {
       "id": 9020,
       "name": "Gossypium Blanc",
-      "desc": "Début du Tour : s’il y a des ennemis Déséquilibrés, les ré-équilibre. Puis, leur inflige (8 + NV de Déséquilibre * 4) de Puissance de [Laceration] et (8 + NV de Déséquilibre * 4)/2 de [AttackDown]. (S’active une fois par ennemi par Combat. Ne s’active pas contre certains ennemis qui ne peuvent pas se remettre d’un Déséquilibre)",
+      "desc": "Début du Tour : s’il y a des ennemis Déséquilibrés, les ré-équilibre. Puis, leur inflige (8 + NV de Déséquilibre * 4) de Puissance de [Laceration] et (8 + NV de Déséquilibre * 4)/2 de [AttackDown]. (S’active une fois par ennemi par Affrontement. Ne s’active pas contre certains ennemis qui ne peuvent pas se remettre d’un Déséquilibre)",
       "simpleDesc": [
         {
           "abilityID": 9020,
@@ -521,7 +521,7 @@
     {
       "id": 19020,
       "name": "Gossypium Blanc+",
-      "desc": "Début du Tour : s’il y a des ennemis Déséquilibrés, les ré-équilibre. Puis, inflige <style=\"upgradeHighlight\">(10 + NV de Déséquilibre * 5) de Puissance de [Laceration]</style> et <style=\"upgradeHighlight\">(10 + NV de Déséquilibre * 5)</style> de [AttackDown]. (S’active une fois par ennemi par Combat. Ne s’active pas contre certains ennemis qui ne peuvent pas se remettre d’un Déséquilibre)",
+      "desc": "Début du Tour : s’il y a des ennemis Déséquilibrés, les ré-équilibre. Puis, inflige <style=\"upgradeHighlight\">(10 + NV de Déséquilibre * 5) de Puissance de [Laceration]</style> et <style=\"upgradeHighlight\">(10 + NV de Déséquilibre * 5)</style> de [AttackDown]. (S’active une fois par ennemi par Affrontement. Ne s’active pas contre certains ennemis qui ne peuvent pas se remettre d’un Déséquilibre)",
       "simpleDesc": [
         {
           "abilityID": 19020,
@@ -532,7 +532,7 @@
     {
       "id": 29020,
       "name": "Gossypium Blanc++",
-      "desc": "Début du Tour : s’il y a des ennemis Déséquilibrés, les ré-équilibre. Puis, inflige <style=\"upgradeHighlight\">(12 + NV de Déséquilibre * 6) de Puissance de [Laceration]</style> et <style=\"upgradeHighlight\">(12 + NV de Déséquilibre * 6)</style> [AttackDown] and <style=\"upgradeHighlight\">[DefenseDown]</style> on them. (S’active une fois par ennemi par Combat. Ne s’active pas contre certains ennemis qui ne peuvent pas se remettre d’un Déséquilibre)",
+      "desc": "Début du Tour : s’il y a des ennemis Déséquilibrés, les ré-équilibre. Puis, inflige <style=\"upgradeHighlight\">(12 + NV de Déséquilibre * 6) de Puissance de [Laceration]</style> et <style=\"upgradeHighlight\">(12 + NV de Déséquilibre * 6)</style> [AttackDown] and <style=\"upgradeHighlight\">[DefenseDown]</style> on them. (S’active une fois par ennemi par Affrontement. Ne s’active pas contre certains ennemis qui ne peuvent pas se remettre d’un Déséquilibre)",
       "simpleDesc": [
         {
           "abilityID": 29020,
@@ -688,7 +688,7 @@
     {
       "id": 9028,
       "name": "Préjudice",
-      "desc": "Premier Début de Tour d’un Combat : l’allié avec le moins de PV se soigne de 15% de ses PVs Max.\n\nEn activant une Résonance Absolue d’Orgueil, l’allié avec le moins de PV se soigne de 12.5% de ses PVs manquants au Début du Combat.",
+      "desc": "Premier Début de Tour d’un Affrontement : l’allié avec le moins de PV se soigne de 15% de ses PVs Max.\n\nEn activant une Résonance Absolue d’Orgueil, l’allié avec le moins de PV se soigne de 12.5% de ses PVs manquants au Début du Combat.",
       "simpleDesc": [
         {
           "abilityID": 9028,
@@ -737,7 +737,7 @@
     {
       "id": 9031,
       "name": "Divergence Nixie",
-      "desc": "Premier Début de Tour d’un Combat : inflige 4 de Puissance de [Vibration] et +4 de Compte de [Vibration] à tous les ennemis (ou toutes les parties d’Anomalie).\n\nEn touchant un ennemi avec une Capacité d’Affinité d’Envie, inflige 2 de Puissance de [Vibration] à la cible.",
+      "desc": "Premier Début de Tour d’un Affrontement : inflige 4 de Puissance de [Vibration] et +4 de Compte de [Vibration] à tous les ennemis (ou toutes les parties d’Anomalie).\n\nEn touchant un ennemi avec une Capacité d’Affinité d’Envie, inflige 2 de Puissance de [Vibration] à la cible.",
       "simpleDesc": [
         {
           "abilityID": 9031,
@@ -868,7 +868,7 @@
     {
       "id": 9036,
       "name": "Carmilla",
-      "desc": "Au début d’un Combat non-Concentré, tous les ennemis subissent des dégâts fixes égaux à 20% de leurs PVs Max.",
+      "desc": "Au début d’un Affrontement non-Concentré, tous les ennemis subissent des dégâts fixes égaux à 20% de leurs PVs Max.",
       "simpleDesc": [
         {
           "abilityID": 9036,
@@ -879,7 +879,7 @@
     {
       "id": 19036,
       "name": "Carmilla+",
-      "desc": "Au début d’un Combat non-Concentré, tous les ennemis <style=\"upgradeHighlight\">subissent des dégâts fixes égaux à 25% de leurs PVs Max</style>.",
+      "desc": "Au début d’un Affrontement non-Concentré, tous les ennemis <style=\"upgradeHighlight\">subissent des dégâts fixes égaux à 25% de leurs PVs Max</style>.",
       "simpleDesc": [
         {
           "abilityID": 19036,
@@ -890,7 +890,7 @@
     {
       "id": 29036,
       "name": "Carmilla++",
-      "desc": "Au début d’un Combat non-Concentré, tous les ennemis <style=\"upgradeHighlight\">subissent des dégâts fixes égaux à 30% de leurs PVs Max</style>.",
+      "desc": "Au début d’un Affrontement non-Concentré, tous les ennemis <style=\"upgradeHighlight\">subissent des dégâts fixes égaux à 30% de leurs PVs Max</style>.",
       "simpleDesc": [
         {
           "abilityID": 29036,
@@ -901,7 +901,7 @@
     {
       "id": 9037,
       "name": "Enfant dans une Fiole",
-      "desc": "Début du Combat : gagne +1 ressource E.G.O. de chaque Affinité de Péché.",
+      "desc": "Début d’Affrontement : gagne +1 ressource E.G.O. de chaque Affinité de Péché.",
       "simpleDesc": [
         {
           "abilityID": 9037,
@@ -912,7 +912,7 @@
     {
       "id": 9038,
       "name": "Chasse Illusoire",
-      "desc": "Début du Combat Concentré : applique 2 de [AttackDmgUp] à tous les alliés.",
+      "desc": "Début d’Affrontement Concentré : applique 2 de [AttackDmgUp] à tous les alliés.",
       "simpleDesc": [
         {
           "abilityID": 9038,
@@ -923,7 +923,7 @@
     {
       "id": 9039,
       "name": "Retour",
-      "desc": "Début du Combat : tous les alliés participants se soignent de 12% de leurs PVs Max.",
+      "desc": "Début d’Affrontement : tous les alliés participants se soignent de 12% de leurs PVs Max.",
       "simpleDesc": [
         {
           "abilityID": 9039,
@@ -1308,7 +1308,7 @@
     {
       "id": 9050,
       "name": "Gossypium Rougi",
-      "desc": "Premier Début de Tour d’un Combat : inflige 1 de Puissance de [Laceration] et +15 de Compte de [Laceration] à tous les ennemis (ou toutes les parties d’Anomalie).\n\nDébut du Tour : les ennemis avec de la Puissance de [Laceration] perdent (Puissance de [Laceration]/3) de 'Niveau Offensif' et 'Niveau Défensif' pendant ce tour. (Plafonne à 30 de Puissance de [Laceration])",
+      "desc": "Premier Début de Tour d’un Affrontement : inflige 1 de Puissance de [Laceration] et +15 de Compte de [Laceration] à tous les ennemis (ou toutes les parties d’Anomalie).\n\nDébut du Tour : les ennemis avec de la Puissance de [Laceration] perdent (Puissance de [Laceration]/3) de 'Niveau Offensif' et 'Niveau Défensif' pendant ce tour. (Plafonne à 30 de Puissance de [Laceration])",
       "simpleDesc": [
         {
           "abilityID": 9050,
@@ -1814,7 +1814,7 @@
     {
       "id": 9066,
       "name": "Nébuliseur",
-      "desc": "Premier Début de Tour d’un Combat : tous les alliés gagnent 4 de Puissance de [Breath] et +4 de Compte de [Breath].\n\nEn activant une Résonance Absolue d’Orgueil, tous les alliés gagnent 2 de Puissance de [Breath] et +2 de Compte de [Breath] au Début du Combat.",
+      "desc": "Premier Début de Tour d’un Affrontement : tous les alliés gagnent 4 de Puissance de [Breath] et +4 de Compte de [Breath].\n\nEn activant une Résonance Absolue d’Orgueil, tous les alliés gagnent 2 de Puissance de [Breath] et +2 de Compte de [Breath] au Début du Combat.",
       "simpleDesc": [
         {
           "abilityID": 9066,
@@ -1859,7 +1859,7 @@
     {
       "id": 9067,
       "name": "Contrat Spécial",
-      "desc": "Les ennemis Déséquilibrés par des dégâts de Capacité reçoivent aussi des dégâts fixes égaux à 33% de leurs PVs Max (pour les Anomalies, les PVs de la Partie), et sont infligés de 2 [Vulnerable] au prochain tour. (Une fois par Combat)",
+      "desc": "Les ennemis Déséquilibrés par des dégâts de Capacité reçoivent aussi des dégâts fixes égaux à 33% de leurs PVs Max (pour les Anomalies, les PVs de la Partie), et sont infligés de 2 [Vulnerable] au prochain tour. (Une fois par Affrontement)",
       "simpleDesc": [
         {
           "abilityID": 9067,
@@ -1870,7 +1870,7 @@
     {
       "id": 9068,
       "name": "Accueil Grandiose",
-      "desc": "Début du Combat : gagne +5 ressources E.G.O. d’Orgueil.\n\nChaque fois qu’un ennemi meurt, gagne +2 ressources E.G.O. d’Orgueil et +1 ressource E.G.O. de 2 autres Affinités aléatoires.",
+      "desc": "Début d’Affrontement : gagne +5 ressources E.G.O. d’Orgueil.\n\nChaque fois qu’un ennemi meurt, gagne +2 ressources E.G.O. d’Orgueil et +1 ressource E.G.O. de 2 autres Affinités aléatoires.",
       "simpleDesc": [
         {
           "abilityID": 9068,
@@ -1978,7 +1978,7 @@
     {
       "id": 9072,
       "name": "Paratonnerre",
-      "desc": "Début du Combat : tous les alliés gagnent +3 de Compte de [Charge].\n\nSi deux alliés participants ou plus ont des Capacités d’Attaque d’Affinité d’Envie, tous les alliés gagnent +5 de Compte de [Charge] à la place.",
+      "desc": "Début d’Affrontement : tous les alliés gagnent +3 de Compte de [Charge].\n\nSi deux alliés participants ou plus ont des Capacités d’Attaque d’Affinité d’Envie, tous les alliés gagnent +5 de Compte de [Charge] à la place.",
       "simpleDesc": [
         {
           "abilityID": 9072,
@@ -1993,7 +1993,7 @@
     {
       "id": 19072,
       "name": "Paratonnerre+",
-      "desc": "Début du Combat : tous les alliés gagnent <style=\"upgradeHighlight\">+4 de Compte de [Charge].</style>\n\nSi deux alliés participants ou plus ont des Capacités d’Attaque d’Affinité d’Envie, tous les alliés gagnent <style=\"upgradeHighlight\">+6 de Compte de [Charge]</style> à la place.",
+      "desc": "Début d’Affrontement : tous les alliés gagnent <style=\"upgradeHighlight\">+4 de Compte de [Charge].</style>\n\nSi deux alliés participants ou plus ont des Capacités d’Attaque d’Affinité d’Envie, tous les alliés gagnent <style=\"upgradeHighlight\">+6 de Compte de [Charge]</style> à la place.",
       "simpleDesc": [
         {
           "abilityID": 19072,
@@ -2008,7 +2008,7 @@
     {
       "id": 29072,
       "name": "Paratonnerre++",
-      "desc": "Début du Combat : tous les alliés gagnent <style=\"upgradeHighlight\">+5 de Compte de [Charge].</style>\n\nSi deux alliés participants ou plus ont des Capacités d’Attaque d’Affinité d’Envie, tous les alliés gagnent <style=\"upgradeHighlight\">+7 de Compte de [Charge]</style> à la place.",
+      "desc": "Début d’Affrontement : tous les alliés gagnent <style=\"upgradeHighlight\">+5 de Compte de [Charge].</style>\n\nSi deux alliés participants ou plus ont des Capacités d’Attaque d’Affinité d’Envie, tous les alliés gagnent <style=\"upgradeHighlight\">+7 de Compte de [Charge]</style> à la place.",
       "simpleDesc": [
         {
           "abilityID": 29072,
@@ -2113,7 +2113,7 @@
     {
       "id": 9075,
       "name": "Gants Type Charge",
-      "desc": "Max de Compte de [Charge] +10.\n\nDébut du Combat : tous les alliés gagnent +5 de Compte de [Charge].",
+      "desc": "Max de Compte de [Charge] +10.\n\nDébut d’Affrontement : tous les alliés gagnent +5 de Compte de [Charge].",
       "simpleDesc": [
         {
           "abilityID": 9075,
@@ -2128,7 +2128,7 @@
     {
       "id": 19075,
       "name": "Gants Type Charge+",
-      "desc": "Max de Compte de [Charge] +10.\n\nDébut du Combat : tous les alliés gagnent <style=\"upgradeHighlight\">+6 de Compte de [Charge].</style>",
+      "desc": "Max de Compte de [Charge] +10.\n\nDébut d’Affrontement : tous les alliés gagnent <style=\"upgradeHighlight\">+6 de Compte de [Charge].</style>",
       "simpleDesc": [
         {
           "abilityID": 19075,
@@ -2143,7 +2143,7 @@
     {
       "id": 29075,
       "name": "Gants Type Charge++",
-      "desc": "Max de Compte de [Charge] +10.\n\nDébut du Combat : tous les alliés gagnent <style=\"upgradeHighlight\">+8 de Compte de [Charge].</style>",
+      "desc": "Max de Compte de [Charge] +10.\n\nDébut d’Affrontement : tous les alliés gagnent <style=\"upgradeHighlight\">+8 de Compte de [Charge].</style>",
       "simpleDesc": [
         {
           "abilityID": 29075,
@@ -2158,7 +2158,7 @@
     {
       "id": 9076,
       "name": "Trousse de Premiers Soins",
-      "desc": "Début du Tour : un allié avec moins de 50% de PV se soigne de 25% de ses PVs Max. (Une fois par Combat ; ne s’active pas si l’allié est mort)",
+      "desc": "Début du Tour : un allié avec moins de 50% de PV se soigne de 25% de ses PVs Max. (Une fois par Affrontement ; ne s’active pas si l’allié est mort)",
       "simpleDesc": [
         {
           "abilityID": 9076,
@@ -2180,7 +2180,7 @@
     {
       "id": 9078,
       "name": "Marteau Vorace",
-      "desc": "Après avoir gagné un Combat, gagne 3 de Coût pour chaque ennemi vaincu.",
+      "desc": "Après avoir gagné un Affrontement, gagne 3 de Coût pour chaque ennemi vaincu.",
       "simpleDesc": [
         {
           "abilityID": 9078,
@@ -2191,7 +2191,7 @@
     {
       "id": 9079,
       "name": "Urne Dorée",
-      "desc": "Gagne +20% de Coût après avoir gagné un Combat. (N’est pas affecté par les Buffs de Départ ou d’autres Dons E.G.O.)",
+      "desc": "Gagne +20% de Coût après avoir gagné un Affrontement. (N’est pas affecté par les Buffs de Départ ou d’autres Dons E.G.O.)",
       "simpleDesc": [
         {
           "abilityID": 9079,
@@ -2338,7 +2338,7 @@
     {
       "id": 9088,
       "name": "Apaise le Mort",
-      "desc": "Début du Combat : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui infligent de la Puissance de [Combustion], Compte, ou effets de Brûlure Unique. (Ne compte pas les Capacités E.G.O.)\n\nPremier Début de Tour d’une vague : inflige 3 de Compte de [Combustion] à tous les ennemis (ou toutes les parties d’Anomalie) ; inflige aléatoirement un total de 15 de Puissance de [Combustion] entre tous les ennemis (ou toutes les parties d’Anomalie).\n\nAux Capacités qui infligent de la Puissance de [Combustion], Compte, ou effets de Brûlure Unique : +1 de Puissance Finale, +1 de Puissance de Pièce, +1 de Puissance de [Combustion] infligée, +1 de Compte de [Combustion] infligé.",
+      "desc": "Début d’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui infligent de la Puissance de [Combustion], Compte, ou effets de Brûlure Unique. (Ne compte pas les Capacités E.G.O.)\n\nPremier Début de Tour d’une vague : inflige 3 de Compte de [Combustion] à tous les ennemis (ou toutes les parties d’Anomalie) ; inflige aléatoirement un total de 15 de Puissance de [Combustion] entre tous les ennemis (ou toutes les parties d’Anomalie).\n\nAux Capacités qui infligent de la Puissance de [Combustion], Compte, ou effets de Brûlure Unique : +1 de Puissance Finale, +1 de Puissance de Pièce, +1 de Puissance de [Combustion] infligée, +1 de Compte de [Combustion] infligé.",
       "simpleDesc": [
         {
           "abilityID": 9088,
@@ -2398,7 +2398,7 @@
     {
       "id": 9090,
       "name": "Brume Sanglante",
-      "desc": "Début du Combat : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui infligent de la Puissance de [Laceration], Compte, ou effets de Saignement Unique. (Ne compte pas les Capacités E.G.O.)\n\nLes alliés infligent le double de Puissance et de Compte de [Laceration].\n\nAux Capacités qui infligent de la Puissance de [Laceration], Compte, ou effets de Saignement Unique : +2 de Puissance de Pièce, +100% de dégâts infligés",
+      "desc": "Début d’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui infligent de la Puissance de [Laceration], Compte, ou effets de Saignement Unique. (Ne compte pas les Capacités E.G.O.)\n\nLes alliés infligent le double de Puissance et de Compte de [Laceration].\n\nAux Capacités qui infligent de la Puissance de [Laceration], Compte, ou effets de Saignement Unique : +2 de Puissance de Pièce, +100% de dégâts infligés",
       "simpleDesc": [
         {
           "abilityID": 9090,
@@ -2446,7 +2446,7 @@
     {
       "id": 9092,
       "name": "Oscillation Couplée",
-      "desc": "Début du Combat : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui appliquent de la Puissance de [Vibration]. (Ne compte pas les Capacités E.G.O.)\n\nApplique 5 de Puissance de [Vibration] et 1 de [Vulnerable] ce tour et au tour suivant aux ennemis affectés par un [VibrationExplosion]. (s’active une fois par Capacité d’Attaque qui déclenche un [VibrationExplosion])\n\nAprès avoir déclenché 3 [VibrationExplosion] sur une cible, Déséquilibre la cible au prochain Début du Tour. (une fois par Combat)",
+      "desc": "Début d’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui appliquent de la Puissance de [Vibration]. (Ne compte pas les Capacités E.G.O.)\n\nApplique 5 de Puissance de [Vibration] et 1 de [Vulnerable] ce tour et au tour suivant aux ennemis affectés par un [VibrationExplosion]. (s’active une fois par Capacité d’Attaque qui déclenche un [VibrationExplosion])\n\nAprès avoir déclenché 3 [VibrationExplosion] sur une cible, Déséquilibre la cible au prochain Début du Tour. (une fois par Affrontement)",
       "simpleDesc": [
         {
           "abilityID": 9092,
@@ -2494,7 +2494,7 @@
     {
       "id": 9094,
       "name": "Transe Fascinante",
-      "desc": "Début du Combat : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui infligent de la Puissance ou du Compte de [Burst]. (Ne compte pas les Capacités E.G.O.)\n\nEn touchant un ennemi avec une Capacité, inflige 5 de Puissance de [Burst].\n\nLorsque le Compte de [Burst] d’un ennemi tombe en-dessous de 1, consomme 10 de Puissance de [Burst] au lieu du Compte de [Burst]. (Cet effet prend fin lorsque la Puissance de [Burst] tombe en-dessous de 10)",
+      "desc": "Début d’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui infligent de la Puissance ou du Compte de [Burst]. (Ne compte pas les Capacités E.G.O.)\n\nEn touchant un ennemi avec une Capacité, inflige 5 de Puissance de [Burst].\n\nLorsque le Compte de [Burst] d’un ennemi tombe en-dessous de 1, consomme 10 de Puissance de [Burst] au lieu du Compte de [Burst]. (Cet effet prend fin lorsque la Puissance de [Burst] tombe en-dessous de 10)",
       "simpleDesc": [
         {
           "abilityID": 9094,
@@ -2542,7 +2542,7 @@
     {
       "id": 9096,
       "name": "Partition Noire",
-      "desc": "Début du Combat : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui infligent de la Puissance ou du Compte de [Sinking]. (Ne compte pas les Capacités E.G.O.)\n\nEn touchant un ennemi avec une Capacité, inflige 5 de Puissance de [Sinking].\n\nDébut du Tour : tous les ennemis (ou toutes les parties d’Anomalie) regagnent du Compte de [Sinking] égal à (Compte de [Sinking] consummé après avoir été touché au dernier tour)/2",
+      "desc": "Début d’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui infligent de la Puissance ou du Compte de [Sinking]. (Ne compte pas les Capacités E.G.O.)\n\nEn touchant un ennemi avec une Capacité, inflige 5 de Puissance de [Sinking].\n\nDébut du Tour : tous les ennemis (ou toutes les parties d’Anomalie) regagnent du Compte de [Sinking] égal à (Compte de [Sinking] consummé après avoir été touché au dernier tour)/2",
       "simpleDesc": [
         {
           "abilityID": 9096,
@@ -2602,7 +2602,7 @@
     {
       "id": 9098,
       "name": "Sachet Porte-Bonheur",
-      "desc": "Début du Combat : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui appliquent ou gagnent de la Puissance ou du Compte de [Breath]. (Ne compte pas les Capacités E.G.O.)\n\nDébut du Combat : si un allié aléatoire avec [Breath] Touche Critiquement un ennemi avec une Capacité, tous les alliés gagnent 7 de Puissance de [Breath] et +7 de Compte de [Breath] au prochain Début du Tour. (Une fois par tour)\n\nCapacité 3 des Identités avec des Capacités qui gagnent de la Puissance de [Breath] : +3 de Puissance Finale, +(12/# de Pièces) de Puissance de Pièce, +(50/# de Pièces)% de dégâts infligés.",
+      "desc": "Début d’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui appliquent ou gagnent de la Puissance ou du Compte de [Breath]. (Ne compte pas les Capacités E.G.O.)\n\nDébut du Combat : si un allié aléatoire avec [Breath] Touche Critiquement un ennemi avec une Capacité, tous les alliés gagnent 7 de Puissance de [Breath] et +7 de Compte de [Breath] au prochain Début du Tour. (Une fois par tour)\n\nCapacité 3 des Identités avec des Capacités qui gagnent de la Puissance de [Breath] : +3 de Puissance Finale, +(12/# de Pièces) de Puissance de Pièce, +(50/# de Pièces)% de dégâts infligés.",
       "simpleDesc": [
         {
           "abilityID": 9098,
@@ -2650,7 +2650,7 @@
     {
       "id": 9100,
       "name": "Machine à Mouvement Perpétuel T-1",
-      "desc": "Début du Combat : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui gagnent du Compte de [Charge]. (Ne compte pas les Capacités E.G.O.)\n\nPremier Début de Tour d’une vague : tous les alliés gagnent 5 de [ChargeForceField] et 2 de [AttackDmgUp].\n\nProchain Début du Tour : chaque Identité gagne (Total de Compte de [Charge] consommé par utilisation de Capacité/4) 'Niveau Offensif' (Plafonne lorsque 40 de Compte de [Charge] ont été consommé)",
+      "desc": "Début d’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui gagnent du Compte de [Charge]. (Ne compte pas les Capacités E.G.O.)\n\nPremier Début de Tour d’une vague : tous les alliés gagnent 5 de [ChargeForceField] et 2 de [AttackDmgUp].\n\nProchain Début du Tour : chaque Identité gagne (Total de Compte de [Charge] consommé par utilisation de Capacité/4) 'Niveau Offensif' (Plafonne lorsque 40 de Compte de [Charge] ont été consommé)",
       "simpleDesc": [
         {
           "abilityID": 9100,

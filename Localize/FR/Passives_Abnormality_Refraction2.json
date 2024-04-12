@@ -1,0 +1,494 @@
+{
+  "dataList": [
+    {
+      "id": 853901,
+      "name": "Parapluie Cassé",
+      "desc": "Lorsque le corps est brisé, le corps subit 1 de Malus de Dégâts à chaque tour."
+    },
+    {
+      "id": 853902,
+      "name": "Parapluie en Lambeaux",
+      "desc": "Lorsque la tête est brisée, gagne 1 de Malus de Dégâts à chaque tour"
+    },
+    {
+      "id": 853903,
+      "name": "Dernière Lutte",
+      "desc": "À 15% de PV, cette unité gagne 10 de Ralentissement et 1 de Malus de Puissance d’Attaque à chaque tour\nLes nouveaux Vieux Parapluies apparus ont 30% de PV supplémentaire. Utilise 'Pleures En Quête de Quelque Chose' à chaque tour."
+    },
+    {
+      "id": 853904,
+      "name": "Cœur Vain",
+      "desc": "Gagne 2 de <sprite name=\"WaveFoxUmbrella\"><color=#f8c200><u><link=\"WaveFoxUmbrella\">Parapluie Protecteur</color></link></u> au début du premier tour. (6 Max)\nGagne des <sprite name=\"WaveFoxUmbrella\"><color=#f8c200><u><link=\"WaveFoxUmbrella\">Parapluies Protecteurs</color></link></u> supplémentaires égaux au nombre du \"Compte de Cycle\".\nGagne de la <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Protection</color></link></u> égale au Compte de <sprite name=\"WaveFoxUmbrella\"><color=#f8c200><u><link=\"WaveFoxUmbrella\">Parapluie Protecteur</color></link></u> sur soi.\nSi la Capacité Attente est insérée, invoque autant de Vieux Parapluie que de <sprite name=\"WaveFoxUmbrella\"><color=#f8c200><u><link=\"WaveFoxUmbrella\">Parapluie Protecteur</color></link></u>"
+    },
+    {
+      "id": 853905,
+      "name": "Déchirure et Lourdeur Réfractées",
+      "desc": "La Puissance de <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Déchirure</color></link></u> et de <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Lourdeur</color></link></u> plafonne à 30.\nLe Compte de <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Déchirure</color></link></u> et de <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Lourdeur</color></link></u> plafonne à 5."
+    },
+    {
+      "id": 853906,
+      "name": "Application de Saignement Réfracté",
+      "desc": "En gagnant du <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Saignement</color></link></u>, gagne 1 de Puissance et de Compte supplémentaire"
+    },
+    {
+      "id": 854001,
+      "name": "Vieux et Abandonné",
+      "desc": "Lorsque cette unité est vaincue, l’unité qui l’a vaincu gagne 2 de Vitesse au prochain tour.\nToutes les parties du Renard à la Dérive subissent 2 de Ralentissement.\nApplique 1 d’Éclats de Parapluie au Renard à la Dérive."
+    },
+    {
+      "id": 854101,
+      "name": "Persistance Déteriorée",
+      "desc": "Si les PV de Bouclier sont complètement vidés après avoir utilisé une capacité défensive, gagne 3 de Malus de Niveau Offensif et 3 de Vulnérabilité au prochain tour."
+    },
+    {
+      "id": 854102,
+      "name": "Exosquelette Solide",
+      "desc": "Si la tête n’est pas brisée,\nle Corps gagne 3 de Protection à chaque tour."
+    },
+    {
+      "id": 854104,
+      "name": "Charge Réfractée",
+      "desc": "Si la cible a Charge, réduit de 1 le Compte de Charge de la cible en touche et gagne 1 d’Auto-charge. (3 fois par tour)"
+    },
+    {
+      "id": 854103,
+      "name": "Saignement et Tremblement Réfractés",
+      "desc": "La Puissance de <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Saignement</color></link></u> et de <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Tremblement</color></link></u> plafonne à 30.\nLe Compte de <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Saignement</color></link></u> et de <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Tremblement</color></link></u> plafonne à 5."
+    },
+    {
+      "id": 854105,
+      "name": "Auto-charge",
+      "desc": "Gagne 3 d’Auto-charge au début du premier tour.\nGagne 1 d’Auto-charge supplémentaire pour chaque Compte de Cycle. (8 Max)"
+    },
+    {
+      "id": 854201,
+      "name": "Mitose",
+      "desc": "Lorsque le bras est brisé, toutes les parties gagnent 1 Malus de Puissance d’Attaque à chaque tour."
+    },
+    {
+      "id": 854202,
+      "name": "Vin de Fée Alléchant",
+      "desc": "Lorsque Vin de Fée est sur le terrain, toutes les parties gagnent 5 de <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Ralentissement</color></link></u>."
+    },
+    {
+      "id": 854203,
+      "name": "Saignement et Tremblement Réfractés",
+      "desc": "<sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Saignement</color></link></u> et <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Tremblement</color></link></u> Potency maxes out at 30.\n<sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Saignement</color></link></u> et <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Tremblement</color></link></u> Count maxes out at 5."
+    },
+    {
+      "id": 854204,
+      "name": "Application de Déchirure Réfractée",
+      "desc": "En gagnant de la <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Déchirure</color></link></u>, gagne 1 de Puissance et de Compte supplémentaire"
+    },
+    {
+      "id": 854301,
+      "name": "Vin de Fée",
+      "desc": "Lorsque vaincu par une Identité, toutes les Identités gagnent 5 de Pompette au prochain tour.\nSi non vaincu, le Gentlemen Féérique se soigne de 10% de PV et gagne 2 de Bonus de Puissance d’Attaque, 2 de Vitesse et 2 de Protection.\nExpire à la fin du tour"
+    },
+    {
+      "id": 854401,
+      "name": "Moyens Brisés",
+      "desc": "Lorsque le bras est brisé, le bras gagne 1 de Malus de Puissance d’Attaque à chaque tour."
+    },
+    {
+      "id": 854402,
+      "name": "Application de Lourdeur Réfractée",
+      "desc": "En gagnant de la <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Lourdeur</color></link></u>, gagne 1 de Puissance et de Compte supplémentaire"
+    },
+    {
+      "id": 854501,
+      "name": "Moyens Perdus",
+      "desc": "Lorsque le bras est brisé, l’unité gagne 1 de Malus de Puissance d’Attaque à chaque tour."
+    },
+    {
+      "id": 854502,
+      "name": "Abat-Jour Endommagé",
+      "desc": "Lorsque la tête est brisée, l’unité gagne 2 de Malus de Niveau Défensif à chaque tour."
+    },
+    {
+      "id": 854503,
+      "name": "Saignement et Tremblement Réfractés",
+      "desc": "<sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Saignement</color></link></u> et <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Tremblement</color></link></u> Potency maxes out at 30.\n<sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Saignement</color></link></u> et <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Tremblement</color></link></u> Count maxes out at 5."
+    },
+    {
+      "id": 854504,
+      "name": "Application de Déchirure Réfractée",
+      "desc": "En gagnant de la <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Déchirure</color></link></u>, gagne 1 de Puissance et de Compte supplémentaire"
+    },
+    {
+      "id": 854601,
+      "name": "Feuille Contaminante",
+      "desc": "Au début de chaque tour, Fée aux Longues Jambes et Gentleman Féérique gagnent 3 de Bonus de Soin de PV et 1 de Bonus de Puissance d’Attaque.\nSi le Trèfle survit pendant 4+ tours, gagne 1 de Bonus de Puissance d’Attaque supplémentaire et 2 de Bonus de Dégâts."
+    },
+    {
+      "id": 854701,
+      "name": "Mitose",
+      "desc": "Lorsque le bras est brisé, l’unité gagne 1 de Malus de Puissance d’Attaque à chaque tour."
+    },
+    {
+      "id": 854702,
+      "name": "Vin de Fée Alléchant",
+      "desc": "Lorsque Vin de Fée est sur le terrain, toutes les parties gagnent 5 de <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Ralentissement</color></link></u>."
+    },
+    {
+      "id": 854703,
+      "name": "Saignement et Tremblement Réfractés",
+      "desc": "<sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Saignement</color></link></u> et <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Tremblement</color></link></u> Potency maxes out at 30.\n<sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Saignement</color></link></u> et <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Tremblement</color></link></u> Count maxes out at 5."
+    },
+    {
+      "id": 854704,
+      "name": "Application de Déchirure Réfractée",
+      "desc": "En gagnant de la <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Déchirure</color></link></u>, gagne 1 de Puissance et de Compte supplémentaire"
+    },
+    {
+      "id": 854801,
+      "name": "Vin de Fée",
+      "desc": "Lorsque vaincu par une Identité, toutes les Identités gagnent 5 de Pompette au prochain tour.\nSi non vaincu, le Gentlemen Féérique se soigne de 10% de PV et gagne 2 de Bonus de Puissance d’Attaque, 2 de Vitesse et 2 de Protection.\nExpire à la fin du tour"
+    },
+    {
+      "id": 854901,
+      "name": "Charmé",
+      "desc": "Inflige Charmé à l’ennemi avec la plus basse Vitesse.\nLe nombre de cibles augmente à chaque Compte de Cycle.\nLe nombre de cibles augmente lorsque la Fée est restaurée."
+    },
+    {
+      "id": 854902,
+      "name": "Abysse à Découvert",
+      "desc": "Révèle le corps lorsque la Fée est brisée.\nTous les Buffs et Debuffs expirent lorsque le corps se cache à nouveau."
+    },
+    {
+      "id": 854903,
+      "name": "Appât Attisant",
+      "desc": "Ne peut pas endommager le Noyau en attaquant la Fée.\nCible plus d’emplacements selon le nombre d’unités <sprite name=\"FairyCharm\"><color=#a16a3b><u><link=\"FairyCharm\">Charmées</color></link></u> units."
+    },
+    {
+      "id": 854904,
+      "name": "Souche Brisée",
+      "desc": "Lorsque le corps est brisé, la Fée aura 60% de ses PV Max une fois réstaurée.\nLorsque le corps est brisé, le Noyau se soigne de +20 PV supplémentaires avec les effets de Capacité"
+    },
+    {
+      "id": 854905,
+      "name": "Appât en Évolution",
+      "desc": "La Fée augmente ses PV Max de 20% en étant restaurée."
+    },
+    {
+      "id": 854906,
+      "name": "Déchirure et Lourdeur Réfractées",
+      "desc": "La Puissance de <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Déchirure</color></link></u> et de <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Lourdeur</color></link></u> plafonne à 30.\nLe Compte de <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Déchirure</color></link></u> et de <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Lourdeur</color></link></u> plafonne à 5."
+    },
+    {
+      "id": 854907,
+      "name": "Poussière de Fée",
+      "desc": "Lorsque la Fée est tuée, toutes les Identités gagnent 5 de Calme et 2 de Compte de Calme au prochain tour"
+    },
+    {
+      "id": 855001,
+      "name": "Fuite Dimensionnelle",
+      "desc": "À partir du tour 2, s’échappe dans une Faille Dimensionnelle tous les quelques tours.\nLorsque toutes les parties sont Déséquilirées, s’échappe dans une Faille Dimensionnelle au prochain tour.\nNe peut pas être Déséquilibré lorsque dans une Faille Dimensionnelle.\nLorsque le Noyau est a 30% de PV ou moins, ne s’échappe pas dans une Faille Dimensionnelle."
+    },
+    {
+      "id": 855002,
+      "name": "Fuite Dimensionnelle Piégée",
+      "desc": "Lorsque toutes les Failles Dimensionnelles sont brisées au même tour que leur création, émerge volontairement d’une Faille Dimensionnelle.\nEnsuite, perd 5 de Compte de Charge et augmente de 30 le Seuil de Déséquilibre de toutes les parties."
+    },
+    {
+      "id": 855003,
+      "name": "Régénération de Lames Réfractrices Dimensionnelles",
+      "desc": "Lorsque la partie lame est brisée, perd 5 de Compte de Charge,\net à la fin du prochain tour, regagne la partie lame en dépensant 2 de Compte de Charge.\nLorsque la partie lame est brisée, gagne 2 de Malus de Niveau Offensif au début de chaque tour."
+    },
+    {
+      "id": 855004,
+      "name": "Brûlure et Déchirure Réfractées",
+      "desc": "La Puissance de <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Brûlure</color></link></u> et de <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Déchirure</color></link></u> plafonne à 30.\nLe Compte de <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Brûlure</color></link></u> et de <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Déchirure</color></link></u> plafonne à 5."
+    },
+    {
+      "id": 855005,
+      "name": "Application de Tremblement Réfracté",
+      "desc": "En gagnant du <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Tremblement</color></link></u>, gagne 1 de Puissance et de Compte supplémentaire"
+    },
+    {
+      "id": 856001,
+      "name": "Dimension Hémorragique",
+      "desc": "Inflige +10% de dégâts après être passé dans la Dimension Hémorragique"
+    },
+    {
+      "id": 856101,
+      "name": "Dimension Venimeuse",
+      "desc": "Le Noyau gagne +20% de PV Max après être passé dans la Dimension Venimeuse"
+    },
+    {
+      "id": 856201,
+      "name": "Dimension Tremblante",
+      "desc": "Gagne 1 de Vitesse après être passé dans la Dimension Tremblante"
+    },
+    {
+      "id": 856301,
+      "name": "Dimension Électrifiante",
+      "desc": "Gagne +1 de Puissance de Pièce après être passé dans la Dimension Électrifiante"
+    },
+    {
+      "id": 855101,
+      "name": "Temps en Or",
+      "desc": "À la fin du tour, si les PV sont entre 6% et 24%, les parties Noyau regagnent instantément jusqu’à 80% des PV Max et se remet de déséquilibre. (Une fois seulement)"
+    },
+    {
+      "id": 855102,
+      "name": "Rétroaction d’Inversion Temporelle",
+      "desc": "Après avoir activé Temps en Or, gagne 2 de Vulnérabilité au début du tour."
+    },
+    {
+      "id": 855103,
+      "name": "Surcharge",
+      "desc": "Si à 5+ de Compte de Charge à la fin du tour, gagne 3 de Bonus de Dégâts au prochain tour"
+    },
+    {
+      "id": 855104,
+      "name": "Déchirure et Lourdeur Réfractées",
+      "desc": "La Puissance de <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Déchirure</color></link></u> et de <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Lourdeur</color></link></u> plafonne à 30.\nLe Compte de <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Déchirure</color></link></u> et de <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Lourdeur</color></link></u> plafonne à 5."
+    },
+    {
+      "id": 855105,
+      "name": "Application de Brûlure Réfractée",
+      "desc": "En gagnant de la <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Brûlure</color></link></u>, gagne 1 de Puissance et de Compte supplémentaire."
+    },
+    {
+      "id": 855501,
+      "name": "Passé Revenant",
+      "desc": "Si à 50+ de <sprite name=\"AccumulatedPast\"><color=#a16a3b><u><link=\"AccumulatedPast\">Passé Accumulé</color></link></u>, et si les PV de Noyau sont inférieurs ou égaux à 80%, le Noyau gagne 200 PV en dépensant 50 de <sprite name=\"AccumulatedPast\"><color=#a16a3b><u><link=\"AccumulatedPast\">Passé Accumulé</color></link></u>."
+    },
+    {
+      "id": 855502,
+      "name": "Passé Égaré",
+      "desc": "Lorsque le corps est brisé, dépense tout Passé Accumulé.\nLorsque le corps est brisé, tous les Types d’Attaque et d’Affinités deviennent inefficaces (0.5) contre le corps à partir du prochain tour jusqu’à la fin de ce combat."
+    },
+    {
+      "id": 855503,
+      "name": "Pot d’Échappement Brisé",
+      "desc": "Lorsque le Foudroyeur à Vapeur est brisé, dépense tout le Calme de toutes les parties.\nAprès que le Foudroyeur à Vapeur soit brisé, gagne de la <sprite name=\"Vulnerable\"><color=#f8c200><u><link=\"Vulnerable\">Vulnérabilité</color></link></u> égale au nombre de <sprite name=\"Breath\"><color=#e30000><u><link=\"Breath\">Calme</color></link></u> chaque fois que cette unité gagne du <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Calme</color></link></u>.\nAprès que le Foudroyeur à Vapeur soit brisé, perd 1 de Calme chaque fois que cette unité utilise une Capacité d’Attaque."
+    },
+    {
+      "id": 855504,
+      "name": "Brûlure et Saignement Réfractés",
+      "desc": "La Puissance de <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Brûlure</color></link></u> et de <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Saignement</color></link></u> plafonne à 30.\nLe Compte de <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Brûlure</color></link></u> et de <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Saignement</color></link></u> plafonne à 5."
+    },
+    {
+      "id": 855505,
+      "name": "Application de Lourdeur Réfractée",
+      "desc": "En gagnant de la <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Lourdeur</color></link></u>, gagne 1 de Puissance et de Compte supplémentaire"
+    },
+    {
+      "id": 855506,
+      "name": "Fuite de Vapeur",
+      "desc": "Lorsque le Foudroyeur à Vapeur est touché, perd 1 de <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Calme</color></link></u> et 1 de Compte de Calme"
+    },
+    {
+      "id": 855507,
+      "name": "Passé Superposé",
+      "desc": "Gagne 1 de Bonus de Puissance d’Attaque pour chaque 80 de Passé Accumulé à chaque tour.\nÀ 80+ de <sprite name=\"AccumulatedPast\"><color=#a16a3b><u><link=\"AccumulatedPast\">Passé Accumulé</color></link></u>, gagne +1 Emplacement."
+    },
+    {
+      "id": 855508,
+      "name": "Métronome",
+      "desc": "Si le premier chiffre de <sprite name=\"AccumulatedPast\"><color=#a16a3b><u><link=\"AccumulatedPast\">Passé Accumulé</color></link></u> est un nombre impair, gagne 3 de <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Vulnérabilité</color></link></u> et 3 de <sprite name=\"AttackDmgUp\"><color=#e30000><u><link=\"AttackDmgUp\">Bonus de Dégâts</color></link></u>\nSi le premier chiffre de Passé Accumulé est un nombre pair ou 0, gagne de la <sprite name=\"Protection\"><color=#e30000><u><link=\"Protection\">Protection</color></link></u> et 3 de <sprite name=\"AttackDmgDown\"><color=#e30000><u><link=\"AttackDmgDown\">Malus de Dégâts</color></link></u>"
+    },
+    {
+      "id": 855601,
+      "name": "Joug Éternel",
+      "desc": "Les PV Max augmentent de (Compte de Cycle * 5)%.\nInflige (Compte de Cycle * 5)% de dégâts de moins"
+    },
+    {
+      "id": 855602,
+      "name": "Panneau Brisé",
+      "desc": "Lorsque le panneau est brisé, les Roses perdent des PV Max"
+    },
+    {
+      "id": 855603,
+      "name": "Chair Éparpillée",
+      "desc": "Lorsque la Chair est brisée, le Noyau perd des PV Max"
+    },
+    {
+      "id": 855604,
+      "name": "Vigne Unique",
+      "desc": "Lorsqu’une Rose est vaincue, le Noyau et la chair perdent 30 PV.\nPerd 0.1 de Résistance à l’Affinité de Péché correspondante durant ce combat (Cumulable)"
+    },
+    {
+      "id": 856401,
+      "name": "Haine",
+      "desc": "Lorsque touché, gagne 1 de Bonus de Niveau Offensif et 1 de Malus de Niveau Défensif"
+    },
+    {
+      "id": 856402,
+      "name": "Braises",
+      "desc": "Lorsque vaincu par une touche directe, renvoit les dégâts à l’attaquant et inflige 5 de Brûlure"
+    },
+    {
+      "id": 856403,
+      "name": "Péchés Florissants",
+      "desc": "Si à 4 de Péché en Éclosion, entre dans un état surpuissant pour ce combat"
+    },
+    {
+      "id": 856404,
+      "name": "Colère en Ébullition",
+      "desc": "En état surpuissant, inflige +1 de Brûlure supplémentaire avec les effets de Capacité\nSi tué en état surpuissant, inflige 4 de Compte de Brûlure à tous les alliés"
+    },
+    {
+      "id": 856405,
+      "name": "Rose sur une Vigne",
+      "desc": "Meurt lorsque le Noyau du Panneau de Rose est tué"
+    },
+    {
+      "id": 856501,
+      "name": "Désir à Sens-Unique",
+      "desc": "Dans un Duel, -2 de Puissance Finale ; dans une attaque à sens-unique, +2 de Puissance Finale"
+    },
+    {
+      "id": 856502,
+      "name": "Péchés Florissants",
+      "desc": "Si à 4 de Péché en Éclosion, entre dans un état surpuissant pour ce combat"
+    },
+    {
+      "id": 856503,
+      "name": "Luxure Scintillante",
+      "desc": "En état surpuissant, inflige +1 de Saignement supplémentaire avec les effets de Capacité\nSi tué en état surpuissant, inflige 4 de Compte de Saignement à tous les alliés"
+    },
+    {
+      "id": 856504,
+      "name": "Rose sur une Vigne",
+      "desc": "Meurt lorsque le Noyau du Panneau de Rose est tué"
+    },
+    {
+      "id": 856601,
+      "name": "Impuissant",
+      "desc": "Lorsque touché, gagne 5 de Protection au prochain tour sauf si Déséquilibrée"
+    },
+    {
+      "id": 856602,
+      "name": "Rose Jaune 2",
+      "desc": "Si à 4 de Péché en Éclosion, entre dans un état surpuissant pour ce combat"
+    },
+    {
+      "id": 856603,
+      "name": "Paresse Écrasante",
+      "desc": "En état surpuissant, inflige +1 de Tremblement supplémentaire avec les effets de Capacité\nSi tué en état surpuissant, inflige 4 de Compte de Tremblement à tous les alliés"
+    },
+    {
+      "id": 856604,
+      "name": "Rose Jaune 4",
+      "desc": "Meurt lorsque le Noyau du Panneau de Rose est tué"
+    },
+    {
+      "id": 856701,
+      "name": "Faim",
+      "desc": "Si cette unité échoue à infliger des dégâts durant un tour, gagne 2 de Vulnérabilité de Déchirure"
+    },
+    {
+      "id": 856702,
+      "name": "Rose Verte 2",
+      "desc": "Si à 4 de Péché en Éclosion, entre dans un état surpuissant pour ce combat"
+    },
+    {
+      "id": 856703,
+      "name": "Gourmandise Grandissante",
+      "desc": "En état surpuissant, inflige +1 de Déchirure supplémentaire avec les effets de Capacité\nSi tué en état surpuissant, inflige 4 de Compte de Déchirure à tous les alliés"
+    },
+    {
+      "id": 856704,
+      "name": "Rose Verte 4",
+      "desc": "Meurt lorsque le Noyau du Panneau de Rose est tué"
+    },
+    {
+      "id": 856801,
+      "name": "Anxiété",
+      "desc": "Dans un Duel, +2 de Puissance Finale ; dans une attaque à sens-unique, -2 de Puissance Finale"
+    },
+    {
+      "id": 856802,
+      "name": "Autodestruction",
+      "desc": "Lorsque touché, la résistance à la Peine devient Faible à la Peine (1.5) et gagne 5 de Protection"
+    },
+    {
+      "id": 856803,
+      "name": "Rose Bleue 3",
+      "desc": "Si à 4 de Péché en Éclosion, entre dans un état surpuissant pour ce combat"
+    },
+    {
+      "id": 856804,
+      "name": "Peine Scintillante",
+      "desc": "En état surpuissant, inflige +1 de Lourdeur supplémentaire avec les effets de Capacité\nSi tué en état surpuissant, inflige 4 de Compte de Lourdeur à tous les alliés"
+    },
+    {
+      "id": 856805,
+      "name": "Rose Bleue 5",
+      "desc": "Meurt lorsque le Noyau du Panneau de Rose est tué"
+    },
+    {
+      "id": 856901,
+      "name": "Déchaînement",
+      "desc": "Au début de chaque tour, applique 1 de Calme et 1 de Compte de Calme à tous les alliés"
+    },
+    {
+      "id": 856902,
+      "name": "Supériorité",
+      "desc": "Si cette unité est vivante, tous les allies gagnent +5% de Dégâts Critique par Calme sur soi"
+    },
+    {
+      "id": 856903,
+      "name": "Rose Azurée 3",
+      "desc": "Si à 4 de Péché en Éclosion, entre dans un état surpuissant pour ce combat"
+    },
+    {
+      "id": 856904,
+      "name": "Orgueil Surdimensionné",
+      "desc": "Si commence un tour en état surpuissant, gagne +1 de Calme supplémentaire avec les effets de Capacité\nSi tué en état surpuissant, applique 4 de Compte de Calme à tous les alliés"
+    },
+    {
+      "id": 856905,
+      "name": "Rose Azurée 5",
+      "desc": "Meurt lorsque le Noyau du Panneau de Rose est tué"
+    },
+    {
+      "id": 857001,
+      "name": "Jalousie",
+      "desc": "Au début du tour, applique 1 de Compte de Charge à 2 alliés aléatoires"
+    },
+    {
+      "id": 857002,
+      "name": "Complexe d’Infériorité",
+      "desc": "Si cette unité est vivante, chaque allié gagne +5% de Dégâts Critiques par Compte de Charge sur soi"
+    },
+    {
+      "id": 857003,
+      "name": "Rose Violette 3",
+      "desc": "Si à 4 de Péché en Éclosion, entre dans un état surpuissant pour ce combat"
+    },
+    {
+      "id": 857004,
+      "name": "Envie Flagrante",
+      "desc": "Si commence un tour en état surpuissant, inflige +1 de Charge avec les effets de Capacité\nSi tué en état surpuissant, applique 4 de Compte de Charge à tous les ennemis"
+    },
+    {
+      "id": 857005,
+      "name": "Rose Violette 5",
+      "desc": "Meurt lorsque le Noyau du Panneau de Rose est tué"
+    },
+    {
+      "id": 855605,
+      "name": "Péchés Florissants",
+      "desc": "Si à 4 de Péché en Éclosion, entre dans un état surpuissant pour ce combat"
+    },
+    {
+      "id": 855606,
+      "name": "Rose sur une Vigne",
+      "desc": "Meurt lorsque le Panneau de Rose est vaincu"
+    },
+    {
+      "id": 854403,
+      "name": "Braise Propagatrice",
+      "desc": "À la fin du tour, si cette unité a <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Brûlure</color></link></u>, inflige la même quantité de <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Brûlure</color></link></u> à toutes les unités avec <sprite name=\"WrappedCurseTagRe\"><color=#a16a3b><u><link=\"WrappedCurseTagRe\">Talisman de Malédiction Enchevêtré</color></link></u> au prochain tour"
+    },
+    {
+      "id": 855607,
+      "name": "Ronces Trempées de Péchés",
+      "desc": "Chaque tour, toutes les parties gagnent de la Protection égale au nombre de Pécheurs avec l’effet Couronne d’Épines"
+    }
+  ]
+}
