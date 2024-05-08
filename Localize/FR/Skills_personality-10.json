@@ -405,6 +405,291 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1100901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Assaut Féroce",
+          "desc": "[WhenUse] Lorsque dans l’état E.G.O. Volatile, consomme 5 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Lorsque dans l’état E.G.O. Volatile, Réutilise la Pièce (une fois par Capacité)",
+                  "summary": "[OnSucceedAttackHead] Lorsque dans l’état E.G.O. Volatile, Réutilise la Pièce"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Assaut Féroce",
+          "desc": "[WhenUse] Lorsque dans l’état E.G.O. Volatile, consomme 5 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Lorsque dans l’état E.G.O. Volatile, Réutilise la Pièce (une fois par Capacité)",
+                  "summary": "[OnSucceedAttackHead] Lorsque dans l’état E.G.O. Volatile, Réutilise la Pièce"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Assaut Féroce",
+          "desc": "[WhenUse] Lorsque dans l’état E.G.O. Volatile, consomme 5 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Lorsque dans l’état E.G.O. Volatile, Réutilise la Pièce (une fois par Capacité)",
+                  "summary": "[OnSucceedAttackHead] Lorsque dans l’état E.G.O. Volatile, Réutilise cette Pièce"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1100902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lame du Couchant",
+          "desc": "[WhenUse] Lorsque dans l’état E.G.O. Volatile, consomme 5 PSM\n[BeforeAttack] Lorsque dans l’état E.G.O. Volatile, +1 de Poids d’Atq\n[EndSkill] Lorsque dans l’état E.G.O. Volatile, consomme 5 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Lame du Couchant",
+          "desc": "<style=\"highlight\">Si la cible a 4+ de [Combustion], +1 de Puissance de Duel</style>\n[WhenUse] Lorsque dans l’état E.G.O. Volatile, consomme 5 PSM\n[BeforeAttack] Lorsque dans l’état E.G.O. Volatile, +1 de Poids d’Atq\n[EndSkill] Lorsque dans l’état E.G.O. Volatile, consomme 5 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Lame du Couchant",
+          "desc": "Si la cible a 4+ de [Combustion], +1 de Puissance de Duel\n[WhenUse] Lorsque dans l’état E.G.O. Volatile, consomme 5 PSM\n[BeforeAttack] Lorsque dans l’état E.G.O. Volatile, +1 de Poids d’Atq\n<style=\"highlight\">- À 45 PSM, +2 de Poids d’Atq à la place</style>\n[EndSkill] Lorsque dans l’état E.G.O. Volatile, consomme 5 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1100903,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Stigmatisation",
+          "desc": "Si la cible a 10+ de [Combustion], +1 de Puissance de Pièce\nLorsque dans l’état E.G.O. Volatile, active Coup Embrasé à la place\n[WinDuel] Se soigne de 10 PSM\n[DefeatDuel] Perd 10 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Stigmatisation",
+          "desc": "<style=\"highlight\">+1 de Puissance de Pièce pour chaque 7 de [Combustion] sur la cible (2 max)</style>\nLorsque dans l’état E.G.O. Volatile, active Coup Embrasé à la place\n[WinDuel] Se soigne de 10 PSM\n[DefeatDuel] Perd 10 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1100904,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Chagrin",
+          "desc": "Lorsque dans l’état E.G.O. Volatile, +1 de Puissance de Base pour chaque 2 de [Combustion] sur la cible (10 max)\n[WhenUse] Lorsque dans l’état E.G.O. Volatile, perd 5 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Chagrin",
+          "desc": "Lorsque dans l’état E.G.O. Volatile, +1 de Puissance de Base pour chaque 2 de [Combustion] sur la cible (<style=\"highlight\">20</style> max)\n[WhenUse] Lorsque dans l’état E.G.O. Volatile, perd 5 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1100905,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Coup Embrasé",
+          "desc": "+1 de Puissance de Pièce pour chaque 4 de (somme de la Puissance de [Combustion] sur tous les ennemis) (8 max)\n[WinDuel] Se soigne de 10 PSM\n[DefeatDuel] Perd 30 PSM\nInflige +5% de dégâts supplémentaires pour chaque Réson. de Colère (30% max)\n[EndSkill] Perd 15 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +2.5% de dégâts supplémentaires pour chaque 1 de [Combustion] sur la cible (100% max)",
+                  "summary": "Inflige plus de dégâts selon la [Combustion] sur la cible"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 10+ de [Combustion], inflige 2 de [Combustion] à (# de la plus haute Réson.) ennemis aléatoires",
+                  "summary": "[OnSucceedAttack] Inflige de la [Combustion] selon la Réson."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 10 de [Combustion]"
+                },
+                {
+                  "desc": "[EnemyKill] Inflige aléatoirement la Puissance de [Combustion] de la cible vaincue à tous les ennemis (10 max. En Affrontement Concentré, entre toutes les Parties)",
+                  "summary": "[EnemyKill] Inflige de la [Combustion] à des ennemis aléatoires"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Coup Embrasé",
+          "desc": "+<style=\"highlight\">2</style> de Puissance de Pièce pour chaque 4 de (somme de la Puissance de [Combustion] sur tous les ennemis) (8 max)\n[WinDuel] Se soigne de 10 PSM\n[DefeatDuel] Perd 30 PSM\nInflige +<style=\"highlight\">10</style>% de dégâts supplémentaires pour chaque Réson. de Colère (<style=\"highlight\">60</style>% max)\n<style=\"highlight\">Si à 4+ de plus haute Réson.-A de Colère, inflige +20% de dégâts supplémentaires pour chaque Réson. de Colère à la place (120% max)</style>\n[EndSkill] Perd 15 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +<style=\"highlight\">4</style>% de dégâts supplémentaires pour chaque 1 de [Combustion] sur la cible (<style=\"highlight\">120</style>% max)",
+                  "summary": "Inflige plus de dégâts selon la [Combustion] sur la cible"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 10+ de [Combustion], inflige 2 de [Combustion] à (# de la plus haute Réson.) ennemis aléatoires\n<style=\"highlight\">- Si la Réson. ci-dessus était une Réson. de Colère, inflige également +1 de Compte de [Combustion]</style>",
+                  "summary": "[OnSucceedAttack] Inflige de la [Combustion] selon la Réson."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 10 de [Combustion]"
+                },
+                {
+                  "desc": "[EnemyKill] Inflige aléatoirement la Puissance de [Combustion] de la cible vaincue à tous les ennemis (10 max. En Affrontement Concentré, entre toutes les Parties)",
+                  "summary": "[EnemyKill] Inflige de la [Combustion] à des ennemis aléatoires"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

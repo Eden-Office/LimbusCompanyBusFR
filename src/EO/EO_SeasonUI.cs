@@ -21,7 +21,7 @@ namespace LimbusCompanyFR
         {
             //MAIN MENU
             GameObject banner_s3 = GameObject.Find("[Canvas]RatioMainUI/[Rect]PresenterRoot/[UIPresenter]LobbyUIPresenter(Clone)/[Rect]Active/[UIPanel]MainLobbyUIPanel/[Rect]Banner/[Rect]RightBanners/[Script]FirstBanner/[Mask]BannerImageMask/[Image]BannerImage");
-            banner_s3.GetComponentInChildren<UnityEngine.UI.Image>(true).m_OverrideSprite = EO_ReadmeManager.ReadmeEventSprites["EO_Season3_Banner"];
+            //banner_s3.GetComponentInChildren<UnityEngine.UI.Image>(true).m_OverrideSprite = EO_ReadmeManager.ReadmeEventSprites["EO_Season3_Banner"];
         }
         [HarmonyPatch(typeof(VendingMachineBannerSlot), nameof(VendingMachineBannerSlot.SetData))]
         [HarmonyPostfix]

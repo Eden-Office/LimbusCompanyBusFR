@@ -135,6 +135,175 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2080611,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Battement d’Aile",
+          "abName": "Festival des Fées",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se soigne de 15% des PV Max sur soi"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Perd 1~2 PSM"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Réutilise cette Pièce (5 fois par Capacité)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se soigne de 4~8% des dégâts infligés"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [ShamrockTakeDamageUp]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1~3 de [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Battement d’Aile",
+          "abName": "Festival des Fées",
+          "desc": "Si le soin de cette Capacité excède les PV Max de cette unité, redirige le soin en excès sur 1 allié avec le moins de pourcentage de PV à la place",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se soigne de <style=\"highlight\">18</style>% des PV Max sur soi"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Perd 1~2 PSM"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Réutilise cette Pièce (5 fois par Capacité)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se soigne de <style=\"highlight\">6~10</style>% des dégâts infligés"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [ShamrockTakeDamageUp]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1~3 de [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Battement d’Aile",
+          "abName": "Festival des Fées",
+          "desc": "Si le soin de cette Capacité excède les PV Max de cette unité, redirige le soin en excès sur 1 allié avec le moins de pourcentage de PV à la place",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se soigne de <style=\"highlight\">20</style>% des PV Max sur soi"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Perd 1~2 PSM"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Réutilise cette Pièce (5 fois par Capacité)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se soigne de <style=\"highlight\">8~12</style>% des dégâts infligés"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [ShamrockTakeDamageUp]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1~<style=\"highlight\">4</style> de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080621,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Battement d’Aile",
+          "abName": "Festival des Fées",
+          "desc": "[CantIdentify]\nCible l’unité avec le moins de PV de Noyau\n[BeforeAttack] Inflige 5% de dégâts de PV à 5 autres alliés aléatoires maximum\n- Se soigne d’autant de PV que de dégâts infligés aux alliés.\n- Si cette unité inflige des dégâts à un allié, gagne 2 de [Enhancement] ce tour et 2 de [Agility] au prochain tour.\n(Une fois par tour. Les 'dégâts infligés' incluent les dégâts infligés à des PV de Bouclier. Cet effet peut tuer des alliés.)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Se soigne de 10% des dégâts infligés"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Inflige 1~4 de [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Battement d’Aile",
+          "abName": "Festival des Fées",
+          "desc": "[CantIdentify]\nCible l’unité avec le moins de PV de Noyau\n<style=\"highlight\">[BeforeAttack] Gagne (# de plus grande Réson. -2) de Poids d’Atq (1 max)</style>\n[BeforeAttack] Inflige 5% de dégâts de PV à 5 autres alliés aléatoires maximum\n- Se soigne d’autant de PV que de dégâts infligés aux alliés.\n- Si cette unité inflige des dégâts à un allié, gagne 2 de [Enhancement] ce tour et 2 de [Agility] au prochain tour.\n(Une fois par tour. Les 'dégâts infligés' incluent les dégâts infligés à des PV de Bouclier. Cet effet peut tuer des alliés.)\n<style=\"highlight\">[EndSkill] Si le soin de cette Capacité excède les PV max de cette unité, gagne (soin en excès/PV Max) * 10 de Bonus de Niveau Offensif au prochain tour. (3 max par tour)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Se soigne de <style=\"highlight\">15</style>% des dégâts infligés"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Inflige <style=\"highlight\">2~5</style> de [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Battement d’Aile",
+          "abName": "Festival des Fées",
+          "desc": "[CantIdentify]\nCible l’unité avec le moins de PV de Noyau\n[BeforeAttack] Gagne (# de plus grande Réson. -2) de Poids d’Atq (<style=\"highlight\">2</style> max)\n[BeforeAttack] Inflige 5% de dégâts de PV à 5 autres alliés aléatoires maximum\n- Se soigne d’autant de PV que de dégâts infligés aux alliés.\n- Si cette unité inflige des dégâts à un allié, gagne 2 de [Enhancement] ce tour et 2 de [Agility] au prochain tour.\n(Une fois par tour. Les 'dégâts infligés' incluent les dégâts infligés à des PV de Bouclier. Cet effet peut tuer des alliés.)\n[EndSkill] Si le soin de cette Capacité excède les PV max de cette unité, gagne (soin en excès/PV Max) * 10 de Bonus de Niveau Offensif au prochain tour. (<style=\"highlight\">6</style> max par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Se soigne de <style=\"highlight\">20</style>% des dégâts infligés"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Inflige <style=\"highlight\">3~6</style> de [Laceration]"
+                },
+                {
+                  "desc": "[EnemyKill] Gagne 1 de [Enhancement] au prochain tour (3 max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -18,9 +18,9 @@ namespace LimbusCompanyFR
         public static string GamePath;
         public const string GUID = "Com.EdenOffice.LocalizeLimbusCompanyFR";
         public const string NAME = "LimbusCompanyFR";
-        public const string VERSION = "0.1.0";
+        public const string VERSION = "0.2.0";
         public const string AUTHOR = "Bright (Modified by Knightey)";
-        public const string EOLink = " ";
+        public const string EOLink = "https://github.com/Eden-Office/LimbusCompanyBusFR";
         public static Action<string, Action> LogFatalError { get; set; }
         public static Action<string> LogError { get; set; }
         public static Action<string> LogWarning { get; set; }

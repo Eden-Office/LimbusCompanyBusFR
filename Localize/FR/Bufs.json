@@ -628,7 +628,7 @@
     {
       "id": "Choice_901001",
       "name": "Flamme Propagatrice",
-      "desc": "Début du Combat : les Alliés sans Capacité d’Attaque d’Affinité de Colère subissent 5 dégâts de Colère"
+      "desc": "Au début du prochain Affrontement, les alliés sans Affinité de Colère subissent 5 dégâts de Colère"
     },
     {
       "id": "Choice_901007",
@@ -639,7 +639,7 @@
     {
       "id": "Choice_901009",
       "name": "Photopia",
-      "desc": "Début du Combat : -1 de Puissance Finale de Capacité.",
+      "desc": "Toutes les Unités Alliées perdent 1 de Puissance Finale de Capacité au prochain Affrontement.",
       "summary": "Puissance Finale de Capa. -1"
     },
     {
@@ -1868,25 +1868,67 @@
     {
       "id": "VibrationCrack",
       "name": "Tremblement - Fracture",
-      "desc": "- Lorsque Déséquilibré, et lorsque la somme de la Puissance et du Compte de Tremblement est supérieure ou égale à 20, gagne un autre Seuil de Déséquilibre\n- Ne peut pas dépasser le Niveau de Déséquilibre maximum avec cet effet",
-      "summary": ""
+      "desc": "- Lorsque Déséquilibré, et lorsque la somme de la Puissance et du Compte de Tremblement est supérieure ou égale à 20, augmente le Niveau de Déséquilibre de 1\n- Ne peut pas dépasser le Niveau de Déséquilibre maximum avec cet effet\nLorsque Touché par des Capacités provoquant un Sursaut de Tremblement, augmente de {0} le Seuil de Déséquilibre. Dure {1} tours\n(Interagit de la même manière que du Tremblement normal aux effets qui augmentent ou réduisent la Puissance/Compte de Tremblement)",
+      "summary": "Lorsque Déséquilibré, et lorsque la somme de la Puissance et du Compte de Tremblement est supérieure ou égale à 20, augmente le Niveau de Déséquilibre de 1\nAugmente de {0} le Seuil de Déséquilibre"
     },
     {
       "id": "ForwardToTheKing",
       "name": "Présence du Roi",
-      "desc": "En Touche, inflige 50% des dégâts infligés en dégâts de (Affinité de la Capacité d’Attaque utilisée pour toucher) à 2 ennemis avec le moins de PV pouvant être attaqués.",
+      "desc": "En Touche, inflige 50% de la valeur de Pièce obtenue En Touche en dégâts de (Affinité/Type d’Attaque de la Capacité d’Attaque utilisée pour toucher) à 2 autres ennemis attaquables avec le moins de PV pouvant être attaqués.",
       "summary": ""
     },
     {
       "id": "ForwardToTheBoundKing",
       "name": "Présence du Roi Attaché",
-      "desc": "En Touche, inflige 100% des dégâts infligés en dégâts de (Affinité de la Capacité d’Attaque utilisée pour toucher) à 2 ennemis avec le moins de PV pouvant être attaqués.",
+      "desc": "En Touche, inflige 100% de la valeur de Pièce obtenue En Touche en dégâts de (Affinité/Type d’Attaque de la Capacité d’Attaque utilisée pour toucher) à 2 autres ennemis attaquables avec le moins de PV pouvant être attaqués.",
       "summary": ""
     },
     {
       "id": "Switch_Vibration",
       "name": "Conversion d’Amplitude",
       "desc": "Convertit le Tremblement ou le Tremblement déjà converti de la cible en un type différent de Tremblement.\nLes valeurs de Puissance et de Compte ne changent pas durant la conversion."
+    },
+    {
+      "id": "MarkOfButler",
+      "name": "M.M.",
+      "desc": "Améliore les Capacités de Cheffe des Majordomes de la Famille Edgar Ryōshū contre les cibles avec cet effet.\nRéduit le Compte de 1 à la Fin du Tour",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "LibrarianOfHistoryNormal",
+      "name": "Bibliothécaire Adjoint de l’Histoire",
+      "desc": "- +1 Emplacement de Capacité\n- Se soigne de 15 PSM au Début du Tour\n- Inflige le double de quantité de Puissance et de Compte de Brûlure, Saignement, Déchirure, Lourdeur et Tremblement. (S’applique aussi aux effets de Statut 'Uniques')",
+      "summary": ""
+    },
+    {
+      "id": "PreparedMeat",
+      "name": "Viande Préparée",
+      "desc": "Si les conditions sont remplies, la Reine des Fées tue cette unité à la Fin du Tour"
+    },
+    {
+      "id": "Hunger",
+      "name": "Faim",
+      "desc": "Fin du Tour : gagne 1 si cette unité échoue à vaincre un allié avec Viande Préparée.\nÀ 75%- de PV, gagne 2. À 50%- de PV, gagne 3.\nDébut du Tour : perd 1 si cette unité a vaincu un allié avec Viande Préparée.\nÀ 0 de valeur, gagne (# d’alliés vaincus * 3) de Malus de Puissance d’Attaque et de Malus de Puissance de Défense.",
+      "summary": ""
+    },
+    {
+      "id": "UnstableFeeling",
+      "name": "Passion Volatile",
+      "desc": "- En Touche, inflige 1 de Brûlure\n- Si la cible principale a Brûlure, +1 de Puissance Finale\n- Si cette unité a une Capacité de Défense chaînée au Début du Combat, inflige 1 de Brûlure par touche à l’attaquant ce tour\n- Fin du Tour : perd ({0} * 5) PSM. (Perte Max de PSM : 40)",
+      "summary": " "
+    },
+    {
+      "id": "LibrarianOfHistoryHard",
+      "name": "Bibliothécaire de l’Histoire",
+      "desc": "- +1 Emplacement de Capacité\n- Se soigne de 15 PSM au Début du Tour\n- Inflige le double de quantité de Puissance et de Compte de Brûlure, Saignement, Déchirure, Lourdeur et Tremblement. (S’applique aussi aux effets de Statut 'Uniques')\n- Lorsqu’un ennemi est vaincu, 2 alliés (incluant cette unité) avec le moins de PSM se soignent de 25 PSM.\n- En Tuant, gagne +2 ressources E.G.O. de l’Affinité ayant vaincu l’ennemi ; +1 à toutes les ressources E.G.O.",
+      "summary": ""
+    },
+    {
+      "id": "PriceOfCare",
+      "name": "Faim Inépuisable",
+      "desc": "Tas de Fées Dévorés : {0}",
+      "summary": ""
     }
   ]
 }

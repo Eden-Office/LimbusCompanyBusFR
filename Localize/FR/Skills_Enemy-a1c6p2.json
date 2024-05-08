@@ -1,0 +1,1196 @@
+{
+  "dataList": [
+    {
+      "id": 9012801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Dissuasion des Transgresseurs",
+          "desc": "[WhenUse] Si la cible a [Laceration], se soigne de 4 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Exécution des Règles",
+          "desc": "[WhenUse] Si la cible a 5+ de [Laceration], +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [Laceration], se soigne de 5 PSM"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [Laceration], se soigne de 5 PSM"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Exécution des Transgresseurs",
+          "desc": "[WinDuel] Si la cible a [Laceration], gagne 1 de [Enhancement] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 5+ de [Laceration], inflige 20% des dégâts infligés en dégâts supplémentaires"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 de [DefenseDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 5+ de [Laceration], inflige 20% des dégâts infligés en dégâts supplémentaires"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 de [DefenseDown]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Garde",
+          "desc": "Si cette unité a des PV de Bouclier restants à la Fin du Tour, gagne 2 de [AttackDmgUp] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Élimination des Transgresseurs",
+          "desc": "[WhenUse] Si la cible a [Laceration], se soigne de 4 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Accomplissemet des Règles",
+          "desc": "[WhenUse] Si la cible a 4+ de Compte de [Laceration], +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [Laceration], se soigne de 5 PSM"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [Laceration], se soigne de 5 PSM"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Punition des Transgresseurs",
+          "desc": "[WinDuel] Si la cible a [Laceration], gagne 1 de [Enhancement] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 4+ de Compte de [Laceration], inflige 20% des dégâts infligés en dégâts supplémentaires"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 de [DefenseDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 4+ de Compte de [Laceration], inflige 20% des dégâts infligés en dégâts supplémentaires"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 de [DefenseDown]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Garde",
+          "desc": "Si cette unité a des PV de Bouclier restants à la Fin du Tour, gagne 2 de [AttackDmgUp] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Exécution de la Punition",
+          "desc": "[WinDuel] Si la cible a 5+ de [Laceration], réutilise cette Capacité (une fois)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 de [Laceration] et +2 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sanctionnement des Transgresseurs",
+          "desc": "Si la cible a 5+ de [Laceration], inflige +30% de dégâts",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [Laceration], inflige 2 de [AttackDown] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige de la [Burst] égale à ([Laceration]/2) de la cible"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [Laceration], se soigne de 7 PSM"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Clause Enfreinte",
+          "desc": "+1 de Puissance de Pièce pour chaque 3 de [Laceration] sur la cible (3 max)\n[WinDuel] Si la cible a 6+ de [Laceration], inflige +40% de dégâts supplémentaires",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 8 de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [Laceration], se soigne de 5 PSM"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige de la [Burst] égale au [Laceration] sur la cible"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [Laceration], se soigne de 10 PSM"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Si la cible a 5+ de [Laceration],  réutilise cette Capacité (une fois)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Esquive",
+          "desc": "[OnSucceedEvade] Gagne [Enhancement] (1 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Croquis",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Coup de Pinceau",
+          "desc": "Si la cible a 5+ de [Laceration], +2 de Puissance de Base",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [Laceration], se soigne de 5 PSM"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [Laceration], se soigne de 5 PSM"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige de la [Burst] égale au [Laceration] sur la cible"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pois Sanguins",
+          "desc": "[WinDuel] Si la cible a [Laceration], gagne 1 de [Enhancement] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 5+ de [Laceration], inflige 20% des dégâts infligés en dégâts supplémentaires"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 de [DefenseDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 5+ de [Laceration], inflige 20% des dégâts infligés en dégâts supplémentaires"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 de [DefenseDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 5+ de [Laceration], réutilise cette Capacité (1 fois max)"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 2 de [DefenseDown]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Garde",
+          "desc": "Si cette unité a des PV de Bouclier restants à la Fin du Tour, gagne 3 de [AttackDmgUp] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Dessin au Trait",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Coup",
+          "desc": "Si la cible a 5+ de [Laceration], +2 de Puissance de Base",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [Laceration], se soigne de 5 PSM"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [Laceration], se soigne de 5 PSM"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige de la [Burst] égale au [Laceration] sur la cible"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Points Sanguins",
+          "desc": "[WinDuel] Si la cible a [Laceration], gagne 1 de [Enhancement] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 4+ de Compte de [Laceration], inflige 20% des dégâts infligés en dégâts supplémentaires"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 de [DefenseDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 4+ de Compte de [Laceration], inflige 20% des dégâts infligés en dégâts supplémentaires"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 de [DefenseDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 4+ de Compte de [Laceration], réutilise cette Capacité (1 fois max)"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 2 de [DefenseDown]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Garde",
+          "desc": "Si cette unité a des PV de Bouclier restants à la Fin du Tour, gagne 3 de [AttackDmgUp] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Coloration",
+          "desc": "[WinDuel] Si la cible a 5+ de [Laceration], réutilise cette Capacité sur un ennemi aléatoire Après l’Attaque (une fois)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +4 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pointillisme Sanguin",
+          "desc": "Si la cible a 5+ de [Laceration], inflige +30% de dégâts",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [Laceration], inflige 2 de [AttackDown] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [AttackDown] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige de la [Burst] égale au [Laceration] sur la cible"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pointillisme",
+          "desc": "+1 de Puissance de Pièce pour chaque 3 de [Laceration] sur la cible (4 max)\n[WinDuel] Si la cible a 6+ de [Laceration], inflige +40% de dégâts supplémentaires",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 10 de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige du Compte de [Burst] égal au Compte de [Laceration] sur la cible"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige de la [Burst] égale au [Laceration] sur la cible"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sanglant de la Vallée",
+          "desc": "[WinDuel] Si la cible a [Laceration], gagne 1 de [Enhancement] au prochain tour\n[WinDuel] Si la cible a 10+ de [Laceration], gagne 1 de [Enhancement] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [DefenseDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [DefenseDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 5+ de [Laceration], réutilise cette Capacité (3 fois max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Réduit de 1 le Compte de [Laceration] sur la cible"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 2 de [DefenseDown]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Esquive",
+          "desc": "[OnSucceedEvade] Gagne [Enhancement] (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Attaque Normale 1",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [AttackDown] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [AttackDown] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 2 de [Paralysis]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Attaque Normale 2",
+          "desc": "[WhenUse] Si la cible a [AttackDown], inflige +20% de dégâts supplémentaires",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [HitResistDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [HitResistDown]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 de [DefenseDown] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Attaque Normale 3",
+          "desc": "[WhenUse] Si la cible a 2+ de [AttackDown], +1 de Puissance de Duel",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Vulnerable]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Binding] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se soigne de 4 PSM"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [DefenseDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se soigne de 4 PSM"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [DefenseDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se soigne de 4 PSM"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [DefenseDown]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Attaque Normale 4",
+          "desc": "Priorise les cibles avec le plus d’effets négatifs\n[WhenUse] +1 de Puissance de Duel pour chaque 3 de [DefenseDown] sur la cible (3 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Vulnerable]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Vulnerable] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Paralysis] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +20% de dégâts supplémentaires pour chaque 2 de [AttackDown] sur la cible (100% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Si la cible a 3+ effets négatifs, réutilise cette Pièce (1 fois max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Riposte",
+          "desc": "Si la cible a [Vulnerable], +1 de Puissance de Base",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sale Plèbe ! ...",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de [AttackUp] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de [AttackUp] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Je Vous Expulserai",
+          "desc": "[WinDuel] +1 de Puissance de Base",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [AttackDown], inflige 20% des dégâts infligés en dégâts Contondants supplémentaires"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [AttackDown], inflige 20% des dégâts infligés en dégâts Contondants supplémentaires"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Remettre en Ordre les Choses",
+          "desc": "[WinDuel] Si la cible a 2+ de [AttackDown], +1 de Puissance de Base\n[WhenUse] Si la cible a [AttackDown], inflige +30% de dégâts supplémentaires",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se soigne de 4 PSM"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se soigne de 4 PSM"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se soigne de 4 PSM"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fais-Toi Écraser",
+          "desc": "Priorise les cibles avec le plus d’effets négatifs\n[WinDuel] +1 de Puissance de Pièce pour chaque 3 de [AttackDown] sur la cible (3 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Vulnerable]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Vulnerable] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Paralysis] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +30% de dégâts supplémentaires pour chaque 2 de [AttackDown] sur la cible (120% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Si la cible a 3+ effets négatifs, réutilise cette Pièce (1 fois max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Garde",
+          "desc": "[StartBattle] Gagne 20 PV de Bouclier supplémentaires pour chaque autre allié en vie",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Coup de Batte",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Confrontation",
+          "desc": "[WinDuel] Gagne 1 de [Enhancement] et 1 de Bonus de Dégât au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige du [Laceration] égal à la [Burst] sur la cible"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Agitation",
+          "desc": "Si la cible a 5+ de [Burst], +1 de Puissance de Duel\nSi la cible a 5+ de [Laceration], +1 de Puissance de Duel\n[WinDuel] Inflige +3 de Compte de [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Prochaine Pièce a +1 de Puissance"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Prochaine Pièce a +2 de Puissance"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Paralysis] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts Perçants supplémentaires égaux à ([Laceration] * Compte de [Laceration])"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Garde",
+          "desc": "[WhenUse] Gagne 1 de [Enhancement] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Riposte",
+          "desc": "[WhenUse] Gagne 1 de [Enhancement] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

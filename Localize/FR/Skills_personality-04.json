@@ -722,6 +722,249 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1040801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Arts de la Réception 1 : La Chasse",
+          "desc": "[WhenUse] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [MarkOfButler]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Arts de la Réception 1 : La Chasse",
+          "desc": "<style=\"highlight\">Si la Vitesse de cette unité dépasse celle de la cible de 3 ou plus, +1 de Puissance de Duel</style>\n[WhenUse] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [MarkOfButler]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Arts de la Réception 1 : La Chasse",
+          "desc": "<style=\"highlight\">Si la Vitesse de cette unité dépasse celle de la cible, gagne +1 de Puissance de Duel pour chaque 2 de Vitesse de différence (3 max)</style>\n[WhenUse] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [MarkOfButler]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Arts de la Réception 7 : Capture",
+          "desc": "[StartBattle] Consomme 6 de Compte de [Breath] pour gagner +2 de Poids d’Atq sur cette Capacité",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [MarkOfButler]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Arts de la Réception 7 : Capture",
+          "desc": "[StartBattle] Consomme 6 de Compte de [Breath] pour gagner +2 de Poids d’Atq sur cette Capacité",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 3 de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [MarkOfButler]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Arts de la Réception 7 : Capture",
+          "desc": "<style=\"highlight\">Si la Vitesse de cette unité est plus grande que celle de la cible principale, gagne +1 de Puissance de Duel pour chaque 2 de Vitesse de différence (3 max)</style>\n[StartBattle] Consomme 6 de Compte de [Breath] pour gagner +2 de Poids d’Atq sur cette Capacité",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 3 de [Breath]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 1 de [MarkOfButler]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [MarkOfButler]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040803,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Arts de la Réception 2 : B.C.L.C.",
+          "desc": "Si la cible a [MarkOfButler], +1 de Puissance de Duel\n[WhenUse] Gagne +7 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 5 de [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Binding] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Augmente de 20% des dégâts infligés le Seuil de Déséquilibre"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible est Déséquilibrée, inflige +20% de Dégât en Touche Critique"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [MarkOfButler]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Arts de la Réception 2 : B.C.L.C.",
+          "desc": "Si la cible a [MarkOfButler], +1 de Puissance de Duel\n<style=\"highlight\">Si la Vitesse de cette unité dépasse celle de la cible, gagne +1 de Puissance de Pièce pour chaque 2 de Vitesse de différence (2 max)</style>\n[WhenUse] Gagne +7 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 5 de [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Binding] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Augmente de 30% des dégâts infligés le Seuil de Déséquilibre"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 1 de [MarkOfButler]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible est Déséquilibrée, inflige +40% de Dégât en Touche Critique"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [MarkOfButler]"
+                },
+                {
+                  "desc": "[EnemyKill] Réutilise la Capacité une fois sur une cible aléatoire avec [MarkOfButler]\n(Ne s’active pas en Réutilisation. Ne s’active pas lorsqu’il n’y a pas de cibles restantes avec [MarkOfButler])"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Médiocre",
+          "desc": "[OnSucceedEvade] Se soigne de 3 PSM (3 fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Médiocre",
+          "desc": "[OnSucceedEvade] Se soigne de 3 PSM (<style=\"highlight\">5</style> fois par tour)\n<style=\"highlight\">[OnSucceedEvade] Gagne +1 de Compte de[Breath] (5 fois par tour)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

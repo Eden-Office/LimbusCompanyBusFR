@@ -1365,8 +1365,7 @@
     {
       "id": "Vibration_Collapse",
       "name": "Tremblement - Désintégration",
-      "desc": "Perd 1 Niveau Défensif pour chaque 4 de Puissance de Tremblement sur soi.\nLorsque Touché par des Capacités provoquant un Sursaut de Tremblement, augmente le Seuil de Déséquilibre selon la Puissance de l’effet\nFin du Tour : réduit le Compte de 1\n(Interagit de la même manière que du Tremblement normal aux effets qui augmentent ou réduisent la Puissance/Compte de Tremblement)",
-      "summary": "Perd 1 Niveau Défensif pour chaque 4 de Puissance de Tremblement sur soi\nAugmente de {0} le Seuil de Déséquilibre"
+      "desc": "Perd 1 Niveau Défensif pour chaque 4 de Puissance de Tremblement sur soi.\nLorsque Touché par des Capacités provoquant un Sursaut de Tremblement, augmente le Seuil de Déséquilibre selon la Puissance de l’effet\nFin du Tour : réduit le Compte de 1\n(Interagit de la même manière que du Tremblement normal aux effets qui augmentent ou réduisent la Puissance/Compte de Tremblement)"
     },
     {
       "id": "EchoOfMansion",
@@ -1386,19 +1385,43 @@
     {
       "id": "VibrationCrack",
       "name": "Tremblement - Fracture",
-      "desc": "- Lorsque Déséquilibré, et lorsque la somme de la Puissance et du Compte de Tremblement est supérieure ou égale à 20, augmente le Niveau de Déséquilibre de 1\n- Ne peut pas dépasser le Niveau de Déséquilibre maximum avec cet effet",
+      "desc": "- Lorsque Déséquilibré, et lorsque la somme de la Puissance et du Compte de Tremblement est supérieure ou égale à 20, augmente le Niveau de Déséquilibre de 1\n- Ne peut pas dépasser le Niveau de Déséquilibre maximum avec cet effet\n\nLorsque Touché par des Capacités provoquant un Sursaut de Tremblement, augmente le Seuil de Déséquilibre selon la Puissance de l’effet\nFin du Tour : réduit le Compte de 1\n(Interagit de la même manière que du Tremblement normal aux effets qui augmentent ou réduisent la Puissance/Compte de Tremblement)",
       "summary": ""
     },
     {
       "id": "ForwardToTheKing",
       "name": "Présence du Roi",
-      "desc": "Lorsque l’attaque avec 1 de Poids d’Atq de cette unité touche, inflige 50% des dégâts infligés en dégâts de (Affinité de la Capacité d’Attaque utilisée pour toucher) à 2 ennemis avec le moins de PV pouvant être attaqués.",
+      "desc": "Lorsque l’attaque avec 1 de Poids d’Atq de cette unité touche, inflige 50% de la valeur de Pièce obtenue En Touche en dégâts de (Affinité/Type d’Attaque de la Capacité d’Attaque utilisée pour toucher) à 2 autres ennemis attaquables avec le moins de PV.",
       "summary": ""
     },
     {
       "id": "ForwardToTheBoundKing",
       "name": "Présence du Roi Attaché",
-      "desc": "Lorsque l’attaque avec 1 de Poids d’Atq de cette unité touche, inflige 100% des dégâts infligés en dégâts de (Affinité de la Capacité d’Attaque utilisée pour toucher) à 2 ennemis avec le moins de PV pouvant être attaqués.",
+      "desc": "Lorsque l’attaque avec 1 de Poids d’Atq de cette unité touche, inflige 100% de la valeur de Pièce obtenue En Touche en dégâts de (Affinité/Type d’Attaque de la Capacité d’Attaque utilisée pour toucher) à 2 autres ennemis attaquables avec le moins de PV.",
+      "summary": ""
+    },
+    {
+      "id": "MarkOfButler",
+      "name": "M.M.",
+      "desc": "Améliore les Capacités de Cheffe des Majordomes de la Famille Edgar Ryōshū contre les cibles avec cet effet.\nFin du Tour : réduit le Compte de 1",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "PreparedMeat",
+      "name": "Viande Préparée",
+      "desc": "Si les conditions sont remplies, la Reine des Fées tue cette unité à la Fin du Tour"
+    },
+    {
+      "id": "Hunger",
+      "name": "Faim",
+      "desc": "Fin du Tour : gagne 1 si cette unité échoue à vaincre un allié avec Viande Préparée.\nÀ 75%- de PV, gagne 2. À 50%- de PV, gagne 3.\nDébut du Tour : perd 1 si cette unité a vaincu un allié avec Viande Préparée.\nÀ 0 de valeur, gagne (# d’alliés vaincus * 3) de Malus de Puissance d’Attaque et de Malus de Puissance de Défense.",
+      "summary": ""
+    },
+    {
+      "id": "UnstableFeeling",
+      "name": "Passion Volatile",
+      "desc": "- En Touche, inflige 1 de Brûlure\n- Si la cible principale a Brûlure, +1 de Puissance Finale\n- Lorsque touché, si cette unité a une Capacité de Défense chaînée au Début du Combat, inflige de la Brûlure à l’attaquant ce tour\n- Fin du Tour : perd (# de tours passés en état d’E.G.O. Volatile * 5) PSM. (Perte Max de PSM : 40)",
       "summary": ""
     }
   ]

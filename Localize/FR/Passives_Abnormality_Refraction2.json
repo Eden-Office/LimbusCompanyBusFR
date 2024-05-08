@@ -253,12 +253,12 @@
     {
       "id": 855501,
       "name": "Passé Revenant",
-      "desc": "Si à 50+ de <sprite name=\"AccumulatedPast\"><color=#a16a3b><u><link=\"AccumulatedPast\">Passé Accumulé</color></link></u>, et si les PV de Noyau sont inférieurs ou égaux à 80%, le Noyau gagne 200 PV en dépensant 50 de <sprite name=\"AccumulatedPast\"><color=#a16a3b><u><link=\"AccumulatedPast\">Passé Accumulé</color></link></u>."
+      "desc": "Si à 50+ de <sprite name=\"AccumulatedPast\"><color=#a16a3b><u><link=\"AccumulatedPastMirror\">Passé Accumulé</color></link></u>, et si les PV de Noyau sont inférieurs ou égaux à 80%, le Noyau gagne 200 PV en dépensant 50 de <sprite name=\"AccumulatedPast\"><color=#a16a3b><u><link=\"AccumulatedPastMirror\">Passé Accumulé</color></link></u>."
     },
     {
       "id": 855502,
       "name": "Passé Égaré",
-      "desc": "Lorsque le corps est brisé, dépense tout Passé Accumulé.\nLorsque le corps est brisé, tous les Types d’Attaque et d’Affinités deviennent inefficaces (0.5) contre le corps à partir du prochain tour jusqu’à la fin de ce combat."
+      "desc": "Lorsque le corps est brisé, dépense tout <sprite name=\"AccumulatedPast\"><color=#a16a3b><u><link=\"AccumulatedPastMirror\">Passé Accumulé</color></link></u>.\nLorsque le corps est brisé, tous les Types d’Attaque et d’Affinités deviennent contre le corps inefficaces (0.5) à partir du prochain tour jusqu’à la fin de cet affrontement."
     },
     {
       "id": 855503,
@@ -288,7 +288,7 @@
     {
       "id": 855508,
       "name": "Métronome",
-      "desc": "Si le premier chiffre de <sprite name=\"AccumulatedPast\"><color=#a16a3b><u><link=\"AccumulatedPast\">Passé Accumulé</color></link></u> est un nombre impair, gagne 3 de <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Vulnérabilité</color></link></u> et 3 de <sprite name=\"AttackDmgUp\"><color=#e30000><u><link=\"AttackDmgUp\">Bonus de Dégâts</color></link></u>\nSi le premier chiffre de Passé Accumulé est un nombre pair ou 0, gagne de la <sprite name=\"Protection\"><color=#e30000><u><link=\"Protection\">Protection</color></link></u> et 3 de <sprite name=\"AttackDmgDown\"><color=#e30000><u><link=\"AttackDmgDown\">Malus de Dégâts</color></link></u>"
+      "desc": "Si le <sprite name=\"AccumulatedPast\"><color=#a16a3b><u><link=\"AccumulatedPastMirror\">Passé Accumulé</color></link></u> est un nombre impair, gain 3 de [Vulnerable] et de [AttackDmgUp]\nSi c’est un nombre pair, gagne 3 de [Protection] et de [AttackDmgDown]"
     },
     {
       "id": 855601,

@@ -259,6 +259,130 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2090611,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Désir Sanguin",
+          "abName": "Les Chaussures Rouges",
+          "desc": "+1 de Puissance de Pièce pour chaque  2 de [Laceration] sur la cible (6 max)\n[StartBattle] La cible principale de cette Capacité ne perd pas de Compte de [Laceration] pendant ce tour.\n[EndSkill] Pendant 3 tours, perd 10 PSM à la Fin du Tour.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige autant de dégâts d’Affinité de Luxure que de Puissance de [Laceration] sur la cible.\n- À 4+ de Réson. de Luxure, inflige des dégâts de Luxure égaux à (Puissance de [Laceration] sur la cible * 1.2).\n(Un maximum de 99 de Puissance de [Laceration] sera utilisé pour le calcul de cette Capacité.)",
+                  "summary": "[OnSucceedAttack] Inflige des dégâts d’Affinité de Luxure basés sur le [Laceration] sur la cible"
+                },
+                {
+                  "desc": "[EnemyKill] Si les effets de cette Capacité ou de ses Pièces inflige des dégâts qui excèdent les PV restants de la cible (en Affrontement Concentré, du Noyau), répartit les dégâts en excès en dégâts fixes entre tous les ennemis.",
+                  "summary": "[EnemyKill] Répartit les dégâts en excès entre tous les ennemis."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Désir Sanguin",
+          "abName": "Les Chaussures Rouges",
+          "desc": "+1 de Puissance de Pièce pour chaque  2 de [Laceration] sur la cible (<style=\"highlight\">9</style> max)\n[StartBattle] La cible principale de cette Capacité ne perd pas de Compte de [Laceration] pendant ce tour.\n[EndSkill] Pendant 3 tours, perd 10 PSM à la Fin du Tour.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts de Luxure égaux à <style=\"highlight\">(Puissance de [Laceration] sur la cible * 1.2)</style>.\n- À 4+ de Réson. de Luxure, inflige des dégâts de Luxure égaux à (Puissance de [Laceration] sur la cible * <style=\"highlight\">1.5</style>).\n<style=\"highlight\">- À 4+ de Réson.-A de Luxure, inflige des dégâts d’Affinité de Luxure égaux à (Puissance de [Laceration] sur la cible * 1.8).</style>\n(Un maximum de 99 de Puissance de [Laceration] sera utilisé pour le calcul de cette Capacité.)",
+                  "summary": "[OnSucceedAttack] Inflige des dégâts d’Affinité de Luxure basés sur le [Laceration] sur la cible"
+                },
+                {
+                  "desc": "[EnemyKill] Si les effets de cette Capacité ou de ses Pièces inflige des dégâts qui excèdent les PV restants de la cible (en Affrontement Concentré, du Noyau), répartit les dégâts en excès en dégâts fixes entre tous les ennemis.",
+                  "summary": "[EnemyKill] Répartit les dégâts en excès entre tous les ennemis."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Désir Sanguin",
+          "abName": "Les Chaussures Rouges",
+          "desc": "+1 de Puissance de Pièce pour chaque  2 de [Laceration] sur la cible (<style=\"highlight\">13</style> max)\n[StartBattle] La cible principale de cette Capacité ne perd pas de Compte de [Laceration] pendant ce tour.\n[EndSkill] Pendant 3 tours, perd 10 PSM à la Fin du Tour.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts d’Affinité de Luxure égaux à (Puissance de [Laceration] sur la cible * <style=\"highlight\">1.5</style>)\n- À 4+ de Réson. de Luxure, inflige des dégâts de Luxure égaux à (Puissance de [Laceration] sur la cible * <style=\"highlight\">1.8</style>).\n- À 4+ de Réson.-A de Luxure, inflige des dégâts d’Affinité de Luxure égaux à (Puissance de [Laceration] sur la cible * <style=\"highlight\">2</style>).\n(Un maximum de 99 de Puissance de [Laceration] sera utilisé pour le calcul de cette Capacité.)",
+                  "summary": "[OnSucceedAttack] Inflige des dégâts d’Affinité de Luxure basés sur le [Laceration] sur la cible"
+                },
+                {
+                  "desc": "[EnemyKill] Si les effets de cette Capacité ou de ses Pièces inflige des dégâts qui excèdent les PV restants de la cible (en Affrontement Concentré, du Noyau), répartit les dégâts en excès en dégâts fixes entre tous les ennemis.",
+                  "summary": "[EnemyKill] Répartit les dégâts en excès entre tous les ennemis."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090621,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Désir Sanguin",
+          "abName": "Les Chaussures Rouges",
+          "desc": "[CantIdentify]\nCible Aléatoirement\n[BeforeAttack] Gagne (# de plus haute Réson. - 2) de Poids d’Atq (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige (2 + (Réson. de Luxure)) de [Laceration]\n(Réson. de Luxure Maximum pris en compte : 4)",
+                  "summary": "[OnSucceedAttack] Inflige (2 + (Réson. de Luxure)) de [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Désir Sanguin",
+          "abName": "Les Chaussures Rouges",
+          "desc": "[CantIdentify]\nCible Aléatoirement\n[BeforeAttack] Gagne (# de plus haute Réson. - 2) de Poids d’Atq (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige (<style=\"highlight\">3</style> + (Réson. de Luxure)) de [Laceration]\n(Réson. de Luxure Maximum pris en compte : <style=\"highlight\">5</style>)",
+                  "summary": "[OnSucceedAttack] Inflige (3 + (Réson. de Luxure)) de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Désir Sanguin",
+          "abName": "Les Chaussures Rouges",
+          "desc": "[CantIdentify]\nCible Aléatoirement\n[BeforeAttack] Gagne (# de plus haute Réson. - 2) de Poids d’Atq (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige (<style=\"highlight\">4</style> + (Réson. de Luxure)) de [Laceration]\n(Réson. de Luxure Maximum pris en compte : <style=\"highlight\">6</style>)",
+                  "summary": "[OnSucceedAttack] Inflige (4 + (Réson. de Luxure)) de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +<style=\"highlight\">3</style> de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

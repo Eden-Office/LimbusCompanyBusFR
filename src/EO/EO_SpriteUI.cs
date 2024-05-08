@@ -39,6 +39,11 @@ namespace LimbusCompanyFR
         [HarmonyPostfix]
         private static void LoginSceneManager_Init(LoginSceneManager __instance)
         {
+            Transform catchphrase = __instance.transform.Find("[Canvas]/[Image]Catchphrase");
+            if (catchphrase.GetComponentInChildren<Image>(true).sprite.name == "season_catchphrase")
+            {
+                catchphrase.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_Catchphrase"];
+            }
             __instance.img_touchToStart.sprite = EO_ReadmeManager.ReadmeSprites["EO_Start"];
             Transform motto = __instance.transform.Find("[Canvas]/[Image]RedLine/[Image]Phrase");
             if (motto != null)

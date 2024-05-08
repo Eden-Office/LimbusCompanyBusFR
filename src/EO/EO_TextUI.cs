@@ -21,6 +21,8 @@ using System.Collections.Generic;
 using BattleUI.BattleUnit;
 using Il2CppSystem;
 using Dungeon;
+using UtilityUI;
+using System.Text.RegularExpressions;
 
 namespace LimbusCompanyFR
 {
@@ -149,6 +151,117 @@ namespace LimbusCompanyFR
                 level.GetComponentInChildren<TextMeshProUGUI>(true).fontMaterial = LCB_French_Font.tmpfrenchfonts[2].material;
             }
         }
+
+        private static string getTimerD(int days)
+        {
+            int lastDigit = days % 10;
+            int lastTwoDigits = days % 100;
+
+            if (lastTwoDigits >= 11 && lastTwoDigits <= 59)
+            {
+                return "jours";
+            }
+            else if (lastDigit == 1)
+            {
+                return "jour";
+            }
+            else
+            {
+                return "jours";
+            }
+        }
+
+        private static string getTimerH(int hours)
+        {
+            int lastDigit = hours % 10;
+            int lastTwoDigits = hours % 100;
+
+            if (lastTwoDigits >= 11 && lastTwoDigits <= 59)
+            {
+                return "heures";
+            }
+            else if (lastDigit == 1)
+            {
+                return "heure";
+            }
+            else
+            {
+                return "heures";
+            }
+        }
+
+        private static string getTimerM(int minutes)
+        {
+            int lastDigit = minutes % 10;
+            int lastTwoDigits = minutes % 100;
+
+            if (lastTwoDigits >= 11 && lastTwoDigits <= 59)
+            {
+                return "minutes";
+            }
+            else if (lastDigit == 1)
+            {
+                return "minute";
+            }
+            else
+            {
+                return "minutes";
+            }
+        }
+
+        [HarmonyPatch(typeof(EventTimerUI), nameof(EventTimerUI.UpdateRemainEventTime))]
+        [HarmonyPostfix]
+        private static void EventTimerUI_Init(EventTimerUI __instance)
+        {
+            __instance.tmp_remainingTime.name = "EVENT!";
+            string pattern = @"(\d+ jours)(\d+ heures)";
+            Match match = Regex.Match(__instance.tmp_remainingTime.text, pattern);
+            if (match.Success)
+            {
+                int days = int.Parse(match.Groups[1].Value.Split(' ')[0]);
+                int hours = int.Parse(match.Groups[2].Value.Split(' ')[0]);
+                string dayWord = getTimerD(days);
+                string hourWord = getTimerH(hours);
+                __instance.tmp_remainingTime.text = Regex.Replace(__instance.tmp_remainingTime.text, pattern, days + " " + dayWord + " " + hours + " " + hourWord);
+            }
+            string lastPattern = @"(\d+ heures)(\d+ minutes)";
+            Match lastMatch = Regex.Match(__instance.tmp_remainingTime.text, lastPattern);
+            if (lastMatch.Success)
+            {
+                int hours = int.Parse(lastMatch.Groups[1].Value.Split(' ')[0]);
+                int minutes = int.Parse(lastMatch.Groups[2].Value.Split(' ')[0]);
+                string hourWord = getTimerH(hours);
+                string minuteWord = getTimerM(minutes);
+                __instance.tmp_remainingTime.text = Regex.Replace(__instance.tmp_remainingTime.text, lastPattern, hours + " " + hourWord + " " + minutes + " " + minuteWord);
+            }
+            __instance.tmp_remainingTime.name = "EVENT!";
+            string dayPattern = @"(\d+ jours)";
+            Match dayMatch = Regex.Match(__instance.tmp_remainingTime.text, dayPattern);
+            if (dayMatch.Success)
+            {
+                int days = int.Parse(dayMatch.Groups[1].Value.Split(' ')[0]);
+                string dayWord = getTimerD(days);
+                __instance.tmp_remainingTime.text = Regex.Replace(__instance.tmp_remainingTime.text, dayPattern, days + " " + dayWord);
+            }
+            __instance.tmp_remainingTime.name = "EVENT!";
+            string hourPattern = @"(\d+ heures)";
+            Match hourMatch = Regex.Match(__instance.tmp_remainingTime.text, hourPattern);
+            if (hourMatch.Success)
+            {
+                int hours = int.Parse(hourMatch.Groups[1].Value.Split(' ')[0]);
+                string hourWord = getTimerH(hours);
+                __instance.tmp_remainingTime.text = Regex.Replace(__instance.tmp_remainingTime.text, hourPattern, hours + " " + hourWord);
+            }
+            __instance.tmp_remainingTime.name = "EVENT!";
+            string minutePattern = @"(\d+ minutes)";
+            Match minuteMatch = Regex.Match(__instance.tmp_remainingTime.text, minutePattern);
+            if (minuteMatch.Success)
+            {
+                int minutes = int.Parse(minuteMatch.Groups[1].Value.Split(' ')[0]);
+                string minuteWord = getTimerH(minutes);
+                __instance.tmp_remainingTime.text = Regex.Replace(__instance.tmp_remainingTime.text, minutePattern, minutes + " " + minuteWord);
+            }
+        }
         #endregion
 
         #region Settings
@@ -185,6 +298,26 @@ namespace LimbusCompanyFR
             __instance.tmp_level.font = LCB_French_Font.tmpfrenchfonts[2];
             __instance.tmp_level.fontMaterial = LCB_French_Font.tmpfrenchfonts[2].material;
             __instance.tmp_level.fontSize = 60;
+        }
+
+        [HarmonyPatch(typeof(RemainTimeText), nameof(RemainTimeText.SetRemainNextDay))]
+        [HarmonyPostfix]
+        private static void ThreadDungeonRemainingTime(RemainTimeText __instance)
+        {
+            if (__instance.tmp_timer.text.Contains("Heures:"))
+            {
+                __instance.tmp_timer.text = __instance.tmp_timer.text.Replace("Heures:", "");
+                string[] parts = __instance.tmp_timer.text.Split(' ');
+                int number = int.Parse(parts[0]);
+                __instance.tmp_timer.text = $"Il vous reste {number} {getTimerH(number)}";
+            }
+            if (__instance.tmp_timer.text.Contains("Minutes:"))
+            {
+                __instance.tmp_timer.text = __instance.tmp_timer.text.Replace("Minutes:", "");
+                string[] parts = __instance.tmp_timer.text.Split(' ');
+                int number = int.Parse(parts[0]);
+                __instance.tmp_timer.text = $"Il vous reste {number} {getTimerM(number)}";
+            }
         }
         #endregion
 
@@ -320,6 +453,71 @@ namespace LimbusCompanyFR
         private static void FormationUIDeckToggle_Init(FormationUIDeckToggle __instance)
         {
             __instance.tmp_title.text = __instance.tmp_title.text.Replace("#", "№");
+        }
+        #endregion
+
+        #region LV
+        [HarmonyPatch(typeof(UnitinfoUnitStatusContent), nameof(UnitinfoUnitStatusContent.Init))]
+        [HarmonyPostfix]
+        private static void UnitinfoUnitStatusContent_Init(UnitinfoUnitStatusContent __instance)
+        {
+            TextMeshProUGUI lvlb = __instance._levelUI.transform.Find("Tmp_LV_sign").GetComponentInChildren<TextMeshProUGUI>();
+            TextMeshProUGUI lvlp = __instance._levelExpGuageUI.transform.Find("Tmp_LV_sign").GetComponentInChildren<TextMeshProUGUI>();
+            List<TextMeshProUGUI> lvl_l = new List<TextMeshProUGUI> { lvlb, lvlp };
+            foreach (TextMeshProUGUI lvl in lvl_l)
+            {
+                lvl.text = lvl.text.Replace("LV", "NV");
+                lvl.font = LCB_French_Font.tmpfrenchfonts[2];
+                lvl.m_sharedMaterial = LCB_French_Font.GetFrenchMats(6);
+            }
+        }
+        [HarmonyPatch(typeof(FormationSwitchablePersonalityUIScrollViewItem), nameof(FormationSwitchablePersonalityUIScrollViewItem.SetData))]
+        [HarmonyPostfix]
+        private static void FormationSwitchablePersonalityUIScrollViewItemLevel_Init(FormationSwitchablePersonalityUIScrollViewItem __instance)
+        {
+            __instance.txt_level.text = __instance.txt_level.text.Replace("Lv", "Nv");
+            __instance.txt_level.font = LCB_French_Font.tmpfrenchfonts[2];
+            __instance.txt_level.m_sharedMaterial = LCB_French_Font.GetFrenchMats(6);
+        }
+        [HarmonyPatch(typeof(UserInfoCard), nameof(UserInfoCard.SetData))]
+        [HarmonyPostfix]
+        private static void UserInfoCard_Init(UserInfoCard __instance)
+        {
+            TextMeshProUGUI lvl = __instance.tmp_level.transform.parent.Find("[Text]LevelLabel").GetComponentInChildren<TextMeshProUGUI>();
+            LevelLabel(lvl);
+            TextMeshProUGUI num = __instance.tmp_level.transform.parent.Find("[Text]IdNumberLabel").GetComponentInChildren<TextMeshProUGUI>();
+            NumberLabel(num);
+        }
+        [HarmonyPatch(typeof(UserInfoFriednsSlot), nameof(UserInfoFriednsSlot.SetData))]
+        [HarmonyPostfix]
+        private static void UserInfoFriednsSlot_Init(UserInfoFriednsSlot __instance)
+        {
+            TextMeshProUGUI lvl = __instance._friendCard.tmp_level.transform.parent.Find("[Text]LevelLabel").GetComponentInChildren<TextMeshProUGUI>();
+            LevelLabel(lvl);
+            TextMeshProUGUI num = __instance._friendCard.tmp_level.transform.parent.Find("[Text]IdNumberLabel").GetComponentInChildren<TextMeshProUGUI>();
+            NumberLabel(num);
+            num.fontSize = 35;
+        }
+        [HarmonyPatch(typeof(UserInfoFriendsInfoPopup), nameof(UserInfoFriendsInfoPopup.SetData))]
+        [HarmonyPostfix]
+        private static void UserInfoFriendsInfoPopup_Init(UserInfoFriendsInfoPopup __instance)
+        {
+            TextMeshProUGUI lvl = __instance._friendsManager._friendCard.tmp_level.transform.parent.Find("[Text]LevelLabel").GetComponentInChildren<TextMeshProUGUI>();
+            LevelLabel(lvl);
+            TextMeshProUGUI num = __instance._friendsManager._friendCard.tmp_level.transform.parent.Find("[Text]IdNumberLabel").GetComponentInChildren<TextMeshProUGUI>();
+            NumberLabel(num);
+        }
+        private static void LevelLabel(TextMeshProUGUI lvl_l)
+        {
+            lvl_l.text = lvl_l.text.Replace("LV", "NV");
+            lvl_l.m_fontAsset = LCB_French_Font.tmpfrenchfonts[2];
+            lvl_l.m_sharedMaterial = LCB_French_Font.GetFrenchMats(6);
+        }
+        private static void NumberLabel(TextMeshProUGUI num_l)
+        {
+            num_l.text = "№";
+            num_l.m_fontAsset = LCB_French_Font.tmpfrenchfonts[0];
+            num_l.m_sharedMaterial = LCB_French_Font.GetFrenchMats(3);
         }
         #endregion
 
@@ -655,6 +853,7 @@ namespace LimbusCompanyFR
             battle_pass_bought.GetComponentInChildren<TextMeshProUGUI>(true).characterSpacing = -22;
             List<Transform> transforms = new List<Transform> { limbus_pass, limbus_pass_bought, battle_pass, battle_pass_bought, package, package_popUp, until_pass, __instance.tmp_be_in_use.transform, __instance.limbusPassPopup.tmp_description.transform };
             BebasForPass(transforms);
+            package.GetComponentInChildren<TextMeshProLanguageSetter>(true).enabled = false;
         }
         [HarmonyPatch(typeof(BattlePassUIPopup), nameof(BattlePassUIPopup.SetRemainText))]
         [HarmonyPostfix]
@@ -673,6 +872,43 @@ namespace LimbusCompanyFR
             {
                 limbuspass_active.GetComponentInChildren<TextMeshProUGUI>(true).m_fontAsset = LCB_French_Font.GetFrenchFonts(0);
                 limbuspass_active.GetComponentInChildren<TextMeshProUGUI>(true).m_sharedMaterial = LCB_French_Font.GetFrenchMats(2);
+            }
+        }
+        #endregion
+
+        #region BattlePass Timer
+        [HarmonyPatch(typeof(BattlePassUIPopup), nameof(BattlePassUIPopup.SetRemainText))]
+        [HarmonyPostfix]
+        private static void BattlePassT_Init(BattlePassUIPopup __instance)
+        {
+            if (__instance.tmp_remainDate.text.Contains("Jours:"))
+            {
+                __instance.tmp_remainDate.text = __instance.tmp_remainDate.text.Replace("Jours:", "");
+                string[] parts = __instance.tmp_remainDate.text.Split(' ');
+                int number = int.Parse(parts[0]);
+                __instance.tmp_remainDate.text = $"Il vous reste {number} {getTimerD(number)}";
+            }
+            else if (__instance.tmp_remainDate.text.Contains("Heures:"))
+            {
+                __instance.tmp_remainDate.text = __instance.tmp_remainDate.text.Replace("Heures:", "");
+                string[] parts = __instance.tmp_remainDate.text.Split(' ');
+                int number = int.Parse(parts[0]);
+                __instance.tmp_remainDate.text = $"Il vous reste {number} {getTimerH(number)}";
+            }
+            else if (__instance.tmp_remainDate.text.Contains("Minutes:"))
+            {
+                __instance.tmp_remainDate.text = __instance.tmp_remainDate.text.Replace("Minutes:", "");
+                string[] parts = __instance.tmp_remainDate.text.Split(' ');
+                int number = int.Parse(parts[0]);
+                __instance.tmp_remainDate.text = $"Il vous reste {number} {getTimerM(number)}";
+            }
+            else if (__instance.tmp_remainDate.text.Contains("Joursheures:"))
+            {
+                __instance.tmp_remainDate.text = __instance.tmp_remainDate.text.Replace("Joursheures:", "");
+                string[] parts = __instance.tmp_remainDate.text.Split(' ');
+                int number1 = int.Parse(parts[0]);
+                int number2 = int.Parse(parts[1]);
+                __instance.tmp_remainDate.text = $"Il vous reste {number1} {getTimerD(number1)} et {number2} {getTimerH(number2)}";
             }
         }
         #endregion

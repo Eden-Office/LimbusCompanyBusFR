@@ -1,0 +1,417 @@
+{
+  "dataList": [
+    {
+      "id": 9013601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "...ogne",
+          "desc": "[WhenUse] Si la cible a 5+ de [Sinking], inflige 1 de [AttackDown]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Binding] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Paralysis] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "... de Nettoyer",
+          "desc": "[WhenUse] Si la cible a 10 de PSM ou moins, inflige 2 de [AttackDown]\n[WinDuel] Inflige 1 de [Vulnerable]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [PlusCoinValueDown] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Vulnerable] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "...rdonne ! ...",
+          "desc": "[WhenUse] +1 de Puissance de Base pour chaque 3 de [Sinking] sur la cible (3 max)\n[WinDuel] Tous les alliés regagnent 5 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 8 de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige +2 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 8 de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige +2 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 8 de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige +2 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "...de Poussière",
+          "desc": "[WhenUse] +1 de Puissance de Base pour chaque 6 de [Sinking] sur la cible (3 max)\n[WhenUse] Inflige +10% de dégâts supplémentaires pour chaque 6 de Compte de [Sinking] sur la cible (30% max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts d’Affinité de Peine supplémentaires égaux à la [Sinking] sur la cible. Réduit de 1 le Compte de [Sinking] sur la cible"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts d’Affinité de Peine supplémentaires égaux à la [Sinking] sur la cible. Réduit de 1 le Compte de [Sinking] sur la cible"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts d’Affinité de Peine supplémentaires égaux à la [Sinking] sur la cible."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 3+ de Compte de [Sinking], réutilise cette Pièce (deux fois)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sal...",
+          "desc": "Si cette unité a des PV de Bouclier restants à la Fin du Tour, diminue de 50 le Seuil de Déséquilibre",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sale Pl...",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de [AttackUp] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de [AttackUp] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Je Vous Exp...",
+          "desc": "[WinDuel] +1 de Puissance de Base",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [AttackDown], inflige 20% des dégâts infligés en dégâts Contondants supplémentaires"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [AttackDown], inflige 20% des dégâts infligés en dégâts Contondants supplémentaires"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Remettre en Ordre...",
+          "desc": "[WinDuel] Si la cible a 2+ de [AttackDown], +1 de Puissance de Base\n[WhenUse] Si la cible a [DefenseDown], inflige 30% des dégâts infligés en dégâts Contondants supplémentaires",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se soigne de 4 PSM"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se soigne de 4 PSM"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se soigne de 4 PSM"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "...ulserai",
+          "desc": "Priorise les cibles avec le plus d’effets négatifs\n[WinDuel] +1 de Puissance de Pièce pour chaque 3 de [DefenseDown] sur la cible (3 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Vulnerable]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Vulnerable] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Paralysis] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +30% de dégâts supplémentaires pour chaque 2 de [AttackDown] sur la cible (120% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Si la cible a 3+ effets négatifs, réutilise cette Pièce (une fois)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Garde",
+          "desc": "[StartBattle] Gagne 20 PV de Bouclier supplémentaires pour chaque allié en vie",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Marc...",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [DefenseDown] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "...te",
+          "desc": "[WhenUse] Si la cible a 2+ effets négatifs, +1 de Puissance de Base",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [DefenseDown] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fl...he",
+          "desc": "[WhenUse] Si la cible a 4+ effets négatifs, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Binding] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [PenetrateTakeDamageUp] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Binding] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cou...oit",
+          "desc": "[WhenUse] Si la cible a 5+ effets négatifs, +2 de Puissance de Base\n[WhenUse] Si la cible a 5+ effets négatifs, +30% de dégâts supplémentaires",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Vulnerable]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Vulnerable] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 5+ effets négatifs, réutilise cette Pièce (2 fois max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Retire aléatoirement 1 effet négatif retirable appliqué sur la cible"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013805,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "...",
+          "desc": "[OnSucceedEvade] Se soigne de 5 PSM (2 fois max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

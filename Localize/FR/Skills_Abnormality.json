@@ -5001,6 +5001,235 @@
           ]
         }
       ]
+    },
+    {
+      "id": 826301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Décret de la Reine",
+          "desc": "[StartBattle] Inflige 1 de [PreparedMeat] à un allié aléatoire sans [PreparedMeat]",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 826302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Battement d’Aile",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 826303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Prédation",
+          "desc": "Si la cible a 5+ de [Laceration], +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Soigne le Noyau de 3% des PV Max"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 826304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Papillonnement Affamé",
+          "desc": "À 3+ de [Hunger], +1 de Puissance de Pièce\nSi la cible a 5+ de [Laceration], +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 826305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Faim Vorace",
+          "desc": "[CantIdentify]\nPriorise les cibles avec [PreparedMeat]\nSi la cible a 5+ de [Laceration], +1 de Puissance de Pièce\nSi la cible a [PreparedMeat], +1 de Puissance de Pièce\n-5 de Puissance de Pièce pour chaque Bras brisé\n[TargetKill] Toutes les Parties gagnent 2 de [Enhancement] pour l’Affrontement (cumulable)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Réutilise cette Pièce une fois (3 fois par Capacité)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Le Noyau se soigne de 10 PV"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 826306,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Répit",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 826307,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "L’Heure de Payer pour Mes Soins",
+          "desc": "[StartBattle] Inflige 1 de [PreparedMeat] à tous les alliés sans [PreparedMeat]",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 826401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Crunch Crunch",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Le Noyau se soigne de 3 PV"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Le Noyau se soigne de 3 PV"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 826402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Gourmandise",
+          "desc": "Si la cible a 5+ de [Laceration], +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Le Noyau se soigne de 10 PV"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 826403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Petit Battement d’Aile",
+          "desc": "Si la cible a 5+ de [Laceration], +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 826404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Répit",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
     }
   ]
 }
