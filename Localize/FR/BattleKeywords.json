@@ -1177,12 +1177,12 @@
     {
       "id": "MentalSystemResultIncrease_Typo",
       "name": "Efficacité de Soin de PSM",
-      "desc": "Quantité de PSM soignés par les conditions de soin de PSM"
+      "desc": "Quantité de PSM soignés suite aux facteurs de base de soin de PSM de l’Identité"
     },
     {
       "id": "MentalSystemResultDecrease_Typo",
       "name": "Efficacité de Perte de PSM",
-      "desc": "Quantité de PSM soignés par les conditions de perte de PSM"
+      "desc": "Quantité de PSM soignés suite aux facteurs de base de perte de PSM de l’Identité"
     },
     {
       "id": "DuelDeclaration",
@@ -1363,7 +1363,7 @@
       "summary": "Plus de chances d’être Critiquement Touché ; subit plus de dégâts de Coups Critiques"
     },
     {
-      "id": "Vibration_Collapse",
+      "id": "VibrationCollapse",
       "name": "Tremblement - Désintégration",
       "desc": "Perd 1 Niveau Défensif pour chaque 4 de Puissance de Tremblement sur soi.\nLorsque Touché par des Capacités provoquant un Sursaut de Tremblement, augmente le Seuil de Déséquilibre selon la Puissance de l’effet\nFin du Tour : réduit le Compte de 1\n(Interagit de la même manière que du Tremblement normal aux effets qui augmentent ou réduisent la Puissance/Compte de Tremblement)"
     },
@@ -1422,6 +1422,24 @@
       "id": "UnstableFeeling",
       "name": "Passion Volatile",
       "desc": "- En Touche, inflige 1 de Brûlure\n- Si la cible principale a Brûlure, +1 de Puissance Finale\n- Lorsque touché, si cette unité a une Capacité de Défense chaînée au Début du Combat, inflige de la Brûlure à l’attaquant ce tour\n- Fin du Tour : perd (# de tours passés en état d’E.G.O. Volatile * 5) PSM. (Perte Max de PSM : 40)",
+      "summary": ""
+    },
+    {
+      "id": "VibrationEcho",
+      "name": "Tremblement - Réverbe",
+      "desc": "- En Sursaut de Tremblement, subit des dégâts de Paresse égaux à la Puissance de Tremblement sur soi.\n- Lorsque touché par des Capacités qui déclenchent des Sursauts de Tremblement, augmente le Seuil de Déséquilibre selon la Puissance de l’effet.\n- Fin du Tour : réduit de 1 le Compte.\n(Interagit de la même manière que du Tremblement normal aux effets qui augmentent ou réduisent la Puissance/Compte de Tremblement)",
+      "summary": ""
+    },
+    {
+      "id": "ShieldManagerCryingToad",
+      "name": "Lacribulle",
+      "desc": "- Cet effet compte comme un effet de 'Gestion de Bouclier'.\n- Fin du Tour : réduit de 1 le Compte\n- Cette unité ne perd pas de Bouclier à la Fin du Tour tant qu’elle possède l’effet Lacribulle (sauf si épuisé par des dégâts ou des effets)\n- Si le Bouclier affecté par Lacribulle se brise suite à des dégâts, inflige 4 de Puissance/Compte de Lourdeur à l’attaquant. (La quantité de cette valeur '4' répartie en Puissance ou Compte est déterminée aléatoirement)\n- Cette unité peut cumuler ses valeurs de Bouclier en utilisant cet effet. Cependant, tant que Lacribulle est en cours, la valeur de Bouclier ne peut pas dépasser 60% des PV Max de cette unité.",
+      "summary": ""
+    },
+    {
+      "id": "VibrationContinue",
+      "name": "Tremblement - Éternel",
+      "desc": "- Lorsque touché par des effets de Capacité ou de Pièce provoquant un Sursaut de Tremblement, (Puissance de Tremblement sur soi)% de chances de déclencher un Sursaut de Tremblement supplémentaire. (50% max)\n- Lorsque touché par des effets de Capacité ou de Pièce provoquant un Sursaut de Tremblement, (Compte de Tremblement sur soi)% de chances de déclencher un Sursaut de Tremblement supplémentaire. (50% max)\n- Lorsque touché par des Capacités provoquant un Sursaut de Tremblement, augmente le Seuil de Déséquilibre de la Puissance de l’effet.\n- Fin du Tour : réduit de 1 le Compte\n(Interagit de la même manière que du Tremblement normal aux effets qui augmentent ou réduisent la Puissance/Compte de Tremblement)",
       "summary": ""
     }
   ]

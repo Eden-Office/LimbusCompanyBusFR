@@ -965,6 +965,227 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1040901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Te Manque un Boulon ?",
+          "desc": "[WhenUse] Gagne +2 de Compte de [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne ((Compte de [Vibration] sur la cible)/2) de Compte de [Vibration] (2 max)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Te Manque un Boulon ?",
+          "desc": "[WhenUse] Gagne +2 de Compte de [Vibration]\n<style=\"highlight\">[WhenUse] À 5+ de Compte de [Vibration], +2 de Puissance de Duel</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne ((Compte de [Vibration] sur la cible)/2) de Compte de [Vibration] (<style=\"highlight\">3</style> max)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Te Manque un Boulon ?",
+          "desc": "[WhenUse] Gagne +2 de Compte de [Vibration]\n[WhenUse] À <style=\"highlight\">4</style>+ de Compte de [Vibration], +2 de Puissance de Duel",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne (Compte de [Vibration] sur la cible) de Compte de [Vibration] (<style=\"highlight\">4</style> max)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +<style=\"highlight\">2</style> de Compte de [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Clé Mécanique à Compression",
+          "desc": "[WhenUse] Gagne +2 de Compte de [Vibration]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige +1 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Consomme du Compte de [Vibration] sur soi et inflige la même quantité de Compte de [Vibration] à la cible (5 max)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Clé Mécanique à Compression",
+          "desc": "[WhenUse] Gagne +2 de Compte de [Vibration]\n<style=\"highlight\">À 5+ de Compte de [Vibration], +1 de Puissance de Pièce</style>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne +1 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Consomme du Compte de [Vibration] sur soi et inflige la même quantité de Compte de [Vibration] à la cible (5 max)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Clé Mécanique à Compression",
+          "desc": "[WhenUse] Gagne +2 de Compte de [Vibration]\n<style=\"highlight\">[WhenUse] À 4+ de Compte de [Vibration], +1 de Puissance de Duel</style>\nÀ <style=\"highlight\">4</style>+ de Compte de [Vibration], +1 de Puissance de Pièce",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Consomme du Compte de [Vibration] sur soi et inflige la même quantité de Compte de [Vibration] à la cible (5 max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040903,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Maintenance Percussive",
+          "desc": "[WhenUse] Gagne +2 de Compte de [Vibration]\nConsomme 10 de Compte de [Vibration] sur soi pour gagner +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit de 2 le Compte de [Vibration] de la cible"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Maintenance Percussive",
+          "desc": "[WhenUse] Gagne +2 de Compte de [Vibration]\nConsomme <style=\"highlight\">8</style> de Compte de [Vibration] sur soi pour gagner +1 de Puissance de Pièce\n<style=\"highlight\">Si la cible a 6+ de [Vibration], +1 de Puissance de Pièce</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit de <style=\"highlight\">1</style> le Compte de [Vibration] de la cible"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Garde",
+          "desc": "[WhenUse] Gagne 2 * (Compte de [Vibration] sur soi) de Bouclier de PV (5 max)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Garde",
+          "desc": "[WhenUse] Gagne 2 * (Compte de [Vibration] sur soi) de Bouclier de PV (<style=\"highlight\">10</style> max)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
     }
   ]
 }

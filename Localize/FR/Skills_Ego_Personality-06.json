@@ -256,6 +256,142 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2060611,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lamentation Caverneuse",
+          "abName": "Crapaud Pleurnicheur",
+          "desc": "Si la cible a [Vibration], inflige +((somme de la Puissance et du Compte de [Vibration] sur la cible)/2)% de dégâts supplémentaires (20% max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Lamentation Caverneuse",
+          "abName": "Crapaud Pleurnicheur",
+          "desc": "Si la cible a [Vibration], inflige +((somme de la Puissance et du Compte de [Vibration] sur la cible)/2)% de dégâts supplémentaires (<style=\"highlight\">25%</style> max)\n<style=\"highlight\">- À 4+ de plus haute Réson., inflige +(5 + (somme de la Puissance et du Compte de [Vibration] sur la cible)/2)% de dégâts supplémentaires à la place (35% max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Vibration] et <style=\"highlight\">+2 de Compte [Vibration]</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationEcho]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Lamentation Caverneuse",
+          "abName": "Crapaud Pleurnicheur",
+          "desc": "Si la cible a [Vibration], inflige +(<style=\"highlight\">5 +</style> (somme de la Puissance et du Compte de [Vibration] sur la cible)/2)% de dégâts supplémentaires (<style=\"highlight\">30%</style> max)\n- À 4+ de plus haute Réson., inflige +(<style=\"highlight\">7.5 +</style> (somme de la Puissance et du Compte de [Vibration] sur la cible)/<style=\"highlight\">1.5</style>)% de dégâts supplémentaires à la place (<style=\"highlight\">40%</style> max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Vibration] et <style=\"highlight\">+3</style> de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationEcho]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2060621,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lamentation Caverneuse",
+          "abName": "Crapaud Pleurnicheur",
+          "desc": "[CantIdentify]\nCible aléatoirement\nSi la cible a [Vibration], inflige +((somme de la Puissance et du Compte de [Vibration] sur la cible)/2)% de dégâts supplémentaires (25% max)\n- À 4+ de plus haute Réson., augmente la limite ci-dessus à (35% max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Vibration] et +3 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Lamentation Caverneuse",
+          "abName": "Crapaud Pleurnicheur",
+          "desc": "[CantIdentify]\nCible aléatoirement\nSi la cible a [Vibration], inflige +((somme de la Puissance et du Compte de [Vibration] sur la cible)/2)% de dégâts supplémentaires (<style=\"highlight\">30%</style> max)\n- À 4+ de plus haute Réson., <style=\"highlight\">inflige +(5 + (somme de la Puissance et du Compte de [Vibration] sur la cible)/2)% de dégâts supplémentaires à la place (40% max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Vibration] et +3 de Compte de [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationEcho]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Lamentation Caverneuse",
+          "abName": "Crapaud Pleurnicheur",
+          "desc": "[CantIdentify]\nCible aléatoirement\nSi la cible a [Vibration], inflige +(<style=\"highlight\">5</style> + (somme de la Puissance et du Compte de [Vibration] sur la cible)/2)% de dégâts supplémentaires (<style=\"highlight\">40%</style> max)\n- À 4+ de plus haute Réson., inflige +(<style=\"highlight\">7.5</style> + (somme de la Puissance et du Compte de [Vibration] sur la cible)/<style=\"highlight\">1.5</style>)% de dégâts supplémentaires à la place (<style=\"highlight\">50%</style> max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">6</style> de [Vibration] et <style=\"highlight\">+6</style> de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationEcho]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

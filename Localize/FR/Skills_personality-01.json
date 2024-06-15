@@ -832,6 +832,256 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1010901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Repeindre",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige +2 de Compte de 1 des effets suivants : [Combustion], [Laceration], [Vibration], [Burst] ou [Sinking]. Effet choisi aléatoirement."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 2 de [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Repeindre",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige +2 de Compte de 1 des effets suivants : [Combustion], [Laceration], [Vibration], [Burst] ou [Sinking]. Effet choisi aléatoirement."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Repeindre",
+          "desc": "Si la cible a 6+ de [Laceration], +1 de Puissance de Duel",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige +2 de Compte de 1 des effets suivants : [Combustion], [Laceration], [Vibration], [Burst] ou [Sinking]. Effet choisi aléatoirement."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pointillisme Sanguin",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 20% de chances de Réutiliser la Pièce une fois. +20% de chances supplémentaires de Réutiliser la Pièce pour chaque type d’effets négatifs sur la cible"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de 1 des effets suivants : [Combustion], [Laceration], [Vibration], [Burst] ou [Sinking]. Effet choisi aléatoirement."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Pointillisme Sanguin",
+          "desc": "Si la cible a 6+ de [Laceration], +1 de Puissance de Duel",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 20% de chances de Réutiliser la Pièce une fois. +20% de chances supplémentaires de Réutiliser la Pièce pour chaque type d’effets négatifs sur la cible"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de 1 des effets suivants : [Combustion], [Laceration], [Vibration], [Burst] ou [Sinking]. Effet choisi aléatoirement."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Pointillisme Sanguin",
+          "desc": "+1 de Puissance de Duel pour chaque 3 de [Laceration] sur la cible (2 max)\n+1 de Puissance de Pièce pour chaque 3 de Compte de [Laceration] sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 40% de chances de Réutiliser la Pièce. +20% de chances supplémentaires de Réutiliser la Pièce pour chaque type d’effets négatifs sur la cible (2 fois max par Capacité)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de 1 des effets suivants : [Combustion], [Laceration], [Vibration], [Burst] ou [Sinking]. Effet choisi aléatoirement."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010903,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Coloration Hématique",
+          "desc": "Si la cible a 6+ de [Laceration], +1 de Puissance de Duel",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]. Si la cible a 4+ types d’effets négatifs, inflige +2 de Compte de [Laceration] supplémentaire"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de 1 des effets suivants : [Combustion], [Laceration], [Vibration], [Burst] ou [Sinking]. Effet choisi aléatoirement."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Laceration]. Si la cible a 4+ types d’effets négatifs, inflige 2 de [Laceration] supplémentaire"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de Puissance de 1 des effets suivants : [Combustion], [Laceration], [Vibration], [Burst] ou [Sinking]. Effet choisi aléatoirement."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +15% de dégâts supplémentaires pour chaque type d’effets négatifs sur la cible (75% max)"
+                },
+                {
+                  "desc": "[EndSkill] Si la cible est Déséquilibrée ou Vaincue, inflige 2 de Puissance de 1 des effets suivants à 1 ennemi avec le moins de types d’effets négatifs : [Combustion], [Laceration], [Vibration], [Burst], [Sinking]. Effet choisi aléatoirement."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Coloration Hématique",
+          "desc": "+1 de Puissance de Duel pour chaque 3 de [Laceration] sur la cible (2 max)\n+1 de Puissance de Pièce pour chaque 3 de Compte de [Laceration] sur la cible (2 max)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]. Si la cible a 3+ types d’effets négatifs, inflige +2 de Compte de [Laceration] supplémentaire"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de 1 des effets suivants : [Combustion], [Laceration], [Vibration], [Burst] ou [Sinking]. Effet choisi aléatoirement."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Laceration]. Si la cible a 3+ types d’effets négatifs, inflige 2 de [Laceration] supplémentaire"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de Puissance de 1 des effets suivants : [Combustion], [Laceration], [Vibration], [Burst] ou [Sinking]. Effet choisi aléatoirement."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +25% de dégâts supplémentaires pour chaque type d’effets négatifs sur la cible (125% max)"
+                },
+                {
+                  "desc": "[EndSkill] Si la cible est Déséquilibrée ou Vaincue, inflige 2 de Puissance de 1 des effets suivants à 2 ennemis avec le moins de types d’effets négatifs : [Combustion], [Laceration], [Vibration], [Burst], [Sinking]. Effet choisi aléatoirement."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1010904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Brosser le Pinceau",
+          "desc": "Si la cible a 6+ de [Laceration], +5 de Puissance de Base",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Brosser le Pinceau",
+          "desc": "+1 de Puissance de Base pour chaque 1 de [Laceration] sur la cible (10 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

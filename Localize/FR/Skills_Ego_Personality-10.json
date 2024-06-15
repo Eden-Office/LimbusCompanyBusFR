@@ -250,6 +250,157 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2100611,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lamentation Caverneuse",
+          "abName": "Crapaud Pleurnicheur",
+          "desc": "[BeforeAttack] À 4+ de plus haute Réson., +1 de Poids d’Atq",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] Applique 10% des PV max de cette unité en Bouclier à soi-même et à 1 autre allié avec le moins de PV actuels et applique également 2 de [ShieldManagerCryingToad]"
+                },
+                {
+                  "desc": "- À 4+ de plus haute Réson., l’applique à 1 allié de plus"
+                },
+                {
+                  "desc": "- Si l’unité affectée a déjà [ShieldManagerCryingToad], change la valeur de [ShieldManagerCryingToad] à 2"
+                },
+                {
+                  "desc": "- À 4+ de plus haute Réson.-A de Peine, les effets ci-dessus de cette Capacité deviennent 'applique 3 de [ShieldManagerCryingToad]' et 'change la valeur de [ShieldManagerCryingToad] à 3' à la place."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Lamentation Caverneuse",
+          "abName": "Crapaud Pleurnicheur",
+          "desc": "<style=\"highlight\">[BeforeAttack] Gagne (plus haute Réson. - 2) de Poids d’Atq (2 max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] Applique <style=\"highlight\">14%</style> des PV max de cette unité en Bouclier à soi-même et à <style=\"highlight\">(1 + (plus haute Réson.- 2))</style> alliés avec le moins de PV actuels et applique également 2 de [ShieldManagerCryingToad]\n<style=\"highlight\">(#  max d’autres alliés qui gagnent [ShieldManagerCryingToad] : 3)</style>"
+                },
+                {
+                  "desc": "- Si l’unité affectée a déjà [ShieldManagerCryingToad], change la valeur de [ShieldManagerCryingToad] à 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "- À 4+ de plus haute Réson.-A de Peine, les effets ci-dessus de cette Capacité deviennent 'applique 3 de [ShieldManagerCryingToad]' et 'change la valeur de [ShieldManagerCryingToad] à 3' à la place.<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Lamentation Caverneuse",
+          "abName": "Crapaud Pleurnicheur",
+          "desc": "[BeforeAttack] Gagne (plus haute Réson. - 2) de Poids d’Atq (2 max)<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] Applique <style=\"highlight\">20%</style> des PV max de cette unité en Bouclier à soi-même et à (1 + (plus haute Réson.- 2)) alliés avec le moins de PV actuels et applique également 2 de [ShieldManagerCryingToad]\n(#  max d’autres alliés qui gagnent [ShieldManagerCryingToad] : 3)"
+                },
+                {
+                  "desc": "- Si l’unité affectée a déjà [ShieldManagerCryingToad], change la valeur de [ShieldManagerCryingToad] à 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "- À 4+ de plus haute Réson.-A de Peine, les effets ci-dessus de cette Capacité deviennent 'applique 3 de [ShieldManagerCryingToad]' et 'change la valeur de [ShieldManagerCryingToad] à 3' à la place.<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2100621,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lamentation Caverneuse",
+          "abName": "Crapaud Pleurnicheur",
+          "desc": "[CantIdentify]\nCible Aléatoirement\n[BeforeAttack] À 3+ de plus haute Réson., +1 de Poids d’Atq\n[BeforeAttack] Gagne +5 d’[Aggro] à cet Emplacement de Capacité au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Sinking]"
+                },
+                {
+                  "desc": "[EndSkill] Gagne (15 + 2.5*(plus haute Réson.))% des PV max de cette unité en Bouclier à soi-même et gagne 2 de [ShieldManagerCryingToad]. (25% max)"
+                },
+                {
+                  "desc": "- Si cette unité a déjà [ShieldManagerCryingToad], change la valeur de [ShieldManagerCryingToad] à 2"
+                },
+                {
+                  "desc": "- À 4+ de plus haute Réson.-A de Peine, les effets ci-dessus de cette Capacité deviennent 'gagne 3 de [ShieldManagerCryingToad]' et 'change la valeur de [ShieldManagerCryingToad] à 3' à la place."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Lamentation Caverneuse",
+          "abName": "Crapaud Pleurnicheur",
+          "desc": "[CantIdentify]\nCible Aléatoirement\n<style=\"highlight\">[BeforeAttack] Gagne (plus haute Réson. - 2) de Poids d’Atq (2 max)</style>\n[BeforeAttack] Gagne <style=\"highlight\">+10 d’[Aggro]</style> à cet Emplacement de Capacité au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[EndSkill] Gagne (<style=\"highlight\">18</style> + <style=\"highlight\">3</style>*(plus haute Réson.))% des PV max de cette unité en Bouclier à soi-même et gagne 2 de [ShieldManagerCryingToad]. (max <style=\"highlight\">30%</style>)"
+                },
+                {
+                  "desc": "- Si cette unité a déjà [ShieldManagerCryingToad], change la valeur de [ShieldManagerCryingToad] à 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "- À 4+ de plus haute Réson.-A de Peine, les effets ci-dessus de cette Capacité deviennent 'gagne 3 de [ShieldManagerCryingToad]' et 'change la valeur de [ShieldManagerCryingToad] à 3' à la place.<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Lamentation Caverneuse",
+          "abName": "Crapaud Pleurnicheur",
+          "desc": "[CantIdentify]\nCible Aléatoirement\n[BeforeAttack] Gagne (plus haute Réson. - 2) de Poids d’Atq (2 max)\n[BeforeAttack] Gagne +10 d’[Aggro] à cet Emplacement de Capacité au prochain tour<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Sinking] et <style=\"highlight\">+3 de Compte de [Sinking]</style>"
+                },
+                {
+                  "desc": "[EndSkill] Gagne (<style=\"highlight\">20</style> + <style=\"highlight\">5</style>*(plus haute Réson.))% des PV max de cette unité en Bouclier à soi-même et gagne 2 de [ShieldManagerCryingToad]. (max <style=\"highlight\">40%</style>)"
+                },
+                {
+                  "desc": "- Si cette unité a déjà [ShieldManagerCryingToad], change la valeur de [ShieldManagerCryingToad] à 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "- À 4+ de plus haute Réson.-A de Peine, les effets ci-dessus de cette Capacité deviennent 'gagne 3 de [ShieldManagerCryingToad]' et 'change la valeur de [ShieldManagerCryingToad] à 3' à la place.<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">- À 4+ de Réson. de Peine, gagne un Bouclier supplémentaire égal à 10% des PV max de cette unité</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -3272,7 +3272,7 @@
           "level": 1,
           "name": "Broyeur à Dimension",
           "abName": "Passager Égaré",
-          "desc": "[CantIdentify]\nCible l’unité avec le plus de PV\n\n[BeforeAttack] Gagne +2 de Vitesse au prochain tour\nDépense 10 Charges pour infliger +1 de Vulnérabilité et de Faille Dimensionnelle avec cette capacité",
+          "desc": "[CantIdentify]\nCible l’unité avec le plus de PV\n\n[BeforeAttack] Gagne +2 de Vitesse au prochain tour\nDépense 10 Compte de Charge pour infliger En Touche +1 de Vulnérabilité supplémentaire et de Faille Dimensionnelle avec cette Capacité",
           "coinlist": [
             {
               "coindescs": [
@@ -3287,7 +3287,7 @@
           "level": 3,
           "name": "Broyeur à Dimension",
           "abName": "Passager Égaré",
-          "desc": "[CantIdentify]\nCible l’unité avec le plus de PV\n\n[BeforeAttack] Gagne +3 de Vitesse au prochain tour\nDépense 10 Charges pour infliger +2 de Vulnérabilité et de Faille Dimensionnelle avec cette capacité",
+          "desc": "[CantIdentify]\nCible l’unité avec le plus de PV\n\n[BeforeAttack] Gagne <style=\"highlight\">3</style> de Vitesse au prochain tour\nDépense 10 Compte de Charge pour infliger En Touche <style=\"highlight\">+2</style> de Vulnérabilité supplémentaire et de Faille Dimensionnelle avec cette capacité",
           "coinlist": [
             {
               "coindescs": [
@@ -3315,7 +3315,7 @@
                   "desc": "[OnSucceedAttack] Inflige +4 de Brûlure"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige autant de Tremblement que la cible a de Compte de Brûlure"
+                  "desc": "[OnSucceedAttack] Inflige autant de Tremblement que de Brûlure sur la cible"
                 },
                 {
                   "desc": "[OnSucceedAttack] Déclenche un Sursaut de Tremblement, puis réduit le Compte de Tremblement de 3 ; si le Sursaut de Tremblement déséquilibre la cible, inflige +1 de Compte de Brûlure à 5 ennemis aléatoires"
@@ -3336,7 +3336,7 @@
                   "desc": "[OnSucceedAttack] Inflige 7 de Brûlure"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige autant de Tremblement que la cible a de Compte de Brûlure"
+                  "desc": "[OnSucceedAttack] Inflige autant de Tremblement que de Brûlure sur la cible"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige 2 de Brûlure à 5 ennemis aléatoires"
@@ -3360,7 +3360,7 @@
                   "desc": "[OnSucceedAttack] Inflige 10 de Brûlure"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige autant de Tremblement que la cible a de Compte de Brûlure"
+                  "desc": "[OnSucceedAttack] Inflige autant de Tremblement que de Brûlure sur la cible"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige 3 de Brûlure à 5 ennemis aléatoires"
@@ -3389,7 +3389,7 @@
                   "desc": "[OnSucceedAttack] Inflige +6 de Brûlure"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige autant de Tremblement que la cible a de Compte de Brûlure"
+                  "desc": "[OnSucceedAttack] Inflige autant de Tremblement que de Brûlure sur la cible"
                 },
                 {
                   "desc": "[OnSucceedAttack] Déclenche un Sursaut de Tremblement, puis réduit le Compte de Tremblement de 3 ; si le Sursaut de Tremblement déséquilibre la cible, inflige +2 de Compte de Brûlure à 5 unités aléatoires"
@@ -3410,7 +3410,7 @@
                   "desc": "[OnSucceedAttack] Inflige 10 de Brûlure"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige autant de Tremblement que la cible a de Compte de Brûlure"
+                  "desc": "[OnSucceedAttack] Inflige autant de Tremblement que de Brûlure sur la cible"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige 2 de Brûlure à 5 unités aléatoires"
@@ -3434,7 +3434,7 @@
                   "desc": "[OnSucceedAttack] Inflige 12 de Brûlure"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige autant de Tremblement que la cible a de Compte de Brûlure"
+                  "desc": "[OnSucceedAttack] Inflige autant de Tremblement que de Brûlure sur la cible"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige 3 de Brûlure à 5 unités aléatoires"

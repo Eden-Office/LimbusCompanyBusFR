@@ -79,6 +79,38 @@
     {
       "id": "GiveBuffOnRoundStartToAllEnemyExtra",
       "desc": "Au début du tour, applique {1} {0} to all enemies et applique +{2} de Compte de {0} supplémentaire à tous les ennemis avec {0}"
+    },
+    {
+      "id": "LoseTurnOnRoundEnd",
+      "desc": "Fin du Tour : perd {0} de Compte"
+    },
+    {
+      "id": "Vibration",
+      "desc": "Lorsque touché par des attaques provoquant un Sursaut de Tremblement, augmente de {0} le Seuil de Déséquilibre. Dure {1} tour(s)."
+    },
+    {
+      "id": "DefAdderByStackCeilToInt",
+      "desc": "Perd 1 Niveau Défensif pour chaque 4 de Puissance de Tremblement"
+    },
+    {
+      "id": "Crack",
+      "desc": "Lorsque Déséquilibré et lorsque la somme de la Puissance et du Compte de Tremblement est supérieure ou égale à 20, augmente de 1 le Niveau de Déséquilibre.\nNe peut pas dépasser le Niveau de Déséquilibre maximal avec cette effet."
+    },
+    {
+      "id": "VibrationEcho",
+      "desc": "Lorsque touché par des attaques qui déclenche un Sursaut de Tremblement, subit {0} dégâts de Paresse."
+    },
+    {
+      "id": "VibrationDistribution",
+      "desc": "- Fin du Tour : gagne ((somme du Compte de Tremblement - Distribution de tous les alliés) / (# d’alliés avec Tremblement - Distribution)) de Bonus de Niveau Offensif au prochain tour (5 max)"
+    },
+    {
+      "id": "VibrationChain",
+      "desc": "Perd 1 de Puissance de Duel pour chaque 10 de Puissance de Tremblement sur la cible (3 max)"
+    },
+    {
+      "id": "VibrationContinue",
+      "desc": "- En déclenchant un Sursaut de Tremblement avec des effets de Capacité ou de Pièce, {0}% de chances de déclencher un Sursaut de Tremblement supplémentaire. (50% max)\n- En déclenchant un Sursaut de Tremblement avec des effets de Capacité ou de Pièce, {1}% de chances de déclencher un Sursaut de Tremblement supplémentaire. (50% max)"
     }
   ]
 }

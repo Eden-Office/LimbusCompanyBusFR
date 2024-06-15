@@ -564,7 +564,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +4 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Inflige +4 de Compte de [Sinking]"
                 },
                 {
                   "desc": "[EndSkill] Si la cible est Déséquilibrée ou vaincue, regagne 10 PSM"
@@ -590,6 +590,253 @@
           "level": 4,
           "name": "Étapes d’Orientation",
           "desc": "[WhenUse] Défausse aléatoirement 2 des Capacités de cette unité par ordre ascendant de rang dans tous ses Emplacements de Capacité",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1060901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Début de Déduction",
+          "desc": "[WhenUse] Gagne +2 de Compte de [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 2 de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne +2 de Compte de [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Début de Déduction",
+          "desc": "[WhenUse] Gagne +2 de Compte de [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Début de Déduction",
+          "desc": "[WhenUse] Gagne +2 de Compte de [Vibration]\n<style=\"highlight\">À 6+ de Compte de [Vibration], +1 de Puissance de Pièce</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1060902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Technique de Transfo Canne",
+          "desc": "[WhenUse] Gagne +3 de Compte de [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +3 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 9+ [Vibration], déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Technique de Transfo Canne",
+          "desc": "<style=\"highlight\">[WhenUse] Si la cible a 8+ [Vibration], +1 de Puissance de Duel</style>\n[WhenUse] Gagne +3 de Compte de [Vibration]\n<style=\"highlight\">À 6+ de Compte de [Vibration], +1 de Puissance de Pièce</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +3 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a <style=\"highlight\">7</style>+ de [Vibration], déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Technique de Transfo Canne",
+          "desc": "[WhenUse] Si la cible a <style=\"highlight\">6</style>+ de [Vibration], +1 de Puissance de Duel\n[WhenUse] Gagne +3 de Compte de [Vibration]\nÀ <style=\"highlight\">5</style>+ de Compte de [Vibration], +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +3 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a <style=\"highlight\">6</style>+ de [Vibration], déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1060903,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Vous êtes le Coupable !",
+          "desc": "[WhenUse] Si la cible a 6+ de [Vibration], +1 de Puissance de Duel\n[WhenUse] Consomme 10 de Compte de [Vibration] sur soi pour gagner +2 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si cette Capacité a consommé du Compte de [Vibration] à l’usage, déclenche une [FusionVibration] en [VibrationEcho]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible\n- Si cette unité n’a pas consommé de Compte de [Vibration] à l’usage de la Capacité, active l’effet ci-dessus puis déclenche un [VibrationExplosion] sur soi"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Vous êtes le Coupable !",
+          "desc": "[WhenUse] +1 de Puissance de Duel pour chaque <style=\"highlight\">6</style> de [Vibration] sur la cible <style=\"highlight\">(2 max)</style>\n[WhenUse] À <style=\"highlight\">moins de 15 de Compte de [Vibration] sur soi</style>, consomme 10 de Compte de [Vibration] pour gagner +2 de Puissance de Pièce\n<style=\"highlight\">[WhenUse] Consomme 15 de Compte de [Vibration] sur soi pour gagner +3 de Puissance de Pièce</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si cette Capacité a consommé du Compte de [Vibration] à l’usage, déclenche une [FusionVibration] en [VibrationEcho]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Si cette Capacité a consommé 10+ de Compte de [Vibration] à l’usage, déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Si cette Capacité a consommé 10+ de Compte de [Vibration] à l’usage, déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible\n- Si cette unité a consommé moins de 15 de Compte de [Vibration], déclenche un [VibrationExplosion] sur soi après avoir activé l’effet ci-dessus</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1060904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Attendez ?!",
+          "desc": "[WhenUse] Gagne 2 * (Compte de [Vibration] sur la cible) de Bouclier de PV (7 max)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Attendez ?!",
+          "desc": "[WhenUse] Gagne 2 * (Compte de [Vibration] sur la cible) de Bouclier de PV (<style=\"highlight\">13</style> max)",
           "coinlist": [
             {}
           ]

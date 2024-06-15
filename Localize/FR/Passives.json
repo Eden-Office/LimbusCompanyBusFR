@@ -820,17 +820,17 @@
     {
       "id": 1020701,
       "name": "Regret Forcé",
-      "desc": "- Dans un Duel, la cible a -1 de Puissance de Duel si elle possède 3+ types d’effet négatif\n- Lorsque cette unité est vivante, les ennemis subissant un Sursaut de Tremblement gagnent 2 de Malus de Niveau Défensif. (Une fois par ennemi par tour)\n- Corruption Mentale : si à moins de -25 PSM à la Fin du Tour, gagne 2 de Ralentissement et 1 de Bonus de Puissance Contondante au prochain tour"
+      "desc": "- Dans un Duel, la cible a -1 de Puissance de Duel si elle possède 3+ types d’effets négatifs\n- Lorsque cette unité est vivante, les ennemis subissant un Sursaut de Tremblement gagnent 2 de Malus de Niveau Défensif. (Une fois par ennemi par tour)\n- Corruption Mentale : si à moins de -25 PSM à la Fin du Tour, gagne 2 de Ralentissement et 1 de Bonus de Puissance Contondante au prochain tour"
     },
     {
       "id": 1020711,
       "name": "Regret Forcé",
-      "desc": "- Dans un Duel, la cible a -1 de Puissance de Duel pour chaque 3 types d’effet négatif qu’elle possède (-2 de Puissance de Duel Max)\n- Lorsque cette unité est vivante, les ennemis subissant un Sursaut de Tremblement gagnent 2 de Malus de Niveau Défensif. (3 fois par ennemi par tour)\n- Corruption Mentale : si à moins de -25 PSM à la Fin du Tour, gagne 2 de Ralentissement et 1 de Bonus de Puissance Contondante au prochain tour"
+      "desc": "- Dans un Duel, la cible a -1 de Puissance de Duel pour chaque 3 types d’effets négatifs qu’elle possède (-2 de Puissance de Duel Max)\n- Lorsque cette unité est vivante, les ennemis subissant un Sursaut de Tremblement gagnent 2 de Malus de Niveau Défensif. (3 fois par ennemi par tour)\n- Corruption Mentale : si à moins de -25 PSM à la Fin du Tour, gagne 2 de Ralentissement et 1 de Bonus de Puissance Contondante au prochain tour"
     },
     {
       "id": 1020721,
       "name": "Travail de Répression",
-      "desc": "Dans un Duel, la cible de l’allié le plus lent a -1 de Puissance de Duel si elle possède 3+ types d’effet négatif"
+      "desc": "Dans un Duel, la cible de l’allié le plus lent a -1 de Puissance de Duel si elle possède 3+ types d’effets négatifs"
     },
     {
       "id": 1010601,
@@ -1206,7 +1206,7 @@
     {
       "id": 1070811,
       "name": "Présence Grave",
-      "desc": "Inflige +10% de dégâts supplémentaires pour chaque 6 de Puissance de [Vibration] sur la cible (30% Max)\nEn convertissant [Vibration] en [Vibration_Collapse] avec les effets de Capacité de cette unité, déclenche un [VibrationExplosion] sur la cible",
+      "desc": "Inflige +10% de dégâts supplémentaires pour chaque 6 de Puissance de [Vibration] sur la cible (30% Max)\nEn convertissant [Vibration] en [VibrationCollapse] avec les effets de Capacité de cette unité, déclenche un [VibrationExplosion] sur la cible",
       "summary": ""
     },
     {
@@ -1410,7 +1410,7 @@
     {
       "id": 1100902,
       "name": "Coquille d’Ego Instable",
-      "desc": "Début du Tour : à 45 PSM, consomme 35 PSM pour entrer dans un état E.G.O. Volatile::Penne de Cire. (Cet effet 'Début du Tour' ne s’active pas à répétition)\nSi 2+ alliés sont vaincus en un seul tour, et si les PSM de cette unité ne sont pas à -45 à la Fin du Tour, remet les PSM à 10 ; puis, entre dans un état E.G.O. Volatile::Penne de Cire.\n\nSi cette unité est Déséquilibrée suite à des dégâts ou une augmentation de Seuil de Déséquilibre en entrant dans l’état E.G.O. Volatile, se remet de Déséquilibre. Si le Déséquilibre ne peut pas être retiré naturellement, cette unité n’entre pas dans l’état E.G.O. Volatile.\n\nGagne [UnstableFeeling] lorsque dans l’état E.G.O. Volatile.\n\nFin du Tour : à 0 de PSM ou moins, quitte l’état E.G.O. Volatile::Penne de Cire.",
+      "desc": "Début du Tour : à 40+ PSM, consomme 20 PSM pour entrer dans un état E.G.O. Volatile::Penne de Cire. (Cet effet 'Début du Tour' ne s’active pas à répétition)\nSi 2+ alliés sont vaincus en un seul tour, et si les PSM de cette unité ne sont pas à -45 à la Fin du Tour, remet les PSM à 10 ; puis, entre dans un état E.G.O. Volatile::Penne de Cire. (Si les deux conditions sont remplies en même temps, la condition résultant en le plus de PSM s’active)\n\nSi cette unité est Déséquilibrée suite à des dégâts ou une augmentation de Seuil de Déséquilibre en entrant dans l’état E.G.O. Volatile, se remet de Déséquilibre. Si le Déséquilibre ne peut pas être retiré naturellement, cette unité n’entre pas dans l’état E.G.O. Volatile.\n\nGagne [UnstableFeeling] lorsque dans l’état E.G.O. Volatile.\n\nFin du Tour : à 0 de PSM ou moins, quitte l’état E.G.O. Volatile::Penne de Cire.",
       "summary": " "
     },
     {
@@ -1418,6 +1418,84 @@
       "name": "Marque Éclatante",
       "desc": "Lorsque le #1 Pécheur à être Déployé Touche Pile, inflige +1 de Compte de [Combustion] (4 fois par tour)",
       "summary": "En Touche Pile, inflige +1 de Compte de [Combustion]"
+    },
+    {
+      "id": 1010901,
+      "name": "Évaluation de la Tâche",
+      "desc": "En Touche, si la cible a 6+ de [Laceration], se soigne de 2 PSM.\nSe soigne de 1 PSM supplémentaire pour chaque type d’effets négatifs sur la cible. (3 max)\nSi les PSM de cette unité sont au max, gagne 1 de [AttackUp] au prochain tour lorsque cette unité se soigne des PSM avec cet effet.\n(Cette Passive s’active 4 fois max par tour)",
+      "summary": "Soin Conditionnel de PSM en Touche. À PSM max, gagne 1 de [AttackUp] au prochain tour"
+    },
+    {
+      "id": 1010911,
+      "name": "Évaluation de la Tâche",
+      "desc": "En Touche, si la cible a <style=\"highlight\">4</style>+ de [Laceration], se soigne de 2 PSM.\nSe soigne de 1 PSM supplémentaire pour chaque type d’effets négatifs sur la cible. (3 max)\nSi les PSM de cette unité sont au max, gagne <style=\"highlight\">2</style> de [AttackUp] au prochain tour lorsque cette unité se soigne des PSM avec cet effet.\n(Cette Passive s’active 4 fois max par tour)",
+      "summary": "Soin Conditionnel de PSM en Touche. À PSM max, gagne 2 de [AttackUp] au prochain tour"
+    },
+    {
+      "id": 1010921,
+      "name": "Pratiques sur l’Esthétisme",
+      "desc": "1 allié avec le moins de PSM se soigne de 2 PSM En Touche pour chaque type d’effets négatifs sur la cible. (6 max)\n(Cette Passive s’active 2 fois max par tour)",
+      "summary": "En Touche, soigne de PSM selon le nombre de types d’effets négatifs sur la cible"
+    },
+    {
+      "id": 1010931,
+      "name": "Pratiques sur l’Esthétisme",
+      "desc": "1 allié avec le moins de PSM se soigne de 2 PSM En Touche pour chaque type d’effets négatifs sur la cible. (6 max)\n<style=\"highlight\">Si la cible a [Laceration], se soigne de 3 PSM supplémentaires.</style>\n(Cette Passive s’active 2 fois max par tour)",
+      "summary": "En Touche, soigne de PSM selon le nombre de types d’effets négatifs sur la cible"
+    },
+    {
+      "id": 1110901,
+      "name": "Multitude de Points",
+      "desc": "Début du Combat : inflige 2 de Puissance de 1 des effets suivants à 1 ennemi avec le moins de type d’effets négatifs : [Combustion], [Laceration], [Vibration], [Burst] ou [Sinking]. Effet choisi aléatoirement.\n(En Affrontement Concentré, une Partie)",
+      "summary": "Début du Combat : inflige 2 de Puissance d’un effet de statut aléatoire à un ennemi"
+    },
+    {
+      "id": 1110911,
+      "name": "Multitude de Points",
+      "desc": "Début du Combat : inflige 2 de Puissance de 1 des effets suivants à <style=\"highlight\">2</style> ennemis avec le moins de type d’effets négatifs : [Combustion], [Laceration], [Vibration], [Burst] ou [Sinking]. Effet choisi aléatoirement.\n(En Affrontement Concentré, des Parties)",
+      "summary": "Début du Combat : inflige 2 de Puissance d’un effet de statut aléatoire à 2 ennemis"
+    },
+    {
+      "id": 1110921,
+      "name": "Ébauche",
+      "desc": "1 allié avec le moins de PSM se soigne de 4 PSM en vainquant un ennemi avec [Laceration].\nSe soigne de 1 PSM supplémentaire pour chaque type d’effets négatifs sur la cible. (4 max. Une fois par tour)",
+      "summary": "Soin de PSM sur soi En Tuant des cibles avec [Laceration]"
+    },
+    {
+      "id": 1110931,
+      "name": "Ébauche",
+      "desc": "1 allié avec le moins de PSM se soigne de 4 PSM en vainquant un ennemi avec [Laceration].\nSe soigne de 1 PSM supplémentaire pour chaque type d’effets négatifs sur la cible. (4 max. 3 fois par tour)",
+      "summary": "Soin de PSM sur soi En Tuant des cibles avec [Laceration]"
+    },
+    {
+      "id": 1010902,
+      "name": "Pointilliste Sanguin",
+      "desc": "Cette Identité compte seulement comme une 'Identité qui inflige du [Laceration]'. Les Capacités de cette Identité qui infligent aléatoirement de la [Combustion], du [Laceration], du [Vibration], de la [Burst] et de la [Sinking] ne comptent pas comme des Capacités qui infligent ces mots-clés."
+    },
+    {
+      "id": 1110902,
+      "name": "Pointilliste Sanguin",
+      "desc": "Cette Identité compte seulement comme une 'Identité qui inflige du [Laceration]'. Les Capacités de cette Identité qui infligent aléatoirement de la [Combustion], du [Laceration], du [Vibration], de la [Burst] et de la [Sinking] ne comptent pas comme des Capacités qui infligent ces mots-clés."
+    },
+    {
+      "id": 1040901,
+      "name": "N.O.",
+      "desc": "- Lorsqu’un allié Déséquilibre un ennemi avec une attaque : attaque l’ennemi Déséquilibré avec une Capacité 1. (une fois par Tour)\n- Si plusieurs ennemis sont Déséquilibrés en même temps, cible l’ennemi avec le moins de PV (pour les Anomalies, cible l’Anomalie avec le moins de PV ; puis, cible la Partie avec le moins de PV).\n- En utilisant une Capacité 1 avec cet effet, cette unité gagne +1 de Compte de [Vibration] supplémentaire de ses effets de Pièce et déclenche un [VibrationExplosion] En Touche avec la dernière Pièce"
+    },
+    {
+      "id": 1040921,
+      "name": "Le A.I.",
+      "desc": "L’allié Déployé #1 gagne +1 de Compte de Tremblement de ses effets de Capacité ou de Pièce (2 fois par tour)"
+    },
+    {
+      "id": 1060901,
+      "name": "Canne de Transfocombat Vibrosoudée (Invention Non Autorisée)",
+      "desc": "Fin du Tour : gagne du [AttackDmgUp] au prochain tour égal au nombre de fois que cette unité a provoqué un [VibrationExplosion] ce tour (3 max)"
+    },
+    {
+      "id": 1060921,
+      "name": "Dans les Chaussures du Coupable",
+      "desc": "Lorsque l’Identité Déployée #1 déclenche un Sursaut de Tremblement avec des effets de Capacité ou de Pièce, 25% de chances de déclencher un Sursaut de Tremblement supplémentaire (une fois par tour)"
     }
   ]
 }

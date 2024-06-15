@@ -816,6 +816,201 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1110901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pointillage",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 de [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Pointillage",
+          "desc": "Si la cible a 6+ de [Laceration], +1 de Puissance de Duel",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Pointillage",
+          "desc": "Si la cible a 6+ de [Laceration], +1 de Puissance de Duel\n<style=\"highlight\">Si la cible a 10+ de [Laceration], +1 de Puissance de Pièce</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1110902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Peinture Sanguine",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 20% de chances de Réutiliser la Pièce une fois. +20% de chances supplémentaires de Réutiliser la Pièce pour chaque type d’effets négatifs sur la cible"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Peinture Sanguine",
+          "desc": "Si la cible a 6+ de [Laceration], +1 de Puissance de Duel",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 20% de chances de Réutiliser la Pièce une fois. +20% de chances supplémentaires de Réutiliser la Pièce pour chaque type d’effets négatifs sur la cible"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]\nEn Réutilisant une Pièce avec des effets de Pièce de cette unité, inflige +1 de Compte de [Laceration] supplémentaire"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Peinture Sanguine",
+          "desc": "Si la cible a 6+ de [Laceration], +2 de Puissance de Duel",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 40% de chances de Réutiliser la Pièce. +20% de chances supplémentaires de Réutiliser la Pièce pour chaque type d’effets négatifs sur la cible (2 fois max par Capacité)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]\nEn Réutilisant une Pièce avec des effets de Pièce de cette unité, inflige +1 de Compte de [Laceration] supplémentaire"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1110903,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Contrôle d’Œuvre",
+          "desc": "Inflige +10% de dégâts supplémentaires pour chaque type d’effet négatif sur la cible (30% max)\n[WhenUse] Applique 1 de [Agility] au prochain tour à 2 alliés adjacents à cette unité sur le Tableau de Bord",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de Puissance de 1 des effets suivants : [Combustion], [Laceration], [Vibration], [Burst] ou [Sinking]. Effet choisi aléatoirement."
+                },
+                {
+                  "desc": "[EndSkill] Si la cible est Déséquilibrée ou Vaincue, applique 1 de [PenetrateDamageUp] au prochain tour à 1 autre allié avec le plus de PSM"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Contrôle d’Œuvre",
+          "desc": "Si la cible a 6+ de [Laceration], +1 de Puissance de Pièce\nInflige +12.5% de dégâts supplémentaires pour chaque type d’effet négatif sur la cible (50% max)\n[WhenUse] Applique 1 de [Agility] au prochain tour à 2 alliés adjacents à cette unité sur le Tableau de Bord",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de Puissance de 1 des effets suivants : [Combustion], [Laceration], [Vibration], [Burst] ou [Sinking]. Effet choisi aléatoirement."
+                },
+                {
+                  "desc": "[EndSkill] Si la cible est Déséquilibrée ou Vaincue, applique 1 de [PenetrateDamageUp] au prochain tour à 1 autre allié avec le plus de PSM. <style=\"highlight\">Si l’allié affecté est un membre de l’Annulaire, applique également 1 de [PenetrateResultUp]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1110904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Garde",
+          "desc": "[WhenUse] Si la cible a 10+ de [Laceration], +3 de Puissance de Pièce",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Garde",
+          "desc": "[WhenUse] Si la cible a 10+ de [Laceration], +7 de Puissance de Pièce",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
     }
   ]
 }

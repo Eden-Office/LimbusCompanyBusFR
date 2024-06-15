@@ -147,7 +147,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si les PSM de la cible sont inférieurs à 0, inflige 1 de Vulnérabilité"
+                  "desc": "[OnSucceedAttack] Si les PSM de la cible sont inférieurs à 0, inflige 1 de Vulnérabilité au prochain tour"
                 }
               ]
             }
@@ -176,7 +176,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si les PSM de la cible sont inférieurs à 0, inflige 1 de Vulnérabilité"
+                  "desc": "[OnSucceedAttack] Si les PSM de la cible sont inférieurs à 0, inflige 1 de Vulnérabilité au prochain tour"
                 }
               ]
             }
@@ -1788,7 +1788,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Applique +3 de Compte de Saignement"
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de Saignement"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Inflige 2 de Malus de Dégâts"
@@ -4402,7 +4402,7 @@
         {
           "level": 4,
           "name": "Fil Tranchant",
-          "desc": "À 4+ de Calme, +3 de Puissance de Pièce",
+          "desc": "À 4+ de Calme, +2 de Puissance de Pièce",
           "coinlist": [
             {
               "coindescs": [
