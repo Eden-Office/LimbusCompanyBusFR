@@ -229,6 +229,127 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2040711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Mépris, Émerveillement",
+          "abName": "Spirale de Mépris",
+          "desc": "[BeforeAttack] Gagne (plus haute Réson.) de Poids d’Atq (2 max)\n[BeforeAttack] Gagne (plus haute Réson. + 1) de [GazePersonality] (7 max)\n[EndSkill] Pendant 2 tours, perd 10 PSM à la Fin du Tour",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] Inflige équitablement 10 de [Laceration] entre toutes les cibles"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Mépris, Émerveillement",
+          "abName": "Spirale de Mépris",
+          "desc": "[BeforeAttack] Gagne (plus haute Réson.) de Poids d’Atq (<style=\"highlight\">4</style> max)\n[BeforeAttack] Gagne (plus haute Réson. + 1) de [GazePersonality] (7 max)\n[EndSkill] Pendant 2 tours, perd 10 PSM à la Fin du Tour",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] Inflige équitablement <style=\"highlight\">15</style> de [Laceration] entre toutes les cibles"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Mépris, Émerveillement",
+          "abName": "Spirale de Mépris",
+          "desc": "[BeforeAttack] Gagne (plus haute Réson.) de Poids d’Atq (<style=\"highlight\">6</style> max)\n[BeforeAttack] Gagne (plus haute Réson. + 1) de [GazePersonality] <style=\"highlight\">ce tour et au prochain tour</style> (7 max)\n<style=\"highlight\">[EndSkill] Si cette Capacité faisait partie d’une Réson. de Luxure, gagne 1 ressource E.G.O. des Affinités correspondants aux Capacités d’Attaque de cette unité</style>\n[EndSkill] Pendant 2 tours, perd 10 PSM à la Fin du Tour",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] Inflige équitablement 15 de [Laceration] entre toutes les cibles<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2040721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Mépris, Émerveillement",
+          "abName": "Spirale de Mépris",
+          "desc": "[CantIdentify]\nCible Aléatoirement\n[BeforeAttack] Gagne 7 de [GazePersonality]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [Laceration], inflige +(somme de la Puissance et du Compte de [Laceration] sur la cible)% de dégâts supplémentaires (20% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige (1 + (plus haute Réson. * 1.5)) de [Laceration] (10 max, arrondi à l’inférieur)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Mépris, Émerveillement",
+          "abName": "Spirale de Mépris",
+          "desc": "[CantIdentify]\nCible Aléatoirement\n[BeforeAttack] Gagne 7 de [GazePersonality]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [Laceration], deal +(somme de la Puissance et du Compte de [Laceration] sur la cible)% de dégâts supplémentaires (<style=\"highlight\">40%</style> max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">(3 + (plus haute Réson. * 2))</style> de [Laceration] (<style=\"highlight\">15</style> max, arrondi à l’inférieur)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +<style=\"highlight\">3</style> de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Mépris, Émerveillement",
+          "abName": "Spirale de Mépris",
+          "desc": "[CantIdentify]\nCible Aléatoirement\n[BeforeAttack] Gagne 7 de [GazePersonality]\n<style=\"highlight\">[EndSkill] Si cette Capacité faisait partie d’une Réson. de Luxure, gagne 1 ressource E.G.O. des Affinités correspondants aux Capacités d’Attaque de cette unité</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [Laceration], deal +(somme de la Puissance et du Compte de [Laceration] sur la cible)% de dégâts supplémentaires (<style=\"highlight\">60%</style> max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">(10 + (plus haute Réson. * 2.5))</style> de [Laceration] (<style=\"highlight\">25</style> max, arrondi à l’inférieur)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +<style=\"highlight\">5</style> de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

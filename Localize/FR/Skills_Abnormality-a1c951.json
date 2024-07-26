@@ -82,46 +82,46 @@
         {
             "id": 811304,
             "levelList": [
-                {
-                    "level": 1,
-                    "name": "Passons À l’Emballage",
-                    "desc": "Si cette unité a [AaCeSeBa], ajoute 'Inflige 1 de [Paralysis] au prochain tour' aux effets de Pièce\nCible l’unité avec la Vitesse la plus basse\n[EndBattle] Dépense toutes les [Charge]",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Gagne 3 de [Breath]."
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflige des dégâts supplémentaires égaux à [Breath] sur soi"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] Gagne 1 de [Breath] and +3 [Breath] Count"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Sélectionne aléatoirement 1 de 4 effets ([Protection], [Enhancement], [Vulnerable], [Paralysis]). Inflige ou applique 3 de l’effet sélectionné."
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] La cible perd des PSM égaux au Compte de [Charge] de cette unité"
-                                },
-                                {
-                                    "desc": "[EnemyKill] Tous les ennemis perdent 10 PSM"
-                                },
-                                {
-                                    "desc": "[EnemyKillFail] Gagne 2 de [Paralysis] au prochain tour."
-                                }
-                            ]
-                        }
+              {
+                "level": 1,
+                "name": "Passons À l’Emballage",
+                "desc": "Si cette unité a [AaCeSeBa], ajoute 'Inflige 1 de [Paralysis] au prochain tour' aux effets de Pièce\nCible l’unité avec la Vitesse la plus basse\n[EndBattle] Dépense tout le Compte de [Charge]",
+                "coinlist": [
+                  {
+                    "coindescs": [
+                      {
+                        "desc": "[OnSucceedAttack] Gagne 3 de [Breath]."
+                      }
                     ]
-                }
+                  },
+                  {
+                    "coindescs": [
+                      {
+                        "desc": "[OnSucceedAttack] Inflige des dégâts supplémentaires égaux à [Breath] sur soi"
+                      },
+                      {
+                        "desc": "[OnSucceedAttack] Gagne 1 de [Breath] and +3 [Breath] Count"
+                      }
+                    ]
+                  },
+                  {
+                    "coindescs": [
+                      {
+                        "desc": "[OnSucceedAttack] Sélectionne aléatoirement 1 de 4 effets ([Protection], [Enhancement], [Vulnerable], [Paralysis]). Inflige ou applique 3 de l’effet sélectionné."
+                      },
+                      {
+                        "desc": "[OnSucceedAttack] La cible perd des PSM égaux au Compte de [Charge] de cette unité"
+                      },
+                      {
+                        "desc": "[EnemyKill] Tous les ennemis perdent 10 PSM"
+                      },
+                      {
+                        "desc": "[EnemyKillFail] Gagne 2 de [Paralysis] au prochain tour."
+                      }
+                    ]
+                  }
+                ]
+              }
             ]
         },
         {

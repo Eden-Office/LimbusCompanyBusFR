@@ -83,7 +83,7 @@
     {
       "id": 2070211,
       "name": "Rugissement",
-      "desc": "Après avoir vaincu un ennemi, gagne de la Charge égale à la moitié de la Réson.-A d’Envie de ce tour.\n(Réson.-A d’Envie / 2)"
+      "desc": "Après avoir vaincu un ennemi, gagne du Compte de Charge égal à la moitié de la Réson.-A d’Envie de ce tour.\n(Réson.-A d’Envie / 2)"
     },
     {
       "id": 2080111,
@@ -183,7 +183,7 @@
     {
       "id": 2060311,
       "name": "Restauration de Phénomène Entremêlé",
-      "desc": "En touchant un ennemi avec des effets de statut négatifs, cette unité gagne +1 de Compte de Charge.\n(Max +4 par tour.)\nLorsque les PV  tombent à 0 pour la première fois durant le combat, dépense toutes les Charges et se soigne proportionnellement à la quantité dépensée. (Ne peut pas se soigner de plus de 25% des PV Max.)"
+      "desc": "En touchant un ennemi avec des effets de statut négatifs, cette unité gagne +1 de Compte de Charge.\n(Max +4 par tour.)\nLorsque les PV  tombent à 0 pour la première fois durant le combat, dépense tout le Compte de Charge et se soigne proportionnellement à la quantité dépensée. (Ne peut pas se soigner de plus de 25% des PV Max.)"
     },
     {
       "id": 2050411,
@@ -364,6 +364,16 @@
       "name": "Temps de Fonctionnement",
       "desc": "Lorsque cette unité utilise une Capacité pour déclencher un [VibrationExplosion] sur un ennemi, gagne 1 de [Agility] au prochain tour. (4 fois par tour, inclut les Capacités E.G.O.)",
       "summary": "En utilisant une Capacité pour déclencher un [VibrationExplosion] sur un ennemi, gagne 1 de [Agility] au prochain tour. (4 fois par tour, inclut les Capacités E.G.O.)"
+    },
+    {
+      "id": 2040711,
+      "name": "Marque du Regard",
+      "desc": "Chaque fois que cette unité utilise une Capacité d’Attaque basique contre un ennemi, gagne 1 ressource E.G.O. supplémentaire d’une Affinité aléatoire la moins possédée et ne correspondant pas à l’Affinité de la Capacité d’Attaque utilisée"
+    },
+    {
+      "id": 2070711,
+      "name": "Pendentif Écrasé",
+      "desc": "Début du Combat : à 3+ de plus haute Réson., gagne 3 de [Breath]."
     }
   ]
 }

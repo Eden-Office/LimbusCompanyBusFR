@@ -451,6 +451,268 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1090901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Prépare à Recouvrer",
+          "desc": "[WhenUse] Gagne +2 de Compte de [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Inflige +1 de Compte de [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Prépare à Recouvrer",
+          "desc": "[WhenUse] Gagne +2 de Compte de [Vibration]\n<style=\"highlight\">[WhenUse] Si la cible a 6+ de [Vibration], +1 de Puissance de Duel</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[WinDuelAttack] Inflige +1 de Compte de [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Prépare à Recouvrer",
+          "desc": "[WhenUse] Gagne +2 de Compte de [Vibration]\n[WhenUse] <style=\"highlight\">+1 de Puissance de Duel pour chaque 6 de [Vibration] sur la cible (2 max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[WinDuelAttack] Inflige +1 de Compte de [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1090902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Répression Martiale T Corp.",
+          "desc": "[WhenUse] Gagne +2 de Compte de [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {}
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Répression Martiale T Corp.",
+          "desc": "[WhenUse] Gagne +2 de Compte de [Vibration]\n<style=\"highlight\">[WhenUse] Si la cible a 6+ de [Vibration], +1 de Puissance de Duel</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[WinDuelAttack] Inflige +2 de Compte de [Vibration]</style>"
+                }
+              ]
+            },
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Répression Martiale T Corp.",
+          "desc": "<style=\"highlight\">Inflige +5% de dégâts supplémentaires pour chaque [Binding] sur la cible (15% max)</style>\n[WhenUse] Gagne +2 de Compte de [Vibration]\n[WhenUse] <style=\"highlight\">+1 de Puissance de Duel pour chaque 6 de [Vibration] sur la cible (2 max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[WinDuelAttack] Inflige +<style=\"highlight\">3</style> de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 1 de [Binding] au prochain tour</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Si la cible a 6+ de [Vibration], inflige 1 de [Binding] au prochain tour</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1090903,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Exécution des Recouvrements",
+          "desc": "[WhenUse] Si la cible a 8+ de [Vibration], +1 de Puissance de Duel\n[WhenUse] Consomme 8 de Compte de [Vibration] sur soi pour gagner +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Binding] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cette unité est dans un état de [TimeRentalTwoPersonality], inflige 2 de [TimeSuspend]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Exécution des Recouvrements",
+          "desc": "<style=\"highlight\">Inflige +5% de dégâts supplémentaires pour chaque [Binding] sur la cible (20% max)</style>\n[WhenUse] Si la cible a 8+ de [Vibration], +<style=\"highlight\">2</style> de Puissance de Duel\n[WhenUse] Consomme 8 de Compte de [Vibration] sur soi pour gagner +1 de Puissance de Duel",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +<style=\"highlight\">3</style> de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Binding] au prochain tour<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Si cette unité a consommé du Compte de [Vibration] à l’usage de la Capacité, inflige 2 de [Binding] au prochain tour</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cette unité est dans un état de [TimeRentalTwoPersonality], inflige 2 de [TimeSuspend]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1090904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Emprunt de Temps",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[StartBattle] Si cette unité n’est pas dans un état de [TimeRentalTwoPersonality], gagne 3 de [TimeRentalTwoPersonality] à la Fin du Tour (une fois par tour)\n[WhenUse] Pour ce tour : lorsque touché par un ennemi, inflige 2 de [Vibration] à la cible au prochain tour (2 fois par tour)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Emprunt de Temps",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[StartBattle] Si cette unité n’est pas dans un état de [TimeRentalTwoPersonality], gagne 3 de [TimeRentalTwoPersonality] à la Fin du Tour (une fois par tour)\n[WhenUse] Pour ce tour : lorsque touché par un ennemi, inflige 2 de [Vibration] à la cible au prochain tour (<style=\"highlight\">6 fois</style> par tour)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

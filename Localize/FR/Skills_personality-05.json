@@ -704,6 +704,176 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1051001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Dédication Studieuse",
+          "desc": "Gagne ([KnowledgeExplored] * 3% des PV Max) de Bouclier si cette Capacité est Défaussée\n[WhenUse] [Discard] 1 Capacité avec le plus haut rang de tous les Emplacements de Capacité de cette unité",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Dédication Studieuse",
+          "desc": "Gagne ([KnowledgeExplored] * <style=\"highlight\">4%</style> des PV Max) de Bouclier si cette Capacité est Défaussée\n[WhenUse] [Discard] 1 Capacité avec le plus bas rang de tous les Emplacements de Capacité de cette unité\n<style=\"highlight\">[WhenUse] À 2+ de [KnowledgeExplored], +1 de Puissance de Duel\n[WinDuel] Gagne 2 d’[KnowledgeTraining] (une fois par tour)</style>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Dédication Studieuse",
+          "desc": "Gagne ([KnowledgeExplored] * <style=\"highlight\">5%</style> des PV Max) de Bouclier si cette Capacité est Défaussée\n[WhenUse] [Discard] 1 Capacité avec le plus bas rang de tous les Emplacements de Capacité de cette unité\n<style=\"highlight\">[WhenUse] Gagne ([KnowledgeExplored] - 1) de Puissance de Duel (2 max)</style>\n[WinDuel] Gagne 2 d’[KnowledgeTraining] (une fois par tour)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1051002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Moment d’Érudition",
+          "desc": "[StartBattle] Gagne de l’[KnowledgeTraining] égale à [KnowledgeExplored] sur soi\n[WhenUse] [Discard] 2 des Capacités de cette unité par ordre ascendant de rang sur tous ses Emplacements de Capacité",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige de la [Sinking] égale à [KnowledgeExplored]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Moment d’Érudition",
+          "desc": "<style=\"highlight\">Inflige +3% de dégâts supplémentaires pour chaque [KnowledgeExplored] sur soi (9% max)</style>\n[StartBattle] Applique de l’[KnowledgeTraining] égale à [KnowledgeExplored] sur soi <style=\"highlight\">à un allié aléatoire</style> et à soi-même <style=\"highlight\">(priorise les alliés avec [Discard] ayant le moins d’[KnowledgeTraining])</style>\n[WhenUse] [Discard] 2 des Capacités de cette unité par ordre ascendant de rang sur tous ses Emplacements de Capacité\n<style=\"highlight\">[WhenUse] Si la cible a 6+ de [Sinking], +1 de Puissance de Pièce</style>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige de la [Sinking] égale à [KnowledgeExplored]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Moment d’Érudition",
+          "desc": "Inflige <style=\"highlight\">+5%</style> de dégâts supplémentaires pour chaque [KnowledgeExplored] sur soi (<style=\"highlight\">15%</style> max)\n[StartBattle] Applique de l’[KnowledgeTraining] égale à [KnowledgeExplored] sur soi <style=\"highlight\">à 2 alliés aléatoires</style> et à soi-même (priorise les alliés avec [Discard] ayant le moins d’[KnowledgeTraining])\n[WhenUse] [Discard] 2 des Capacités de cette unité par ordre ascendant de rang sur tous ses Emplacements de Capacité\n<style=\"highlight\">[WhenUse] +1 de Puissance de Pièce pour chaque 6 de [Sinking] sur la cible (2 max)</style>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige de la [Sinking] égale à <style=\"highlight\">([KnowledgeExplored] * 2)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1051003,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Brûler le Savoir",
+          "desc": "Inflige +3% de dégâts supplémentaires pour chaque [KnowledgeExplored] sur soi (18% max)\n[WhenUse] Si la cible a 6+ de [Sinking], +1 de Puissance de Pièce\n[BeforeAttack] Consomme toute [KnowledgeTraining] sur soi et gagne la moitié de cette valeur en [KnowledgeExplored] supplémentaire (arrondi à l’inférieur)\n[EndSkill] À 4+ d’[KnowledgeExplored], remet la valeur à 1 (si cette Capacité vainc un ennemi, remet la valeur à 3 à la place)",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige de la Puissance/Compte de [Sinking] égal à la valeur d’[KnowledgeExplored] à la cible (la répartition de quantité de Puissance ou de Compte est déterminée aléatoirement)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Brûler le Savoir",
+          "desc": "Inflige <style=\"highlight\">+5%</style> de dégâts supplémentaires pour chaque [KnowledgeExplored] (<style=\"highlight\">45%</style> max)\n<style=\"highlight\">[WhenUse] +1 de Puissance de Pièce pour chaque 6 de [Sinking] sur la cible (2 max)</style>\n[BeforeAttack] Consomme toute [KnowledgeTraining] sur soi et gagne <style=\"highlight\">cette même valeur</style> en [KnowledgeExplored] supplémentaire\n[EndSkill] À 4+ d’[KnowledgeExplored], remet la valeur à 1 (si cette Capacité vainc un ennemi, remet la valeur à 3 à la place)",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige de la Puissance/Compte de [Sinking] égal à la valeur d’[KnowledgeExplored] à la cible (la répartition de quantité de Puissance ou de Compte est déterminée aléatoirement)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1051004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Étude Concentrée",
+          "desc": "[WhenUse] [Discard] 1 Capacité avec le plus haut rang de tous les Emplacements de Capacité de cette unité",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Étude Concentrée",
+          "desc": "[WhenUse] [Discard] 1 Capacité avec le plus haut rang de tous les Emplacements de Capacité de cette unité\n<style=\"highlight\">[WhenUse] Gagne +6 d’Aggro sur cet Emplacement de Capacité au prochain tour</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

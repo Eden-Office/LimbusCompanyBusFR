@@ -1,0 +1,1145 @@
+{
+  "dataList": [
+    {
+      "id": 101001,
+      "name": "Human Offering",
+      "subDesc": "Vous voyez des poupées d’argile au loin.",
+      "desc": "Ils fouillent à travers des corps à la recherche de quelque chose.\nDes demandes incessantes d’offrande résonnent dans vos oreilles.\nOn dirait qu’ils pourraient vous sauter dessus à tout moment.\n\nVous voyez une personne mourante non loin, en manque d’air.\nDevriez-vous offrir cette personne ?\nOu…",
+      "options": [
+        {
+          "message": "Offrir la personne.",
+          "messageDesc": "Tous les alliés perdent des PSM. Gagnez un Don E.G.O.",
+          "result": [
+            "Satisfaites, les poupées d’argile emportèrent le futur cadavre au loin."
+          ]
+        },
+        {
+          "message": "Ne pas offrir la personne.",
+          "messageDesc": "Lance un Affrontement. Gagnez pour obtenir un Don E.G.O. plus puissant.",
+          "result": [
+            "Fâchées par votre inaction, les poupées d’argile vous attaquent."
+          ]
+        },
+        {
+          "message": "Offrir un Pécheur.",
+          "messageDesc": "……",
+          "result": [
+            "“Vous avez perdu un boulon, Manager ?”\n\nLes Pécheurs semblent fâchés par votre décision."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10100101,
+      "name": "Human Offering",
+      "subDesc": "Vous voyez des poupées d’argile au loin.",
+      "desc": "Il semblerait que les Pécheurs soient hors de question.\n\nDevriez-vous offrir cette personne mourante ?\nOu…",
+      "options": [
+        {
+          "message": "Offrir la personne.",
+          "messageDesc": "Tous les alliés perdent des PSM. Gagnez un Don E.G.O.",
+          "result": [
+            "Satisfaites, les poupées d’argile emportèrent le futur cadavre au loin."
+          ]
+        },
+        {
+          "message": "Ne pas offrir la personne.",
+          "messageDesc": "Lance un Affrontement. Gagnez pour obtenir un Don E.G.O. plus puissant.",
+          "result": [
+            "Fâchées par votre inaction, les poupées d’argile vous attaquent."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 101002,
+      "name": "Eternal Rest",
+      "desc": "Vous entendez une faible voix.\n\n“S’il vous plaît, à l’aide…”\n\nSuivez-vous le son ? Ou…",
+      "options": [
+        {
+          "message": "Chercher l’origine de la voix.",
+          "messageDesc": "Lance un Contrôle d’Orgueil. Gagnez un Don E.G.O.",
+          "result": [
+            "Un soldat est écrasé sous des débris, haletant avec souffrance.\n\n“S’il vous plaît, tuez-moi… J’ai bien trop mal.”\n\nVous ne pouvez pas ignorer cette personne.\nQui sera ordonné de mettre au repos ce soldat ?"
+          ]
+        },
+        {
+          "message": "Ignorer la voix.",
+          "messageDesc": "",
+          "result": [
+            "C’était peut-être vos sens qui vous jouaient des tours.\nIl n’est pas rare que le vent puisse être confondu avec une voix humaine.\n\nVous décidez de vous dépêcher."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 101003,
+      "name": "An Encounter with the Unbearable",
+      "subDesc": "Des bruits de craquement vous mettent sur les nerfs.",
+      "desc": "En traversant un passage étroit, une nuée de cafard rampa à travers le chemin.\nLe visage bruissant est presque révoltant.\n\nAllez-vous passer outre ? Ou…",
+      "options": [
+        {
+          "message": "Passer outre la nuée infecte.",
+          "messageDesc": "Tous les alliés perdent des PSM.",
+          "result": [
+            "“Ewwww… Il y en a un sur ma jambe !”\n\nTout le monde parvient à traverser le passage, mais leur dégoût est bien visible.\nIls semblent épuisés par cette expérience."
+          ]
+        },
+        {
+          "message": "C’en est assez. Écraser les cafards avec les Pécheurs.",
+          "messageDesc": "Gregor perd beaucoup de PSM. Lance un Affrontement. Gagnez pour obtenir un Don E.G.O.",
+          "result": [
+            "“Tsk…”\n\nGregor se détourne du carnage, mécontent.\nPeu après, une horde de soldats insectes en colère nous chargea dessus."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 102001,
+      "name": "Suspiciously Sparkly Vending Machine",
+      "subDesc": "subDesc가 뭘까?",
+      "desc": "Vous trouvez un distributeur automatique avec de gros boutons au milieu de l’usine.\n\nIls sont colorés et élégants…\nVous ressentez un grand besoin d’appuyer dessus.\n\nSur lequel allez-vous appuyer ?",
+      "options": [
+        {
+          "message": "Appuyer sur le bouton rouge avec une icône de poing.",
+          "messageDesc": "Gagnez un Don E.G.O.",
+          "result": [
+            "“Félicitations ! Félicitations !”\n\nQuelque chose tomba dans la chute.\n\nCela semble être un poing jouet."
+          ]
+        },
+        {
+          "message": "Appuyer sur le bouton jaune avec une icône de pied.",
+          "messageDesc": "Gagnez un Don E.G.O.",
+          "result": [
+            "“Félicitations ! Félicitations !”\n\nQuelque chose tomba dans la chute.\n\nCela semble être un pied jouet."
+          ]
+        },
+        {
+          "message": "Appuyer sur le bouton vert avec une icône de cœur.",
+          "messageDesc": "Gagnez un Don E.G.O.",
+          "result": [
+            "“Félicitations ! Félicitations !”\n\nQuelque chose tomba dans la chute.\n\nCela semble être une visse jouet."
+          ]
+        },
+        {
+          "message": "Appuyer sur tous les boutons en même temps.",
+          "messageDesc": "Gagnez 3 Dons E.G.O. Mais…",
+          "result": [
+            "“Erreur ! Erreur !”\n\nLe distributeur automatique commence à trembler.\n\n“H-hé, c’est quoi le problème de ce truc ?”\n\n“Tsss, vous auriez dû savoir qu’il ne faut pas être gou—”\n\nAvant que le Pécheur ne puisse finir, la machine explosa, crachant un grand nombre de morceaux de jouet dans les airs."
+          ]
+        },
+        {
+          "message": "N’appuyer sur rien.",
+          "result": [
+            "Vous devriez résister à des impulsions étranges comme celle-ci.\nInterférer avec l’inconnu est une mauvaise idée.\n\nVous laissez le distributeur automatique sans toucher à rien."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 102002,
+      "name": "Exhilarating Edutainment Featuring Excess Violence!",
+      "subDesc": "subDesc가 뭘까?",
+      "desc": "En quittant le passage, vous voyez un groupe de cyborgs rassemblés autour d’une grande roulette.\n\n“Oh. Très. Excité. Parfaitement. Amusant.”\n“El JEU de la MO—ORT !”\n\nIls s’approchent de nous en chantant étrangement.\nOn dirait qu’ils veulent faire une partie de roulette. Que devriez-vous faire ?",
+      "options": [
+        {
+          "message": "Accepter le défi.",
+          "messageDesc": "Rodion gagne des PSM. Lance des contrôles de Colère, de Paresse et de Peine. Passez pour soigner les PSM de tous les alliés et gagner un Don E.G.O.",
+          "result": [
+            "“Vous savez que c’est là où je brille !”\n\nS’exclama fièrement Rodya en s’avançant.\nVous pouvez voir un mélange d’anticipation et d’excitation sur son visage."
+          ]
+        },
+        {
+          "message": "Pas de jeux ! Écrasons-les dans un combat.",
+          "messageDesc": "Rodion perd des PSM. Lance un Affrontement. Gagnez pour obtenir un Don E.G.O.",
+          "result": [
+            "Ce n’est absolument pas le moment de s’amuser.\nOccupons-nous de ces cyborgs fous et avançons.\n\n“… Psh.”\n\nRodya claqua des lèvres d’insatisfaction, mais vous ne pouvez pas vous permettre de céder aux caprices de tous les Pécheurs."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 102003,
+      "name": "Are You Happy?",
+      "subDesc": "subDesc가 뭘까?",
+      "desc": "Une porte épaisse en verre se tient fermement dans un cadre rose.\nL’affichage électronique au-dessus s’alluma soudainement, offrant une question.\n\n“Êtes-vous heureux ?”\n\nQuelle sera votre réponse ?",
+      "options": [
+        {
+          "message": "Oh que oui.",
+          "result": [
+            "“Merveilleux !”\n\nL’afficheur émit une lumière verte et la porte s’ouvrit pour nous.\nOn dirait que nous pouvons avancer."
+          ]
+        },
+        {
+          "message": "Non.",
+          "result": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10200301,
+      "name": "Are You Happy? 2",
+      "subDesc": "subDesc가 뭘까?",
+      "desc": "“Il y a une paire de chaussures roses pouvant vous rendre heureux.”\n\nL’affichage brilla en rouge.\n\n“Voulez-vous les essayer ?”",
+      "options": [
+        {
+          "message": "Essayer les chaussures.",
+          "messageDesc": "Gagnez un Don E.G.O.",
+          "result": [
+            "La porte de verre s’ouvrit, révélant ladite paire de chaussures roses.\n\nLorsque vous les enfilez, vous sentez des mèches de rubans s’enrouler autour de vos jambes.\nIls se resserrent autour de votre corps, mais ce n’est pas une sensation déplaisante.\n\nVous avez la sensation de pouvoir aller… n’importe où."
+          ]
+        },
+        {
+          "message": "Ne pas porter les chaussures.",
+          "messageDesc": "Lance un Affrontement.",
+          "result": [
+            "“Ne vous détournez pas de sa majesté aux chaussures roses !”\n\nLa lumière au-dessus des chaussures s’éteignit lorsque vous vous êtes éloignés.\n\n“Elles vous emmèneront où vous voulez !”\n\nL’affichage commença à clignoter frénétiquement et un groupe de personnes enroulées de rubans roses passa la porte."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10301,
+      "name": "An Old Room with a Clockwork Mechanism",
+      "subDesc": "subDesc가 뭘까?",
+      "desc": "Il y a une machine dans cette salle délabrée.\nUn gros levier massif se trouve au centre de la machine décorée de ressorts.\n\nLe besoin… de tirer dessus… devient de plus… en plus… fort.\n\nQu’allez-vous faire ?",
+      "options": [
+        {
+          "message": "Utiliser la machine.",
+          "messageDesc": "50% de chance d’un effet positif ; 50% de chance d’un effet négatif"
+        },
+        {
+          "message": "Quitter la pièce.",
+          "result": [
+            "Vous n’êtes plus un enfant. Vous pouvez résister à de simples besoins comme celui-ci.\nCe n’est jamais une bonne idée de céder à la tentation sans réfléchir.\n\n“Oui, bonne idée.”\n\nLes Pécheurs et vous quittez la pièce."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1030101,
+      "name": "An Old Room with a Clockwork Mechanism",
+      "subDesc": "subDesc가 뭘까?",
+      "desc": "Mettre en action des idées intempestives est aussi impulsif et désinhibé qu’un enfant cherchant à attraper des guimauves hors de portée.\n\nAprès avoir abaissé le levier, un clack résonna peu après.\nLes ressorts commencent à tourner, certains rapidement, d’autres lentement.\nCertains dans le sens des aiguilles d’une montre, certains dans le sens opposé.\n\nVous devenez anxieux en observant les grondements de la machine s’intensifier.",
+      "options": [
+        {
+          "message": "Tirer sur le levier.",
+          "messageDesc": "50% de chance de gagner un Don E.G.O. Échouer mène à des dégâts de PV et de PSM.",
+          "result": [
+            "La machine s’arrêta enfin.\n\n“Huh… Regardez ça !”\n\nUn petit coffre en bois sortit du sol.\nVous l’ouvrez doucement et trouvez un tas de torches.\n\nCe n’est pas grand-chose, mais cela vous sauvera momentanément de l’obscurité.\nVous emportez les torches hors de la pièce.",
+            "La machine s’arrêta enfin.\n\n“Q-Qu'est-ce qu’il se passe ?!”\n\nLa salle entière commença à trembler et se fissurer.\nUn moment plus tard, le plafond s’ouvrit, permettant à des milliers de clous de s’abattre au sol.\n\n“Dehors, vite !”\n\n“Merde, je l’avais dit que c’était une mauvaise idée d’y toucher !”\n\nLes Pécheurs et vous évacuez rapidement de la salle, mais pas sans blessure."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10302,
+      "name": "Before a Sealed Door",
+      "subDesc": "subDesc가 뭘까?",
+      "desc": "Une porte en métal repose d’un côté de la salle.\nElle semble trop épaisse pour être facilement brisée ou forcée.\n\n“Il doit y avoir quelque chose de vraiment précieux derrière si elle est si bien gardée ! ~”\n\nLe Pécheur a sûrement raison, un trésor pourrait nous attendre derrière cette porte.\nQue devriez-vous faire ?",
+      "options": [
+        {
+          "message": "L’ouvrir de force.",
+          "messageDesc": "Lance un Contrôle de Colère. Passez pour ouvrir un nouveau chemin sur la carte."
+        },
+        {
+          "message": "Chercher une solution.",
+          "messageDesc": "Lance un Contrôle de Paresse. Passez pour ouvrir un nouveau chemin sur la carte."
+        },
+        {
+          "message": "Quitter la pièce.",
+          "result": [
+            "Il serait plus sûr de rester sur le chemin que nous connaissons plutôt que de prendre des risques inutiles.\n\n“Aww ~ Je jure qu’il y a forcément quelque chose là-dedans !”\n\nBien que certains Pécheurs se plaignent, vous les persuadez de laisser tomber."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10303,
+      "name": "The First Gate",
+      "subDesc": "subDesc가 뭘까?",
+      "desc": "Vous voyez une grande porte au loin.\nIl y a quelque chose de sinistre à propos des barrières pointues et des murs de pierre.\n\nCela semble être le seul moyen de traverser cette zone, mais elle est gardée par un grand nombre d’Inquisiteurs.\nPouvons-nous faire quelque chose à leur propos ?",
+      "options": [
+        {
+          "message": "Les attaquer par derrière.",
+          "messageDesc": "Lance un Contrôle d’Orgueil, puis commence un affrontement. Réussissez pour buff tous les alliés et réduire de 1 le nombre de vagues."
+        },
+        {
+          "message": "Les distraire.",
+          "messageDesc": "Lance un Contrôle de Luxure, puis commence un affrontement. Réussissez pour réduire de 2 le nombre de vagues."
+        },
+        {
+          "message": "Les affronter directement.",
+          "messageDesc": "Commence un affrontement avec 3 vagues.",
+          "result": [
+            "Parfois, la solution la plus simple est la meilleure.\nSéparer un Pécheur de notre groupe pour tenter un tour idiot pourrait se retourner contre nous.\n\nAllons leur faire face."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10304,
+      "name": "A Room Full of Crates",
+      "subDesc": "subDesc가 뭘까?",
+      "desc": "Des dizaines de vieilles caisses sont au sol.\n\n“Beurk, des toiles d’araignées…”\n\nEn nettoyant le bazar, vous trouvez trois caisses particulièrement larges qui étaient enterrées.\n\n“Elles sont toutes verrouillées.”\n\n“Il semblerait que les serrures ont la même forme !”\n\n“… Hélas, la clé est de frêle constitution. Il ne sera plus possible de l’utiliser une fois insérée dans un verrou.”\n\nOn dirait que vous n’avez qu’un essai.\nLaquelle devriez-vous ouvrir ?",
+      "options": [
+        {
+          "message": "Ouvrir la première caisse.",
+          "messageDesc": "Gagnez un Don E.G.O. qui booste votre défense.",
+          "result": [
+            "“C’est…”\n\nLa caisse contenait un vieux casque.\n\n“Oho ?! C’est un équypement dygne d’un chevaslier, n’est-ce pas ?”\n\nUn Pécheur frotte avec excitation le casque pour le rendre propre.\nCe n’est pas une mauvaise prise.\nNous ramassons le casque (et le Pécheur épris par ce dernier) et quittons la pièce."
+          ]
+        },
+        {
+          "message": "Ouvrir la deuxième caisse.",
+          "messageDesc": "50% de chance de gagner un Don E.G.O. qui booste les attaques de Tremblement.",
+          "result": [
+            "“C’est…”\n\nLa caisse contenait un vieux maillet.\nLes fissures sur son manche soulevaient plusieurs questions sur son utilisabilité.\n\n“Cette chose semble positivement inutile !”\n\nLes Pécheurs expriment de la déception face à ce choix paraissant regrettable.\nMais vous avez l’impression que le maillet vous parle,\nvous incite à le prendre.\n\n“Quoi, vous allez le prendre avec vous ?”\n\nBien que les Pécheurs n’y voient qu’un détritus,\nil semble être bon d’emporter le maillet.",
+            "“… Vide ?”\n\nIl n’y avait rien dans la caisse.\nTout ce qui nous a accueilli étaient de petits grains de poussière et de terre remués par l’exposition à l’air extérieur.\n\n“J’avais dit qu’il fallait ouvrir celui-là ~”\n\n“Non, en toute vraisemblance, celle-ci aurait sûrement été vide aussi.”\n\nVous quittez la pièce en essayant d’ignorer les plaintes des Pécheurs."
+          ]
+        },
+        {
+          "message": "Ouvrir la troisième caisse.",
+          "messageDesc": "50% de chance de gagner un Don E.G.O. qui booste les attaques de Saignement.",
+          "result": [
+            "“This is…”“C’est…”\n\nLa caisse contenait un clou bruni.\nPas un lot de clous ; juste un plutôt large, couvert de rouille et de poussière.\n\n“Qu’est-ce que…”\n\nLes Pécheurs semblent dévastés par le fait que la clé a été gâchée pour ça.\n\n“On va pas jeter le moindre butin. Si vous allez pas l’utiliser, alors passez-le-moi.”\n\nUn Pécheur montra de l’intérêt dans cet objet, alors vous lui avez donné avant de continuer votre chemin.",
+            "“… Vide ?”\n\nIl n’y avait rien dans la caisse.\nTout ce qui nous a accueilli étaient de petits grains de poussière et de terre remués par l’exposition à l’air extérieur.\n\n“J’avais dit qu’il fallait ouvrir celui-là ~”\n\n“Non, en toute vraisemblance, celle-ci aurait sûrement été vide aussi.”\n\nVous quittez la pièce en essayant d’ignorer les plaintes des Pécheurs."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10305,
+      "name": "Who Judges the Judge",
+      "subDesc": "subDesc가 뭘까?",
+      "desc": "Les Inquisiteurs de la N Corp. sont occupés à torturer quelqu’un.\n\n“GIAAAAH !”\n\nUn cri filtré résonne dans la salle étroite.\nLeurs victimes sont des gens avec des corps prosthétiques.\n\n“……”\n\nSinclair ne prononça pas un mot, mais ses yeux remplis de colère et de peur étaient fixés sur les tortureurs.\nIl respirait lourdement à intervalle irrégulier et tremblait ; on dirait qu’il pourrait charger à tout moment.\n\nAllez-vous l’arrêter ?\nOu…",
+      "options": [
+        {
+          "message": "Attendre que la torture s’arrête.",
+          "messageDesc": "Certaines Identités perdent des PSM.",
+          "result": [
+            "Bien que la scène soit horrible à observer, nous ne sommes pas de vaillants chevaliers.\nUn sage manager ne risquerait pas de perdre ses Pécheurs sur une impulsion juvénile.\nDans ce cas…\n\n“… Compris.”\n\nSinclair vous lança un regard irrité lorsque vous avez placé une main sur son épaule, mais il baissa rapidement la tête et consenti.\n\n… Espérons que c’était le bon choix.\nVous avez décidé d’observer et d’attendre que la torture se finisse."
+          ]
+        },
+        {
+          "message": "Arrêter la torture.",
+          "messageDesc": "Lance un Contrôle de Colère, puis commence un affrontement. Utilisez Sinclair dans le contrôle pour gagner ‘Un Symbole’. Passez pour affaiblir tous les ennemis.",
+          "result": [
+            "Nous ne sommes pas des chevaliers vaillants.\nMais même en mettant notre morale de côté, nous devrons les affronter pour passer.\n\n“… Vous le pensez vraiment ?”\n\nLorsque vous avez expliqué votre plan à Sinclair, il vous regarda avec surprise.\n\n“Je pensais que vous alliez m’arrêter…”\n\nDit-il anxieusement, mais il semble néanmoins heureux de votre décision.\n\n“Très bien. Je vais le faire.”\n\nSinclair fonça en direction des Inquisiteurs avec les autres Pécheurs."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10306,
+      "name": "A Rotting Corpse’s Memento",
+      "subDesc": "subDesc가 뭘까?",
+      "desc": "“Berk, c’est quoi cette odeur…”\n\nLes Pécheurs froncèrent des sourcils face à l’agression olfactive.\nEn suivant leurs yeux, vous trouvez un Inquisiteur effondré au sol.\n\n“Définitivement mort…”\n\nL’odeur doit venir de son corps en putréfaction.\nBien que tout le monde hésitait à l’approcher, vous voyez quelque chose briller.\n\nIl semble y avoir quelque chose au milieu de la crinière tortillante…\nQu’allez-vous faire ?",
+      "options": [
+        {
+          "message": "Examiner l’Inquisiteur mort.",
+          "messageDesc": "Lance un Contrôle de Gourmandise. Passez pour gagner un Don E.G.O. Échouez pour perdre des PV et PSM."
+        },
+        {
+          "message": "Partir sans le toucher.",
+          "result": [
+            "Ce n’est sûrement rien.\nSi nous en avons vraiment besoin, nous pourrons revenir le chercher.\n\nIl vaut mieux ne pas endommager la psyché des Pécheurs pour quelque chose d’aussi incertain."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10307,
+      "name": "[Hel. P. Me. He. Lp.]",
+      "subDesc": "subDesc가 뭘까?",
+      "desc": "Vous entendez des bruits mécaniques rapides à travers la porte verrouillée.\n\n“On dirait un appel à l’aide…”\n\nAlors que vous concentrez votre attention, vous commencez à entendre des bruits de pas.\n\n“De l’acier… Ce sont des bruits d’acier…”\n\nSinclair se figea.\nOn dirait qu’un Inquisiteur s’approche d’eux.\nQu’allez-vous faire ?",
+      "options": [
+        {
+          "message": "Libérer le prosthétique.",
+          "messageDesc": "Sinclair regagne des PSM. Lance un Affrontement. Gagnez pour obtenir un Don E.G.O.",
+          "result": [
+            "“… Je savais que je pouvais compter sur vous.”\n\nSinclair fila dès que vous lui avez dit que faire.\nComme suspecté, un certain nombre de personnes prosthétiques étaient attachés par des cordes.\n\n“Sortez de là, vite !”\n\nDès qu’il les a détachés, ils se précipitèrent hors de la pièce.\n\n“Tch… Les hérétiques !”\n\nNous avons pris un peu trop de temps pour partir ; les Inquisiteurs hurlèrent en entrant dans la salle.\nOn dirait que le conflit est inévitable.",
+            "“… Je savais que je pouvais compter sur vous.”\n\nSinclair fila dès que vous lui avez dit que faire.\nComme suspecté, un certain nombre de personnes prosthétiques étaient attachés par des cordes.\n\n“Sortez de là, vite !”\n\nDès qu’il les a détachés, ils se précipitèrent hors de la pièce.\n\n“Enfoirés, même pas un remerciement.”\n\nCertains Pécheurs se plaignirent,\nmais Sinclair semblait satisfait de son acte.\n\nAprès les avoir calmés, nous avons quitté la pièce."
+          ]
+        },
+        {
+          "message": "Laisser le prosthétique.",
+          "messageDesc": "Sinclair perd des PSM.",
+          "result": [
+            "“N—Non… Comment…”\n\nSinclair sembla choqué par votre réponse.\nAussi malheureux soit-il, perdre des effectifs en essayant de sauver ces gens pourrait être un détriment fatal dans nos prochains affrontements.\n\n[A. Ai. Aidez. A. Aid…]\n\nNous avons quitté la pièce rapidement, en laissant derrière leurs pleurs plaintifs."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10308,
+      "name": "Rite of Suppuration",
+      "subDesc": "subDesc가 뭘까?",
+      "desc": "Le passage était brûlant.\n\n“Arghh, ça va faire fondre mes chaussures.”\n\nLes Pécheurs approchent prudemment du chemin, seulement pour faire demi-tour face à la chaleur écrasante.\nQuelque chose était écrit sur le panneau devant le passage :\n\nProuvez votre humanité \nEt à travers la faiblesse et la suppuration\nTracez un chemin de mobilisation\n\nIl ne fut pas longtemps du tout pour comprendre ce que cela voulait dire.\n… Qu’allez-vous faire ?",
+      "options": [
+        {
+          "message": "Présenter le Sceau de la N Corp.",
+          "messageDesc": "Seulement disponible si vous avez le Don E.G.O. [Sceau de la N Corp.] en votre possession.",
+          "result": [
+            "“Nous avons déjà fait nos preuves, non ?”\n\nSuggéra un Pécheur.\nCela vous rappela que vous portiez une preuve.\n\n“C’est vrai… Le sceau !”\n\nPlacer le sceau contre le panneau causa le passage à se refroidir en un instant.\nNous avons été capables de traverser sans problème."
+          ]
+        },
+        {
+          "message": "Traverser le chemin chauffé.",
+          "messageDesc": "Lance un Contrôle de Colère. Passez pour gagner un Don E.G.O. Échouer lance un affrontement de 3 vagues."
+        },
+        {
+          "message": "Chercher un autre chemin.",
+          "messageDesc": "50% de chance d’avoir un affrontement de 3 vagues.",
+          "result": [
+            "Il semble trop dangereux de faire traverser ce passage incandescent par un Pécheur.\n\nSans parler du fait que vous ne savez pas si quelque chose pouvant faciliter le voyage pour le reste existe, même si quelqu’un parvient à le traverser.\nVous pensez qu’il doit y avoir une autre route à emprunter tant que vous faites attention à ne pas vous faire repérer.\n\nMalheureusement, un groupe d’Inquisiteurs en patrouille vous a repéré.",
+            "Il semble trop dangereux de faire traverser ce passage incandescent par un Pécheur.\n\nSans parler du fait que vous ne savez pas si quelque chose pouvant faciliter le voyage pour le reste existe, même si quelqu’un parvient à le traverser.\nVous pensez qu’il doit y avoir une autre route à emprunter tant que vous faites attention à ne pas vous faire repérer.\n\nHeureusement, vous êtes parvenu à passer sans vous faire remarquer."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10309,
+      "name": "A Vessel of Zeal",
+      "subDesc": "subDesc가 뭘까?",
+      "desc": "Vous voyez un piédestal décoré avec des gravures d’un clou et d’un marteau.\n\n“Ça doit avoir un rapport avec la N Corp.”\n\nMurmura un Pécheur, et vous acquiescez.\nDevriez-vous essayer d’avoir des infos sur la N Corp. ? Ou…",
+      "options": [
+        {
+          "message": "Examiner le livre sur le piédestal.",
+          "messageDesc": "Gagnez un Don E.G.O.",
+          "result": [
+            "Sur le piédestal se trouvait un tome que les Inquisiteurs de la N Corp. transportaient souvent.\nVous profitez de cette chance pour en regarder quelques pages…\n\n“Ugh…”\n\nLe contenu indéchiffrable ne vous donna qu’un mal de tête.\nVous décidez de le conserver pour le moment et de le lire plus tard."
+          ]
+        },
+        {
+          "message": "Rester loin du bruit et s’en aller.",
+          "result": [
+            "Nous en savons déjà assez.\nCela ne vaut pas le coup de fouiner dans des zones douteuses."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10310,
+      "name": "Rite of Confrontation",
+      "subDesc": "subDesc가 뭘까?",
+      "desc": "Une inscription par-dessus le portail fermé indique :\n\nProuvez votre terreur et vos peurs\nRemplissez ce récipient de vos pleurs\n\nEn observant les alentours, vous trouvez le fameux récipient aux côtés d’une chaise à l’allure déplaisante.\nQu’allez-vous faire ?",
+      "options": [
+        {
+          "message": "Effectuer le rituel.",
+          "messageDesc": "Lance un Contrôle de Peine. L’Identité choisie perd des PSM. Passez pour gagner un Don E.G.O."
+        },
+        {
+          "message": "Quitter la pièce.",
+          "result": [
+            "Il est trop dangereux de tenter un rituel dont nous ne sommes pas sûr du fonctionnement.\nNous avons quitté la pièce."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10311,
+      "name": "Exhibit of Human Parts",
+      "subDesc": "subDesc가 뭘까?",
+      "desc": "Vous trouvez une rangée de conteneurs en verre dans un coin de la zone principale.\nÀ l’intérieur se trouvent des organes séchés et des morceaux de vie montrant clairement des mouvements actifs.\n\n“Une scène tragique…”\n\nLes conteneurs peuvent être facilement ouverts. Vous pourriez prendre l’un des morceaux si vous le souhaitiez.\nQu’allez-vous faire ?",
+      "options": [
+        {
+          "message": "Prendre le crâne brillant.",
+          "messageDesc": "Gagnez un Don E.G.O. qui donne du soin lorsque avec peu de vie.",
+          "result": [
+            "Vous prenez le crâne brillant.\nIl brille calmement et vous sentez une sorte de chaleur en sortir.\n\nLes autres conteneurs ne s’ouvrent pas. On dirait que vous ne pouvez en prendre qu’un.\nVous partez avec l’objet que vous avez choisi."
+          ]
+        },
+        {
+          "message": "Prendre la main saignante.",
+          "messageDesc": "Gagnez un Don E.G.O. qui donne des bonus lorsque avec peu de vie.",
+          "result": [
+            "Les doigts sanglants ont attiré votre attention.\nEn ouvrant le conteneur qui les stockait, vous remarquez que le sang continue de s’écouler de la section.\nVous le récupérez par un doigt en perpétuel tremblement.\n\nLes autres conteneurs ne s’ouvrent pas. On dirait que vous ne pouvez en prendre qu’un.\nVous partez avec l’objet que vous avez choisi."
+          ]
+        },
+        {
+          "message": "Prendre la langue frétillante.",
+          "messageDesc": "Gagnez un Don E.G.O. qui donne des bénéfices après avoir gagné un Duel.",
+          "result": [
+            "La langue frétillante attire votre regard.\nEn ouvrant son conteneur pour l’attraper, elle sautilla dans votre paume.\n\nVous avez l’impression que la langue se moque de vous, alors vous essayez d’en prendre un autre, mais…\n\nLes autres conteneurs ne s’ouvrent pas. On dirait que vous ne pouvez en prendre qu’un.\nVous partez avec l’objet que vous avez choisi."
+          ]
+        },
+        {
+          "message": "Ne rien prendre.",
+          "result": [
+            "Vous décidez de ne rien prendre.\n\nVous préférez ne pas toucher des organes effrayants.\nAinsi, vous quittez les lieux."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10312,
+      "name": "Rite of Penance",
+      "subDesc": "subDesc가 뭘까?",
+      "desc": "Un passage est écrit au-dessus de la grande porte :\n\nSeuls ceux qui se repentissent accéderont au déplacement\nÉcharpez-vous, rachetez-vous en vous flagellant\n\nOn dirait qu’ils veulent que l’on s’empale sur ces pieux.\nQu’allez-vous faire ?",
+      "options": [
+        {
+          "message": "Effectuer le rituel.",
+          "messageDesc": "Lance un Contrôle de Colère. L’Identité choisie perd des PSM. Passez pour gagner un Don E.G.O."
+        },
+        {
+          "message": "Quitter la pièce.",
+          "result": [
+            "Il y a beaucoup trop de risques.\nVous ne voyez pas d’utilité à donner à quelqu’un l’ordre de se jeter sur les pieux.\n\nVous quittez la pièce."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10314,
+      "name": "Rite of Conclusion",
+      "subDesc": "subDesc가 뭘까?",
+      "desc": "Des Inquisiteurs hideux de la N Corp. transformés montent la garde.\nVous vous apprêtez à les attaquer mais ils ne semblent pas hostiles.\n\n“Seuls. Les… exceptionnels. Sont autorisés. Dans, ce lieu.”\n\n“Pour… passer. Vous, devrez. Vous montrer. Digne.”\n\nVous n’êtes pas sûr de ce qu’ils veulent dire par “se montrer digne”.\nQue devriez-vous faire ?",
+      "options": [
+        {
+          "message": "Montrer les preuves d’avoir passé les rituels.",
+          "messageDesc": "Seulement disponible si le Don E.G.O. [Sceau de la N Corp.] ou si les trois Preuves d’Innocence, de Larmes et de Rédemption sont en votre possession.",
+          "result": [
+            "Vous vous souvenez de ce que vous avez collecté.\nSi les choses que votre groupe a traversées étaient des tests, alors ce que vous avez reçu doivent être des preuves de votre “valeur”.\n\n“… Vous pouvez, passer.”\n\nLes Inquisiteurs ouvrent la porte, gémissant avec des voix étranges.\n\n“Prenez, ceci. Avec… vous.”\n\nAprès avoir reçu l’objet, vous avez passé la porte."
+          ]
+        },
+        {
+          "message": "Utiliser vos mots.",
+          "messageDesc": "Lance un Contrôle de Luxure. Réussissez pour continuer. Échouez pour lancer un affrontement difficile."
+        },
+        {
+          "message": "Utiliser la violence.",
+          "messageDesc": "Gagnez ‘Un Symbole’. Commencez un affrontement difficile.",
+          "result": [
+            "Il semblerait que la violence soit notre solution la plus directe.\n\n“… Héré-tique.”\n\nLa voix se déversant de cette mâchoire tremblante doit être remplie de pure hostilité.\n\n“Permettez-moi d’aider… Manager.”\n\nSinclair resserra ses mains autour de son arme, ses yeux brûlant silencieusement de détermination."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 103001,
+      "name": "Inquisition",
+      "subDesc": "사용 안하는 선택지",
+      "desc": "Vous rencontrez un Inquisiteur de la N Corp.\n\nAu lieu de vous attaquer, il vous demande si vous haïssez les prosthétiques.\nQue devriez-vous répondre ?",
+      "options": [
+        {
+          "message": "Être d’accord avec l’Inquisiteur.",
+          "result": [
+            "Vous êtes d’accord avec l’Inquisiteur.\nIl rigola avant de s’en aller."
+          ]
+        },
+        {
+          "message": "Ne pas être d’accord avec l’Inquisiteur.",
+          "result": [
+            "Vous êtes en désaccord avec l’Inquisiteur.\nSinclair vous hocha silencieusement la tête.\nL’Inquisiteur en colère appelle ses subordonnés."
+          ]
+        },
+        {
+          "message": "Rester silencieux.",
+          "result": [
+            "Vous lancez un regard noir silencieux à l’Inquisiteur.\nIl perdit tout intérêt à vous parler et s’en alla."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 103002,
+      "name": "Fanaticism",
+      "subDesc": "사용 안하는 선택지",
+      "desc": "Des Inquisiteurs de la N Corp. torturent des personnes prosthétiques.\nVous voyez Sinclair trembler de peur et de colère.\nQu’allez-vous faire ?",
+      "options": [
+        {
+          "message": "Attendre que la torture s’arrête.",
+          "result": [
+            "Aussi douloureux soit-il de regarder, cela pourrait causer un conflit inutile.\nNous devrions attendre qu’ils finissent."
+          ]
+        },
+        {
+          "message": "Arrêter la torture.",
+          "result": [
+            "Nous ne pouvons rester là à ne rien faire, même si cela veut dire se retrouver dans un combat que nous aurions pu éviter.\nDéterminé, Sinclair attrapa son arme."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 103006,
+      "name": "Test of Worthiness",
+      "subDesc": "사용 안하는 선택지",
+      "desc": "Des Inquisiteurs de la N Corp. aux formes étranges gardent la porte.\n\n“Seuls… ceux de valeur… pourront entrer.”\n\n“Pour passer… vous montrerez… votre valeur.”\n\nQu’allez-vous faire ?",
+      "options": [
+        {
+          "message": "Montrer les preuves d’avoir passé les rituels.",
+          "result": [
+            "Vous montrez aux Inquisiteurs les preuves que vous avez obtenues lors de ces rituels.\n\nIls ouvrirent silencieusement la porte.\nEn passant au travers, ils vous donnèrent quelque chose."
+          ]
+        },
+        {
+          "message": "Utiliser vos mots."
+        },
+        {
+          "message": "Utiliser la violence.",
+          "result": [
+            "Tout ce que nous pouvons faire est nous battre.\nOccupons-nous d’eux avec violence."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 800201,
+      "name": "아즈텍원판 선택지1",
+      "subDesc": "사용 안하는 텍스트",
+      "desc": "Il y a plusieurs moyens de les calmer, mais cette Anomalie semble aimer les cadeaux plus qu’autre chose.\nUn nouvel arrivage de sang pourrait être capable de l’apaiser.",
+      "options": [
+        {
+          "message": "Offrir une poupée d’argile.",
+          "result": [
+            "Vous offrez une poupée d’argile vivante en tant que tribut.\nRassasiée, l’Anomalie se calma un moment."
+          ]
+        },
+        {
+          "message": "Offrir un Pécheur.",
+          "result": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": 800203,
+      "name": "아즈텍원판 선택지3",
+      "subDesc": "사용 안하는 텍스트",
+      "desc": "Pour affaiblir les flammes, vous aurez besoin d’eau fraîche.\nPuisque vous n’avez pas de seaux d’eau, vous devriez offrir une personne fraîche à la place.",
+      "options": [
+        {
+          "message": "Offrir une poupée d’argile.",
+          "result": [
+            "Vous offrez une poupée d’argile vivante en tant que tribut.\nLes flammes ne devinrent qu’une lueur."
+          ]
+        },
+        {
+          "message": "Offrir un Pécheur.",
+          "result": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": 800205,
+      "name": "아즈텍원판 선택지5",
+      "subDesc": "사용 안하는 텍스트",
+      "desc": "Les étoiles scintillent.\nLorsqu’elles brillent, elles nous dérobent à tous notre vision.\nQuel cadeau aimeraient les étoiles ?",
+      "options": [
+        {
+          "message": "Offrir un Pécheur.",
+          "result": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": 801201,
+      "name": "강화인간 선택지1",
+      "subDesc": "사용 안하는 텍스트",
+      "desc": "Comment font ces cyborgs pour revenir ?\nLes Pécheurs discutent.\n\n“Peut-être que ces êtres ne sont pas vivants.\nDe cette manière, il leur serait impossible de mourir.”\n\n“Ah non, pas question de partir dans de la philosophie.”\n\n“Hmm ~ J’aurais dit que ça donnait l’impression de voir un mur en brique se reconstruire.”\n\n“… Je crois que j’entends quelque chose venir de cette usine au fond.”\n\nLe groupe dirigea son regard vers l’usine derrière les cyborgs.\nDes bruits métalliques pouvaient être entendus dans ce lieu qui était silencieux jusqu’à il y a peu de temps.\n\nPeut-être que vous devriez jeter un œil à ce complexe étrange ?",
+      "options": [
+        {
+          "message": "Enquêter sur l’usine.",
+          "result": [
+            "Vous avez décidé d’aller voir l’usine.\nMais vous devriez d’abord vous occuper des cyborgs, juste au cas où.\n\nPeut-être que vous gagnerez assez de temps pour vous faufiler en incapacitant le plus gros ?"
+          ]
+        },
+        {
+          "message": "Nous ne pouvons pas nous aventurer ainsi dans l’inconnu. Continuons de les affronter.",
+          "result": [
+            "“Doit-on vraiment aller ramper dans un endroit pareil ?”\n\nDit soudainement un Pécheur.\nIl marquait un point. Pas besoin de prendre de risques.\n\nS’ils continuent de revenir, nous n’aurons qu’à continuer de les battre."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 801202,
+      "name": "강화인간 선택지2",
+      "subDesc": "사용 안하는 텍스트",
+      "desc": "Après avoir incapacité le plus gros cyborg comme prévu, vous êtes entré dans l’usine.\n\n“Huh, c’est…”\n\n“On dirait une espèce de centrale à jouets.”\n\nLes Pécheurs commentent le mécanisme géant.\n\n“Ah ! Venez admyrer ceste curyosité !”\n\nLe Pécheur pointa du doigt un panneau de commande avec plusieurs boutons dessus.\n\n<AIMEZ-VOUS LA CITÉ OÙ VOUS VIVEZ ?>\n\nSur quoi devrions-nous appuyer ?",
+      "options": [
+        {
+          "message": "Oui.",
+          "messageDesc": "Appuyez sur le bouton pour continuer.",
+          "result": [
+            "",
+            "Entrée anormale.\n\n“Hein ? Maintenant, je ne peux plus appuyer sur rien…”\n\nLancement de l’enterrement du site dans 3, 2…\n\n“Sortez d’là !!!”\n\nAprès une courte période, l’usine explosa violemment.\nVous avez réussi à l’arrêter de fonctionner mais les Pécheurs se sont retrouvés mêlés à l’explosion.\n\nOn dirait que vous devriez d’abord sortir d’ici, vous ne croyez pas ?"
+          ]
+        },
+        {
+          "message": "Non.",
+          "messageDesc": "Appuyez sur le bouton pour arrêter.",
+          "result": [
+            "",
+            "Entrée anormale.\n\n“Hein ? Maintenant, je ne peux plus appuyer sur rien…”\n\nLancement de l’enterrement du site dans 3, 2…\n\n“Sortez d’là !!!”\n\nAprès une courte période, l’usine explosa violemment.\nVous avez réussi à l’arrêter de fonctionner mais les Pécheurs se sont retrouvés mêlés à l’explosion.\n\nOn dirait que vous devriez d’abord sortir d’ici, vous ne croyez pas ?",
+            "Trois entrées détectées.\nLancement du Protocole d’Urgence #3 : Arrêt du Complexe.\n\n“On dirait que ça s’est arrêté.”\n\nLes machines ont continué de bourdonner un moment avant de s’arrêter.\nÀ présent, les cyborgs ne devraient plus revenir à la vie.\n\nSortons de l’usine."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 801203,
+      "name": "강화인간 선택지2-그렇다",
+      "subDesc": "사용 안하는 텍스트",
+      "desc": "Continuation de l’augmentation.\n\nVous\ndevez\ndevenir\nfort.\n\nVeuillez poursuivre avec une entrée.\n\n<AIMEZ-VOUS LA CITÉ OÙ VOUS VIVEZ ?>\n\nSur quoi devriez-vous appuyer ?",
+      "options": [
+        {
+          "message": "Oui.",
+          "messageDesc": "Appuyez sur le bouton pour continuer.",
+          "result": [
+            "",
+            "Entrée anormale.\n\n“Hein ? Maintenant, je ne peux plus appuyer sur rien…”\n\nLancement de l’enterrement du site dans 3, 2…\n\n“Sortez d’là !!!”\n\nAprès une courte période, l’usine explosa violemment.\nVous avez réussi à l’arrêter de fonctionner mais les Pécheurs se sont retrouvés mêlés à l’explosion.\n\nOn dirait que vous devriez d’abord sortir d’ici, vous ne croyez pas ?"
+          ]
+        },
+        {
+          "message": "Non.",
+          "messageDesc": "Appuyez sur le bouton pour arrêter.",
+          "result": [
+            "",
+            "Entrée anormale.\n\n“Hein ? Maintenant, je ne peux plus appuyer sur rien…”\n\nLancement de l’enterrement du site dans 3, 2…\n\n“Sortez d’là !!!”\n\nAprès une courte période, l’usine explosa violemment.\nVous avez réussi à l’arrêter de fonctionner mais les Pécheurs se sont retrouvés mêlés à l’explosion.\n\nOn dirait que vous devriez d’abord sortir d’ici, vous ne croyez pas ?",
+            "Trois entrées détectées.\nLancement du Protocole d’Urgence #3 : Arrêt du Complexe.\n\n“On dirait que ça s’est arrêté.”\n\nLes machines ont continué de bourdonner un moment avant de s’arrêter.\nÀ présent, les cyborgs ne devraient plus revenir à la vie.\n\nSortons de l’usine."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 801204,
+      "name": "강화인간 선택지2-아니다",
+      "subDesc": "사용 안하는 텍스트",
+      "desc": "Entrée incorrecte.\n\nVous\ndevez\ndevenir\nfort.\n\nVeuillez entrer à nouveau votre réponse.\n\nATTENTION : appuyer sur le bouton trois fois causera l’usine à s’arrêter.\n\n<AIMEZ-VOUS LA CITÉ OÙ VOUS VIVEZ ?>\n\nSur quoi devriez-vous appuyer ?",
+      "options": [
+        {
+          "message": "Oui.",
+          "messageDesc": "Appuyez sur le bouton pour continuer.",
+          "result": [
+            "",
+            "Entrée anormale.\n\n“Hein ? Maintenant, je ne peux plus appuyer sur rien…”\n\nLancement de l’enterrement du site dans 3, 2…\n\n“Sortez d’là !!!”\n\nAprès une courte période, l’usine explosa violemment.\nVous avez réussi à l’arrêter de fonctionner mais les Pécheurs se sont retrouvés mêlés à l’explosion.\n\nOn dirait que vous devriez d’abord sortir d’ici, vous ne croyez pas ?"
+          ]
+        },
+        {
+          "message": "Non.",
+          "messageDesc": "Appuyez sur le bouton pour arrêter.",
+          "result": [
+            "",
+            "Entrée anormale.\n\n“Hein ? Maintenant, je ne peux plus appuyer sur rien…”\n\nLancement de l’enterrement du site dans 3, 2…\n\n“Sortez d’là !!!”\n\nAprès une courte période, l’usine explosa violemment.\nVous avez réussi à l’arrêter de fonctionner mais les Pécheurs se sont retrouvés mêlés à l’explosion.\n\nOn dirait que vous devriez d’abord sortir d’ici, vous ne croyez pas ?",
+            "Trois entrées détectées.\nLancement du Protocole d’Urgence #3 : Arrêt du Complexe.\n\n“On dirait que ça s’est arrêté.”\n\nLes machines ont continué de bourdonner un moment avant de s’arrêter.\nÀ présent, les cyborgs ne devraient plus revenir à la vie.\n\nSortons de l’usine."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 801501,
+      "name": "분홍신 선택지1",
+      "subDesc": "사용 안하는 텍스트",
+      "desc": "Une voix voyage entre les rubans papillonnants.\n\n“Quel est ce que vous désirez ?”\n\n“Enfilez-moi.”\n\n“Je vous mènerai partout où vous souhaitez aller.”\n\nLes suggestions sont incroyablement suspicieuses, mais étrangement, les Pécheurs ont du mal à se décider sur quoi faire.\n\nQue dites-vous ?",
+      "options": [
+        {
+          "message": "Enfiler les chaussures.",
+          "result": [
+            "“Ouais… C’est pas mal.”\n\n“C’est si doux.”\n\nLes Pécheurs expriment leur fascination.\nCes rubans s’étaient changés en des paires brillantes de chaussures roses.\n\nÀ présent, tout le monde pourra aller où il le souhaite.\n\nProbablement."
+          ]
+        },
+        {
+          "message": "Refuser.",
+          "result": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": 201001,
+      "name": "Vending Machine and Oceanic Waves",
+      "subDesc": "사용 안하는 텍스트",
+      "desc": "Vous voyez un parking vide où les Pécheurs peuvent se reposer.\n\nLà-bas, vous trouvez un distributeur automatique avec beaucoup de boutons dessus.\nVous voyez également des boissons, mais vous n’arrivez pas à reconnaître ce qu’elles représentent.\nQu’allez-vous faire ?",
+      "options": [
+        {
+          "message": "Pas besoin de prendre de risques. Simplement se reposer ici avec les Pécheurs.",
+          "result": [
+            "Du temps s’écoula.\nGrâce au repos, le groupe semble avoir retrouvé un peu d’énergie."
+          ]
+        },
+        {
+          "message": "Prendre quelques boissons qu’ils pourraient aimer, comme friandise.",
+          "result": [
+            "D’une simple pression,\nla machine éjecta une canette après l’autre.\n\nToutes les canettes sont violettes.\n\nVous n’arrivez pas à comprendre le sens des bateaux et des raisins dessinés dessus,\nmais ils vous semblent familiers et… joyeux.\n\nLes boire devrait être ok.\n\nVous donnez les canettes aux Pécheurs."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 201002,
+      "name": "Mirror Room",
+      "subDesc": "사용 안하는 텍스트"
+    },
+    {
+      "id": 201003,
+      "name": "강화앰플교환삽입소",
+      "subDesc": "사용 안하는 텍스트"
+    },
+    {
+      "id": 910301,
+      "name": "The Chicken Strife",
+      "desc": "Des gens bloquent le chemin.\nIls sont assis sur une terrasse, en train de se crier dessus.\n“Regarde cette pièce succulente ! Le jus riche en goût qui dégouline des fibres de cette somptueuse viande… Voilà ce que c’est le poulet !”\n“Faux. Cette pièce a un goût propre, sans le moindre gramme de graisser pour te teinter la langue. Voilà ce que ça doit être.”\nLes deux se retournent en même temps pour vous faire face.\n“Toi là-bas ! Dis-nous quel est le meilleur !”",
+      "options": [
+        {
+          "message": "Bah, le poulet c’est du poulet.",
+          "messageDesc": "Gagnez un Don E.G.O.",
+          "result": [
+            "“C’est… vrai.”\n“Un point irréfutable.”\nIls baissèrent tous les deux la tête et se calmèrent.\n“Quelle étrange raison pour nous de se battre.”\n“Ils ont raison… La seule vérité est que le poulet a toujours raison.”\nAprès une poignée de mains passionnée, les deux vous donnèrent leur seau de poulet.\n“Un sage gourmet tel que vous mérite les deux morceaux. S’il vous plaît, prenez ça, nous insistons.”"
+          ]
+        },
+        {
+          "message": "Ce doit être les cuisses, si riches et juteuses.",
+          "messageDesc": "Gagnez un Don E.G.O.",
+          "result": [
+            "“Tu vois ! Les cuisses sont meilleures !”\n“Vous ne savez pas ce qu’est le bon goût.”\nLa personne tenant un blanc de poulet soupira d’exaspération.\n“Hé ! V’là ta récompense. Tu mérites ta propre cuisse.”\nSatisfait, celui avec une cuisse vous en tendit une autre récupérée dans le seau.\n“Je compte sur toi pour continuer ainsi !”\nIncertain de ce qui vous a été confié, vous quittez la table avec la cuisse."
+          ]
+        },
+        {
+          "message": "Le blanc, bien sûr, immaculé et impeccable.",
+          "messageDesc": "Gagnez un Don E.G.O.",
+          "result": [
+            "“C’est impossible ! Tu abandonnerais ce banquet de jutosité… ?”\n“C’est du gras, pas seulement du jus. Le blanc est sain, léger, servit de manière considérable et facile à manger. Il est évident que c’est le choix le plus raisonnable.”\nRemarqua avec plaisir la personne tenant un morceau de blanc de poulet.\n“Tenez, voici pour vous. Prenez ce blanc.”\nUn gros morceau fut sorti du seau.\n“Bonne chance avec vos gains. J’espère que vous resterez en bonne santé.”\nIncertain de ce que sont ces gains, vous quittez la table avec le blanc de poulet."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 910302,
+      "name": "Tango of Poultry Passion",
+      "desc": "Un spot lumineux éclaire une partie d’une zone bruyante.\nIl semblerait que les poulets sont en train d’assister à… un bal.\n“C’est un tango.”\nEn observant leurs mouvements pouvant paraître pour une dance ou pour une lutte, vous remarquez que de la sauce s’échappe de l’un d’entre eux.\nIl ne semble pas s’en rendre compte…",
+      "options": [
+        {
+          "message": "L’alerter sincèrement.",
+          "messageDesc": "Gagnez un Don E.G.O.",
+          "result": [
+            "“Éscoutez-moy !!!!! De la sauce s’éscoule de vostre corps !!!!!!”\n“Ne crie pas si fort, espèce d’idiote…”\nPrévenu de sa fuite, le poulet couvrit rapidement son derrière avec ses ailes, du moins c’est ce que l’on pense.\nMalheureusement, le nœud de sa couture s’est relâché.\n“Kieegh, kiiierg…”\nEst-ce que cela veut dire qu’il ne peut pas s’en occuper seul ? En s’approchant avec une traînée de sauce derrière lui, il tient dans ses mains du fil et une aiguille. Enfin, dans ses ailes.\nVeut-il que vous le recousiez ?"
+          ]
+        },
+        {
+          "message": "Vous n’avez rien vu.",
+          "messageDesc": "Gagnez un Don E.G.O.",
+          "result": [
+            "“Ne devrions-nous pas l’informer ?”\n“Ouais, mais ~ Ils ont pas l’air heureux comme ça ? Les regarder un peu plus longtemps ne ferait pas de mal, non ?”\n“Qu’adviendra-t-il de lui une fois à court de sauce ?”\n“Peut-être qu’il deviendra juste un poulet fade.”\nAvec le temps, la fuite finit par cesser.\n“Kiehg !”\nPeut-être a-t-il remarqué qu’il était devenu plus léger ? Il se lança soudainement dans un mouvement très technique.\n“Incroyable.”\nLes poulets autour arrêtèrent de danser pour regarder sa performance, complètement transcendés. Rapidement, ils s’approchèrent du danseur en émettant des cris semblant être des acclamations.\nIls partirent hors de la lumière, lançant à répétition dans le ciel le poulet spécial, comme pour une célébration.\nTout ce qu’il restait… était la sauce déversée."
+          ]
+        },
+        {
+          "message": "L’avertir subtilement.",
+          "messageDesc": "50% de chance de gagner un Don E.G.O.",
+          "result": [
+            "“Mm-mmm ~ Je sens quelque chose de délicieux ! Je me demaaaande d’où provient cette odeeeeur ?! ~”\n“… Je suppose qu’il serait idiot de ma part d’attendre un meilleur jeu d’acteur.”\nLa voix du Pécheur causa les poulets à arrêter subitement leurs danses passionnées.\nEn examinant l’arrière de chacun, ils finirent par trouver la source de la fuite.\n“Kieh, kierg.”\n“Giiegh.”\nSans paniquer, ils amenèrent du fil et une aiguille pour lui recoudre le dos… Enfin, ce qui semble être son dos.\nLeur expertise était impeccable.\nUne fois la couture finie, ils s’échouèrent dans l’obscurité.\nTout ce qui restait étaient le fil et l’aiguille utilisés."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10401,
+      "name": "Looking for a Drone",
+      "desc": "Un drone brisé de la K Corp. est effondré au sol.\nJe ne peux ranimer les Pécheurs que lorsque je peux voir l’étoile, alors en attendant…\nNous devrions être capables de trouver une ampoule à utiliser en fouillant à l’intérieur.",
+      "options": [
+        {
+          "message": "Fouiller dans le drone.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Partir.",
+          "messageDesc": "Rien ne s’est passé.",
+          "result": [
+            "\"Qu’est-ce que vous regardez ? Il n’y a clairement rien à attraper.\"\n… Un coup d’œil nous permettrait de trouver quelque chose d’utile, mais les morceaux tranchants et les débris risqueraient de causer des blessures que nous pouvons éviter.\nNous quittons la pièce silencieusement."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040102,
+      "name": "Looking for a Drone",
+      "desc": "Réessayer de fouiller le drone ?",
+      "options": [
+        {
+          "message": "Fouiller dans le drone.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Partir à nouveau.",
+          "messageDesc": "Rien ne s’est passé.",
+          "result": [
+            "Il n’y a aucune utilité à risquer une nouvelle blessure.\nNous quittons la pièce en se plaignant de cette malchance."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10402,
+      "name": "An Ampule to Use",
+      "desc": "C’est rempli d’ampoules de la K Corp.\n\"Ooh ~ Tans mieux pour nous ! Hé, Dante, on ne pourrait pas en prendre une ?\"\n\"Négatif. L’injecteur d’ampoule n’est que dans cette salle, alors il ne sera pas possible de les utiliser en dehors de cet endroit.\"\n… Qu’allons-nous faire ?",
+      "options": [
+        {
+          "message": "Utiliser l’ampoule.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Ne pas utiliser l’ampoule.",
+          "messageDesc": "Rien ne s’est passé.",
+          "result": [
+            "Je ne suis pas sûr que ce soit une bonne idée d’essayer ces choses que je ne connais pas vraiment sur les Pécheurs.\nNous avons décidé de simplement quitter la pièce."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040201,
+      "name": "An Ampule to Use",
+      "desc": "\"Des avertyssements sont éscrits sur les ampoules, vraiment !\"\nEn parcourant les bouteilles en verre, je vois des petites notes attachées dessus.\nCependant, le texte est trop dense pour être correctement lu.\n\"Parties manquantes… insuffisant… stop ? J’ai aucune idée de ce que ça raconte.\"\n\"Manager Esquire ! Il semblerait que ceste appareile possède deux mosdes : unyque et groupe !\"\nOn dirait certainement que c’est à moi de choisir.\nQu’allons-nous faire ?",
+      "options": [
+        {
+          "message": "Utiliser l’ampoule sur tout le monde.",
+          "messageDesc": "Tous les alliés ayant perdu des PV sont complètement soignés.\nLes alliés avec tous leurs PV perdent des PV et des PSM.",
+          "result": [
+            "Cela ne devrait pas faire de mal de laisser tous les Pécheurs en bénéficier.\nJ’ai appuyé sur le bouton “groupe”.\n\"Ngh !\"\n\"C’est bizarre… Je me sens malade d’un seul coup.\"\nUn certain nombre de Pécheurs grogna de douleur.\nEn réfléchissant à ce qu’ils avaient en commun… J’ai réalisé qu’ils étaient tous indemnes.\n\"Cela ne doit pas être quelque chose à administrer à un individu en bonne santé.\"\n… Mieux vaut faire attention la prochaine fois."
+          ]
+        },
+        {
+          "message": "Utiliser l’ampoule sur le Pécheur dans le pire état.",
+          "messageDesc": "L’allié avec le moins de PV regagne tous ses PV.",
+          "result": [
+            "{affectedTarget} semble être le Pécheur dans l’état le plus pitoyable, alors nous l’avons placé devant l’injecteur et appuyé sur le bouton “unique”.\n… Le Pécheur semble aller beaucoup mieux !"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10403,
+      "name": "Poking at the Egg",
+      "desc": "\"Est-ce que ce sont… des œufs ?\"\n\"Faites attention. C’est peut-être une Anomalie.\"\nEn y repensant, on m’a dit que le labo sous-terrain qu’a établi la K Corp. s’occupait aussi des œufs de la branche de la L Corp.\n\"Whoa, hé… Est-ce que cette chance tremble ?\"\nComme l’avait observé le Pécheur, l’œuf commença à bouger.\nQu’allons-nous faire ?",
+      "options": [
+        {
+          "message": "Toucher les œufs.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Ne pas toucher les œufs.",
+          "messageDesc": "Rien ne s’est passé.",
+          "result": [
+            "\"Que pouvons-nous faire d’autres ? On doit fuir !\"\nCela ne pourrait pas être plus vrai. Nous avons rapidement fui la pièce."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10404,
+      "name": "PickingRowAndColumn",
+      "desc": "La zone est déformée et un cabinet y est apparu.\nVous voyez des objets dans ses tiroirs.",
+      "options": [
+        {
+          "message": "Regarder de plus près."
+        }
+      ]
+    },
+    {
+      "id": 10405,
+      "name": "Make a Wish",
+      "desc": "\"Est-ce que ce sont… des étoiles là-haut ?\"\nEn regardant vers le ciel, nous voyons un paysage ressemblant à une nuit étoilée au travers d’une fissure.\n\"Admyrez, une estoyle filante !!\"\nJ’ai entendu dire que faire un souhait pendant la chute d’une étoile filante le réaliser.\nPeut-être allons-nous essayer ?",
+      "options": [
+        {
+          "message": "Faire un souhait.",
+          "messageDesc": "50% de chance de gagner un Don E.G.O.",
+          "result": [
+            "\"Romantique.\"\nTout le monde fit silencieusement un vœu en fermant les yeux.\nCela aurait-il évoqué une réponse ?\nLorsque les yeux se sont rouverts, un fragment scintillant été au sol.\n\"Hmm, je me demande qui a souhaité cela ?\"\nCommentaient les Pécheurs, mais ce n’était peut-être pas lié aux souhaits.\nNous avons pris les fragments et sommes partis.",
+            "\"Romantique.\"\nTout le monde fit silencieusement un vœu en fermant les yeux.\n… Cependant, rien ne se passa.\n\"C’était qui ! L’un d’entre vous a forcément ouvert les yeux au milieu de tout ça !\"\nNous avons quitté la pièce tout en cajolant un Pécheur furieux."
+          ]
+        },
+        {
+          "message": "Partir.",
+          "messageDesc": "Rien ne s’est passé.",
+          "result": [
+            "Si ce conte fantaisiste était réel, j’aurais déjà trouvé ma vraie tête depuis un moment.\nNous avons quitté la pièce en pensant que ce choix valait mieux que de perdre notre temps."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10406,
+      "name": "ApproachingTheFlower",
+      "desc": "<i>UnArbreEnFleursetientaumilieudelaPlaine.\nAucunautreArbreEnFleursetientauxalentours.(近處).\nL’ArbreEnFleursetient\nAvecdesFleursfleuriesdeSincérité.(熱心)\nToutcommecommentilvoitlesArbresEnFleursdanssesPenséesavecSincérité.</i>\n\nQu’allez-vous faire ?",
+      "options": [
+        {
+          "message": "S’approcher de la fleur.",
+          "result": [
+            "<i>L’ArbreEnFleurnepeutpasatteindrel’ArbreEnFleurdanssesPensées.</i>\n\nUne puissante onde de choc repoussa tout le monde, rejetant notre approche."
+          ]
+        },
+        {
+          "message": "Partir.",
+          "result": [
+            "<i>L’ArbreEnFleurnepeutpasatteindrel’ArbreEnFleurdanssesPensées.\nJ’aicourusauvagement.\nJepensaisquejelefaisais pour(爲)ununiqueArbreEnFleur, j’aifaituneImitationsiParticulière.</i>\n\nAu moment où vous étiez sur le point de partir, l’arbre disparut.\nVous ramassez la branche qui fut laissée à sa place."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10407,
+      "name": "Run",
+      "desc": "L’espace se tord.\nAu même moment, un cri familier pouvait être entendu derrière nous.\nIl avait une certaine ressemblance avec le cri d’une Anomalie qui avait été réduit à un œuf plus tôt.\n\"Courrez !!!\"\nTreize Pécheurs se mirent à courir au hasard le long du chemin.\n\"Là-dedans !\"\n\"O-On dirait un cul-de-sac…\"\nLes Pécheurs semblent effrayés… Allons-nous quand même dedans ?",
+      "options": [
+        {
+          "message": "Courir.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Ne pas courir.",
+          "messageDesc": "Lance un Affrontement. Gagnez pour obtenir un Don E.G.O.",
+          "result": [
+            "Courir dans un cul-de-sac finira forcément d’une manière précise.\n\"Kgh !\"\nL’Anomalie chargea dans les Pécheurs.\n\"Saleté de taureau…\"\nNous n’avons pas le choix. Elle doit à nouveau être réprimée."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040701,
+      "name": "Run.",
+      "desc": "Nous continuons de courir le long de la ruelle fermée.\n\"N-Nous allons nous faire avoir par cette chose si ça continue !\"\n\"Ce taureau ne va faire qu’accélérer au fil de cette poursuite…\"\nL’inquiétude est palpable.\nQue devrions-nous faire ?",
+      "options": [
+        {
+          "message": "Courir.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Ne pas courir.",
+          "messageDesc": "Lance un Affrontement. Gagnez pour obtenir un Don E.G.O.",
+          "result": [
+            "Il n’y a pas d’autres choix.\nNous devrions arrêter de courir pour conserver un minimum d’énergie face au combat inévitable qui nous attend…\n\"Kgh !\"\nL’Anomalie chargea dans les Pécheurs.\n\"Saleté de taureau…\"\nNous n’avons pas le choix. Elle doit à nouveau être réprimée."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040702,
+      "name": "Run.",
+      "desc": "Nous continuons malgré tout de courir.\n\"Cela serait préférable s’il n’y avait pas d’autres circonstances desquelles s’inquiéter.\"\nMurmura un certain Pécheur.\n\"Huh ?!\"\nC’est alors que le mur devant nous se changea en un grand espace.\nQu’allons-nous faire à présent ?",
+      "options": [
+        {
+          "message": "Courir.",
+          "messageDesc": "Lance un Affrontement. Gagnez pour obtenir un Don E.G.O.",
+          "result": [
+            "Nous avons continué de courir à travers le passage.\nMême si nous n’avions aucune idée de là où il menait…\n\"Quoi ?\"\nDepuis combien de temps courions-nous ?\nNous nous sommes retrouvés dans une arène digne d’un combat avec l’Anomalie.\n\"Saleté de taureau…\"\nNous n’avons pas le choix. Elle doit à nouveau être réprimée."
+          ]
+        },
+        {
+          "message": "Ne pas courir.",
+          "messageDesc": "Gagnez un Don E.G.O.",
+          "result": [
+            "C’est ici que notre course s’arrête.\nCette chose effrayante nous chargera dessus et le savoir rend la chose encore plus effrayante.\nMais malgré tout, j’avais l’étrange sensation que tout irait bien.\n\"Ah...\"\nL’Anomalie passa au travers de nous et disparue dans l’inconnu.\nNous avons trouvé un fluide bleu dans son sentier."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10408,
+      "name": "Try Talking",
+      "desc": "Des silhouettes mystérieuses se miroitent dans la fenêtre.\nDevrions-nous faire quelque chose ?",
+      "options": [
+        {
+          "message": "Essayer de parler.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Rester silencieux.",
+          "result": [
+            "Je souhaite que le silence soit grondé.\nCelaferaitaumoinsunpeudebruitsivousdéchiriezuncorpscéleste.\nLa fenêtre éclata soudainement et ses fragments tombèrent sur les Pécheurs.\nTous les Pécheurs ont été blessés.\n\"… Cela fait physiquement mal.\"\nNous avons quitté la pièce, des fragments encore coincés dans nos corps."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 805001,
+      "name": "Stand in his way.",
+      "desc": "Dongrang ne ressent plus de pitié pour les sujets de test.\n\nMême si sa technologie n’est pas reconnue…\nMême quand il pense au veau jaune de sa ville natale…\nIl n’est plus triste.\n\n\"Le passé est inutile. Je le brûlerai entièrement.\"\n\n\"Et Yi Sang, je te veux parti toi aussi.\"\n\nDongrang commence à foncer sur Yi Sang.",
+      "options": [
+        {
+          "message": "Se dresser sur son chemin.",
+          "result": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": 805003,
+      "name": "Stand in his way.",
+      "desc": "\"J’ai… décidé d’effacer tout le passé.\"\n\n\"En d’autres mots, je n’aurai rien à faire avec vous une fois Yi Sang parti.\"\n\nDongrang fronça des sourcils, visiblement très mécontent.\n\n\"Et pourtant… Pourquoi continuez-vous de m’interrompre ?\"\n\nDongrang semble préparer une puissante attaque. Peut-être que cette faille peut être exploitée.",
+      "options": [
+        {
+          "message": "Se dresser sur son chemin.",
+          "result": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": 805005,
+      "name": "Stand in his way.",
+      "desc": "\"Je ne devrais vraiment pas gâcher mon temps ainsi.\"\n\nDongrang s’arrêta sur place suite à cette soudaine réalisation.\nEt il regarde le plafond, comme s’il regardait des étoiles dans le ciel.\n\n\"À ce moment précis… Je suis perdant pour chaque seconde qu’elle passe sans pleurer.\"\n\n\"Les opportunités et moments pour changer le monde… s’éparpillent.\"\n\nDongrang jeta ensuite un regard noir avec des yeux rouges.\n\n\"Yi Sang… C’est toi, tu es le seul qui ait besoin de s’en aller pour que tout soit fini !\"",
+      "options": [
+        {
+          "message": "Se dresser sur son chemin.",
+          "result": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040402,
+      "name": "Picking a Row and Column",
+      "desc": "Plusieurs objets sont apparus dans le compartiment secret.\nIls pourraient être utiles lors des affrontements à venir.\nQue devrions-nous prendre ?",
+      "options": [
+        {
+          "message": "Choisir le tiroir de la deuxième rangée et cinquième colonne.",
+          "messageDesc": "Gagnez un Don E.G.O.",
+          "result": [
+            "Vous prenez l’objet hors du tiroir de la deuxième rangée et cinquième colonne.\nIl s’agit d’une étrange masse verte mystérieuse.\nQuand vous la regardez, vous avez l’impression qu’elle ressemble à un masque.\nRapidement, la zone commença à se flouter et le cabinet disparu."
+          ]
+        },
+        {
+          "message": "Choisir le tiroir de la cinquième rangée et huitième colonne.",
+          "messageDesc": "Gagnez un Don E.G.O.",
+          "result": [
+            "Vous prenez l’objet hors du tiroir de la cinquième rangée et huitième colonne.\nIl s’agit d’une étrange masse bleue mystérieuse.\nQuand vous la regardez, vous avez l’impression qu’elle ressemble à un couteau.\nRapidement, la zone commença à se flouter et le cabinet disparu."
+          ]
+        },
+        {
+          "message": "Choisir le tiroir de la sixième rangée et première colonne.",
+          "messageDesc": "Gagnez un Don E.G.O.",
+          "result": [
+            "Vous prenez l’objet hors du tiroir de la sixième rangée et première colonne.\nIl s’agit d’une étrange masse jaune mystérieuse.\nQuand vous la regardez, vous avez l’impression qu’elle ressemble à une fleur.\nRapidement, la zone commença à se flouter et le cabinet disparu."
+          ]
+        }
+      ]
+    }
+  ]
+}

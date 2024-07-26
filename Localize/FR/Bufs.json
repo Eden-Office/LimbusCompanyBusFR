@@ -93,7 +93,7 @@
     {
       "id": "Charge",
       "name": "Charge",
-      "desc": "Ressource utilisée par certaines capacités pour des effets additionnels. Son Compte peut monter jusqu’à 20.\nFin du Tour : diminue le Compte de 1.",
+      "desc": "Ressource utilisée par certaines capacités pour des effets additionnels. Son Compte peut monter jusqu’à 20. Le Compte diminue de 1 à la fin de chaque tour.\n\n<color=#1aece7>Compte Total consommé : {2}</color>",
       "summary": "Ressource de Capacité Spécifique",
       "undefined": "-"
     },
@@ -691,7 +691,7 @@
     {
       "id": "Desire",
       "name": "Besoin",
-      "desc": "Fin du Tour : à 5+ de Compte, subit 30 dégâts de PSM, gagne 2 de Vulnérabilité et 10 de Ralentissement, et retire cet effet.",
+      "desc": "Fin du Tour : à 5+ de Stack, subit 30 dégâts de PSM, gagne 2 de Vulnérabilité et 10 de Ralentissement, et retire cet effet.",
       "summary": "Subit 30 dégâts de PSM & gagne 2 de Vulnérabilité et 10 de Ralentissement"
     },
     {
@@ -1104,7 +1104,7 @@
     },
     {
       "id": "TimeRental",
-      "name": "Temps Emprunté",
+      "name": "Temps Emprunté des Songes",
       "desc": "Fin du Tour : gagne 3 de Vitesse et 2 de Bonus de Dégâts ; S’il ne reste que 1 de Compte, gagne 4 de Ralentissement et 1 de Malus d’Attaque au tour suivant",
       "summary": "Fin du Tour : gagne 3 de Vitesse et 2 de Bonus de Dégâts ; S’il ne reste que 1 de Compte, gagne 4 de Ralentissement et 1 de Malus d’Attaque au tour suivant"
     },
@@ -1946,6 +1946,54 @@
       "id": "VibrationContinue",
       "name": "Tremor - Everlasting",
       "desc": "- Lorsque touché par des effets de Capacité ou de Pièce provoquant un Sursaut de Tremblement, (Puissance de Tremblement sur soi)% de chances de déclencher un Sursaut de Tremblement supplémentaire. (50% max)\n- Lorsque touché par des effets de Capacité ou de Pièce provoquant un Sursaut de Tremblement, (Compte de Tremblement sur soi)% de chances de déclencher un Sursaut de Tremblement supplémentaire. (50% max)\n- Lorsque touché par des Capacités provoquant un Sursaut de Tremblement, augmente le Seuil de Déséquilibre de la Puissance de l’effet.\n- Fin du Tour : réduit de 1 le Compte\n(Interagit de la même manière que du Tremblement normal aux effets qui augmentent ou réduisent la Puissance/Compte de Tremblement)",
+      "summary": ""
+    },
+    {
+      "id": "TimeSuspend",
+      "name": "Moratoire Temporel",
+      "desc": "- Ne subit aucun dégât tant que cet effet est actif ; stocke tous les dégâts reçus à la place\n- Combat End: Fin du Combat : s’il ne reste que 1 de Compte à cet effet, l’effet déclenche {0} Sursaut(s) de Tremblement après avoir infligé {3} dégâts de Paresse.\n- Fin du Tour : gagne 1 de Stack et perd 1 de Compte\n- Le Moratoire Temporel expirera immédiatement après avoir déclenché le Sursaut de Tremblement et l’effet de dégât de Paresse si une autre instance de Moratoire Temporel est infligé à une unité avec Moratoire Temporel.\n- Dégâts stockés : {2}",
+      "summary": ""
+    },
+    {
+      "id": "TimeRentalTwoPersonality",
+      "name": "Temps Emprunté",
+      "desc": "Fin du Tour à 2+ de Compte :\n- Gagne {1} de Vitesse, de Bonus de Puissance de Duel et de Vulnérabilité au prochain tour\n- Si cette unité reçoit plus de Ralentissement que de Vitesse au prochain tour, l’effet Temps Emprunté expire au prochain Début de Tour et cette unité devient Déséquilibrée\n\nFin du Tour : à 1 de Compte, gagne {0} de Ralentissement au prochain tour\nFin du Tour : gagne 1 de Stack et perd 1 de Compte",
+      "summary": ""
+    },
+    {
+      "id": "VibrationChainPersonality",
+      "name": "Tremblement - Chaîne",
+      "desc": "- Perd 1 de Puissance de Duel pour chaque 10 de Puissance de Tremblement sur soi (3 max)\n- Lorsque Touché par des Capacités déclenchant un Sursaut de Tremblement, augmente le Seuil de Déséquilibre de la Puissance de l’effet\n- Fin du Tour : réduit de 1 le Compte\n- (Interagit de la même manière que du Tremblement normal aux effets qui augmentent ou réduisent la Puissance/Compte de Tremblement)",
+      "summary": ""
+    },
+    {
+      "id": "GazePersonality",
+      "name": "Regard de Mépris",
+      "desc": "- Valeur Max : 7\n- Inflige +7% de dégâts supplémentaire pour chaque Regard de Mépris\n- Fin du Tour : cet effet expire\n- Fin du Tour : à 7 de valeur de Regard de Mépris, le converti en Mépris du Regard au prochain tour au lieu d’expirer",
+      "summary": ""
+    },
+    {
+      "id": "ContemptPersonality",
+      "name": "Mépris du Regard",
+      "desc": "- Gagne 7 de Protection\n- Gagne 7 de Malus de Dégât\n- L’un des Emplacements de Capacité de cette unité gagne +20 d’Aggro\n- Ne peut pas gagner de Regard de Mépris tant que Mépris du Regard est actif\n- Fin du Tour : cet effet expire",
+      "summary": ""
+    },
+    {
+      "id": "KnowledgeTraining",
+      "name": "Érudition",
+      "desc": "- Valeur Max : 6\n- En Défaussant une Capacité, gagne (Érudition * 1.5)% des PV max de cette unité en Bouclier (une fois par tour)\n- Si cette unité Défausse une Capacité à 2+ d’Information, gagne 1 de Puissance de Duel (une fois par tour)\n- Réduit de 1 en subissant des dégâts de PV après avoir été touché par une Capacité d’Attaque ennemie\n- Expire lorsque Déséquilibré",
+      "summary": ""
+    },
+    {
+      "id": "BoseProjektil",
+      "name": "Souvenir Déchiré",
+      "desc": "- Valeur Max : 7\n- Utilisé pour certaines Capacités",
+      "summary": ""
+    },
+    {
+      "id": "ChargeLoad",
+      "name": "Charge Électrique",
+      "desc": "- Valeur Max : 6\n- Capacités d’Attaque ayant consommé du Compte de Charge : inflige +({0} x 2.5)% de dégâts supplémentaires (15% max)\n- Si l’unité affectée est un employé de la W Corp., inflige +({0} x 5)% de dégâts supplémentaires à la place. (30% max)\n- Fin du Tour : cet effet expire",
       "summary": ""
     }
   ]

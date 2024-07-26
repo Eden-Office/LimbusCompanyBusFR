@@ -1480,7 +1480,7 @@
     {
       "id": 1040901,
       "name": "N.O.",
-      "desc": "- Lorsqu’un allié Déséquilibre un ennemi avec une attaque : attaque l’ennemi Déséquilibré avec une Capacité 1. (une fois par Tour)\n- Si plusieurs ennemis sont Déséquilibrés en même temps, cible l’ennemi avec le moins de PV (pour les Anomalies, cible l’Anomalie avec le moins de PV ; puis, cible la Partie avec le moins de PV).\n- En utilisant une Capacité 1 avec cet effet, cette unité gagne +1 de Compte de [Vibration] supplémentaire de ses effets de Pièce et déclenche un [VibrationExplosion] En Touche avec la dernière Pièce"
+      "desc": "- Lorsqu’un autre allié Déséquilibre un ennemi avec une attaque : attaque l’ennemi Déséquilibré avec une Capacité 1. (une fois par Tour)\n- Si plusieurs ennemis sont Déséquilibrés en même temps, cible l’ennemi avec le moins de PV (pour les Anomalies, cible l’Anomalie avec le moins de PV ; puis, cible la Partie avec le moins de PV).\n- En utilisant une Capacité 1 avec cet effet, cette unité gagne +1 de Compte de [Vibration] supplémentaire de ses effets de Pièce et déclenche un [VibrationExplosion] En Touche avec la dernière Pièce"
     },
     {
       "id": 1040921,
@@ -1496,6 +1496,46 @@
       "id": 1060921,
       "name": "Dans les Chaussures du Coupable",
       "desc": "Lorsque l’Identité Déployée #1 déclenche un Sursaut de Tremblement avec des effets de Capacité ou de Pièce, 25% de chances de déclencher un Sursaut de Tremblement supplémentaire (une fois par tour)"
+    },
+    {
+      "id": 1030901,
+      "name": "Temps en Or - Extraire",
+      "desc": "Fin du Tour : si les PV de cette unité sont entre 10% ~ 20%, regagne instantanément 80% de ses PV max et se remet de Déséquilibre. (une fois par Affrontement)\n\nLorsque cette unité perd [TimeRentalTwoPersonality], gagne +8 d’[Aggro] sur l’un de ses Emplacements de Capacité au prochain tour"
+    },
+    {
+      "id": 1030921,
+      "name": "Champ de Distorsion Physique T Corp.",
+      "desc": "Lorsque 1 allié avec la plus basse Vitesse subit des dégâts d’ennemis avec [Vibration], subit -10% de dégâts"
+    },
+    {
+      "id": 1090901,
+      "name": "Temps en Or - Face à Face",
+      "desc": "Fin du Tour : si les PV de cette unité sont entre 16% ~ 20%, regagne instantanément 60% de ses PV max et se remet de Déséquilibre. (une fois par Affrontement)\n\nEn affrontant en Duel des cibles avec [TimeSuspend], +2 de Puissance de Duel\nSubit -10% de dégâts des cibles avec [TimeSuspend]"
+    },
+    {
+      "id": 1090921,
+      "name": "Arts Martiaux T Corp.",
+      "desc": "À 1 allié avec la plus haute Vitesse : +1 de Puissance de Duel en affrontant un Duel des cibles avec 5+ de [Vibration]"
+    },
+    {
+      "id": 1051001,
+      "name": "Salle d’Étude",
+      "desc": "Chaque fois qu’un autre allié Défausse une Capacité, applique 1 de [KnowledgeTraining] à l’allié et à soi (une fois par Capacité, 3 fois par tour)\nFin du Tour : au prochain tour, gagne du Bonus de DGT Perçant et du Bonus de DGT Contondant égaux au nombre de Capacités Défaussées d’autres alliés (3 max)"
+    },
+    {
+      "id": 1051021,
+      "name": "Éducation Assidue",
+      "desc": "Lorsque 1 allié avec les plus hauts PV Max Défausse une Capacité, gagne (5 * rang de la Capacité Défaussée)% des PV Max en Bouclier (une fois par tour)\nSi l’unité possède [KnowledgeExplored], multiplie la valeur du Bouclier ci-dessus par 1.5"
+    },
+    {
+      "id": 1111001,
+      "name": "Surcharge / Ordre de Nettoyage",
+      "desc": "Gagne 1 de [Charge] chaque fois que cette unité consomme 10 de Compte de [Charge] cumulé dans cet Affrontement\nFin du Tour : applique 1 de [ParryingResultUp] au prochain tour à ([Charge]) employés de la W Corp., incluant cette unité, par ordre inverse de Déploiement (max : 5 alliés)"
+    },
+    {
+      "id": 1111021,
+      "name": "Réfraction",
+      "desc": "1 allié avec le plus de Compte de [Charge] au Début du Tour : inflige +10% de dégâts supplémentaires avec les Capacités qui ont consommé 7+ de Compte de [Charge] (une fois par tour)"
     }
   ]
 }

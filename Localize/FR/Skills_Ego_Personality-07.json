@@ -256,6 +256,136 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2070711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fell Bullet",
+          "abName": "Der Fluchschütze",
+          "desc": "[BeforeAttack] Gagne (plus haute Réson. + 1) de [BoseProjektil] (7 max)\n- Si c’était une Réson.-A, gagne (plus haute Réson. +2) de [BoseProjektil] à la place\n[BeforeAttack] Gagne 1 de [Breath] pour chaque [BoseProjektil] (3 max)\n[EndSkill] Perd tout [BoseProjektil]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "+5% de Dégâts en Touche Critique pour chaque [BoseProjektil] (35% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 3 de [Sinking]"
+                },
+                {
+                  "desc": "[CriticalTargetKill] Si cette unité a l’effet [Bullet], gagne 1 [Bullet] (2 fois par Affrontement)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Fell Bullet",
+          "abName": "Der Fluchschütze",
+          "desc": "[BeforeAttack] Gagne (plus haute Réson. + 1) de [BoseProjektil] (7 max)\n- Si c’était une Réson.-A, gagne (plus haute Réson. +2) de [BoseProjektil] à la place\n[BeforeAttack] Gagne 1 de [Breath] pour chaque [BoseProjektil] (<style=\"highlight\">4</style> max)\n[EndSkill] Perd tout [BoseProjektil]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "+<style=\"highlight\">10</style>% de Dégâts en Touche Critique pour chaque [BoseProjektil] (<style=\"highlight\">70</style>% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 de [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 3 de [Sinking]"
+                },
+                {
+                  "desc": "[CriticalTargetKill] Si cette unité a l’effet [Bullet], gagne 1 [Bullet] (2 fois par Affrontement)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Fell Bullet",
+          "abName": "Der Fluchschütze",
+          "desc": "[BeforeAttack] Gagne (plus haute Réson. + 1) de [BoseProjektil] (7 max)\n- Si c’était une Réson.-A, gagne (plus haute Réson. +2) de [BoseProjektil] à la place\n[BeforeAttack] Gagne 1 de [Breath] pour chaque [BoseProjektil] (<style=\"highlight\">7</style> max)\n[BeforeAttack] Gagne +1 de Compte de [Breath]\n[EndSkill] Perd tout [BoseProjektil]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "+<style=\"highlight\">15</style>% de Dégâts en Touche Critique pour chaque [BoseProjektil] (<style=\"highlight\">105</style>% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 de [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 3 de [Sinking]"
+                },
+                {
+                  "desc": "[CriticalTargetKill] Si cette unité a l’effet [Bullet], gagne 1 [Bullet] (3 fois par Affrontement)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2070721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fell Bullet",
+          "abName": "Der Fluchschütze",
+          "desc": "[CantIdentify]\nCible Aléatoirement\n[BeforeAttack] Gagne (plus haute Réson. + 1) de [BoseProjektil] (7 max)\n- Si c’était une Réson.-A, gagne (plus haute Réson. + 2) de [BoseProjektil] à la place\n[BeforeAttack] Inflige +2% de dégâts supplémentaires pour chaque [BoseProjektil] (14% max)\n[BeforeAttack] Gagne 1 de [Breath] pour chaque [BoseProjektil] (3 max)\n[BeforeAttack] Inflige +3% de dégâts supplémentaires pour chaque 5 de [Breath] sur soi (15% max)\n[BeforeAttack] Consomme 5 de [Breath] sur soi\n[EndSkill] Perd tout [BoseProjektil]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Laceration] et 2 de [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Fell Bullet",
+          "abName": "Der Fluchschütze",
+          "desc": "[CantIdentify]\nCible Aléatoirement\n[BeforeAttack] Gagne (plus haute Réson. + 1) de [BoseProjektil] (7 max)\n- Si c’était une Réson.-A, gagne (plus haute Réson. + 2) de [BoseProjektil] à la place\n<style=\"highlight\">[BeforeAttack] À 3+ de [BoseProjektil], gagne 1 Poids d’Atq</style>\n[BeforeAttack] Inflige +2% de dégâts supplémentaires pour chaque [BoseProjektil] (14% max)\n[BeforeAttack] Gagne 1 de [Breath] pour chaque [BoseProjektil] (<style=\"highlight\">4</style> max)\n[BeforeAttack] Inflige +<style=\"highlight\">4</style>% de dégâts supplémentaires pour chaque 5 de [Breath] sur soi (<style=\"highlight\">20</style>% max)\n[BeforeAttack] Consomme 5 de [Breath] sur soi\n[EndSkill] Perd tout [BoseProjektil]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Laceration] et 3 de [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Fell Bullet",
+          "abName": "Der Fluchschütze",
+          "desc": "[CantIdentify]\nCible Aléatoirement\n[BeforeAttack] Gagne (plus haute Réson. + 1) de [BoseProjektil] (7 max)\n- Si c’était une Réson.-A, gagne (plus haute Réson. + 2) de [BoseProjektil] à la place\n[BeforeAttack] Gagne 1 Poids d’Atq pour <style=\"highlight\">chaque 3</style> de [BoseProjektil] <style=\"highlight\">(2 max)</style>\n[BeforeAttack] Inflige +<style=\"highlight\">3</style>% de égâts supplémentaires pour chaque [BoseProjektil] (<style=\"highlight\">21</style>% max)\n[BeforeAttack] Gagne 1 de [Breath] pour chaque [BoseProjektil] (<style=\"highlight\">7</style> max)\n[BeforeAttack] Inflige +<style=\"highlight\">5</style>% de dégâts supplémentaires pour chaque 5 de [Breath] sur soi (<style=\"highlight\">25</style>% max)\n[BeforeAttack] Consomme 5 de [Breath] sur soi\n[EndSkill] Perd tout [BoseProjektil]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Laceration] et 3 de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

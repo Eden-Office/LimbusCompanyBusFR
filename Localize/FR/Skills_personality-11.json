@@ -1011,6 +1011,247 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1111001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ondulation",
+          "desc": "[WhenUse] À 4+ de Compte de [Charge], +1 de Puissance de Duel\n[WhenUse] Gagne +2 de Compte de [Charge]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Charge]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Ondulation",
+          "desc": "[WhenUse] À 4+ de Compte de [Charge], +1 de Puissance de Base\n[WhenUse] À 6+ de Compte de [Charge], +1 de Puissance de Duel\n[WhenUse] Gagne +2 de Compte de [Charge]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Charge]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ondulation",
+          "desc": "[WhenUse] À 4+ de Compte de [Charge], +1 de Puissance de Base\n[WhenUse] +1 de Puissance de Duel pour chaque 5 de Compte de [Charge] sur soi (2 max)\n[WhenUse] Gagne +2 de Compte de [Charge]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Charge]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Bond Chargé",
+          "desc": "[WhenUse] Consomme 6 de Compte de [Charge] sur soi pour gagner +1 de Puissance de Base\n[WhenUse] Gagne +2 de Compte de [Charge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Charge]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Charge]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Binding] au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Bond Chargé",
+          "desc": "[WhenUse] Consomme 6 de Compte de [Charge] sur soi pour gagner +1 de Puissance de Base\n- Si cette unité a consommé du Compte de [Charge], applique ([Charge] + 1) [ChargeForceField] à soi et 2 autres alliés avec le moins de Compte de [Charge]. (7 [ChargeForceField] Max par allié. S’active une fois par tour max)\n[WhenUse] Gagne +2 de Compte de [Charge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Charge]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Charge]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Binding] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Si cette Capacité a consommé du Compte de [Charge] à l’usage, inflige 2 de [Binding] au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Bond Chargé",
+          "desc": "[WhenUse] Consomme 6 de Compte de [Charge] sur soi pour gagner +1 de Puissance de Pièce\n- Si cette unité a consommé du Compte de [Charge], applique ([Charge] + <style=\"highlight\">2</style>) [ChargeForceField] à soi et 2 autres alliés avec le moins de Compte de [Charge]. (<style=\"highlight\">8</style> [ChargeForceField] Max par allié. S’active <style=\"highlight\">2 fois</style> par tour max)\n[WhenUse] Gagne +2 de Compte de [Charge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Charge]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Charge]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Binding] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cette Capacité a consommé du Compte de [Charge] à l’usage, inflige 2 de [Binding] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111003,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Déchirer la Dimension",
+          "desc": "[StartBattle] À soi et (plus haute Réson.) alliés avec [Charge] : applique [ChargeLoad] égal à la [Charge] sur soi\n(5 autres alliés Max)\n[WhenUse] À 2+ de [Charge] et 7~14 de Compte de [Charge], consomme tout le Compte de [Charge] pour gagner +1 de Puissance de Pièce\n[WhenUse] Consomme 15 de Compte de [Charge] pour gagner +1 de Puissance de Pièce",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si cette Capacité a consommé 15 de Compte de [Charge] à l’usage, inflige 2 de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne (5 - [Charge]) de Compte de [Charge] (0 Min)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Déchirer la Dimension",
+          "desc": "[StartBattle] À soi et (plus haute Réson.) alliés avec [Charge] : applique [ChargeLoad] égal à la [Charge] sur soi\n(5 autres alliés Max)\n[WhenUse] À 2+ de [Charge] et 7~14 de Compte de [Charge], consomme tout le Compte de [Charge] pour gagner +2 de Puissance de Pièce\n[WhenUse] Consomme 15 de Compte de [Charge] pour gagner +2 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si cette Capacité a consommé 15 de Compte de [Charge] à l’usage, inflige 3 de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne (5 - [Charge]) de Compte de [Charge] (0 Min)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Déploiement de Plasma",
+          "desc": "[WhenUse] +1 de Puissance de Base pour chaque 2 de Compte de [Charge] sur soi (5 max)\n[WhenUse] Gagne +2 de Compte de [Charge] (2 fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Déploiement de Plasma",
+          "desc": "[WhenUse] +1 de Puissance de Base pour <style=\"highlight\">chaque</style> Compte de [Charge] (<style=\"highlight\">10</style> max)\n[WhenUse] Gagne +2 de Compte de [Charge] (<style=\"highlight\">3</style> fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
