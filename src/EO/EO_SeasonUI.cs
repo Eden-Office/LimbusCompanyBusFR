@@ -1,43 +1,40 @@
 ﻿using HarmonyLib;
 using MainUI;
 using MainUI.VendingMachine;
-using System;
-using System.Runtime.InteropServices;
-using UnityEngine.EventSystems;
 using UnityEngine;
-using UnityEngine.UI;
-using UI;
-using TMPro;
-using static UI.Utility.InfoModels;
-using static UI.Utility.TMProStringMatcher;
 
 namespace LimbusCompanyFR
 {
     internal class EO_SeasonUI
     {
-        [HarmonyPatch(typeof(MainLobbyUIPanel), nameof(MainLobbyUIPanel.Initialize))]
+        [HarmonyPatch(typeof(MainLobbyBannerSlot), nameof(MainLobbyBannerSlot.Update))]
         [HarmonyPostfix]
-        private static void MainLobbyUIPanel_Init(MainLobbyUIPanel __instance)
+        private static void MainLobbyUIPanel_Init(MainLobbyBannerSlot __instance)
         {
             //MAIN MENU
-            GameObject banner_s3 = GameObject.Find("[Canvas]RatioMainUI/[Rect]PresenterRoot/[UIPresenter]LobbyUIPresenter(Clone)/[Rect]Active/[UIPanel]MainLobbyUIPanel/[Rect]Banner/[Rect]RightBanners/[Script]FirstBanner/[Mask]BannerImageMask/[Image]BannerImage");
-            //banner_s3.GetComponentInChildren<UnityEngine.UI.Image>(true).m_OverrideSprite = EO_ReadmeManager.ReadmeEventSprites["EO_Season3_Banner"];
+            Sprite banner = __instance.img_main.sprite;
+            if (banner.name.Contains("banner_battlepass_season4"))
+                __instance.img_main.overrideSprite = EO_ReadmeManager.ReadmeEventSprites["Season4_Banner"];
         }
         [HarmonyPatch(typeof(VendingMachineBannerSlot), nameof(VendingMachineBannerSlot.SetData))]
         [HarmonyPostfix]
         private static void VendingMachineBannerSlot_Init(BannerSlot<VendingMachineStaticDataList> __instance)
         {
-            if (__instance._id == 3)
+            if (__instance._id == 4)
             {
-                __instance._base._bannerImage.m_OverrideSprite = EO_ReadmeManager.ReadmeEventSprites["EO_Season3_Shop"];
+                __instance._base._bannerImage.m_OverrideSprite = EO_ReadmeManager.ReadmeEventSprites["Season4_Shop"];
+            }
+            else if (__instance._id == 3)
+            {
+                __instance._base._bannerImage.m_OverrideSprite = EO_ReadmeManager.ReadmeEventSprites["Season3_Shop"];
             }
             else if (__instance._id == 2)
             {
-                __instance._base._bannerImage.m_OverrideSprite = EO_ReadmeManager.ReadmeEventSprites["EO_Season2_Shop"];
+                __instance._base._bannerImage.m_OverrideSprite = EO_ReadmeManager.ReadmeEventSprites["Season2_Shop"];
             }
             else if (__instance._id == 1)
             {
-                __instance._base._bannerImage.m_OverrideSprite = EO_ReadmeManager.ReadmeEventSprites["EO_Season1_Shop"];
+                __instance._base._bannerImage.m_OverrideSprite = EO_ReadmeManager.ReadmeEventSprites["Season1_Shop"];
             }
         }
         [HarmonyPatch(typeof(BattlePassUIPopup), nameof(BattlePassUIPopup.SetupBaseData))]

@@ -1,0 +1,84 @@
+{
+  "dataList": [
+    {
+      "id": 835001,
+      "name": "Sang Stocké",
+      "desc": "À la Fin du Tour, selon la valeur de [KeptBlood] sur soi :\n- À une valeur inférieure ou égale à 5 de [KeptBlood], gagne 1 de [Binding], 1 de [Vulnerable] et 1 de [AttackDown] au prochain tour pour chaque [KeptBlood] perdu\n- À une valeur supérieure à 5 de [KeptBlood], gagne 2 de [AttackUp] et 2 de [DefenseUp] pour chaque valeur en excès"
+    },
+    {
+      "id": 835002,
+      "name": "Doit Conserver le Sang",
+      "desc": "Gagne un nouveau comportement lorsque [KeptBlood] atteint 0 pour la première fois\nFixe à 10 la vitesse de cette unité en utilisant la Capacité 'Je Suis... Le Prince... de la Parade...!'"
+    },
+    {
+      "id": 835003,
+      "name": "Le Délire du Prince",
+      "desc": "Lorsque cette unité atteint 30% de PV, gagne [BloodyCrave]"
+    },
+    {
+      "id": 835004,
+      "name": "Glaive de Sang Dur",
+      "desc": "Priorise les cibles avec la plus haute somme de Puissance et de Compte de [Laceration]\nEn Touche, si la cible a [Laceration], soigne 2% de PV"
+    },
+    {
+      "id": 835005,
+      "name": "Sanguivore - Coagulation",
+      "desc": "Lorsque cette unité a [Laceration] :\n- Gagne 1 de Bonus de Niveau Offensif et 1 de Bonus de Niveau Défensif pour chaque 5 de [Laceration] (10 max)\n- Gagne 1 de Bonus de Puissance de Duel pour chaque 10 de [Laceration] (5 max)\n- Subit 50% de dégâts de [Laceration] en moins (arrondi à l’inférieur)"
+    },
+    {
+      "id": 9014501,
+      "name": "Coagulation Sanguine",
+      "desc": "Gagne +1 de Compte de [Laceration] chaque fois que cette unité est touchée\nFin du Tour : consomme 3 de Compte de [Laceration] sur soi pour gagner 1 de [HardenedBlood]"
+    },
+    {
+      "id": 9014502,
+      "name": "Soif de Sang",
+      "desc": "Priorise les cibles avec [Laceration]\nFin du Tour : si cette unité a échoué à infliger des dégâts ce tour, gagne 2 de [Vulnerable] et 2 de [AttackUp] au prochain tour"
+    },
+    {
+      "id": 9014503,
+      "name": "Vampirique",
+      "desc": "Subit 10% de dégâts de [Laceration] en moins (arrondi à l’inférieur)\nEn Touche, si la cible a [Laceration], se soigne de 10% des dégâts infligés"
+    },
+    {
+      "id": 9014801,
+      "name": "Vampirisme Grossier",
+      "desc": "Subit 20% de dégâts de [Laceration] en moins (arrondi à l’inférieur)\nEn Touche, si la cible a [Laceration], se soigne de 15% des dégâts infligés"
+    },
+    {
+      "id": 9014802,
+      "name": "Fuite de Courant",
+      "desc": "Lorsque touché, si l’attaquant a utilisé une Capacité qui gagne de la [Charge], l’attaquant vole 1 de Compte de [Charge] à cette unité.\n(Une fois par Capacité. Ne s’active pas si cette unité n’a pas [Charge])"
+    },
+    {
+      "id": 9015101,
+      "name": "Sang au Cerveau",
+      "desc": "Subit 30% de dégâts de [Laceration] en moins (arrondi à l’inférieur)\nEn Touche, si la cible a [Laceration], se soigne de 15% des dégâts infligés"
+    },
+    {
+      "id": 9015102,
+      "name": "Modèle de Prothèse - L37",
+      "desc": "Début du Tour : à moins de 5 de Compte de [Charge], gagne 1 de [Reduction]\nFin du Tour : à 5+ de Compte de [Charge], gagne 2 de [ParryingResultUp]"
+    },
+    {
+      "id": 9015201,
+      "name": "Un Jeune Parent",
+      "desc": "Subit 30% de dégâts de [Laceration] en moins (arrondi à l’inférieur)\nEn Touche, si la cible a [Laceration], se soigne de 25% des dégâts infligés"
+    },
+    {
+      "id": 9014803,
+      "name": "Tenace",
+      "desc": "Les dégâts auto-infligés suite aux Capacités de cette unité ne réduisent pas les PV de cette unité en-dessous de 1"
+    },
+    {
+      "id": 834801,
+      "name": "Poche de Sang Éclatée",
+      "desc": "Début du Combat : commence l’Affrontement avec seulement la moitié des PV max"
+    },
+    {
+      "id": 834802,
+      "name": "Le Septième Parent",
+      "desc": "Gagne +1 Emplacement pour chaque allié à 1 PV (2 fois max)"
+    }
+  ]
+}

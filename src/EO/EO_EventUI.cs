@@ -1,11 +1,8 @@
 ﻿using HarmonyLib;
 using MainUI;
-using UnityEngine.EventSystems;
 using TMPro;
-using static UI.Utility.InfoModels;
 using UnityEngine;
 using UnityEngine.UI;
-using UI;
 using BattleUI.Typo;
 
 namespace LimbusCompanyFR
@@ -20,13 +17,13 @@ namespace LimbusCompanyFR
             Transform loading = __instance.transform.Find("[Rect]OpenProduceObj/[Image]EventLogo");
             if (loading != null)
                 loading.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeEventSprites["EO_YCGD_Logo"];
-            Transform logo = __instance.transform.Find("[Rect]UIObjs/[Image]TitleLogo");
-            if (logo != null)
-                logo.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeEventSprites["EO_YCGD_Logo"];
+            //Transform logo = __instance.transform.Find("[Rect]UIObjs/[Image]TitleLogo");
+            //if (logo != null)
+            //    logo.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeEventSprites["EO_YCGD_Logo"];
             Transform date = __instance.transform.Find("[Rect]UIObjs/[Image]TitleLogo/[Rect]EventPeriod/tmp_period");
             if (date != null)
             {
-                date.GetComponentInChildren<TextMeshProUGUI>(true).text = "04:00 22.02.2024(JEU) - 02:00 21.03.2024(JEU) (CET)";
+                //date.GetComponentInChildren<TextMeshProUGUI>(true).text = "04:00 22.02.2024(JEU) - 02:00 21.03.2024(JEU) (CET)";
                 date.GetComponentInChildren<TextMeshProUGUI>(true).font = LCB_French_Font.tmpfrenchfonts[2];
                 date.GetComponentInChildren<TextMeshProUGUI>(true).fontMaterial = LCB_French_Font.tmpfrenchfonts[2].material;
             }
@@ -35,8 +32,8 @@ namespace LimbusCompanyFR
         [HarmonyPostfix]
         private static void YCGD_RewardUI(YCGDRewardUIPopup __instance)
         {
-            __instance.img_logo.sprite = EO_ReadmeManager.ReadmeEventSprites["EO_YCGD_Logo"];
-            __instance.tmp_eventDate.text = "04:00 22.02.2024(JEU) - 02:00 28.03.2024(JEU) (CET)";
+            //__instance.img_logo.sprite = EO_ReadmeManager.ReadmeEventSprites["EO_YCGD_Logo"];
+            //__instance.tmp_eventDate.text = "04:00 22.02.2024(JEU) - 02:00 28.03.2024(JEU) (CET)";
             __instance.tmp_eventDate.font = LCB_French_Font.tmpfrenchfonts[2];
             __instance.tmp_eventDate.fontMaterial = LCB_French_Font.tmpfrenchfonts[2].material;
         }
@@ -107,6 +104,69 @@ namespace LimbusCompanyFR
                 __instance._resultTypoImage.overrideSprite = EO_ReadmeManager.ReadmeEventSprites["EO_WP3_Victory"];
             else
                 __instance._resultTypoImage.overrideSprite = EO_ReadmeManager.ReadmeEventSprites["EO_WP3_Defeat"];
+        }
+        #endregion
+
+        #region Murder on the Warp Express
+        [HarmonyPatch(typeof(MOWEMainEventBanner), nameof(MOWEMainEventBanner.Init))]
+        [HarmonyPostfix]
+        private static void MOWE_MainBanner(MOWEMainEventBanner __instance)
+        {
+            __instance._bannerImage.overrideSprite = EO_ReadmeManager.ReadmeEventSprites["MOWE_EventBanner"];
+        }
+        [HarmonyPatch(typeof(MOWESubEventBanner), nameof(MOWESubEventBanner.Init))]
+        [HarmonyPostfix]
+        private static void MOWE_SubBanner(MOWESubEventBanner __instance)
+        {
+            __instance._bannerImage.overrideSprite = EO_ReadmeManager.ReadmeEventSprites["MOWE_ExchangeBanner"];
+        }
+
+        [HarmonyPatch(typeof(MOWEEventUIPanel), nameof(MOWEEventUIPanel.Initialize))]
+        [HarmonyPostfix]
+        private static void MOWE_MainEvent(MOWEEventUIPanel __instance)
+        {
+            var intro = __instance.transform.Find("MOWE_introgroup");
+            Image text = intro.Find("[Image]Typo").GetComponent<Image>();
+            text.m_OverrideSprite = EO_ReadmeManager.ReadmeEventSprites["MOWE_Intro"];
+
+            Transform logo = __instance.transform.Find("[Rect]UIObjs/[Rect]Title/[Image]TitleLogo");
+            if (logo != null)
+            {
+                if (logo.GetComponentInChildren<Image>(true).sprite.name.EndsWith("11") || logo.GetComponentInChildren<Image>(true).sprite.name.EndsWith("07") || logo.GetComponentInChildren<Image>(true).sprite.name.EndsWith("09"))
+                    logo.GetComponentInChildren<Image>(true).overrideSprite = EO_ReadmeManager.ReadmeEventSprites["MOWE_Logo"];
+                else if (logo.GetComponentInChildren<Image>(true).sprite.name.EndsWith("24") || logo.GetComponentInChildren<Image>(true).sprite.name.EndsWith("25") || logo.GetComponentInChildren<Image>(true).sprite.name.EndsWith("26"))
+                    logo.GetComponentInChildren<Image>(true).overrideSprite = EO_ReadmeManager.ReadmeEventSprites["MOWE_Logo_Blood"];
+            }
+            Transform date = __instance.transform.Find("[Rect]UIObjs/[Rect]Title/[Image]TitleLogo/tmp_period");
+            if (date != null)
+            {
+                date.GetComponentInChildren<TextMeshProUGUI>(true).text = "04:00 08.08.2024(JEU) - 02:00 05.09.2024(JEU) (CET)";
+                date.GetComponentInChildren<TextMeshProUGUI>(true).font = LCB_French_Font.tmpfrenchfonts[2];
+                date.GetComponentInChildren<TextMeshProUGUI>(true).fontMaterial = LCB_French_Font.tmpfrenchfonts[2].material;
+            }
+            __instance.btn_theater.tmp_buttonText.lineSpacing = -30;
+        }
+        [HarmonyPatch(typeof(MOWERewardUIPopup), nameof(MOWERewardUIPopup.SetData))]
+        [HarmonyPostfix]
+        private static void MOWE_RewardUI(MOWERewardUIPopup __instance)
+        {
+            __instance.img_logo.overrideSprite = EO_ReadmeManager.ReadmeEventSprites["MOWE_Logo"];
+            __instance.tmp_eventDate.text = "04:00 08.08.2024(JEU) - 02:00 12.09.2024(JEU) (CET)";
+            __instance.tmp_eventDate.font = LCB_French_Font.tmpfrenchfonts[2];
+            __instance.tmp_eventDate.fontMaterial = LCB_French_Font.tmpfrenchfonts[2].material;
+        }
+        [HarmonyPatch(typeof(MOWERewardButton), nameof(MOWERewardButton.SetData))]
+        [HarmonyPostfix]
+        private static void MOWE_ExchangeButton(MOWERewardButton __instance)
+        {
+            GameObject MOWE = GameObject.Find("[Canvas]RatioMainUI/[Rect]PopupRoot/[UIPopup]MOWE_Reward(Clone)/EventDescriptionPanel/[Image]ItemCounterPanel/tmp_label_itemCounter");
+            MOWE.GetComponentInChildren<UITextDataLoader>(true).enabled = false;
+            if (__instance.tmp_number.text == "1")
+                MOWE.GetComponentInChildren<TextMeshProUGUI>(true).text = "Pack Possédé";
+            else
+                MOWE.GetComponentInChildren<TextMeshProUGUI>(true).text = "Packs Possédés";
+
+            __instance.transform.Find("Image").GetComponentInChildren<Image>(true).overrideSprite = EO_ReadmeManager.ReadmeEventSprites["MOWE_Exchange"];
         }
         #endregion
     }

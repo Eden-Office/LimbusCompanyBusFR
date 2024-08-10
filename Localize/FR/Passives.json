@@ -463,7 +463,7 @@
     {
       "id": 1050421,
       "name": "Plus Grand Honneur",
-      "desc": "Applique 1 de Bonus de Puissance d’Attaque et 1 de Protection à l’allié avec le moins de PV en-dessous de 50%.\nSi l’allié est de la N Corp., applique également 1 de Fanatique."
+      "desc": "Applique 1 de Bonus de Puissance d’Attaque et 1 de Protection à l’allié avec le moins de PV en-dessous de 50%.\nSi l’allié est un 'Fanatique de la N Corp.', applique également 1 de Fanatique."
     },
     {
       "id": 1090421,
@@ -473,12 +473,12 @@
     {
       "id": 1020401,
       "name": "Sifflements",
-      "desc": "Au début de la phase de combat, soigne de 15 PSM 2 alliés avec le moins de PSM.\nSi l’allié est de la N Corp., applique également 1 de Fanatique."
+      "desc": "Au début de la phase de combat, soigne de 15 PSM 2 alliés avec le moins de PSM.\nSi l’allié est un 'Fanatique de la N Corp.', applique également 1 de Fanatique."
     },
     {
       "id": 1020421,
       "name": "Murmures",
-      "desc": "Au début de la phase de combat, soigne de 15 PSM un allié avec le moins de PSM.\nSi l’allié est de la N Corp., applique également 1 de Fanatique."
+      "desc": "Au début de la phase de combat, soigne de 15 PSM un allié avec le moins de PSM.\nSi l’allié est un 'Fanatique de la N Corp.', applique également 1 de Fanatique."
     },
     {
       "id": 1070401,
@@ -1536,6 +1536,45 @@
       "id": 1111021,
       "name": "Réfraction",
       "desc": "1 allié avec le plus de Compte de [Charge] au Début du Tour : inflige +10% de dégâts supplémentaires avec les Capacités qui ont consommé 7+ de Compte de [Charge] (une fois par tour)"
+    },
+    {
+      "id": 1021001,
+      "name": "Démantèlement de l’électrocourant",
+      "desc": "Gagne 1 de [Charge] chaque fois que cette unité consomme 10 de Compte de [Charge] cumulé cet Affrontement\nÀ 2+ de [Charge], inflige +([Charge] * 3)% de dégâts supplémentaires (15% max)\n\nEn Tuant, cette unité et 1 allié avec le moins de Compte de [Charge] gagnent du Compte de [Charge] égal à la [Charge] (3 max, priorise les alliés qui consomment ou gagnent de la [Charge])",
+      "summary": "Gagne [Charge] à chaque consommation de 10 de Compte de [Charge]\nÀ 2+ de [Charge], inflige plus de dégâts\nEn Tuant, cette unité et 1 allié gagnent du Compte de [Charge]"
+    },
+    {
+      "id": 1021011,
+      "name": "Démantèlement de l’électrocourant",
+      "desc": "Gagne 1 de [Charge] chaque fois que cette unité consomme 10 de Compte de [Charge] cumulé cet Affrontement\nÀ 2+ de [Charge], inflige +([Charge] * 3)% de dégâts supplémentaires (15% max)\n<style=\"highlight\">- Si la cible est à moins de 50% e PV, inflige +([Charge] * 5)% de dégâts augmentés supplémentaires (25% max)</style>\n\nEn Tuant, cette unité et <style=\"highlight\">2 alliés</style> avec le moins de Compte de [Charge] gagnent du Compte de [Charge] égal à <style=\"highlight\">([Charge] + 2)</style> (<style=\"highlight\">5</style> max, priorise les alliés qui consomment ou gagnent de la [Charge])",
+      "summary": "Gagne [Charge] à chaque consommation de 10 de Compte de [Charge]\nÀ 2+ de [Charge], inflige plus de dégâts\nEn Tuant, cette unité et 2 alliés gagnent du Compte de [Charge]"
+    },
+    {
+      "id": 1021021,
+      "name": "Courant de Démantèlement Auxiliaire",
+      "desc": "Lorsque 1 allié avec le moins de Compte de [Charge] tue un ennemi, l’allié gagne +2 de Compte de [Charge] (une fois par tour, priorise les alliés qui consomment ou gagnent de la [Charge])"
+    },
+    {
+      "id": 1021031,
+      "name": "Courant de Démantèlement Auxiliaire",
+      "desc": "Lorsque 1 allié avec le moins de Compte de [Charge] tue un ennemi, l’allié gagne +3 de Compte de [Charge] (une fois par tour, priorise les alliés qui consomment ou gagnent de la [Charge])"
+    },
+    {
+      "id": 1070901,
+      "name": "Modèle de Charge L37",
+      "desc": "Gagne 1 de [Charge] chaque fois que cette unité consomme 10 de Compte de [Charge] cumulé cet Affrontement\n\nFin du Tour : à 2+ de [Charge], gagne 1 de [Agility] au prochain tour",
+      "summary": "Gagne [Charge] à chaque consommation de 10 de Compte de [Charge]"
+    },
+    {
+      "id": 1070911,
+      "name": "Modèle de Charge L37",
+      "desc": "Gagne 1 de [Charge] chaque fois que cette unité consomme 10 de Compte de [Charge] cumulé cet Affrontement\nFin du Tour : à 2+ de [Charge], gagne 1 de [Agility] au prochain tour\n<style=\"highlight\">Fin du Tour : à 3+ de [Charge], gagne 1 de [Agility] supplémentaire et 1 de [ParryingResultUp] au prochain tour</style>",
+      "summary": "Gagne [Charge] à chaque consommation de 10 de Compte de [Charge]"
+    },
+    {
+      "id": 1070921,
+      "name": "Installation de Module de Charge",
+      "desc": "Allié Déployé #1 : +5 de Compte de [Charge] Max\n(Lorsque les conditions sont remplies, cet effet reste activé jusqu’au début du prochain tour)"
     }
   ]
 }

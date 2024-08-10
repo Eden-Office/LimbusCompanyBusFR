@@ -12,9 +12,7 @@ namespace LimbusCompanyFR
         static List<string> LoadingTexts = new();
         static string Angela;
         static readonly string Raw = "<bounce f=0.5>Chargement...</bounce>";
-        public static ConfigEntry<bool> RandomAllLoadCG = LCB_EOMod.EO_Settings.Bind("EO Settings", "RandomAllLoadCG", true, "Utilise une image aléatoire des Cantos terminés ( true | false )");
         public static ConfigEntry<bool> RandomLoadText = LCB_EOMod.EO_Settings.Bind("EO Settings", "RandomLoadText", true, "Utilise des messages de chargement aléatoire au lieu de ceux par défaut ( true | false )");
-        public static int ArchiveCGId;
         static EO_LoadingManager() => InitLoadingTexts();
         public static void InitLoadingTexts()
         {

@@ -701,7 +701,7 @@
     {
       "id": "MarkOfHeresy",
       "name": "Regard",
-      "desc": "Subit +20% de dégâts de capacités Perçantes et Contondantes pendant un tour.\nL’allié qui parvient à vaincre l’unité marquée regagne 10 PSM ; si l’allié est la N Corp., applique aussi 1 de Fanatique au tour suivant."
+      "desc": "Subit +20% de dégâts de capacités Perçantes et Contondantes pendant un tour.\nL’allié qui parvient à vaincre l’unité marquée regagne 10 PSM ; si l’allié est un 'Fanatique de la N Corp.', applique aussi 1 de Fanatique au tour suivant."
     },
     {
       "id": "HitResultUp",
@@ -1488,6 +1488,12 @@
       "id": "ChargeLoad",
       "name": "Charge Électrique",
       "desc": "- Valeur Max : 6\n- Les Capacités d’Attaque ayant consommé du Compte de Charge infligent +2.5% de dégâts supplémentaires pour chaque valeur sur soi (15% max)\n- Si l’unité affectée est un employé de la W Corp., inflige +5% de dégâts supplémentaires pour chaque valeur à la place (30% max)\n- Fin du Tour : cet effet expire",
+      "summary": ""
+    },
+    {
+      "id": "PhotoElectricity",
+      "name": "Photoélectricité",
+      "desc": "Valeur Max : 3\nLorsque cette unité est touchée, l’Attaquant gagne du Compte de Charge égal à la valeur (une fois par Capacité)\n- Si l’Attaquant a 5- de Compte de Charge, il gagne +3 de Compte de Charge supplémentaire\nFin du Tour : cet effet expire",
       "summary": ""
     }
   ]

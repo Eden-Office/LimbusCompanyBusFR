@@ -1,28 +1,23 @@
 ﻿using BattleUI;
-using BattleUI.BattleUnit.SkillInfoUI;
 using BattleUI.Information;
-using UnitInformation.Tab;
 using HarmonyLib;
 using MainUI;
 using MainUI.VendingMachine;
 using TMPro;
-using TMPro.SpriteAssetUtilities;
 using UnityEngine;
-using MainUI.Gacha;
-using BattleUI.UIRoot;
-using Login;
-using static UI.Utility.InfoModels;
-using static UI.Utility.TMProStringMatcher;
 using BattleUI.EvilStock;
-using UnityEngine.Playables;
-using BattleUI.Typo;
 using Dungeon.Map.UI;
-using System.Collections.Generic;
 using BattleUI.BattleUnit;
-using Il2CppSystem;
-using Dungeon;
-using UtilityUI;
+using System.Collections.Generic;
 using System.Text.RegularExpressions;
+using MainUI.BattleResult;
+using UtilityUI;
+using BattleUI.UIRoot;
+using BattleUI.Operation;
+using System;
+using Dungeon.UI;
+using Dungeon.UI.EgoGift;
+using BattleUI.BattleUnit.SkillInfoUI;
 
 namespace LimbusCompanyFR
 {
@@ -33,6 +28,7 @@ namespace LimbusCompanyFR
         [HarmonyPostfix]
         private static void Client_Init(LoginSceneManager __instance)
         {
+            __instance.btn_allCacheClear.GetComponentInChildren<TextMeshProUGUI>(true).lineSpacing = -60;
             __instance.tmp_loginAccount.font = LCB_French_Font.tmpfrenchfonts[4];
             __instance.tmp_loginAccount.fontMaterial = LCB_French_Font.tmpfrenchfonts[4].material;
         }
@@ -86,6 +82,13 @@ namespace LimbusCompanyFR
                 No.GetComponentInChildren<TextMeshProUGUI>(true).font = LCB_French_Font.tmpfrenchfonts[0];
                 No.GetComponentInChildren<TextMeshProUGUI>(true).fontMaterial = LCB_French_Font.tmpfrenchfonts[0].material;
             }
+        }
+        [HarmonyPatch(typeof(NoticeUIPopup), nameof(NoticeUIPopup.Initialize))]
+        [HarmonyPostfix]
+        private static void NoticeNews(NoticeUIPopup __instance)
+        {
+            __instance.btn_systemNotice.GetComponentInChildren<TextMeshProUGUI>(true).lineSpacing = -30;
+            __instance.btn_eventNotice.GetComponentInChildren<TextMeshProUGUI>(true).lineSpacing = -30;
         }
         [HarmonyPatch(typeof(StageUIPresenter), nameof(StageUIPresenter.Initialize))]
         [HarmonyPostfix]
@@ -150,6 +153,25 @@ namespace LimbusCompanyFR
                 level.GetComponentInChildren<TextMeshProUGUI>(true).font = LCB_French_Font.tmpfrenchfonts[2];
                 level.GetComponentInChildren<TextMeshProUGUI>(true).fontMaterial = LCB_French_Font.tmpfrenchfonts[2].material;
             }
+        }
+        [HarmonyPatch(typeof(SubChapterScrollViewItem), nameof(SubChapterScrollViewItem.SetData))]
+        [HarmonyPostfix]
+        private static void SubChapterScrollViewItem_Init(SubChapterScrollViewItem __instance)
+        {
+            __instance.tmp_pageForBebaskai.m_fontAsset = LCB_French_Font.GetFrenchFonts(0);
+            __instance.tmp_pageForBebaskai.m_sharedMaterial = LCB_French_Font.GetFrenchMats(2);
+
+            // Small date at the chapter banner
+            __instance.tmp_timeline.m_fontAsset = LCB_French_Font.GetFrenchFonts(0);
+            __instance.tmp_timeline.m_sharedMaterial = LCB_French_Font.GetFrenchMats(2);
+        }
+        [HarmonyPatch(typeof(SubChapterScrollViewItem), nameof(SubChapterScrollViewItem.SetDefault))]
+        [HarmonyPostfix]
+        private static void SubChapterScrollViewItem_Pages(SubChapterScrollViewItem __instance)
+        {
+            __instance.tmp_page.m_fontAsset = LCB_French_Font.GetFrenchFonts(0);
+            __instance.tmp_page.m_sharedMaterial = LCB_French_Font.GetFrenchMats(2);
+            __instance.tmp_page.GetComponentInChildren<TextMeshProLanguageSetter>().enabled = false;
         }
 
         private static string getTimerD(int days)
@@ -343,17 +365,33 @@ namespace LimbusCompanyFR
             Transform mirror = __instance.transform.Find("[Script]EntranceItemsScrollView/[Rect]ViewPort/[Layout]Items/[Script]MirrorDungeonEntranceItemView_Single/[Rect]Selectable/[Button]Stage Frame/Text (TMP)");
             if (mirror != null)
             {
-                mirror.GetComponentInChildren<TextMeshProUGUI>(true).text = "Normal";
+                mirror.GetComponentInChildren<TextMeshProUGUI>(true).text = "Simulation";
                 mirror.GetComponentInChildren<TextMeshProUGUI>(true).font = LCB_French_Font.tmpfrenchfonts[0];
                 mirror.GetComponentInChildren<TextMeshProUGUI>(true).fontMaterial = LCB_French_Font.tmpfrenchfonts[0].material;
             }
             Transform mirror_hard = __instance.transform.Find("[Script]EntranceItemsScrollView/[Rect]ViewPort/[Layout]Items/[Script]MirrorDungeonEntranceItemView_Single (1)/[Rect]Selectable/[Button]Stage Frame/Text (TMP)");
             if (mirror_hard != null)
             {
-                mirror_hard.GetComponentInChildren<TextMeshProUGUI>(true).text = "Difficile";
+                mirror_hard.GetComponentInChildren<TextMeshProUGUI>(true).text = "Ritornello";
                 mirror_hard.GetComponentInChildren<TextMeshProUGUI>(true).font = LCB_French_Font.tmpfrenchfonts[0];
                 mirror_hard.GetComponentInChildren<TextMeshProUGUI>(true).fontMaterial = LCB_French_Font.tmpfrenchfonts[0].material;
             }
+        }
+        #endregion
+
+        #region Choice UI
+        [HarmonyPatch(typeof(PersonalityChoiceEventJudgementTitleUI), nameof(PersonalityChoiceEventJudgementTitleUI.SetEventJudgementTitle))]
+        [HarmonyPostfix]
+        private static void SinAffinity_UI(PersonalityChoiceEventJudgementTitleUI __instance)
+        {
+            __instance.tmp_requiredAttributes.lineSpacing = -30;
+            Transform sins = __instance.transform.Find("[Text]AttributeTypeJudgment");
+            sins.GetComponentInChildren<RectTransform>().anchoredPosition = new Vector2(700, 87);
+            __instance.tmp_judgementComparisonType.lineSpacing = -30;
+            Transform chance = __instance.transform.Find("[Text]JudgmentComparison");
+            chance.GetComponentInChildren<RectTransform>().anchoredPosition = new Vector2(410, 755);
+
+            __instance.tmp_requiredAttributes.text = __instance.tmp_requiredAttributes.text.Replace("/", " / ").Replace("< / ", "</");
         }
         #endregion
 
@@ -412,7 +450,7 @@ namespace LimbusCompanyFR
                 ego.GetComponentInChildren<TextMeshProUGUI>(true).fontMaterial = LCB_French_Font.tmpfrenchfonts[3].material;
                 ego_hover.GetComponentInChildren<TextMeshProUGUI>(true).text = "E.G.O.";
                 ego_hover.GetComponentInChildren<TextMeshProUGUI>(true).font = LCB_French_Font.tmpfrenchfonts[3];
-                ego_hover.GetComponentInChildren<TextMeshProUGUI>(true).fontMaterial = LCB_French_Font.tmpfrenchfonts[3].material;
+                ego_hover.GetComponentInChildren<TextMeshProUGUI>(true).fontMaterial = LCB_French_Font.GetFrenchMats(8);
             }
             // TEAMS
             GameObject teams = GameObject.Find("[Canvas]RatioMainUI/[Rect]PanelRoot/[UIPanel]PersonalityFormationUIPanel(Clone)/[Rect]LeftObjects/[Rect]DeckSettings/[Rect]Contents/[Text]DeckTitle");
@@ -435,24 +473,93 @@ namespace LimbusCompanyFR
                 guard.GetComponentInChildren<TextMeshProUGUI>(true).fontMaterial = LCB_French_Font.tmpfrenchfonts[3].material;
             }
         }
-        [HarmonyPatch(typeof(FormationUIPanel), nameof(FormationUIPanel.Initialize))]
+        [HarmonyPatch(typeof(PersonalityDetailButton), nameof(PersonalityDetailButton.SetUIMode))]
         [HarmonyPostfix]
-        private static void FormationSecondChance_Init(FormationUIPanel __instance)
+        private static void FormationSecondChance_Init(PersonalityDetailButton __instance)
         {
-
-            Transform skill = __instance.transform.Find("[Rect]MainPanel/[Rect]Contents/[Rect]Personalities/PersonalityDetail/[Button]Main/[Rect]Select/[Button]Skill/[Text]Skill");
-            Transform skill_hover = __instance.transform.Find("[Rect]MainPanel/[Rect]Contents/[Rect]Personalities/PersonalityDetail/[Button]Main/[Rect]Select/[Button]Skill/[Text]Skill/[Text]Skill_Highlight");
-            if (skill != null)
-            {
-                skill.GetComponentInChildren<TextMeshProUGUI>(true).text = "Capacité";
-                skill_hover.GetComponentInChildren<TextMeshProUGUI>(true).text = "Capacité";
-            }
+            __instance._egoText._text.font = LCB_French_Font.tmpfrenchfonts[3];
+            __instance._egoText._text.m_fontAsset = LCB_French_Font.tmpfrenchfonts[3];
+            __instance._egoText._text.m_currentFontAsset = LCB_French_Font.tmpfrenchfonts[3];
+            __instance._egoText._text.m_sharedMaterial = LCB_French_Font.GetFrenchMats(8);
+            __instance.tmp_egoHighlight.font = LCB_French_Font.tmpfrenchfonts[3];
+            __instance.tmp_egoHighlight.m_fontAsset = LCB_French_Font.tmpfrenchfonts[3];
+            __instance.tmp_egoHighlight.m_currentFontAsset = LCB_French_Font.tmpfrenchfonts[3];
+            __instance.tmp_egoHighlight.m_sharedMaterial = LCB_French_Font.GetFrenchMats(8);
+            __instance._skillText._text.fontStyle = FontStyles.Normal | FontStyles.SmallCaps;
+            __instance.tmp_skillHighlight.fontStyle = FontStyles.Normal | FontStyles.SmallCaps;
+            __instance._skillText._text.text = "Capacité";
+            __instance.tmp_skillHighlight.text = "Capacité";
+            __instance.tmp_skillHighlight.m_sharedMaterial = LCB_French_Font.GetFrenchMats(8);
+        }
+        [HarmonyPatch(typeof(PersonalityDetailButton), nameof(PersonalityDetailButton.Initialize))]
+        [HarmonyPostfix]
+        private static void FormationUwa_Init(PersonalityDetailButton __instance)
+        {
+            __instance._skillText._text.text = "Capacité";
+            __instance.tmp_skillHighlight.text = "Capacité";
         }
         [HarmonyPatch(typeof(FormationUIDeckToggle), nameof(FormationUIDeckToggle.SetText))]
         [HarmonyPostfix]
         private static void FormationUIDeckToggle_Init(FormationUIDeckToggle __instance)
         {
             __instance.tmp_title.text = __instance.tmp_title.text.Replace("#", "№");
+        }
+        [HarmonyPatch(typeof(FormationPersonalityUI), nameof(FormationPersonalityUI.SetNonClickable))]
+        [HarmonyPostfix]
+        private static void FormationLabel_Init(FormationPersonalityUI __instance)
+        {
+            //SetUpperClickActive, Initialize, SetUpperUIMode, SetData, 
+            Color charcoal = new Color(0.016f, 0.016f, 0.016f, 0.91f);
+
+            __instance._textInfo.txt_level.text = __instance._textInfo.txt_level.text.Replace("Lv.", "Nv.");
+            __instance._textInfo.txt_level.font = LCB_French_Font.GetFrenchFonts(2);
+            __instance._textInfo.txt_level.m_sharedMaterial = LCB_French_Font.GetFrenchMats(6);
+
+            __instance._textInfo.txt_level.m_sharedMaterial.SetColor("_UnderlayColor", charcoal);
+            __instance._textInfo.txt_level.m_sharedMaterial.SetFloat("_UnderlayOffsetX", 2);
+            __instance._textInfo.txt_level.m_sharedMaterial.SetFloat("_UnderlayOffsetY", -2);
+            __instance._textInfo.txt_level.m_sharedMaterial.SetFloat("_UnderlayDilate", 1.5f);
+
+            TextMeshProUGUI changed = __instance._additionalInfo._hideCanvasGroup.transform.Find("[Script]Changed/[Text]Label").GetComponentInChildren<TextMeshProUGUI>();
+            changed.text = "Échangé.e";
+            changed.m_fontAsset = LCB_French_Font.GetFrenchFonts(0);
+            changed.m_sharedMaterial = LCB_French_Font.GetFrenchMats(2);
+
+            __instance._additionalInfo.transform.Find("[Script]Abstain/[Text]Label").GetComponentInChildren<TextMeshProLanguageSetter>().enabled = false;
+            TextMeshProUGUI abstain = __instance._additionalInfo.transform.Find("[Script]Abstain/[Text]Label").GetComponentInChildren<TextMeshProUGUI>(true);
+            abstain.m_fontAsset = LCB_French_Font.GetFrenchFonts(0);
+            abstain.m_sharedMaterial = LCB_French_Font.GetFrenchMats(2);
+            abstain.fontSize = 44;
+        }
+
+        [HarmonyPatch(typeof(FormationPersonalityUI_Label), nameof(FormationPersonalityUI_Label.Reload))]
+        [HarmonyPostfix]
+        private static void FormationLabel(FormationPersonalityUI_Label __instance)
+        {
+            String sinner = __instance.tmp_text.transform.parent.parent.parent.parent.name.Substring(25);
+            __instance.tmp_text.m_fontAsset = LCB_French_Font.tmpfrenchfonts[0];
+            __instance.tmp_text.fontSharedMaterial = LCB_French_Font.GetFrenchMats(1);
+
+            if (__instance.tmp_text.text.Contains("Appointé"))
+            {
+                switch (sinner)
+                {
+                    case "Faust" or "Donqui" or "Ryoshu" or "Ishmael" or "Rodion" or "Outis":
+                        __instance.tmp_text.text = "<voffset=-0.25em><size=56><cspace=-1px>Appointée</cspace></size></voffset>";
+                        break;
+                }
+            }
+        }
+
+        [HarmonyPatch(typeof(FormationPersonalityUI), nameof(FormationPersonalityUI.Initialize))]
+        [HarmonyPostfix]
+        private static void FormationLabel_Abstain(FormationPersonalityUI __instance)
+        {
+            __instance._additionalInfo.transform.Find("[Script]Abstain/[Text]Label").GetComponentInChildren<TextMeshProLanguageSetter>().enabled = false;
+            TextMeshProUGUI abstain = __instance._additionalInfo.transform.Find("[Script]Abstain/[Text]Label").GetComponentInChildren<TextMeshProUGUI>(true);
+            abstain.m_fontAsset = LCB_French_Font.GetFrenchFonts(0);
+            abstain.m_sharedMaterial = LCB_French_Font.GetFrenchMats(2);
+            abstain.fontSize = 44;
         }
         #endregion
 
@@ -627,25 +734,6 @@ namespace LimbusCompanyFR
             __instance._currentStateText.text = __instance._currentStateText.text.Replace("MID", "<size=50>MOY</size>");
             __instance._currentStateText.text = __instance._currentStateText.text.Replace("MIN", "<size=50>MIN</size>");
         }
-        [HarmonyPatch(typeof(BattleEncounterDamageTypoController), nameof(BattleEncounterDamageTypoController.SetDirection))]
-        [HarmonyPostfix]
-        private static void BattleEncounterDamageTypoController_Init(BattleEncounterDamageTypoController __instance)
-        {
-            __instance.playerDamagedSlot.tmp_total.text = "<size=40>Total</size>";
-            __instance.playerDamagedSlot.tmp_total.font = LCB_French_Font.tmpfrenchfonts[1];
-            __instance.playerDamagedSlot.tmp_total.fontMaterial = LCB_French_Font.tmpfrenchfonts[1].material;
-            __instance.enemyDamagedSlot.tmp_total.text = "<size=40>Total</size>";
-            __instance.enemyDamagedSlot.tmp_total.font = LCB_French_Font.tmpfrenchfonts[1];
-            __instance.enemyDamagedSlot.tmp_total.fontMaterial = LCB_French_Font.tmpfrenchfonts[1].material;
-            GameObject ego_t = GameObject.Find("[Script]BattleUIRoot/[Script]BattleSkillViewUIController/[Canvas]Canvas/[Script]SkillViewCanvas/[Rect]NameBox_EGO/[Image]EgoNameBg/[Rect]TotalDamageSlot/[Tmpro]Total");
-            if (ego_t != null)
-            {
-                ego_t.GetComponentInChildren<TextMeshProUGUI>(true).text = "<size=40>Total</size>";
-                ego_t.GetComponentInChildren<TextMeshProUGUI>(true).name = "Total";
-                ego_t.GetComponentInChildren<TextMeshProUGUI>(true).font = LCB_French_Font.tmpfrenchfonts[1];
-                ego_t.GetComponentInChildren<TextMeshProUGUI>(true).fontMaterial = LCB_French_Font.tmpfrenchfonts[1].material;
-            }
-        }
         [HarmonyPatch(typeof(ActTypoWaveStartUI), nameof(ActTypoWaveStartUI.Open))]
         [HarmonyPostfix]
         private static void ActTypoWaveStartUI_Init(ActTypoWaveStartUI __instance)
@@ -657,6 +745,12 @@ namespace LimbusCompanyFR
                 __instance.tmp_content.fontMaterial = LCB_French_Font.tmpfrenchfonts[3].material;
             }
         }
+        [HarmonyPatch(typeof(UnitInformationTabButton), nameof(UnitInformationTabButton.Init))]
+        [HarmonyPostfix]
+        private static void EnemyUnitInfo_Init(UnitInformationTabButton __instance)
+        {
+            __instance.tmp_tabName.text = __instance.tmp_tabName.text.Replace("Capacité", "Capacités");
+        }
         [HarmonyPatch(typeof(UnitInformationController), nameof(UnitInformationController.OpenInit))]
         [HarmonyPostfix]
         private static void UnitInfo_Init(UnitInformationController __instance)
@@ -665,52 +759,115 @@ namespace LimbusCompanyFR
             if (skill != null)
                 skill.GetComponentInChildren<TextMeshProUGUI>(true).text = "Capacité";
         }
+        [HarmonyPatch(typeof(AbnormalityStatUI), nameof(AbnormalityStatUI.UpdateBottomUIScale))]
+        [HarmonyPostfix]
+        private static void AbnormalityStatUI_Init(AbnormalityStatUI __instance)
+        {
+            __instance.tmp_unitName.m_fontAsset = LCB_French_Font.GetFrenchFonts(0);
+            __instance.tmp_unitName.m_sharedMaterial = LCB_French_Font.GetFrenchMats(2);
+            __instance.tmp_code.m_fontAsset = LCB_French_Font.GetFrenchFonts(3);
+            __instance.tmp_code.m_sharedMaterial = LCB_French_Font.GetFrenchFonts(3).material;
+        }
+        [HarmonyPatch(typeof(TmproCharacterTypoTextEffect), nameof(TmproCharacterTypoTextEffect.SetTiltAndPosText))]
+        [HarmonyPostfix]
+        private static void PanicStateUI_Open(TmproCharacterTypoTextEffect __instance)
+        {
+            Color textColor = __instance.tmp.color;
+            __instance.tmp.text = __instance.tmp.text.Replace("PANIC", "PANIQUE");
+            __instance.tmp.m_fontAsset = LCB_French_Font.GetFrenchFonts(3);
+            __instance.tmp.m_sharedMaterial = LCB_French_Font.GetFrenchFonts(3).material;
+            __instance.tmp.fontMaterial.EnableKeyword("BEVEL_ON");
+            __instance.tmp.fontMaterial.EnableKeyword("UNDERLAY_ON");
+            __instance.tmp.fontMaterial.EnableKeyword("GLOW_ON");
+            __instance.tmp.fontMaterial.SetColor("_GlowColor", textColor);
+
+        }
+
+        [HarmonyPatch(typeof(BattleChoiceSelectionOmenUI), nameof(BattleChoiceSelectionOmenUI.SetActiveOff))]
+        [HarmonyPostfix]
+        private static void BattleChoiceSelectionOmenUI_Init(BattleChoiceSelectionOmenUI __instance)
+        {
+            __instance.tmp_desc.m_fontAsset = LCB_French_Font.GetFrenchFonts(0);
+            __instance.tmp_desc.m_sharedMaterial = LCB_French_Font.GetFrenchMats(3);
+        }
+
+        [HarmonyPatch(typeof(NewOperationController), nameof(NewOperationController.SetState))]
+        [HarmonyPostfix]
+        private static void AutoButtons(NewOperationController __instance)
+        {
+            Transform WinRate = __instance.transform.Find("[Rect]ActiveControl/[Rect]Pivot/[Rect]ActionableSlotList/[Layout]SinActionSlotsGrid/[Rect]AutoSelectButton/[Rect]Pivot/[Toggle]WinRate/Background/Text (TMP)");
+            WinRate.GetComponentInChildren<TextMeshProUGUI>(true).fontSize = 34;
+            WinRate.GetComponentInChildren<TextMeshProUGUI>(true).lineSpacing = -40;
+        }
+        #endregion
+
+        #region Battle Result UI
+        [HarmonyPatch(typeof(BattleResultUIPanel), nameof(BattleResultUIPanel.SetStatusUI))]
+        [HarmonyPostfix]
+        private static void BattleResult_Init(BattleResultUIPanel __instance)
+        {
+            Transform managerLV = __instance.transform.Find("[Rect]Right/[Rect]Frames/rect_titleGroup/[Script]UserLevel/[Tmpro]LvValue/[Tmpro]Lv");
+            if (managerLV != null)
+            {
+                managerLV.GetComponentInChildren<TextMeshProUGUI>(true).text = managerLV.GetComponentInChildren<TextMeshProUGUI>(true).text.Replace("LV.", "NV.");
+                managerLV.GetComponentInChildren<TextMeshProUGUI>(true).font = LCB_French_Font.tmpfrenchfonts[2];
+                managerLV.GetComponentInChildren<TextMeshProUGUI>(true).m_sharedMaterial = LCB_French_Font.GetFrenchMats(6);
+            }
+            Transform exp = __instance.transform.Find("[Rect]Right/[Rect]Frames/rect_titleGroup/[Script]UserLevel/[Rect]ExpTexts/[Tmpro]ExpTitle");
+            if (exp != null)
+            {
+                exp.GetComponentInChildren<TextMeshProUGUI>(true).text = exp.GetComponentInChildren<TextMeshProUGUI>(true).text.Replace("EXP", "ОПЫТ");
+                exp.GetComponentInChildren<TextMeshProUGUI>(true).font = LCB_French_Font.tmpfrenchfonts[2];
+                exp.GetComponentInChildren<TextMeshProUGUI>(true).fontMaterial = LCB_French_Font.tmpfrenchfonts[2].material;
+                exp.GetComponentInChildren<TextMeshProUGUI>(true).m_sharedMaterial = LCB_French_Font.GetFrenchMats(6);
+                exp.GetComponentInChildren<TextMeshProUGUI>(true).fontSize = 40f;
+                exp.GetComponentInChildren<TextMeshProUGUI>(true).characterSpacing = -2;
+            }
+        }
+        [HarmonyPatch(typeof(BattleResultPersonalityExpGaugeUI), nameof(BattleResultPersonalityExpGaugeUI.SetLevelText))]
+        [HarmonyPostfix]
+        private static void BattleResultPersonalityExpGaugeUI_Init(BattleResultPersonalityExpGaugeUI __instance)
+        {
+            Transform Lv = __instance.tmp_levelText.transform.Find("tmp_level_text");
+            Lv.GetComponentInChildren<TextMeshProUGUI>().text = "NV.";
+            Lv.GetComponentInChildren<TextMeshProUGUI>().m_fontAsset = LCB_French_Font.GetFrenchFonts(2);
+            Lv.GetComponentInChildren<TextMeshProUGUI>().m_sharedMaterial = LCB_French_Font.GetFrenchMats(6);
+        }
+        [HarmonyPatch(typeof(BattleResultPersonalityUI), nameof(BattleResultPersonalityUI.SetData))]
+        [HarmonyPostfix]
+        private static void SinnerLvlUI(BattleResultPersonalityUI __instance)
+        {
+            Color yellowish = new Color(1.0f, 0.306f, 0, 0.502f);
+
+            Transform sinnerLV = __instance.tmp_level_text.transform.Find("tmp_level_text"); ;
+            if (sinnerLV != null)
+            {
+                sinnerLV.GetComponentInChildren<TextMeshProUGUI>(true).text = sinnerLV.GetComponentInChildren<TextMeshProUGUI>(true).text.Replace("LV.", "NV.");
+                sinnerLV.GetComponentInChildren<TextMeshProUGUI>(true).m_fontAsset = LCB_French_Font.tmpfrenchfonts[2];
+                sinnerLV.GetComponentInChildren<TextMeshProUGUI>(true).m_sharedMaterial = LCB_French_Font.GetFrenchMats(6);
+            }
+            Transform sinnerLV_glow = __instance.tmp_level_text.transform.Find("tmp_level_text/tmp_effect_levelText");
+            if (sinnerLV_glow != null)
+            {
+                sinnerLV_glow.GetComponentInChildren<TextMeshProUGUI>(true).text = sinnerLV_glow.GetComponentInChildren<TextMeshProUGUI>(true).text.Replace("LV.", "NV.");
+                sinnerLV_glow.GetComponentInChildren<TextMeshProUGUI>(true).m_fontAsset = LCB_French_Font.tmpfrenchfonts[2];
+                sinnerLV_glow.GetComponentInChildren<TextMeshProUGUI>(true).m_sharedMaterial = LCB_French_Font.GetFrenchMats(5);
+                sinnerLV_glow.GetComponentInChildren<TextMeshProUGUI>(true).m_sharedMaterial.EnableKeyword("GLOW_ON");
+                sinnerLV_glow.GetComponentInChildren<TextMeshProUGUI>(true).m_sharedMaterial.SetColor("_GlowColor", yellowish);
+                sinnerLV_glow.GetComponentInChildren<TextMeshProUGUI>(true).m_sharedMaterial.SetFloat("_GlowInner", 0.15f);
+                sinnerLV_glow.GetComponentInChildren<TextMeshProUGUI>(true).m_sharedMaterial.SetFloat("_GlowPower", 0.3f);
+            }
+        }
         #endregion
 
         #region Dungeon
-        [HarmonyPatch(typeof(NodeUI), nameof(NodeUI.Init))]
+        [HarmonyPatch(typeof(NodeUI), nameof(NodeUI.SetLineUIVisualActive))]
         [HarmonyPostfix]
         private static void Nodes_Init(NodeUI __instance)
         {
-            GameObject canto1_1 = GameObject.Find("[Script]MapCanvas/DungeonMapFloor_10401_0(Clone)/Nodes/NodeUI_10101/IconFrame/StartTypo");
-            if (canto1_1 != null)
-            {
-                canto1_1.GetComponentInChildren<TextMeshProUGUI>(true).text = "Début";
-                canto1_1.GetComponentInChildren<TextMeshProUGUI>(true).font = LCB_French_Font.tmpfrenchfonts[2];
-                canto1_1.GetComponentInChildren<TextMeshProUGUI>(true).fontMaterial = LCB_French_Font.tmpfrenchfonts[2].material;
-            }
-
-            GameObject canto2_1 = GameObject.Find("[Script]MapCanvas/DungeonMapFloor_10401_0(Clone)/Nodes/NodeUI_10201/IconFrame/StartTypo");
-            if (canto2_1 != null)
-            {
-                canto2_1.GetComponentInChildren<TextMeshProUGUI>(true).text = "Début";
-                canto2_1.GetComponentInChildren<TextMeshProUGUI>(true).font = LCB_French_Font.tmpfrenchfonts[2];
-                canto2_1.GetComponentInChildren<TextMeshProUGUI>(true).fontMaterial = LCB_French_Font.tmpfrenchfonts[2].material;
-            }
-
-            GameObject canto3_1 = GameObject.Find("[Script]MapCanvas/DungeonMapFloor_10401_0(Clone)/Nodes/NodeUI_10301/IconFrame/StartTypo");
-            if (canto3_1 != null)
-            {
-                canto3_1.GetComponentInChildren<TextMeshProUGUI>(true).text = "Début";
-                canto3_1.GetComponentInChildren<TextMeshProUGUI>(true).font = LCB_French_Font.tmpfrenchfonts[2];
-                canto3_1.GetComponentInChildren<TextMeshProUGUI>(true).fontMaterial = LCB_French_Font.tmpfrenchfonts[2].material;
-            }
-
-            GameObject canto4_1 = GameObject.Find("[Script]MapCanvas/DungeonMapFloor_10401_0(Clone)/Nodes/NodeUI_10401/IconFrame/StartTypo");
-            if (canto4_1 != null)
-            {
-                canto4_1.GetComponentInChildren<TextMeshProUGUI>(true).text = "Début";
-                canto4_1.GetComponentInChildren<TextMeshProUGUI>(true).font = LCB_French_Font.tmpfrenchfonts[2];
-                canto4_1.GetComponentInChildren<TextMeshProUGUI>(true).fontMaterial = LCB_French_Font.tmpfrenchfonts[2].material;
-            }
-
-            GameObject canto5_1 = GameObject.Find("[Script]MapCanvas/DungeonMapFloor_10401_0(Clone)/Nodes/NodeUI_10501/IconFrame/StartTypo");
-            if (canto5_1 != null)
-            {
-                canto5_1.GetComponentInChildren<TextMeshProUGUI>(true).text = "Début";
-                canto5_1.GetComponentInChildren<TextMeshProUGUI>(true).font = LCB_French_Font.tmpfrenchfonts[2];
-                canto5_1.GetComponentInChildren<TextMeshProUGUI>(true).fontMaterial = LCB_French_Font.tmpfrenchfonts[2].material;
-            }
+            __instance._startTypo.GetComponentInChildren<TextMeshProUGUI>().text = "НАЧАЛО";
+            __instance._startTypo.GetComponentInChildren<TextMeshProUGUI>().font = LCB_French_Font.tmpfrenchfonts[1];
+            __instance._startTypo.GetComponentInChildren<TextMeshProUGUI>().fontMaterial = LCB_French_Font.tmpfrenchfonts[1].material;
         }
         #endregion
 
@@ -783,6 +940,42 @@ namespace LimbusCompanyFR
                 pierrejack.GetComponentInChildren<TextMeshProUGUI>(true).text = "Choisis";
                 pierrejack.GetComponentInChildren<TextMeshProUGUI>(true).name = "Choisis";
             }
+            Transform angela_my_beloved = __instance.transform.Find("[Scroll]AnnouncerScrollView/Scroll View/Viewport/Content/Layout/[Script]BattleAnnouncerSlot(Clone)/[Image]SelectedTag/[Text]Selected");
+            if (angela_my_beloved != null)
+            {
+                angela_my_beloved.GetComponentInChildren<TextMeshProUGUI>(true).text = "Choisie";
+                angela_my_beloved.GetComponentInChildren<TextMeshProUGUI>(true).name = "Choisie";
+            }
+            Transform nelly = __instance.transform.Find("[Scroll]AnnouncerScrollView/Scroll View/Viewport/Content/Layout/[Script]BattleAnnouncerSlot(Clone)/[Image]SelectedTag/[Text]Selected");
+            if (nelly != null)
+            {
+                nelly.GetComponentInChildren<TextMeshProUGUI>(true).text = "Choisie";
+                nelly.GetComponentInChildren<TextMeshProUGUI>(true).name = "Choisie";
+            }
+            Transform heathcliff = __instance.transform.Find("[Scroll]AnnouncerScrollView/Scroll View/Viewport/Content/Layout/[Script]BattleAnnouncerSlot(Clone)/[Image]SelectedTag/[Text]Selected");
+            if (heathcliff != null)
+            {
+                heathcliff.GetComponentInChildren<TextMeshProUGUI>(true).text = "Choisi";
+                heathcliff.GetComponentInChildren<TextMeshProUGUI>(true).name = "Choisi";
+            }
+            Transform samjo = __instance.transform.Find("[Scroll]AnnouncerScrollView/Scroll View/Viewport/Content/Layout/[Script]BattleAnnouncerSlot(Clone)/[Image]SelectedTag/[Text]Selected");
+            if (samjo != null)
+            {
+                samjo.GetComponentInChildren<TextMeshProUGUI>(true).text = "Choisi";
+                samjo.GetComponentInChildren<TextMeshProUGUI>(true).name = "Choisi";
+            }
+            Transform yesod = __instance.transform.Find("[Scroll]AnnouncerScrollView/Scroll View/Viewport/Content/Layout/[Script]BattleAnnouncerSlot(Clone)/[Image]SelectedTag/[Text]Selected");
+            if (yesod != null)
+            {
+                yesod.GetComponentInChildren<TextMeshProUGUI>(true).text = "Choisi";
+                yesod.GetComponentInChildren<TextMeshProUGUI>(true).name = "Choisi";
+            }
+            Transform molars = __instance.transform.Find("[Scroll]AnnouncerScrollView/Scroll View/Viewport/Content/Layout/[Script]BattleAnnouncerSlot(Clone)/[Image]SelectedTag/[Text]Selected");
+            if (molars != null)
+            {
+                molars.GetComponentInChildren<TextMeshProUGUI>(true).text = "Choisis";
+                molars.GetComponentInChildren<TextMeshProUGUI>(true).name = "Choisis";
+            }
         }
         [HarmonyPatch(typeof(FormationBattleAnnouncerSelectionScrollViewItem), nameof(FormationBattleAnnouncerSelectionScrollViewItem.SetData))]
         [HarmonyPostfix]
@@ -847,10 +1040,14 @@ namespace LimbusCompanyFR
             Transform package_popUp = __instance.transform.Find("BattlePassPurchaseLimbusOrPackagePopup/PanelGroup/PopupBase/Container/[Rect]Contents/[Button]PurchasePackage/[Text]Title");
             Transform until_pass = __instance.transform.Find("[Rect]Right/[Text]UntilSeason");
             limbus_pass.GetComponentInChildren<TextMeshProUGUI>(true).text = "<cspace=-2px>PASS LIMBUS</cspace>";
+            limbus_pass.GetComponentInChildren<RectTransform>().anchoredPosition = new Vector2(0, -37);
             limbus_pass_bought.GetComponentInChildren<TextMeshProUGUI>(true).text = "<cspace=-2px>PASS LIMBUS</cspace>";
+            limbus_pass_bought.GetComponentInChildren<RectTransform>().anchoredPosition = new Vector2(0, -37);
             battle_pass_bought.GetComponentInChildren<TextMeshProUGUI>(true).fontSize = 44;
             limbus_pass_bought.GetComponentInChildren<TextMeshProUGUI>(true).fontSize = 44;
             battle_pass_bought.GetComponentInChildren<TextMeshProUGUI>(true).characterSpacing = -22;
+            battle_pass_bought.GetComponentInChildren<RectTransform>().anchoredPosition = new Vector2(100, 1);
+            battle_pass.GetComponentInChildren<RectTransform>().anchoredPosition = new Vector2(100, 1);
             List<Transform> transforms = new List<Transform> { limbus_pass, limbus_pass_bought, battle_pass, battle_pass_bought, package, package_popUp, until_pass, __instance.tmp_be_in_use.transform, __instance.limbusPassPopup.tmp_description.transform };
             BebasForPass(transforms);
             package.GetComponentInChildren<TextMeshProLanguageSetter>(true).enabled = false;
@@ -970,7 +1167,7 @@ namespace LimbusCompanyFR
         {
             __instance._uiManager._dialogUI.GetComponentInChildren<BattleDialogUI>(true).tmp_dialog.name = "AHUET";
             __instance._uiManager._dialogUI.GetComponentInChildren<BattleDialogUI>(true).tmp_dialog.m_fontAsset = LCB_French_Font.GetFrenchFonts(4);
-            __instance._uiManager._dialogUI.GetComponentInChildren<BattleDialogUI>(true).tmp_dialog.m_sharedMaterial = LCB_French_Font.GetFrenchMats(16);
+            __instance._uiManager._dialogUI.GetComponentInChildren<BattleDialogUI>(true).tmp_dialog.m_sharedMaterial = LCB_French_Font.GetFrenchMats(17);
         }
         #endregion
 
@@ -989,5 +1186,15 @@ namespace LimbusCompanyFR
             __instance._text.text = __instance._text.text.Replace("Lack of Munition", "Manque de Munition");
         }
         #endregion
+
+        #region EGO
+        [HarmonyPatch(typeof(BattleSkillViewUIInfo), nameof(BattleSkillViewUIInfo.Init))]
+        [HarmonyPostfix]
+        private static void EGO_Name_Lines(BattleSkillViewUIInfo __instance)
+        {
+            __instance._abnormalNameText.lineSpacing = -40;
+            __instance._egoSkillNameText.lineSpacing = -40;
+        }
+#endregion
     }
 }

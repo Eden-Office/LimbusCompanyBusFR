@@ -1,0 +1,64 @@
+{
+  "dataList": [
+    {
+      "id": "OnWinDuelAsParryingCountMultiplyAndPlusPercent",
+      "add": "Augmente après avoir gagné un Duel selon le compte de Duel\n<size=95%>(Valeur de Base est {0}, augmenté de {1}% par compte de Duel après 1)</size>",
+      "min": "Diminue après avoir gagné un Duel selon le compte de Duel\n<size=95%>(Valeur de Base est {0}, augmenté de {1}% par compte de Duel après 1)</size>"
+    },
+    {
+      "id": "OnKillEnemyAsLevelRatioMultiply",
+      "add": "Augmente de {0} après que cette unité a vaincu un ennemi dont le niveau était supérieur ou égal à celui de l’unité",
+      "min": "Diminue de {0} après que cette unité a vaincu un ennemi dont le niveau était supérieur ou égal à celui de l’unité"
+    },
+    {
+      "id": "OnKillEnemyByOtherAllyAsLevelRatioMultiply",
+      "add": "Augmente de {0} après qu’un allié vainc un ennemi dont le niveau était supérieur ou égal à celui de l’unité",
+      "min": "Diminue de {0} après qu’un allié vainc un ennemi dont le niveau était supérieur ou égal à celui de l’unité"
+    },
+    {
+      "id": "OnLoseDuelAsParryingCountMultiplyAndPlusPercent",
+      "add": "Augmente après avoir perdu un Duel selon le compte de Duel\n<size=95%>(Valeur de Base est {0}, augmenté de {1}% par compte de Duel après 1)</size>",
+      "min": "Diminue après avoir perdu un Duel selon le compte de Duel\n<size=95%>(Valeur de Base est {0}, augmenté de {1}% par compte de Duel après 1)</size>"
+    },
+    {
+      "id": "OnDieAllyAsLevelRatio",
+      "add": "Si le niveau de l’allié vaincu était supérieur ou égal à celui de l’unité,\naugmente selon la différence de niveau\n<size=95%>(Valeur de Base est {0}, augmenté de {0} par niveau)</size>",
+      "min": "Si le niveau de l’allié vaincu était supérieur ou égal à celui de l’unité,\ndiminue selon la différence de niveau\n<size=95%>(Valeur de Base est {0}, augmenté de {0} par niveau)</size>"
+    },
+    {
+      "id": "OnRoundStartAfterEvent",
+      "add": "Augmenté de {0} au début du tour",
+      "min": "Diminué de {0} au début du tour"
+    },
+    {
+      "id": "OnKillEnemyMp",
+      "add": "Augmente de {0} après que cette unité a vaincu un ennemi, peu importe son niveau",
+      "min": "Diminue de {0} après que cette unité a vaincu un ennemi, peu importe son niveau"
+    },
+    {
+      "id": "OnDieAllyMp",
+      "add": "Si un allié est vaincu, augmente de {0} peu importe le niveau de l’allié",
+      "min": "Si un allié est vaincu, diminue de {0} peu importe le niveau de l’allié"
+    },
+    {
+      "id": "OnKillEnemyByOtherAllyExceptSupportiveAction",
+      "add": "Augmente de {0} après qu’un allié a vaincu un ennemi dont le niveau était supérieur ou égal à celui de cette unité",
+      "min": "Diminue de {0} après qu’un allié a vaincu un ennemi dont le niveau était supérieur ou égal à celui de cette unité. N’augmente pas lorsque l’ennemi est vaincu par une Attaque d’Assistance."
+    },
+    {
+      "id": "OnDieBladeLineageAlly",
+      "add": "Si un allié de la Lignée de la Lame est vaincu, gagne {0} peu importe le niveau de l’allié",
+      "min": "Si un allié de la Lignée de la Lame est vaincu, perd {0} peu importe le niveau de l’allié"
+    },
+    {
+      "id": "OnWinDuelLessMpTarget",
+      "add": "Augmente de {0} après avoir gagné un Duel contre un ennemi dont les PSM sont inférieurs à ceux de cette unité",
+      "min": "Diminue de {0} après avoir gagné un Duel contre un ennemi dont les PSM sont inférieurs à ceux de cette unité"
+    },
+    {
+      "id": "OnLoseDuelLessMpTarget",
+      "add": "Augmente de {0} après avoir perdu un Duel contre un ennemi dont les PSM sont inférieurs à ceux de cette unité",
+      "min": "Diminue de {0} après avoir perdu un Duel contre un ennemi dont les PSM sont inférieurs à ceux de cette unité"
+    }
+  ]
+}

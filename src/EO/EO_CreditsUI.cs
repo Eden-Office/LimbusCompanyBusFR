@@ -20,7 +20,7 @@ namespace LimbusCompanyFR
             Transform skip_story = __instance.transform.Find("[Rect]CreditsAnimation/[Rect]SkipButton/[Button]Skip");
             if (skip_story != null)
             {
-                skip_story.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_Skip"];
+                skip_story.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["Skip"];
             }
         }
     }

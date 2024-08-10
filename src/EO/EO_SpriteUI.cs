@@ -1,20 +1,15 @@
-﻿using System.Runtime.InteropServices;
-using HarmonyLib;
+﻿using HarmonyLib;
 using BattleUI;
 using BattleUI.Typo;
 using MainUI;
 using MainUI.VendingMachine;
-using Login;
-using UI;
-using static UI.Utility.InfoModels;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.EventSystems;
 using StorySystem;
-using Dungeon.Mirror;
 using BattleUI.BattleUnit;
 using MainUI.Gacha;
 using Dungeon.Shop;
+using System;
 
 namespace LimbusCompanyFR
 {
@@ -28,9 +23,9 @@ namespace LimbusCompanyFR
             GameObject combo = GameObject.Find("[Prefab]ParryingTypo(Clone)/[Rect]Pivot/[Fixed,Image]ParryingText");
             if (combo != null)
             {
-                combo.GetComponent<Image>().sprite = EO_ReadmeManager.ReadmeSprites["EO_Combo"];
+                combo.GetComponent<Image>().sprite = EO_ReadmeManager.ReadmeSprites["Combo"];
             }
-            __instance.img_parryingTypo.sprite = EO_ReadmeManager.ReadmeSprites["EO_Combo"];
+            __instance.img_parryingTypo.sprite = EO_ReadmeManager.ReadmeSprites["Combo"];
         }
         #endregion
 
@@ -39,16 +34,28 @@ namespace LimbusCompanyFR
         [HarmonyPostfix]
         private static void LoginSceneManager_Init(LoginSceneManager __instance)
         {
-            Transform catchphrase = __instance.transform.Find("[Canvas]/[Image]Catchphrase");
+            DateTime event_start = new DateTime(2024, 8, 8, 3, 0, 0).ToLocalTime();
+            DateTime event_end = new DateTime(2024, 9, 12, 2, 59, 0).ToLocalTime();
+            DateTime startup = DateTime.Today;
+            Transform catchphrase = __instance._canvas.transform.Find("[Image]Catchphrase");
+            Transform logo = __instance._canvas.transform.Find("[Image]Logo");
             if (catchphrase.GetComponentInChildren<Image>(true).sprite.name == "season_catchphrase")
             {
-                catchphrase.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_Catchphrase"];
+                catchphrase.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["Catchphrase"];
             }
-            __instance.img_touchToStart.sprite = EO_ReadmeManager.ReadmeSprites["EO_Start"];
+            __instance.img_touchToStart.sprite = EO_ReadmeManager.ReadmeSprites["Start"];
             Transform motto = __instance.transform.Find("[Canvas]/[Image]RedLine/[Image]Phrase");
             if (motto != null)
             {
-                motto.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_Motto"];
+                if (logo.gameObject.active == true)
+                {
+                    if (DateTime.Compare(startup, event_end) < 0)
+                        motto.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["Motto_Event"];
+                    else
+                        motto.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["Motto_Default"];
+                }
+                else if (catchphrase.gameObject.active == true)
+                    motto.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["Motto_Season"];
             }
         }
         #endregion
@@ -61,7 +68,7 @@ namespace LimbusCompanyFR
             Transform lunacyTag = __instance.transform.Find("[Rect]Pivot/[Rect]UserInfoUI/[Rect]Info/[Button]CurrencyInfo/[Image]CashTag");
             if (lunacyTag != null)
             {
-                lunacyTag.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_LunacyTag"];
+                lunacyTag.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["LunacyTag"];
             }
         }
         #endregion
@@ -74,7 +81,7 @@ namespace LimbusCompanyFR
             Transform soldOut = __instance.transform.Find("GoodsStoreAreaMaster/GoodsStorePanelGroup/BackPanel/Main/SoldOut");
             if (soldOut != null)
             {
-                soldOut.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_SoldOut"];
+                soldOut.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["SoldOut"];
             }
         }
         #endregion
@@ -84,45 +91,45 @@ namespace LimbusCompanyFR
         [HarmonyPostfix]
         private static void FormationPersonalityUI_Init(FormationPersonalityUI __instance)
         {
-            __instance.img_isParticipaged.sprite = EO_ReadmeManager.ReadmeSprites["EO_InParty"];
-            __instance.img_support.sprite = EO_ReadmeManager.ReadmeSprites["EO_SupportTag"];
-            __instance._redDot.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_New"];
+            __instance.img_isParticipaged.sprite = EO_ReadmeManager.ReadmeSprites["InParty"];
+            __instance.img_support.sprite = EO_ReadmeManager.ReadmeSprites["SupportTag"];
+            __instance._redDot.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["New"];
         }
         [HarmonyPatch(typeof(FormationSwitchablePersonalityUIScrollViewItem), nameof(FormationSwitchablePersonalityUIScrollViewItem.Initialize))]
         [HarmonyPostfix]
         private static void FormationSwitchablePersonalityUIScrollViewItem_Init(FormationSwitchablePersonalityUIScrollViewItem __instance)
         {
             Transform img_isParticipaged = __instance._participatedObject.transform.parent.parent.parent.Find("[Image]ParticipateSlotUI");
-            img_isParticipaged.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_InParty"];
-            __instance._newAcquiredRedDot.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_New"];
+            img_isParticipaged.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["InParty"];
+            __instance._newAcquiredRedDot.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["New"];
         }
         [HarmonyPatch(typeof(FormationSwitchableSupporterPersonalityUIScrollViewItem), nameof(FormationSwitchableSupporterPersonalityUIScrollViewItem.SetData))]
         [HarmonyPostfix]
         private static void YobenBoben(FormationSwitchableSupporterPersonalityUIScrollViewItem __instance)
         {
-            __instance._selectedFrame.sprite = EO_ReadmeManager.ReadmeSprites["EO_InParty"];
+            __instance._selectedFrame.sprite = EO_ReadmeManager.ReadmeSprites["InParty"];
         }
         [HarmonyPatch(typeof(FormationEgoSlot), nameof(FormationEgoSlot.SetData))]
         [HarmonyPostfix]
         private static void FormationEgoSlot_Init(FormationEgoSlot __instance)
         {
-            __instance._redDot.GetComponentInChildren<Image>(true).overrideSprite = EO_ReadmeManager.ReadmeSprites["EO_New"];
+            __instance._redDot.GetComponentInChildren<Image>(true).overrideSprite = EO_ReadmeManager.ReadmeSprites["New"];
         }
         [HarmonyPatch(typeof(FormationSwitchablePersonalityUIPanel), nameof(FormationSwitchablePersonalityUIPanel.SetDataOpen))]
         [HarmonyPostfix]
         private static void FormationSwitchablePersonalityUIPanel_Init(FormationSwitchablePersonalityUIPanel __instance)
         {
             Transform newPersonality = __instance.transform.Find("[Script]RightPanel/[Script]FormationEgoList/[Script]RedDot");
-            __instance._egoRedDot.GetComponentInChildren<Image>(true).overrideSprite = EO_ReadmeManager.ReadmeSprites["EO_New"];
-            __instance._personalityRedDot.GetComponentInChildren<Image>(true).overrideSprite = EO_ReadmeManager.ReadmeSprites["EO_New"];
+            __instance._egoRedDot.GetComponentInChildren<Image>(true).overrideSprite = EO_ReadmeManager.ReadmeSprites["New"];
+            __instance._personalityRedDot.GetComponentInChildren<Image>(true).overrideSprite = EO_ReadmeManager.ReadmeSprites["New"];
             if (newPersonality != null)
-                newPersonality.GetComponentInChildren<Image>(true).overrideSprite = EO_ReadmeManager.ReadmeSprites["EO_New"];
+                newPersonality.GetComponentInChildren<Image>(true).overrideSprite = EO_ReadmeManager.ReadmeSprites["New"];
         }
         [HarmonyPatch(typeof(FormationSwitchableEgoUIScrollViewItem), nameof(FormationSwitchableEgoUIScrollViewItem.SetData))]
         [HarmonyPostfix]
         private static void RedDotAgain_Init(FormationSwitchableEgoUIScrollViewItem __instance)
         {
-            __instance._newAcquiredRedDot.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_New"];
+            __instance._newAcquiredRedDot.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["New"];
         }
         #endregion
 
@@ -134,7 +141,7 @@ namespace LimbusCompanyFR
             // SUPPORT TAG
             Transform support_tag = __instance.transform.Find("[Script]RightPanel/[Script]FormationEgoList/[Image]SupportTag");
             if (support_tag != null)
-                support_tag.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_SupportTag"];
+                support_tag.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["SupportTag"];
         }
         #endregion
 
@@ -145,13 +152,13 @@ namespace LimbusCompanyFR
         {
             Transform new_info = __instance.transform.Find("[Rect]FixedScalePivot/[Text]UnitName/[Image]Icon");
             if (new_info != null)
-                new_info.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_NewInfo"];
+                new_info.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["NewInfo"];
         }
         [HarmonyPatch(typeof(MirrorDungeonShopItemSlot), nameof(MirrorDungeonShopItemSlot.SetData))]
         [HarmonyPostfix]
         private static void MirrorDungeonShopItemSlot_Init(MirrorDungeonShopItemSlot __instance)
         {
-            __instance._soldOutTitleObject.GetComponentInChildren<UnityEngine.UI.Image>().sprite = EO_ReadmeManager.ReadmeSprites["EO_Mirror_SoldOut"];
+            __instance._soldOutTitleObject.GetComponentInChildren<UnityEngine.UI.Image>().sprite = EO_ReadmeManager.ReadmeSprites["Mirror_SoldOut"];
         }
         #endregion
 
@@ -165,21 +172,21 @@ namespace LimbusCompanyFR
             Transform start = __instance.transform.Find("[Canvas,Script]BattleUIController/SafeArea/[Script]NewOperationController/[Rect]ActiveControl/[Rect]Pivot/[Rect]ActionableSlotList/[Layout]SinActionSlotsGrid/[EventTrigger]EndButton/[Image]RightLeg/[Rect]StartUI/[Rect]Pivot/[Image]Start");
             if (waveUI != null)
             {
-                waveUI.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_WaveUI"];
-                waveUI.GetComponentInChildren<Image>(true).m_Sprite = EO_ReadmeManager.ReadmeSprites["EO_WaveUI"];
-                waveUI.GetComponentInChildren<Image>(true).overrideSprite = EO_ReadmeManager.ReadmeSprites["EO_WaveUI"];
+                waveUI.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["WaveUI"];
+                waveUI.GetComponentInChildren<Image>(true).m_Sprite = EO_ReadmeManager.ReadmeSprites["WaveUI"];
+                waveUI.GetComponentInChildren<Image>(true).overrideSprite = EO_ReadmeManager.ReadmeSprites["WaveUI"];
             }
             if (turnUI != null)
             {
-                turnUI.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_TurnUI"];
-                turnUI.GetComponentInChildren<Image>(true).m_Sprite = EO_ReadmeManager.ReadmeSprites["EO_TurnUI"];
-                turnUI.GetComponentInChildren<Image>(true).overrideSprite = EO_ReadmeManager.ReadmeSprites["EO_TurnUI"];
+                turnUI.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["TurnUI"];
+                turnUI.GetComponentInChildren<Image>(true).m_Sprite = EO_ReadmeManager.ReadmeSprites["TurnUI"];
+                turnUI.GetComponentInChildren<Image>(true).overrideSprite = EO_ReadmeManager.ReadmeSprites["TurnUI"];
             }
             if (start != null)
             {
-                start.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_StartBattle"];
-                start.GetComponentInChildren<Image>(true).m_Sprite = EO_ReadmeManager.ReadmeSprites["EO_StartBattle"];
-                start.GetComponentInChildren<Image>(true).overrideSprite = EO_ReadmeManager.ReadmeSprites["EO_StartBattle"];
+                start.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["StartBattle"];
+                start.GetComponentInChildren<Image>(true).m_Sprite = EO_ReadmeManager.ReadmeSprites["StartBattle"];
+                start.GetComponentInChildren<Image>(true).overrideSprite = EO_ReadmeManager.ReadmeSprites["StartBattle"];
             }
         }
         [HarmonyPatch(typeof(ActTypoController), nameof(ActTypoController.Init))]
@@ -189,9 +196,9 @@ namespace LimbusCompanyFR
             Transform turn = __instance.transform.Find("[Rect]Active/[Script]ActTypoTurnUI/[Image]Turn");
             if (turn != null)
             {
-                turn.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_Turn"];
-                turn.GetComponentInChildren<Image>(true).m_Sprite = EO_ReadmeManager.ReadmeSprites["EO_Turn"];
-                turn.GetComponentInChildren<Image>(true).overrideSprite = EO_ReadmeManager.ReadmeSprites["EO_Turn"];
+                turn.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["Turn"];
+                turn.GetComponentInChildren<Image>(true).m_Sprite = EO_ReadmeManager.ReadmeSprites["Turn"];
+                turn.GetComponentInChildren<Image>(true).overrideSprite = EO_ReadmeManager.ReadmeSprites["Turn"];
             }
         }
         //[HarmonyPatch(typeof(BattleSkillViewUIOverClock), nameof(BattleSkillViewUIOverClock.SetActiveOverClock))]
@@ -201,12 +208,12 @@ namespace LimbusCompanyFR
         //    Transform overclock_stable = __instance.transform.Find("[Canvas]Canvas/[Script]SkillViewCanvas/OverClock/OverClockImg");
         //    if (overclock_stable != null)
         //    {
-        //        overclock_stable.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_Overclock"];
-        //        overclock_stable.GetComponentInChildren<Image>(true).m_Sprite = EO_ReadmeManager.ReadmeSprites["EO_Overclock"];
-        //        overclock_stable.GetComponentInChildren<Image>(true).overrideSprite = EO_ReadmeManager.ReadmeSprites["EO_Overclock"];
-        //        __instance._image_OverClock.sprite = EO_ReadmeManager.ReadmeSprites["EO_Overclock"];
-        //        __instance._image_OverClock.m_Sprite = EO_ReadmeManager.ReadmeSprites["EO_Overclock"];
-        //        __instance._image_OverClock.overrideSprite = EO_ReadmeManager.ReadmeSprites["EO_Overclock"];
+        //        overclock_stable.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["Overclock"];
+        //        overclock_stable.GetComponentInChildren<Image>(true).m_Sprite = EO_ReadmeManager.ReadmeSprites["Overclock"];
+        //        overclock_stable.GetComponentInChildren<Image>(true).overrideSprite = EO_ReadmeManager.ReadmeSprites["Overclock"];
+        //        __instance._image_OverClock.sprite = EO_ReadmeManager.ReadmeSprites["Overclock"];
+        //        __instance._image_OverClock.m_Sprite = EO_ReadmeManager.ReadmeSprites["Overclock"];
+        //        __instance._image_OverClock.overrideSprite = EO_ReadmeManager.ReadmeSprites["Overclock"];
         //    }
         //}
         #endregion
@@ -219,7 +226,7 @@ namespace LimbusCompanyFR
             Transform skip_gacha = __instance.transform.Find("[Rect]GetNewCardRoot/[Button]Skip");
             if (skip_gacha != null)
             {
-                skip_gacha.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_Skip"];
+                skip_gacha.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["Skip"];
             }
         }
         #endregion
@@ -230,10 +237,10 @@ namespace LimbusCompanyFR
         private static void AutoButton_Init(StoryManager __instance)
         {
             Transform autoButton = __instance._nonPostProcessRectTransform.transform.Find("[Rect]Buttons/[Rect]MenuObject/[Button]Auto");
-            autoButton.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["EO_AutoButton"];
-            autoButton.GetComponentInChildren<StoryUIButton>(true)._buttonImageList[0] = EO_ReadmeManager.ReadmeSprites["EO_AutoButton"];
-            autoButton.GetComponentInChildren<StoryUIButton>(true)._buttonImageList[1] = EO_ReadmeManager.ReadmeSprites["EO_AutoButton_Enabled"];
-            autoButton.GetComponentInChildren<StoryUIButton>(true)._buttonImageList[2] = EO_ReadmeManager.ReadmeSprites["EO_TextButton"];
+            autoButton.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["AutoButton"];
+            autoButton.GetComponentInChildren<StoryUIButton>(true)._buttonImageList[0] = EO_ReadmeManager.ReadmeSprites["AutoButton"];
+            autoButton.GetComponentInChildren<StoryUIButton>(true)._buttonImageList[1] = EO_ReadmeManager.ReadmeSprites["AutoButton_Enabled"];
+            autoButton.GetComponentInChildren<StoryUIButton>(true)._buttonImageList[2] = EO_ReadmeManager.ReadmeSprites["TextButton"];
         }
         #endregion
 
@@ -244,8 +251,8 @@ namespace LimbusCompanyFR
         {
             Transform Def = __instance._defeatGroup.transform.Find("[Image]Typo_Defeat");
             Transform Win = __instance._victoryGroup.transform.Find("[Image]Typo_Victory");
-            Def.GetComponentInChildren<Image>().overrideSprite = EO_ReadmeManager.ReadmeSprites["EO_Defeat_Text"];
-            Win.GetComponentInChildren<Image>().overrideSprite = EO_ReadmeManager.ReadmeSprites["EO_Victory_Text"];
+            Def.GetComponentInChildren<Image>().overrideSprite = EO_ReadmeManager.ReadmeSprites["Defeat_Text"];
+            Win.GetComponentInChildren<Image>().overrideSprite = EO_ReadmeManager.ReadmeSprites["Victory_Text"];
         }
         [HarmonyPatch(typeof(BattleResultUIPanel), nameof(BattleResultUIPanel.SetStatusUI))]
         [HarmonyPostfix]
@@ -253,13 +260,13 @@ namespace LimbusCompanyFR
         {
             if (__instance.img_ResultMark.sprite.name == "MainUI_BattleResult_1_20")
             {
-                __instance.img_ResultMark.overrideSprite = EO_ReadmeManager.ReadmeSprites["EO_Defeat"];
+                __instance.img_ResultMark.overrideSprite = EO_ReadmeManager.ReadmeSprites["Defeat"];
             }
             else
             {
-                __instance.img_ResultMark.overrideSprite = EO_ReadmeManager.ReadmeSprites["EO_Victory"];
+                __instance.img_ResultMark.overrideSprite = EO_ReadmeManager.ReadmeSprites["Victory"];
             }
-            __instance.img_exclear.overrideSprite = EO_ReadmeManager.ReadmeSprites["EO_EX"];
+            __instance.img_exclear.overrideSprite = EO_ReadmeManager.ReadmeSprites["EX"];
         }
         #endregion
 
@@ -268,7 +275,7 @@ namespace LimbusCompanyFR
         [HarmonyPostfix]
         private static void GachaCardUI_SetData(GachaCardUI __instance)
         {
-            __instance.img_newMark.overrideSprite = EO_ReadmeManager.ReadmeSprites["EO_NewGacha"];
+            __instance.img_newMark.overrideSprite = EO_ReadmeManager.ReadmeSprites["NewGacha"];
         }
         #endregion
     }

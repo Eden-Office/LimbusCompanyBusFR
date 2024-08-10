@@ -428,6 +428,223 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1070901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Activation 40S-2",
+          "desc": "[WhenUse] Consomme 5 de Compte de [Charge] pour gagner +1 de Puissance de Pièce",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Charge]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Activation 40S-2",
+          "desc": "[WhenUse] Consomme 5 de Compte de [Charge] pour gagner +1 de Puissance de Pièce<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Gagne +2 de Compte de [Charge]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Charge]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Activation 40S-2",
+          "desc": "[WhenUse] Consomme 5 de Compte de [Charge] pour gagner +1 de Puissance de Pièce<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Charge]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Charge]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1070902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Marque Photoélectrique",
+          "desc": "[WhenUse] À 5~9 de Compte de [Charge], consomme 2*(10 - Compte de [Charge] actuel)% PV pour augmenter le Compte de [Charge] à 10\n[WhenUse] Consomme 10 de Compte de [Charge] pour gagner +1 de Puissance de Pièce",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige de la [PhotoElectricity] égale à la [Charge] (2 max)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Marque Photoélectrique",
+          "desc": "[WhenUse] À 5~9 de Compte de [Charge], consomme 2*(10 - Compte de [Charge] actuel)% PV pour augmenter le Compte de [Charge] à 10\n[WhenUse] Consomme 10 de Compte de [Charge] pour gagner +1 de Puissance de Pièce<style=\"highlight\"></style>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Si cette unité a consommé du Compte de [Charge], inflige 2 de [DefenseDown]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 1 de [TakeHpHealReduce]</style>\n[OnSucceedAttack] Inflige de la [PhotoElectricity] égale à la [Charge] (<style=\"highlight\">3</style> max)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Marque Photoélectrique",
+          "desc": "[WhenUse] À 5~9 de Compte de [Charge], consomme 2*(10 - Compte de [Charge] actuel)% PV pour augmenter le Compte de [Charge] à 10\n[WhenUse] Consomme 10 de Compte de [Charge] pour gagner <style=\"highlight\">+2</style> de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Si cette unité a consommé du Compte de [Charge], inflige 2 de [DefenseDown]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si cette unité a consommé du Compte de [Charge], inflige 2 de [DefenseDown]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> de [TakeHpHealReduce]\n[OnSucceedAttack] Inflige de la [PhotoElectricity] égale à la [Charge] (3 max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1070903,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Harpon Photoélectrique",
+          "desc": "À 2+ de [Charge], +1 de Puissance de Pièce",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +5 de Compte de [Charge]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +([Charge] * 3) de Compte de [Charge] (9 max)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige de la [PhotoElectricity] égale à la [Charge] (3 max)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Harpon Photoélectrique",
+          "desc": "<style=\"highlight\">+1 de Puissance de Pièce pour chaque 2 de [Charge] sur soi (2 max)</style>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +<style=\"highlight\">7</style> de Compte de [Charge]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +([Charge] * 3) de Compte de [Charge] (9 max)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige de la [PhotoElectricity] égale à la [Charge] (3 max)\n<style=\"highlight\">[OnSucceedAttack] Inflige 1 de [HitTakeDamageUp] pour chaque 2 de [Charge] (2 max)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1070904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Charge",
+          "desc": "[WhenUse] Gagne +3 de Compte de [Charge] (une fois par tour)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Charge",
+          "desc": "[WhenUse] Gagne +3 de Compte de [Charge] (<style=\"highlight\">2 fois</style> par tour)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
     }
   ]
 }

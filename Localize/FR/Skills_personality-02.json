@@ -815,6 +815,193 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1021001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Activation 40Y-3",
+          "desc": "[WhenUse] Consomme 5 de Compte de [Charge] pour gagner +1 de Puissance de Pièce",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Charge]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Activation 40Y-3",
+          "desc": "[WhenUse] Consomme 5 de Compte de [Charge] pour gagner +1 de Puissance de Pièce<style=\"highlight\"></style>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +<style=\"highlight\">3</style> de Compte de [Charge]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Activation 40Y-3",
+          "desc": "[WhenUse] Consomme 5 de Compte de [Charge] pour gagner <style=\"highlight\">+2</style> de Puissance de Pièce",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +3 de Compte de [Charge]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Contre-Courant de Charge",
+          "desc": "[WhenUse] À 5~9 de Compte de [Charge], consomme 2*(10 - Compte de [Charge] actuel)% PV pour augmenter le Compte de [Charge] à 10\n[WhenUse] Consomme 10 de Compte de [Charge] pour gagner +1 de Puissance de Pièce",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "À 3+ de Réson. incluant cette Capacité, consomme tout le Compte de [Charge] sur soi et inflige +([Charge])% de dégâts supplémentaires pour chaque Compte de [Charge] consommé par cette Capacité (60% max)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Contre-Courant de Charge",
+          "desc": "[WhenUse] À 5~9 de Compte de [Charge], consomme 2*(10 - Compte de [Charge] actuel)% PV pour augmenter le Compte de [Charge] à 10\n[WhenUse] Consomme 10 de Compte de [Charge] pour gagner +1 de Puissance de Pièce<style=\"highlight\"></style>",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "À 3+ de Réson. incluant cette Capacité, consomme tout le Compte de [Charge] sur soi et inflige +<style=\"highlight\">([Charge] + 3)</style>% de dégâts supplémentaires pour chaque Compte de [Charge] consommé par cette Capacité (<style=\"highlight\">120%</style> max)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Contre-Courant de Charge",
+          "desc": "[WhenUse] À 5~9 de Compte de [Charge], consomme 2*(10 - Compte de [Charge] actuel)% PV pour augmenter le Compte de [Charge] à 10\n[WhenUse] Consomme 10 de Compte de [Charge] to gain Coin Power <style=\"highlight\">+2</style>",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "À 3+ de Réson. incluant cette Capacité, consomme tout le Compte de [Charge] sur soi et inflige +<style=\"highlight\">([Charge] + 4)</style>% de dégâts supplémentaires pour chaque Compte de [Charge] consommé par cette Capacité (<style=\"highlight\">180%</style> max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021003,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Charge 40Y-3",
+          "desc": "À 2+ de [Charge], +2 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +([Charge] + 4) de Compte de [Charge] (7 max)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +([Charge] + 4) de Compte de [Charge] (7 max)"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "À 3+ de [Charge], inflige +4% de dégâts supplémentaires pour chaque [Charge] (20% max)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Charge 40Y-3",
+          "desc": "<style=\"highlight\">+1 de Puissance de Pièce pour chaque [Charge] (4 max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +([Charge] + <style=\"highlight\">5</style>) de Compte de [Charge] (<style=\"highlight\">8</style> max)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +([Charge] + <style=\"highlight\">5</style>) de Compte de [Charge] (<style=\"highlight\">8</style> max)"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "À 3+ de [Charge], inflige <style=\"highlight\">+8%</style> de dégâts supplémentaires pour chaque [Charge] (<style=\"highlight\">40</style>% max)\n<style=\"highlight\">[OnSucceedAttack] Inflige 1 de Vulnérabilité d’Envie au prochain tour\n- À 2+ de [Charge], inflige 1 de Vulnérabilité d’Envie supplémentaire</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Charge",
+          "desc": "[WhenUse] Gagne +2 de Compte de [Charge] (2 fois par tour)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Charge",
+          "desc": "[WhenUse] Gagne +<style=\"highlight\">4</style> de Compte de [Charge] (2 fois par tour)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
     }
   ]
 }

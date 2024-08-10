@@ -16,7 +16,7 @@ namespace LimbusCompanyFR
     {
         public static List<TMP_FontAsset> tmpfrenchfonts = new();
         public static List<string> tmpfrenchfontsnames = new();
-        public static List<Material> tmpfrenchmats = new ();
+        public static List<Material> tmpfrenchmats = new();
         public static List<string> tmpfrenchmatsnames = new();
         #region Шрифты
         public static bool AddFrenchFont(string path)
@@ -167,7 +167,7 @@ namespace LimbusCompanyFR
         private static void set_fontMaterial(TMP_Text __instance, ref Material value)
         {
             if (IsFrenchFont(__instance.m_fontAsset))
-            { 
+            {
                 value = __instance.m_fontAsset.material;
                 if (premat.ContainsKey(__instance))
                 {
@@ -178,7 +178,7 @@ namespace LimbusCompanyFR
                     value = CloneMat;
                     Material pre = premat[__instance];
                     Color f1 = Color.black;
-                    
+
                     CloneMat.shader = Shader.Find("TextMeshPro/Distance Field");
                     CloneMat.SetColor("_UnderlayColor", f1);
                     CloneMat.SetFloat("_UnderlayOffsetX", 5);
@@ -195,7 +195,7 @@ namespace LimbusCompanyFR
                 }
             }
         }
-        public static Material CloneMat;     
+        public static Material CloneMat;
         [HarmonyPatch(typeof(TextMeshProLanguageSetter), nameof(TextMeshProLanguageSetter.UpdateTMP))]
         [HarmonyPrefix]
         private static bool UpdateTMP(TextMeshProLanguageSetter __instance, LOCALIZE_LANGUAGE lang)
@@ -295,6 +295,8 @@ namespace LimbusCompanyFR
             tm._mirrorDungeonEgoGiftLockedDescList.Init(romoteLocalizeFileList.MirrorDungeonEgoGiftLockedDesc);
             tm._mirrorDungeonEnemyBuffDescList.Init(romoteLocalizeFileList.MirrorDungeonEnemyBuffDesc);
             tm._iapStickerText.Init(romoteLocalizeFileList.IAPSticker);
+            tm._battleSpeechBubbleText.Init(romoteLocalizeFileList.BattleSpeechBubble);
+            tm._danteAbilityDataList.Init(romoteLocalizeFileList.DanteAbility);
 
             tm._abnormalityEventCharDlg.AbEventCharDlgRootInit(romoteLocalizeFileList.abnormalityCharDlgFilePath);
 
@@ -332,12 +334,12 @@ namespace LimbusCompanyFR
         [HarmonyPrefix]
         private static bool GetScenario(StoryDataParser __instance, string scenarioID, ref LOCALIZE_LANGUAGE lang, ref Scenario __result)
         {
-            TextAsset textAsset = SingletonBehavior<AddressableManager>.Instance.LoadAssetSync<TextAsset>("Assets/Resources_moved/Story/Effect", scenarioID, null, null).Item1;
+            TextAsset textAsset = AddressableManager.Instance.LoadAssetSync<TextAsset>("Assets/Resources_moved/Story/Effect", scenarioID, null, null).Item1;
             if (!textAsset)
             {
                 LCB_EOMod.LogError("Story Unknown Error! Call Story: Dirty Hacker");
                 scenarioID = "SDUMMY";
-                textAsset = SingletonBehavior<AddressableManager>.Instance.LoadAssetSync<TextAsset>("Assets/Resources_moved/Story/Effect", scenarioID, null, null).Item1;
+                textAsset = AddressableManager.Instance.LoadAssetSync<TextAsset>("Assets/Resources_moved/Story/Effect", scenarioID, null, null).Item1;
             }
             if (!EO_Manager.Localizes.TryGetValue(scenarioID, out string text))
             {
@@ -351,18 +353,27 @@ namespace LimbusCompanyFR
             };
             JSONArray jsonarray = JSONNode.Parse(text)[0].AsArray;
             JSONArray jsonarray2 = JSONNode.Parse(text2)[0].AsArray;
+            int s = 0;
             for (int i = 0; i < jsonarray.Count; i++)
             {
-                int num = jsonarray[i][0].AsInt;
-                if (num >= 0)
+                var jSONNode = jsonarray[i];
+                if (jSONNode.Count < 1)
                 {
-                    JSONNode jsonnode;
-                    if (jsonarray2[i][0].AsInt == num)
-                        jsonnode = jsonarray2[i];
-                    else
-                        jsonnode = new JSONObject();
-                    scenario.Scenarios.Add(new Dialog(num, jsonarray[i], jsonnode));
+                    s++;
+                    continue;
                 }
+                int num;
+                if (jSONNode[0].IsNumber && jSONNode[0].AsInt < 0)
+                    continue;
+                num = i - s;
+                JSONNode effectToken = jsonarray2[num];
+                if ("{\"controlCG\": {\"IsNotPlayDialog\":true}}".Equals(effectToken["effectv2"]))
+                {
+                    s--;
+                    scenario.Scenarios.Add(new Dialog(num, new(), effectToken));
+                    effectToken = jsonarray2[num + 1];
+                }
+                scenario.Scenarios.Add(new Dialog(num, jSONNode, effectToken));
             }
             __result = scenario;
             return false;
@@ -396,15 +407,13 @@ namespace LimbusCompanyFR
         [HarmonyPatch(typeof(TextDataManager), nameof(TextDataManager.LoadRemote))]
         [HarmonyPrefix]
         private static void LoadRemote(ref LOCALIZE_LANGUAGE lang)
-        {
-            lang = LOCALIZE_LANGUAGE.EN;
-        }
-        [HarmonyPatch(typeof(StoryAssetLoader), nameof(StoryAssetLoader.Init))]
+           => lang = LOCALIZE_LANGUAGE.EN;
+        [HarmonyPatch(typeof(StoryData), nameof(StoryData.Init))]
         [HarmonyPostfix]
-        private static void StoryDataInit(StoryAssetLoader __instance)
+        private static void StoryDataInit(StoryData __instance)
         {
             foreach (ScenarioAssetData scenarioAssetData in JsonUtility.FromJson<ScenarioAssetDataList>(EO_Manager.Localizes["NickName"]).assetData)
-                __instance._modelAssetMap[scenarioAssetData.name] = scenarioAssetData;
+                __instance._modelAssetMap._modelAssetMap[scenarioAssetData.name] = scenarioAssetData;
         }
         [HarmonyPatch(typeof(LoginSceneManager), nameof(LoginSceneManager.SetLoginInfo))]
         [HarmonyPostfix]
@@ -412,6 +421,8 @@ namespace LimbusCompanyFR
         {
             LoadLocal(LOCALIZE_LANGUAGE.EN);
             __instance.tmp_loginAccount.text = "LimbusCompany Français v" + LCB_EOMod.VERSION;
+            __instance.tmp_loginAccount.characterSpacing = -2;
+            __instance.tmp_loginAccount.lineSpacing = -20;
         }
         private static void Init<T>(this JsonDataList<T> jsonDataList, List<string> jsonFilePathList) where T : LocalizeTextData, new()
         {

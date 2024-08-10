@@ -295,6 +295,142 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2110711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Broyeur à Dimension",
+          "abName": "Passager Égaré",
+          "desc": "[BeforeAttack] À 4+ de plus haute Réson., gagne +1 Poids d’Atq\n[BeforeAttack] À moins de 10 de Compte de [Charge], consomme 15% des PV pour gagner +10 de Compte de [Charge] (ces dégâts ne réduisent pas les PV de cette unité à 0 ; arrondi à l’inférieur)\n[BeforeAttack] Consomme jusqu’à 40 de Compte de [Charge] et inflige +1% de dégâts supplémentaires par Compte de [Charge] consommé (10% max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige ([Charge] - 1) de [DimensionRift] (1 max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de [Agility] et 1 de [ChargeLoad] au prochain tour pour chaque [Charge] (1 max de chaque par Capacité)"
+                },
+                {
+                  "desc": "[EnemyKill] Gagne +2 de Compte de [Charge]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Broyeur à Dimension",
+          "abName": "Passager Égaré",
+          "desc": "[BeforeAttack] À <style=\"highlight\">3</style>+ de plus haute Réson., gagne +1 Poids d’Atq\n[BeforeAttack] À moins de 10 de Compte de [Charge], consomme 15% des PV pour gagner +10 de Compte de [Charge] (ces dégâts ne réduisent pas les PV de cette unité à 0 ; arrondi à l’inférieur)\n[BeforeAttack] Consomme jusqu’à 40 de Compte de [Charge] et inflige +1% de dégâts supplémentaires par Compte de [Charge] consommé (<style=\"highlight\">20</style>% max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige ([Charge] - 1) de [DimensionRift] (<style=\"highlight\">2</style> max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de [Agility] et 1 de [ChargeLoad] au prochain tour pour chaque [Charge] (<style=\"highlight\">2</style> max de chaque par Capacité)"
+                },
+                {
+                  "desc": "[EnemyKill] Gagne +2 de Compte de [Charge]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Broyeur à Dimension",
+          "abName": "Passager Égaré",
+          "desc": "[BeforeAttack] Gagne <style=\"highlight\">(plus haute Réson. - 2)</style> Poids d’Atq <style=\"highlight\">(2 max)</style>\n[BeforeAttack] À moins de 10 de Compte de [Charge], consomme <style=\"highlight\">10</style>% des PV pour gagner +10 de Compte de [Charge] (ces dégâts ne réduisent pas les PV de cette unité à 0 ; arrondi à l’inférieur)\n[BeforeAttack] Consomme jusqu’à 40 de Compte de [Charge] et inflige +1% de dégâts supplémentaires par Compte de [Charge] consommé (<style=\"highlight\">30</style>% max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige ([Charge] - 1) de [DimensionRift] (2 max)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de [Agility] et 1 de [ChargeLoad] au prochain tour pour chaque [Charge] (<style=\"highlight\">3</style> max de chaque par Capacité)"
+                },
+                {
+                  "desc": "[EnemyKill] Gagne +2 de Compte de [Charge]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2110721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Broyeur à Dimension",
+          "abName": "Passager Égaré",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[BeforeAttack] À 4+ de plus haute Réson., gagne +1 Poids d’Atq\n[BeforeAttack] À moins du maximum de Compte de [Charge], consomme (Compte de [Charge] manquant * 1.5)% de PV pour gagner jusqu’au Compte de [Charge] max (Compte de [Charge] max obtenable par cet effet : 30. Ces dégâts ne réduisent pas les PV de cette unité à 0 ; arrondi à l’inférieur)\n[BeforeAttack] Consomme jusqu’à 40 de Compte de [Charge] et inflige +2% de dégâts supplémentaires pour chaque Compte de [Charge] consommé (20% max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige ([Charge] - 1) de [DimensionRift] (2 max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de [Agility] et 1 de [ChargeLoad] au prochain tour pour chaque [Charge] (2 max de chaque par Capacité)"
+                },
+                {
+                  "desc": "[EnemyKill] Gagne +2 de Compte de [Charge]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Broyeur à Dimension",
+          "abName": "Passager Égaré",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[BeforeAttack] À 4+ de plus haute Réson., gagne +1 Poids d’Atq\n[BeforeAttack] À moins du maximum de Compte de [Charge], consomme (Compte de [Charge] manquant * <style=\"highlight\">1.2</style>)% de PV pour gagner jusqu’au Compte de [Charge] max (Compte de [Charge] max obtenable par cet effet : 30. Ces dégâts ne réduisent pas les PV de cette unité à 0 ; arrondi à l’inférieur)\n[BeforeAttack] Consomme jusqu’à 40 de Compte de [Charge] et inflige +2% de dégâts supplémentaires pour chaque Compte de [Charge] consommé (<style=\"highlight\">40</style>% max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige ([Charge] - 1) de [DimensionRift] (2 max)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de [Agility] et 1 de [ChargeLoad] au prochain tour pour chaque [Charge] (2 max de chaque par Capacité)"
+                },
+                {
+                  "desc": "[EnemyKill] Gagne +2 de Compte de [Charge]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Broyeur à Dimension",
+          "abName": "Passager Égaré",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[BeforeAttack] Gagne <style=\"highlight\">(plus haute Réson. - 2)</style> Poids d’Atq <style=\"highlight\">(2 max)</style>\n[BeforeAttack] À moins du maximum de Compte de [Charge], consomme <style=\"highlight\">(Compte de [Charge] manquant)%</style> de PV pour gagner jusqu’au Compte de [Charge] max (Compte de [Charge] max obtenable par cet effet : 30. Ces dégâts ne réduisent pas les PV de cette unité à 0 ; arrondi à l’inférieur)\n[BeforeAttack] Consomme jusqu’à 40 de Compte de [Charge] et inflige +2% de dégâts supplémentaires pour chaque Compte de [Charge] consommé (<style=\"highlight\">60</style>% max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige ([Charge] - 1) de [DimensionRift] (<style=\"highlight\">4</style> max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de [Agility] et 1 de [ChargeLoad] au prochain tour pour chaque [Charge] (<style=\"highlight\">3</style> max de chaque par Capacité)"
+                },
+                {
+                  "desc": "[EnemyKill] Gagne +2 de Compte de [Charge]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

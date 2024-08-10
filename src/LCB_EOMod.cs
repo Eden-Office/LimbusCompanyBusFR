@@ -1,6 +1,7 @@
 ﻿using BepInEx;
 using BepInEx.Configuration;
 using BepInEx.Unity.IL2CPP;
+using LimbusCompanyFR.EO;
 using StorySystem;
 using System;
 using System.IO;
@@ -18,7 +19,7 @@ namespace LimbusCompanyFR
         public static string GamePath;
         public const string GUID = "Com.EdenOffice.LocalizeLimbusCompanyFR";
         public const string NAME = "LimbusCompanyFR";
-        public const string VERSION = "0.2.0";
+        public const string VERSION = "0.2.1";
         public const string AUTHOR = "Bright (Modified by Knightey)";
         public const string EOLink = "https://github.com/Eden-Office/LimbusCompanyBusFR";
         public static Action<string, Action> LogFatalError { get; set; }
@@ -46,10 +47,11 @@ namespace LimbusCompanyFR
                     harmony.PatchAll(typeof(EO_LoadingManager));
                     harmony.PatchAll(typeof(EO_SpriteUI));
                     harmony.PatchAll(typeof(EO_TextUI));
+                    harmony.PatchAll(typeof(EO_TemporaryTextures));
                     harmony.PatchAll(typeof(EO_CreditsUI));
                     harmony.PatchAll(typeof(EO_EventUI));
                     harmony.PatchAll(typeof(EO_SeasonUI));
-                    harmony.PatchAll(typeof(EO_TemporaryTextures));
+                    harmony.PatchAll(typeof(EO_StoryUI));
                 }
                 harmony.PatchAll(typeof(EO_Manager));
                 harmony.PatchAll(typeof(EO_French_Setting));

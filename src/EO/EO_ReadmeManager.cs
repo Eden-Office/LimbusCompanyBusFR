@@ -26,10 +26,10 @@ namespace LimbusCompanyFR
             InitReadmeButton();
             InitReadmeSprites();
             InitReadmeEventSprites();
+            InitReadmeStorySprites();
         }
         public static void UIInitialize()
         {
-            InitReadmeSprites();
             Action _close = () => { Close(); };
             NoticeUIInstance._popupPanel.closeEvent.AddListener(_close);
             NoticeUIInstance._arrowScroll.Initialize();
@@ -42,8 +42,10 @@ namespace LimbusCompanyFR
             NoticeUIInstance.btn_systemNotice._onClick.AddListener(systemNotice_onClick);
             NoticeUIInstance.btn_systemNotice.GetComponentInChildren<UITextDataLoader>(true).enabled = false;
             NoticeUIInstance.btn_systemNotice.GetComponentInChildren<TextMeshProUGUI>(true).text = "Notes de\nmise à jour";
+            NoticeUIInstance.btn_systemNotice.GetComponentInChildren<TextMeshProUGUI>(true).lineSpacing = -30;
             NoticeUIInstance.btn_eventNotice.GetComponentInChildren<UITextDataLoader>(true).enabled = false;
             NoticeUIInstance.btn_eventNotice.GetComponentInChildren<TextMeshProUGUI>(true).text = "Notes";
+            NoticeUIInstance.btn_eventNotice.GetComponentInChildren<TextMeshProUGUI>(true).lineSpacing = -30;
         }
         public static void Open()
         {
@@ -110,6 +112,23 @@ namespace LimbusCompanyFR
                 ReadmeEventSprites[fileNameWithoutExtension] = sprite;
             }
         }
+        public static void InitReadmeStorySprites()
+        {
+            ReadmeStorySprites = new Dictionary<string, Sprite>();
+
+            foreach (FileInfo fileInfo in new DirectoryInfo(LCB_EOMod.ModPath + "/Localize/Readme/Sprites/Story").GetFiles().Where(f => f.Extension == ".jpg" || f.Extension == ".png"))
+            {
+                Texture2D texture2D = new(2, 2);
+                ImageConversion.LoadImage(texture2D, File.ReadAllBytes(fileInfo.FullName));
+                Sprite sprite = Sprite.Create(texture2D, new Rect(0f, 0f, texture2D.width, texture2D.height), new Vector2(0.5f, 0.5f));
+                string fileNameWithoutExtension = Path.GetFileNameWithoutExtension(fileInfo.FullName);
+                texture2D.name = fileNameWithoutExtension;
+                sprite.name = fileNameWithoutExtension;
+                UObject.DontDestroyOnLoad(sprite);
+                sprite.hideFlags |= HideFlags.HideAndDontSave;
+                ReadmeStorySprites[fileNameWithoutExtension] = sprite;
+            }
+        }
         public static void InitReadmeList()
         {
             ReadmeList.Clear();
@@ -122,11 +141,12 @@ namespace LimbusCompanyFR
         public static Dictionary<string, Sprite> ReadmeButton = new();
         public static Dictionary<string, Sprite> ReadmeSprites = new();
         public static Dictionary<string, Sprite> ReadmeEventSprites = new();
+        public static Dictionary<string, Sprite> ReadmeStorySprites = new();
         public static System.Collections.Generic.Dictionary<string, Action> ReadmeActions = new();
 
         public static void Close()
         {
-            Singleton<UserLocalSaveDataRoot>.Instance.NoticeRedDotSaveModel.Save();
+            UserLocalSaveDataRoot.Instance.NoticeRedDotSaveModel.Save();
             NoticeUIInstance._popupPanel.Close();
             UpdateNoticeRedDot();
         }
@@ -138,7 +158,7 @@ namespace LimbusCompanyFR
             int count = ReadmeList.Count;
             while (i < count)
             {
-                if (!Singleton<UserLocalSaveDataRoot>.Instance.NoticeRedDotSaveModel.TryCheckId(ReadmeList[i].ID))
+                if (!UserLocalSaveDataRoot.Instance.NoticeRedDotSaveModel.TryCheckId(ReadmeList[i].ID))
                 {
                     return true;
                 }

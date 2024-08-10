@@ -854,7 +854,7 @@
           "level": 4,
           "name": "Flamme de la 4ème Allumette",
           "abName": "Fille Brûlée",
-          "desc": "+2 de Puissance de Capacité contre les unités avec Brûlure\nInflige +5% de dégâts par Brûlure sur la cible (Max 100%)\n[EnemyKill] Gagne 2 de Bonus de Puissance d’Attaque",
+          "desc": "+2 de Puissance de Capacité contre les unités avec Brûlure\nInflige +5% de dégâts par Brûlure sur la cible (100% Max)\n[EnemyKill] Gagne 2 de Bonus de Puissance d’Attaque",
           "coinlist": [
             {
               "coindescs": [
@@ -904,7 +904,7 @@
           "level": 4,
           "name": "Flamme de la 4ème Allumette",
           "abName": "Fille Brûlée",
-          "desc": "[CantIdentify]\nCible aléatoirement\n+4 de Puissance de Capacité contre les unités avec Brûlure\nInflige +5% de dégâts par Brûlure sur la cible (Max 100%)\n[EnemyKill] Gagne 3 de Bonus de Puissance d’Attaque\n[EnemyKillFail] Gagne 3 de Bonus de Puissance d’Attaque et 10 de Brûlure au prochain tour",
+          "desc": "[CantIdentify]\nCible aléatoirement\n+4 de Puissance de Capacité contre les unités avec Brûlure\nInflige +5% de dégâts par Brûlure sur la cible (100% Max)\n[EnemyKill] Gagne 3 de Bonus de Puissance d’Attaque\n[EnemyKillFail] Gagne 3 de Bonus de Puissance d’Attaque et 10 de Brûlure au prochain tour",
           "coinlist": [
             {
               "coindescs": [
@@ -1422,7 +1422,7 @@
           "level": 4,
           "name": "Télépole",
           "abName": "Chien de Garde des Ruelles",
-          "desc": "[WhenUse] Gagne du Compte de Charge selon la Réson. d’Envie\nDépense 5 de Compte de Charge pour gagne +3 de Puissance de Capacité (Max 12)",
+          "desc": "[WhenUse] Gagne du Compte de Charge selon la Réson. d’Envie\nDépense 5 de Compte de Charge pour gagne +3 de Puissance de Capacité (12 Max)",
           "coinlist": [
             {
               "coindescs": [
@@ -3116,12 +3116,12 @@
           "level": 1,
           "name": "Broyeur à Dimension",
           "abName": "Passager Égaré",
-          "desc": "Cible l’unité la plus en arrière (dans les combats normaux)\n\n[BeforeAttack] Dépense du Compte de Charge pour infliger plus de dégâts (Max 50%)",
+          "desc": "Cible l’unité la plus en arrière (dans les combats normaux)\n\n[BeforeAttack] Dépense du Compte de Charge pour infliger plus de dégâts (50% Max)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige des dégâts d’Orgueil supplémentaires égaux à (Déchirure de la cible * 7.5)% des dégâts infligés et réduit le Compte de Déchirure de 5 (Max 75%)"
+                  "desc": "[OnSucceedAttack] Inflige des dégâts d’Orgueil supplémentaires égaux à (Déchirure de la cible * 7.5)% des dégâts infligés et réduit le Compte de Déchirure de 5 (75% Max)"
                 }
               ]
             }
@@ -3131,15 +3131,15 @@
           "level": 3,
           "name": "Broyeur à Dimension",
           "abName": "Passager Égaré",
-          "desc": "Cible l’unité la plus en arrière (dans les combats normaux)\n\n[BeforeAttack] Dépense du Compte de Charges pour infliger plus de dégâts (Max 75%)",
+          "desc": "Cible l’unité la plus en arrière (dans les combats normaux)\n\n[BeforeAttack] Dépense du Compte de Charges pour infliger plus de dégâts (<style=\"highlight\">75</style>% Max)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si du Compte de Charge est dépensé, inflige 3 de Faille Dimensionnelle"
+                  "desc": "[OnSucceedAttack] <style=\"highlight\">Si du Compte de Charge est dépensé, inflige 3 de [DimensionRift]</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige des dégâts d’Orgueil supplémentaires égaux à (Déchirure de la cible * 10)% des dégâts infligés et réduit le Compte de Déchirure de 5 (Max 100%)"
+                  "desc": "[OnSucceedAttack] Inflige des dégâts d’Orgueil supplémentaires égaux à (Déchirure de la cible * <style=\"highlight\">10</style>)% des dégâts infligés et réduit le Compte de Déchirure de 5 (<style=\"highlight\">100</style>% Max)"
                 }
               ]
             }
@@ -3149,15 +3149,15 @@
           "level": 4,
           "name": "Broyeur à Dimension",
           "abName": "Passager Égaré",
-          "desc": "Cible l’unité la plus en arrière (dans les combats normaux)\n\n[BeforeAttack] Dépense du Compte de Charge pour infliger plus de dégâts (Max 75%)",
+          "desc": "Cible l’unité la plus en arrière (dans les combats normaux)\n\n[BeforeAttack] Dépense du Compte de Charge pour infliger plus de dégâts (75 Max)<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si du Compte de Charge est dépensé, inflige 5 de Faille Dimensionnelle"
+                  "desc": "[OnSucceedAttack] Si du Compte de Charge est dépensé, inflige <style=\"highlight\">5</style> de [DimensionRift]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige des dégâts d’Orgueil supplémentaires égaux à (Déchirure de la cible * 10)% des dégâts infligés et réduit le Compte de Déchirure de 5 (Max 100%)"
+                  "desc": "[OnSucceedAttack] Inflige des dégâts d’Orgueil supplémentaires égaux à (Déchirure de la cible * 10)% des dégâts infligés et réduit le Compte de Déchirure de 5 (100 Max)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3172,7 +3172,7 @@
           "level": 1,
           "name": "Broyeur à Dimension",
           "abName": "Passager Égaré",
-          "desc": "[CantIdentify]\nCible une unité aléatoire\n\n[BeforeAttack] Dépense du Compte de Charge pour infliger plus de dégâts (Max 50%)",
+          "desc": "[CantIdentify]\nCible une unité aléatoire\n\n[BeforeAttack] Dépense du Compte de Charge pour infliger plus de dégâts (50% Max)",
           "coinlist": [
             {
               "coindescs": [
@@ -3180,7 +3180,7 @@
                   "desc": "[OnSucceedAttack] Inflige 3 de Déchirure"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige des dégâts d’Orgueil supplémentaires égaux à (Déchirure de la cible * 7.5)% des dégâts infligés et réduit le Compte de Déchirure de 5 (Max 75%)"
+                  "desc": "[OnSucceedAttack] Inflige des dégâts d’Orgueil supplémentaires égaux à (Déchirure de la cible * 7.5)% des dégâts infligés et réduit le Compte de Déchirure de 5 (75% Max)"
                 }
               ]
             }
@@ -3190,18 +3190,18 @@
           "level": 3,
           "name": "Broyeur à Dimension",
           "abName": "Passager Égaré",
-          "desc": "[CantIdentify]\nCible une unité aléatoire\n\n[BeforeAttack] Dépense du Compte de Charge pour infliger plus de dégâts (Max 75%)",
+          "desc": "[CantIdentify]\nCible une unité aléatoire\n\n[BeforeAttack] Dépense de la Charge pour infliger plus de dégâts (<style=\"highlight\">75</style>% Max)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si du Compte de Charge est dépensé, inflige 3 de Faille Dimensionnelle"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Si du Compte de Charge est dépensé, inflige 3 de [DimensionRift]</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 6 de Déchirure"
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">6</style> de Déchirure"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige des dégâts d’Orgueil supplémentaires égaux à (Déchirure de la cible * 10)% des dégâts infligés et réduit le Compte de Déchirure de 5 (Max 100%)"
+                  "desc": "[OnSucceedAttack] Inflige des dégâts d’Orgueil supplémentaires égaux à (Déchirure de la cible * <style=\"highlight\">10</style>)% des dégâts infligés et réduit le Compte de Déchirure de 5 (<style=\"highlight\">100</style>% Max)"
                 }
               ]
             }
@@ -3211,18 +3211,18 @@
           "level": 4,
           "name": "Broyeur à Dimension",
           "abName": "Passager Égaré",
-          "desc": "[CantIdentify]\nCible une unité aléatoire\n\n[BeforeAttack] Spend Charge Count to deal more damage (Max 75%)",
+          "desc": "[CantIdentify]\nCible une unité aléatoire\n\n[BeforeAttack] Dépense de la Charge pour infliger plus de dégâts (75 Max)<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si du Compte de Charge est dépensé, inflige 5 de Faille Dimensionnelle"
+                  "desc": "[OnSucceedAttack] Si du Compte de Charge est dépensé, inflige <style=\"highlight\">5</style> de [DimensionRift]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 6 de Déchirure"
+                  "desc": "[OnSucceedAttack] Inflige 6 de Déchirure<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige des dégâts d’Orgueil supplémentaires égaux à (Déchirure de la cible * 10)% des dégâts infligés et réduit le Compte de Déchirure de 5 (Max 100%)"
+                  "desc": "[OnSucceedAttack] Inflige des dégâts d’Orgueil supplémentaires égaux à (Déchirure de la cible * 10)% des dégâts infligés et réduit le Compte de Déchirure de 5 (100 Max)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3779,7 +3779,7 @@
           "level": 1,
           "name": "DDEA",
           "abName": "Centipède de Choc",
-          "desc": "[BeforeAttack] Gagne +1 de Compte de Charge pour tous les 10% de PV manquants (Max 5)\nGagne +2 de Vitesse au prochain tour",
+          "desc": "[BeforeAttack] Gagne +1 de Compte de Charge pour tous les 10% de PV manquants (5 Max)\nGagne +2 de Vitesse au prochain tour",
           "coinlist": [
             {
               "coindescs": [
@@ -3794,7 +3794,7 @@
           "level": 3,
           "name": "DDEA",
           "abName": "Centipède de Choc",
-          "desc": "[BeforeAttack] Gagne +1 de Compte de Charge pour tous les 10% de PV manquants (Max 7)\nGagne +2 de Vitesse au prochain tour",
+          "desc": "[BeforeAttack] Gagne +1 de Compte de Charge pour tous les 10% de PV manquants (7 Max)\nGagne +2 de Vitesse au prochain tour",
           "coinlist": [
             {
               "coindescs": [
@@ -3814,12 +3814,12 @@
           "level": 1,
           "name": "DDEA",
           "abName": "Centipède de Choc",
-          "desc": "[CantIdentify]\nCible aléatoirement\n[BeforeAttack] Gagne +1 de Compte de Charge pour tous les 10% de PV manquants (Max 5)\nGagne +2 de Vitesse au prochain tour",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[BeforeAttack] Gagne +1 de Compte de Charge pour tous les 10% de PV manquants (5 Max)\nGagne +2 de Vitesse au prochain tour",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Dépense tout le Compte de Charge pour infliger des dégâts de Peine supplémentaires égaux à (Compte de Charge * 1.5)% des dégâts infligés (Max 30%)"
+                  "desc": "[OnSucceedAttack] Dépense tout le Compte de Charge pour infliger des dégâts de Peine supplémentaires égaux à (Compte de Charge * 1.5)% des dégâts infligés (30% Max)"
                 },
                 {
                   "desc": "[OnSucceedAttackTail] Après l’attaque, perd 10% de ses PV Max. pour gagne +7 de Compte de Charge"
@@ -3832,12 +3832,12 @@
           "level": 3,
           "name": "DDEA",
           "abName": "Centipède de Choc",
-          "desc": "[CantIdentify]\nCible aléatoirement\n[BeforeAttack] Gagne +1 de Compte de Charge pour tous les 10% de PV manquants (Max 7)\nGagne +2 de Vitesse au prochain tour",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[BeforeAttack] Gagne +1 de Compte de Charge pour tous les 10% de PV manquants (7 Max)\nGagne +2 de Vitesse au prochain tour",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Dépense tout le Compte de Charge pour infliger des dégâts de Peine supplémentaires égaux à (Compte de Charge * 2.5)% des dégâts infligés (Max 50%)"
+                  "desc": "[OnSucceedAttack] Dépense tout le Compte de Charge pour infliger des dégâts de Peine supplémentaires égaux à (Compte de Charge * 2.5)% des dégâts infligés (50% Max)"
                 },
                 {
                   "desc": "[OnSucceedAttackTail] Après l’attaque, perd 10% de ses PV Max. pour gagne +10 de Compte de Charge"
@@ -3850,12 +3850,12 @@
           "level": 4,
           "name": "DDEA",
           "abName": "Centipède de Choc",
-          "desc": "[CantIdentify]\nCible aléatoirement\n[BeforeAttack] Gagne +1 de Compte de Charge pour tous les 10% de PV manquants (Max 7)\nGagne +2 de Vitesse au prochain tour",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[BeforeAttack] Gagne +1 de Compte de Charge pour tous les 10% de PV manquants (7 Max)\nGagne +2 de Vitesse au prochain tour",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Dépense tout le Compte de Charge pour infliger des dégâts de Peine supplémentaires égaux à (Compte de Charge * 2.5)% des dégâts infligés (Max 50%)"
+                  "desc": "[OnSucceedAttack] Dépense tout le Compte de Charge pour infliger des dégâts de Peine supplémentaires égaux à (Compte de Charge * 2.5)% des dégâts infligés (50% Max)"
                 },
                 {
                   "desc": "[EndSkill] Dépense tout le Compte de Charge"
