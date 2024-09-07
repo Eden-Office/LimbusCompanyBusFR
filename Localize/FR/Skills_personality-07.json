@@ -526,7 +526,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 1 de [TakeHpHealReduce]</style>\n[OnSucceedAttack] Inflige de la [PhotoElectricity] égale à la [Charge] (<style=\"highlight\">3</style> max)"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 1 de [TakeHpHealReduce]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige de la [PhotoElectricity] égale à la [Charge] (<style=\"highlight\">3</style> max)"
                 }
               ]
             }
@@ -554,7 +557,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> de [TakeHpHealReduce]\n[OnSucceedAttack] Inflige de la [PhotoElectricity] égale à la [Charge] (3 max)"
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> de [TakeHpHealReduce]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige de la [PhotoElectricity] égale à la [Charge] (3 max)"
                 }
               ]
             }
@@ -617,7 +623,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige de la [PhotoElectricity] égale à la [Charge] (3 max)\n<style=\"highlight\">[OnSucceedAttack] Inflige 1 de [HitTakeDamageUp] pour chaque 2 de [Charge] (2 max)</style>"
+                  "desc": "[OnSucceedAttack] Inflige de la [PhotoElectricity] égale à la [Charge] (3 max)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 1 de [HitTakeDamageUp] pour chaque 2 de [Charge] (2 max)</style>"
                 }
               ]
             }
@@ -642,6 +651,375 @@
           "desc": "[WhenUse] Gagne +3 de Compte de [Charge] (<style=\"highlight\">2 fois</style> par tour)",
           "coinlist": [
             {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Décapitation",
+          "desc": "[WhenUse] Si la cible a 8+ de [Sinking], +1 de Puissance de Duel",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Décapitation",
+          "desc": "[WhenUse] Si la cible a 6+ de [Sinking], +1 de Puissance de Duel\n<style=\"highlight\">[WhenUse] Si la cible a 3+ de Compte de [Sinking], +1 de Puissance de Pièce</style>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Décapitation",
+          "desc": "[WhenUse] Si la cible a 6+ de [Sinking], +1 de Puissance de Duel\n[WhenUse] <style=\"highlight\">+1 de Puissance de Pièce pour chaque 3 de Compte de [Sinking] sur la cible (2 max)</style>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Procession Mémorielle",
+          "desc": "[WhenUse] Si la cible a 5+ de [Sinking], +1 de Puissance de Pièce\n[EndSkill] Si cette unité a [NightPathfinding], perd 10 PSM",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [WanderingFootsteps] au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Procession Mémorielle",
+          "desc": "[WhenUse] Si la cible a 5+ de [Sinking], +1 de Puissance de Pièce\n<style=\"highlight\">[WhenUse] À 4+ de [Coffin], +1 de Poids d’Atq\n[WhenUse] Si cette unité a [NightPathfinding], +1 de Poids d’Atq</style>\n[EndSkill] Si cette unité a [NightPathfinding], perd 10 PSM",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [WanderingFootsteps] au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Procession Mémorielle",
+          "desc": "[WhenUse] <style=\"highlight\">+1 de Puissance de Pièce pour chaque 5 de [Sinking] sur la cible (2 max)</style>\n[WhenUse] <style=\"highlight\">+1 de Poids d’Atq pour chaque 4 de [Coffin] sur soi (2 max)</style>\n[WhenUse] Si cette unité a [NightPathfinding], +1 de Poids d’Atq\n[EndSkill] Si cette unité a [NightPathfinding], perd 10 PSM",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [WanderingFootsteps] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071003,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Requiem",
+          "desc": "[WinDuel] Regagne 10 PSM\n[BeforeUse] Si cette unité a [NightPathfinding], active 'Lamente-toi, Pleure et Désespère' à la place\n[WhenUse] +1 de Puissance de Pièce pour chaque 6 de [Sinking] sur la cible (2 max)\n[WhenUse] Inflige +7% de dégâts supplémentaires pour chaque [Coffin] sur soi (70% max)\n[WhenUse] Gagne 1 de [Coffin]\n[EndSkill] Si l’attaque de cette Capacité tue la cible, gagne 2 de [Coffin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [WanderingFootsteps], inflige +2 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Sinking]"
+                },
+                {
+                  "desc": "[EnemyKill] Inflige ([Sinking] de la cible tuée/3) de [Sinking] à 2 ennemis aléatoires (3 max)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Requiem",
+          "desc": "[WinDuel] Regagne 10 PSM\n[BeforeUse] Si cette unité a [NightPathfinding], active 'Lamente-toi, Pleure et Désespère' à la place\n[WhenUse] +1 de Puissance de Pièce pour <style=\"highlight\">chaque 3</style> de [Sinking] sur la cible (<style=\"highlight\">4</style> max)\n[WhenUse] Inflige +12% de dégâts supplémentaires pour chaque [Coffin] sur soi (120% max)\n[WhenUse] Gagne 1 de [Coffin]\n[EndSkill] Si l’attaque de cette Capacité tue la cible, gagne 2 de [Coffin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">+4</style> de Compte de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [WanderingFootsteps], inflige +2 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> de [Sinking]"
+                },
+                {
+                  "desc": "[EnemyKill] Inflige ([Sinking] de la cible tuée/<style=\"highlight\">2</style>) de [Sinking] à 2 ennemis aléatoires (<style=\"highlight\">5</style> max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ô Dullahan… !",
+          "desc": "[DuelCounter]\n[StartBattle] Si cette unité n’a pas [NightPathfinding], gagne 1 de [NightPathfinding] au prochain tour (une fois par tour)\n[EndBattle] Si cette unité a [NightPathfinding], perd [NightPathfinding]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Ô Dullahan… !",
+          "desc": "[DuelCounter]\n<style=\"highlight\">[BeforeUse] Si cette unité a [NightPathfinding] et a 15+ PSM, utilise 'Lamente-toi, Pleure et Désespère' en tant que Riposte (une fois par tour)</style>\n[StartBattle] Si cette unité n’a pas [NightPathfinding], gagne 1 de [NightPathfinding] au prochain tour (une fois par tour)\n<style=\"highlight\">[WhenUse] Si la cible a 6+ de [Sinking], +1 de Puissance de Pièce</style>\n[EndBattle] Si cette unité a [NightPathfinding], perd [NightPathfinding]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ô Dullahan… !",
+          "desc": "[DuelCounter]\n[BeforeUse] Si cette unité a [NightPathfinding] et a 15+ PSM, utilise 'Lamente-toi, Pleure et Désespère' en tant que Riposte (une fois par tour)\n[StartBattle] Si cette unité n’a pas [NightPathfinding], gagne 1 de [NightPathfinding] au prochain tour (une fois par tour)\n[WhenUse] <style=\"highlight\">+1 de Puissance de Pièce pour chaque 3 de [Sinking] sur la cible (2 max)</style>\n<style=\"highlight\">[WinDuel] Gagne du [AttackUp] égal à (# de Duels/3) au prochain tour (3 max, une fois par tour)</style>\n[EndBattle] Si cette unité a [NightPathfinding], perd [NightPathfinding]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Sinking] <style=\"highlight\">et +1 de Compte de [Sinking]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071005,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Lamente-toi, Pleure et Désespère",
+          "desc": "[WhenUse] Perd 15 PSM\n[WhenUse] +1 de Puissance de Base pour chaque 5 de [Sinking] sur la cible (2 max)\n[WhenUse] Plus la valeur des PSM de cette unité est éloignée de 45, plus elle inflige des dégâts (+0.3% de dégâts supplémentaires pour chaque PSM manquant, 21% max)\n[WhenUse] Inflige +7% de dégâts supplémentaires pour chaque Cercueil sur soi (70% max)\n[WhenUse] Inflige +10% de dégâts supplémentaires pour chaque [NightPathfinding] sur soi (30% max)\n[WhenUse] Gagne 1 de [Coffin]\n[EndSkill] Si l’attaque de cette Capacité tue la cible, gagne 2 de [Coffin]\n[EndSkill] À moins de 0 PSM, regagne 10 PSM. Lorsque à moins de 0 PSM, plus la valeur de PSM de cette unité est éloignée de 0 et plus elle regagne de PSM  (regagne 1 PSM supplémentaire pour chaque PSM manquant ; 25 max)\n[EndBattle] Perd [NightPathfinding]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Sinking] et +1 de Compte de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Augmente de 20% des dégâts infligés le Seuil de Déséquilibre de la cible"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts d’Affinité de Peine égaux à la [Sinking] de la cible (15 max)"
+                },
+                {
+                  "desc": "[EnemyKill] Inflige ([Sinking] de la cible tuée/3) de [Sinking] à 2 ennemis aléatoires (4 max)"
+                },
+                {
+                  "desc": "[EnemyKill] Regagne 15 PSM"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Lamente-toi, Pleure et Désespère",
+          "desc": "[WhenUse] Perd 15 PSM\n[WhenUse] +1 de Puissance de Base pour chaque 5 de [Sinking] sur la cible (<style=\"highlight\">4</style> max)\n[WhenUse] Plus la valeur des PSM de cette unité est éloignée de 45, plus elle inflige des dégâts (+0.3% de dégâts supplémentaires pour chaque PSM manquant, 21% max)\n[WhenUse] Inflige +<style=\"highlight\">10</style>% de dégâts supplémentaires pour chaque Cercueil sur soi (<style=\"highlight\">100</style>% max)\n[WhenUse] Inflige +<style=\"highlight\">20</style>% de dégâts supplémentaires pour chaque [NightPathfinding] sur soi (<style=\"highlight\">60</style>% max)\n[WhenUse] Gagne <style=\"highlight\">2</style> de [Coffin]\n[EndSkill] Si l’attaque de cette Capacité tue la cible, gagne <style=\"highlight\">3</style> de [Coffin]\n[EndSkill] À moins de 0 PSM, regagne 10 PSM. Lorsque à moins de 0 PSM, plus la valeur de PSM de cette unité est éloignée de 0 et plus elle regagne de PSM  (regagne <style=\"highlight\">2</style> PSM supplémentaires pour chaque PSM manquant ; <style=\"highlight\">50</style> max)\n[EndBattle] Perd [NightPathfinding]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">5</style> de [Sinking] et +2 de Compte de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Augmente de <style=\"highlight\">30</style>% des dégâts infligés le Seuil de Déséquilibre de la cible"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts d’Affinité de Peine égaux à la [Sinking] de la cible (<style=\"highlight\">30</style> max)"
+                },
+                {
+                  "desc": "[EnemyKill] Inflige ([Sinking] de la cible tuée/<style=\"highlight\">2</style>) de [Sinking] à 2 ennemis aléatoires (<style=\"highlight\">8</style> max)"
+                },
+                {
+                  "desc": "[EnemyKill] Regagne 15 PSM"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071006,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Lamente-toi, Pleure et Désespère",
+          "desc": "[WhenUse] Perd 15 PSM\n[WhenUse] +1 de Puissance de Base pour chaque 5 de [Sinking] sur la cible (2 max)\n[WhenUse] Plus la valeur des PSM de cette unité est éloignée de 45, plus elle inflige des dégâts (+0.3% de dégâts supplémentaires pour chaque PSM manquant, 21% max)\n[WhenUse] Inflige +7% de dégâts supplémentaires pour chaque Cercueil sur soi (70% max)\n[WhenUse] Inflige +10% de dégâts supplémentaires pour chaque [NightPathfinding] sur soi (30% max)\n[WhenUse] Gagne 1 de [Coffin]\n[EndSkill] Si l’attaque de cette Capacité tue la cible, gagne 2 de [Coffin]\n[EndSkill] À moins de 0 PSM, regagne 10 PSM. Lorsque à moins de 0 PSM, plus la valeur de PSM de cette unité est éloignée de 0 et plus elle regagne de PSM  (regagne 1 PSM supplémentaire pour chaque PSM manquant ; 25 max)\n[EndBattle] Perd [NightPathfinding]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Sinking] et +1 de Compte de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Augmente de 20% des dégâts infligés le Seuil de Déséquilibre de la cible"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts d’Affinité de Peine égaux à la [Sinking] de la cible (15 max)"
+                },
+                {
+                  "desc": "[EnemyKill] Inflige ([Sinking] de la cible tuée/3) de [Sinking] à 2 ennemis aléatoires (4 max)"
+                },
+                {
+                  "desc": "[EnemyKill] Regagne 15 PSM"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Lamente-toi, Pleure et Désespère",
+          "desc": "[WhenUse] Perd 15 PSM\n[WhenUse] +1 de Puissance de Base pour chaque 5 de [Sinking] sur la cible (<style=\"highlight\">4</style> max)\n[WhenUse] Plus la valeur des PSM de cette unité est éloignée de 45, plus elle inflige des dégâts (+0.3% de dégâts supplémentaires pour chaque PSM manquant, 21% max)\n[WhenUse] Inflige +<style=\"highlight\">10</style>% de dégâts supplémentaires pour chaque Cercueil sur soi (<style=\"highlight\">100</style>% max)\n[WhenUse] Inflige +<style=\"highlight\">20</style>% de dégâts supplémentaires pour chaque [NightPathfinding] sur soi (<style=\"highlight\">60</style>% max)\n[WhenUse] Gagne <style=\"highlight\">2</style> de [Coffin]\n[EndSkill] Si l’attaque de cette Capacité tue la cible, gagne <style=\"highlight\">3</style> de [Coffin]\n[EndSkill] À moins de 0 PSM, regagne 10 PSM. Lorsque à moins de 0 PSM, plus la valeur de PSM de cette unité est éloignée de 0 et plus elle regagne de PSM  (regagne <style=\"highlight\">2</style> PSM supplémentaires pour chaque PSM manquant ; <style=\"highlight\">50</style> max)\n[EndBattle] Perd [NightPathfinding]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">5</style> de [Sinking] et +2 de Compte de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Augmente de <style=\"highlight\">30</style>% des dégâts infligés le Seuil de Déséquilibre de la cible"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts d’Affinité de Peine égaux à la [Sinking] de la cible (<style=\"highlight\">30</style> max)"
+                },
+                {
+                  "desc": "[EnemyKill] Inflige ([Sinking] de la cible tuée/<style=\"highlight\">2</style>) de [Sinking] à 2 ennemis aléatoires (<style=\"highlight\">8</style> max)"
+                },
+                {
+                  "desc": "[EnemyKill] Regagne 15 PSM"
+                }
+              ]
+            }
           ]
         }
       ]

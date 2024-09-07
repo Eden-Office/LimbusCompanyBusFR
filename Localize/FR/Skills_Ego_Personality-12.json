@@ -220,6 +220,184 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2120711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Solennelle Lamentation",
+          "abName": "La Funéraille des Papillons Morts",
+          "desc": "Lorsque cette Capacité lance une Pièce, chaque Pièce est jouée contre un ennemi aléatoire parmi ses cibles.\n- La première Pièce cible toujours la cible principale.\n- Tous les effets ‘En Touche’ et les dégâts infligés par chaque Pièce sont infligés uniquement contre la cible aléatoire choisie par la Pièce.\nEn infligeant [SinkingWhite] avec les effets de cette Capacité : (Chances de faire Pile)% de chances d’infliger Les Défunts. Si cette unité n’a pas infligé Les Défunts, inflige Les Vivants à la place. (Calcule chaque stack de [SinkingWhite] indépendamment)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [SinkingWhite] aléatoire"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [SinkingWhite] aléatoire"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1~2 de [SinkingWhite] aléatoire"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Perd 2~6 PSM"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 0+ PSM, Réutilise cette Pièce (5 fois max par Capacité)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Solennelle Lamentation",
+          "abName": "La Funéraille des Papillons Morts",
+          "desc": "Lorsque cette Capacité lance une Pièce, chaque Pièce est jouée contre un ennemi aléatoire parmi ses cibles.\n- La première Pièce cible toujours la cible principale.\n- Tous les effets ‘En Touche’ et les dégâts infligés par chaque Pièce sont infligés uniquement contre la cible aléatoire choisie par la Pièce.\nEn infligeant [SinkingWhite] avec les effets de cette Capacité : (Chances de faire Pile)% de chances d’infliger Les Défunts. Si cette unité n’a pas infligé Les Défunts, inflige Les Vivants à la place. (Calcule chaque stack de [SinkingWhite] indépendamment)\n<style=\"highlight\">[EndSkill] Regagne (# de Pièce 3 ayant touché * 2) PSM</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [SinkingWhite] aléatoire"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [SinkingWhite] aléatoire"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1~2 de [SinkingWhite] aléatoire<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Perd 2~6 PSM<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 0+ PSM, Réutilise cette Pièce (5 fois max par Capacité)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Solennelle Lamentation",
+          "abName": "La Funéraille des Papillons Morts",
+          "desc": "Lorsque cette Capacité lance une Pièce, chaque Pièce est jouée contre un ennemi aléatoire parmi ses cibles.\n- La première Pièce cible toujours la cible principale.\n- Tous les effets ‘En Touche’ et les dégâts infligés par chaque Pièce sont infligés uniquement contre la cible aléatoire choisie par la Pièce.\nEn infligeant [SinkingWhite] avec les effets de cette Capacité : (Chances de faire Pile)% de chances d’infliger Les Défunts. Si cette unité n’a pas infligé Les Défunts, inflige Les Vivants à la place. (Calcule chaque stack de [SinkingWhite] indépendamment)\n[EndSkill] Regagne <style=\"highlight\">(# de Pièce 3 ayant touché * 3)</style> PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [SinkingWhite] aléatoire"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [SinkingWhite] aléatoire"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1~2 de [SinkingWhite] aléatoire<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Perd 2~6 PSM<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 0+ PSM, Réutilise cette Pièce (5 fois max par Capacité)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Solennelle Lamentation",
+          "abName": "La Funéraille des Papillons Morts",
+          "desc": "[CantIdentify]\nCible aléatoirement\nSi la cible a moins de 0 PSM, inflige plus de dégâts pour chaque PSM de différence par rapport à 0 (+1% de dégâts pour chaque PSM manquant, 45% max)\nContre les cibles sans PSM : inflige +1% de dégâts supplémentaires pour chaque 2 de [Sinking] sur la cible (45% max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 de [SinkingWhite] (Les Vivants)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 de [SinkingWhite] (Les Défunts)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Solennelle Lamentation",
+          "abName": "La Funéraille des Papillons Morts",
+          "desc": "[CantIdentify]\nCible aléatoirement\nSi la cible a moins de 0 PSM, inflige plus de dégâts pour chaque PSM de différence par rapport à 0 (+1% de dégâts pour chaque PSM manquant, 45% max)\nContre les cibles sans PSM : inflige +1% de dégâts supplémentaires pour chaque 2 de [Sinking] sur la cible (45% max)\n<style=\"highlight\">[EnemyKill] Regagne 5 PSM</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 de [SinkingWhite] (Les Vivants)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 de [SinkingWhite] (Les Défunts)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige +3 de Compte de [Sinking]</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Solennelle Lamentation",
+          "abName": "La Funéraille des Papillons Morts",
+          "desc": "[CantIdentify]\nCible aléatoirement\nSi la cible a moins de 0 PSM, inflige plus de dégâts pour chaque PSM de différence par rapport à 0 (+1% de dégâts pour chaque PSM manquant, 45% max)\nContre les cibles sans PSM : inflige +1% de dégâts supplémentaires pour chaque 2 de [Sinking] sur la cible (45% max)\n[EnemyKill] Regagne 5 PSM<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 de [SinkingWhite] (Les Vivants)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 de [SinkingWhite] (Les Défunts)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Si la cible a 50%- de PV, inflige des Dégâts de Peine égaux à \"Toutes\" les valeurs de [SinkingWhite] sur la cible\n- \"Toutes\" = la somme des Vivants et des Défunts sur la cible</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -359,9 +359,9 @@ namespace LimbusCompanyFR
         };
 
 
-        [HarmonyPatch(typeof(MainLobbyUIPanel), nameof(MainLobbyUIPanel.ActiveDialog))]
+        [HarmonyPatch(typeof(MainLobbyPersonalityCard), nameof(MainLobbyPersonalityCard.ActiveDialog))]
         [HarmonyPostfix]
-        private static void Lobby_Init(MainLobbyUIPanel __instance)
+        private static void Lobby_Init(MainLobbyPersonalityCard __instance)
         {
             __instance.tmpro_dialog.m_sharedMaterial = LCB_French_Font.GetFrenchMats(15);
             __instance.tmpro_dialog.m_sharedMaterial.SetFloat("_GlowPower", 3);
@@ -413,7 +413,7 @@ namespace LimbusCompanyFR
             __instance.tmp_result.m_sharedMaterial = LCB_French_Font.GetFrenchMats(11);
             __instance.tmp_result.fontMaterial.EnableKeyword("GLOW_ON");
             __instance.tmp_result.fontMaterial.SetFloat("_GlowInner", 0.6f);
-            __instance.tmp_result.fontMaterial.SetFloat("_GlowOuter", 0.6f);
+            __instance.tmp_result.fontMaterial.SetFloat("_GlowOuter", 0.05f);
             __instance.tmp_result.fontMaterial.SetFloat("_GlowPower", 3);
             __instance.tmp_result.characterSpacing = 2;
             if (__instance.tmp_result.text.Contains("Victoire"))

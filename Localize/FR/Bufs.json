@@ -2001,6 +2001,105 @@
       "name": "Photoélectricité",
       "desc": "Valeur Max : 3\nLorsque cette unité est touchée, l’Attaquant gagne du Compte de Charge égal à la valeur (une fois par Capacité)\n- Si l’Attaquant a 5- de Compte de Charge, il gagne +3 de Compte de Charge supplémentaire\nFin du Tour : cet effet expire",
       "summary": ""
+    },
+    {
+      "id": "AaCfPaBa_Alt1",
+      "name": "Deuil Éternel",
+      "desc": "Chaque Début du Tour : regagne 5 PSM\nLorsque touché, perd 3 PSM et gagne 2 Bonus de Niveau Offensif au prochain tour (3 fois par tour)\nDébut du Tour : à moins de 0 PSM, gagne 3 de Bonus de Puissance d’Attaque",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "AaCfPaBa_Alt2",
+      "name": "Décapiter les Heathcliffs",
+      "desc": "Chaque Début du Tour : regagne 10 PSM\nLorsque touché, gagne 2 de Bonus de Niveau Offensif au prochain tour (3 fois par tour)\nDébut du Tour : à moins de 0 PSM, gagne 3 de Bonus de Puissance d’Attaque",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "AaCfPcBa_Alt1",
+      "name": "Colère Déversée",
+      "desc": "Fin du Tour : regagne 10 PSM\nLorsque touché, gagne 1 de Bonus de Niveau Offensif au prochain tour (3 fois par tour)\nDébut du Tour : à moins de 0 PSM, gagne 3 de Bonus de Puissance d’Attaque\nDébut du Tour : si cette unité a Dullahan, gagne 1 de Bonus de Dégâts et 3 de Malus de Niveau Défensif",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "AaCfPcBa_Alt2",
+      "name": "Décapiter les Heathcliffs",
+      "desc": "Fin du Tour : regagne 10 PSM\nLorsque touché, gagne 1 de Bonus de Niveau Offensif au prochain tour (3 fois par tour)\nDébut du Tour : à moins de 10 PSM, gagne 3 de Bonus de Puissance d’Attaque\nDébut du Tour : si cette unité a Dullahan, gagne 3 de Bonus de Dégâts et 3 de Malus de Niveau Défensif",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "AaCfPcBa_Alt3",
+      "name": "Affection et Haine",
+      "desc": "Fin du Tour : regagne 15 PSM\nEn Touche, gagne 1 de Vitesse et 1 de Bonus de Niveau Offensif (3 fois par tour)\nDébut du Tour : à moins de 10 PSM, gagne 3 de Bonus de Puissance d’Attaque\nDébut du Tour : si cette unité a Dullahan, gagne 3 de Bonus de Dégâts",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "AaCfPcBa_Alt4",
+      "name": "Promesse Disparue",
+      "desc": "Fin du Tour : regagne 15 PSM\nEn Touche, gagne 1 de Bonus de Niveau Offensif au prochain tour (3 fois par tour)\nDébut du Tour : à moins de 20 PSM, gagne 3 de Bonus de Puissance d’Attaque\nDébut du Tour : si cette unité a Dullahan, gagne 3 de Bonus de Dégâts et 3 de Bonus de Niveau Offensif\nÀ 1 PV, regagne 40% de PV et 25 PSM (une fois par Affrontement)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "AaCfPcBa_Alt5",
+      "name": "Promesse Disparue",
+      "desc": "Fin du Tour : regagne 15 PSM\nEn Touche, gagne 1 de Bonus de Niveau Offensif au prochain tour (3 fois par tour)\nDébut du Tour : à moins de 20 PSM, gagne 3 de Bonus de Puissance d’Attaque\nDébut du Tour : si cette unité a Dullahan, gagne 3 de Bonus de Dégâts et 3 de Bonus de Niveau Offensif\nTant qu’il y a au moins 1 autre allié en vie, les PV de Heathcliff ne descendent pas en-dessous de 1\nÀ 1 PV, regagne 40% de PV et 25 PSM (une fois par Affrontement)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Coffin",
+      "name": "Cercueil",
+      "desc": "- Valeur Max : 10\n- À la Fin du Tour :\n  - Gagne 2 de Bonus de Dégâts au prochain tour pour chaque 3 de Valeur (6 max)\n  - Augmente de 1 la Vitesse minimale au prochain tour pour chaque 4 de Valeur (2 max)\n  - Gagne 1 de Bonus de Puissance de Duel au prochain tour pour chaque 5 de Valeur (2 max)",
+      "summary": ""
+    },
+    {
+      "id": "WildHunt",
+      "name": "Chasse Sauvage",
+      "desc": "- Au même tour où cette unité a gagné Chasse Sauvage pour la première fois, a toujours 1 PV restant ; \"réanime\"(soigne à 50% des PV et remet les PSM à 0) cette unité à la Fin du Tour.\n- Si cette unité est tuée par une attaque, gagne une ressource E.G.O. pour la ressource E.G.O. la moins possédée\n- Si cette unité est tuée par une attaque, inflige 3 de Lourdeur au dernier attaquant\n- Meurt à la fin du même tour où cette unité a été réanimée",
+      "summary": ""
+    },
+    {
+      "id": "NightPathfinding",
+      "name": "Dullahan",
+      "desc": "- Valeur Max : 3\n- Gagne 3 de Niveau Offensif\n- Perd 3 de Niveau Défensif\n- Augmente de 1 les valeurs Min & Max de Vitesse\n- Fin du Tour : gagne 1 Dullahan au prochain tour (cependant, à -25 PSM ou moins, perd tout Dullahan)\n- Fin du Tour : si cette unité a Dullahan, perd (15 - (Cercueil/2)) PSM. (10 min)",
+      "summary": ""
+    },
+    {
+      "id": "WanderingFootsteps",
+      "name": "Ruine Imminente",
+      "desc": "- Unités avec PSM : change leur Type de Panique en \"\"Ruine\"\".\n(Ruine : lorsque cette unité entre en état de Moral Bas, gagne 3 de Lourdeur à chaque Fin du Tour et perd 1 de Puissance de Duel. Lorsque cette unité Panique, gagne 5 de Lourdeur et 3 de Compte de Lourdeur à chaque Fin du Tour et perd 2 de Puissance de Duel)\n- Unités sans PSM : -10% de chance de faire Pile\n- Réduit de 1 à la Fin du Tour\n- Cet effet ne se cumule pas ; l’infliger remplacera la valeur actuelle par la valeur infligée.\n※ Applique la condition \"\"Unités sans PSM\"\" à certains ennemis ayant des PSM mais ne pouvant pas changer leurs Types de Panique.",
+      "summary": ""
+    },
+    {
+      "id": "WanderingFootsteps_Main",
+      "name": "Ruine Imminente",
+      "desc": "- Cible avec PSM : change leur Type de Panique en 'Ruine'\n- Réduit de 1 à la Fin du Tour",
+      "summary": ""
+    },
+    {
+      "id": "WanderingFootsteps_Sub",
+      "name": "Ruine Imminente",
+      "desc": "-10% de chance de faire Pile\n- Réduit de 1 à la Fin du Tour",
+      "summary": ""
+    },
+    {
+      "id": "WanderingFootsteps_LowMorale",
+      "name": "Ruine",
+      "desc": "- Moral Bas\n- -1 de Puissance de Duel sur soi. Gagne 3 de Lourdeur à chaque Fin du Tour",
+      "summary": "-1 de Puissance de Duel sur soi. Gagne 3 de Lourdeur à chaque Fin du Tour",
+      "undefined": "-"
+    },
+    {
+      "id": "WanderingFootsteps_Panic",
+      "name": "Ruine",
+      "desc": "- Panique\n- -2 de Puissance de Duel sur soi. Gagne 5 de Lourdeur et +3 de Compte de Lourdeur à chaque Fin du Tour",
+      "summary": "-2 de Puissance de Duel sur soi. Gagne 5 de Lourdeur et +3 de Compte de Lourdeur à chaque Fin du Tour",
+      "undefined": "-"
     }
   ]
 }

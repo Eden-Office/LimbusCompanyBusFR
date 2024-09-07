@@ -121,7 +121,7 @@ namespace LimbusCompanyFR
         => __instance._parent.EffectChainCamera;
 
 
-        [HarmonyPatch(typeof(PersonalityVoiceJsonDataList), nameof(PersonalityVoiceJsonDataList.GetDataList))]
+        /*[HarmonyPatch(typeof(PersonalityVoiceJsonDataList), nameof(PersonalityVoiceJsonDataList.GetDataList))]
         [HarmonyPrefix]
         private static bool PersonalityVoiceGetDataList(PersonalityVoiceJsonDataList __instance, int personalityId, ref LocalizeTextDataRoot<TextData_PersonalityVoice> __result)
         {
@@ -132,7 +132,7 @@ namespace LimbusCompanyFR
             }
             __result = localizeTextDataRoot;
             return false;
-        }
+        }*/
         #endregion
         [HarmonyPatch(typeof(LoginSceneManager), nameof(LoginSceneManager.SetLoginInfo))]
         [HarmonyPostfix]

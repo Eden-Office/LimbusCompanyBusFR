@@ -154,7 +154,8 @@ namespace LimbusCompanyFR
                 level.GetComponentInChildren<TextMeshProUGUI>(true).fontMaterial = LCB_French_Font.tmpfrenchfonts[2].material;
             }
         }
-        [HarmonyPatch(typeof(SubChapterScrollViewItem), nameof(SubChapterScrollViewItem.SetData))]
+
+        /*[HarmonyPatch(typeof(SubChapterScrollViewItem), nameof(SubChapterScrollViewItem.SetData))]
         [HarmonyPostfix]
         private static void SubChapterScrollViewItem_Init(SubChapterScrollViewItem __instance)
         {
@@ -172,7 +173,7 @@ namespace LimbusCompanyFR
             __instance.tmp_page.m_fontAsset = LCB_French_Font.GetFrenchFonts(0);
             __instance.tmp_page.m_sharedMaterial = LCB_French_Font.GetFrenchMats(2);
             __instance.tmp_page.GetComponentInChildren<TextMeshProLanguageSetter>().enabled = false;
-        }
+        }*/
 
         private static string getTimerD(int days)
         {
@@ -813,16 +814,6 @@ namespace LimbusCompanyFR
                 managerLV.GetComponentInChildren<TextMeshProUGUI>(true).font = LCB_French_Font.tmpfrenchfonts[2];
                 managerLV.GetComponentInChildren<TextMeshProUGUI>(true).m_sharedMaterial = LCB_French_Font.GetFrenchMats(6);
             }
-            Transform exp = __instance.transform.Find("[Rect]Right/[Rect]Frames/rect_titleGroup/[Script]UserLevel/[Rect]ExpTexts/[Tmpro]ExpTitle");
-            if (exp != null)
-            {
-                exp.GetComponentInChildren<TextMeshProUGUI>(true).text = exp.GetComponentInChildren<TextMeshProUGUI>(true).text.Replace("EXP", "ОПЫТ");
-                exp.GetComponentInChildren<TextMeshProUGUI>(true).font = LCB_French_Font.tmpfrenchfonts[2];
-                exp.GetComponentInChildren<TextMeshProUGUI>(true).fontMaterial = LCB_French_Font.tmpfrenchfonts[2].material;
-                exp.GetComponentInChildren<TextMeshProUGUI>(true).m_sharedMaterial = LCB_French_Font.GetFrenchMats(6);
-                exp.GetComponentInChildren<TextMeshProUGUI>(true).fontSize = 40f;
-                exp.GetComponentInChildren<TextMeshProUGUI>(true).characterSpacing = -2;
-            }
         }
         [HarmonyPatch(typeof(BattleResultPersonalityExpGaugeUI), nameof(BattleResultPersonalityExpGaugeUI.SetLevelText))]
         [HarmonyPostfix]
@@ -1041,12 +1032,11 @@ namespace LimbusCompanyFR
             Transform until_pass = __instance.transform.Find("[Rect]Right/[Text]UntilSeason");
             limbus_pass.GetComponentInChildren<TextMeshProUGUI>(true).text = "<cspace=-2px>PASS LIMBUS</cspace>";
             limbus_pass.GetComponentInChildren<RectTransform>().anchoredPosition = new Vector2(0, -37);
-            limbus_pass_bought.GetComponentInChildren<TextMeshProUGUI>(true).text = "<cspace=-2px>PASS LIMBUS</cspace>";
-            limbus_pass_bought.GetComponentInChildren<RectTransform>().anchoredPosition = new Vector2(0, -37);
-            battle_pass_bought.GetComponentInChildren<TextMeshProUGUI>(true).fontSize = 44;
-            limbus_pass_bought.GetComponentInChildren<TextMeshProUGUI>(true).fontSize = 44;
-            battle_pass_bought.GetComponentInChildren<TextMeshProUGUI>(true).characterSpacing = -22;
-            battle_pass_bought.GetComponentInChildren<RectTransform>().anchoredPosition = new Vector2(100, 1);
+            limbus_pass_bought.GetComponentInChildren<TextMeshProUGUI>(true).text = "PASS LIMBUS En Cours d’Utilisation";
+            limbus_pass_bought.GetComponentInChildren<TextMeshProUGUI>(true).m_enableWordWrapping = false;
+            limbus_pass_bought.GetComponentInChildren<RectTransform>().anchoredPosition = new Vector2(-85, -37);
+            limbus_pass_bought.GetComponentInChildren<TextMeshProUGUI>(true).m_fontSize = 42;
+            battle_pass_bought.GetComponentInChildren<TextMeshProUGUI>(true).text = "";
             battle_pass.GetComponentInChildren<RectTransform>().anchoredPosition = new Vector2(100, 1);
             List<Transform> transforms = new List<Transform> { limbus_pass, limbus_pass_bought, battle_pass, battle_pass_bought, package, package_popUp, until_pass, __instance.tmp_be_in_use.transform, __instance.limbusPassPopup.tmp_description.transform };
             BebasForPass(transforms);

@@ -4697,10 +4697,13 @@
         {
           "level": 1,
           "name": "Écumer les Blessures",
-          "desc": "[WhenUse] Si la cible a Saignement, inflige 1 de Paralysie",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a Saignement, inflige 1 de Paralysie"
+                },
                 {
                   "desc": "[OnSucceedAttack] Inflige +3 de Compte de Saignement"
                 },
@@ -4719,10 +4722,13 @@
         {
           "level": 1,
           "name": "Blessure Emmêlée",
-          "desc": "[WhenUse] Si la cible a Saignement, inflige 1 de Ralentissement au prochain tour",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a Saignement, inflige 1 de Ralentissement au prochain tour"
+                },
                 {
                   "desc": "[OnSucceedAttack] Inflige 3 de Saignement"
                 }

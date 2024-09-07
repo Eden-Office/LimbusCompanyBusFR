@@ -42,8 +42,8 @@
     },
     {
       "id": "OnKillEnemyByOtherAllyExceptSupportiveAction",
-      "add": "Augmente de {0} après qu’un allié a vaincu un ennemi dont le niveau était supérieur ou égal à celui de cette unité",
-      "min": "Diminue de {0} après qu’un allié a vaincu un ennemi dont le niveau était supérieur ou égal à celui de cette unité. N’augmente pas lorsque l’ennemi est vaincu par une Attaque d’Assistance."
+      "add": "Augmente de {0} après qu’un allié ait vaincu un ennemi dont le niveau était supérieur ou égal à celui de cette unité",
+      "min": "Diminue de {0} après qu’un allié ait vaincu un ennemi dont le niveau était supérieur ou égal à celui de cette unité. N’augmente pas lorsque l’ennemi est vaincu par une Attaque d’Assistance."
     },
     {
       "id": "OnDieBladeLineageAlly",
@@ -59,6 +59,11 @@
       "id": "OnLoseDuelLessMpTarget",
       "add": "Augmente de {0} après avoir perdu un Duel contre un ennemi dont les PSM sont inférieurs à ceux de cette unité",
       "min": "Diminue de {0} après avoir perdu un Duel contre un ennemi dont les PSM sont inférieurs à ceux de cette unité"
+    },
+    {
+      "id": "OnKillEnemyByOtherAlly",
+      "add": "Augmente de {0} après qu’un allié ait vaincu un ennemi indépendamment de son niveau",
+      "min": "Diminue de {0} après qu’un allié ait vaincu un ennemi indépendamment de son niveau"
     }
   ]
 }

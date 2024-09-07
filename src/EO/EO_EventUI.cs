@@ -112,13 +112,13 @@ namespace LimbusCompanyFR
         [HarmonyPostfix]
         private static void MOWE_MainBanner(MOWEMainEventBanner __instance)
         {
-            __instance._bannerImage.overrideSprite = EO_ReadmeManager.ReadmeEventSprites["MOWE_EventBanner"];
+            __instance._bannerImage.overrideSprite = EO_ReadmeManager.ReadmeEventSprites["MOWE_lateBanner"];
         }
         [HarmonyPatch(typeof(MOWESubEventBanner), nameof(MOWESubEventBanner.Init))]
         [HarmonyPostfix]
         private static void MOWE_SubBanner(MOWESubEventBanner __instance)
         {
-            __instance._bannerImage.overrideSprite = EO_ReadmeManager.ReadmeEventSprites["MOWE_ExchangeBanner"];
+            __instance._bannerImage.overrideSprite = EO_ReadmeManager.ReadmeEventSprites["MOWE_lateBannerExchange"];
         }
 
         [HarmonyPatch(typeof(MOWEEventUIPanel), nameof(MOWEEventUIPanel.Initialize))]

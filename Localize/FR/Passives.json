@@ -850,12 +850,12 @@
     {
       "id": 1120701,
       "name": "Les Balles C’est Cher",
-      "desc": "- En Touche Pile contre une cible avec <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Saignement</color></link></u>, gagne <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Enrichissement Injuste</color></link></u>. (4 Max)\n- Si cette unité Touche Critiquement lorsque à court de <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Munition</color></link></u>, consomme tout <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Enrichissement Injuste</color></link></u> et inflige (5 * <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Enrichissement Injuste</color></link></u> consommé)% des dégâts infligés en dégâts supplémentaires"
+      "desc": "- En Touche Pile contre une cible avec <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Saignement</color></link></u>, gagne <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Enrichissement Injuste</color></link></u>. (4 Max)\n- Si cette unité Touche Critiquement lorsque à court de [Bullet], dépense tout <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Enrichissement Injuste</color></link></u> et inflige (5 * <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Enrichissement Injuste</color></link></u> consommé)% des dégâts infligés en dégâts supplémentaires"
     },
     {
       "id": 1120702,
       "name": "Les Balles C’est Cher",
-      "desc": "<style=\"highlight\">- S’active Toujours : commence les combats avec 7 de Munition</style>\n- En Touche Pile contre une cible avec <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Saignement</color></link></u>, gagne <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Enrichissement Injuste</color></link></u>. (4 Max)\n<style=\"highlight\">- Si un Pièce qui utilise une Munition touche, consomme tout <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Enrichissement Injuste</color></link></u> et inflige (25 * <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Enrichissement Injuste</color></link></u> consommé)% des dégâts infligés en dégâts supplémentaires.</style>\n- Si cette unité Touche Critiquement lorsque à court de <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Munition</color></link></u>, consomme tout <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Enrichissement Injuste</color></link></u> et inflige (5 * <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Enrichissement Injuste</color></link></u> consommé)% des dégâts infligés en dégâts supplémentaires"
+      "desc": "<style=\"highlight\">- Toujours Active : commence les combats avec 7 de Munition</style>\n- En Touche Pile contre une cible avec <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Saignement</color></link></u>, gagne <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Enrichissement Injuste</color></link></u>. (4 Max)\n<style=\"highlight\">- Si un Pièce qui utilise une Munition touche, consomme tout <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Enrichissement Injuste</color></link></u> et inflige (25 * <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Enrichissement Injuste</color></link></u> consommé)% des dégâts infligés en dégâts supplémentaires.</style>\n- Si cette unité Touche Critiquement lorsque à court de [Bullet], consomme tout <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Enrichissement Injuste</color></link></u> et inflige (5 * <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Enrichissement Injuste</color></link></u> consommé)% des dégâts infligés en dégâts supplémentaires"
     },
     {
       "id": 1120721,
@@ -880,12 +880,12 @@
     {
       "id": 1040621,
       "name": "La Cigarette Porte-Bonheur",
-      "desc": "Si 1 allié avec le moins de <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Munition</color></link></u> utilise sa dernière <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Munition</color></link></u> avec une Capacité, inflige 50% des dégâts de la Capacité en dégâts supplémentaires sur la cible à la Fin de l’Attaque."
+      "desc": "Si 1 allié avec le moins de Munition utilise sa dernière Munition avec une Pièce, inflige 50% des dégâts infligés par cette attaque de Pièce contre chaque cible en dégâts supplémentaires sur chaque cible individuelle. (Arrondi au supérieur)"
     },
     {
       "id": 1040631,
       "name": "La Cigarette Porte-Bonheur",
-      "desc": "<style=\"highlight\">- Si 1 allié avec le moins de <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Munition</color></link></u> utilise une Capacité qui dépense une <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Munition</color></link></u>, gagne 3 de Calme (une fois par tour ; ne s’applique pas aux alliés sans Munition)</style>\n- Si 1 allié avec le moins de <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Munition</color></link></u> utilise sa dernière <sprite name=\"Bullet\"><color=#a16a3b><u><link=\"Bullet\">Munition</color></link></u> avec une Capacité, inflige 50% des dégâts de la Capacité en dégâts supplémentaires sur la cible à la Fin de l’Attaque."
+      "desc": "<style=\"highlight\">- Si 1 allié avec le moins de [Bullet] utilise une Capacité qui dépense une [Bullet], gagne 3 de Calme. (une fois par tour ; ne s’applique pas aux alliés sans Munition)</style>\n- Si 1 allié avec le moins de Munition utilise sa dernière Munition avec une Pièce, inflige 50% des dégâts infligés par cette attaque de Pièce contre chaque cible en dégâts supplémentaires sur chaque cible individuelle. (Arrondi au supérieur)"
     },
     {
       "id": 1030601,
@@ -1479,12 +1479,12 @@
     },
     {
       "id": 1040901,
-      "name": "N.O.",
+      "name": "R.D.P.",
       "desc": "- Lorsqu’un autre allié Déséquilibre un ennemi avec une attaque : attaque l’ennemi Déséquilibré avec une Capacité 1. (une fois par Tour)\n- Si plusieurs ennemis sont Déséquilibrés en même temps, cible l’ennemi avec le moins de PV (pour les Anomalies, cible l’Anomalie avec le moins de PV ; puis, cible la Partie avec le moins de PV).\n- En utilisant une Capacité 1 avec cet effet, cette unité gagne +1 de Compte de [Vibration] supplémentaire de ses effets de Pièce et déclenche un [VibrationExplosion] En Touche avec la dernière Pièce"
     },
     {
       "id": 1040921,
-      "name": "Le A.I.",
+      "name": "La R.E.",
       "desc": "L’allié Déployé #1 gagne +1 de Compte de Tremblement de ses effets de Capacité ou de Pièce (2 fois par tour)"
     },
     {
@@ -1575,6 +1575,83 @@
       "id": 1070921,
       "name": "Installation de Module de Charge",
       "desc": "Allié Déployé #1 : +5 de Compte de [Charge] Max\n(Lorsque les conditions sont remplies, cet effet reste activé jusqu’au début du prochain tour)"
+    },
+    {
+      "id": 1071002,
+      "name": "Dullahan",
+      "desc": "- Début du Tour : si cette unité a [NightPathfinding], monte [NightPathfinding].\n- Perd 5 PSM chaque fois que cette unité monte [NightPathfinding]\n- Si 3+ alliés ont été vaincu dans cet Affrontement, gagne [NightPathfinding] au prochain tour. (une fois par Affrontement)\n- Si cette unité devient Déséquilibrée suite à des dégâts ou un Seuil de Déséquilibre augmenté en montant [NightPathfinding], se remet de Déséquilibre. Si le Déséquilibre est quelque chose dont on ne peut pas se remettre naturellement, cette unité ne monte pas [NightPathfinding].\n\n- Gagne 1 Cercueil en tuant la cible."
+    },
+    {
+      "id": 1071001,
+      "name": "Appel de l’Erlkönig",
+      "desc": "- Inflige +1% de dégâts supplémentaires pour chaque 1 de [Sinking] sur la cible (15% max)",
+      "summary": "Inflige plus de dégâts selon la [Sinking] sur la cible"
+    },
+    {
+      "id": 1071011,
+      "name": "Appel de l’Erlkönig",
+      "desc": "- Inflige +1% de dégâts supplémentaires pour chaque 1 de [Sinking] sur la cible (15% max)\n\n<style=\"highlight\">- Lorsque, durant un combat, 1 allié subit des dégâts qui les tuerai, consomme 2 de Cercueil pour lui appliquer [WildHunt] (une fois par tour)\n\n- Applique 2 de [AttackDmgUp] au prochain tour à l’allié avec [WildHunt]\n- Si cet allié est des Hauts de Hurle-Vent ou de la Famille Edgar, applique également 1 de [Enhancement] au prochain tour</style>",
+      "summary": "Inflige plus de dégâts selon la [Sinking] sur la cible"
+    },
+    {
+      "id": 1071021,
+      "name": "Lamentation Éternelle",
+      "desc": "1 allié avec les plus hauts PSM inflige +5% de dégâts supplémentaires aux cibles avec moins de 0 PSM\nSi la cible a moins de 0 PSM : plus les PSM de la cible sont éloignés de 0 et plus les dégâts sont amplifiés (+0.5% de dégâts supplémentaires par PSM, 20% max)\nSi la cible n’a pas de PSM, cet allié inflige +1 de Puissance et de Compte de [Sinking] supplémentaire avec les Effets de Capacité et de Pièce de leurs Capacités d’Attaque (2 fois par tour)",
+      "summary": "Inflige plus de dégâts aux cibles avec moins de 0 PSM"
+    },
+    {
+      "id": 1071012,
+      "name": "Appel de l’Erlkönig",
+      "desc": "- Inflige +1% de dégâts supplémentaires pour chaque 1 de [Sinking] sur la cible (15% max)\n\n- Lorsque, durant un combat, 1 allié subit des dégâts qui les tuerai, consomme 2 de Cercueil pour lui appliquer [WildHunt] (<style=\"highlight\">2 fois</style> par tour)\n\n- Applique 2 de [AttackDmgUp] au prochain tour à l’allié avec [WildHunt]\n- Si cet allié est des Hauts de Hurle-Vent ou de la Famille Edgar, applique également 1 de [Enhancement] au prochain tour",
+      "summary": "Inflige plus de dégâts selon la [Sinking] sur la cible"
+    },
+    {
+      "id": 1041001,
+      "name": "Tête d’Araignée/Crânepoil",
+      "desc": "En frappant un ennemi avec une Pièce qui gagne [RedEyeFirst]:\n- Inflige +([RedEyeFirst]/2)% de dégâts supplémentaires\n- Si la cible a [Laceration], gagne 1 [RedEyeFirst] (3 fois par tour)\n\nEn frappant un ennemi avec une Pièce qui gagne [PenanceFirst]:\n- Inflige +([PenanceFirst]/2)% de dégâts supplémentaires\n- À 20+ PSM, gagne 1 de [PenanceFirst] (3 fois par tour)",
+      "summary": "Pièces qui gagnant Yeux Rouges infligent plus de dégâts ; si la cible a Saignement, gagne 1 de Yeux Rouges\nPièces qui gagnant Pénitence infligent plus de dégâts ; à 20+ PSM, gagne 1 de Pénitence"
+    },
+    {
+      "id": 1041011,
+      "name": "Tête d’Araignée/Crânepoil",
+      "desc": "En frappant un ennemi avec une Pièce qui gagne [RedEyeFirst]:\n- Inflige +([RedEyeFirst]/2)% de dégâts supplémentaires\n<style=\"highlight\">- Si la Vitesse de cette unité est supérieure de 3 ou plus à celle de la cible, inflige +([RedEyeFirst]/2)% de dégâts supplémentaires</style>\n- Si la cible a [Laceration], gagne 1 [RedEyeFirst] (3 fois par tour)\n\nEn frappant un ennemi avec une Pièce qui gagne [PenanceFirst]:\n- Inflige +([PenanceFirst]/2)% de dégâts supplémentaires\n<style=\"highlight\">- Si les PSM de la cible sont inférieurs à ceux de cette unité, inflige +([PenanceFirst]/2)% de dégâts supplémentaires (cibles sans PSM : leur PSM compte comme 0)</style>\n- À 20+ PSM, gagne 1 de [PenanceFirst] (3 fois par tour)\n\n<style=\"highlight\">Lorsque touché par un ennemi, gagne 1 de [PenanceFirst] (3 max)</style>",
+      "summary": "Pièces qui gagnant Yeux Rouges infligent plus de dégâts ; si la cible a Saignement, gagne 1 de Yeux Rouges\nPièces qui gagnant Pénitence infligent plus de dégâts ; à 20+ PSM, gagne 1 de Pénitence\nLorsque touché par un ennemi, gagne 1 de Pénitence (3 max)"
+    },
+    {
+      "id": 1041002,
+      "name": "Assimilation E.G.O.",
+      "desc": "En gagnant du Compte de [Charge], obtient [RedEyeFirst] ou [PenanceFirst] à la place\n- [RedEyeFirst] et [PenanceFirst] ne sont pas affectés par la Puissance de [Charge]",
+      "summary": "En gagnant du Compte de Charge, gagne Yeux Rouges ou Pénitence à la place"
+    },
+    {
+      "id": 1041021,
+      "name": "Manger et Dormir",
+      "desc": "Début du Combat :\n- 1 allié avec le moins de pourcentage de PV regagne 3 PV\n- 1 allié avec le moins de PSM regagne 3 PSM",
+      "summary": "Rend des PV à l’allié avec le moins de pourcentage de PV et des PSM à l’allié avec le moins de PSM"
+    },
+    {
+      "id": 1011001,
+      "name": "Tirer.JeVaisTirer.",
+      "desc": "Lorsque cette unité gagne [BulletLament], gagne 2 de [Agility] au prochain tour (une fois par tour)",
+      "summary": "Lorsque cette unité gagne des Munitions, gagne de la Vitesse au prochain tour"
+    },
+    {
+      "id": 1011002,
+      "name": "JeVoisLePapillonMourant",
+      "desc": "Commence les affrontements avec 10 de chaque [BulletLament]\n\nEn consommant [BulletLament], choisit aléatoirement entre Les Vivants (Puissance) et Les Défunts (Compte) pour chaque valeur de [BulletLament].\n\nEn infligeant [SinkingWhite], inflige la même quantité de Les Vivants et Les Défunts que consommée. Exemple ci-dessous :\n- Si cette unité a consommé X Vivants, inflige X Vivants\n- Si cette unité a consommé Y Défunts, inflige Y Défunts\n\nSi cette unité tombe à court de [BulletLament] au milieu d’une Capacité, annule toutes les Pièces à venir et [ReloadLament]\n\nEn [ReloadLament]ant, ou en gagnant [BulletLament], gagne Les Vivants ou Les Défunts en fonction des PSM actuels de cette unité\n- À 0 PSM ou plus : 30% de chances de gagner Les Vivants ; 70% de chances de gagner Les Défunts.\n- À moins de 0 PSM : 70% de chances de gagner Les Vivants ; 30% de chances de gagner Les Défunts.\n- Les probabilités sont calculées séparément pour chaque munition consommée.",
+      "summary": "Recharge si cette unité tombe à court de Munition au milieu d’une Capacité"
+    },
+    {
+      "id": 1011011,
+      "name": "Tirer.JeVaisTirer.",
+      "desc": "Après l’Attaque : si cette unité a tué la cible avec ses Capacités, [ReloadLament]\nLorsque cette unité gagne [BulletLament], gagne 2 de [Agility] au prochain tour (une fois par tour)",
+      "summary": "When this unit gains Ammo, gain Agility next turn. Reload On Kill."
+    },
+    {
+      "id": 1011021,
+      "name": "Main du Salut",
+      "desc": "Lorsqu’un allié touche avec une Capacité, consomme 2 de [Sinking] sur la cible pour lui infliger 1 [SinkingWhite] (3 fois par tour)",
+      "summary": "Convertie la Lourdeur de la cible en Papillon"
     }
   ]
 }

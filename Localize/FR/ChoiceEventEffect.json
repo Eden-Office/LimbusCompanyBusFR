@@ -1,0 +1,432 @@
+{
+  "dataList": [
+    {
+      "id": "Empty",
+      "content": ""
+    },
+    {
+      "id": "Nothing",
+      "content": "<color=#ebcaa2>Rien ne s’est passé.</color>"
+    },
+    {
+      "id": "LevelupPersonality",
+      "content": "<color=#ebcaa2>Événement : Amélioration de Pécheur !</color>"
+    },
+    {
+      "id": "GetEgogift",
+      "content": "<color=#ebcaa2>Événement : Don E.G.O. Aléatoire !</color>"
+    },
+    {
+      "id": "GetCharacter",
+      "content": "<color=#ebcaa2>Événement : Recrutement de Pécheur !</color>"
+    },
+    {
+      "id": "LevelupPersonalityOnWinBattle",
+      "content": "<color=#ebcaa2>Gagnez le prochain combat pour recruter un Pécheur !</color>"
+    },
+    {
+      "id": "GetConfirmedEgogiftOnWinBattle",
+      "content": "<color=#ebcaa2>Gagnez le prochain combat pour obtenir {reward} !</color>"
+    },
+    {
+      "id": "StartBattle",
+      "content": "<color=#ff0000>Affrontement !</color>"
+    },
+    {
+      "id": "StartBattle_Normal",
+      "content": "<color=#ff0000>Affrontement Normal !</color>"
+    },
+    {
+      "id": "StartBattle_Danger",
+      "content": "<color=#ff0000>Affrontement Risqué !</color>"
+    },
+    {
+      "id": "StartBattle_Abnormality",
+      "content": "<color=#ff0000>Affrontement Concentré !</color>"
+    },
+    {
+      "id": "StartBattle_FloorBoss",
+      "content": "<color=#ff0000>Affrontement de Boss d’Étage !</color>"
+    },
+    {
+      "id": "RecoverHpOnly",
+      "content": "<color=#ebcaa2>{targets} {conditions}</color> <color=#ebcaa2>soigné(s) de</color> <color=#00ff9c>{amount} PV.</color>"
+    },
+    {
+      "id": "RecoverMpOnly",
+      "content": "<color=#ebcaa2>{targets} {conditions}</color> <color=#ebcaa2>soigné(s) de</color> <color=#80c9ff>{amount} PSM.</color>"
+    },
+    {
+      "id": "RecoverHpOnlyUntilMax",
+      "content": "<color=#ebcaa2>{targets} {conditions}</color> <color=#ebcaa2>ramené(s) à</color> <color=#00ff9c>Pleins PV.</color>"
+    },
+    {
+      "id": "RecoverMpOnlyUntilMax",
+      "content": "<color=#ebcaa2>{targets} {conditions}</color> <color=#ebcaa2>ramené(s) à</color> <color=#80c9ff>Pleins PSM.</color>"
+    },
+    {
+      "id": "LoseHpOnly",
+      "content": "<color=#ebcaa2>{targets} {conditions}</color> <color=#ebcaa2>a subi</color> <color=#e30000>{amount} Dégâts de PV !</color>"
+    },
+    {
+      "id": "LoseMpOnly",
+      "content": "<color=#ebcaa2>{targets} {conditions}</color> <color=#ebcaa2>a perdu</color> <color=#fe4b48>{amount} PSM !</color>"
+    },
+    {
+      "id": "RecoverHpMpSameAmount",
+      "content": "<color=#ebcaa2>{targets} {conditions}</color> <color=#ebcaa2>soigné(s) de</color> <color=#00ff9c>{amount} PV</color> et <color=#80c9ff>PSM.</color>"
+    },
+    {
+      "id": "RecoverHpMpDifferentAmount",
+      "content": "<color=#ebcaa2>{targets} {conditions}</color> <color=#ebcaa2>soigné(s) de</color> <color=#00ff9c>{amount} PV</color> et <color=#80c9ff>{amount} PSM.</color>"
+    },
+    {
+      "id": "LoseHpMpSameAmount",
+      "content": "<color=#ebcaa2>{targets} {conditions}</color> <color=#ebcaa2>a subi</color> <color=#e30000>{amount} dégâts de PV</color> et <color=#fe4b48>de PSM !</color>"
+    },
+    {
+      "id": "LoseHpMpDifferentAmount",
+      "content": "<color=#ebcaa2>{targets} {conditions}</color> <color=#ebcaa2>a subi</color> <color=#e30000>{amount} dégâts de PV</color> et <color=#fe4b48>{amount} de PSM !</color>"
+    },
+    {
+      "id": "GetConfirmedEgogift",
+      "content": "<color=#ebcaa2>{reward} Obtenu !</color>"
+    },
+    {
+      "id": "GetBuff_OnStageStart",
+      "content": "<color=#ebcaa2>{target} {conditional} commencera le prochain affrontement avec {stack} de {buffName}.</color>"
+    },
+    {
+      "id": "UnlockHiddenRoute",
+      "content": "<color=#ebcaa2>Il y a un nouveau chemin sur la carte !</color>"
+    },
+    {
+      "id": "ReduceEnemyWave",
+      "content": "<color=#ebcaa2>Vagues ennemies du prochain combat réduites de {waveNum}.</color>"
+    },
+    {
+      "id": "DestroyEgogift",
+      "content": "<color=#ebcaa2>{reward}</color> <color=#e30000>Expirée !</color>"
+    },
+    {
+      "id": "Choice_90103301",
+      "content": "<color=#f8c200>+1 de Vitesse</color> <color=#ebcaa2>pour ce combat.</color>"
+    },
+    {
+      "id": "Choice_901001",
+      "content": "<color=#ebcaa2>Au début de la phase de combat,</color> les alliés sans <color=#a0392b>Capacité d’Attaque d’Affinité de Colère</color> <color=#ebcaa2>subissent</color> <color=#e30000>5 dégâts de Colère.</color>"
+    },
+    {
+      "id": "Choice_901007",
+      "content": "<color=#ebcaa2>Au début du tour,</color> </color=#ebcaa2>regagne</color> <color=#00ff9c>10 PV</color> et <color=#80c9ff>10 PSM.</color> (Jusqu’à 3 tours)"
+    },
+    {
+      "id": "Choice_901009",
+      "content": "<color=#e30000>-1 de Puissance Finale de Capacité</color> <color=#ebcaa2>au début de la phase de combat.</color>"
+    },
+    {
+      "id": "Choice_901010",
+      "content": "<color=#ebcaa2>Au début du prochain combat,</color> <color=#ebcaa2>les Unités Alliées sans</color> <color=#bb521f>Capacité d’Attaque d’Affinité de Luxure</color> <color=#ebcaa2>sont Déséquilibrées.</color> "
+    },
+    {
+      "id": "Choice_901019",
+      "content": "<color=#e30000>-2 de Vitesse</color> <color=#ebcaa2>au début de la phase de combat.</color>"
+    },
+    {
+      "id": "Choice_90103402",
+      "content": "<color=#f8c200>+2 de Vitesse</color> <color=#ebcaa2>pour ce combat.</color>"
+    },
+    {
+      "id": "Choice_1030301",
+      "content": "<color=#ebcaa2>Au début du prochain combat, Toutes les Unités Alliées</color> <color=#ebcaa2>gagnent</color> <color=#f8c200>3 de Bonus de Puissance d’Attaque.</color>"
+    },
+    {
+      "id": "Choice_1030501",
+      "content": "<color=#ff0000>Affrontement !</color>\n<color=#ebcaa2>Tous les ennemis</color> <color=#ebcaa2>subissent</color> <color=#e30000>5 de Malus de Puissance d’Attaque !</color>"
+    },
+    {
+      "id": "Choice_1031001",
+      "content": "<color=#ebcaa2>Le Pécheur choisi</color> <color=#ebcaa2>gagne</color> <color=#e30000>3 de Malus de Dégâts</color> <color=#ebcaa2>pour les 2 prochains combats.</color>"
+    },
+    {
+      "id": "Choice_90100201",
+      "content": "<color=#ebcaa2>Le Pécheur qui a raté le test subit</color> <color=#e30000>12</color> dégâts de <color=#e30000>PV</color> <color=#ebcaa2>et</color> <color=#fe4b48>8</color> dégâts de <color=#fe4b48>PSM</color> <color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "Choice_90100502",
+      "content": "<color=#ebcaa2>Le Pécheur qui a raté le test subit</color> <color=#e30000>15</color> dégâts de <color=#e30000>PV</color> <color=#ebcaa2>et</color> <color=#fe4b48>12</color> dégâts de <color=#fe4b48>PSM</color> <color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "Choice_90101001",
+      "content": "<color=#ebcaa2>Les Identités sans</color> <color=#bb521f>Capacité d’Attaque d’Affinité de Luxure</color> <color=#ebcaa2>subissent</color> <color=#fe4b48>10</color> dégâts de <color=#fe4b48>PSM</color> <color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "Choice_90101101",
+      "content": "<color=#ebcaa2>Le Pécheur qui a raté le test subit</color> <color=#fe4b48>15</color> dégâts de <color=#fe4b48>PSM</color> <color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "Choice_90101701",
+      "content": "<color=#ebcaa2>Le Pécheur qui a réussi le test subit</color> <color=#fe4b48>5</color> dégâts de <color=#fe4b48>PSM</color> <color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "Choice_90101702",
+      "content": "<color=#ebcaa2>Le Pécheur qui a raté le test subit</color> <color=#fe4b48>25</color> dégâts de <color=#fe4b48>PSM</color> <color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "Choice_90101801",
+      "content": "<color=#ebcaa2>Le Pécheur qui a raté le test subit</color> <color=#fe4b48>12</color> dégâts de <color=#fe4b48>PSM</color> <color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "Choice_90101901",
+      "content": "<color=#ebcaa2>Le Pécheur qui a raté le test subit</color> <color=#fe4b48>10</color> dégâts de <color=#fe4b48>PSM</color> <color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "Choice_90102001",
+      "content": "<color=#ebcaa2>Les Identités sans</color> <color=#61822b>Capacité d’Attaque d’Affinité de Gourmandise</color> <color=#ebcaa2>subissent</color> <color=#fe4b48>5</color> dégâts de <color=#fe4b48>PV</color> <color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "Choice_90102002",
+      "content": "<color=#ebcaa2>Les Identités sans</color> <color=#61822b>Capacité d’Attaque d’Affinité de Gourmandise</color> <color=#ebcaa2>subissent</color> <color=#fe4b48>10</color> dégâts de <color=#fe4b48>PV</color> <color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "Choice_90102201",
+      "content": "<color=#ebcaa2>Les Identités sans</color> <color=#306471>Capacité d’Attaque d’Affinité de Peine</color> <color=#ebcaa2>subissent</color> <color=#fe4b48>13</color> dégâts de <color=#fe4b48>PV</color> <color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "Choice_90103302",
+      "content": "<color=#ebcaa2>Les Identités sans</color> <color=#7d4e94>Capacité d’Attaque d’Affinité d’Envie</color> <color=#fe4b48>subissent</color> <color=#e30000>15</color> dégâts de <color=#e30000>PV</color> <color=#ebcaa2>et</color> <color=#fe4b48>15</color> dégâts de <color=#fe4b48>PSM</color> <color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "Choice_90100101",
+      "content": "<color=#ebcaa2>Les Identités sans</color> <color=#a0392b>Capacité d’Attaque d’Affinité de Colère</color> <color=#ebcaa2>subissent</color> <color=#fe4b48>16</color> dégâts de <color=#fe4b48>PV</color> <color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "Choice_901004",
+      "content": "<color=#ebcaa2>Les Identités avec une</color> <color=#a0392b>Capacité d’Attaque d’Affinité de Colère</color> <color=#ebcaa2>regagnent</color> <color=#f8c200>15 PV.</color>"
+    },
+    {
+      "id": "Choice_90100701",
+      "content": "<color=#ebcaa2>Les Identités avec une</color> <color=#bb521f>Capacité d’Attaque d’Affinité de Luxure</color> </color=#ebcaa2>regagnent</color> <color=#80c9ff>des PSM.</color>"
+    },
+    {
+      "id": "Choice_901008",
+      "content": "<color=#ebcaa2>Les Identités avec une</color> <color=#bb521f>Capacité d’Attaque d’Affinité de Luxure</color> <color=#ebcaa2>regagnent</color> <color=#f8c200>10 PV.</color>"
+    },
+    {
+      "id": "Choice_90100901",
+      "content": "<color=#ebcaa2>Les Identités sans</color> <color=#bb521f>Capacité d’Attaque d’Affinité de Luxure</color> <color=#ebcaa2>subissent</color> <color=#fe4b48>20</color> dégâts de <color=#fe4b48>PSM</color> <color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "Choice_901014",
+      "content": "<color=#ebcaa2>Les Identités sans</color> <color=#e48801>Capacité d’Attaque d’Affinité de Paresse</color> <color=#ebcaa2>subissent</color> <color=#fe4b48>20</color> dégâts de <color=#fe4b48>PV</color> <color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "Choice_90101401",
+      "content": "<color=#ebcaa2>Les Identités sans</color> <color=#e48801>Capacité d’Attaque d’Affinité de Paresse</color> <color=#fe4b48>subissent</color> <color=#fe4b48>12</color> dégâts de <color=#fe4b48>PV</color> <color=#ebcaa2>et</color> <color=#fe4b48>12</color> dégâts de <color=#fe4b48>PSM</color> <color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "Choice_90101601",
+      "content": "<color=#ebcaa2>Les Identités avec une</color> <color=#61822b>Capacité d’Attaque d’Affinité de Gourmandise</color> </color=#ebcaa2>regagnent</color> <color=#80c9ff>des PSM.</color>"
+    },
+    {
+      "id": "Choice_901018",
+      "content": "<color=#ebcaa2>Une Identité aléatoire sans</color> <color=#a0392b>Capacité d’Attaque d’Affinité de Colère</color> <color=#ebcaa2>subit</color> <color=#fe4b48>10</color> dégâts de <color=#fe4b48>PV</color> <color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "Choice_901021",
+      "content": "<color=#ebcaa2>Les Identités sans</color> <color=#306471>Capacité d’Attaque d’Affinité de Peine</color> <color=#ebcaa2>subissent</color> <color=#fe4b48>10</color> dégâts de <color=#fe4b48>PV</color> <color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "Choice_901023",
+      "content": "<color=#ebcaa2>Les Identités sans</color> <color=#306471>Capacité d’Attaque d’Affinité de Peine</color> <color=#ebcaa2>subissent</color> <color=#fe4b48>9</color> dégâts de <color=#fe4b48>PSM</color> <color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "Choice_90102301",
+      "content": "<color=#ebcaa2>Une Identité aléatoire sans</color> <color=#306471>Capacité d’Attaque d’Affinité de Peine</color> <color=#ebcaa2>subit</color> <color=#fe4b48>10</color> dégâts de <color=#fe4b48>PSM</color> <color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "Choice_901024",
+      "content": "<color=#ebcaa2>L’Identité avec la Santé Mentale la plus basse et qui possède une</color> <color=#306471>Capacité d’Attaque d’Affinité de Peine</color> </color=#ebcaa2>regagne tous ses</color> <color=#f8c200>PV.</color>"
+    },
+    {
+      "id": "Choice_901025",
+      "content": "<color=#ebcaa2>Les Identités sans</color> <color=#306471>Capacité d’Attaque d’Affinité de Peine</color> <color=#ebcaa2>subissent</color> <color=#fe4b48>20</color> dégâts de <color=#fe4b48>PV</color> <color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "Choice_90102501",
+      "content": "<color=#ebcaa2>Les Identités avec une</color> <color=#306471>Capacité d’Attaque d’Affinité de Peine</color> <color=#ebcaa2>regagnent</color> <color=#f8c200>20 PV.</color>"
+    },
+    {
+      "id": "Choice_901026",
+      "content": "<color=#ebcaa2>Les Identités sans</color> <color=#185188>Capacité d’Attaque d’Affinité d’Orgueil</color> <color=#ebcaa2>subissent</color> <color=#fe4b48>10</color> dégâts de <color=#fe4b48>PV</color> <color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "Choice_90102601",
+      "content": "<color=#ebcaa2>Les Identités avec une</color> <color=#185188>Capacité d’Attaque d’Affinité d’Orgueil</color> <color=#ebcaa2>regagnent</color> <color=#f8c200>10 PV.</color>"
+    },
+    {
+      "id": "Choice_901027",
+      "content": "<color=#ebcaa2>Les Identités sans</color> <color=#185188>Capacité d’Attaque d’Affinité d’Orgueil</color> <color=#ebcaa2>subissent</color> <color=#fe4b48>25</color> dégâts de <color=#fe4b48>PV</color> <color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "Choice_90102701",
+      "content": "<color=#ebcaa2>Les Identités sans</color> <color=#185188>Capacité d’Attaque d’Affinité d’Orgueil</color> <color=#ebcaa2>subissent</color> <color=#fe4b48>25</color> dégâts de <color=#fe4b48>PV</color> <color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "Choice_901028",
+      "content": "<color=#ebcaa2>Les Identités sans</color> <color=#185188>Capacité d’Attaque d’Affinité d’Orgueil</color> <color=#ebcaa2>subissent</color> <color=#fe4b48>5</color> dégâts de <color=#fe4b48>PV</color> <color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "Choice_90102801",
+      "content": "<color=#ebcaa2>Les Identités avec une</color> <color=#185188>Capacité d’Attaque d’Affinité d’Orgueil</color> <color=#ebcaa2>regagnent</color> <color=#f8c200>10 PV.</color>"
+    },
+    {
+      "id": "Choice_901032",
+      "content": "<color=#ebcaa2>Les Identités sans</color> <color=#7d4e94>Capacité d’Attaque d’Affinité d’Envie</color> <color=#ebcaa2>subissent</color> <color=#fe4b48>20</color> dégâts de <color=#fe4b48>PSM</color> <color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "Choice_901034",
+      "content": "<color=#ebcaa2>Les Identités sans</color> <color=#7d4e94>Capacité d’Attaque d’Affinité d’Envie</color> <color=#fe4b48>subissent</color> <color=#e30000>15</color> dégâts de <color=#e30000>PV</color> <color=#ebcaa2>et</color> <color=#fe4b48>15</color> dégâts de <color=#fe4b48>PSM</color> <color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "Choice_901035",
+      "content": "<color=#ebcaa2>Les Identités sans</color> <color=#7d4e94>Capacité d’Attaque d’Affinité d’Envie</color> <color=#ebcaa2>subissent</color> <color=#fe4b48>12</color> dégâts de <color=#fe4b48>PV</color> <color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "Choice_90103501",
+      "content": "<color=#ebcaa2>Les Identités avec une</color> <color=#7d4e94>Capacité d’Attaque d’Affinité d’Envie</color> <color=#ebcaa2>regagnent</color> <color=#f8c200>10 PV.</color>"
+    },
+    {
+      "id": "Choice_1040301",
+      "content": "<color=#ebcaa2>Le Pécheur choisi</color> <color=#ebcaa2>a</color> <color=#e30000>10 de Déchirure</color> <color=#ebcaa2>pendant 1 tour au prochain combat.</color>"
+    },
+    {
+      "id": "MirrorDungeonAcquireCost",
+      "content": "<color=#ebcaa2>{amount} de Coût obtenu</color>"
+    },
+    {
+      "id": "MirrorDungeonLossCost",
+      "content": "<color=#ebcaa2>{amount} de Coût perdu</color>"
+    },
+    {
+      "id": "Choice_90104001",
+      "content": "<color=#ebcaa2>Commencez le prochain combat avec</color> <color=#f8c200>+2 de ressources E.G.O.</color> <color=#ebcaa2>de toutes les affinités</color>"
+    },
+    {
+      "id": "Choice_9010400101",
+      "content": "<color=#ebcaa2>Tous les alliés ont</color> <color=#f8c200>+2 de Puissance Finale de Capacité</color> <color=#ebcaa2>au prochain combat</color>"
+    },
+    {
+      "id": "Choice_90104002",
+      "content": "<color=#ebcaa2>Tous les alliés ont</color> <color=#f8c200>+1 de Puissance Finale de Capacité</color> <color=#ebcaa2>au prochain combat</color>"
+    },
+    {
+      "id": "ChangeEventIllust",
+      "content": ""
+    },
+    {
+      "id": "Choice_90105801",
+      "content": "Toutes les Identités Déployées gagnent 2 Niveaux"
+    },
+    {
+      "id": "Choice_90106802",
+      "content": "Toutes les Identités Déployées gagnent 3 Niveaux"
+    },
+    {
+      "id": "Choice_90107402",
+      "content": "Toutes les Identités Déployées gagnent 2 Niveaux"
+    },
+    {
+      "id": "Choice_90109101",
+      "content": "Toutes les Identités Déployées gagnent 2 Niveaux"
+    },
+    {
+      "id": "Choice_90200502",
+      "content": "<color=#ebcaa2>Le Pécheur qui a raté le test subit</color> <color=#e30000>15</color> dégâts de <color=#e30000>PV</color> <color=#ebcaa2>et</color> <color=#fe4b48>12</color> dégâts de <color=#fe4b48>PSM</color> <color=#ebcaa2>!</color>"
+    },
+    {
+      "id": "Choice_LoseBattle",
+      "content": "<color=#ff0000>Aucune récompense en cas de Défaite</color>"
+    },
+    {
+      "id": "Choice_EGO901001",
+      "content": "Gagnez le combat pour obtenir les Dons E.G.O. \"Rêve du Papenfer\" & \"Fleur Ardente\""
+    },
+    {
+      "id": "Choice_EGO901002",
+      "content": "Gagnez le combat pour obtenir les Dons E.G.O. \"Perversion\" & \"Admiration\""
+    },
+    {
+      "id": "Choice_EGO901009",
+      "content": "Gagnez le combat pour obtenir les Dons E.G.O. \"Descente Ardente\" & \"Paraffine Fondue\""
+    },
+    {
+      "id": "Choice_EGO901010",
+      "content": "Gagnez le combat pour obtenir les Dons E.G.O. \"Gadget Ensanglanté\" & \"Grandeur\""
+    },
+    {
+      "id": "Choice_EGO901011",
+      "content": "Gagnez le combat pour obtenir les Dons E.G.O. \"Pluie Ensoleillée\" & \"Parapluie en Lambeaux\""
+    },
+    {
+      "id": "Choice_EGO901013",
+      "content": "Gagnez le combat pour obtenir les Dons E.G.O. \"Paquet de Talismans\" & \"Vieille Poupée de Bois\""
+    },
+    {
+      "id": "Choice_EGO901014",
+      "content": "Gagnez le combat pour obtenir les Dons E.G.O. \"Pièce Commémorative Rouillée\" & \"Douleur de la Rage Étouffée\""
+    },
+    {
+      "id": "Choice_EGO901016",
+      "content": "Gagnez le combat pour obtenir les Dons E.G.O. \"Spiritueux Vert\" & \"Arôme de Liqueur Aigre\""
+    },
+    {
+      "id": "Choice_EGO901018",
+      "content": "Gagnez le combat pour obtenir les Dons E.G.O. \"Couronne de Roses\" & \"Répit\""
+    },
+    {
+      "id": "Choice_EGO901019",
+      "content": "Gagnez le combat pour obtenir les Dons E.G.O. \"Boue Collante\" & \"Flacon de Biopoison\""
+    },
+    {
+      "id": "Choice_EGO901020",
+      "content": "Gagnez le combat pour obtenir les Dons E.G.O. \"Gossypium Blanc\" & \"Paquet Emmêlé\""
+    },
+    {
+      "id": "Choice_EGO901021",
+      "content": "Gagnez le combat pour obtenir les Dons E.G.O. \"Briquet Zippo Bleu\" & \"Lampe Torche de Patrouille\""
+    },
+    {
+      "id": "Choice_EGO901024",
+      "content": "Gagnez le combat pour obtenir les Dons E.G.O. \"Globe Oculaire Fondu\" & \"Peau Venimeuse\""
+    },
+    {
+      "id": "Choice_EGO901031",
+      "content": "Gagnez le combat pour obtenir les Dons E.G.O. \"Divergence Nixie\" & \"Ressort Mécanique\""
+    },
+    {
+      "id": "Choice_EGO901033",
+      "content": "Gagnez le combat pour obtenir les Dons E.G.O. \"Batterie Standard\" & \"Défibrilateur Non Plafonné\""
+    },
+    {
+      "id": "Choice_EGO901034",
+      "content": "Gagnez le combat pour obtenir les Dons E.G.O. \"Circuit Logique de Repérage\" & \"Système UPS\""
+    },
+    {
+      "id": "Choice_EGO901056",
+      "content": "Gagnez le combat pour obtenir les Dons E.G.O. \"Trèfle à Quatre Feuille\" & \"Élytres d’Émeraude\""
+    },
+    {
+      "id": "Choice_EGO901059",
+      "content": "Gagnez le combat pour obtenir les Dons E.G.O. \"Cauchemar du Solstice d’Hiver\" & \"Piège de l’Eldtree\""
+    },
+    {
+      "id": "Choice_EGO901073",
+      "content": "Gagnez le combat pour obtenir les Dons E.G.O. \"Kit d’Endorphine\" & \"Lampe Fluorescente\""
+    },
+    {
+      "id": "Choice_EGO971029",
+      "content": "Gagnez le combat pour obtenir les Dons E.G.O. \"Dague Dimensionnelle de Type E\" & \"Batterie de Barrière Portative\""
+    }
+  ]
+}
