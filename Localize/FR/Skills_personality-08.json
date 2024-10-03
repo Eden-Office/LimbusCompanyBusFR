@@ -704,6 +704,296 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1081001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Posture d’Épée à Deux Mains du Chevalier Zwei",
+          "desc": "[WhenUse] Gagne +2 d’[Aggro] à cet Emplacement de Capacité au prochain tour\n[WhenUse] Gagne 1 de [DefenseUp] pour chaque 4 de Compte de [Vibration] sur soi (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de [DefenseUp] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de [DefenseUp] au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Posture d’Épée à Deux Mains du Chevalier Zwei",
+          "desc": "[WhenUse] Gagne +<style=\"highlight\">3</style> d’[Aggro] à cet Emplacement de Capacité au prochain tour\n[WhenUse] Gagne 1 de [DefenseUp] pour chaque <style=\"highlight\">3</style> de Compte de [Vibration] sur soi (2 max)\n<style=\"highlight\">[WhenUse] À 4+ de [DefenseUp], +1 de Puissance de Base</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne <style=\"highlight\">2</style> de [DefenseUp] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne <style=\"highlight\">2</style> de [DefenseUp] au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Posture d’Épée à Deux Mains du Chevalier Zwei",
+          "desc": "[WhenUse] Gagne +3 d’[Aggro] à cet Emplacement de Capacité au prochain tour\n[WhenUse] Gagne 1 de [DefenseUp] pour chaque <style=\"highlight\">2</style> de Compte de [Vibration] sur soi (<style=\"highlight\">3</style> max)\n[WhenUse] <style=\"highlight\">+1 de Puissance de Base pour chaque 4 de [DefenseUp] (2 max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 de [DefenseUp] au prochain tour<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 de [DefenseUp] au prochain tour<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Peux Pas Te Laisser Passer.",
+          "desc": "[WhenUse] Gagne +3 d’[Aggro] à cet Emplacement de Capacité au prochain tour\n[WhenUse] Gagne 1 de [DefenseUp] pour chaque 2 de Compte de [Vibration] sur soi (3 max)\n[WinDuel] Gagne +3 de Compte de [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 3 de [DefenseUp] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige ((Compte de [Vibration] sur soi)/2) de [Vibration] (2 max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 10+ de [DefenseUp], inflige 1 de [Reduction]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Peux Pas Te Laisser Passer.",
+          "desc": "[WhenUse] Gagne +3 d’[Aggro] à cet Emplacement de Capacité au prochain tour\n[WhenUse] Gagne 1 de [DefenseUp] pour chaque 2 de Compte de [Vibration] sur soi (<style=\"highlight\">4</style> max)\n<style=\"highlight\">[WhenUse] À 5+ de [DefenseUp], +1 de Puissance de Pièce</style>\n[WinDuel] Gagne +3 de Compte de [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 3 de [DefenseUp] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige ((Compte de [Vibration] sur soi)/2) de [Vibration] (<style=\"highlight\">3</style> max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 10+ de [DefenseUp], inflige 1 de [Reduction]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Peux Pas Te Laisser Passer.",
+          "desc": "[WhenUse] Gagne +<style=\"highlight\">5</style> d’[Aggro] à cet Emplacement de Capacité au prochain tour\n[WhenUse] Gagne 1 de [DefenseUp] pour chaque 2 de Compte de [Vibration] sur soi (<style=\"highlight\">5</style> max)\n[WhenUse] À <style=\"highlight\">4</style>+ de [DefenseUp], +1 de Puissance de Pièce\n[WinDuel] Gagne +3 de Compte de [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">4</style> de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne <style=\"highlight\">4</style> de [DefenseUp] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige ((Compte de [Vibration] sur soi)/2) de [Vibration] (<style=\"highlight\">4</style> max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À <style=\"highlight\">8</style>+ de [DefenseUp], inflige 1 de [Reduction]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081003,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Pupille",
+          "desc": "[WhenUse] Gagne 1 de [DefenseUp] pour chaque 2 de Compte de [Vibration] sur soi (3 max)\n[WhenUse] Si cette unité est en [DefensiveStance], inflige +50% de dégâts supplémentaires\n[WhenUse] +1 de Puissance de Pièce pour chaque 4 de [DefenseUp] sur soi (2 max)\n[WhenUse] Gagne +8 d’[Aggro] à cet Emplacement de Capacité au prochain tour\n[WinDuel] Gagne +3 de Compte de [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Consomme tout le Compte de [Vibration] sur soi et inflige la valeur du Compte consommé en [Vibration] sur la cible. (10 max)\n- Inflige +([Vibration] en excès * 1.5)% de dégâts supplémentaires (30% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cette unité est en [DefensiveStance], déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Pupille",
+          "desc": "[WhenUse] Gagne 1 de [DefenseUp] pour chaque 2 de Compte de [Vibration] sur soi (<style=\"highlight\">5</style> max)\n[WhenUse] Si cette unité est en [DefensiveStance], inflige +<style=\"highlight\">70</style>% de dégâts supplémentaires\n[WhenUse] +1 de Puissance de Pièce pour chaque 4 de [DefenseUp] sur soi (<style=\"highlight\">4</style> max)\n[WhenUse] Gagne +<style=\"highlight\">10</style> d’[Aggro] à cet Emplacement de Capacité au prochain tour\n[WinDuel] Gagne +3 de Compte de [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Consomme tout le Compte de [Vibration] sur soi et inflige la valeur du Compte consommé en [Vibration] sur la cible. (<style=\"highlight\">20</style> max)\n- Inflige +([Vibration] en excès * <style=\"highlight\">5</style>)% de dégâts supplémentaires (<style=\"highlight\">50</style>% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cette unité est en [DefensiveStance], déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Votre Bouclier",
+          "desc": "[CanDuelGuard]\n[StartBattle] Gagne 2 de [DefensiveStance]. (une fois par tour)\n[WhenUse] Gagne +10 de Compte de [Vibration] (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Votre Bouclier",
+          "desc": "[CanDuelGuard]\n[StartBattle] Gagne 2 de [DefensiveStance]. (une fois par tour)\n[WhenUse] Gagne +10 de Compte de [Vibration] (une fois par tour)\n<style=\"highlight\">[WinDuel] Déclenche un [VibrationExplosion]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1652,6 +1652,45 @@
       "name": "Main du Salut",
       "desc": "Lorsqu’un allié touche avec une Capacité, consomme 2 de [Sinking] sur la cible pour lui infliger 1 [SinkingWhite] (3 fois par tour)",
       "summary": "Convertie la Lourdeur de la cible en Papillon"
+    },
+    {
+      "id": 1091001,
+      "name": "Livraison Rapide",
+      "desc": "Début du Tour : à 6+ de Vitesse, ou si cette unité a [Agility], gagne ([DevyatDimensionalSack]/2)% des PV max de cette unité en Bouclier (15% max)\n\nEn Battant en Retraite, applique 1 de [ParryingResultUp] à 2 alliés au prochain tour (priorise d’abord les unités Substituées, puis dans l’ordre de Déploiement)",
+      "summary": "Gagne ([DevyatDimensionalSack]/2)% des PV max de cette unité en Bouclier\nEn Battant en Retraite, applique 1 de [ParryingResultUp] à 2 alliés aléatoires"
+    },
+    {
+      "id": 1091011,
+      "name": "Livraison Rapide",
+      "desc": "Début du Tour : à 6+ de Vitesse, ou si cette unité a [Agility], gagne <style=\"highlight\">([DevyatDimensionalSack])%</style> des PV max de cette unité en Bouclier (<style=\"highlight\">20%</style> max)\n\nEn Battant en Retraite, applique 1 de [ParryingResultUp] à 2 alliés au prochain tour (priorise d’abord les unités Substituées, puis dans l’ordre de Déploiement)\n<style=\"highlight\">- Dure 1 tour supplémentaire pour chaque 15 de [DevyatDimensionalSack] sur soi (2 tours supplémentaires max)</style>",
+      "summary": "Gagne ([DevyatDimensionalSack])% des PV max de cette unité en Bouclier\nEn Battant en Retraite, applique 1 de [ParryingResultUp] à 2 alliés aléatoires"
+    },
+    {
+      "id": 1091002,
+      "name": "Laissez-moi partir et je vous jure que j’arriverai à l’heure !",
+      "desc": "<Pour les Combats Chaînés> Après avoir Battu en Retraite avec '[Retreat]', si cette unité revient dans le combat, réduit de moitié la valeur de [DevyatDimensionalSack] (une fois par Affrontement, arrondi au supérieur)",
+      "summary": "Réduit de moitié la valeur de [DevyatDimensionalSack]"
+    },
+    {
+      "id": 1091021,
+      "name": "Coursier Extraordinaire",
+      "desc": "À 1 allié avec la plus haute Vitesse : +1 de Puissance de Duel aux Capacités qui appliquent de la Puissance ou du Compte de [Burst]",
+      "summary": "Les Capacités qui appliquent de la Puissance ou du Compte de [Burst] gagnent +1 de Puissance de Duel"
+    },
+    {
+      "id": 1081001,
+      "name": "Épée à Deux Mains Antichoc",
+      "desc": "Au Début du Combat, gagne du [DefenseUp] égal au Compte de [Vibration] sur soi (5 max)"
+    },
+    {
+      "id": 1081011,
+      "name": "Épée à Deux Mains Antichoc",
+      "desc": "Au Début du Combat, gagne du [DefenseUp] égal au Compte de [Vibration] sur soi (5 max)\n- Si cette unité est en [DefensiveStance], double la quantité de [DefenseUp] obtenu avec l’effet ci-dessus."
+    },
+    {
+      "id": 1081021,
+      "name": "Protection d’Urgence",
+      "desc": "Au Début du Combat, compare les PV actuels de toutes les Identités à leurs PV au tour précédant. Puis, applique 2 de [DefenseUp] à l’Identité avec le plus grand écart de valeurs de PV entre ces tours."
     }
   ]
 }

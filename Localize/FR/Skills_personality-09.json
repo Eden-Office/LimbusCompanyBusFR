@@ -138,7 +138,7 @@
         {
           "level": 4,
           "name": "Étude Insoutenable",
-          "desc": "Gagne (Information * 20% des PV Max.) Bouclier si cette Capacité est Défaussée\n[WhenUse] Défausse 2 Capacité du rang inférieur dans tous les Emplacements de Capacité de cette unité\n[WhenUse] Cet Emplacement gagne 5 d’Aggro au prochain tour\n[WhenUse] If target has 7+ Sinking, gain Coin Power +1",
+          "desc": "Gagne (Information * 20% des PV Max.) Bouclier si cette Capacité est Défaussée\n[WhenUse] Défausse 2 Capacité du rang inférieur dans tous les Emplacements de Capacité de cette unité\n[WhenUse] Cet Emplacement gagne 5 d’Aggro au prochain tour\n[WhenUse] If target has 7+ Sinking, gain +1 de Puissance de Pièce",
           "coinlist": [
             {
               "coindescs": [
@@ -710,6 +710,260 @@
                 }
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Malle de Coursier - Couteau Désintégrateur",
+          "desc": "[WhenUse] Si la cible a 15+ de [Burst] et 3+ de Compte de [Burst] : cette Capacité ne consomme pas de Compte de [Burst] de la cible En Touche, mais n’inflige pas de [Burst] avec les effets En Touche de cette Capacité",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de [DevyatDimensionalSack]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Malle de Coursier - Couteau Désintégrateur",
+          "desc": "<style=\"highlight\">À 10+ de [DevyatDimensionalSack], ou si la cible a 6+ de [Burst], +1 de Puissance de Pièce</style>\n[WhenUse] Si la cible a 15+ de [Burst] et 3+ de Compte de [Burst] : cette Capacité ne consomme pas de Compte de [Burst] de la cible En Touche, mais n’inflige pas de [Burst] avec les effets En Touche de cette Capacité",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de [DevyatDimensionalSack]\n<style=\"highlight\">- Si cette unité a moins de 15 de [DevyatDimensionalSack], gagne 1 de [DevyatDimensionalSack] supplémentaire</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Malle de Coursier - Couteau Désintégrateur",
+          "desc": "<style=\"highlight\">+1 de Puissance de Pièce pour chaque 10 de [DevyatDimensionalSack] sur soi ou pour chaque 6 de [Burst] sur la cible (2 max)</style>\n[WhenUse] Si la cible a 15+ de [Burst] et 3+ de Compte de [Burst] : cette Capacité ne consomme pas de Compte de [Burst] de la cible En Touche, mais n’inflige pas de [Burst] avec les effets En Touche de cette Capacité",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de [DevyatDimensionalSack]\n- Si cette unité a moins de 15 de [DevyatDimensionalSack], gagne 1 de [DevyatDimensionalSack] supplémentaire<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> de [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Malle de Coursier - Révélation de Gadgets",
+          "desc": "À 10+ de [DevyatDimensionalSack], ou si la cible a 6+ de [Burst], +1 de Puissance de Pièce\n[WhenUse] Si la cible a 15+ de [Burst] et 3+ de Compte de [Burst] : cette Capacité ne consomme pas de Compte de [Burst] de la cible En Touche",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de [DevyatDimensionalSack]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne 1 de [Agility] au prochain tour (une fois par tour)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [DefenseDown] pour chaque 10 de [DevyatDimensionalSack] sur soi ou pour chaque 5 de [Burst] sur la cible (2 max, une fois par tour)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Malle de Coursier - Révélation de Gadgets",
+          "desc": "<style=\"highlight\">+1 de Puissance de Pièce pour chaque 10 de [DevyatDimensionalSack] sur soi ou pour chaque 6 de [Burst] sur la cible (2 max)</style>\n[WhenUse] Si la cible a 15+ de [Burst] et 3+ de Compte de [Burst] : cette Capacité ne consomme pas de Compte de [Burst] de la cible En Touche",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de [DevyatDimensionalSack]\n<style=\"highlight\">- Si cette unité a moins de 15 de [DevyatDimensionalSack], gagne 1 de [DevyatDimensionalSack] supplémentaire</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne 1 de [Agility] au prochain tour (une fois par tour)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [DefenseDown] pour chaque <style=\"highlight\">5</style> de [DevyatDimensionalSack] sur soi ou pour chaque 5 de [Burst] sur la cible (<style=\"highlight\">4</style> max, une fois par tour)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Malle de Coursier - Révélation de Gadgets",
+          "desc": "<style=\"highlight\">Inflige +2% de dégâts supplémentaires pour chaque [DevyatDimensionalSack] sur soi (40% max)</style>\n+1 de Puissance de Pièce pour chaque 10 de [DevyatDimensionalSack] sur soi ou pour chaque 6 de [Burst] sur la cible (2 max)\n[WhenUse] Si la cible a 15+ de [Burst] et 3+ de Compte de [Burst] : cette Capacité ne consomme pas de Compte de [Burst] de la cible En Touche",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de [DevyatDimensionalSack]\n- Si cette unité a moins de 15 de [DevyatDimensionalSack], gagne <style=\"highlight\">2</style> de [DevyatDimensionalSack] supplémentaires"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne 1 de [Agility] au prochain tour (une fois par tour)\n<style=\"highlight\">- À 15+ de [DevyatDimensionalSack], gagne 1 de [Agility] supplémentaire</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [DefenseDown] pour chaque 5 de [DevyatDimensionalSack] sur soi ou pour chaque 5 de [Burst] sur la cible (<style=\"highlight\">6</style> max, une fois par tour)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091003,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "J’Te Fais Confiance, Polu !",
+          "desc": "Inflige +2% de dégâts supplémentaires pour chaque [DevyatDimensionalSack] sur soi (40% max)\nÀ 10+ de [DevyatDimensionalSack] sur soi, ou si la cible a 6+ de [Burst], +1 de Puissance de Pièce\n[WhenUse] Si la cible a 15+ de [Burst] et 3+ de Compte de [Burst], cette Capacité n’inflige pas de Compte de [Burst] avec ses effets En Touche ; à la place, Réutilise sa dernière Pièce",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Burst] (une fois par tour)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] À 15+ de [DevyatDimensionalSack], inflige +15% de dégâts supplémentaires"
+                },
+                {
+                  "desc": "[EndSkill] Si la cible est Déséquilibrée ou vaincue, gagne 1 de [Agility] au prochain tour (une fois par tour)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "J’Te Fais Confiance, Polu !",
+          "desc": "Inflige <style=\"highlight\">+4%</style> de dégâts supplémentaires pour chaque [DevyatDimensionalSack] sur soi (<style=\"highlight\">80%</style> max)\n<style=\"highlight\">+1 de Puissance de Pièce pour chaque 10 de [DevyatDimensionalSack] sur soi ou pour chaque 6 de [Burst] sur la cible (2 max)</style>\n[WhenUse] Si la cible a 15+ de [Burst] et 3+ de Compte de [Burst] : cette Capacité n’inflige pas de Compte de [Burst] avec ses effets En Touche ; à la place, Réutilise sa dernière Pièce",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Burst] (une fois par tour)\n<style=\"highlight\">- Inflige +1 de Compte de [Burst] supplémentaire pour chaque 10 de [DevyatDimensionalSack] (2 max)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] À 15+ de [DevyatDimensionalSack], inflige <style=\"highlight\">+25%</style> de dégâts supplémentaires"
+                },
+                {
+                  "desc": "[EndSkill] Si la cible est Déséquilibrée ou vaincue, gagne <style=\"highlight\">2</style> de [Agility] au prochain tour (une fois par tour)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Support de Coursier & Séquence de Contrôle",
+          "desc": "[StartBattle] À 15+ de [DevyatDimensionalSack], active 'Juste… Un Congé Stratégique !' à la place (une fois par tour)\n[StartBattle] Si cette Capacité est activée, gagne ([DevyatDimensionalSack]/2)% des PV max de cette unité en Bouclier (15% max, une fois par tour)\n[WhenUse] Gagne 2 de [DevyatDimensionalSack] (une fois par tour)\n- À moins de 15 de [DevyatDimensionalSack], gagne 1 de [DevyatDimensionalSack] supplémentaire",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Support de Coursier & Séquence de Contrôle",
+          "desc": "[StartBattle] À 15+ de [DevyatDimensionalSack], active 'Juste… Un Congé Stratégique !' à la place (une fois par tour)\n[StartBattle] Si cette Capacité est activée, gagne <style=\"highlight\">([DevyatDimensionalSack])%</style> des PV max de cette unité en Bouclier (<style=\"highlight\">25%</style> max, une fois par tour)\n[WhenUse] Gagne 2 de [DevyatDimensionalSack] (une fois par tour)\n- À moins de 15 de [DevyatDimensionalSack], gagne 1 de [DevyatDimensionalSack] supplémentaire",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091005,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Juste… Un Congé Stratégique !",
+          "desc": "[StartBattle] Si cette Capacité est activée, gagne ([DevyatDimensionalSack]/2)% des PV max de cette unité en Bouclier (15% max, une fois par tour)\n[EndBattle] Active [Retreat]",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Juste… Un Congé Stratégique !",
+          "desc": "[StartBattle] Si cette Capacité est activée, gagne <style=\"highlight\">([DevyatDimensionalSack])%</style> des PV max de cette unité en Bouclier (<style=\"highlight\">25%</style> max, une fois par tour)\n[EndBattle] Active [Retreat]",
+          "coinlist": [
+            {}
           ]
         }
       ]

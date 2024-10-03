@@ -34,9 +34,6 @@ namespace LimbusCompanyFR
         [HarmonyPostfix]
         private static void LoginSceneManager_Init(LoginSceneManager __instance)
         {
-            DateTime event_start = new DateTime(2024, 8, 8, 3, 0, 0).ToLocalTime();
-            DateTime event_end = new DateTime(2024, 9, 12, 2, 59, 0).ToLocalTime();
-            DateTime startup = DateTime.Today;
             Transform catchphrase = __instance._canvas.transform.Find("[Image]Catchphrase");
             Transform logo = __instance._canvas.transform.Find("[Image]Logo");
             if (catchphrase.GetComponentInChildren<Image>(true).sprite.name == "season_catchphrase")
@@ -45,17 +42,26 @@ namespace LimbusCompanyFR
             }
             __instance.img_touchToStart.sprite = EO_ReadmeManager.ReadmeSprites["Start"];
             Transform motto = __instance.transform.Find("[Canvas]/[Image]RedLine/[Image]Phrase");
+            Motto_Changer(catchphrase, logo, motto);
+        }
+
+        public static void Motto_Changer(Transform catchphrase, Transform logo, Transform motto)
+        {
+            DateTime event_start = new DateTime(2024, 8, 8, 3, 0, 0).ToLocalTime();
+            DateTime event_end = new DateTime(2024, 9, 12, 2, 59, 0).ToLocalTime();
+
+            DateTime startup = DateTime.Now;
             if (motto != null)
             {
-                if (logo.gameObject.active == true)
+                if (catchphrase.gameObject.active == true)
+                    motto.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["Motto_Season"];
+                else if (logo.gameObject.active == true)
                 {
                     if (DateTime.Compare(startup, event_end) < 0)
                         motto.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["Motto_Event"];
                     else
                         motto.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["Motto_Default"];
                 }
-                else if (catchphrase.gameObject.active == true)
-                    motto.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeSprites["Motto_Season"];
             }
         }
         #endregion

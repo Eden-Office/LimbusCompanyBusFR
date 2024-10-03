@@ -1545,6 +1545,45 @@
       "desc": "- Panique\n- -2 de Puissance de Duel sur soi. Gagne 5 de Lourdeur et +3 de Compte de Lourdeur à chaque Fin du Tour",
       "summary": "-2 de Puissance de Duel sur soi. Gagne 5 de Lourdeur et +3 de Compte de Lourdeur à chaque Fin du Tour",
       "undefined": "-"
+    },
+    {
+      "id": "UninvitedGuestPersonality",
+      "name": "L’Intrus",
+      "desc": "- Valeur Max : 2\n- À la mort, le dernier attaquant regagne 3 PSM ; puis, un allié aléatoire sans cet effet gagne 2 Stacks de cet effet.\n- Subit +0.5% de dégâts supplémentaires pour chaque Lourdeur sur soi (10% max ; pour les Affrontements Concentrés, compte séparément la Lourdeur sur chaque partie)\n- Fin du Tour : diminue de 1",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "DevyatDimensionalSack",
+      "name": "Malle de Coursier",
+      "desc": "- Valeur de Base : 0\n- Début du Tour : gagne 3 Stacks\n- Les Stacks n’expirent pas en Battant en Retraite ; ils sont, à la place, stockés\n- À 10+ Stacks : augmente de 1 les valeurs Min & Max de Vitesse\n- À 20+ Stacks : gagne 1 de Bonus de Puissance de Duel et 1 de Bonus de Dégâts Tranchants\n- À 30+ Stacks :\n· À l’Usage de Capacité, subit (Stack/3)% de dégâts de PV et (Stack/3) dégâts de PSM\n· À la Fin du Tour, subit (Stack/2)% de dégâts de PV et (Stack/2) dégâts de PSM (s’applique avant de Battre en Retraite)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Retreat",
+      "name": "Mode de Repos Stratégique",
+      "desc": "- Fin du Tour : se remet de Déséquilibre et Bat en Retraite de l’Affrontement (sauf s’il s’agit d’un Déséquilibre forcé ; ne compte pas comme une mort)\n· En Combats Chaînés, donne les Emplacements de cette unité à une unité Substituée et se place à la dernière place de l’ordre de Déploiement des unités de Renfort (s’échappe entièrement de l’Affrontement s’il n’y a aucune Unité de Renfort restante avec qui changer de place au prochain tour. En revenant au combat, revient dans l’ordre de sa retraite.\n· En revenant au combat, revient avec la même quantité de PV et de PSM qu’avait cette unité en battant en retraite et élimine tous les effets sur soi pour certains (si cette unité avait moins de 0 PSM en battant en retraite, remet à 0 les PSM à la place)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "DefensiveStance",
+      "name": "Posture Défensive",
+      "desc": "- Valeur Max : 2\n- Cet effet ne se compose pas de puissance ; le cumuler ne fait qu’étendre sa durée.\n- Diminue de 1 à la Fin du Tour\n- Lorsqu’une unité gagne cet effet, gagne les effets suivants :\n  · Fixe la Vitesse de cette unité à sa valeur minimale\n  · Gagne 5 de Bonus de Niveau Défensif\n  · Chaque Emplacement de cette unité gagne +(10 / # d’Emplacement de cette unité) d’Aggro\n  · En chaînant des Capacités, cette unité peut attirer les attaques ennemies vers elle, qu’importe la Vitesse (Affrontements Concentrés uniquement)\n  · En Duel Gagné, déclenche un Sursaut de Tremblement\n  · Ne peut pas être Déséquilibbrée par des dégâts",
+      "summary": ""
+    },
+    {
+      "id": "CanDuelGuard",
+      "name": "Garde Affrontable",
+      "desc": "- En Duel Gagné : augmente de la Puissance de Duel finale de cette unité le Seuil de Déséquilibre de la cible.\n- En Duel Perdu : lorsque touché, réduit de la Puissance Finale de cette unité la Puissance de Capacité de l’attaquant.",
+      "summary": ""
+    },
+    {
+      "id": "SuperCoin",
+      "name": "Pièce Incassable",
+      "desc": "- Cette pièce ne se casse pas en Duel Perdu.\n- Si une Capacité d’Attaque a cette Pièce, attaque avec cette Pièce après avoir été touché.\n- En Duel Perdu, fixe la Puissance de Pièce de la Pièce incassable à 1",
+      "summary": ""
     }
   ]
 }

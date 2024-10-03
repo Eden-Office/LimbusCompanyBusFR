@@ -169,5 +169,51 @@ namespace LimbusCompanyFR
             __instance.transform.Find("Image").GetComponentInChildren<Image>(true).overrideSprite = EO_ReadmeManager.ReadmeEventSprites["MOWE_Exchange"];
         }
         #endregion
+
+        #region 4th Walpurgisnacht
+
+        [HarmonyPatch(typeof(WalpuEventRewardUIPopupBase), nameof(WalpuEventRewardUIPopupBase.InitEventStataicData))]
+        [HarmonyPostfix]
+        private static void Walpurgisnacht_Lobotomy_Missions(WalpuEventRewardUIPopupBase __instance)
+        {
+            Image description = __instance.transform.Find("EventDescriptionPanel").GetComponentInChildren<Image>(true);
+            description.overrideSprite = EO_ReadmeManager.ReadmeEventSprites["WN_LC_Desc"];
+
+            Image background = __instance.transform.Find("[Image]Background").GetComponentInChildren<Image>(true);
+            background.overrideSprite = EO_ReadmeManager.ReadmeEventSprites["WN4_BG"];
+        }
+        [HarmonyPatch(typeof(WalpuEventRewardUIPopupBase), nameof(WalpuEventRewardUIPopupBase.InitDateText))]
+        [HarmonyPostfix]
+        private static void Walpurgisnacht_Lobotomy_Date(WalpuEventRewardUIPopupBase __instance)
+        {
+            __instance.tmp_eventDate.m_fontAsset = LCB_French_Font.GetFrenchFonts(2);
+            __instance.tmp_eventDate.m_sharedMaterial = LCB_French_Font.GetFrenchMats(7);
+            __instance.tmp_eventDate.text = "<size=60>06:00 5.09.2024(ЧТ) - 04:00 26.09.2024(ЧТ) (МСК)</size>";
+            __instance.tmp_eventDate.GetComponentInChildren<RectTransform>(true).anchoredPosition = new Vector2(__instance.tmp_eventDate.GetComponentInChildren<RectTransform>(true).anchoredPosition.x, __instance.tmp_eventDate.GetComponentInChildren<RectTransform>(true).anchoredPosition.y - 12);
+        }
+        [HarmonyPatch(typeof(WalpuEventRewardButtonBase), nameof(WalpuEventRewardButtonBase.SetData))]
+        [HarmonyPostfix]
+        private static void Walpurgisnacht_Lobotomy_CompleteLabel(WalpuEventRewardButtonBase __instance)
+        {
+            __instance._completeImage.overrideSprite = EO_ReadmeManager.ReadmeEventSprites["WN_LC_Clear"];
+        }
+
+        [HarmonyPatch(typeof(WalpuEventPanelBase), nameof(WalpuEventPanelBase.Initialize))]
+        [HarmonyPostfix]
+        private static void Walpurgis_4th(WalpuEventPanelBase __instance)
+        {
+            __instance._dateText.m_fontAsset = LCB_French_Font.GetFrenchFonts(0);
+            __instance._dateText.m_sharedMaterial = LCB_French_Font.GetFrenchMats(3);
+            __instance._dateText.text = "06:00 5.09.2024(ЧТ) - 04:00 19.09.2024(ЧТ) (МСК)";
+        }
+
+        [HarmonyPatch(typeof(Walpu3SubEventBanner), nameof(Walpu3SubEventBanner.UpdateBanner))]
+        [HarmonyPostfix]
+        private static void Walpu_Missions(Walpu3SubEventBanner __instance)
+        {
+            __instance._bannerImage.overrideSprite = EO_ReadmeManager.ReadmeEventSprites["WN4_Mission_Banner"];
+        }
+
+        #endregion
     }
 }

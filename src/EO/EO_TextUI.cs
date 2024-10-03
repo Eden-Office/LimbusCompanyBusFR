@@ -752,14 +752,14 @@ namespace LimbusCompanyFR
         {
             __instance.tmp_tabName.text = __instance.tmp_tabName.text.Replace("Capacité", "Capacités");
         }
-        [HarmonyPatch(typeof(UnitInformationController), nameof(UnitInformationController.OpenInit))]
+        /*[HarmonyPatch(typeof(UnitInformationController), nameof(UnitInformationController.OpenInit))]
         [HarmonyPostfix]
         private static void UnitInfo_Init(UnitInformationController __instance)
         {
             Transform skill = __instance.transform.Find("[Script]UnitInformationController_Renewal/[Script]TabContentManager/[Layout]UnitInfoTabList/[Button]UnitInfoTab (1)/[Text]UnitInfoTabName");
             if (skill != null)
                 skill.GetComponentInChildren<TextMeshProUGUI>(true).text = "Capacité";
-        }
+        }*/
         [HarmonyPatch(typeof(AbnormalityStatUI), nameof(AbnormalityStatUI.UpdateBottomUIScale))]
         [HarmonyPostfix]
         private static void AbnormalityStatUI_Init(AbnormalityStatUI __instance)
