@@ -78,5 +78,27 @@ namespace LimbusCompanyFR
             else if (tgIdx == 2)
                 __instance._lang = LOCALIZE_LANGUAGE.JP;
         }
+        [HarmonyPatch(typeof(DateUtil), nameof(DateUtil.TimeZoneOffset), MethodType.Getter)]
+        [HarmonyPrefix]
+        public static bool TimeZoneOffset(ref int __result)
+        {
+            if (IsUseFrench.Value)
+            {
+                __result = 1;
+                return false;
+            }
+            return true;
+        }
+        [HarmonyPatch(typeof(DateUtil), nameof(DateUtil.TimeZoneString), MethodType.Getter)]
+        [HarmonyPrefix]
+        public static bool TimeZoneString(ref string __result)
+        {
+            if (IsUseFrench.Value)
+            {
+                __result = "CET";
+                return false;
+            }
+            return true;
+        }
     }
 }

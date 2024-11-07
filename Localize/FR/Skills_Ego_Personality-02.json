@@ -343,6 +343,196 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2020711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lasso",
+          "abName": "La Rose Chasseuse",
+          "desc": "+1 de Puissance de Pièce pour chaque 7 de [Burst] sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Lasso",
+          "abName": "La Rose Chasseuse",
+          "desc": "<style=\"highlight\">Si la somme des Vitesses de cette unité et de la cible est de 6 ou plus, +1 de Puissance de Pièce</style>\n+1 de Puissance de Pièce pour chaque 7 de [Burst] sur la cible (2 max)\n<style=\"highlight\">[BeforeAttack] Gagne 2 de [Agility] au prochain tour\n[BeforeAttack] À 4+ de Réson. de Gourmandise ou de Luxure, gagne +1 de Poids d’Atq</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Lasso",
+          "abName": "La Rose Chasseuse",
+          "desc": "Si la somme des Vitesses de cette unité et de la cible est de 6 ou plus, +1 de Puissance de Pièce\n+1 de Puissance de Pièce pour chaque 7 [Burst] sur la cible (2 max)\n[BeforeAttack] Gagne 2 de [Agility] au prochain tour\n[BeforeAttack] À 4+ de plus haute Réson., +1 de Poids d’Atq\n<style=\"highlight\">- Si cette Réson. était une Réson. de Gourmandise, +1 de Poids d’Atq</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lasso",
+          "abName": "La Rose Chasseuse",
+          "desc": "[CantIdentify]\nCible aléatoirement\n+1 de Puissance de Pièce pour chaque 7 de [Burst] sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Snare]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Lasso",
+          "abName": "La Rose Chasseuse",
+          "desc": "[CantIdentify]\nCible aléatoirement\n<style=\"highlight\">Si la somme des Vitesses de cette unité et de la cible est de 6 ou plus, +1 de Puissance de Pièce</style>\n+1 de Puissance de Pièce pour chaque 7 de [Burst] sur la cible (2 max)\n<style=\"highlight\">[BeforeAttack] Gagne 2 de [Agility] au prochain tour</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Snare]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2% de dégâts supplémentaires pour chaque [Burst] sur la cible (30% max)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Lasso",
+          "abName": "La Rose Chasseuse",
+          "desc": "[CantIdentify]\nCible aléatoirement\nSi la somme des Vitesses de cette unité et de la cible est de 6 ou plus, +1 de Puissance de Pièce\n+1 de Puissance de Pièce pour chaque 7 de [Burst] sur la cible\n[BeforeAttack] Gagne 2 de [Agility] au prochain tour\n<style=\"highlight\">[EndSkill] Si la cible est Déséquilibrée ou vaincue, gagne 1 de [ShamrockResultUp] au prochain tour</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Snare]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2% de dégâts supplémentaires pour chaque [Burst] sur la cible (60% max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

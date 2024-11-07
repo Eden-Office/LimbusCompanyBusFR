@@ -1,0 +1,74 @@
+{
+  "dataList": [
+    {
+      "id": 837101,
+      "name": "Opportunité Ordinaire",
+      "desc": "Début du Tour : si la Vitesse de cette unité est plus rapide que celle de la cible, gagne 1 de [PenetrateDamageUp]"
+    },
+    {
+      "id": 837102,
+      "name": "Respirer Tranquillement",
+      "desc": "Fin du Tour : regagne 7 PSM\nFin du Tour : gagne de la [Agility] égal à ([Breath] sur soi/4) au prochain tour (3 max)"
+    },
+    {
+      "id": 837103,
+      "name": "Combat Singulier",
+      "desc": "Utilise Salut si la cible est Déséquilibrée"
+    },
+    {
+      "id": 837104,
+      "name": "Attaque Concentrée",
+      "desc": "En utilisant une Capacité sur le même Emplacement que cette unité a réussi à toucher au dernier tour, gagne les effets suivants selon le nombre de tours consécutifs où l’emplacement a été touché\nSe réinitialise si l’unité échoue à attaquer au dernier tour.\n- 1 Coup Consécutif : +1 de Puissance de Duel\n- 2 Coups Consécutifs : +1 de Puissance de Base\n- 3 Coups Consécutifs : +1 de Puissance de Base, +1 de Puissance de Pièce"
+    },
+    {
+      "id": 837201,
+      "name": "Je Te Trancherai en Première !",
+      "desc": "Priorise [LineCutting]."
+    },
+    {
+      "id": 837202,
+      "name": "Ciseaux de Sang Durci",
+      "desc": "En Touche, si la cible a [Laceration], soigne les Parties & le Noyau de cette unité de 40% des dégâts infligés.\nAprès l’Attaque, si cette unité a soigné au moins 100 PV, regagne 10 PSM\nCet effet ne s’active pas En Touche avec une Capacité à Pièce Indestructible si elle perd le Duel."
+    },
+    {
+      "id": 837203,
+      "name": "Je N’ai Pas Besoin de Choses Hideuses !!",
+      "desc": "S’il y a des ennemis avec 30% de PV ou moins, utilise la Capacité 'Je N’ai Pas B\u200Cesoin de Choses Hideuses !!'."
+    },
+    {
+      "id": 837204,
+      "name": "Ce N’est Pas Encore Fini",
+      "desc": "Gagne un nouveau comportement à 40% des PV max de cette unité\nAu changement de comportement, gagne 10 de [Laceration] et 2 de [BloodScissor]."
+    },
+    {
+      "id": 837205,
+      "name": "Festin Sanglant",
+      "desc": "Si cette unité est sur le terrain, ou est l’une des unités qui peut apparaître sur ce Niveau, augmente la valeur de [BloodDinner] par la quantité de dégâts de [Laceration] reçu collectivement par chaque unité.\nLorsque cette unité arrivera sur le terrain, le sang ensommeillé et baignant le champ de bataille s’élèvera au-dessus de la surface."
+    },
+    {
+      "id": 837206,
+      "name": "Ciseaux Impregnés de Sang",
+      "desc": "Début du Combat : gagne 10 de [BloodScissor]\n- [BloodScissor] ne descend pas en dessous de 1\n- À 10+ de [BloodScissor], les convertit en [BloodScissorTwo].\n- À 20+ de [BloodScissor], les convertit en [BloodScissorThree].\nSi cette unité consomme [BloodScissor] et tombe en dessous des seuils susmentionnés, les convertit en conséquence."
+    },
+    {
+      "id": 837207,
+      "name": "Affamé et Flétri",
+      "desc": "Début du Combat : gagne [StarvingBarberTwo]"
+    },
+    {
+      "id": 837208,
+      "name": "Du Sang... Du Sang... Du Sang... !",
+      "desc": "Fin du Tour : si Paniqué, se remet de Panique au prochain Début du Tour et remet les PSM à 0.\nEn se remettant de Panique :\n- Consomme 30 de [BloodDinner] pour gagner 2 de [Enhancement] et 1 de [BloodScissor] au prochain tour, et regagne 20 PSM.\n- Si cette unité échoue à consommer [BloodScissor], gagne 30 de [Laceration], subit immédiatement des dégâts de [Laceration], puis, perd 3 de Compte de [Laceration]. Puis, gagne 2 de [Enhancement], 2 de [AttackDmgUp] et regagne 20 PSM au prochain tour."
+    },
+    {
+      "id": 9999997,
+      "name": "Remise de Panique",
+      "desc": "Fin du Tour : si en Panique, remet les PSM à 0."
+    },
+    {
+      "id": 9999996,
+      "name": "Panique Fixe",
+      "desc": "Le Type de Panique de cette unité ne change lorsqu’elle subit un effet qui change le Type de Panique. À la place, cette unité subit un effet qui est infligé aux cibles sans PSM."
+    }
+  ]
+}

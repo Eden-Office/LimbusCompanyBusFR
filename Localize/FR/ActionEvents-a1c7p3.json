@@ -1,0 +1,300 @@
+{
+  "dataList": [
+    {
+      "id": 837901,
+      "name": "아파하는 테디 선택지 선택 이벤트",
+      "subDesc": "UNUSED TEXT",
+      "desc": "Une peluche d’ourson nous regarde avec un air triste. Plusieurs clous pointus empalent son corps.",
+      "options": [
+        {
+          "message": "Câliner l’ours en peluche.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Détourner le regard.",
+          "result": [
+            "Peut-être que les clous paraissaient trop menaçants.\n\nPersonne ne voulait s’approcher de la peluche d’ourson.\n\nClairement blessé, il vouta ses épaules.\n\nIl est clair que la plupart des Pécheurs se sentaient mal de cette décision."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10701,
+      "name": "",
+      "subDesc": "",
+      "desc": "Nous nous sommes approchés du panneau indicateur de cet endroit distordu.\n\n<i>Bienvenue à La Manchaland.</i>\n\nDeux types de tickets et leurs prix sont écrits sous le logo.\n\nIl semblerait que nous devons acheter un ticket pour entrer…\n\nLequel devrions-nous acheter ?",
+      "options": [
+        {
+          "message": "Acheter le Passe d’un Jour",
+          "messageDesc": "Tous les alliés perdent des PV. Gagnez un Don E.G.O.",
+          "result": [
+            "Chaque Pécheur a payé son propre Passe d’un Jour avec son sang.\n\nCertains n’étaient pas ravis de cette décision, mais ils ont tous accepté de prendre les Passes d’un Jour.\n\nNous devrions pouvoir profiter de chaque attraction ici tant que nous avons ce ticket."
+          ]
+        },
+        {
+          "message": "Acheter le Passe Standard",
+          "messageDesc": "Tous les alliés gagnent des Dons E.G.O. qui gagnent du Saignement",
+          "result": [
+            "Cela pourrait être imprudent de perdre autant de sang à l’entrée.\n\nAprès une discussion avec les Pécheurs, nous avons décidé de prendre le Passe Standard, qui ne nécessite pas de paiement de sang.\n\nIl y a un avertissement sur le ticket : ‘les visiteurs doivent payer une certaine quantité de sang avant de participer à une attraction’.\n\nNous pourrions en avoir pour notre sang, tant que nous choisissons prudemment dans quelle attraction nous voulons entrer."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1070101,
+      "name": "",
+      "subDesc": "",
+      "desc": "Nous avons passé l’entrée de La Manchaland.\n\nQuelle zone devrions-nous d’abord visiter pour s’échapper de ce parc d’attraction labyrinthique ?",
+      "options": [
+        {
+          "message": "Participer à une partie au Stand de Tir Sanglant.",
+          "messageDesc": "Lance un affrontement. Gagnez pour obtenir un Don E.G.O.",
+          "result": [
+            "Peut-être que la sortie s’ouvrira si nous vainquons autant de Démons de Sang que possible.\n\nCertains Pécheurs ont suggéré de réessayer le Stand de Tir Sanglant.\n\n<i>Aux Aventuriers atteignant la fin de l’attraction, nous vous accorderons une Preuve de Victoire !</i>\n\nDerrière la réplique pré-enregistrée, un Démon de Sang nous encourage.\n\nNous l’avons déjà fait ; je suis sûr que nous pouvons le refaire."
+          ]
+        },
+        {
+          "message": "Aller au Confessionnal.",
+          "messageDesc": "Lance un contrôle d’Orgueil. Réussissez pour obtenir un Don E.G.O.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Regarder la Parade.",
+          "messageDesc": "Gagnez un Don E.G.O.",
+          "result": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1070103,
+      "name": "",
+      "subDesc": "",
+      "desc": "Nous nous sommes rendus à la Zone de la Parade sans perdre de temps.\n\nAprès un moment à marcher en direction de l’avant de la Parade, un Démon de Sang s’approcha de nous.\n\n\"Pourquoi ne pas prendre une photo commémorative avec la Parade dans le fond ?\"\n\"Un petit peu de sang, et vous pourrez vous rappeler ce moment pour toujours !\"\n\nQue devrions-nous faire ?",
+      "options": [
+        {
+          "message": "Payer avec du sang et prendre une photo commémorative.",
+          "messageDesc": "Certains Pécheurs perdent des PV. Gagnez un Don E.G.O.",
+          "result": [
+            "Certains Pécheurs ont accepté de payer du sang pour quelques photos.\n\nJe ne peux qu’avoir mal devant l’absence de Don Quichotte maintenant que nous prenons une photo de groupe.\n\nLorsque nous avons reçu la photographie, qui apparut après le flash, la Parade s’en alla très loin de nous et l’espace distordu revint à la normale.\n\nLa photographie dans ma main avait disparu, remplacée par un masque de Démon de Sang."
+          ]
+        },
+        {
+          "message": "Partir de là.",
+          "result": [
+            "Nous n’avons pas de temps à perdre avec des photos.\n\nNous avons décidé de continuer d’avancer le long de la Parade."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10702,
+      "name": "",
+      "subDesc": "",
+      "desc": "Nous voyons la porte d’une immense chambre de confinement.\n\nNous allons devoir la traverser pour nous échapper de ce labyrinthe.\n\nIl y a une étrange machine sur le chemin vers la chambre.\n\nCe doit être une machine à rouleaux qu’utilisait La Manchaland lors de ses évènements.\n\n<i>Une petite dose de sang pour quelque chose de très utile !</i>\n\nIl y a une publicité écrite avec une typographie élaborée.\n\nPeut-être que nous y trouverons “quelque chose de très utile” ?",
+      "options": [
+        {
+          "message": "Payer du sang pour jouer.",
+          "messageDesc": "Un Pécheur aléatoire perd des PV. Chance aléatoire de gagner un Don E.G.O.",
+          "result": [
+            "Lorsque le Pécheur paya avec son sang, la machine à rouleaux commença à tourner bruyamment.\n\n<i>Vous avez… rien !</i>\n\nAvec une triste musique, la machine ralentit avant de s’arrêter silencieusement.\n\nLes chances d’obtenir ce que nous voulons sont sûrement très basses.",
+            "Lorsque le Pécheur paya avec son sang, la machine à rouleaux commença à tourner bruyamment.\n\n<i>VOUS AVEZ GAGNÉ ! VOUS AVEZ GAGNÉ !</i>\n\nUne joyeuse musique bruyante se met à jouer et un cristal cubique fait de sang sorti de la machine.\n\nCela servira sûrement à quelque chose."
+          ]
+        },
+        {
+          "message": "Détruire la machine à rouleaux.",
+          "messageDesc": "…",
+          "result": [
+            "Ce n’était pas comme s’il y avait quelqu’un pour nous arrêter.\n\nPourquoi payer avec le sang des Pécheurs pour activer cette machine à rouleaux ?\n\nNe peut-on simplement pas l’ouvrir et récupérer le prix à l’intérieur ?\n\nJ’ordonne aux Pécheurs de casser la machine et certains Pécheurs étaient plus qu’heureux de le faire.\n\nLa machine commence à prendre une forme bizarre, puis un peccatulum massif apparut devant nous."
+          ]
+        },
+        {
+          "message": "Partir.",
+          "result": [
+            "Je doute qu’il y ait quelque chose d’utile pour nous à l’intérieur.\n\nNous avons décidé d’ignorer la machine à rouleaux et d’avancer."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1070201,
+      "name": "",
+      "subDesc": "",
+      "desc": "Un petit peu de sang ne nous a rien donné.\n\nEst-ce que le texte publicitaire nous ment ?\n\nOu peut-être que nous n’avons pas eu de chance.\n\nQue devrions-nous faire ?",
+      "options": [
+        {
+          "message": "Payer du sang pour jouer.",
+          "messageDesc": "Un Pécheur aléatoire perd des PV. Chance aléatoire de gagner un Don E.G.O.",
+          "result": [
+            "Lorsque le Pécheur paya avec son sang, la machine à rouleaux commença à tourner bruyamment.\n\n<i>Vous avez… rien !</i>\n\nAvec une triste musique, la machine ralentit avant de s’arrêter silencieusement.\n\nLes chances d’obtenir ce que nous voulons sont sûrement très basses.",
+            "Lorsque le Pécheur paya avec son sang, la machine à rouleaux commença à tourner bruyamment.\n\n<i>VOUS AVEZ GAGNÉ ! VOUS AVEZ GAGNÉ !</i>\n\nUne joyeuse musique bruyante se met à jouer et un cristal cubique fait de sang sorti de la machine.\n\nCela servira sûrement à quelque chose."
+          ]
+        },
+        {
+          "message": "Détruire la machine à rouleaux.",
+          "messageDesc": "…",
+          "result": [
+            "Ce n’était pas comme s’il y avait quelqu’un pour nous arrêter.\n\nPourquoi payer avec le sang des Pécheurs pour activer cette machine à rouleaux ?\n\nNe peut-on simplement pas l’ouvrir et récupérer le prix à l’intérieur ?\n\nJ’ordonne aux Pécheurs de casser la machine et certains Pécheurs étaient plus qu’heureux de le faire.\n\nLa machine commence à prendre une forme bizarre, puis un peccatulum massif apparut devant nous."
+          ]
+        },
+        {
+          "message": "Partir.",
+          "result": [
+            "Je doute qu’il y ait quelque chose d’utile pour nous à l’intérieur.\n\nNous avons décidé d’ignorer la machine à rouleaux et d’avancer."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10703,
+      "name": "",
+      "subDesc": "",
+      "desc": "\"Tandis que le noble Chevalier et son Écuyer étaient dans leur plus merveilleuse aventure…\"\n\n\"Le reste de leur Famille attendait, mâchant lentement la subsistance qui était à disposition.\"\n\n\"Bien qu’il soit incertain de si cette attente valait le coup.\"\n\nUne narration sarcastique et désincarnée résonne de quelque part.\n\nLa ‘subsistance’ que mangeait la Famille apparut devant les Pécheurs.",
+      "options": [
+        {
+          "message": "Manger l’hémobarre. (Elle est sans saveur.)",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "La laisser.",
+          "result": [
+            "Nous avons attendu un moment, refusant de manger cette chose. L’espace autour de nous se changea pour nous révéler un chemin.\n\nNous n’avons pas le temps de nous reposer. Avançons."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1070301,
+      "name": "",
+      "subDesc": "",
+      "desc": "\"Ils engloutissent cette ‘nourriture’ sans saveur et sèche.\"\n\n\"Mais leur faim n’est pas du genre à être apaisée par de tels suppléments.\"\n\n\"Incapables de supporter cette sensation de vide, ils continuèrent d’essayer de manger davantage de cette nourriture.\"\n\n\"Comme s’ils essayaient de se convaincre que se gaver de cette chose les libérerait de la famine.\"",
+      "options": [
+        {
+          "message": "Manger l’hémobarre.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Manger l’hémobarre.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Arrêter de manger.",
+          "result": [
+            "Nous avons attendu un moment, refusant de manger cette chose. L’espace autour de nous se changea pour nous révéler un chemin.\n\nNous n’avons pas le temps de nous reposer. Avançons."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1070302,
+      "name": "",
+      "subDesc": "",
+      "desc": "\"Une fois de plus, ils engloutissaient la nourriture.\"\n\n\"Ils mangeaient, et mangeaient, et mangeaient jusqu’à ne plus être capables d’en mettre dans leurs bouches.\"\n\n\"Cependant, quel malheur… Ils avaient <i>toujours faim</i>.\"\n\n\"Sans réfléchir, la Famille recommença alors à dresser sa table avec cette nourriture insipide.\"",
+      "options": [
+        {
+          "message": "Manger dix hémobarres.",
+          "messageDesc": "ATTENTION) Continuer de manger entraînera le gain d’un Don E.G.O. avec un désavantage",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Manger dix hémobarres.",
+          "messageDesc": "ATTENTION) Continuer de manger entraînera le gain d’un Don E.G.O. avec un désavantage",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Manger dix hémobarres.",
+          "messageDesc": "ATTENTION) Continuer de manger entraînera le gain d’un Don E.G.O. avec un désavantage",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Arrêter de manger.",
+          "result": [
+            "Nous avons attendu un moment, refusant de manger cette chose. L’espace autour de nous se changea pour nous révéler un chemin.\n\nNous n’avons pas le temps de nous reposer. Avançons."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1070303,
+      "name": "",
+      "subDesc": "",
+      "desc": "\"Il semble que, dans leur naïveté sans fin, ils pensaient n’avoir simplement pas assez mangé de nourriture.\"\n\n\"Voyons combien de temps… durera ce banquet vide de sens.\"",
+      "options": [
+        {
+          "message": "Keep eating the hemobars.",
+          "messageDesc": "Gagnez un Don E.G.O. avec un désavantage",
+          "result": [
+            "\"La famille mangea, et mangea, et mangea dans ce souhait désespéré.\"\n\n\"Que cette faim douloureuse puisse s’en aller.\"\n\n\"Ce qui vînt ensuite était une sorte d’anticipation.\"\n\n\"Que peut-être, juste peut-être, cette faim s’en ira une fois que le Chevalier et son Écuyer reviendront de leur aventure.\"\n\n\"Mais elle ne partira pas.\"\n\n\"Elle ne partira jamais.\"\n\nNous commençons à ressentir une soudaine faim inépuisable à la fin de la narration.\n\nChaque Pécheur commence à tanguer de faim si intensément que cela devient de la douleur.\n\nMais le chemin s’ouvre, sans nous laisser le temps de remplir nos estomacs.\n\nIl n’y a pas d’autres choix que d’avancer, je suppose."
+          ]
+        },
+        {
+          "message": "Keep eating the hemobars.",
+          "messageDesc": "Gagnez un Don E.G.O. avec un désavantage",
+          "result": [
+            "\"La famille mangea, et mangea, et mangea dans ce souhait désespéré.\"\n\n\"Que cette faim douloureuse puisse s’en aller.\"\n\n\"Ce qui vînt ensuite était une sorte d’anticipation.\"\n\n\"Que peut-être, juste peut-être, cette faim s’en ira une fois que le Chevalier et son Écuyer reviendront de leur aventure.\"\n\n\"Mais elle ne partira pas.\"\n\n\"Elle ne partira jamais.\"\n\nNous commençons à ressentir une soudaine faim inépuisable à la fin de la narration.\n\nChaque Pécheur commence à tanguer de faim si intensément que cela devient de la douleur.\n\nMais le chemin s’ouvre, sans nous laisser le temps de remplir nos estomacs.\n\nIl n’y a pas d’autres choix que d’avancer, je suppose."
+          ]
+        },
+        {
+          "message": "Keep eating the hemobars.",
+          "messageDesc": "Gagnez un Don E.G.O. avec un désavantage",
+          "result": [
+            "\"La famille mangea, et mangea, et mangea dans ce souhait désespéré.\"\n\n\"Que cette faim douloureuse puisse s’en aller.\"\n\n\"Ce qui vînt ensuite était une sorte d’anticipation.\"\n\n\"Que peut-être, juste peut-être, cette faim s’en ira une fois que le Chevalier et son Écuyer reviendront de leur aventure.\"\n\n\"Mais elle ne partira pas.\"\n\n\"Elle ne partira jamais.\"\n\nNous commençons à ressentir une soudaine faim inépuisable à la fin de la narration.\n\nChaque Pécheur commence à tanguer de faim si intensément que cela devient de la douleur.\n\nMais le chemin s’ouvre, sans nous laisser le temps de remplir nos estomacs.\n\nIl n’y a pas d’autres choix que d’avancer, je suppose."
+          ]
+        },
+        {
+          "message": "Keep eating the hemobars.",
+          "messageDesc": "Gagnez un Don E.G.O. avec un désavantage",
+          "result": [
+            "\"La famille mangea, et mangea, et mangea dans ce souhait désespéré.\"\n\n\"Que cette faim douloureuse puisse s’en aller.\"\n\n\"Ce qui vînt ensuite était une sorte d’anticipation.\"\n\n\"Que peut-être, juste peut-être, cette faim s’en ira une fois que le Chevalier et son Écuyer reviendront de leur aventure.\"\n\n\"Mais elle ne partira pas.\"\n\n\"Elle ne partira jamais.\"\n\nNous commençons à ressentir une soudaine faim inépuisable à la fin de la narration.\n\nChaque Pécheur commence à tanguer de faim si intensément que cela devient de la douleur.\n\nMais le chemin s’ouvre, sans nous laisser le temps de remplir nos estomacs.\n\nIl n’y a pas d’autres choix que d’avancer, je suppose."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10704,
+      "name": "",
+      "subDesc": "",
+      "desc": "Un amas de ronces aux épines pointues se dresse sur notre chemin.\n\n\"Le Chevalier et l’Écuyer ont aventuré ensemble pendant très, très longtemps.\"\n\n\"Ils ont tous deux profité de tant d’aventures.\"\n\n\"Laquelle d’entre elles était la plus intéressante ?\"\n\nEncore cette narration.\n\nQue devrions-nous répondre ?",
+      "options": [
+        {
+          "message": "Ma foi, c’estoit la bataille contre les géants montagnieux",
+          "messageDesc": "Gagnez des ressources E.G.O. de Colère et d’Orgueil",
+          "result": [
+            "\"Il y a très, très longtemps, le Chevalier et l’Écuyer livrèrent bataille aux géants.\"\n\n\"Mais ce n’était point très excitant, puisque cela se terminait toujours par la victoire du Chevalier.\"\n\n\"Il faut se demander, quelle autre aventure les attend.\""
+          ]
+        },
+        {
+          "message": "C’estoit la délivrance d’un village tourmenté du mal, certainement",
+          "messageDesc": "Gagnez des ressources E.G.O. de Luxure et de Gourmandise",
+          "result": [
+            "\"Le Chevalier et l’Écuyer secoururent le village tourmenté.\"\n\n\"C’était tellement, mais tellement simple pour eux, puisqu’ils étaient deux êtres tout-puissants qui cachaient leurs véritables forces.\"\n\n\"Il faut se demander, quelle autre aventure les attend.\""
+          ]
+        },
+        {
+          "message": "Veraiement, c’estoit l’aventure de l’elme de Mambrino",
+          "messageDesc": "Gagnez des ressources E.G.O. de Peine et d’Envie",
+          "result": [
+            "\"Après un long voyage éprouvant, le Chevalier et l’Écuyer réclamèrent le grand heaume de Mambrino comme leur propre.\"\n\n\"Ignorant des véritables pouvoirs du heaume.\"\n\n\"Il faut se demander, quelle autre aventure les attend.\""
+          ]
+        }
+      ]
+    }
+  ]
+}

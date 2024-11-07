@@ -4,11 +4,54 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using BattleUI.Typo;
+using MainUI.Gacha;
 
 namespace LimbusCompanyFR
 {
     internal class EO_EventUI
     {
+        #region Base Things
+        [HarmonyPatch(typeof(BattleResultUIRewardSlot), nameof(BattleResultUIRewardSlot.SetRewardState))]
+        [HarmonyPostfix]
+        private static void ExchangeEffectSprite(BattleResultUIRewardSlot __instance)
+        {
+            __instance._effectTag.overrideSprite = EO_ReadmeManager.ReadmeSprites["UserInfo_Effect"];
+        }
+        #endregion
+
+        #region New Manager Banner
+        [HarmonyPatch(typeof(BannerSlot<GachaBannerSlot>), nameof(BannerSlot<GachaBannerSlot>.SetData))]
+        [HarmonyPostfix]
+        private static void GachaBannerSlot_SetData(BannerSlot<GachaBannerSlot> __instance)
+        {
+            if (__instance._name == "gacha_3_illust")
+            {
+                __instance._base._bannerImage.sprite = EO_ReadmeManager.ReadmeEventSprites["NewManagerGacha_Banner"];
+            }
+        }
+        [HarmonyPatch(typeof(GachaUIPanel), nameof(GachaUIPanel.SetGachaInfoPanel))]
+        [HarmonyPostfix]
+        private static void GachaUIPanel_SetData(GachaUIPanel __instance)
+        {
+            Sprite safe = __instance.img_displayCharacterCG.sprite;
+            if (__instance._lastSettingId == 3)
+            {
+                __instance.img_displayCharacterCG.overrideSprite = EO_ReadmeManager.ReadmeSprites["NewManagerGacha"];
+                __instance._currentGachaTitleImage.sprite = EO_ReadmeManager.ReadmeSprites["NewManagerGacha_Typo"];
+            }
+            else
+            {
+                __instance.img_displayCharacterCG.overrideSprite = safe;
+            }
+        }
+        [HarmonyPatch(typeof(ChanceCounter), nameof(ChanceCounter.SetData))]
+        [HarmonyPostfix]
+        private static void ChanceCounter_SetData(ChanceCounter __instance)
+        {
+            __instance.tmp_number_of_times.text = "fois";
+        }
+        #endregion
+
         #region Yield My Flesh
         [HarmonyPatch(typeof(YCGDEventUIPanel), nameof(YCGDEventUIPanel.Initialize))]
         [HarmonyPostfix]
@@ -112,16 +155,16 @@ namespace LimbusCompanyFR
         [HarmonyPostfix]
         private static void MOWE_MainBanner(MOWEMainEventBanner __instance)
         {
-            __instance._bannerImage.overrideSprite = EO_ReadmeManager.ReadmeEventSprites["MOWE_lateBanner"];
+            __instance._bannerImage.overrideSprite = EO_ReadmeManager.ReadmeEventSprites["MOWE_EventBanner"];
         }
         [HarmonyPatch(typeof(MOWESubEventBanner), nameof(MOWESubEventBanner.Init))]
         [HarmonyPostfix]
         private static void MOWE_SubBanner(MOWESubEventBanner __instance)
         {
-            __instance._bannerImage.overrideSprite = EO_ReadmeManager.ReadmeEventSprites["MOWE_lateBannerExchange"];
+            __instance._bannerImage.overrideSprite = EO_ReadmeManager.ReadmeEventSprites["MOWE_ExchangeBanner"];
         }
 
-        [HarmonyPatch(typeof(MOWEEventUIPanel), nameof(MOWEEventUIPanel.Initialize))]
+        [HarmonyPatch(typeof(MOWEEventUIPanel), nameof(MOWEEventUIPanel.UpdateButtonState))]
         [HarmonyPostfix]
         private static void MOWE_MainEvent(MOWEEventUIPanel __instance)
         {
@@ -132,9 +175,13 @@ namespace LimbusCompanyFR
             Transform logo = __instance.transform.Find("[Rect]UIObjs/[Rect]Title/[Image]TitleLogo");
             if (logo != null)
             {
-                if (logo.GetComponentInChildren<Image>(true).sprite.name.EndsWith("11") || logo.GetComponentInChildren<Image>(true).sprite.name.EndsWith("07") || logo.GetComponentInChildren<Image>(true).sprite.name.EndsWith("09"))
+                if (logo.GetComponentInChildren<Image>(true).sprite.name.EndsWith("11"))
                     logo.GetComponentInChildren<Image>(true).overrideSprite = EO_ReadmeManager.ReadmeEventSprites["MOWE_Logo"];
-                else if (logo.GetComponentInChildren<Image>(true).sprite.name.EndsWith("24") || logo.GetComponentInChildren<Image>(true).sprite.name.EndsWith("25") || logo.GetComponentInChildren<Image>(true).sprite.name.EndsWith("26"))
+                else if (logo.GetComponentInChildren<Image>(true).sprite.name.EndsWith("7"))
+                    logo.GetComponentInChildren<Image>(true).overrideSprite = EO_ReadmeManager.ReadmeEventSprites["MOWE_Logo"];
+                else if (logo.GetComponentInChildren<Image>(true).sprite.name.EndsWith("9"))
+                    logo.GetComponentInChildren<Image>(true).overrideSprite = EO_ReadmeManager.ReadmeEventSprites["MOWE_Logo"];
+                else
                     logo.GetComponentInChildren<Image>(true).overrideSprite = EO_ReadmeManager.ReadmeEventSprites["MOWE_Logo_Blood"];
             }
             Transform date = __instance.transform.Find("[Rect]UIObjs/[Rect]Title/[Image]TitleLogo/tmp_period");
@@ -168,52 +215,6 @@ namespace LimbusCompanyFR
 
             __instance.transform.Find("Image").GetComponentInChildren<Image>(true).overrideSprite = EO_ReadmeManager.ReadmeEventSprites["MOWE_Exchange"];
         }
-        #endregion
-
-        #region 4th Walpurgisnacht
-
-        [HarmonyPatch(typeof(WalpuEventRewardUIPopupBase), nameof(WalpuEventRewardUIPopupBase.InitEventStataicData))]
-        [HarmonyPostfix]
-        private static void Walpurgisnacht_Lobotomy_Missions(WalpuEventRewardUIPopupBase __instance)
-        {
-            Image description = __instance.transform.Find("EventDescriptionPanel").GetComponentInChildren<Image>(true);
-            description.overrideSprite = EO_ReadmeManager.ReadmeEventSprites["WN_LC_Desc"];
-
-            Image background = __instance.transform.Find("[Image]Background").GetComponentInChildren<Image>(true);
-            background.overrideSprite = EO_ReadmeManager.ReadmeEventSprites["WN4_BG"];
-        }
-        [HarmonyPatch(typeof(WalpuEventRewardUIPopupBase), nameof(WalpuEventRewardUIPopupBase.InitDateText))]
-        [HarmonyPostfix]
-        private static void Walpurgisnacht_Lobotomy_Date(WalpuEventRewardUIPopupBase __instance)
-        {
-            __instance.tmp_eventDate.m_fontAsset = LCB_French_Font.GetFrenchFonts(2);
-            __instance.tmp_eventDate.m_sharedMaterial = LCB_French_Font.GetFrenchMats(7);
-            __instance.tmp_eventDate.text = "<size=60>06:00 5.09.2024(ЧТ) - 04:00 26.09.2024(ЧТ) (МСК)</size>";
-            __instance.tmp_eventDate.GetComponentInChildren<RectTransform>(true).anchoredPosition = new Vector2(__instance.tmp_eventDate.GetComponentInChildren<RectTransform>(true).anchoredPosition.x, __instance.tmp_eventDate.GetComponentInChildren<RectTransform>(true).anchoredPosition.y - 12);
-        }
-        [HarmonyPatch(typeof(WalpuEventRewardButtonBase), nameof(WalpuEventRewardButtonBase.SetData))]
-        [HarmonyPostfix]
-        private static void Walpurgisnacht_Lobotomy_CompleteLabel(WalpuEventRewardButtonBase __instance)
-        {
-            __instance._completeImage.overrideSprite = EO_ReadmeManager.ReadmeEventSprites["WN_LC_Clear"];
-        }
-
-        [HarmonyPatch(typeof(WalpuEventPanelBase), nameof(WalpuEventPanelBase.Initialize))]
-        [HarmonyPostfix]
-        private static void Walpurgis_4th(WalpuEventPanelBase __instance)
-        {
-            __instance._dateText.m_fontAsset = LCB_French_Font.GetFrenchFonts(0);
-            __instance._dateText.m_sharedMaterial = LCB_French_Font.GetFrenchMats(3);
-            __instance._dateText.text = "06:00 5.09.2024(ЧТ) - 04:00 19.09.2024(ЧТ) (МСК)";
-        }
-
-        [HarmonyPatch(typeof(Walpu3SubEventBanner), nameof(Walpu3SubEventBanner.UpdateBanner))]
-        [HarmonyPostfix]
-        private static void Walpu_Missions(Walpu3SubEventBanner __instance)
-        {
-            __instance._bannerImage.overrideSprite = EO_ReadmeManager.ReadmeEventSprites["WN4_Mission_Banner"];
-        }
-
         #endregion
     }
 }

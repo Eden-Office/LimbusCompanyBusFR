@@ -433,7 +433,7 @@
         {
           "level": 4,
           "name": "Retraite",
-          "desc": "Si la Vitesse de cette unité est supérieure à celle de la cible, +1 de Puissance de Pièce pour chaque différence de Vitesse (+1 de Puissance de Pièce par 1 de différence de Vitesse ; 3 Max)\n[OnSucceedEvade] Gagne 1 de [Breath] (10 Max)",
+          "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible, gagne de la Puissance de Pièce selon la différence de Vitesse (+1 de Puissance de Pièce par 1 de différence de Vitesse ; 3 max)\n[OnSucceedEvade] Gagne 1 de [Breath] (10 Max)",
           "coinlist": [
             {}
           ]
@@ -1246,6 +1246,301 @@
               "coindescs": [
                 {
                   "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Couture",
+          "desc": "En Touche avec cette Capacité : regagne 10% des dégâts de PV infligés (10 max)\n[WhenUse] Consomme jusqu’à 40 de [BloodDinner] et gagne 1 de [BloodScissorPersonalityFirst] pour chaque 8 de [BloodDinner] consommé par cette unité\n- Si cette unité a échoué à consommer du [BloodDinner], gagne +2 de Compte de [Laceration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Couture",
+          "desc": "En Touche avec cette Capacité : regagne 10% des dégâts de PV infligés (10 max)\n[WhenUse] Consomme jusqu’à 40 de [BloodDinner] et gagne 1 de [BloodScissorPersonalityFirst] pour chaque 8 de [BloodDinner] consommé par cette unité\n- Si cette unité a échoué à consommer du [BloodDinner], gagne +2 de Compte de [Laceration]\n<style=\"highlight\">[WhenUse] Si la cible a 6+ de [Laceration], +1 de Puissance de Pièce</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Laceration]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Si la cible a [LineCuttingPersonality], inflige +1 de Compte de [Laceration]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Laceration]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Si la cible a [LineCuttingPersonality], inflige +1 de Compte de [Laceration]</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Couture",
+          "desc": "En Touche avec cette Capacité : regagne 10% des dégâts de PV infligés (10 max)\n[WhenUse] Consomme jusqu’à 40 de [BloodDinner] et gagne 1 de [BloodScissorPersonalityFirst] pour chaque 8 de [BloodDinner] consommé par cette unité\n- Si cette unité a échoué à consommer du [BloodDinner], gagne +2 de Compte de [Laceration]\n[WhenUse] <style=\"highlight\">+1 de Puissance de Pièce pour chaque 6 de [Laceration] sur la cible (2 max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [LineCuttingPersonality], inflige +1 de Compte de [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [LineCuttingPersonality], inflige +1 de Compte de [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Scission",
+          "desc": "En Touche avec cette Capacité : regagne 10% des dégâts de PV infligés (20 max)\n[WhenUse] Consomme jusqu’à 60 de [BloodDinner] et gagne 1 de [BloodScissorPersonalityFirst] pour chaque 6 de [BloodDinner] consommé par cette unité\n- Si cette unité a échoué à consommer du [BloodDinner], gagne 5 de [Laceration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [LineCuttingPersonality], inflige 2 de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [LineCuttingPersonality], inflige 2 de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] À 10+ de [BloodScissorPersonalityFirst], inflige 1 de [LineCuttingPersonality] à la cible au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Scission",
+          "desc": "En Touche avec cette Capacité : regagne 20% des dégâts de PV infligés (20 max)\n[WhenUse] Consomme jusqu’à 60 de [BloodDinner] et gagne 1 de [BloodScissorPersonalityFirst] pour chaque 6 de [BloodDinner] consommé par cette unité\n- Si cette unité a échoué à consommer du [BloodDinner], gagne 5 de [Laceration]\n<style=\"highlight\">[WhenUse] Si la cible a 6+ de [Laceration], +1 de Puissance de Pièce</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [LineCuttingPersonality], inflige 2 de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [LineCuttingPersonality], inflige 2 de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] À 10+ de [BloodScissorPersonalityFirst], inflige 1 de [LineCuttingPersonality] à la cible au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Scission",
+          "desc": "En Touche avec cette Capacité : regagne 20% des dégâts de PV infligés (20 max)\n[WhenUse] Consomme jusqu’à 60 de [BloodDinner] et gagne 1 de [BloodScissorPersonalityFirst] pour chaque 6 de [BloodDinner] consommé par cette unité\n- Si cette unité a échoué à consommer du [BloodDinner], gagne 5 de [Laceration]\n[WhenUse] Si la cible a 6+ de [Laceration], +1 de Puissance de Pièce<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [LineCuttingPersonality], inflige 2 de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [LineCuttingPersonality], inflige 2 de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [LineCuttingPersonality] à la cible au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111103,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Je Te Ferai une Nouvelle Robe !",
+          "desc": "En Touche avec cette Capacité : regagne 30% des dégâts de PV infligés (20 max)\n[BeforeAttack] À 10+ de [BloodScissorPersonalityFirst], +1 de Poids d’Atq\n[WhenUse] Si la cible a 5+ [Laceration], +1 de Puissance de Pièce\n[WhenUse] +1 de Puissance de Duel pour chaque 6 de [Laceration] sur la cible (2 max)\n[EndSkill] Consomme 15 de [BloodScissorPersonalityFirst] pour chaque Poids d’Atq gagné\n[EndSkill] Si la cible est tuée, augmente [BloodDinner] de 10. Regagne la moitié des [BloodScissorPersonalityFirst] consommés par cette Capacité (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] À 10+ de [BloodScissorPersonalityFirst], inflige +([BloodScissorPersonalityFirst] * 2)% de dégâts supplémentaires (38% max)\n- À 20+ de [BloodScissorPersonalityFirst], inflige +([BloodScissorPersonalityFirst] * 3)% de dégâts supplémentaires à la place (90% max)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Je Te Ferai une Nouvelle Robe !",
+          "desc": "En Touche avec cette Capacité : regagne 30% des dégâts de PV infligés (20 max)\n[BeforeAttack] À 10+ de [BloodScissorPersonalityFirst], +1 de Poids d’Atq\n<style=\"highlight\">- À 20+ de [BloodScissorPersonalityFirst], remplace l’effet ci-dessus par +2 de Poids d’Atq à la place</style>\n[WhenUse] Si la cible a 5+ [Laceration], +1 de Puissance de Pièce\n[WhenUse] +1 de Puissance de Duel pour chaque 6 de [Laceration] sur la cible (2 max)\n[EndSkill] Consomme <style=\"highlight\">10</style> de [BloodScissorPersonalityFirst] pour chaque Poids d’Atq gagné\n[EndSkill] Si la cible est tuée, augmente [BloodDinner] de <style=\"highlight\">20</style>. Regagne la moitié des [BloodScissorPersonalityFirst] consommés par cette Capacité (une fois par tour)\n<style=\"highlight\">- Si la cible est [LineCuttingPersonality], augmente [BloodDinner] de 20 supplémentaire et gagne 5 de [BloodScissorPersonalityFirst] (une fois par tour)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] À 10+ de [BloodScissorPersonalityFirst], inflige +([BloodScissorPersonalityFirst] * <style=\"highlight\">3</style>)% de dégâts supplémentaires (<style=\"highlight\">57</style>% max)\n- À 20+ de [BloodScissorPersonalityFirst], inflige +([BloodScissorPersonalityFirst] * <style=\"highlight\">4</style>)% de dégâts supplémentaires à la place (<style=\"highlight\">120</style>% max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Quelle Impolitesse !",
+          "desc": "[WhenUse] À 10+ de [BloodScissorPersonalityFirst], +1 de Puissance de Base\n[WhenUse] À 5+ de [Laceration], +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Quelle Impolitesse !",
+          "desc": "[WhenUse] À 10+ de [BloodScissorPersonalityFirst], +1 de Puissance de Base<style=\"highlight\">\n- À 20+ de [BloodScissorPersonalityFirst], gagne +2 de Puissance de Base à la place</style>\n[WhenUse] <style=\"highlight\">+1 de Puissance de Pièce pour chaque 5 de [Laceration] sur soi (3 max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
                 }
               ]
             }

@@ -690,6 +690,235 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1101001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Répression.",
+          "desc": "[WhenUse] Gagne +3 d’[Aggro] sur cet Emplacement de Capacité au prochain tour\n[WhenUse] Gagne 1 de [DefenseUp]\n[WinDuel] Gagne +2 de Compte de [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[WinDuelAttack] Inflige +1 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne 2 de [DefenseUp] au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Répression.",
+          "desc": "[WhenUse] Gagne +3 d’[Aggro] sur cet Emplacement de Capacité au prochain tour\n[WhenUse] Gagne <style=\"highlight\">2</style> de [DefenseUp]\n<style=\"highlight\">[WhenUse] Si la cible a 4+ de Compte de [Vibration], +1 de Puissance de Duel</style>\n[WinDuel] Gagne +2 de Compte de [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[WinDuelAttack] Inflige +2 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne 2 de [DefenseUp] au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Répression.",
+          "desc": "[WhenUse] Gagne +3 d’[Aggro] sur cet Emplacement de Capacité au prochain tour\n[WhenUse] Gagne 2 de [DefenseUp]\n[WhenUse] Si la cible a 4+ de Compte de [Vibration], +<style=\"highlight\">2</style> de Puissance de Duel\n[WinDuel] Gagne +<style=\"highlight\">3</style> de Compte de [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[WinDuelAttack] Inflige +2 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 de [DefenseUp] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Préparation au Combat",
+          "desc": "[WhenUse] Gagne +3 d’[Aggro] sur cet Emplacement de Capacité au prochain tour\n[WinDuel] Gagne +2 de Compte de [Vibration]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Pour 1 autre allié avec [DefenseUp], applique (([DefenseUp] sur l’allié)/3) de [AttackUp] au prochain tour (une fois par tour, 3 max)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Préparation au Combat",
+          "desc": "[WhenUse] Gagne +3 d’[Aggro] sur cet Emplacement de Capacité au prochain tour\n<style=\"highlight\">[WhenUse] Gagne 1 de [DefenseUp] pour chaque 2 de Compte de [Vibration] sur soi (3 max)\n[WhenUse] À 4+ de [DefenseUp], +1 de Puissance de Pièce</style>\n[WinDuel] Gagne +<style=\"highlight\">3</style> de Compte de [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[WinDuelAttack] Pour 1 autre allié avec le moins de pourcentage de PV, applique 2 de [DefenseUp] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Pour 1 autre allié avec [DefenseUp], applique (([DefenseUp] sur l’allié)/<style=\"highlight\">2</style>) de [AttackUp] au prochain tour (une fois par tour, 3 max)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Préparation au Combat",
+          "desc": "[WhenUse] Gagne +3 d’[Aggro] sur cet Emplacement de Capacité au prochain tour\n[WhenUse] Gagne 1 de [DefenseUp] pour chaque 2 de Compte de [Vibration] sur soi (3 max)\n[WhenUse] À 4+ de [DefenseUp], +1 de Puissance de Pièce\n[WinDuel] Gagne +3 de Compte de [Vibration]<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[WinDuelAttack] Pour <style=\"highlight\">2 autres alliés</style> avec le moins de pourcentage de PV, applique 2 de [DefenseUp] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Pour <style=\"highlight\">2 autres alliés</style> avec [DefenseUp], applique (([DefenseUp] sur l’allié)/2) de [AttackUp] au prochain tour (une fois par tour, 3 max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101003,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Barrière",
+          "desc": "[WhenUse] Gagne 1 de [DefenseUp] pour chaque 2 de Compte de [Vibration] sur soi (2 max)\n[WhenUse] +1 de Puissance de Pièce pour chaque 3 de [DefenseUp] sur soi (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Pour 1 autre allié avec le moins de pourcentage de PV, applique 3 de [DefenseUp] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Consomme jusqu’à 8 de Compte de [Vibration] sur soi et inflige la même quantité de Compte de [Vibration] à la cible"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Barrière",
+          "desc": "[WhenUse] Gagne 1 de [DefenseUp] pour chaque 2 de Compte de [Vibration] sur soi (<style=\"highlight\">4</style> max)\n[WhenUse] +1 de Puissance de Pièce pour chaque 3 de [DefenseUp] sur soi (<style=\"highlight\">3</style> max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Pour 1 autre allié avec le moins de pourcentage de PV, applique <style=\"highlight\">4</style> de [DefenseUp] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Consomme jusqu’à 8 de Compte de [Vibration] sur soi et inflige la même quantité de Compte de [Vibration] à la cible"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Technique d’Épée à Deux Mains du Chevalier Zwei - Garde",
+          "desc": "[CanDuelGuard]\n[StartBattle] Gagne +5 d’[Aggro] sur cet Emplacement de Capacité au prochain tour\n[WhenUse] Gagne +2 de Compte de [Vibration] (une fois par tour)\n[WinDuel] Déclenche un [VibrationExplosion]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Technique d’Épée à Deux Mains Gagne +5 d’[Aggro] sur cet Emplacement de Capacité au prochain tour\n[WhenUse] Gagne +<style=\"highlight\">3</style> de Compte de [Vibration] (une fois par tour)\n[WinDuel] Déclenche un [VibrationExplosion]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

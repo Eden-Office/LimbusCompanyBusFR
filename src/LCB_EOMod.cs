@@ -1,6 +1,7 @@
 ﻿using BepInEx;
 using BepInEx.Configuration;
 using BepInEx.Unity.IL2CPP;
+using Il2CppSystem.Runtime.Remoting.Messaging;
 using LimbusCompanyFR.EO;
 using StorySystem;
 using System;
@@ -19,10 +20,12 @@ namespace LimbusCompanyFR
         public static string GamePath;
         public const string GUID = "Com.EdenOffice.LocalizeLimbusCompanyFR";
         public const string NAME = "LimbusCompanyFR";
-        public const string VERSION = "0.2.1";
+        public const string VERSION = "0.6.0";
+        public const string VERSION_STATE = "";
         public const string AUTHOR = "Bright (Modified by Knightey)";
         public const string EOLink = "https://github.com/Eden-Office/LimbusCompanyBusFR";
         public static Action<string, Action> LogFatalError { get; set; }
+        public static Action<string> LogInfo { get; set; }
         public static Action<string> LogError { get; set; }
         public static Action<string> LogWarning { get; set; }
         public static void OpenEOURL() { Application.OpenURL(EOLink); }
@@ -30,11 +33,16 @@ namespace LimbusCompanyFR
         public override void Load()
         {
             EO_Settings = Config;
+            LogInfo = (string log) => { Log.LogInfo(log); Debug.Log(log); };
             LogError = (string log) => { Log.LogError(log); Debug.LogError(log); };
             LogWarning = (string log) => { Log.LogWarning(log); Debug.LogWarning(log); };
             LogFatalError = (string log, Action action) => { EO_Manager.FatalErrorlog += log + "\n"; LogError(log); EO_Manager.FatalErrorAction = action; EO_Manager.CheckModActions(); };
-            ModPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
             GamePath = new DirectoryInfo(Application.dataPath).Parent.FullName;
+            var matchingFiles = Directory.EnumerateFiles(GamePath + "\\BepInEx\\plugins", "LimbusCompanyFR_BIE.dll", SearchOption.AllDirectories);
+            foreach (var filePath in matchingFiles)
+            {
+                ModPath = Path.GetDirectoryName(filePath);
+            }
             EO_UpdateChecker.StartAutoUpdate();
             try
             {
@@ -45,18 +53,21 @@ namespace LimbusCompanyFR
                     harmony.PatchAll(typeof(LCB_French_Font));
                     harmony.PatchAll(typeof(EO_ReadmeManager));
                     harmony.PatchAll(typeof(EO_LoadingManager));
-                    harmony.PatchAll(typeof(EO_SpriteUI));
-                    harmony.PatchAll(typeof(EO_TextUI));
                     harmony.PatchAll(typeof(EO_TemporaryTextures));
+                    harmony.PatchAll(typeof(EO_TextUI));
+                    harmony.PatchAll(typeof(EO_SpriteUI));
+                    harmony.PatchAll(typeof(EO_StoryUI));
                     harmony.PatchAll(typeof(EO_CreditsUI));
                     harmony.PatchAll(typeof(EO_EventUI));
                     harmony.PatchAll(typeof(EO_SeasonUI));
-                    harmony.PatchAll(typeof(EO_StoryUI));
                 }
                 harmony.PatchAll(typeof(EO_Manager));
                 harmony.PatchAll(typeof(EO_French_Setting));
                 if (!LCB_French_Font.AddFrenchFont(ModPath + "/tmpfrenchfonts"))
                     LogFatalError("Vous avez oublié d'installer le mod de mise à jour de police d'écriture. Veuillez relire le README sur Github.", OpenEOURL);
+                LogInfo("-------------------------\n");
+                LogInfo("Startup" + DateTime.Now);
+                //LogInfo("EventEnd" + new DateTime(2024, 9, 12, 2, 59, 0).ToLocalTime());
             }
             catch (Exception e)
             {

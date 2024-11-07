@@ -96,15 +96,15 @@
     {
       "id": 9004,
       "name": "Kit de Phlébotomie",
-      "desc": "En touchant un ennemi avec une Capacité, se soigne de 12.5% des PVs manquants du personnage. (Une fois par personnage par tour)\n\nSi l’Affinité de la Capacité était Colère, se soigne de 25% des PVs manquants à la place.",
+      "desc": "En touchant un ennemi avec une Capacité, se soigne de 12.5% des PV manquants du personnage. (Une fois par personnage par tour)\n\nSi l’Affinité de la Capacité était Colère, se soigne de 25% des PV manquants à la place.",
       "simpleDesc": [
         {
           "abilityID": 9004,
-          "simpleDesc": "Se soigne de 12.5% des PVs manquants"
+          "simpleDesc": "Se soigne de 12.5% des PV manquants"
         },
         {
           "abilityID": 90041,
-          "simpleDesc": "Se soigne de 25% des PVs manquants"
+          "simpleDesc": "Se soigne de 25% des PV manquants"
         }
       ]
     },
@@ -439,15 +439,15 @@
     {
       "id": 9017,
       "name": "Lithographie",
-      "desc": "Chaque fois qu’un ennemi est Déséquilibré, l’allié avec le moins de PV se soigne de 5% de ses PVs Max.\n\nSi cet allié possède des Capacités d’Attaque d’Affinité de Gourmandise, se soigne de 10% de ses PVs Max à la place.",
+      "desc": "Chaque fois qu’un ennemi est Déséquilibré, l’allié avec le moins de PV se soigne de 5% de ses PV Max.\n\nSi cet allié possède des Capacités d’Attaque d’Affinité de Gourmandise, se soigne de 10% de ses PV Max à la place.",
       "simpleDesc": [
         {
           "abilityID": 9017,
-          "simpleDesc": "Soin de 5% des PVs Max"
+          "simpleDesc": "Soin de 5% des PV Max"
         },
         {
           "abilityID": 90171,
-          "simpleDesc": "Soin de 10% des PVs Max"
+          "simpleDesc": "Soin de 10% des PV Max"
         }
       ]
     },
@@ -688,15 +688,15 @@
     {
       "id": 9028,
       "name": "Préjudice",
-      "desc": "Premier Début de Tour d’un Affrontement : l’allié avec le moins de PV se soigne de 15% de ses PVs Max.\n\nEn activant une Résonance Absolue d’Orgueil, l’allié avec le moins de PV se soigne de 12.5% de ses PVs manquants au Début du Combat.",
+      "desc": "Premier Début de Tour d’un Affrontement : l’allié avec le moins de PV se soigne de 15% de ses PV Max.\n\nEn activant une Résonance Absolue d’Orgueil, l’allié avec le moins de PV se soigne de 12.5% de ses PV manquants au Début du Combat.",
       "simpleDesc": [
         {
           "abilityID": 9028,
-          "simpleDesc": "Soin de 15% des PVs Max"
+          "simpleDesc": "Soin de 15% des PV Max"
         },
         {
           "abilityID": 90281,
-          "simpleDesc": "Soin de 12.5% des PVs manquants"
+          "simpleDesc": "Soin de 12.5% des PV manquants"
         }
       ]
     },
@@ -868,33 +868,33 @@
     {
       "id": 9036,
       "name": "Carmilla",
-      "desc": "Au début d’un Affrontement non-Concentré, tous les ennemis subissent des dégâts fixes égaux à 20% de leurs PVs Max.",
+      "desc": "Au début d’un Affrontement non-Concentré, tous les ennemis subissent des dégâts fixes égaux à 20% de leurs PV Max.",
       "simpleDesc": [
         {
           "abilityID": 9036,
-          "simpleDesc": "Inflige 20% des PVs Max en dégâts fixes"
+          "simpleDesc": "Inflige 20% des PV Max en dégâts fixes"
         }
       ]
     },
     {
       "id": 19036,
       "name": "Carmilla+",
-      "desc": "Au début d’un Affrontement non-Concentré, tous les ennemis <style=\"upgradeHighlight\">subissent des dégâts fixes égaux à 25% de leurs PVs Max</style>.",
+      "desc": "Au début d’un Affrontement non-Concentré, tous les ennemis <style=\"upgradeHighlight\">subissent des dégâts fixes égaux à 25% de leurs PV Max</style>.",
       "simpleDesc": [
         {
           "abilityID": 19036,
-          "simpleDesc": "Inflige 25% des PVs Max en dégâts fixes"
+          "simpleDesc": "Inflige 25% des PV Max en dégâts fixes"
         }
       ]
     },
     {
       "id": 29036,
       "name": "Carmilla++",
-      "desc": "Au début d’un Affrontement non-Concentré, tous les ennemis <style=\"upgradeHighlight\">subissent des dégâts fixes égaux à 30% de leurs PVs Max</style>.",
+      "desc": "Au début d’un Affrontement non-Concentré, tous les ennemis <style=\"upgradeHighlight\">subissent des dégâts fixes égaux à 30% de leurs PV Max</style>.",
       "simpleDesc": [
         {
           "abilityID": 29036,
-          "simpleDesc": "Inflige 30% des PVs Max en dégâts fixes"
+          "simpleDesc": "Inflige 30% des PV Max en dégâts fixes"
         }
       ]
     },
@@ -923,11 +923,11 @@
     {
       "id": 9039,
       "name": "Retour",
-      "desc": "Début d’Affrontement : tous les alliés participants se soignent de 12% de leurs PVs Max.",
+      "desc": "Début d’Affrontement : tous les alliés participants se soignent de 12% de leurs PV Max.",
       "simpleDesc": [
         {
           "abilityID": 9039,
-          "simpleDesc": "Soin de 12% des PVs Max"
+          "simpleDesc": "Soin de 12% des PV Max"
         }
       ]
     },
@@ -1172,8 +1172,8 @@
     },
     {
       "id": 9047,
-      "name": "Collet Barbelé",
-      "desc": "Fin du Tour : inflige des Puissances de [Burst] à tous les ennemis égaux à leur valeur de Vitesse actuelle.\n\nEn activant une Résonance Absolue de Luxure, applique 3 de Puissance de [Burst] et +3 de Compte de [Burst] à un ennemi aléatoire au Début du Combat.",
+      "name": "Lasso Barbelé",
+      "desc": "Fin du Tour : inflige de la Puissance de [Burst] à tous les ennemis égaux à leur valeur de Vitesse actuelle.\n\nEn activant une Résonance Absolue de Luxure, applique 3 de Puissance de [Burst] et +3 de Compte de [Burst] à un ennemi aléatoire au Début du Combat.",
       "simpleDesc": [
         {
           "abilityID": 9047,
@@ -1181,14 +1181,14 @@
         },
         {
           "abilityID": 90471,
-          "simpleDesc": "Inflige 3 de la Puissance de [Burst] et +3 de Compte de [Burst]"
+          "simpleDesc": "Inflige 3 de Puissance de [Burst] et +3 de Compte de [Burst]"
         }
       ]
     },
     {
       "id": 19047,
-      "name": "Collet Barbelé+",
-      "desc": "Fin du Tour : inflige des Puissances de [Burst] à tous les ennemis égaux à <style=\"upgradeHighlight\">(leur valeur de Vitesse actuelle + 1)</style>.\n\nEn activant une Résonance Absolue de Luxure, applique <style=\"upgradeHighlight\">4 de Puissance de [Burst]</style> et +3 de Compte de [Burst] à un ennemi aléatoire au Début du Combat.",
+      "name": "Lasso Barbelé+",
+      "desc": "Fin du Tour : inflige de la Puissance de [Burst] à tous les ennemis égaux à <style=\"upgradeHighlight\">(leur valeur de Vitesse actuelle + 1)</style>.\n\nEn activant une Résonance Absolue de Luxure, applique <style=\"upgradeHighlight\">4 de Puissance de [Burst]</style> et +3 de Compte de [Burst] à un ennemi aléatoire au Début du Combat.",
       "simpleDesc": [
         {
           "abilityID": 19047,
@@ -1196,14 +1196,14 @@
         },
         {
           "abilityID": 190471,
-          "simpleDesc": "Inflige 4 de la Puissance de [Burst] et +3 de Compte de [Burst]"
+          "simpleDesc": "Inflige 4 de Puissance de [Burst] et +3 de Compte de [Burst]"
         }
       ]
     },
     {
       "id": 29047,
-      "name": "Collet Barbelé++",
-      "desc": "Fin du Tour : inflige des Puissances de [Burst] à tous les ennemis égaux à <style=\"upgradeHighlight\">(leur valeur de Vitesse actuelle + 2)</style>.\n\nEn activant une Résonance Absolue de Luxure, applique <style=\"upgradeHighlight\">5 de Puissance de [Burst] et +4 de Compte de [Burst]</style> à un ennemi aléatoire au Début du Combat.",
+      "name": "Lasso Barbelé++",
+      "desc": "Fin du Tour : inflige de la Puissance de [Burst] à tous les ennemis égaux à <style=\"upgradeHighlight\">(leur valeur de Vitesse actuelle + 2)</style>.\n\nEn activant une Résonance Absolue de Luxure, applique <style=\"upgradeHighlight\">5 de Puissance de [Burst] et +4 de Compte de [Burst]</style> à un ennemi aléatoire au Début du Combat.",
       "simpleDesc": [
         {
           "abilityID": 29047,
@@ -1211,7 +1211,7 @@
         },
         {
           "abilityID": 290471,
-          "simpleDesc": "Inflige 5 de la Puissance de [Burst] et +4 de Compte de [Burst]"
+          "simpleDesc": "Inflige 5 de Puissance de [Burst] et +4 de Compte de [Burst]"
         }
       ]
     },
@@ -1859,11 +1859,11 @@
     {
       "id": 9067,
       "name": "Contrat Spécial",
-      "desc": "Les ennemis Déséquilibrés par des dégâts de Capacité reçoivent aussi des dégâts fixes égaux à 33% de leurs PVs Max (pour les Anomalies, les PVs de la Partie), et sont infligés de 2 de [Vulnerable] au prochain tour. (Une fois par Affrontement)",
+      "desc": "Les ennemis Déséquilibrés par des dégâts de Capacité reçoivent aussi des dégâts fixes égaux à 33% de leurs PV Max (pour les Anomalies, les PV de la Partie), et sont infligés de 2 de [Vulnerable] au prochain tour. (Une fois par Affrontement)",
       "simpleDesc": [
         {
           "abilityID": 9067,
-          "simpleDesc": "Inflige 33% des PVs Max en dégâts fixes ; inflige 2 de [Vulnerable] au prochain tour"
+          "simpleDesc": "Inflige 33% des PV Max en dégâts fixes ; inflige 2 de [Vulnerable] au prochain tour"
         }
       ]
     },
@@ -2170,22 +2170,22 @@
     {
       "id": 9076,
       "name": "Trousse de Premiers Soins",
-      "desc": "Début du Tour : un allié avec moins de 50% de PV se soigne de 25% de ses PVs Max. (Une fois par Affrontement ; ne s’active pas si l’allié est mort)",
+      "desc": "Début du Tour : un allié avec moins de 50% de PV se soigne de 25% de ses PV Max. (Une fois par Affrontement ; ne s’active pas si l’allié est mort)",
       "simpleDesc": [
         {
           "abilityID": 9076,
-          "simpleDesc": "Soin de 25% des PVs Max"
+          "simpleDesc": "Soin de 25% des PV Max"
         }
       ]
     },
     {
       "id": 9077,
       "name": "Antidouleur",
-      "desc": "Début du Tour : les alliés Déséquilibrés se soignent de 12.5% des PVs Max et gagnent 3 de [Protection] pendant ce tour.",
+      "desc": "Début du Tour : les alliés Déséquilibrés se soignent de 12.5% des PV Max et gagnent 3 de [Protection] pendant ce tour.",
       "simpleDesc": [
         {
           "abilityID": 9077,
-          "simpleDesc": "Soin de 12.5% des PVs Max ; gagne 3 de [Protection]"
+          "simpleDesc": "Soin de 12.5% des PV Max ; gagne 3 de [Protection]"
         }
       ]
     },
@@ -2214,11 +2214,11 @@
     {
       "id": 9080,
       "name": "Borne de Survie",
-      "desc": "En passant à l’étage suivant, toutes les Identités se soignent de 10% de leurs PVs Max, et gagne 100 de Coût.",
+      "desc": "En passant à l’étage suivant, toutes les Identités se soignent de 10% de leurs PV Max, et gagne 100 de Coût.",
       "simpleDesc": [
         {
           "abilityID": 9080,
-          "simpleDesc": "Soin de 10% des PVs Max ; gagne 100 de Coût"
+          "simpleDesc": "Soin de 10% des PV Max ; gagne 100 de Coût"
         }
       ]
     },
@@ -2758,7 +2758,7 @@
     {
       "id": 19103,
       "name": "Douleur de la Rage Étouffée+",
-      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées #1, #2 et <style=\"upgradeHighlight\">and #3</style>]\n\nEn infligeant de la [Combustion] ou une 'Brûlure Unique' avec un effet de Capacité à un ennemi qui a [Combustion] ou une 'Brûlure Unique', gagne 1 de [Agility] au prochain tour. (2 fois par Capacité, 2 fois par tour)\n\nSi l’unité affectée a déjà [Agility], gagne <style=\"upgradeHighlight\">2 de [Agility]</style> et 2 de [AttackUp] à la place. (une fois par Capacité, 2 fois par tour)",
+      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées #1, #2 <style=\"upgradeHighlight\">et #3</style>]\n\nEn infligeant de la [Combustion] ou une 'Brûlure Unique' avec un effet de Capacité à un ennemi qui a [Combustion] ou une 'Brûlure Unique', gagne 1 de [Agility] au prochain tour. (2 fois par Capacité, 2 fois par tour)\n\nSi l’unité affectée a déjà [Agility], gagne <style=\"upgradeHighlight\">2 de [Agility]</style> et 2 de [AttackUp] à la place. (une fois par Capacité, 2 fois par tour)",
       "simpleDesc": [
         {
           "abilityID": 19103,

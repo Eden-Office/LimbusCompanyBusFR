@@ -2125,13 +2125,13 @@
     {
       "id": "DefensiveStance",
       "name": "Posture Défensive",
-      "desc": "- Valeur Max : 2\n- Cet effet ne se compose pas de puissance ; le cumuler ne fait qu’étendre sa durée.\n- Diminue de 1 à la Fin du Tour\n- Lorsqu’une unité gagne cet effet, gagne les effets suivants :\n  · Fixe la Vitesse de cette unité à sa valeur minimale\n  · Gagne 5 de Bonus de Niveau Défensif\n  · Chaque Emplacement de cette unité gagne +(10 / # d’Emplacement de cette unité) d’Aggro\n  · En chaînant des Capacités, cette unité peut attirer les attaques ennemies vers elle, qu’importe la Vitesse (Affrontements Concentrés uniquement)\n  · En Duel Gagné, déclenche un Sursaut de Tremblement\n  · Ne peut pas être Déséquilibbrée par des dégâts",
+      "desc": "- Valeur Max : 2\n- Cet effet ne se compose pas de puissance ; le cumuler ne fait qu’étendre sa durée.\n- Diminue de 1 à la Fin du Tour\n- Lorsqu’une unité gagne cet effet, gagne les effets suivants au tour suivant :\n  · Fixe la Vitesse de cette unité à sa valeur minimale\n  · Gagne 5 de Bonus de Niveau Défensif\n  · Chaque Emplacement de cette unité gagne +(10 / # d’Emplacement de cette unité) d’Aggro\n  · En chaînant des Capacités, cette unité peut attirer les attaques ennemies vers elle, qu’importe la Vitesse (Affrontements Concentrés uniquement)\n  · En Duel Gagné, déclenche un Sursaut de Tremblement\n  · Ne peut pas être Déséquilibbrée par des dégâts",
       "summary": ""
     },
     {
       "id": "CanDuelGuard",
       "name": "Garde Affrontable",
-      "desc": "- En Duel Gagné : augmente de la Puissance de Duel finale de cette unité le Seuil de Déséquilibre de la cible.\n- En Duel Perdu : lorsque touché, réduit de la Puissance Finale de cette unité la Puissance de Capacité de l’attaquant.",
+      "desc": "- En Duel Gagné : augmente de la Puissance de Duel finale de cette unité le Seuil de Déséquilibre de la cible.\n- En Duel Perdu : lorsque touché, réduit de la Puissance Finale de cette unité la Puissance de Capacité de l’attaquant",
       "summary": ""
     },
     {
@@ -2139,6 +2139,69 @@
       "name": "Pièce Incassable",
       "desc": "- Cette pièce ne se casse pas en Duel Perdu.\n- Si une Capacité d’Attaque a cette Pièce, attaque avec cette Pièce après avoir été touché.\n- En Duel Perdu, fixe la Puissance de Pièce de la Pièce incassable à 1",
       "summary": ""
+    },
+    {
+      "id": "BloodScissorPersonalityFirst",
+      "name": "Ciseaux Teintés de Sang",
+      "desc": "- Valeur Max : 10\n- Ciseaux Teintés de Sang de Niveau 1\n- À 10+ de Ciseaux Teintés de Sang, devient Ciseaux Teintés de Sang II.\n- À 20+ Ciseaux Teintés de Sang, devient Ciseaux Teintés de Sang III.\n- Revient au Niveau précédant lorsque la Valeur tombe sous les conditions.\n- Ciseaux Teintés de Sang ne descend pas en-dessous de 1.\n- À Ciseaux Teintés de Sang II, gagne 1 de Bonus de Niveau Offensif et 1 de Malus de Niveau Défensif selon la Valeur\n- À Ciseaux Teintés de Sang III, gagne 1 de Bonus de Niveau Offensif selon la Valeur",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BloodScissorPersonalitySecond",
+      "name": "Ciseaux Teintés de Sang II",
+      "desc": "- Valeur Max : 20\n- Ciseaux Teintés de Sang de Niveau 2\n- Début du Tour : gagne 1 de Bonus de Niveau Offensif et 1 de Malus de Niveau Défensif pour chaque 5 de Valeur\n- À 10+ de Ciseaux Teintés de Sang, devient Ciseaux Teintés de Sang II.\n- À 20+ Ciseaux Teintés de Sang, devient Ciseaux Teintés de Sang III.\n- Revient au Niveau précédant lorsque la Valeur tombe sous les conditions.\n- Ciseaux Teintés de Sang ne descend pas en-dessous de 1.\n- À Ciseaux Teintés de Sang II, gagne 1 de Bonus de Niveau Offensif et 1 de Malus de Niveau Défensif selon la Valeur\n- À Ciseaux Teintés de Sang III, gagne 1 de Bonus de Niveau Offensif selon la Valeur",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BloodScissorPersonalityThird",
+      "name": "Ciseaux Teintés de Sang III",
+      "desc": "- Valeur Max : 30\n- Ciseaux Teintés de Sang de Niveau 3\n- Début du Tour : gagne 2 de Bonus de Niveau Offensif et 1 de Malus de Niveau Défensif pour chaque 5 de Valeur\n- À 10+ de Ciseaux Teintés de Sang, devient Ciseaux Teintés de Sang II.\n- À 20+ Ciseaux Teintés de Sang, devient Ciseaux Teintés de Sang III.\n- Revient au Niveau précédant lorsque la Valeur tombe sous les conditions.\n- Ciseaux Teintés de Sang ne descend pas en-dessous de 1.\n- À Ciseaux Teintés de Sang II, gagne 1 de Bonus de Niveau Offensif et 1 de Malus de Niveau Défensif selon la Valeur\n- À Ciseaux Teintés de Sang III, gagne 1 de Bonus de Niveau Offensif selon la Valeur",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "LineCuttingPersonality",
+      "name": "Cible de Couture",
+      "desc": "- Valeur Max : 1\n- Subit +0.5% de dégâts supplémentaires pour chaque Saignement (10% max)\n- Fin du Tour : diminue de 1",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Snare",
+      "name": "Lasso",
+      "desc": "- Valeur Max : 3\n- Fin du Tour : gagne de la Puissance de Déchirure égale à la valeur de Vitesse actuelle de cette unité (5 max), et gagne 1 de Ralentissement au prochain tour\n- Fin du Tour : diminue de 1",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BloodyHandGregFirst",
+      "name": "Main Ensanglantée",
+      "desc": "- Valeur Max : 10\n- Main Ensanglantée de Niveau 1\n- À 10+ de Main Ensanglantée, les convertit en Main Ensanglantée II.\n- À 20+ de Main Ensanglantée, les convertit en Main Ensanglantée III.\n- Revient au Niveau précédant lorsque la Valeur tombe sous les conditions.\n- À Main Ensanglantée II, gagne 1 de Bonus de Niveau Offensif selon la Valeur\n- À Main Ensanglantée III, gagne 1 de Bonus de Niveau Offensif selon la Valeur, et inflige 1 de Déchirure et 1 de Saignement supplémentaires En Touche avec des Capacités de Base",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BloodyHandGregSecond",
+      "name": "Main Ensanglantée II",
+      "desc": "- Valeur Max : 20\n- Main Ensanglantée de Niveau 2\n- Début du Tour : gagne 1 de Bonus de Niveau Offensif pour chaque 10 de Valeur\n- À 10+ de Main Ensanglantée, les convertit en Main Ensanglantée II.\n- À 20+ de Main Ensanglantée, les convertit en Main Ensanglantée III.\n- Revient au Niveau précédant lorsque la Valeur tombe sous les conditions.\n- À Main Ensanglantée II, gagne 1 de Bonus de Niveau Offensif selon la Valeur\n- À Main Ensanglantée III, gagne 1 de Bonus de Niveau Offensif selon la Valeur, et inflige 1 de Déchirure et 1 de Saignement supplémentaires En Touche avec des Capacités de Base",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BloodyHandGregThird",
+      "name": "Main Ensanglantée III",
+      "desc": "- Valeur Max : 30\n- Main Ensanglantée de Niveau 3\n- Début du Tour : gagne 1 de Bonus de Niveau Offensif pour chaque 10 de Valeur\n- En Touche avec des Capacités de Base : inflige 1 de Déchirure et de Saignement supplémentaire\n- À 10+ de Main Ensanglantée, les convertit en Main Ensanglantée II.\n- À 20+ de Main Ensanglantée, les convertit en Main Ensanglantée III.\n- Revient au Niveau précédant lorsque la Valeur tombe sous les conditions.\n- À Main Ensanglantée II, gagne 1 de Bonus de Niveau Offensif selon la Valeur\n- À Main Ensanglantée III, gagne 1 de Bonus de Niveau Offensif selon la Valeur, et inflige 1 de Déchirure et 1 de Saignement supplémentaires En Touche avec des Capacités de Base",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "WornHeartGreg",
+      "name": "Cœur Malade",
+      "desc": "- Valeur Max : 10\n- Fin du Tour : gagne 1 de Valeur\n- Début du Tour : gagne 1 de Bonus de Niveau Défensif pour chaque 3 de Valeur\n- À 50%- de PV, gagne 1 Niveau Défensif pour chaque 3 de Valeur\n- À 40%- de PV, En Touche avec des Capacités de Base, regagne (Valeur * 5)% des dégâts infligés En Touche en tant que PV (1 min ; arrondi à l’inférieur ; soigne jusqu’à 30 PV par Capacité)",
+      "summary": "",
+      "undefined": "-"
     }
   ]
 }

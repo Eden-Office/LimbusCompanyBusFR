@@ -226,6 +226,319 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2050711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Désir - Mircalla",
+          "abName": "Quatre-cents Roses",
+          "desc": "[EndSkill] Pendant 3 tours, perd 10 PSM à la Fin du Tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Inflige +2 de Compte d’[RoseWedge]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte d’[RoseWedge]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Active le [Laceration] sur la cible une fois (la cible perd 1 de Compte)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Désir - Mircalla",
+          "abName": "Quatre-cents Roses",
+          "desc": "<style=\"highlight\">Si la cible a 6+ de [Laceration], +1 de Puissance de Pièce</style>\n[EndSkill] Pendant 3 tours, perd 10 PSM à la Fin du Tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] À 4+ de plus haute Réson., active le [Laceration] sur la cible une fois (la cible perd 1 de Compte de [Laceration])</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] À 4+ de plus haute Réson., active le [Laceration] sur la cible une fois (la cible perd 1 de Compte de [Laceration])</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Inflige +2 de Compte d’[RoseWedge]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte d’[RoseWedge]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Active le [Laceration] de la cible <style=\"highlight\">(1 + (plus haute Réson./2)) fois. (3 fois max ; la cible perd autant de Compte de [Laceration] que d’activation)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Désir - Mircalla",
+          "abName": "Quatre-cents Roses",
+          "desc": "<style=\"highlight\">+1 de Puissance de Pièce pour chaque 6 de [Laceration] sur la cible (2 max)</style>\n[EndSkill] Pendant 3 tours, perd 10 PSM à la Fin du Tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 4+ de plus haute Réson., active le [Laceration] sur la cible une fois (la cible perd 1 de Compte de [Laceration])<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 4+ de plus haute Réson., active le [Laceration] sur la cible une fois (la cible perd 1 de Compte de [Laceration])<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Inflige +2 de Compte d’[RoseWedge]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +<style=\"highlight\">2</style> de Compte d’[RoseWedge]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Active le [Laceration] de la cible (1 + (Plus haute Réson./2)) fois. (3 fois max; la cible perd autant de Compte de [Laceration] que d’activation)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[EnemyKill] En infligeant des dégâts excedant les PV restants de l’ennemi, inflige les dégâts en excès en dégâts fixes entre tous les ennemis. (1 min)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Désir - Mircalla",
+          "abName": "Quatre-cents Roses",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[WhenUse] Consomme jusqu’à 10% des PV max de cette unité et inflige (PV consommés / 2) dégâts à tous les ennemis et alliés\n- À moins de 50% des PV max de cette unité, inflige et active 5 de [Laceration] à tous les alliés une fois à la place (perd 1 de Compte de [Laceration]). Regagne des PV égaux à la quantité de dégâts de [Laceration] infligés aux alliés",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Laceration] à soi-même et à la cible"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Laceration] à soi-même et à la cible"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Inflige +2 de Compte d’[RoseWedge]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte d’[RoseWedge]"
+                },
+                {
+                  "desc": "- Si la cible n’avait pas d’[RoseWedge], inflige 4 de Puissance d’[RoseWedge] supplémentaire"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Active le [Laceration] sur la cible une fois (la cible perd 1 de Compte de [Laceration])"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Désir - Mircalla",
+          "abName": "Quatre-cents Roses",
+          "desc": "[CantIdentify]\nCible aléatoirement\n<style=\"highlight\">À 6+ de (somme de [Laceration] sur soi et la cible), +1 de Puissance de Pièce</style>\n[WhenUse] Consomme jusqu’à 10% des PV max de cette unité et inflige (PV consommés / 2) dégâts à tous les ennemis et alliés\n- À moins de 50% des PV max de cette unité, inflige et active 5 de [Laceration] à tous les alliés une fois à la place (perd 1 de Compte de [Laceration]). Regagne des PV égaux à la quantité de dégâts de [Laceration] infligés aux alliés",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> de [Laceration] à soi-même et à la cible"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> de [Laceration] à soi-même et à la cible"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Inflige +2 de Compte d’[RoseWedge]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte d’[RoseWedge]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "- Si la cible n’avait pas d’[RoseWedge], inflige 4 de Puissance d’[RoseWedge] supplémentaire<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Active le [Laceration] de la cible <style=\"highlight\">(1 + (plus haute Réson./2)) fois. (3 fois max; la cible perd autant de Compte de [Laceration] que d’activation)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Désir - Mircalla",
+          "abName": "Quatre-cents Roses",
+          "desc": "[CantIdentify]\nCible aléatoirement\n+1 de Puissance de Pièce pour chaque 6 de (somme de [Laceration] sur soi et la cible) <style=\"highlight\">(3 max)</style>\n[WhenUse] Consomme jusqu’à 10% des PV max de cette unité et inflige (PV consommés / 2) dégâts à tous les ennemis et alliés\n- À moins de 50% des PV max de cette unité, inflige et active 5 de [Laceration] à tous les alliés à la place (perd 1 de Compte de [Laceration]). Regagne des PV égaux à la quantité de dégâts de [Laceration] infligés aux alliés",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Laceration] à soi-même et à la cible<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Active le [Laceration] sur soi et la cible une fois (les deux perdent 1 de Compte)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Laceration] à soi-même et à la cible<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Active le [Laceration] sur soi et la cible une fois (les deux perdent 1 de Compte)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Inflige +2 de Compte d’[RoseWedge]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +<style=\"highlight\">2</style> de Compte d’[RoseWedge]"
+                },
+                {
+                  "desc": "- Si la cible n’avait pas d’[RoseWedge], inflige 4 de Puissance d’[RoseWedge] supplémentaire<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Active le [Laceration] de la cible (1 + (Plus haute Réson./2)) fois. (3 fois max; la cible perd autant de Compte de [Laceration] que d’activation)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[EnemyKill] En infligeant des dégâts excedant les PV restants de l’ennemi, inflige les dégâts en excès en dégâts fixes entre tous les ennemis. (1 min)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

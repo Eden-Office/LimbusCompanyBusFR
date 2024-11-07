@@ -79,6 +79,16 @@ namespace LimbusCompanyFR
         }
         #endregion
 
+        #region Friends
+        [HarmonyPatch(typeof(UserInfoTicketItem), nameof(UserInfoTicketItem.SetData))]
+        [HarmonyPostfix]
+        private static void TicketInfoPopup_EffectSprite(UserInfoTicketItem __instance)
+        {
+            __instance._useEffectTagImage.overrideSprite = EO_ReadmeManager.ReadmeSprites["UserInfo_Effect"];
+            __instance._subTicketUseEffectTagImage.overrideSprite = EO_ReadmeManager.ReadmeSprites["UserInfo_Effect"];
+        }
+        #endregion
+
         #region Vending Machine
         [HarmonyPatch(typeof(VendingMachineUIPanel), nameof(VendingMachineUIPanel.Initialize))]
         [HarmonyPostfix]
@@ -114,6 +124,20 @@ namespace LimbusCompanyFR
         private static void YobenBoben(FormationSwitchableSupporterPersonalityUIScrollViewItem __instance)
         {
             __instance._selectedFrame.sprite = EO_ReadmeManager.ReadmeSprites["InParty"];
+        }
+        [HarmonyPatch(typeof(FormationPersonalityUI_Label), nameof(FormationPersonalityUI_Label.Reload))]
+        [HarmonyPostfix]
+        private static void Participation_Label(FormationPersonalityUI_Label __instance)
+        {
+            if (__instance.img_label.sprite.name == "New_MainUI_Formation_1_2")
+                __instance.img_label.overrideSprite = EO_ReadmeManager.ReadmeSprites["InParty"];
+        }
+        [HarmonyPatch(typeof(PersonalityUILabelScriptable), nameof(PersonalityUILabelScriptable.Convert))]
+        [HarmonyPostfix]
+        private static void ParticipationLabel_Scriptable(PersonalityUILabelScriptable __instance)
+        {
+            __instance._participatedLabelSprite = EO_ReadmeManager.ReadmeSprites["InParty"];
+            __instance._batonSprite = EO_ReadmeManager.ReadmeSprites["Backup_Label"];
         }
         [HarmonyPatch(typeof(FormationEgoSlot), nameof(FormationEgoSlot.SetData))]
         [HarmonyPostfix]

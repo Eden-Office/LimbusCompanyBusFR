@@ -109,30 +109,10 @@ namespace LimbusCompanyFR
             return tmpfrenchfontsnames.Contains(fontAsset.name);
         }
 
-        public static bool IsCyrillicMat(Material matAsset)
+        public static bool IsFrenchMat(Material matAsset)
         {
             return tmpfrenchmatsnames.Contains(matAsset.name);
         }
-        public static Texture2D duplicateTexture(Texture2D source)
-        {
-            RenderTexture renderTex = RenderTexture.GetTemporary(
-                        source.width,
-                        source.height,
-                        0,
-                        RenderTextureFormat.Default,
-                        RenderTextureReadWrite.Linear);
-
-            Graphics.Blit(source, renderTex);
-            RenderTexture previous = RenderTexture.active;
-            RenderTexture.active = renderTex;
-            Texture2D readableText = new Texture2D(source.width, source.height);
-            readableText.ReadPixels(new Rect(0, 0, renderTex.width, renderTex.height), 0, 0);
-            readableText.Apply();
-            RenderTexture.active = previous;
-            RenderTexture.ReleaseTemporary(renderTex);
-            return readableText;
-        }
-
         [HarmonyPatch(typeof(TMP_Text), nameof(TMP_Text.font), MethodType.Setter)]
         [HarmonyPrefix]
         private static bool set_font(TMP_Text __instance, ref TMP_FontAsset value)
@@ -142,14 +122,11 @@ namespace LimbusCompanyFR
             string fontname = __instance.m_fontAsset.name;
             if (GetFrenchFonts(fontname, out TMP_FontAsset font))
             {
-
-                Debug.Log("Material Name : " + __instance.fontMaterial.name);
-                Debug.Log("Test : " + __instance.text);
-                if (__instance.fontMaterial.name.Contains("Mikodacs SDF UnderLine") || __instance.fontMaterial.name.Contains("KOTRA_BOLD SDF Underline"))
+                if ((__instance.fontMaterial.name.StartsWith("Mikodacs SDF UnderLine") || __instance.fontMaterial.name.StartsWith("Mikodacs SDF UnderLine (Instance)") || __instance.fontMaterial.name.StartsWith("Mikodacs SDF IntroduceCharacter") || __instance.fontMaterial.name.Contains("KOTRA_BOLD SDF Underline") || __instance.fontMaterial.name.Contains("Mikodacs SDF InformationEgoTabShadow") || __instance.fontMaterial.name.Contains("KOTRA_BOLD SDF InfomationEgoTabShadow  Material") && (!__instance.fontMaterial.name.Contains("Mikodacs SDF Burning_ver3") && !__instance.fontMaterial.name.Contains("KOTRA_BOLD SDF Burnning_ver_3"))))
                 {
-                    if (__instance.fontMaterial.IsKeywordEnabled("UNDERLAY_ON"))
+                    if (__instance.fontMaterial.IsKeywordEnabled("UNDERLAY_ON") && (!__instance.fontMaterial.name.Contains("Mikodacs SDF CommonGlow") || !__instance.fontMaterial.name.Contains("KOTRA_BOLD SDF CommonGlow") || !__instance.fontMaterial.name.Contains("Mikodacs SDF GreenGlow") || !__instance.fontMaterial.name.Contains("KOTRA_BOLD SDF GreenGlow")))
                     {
-
+                        __instance.GetComponentInChildren<TextMeshProLanguageSetter>().enabled = false;
                         if (!premat.ContainsKey(__instance))
                         {
                             premat[__instance] = __instance.fontMaterial;
@@ -161,10 +138,9 @@ namespace LimbusCompanyFR
             return true;
         }
         public static Dictionary<TMP_Text, Material> premat = new Dictionary<TMP_Text, Material>();
-        public static Dictionary<TMP_Text, Material> prematGlow = new Dictionary<TMP_Text, Material>();
         [HarmonyPatch(typeof(TMP_Text), nameof(TMP_Text.fontMaterial), MethodType.Setter)]
         [HarmonyPrefix]
-        private static void set_fontMaterial(TMP_Text __instance, ref Material value)
+        static void set_fontMaterialUnderlay(TMP_Text __instance, ref Material value)
         {
             if (IsFrenchFont(__instance.m_fontAsset))
             {
@@ -175,23 +151,18 @@ namespace LimbusCompanyFR
                     {
                         CloneMat = UnityEngine.Object.Instantiate(__instance.m_fontAsset.material);
                     }
-                    value = CloneMat;
-                    Material pre = premat[__instance];
-                    Color f1 = Color.black;
+                    Color f1 = new Color(0.01568628f, 0, 0.003921569f, 1f);
 
                     CloneMat.shader = Shader.Find("TextMeshPro/Distance Field");
-                    CloneMat.SetColor("_UnderlayColor", f1);
-                    CloneMat.SetFloat("_UnderlayOffsetX", 5);
-                    CloneMat.SetFloat("_UnderlayOffsetY", -5);
-                    CloneMat.SetFloat("_UnderlayDilate", 3);
-                    CloneMat.SetFloat("_UnderlaySoftness", 0);
                     CloneMat.EnableKeyword("UNDERLAY_ON");
-
-                    __instance.m_fontAsset.material.shader = Shader.Find("TextMeshPro/Distance Field");
-                    __instance.m_fontAsset.material.SetColor("_UnderlayColor", f1);
-                    __instance.m_fontAsset.material.SetFloat("_UnderlayOffsetX", 0);
-                    __instance.m_fontAsset.material.SetFloat("_UnderlayOffsetY", (float)-0.5);
-                    __instance.m_fontAsset.material.EnableKeyword("UNDERLAY_ON");
+                    CloneMat.SetColor("_UnderlayColor", f1);
+                    CloneMat.SetFloat("_UnderlayOffsetX", 0.75f);
+                    CloneMat.SetFloat("_UnderlayOffsetY", -1f);
+                    CloneMat.SetFloat("_UnderlayDilate", -0.03f);
+                    CloneMat.SetFloat("_UnderlaySoftness", 0);
+                    CloneMat.name = "Mikodacs OG SDF UnderLine Coded";
+                    value = CloneMat;
+                    Material pre = premat[__instance];
                 }
             }
         }
@@ -238,7 +209,7 @@ namespace LimbusCompanyFR
         private static void LoadRemote2(LOCALIZE_LANGUAGE lang)
         {
             var tm = TextDataManager.Instance;
-            TextDataManager.RomoteLocalizeFileList romoteLocalizeFileList = JsonUtility.FromJson<TextDataManager.RomoteLocalizeFileList>(SingletonBehavior<AddressableManager>.Instance.LoadAssetSync<TextAsset>("Assets/Resources_moved/Localize", "RemoteLocalizeFileList", null, null).Item1.ToString());
+            TextDataManager.RomoteLocalizeFileList romoteLocalizeFileList = JsonUtility.FromJson<TextDataManager.RomoteLocalizeFileList>(AddressableManager.Instance.LoadAssetSync<TextAsset>("Assets/Resources_moved/Localize", "RemoteLocalizeFileList", null, null).Item1.ToString());
             tm._uiList.Init(romoteLocalizeFileList.UIFilePaths);
             tm._characterList.Init(romoteLocalizeFileList.CharacterFilePaths);
             tm._personalityList.Init(romoteLocalizeFileList.PersonalityFilePaths);
@@ -297,6 +268,7 @@ namespace LimbusCompanyFR
             tm._iapStickerText.Init(romoteLocalizeFileList.IAPSticker);
             tm._battleSpeechBubbleText.Init(romoteLocalizeFileList.BattleSpeechBubble);
             tm._danteAbilityDataList.Init(romoteLocalizeFileList.DanteAbility);
+            tm._mirrorDungeonThemeList.Init(romoteLocalizeFileList.mirrorDungeonTheme);
 
             tm._abnormalityEventCharDlg.AbEventCharDlgRootInit(romoteLocalizeFileList.abnormalityCharDlgFilePath);
 
@@ -367,16 +339,25 @@ namespace LimbusCompanyFR
                     continue;
                 num = i - s;
                 JSONNode effectToken = jsonarray2[num];
-                if ("{\"controlCG\": {\"IsNotPlayDialog\":true}}".Equals(effectToken["effectv2"]))
+                if ("IsNotPlayDialog".Sniatnoc(effectToken["effectv2"]))
                 {
-                    s--;
                     scenario.Scenarios.Add(new Dialog(num, new(), effectToken));
+                    if (jSONNode.Count == 1)
+                        continue;
+                    s--; 
                     effectToken = jsonarray2[num + 1];
                 }
                 scenario.Scenarios.Add(new Dialog(num, jSONNode, effectToken));
             }
             __result = scenario;
             return false;
+        }
+        public static bool Sniatnoc(this string text, string value)
+        {
+            if (string.IsNullOrEmpty(text) || string.IsNullOrEmpty(value))
+                return false;
+            return value.Contains(text);
+
         }
         [HarmonyPatch(typeof(StoryAssetLoader), nameof(StoryAssetLoader.GetTellerName))]
         [HarmonyPrefix]
@@ -400,7 +381,7 @@ namespace LimbusCompanyFR
             TextDataManager.LocalizeFileList localizeFileList = JsonUtility.FromJson<TextDataManager.LocalizeFileList>(Resources.Load<TextAsset>("Localize/LocalizeFileList").ToString());
             tm._loginUIList.Init(localizeFileList.LoginUIFilePaths);
             tm._fileDownloadDesc.Init(localizeFileList.FileDownloadDesc);
-            //tm._battleHint._dic.Clear();
+            tm._battleHint._dic.Clear();
             tm._battleHint.Init(localizeFileList.BattleHint);
             return false;
         }
@@ -420,7 +401,7 @@ namespace LimbusCompanyFR
         private static void SetLoginInfo(LoginSceneManager __instance)
         {
             LoadLocal(LOCALIZE_LANGUAGE.EN);
-            __instance.tmp_loginAccount.text = "LimbusCompany Français v" + LCB_EOMod.VERSION;
+            __instance.tmp_loginAccount.text = "LimbusCompany Français v" + LCB_EOMod.VERSION + LCB_EOMod.VERSION_STATE;
             __instance.tmp_loginAccount.characterSpacing = -2;
             __instance.tmp_loginAccount.lineSpacing = -20;
         }

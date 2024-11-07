@@ -133,7 +133,7 @@
     {
       "id": 1090201,
       "name": "Lame de Nuage Noir",
-      "desc": "À 5+ de Calme, les capacités de contre utilisent la Capacité 3."
+      "desc": "À 5+ de Calme, les capacités de riposte utilisent la Capacité 3."
     },
     {
       "id": 1090301,
@@ -163,7 +163,7 @@
     {
       "id": 1110101,
       "name": "Exécutrice",
-      "desc": "Si les PSM de la cible sont en-dessous de 0, inflige +10% de dégâts."
+      "desc": "Si les PSM de la cible sont en dessous de 0, inflige +10% de dégâts."
     },
     {
       "id": 1110201,
@@ -193,7 +193,7 @@
     {
       "id": 1010121,
       "name": "Neutralisation d’Information",
-      "desc": "À la fin du tour, rend 10 PSM à 1 alié avec le moins de PSM s’il a perdu des PSM."
+      "desc": "À la fin du tour, rend 10 PSM à 1 allié avec le moins de PSM s’il a perdu des PSM."
     },
     {
       "id": 1010221,
@@ -302,7 +302,7 @@
     },
     {
       "id": 1080221,
-      "name": "Tenacité",
+      "name": "Ténacité",
       "desc": "1 allié avec le moins de PSM inflige +10% de dégâts Contondants."
     },
     {
@@ -328,12 +328,12 @@
     {
       "id": 1090321,
       "name": "Rupture",
-      "desc": "1 allié avec le plus de PV inflige +20% de dégâts aux ennemis ayant utilisés des capacités défensives ce tour."
+      "desc": "1 allié avec le plus de PV inflige +20% de dégâts aux ennemis ayant utilisé des capacités défensives ce tour."
     },
     {
       "id": 1100121,
       "name": "Rancune",
-      "desc": "1 allié avec le moins de PSM gagne 1 de Bonus de Puissance d’Attaque le tour après qu’un allié ait été vaincu."
+      "desc": "1 allié avec le moins de PSM gagne 1 de Bonus de Puissance d’Attaque le tour après qu’un allié a été vaincu."
     },
     {
       "id": 1100221,
@@ -453,22 +453,22 @@
     {
       "id": 1050401,
       "name": "Marteau Obsédé",
-      "desc": "Lorsqu’en-dessous de 50% de PV, retire 1 effet de statut négatif et gagne 1 de Fanatique, 1 de Bonus de Puissance d’Attaque et 3 de Protection au début de la phase de combat."
+      "desc": "Lorsqu’en dessous de 50% de PV, retire 1 effet de statut négatif et gagne 1 de Fanatique, 1 de Bonus de Puissance d’Attaque et 3 de Protection au début de la phase de combat."
     },
     {
       "id": 1090401,
       "name": "Joie de l’Exécution",
-      "desc": "Après qu’un ennemi soit vaincu, gagne 1 de Vitesse et 1 de Bonus de Dégâts au prochain tour.\nSi cette unité a vaincu un ennemi, gagne aussi 1 de Fanatique. (Une fois par tour.)"
+      "desc": "Après qu’un ennemi est vaincu, gagne 1 de Vitesse et 1 de Bonus de Dégâts au prochain tour.\nSi cette unité a vaincu un ennemi, gagne aussi 1 de Fanatique. (Une fois par tour.)"
     },
     {
       "id": 1050421,
       "name": "Plus Grand Honneur",
-      "desc": "Applique 1 de Bonus de Puissance d’Attaque et 1 de Protection à l’allié avec le moins de PV en-dessous de 50%.\nSi l’allié est un 'Fanatique de la N Corp.', applique également 1 de Fanatique."
+      "desc": "Applique 1 de Bonus de Puissance d’Attaque et 1 de Protection à l’allié avec le moins de PV en dessous de 50%.\nSi l’allié est un 'Fanatique de la N Corp.', applique également 1 de Fanatique."
     },
     {
       "id": 1090421,
       "name": "Foi Naissante",
-      "desc": "Après qu’un ennemi soit vaincu, applique 1 de Vitesse et 1 de Bonus de Dégâts à l’allié avec le plus de PSM. (Une fois par tour.)"
+      "desc": "Après qu’un ennemi est vaincu, applique 1 de Vitesse et 1 de Bonus de Dégâts à l’allié avec le plus de PSM. (Une fois par tour.)"
     },
     {
       "id": 1020401,
@@ -628,7 +628,7 @@
     {
       "id": 1100621,
       "name": "Talisman de Souhait",
-      "desc": "Au début de la phase de combat, donne (Plus haute Réson. * 2) Talisman l’allié avec le plus de PV."
+      "desc": "Au début de la phase de combat, donne (Plus haute Réson. * 2) Talisman à l’allié avec le plus de PV."
     },
     {
       "id": 1080601,
@@ -855,7 +855,7 @@
     {
       "id": 1120702,
       "name": "Les Balles C’est Cher",
-      "desc": "<style=\"highlight\">- Toujours Active : commence les combats avec 7 de Munition</style>\n- En Touche Pile contre une cible avec <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Saignement</color></link></u>, gagne <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Enrichissement Injuste</color></link></u>. (4 Max)\n<style=\"highlight\">- Si un Pièce qui utilise une Munition touche, consomme tout <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Enrichissement Injuste</color></link></u> et inflige (25 * <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Enrichissement Injuste</color></link></u> consommé)% des dégâts infligés en dégâts supplémentaires.</style>\n- Si cette unité Touche Critiquement lorsque à court de [Bullet], consomme tout <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Enrichissement Injuste</color></link></u> et inflige (5 * <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Enrichissement Injuste</color></link></u> consommé)% des dégâts infligés en dégâts supplémentaires"
+      "desc": "<style=\"highlight\">- Toujours Active : commence les combats avec 7 de Munition</style>\n- En Touche Pile contre une cible avec <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Saignement</color></link></u>, gagne <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Enrichissement Injuste</color></link></u>. (4 Max)\n<style=\"highlight\">- Si une Pièce qui utilise une Munition touche, consomme tout <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Enrichissement Injuste</color></link></u> et inflige (25 * <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Enrichissement Injuste</color></link></u> consommé)% des dégâts infligés en dégâts supplémentaires.</style>\n- Si cette unité Touche Critiquement lorsque à court de [Bullet], consomme tout <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Enrichissement Injuste</color></link></u> et inflige (5 * <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Enrichissement Injuste</color></link></u> consommé)% des dégâts infligés en dégâts supplémentaires"
     },
     {
       "id": 1120721,
@@ -1089,12 +1089,12 @@
     {
       "id": 1050801,
       "name": "Maniement de l’Épée Patriote",
-      "desc": "Dans cet Affrontement, lorsque cette unité subit des dégâts menant ses PV à 0, nullifie ces dégâts ; puis, les PV de cette unité ne peuvent pas tomber en-dessous de 1 pour ce tour. (Une fois par Affrontement)\n\nLorsque cette unité gagne de la Puissance/Compte de [Breath] avec ses propres Capacités ou effets de Pièce : donne 1 de Puissance de [Breath] et +1 de Compte de [Breath] à 2 autres alliés de la Lignée de la Lame sans [Breath] ou avec le moins de [Breath]\n- S’il y a 6 alliés ou plus de la Lignée de la Lame participant à cet Affrontement, donne 2 de Puissance de [Breath] et +2 de Compte de [Breath] à la place"
+      "desc": "Dans cet Affrontement, lorsque cette unité subit des dégâts menant ses PV à 0, nullifie ces dégâts ; puis, les PV de cette unité ne peuvent pas tomber en dessous de 1 pour ce tour. (Une fois par Affrontement)\n\nLorsque cette unité gagne de la Puissance/Compte de [Breath] avec ses propres Capacités ou effets de Pièce : donne 1 de Puissance de [Breath] et +1 de Compte de [Breath] à 2 autres alliés de la Lignée de la Lame sans [Breath] ou avec le moins de [Breath]\n- S’il y a 6 alliés ou plus de la Lignée de la Lame participant à cet Affrontement, donne 2 de Puissance de [Breath] et +2 de Compte de [Breath] à la place"
     },
     {
       "id": 1050811,
       "name": "Maniement de l’Épée Patriote",
-      "desc": "Dans cet Affrontement, lorsque cette unité subit des dégâts menant ses PV à 0, nullifie ces dégâts ; puis, les PV de cette unité ne peuvent pas tomber en-dessous de 1 pour ce tour. (Une fois par Affrontement)\n\nLorsque cette unité gagne de la Puissance/Compte de [Breath] avec ses propres Capacités ou effets de Pièce : donne 1 de Puissance de [Breath] et +1 de Compte de [Breath] à 2 autres alliés de la Lignée de la Lame sans [Breath] ou avec le moins de [Breath]\n- S’il y a 6 alliés ou plus de la Lignée de la Lame participant à cet Affrontement, donne 2 de Puissance de [Breath] et +2 de Compte de [Breath] à la place\n\nDébut du Combat : applique le buff [SwordPlayOfTheHomeland] à tous les autres alliés de la Lignée de la Lame"
+      "desc": "Dans cet Affrontement, lorsque cette unité subit des dégâts menant ses PV à 0, nullifie ces dégâts ; puis, les PV de cette unité ne peuvent pas tomber en dessous de 1 pour ce tour. (Une fois par Affrontement)\n\nLorsque cette unité gagne de la Puissance/Compte de [Breath] avec ses propres Capacités ou effets de Pièce : donne 1 de Puissance de [Breath] et +1 de Compte de [Breath] à 2 autres alliés de la Lignée de la Lame sans [Breath] ou avec le moins de [Breath]\n- S’il y a 6 alliés ou plus de la Lignée de la Lame participant à cet Affrontement, donne 2 de Puissance de [Breath] et +2 de Compte de [Breath] à la place\n\nDébut du Combat : applique le buff [SwordPlayOfTheHomeland] à tous les autres alliés de la Lignée de la Lame"
     },
     {
       "id": 1050821,
@@ -1332,13 +1332,13 @@
     {
       "id": 999904,
       "name": "Barrière de Sang",
-      "desc": "Tous les alliés, incluant cette unité, gagnent du Bouclier à chaque tour.\nTous les alliés, incluant cette unité, ne tombent pas en-dessous de 1 PV pour cet Affrontement.",
+      "desc": "Tous les alliés, incluant cette unité, gagnent du Bouclier à chaque tour.\nTous les alliés, incluant cette unité, ne tombent pas en dessous de 1 PV pour cet Affrontement.",
       "summary": ""
     },
     {
       "id": 999905,
       "name": "Yeux d’un Ami Qui ████",
-      "desc": "'Le Regard Rouge' devient disponible",
+      "desc": "'Le R\u200Begard Rouge' devient disponible",
       "summary": ""
     },
     {
@@ -1645,7 +1645,7 @@
       "id": 1011011,
       "name": "Tirer.JeVaisTirer.",
       "desc": "Après l’Attaque : si cette unité a tué la cible avec ses Capacités, [ReloadLament]\nLorsque cette unité gagne [BulletLament], gagne 2 de [Agility] au prochain tour (une fois par tour)",
-      "summary": "When this unit gains Ammo, gain Agility next turn. Reload On Kill."
+      "summary": "Lorsque cette unité gagne des Munitions, gagne de la Vitesse au prochain tour. Recharge En Tuant."
     },
     {
       "id": 1011021,
@@ -1691,6 +1691,106 @@
       "id": 1081021,
       "name": "Protection d’Urgence",
       "desc": "Au Début du Combat, compare les PV actuels de toutes les Identités à leurs PV au tour précédant. Puis, applique 2 de [DefenseUp] à l’Identité avec le plus grand écart de valeurs de PV entre ces tours."
+    },
+    {
+      "id": 1101001,
+      "name": "Commencement de la Mission de Protection",
+      "desc": "Au Début du Combat, gagne du [DefenseUp] égal au Compte de [Vibration] sur soi (5 max)"
+    },
+    {
+      "id": 1101021,
+      "name": "Protection de la Cible du Contrat",
+      "desc": "Fin du Tour : applique 1 de [Agility] et 3 de [DefenseUp] à 1 allié avec le moins de pourcentage de PV au prochain tour"
+    },
+    {
+      "id": 1051101,
+      "name": "Diffusion de Duel",
+      "desc": "Gagne 1 de [Agility] au prochain tour pour chaque 3 de Puissance de [Breath] sur soi à la Fin du Tour (2 max)\nEn Touche avec des Capacités d’Attaques basiques : inflige [ConcentratedAttackMeursault] au prochain tour. (une fois par Capacité)",
+      "summary": "Fin du Tour : gagne de la [Agility] selon le Compte de [Breath] sur soi. En Touche avec une Capacité basique, inflige [ConcentratedAttackMeursault] au prochain tour"
+    },
+    {
+      "id": 1051111,
+      "name": "Diffusion de Duel",
+      "desc": "Gagne 1 de [Agility] au prochain tour pour chaque 3 de Puissance de [Breath] sur soi à la Fin du Tour (2 max)\nEn Touche avec des Capacités d’Attaques basiques : inflige [ConcentratedAttackMeursault] au prochain tour. (une fois par Capacité)\n<style=\"highlight\">Si cette unité a attaqué l’Emplacement avec [ConcentratedAttackMeursault] et vaincu son propriétaire ou brisé la Partie, regagne 7 PSM</style>",
+      "summary": "Fin du Tour : gagne de la [Agility] selon le Compte de [Breath] sur soi. En Touche avec une Capacité basique, inflige [ConcentratedAttackMeursault] au prochain tour. Regagne des PSM En Tuant"
+    },
+    {
+      "id": 1051121,
+      "name": "Un Pas d’Avance",
+      "desc": "En D\u200Buel Gagné, l’allié le plus rapide gagne 1 de [Agility] au prochain tour (2 fois par tour)",
+      "summary": "En D\u200Buel Gagné, l’allié le plus rapide gagne 1 de [Agility] au prochain tour"
+    },
+    {
+      "id": 1061001,
+      "name": "Comment Chasser Joyeusement",
+      "desc": "Si la cible est un <Démon de Sang> ou une <Poche de Sang>, inflige +10% de dégâts supplémentaires\nÀ l’Usage de Capacité, si cette unité a [Laceration], inflige 3 de [Burst] En Touche (une fois par tour)",
+      "summary": ""
+    },
+    {
+      "id": 1061011,
+      "name": "Comment Chasser Joyeusement",
+      "desc": "Si la cible est un <Démon de Sang>, une <Poche de Sang>, ou si la cible a 10+ de [Burst], inflige +10% de dégâts supplémentaires\nÀ l’Usage de Capacité, si cette unité a [Laceration], inflige 3 de [Burst] En Touche (2 fois par tour)",
+      "summary": ""
+    },
+    {
+      "id": 1061021,
+      "name": "Manuel de Chasse des Démons de Sang - Styptiques",
+      "desc": "Début du Combat : 1 allié avec la plus grande somme de Puissance et de Compte de [Laceration] perd 2 de Compte de [Laceration]\nLorsqu’un allié avec la plus grande Vitesse touche un ennemi avec [Burst], inflige 1 de [DefenseDown] (2 fois par tour)",
+      "summary": ""
+    },
+    {
+      "id": 1111101,
+      "name": "MAUVAIS COSTUME !!!",
+      "desc": "En Touche, inflige +1% de dégâts supplémentaires pour chaque 10 de [BloodDinner_Accumulation] pour soi-même (20% max)",
+      "summary": "Inflige plus de dégâts selon le Festin Sanglant cumulé consommé"
+    },
+    {
+      "id": 1111111,
+      "name": "MAUVAIS COSTUME !!!",
+      "desc": "Dans un Duel avec [LineCuttingPersonality], +1 de Puissance de Duel.\nEn Touche, inflige +1.5% de dégâts supplémentaires pour chaque 10 de [BloodDinner_Accumulation] pour soi-même (30% max)\nEn Touche, inflige +0.5% de dégâts supplémentaires pour chaque [Laceration] sur la cible (10% max)",
+      "summary": "Dans un Duel contre Cible de Couture, +1 de Puissance de Duel"
+    },
+    {
+      "id": 1111102,
+      "name": "Festin Sanglant",
+      "desc": "Si cette unité est sur le terrain, ou est l’une des unités qui peut apparaître sur ce Niveau, augmente la valeur de [BloodDinner] par la quantité de dégâts de [Laceration] reçu collectivement par chaque unité.\nLorsque cette unité arrivera sur le terrain, le sang ensommeillé et baignant le champ de bataille s’élèvera au-dessus de la surface.",
+      "summary": ""
+    },
+    {
+      "id": 1111121,
+      "name": "Arts du Sang Durci de Don Quichotte 8 : Ciseaux",
+      "desc": "1 allié avec la plus haute Vitesse : si l’ennemi est tué Après Attaque, regagne 10 PV (2 fois par tour)\n1 allié avec la plus haute Vitesse : si l’ennemi est tué Après Attaque, inflige +1 de Compte de [Laceration] en infligeant de la Puissance de [Laceration] avec des effets de Capacité ou de Pièce pour le prochain tour (3 fois par tour)",
+      "summary": "Si l’ennemi est mort Après Attaque, regagne des PV"
+    },
+    {
+      "id": 1121001,
+      "name": "Dévouement Autodestructeur",
+      "desc": "Fin du Tour : rend ((10 - [WornHeartGreg])/2) PSM à l’allié avec le moins de PSM (exclut : soi-même ou les alliés en Panique ou Érodés ; arrondi à l’inférieur)\nDans cet Affrontement, lorsque cette unité subit des dégâts baissant ses PV à 0, nullifie les dégâts ; puis, les PV de cette unité ne peuvent pas descendre en-dessous de 1 pendant le tour. (une fois par Affrontement)",
+      "summary": ""
+    },
+    {
+      "id": 1121002,
+      "name": "Festin Sanglant",
+      "desc": "Si cette unité est sur le terrain, ou est l’une des unités qui peut apparaître sur ce Niveau, augmente la valeur de [BloodDinner] par la quantité de dégâts de [Laceration] reçu collectivement par chaque unité.\nLorsque cette unité arrivera sur le terrain, le sang ensommeillé et baignant le champ de bataille s’élèvera au-dessus de la surface.",
+      "summary": ""
+    },
+    {
+      "id": 1121011,
+      "name": "Dévouement Autodestructeur",
+      "desc": "Fin du Tour : rend (10 - [WornHeartGreg]) PSM à l’allié avec le moins de PSM (exclut : soi-même ou les alliés en Panique ou Érodés)\nDans cet Affrontement, lorsque cette unité subit des dégâts baissant ses PV à 0, nullifie les dégâts ; puis, les PV de cette unité ne peuvent pas descendre en-dessous de 1 pendant le tour. (une fois par Affrontement)",
+      "summary": ""
+    },
+    {
+      "id": 1121021,
+      "name": "Arts du Sang Durci de Don Quichotte 6 : Fouet",
+      "desc": "1 allié avec le plus bas pourcentage de PV regagne 3 PV En Touche (3 fois par tour)",
+      "summary": ""
+    },
+    {
+      "id": 1121031,
+      "name": "Arts du Sang Durci de Don Quichotte 6 : Fouet",
+      "desc": "1 allié avec le plus bas pourcentage de PV regagne 3 PV En Touche (3 fois par tour)\n- Si la cible touchée par cet allié avait du [Laceration], regagne 3 PV supplémentaires",
+      "summary": ""
     }
   ]
 }

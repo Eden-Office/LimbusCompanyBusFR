@@ -842,6 +842,245 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1061001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fracas",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Fracas",
+          "desc": "Si la cible a 6+ de [Burst], +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Fracas",
+          "desc": "Si la cible a 6+ de [Burst], +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 de [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Massacreur",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Massacreur",
+          "desc": "[WhenUse] Si la cible a 15+ de [Burst] et 3+ de Compte de [Burst] : cette Capacité n’inflige pas de [Burst] ou de Compte de [Burst] ; à la place, gagne +1 de Puissance de Pièce\n[WinDuel] Inflige +1 de Compte de [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [TakeHpHealReduce] au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Massacreur",
+          "desc": "Si la cible a 6+ de [Burst], +1 de Puissance de Pièce\n[WhenUse] Si la cible a 15+ de [Burst] et 3+ de Compte de [Burst] : cette Capacité n’inflige pas de [Burst] ou de Compte de [Burst] ; à la place, gagne +1 de Puissance de Pièce\n- Si la cible est un <Démon de Sang> ou une <Poche de Sang>, gagne +1 de Puissance de Pièce supplémentaire\n[WinDuel] Inflige +1 de Compte de [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige +1 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [TakeHpHealReduce] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061003,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "La Fin d’une Chasse Joyeuse",
+          "desc": "[WhenUse] Si la cible a 15+ de [Burst] et 3+ de Compte de [Burst] : cette Capacité n’inflige pas de [Burst] ou de Compte de [Burst] ; à la place, gagne +1 de Puissance de Pièce\n[WinDuel] Inflige +1 de Compte de [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 2 de [Burst]"
+                }
+              ]
+            },
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "La Fin d’une Chasse Joyeuse",
+          "desc": "Si la cible a 6+ de [Burst], +1 de Puissance de Pièce\n[WhenUse] Si la cible a 15+ de [Burst] et 3+ de Compte de [Burst] : cette Capacité n’inflige pas de [Burst] ou de Compte de [Burst] ; à la place, gagne +1 de Puissance de Pièce\n- Si la cible est un <Démon de Sang> ou une <Poche de Sang>, gagne +1 de Puissance de Pièce supplémentaire\n[WinDuel] Inflige +2 de Compte de [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 2 de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 15+ de [Burst], ou a moins de 30% de PV, Réutilise cette Pièce (une fois par Capacité)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Styptiques d’Urgence",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Styptiques d’Urgence",
+          "desc": "[StartBattle] Perd 2 de Puissance de [Laceration] sur soi (3 fois par tour. Si la Puissance de Saignement tombe à 0 ou moins, l’effet de Saignement expire)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

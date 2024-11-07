@@ -4,3 +4,10 @@
 - Préparation du vroum vroum
 - Charon a calé, un instant...
 - Le péché n'attend pas
+- Faust, lâchez cet écran.
+- L.C.E.T.L. Fuhu.
+- Eminem ? More like Emeursault !
+- Rodya n'a rien pu défaire, même ses lacets
+- Préparez-vous à incarner John Limbus
+- Un non-binaire réanime des morts
+- Je suis désolé Vergilius, je ne savais pas

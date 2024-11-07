@@ -36,7 +36,7 @@ namespace LimbusCompanyFR
             var loadingText = __instance._loadingText;
             loadingText.font = LCB_French_Font.GetFrenchFonts(0);
             loadingText.fontMaterial = LCB_French_Font.GetFrenchFonts(0).material;
-            loadingText.fontSize = 46;
+            loadingText.fontSize = 56;
             int random = Random.Range(0, 100);
             if (random < 25)
                 loadingText.text = Raw;

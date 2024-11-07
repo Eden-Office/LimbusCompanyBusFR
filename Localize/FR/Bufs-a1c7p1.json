@@ -1,0 +1,158 @@
+{
+  "dataList": [
+    {
+      "id": "BloodScissor",
+      "name": "Ciseaux Teintés de Sang",
+      "desc": "- Valeur Max : 10\n- Ciseaux Teintés de Sang de Niveau 1\n- Utilisé pour des capacités spéciales",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BloodScissorTwo",
+      "name": "Ciseaux Teintés de Sang II",
+      "desc": "- Valeur Max : 20\n- Ciseaux Teintés de Sang de Niveau 2\n- Début du Tour : gagne 1 de Bonus de Niveau Offensif et 1 de Malus de Niveau Défensif pour chaque 5 de Valeur\n- Utilisé pour certaines Capacités",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BloodScissorThree",
+      "name": "Ciseaux Teintés de Sang III",
+      "desc": "- Valeur Max : 30\n- Ciseaux Teintés de Sang de Niveau 3\n- Début du Tour : gagne 2 de Bonus de Niveau Offensif et 1 de Malus de Niveau Défensif pour chaque 5 de Valeur\n- Utilisé pour certaines Capacités",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BloodDinner",
+      "name": "Festin Sanglant",
+      "desc": "- Valeur Max : 999\n- Stocke tous les dégâts de Saignement infligés dans cette zone\n- Se réinitialise en changeant de zone\n- Cette valeur est partagée par tous les personnages\n- Si un Parent de plus haut rang parmi les alliés consomme également du Festin Sanglant, cette unité ne peut pas consommer de Festin Sanglant tant que cet allié n’en a pas consommé d’abord.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BloodDinner_Accumulation",
+      "name": "Festin Sanglant Consommé",
+      "desc": "- Valeur Max : 999\n- Total de Festin Sanglant consommé dans cet Affrontement : {0}",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "FamineBlood_LowMorale",
+      "name": "Faim",
+      "desc": "- Bas Moral\n- Début du Tour : gagne 1 de Ralentissement et 3 de Bonus de Puissance d’Attaque. Fin du Tour : subit 5 dégâts de PSM",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "FamineBlood_Panic",
+      "name": "Faim",
+      "desc": "- Panique\nDébut du Tour : gagne 2 de Ralentissement et 4 de Bonus de Puissance d’Attaque.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "DuelDeclaration_Camille",
+      "name": "Duel Déclaré - Camille",
+      "desc": "- Dans un Duel entre l’unité ayant infligé Duel Déclaré et l’unité avec le statut, le déclarant a +1 de Puissance de Duel. En Touche, le déclarant gagne 1 de Vitesse au prochain tour. (4 fois par tour)\n- Expire lorsque l’unité inflige Duel Déclaré a une cible différente.\n- Remplacé lorsqu’une autre unité inflige Duel Déclaré à la même cible.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "RecklessDuel",
+      "name": "Duel Imprudent",
+      "desc": "Fin du Tour : gagne 1 de Bonus de Puissance de Duel au prochain tour pour chaque 10% de PV manquants. (5 max)\nFin du Tour : gagne 1 de Ralentissement au prochain tour pour chaque 10% de PV manquants. (5 max)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "ConcentratedAttack",
+      "name": "Attaque Concentrée",
+      "desc": "Utilisé sur certains Emplacements",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "TrulyWeak",
+      "name": "Le Faible",
+      "desc": "- Inflige -10% de dégâts\n- Fin du Tour : Valeur réduite de 1",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "RealPaperBear",
+      "name": "Un Véritable Ours",
+      "desc": "- Il mange des gens. Quelle horreur !",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BloodScissorScars",
+      "name": "Une blessure profonde",
+      "desc": "- En Duel Perdu : gagne +3 de Compte de Saignement et déclenche Saignement sur soi. Puis, perd 1 de Compte de Saignement.\n- Expire à la Fin du Tour",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "LineCutting",
+      "name": "Cible de Couture",
+      "desc": "- Priorisé par ???.\n- Expire à la Fin du Tour",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "StarvingBarberOne",
+      "name": "Flétri",
+      "desc": "- Assoiffé de sang depuis très, très longtemps.\n- Perd 15 Niveaux Offensifs\n- Perd 15 Niveaux Défensifs",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "StarvingBarberTwo",
+      "name": "Flétri",
+      "desc": "- Assoiffé de sang depuis très, très longtemps.\n- Perd 25 Niveaux Offensifs\n- Perd 25 Niveaux Défensifs",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BloodShooting",
+      "name": "Sang Jaillisant !!",
+      "desc": "À la Mort :\n- Festin Sanglant +30\n- Gagne 2 ressources E.G.O. pour la ressource la moins possédée\n- Prochain Tour : tous les alliés gagnent 0.1 à toutes les Résistances Physiques. Cet effet peut se cumuler. (5 max)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "RighteousFeeling",
+      "name": "QUELLE JUSTICE !!",
+      "desc": "- À chaque Fin du Tour : gagne 1 de Vitesse, 3 de Bonus de Niveau Offensif et 3 de Malus de Niveau Défensif au prochain tour\n- Gagne 2 de Bonus de Niveau Offensif supplémentaires après 3 tours cumulés (6 max)\n- En Duel Gagné, regagne 3 PSM\n- En Tuant, gagne 1 de Bonus de Puissance de Duel au prochain tour (une fois par tour)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "DuelDeclarationMeursault",
+      "name": "Duel Déclaré - Meursault",
+      "desc": "- Dans un Duel entre l’unité ayant infligé Duel Déclaré et l’unité avec le statut, le déclarant a +1 de Puissance de Duel. En Touche, le déclarant gagne 1 de Vitesse au prochain tour. (4 fois par tour)\n- Expire lorsque l’unité inflige Duel Déclaré a une cible différente.\n- Remplacé lorsqu’une autre unité inflige Duel Déclaré à la même cible.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "ConcentratedAttackMeursault",
+      "name": "Attaque Concentrée - Meursault",
+      "desc": "<Affrontements Concentrés Uniquement>\nL’unité ayant infligé cette Attaque Concentrée gagne les effets suivants selon la Valeur d'Attaque Concentrée de l'Emplacement cible.\n  · 1 de Valeur : gagne +1 de Puissance de Duel\n  · 2 de Valeur : gagne +1 de Puissance de Base\n  · 3 de Valeur : gagne +1 de Puissance de Base et +1 de Puissance de Pièce\n- Expire si, pendant un tour, l’unité ayant infligé ceci échoue à toucher l’Emplacement subissant son Attaque Concentrée.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Duello_LowMorale",
+      "name": "Spécialiste des Duels",
+      "desc": "- Bas Moral\n- Début du Tour : gagne 2 de Bonus de Niveau Offensif. En Duel Perdu, gagne 1 de Malus de Niveau Défensif (3 max par tour). -1 de Vitesse Min.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Duello_Panic",
+      "name": "Spécialiste des Duels",
+      "desc": "- Panique\n- Début du Tour : gagne 4 de Bonus de Niveau Offensif. En Duel Perdu, gagne 2 de Malus de Niveau Défensif (6 max par tour). -1 de Vitesse Min.",
+      "summary": "",
+      "undefined": "-"
+    }
+  ]
+}

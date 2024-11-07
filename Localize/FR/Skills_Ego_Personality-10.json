@@ -401,6 +401,187 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2100711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Clou Maudit",
+          "abName": "Blessant Ours en Peluche",
+          "desc": "[EndSkill] Si la cible a [Curse], l’active immédiatement deux fois et le réduit de 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 2 de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Curse]\n- Inflige 1 de [Curse] supplémentaire pour chaque 3 effets négatifs sur la cible qui ne sont pas [Curse] ou [NailPersonality] (2 max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [NailPersonality]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Clou Maudit",
+          "abName": "Blessant Ours en Peluche",
+          "desc": "<style=\"highlight\">[BeforeAttack] À 4+ de Réson. d’Envie incluant cette Capacité, +1 de Poids d’Atq</style>\n[EndSkill] Si la cible a [Curse], l’active immédiatement deux fois et le réduit de 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 2 de [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Curse]\n- Inflige 1 de [Curse] supplémentaire pour chaque 3 effets négatifs sur la cible qui ne sont pas [Curse] ou [NailPersonality] (2 max)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> de [NailPersonality]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Inflige 2 de [Binding] au prochain tour (une fois par tour)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Clou Maudit",
+          "abName": "Blessant Ours en Peluche",
+          "desc": "<style=\"highlight\">[BeforeAttack] Pour chaque 3 de Réson. d'Envie incluant cette Capacité, +1 de Poids d’Atq (2 max)</style>\n[EndSkill] Si la cible a [Curse], l’active immédiatement deux fois et le réduit de 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 2 de [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Curse]\n- Inflige 1 de [Curse] supplémentaire pour chaque <style=\"highlight\">2</style> effets négatifs sur la cible qui ne sont pas [Curse] ou [NailPersonality] (2 max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [NailPersonality]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] À 4+ de [Curse], inflige 1 de [ParryingResultDown] (une fois par tour)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 2 de [Binding] au prochain tour (une fois par tour)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2100721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Clou Maudit",
+          "abName": "Blessant Ours en Peluche",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[EndSkill] Si la cible a [Curse], l’active immédiatement deux fois et le réduit de 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Inflige 2 de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 de [Curse]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [NailPersonality]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Clou Maudit",
+          "abName": "Blessant Ours en Peluche",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[EndSkill] Si la cible a [Curse], l’active immédiatement deux fois et le réduit de 2<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Inflige <style=\"highlight\">3</style> de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 de [Curse]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> de [NailPersonality]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Inflige 2 de [Binding] au prochain tour (une fois par tour)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Clou Maudit",
+          "abName": "Blessant Ours en Peluche",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[EndSkill] Si la cible a [Curse], l’active immédiatement deux fois et le réduit de 2<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Inflige 3 de [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 de [Curse]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [NailPersonality]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] À 4+ de Réson. d’Envie incluant cette Capacité, inflige 1 de [ParryingResultDown] (une fois par tour)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Inflige 2 de [Binding] au prochain tour (une fois par tour)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Inflige 2 de [DefenseDown] au prochain tour (une fois par tour)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

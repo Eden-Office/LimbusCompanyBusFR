@@ -1,0 +1,432 @@
+{
+  "dataList": [
+    {
+      "id": 838101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Marcher avec Grâce…",
+          "desc": "Priorise un allié non-déséquilibré. Si la cible est un allié, gagne +10 de Puissance de Duel et fixe les dégâts à 0 tout du long\n+1 de Puissance de Duel pour chaque 3 de [Laceration] sur la cible (3 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Laceration]\n- Si la cible est un allié, remplace cet effet par 3 de [AttackUp] jusqu’au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Bouger avec Beauté…",
+          "desc": "Priorise un allié non-déséquilibré. Si la cible est un allié, gagne +10 de Puissance de Duel et fixe les dégâts à 0 tout du long\n+1 de Puissance de Duel pour chaque 3 de [Laceration] sur la cible (3 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Laceration]\n- Si la cible est un allié, remplace cet effet par 3 de [DefenseUp] jusqu’au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Attirer le Public Ici…",
+          "desc": "[WhenUse] +1 de Puissance Finale pour chaque 5 de [FestivalFever] sur soi ou chaque 6 de [Laceration] sur la cible (4 max)\n[WhenUse] À moins de 15 de [BloodDinner], gagne 15 de [Laceration] et le déclenche immédiatement une fois, puis réduit de 1 le Compte de [Laceration] (à moins de 10% de PV, active uniquement la partie de cet effet où cette unité gagne de la Puissance et du Compte de [Laceration])\n[EndSkill] Consomme 15 de [BloodDinner]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de [AttackUp] et 1 de [DefenseUp] pour chaque 6 de [Laceration] sur la cible (3 de chaque max)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Inflige +5 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 3 de [BloomingThorns]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Parade des Merveilles",
+          "desc": "[CantIdentify]\nPriorise les ennemis comme cible principale et les alliés comme cibles secondaires. Si la cible est un allié, +10 de Puissance de Duel et fixe toujours les dégâts à 0.\n[WhenUse] +1 de Puissance de Duel pour chaque 20 de [BloodDinner_Accumulation] par cette unité (10 max)\n[WhenUse] À moins de 25 de [BloodDinner], gagne 25 de [Laceration] et le déclenche immédiatement, puis perd 1 de Compte de [Laceration] (à moins de 10% de PV, active uniquement la partie de cet effet où cette unité gagne de la Puissance et du Compte de [Laceration])\n[EndSkill] Consomme 25 de [BloodDinner]\n[EndBattle] Consomme toute [FestivalFever]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [AttackUp] et de [DefenseUp] jusqu’au prochain tour selon la [FestivalFever] (1 par 3 de [FestivalFever], 3 de chaque max)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Laceration]\n- Si la cible est un allié, remplace cet effet par 5 de [BloomingThorns]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "La Parade se Répète pour l’Éternité",
+          "desc": "[WhenUse] +1 de Puissance de Duel pour chaque 20 de [BloodDinner_Accumulation] par cette unité (10 max)\n[WhenUse] À moins de 50 de [BloodDinner], gagne 25 de [Laceration], +2 de Compte de [Laceration] et le déclenche immédiatement, puis réduit de 2 le Compte de [Laceration] (à moins de 10% de PV, active uniquement la partie de cet effet où cette unité gagne de la Puissance et du Compte de [Laceration])\n[WhenUse] Consomme la moitié de [BloodDinner]\n[EndBattle] Consomme toute [IncompleteParade]\n[EndBattle] Gagne 10 de [FestivalFever]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se soigne de 25% des dégâts infligés"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Se soigne de 25% des dégâts infligés"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Se soigne de 50% des dégâts infligés"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 de [Laceration] et 5 de [Burst]"
+                },
+                {
+                  "desc": "[EndCoin] Gagne 1 de [BloomingThorns] pour chaque 10 de [BloodDinner] consommé par cette Capacité (10 max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838106,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Et voilà tout ce qu’elle fait…",
+          "desc": "[DuelCounter]\n[WhenUse] À 5+ de [FestivalFever], +3 de Puissance de Duel\n[StartBattle] Gagne 5 de [BloomingThorns]\n[DefeatDuel] Perd 5 de [BloomingThorns]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838107,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Le Finale",
+          "desc": "[WhenUse] Consomme la moitié de [BloodDinner]\n[WinDuel] Inflige +([BloodDinner] consommé par cette Capacité)% de dégâts supplémentaires (150% max)\n[DefeatDuel] Inflige -50% de dégâts et les dégâts de cette Capacité ne Déséquilibrent pas la cible\n[EndSkill] Perd autant de PSM que de [BloodDinner] consommé par cette Capacité",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 6 de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +6 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Inflige 6 de [Burst]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Inflige +6 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[EndCoin] Gagne 1 de [BloomingThorns] pour chaque 10 de [BloodDinner] consommé par cette Capacité (10 max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Dragon du Printemps",
+          "desc": "[WhenUse] Gagne 2 de [Agility] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de [Agility] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Vulnerable] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lotus en Automne",
+          "desc": "[WhenUse] Gagne 2 de [Agility] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de [Agility] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Vulnerable] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Légère Trace",
+          "desc": "[WhenUse] Gagne 3 de [Agility] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [SlashTakeDamageUp]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Trace Livide",
+          "desc": "Si la vitesse de l’utilisateur est supérieure à celle de la cible de 5+, +5 de Puissance de Duel",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 100 de Dégâts Bonus"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Arwe Rouge",
+          "desc": "[WhenUse] Gagne 2 de [Agility] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 50 de Dégâts Bonus"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 50 de Dégâts Bonus"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838906,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Arwe Noir",
+          "desc": "[WhenUse] Gagne 2 de [Agility] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [MentalCrack]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [MentalCrack]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838907,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Miroir de l’Eau",
+          "desc": "[CanDuelGuard]\n[WhenUse] Gagne 3 de [Protection]\n[WinDuel] Inflige des dégâts de PV égaux à la Puissance de Duel finale de cette Capacité",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838908,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Activation du Rail Accélérateur d’Électron",
+          "desc": "[StartBattle] Gagne 10 de [Enhancement] et de [Agility] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838909,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Arwe",
+          "desc": "[WhenUse] Gagne 5 de [PenetrateDamageUp]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

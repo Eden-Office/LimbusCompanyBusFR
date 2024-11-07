@@ -874,6 +874,275 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1051101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Allez",
+          "desc": "[WhenUse] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Breath]"
+                }
+              ]
+            },
+            {}
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Allez",
+          "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible de 3 ou plus, +1 de Puissance de Pièce\n[WhenUse] Si la cible a 15+ de [Burst] et 3+ de Compte de [Burst], cette Capacité n’inflige pas de Puissance de [Burst] avec ses effets mais ne consomme pas de Compte de [Burst] En Touche\n[WhenUse] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Allez",
+          "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible, gagne de la Puissance de Pièce selon la différence de Vitesse (+1 de Puissance de Pièce pour chaque 3 de différence de Vitesse ; 2 max)\n[WhenUse] Si la cible a 15+ de [Burst] et 3+ de Compte de [Burst], cette Capacité n’inflige pas de Puissance de [Burst] avec ses effets mais ne consomme pas de Compte de [Burst] En Touche\n[WhenUse] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la Vitesse de cette unité est plus rapide que celle de la cible, inflige de la [Burst] égale à la différence de Vitesse (3 max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1051102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fente",
+          "desc": "[WinDuel] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 de [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Fente",
+          "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible de 3 ou plus, +1 de Puissance de Pièce\n[WhenUse] Si la cible a 15+ de [Burst] et 3+ de Compte de [Burst], cette Capacité n’inflige pas de Puissance ou de Compte de [Burst] avec ses effets mais ne consomme pas de Compte de [Burst] En Touche\n[WinDuel] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 7+ de Vitesse, inflige +2 de Compte de [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Fente",
+          "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible de 3 ou plus, +1 de Puissance de Pièce\n[WhenUse] Si la cible a 15+ de [Burst] et 3+ de Compte de [Burst], cette Capacité n’inflige pas de Puissance ou de Compte de [Burst] avec ses effets mais ne consomme pas de Compte de [Burst] En Touche\n[WinDuel] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">Si cette unité n’inflige pas de [Burst], +5% de Dégâts en Touche Critique pour chaque Puissance et Compte de [Burst] qui auraient été infligés</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 de [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 7+ de Vitesse, inflige +2 de Compte de [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1051103,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Salut",
+          "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible de 2 ou plus, +1 de Puissance de Pièce\n[WhenUse] Si la cible a 15+ de [Burst] et 3+ de Compte de [Burst], cette Capacité ne consomme pas de Compte de [Burst] En Touche\n[WinDuel] Gagne 5 de [Breath]\n- Si la cible a [ConcentratedAttackMeursault], gagne 5 de [Breath] supplémentaire",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[WinDuelAttack] La Pièce finale inflige +10% de dégâts supplémentaires"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[WinDuelAttack] La Pièce finale inflige +10% de dégâts supplémentaires"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +10% de dégâts supplémentaires pour chaque [ConcentratedAttackMeursault] sur l’Emplacement"
+                },
+                {
+                  "desc": "+30% de Dégâts en Touche Critique"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Salut",
+          "desc": "<style=\"highlight\">Si la Vitesse de cette unité est plus rapide que celle de la cible, gagne de la Puissance de Pièce selon la différence de Vitesse (+1 de Puissance de Pièce pour chaque 2 de différence de Vitesse ; 3 max)</style>\n[WhenUse] Si la cible a 15+ de [Burst] et 3+ de Compte de [Burst], cette Capacité ne consomme pas de Compte de [Burst] En Touche\n[WinDuel] Gagne 5 de [Breath]\n- Si la cible a [ConcentratedAttackMeursault], gagne 5 de [Breath] supplémentaire",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[WinDuelAttack] La Pièce finale inflige +10% de dégâts supplémentaires"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[WinDuelAttack] La Pièce finale inflige +10% de dégâts supplémentaires"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige <style=\"highlight\">+20%</style> de dégâts supplémentaires pour chaque [ConcentratedAttackMeursault] sur l’Emplacement"
+                },
+                {
+                  "desc": "+30% de Dégâts en Touche Critique"
+                },
+                {
+                  "desc": "<style=\"highlight\">- Inflige +2% de Dégâts en Touche Critique pour chaque [Burst] sur la cible (30% max)</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[EndSkill] Si cette Pièce a vaincu la cible ou a détruit une Partie, Réutilise cette Capacité sur une cible aléatoire (ne s’active pas en Réutilisation)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1051104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Défensive",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Défensive",
+          "desc": "[WhenUse] Si la Vitesse de cette unité est plus rapide que celle de la cible de 3 ou plus, +2 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
