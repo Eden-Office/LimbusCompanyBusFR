@@ -30,6 +30,13 @@ Traduction française pour le jeu "Limbus Company"
    - [(Miroir avec polices sur Yandex disc)](https://disk.yandex.ru/d/ZKi3tK4krhPrWA)
 ### 6. Réglez la localisation
    - Téléchargez [archive](../../releases), et copiez le dossier Localize et le fichier LimbusCompanyFR_BIE.dll du dossier dans l'archive vers le dossier **créé à l'étape 4**.
+
+### 7. Vérification
+   - Il peut arriver que malgré ces étapes, le mod ne fonctionne pas. Pour s'assurer de son fonctionnement, voici les dossiers dont vous devez vérifier la présence :
+   - Dans le dossier "Localize" : un dossier "FR" et un dossier "Readme"
+   - Dans ce dossier "Readme" : un dossier "Sprites", contenant lui-même un dossier "Event" et un dossier "Story"
+
+   - Si l'un de ces dossier est absent, il vous suffit de le créer et de le laisser vide.
     
 ## Je n'ai pas compris, que dois-je faire ? 
    - [Confessez-vous](https://www.youtube.com/watch?v=kLaaJ_aeoyM)
