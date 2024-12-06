@@ -262,7 +262,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Fell Bullet",
+          "name": "Balle Tombée",
           "abName": "Der Fluchschütze",
           "desc": "[BeforeAttack] Gagne (plus haute Réson. + 1) de [BoseProjektil] (7 max)\n- Si c’était une Réson.-A, gagne (plus haute Réson. +2) de [BoseProjektil] à la place\n[BeforeAttack] Gagne 1 de [Breath] pour chaque [BoseProjektil] (3 max)\n[EndSkill] Perd tout [BoseProjektil]",
           "coinlist": [
@@ -287,7 +287,7 @@
         },
         {
           "level": 3,
-          "name": "Fell Bullet",
+          "name": "Balle Tombée",
           "abName": "Der Fluchschütze",
           "desc": "[BeforeAttack] Gagne (plus haute Réson. + 1) de [BoseProjektil] (7 max)\n- Si c’était une Réson.-A, gagne (plus haute Réson. + 2) de [BoseProjektil] à la place\n[BeforeAttack] Gagne 1 de [Breath] pour chaque [BoseProjektil] (<style=\"highlight\">4</style> max)\n[EndSkill] Perd tout [BoseProjektil]",
           "coinlist": [
@@ -312,7 +312,7 @@
         },
         {
           "level": 4,
-          "name": "Fell Bullet",
+          "name": "Balle Tombée",
           "abName": "Der Fluchschütze",
           "desc": "[BeforeAttack] Gagne (plus haute Réson. + 1) de [BoseProjektil] (7 max)\n- Si c’était une Réson.-A, gagne (plus haute Réson. + 2) de [BoseProjektil] à la place\n[BeforeAttack] Gagne 1 de [Breath] pour chaque [BoseProjektil] (<style=\"highlight\">7</style> max)\n[BeforeAttack] Gagne +1 de Compte de [Breath]\n[EndSkill] Perd tout [BoseProjektil]",
           "coinlist": [
@@ -342,7 +342,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Fell Bullet",
+          "name": "Balle Tombée",
           "abName": "Der Fluchschütze",
           "desc": "[CantIdentify]\nCible Aléatoirement\n[BeforeAttack] Gagne (plus haute Réson. + 1) de [BoseProjektil] (7 max)\n- Si c’était une Réson.-A, gagne (plus haute Réson. + 2) de [BoseProjektil] à la place\n[BeforeAttack] Inflige +2% de dégâts supplémentaires pour chaque [BoseProjektil] (14% max)\n[BeforeAttack] Gagne 1 de [Breath] pour chaque [BoseProjektil] (3 max)\n[BeforeAttack] Inflige +3% de dégâts supplémentaires pour chaque 5 de [Breath] sur soi (15% max)\n[BeforeAttack] Consomme 5 de [Breath] sur soi\n[EndSkill] Perd tout [BoseProjektil]",
           "coinlist": [
@@ -357,7 +357,7 @@
         },
         {
           "level": 3,
-          "name": "Fell Bullet",
+          "name": "Balle Tombée",
           "abName": "Der Fluchschütze",
           "desc": "[CantIdentify]\nCible Aléatoirement\n[BeforeAttack] Gagne (plus haute Réson. + 1) de [BoseProjektil] (7 max)\n- Si c’était une Réson.-A, gagne (plus haute Réson. + 2) de [BoseProjektil] à la place\n<style=\"highlight\">[BeforeAttack] À 3+ de [BoseProjektil], gagne 1 Poids d’Atq</style>\n[BeforeAttack] Inflige +2% de dégâts supplémentaires pour chaque [BoseProjektil] (14% max)\n[BeforeAttack] Gagne 1 de [Breath] pour chaque [BoseProjektil] (<style=\"highlight\">4</style> max)\n[BeforeAttack] Inflige +<style=\"highlight\">4</style>% de dégâts supplémentaires pour chaque 5 de [Breath] sur soi (<style=\"highlight\">20</style>% max)\n[BeforeAttack] Consomme 5 de [Breath] sur soi\n[EndSkill] Perd tout [BoseProjektil]",
           "coinlist": [
@@ -372,7 +372,7 @@
         },
         {
           "level": 4,
-          "name": "Fell Bullet",
+          "name": "Balle Tombée",
           "abName": "Der Fluchschütze",
           "desc": "[CantIdentify]\nCible Aléatoirement\n[BeforeAttack] Gagne (plus haute Réson. + 1) de [BoseProjektil] (7 max)\n- Si c’était une Réson.-A, gagne (plus haute Réson. + 2) de [BoseProjektil] à la place\n[BeforeAttack] Gagne 1 Poids d’Atq pour <style=\"highlight\">chaque 3 de [BoseProjektil] (2 max)</style>\n[BeforeAttack] Inflige +<style=\"highlight\">3</style>% de égâts supplémentaires pour chaque [BoseProjektil] (<style=\"highlight\">21</style>% max)\n[BeforeAttack] Gagne 1 de [Breath] pour chaque [BoseProjektil] (<style=\"highlight\">7</style> max)\n[BeforeAttack] Inflige +<style=\"highlight\">5</style>% de dégâts supplémentaires pour chaque 5 de [Breath] sur soi (<style=\"highlight\">25</style>% max)\n[BeforeAttack] Consomme 5 de [Breath] sur soi\n[EndSkill] Perd tout [BoseProjektil]",
           "coinlist": [
@@ -380,6 +380,193 @@
               "coindescs": [
                 {
                   "desc": "[OnSucceedAttack] Inflige 3 de [Laceration] et 3 de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2070811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Inertie Asymétrique",
+          "abName": "Roulade à Horloge",
+          "desc": "[BeforeAttack] Gagne (plus haute Réson.) de Compte de [Vibration] (6 max, 20 par tour)\n- Si cette Réson. était une Réson. de Paresse, déclenche une [Switch_Vibration] du [Vibration] sur soi en [VibrationSpring]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 2 de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Inflige +2 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1\n- En déclenchant un Sursaut de Tremblement, inflige 1 de [AmberTakeDamageUp] ce tour\n- Si la plus haute Réson. était une Réson.-A de Paresse. de 4+, inflige 1 de [AmberTakeDamageUp] au prochain tour également"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Inertie Asymétrique",
+          "abName": "Roulade à Horloge",
+          "desc": "[BeforeAttack] Gagne (<style=\"highlight\">2 +</style> plus haute Réson.) de Compte de [Vibration] (<style=\"highlight\">8</style> max, 20 par tour)\n- Si cette Réson. était une Réson. de Paresse, déclenche une [Switch_Vibration] du [Vibration] sur soi en [VibrationSpring]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 4 de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Inflige +2 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1\n- En déclenchant un Sursaut de Tremblement, inflige 1 de [AmberTakeDamageUp] ce tour\n- Si la plus haute Réson. était une <style=\"highlight\">Réson.-A de Paresse.</style>, inflige 1 de [AmberTakeDamageUp] au prochain tour également"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Inertie Asymétrique",
+          "abName": "Roulade à Horloge",
+          "desc": "[BeforeAttack] Gagne (<style=\"highlight\">4 +</style> plus haute Réson.) de Compte de [Vibration] (8 max, 20 par tour)\n- Si cette Réson. était une Réson. de Paresse, déclenche une [Switch_Vibration] du [Vibration] sur soi en [VibrationSpring]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 5 de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Inflige +3 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1\n- En déclenchant un Sursaut de Tremblement, inflige 1 de [AmberTakeDamageUp] ce tour\n- Si la plus haute Réson. était une <style=\"highlight\">Réson. de Paresse de 3+</style>, inflige 1 de [AmberTakeDamageUp] au prochain tour également"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2070821,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Inertie Asymétrique",
+          "abName": "Roulade à Horloge",
+          "desc": "[CantIdentify]\nCible Aléatoirement\n[BeforeAttack] Gagne (2 + plus haute Réson.) de Compte de [Vibration] (8 max, 20 par tour)\n- Si cette Réson. était une Réson. de Paresse, déclenche une [Switch_Vibration] du [Vibration] sur soi en [VibrationSpring]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 4 de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Inflige +2 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1\n- En déclenchant un Sursaut de Tremblement, inflige 2 de [AmberTakeDamageUp] ce tour\n- Si la plus haute Réson. était une Réson.-A de Paresse. de 4+, inflige 2 de [AmberTakeDamageUp] au prochain tour également"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Inertie Asymétrique",
+          "abName": "Roulade à Horloge",
+          "desc": "[CantIdentify]\nCible Aléatoirement\n[BeforeAttack] Gagne (<style=\"highlight\">4 +</style> plus haute Réson.) de Compte de [Vibration] (8 max, 20 par tour)\n- Si cette Réson. était une Réson. de Paresse, déclenche une [Switch_Vibration] du [Vibration] sur soi en [VibrationSpring]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 5 de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Inflige +3 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1\n- En déclenchant un Sursaut de Tremblement, inflige 2 de [AmberTakeDamageUp] ce tour\n- Si la plus haute Réson. était une <style=\"highlight\">Réson.-A de Paresse</style>, inflige 2 de [AmberTakeDamageUp] au prochain tour également"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Inertie Asymétrique",
+          "abName": "Roulade à Horloge",
+          "desc": "[CantIdentify]\nCible Aléatoirement\n[BeforeAttack] Gagne (4 + plus haute Réson.) de Compte de [Vibration] (<style=\"highlight\">10</style> max, 20 par tour)\n- Si cette Réson. était une Réson. de Paresse, déclenche une [Switch_Vibration] du [Vibration] sur soi en [VibrationSpring]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 6 de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Inflige +4 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1\n- En déclenchant un Sursaut de Tremblement, inflige 2 de [AmberTakeDamageUp] ce tour\n- Si la plus haute Réson. était une <style=\"highlight\">Réson. de Paresse de 3+</style>, inflige 2 de [AmberTakeDamageUp] au prochain tour également"
                 }
               ]
             }

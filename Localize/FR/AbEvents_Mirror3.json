@@ -75,7 +75,20 @@
         "Ce n’est qu’un son insignifiant causé par le vent sifflant entre les os.\n\nLe son du vide. Le même vent qui serpentera entre nos os lorsque nous serons enterrés ici."
       ],
       "failureDesc": [
-        "Rien qu’un coton-tige ne puisse régler. Le bruit disparut, comme s’il n’avait jamais été là."
+        "As we were walking away from the voice, {0} notices something under their feet.\nLooking down revealed that we were surrounded by several mounds of bones."
+      ]
+    },
+    {
+      "id": 90106103,
+      "title": "",
+      "eventDesc": "",
+      "prevDesc": "",
+      "behaveDesc": "Qui fouillera les autres piles d’os ?",
+      "successDesc": [
+        "{0} tombe sur un autre fragment d’os qui semble chuchoter dans nos oreilles.\nPourtant, nous réalisons rapidement que le chuchotement provient de tous les os qui nous entourent.\nSont-ils vraiment en train de nous parler ou est-ce une hallucination auditive causée par la peur sinistre dominant cet endroit ?\n\nNous ramassons un os, mais il emporte avec lui un fil d’os emmêlés, se perçant et se brisant, ne faisant qu’un avec lui.\nIls sont mêlés et enchevêtrés au point qu’il est impossible de deviner comment ils étaient à l’origine."
+      ],
+      "failureDesc": [
+        "{0} tombe sur un autre fragment d’os qui semble chuchoter dans nos oreilles.\nPourtant, nous réalisons rapidement que le chuchotement provient de tous les os qui nous entourent.\nSont-ils vraiment en train de nous parler ou est-ce une hallucination auditive causée par la peur sinistre dominant cet endroit ?\n\nEncouragé par cette sensation déplaisante, {0} laissé le fragment d’os et s’en alla loin de la colline d’os."
       ]
     },
     {
@@ -83,7 +96,7 @@
       "title": "",
       "eventDesc": "",
       "prevDesc": "",
-      "behaveDesc": "Qui interviendra ?",
+      "behaveDesc": "Qui identifiera le tissu ?",
       "successDesc": [
         "Une seule respiration fut plus que suffisant.\n\nPour la première fois de son existence, il put respirer autant d’air qu’il le souhaitait sans souffrir.\n\nChaque seconde de sa vie n’était que douleur. Personne ne comprendra cela."
       ],
@@ -109,7 +122,7 @@
       "title": "",
       "eventDesc": "",
       "prevDesc": "",
-      "behaveDesc": "Qui identifiera le tissu ?",
+      "behaveDesc": "Qui interviendra ?",
       "successDesc": [
         "Des chaînes, faites pour emprisonner.\n\nIl luttera sans cesse contre ces chaînes pour se libérer.\n\nPour regagner son autorité. Pour dire des mots gardés sous silence, contenus par les chaînes."
       ],
@@ -127,7 +140,7 @@
         "Se serrer la main… c’est partager la solitude.\n\nLa main n’était ni chaleureuse ni souple, mais vous l’avez tenu pendant un très long moment.\n\nEn espérant que ce petit geste aura rempli ses mains, sa solitude, ne serait-ce qu’un peu."
       ],
       "failureDesc": [
-        "Ses mains sont déjà pleines de poignées de mains.\n\nVotre simple offre d’une poignée de main n’est d’aucune importance pour cet être."
+        "Ses mains sont déjà pleines de poignées de mains.\n\nVotre simple offre d’une unique poignée de main n’est d’aucune importance pour cet être."
       ]
     },
     {
@@ -176,7 +189,7 @@
       "prevDesc": "",
       "behaveDesc": "Qui s’avancera ?",
       "successDesc": [
-        "'Je vois.'\n\n'Si mon maître a disparu de la peinture, des souvenirs… que dois-je faire ?'\n\n'Et si… un jour… je commençais à douter de si j’avais eu un maître…'\n\nÀ présent, il ne reste que la peinture dans le couloir."
+        "'Je vois.'\n\n'Si mon maître a disparu de la peinture, des souvenirs… que dois-je faire ?'\n\n'Et si… un jour… je commençais à douter de si j’avais eu un maître…'\n\nÀ présent, il ne reste que la peinture sans maître dans le couloir."
       ],
       "failureDesc": [
         "'Ce n’est pas possible.'\n\n'Ne regardez pas le temps qui est passé et concentrez-vous sur la peinture.'\n\n'Le visage de mon maître, qui a traversé tellement de choses.'\n\nVous avez dû rester assis là à regarder la peinture pendant un moment."
@@ -193,6 +206,19 @@
       ],
       "failureDesc": [
         "'Si vous pouvez vraiment voir la physionomie de mon maitre… vous ne feriez pas ce visage.'\n\n'Et ces yeux vides et indifférents n’ont pas le regard qu’aurait quelqu’un en voyant le visage de mon maître.'\n\nNous avons rapidement été désignés comme indésirés et avons été chassés du manoir."
+      ]
+    },
+    {
+      "id": 90107403,
+      "title": "",
+      "eventDesc": "",
+      "prevDesc": "",
+      "behaveDesc": "Qui s’avancera ?",
+      "successDesc": [
+        "“Oh non…”\n\n{0} proposa de nettoyer le portrait.\nL’entité essaya de rester loin de nous, troublée…\n… mais le Pécheur s’approcha malgré tout pour calmement dépoussiérer le portrait et le nettoyer jusqu’à ce que sa surface soit immaculée.\n\n“Maintenant que vous avez nettoyé le portrait, je suis certain que vous pouvez le voir.”\n“Merci. Mon maître… sera heureux, lui aussi.”"
+      ],
+      "failureDesc": [
+        "“Oh non…”\n\n{0} marcha vers l’entité pour dépoussiérer le portrait.\n\n“Vous ne poserez PAS avec tant de froideur et de brutalité le portrait de mon maître !”\n\nPeut-être que notre approche était trop irréfléchie.\nL’entité nous cria dessus, disant que nous étions des “invités grossiers et turbulents” avant de nous jeter hors du manoir."
       ]
     },
     {
@@ -226,7 +252,7 @@
       "title": "",
       "eventDesc": "",
       "prevDesc": "",
-      "behaveDesc": "Qui s’avancera ?",
+      "behaveDesc": "Qui relèvera le défi ?",
       "successDesc": [
         "Dire la vérité.\n\nVous répondez : le document dit que le secret à propos du patient de la chambre 409 doit être gardé.\n\n'Je le savais… !'\n\n'Mais ce patient… était…'\n\n'AAAAAAGGGGHHHHH !'"
       ],
@@ -244,7 +270,7 @@
         "'Je le savais.'\n\n'Ils m’ont menti…'\n\n'Ces sacs à merde m’ont menti !!!'"
       ],
       "failureDesc": [
-        "La silhouette déchira le papier et s’en alla."
+        "La silhouette froissa le papier et s’en alla."
       ]
     },
     {
@@ -252,7 +278,7 @@
       "title": "",
       "eventDesc": "",
       "prevDesc": "",
-      "behaveDesc": "Qui acceptera le défi ?",
+      "behaveDesc": "Qui s’avancera ?",
       "successDesc": [
         "Vous tendez vos mains et la maintenez en place avant qu’elle ne se balance.\n\nLa cloche sonne légèrement.\n\nUn bruit sourd et faible.\n\nBien qu’elle ne se relance pas avec la même quantité de force, elle continue à se balancer."
       ],

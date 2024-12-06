@@ -801,7 +801,7 @@
         {
           "level": 4,
           "name": "Préparation au Combat",
-          "desc": "[WhenUse] Gagne +3 d’[Aggro] sur cet Emplacement de Capacité au prochain tour\n[WhenUse] Gagne 1 de [DefenseUp] pour chaque 2 de Compte de [Vibration] sur soi (3 max)\n[WhenUse] À 4+ de [DefenseUp], +1 de Puissance de Pièce\n[WinDuel] Gagne +3 de Compte de [Vibration]<style=\"highlight\"></style>",
+          "desc": "[WhenUse] Gagne +3 d’[Aggro] sur cet Emplacement de Capacité au prochain tour\n[WhenUse] Gagne 1 de [DefenseUp] pour chaque 2 de Compte de [Vibration] sur soi (3 max)\n[WhenUse] À 4+ de [DefenseUp], +1 de Puissance de Pièce\n[WinDuel] Gagne +3 de Compte de [Vibration]",
           "coinlist": [
             {
               "coindescs": [
@@ -913,6 +913,290 @@
               "coindescs": [
                 {
                   "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Malle de Coursier - Marteau de Décomposition",
+          "desc": "[WhenUse] Si la cible a 15+ de [Burst] et 3+ de Compte de [Burst] : cette Capacité n’inflige pas de [Burst] avec ses effets En Touche ; à la place, elle inflige 2 de [DefenseDown] (une fois par Pièce)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de [DevyatDimensionalSackSinclair]\n- Si cette unité a moins de 15 [DevyatDimensionalSackSinclair], gagne 1 de [DevyatDimensionalSackSinclair] supplémentaire"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Malle de Coursier - Marteau de Décomposition",
+          "desc": "À 10+ de [DevyatDimensionalSackSinclair], ou si la cible a 6+ de [Burst], +1 de Puissance de Pièce\n[WhenUse] Si la cible a 15+ de [Burst] et 3+ de Compte de [Burst], cette Capacité n’inflige pas de Compte de [Burst] avec ses effets En Touche ; à la place, elle inflige 2 de [DefenseDown] (une fois par Pièce)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de [DevyatDimensionalSackSinclair]\n- Si cette unité a moins de 15 [DevyatDimensionalSackSinclair], gagne 1 de [DevyatDimensionalSackSinclair] supplémentaire"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]\n- À 15+ de [DevyatDimensionalSackSinclair], inflige +1 de Compte de [Burst] supplémentaire"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Malle de Coursier - Marteau de Décomposition",
+          "desc": "+1 de Puissance de Pièce pour chaque 10 de [DevyatDimensionalSackSinclair] sur soi ou pour chaque 6 de [Burst] sur la cible (2 max)\n[WhenUse] Si la cible a 15+ de [Burst] et 3+ de Compte de [Burst], cette Capacité n’inflige pas de Compte de [Burst] avec ses effets En Touche ; à la place, elle inflige 2 de [DefenseDown] (une fois par Pièce)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de [DevyatDimensionalSackSinclair]\n- Si cette unité a moins de 15 [DevyatDimensionalSackSinclair], gagne 1 de [DevyatDimensionalSackSinclair] supplémentaire"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]\n- À 15+ de [DevyatDimensionalSackSinclair], inflige +1 de Compte de [Burst] supplémentaire"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Malle de Coursier - Gadget de Démolition",
+          "desc": "[WhenUse] Si la cible a 15+ de [Burst] et 3+ de Compte de [Burst] : cette Capacité n’inflige pas de [Burst] ou de Compte de [Burst] avec ses effets En Touche ; à la place, elle inflige 2 de [DefenseDown] (une fois par Pièce)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de [DevyatDimensionalSackSinclair]\n- Si cette unité a moins de 15 [DevyatDimensionalSackSinclair], gagne 2 de [DevyatDimensionalSackSinclair] supplémentaires"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Malle de Coursier - Gadget de Démolition",
+          "desc": "À 10+ de [DevyatDimensionalSackSinclair], ou si la cible a 6+ de [Burst], +1 de Puissance de Pièce\n[WhenUse] Si la cible a 15+ de [Burst] et 3+ de Compte de [Burst], cette Capacité n’inflige pas de [Burst] ou de Compte de [Burst] avec ses effets En Touche ; à la place, elle inflige 2 de [DefenseDown] (une fois par Pièce)\n[WhenUse] À 20- de [DevyatDimensionalSackSinclair], gagne 1 de [Agility] au prochain tour (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de [DevyatDimensionalSackSinclair]\n- Si cette unité a moins de 15 [DevyatDimensionalSackSinclair], gagne 2 de [DevyatDimensionalSackSinclair] supplémentaires"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Burst]\n- À 15+ de [DevyatDimensionalSackSinclair], inflige +1 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Burst]\n- À 15+ de [DevyatDimensionalSackSinclair], inflige +1 de Compte de [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Malle de Coursier - Gadget de Démolition",
+          "desc": "+1 de Puissance de Pièce pour chaque 10 de [DevyatDimensionalSackSinclair] sur soi ou pour chaque 6 de [Burst] sur la cible (2 max)\n[WhenUse] Si la cible a 15+ de [Burst] et 3+ de Compte de [Burst], cette Capacité n’inflige pas de [Burst] ou de Compte de [Burst] avec ses effets En Touche ; à la place, elle inflige 2 de [DefenseDown] (une fois par Pièce)\n[WhenUse] À 30- de [DevyatDimensionalSackSinclair], gagne 1 de [Agility] au prochain tour (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 de [DevyatDimensionalSackSinclair]\n- Si cette unité a moins de 15 [DevyatDimensionalSackSinclair], gagne 2 de [DevyatDimensionalSackSinclair] supplémentaires"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 de [Burst]\n- À 15+ de [DevyatDimensionalSackSinclair], inflige +<style=\"highlight\">2</style> de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Burst]\n- À 15+ de [DevyatDimensionalSackSinclair], inflige +<style=\"highlight\">2</style> de Compte de [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101103,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Poludnitsa… Je te fais confiance !",
+          "desc": "À 10+ de [DevyatDimensionalSackSinclair], ou si la cible a 6+ de [Burst], +1 de Puissance de Pièce\n[WhenUse] Si la cible a 15+ de [Burst] et 3+ de Compte de [Burst], cette Capacité n’inflige pas de [Burst] ou de Compte de [Burst] avec ses effets En Touche ; à la place, la Pièce finale gagne +2 de Puissance de Pièce\n[WhenUse] Si la cible a 15+ de [Burst], inflige +3% de dégâts supplémentaires pour chaque [DevyatDimensionalSackSinclair] (90% max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]\n- Inflige +1 de Compte de [Burst] supplémentaire pour chaque 10 de [DevyatDimensionalSackSinclair] (2 max)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Burst]\n- Inflige 1 de [Burst] supplémentaire pour chaque 10 de [DevyatDimensionalSackSinclair] (2 max)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si cette Capacité n’a pas activé son effet de Puissance de Pièce finale, gagne 1 de [Agility] au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Poludnitsa… Je te fais confiance !",
+          "desc": "+1 de Puissance de Pièce pour chaque 10 de [DevyatDimensionalSackSinclair] sur soi ou pour chaque 6 de [Burst] sur la cible (2 max)\n[WhenUse] Si la cible a 15+ de [Burst] et 3+ de Compte de [Burst], cette Capacité n’inflige pas de [Burst] ou de Compte de [Burst] avec ses effets En Touche ; à la place, la Pièce finale gagne +4 de Puissance de Pièce\n[WhenUse] Si la cible a 15+ de [Burst], inflige +4% de dégâts supplémentaires pour chaque [DevyatDimensionalSackSinclair] (120% max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]\n- Inflige +1 de Compte de [Burst] supplémentaire pour chaque 10 de [DevyatDimensionalSackSinclair] (<style=\"highlight\">3</style> max)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 de [Burst]\n- Inflige 1 de [Burst] supplémentaire pour chaque <style=\"highlight\">8</style> de [DevyatDimensionalSackSinclair] (<style=\"highlight\">4</style> max)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si cette Capacité n’a pas activé son effet de Puissance de Pièce finale, gagne 2 de [Agility] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Système d’Assistance de Coursier & de Gestion de Crise",
+          "desc": "[StartBattle] À 15+ de [DevyatDimensionalSackSinclair], active “A-attendez, j’ai de la maintenance à faire… !” à la place (une fois par tour)\n[StartBattle] Si cette Capacité est activée, gagne ([DevyatDimensionalSackSinclair] / 2)% des PV Max de cette unité en Bouclier (15% max, une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Système d’Assistance de Coursier & de Gestion de Crise",
+          "desc": "[StartBattle] À 15+ de [DevyatDimensionalSackSinclair], active “A-attendez, j’ai de la maintenance à faire… !” à la place (une fois par tour)\n[StartBattle] Si cette Capacité est activée, gagne <style=\"highlight\">([DevyatDimensionalSackSinclair])%</style> des PV Max de cette unité en Bouclier (<style=\"highlight\">25%</style> max, une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "A-attendez, j’ai de la maintenance à faire… !",
+          "desc": "[StartBattle] Si cette Capacité est activée, gagne ([DevyatDimensionalSackSinclair])% des PV Max de cette unité en Bouclier (15% max, une fois par tour)\n[EndBattle] Active [Retreat]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "A-attendez, j’ai de la maintenance à faire… !",
+          "desc": "[StartBattle] Si cette Capacité est activée, gagne <style=\"highlight\">([DevyatDimensionalSackSinclair])%</style> des PV Max de cette unité en Bouclier (<style=\"highlight\">25%</style> max, une fois par tour)\n[EndBattle] Active [Retreat]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
                 }
               ]
             }

@@ -1,444 +1,96 @@
 {
   "dataList": [
     {
-      "id": "ADDITIONAL_START_COST",
-      "description": "[Universel]\n\nGagne +{0} Coûts de Départ"
+      "id": "ADDITIONAL_COST_RATE_ON_CLEAR_FLOOR",
+      "description": "En allant à l’Étage suivant, augmente le <color=#ff6000>solde de Coût</color> actuel de {0}% (100 max)"
     },
     {
-      "id": "ADDITIONAL_BATTLE_WIN_COST_RATE",
-      "description": "[Universel]\n\nGagne +{0}% de Coût après avoir gagné un Affrontement. (Non affecté par les Buffs de Départ ou d’autres Dons E.G.O.)"
+      "id": "ADDITIONAL_SHOP_SELL_EGO_GIFT_COST_RATE_ONCE",
+      "description": "Augmente <color=#ff6000>le prix de vente de Don E.G.O.</color> de {0}% (une fois par Boutique)"
     },
     {
-      "id": "ADDITIONAL_EGO_GIFT_CHANCE",
-      "description": "[Universel]\n\nRajoute 3 nouveaux Dons E.G.O. à la réserve de Dons"
+      "id": "ADDITIONAL_FLOOR_THEME_SLOT",
+      "description": "+{0} <color=#ff6000>Sélection de Pack Thématique</color>"
     },
     {
-      "id": "ADDITIONAL_3_TIER_START_EGO_GIFT_CHANCE",
-      "description": "[Universel]\n\nGagnez 200 Lumières Stellaire en gravant cette Étoile (1 fois seulement, non affecté par le statut d’activation)"
+      "id": "ADDITIONAL_FLOOR_THEME_REFRESH",
+      "description": "+{0} <color=#ff6000>Chance de Rafraichissement de Pack Thématique</color>"
     },
     {
-      "id": "ADDITIONAL_START_EGO_GIFT_SELECT",
-      "description": "[Don E.G.O. de Départ]\n\n+{0} choix de Don E.G.O."
-    },
-    {
-      "id": "ACQUIRE_4_TIER_START_EGO_GIFT",
-      "description": "[Don E.G.O. de Départ]\n\nAprès avoir choisi un Don E.G.O. de Départ, recevez un Don E.G.O. de Tier 4 aléatoire"
-    },
-    {
-      "id": "ADDITIONAL_SHOP_HIGH_TIER_EGO_GIFT_CHANCE",
-      "description": "[Boutiques]\n\nDe plus hauts Tier de Dons E.G.O. apparaissent ; faible chance que des Dons E.G.O. de Tier 4+ apparaissent"
+      "id": "ADDITIONAL_PERSONALITY_LEVEL_ON_SELECT_NEW_FLOOR_THEME",
+      "description": "En choisissant un nouveau Pack Thématique pour la première fois, toutes les Identités gagnent {0} <color=#ff6000>Niveau(x)</color> (9 max)"
     },
     {
       "id": "ADDITIONAL_SHOP_EGO_GIFT_SLOT",
-      "description": "[Boutiques]\n\n+{0} Don E.G.O. vendu dans les Boutiques"
+      "description": "+{0} <color=#ff6000>Sélection de Don E.G.O. en Boutique</color>"
     },
     {
-      "id": "REDUCE_SHOP_REFRESH_EGO_GIFT_COST_RATE",
-      "description": "[Boutiques]\n\n-{0}% de Coût de Rafraîchissement pour les Rafraîchissement qui consomment du Coût"
+      "id": "ADDITIONAL_PERSONALITY_LEVEL_ON_ENTER_1ST_FLOOR",
+      "description": "En entrant, toutes les Identités gagnent {0} <color=#ff6000>Niveau(x)</color>"
     },
     {
-      "id": "REDUCE_SHOP_BUY_EGO_GIFT_COST_RATE",
-      "description": "[Boutiques]\n\n-{0}% de prix d’achat des Dons E.G.O."
+      "id": "ADDITIONAL_PERSONALITY_LEVEL_ON_CLEAR_FLOOR",
+      "description": "En complétant un Étage, toutes les Identités gagnent {0} <color=#ff6000>Niveau(x)</color>"
     },
     {
-      "id": "INCREASE_SHOP_SELL_EGO_GIFT_COST_RATE",
-      "description": "[Boutiques]\n\nGagnez +{0}% de Coût supplémentaire en vendant des Dons E.G.O."
+      "id": "ACQUIRE_3_TIER_RANDOM_MATERIAL_EGO_GIFT_ON_ENTER_SHOP",
+      "description": "En entrant dans une Boutique, gagnez {0} <color=#ff6000>Don(s) E.G.O. dédié à la Vente ou aux Fusions</color> de Tier 3 ou moins"
     },
     {
-      "id": "REDUCE_UPGRADE_EGO_GIFT_COST",
-      "description": "[Points de Repos]\n\n-{0}% de Coût d’Amélioration des Dons E.G.O."
+      "id": "ACQUIRE_3_TIER_RANDOM_EGO_GIFT_ON_ENTER_3RD_FLOOR",
+      "description": "En entrant à l’Étage 3, gagnez {0} <color=#ff6000>Don(s) E.G.O. de Tier 3</color> aléatoires"
     },
     {
-      "id": "AttackLevelAdder",
-      "description": "+{0} Niveau Offensif"
+      "id": "ACQUIRE_LOWER_TIER_RANDOM_EGO_GIFT_ON_COMBINE",
+      "description": "En Fusionnant, <color=#ff6000>gagnez un Don E.G.O. aléatoire</color> inférieur de 2 Tier au résultat de Fusion (doit être de Tier 3 ou plus) (une fois par Boutique)"
     },
     {
-      "id": "AttackLevelMultiply",
-      "description": "+{0}% de Niveau Offensif"
+      "id": "ADDITIONAL_START_EGO_GIFT_SELECT",
+      "description": "+{0} Choix de <color=#ff6000>Don E.G.O. de Départ</color>"
     },
     {
-      "id": "DefenseLevelAdder",
-      "description": "+{0} Niveau Défensif"
+      "id": "ACQUIRE_3_TIER_RANDOM_KEYWORD_EGO_GIFT_ON_ENTER_1ST_FLOOR",
+      "description": "À l’entrée, gagnez {0} <color=#ff6000>Don(s) E.G.O. de Tier 3 au choix</color> de votre catégorie de Mot-Clé sélectionnée"
     },
     {
-      "id": "DefenseLevelMultiply",
-      "description": "+{0}% de Niveau Défensif"
+      "id": "REVIVE_ONCE_PER_FLOOR",
+      "description": "À la Fin d’un Affrontement : réanimez {0} allié(s) (une fois par Étage)"
     },
     {
-      "id": "MaxHpAdder",
-      "description": "+{0} PV Max"
+      "id": "FREE_SHOP_REFRESH_EGO_GIFT_ONCE",
+      "description": "Un <color=#ff6000>Rafraichissement normal</color> Gratuit pour les Boutiques"
     },
     {
-      "id": "MaxHpMultiply",
-      "description": "+{0}% de PV Max"
+      "id": "ADDITIONAL_START_COST",
+      "description": "À l’entrée : +{0} <color=#ff6000>Coûts de Départ</color>"
+    },
+    {
+      "id": "ADDITIONAL_COST_AFTER_WIN_BATTLE",
+      "description": "+{0}% de <color=#ff6000>Coût de Récompense d’Affrontement</color>"
+    },
+    {
+      "id": "ADDITIONAL_SHOP_HIGH_TIER_EGO_GIFT_CHANCE",
+      "description": "Plus de chances pour les <color=#ff6000>Dons E.G.O. de haut tier</color> d’apparaître en Boutique"
+    },
+    {
+      "id": "FREE_SHOP_KEYWORD_REFRESH_EGO_GIFT_ONCE",
+      "description": "Un <color=#ff6000>Rafraichissement de Mot-Clé</color> Gratuit pour les Boutiques"
+    },
+    {
+      "id": "ACQUIRE_2_TIER_RANDOM_EGO_GIFT_ON_ENTER_2ND_FLOOR",
+      "description": "En arrivant à l’Étage 2, gagnez {0} <color=#ff6000>Don(s) E.G.O. de Tier 2</color> aléatoires"
+    },
+    {
+      "id": "ACQUIRE_1_TIER_RANDOM_EGO_GIFT_ON_ENTER_1ST_FLOOR",
+      "description": "En arrivant à l’Étage 1, gagnez {0} <color=#ff6000>Don(s) E.G.O. de Tier 1</color> aléatoires"
     },
     {
       "id": "MaxSpeedUpAdder",
-      "description": "+{0} Vitesse Max"
+      "description": "+{0} de <color=#ff6000>Vitesse Max</color>"
     },
     {
-      "id": "AttackDamageAdder",
-      "description": "+{0} Dégâts Infligés"
-    },
-    {
-      "id": "AttackDamageMultiply",
-      "description": "+{0}% de Dégâts Infligés"
-    },
-    {
-      "id": "TakeAttackDamageReducer",
-      "description": "-{0} Dégâts Subis"
-    },
-    {
-      "id": "TakeAttackDamageMultipliedReducer",
-      "description": "-{0}% de Dégâts Subis"
-    },
-    {
-      "id": "StickCoinHeadAndTailToMaxPer",
-      "description": "Tous les {0} tours, les Pièces Positives des Capacités alliées font toutes Pile et les Pièces Négatives des Capacités alliées font toutes Face."
-    },
-    {
-      "id": "RemoveBreakSection",
-      "description": "Nullifie le 1er Seuil de Déséquilibre des alliés"
-    },
-    {
-      "id": "ADDITIONAL_SHOP_HIGH_TIER_EGO_GIFT_CHANCE_S1",
-      "description": "[Boutiques]\n\nPlus de chances d’apparition de Dons E.G.O. de haut Tier dans les Boutiques (Même gain de % que les autres Buffs liés)"
-    },
-    {
-      "id": "ADDITIONAL_SHOP_HIGH_TIER_EGO_GIFT_CHANCE_S2",
-      "description": "[Boutiques]\n\nPlus de chances d’apparition de Dons E.G.O. de haut Tier dans les Boutiques (Même gain de % que les autres Buffs liés)"
-    },
-    {
-      "id": "ADDITIONAL_SHOP_HIGH_TIER_EGO_GIFT_CHANCE_S3",
-      "description": "[Boutiques]\n\nPlus de chances d’apparition de Dons E.G.O. de haut Tier dans les Boutiques (Même gain de % que les autres Buffs liés)"
-    },
-    {
-      "id": "ADDITIONAL_SHOP_EGO_GIFT_SLOT_NESTING",
-      "description": "[Boutiques]\n\n+1 Don E.G.O. vendu dans les Boutiques"
-    },
-    {
-      "id": "ADDITIONAL_START_COST_ADD_S1",
-      "description": "[Universel]\n\nGagnez +50 Coûts de Départ"
-    },
-    {
-      "id": "ADDITIONAL_START_COST_ADD_S2",
-      "description": "[Universel]\n\nGagnez +50 Coûts de Départ"
-    },
-    {
-      "id": "ADDITIONAL_START_COST_ADD_S3",
-      "description": "[Universel]\n\nGagnez +50 Coûts de Départ"
-    },
-    {
-      "id": "ADDITIONAL_BATTLE_WIN_COST_RATE_NORMAL",
-      "description": "[Universel]\n\nGagnez +10% de Coût après avoir gagné un Affrontement Normal. (Non affecté par les Buffs de Départ ou d’autres Dons E.G.O.)"
-    },
-    {
-      "id": "ADDITIONAL_BATTLE_WIN_COST_RATE_ABNORMALITY",
-      "description": "[Universel]\n\nGagnez +10% de Coût après avoir gagné un Affrontement Concentré. (Non affecté par les Buffs de Départ ou d’autres Dons E.G.O.)"
-    },
-    {
-      "id": "ADDITIONAL_BATTLE_WIN_COST_RATE_HARD",
-      "description": "[Universel]\n\nGagnez +10% de Coût après avoir gagné un Affrontement Risqué. (Non affecté par les Buffs de Départ ou d’autres Dons E.G.O.)"
-    },
-    {
-      "id": "ADDITIONAL_BATTLE_WIN_COST_RATE_BOSS",
-      "description": "[Universel]\n\nGagnez +10% de Coût après avoir gagné un Affrontement de Boss d’Étage. (Non affecté par les Buffs de Départ ou d’autres Dons E.G.O.)"
-    },
-    {
-      "id": "REDUCE_SHOP_REFRESH_EGO_GIFT_COST_RATE_NESTING",
-      "description": "[Boutiques]\n\n-{0}% de Coût de Rafraîchissement pour les Rafraîchissement qui consomment du Coût"
-    },
-    {
-      "id": "FREE_SHOP_REFRESH_EGO_GIFT_COST_RATE",
-      "description": "[Boutiques]\n\n20% de chance d’obtenir un Rafraîchissement gratuit"
-    },
-    {
-      "id": "REDUCE_SHOP_UPGRADE_SKILL_COST_RATE",
-      "description": "[Boutiques]\n\n-20% de Coût de Remplacement de Capacité"
-    },
-    {
-      "id": "REDUCE_SHOP_UPGRADE_SKILL_COST_RATE_NESTING",
-      "description": "[Boutiques]\n\n-20% de Coût de Remplacement de Capacité"
-    },
-    {
-      "id": "FREE_UPGRADE_EGO_GIFT_COST",
-      "description": "[Points de Repos]\n\nEn Améliorant, 20% de chance de vous faire rembourser le Coût d’Amélioration"
-    },
-    {
-      "id": "REDUCE_UPGRADE_EGO_GIFT_COST_COMBUSTION",
-      "description": "[Points de Repos]\n\n-{0}% de Coût d’Amélioration supplémentaire pour les Dons E.G.O. de Brûlure"
-    },
-    {
-      "id": "REDUCE_UPGRADE_EGO_GIFT_COST_LACERATION",
-      "description": "[Points de Repos]\n\n-{0}% de Coût d’Amélioration supplémentaire pour les Dons E.G.O. de Saignement"
-    },
-    {
-      "id": "REDUCE_UPGRADE_EGO_GIFT_COST_VIBRATION",
-      "description": "[Points de Repos]\n\n-{0}% de Coût d’Amélioration supplémentaire pour les Dons E.G.O. de Tremblement"
-    },
-    {
-      "id": "REDUCE_UPGRADE_EGO_GIFT_COST_BURST",
-      "description": "[Points de Repos]\n\n-{0}% de Coût d’Amélioration supplémentaire pour les Dons E.G.O. de Déchirure"
-    },
-    {
-      "id": "REDUCE_UPGRADE_EGO_GIFT_COST_SINKING",
-      "description": "[Points de Repos]\n\n-{0}% de Coût d’Amélioration supplémentaire pour les Dons E.G.O. de Lourdeur"
-    },
-    {
-      "id": "REDUCE_UPGRADE_EGO_GIFT_COST_BREATH",
-      "description": "[Points de Repos]\n\n-{0}% de Coût d’Amélioration supplémentaire pour les Dons E.G.O. de Calme"
-    },
-    {
-      "id": "REDUCE_UPGRADE_EGO_GIFT_COST_CHARGE",
-      "description": "[Points de Repos]\n\n-{0}% de Coût d’Amélioration supplémentaire pour les Dons E.G.O. de Charge"
-    },
-    {
-      "id": "INCREASE_SHOP_SELL_EGO_GIFT_COST_RATE_NESTING",
-      "description": "[Boutiques]\n\nGagnez +20% de Coût en vendant des Dons E.G.O."
-    },
-    {
-      "id": "REDUCE_SHOP_BUY_EGO_GIFT_COST_RATE_COMBUSTION",
-      "description": "[Boutiques]\n\n-{0}% de Coût d’Achat supplémentaire pour les Dons E.G.O. de Brûlure"
-    },
-    {
-      "id": "REDUCE_SHOP_BUY_EGO_GIFT_COST_RATE_LACERATION",
-      "description": "[Boutiques]\n\n-{0}% de Coût d’Achat supplémentaire pour les Dons E.G.O. de Saignement"
-    },
-    {
-      "id": "REDUCE_SHOP_BUY_EGO_GIFT_COST_RATE_VIBRATION",
-      "description": "[Boutiques]\n\n-{0}% de Coût d’Achat supplémentaire pour les Dons E.G.O. de Tremblement"
-    },
-    {
-      "id": "REDUCE_SHOP_BUY_EGO_GIFT_COST_RATE_BURST",
-      "description": "[Boutiques]\n\n-{0}% de Coût d’Achat supplémentaire pour les Dons E.G.O. de Déchirure"
-    },
-    {
-      "id": "REDUCE_SHOP_BUY_EGO_GIFT_COST_RATE_SINKING",
-      "description": "[Boutiques]\n\n-{0}% de Coût d’Achat supplémentaire pour les Dons E.G.O. de Lourdeur"
-    },
-    {
-      "id": "REDUCE_SHOP_BUY_EGO_GIFT_COST_RATE_BREATH",
-      "description": "[Boutiques]\n\n-{0}% de Coût d’Achat supplémentaire pour les Dons E.G.O. de Calme"
-    },
-    {
-      "id": "REDUCE_SHOP_BUY_EGO_GIFT_COST_RATE_CHARGE",
-      "description": "[Boutiques]\n\n-{0}% de Coût d’Achat supplémentaire pour les Dons E.G.O. de Charge"
-    },
-    {
-      "id": "REDUCE_SHOP_BUY_EGO_GIFT_COST_RATE_NONE",
-      "description": "[Boutiques]\n\n-{0}% de Coût d’Achat supplémentaire pour les Dons E.G.O. sans Mots-clés"
-    },
-    {
-      "id": "SlashAttackDamageMultiply",
-      "description": "Infligez +{0}% de Dégâts Tranchants"
-    },
-    {
-      "id": "PenetrateAttackDamageMultiply",
-      "description": "Infligez +{0}% de Dégâts Perçants"
-    },
-    {
-      "id": "HitAttackDamageMultiply",
-      "description": "Infligez +{0}% de Dégâts Contondants"
-    },
-    {
-      "id": "SlashResistReducer",
-      "description": "-{0} de Résistance Tranchante"
-    },
-    {
-      "id": "PenetrateResistReducer",
-      "description": "-{0} de Résistance Perçante"
-    },
-    {
-      "id": "HitResistReducer",
-      "description": "-{0} de Résistance Contondante"
-    },
-    {
-      "id": "EGO_RESOURCE",
-      "description": "[Encounters]\n\n+{0} à toutes les ressources E.G.O. au début de l’exploration d’un Donjon Miroir"
-    },
-    {
-      "id": "ADDITIONAL_ALLTYPE_EGOSTOCK",
-      "description": "[Encounters]\n\n+{0} à toutes les ressources E.G.O. au début de l’exploration d’un Donjon Miroir"
-    },
-    {
-      "id": "ADDITIONAL_ALLTYPE_EGOSTOCK_NESTING",
-      "description": "[Encounters]\n\n+{0} à toutes les ressources E.G.O. au début de l’exploration d’un Donjon Miroir"
-    },
-    {
-      "id": "REDUCE_SHOP_BUY_EGO_GIFT_COST_RATE_ALL1",
-      "description": "[Boutiques]\n\n-{0}% de Coût d’Achat de Dons E.G.O."
-    },
-    {
-      "id": "REDUCE_SHOP_BUY_EGO_GIFT_COST_RATE_TIER1",
-      "description": "[Boutiques]\n\nRéduction Supplémentaire : -{0}% de Coût d’Achat de Dons E.G.O. de Tier 1"
-    },
-    {
-      "id": "REDUCE_SHOP_BUY_EGO_GIFT_COST_RATE_TIER2",
-      "description": "[Boutiques]\n\nRéduction Supplémentaire : -{0}% de Coût d’Achat de Dons E.G.O. de Tier 2"
-    },
-    {
-      "id": "REDUCE_SHOP_BUY_EGO_GIFT_COST_RATE_TIER3",
-      "description": "[Boutiques]\n\nRéduction Supplémentaire : -{0}% de Coût d’Achat de Dons E.G.O. de Tier 3"
-    },
-    {
-      "id": "REDUCE_SHOP_BUY_EGO_GIFT_COST_RATE_TIER4",
-      "description": "[Boutiques]\n\nRéduction Supplémentaire : -{0}% de Coût d’Achat de Dons E.G.O. de Tier 4+"
-    },
-    {
-      "id": "REDUCE_SHOP_BUY_EGO_GIFT_COST_RATE_ALL2",
-      "description": "[Boutiques]\n\n-{0}% de Coût d’Achat de Dons E.G.O."
-    },
-    {
-      "id": "REDUCE_SHOP_BUY_EGO_GIFT_COST_RATE_ALL3",
-      "description": "[Boutiques]\n\n-{0}% de Coût d’Achat de Dons E.G.O."
-    },
-    {
-      "id": "REDUCE_SHOP_BUY_EGO_GIFT_COST_RATE_SLASH",
-      "description": "[Boutiques]\n\n-{0}% de Coût d’Achat de Dons E.G.O. Tranchants"
-    },
-    {
-      "id": "REDUCE_SHOP_BUY_EGO_GIFT_COST_RATE_PENETRATE",
-      "description": "[Boutiques]\n\n-{0}% de Coût d’Achat de Dons E.G.O. Perçants"
-    },
-    {
-      "id": "REDUCE_SHOP_BUY_EGO_GIFT_COST_RATE_HIT",
-      "description": "[Boutiques]\n\n-{0}% de Coût d’Achat de Dons E.G.O. Contondants"
-    },
-    {
-      "id": "ADDITIONAL_SHOP_SELL_EGO_GIFT_COST_RATE_TIER1",
-      "description": "[Boutiques]\n\nGagnez +{0}% de Coût supplémentaire en vendant des Dons E.G.O. de Tier 1"
-    },
-    {
-      "id": "ADDITIONAL_SHOP_SELL_EGO_GIFT_COST_RATE_TIER2",
-      "description": "[Boutiques]\n\nGagnez +{0}% de Coût supplémentaire en vendant des Dons E.G.O. de Tier 2"
-    },
-    {
-      "id": "ADDITIONAL_SHOP_SELL_EGO_GIFT_COST_RATE_TIER3",
-      "description": "[Boutiques]\n\nGagnez +{0}% de Coût supplémentaire en vendant des Dons E.G.O. de Tier 3"
-    },
-    {
-      "id": "ADDITIONAL_SHOP_SELL_EGO_GIFT_COST_RATE_TIER4MORE",
-      "description": "[Boutiques]\n\nGagnez +{0}% de Coût supplémentaire en vendant des Dons E.G.O. de Tier 4+"
-    },
-    {
-      "id": "ADDITIONAL_EGO_GIFT_CHANCE_TIER1TOTIER2",
-      "description": "[Universel]\n\nRajoute {0} Dons E.G.O. de Tier 2 aux Boutiques, résultats de Fusion de Dons et réserve de Récompenses d’Affrontement\n\n<Liste>\n- Douleur de la Rage Étouffée (Tier 2, Brûlure)\n- Admiration (Tier 2, Saignement)\n- Arôme de Liqueur Aigre (Tier 2, Tremblement)\n- Synesthésie Tactile Miroir (Tier 2, Tremblement)\n- Poudre Fumante (Tier 2, Déchirure)\n- Parapluie en Lambeaux (Tier 2, Déchirure)\n- Grandeur (Tier 2, Lourdeur)\n- Vieille Poupée de Bois (Tier 2, Calme)\n- Lampe Torche de Patrouille (Tier 2, Charge)\n- Ciseaux de Couturier (Tier 2, Tranchant)\n- Résolution (Tier 2, Tranchant)\n- Autrefois, Une Bénédiction (Tier 2, Perçant)\n- Cartouchière Déchirée (Tier 2, Perçant)\n- Pansement Compressif (Tier 2, Contondant)\n- Bride Temporelle (Tier 2, Contondant)\n- Oracle (Tier 2)"
-    },
-    {
-      "id": "ADDITIONAL_EGO_GIFT_CHANCE_TIER3TOTIER4",
-      "description": "[Universel]\n\nRajoute {0} Dons E.G.O. de Tier 3~4 aux Boutiques, résultats de Fusion de Dons et réserve de Récompenses d’Affrontement\n\n<Liste>\n- Poussière à Poussière (Tier 3, Brûlure)\n- Fumées et Fils de Fer (Tier 3, Saignement)\n- Cloche de la Vérité (Tier 3, Tremblement)\n- Batterie Standard (Tier 3, Déchirure)\n- Cauchemar du Solstice d’Hiver (Tier 3, Lourdeur)\n- Trèfle à Quatre Feuilles (Tier 3, Calme)\n- Champ de Force d’Interférence Matérielle (Tier 3, Charge)\n- Fleur Ardente (Tier 3, Brûlure)\n- Répit (Tier 3, Saignement)\n- Ressort Mécanique (Tier 3, Tremblement)\n- Chercheur de Mort (Tier 3, Déchirure)\n- Étoile Lointaine (Tier 3, Lourdeur)\n- Finifugalité (Tier 3, Calme)\n- Générateur Mimétique (Tier 3, Charge)\n- Instant de Condamnation (Tier 3, Tranchant)\n- Branchevive (Tier 3, Perçant)\n- Sculpture Serrée (Tier 3, Contondant)\n- Poids Imposé (Tier 3)\n\n- Fragment du Feu de l’Enfer (Tier 4, Brûlure)\n- Fragment de Séduction (Tier 4, Saignement)\n- Fragment d’Inertie (Tier 4, Tremblement)\n- Fragment de Désir (Tier 4, Déchirure)\n- Fragment de Décomposition (Tier 4, Lourdeur)\n- Fragment de Suffisance (Tier 4, Calme)\n- Fragment de Friction (Tier 4, Charge)\n- Souvenir Scindé (Tier 4, Tranchant)\n- Souvenir Perforé (Tier 4, Perçant)\n- Souvenir Écrasé (Tier 4, Contondant)"
-    },
-    {
-      "id": "REDUCE_UPGRADE_EGO_GIFT_COST_ALL1",
-      "description": "[Points de Repos]\n\n-{0}% de Coût d’Amélioration des Dons E.G.O."
-    },
-    {
-      "id": "REDUCE_UPGRADE_EGO_GIFT_COST_TIER1",
-      "description": "[Points de Repos]\n\n-{0}% de Coût d’Amélioration des Dons E.G.O. de Tier 1"
-    },
-    {
-      "id": "REDUCE_UPGRADE_EGO_GIFT_COST_TIER2",
-      "description": "[Points de Repos]\n\n-{0}% de Coût d’Amélioration des Dons E.G.O. de Tier 2"
-    },
-    {
-      "id": "REDUCE_UPGRADE_EGO_GIFT_COST_TIER3",
-      "description": "[Points de Repos]\n\n-{0}% de Coût d’Amélioration des Dons E.G.O. de Tier 3"
-    },
-    {
-      "id": "REDUCE_UPGRADE_EGO_GIFT_COST_TIER4MORE",
-      "description": "[Points de Repos]\n\n-{0}% de Coût d’Amélioration des Dons E.G.O. de Tier 4+"
-    },
-    {
-      "id": "REDUCE_UPGRADE_EGO_GIFT_COST_ALL2",
-      "description": "[Points de Repos]\n\n-{0}% de Coût d’Amélioration des Dons E.G.O."
-    },
-    {
-      "id": "REDUCE_UPGRADE_EGO_GIFT_COST_ALL3",
-      "description": "[Points de Repos]\n\n-{0}% de Coût d’Amélioration des Dons E.G.O."
-    },
-    {
-      "id": "REDUCE_UPGRADE_EGO_GIFT_COST_SLASH",
-      "description": "[Points de Repos]\n\n-{0}% de Coût d’Amélioration des Dons E.G.O. Tranchants"
-    },
-    {
-      "id": "REDUCE_UPGRADE_EGO_GIFT_COST_PENETRATE",
-      "description": "[Points de Repos]\n\n-{0}% de Coût d’Amélioration des Dons E.G.O. Perçants"
-    },
-    {
-      "id": "REDUCE_UPGRADE_EGO_GIFT_COST_HIT",
-      "description": "[Points de Repos]\n\n-{0}% de Coût d’Amélioration des Dons E.G.O. Contondants"
-    },
-    {
-      "id": "REDUCE_UPGRADE_EGO_GIFT_COST_NONE",
-      "description": "[Boutiques]\n\nRéduction Supplémentaire : -{0}% de Coût d’Amélioration pour les Dons E.G.O. sans effet de Statut ou Catégorie de Buff spécifique"
-    },
-    {
-      "id": "ADDITIONAL_FLOOR_THEME_NUMBER",
-      "description": "[Thème d’Étage]\n\n+{0} Choix de Thème d’Étage"
-    },
-    {
-      "id": "ADDITIONAL_FLOOR_THEME_NUMBER_NESTING",
-      "description": "[Thème d’Étage]\n\n+{0} Choix de Thème d’Étage"
-    },
-    {
-      "id": "ADDITIONAL_BATTLE_REWARD_CASE_NUMBER",
-      "description": "[Cartes de Récompense d’Affrontement]\n\n+{0} Choix de Carte de Récompense d’Affrontement"
-    },
-    {
-      "id": "ADDITIONAL_FLOOR_THEME_NUMBER_SUB1",
-      "description": "[Thème d’Étage]\n\n+{0} Choix de Thème d’Étage"
-    },
-    {
-      "id": "ADDITIONAL_CHIP",
-      "description": "[Limité]\n\nGagnez 200 Lumières Stellaire en gravant cette Étoile (1 fois seulement, non affecté par le statut d’activation)"
-    },
-    {
-      "id": "ADDITIONAL_START_EGO_GIFT_CHANCE_BUF",
-      "description": "[Don E.G.O. de Départ]\n\nRajoute 7 Dons E.G.O. à la réserve de Dons de Départ\n\n<Liste>\n- Douleur de la Rage Étouffée (Tier 2, Brûlure)\n- Admiration (Tier 2, Saignement)\n- Arôme de Liqueur Aigre (Tier 2, Tremblement)\n- Poudre Fumante (Tier 2, Déchirure)\n- Grandeur (Tier 2, Lourdeur)\n- Vieille Poupée de Bois (Tier 2, Calme)\n- Lampe Torche de Patrouille (Tier 2, Charge)"
-    },
-    {
-      "id": "ADDITIONAL_START_EGO_GIFT_COMBUSTION",
-      "description": "[Don E.G.O. de Départ]\n\nDébloque la Catégorie de Dons E.G.O. de Brûlure"
-    },
-    {
-      "id": "ADDITIONAL_START_EGO_GIFT_LACERATION",
-      "description": "[Don E.G.O. de Départ]\n\nDébloque la Catégorie de Dons E.G.O. de Saignement"
-    },
-    {
-      "id": "ADDITIONAL_START_EGO_GIFT_VIBRATION",
-      "description": "[Don E.G.O. de Départ]\n\nDébloque la Catégorie de Dons E.G.O. de Tremblement"
-    },
-    {
-      "id": "ADDITIONAL_START_EGO_GIFT_BURST",
-      "description": "[Don E.G.O. de Départ]\n\nDébloque la Catégorie de Dons E.G.O. de Déchirure"
-    },
-    {
-      "id": "ADDITIONAL_START_EGO_GIFT_SINKING",
-      "description": "[Don E.G.O. de Départ]\n\nDébloque la Catégorie de Dons E.G.O. de Lourdeur"
-    },
-    {
-      "id": "ADDITIONAL_START_EGO_GIFT_BREATH",
-      "description": "[Don E.G.O. de Départ]\n\nDébloque la Catégorie de Dons E.G.O. de Calme"
-    },
-    {
-      "id": "ADDITIONAL_START_EGO_GIFT_CHARGE",
-      "description": "[Don E.G.O. de Départ]\n\nDébloque la Catégorie de Dons E.G.O. de Charge"
-    },
-    {
-      "id": "ADDITIONAL_START_EGO_GIFT_CHANCE_ATK",
-      "description": "[Don E.G.O. de Départ]\n\nRajoute 6 Dons E.G.O. à la réserve de Dons de Départ\n\n<Liste>\n- Ciseaux de Couturier (Tier 2, Tranchant)\n- Résolution (Tier 2, Tranchant)\n- Autrefois, Une Bénédiction (Tier 2, Perçant)\n- Cartouchière Déchirée (Tier 2, Perçant)\n- Pansement Compressif (Tier 2, Contondant)\n- Bride Temporelle (Tier 2, Contondant)"
-    },
-    {
-      "id": "ADDITIONAL_START_EGO_GIFT_CHANCE_SLASH",
-      "description": "[Don E.G.O. de Départ]\n\nDébloque la Catégorie de Dons E.G.O. Tranchants"
-    },
-    {
-      "id": "ADDITIONAL_START_EGO_GIFT_CHANCE_PENETRATE",
-      "description": "[Don E.G.O. de Départ]\n\nDébloque la Catégorie de Dons E.G.O. Perçants"
-    },
-    {
-      "id": "ADDITIONAL_START_EGO_GIFT_CHANCE_HIT",
-      "description": "[Don E.G.O. de Départ]\n\nDébloque la Catégorie de Dons E.G.O. Contondants"
+      "id": "GiveBuffOnRoundStart",
+      "description": "Gagnez {2} de <color=#ff6000>{1}</color>"
     }
   ]
 }

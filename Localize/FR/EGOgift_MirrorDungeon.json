@@ -934,11 +934,11 @@
     {
       "id": 9040,
       "name": "Fortune du Lendemain",
-      "desc": "Augmente de 1 le nombre d’options en choisissant un Don E.G.O. à avoir.",
+      "desc": "Améliore la première Carte de Récompense d’Affrontement au plus haut tier qui lui est possible.",
       "simpleDesc": [
         {
           "abilityID": 9040,
-          "simpleDesc": "+1 de Sélection de Don E.G.O."
+          "simpleDesc": "Améliore la première Carte de Récompense d’Affrontement au plus haut tier qui lui est possible."
         }
       ]
     },
@@ -2214,11 +2214,11 @@
     {
       "id": 9080,
       "name": "Borne de Survie",
-      "desc": "En passant à l’étage suivant, toutes les Identités se soignent de 10% de leurs PV Max, et gagne 100 de Coût.",
+      "desc": "En vainquant un Boss d’Étage : gagne (80 + # d’Identités participant à l’Affrontement * 5) Coûts supplémentaires (non affecté par les effets qui augmentent le Coût après avoir réussi un Affrontement)",
       "simpleDesc": [
         {
           "abilityID": 9080,
-          "simpleDesc": "Soin de 10% des PV Max ; gagne 100 de Coût"
+          "simpleDesc": "Gagne du Coût"
         }
       ]
     },
@@ -2350,7 +2350,7 @@
     {
       "id": 9088,
       "name": "Apaise le Mort",
-      "desc": "Début d’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui infligent de la Puissance de [Combustion], Compte, ou effets de 'Brûlure Unique'. (Ne compte pas les Capacités E.G.O., ne compte que les Identités sur le terrain au début de l’Affrontement)\n\n\nPremier Début de Tour d’une vague : inflige 3 de Compte de [Combustion] à tous les ennemis (ou toutes les parties d’Anomalie) ; inflige aléatoirement un total de 15 de Puissance de [Combustion] entre tous les ennemis (ou toutes les parties d’Anomalie).\n\nAux Capacités qui infligent de la Puissance de [Combustion], Compte, ou effets de 'Brûlure Unique' : +1 de Puissance Finale, +1 de Puissance de Pièce, +1 de Puissance de [Combustion] infligée, +1 de Compte de [Combustion] infligé.",
+      "desc": "Début d’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui infligent de la Puissance de [Combustion], Compte, ou effets de 'Brûlure Unique'. (à l’exception des Capacités E.G.O., ne compte que les Identités sur le terrain au début de l’Affrontement)\n\nPremier Début de Tour d’une vague : inflige 3 de Compte de [Combustion] à tous les ennemis (ou toutes les parties d’Anomalie) ; inflige aléatoirement un total de 15 de Puissance de [Combustion] entre tous les ennemis (ou toutes les parties d’Anomalie).\n\nAux Capacités qui infligent de la Puissance de [Combustion], Compte, ou effets de 'Brûlure Unique' : +1 de Puissance Finale, +1 de Puissance de Pièce, +1 de Puissance de [Combustion] infligée, +1 de Compte de [Combustion] infligé.\n\nEn gagnant un Duel avec une Capacité qui inflige de la Puissance, du Compte ou de la 'Brulûre Unique', inflige (# de Pièces restantes + 1) de Puissance de [Combustion] à la cible ennemie.",
       "simpleDesc": [
         {
           "abilityID": 9088,
@@ -2358,7 +2358,11 @@
         },
         {
           "abilityID": 90881,
-          "simpleDesc": "+1 de Puissance Finale, +1 de Puissance de Pièce, +1 de Puissance de [Combustion] infligée, +1 de Compte de [Combustion] infligé."
+          "simpleDesc": "+1 de Puissance Finale de Capacité, +1 de Puissance de Pièce, +1 de Puissance de [Combustion] infligé, +1 de Compte de [Combustion] infligé."
+        },
+        {
+          "abilityID": 90882,
+          "simpleDesc": "Inflige (# de Pièces restantes + 1) de Puissance de [Combustion]"
         }
       ]
     },
@@ -2410,7 +2414,7 @@
     {
       "id": 9090,
       "name": "Brume Sanglante",
-      "desc": "Début d’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui infligent de la Puissance de [Laceration], Compte, ou effets de 'Saignement Unique'. (Ne compte pas les Capacités E.G.O., ne compte que les Identités sur le terrain au début de l’Affrontement)\n\nLes alliés infligent le double de Puissance et de Compte de [Laceration].\n\nAux Capacités qui infligent de la Puissance de [Laceration], Compte, ou effets de 'Saignement Unique' : +2 de Puissance de Pièce, +100% de dégâts infligés",
+      "desc": "Début d’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui infligent de la Puissance de [Laceration], Compte, ou effets de 'Saignement Unique'. (à l’exception des Capacités E.G.O., ne compte que les Identités sur le terrain au début de l’Affrontement)\n\nLes alliés infligent le double de Puissance et de Compte de [Laceration] avec les effets de Capacité.\n\nPour 1 allié le plus rapide avec des Capacités qui infligent de la Puissance de [Laceration], Compte, ou effets de 'Saignement Unique' : +2 de Puissance de Pièce, +100% de dégâts infligés. Si l’enemi ataqué ou affronté en Duel par cet allié meurt, inflige la Puissance de [Laceration] restante de l’ennemi aléatoirement entre tous les ennemis. (En Affrontement Concentrés, les Parties)\n\n+1 de Puissance de Pièce à toutes les Capacités qui infligent de la Puissance ou du Compte de [Laceration] ou un 'Saignement Unique'.",
       "simpleDesc": [
         {
           "abilityID": 9090,
@@ -2418,7 +2422,15 @@
         },
         {
           "abilityID": 90901,
-          "simpleDesc": "Capacités qui infligent de la Puissance de [Laceration], Compte, ou effets de Saignement Unique : +2 de Puissance de Pièce, +100% de dégâts infligés"
+          "simpleDesc": "+2 de Puissance de Pièce de Capacité et inflige +100% de dégâts supplémentaires"
+        },
+        {
+          "abilityID": 90902,
+          "simpleDesc": "Capacités qui infligent de la Puissance ou du Compte de [Laceration] ou un 'Saignement Unique' gagnent +1 de Puissance de Pièce."
+        },
+        {
+          "abilityID": 90903,
+          "simpleDesc": "Inflige la Puissance de [Laceration] de l’ennemi vaincu aléatoirement entre tous les ennemis"
         }
       ]
     },
@@ -2458,7 +2470,7 @@
     {
       "id": 9092,
       "name": "Oscillation Couplée",
-      "desc": "Début d’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui appliquent de la Puissance de [Vibration]. (Ne compte pas les Capacités E.G.O., ne compte que les Identités sur le terrain au début de l’Affrontement)\n\nPremier Début du Tour d’une vague : inflige 5 de [Vibration] et +5 de Compte de [Vibration] à tous les ennemis. (ou toutes les Parties d’Anomalie)\n\nApplique 5 de Puissance de [Vibration] et 2 de [Vulnerable] ce tour et au tour suivant aux ennemis affectés par un [VibrationExplosion]. (s’active une fois par Capacité d’Attaque qui déclenche un [VibrationExplosion])\n\nAprès avoir déclenché 3 [VibrationExplosion] sur une cible, Déséquilibre la cible au prochain Début du Tour et ajoute un nouveau Seuil de Déséquilibre à 66% et 33% des PV actuels de la cible. (une fois par Affrontement)",
+      "desc": "Début d’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui appliquent de la Puissance ou du Compte de [Vibration], ou un 'Tremblement Unique'. (à l’exception des Capacités E.G.O., ne compte que les Identités sur le terrain au début de l’Affrontement)\n\nPremier Début du Tour d’une vague : inflige 5 de [Vibration] et +5 de Compte de [Vibration] à tous les ennemis. (ou toutes les Parties d’Anomalie)\n\nApplique 5 de Puissance de [Vibration] et 2 de [Vulnerable] ce tour et au tour suivant aux ennemis affectés par un [VibrationExplosion]. (s’active une fois par Capacité d’Attaque qui déclenche un [VibrationExplosion])\n\nAprès avoir déclenché 3 [VibrationExplosion] sur une cible ce tour, Déséquilibre la cible au prochain Début du Tour et ajoute un nouveau Seuil de Déséquilibre à 66% et 33% des PV actuels de la cible. (une fois par Affrontement)\n\nEn déclenchant une [Switch_Vibration] ou une [FusionVibration], inflige 1 de [Vulnerable] (3 fois par tour)",
       "simpleDesc": [
         {
           "abilityID": 9092,
@@ -2467,6 +2479,10 @@
         {
           "abilityID": 90921,
           "simpleDesc": "Déséquilibre la cible"
+        },
+        {
+          "abilityID": 90922,
+          "simpleDesc": "Inflige 1 de [Vulnerable]"
         }
       ]
     },
@@ -2506,7 +2522,7 @@
     {
       "id": 9094,
       "name": "Transe Fascinante",
-      "desc": "Début d’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui infligent de la Puissance ou du Compte de [Burst]. (Ne compte pas les Capacités E.G.O., ne compte que les Identités sur le terrain au début de l’Affrontement)\n\nEn touchant un ennemi avec une Capacité, inflige 5 de Puissance de [Burst].\n\nLorsque le Compte de [Burst] d’un ennemi tombe en-dessous de 1, consomme 10 de Puissance de [Burst] au lieu du Compte de [Burst]. (Cet effet prend fin lorsque la Puissance de [Burst] tombe en-dessous de 10)",
+      "desc": "Début d’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui infligent de la Puissance ou du Compte de [Burst]. (à l’exception des Capacités E.G.O., ne compte que les Identités sur le terrain au début de l’Affrontement)\n\nEn touchant un ennemi avec une Capacité, inflige 5 de Puissance de [Burst].\n\nLorsque le Compte de [Burst] d’un ennemi tombe en-dessous de 1, consomme 10 de Puissance de [Burst] au lieu du Compte de [Burst]. (Cet effet prend fin lorsque la Puissance de [Burst] tombe en-dessous de 10)\n\nSi la cible a moins de 3 de Compte de [Burst], inflige +1 de Compte supplémentaire en infligeant du Compte de [Burst]. (3 fois par Affrontement)",
       "simpleDesc": [
         {
           "abilityID": 9094,
@@ -2515,6 +2531,10 @@
         {
           "abilityID": 90941,
           "simpleDesc": "Consomme 10 de Puissance de [Burst] à la place du Compte de [Burst]"
+        },
+        {
+          "abilityID": 90942,
+          "simpleDesc": "+1 de Compte de [Burst] infligé"
         }
       ]
     },
@@ -2554,7 +2574,7 @@
     {
       "id": 9096,
       "name": "Partition Noire",
-      "desc": "Début d’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui infligent de la Puissance ou du Compte de [Sinking] ou une 'Lourdeur Unique'. (Ne compte pas les Capacités E.G.O., ne compte que les Identités sur le terrain au début de l’Affrontement)\n\nEn touchant un ennemi avec une Capacité, inflige 5 de Puissance de [Sinking].\n\nDébut du Tour : tous les ennemis (ou toutes les parties d’Anomalie) regagnent du Compte de [Sinking] égal à (Compte de [Sinking] consummé après avoir été touché au dernier tour)/2",
+      "desc": "Début d’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui infligent de la Puissance ou du Compte de [Sinking] ou une 'Lourdeur Unique'. (à l’exception des Capacités E.G.O., ne compte que les Identités sur le terrain au début de l’Affrontement)\n\nEn Touche contre un ennemi avec une Capacité : inflige 5 de Puissance de [Sinking].\n\nDébut du Tour : les ennemis ou Parties avec [Sinking] regagnent (Compte de [Sinking] que chaque ennemi a perdu En Touche au dernier tour / 2) de Compte de [Sinking].\n\nSi la Capacité d’Attaque de Base touche une cible avec moins de 0 PSM (pour les ennemis sans PSM, s’ils ont 1.2+ de Résist. de Peine), inflige (Puissance de [Sinking] / 10) dégâts d’Affinité de Peine (1 min, cet effet peut s’activer jusqu’à 10 fois par tour)",
       "simpleDesc": [
         {
           "abilityID": 9096,
@@ -2562,7 +2582,11 @@
         },
         {
           "abilityID": 90961,
-          "simpleDesc": "Regagne du Compte de [Sinking] égal à (Compte de [Sinking] consummé après avoir été touché au dernier tour)/2"
+          "simpleDesc": "Inflige du Compte de [Sinking]"
+        },
+        {
+          "abilityID": 90961,
+          "simpleDesc": "Inflige des dégâts d’Affinité de Peine"
         }
       ]
     },
@@ -2614,7 +2638,7 @@
     {
       "id": 9098,
       "name": "Sachet Porte-Bonheur",
-      "desc": "Début d’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui appliquent ou gagnent de la Puissance ou du Compte de [Breath]. (Ne compte pas les Capacités E.G.O., ne compte que les Identités sur le terrain au début de l’Affrontement)\n\nDébut du Combat : si un allié aléatoire avec [Breath] Touche Critiquement un ennemi avec une Capacité, tous les alliés gagnent 7 de Puissance de [Breath] et +7 de Compte de [Breath] au prochain Début du Tour. (Une fois par tour)\n\nCapacité 3 des Identités avec des Capacités qui gagnent de la Puissance de [Breath] : +3 de Puissance Finale, +(12/# de Pièces) de Puissance de Pièce, +(50/# de Pièces)% de dégâts infligés.",
+      "desc": "Début d’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui appliquent ou gagnent de la Puissance ou du Compte de [Breath]. (à l’exception des Capacités E.G.O., ne compte que les Identités sur le terrain au début de l’Affrontement)\n\nDébut du Combat : si un allié aléatoire avec [Breath] Touche Critiquement un ennemi avec une Capacité, tous les alliés gagnent 7 de Puissance de [Breath] et +7 de Compte de [Breath] au prochain Début du Tour. (Une fois par tour)\n\nCapacité 3 des Identités avec des Capacités qui appliquent ou gagnent de la Puissance de [Breath] (à l’exception des Capacités E.G.O.) : +3 de Puissance Finale, +(12/# de Pièces) de Puissance de Pièce, +(50/# de Pièces)% de dégâts infligés.\n\nDébut du Combat : un allié aléatoire gagne 3 de Puissance de [Breath]. (Priorise les Identités qui appliquent ou gagnent de la Puissance ou du Compte de [Breath] avec leurs Capacités d’Attaque) Priorise les alliés avec des Capacités d’Attaque d’Affinité de Peine ; ils gagnent 3 de Puissance de [Breath] et +2 de Compte de [Breath]",
       "simpleDesc": [
         {
           "abilityID": 9098,
@@ -2623,6 +2647,10 @@
         {
           "abilityID": 90981,
           "simpleDesc": "Capacité 3 : +3 de Puissance Finale, +(12/# de Pièces) de Puissance de Pièce, +(50/# de Pièces)% de dégâts infligés"
+        },
+        {
+          "abilityID": 90982,
+          "simpleDesc": "Gagne 3 de Puissance de [Breath]. Les Alliés avec des Capacités d’Attaque d’Affinité de Peine gagnent +2 de Compte de [Breath] supplémentaires"
         }
       ]
     },
@@ -2662,19 +2690,27 @@
     {
       "id": 9100,
       "name": "Machine à Mouvement Perpétuel T-1",
-      "desc": "Début d’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui gagnent du Compte de [Charge] ou une 'Charge Unique'. (Ne compte pas les Capacités E.G.O., ne compte que les Identités sur le terrain au début de l’Affrontement)\n\nPremier Début de Tour d’une vague : tous les alliés gagnent 7 de [ChargeForceField].\n\nDébut du Tour : tous les alliés gagnent ((Compte de [Charge] + 'Charge Unique')/5 +1) de [AttackDmgUp]. (9 max, arrondi au supérieur)\n\nProchain Début du Tour : chaque Identité gagne ((somme du total de Compte de [Charge] + 'Charge Unique' consommé par utilisation de Capacité durant cet Affrontement)/4) de Bonus de Niveau Offensif (Plafonne lorsque une somme de 40 de Compte de [Charge] + 'Charge Unique' a été consommé)",
+      "desc": "Début d’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui gagnent du Compte de [Charge] ou une 'Charge Unique'. (Ne compte pas les Capacités E.G.O., ne compte que les Identités sur le terrain au début de l’Affrontement)\n\nPremier Début de Tour d’une vague : tous les alliés gagnent 7 de [ChargeForceField].\n\nDébut du Tour : tous les alliés gagnent ((Compte de [Charge] + 'Charge Unique')/5) + 1) de Bonus de Dégât. (9 max, arrondi au supérieur)\n\nChaque Identité gagne 1 de [Charge] chaque fois qu’elle consomme 20 de Compte de [Charge](2 fois par Identité par Affrontement ; les Charges Uniques n’interagissent pas avec cet effet)\n\nAprès l’Attaque d’une Capacité qui a consommé du Compte de [Charge] sur soi : inflige ([Charge] - 1) de [DefenseDown] (5 fois pour chaque ennemi par tour ; peut infliger jusqu’à 3 de [DefenseDown] à la fois)",
       "simpleDesc": [
         {
           "abilityID": 9100,
-          "simpleDesc": "Gagne 7 de [ChargeForceField] et 2 de [AttackDmgUp]"
+          "simpleDesc": "Gagne 7 de [ChargeForceField]"
         },
         {
           "abilityID": 91001,
-          "simpleDesc": "Gagne du [AttackDmgUp]"
+          "simpleDesc": "Gagne 3 de [ChargeForceField]"
         },
         {
           "abilityID": 91002,
-          "simpleDesc": "Gagne ((Total de Compte de [Charge] consommé + 'Charge Unique')/4) Niveau Offensif"
+          "simpleDesc": "Gagne du [AttackDmgUp]"
+        },
+        {
+          "abilityID": 91003,
+          "simpleDesc": "Gagne 1 de [Charge]"
+        },
+        {
+          "abilityID": 91004,
+          "simpleDesc": "Inflige ([Charge] - 1) de [DefenseDown]"
         }
       ]
     },
@@ -3122,11 +3158,11 @@
     {
       "id": 9118,
       "name": "Pieu Osseux",
-      "desc": "Les effets de [Burst] infligent le double de dégâts aux Boucliers ennemis.",
+      "desc": "Les effets de [Burst] infligent +100% de dégâts supplémentaires aux Boucliers ennemis.",
       "simpleDesc": [
         {
           "abilityID": 9118,
-          "simpleDesc": "Les effets de [Burst] infligent le double de dégâts aux Boucliers ennemis."
+          "simpleDesc": "Les effets de [Burst] infligent +100% de dégâts supplémentaires aux Boucliers ennemis."
         }
       ]
     },
@@ -3253,7 +3289,7 @@
     {
       "id": 9123,
       "name": "Lambeaux",
-      "desc": "Les alliés avec des Capacités d’Attaque qui infligent de la Puissance ou du Compte de [Sinking] ou une 'Lourdeur Unique' se soignent de 5 PSM supplémentaires (une fois par tour) en Gagnant un Duel ; si à PSM max, infligent +7.5% de dégâts supplémentaires.\n\nLorsque cet allié utilise une Capacité à Pièces Négatives (exclut les Capacités E.G.O.) : à -15 PSM ou plus, réduit les PSM à -15 et inflige +(quantité de PSM perdus)% de dégâts supplémentaires ; si déjà à moins de -15 PSM, inflige +15% de dégâts supplémentaires.",
+      "desc": "Les alliés avec des Capacités d’Attaque qui infligent de la Puissance ou du Compte de [Sinking] ou une 'Lourdeur Unique' se soignent de 5 PSM supplémentaires (une fois par tour) en Gagnant un Duel ; si à PSM max, infligent +7.5% de dégâts supplémentaires.\n\nLorsque cet allié utilise une Capacité à Pièces Négatives (à l’exception des Capacités E.G.O.) : à -15 PSM ou plus, réduit les PSM à -15 et inflige +(quantité de PSM perdus)% de dégâts supplémentaires ; si déjà à moins de -15 PSM, inflige +15% de dégâts supplémentaires.",
       "simpleDesc": [
         {
           "abilityID": 9123,
@@ -3268,7 +3304,7 @@
     {
       "id": 19123,
       "name": "Lambeaux+",
-      "desc": "Les alliés avec des Capacités d’Attaque qui infligent de la Puissance ou du Compte de [Sinking] ou une 'Lourdeur Unique' se soignent de <style=\"upgradeHighlight\">6</style> PSM supplémentaires (une fois par tour) en Gagnant un Duel ; si à PSM max, inflige +<style=\"upgradeHighlight\">10</style>% de dégâts supplémentaires.\n\nLorsque cet allié utilise une Capacité à Pièces Négatives (exclut les Capacités E.G.O.) : à -15 PSM ou plus, réduit les PSM à -15 et inflige +(quantité de PSM perdus <style=\"upgradeHighlight\">+ 5</style>)% de dégâts supplémentaires ; si déjà à moins de -15 PSM, inflige +<style=\"upgradeHighlight\">20</style>% de dégâts supplémentaires.",
+      "desc": "Les alliés avec des Capacités d’Attaque qui infligent de la Puissance ou du Compte de [Sinking] ou une 'Lourdeur Unique' se soignent de <style=\"upgradeHighlight\">6</style> PSM supplémentaires (une fois par tour) en Gagnant un Duel ; si à PSM max, inflige +<style=\"upgradeHighlight\">10</style>% de dégâts supplémentaires.\n\nLorsque cet allié utilise une Capacité à Pièces Négatives (à l’exception des Capacités E.G.O.) : à -15 PSM ou plus, réduit les PSM à -15 et inflige +(quantité de PSM perdus <style=\"upgradeHighlight\">+ 5</style>)% de dégâts supplémentaires ; si déjà à moins de -15 PSM, inflige +<style=\"upgradeHighlight\">20</style>% de dégâts supplémentaires.",
       "simpleDesc": [
         {
           "abilityID": 19123,
@@ -3283,7 +3319,7 @@
     {
       "id": 29123,
       "name": "Lambeaux++",
-      "desc": "Les alliés avec des Capacités d’Attaque qui infligent de la Puissance ou du Compte de [Sinking] ou une 'Lourdeur Unique' se soignent de <style=\"upgradeHighlight\">7</style> PSM supplémentaires (une fois par tour) en Gagnant un Duel ; si à PSM max, inflige +<style=\"upgradeHighlight\">12.5</style>% de dégâts supplémentaires.\n\nLorsque cet allié utilise une Capacité à Pièces Négatives (exclut les Capacités E.G.O.) : à -15 PSM ou plus, réduit les PSM à -15 et inflige +(SP lost <style=\"upgradeHighlight\">+ 10</style>)% de dégâts supplémentaires ; si déjà à moins de -15 PSM, inflige +<style=\"upgradeHighlight\">25</style>% de dégâts supplémentaires.",
+      "desc": "Les alliés avec des Capacités d’Attaque qui infligent de la Puissance ou du Compte de [Sinking] ou une 'Lourdeur Unique' se soignent de <style=\"upgradeHighlight\">7</style> PSM supplémentaires (une fois par tour) en Gagnant un Duel ; si à PSM max, inflige +<style=\"upgradeHighlight\">12.5</style>% de dégâts supplémentaires.\n\nLorsque cet allié utilise une Capacité à Pièces Négatives (à l’exception des Capacités E.G.O.) : à -15 PSM ou plus, réduit les PSM à -15 et inflige +(SP lost <style=\"upgradeHighlight\">+ 10</style>)% de dégâts supplémentaires ; si déjà à moins de -15 PSM, inflige +<style=\"upgradeHighlight\">25</style>% de dégâts supplémentaires.",
       "simpleDesc": [
         {
           "abilityID": 29123,
@@ -3361,7 +3397,7 @@
     {
       "id": 9127,
       "name": "Part du Diable",
-      "desc": "Fin du Tour : applique 1 de [Agility] au prochain tour à 1 allié avec la plus grande Puissance de [Breath] et 1 allié avec le plus grand Compte de [Breath]. (les deux effets peuvent s’appliquer à la même Identité)\n\nSi l’allié a des Capacités d’Attaque d’Affinité de Luxure, applique 2 de [Agility] à la place. (ne compte pas les Capacités E.G.O.)",
+      "desc": "Fin du Tour : applique 1 de [Agility] au prochain tour à 1 allié avec la plus grande Puissance de [Breath] et 1 allié avec le plus grand Compte de [Breath]. (les deux effets peuvent s’appliquer à la même Identité)\n\nSi l’allié a des Capacités d’Attaque d’Affinité de Luxure, applique 2 de [Agility] à la place. (à l’exception des Capacités E.G.O.)",
       "simpleDesc": [
         {
           "abilityID": 9127,
@@ -3372,7 +3408,7 @@
     {
       "id": 19127,
       "name": "Part du Diable+",
-      "desc": "Fin du Tour : applique 1 de [Agility] <style=\"upgradeHighlight\">et 1 de [AttackUp]</style> au prochain tour à 1 allié avec la plus grande Puissance de [Breath] et 1 allié avec le plus grand Compte de [Breath]. (les deux effets peuvent s’appliquer à la même Identité)\n\nSi l’allié a des Capacités d’Attaque d’Affinité de Luxure, applique 2 de [Agility] <style=\"upgradeHighlight\">et 2 de [AttackUp]</style> à la place. (ne compte pas les Capacités E.G.O.)",
+      "desc": "Fin du Tour : applique 1 de [Agility] <style=\"upgradeHighlight\">et 1 de [AttackUp]</style> au prochain tour à 1 allié avec la plus grande Puissance de [Breath] et 1 allié avec le plus grand Compte de [Breath]. (les deux effets peuvent s’appliquer à la même Identité)\n\nSi l’allié a des Capacités d’Attaque d’Affinité de Luxure, applique 2 de [Agility] <style=\"upgradeHighlight\">et 2 de [AttackUp]</style> à la place. (à l’exception des Capacités E.G.O.)",
       "simpleDesc": [
         {
           "abilityID": 19127,
@@ -3383,7 +3419,7 @@
     {
       "id": 29127,
       "name": "Part du Diable++",
-      "desc": "Fin du Tour : applique 1 de [Agility], 1 de [AttackUp] <style=\"upgradeHighlight\">et 1 de [AttackDmgUp]</style> au prochain tour à 1 allié avec la plus grande Puissance de [Breath] et 1 allié avec le plus grand Compte de [Breath]. (les deux effets peuvent s’appliquer à la même Identité)\n\nSi l’allié a des Capacités d’Attaque d’Affinité de Luxure, applique 2 de [Agility], 2 de [AttackUp] <style=\"upgradeHighlight\">et 2 de [AttackDmgUp]</style> à la place. (ne compte pas les Capacités E.G.O.)",
+      "desc": "Fin du Tour : applique 1 de [Agility], 1 de [AttackUp] <style=\"upgradeHighlight\">et 1 de [AttackDmgUp]</style> au prochain tour à 1 allié avec la plus grande Puissance de [Breath] et 1 allié avec le plus grand Compte de [Breath]. (les deux effets peuvent s’appliquer à la même Identité)\n\nSi l’allié a des Capacités d’Attaque d’Affinité de Luxure, applique 2 de [Agility], 2 de [AttackUp] <style=\"upgradeHighlight\">et 2 de [AttackDmgUp]</style> à la place. (à l’exception des Capacités E.G.O.)",
       "simpleDesc": [
         {
           "abilityID": 29127,
@@ -4246,7 +4282,7 @@
     {
       "id": 9152,
       "name": "Souvenir Écrasé",
-      "desc": "[Les effets s’appliquent uniquement à l’Identité Déployée #3]\n\nLes Capacités d’Attaque Contondantes gagnent +(# de Pièces/3) de Puissance de Duel, les Pièces Positives gagnent +1 de Puissance de Pièce supplémentaire, les Pièces Négatives gagnent -1 de Puissance de Pièce supplémentaire. (Les Capacités E.G.O. ne comptent pas ; arrondi au supérieur)\n\nSi, dans cet Affrontement, cette unité perd ne serai-ce qu’un seul Duel avec une Capacité d’Attaque Contondante, améliore l’effet ci-dessus de la manière suivante : les Capacités d’Attaque Contondantes gagnent +(# de Pièces/2) de Puissance de Duel, les Pièces Positives gagnent +2 de Puissance de Pièce supplémentaire, les Pièces Négatives gagnent -2 de Puissance de Pièce supplémentaire.\n\nFin du Tour : si cette unité a utilisé une Capacité d’Attaque Contondante avec 3+ Pièces ce tour, gagne 4 de [HitDamageUp] au prochain tour.",
+      "desc": "[Les effets s’appliquent uniquement à l’Identité Déployée #3]\n\nLes Capacités d’Attaque Contondantes gagnent +(# de Pièces/3) de Puissance de Duel, les Pièces Positives gagnent +1 de Puissance de Pièce supplémentaire, les Pièces Négatives gagnent -1 de Puissance de Pièce supplémentaire. (à l’exception des Capacités E.G.O. ; arrondi au supérieur)\n\nSi, dans cet Affrontement, cette unité perd ne serai-ce qu’un seul Duel avec une Capacité d’Attaque Contondante, améliore l’effet ci-dessus de la manière suivante : les Capacités d’Attaque Contondantes gagnent +(# de Pièces/2) de Puissance de Duel, les Pièces Positives gagnent +2 de Puissance de Pièce supplémentaire, les Pièces Négatives gagnent -2 de Puissance de Pièce supplémentaire.\n\nFin du Tour : si cette unité a utilisé une Capacité d’Attaque Contondante avec 3+ Pièces ce tour, gagne 4 de [HitDamageUp] au prochain tour.",
       "simpleDesc": [
         {
           "abilityID": 9152,
@@ -4281,564 +4317,6 @@
         {
           "abilityID": 9154,
           "simpleDesc": "Consomme 5% des PV restants au prochain tour pour gagner 2 de [Enhancement]"
-        }
-      ]
-    },
-    {
-      "id": 9403,
-      "name": "Broche d’Ébène",
-      "desc": "Premier Début du Tour d’un Affrontement : inflige 2 de Puissance et de Compte de [Burst] à tous les ennemis.\n\nInflige 2 de [Binding] au prochain tour à la Fin du Tour à tous les ennemis pendant 3 tours.",
-      "simpleDesc": [
-        {
-          "abilityID": 9403,
-          "simpleDesc": "Inflige 2 de Puissance de [Burst] et +2 de Compte de [Burst] à tous les ennemis"
-        },
-        {
-          "abilityID": 94031,
-          "simpleDesc": "Inflige 2 de [Binding] à tous les ennemis"
-        }
-      ]
-    },
-    {
-      "id": 9404,
-      "name": "Asticots Contenus",
-      "desc": "En utilisant une Capacité d’Affinité de Gourmandise (à l’exception des Capacités E.G.O.) contre un ennemi, inflige 2 [Muckworm] à la cible.\n\nSi cette Capacité applique de la Puissance ou du Compte de [Laceration] ou un 'Saignement Unique', inflige 3 [Muckworm] à la place.",
-      "simpleDesc": [
-        {
-          "abilityID": 9404,
-          "simpleDesc": "Inflige 2 [Muckworm]"
-        },
-        {
-          "abilityID": 94041,
-          "simpleDesc": "Inflige 3 [Muckworm]"
-        }
-      ]
-    },
-    {
-      "id": 9407,
-      "name": "Fait-sur-Commande",
-      "desc": "[Les effets s’appliquent uniquement à l’Identité Déployée #3]\n\nDébut d’Affrontement : gagne +3 de Compte de [Vibration].\n\nDébut du Tour : gagne 1 de [Protection], 1 de [AttackDmgUp] et 1 de [ResultEnhancement].",
-      "simpleDesc": [
-        {
-          "abilityID": 9407,
-          "simpleDesc": "Gagne +3 de Compte de [Vibration]"
-        },
-        {
-          "abilityID": 94071,
-          "simpleDesc": "Gagne 1 de [Protection], 1 de [AttackDmgUp] et 1 de [ResultEnhancement]"
-        }
-      ]
-    },
-    {
-      "id": 9408,
-      "name": "Chaussures Hantées",
-      "desc": "[Les effets s’appliquent uniquement à l’Identité Déployée #2]\n\nDébut d’Affrontement : gagne +3 de Compte de [Sinking].\n\nDébut du Tour : gagne 1 de [Protection], 1 de [AttackDmgUp] et 1 de [ResultEnhancement].",
-      "simpleDesc": [
-        {
-          "abilityID": 9408,
-          "simpleDesc": "Gagne +3 de Compte de [Sinking]"
-        },
-        {
-          "abilityID": 94081,
-          "simpleDesc": "Gagne 1 de [Protection], 1 de [AttackDmgUp] et 1 de [ResultEnhancement]"
-        }
-      ]
-    },
-    {
-      "id": 9409,
-      "name": "Pleurs Gelées",
-      "desc": "S’applique uniquement à 1 Identité avec la plus basse Vitesse au Début du Tour.\n\nSi cet allié gagne un Duel ou est touché par un ennemi, inflige 3 de [Sinking] à l’ennemi.",
-      "simpleDesc": [
-        {
-          "abilityID": 9409,
-          "simpleDesc": "Inflige 3 de [Sinking] à l’ennemi"
-        }
-      ]
-    },
-    {
-      "id": 9410,
-      "name": "Empreinte de Givre",
-      "desc": "Premier Début du Tour d’une vague : tous les alliés gagnent +3 de Compte de [Sinking] et inflige à tous les ennemis (ou parties d’Anomalie) 4 de Puissance de [Sinking] et +8 de Compte de [Sinking].\n\nLes ennemis avec [Sinking] perdent 2 de Puissance de Duel ; lorsqu’une Identité alliée gagne un Duel contre un ennemi affecté, inflige 2 de Puissance de [Sinking] ; lorsqu’une Identité alliée est touché par un ennemi affecté, inflige 3 de Puissance de [Sinking].",
-      "simpleDesc": [
-        {
-          "abilityID": 9410,
-          "simpleDesc": "Inflige 4 de Puissance de [Sinking] et +8 de Compte de [Sinking] à tous les ennemis."
-        },
-        {
-          "abilityID": 94101,
-          "simpleDesc": "Les ennemis avec [Sinking] perdent 2 de Puissance de Duel"
-        }
-      ]
-    },
-    {
-      "id": 9413,
-      "name": "Saintes Écritures de Nagel und Hammer",
-      "desc": "Lorsqu’un allié gagne un Duel avec une Capacité qui inflige de la Puissance ou du Compte de [Laceration] ou un 'Saignement Unique', inflige 1~2 [NailPersonality].\n\nSi cet allié est un 'Fanatique de la N Corp.', gagne 1 de Fanatique au Début du Tour.",
-      "simpleDesc": [
-        {
-          "abilityID": 9413,
-          "simpleDesc": "Inflige 1~2 [NailPersonality]"
-        },
-        {
-          "abilityID": 94131,
-          "simpleDesc": "Si l’unité est un 'Fanatique de la N Corp.', gagne 1 de Fanatique au Début du Tour."
-        }
-      ]
-    },
-    {
-      "id": 9414,
-      "name": "Crinière Rouge Sang",
-      "desc": "Les effets s’appliquent à toutes les Identités avec des Capacités d’Attaque d’Affinité de Luxure ou de Colère.\n\nFin du Tour : si cette unité n’a pas subi de dégâts de Capacités d’Attaque ennemies ce tour, gagne 2 de [Agility] et 2 de [Endurance].\n\nFin du Tour : si cette unité a subi des dégâts de Capacités d’Attaque ennemies ce tour, gagne 2 de [Binding] et +2 de Puissance de Duel au prochain tour.",
-      "simpleDesc": [
-        {
-          "abilityID": 9414,
-          "simpleDesc": "Gagne 2 de [Agility] et 2 de [Endurance] au prochain tour"
-        },
-        {
-          "abilityID": 94141,
-          "simpleDesc": "Gagne 2 de [Binding] et +2 de Puissance de Duel au prochain tour"
-        }
-      ]
-    },
-    {
-      "id": 9415,
-      "name": "Délaissement",
-      "desc": "Lorsqu’un allié attaque un ennemi avec [Laceration] avec une Capacité qui inflige de la Puissance ou du Compte de [Laceration] ou un 'Saignement Unique', inflige +15% de dégâts supplémentaires à la cible.\n\nSi la cible a 33%- de PV, inflige +25% de dégâts supplémentaires contre la cible à la place.",
-      "simpleDesc": [
-        {
-          "abilityID": 9415,
-          "simpleDesc": "Inflige +15% de dégâts supplémentaires"
-        },
-        {
-          "abilityID": 94151,
-          "simpleDesc": "Inflige +25% de dégâts supplémentaires"
-        }
-      ]
-    },
-    {
-      "id": 9416,
-      "name": "Chasteté",
-      "desc": "Si l’allié gagne un Duel avec une Capacité qui inflige de la Puissance ou du Compte de [Laceration] ou un 'Saignement Unique', inflige 2~3 [NailPersonality].\n\nSi l’allié est un 'Fanatique de la N Corp.', gagne 1 de Fanatique au Début du Tour et inflige +25% de dégâts supplémentaires contre des cibles avec [Laceration].\n\nActive un effet spécial s’il y a 5+ Identités 'Fanatiques de la N Corp.' (ne compte que les Identités sur le terrain au Début de l’Affrontement) :\n- Les Identités 'Fanatiques de la N Corp.' gagnent +1 de Puissance Finale, +1 de Puissance de Pièce Positive, -1 de Puissance de Pièce Négative et les Capacités d’Attaque infligent +1 [NailPersonality] supplémentaire. Si une Identité 'Fanatique de la N Corp.' est à PSM max au Début du Tour, gagne 3 de [AttackDmgUp].",
-      "simpleDesc": [
-        {
-          "abilityID": 9416,
-          "simpleDesc": "Duel Gagné : inflige 2~3 [NailPersonality]"
-        },
-        {
-          "abilityID": 94161,
-          "simpleDesc": "Les Identités 'Fanatiques de la N Corp.' infligent +25% de dégâts supplémentaires en attaquant un ennemi"
-        },
-        {
-          "abilityID": 94162,
-          "simpleDesc": "Active un effet spécial lorsqu’il y a 5+ Identités 'Fanatiques de la N Corp.'"
-        }
-      ]
-    },
-    {
-      "id": 9419,
-      "name": "Branche de Lindera Benzoin",
-      "desc": "Pour cet Affrontement, l’effet suivant s’active chaque fois que la Capacité 1, la Capacité 2 et la Capacité 3 sont utilisées au moins une fois.\n\nDébut du Tour : gagne 1 de [Agility] et 1 de [SkillPowerUp]. (peut se cumuler jusqu’à 3 fois)",
-      "simpleDesc": [
-        {
-          "abilityID": 9419,
-          "simpleDesc": "Début du Tour : gagne 1 de [Agility] et 1 de [SkillPowerUp]."
-        }
-      ]
-    },
-    {
-      "id": 9420,
-      "name": "Kaléidoscope",
-      "desc": "Début du Tour : les unités accompagnées d’autres Identités de la même faction qu’elles gagnent du [AttackUp] égal au nombre d’autres Identités de la même faction. (4 max)\n\nLes Identités de l’Alliance de Libération Technologique gagnent +1 de Puissance de Duel.",
-      "simpleDesc": [
-        {
-          "abilityID": 9420,
-          "simpleDesc": "Gagne du [AttackUp]"
-        },
-        {
-          "abilityID": 94201,
-          "simpleDesc": "+1 de Puissance de Duel"
-        }
-      ]
-    },
-    {
-      "id": 9423,
-      "name": "Lunettes Brisées",
-      "desc": "Lorsqu’un allié affronte en Duel un ennemi avec une Vitesse plus grande, gagne +1 de Puissance de Duel.\n\nLorsqu’un allié gagne un Duel contre un ennemi avec une Vitesse plus grande, gagne 2 de [AttackUp] au prochain tour (4 max)",
-      "simpleDesc": [
-        {
-          "abilityID": 9423,
-          "simpleDesc": "+1 de Puissance de Duel"
-        },
-        {
-          "abilityID": 94231,
-          "simpleDesc": "Gagne 2 de [AttackUp] au prochain tour"
-        }
-      ]
-    },
-    {
-      "id": 9424,
-      "name": "Lettre Non Envoyée",
-      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées #1 et #2]\n\nEn gagnant un Duel avec une Capacité d’Attaque qui inflige de la Puissance ou du Compte de [Burst], inflige 5 de Puissance de [Burst] et +3 de Compte de [Burst] à la cible. (une fois par tour par Identité)\n\nEn affrontant en Duel un ennemi avec une Vitesse plus petite, gagne +1 de Puissance Finale et inflige +25% de dégâts supplémentaires.\n\nEn gagnant un Duel contre un ennemi avec du [AttackUp], gagne 3 de [AttackUp] pour le prochain tour et inflige 3 de [AttackDown] à l’ennemi ayant perdu le Duel (valeur absolue : 9)",
-      "simpleDesc": [
-        {
-          "abilityID": 9424,
-          "simpleDesc": "Duel Gagné : inflige 5 de Puissance de [Burst] et +3 de Compte de [Burst] contre la cible"
-        },
-        {
-          "abilityID": 94241,
-          "simpleDesc": "+1 de Puissance Finale, inflige +25% de dégâts supplémentaires"
-        },
-        {
-          "abilityID": 94242,
-          "simpleDesc": "Inflige 3 de [AttackDown] à l’ennemi ayant perdu le Duel"
-        }
-      ]
-    },
-    {
-      "id": 9429,
-      "name": "Harpon Jambe Prothétique",
-      "desc": "Fin du Tour : applique 2 de [Agility], 2 de [AttackUp] et 2 de [AttackDmgUp] au prochain tour à l’allié avec la plus grande somme de Puissance et de Compte de [Breath].\n\nLes Identités du Pequod gagnent +1 de Vitesse Max.",
-      "simpleDesc": [
-        {
-          "abilityID": 9429,
-          "simpleDesc": "Applique 2 de [Agility], 2 de [AttackUp] et 2 de [AttackDmgUp] au prochain tour"
-        },
-        {
-          "abilityID": 94291,
-          "simpleDesc": "Les Identités du Pequod gagnent +1 de Vitesse Max."
-        }
-      ]
-    },
-    {
-      "id": 9430,
-      "name": "Lampe à Gaz Directrice",
-      "desc": "Premier Début du Tour d’une vague : tous les alliés gagnent 5 de [Breath] et +5 de Compte de [Breath].\n\nFin du Tour : 1 allié avec la plus grande somme de Puissance et de Compte de [Breath] gagne 2 de [Agility], 3 de [AttackUp] et 3 de [AttackDmgUp] au prochain tour.\n\nLes Identités du Pequod gagnent +2 de Puissance de Capacité et +2 de Vitesse Max.",
-      "simpleDesc": [
-        {
-          "abilityID": 9430,
-          "simpleDesc": "Tous les alliés gagnent 5 de [Breath] et +5 de Compte de [Breath]."
-        },
-        {
-          "abilityID": 94301,
-          "simpleDesc": "Applique 2 de [Agility], 3 de [AttackUp] et 3 de [AttackDmgUp] au prochain tour."
-        },
-        {
-          "abilityID": 94302,
-          "simpleDesc": "+2 de Puissance de Capacité, +2 de Vitesse Max."
-        }
-      ]
-    },
-    {
-      "id": 9433,
-      "name": "Arts Secrets du Chef des Majordomes",
-      "desc": "Premier Début du Tour d’une vague : choisi 1 ennemi avec la Vitesse la plus basse (ou une partie d’Anomalie aléatoire) et lui inflige 5 de [Binding] pendant 5 tours à partir du prochain tour.\n\nDuel Gagné : si la Vitesse de cette unité est plus grande que celle de la cible, se soigne d’autant de PSM que de différence de Vitesse et gagne du 'Niveau Offensif' égal à la moitié de cette différence de Vitesse. (s’applique uniquement à la Capacité utilisée pour gagner la Capacité. Gain max de 'Niveau Offensif' : 3)",
-      "simpleDesc": [
-        {
-          "abilityID": 9433,
-          "simpleDesc": "Inflige 5 de [Binding] pendant 5 tours à partir du prochain tour"
-        },
-        {
-          "abilityID": 94331,
-          "simpleDesc": "Soin de PSM et gain de Niveau Offensif égal à la quantité de PSM soignés"
-        }
-      ]
-    },
-    {
-      "id": 9434,
-      "name": "Miroir Portatif",
-      "desc": "Premier Début du Tour d’une vague : choisi 2 ennemis avec la Vitesse la plus basse (ou 2 parties d’Anomalie aléatoires. L’effet ne se cumule pas si l’ennemi est seul.) et inflige 5 de [Binding] et 3 de [DefenseDown] au Début du Tour à partir du prochain tour.\n\nLorsque l’ennemi se remet de Déséquilibre, et s’il n’a pas de Seuil de Déséquilibre restant, crée un nouveau Seuil de Déséquilibre à 66% des PV actuels de la cible (3 fois par Affrontement). Si un allié Déséquilibre un ennemi avec une Capacité d’Attaque (à l’exception des Capacités E.G.O.) qui applique de la Puissance ou du Compte de [Vibration] (inclut sur soi ou sur un allié), inflige aléatoirement entre les autres ennemis (ou autres parties d’Anomalie) la moitié de la Puissance de [Vibration] sur la cible et double la Puissance de [Vibration] sur la cible Déséquilibré.",
-      "simpleDesc": [
-        {
-          "abilityID": 9433,
-          "simpleDesc": "Début du Tour : gagne 5 de Ralentissement et 3 de Malus de Niveau Défensif."
-        },
-        {
-          "abilityID": 94331,
-          "simpleDesc": "Crée un nouveau Seuil de Déséquilibre à 66% des PV actuels de la cible"
-        },
-        {
-          "abilityID": 94332,
-          "simpleDesc": "La Puissance de [Vibration] sur la cible Déséquilibrée augmente de x1.5"
-        }
-      ]
-    },
-    {
-      "id": 9701,
-      "name": "Cuisse Chaude et Juteuse",
-      "desc": "En infligeant de la [Combustion] avec une Capacité, inflige +3 de Compte de [Combustion]",
-      "simpleDesc": [
-        {
-          "abilityID": 9701,
-          "simpleDesc": "En infligeant de la [Combustion] avec une Capacité, inflige +3 de Compte de [Combustion]"
-        }
-      ]
-    },
-    {
-      "id": 9702,
-      "name": "Blanc Sec Jusqu’à La Moelle",
-      "desc": "En infligeant de la [Burst] avec une Capacité, inflige +3 de Compte [Burst]",
-      "simpleDesc": [
-        {
-          "abilityID": 9702,
-          "simpleDesc": "En infligeant de la [Burst] avec une Capacité, inflige +3 de Compte [Burst]"
-        }
-      ]
-    },
-    {
-      "id": 9703,
-      "name": "Marinade de Tango",
-      "desc": "Si la Vitesse de cette unité est plus grande que celle de la cible, gagne +(Vitesse/3) de Puissance de Duel. (3 max)",
-      "simpleDesc": [
-        {
-          "abilityID": 9703,
-          "simpleDesc": "Gagne +(Vitesse/3) de Puissance de Duel."
-        }
-      ]
-    },
-    {
-      "id": 9704,
-      "name": "Aiguille & Fil Contaminés",
-      "desc": "L’effet suivant s’applique à la première Capacité qui inflige des dégâts à un ennemi.\n\nInflige (dégâts infligés/3) de Puissance de [Laceration].",
-      "simpleDesc": [
-        {
-          "abilityID": 9704,
-          "simpleDesc": "Inflige (dégâts infligés/3) de Puissance de [Laceration]"
-        }
-      ]
-    },
-    {
-      "id": 9705,
-      "name": "Aiguille & Fil Aiguisés",
-      "desc": "Chaque tour, la première capacité à infliger des dégâts à un ennemi inflige des dégâts fixes supplémentaires égaux à la moitié des dégâts infligés.",
-      "simpleDesc": [
-        {
-          "abilityID": 9705,
-          "simpleDesc": "Inflige (dégâts infligés/2) dégâts fixes supplémentaires"
-        }
-      ]
-    },
-    {
-      "id": 9706,
-      "name": "Clé Anglaise Couverte d’Huile",
-      "desc": "Les Capacités Contondantes infligent +10% de dégâts supplémentaires\n\nLa Pièce finale des Capacités Contondantes inflige 2 de Puissance de [Vibration] En Touche. (une fois par tour)",
-      "simpleDesc": [
-        {
-          "abilityID": 9706,
-          "simpleDesc": "Capacités Contondantes infligent +10% de dégâts supplémentaires"
-        },
-        {
-          "abilityID": 97061,
-          "simpleDesc": "Inflige 2 de Puissance de [Vibration] à l’ennemi."
-        }
-      ]
-    },
-    {
-      "id": 9707,
-      "name": "Débris Scintillants",
-      "desc": "Lorsqu’un allié avec Bouclier est touché par un ennemi, renvoit 3 dégâts fixes. (ne renvoit pas les dégâts lorsque l’allié n’a pas subi de dégâts de Bouclier)",
-      "simpleDesc": [
-        {
-          "abilityID": 9707,
-          "simpleDesc": "Renvoit 3 dégâts fixes"
-        }
-      ]
-    },
-    {
-      "id": 9708,
-      "name": "Vin de Cerveau de Crabe de Déchets",
-      "desc": "Lorsqu’un allié attaque un ennemi avec [Burst] avec une Capacité qui inflige de la Puissance ou du Compte de [Burst], inflige +(Compte de [Burst] * 1.25)% de dégâts supplémentaires. (50% max)\n\nLorsqu’un allié se remet de Déséquilibre, se soigne de 20% des PV max. (2 fois par Affrontement)",
-      "simpleDesc": [
-        {
-          "abilityID": 9708,
-          "simpleDesc": "Inflige +(Compte de [Burst] * 1.25)% de dégâts supplémentaires (50% max)"
-        },
-        {
-          "abilityID": 97081,
-          "simpleDesc": "Se soigne de 20% des PV Max"
-        }
-      ]
-    },
-    {
-      "id": 9709,
-      "name": "Chapeau à Pompon",
-      "desc": "Fin du Tour : gagne 1 de Puissance de [Breath] au prochain tour pour chaque Capacité d’Attaque ayant infligé des dégâts avant la Fin du Tour.\n\nEn Affrontements Concentrés : gagne 3 de Puissance de [Breath] pour chaque Capacité d’Attaque ayant infligé des dégâts avant la Fin du Tour à la place.",
-      "simpleDesc": [
-        {
-          "abilityID": 9709,
-          "simpleDesc": "Gagne 1 de Puissance de [Breath]"
-        },
-        {
-          "abilityID": 97091,
-          "simpleDesc": "Gagne 3 de Puissance de [Breath]"
-        }
-      ]
-    },
-    {
-      "id": 9710,
-      "name": "Grosse Hotte de Cadeaux",
-      "desc": "Début du Tour : applique 2 de [Breath], 2 de Compte de [Breath] et 2 de [Protection] à l’allié avec le moins de PV.",
-      "simpleDesc": [
-        {
-          "abilityID": 9710,
-          "simpleDesc": "Applique 2 de [Breath], 2 de Compte de [Breath] et 2 de [Protection]"
-        }
-      ]
-    },
-    {
-      "id": 9711,
-      "name": "Peluche Triste",
-      "desc": "Inflige +(valeur absolue de PSM/1.5)% de dégâts supplémentaires. (0% min)\n\nLorsqu’un allié avec des Capacités à Pièces Positives se remet de Déséquilibre, regagne tous ses PSM. (ne s’active pas lorsque Érodé)\n\nPour un allié avec que des Capacités à Pièces Négatives : gagne 3 de [Paralysis] au Début du Tour.",
-      "simpleDesc": [
-        {
-          "abilityID": 9711,
-          "simpleDesc": "Inflige +(valeur absolue de PSM/1.5)% de dégâts supplémentaires. (0% min)"
-        },
-        {
-          "abilityID": 97111,
-          "simpleDesc": "En se remettant de Déséquilibre, soigne tous ses PSM"
-        },
-        {
-          "abilityID": 97112,
-          "simpleDesc": "Gagne 3 de [Paralysis] au Début du Tour"
-        }
-      ]
-    },
-    {
-      "id": 9712,
-      "name": "Livre de Compte Noir",
-      "desc": "Premier Début du Tour d’un Affrontement : gagne autant de ressources E.G.O. aléatoires que de nombre d’ennemis.\n\nS’il y a 4 Identités ou plus de la Lignée de la Lame ou du Clan Kurokumo dans cet Affrontement (ne compte que les Identités sur le terrain au début de l’Affrontement), gagne des ressources E.G.O. de l’Affinité la moins possédée à la place.",
-      "simpleDesc": [
-        {
-          "abilityID": 9712,
-          "simpleDesc": "Gagne des ressources E.G.O. aléatoires"
-        },
-        {
-          "abilityID": 97121,
-          "simpleDesc": "Gagne des ressources E.G.O. les moins possédées"
-        }
-      ]
-    },
-    {
-      "id": 9713,
-      "name": "Poignée Rouillée",
-      "desc": "Début du Tour : tous les alliés gagnent 1 de Bonus de Puissance Tranchante.\n\nLes Identités de la Lignée de la Lame ou du Clan Kurokumo gagnent 2 de Bonus de Puissance Tranchante à la place.",
-      "simpleDesc": [
-        {
-          "abilityID": 9713,
-          "simpleDesc": "Gagne 1 de Bonus de Puissance Tranchante"
-        },
-        {
-          "abilityID": 97131,
-          "simpleDesc": "Gagne 2 de Bonus de Puissance Tranchante"
-        }
-      ]
-    },
-    {
-      "id": 9714,
-      "name": "Lame Fracturée",
-      "desc": "Durant cet Affrontement : en infligeant de la Puissance de [Laceration] ou un 'Saignement Unique' avec un effet de Capacité d’Attaque pour la première fois contre un ennemi, inflige +2 de Compte de [Laceration] supplémentaires. (Une fois par Affrontement)\n\nLes Identités du Clan Kurokumo, en infligeant des dégâts à un ennemi pour la première fois, infligent 4 de Puissance de [Laceration] supplémentaires et +4 de Compte de [Laceration] à la place.",
-      "simpleDesc": [
-        {
-          "abilityID": 9714,
-          "simpleDesc": "Inflige +2 de Compte de [Laceration] supplémentaires"
-        },
-        {
-          "abilityID": 97141,
-          "simpleDesc": "Inflige 4 de Puissance de [Laceration] et +4 de Compte de [Laceration] supplémentaires"
-        }
-      ]
-    },
-    {
-      "id": 9715,
-      "name": "Lame Brisée",
-      "desc": "Lorsqu’un allié Touche Critiquement un ennemi, inflige (Puissance de [Breath]/3) dégâts d’Orgueil supplémentaires.\n\nLes Identités de la Lignée de la Lame, en Touchant Critiquement un ennemi, infligent (Puissance de [Breath]/2) dégâts d’Orgueil supplémentaires à la place.",
-      "simpleDesc": [
-        {
-          "abilityID": 9715,
-          "simpleDesc": "Inflige (Puissance de [Breath]/3) dégâts d’Orgueil supplémentaires."
-        },
-        {
-          "abilityID": 97151,
-          "simpleDesc": "Inflige (Puissance de [Breath]/2) dégâts d’Orgueil supplémentaires."
-        }
-      ]
-    },
-    {
-      "id": 9716,
-      "name": "Pampille Rouge",
-      "desc": "Si la cible a 1.5 de Résistance Tranchante ou moins, +0.3 de Résistance Tranchante.",
-      "simpleDesc": [
-        {
-          "abilityID": 9716,
-          "simpleDesc": "+0.3 de Résistance Tranchante"
-        }
-      ]
-    },
-    {
-      "id": 9717,
-      "name": "Sublimité",
-      "desc": "Début d’Affrontement : s’active lorsqu’il y a 3 Identités du Clan Kurokumo ou plus (ne compte que les Identités sur le terrain au début de l’Affrontement).\n\nDébut du Tour : tous les alliés gagnent 2 de Bonus de Puissance Tranchante et infligent +35% de dégâts Tranchants.\n\nDébut du Tour : lorsqu’une Identité du Clan Kurokumo inflige des dégâts pour la première fois, inflige 4 de Puissance de [Laceration] supplémentaire et +4 de Compte de [Laceration]. (Une fois par tour)",
-      "simpleDesc": [
-        {
-          "abilityID": 9717,
-          "simpleDesc": "Gagne 2 de Bonus de Puissance Tranchante et inflige +35% de dégâts Tranchants"
-        },
-        {
-          "abilityID": 97171,
-          "simpleDesc": "Inflige 4 de Puissance de [Laceration] et +4 de Compte de [Laceration] supplémentaires"
-        }
-      ]
-    },
-    {
-      "id": 9718,
-      "name": "Inflexible",
-      "desc": "Début d’Affrontement : s’active lorsqu’il y a 3 Identités de la Lignée de la Lame ou plus (ne compte que les Identités sur le terrain au début de l’Affrontement).\n\nDébut du Tour : tous les alliés gagnent 2 de Bonus de Puissance Tranchante et infligent +35% de dégâts Tranchants.\n\nDébut du Tour : lorsqu’une Identité de la Lignée de la Lame touche critiquement, inflige des dégâts d’Orgueil supplémentaires égaux à la Puissance de [Breath] sur soi.",
-      "simpleDesc": [
-        {
-          "abilityID": 9718,
-          "simpleDesc": "Gagne 2 de Bonus de Puissance Tranchante et inflige +35% de dégâts Tranchants"
-        },
-        {
-          "abilityID": 97181,
-          "simpleDesc": "Inflige des dégâts d’Orgueil supplémentaires égaux à la Puissance de [Breath] sur soi"
-        }
-      ]
-    },
-    {
-      "id": 9719,
-      "name": "Chapeau de Bambou en Loques",
-      "desc": "Début d’Affrontement : s’active lorsqu’il y a 3 Identités de la Lignée de la Lame ou plus (ne compte que les Identités sur le terrain au début de l’Affrontement).\n\nTous les alliés infligent +50% de dégâts Tranchants\n\nIdentités de la Lignée de la Lame : si l’allié a [Breath], le taux de Critique est fixé à 100%.\n\nIdentités de la Lignée de la Lame : infligent x1.5 de dégâts en Critique",
-      "simpleDesc": [
-        {
-          "abilityID": 9719,
-          "simpleDesc": "Inflige +50% de Dégâts Tranchants"
-        },
-        {
-          "abilityID": 97191,
-          "simpleDesc": "Fixe le taux de Critique à 100%"
-        },
-        {
-          "abilityID": 97192,
-          "simpleDesc": "Inflige 1.5 fois plus de dégâts en Critique"
-        }
-      ]
-    },
-    {
-      "id": 9720,
-      "name": "Vieille Robe Dopo",
-      "desc": "Début d’Affrontement : s’active lorsqu’il y a 3 Identités de la Lignée de la Lame ou plus (ne compte que les Identités sur le terrain au début de l’Affrontement).\n\nTous les alliés infligent +50% de dégâts Tranchants.\n\nIdentités de la Lignée de la Lame : Capacité 1 gagne +1 de Puissance de Pièce. Capacité 1 Monopièce gagne +3 de Puissance de Pièce.\n\n[Mentor de la Lignée de la Lame Meursault Seulement] -12 de Puissance Finale de Duel pour la Capacité 'Offrir Ma Chair' ; la Capacité 'Pour Réclamer Leurs Os' inflige +50% de dégâts supplémentaires.",
-      "simpleDesc": [
-        {
-          "abilityID": 9720,
-          "simpleDesc": "Inflige +50% de Dégâts Tranchants"
-        },
-        {
-          "abilityID": 97201,
-          "simpleDesc": "Bonus de Puissance de Pièce de Capacité 1"
-        },
-        {
-          "abilityID": 97202,
-          "simpleDesc": "-12 de Puissance Finale de Duel pour la Capacité 'Offrir Ma Chair' ; la Capacité 'Pour Réclamer Leurs Os' inflige +50% de dégâts supplémentaires"
         }
       ]
     },
@@ -4903,187 +4381,632 @@
       ]
     },
     {
-      "id": 9721,
-      "name": "Boîtier de Montre en Argent",
-      "desc": "En infligeant des dégâts à un ennemi avec des Capacités d’Attaque (n’inclut pas les Capacités E.G.O.) qui infligent de la Puissance ou du Compte de [Vibration] ou un 'Tremblement Unique', inflige +10% de dégâts supplémentaires.\n\nSi la Capacité déclenche un [VibrationExplosion] sur l’ennemi pour la première fois ce tour, inflige +2 de Compte de [Vibration] au prochain tour (une fois par tour)",
+      "id": 9155,
+      "name": "Marmite Décamillénaire",
+      "desc": "Capacités qui infligent de la Puissance ou du Compte de [Combustion] ou une 'Brûlure Unique' gagnent +1 de Puissance de Duel.",
       "simpleDesc": [
         {
-          "abilityID": 9721,
-          "simpleDesc": "Inflige +10% de dégâts supplémentaires"
-        },
-        {
-          "abilityID": 97211,
-          "simpleDesc": "Inflige +2 de Compte de [Vibration] au prochain tour"
-        }
-      ]
-    },
-    {
-      "id": 9722,
-      "name": "Boîtier de Montre Décoloré",
-      "desc": "En Duel contre un ennemi plus rapide, +1 de Puissance de Duel.\n\nEn infligeant des dégâts à un ennemi plus rapide, inflige 3 de Puissance de [Vibration] et +2 de Compte de [Vibration] au prochain tour. (une fois par tour)",
-      "simpleDesc": [
-        {
-          "abilityID": 9722,
+          "abilityID": 9155,
           "simpleDesc": "+1 de Puissance de Duel"
-        },
-        {
-          "abilityID": 97221,
-          "simpleDesc": "Inflige 3 de Puissance de [Vibration] et +2 de Compte de [Vibration] au prochain tour"
         }
       ]
     },
     {
-      "id": 9723,
-      "name": "Avertissement",
-      "desc": "Fin du Tour : inflige 1 de [Binding] à l’ennemi le plus rapide au prochain tour. (pour les Anomalies, une Partie)\n\nSi la cible a [Vibration] ou un 'Tremblement Unique', inflige 2 de [Binding] à la place.\n\nLorsqu’un allié attaque des cibles avec [Binding], inflige +(5 + (2.5 * valeur de [Binding])) de dégâts supplémentaires. (15% max)",
+      "id": 9157,
+      "name": "Livre de Recette Secret",
+      "desc": "Début de l’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui appliquent de la Puissance ou du Compte de [Combustion] ou de 'Brûlure Unique'. (à l’exception des Capacités E.G.O., ne compte que les Identités sur le terrain au Début de l’Affrontement))\n\nCapacités qui infligent de la Puissance ou du Compte de [Combustion] ou de 'Brûlure Unique' : +1 de Puissance Finale\n\nEn\u200B Duel Gagné avec des Capacités qui infligent de la Puissance ou du Compte de [Combustion] ou de 'Brûlure Unique' : inflige ((# de Pièces restantes / 2) +1) de Puissance de [Combustion] à la cible",
       "simpleDesc": [
         {
-          "abilityID": 9723,
-          "simpleDesc": "Applique 1 de [Binding] au prochain tour"
+          "abilityID": 9157,
+          "simpleDesc": "+1 de Puissance Finale de Capacité"
         },
         {
-          "abilityID": 97231,
-          "simpleDesc": "Inflige +(5 + (2.5 * valeur de [Binding])) de dégâts supplémentaires"
+          "abilityID": 91571,
+          "simpleDesc": "Inflige ((# de Pièces restantes / 2) +1) de Puissance de [Combustion]"
         }
       ]
     },
     {
-      "id": 9724,
-      "name": "Aiguilles d’Horloge Gravées",
-      "desc": "Premier Début du Tour d’une vague : inflige (9 - Vitesse actuelle) de Puissance de [Vibration] à 3 ennemis les plus lents. (3 min.)\n\nInflige +10% de dégâts supplémentaires aux cibles avec 12+ de [Vibration] ou de 'Tremblement Unique' au Début du Tour.",
+      "id": 9159,
+      "name": "Millarca",
+      "desc": "Capacités qui infligent de la Puissance ou du Compte de [Laceration] ou de 'Saignement Unique' gagnent +1 de Puissance de Duel.",
       "simpleDesc": [
         {
-          "abilityID": 9724,
-          "simpleDesc": "Inflige (9 - Vitesse actuelle) de Puissance de [Vibration]"
-        },
-        {
-          "abilityID": 97241,
-          "simpleDesc": "Inflige +10% de dégâts supplémentaires"
+          "abilityID": 9159,
+          "simpleDesc": "+1 de Puissance de Duel"
         }
       ]
     },
     {
-      "id": 9725,
-      "name": "Aiguilles d’Horloge Rouillées",
-      "desc": "Premier Début du Tour d’une vague : inflige (9 - Vitesse actuelle) de Puissance de [Vibration] (3 min.) et (9 - Vitesse actuelle)/2 de Compte de [Vibration] à 1 ennemi le plus rapide. (arrondi au supérieur ; pour les Anomalies, une Partie)\n\nSubit -10% de dégâts de moins des cibles avec 12+ de [Vibration] ou de 'Tremblement Unique' au Début du Tour.",
+      "id": 9161,
+      "name": "Dévouement",
+      "desc": "Début de l’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui appliquent de la Puissance ou du Compte de [Laceration] ou de 'Saignement Unique'. (à l’exception des Capacités E.G.O., ne compte que les Identités sur le terrain au Début de l’Affrontement)\n\nPour 1 allié le plus rapide avec des Capacités qui infligent de la Puissance ou du Compte de [Laceration] ou de 'Saignement Unique' : +1 de Puissance de Pièce, +50% de dégâts infligés\n\n+1 de Puissance Finale à toutes les Capacités qui infligent de la Puissance ou du Compte de [Laceration] ou de 'Saignement Unique'.",
       "simpleDesc": [
         {
-          "abilityID": 9725,
-          "simpleDesc": "Inflige (9 - Vitesse actuelle) de Puissance de [Vibration] (3 min.) et (9 - Vitesse actuelle)/2 de Compte de [Vibration]"
+          "abilityID": 9161,
+          "simpleDesc": "+1 de Puissance de Pièce, inflige +50% de dégâts"
         },
         {
-          "abilityID": 97251,
-          "simpleDesc": "Dégâts Subis -10%."
+          "abilityID": 91611,
+          "simpleDesc": "Capacités qui infligent de la Puissance ou du Compte de [Laceration] ou de 'Saignement Unique' gagnent +1 de Puissance Finale."
         }
       ]
     },
     {
-      "id": 9726,
-      "name": "Calice du Ruissellement",
-      "desc": "Lorsqu’un allié avec des Capacités d’Attaque (n’inclut pas les Capacités E.G.O.) qui infligent de la Puissance ou du Compte de [Vibration] ou un 'Tremblement Unique' gagne un duel, inflige 2 de Puissance de [Vibration] et +2 de Compte de [Vibration]. (2 fois par tour)\n\nIdentités Yurodivy : inflige 3 de Puissance de [Vibration] et +3 de Compte de [Vibration] à la place (3 fois par tour)\n\nSi l’Identité affectée affronte en duel des cibles avec des Niveaux Offensifs supérieurs, +2 de Puissance de Duel ; inflige +20% de dégâts supplémentaires en attaquant après avoir gagné le Duel.",
+      "id": 9165,
+      "name": "Rouages Imbriqués",
+      "desc": "Début de l’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui appliquent de la Puissance ou du Compte de [Vibration] ou de 'Tremblement Unique'. (à l’exception des Capacités E.G.O., ne compte que les Identités sur le terrain au Début de l’Affrontement)\n\nLorsqu’un [VibrationExplosion] se déclenche sur une cible pour la 6ème fois ce tour, ajoute un Seuil de Déséquilibre supplémentaire au marqueur de 0% de ses PV actuels (une fois par Affrontement)\n\nInflige 1 de [Vulnerable] en déclenchant une [Switch_Vibration] ou une [FusionVibration] (une fois par tour)",
       "simpleDesc": [
         {
-          "abilityID": 9726,
-          "simpleDesc": "Inflige 2 de Puissance de [Vibration] et +2 de Compte de [Vibration]"
+          "abilityID": 9165,
+          "simpleDesc": "Ajoute un nouveau Seuil de Déséquilibre"
         },
         {
-          "abilityID": 97261,
-          "simpleDesc": "Inflige 3 de Puissance de [Vibration] et +3 de Compte de [Vibration]"
-        },
-        {
-          "abilityID": 97262,
-          "simpleDesc": "+2 de Puissance de Duel, inflige +20% de dégâts supplémentaires"
+          "abilityID": 91651,
+          "simpleDesc": "Inflige 1 de [Vulnerable]"
         }
       ]
     },
     {
-      "id": 9727,
-      "name": "Reçu de Temps Prépayé",
-      "desc": "Inflige +(5 + (2.5 * différence de Vitesse))% de dégâts supplémentaires aux ennemis plus rapides avec 2+ de différence de Vitesse. (15% max)\n\nFin du Tour : si un allié inflige des dégâts avec une Capacité d’Attaque (n’inclut pas les Capacités E.G.O.) ce tour à des ennemis plus rapides avec 2+ de différence de Vitesse, inflige 2 de [Binding] et 1 de [ResultReduction] à l’ennemi au prochain tour. (une fois par tour)",
+      "id": 9169,
+      "name": "Menottes en Corde Épineuse",
+      "desc": "Début de l’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui appliquent de la Puissance ou du Compte de [Burst]. (à l’exception des Capacités E.G.O., ne compte que les Identités sur le terrain au Début de l’Affrontement)\n\nLorsque le Compte de [Burst] d’un ennemi tombe en-dessous de 1 durant le combat, consomme 20 de Puissance de [Burst] au lieu de Compte de [Burst] à la place (cependant, à moins de 20 de Puissance de [Burst], cet effet cesse)\n\nEn Touche, lorsque la cible a 1 de Compte de [Burst] en combat, inflige +1 de Compte de [Burst] supplémentaire (2 fois par Affrontement)",
       "simpleDesc": [
         {
-          "abilityID": 9727,
-          "simpleDesc": "Inflige +(5 + (2.5 * différence de Vitesse))% de dégâts supplémentaires"
+          "abilityID": 9169,
+          "simpleDesc": "Consomme de la Puissance de Déchirure à la place du Compte"
         },
         {
-          "abilityID": 97271,
-          "simpleDesc": "Inflige 2 de [Binding] et 1 de [ResultReduction] à l’ennemi au prochain tour"
+          "abilityID": 91691,
+          "simpleDesc": "Inflige +1 de Compte de Déchirure"
         }
       ]
     },
     {
-      "id": 9728,
-      "name": "Montre de Poche : Type L",
-      "desc": "Début de l’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui appliquent de la Puissance ou du Compte de [Vibration] ou des effets de 'Tremblement Unique'. (N’inclut pas les Capacités E.G.O., ne compte que les Identités sur le terrain au début de l’Affrontement)\n\nAux Capacités 3 des alliés qui infligent de la Puissance ou du Compte de [Vibration] ou un 'Tremblement Unique' : +2 de Puissance de Pièce et +25% de dégâts supplémentaires.\n\nLorsqu’un allié qui inflige de la Puissance ou du Compte de [Vibration] ou un 'Tremblement Unique' déclenche une [Switch_Vibration] sur un ennemi avec des Capacités d’Attaque (inclut les Capacités E.G.O.) : multiplie par 1.5 la Puissance et le Compte de [Vibration] (seulement en les Convertissant en d’autres types de 'Tremblement') et inflige 5 de [DefenseDown] au prochain tour. (une fois par tour)\n\nPremier Début du Tour d’une vague : inflige (12 - Vitesse actuelle) de Puissance de [Vibration] (6 min.) à 3 ennemis les plus lents.",
+      "id": 9174,
+      "name": "Os Emmêlés",
+      "desc": "Début de l’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui appliquent de la Puissance ou du Compte de [Sinking] ou de 'Lourdeur Unique'. (à l’exception des Capacités E.G.O., ne compte que les Identités sur le terrain au Début de l’Affrontement)\n\nDébut du Tour : les ennemis avec [Sinking](pour les Anomalies, toutes leurs Parties) regagnent (Compte de [Sinking] perdu En Touche au dernier tour / 3) de Compte de [Sinking].\n\nSi la Capacité d’Attaque de Base touche une cible avec moins de 0 PSM (pour les ennemis sans PSM, s’ils ont 1.5+ de Résist. de Peine), inflige (Puissance de [Sinking] / 10) dégâts d’Affinité de Peine (1 min, 10 fois par tour pour cet effet)",
       "simpleDesc": [
         {
-          "abilityID": 9728,
-          "simpleDesc": "Capacité 3 gagne +2 de Puissance de Pièce et inflige +25% de dégâts supplémentaires"
+          "abilityID": 9174,
+          "simpleDesc": "Inflige du Compte de [Sinking]"
         },
         {
-          "abilityID": 97281,
-          "simpleDesc": "Multiplie par 1.5 la Puissance et le Compte de [Vibration] en déclenchant une Conversion d’Amplitude"
-        },
-        {
-          "abilityID": 97282,
-          "simpleDesc": "Inflige (12 - Vitesse actuelle) de Puissance de [Vibration]"
+          "abilityID": 91741,
+          "simpleDesc": "Inflige des dégâts d’Affinité de Peine"
         }
       ]
     },
     {
-      "id": 9729,
-      "name": "Montre de Poche : Type E",
-      "desc": "Début de l’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui appliquent de la Puissance ou du Compte de [Vibration] ou des effets de 'Tremblement Unique'. (N’inclut pas les Capacités E.G.O., ne compte que les Identités sur le terrain au début de l’Affrontement)\n\nAux Capacités 3 des alliés qui infligent de la Puissance ou du Compte de [Vibration] ou un 'Tremblement Unique' : +2 de Puissance de Pièce et +25% de dégâts supplémentaires.\n\nLorsqu’un allié qui inflige de la Puissance ou du Compte de [Vibration] ou un 'Tremblement Unique' inflige des dégâts à un ennemi plus lent avec 2+ de différence de Vitesse : inflige +(Puissance de [Vibration] sur la cible, 25 max)% de dégâts supplémentaires et inflige 2 de [DefenseDown] chaque fois qu’un allié inflige des dégâts (6 max)\n\nPremier Début du Tour d’une vague : inflige (12 - Vitesse actuelle) de Puissance de [Vibration] (6 min.) et (12 -Vitesse actuelle)/2 de Compte de [Vibration] à 1 ennemi le plus rapide. (arrondi au supérieur ; pour les Anomalies, une Partie)",
+      "id": 9177,
+      "name": "Rappel d’un Certain Jour",
+      "desc": "Capacité 3 de toutes les Identités qui gagnent de la Puissance ou du Compte de [Breath] grâce à des Capacités (à l’exception de Capacités E.G.O.) : +2 de Puissance Finale",
       "simpleDesc": [
         {
-          "abilityID": 9729,
-          "simpleDesc": "Capacité 3 gagne +2 de Puissance de Pièce et inflige +25% de dégâts supplémentaires"
-        },
-        {
-          "abilityID": 97291,
-          "simpleDesc": "Inflige +(Puissance de [Vibration] de la cible)% de dégâts supplémentaires ; inflige 2 de [DefenseDown] chaque fois qu’un allié inflige des dégâts"
-        },
-        {
-          "abilityID": 97292,
-          "simpleDesc": "Inflige (12 - Vitesse actuelle) de Puissance de [Vibration] (3 min.) et (9 - Vitesse actuelle)/2 de Compte de [Vibration]"
+          "abilityID": 9177,
+          "simpleDesc": "+2 de Puissance Finale"
         }
       ]
     },
     {
-      "id": 9730,
-      "name": "Montre de Poche : Type Y",
-      "desc": "Début de l’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui appliquent de la Puissance ou du Compte de [Vibration] ou des effets de 'Tremblement Unique'. (N’inclut pas les Capacités E.G.O., ne compte que les Identités sur le terrain au début de l’Affrontement)\n\nAux Capacités 3 des alliés qui infligent de la Puissance ou du Compte de [Vibration] ou un 'Tremblement Unique' : +2 de Puissance de Pièce et +25% de dégâts supplémentaires.\n\nIdentités Yurodivy : Capacité 3 gagne +2 de Puissance de Pièce et inflige +(25 + (somme de la Puissance et du Compte de [Vibration] de la cible))% de dégâts supplémentaires à la place. (100% max)\n\nIdentités Yurodivy : gagne +3 de Compte de [Vibration] au Début du Tour.",
+      "id": 9179,
+      "name": "Réminiscence",
+      "desc": "Début de l’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui appliquent ou gagnent de la Puissance ou du Compte de [Breath]. (à l’exception des Capacités E.G.O., ne compte que les Identités sur le terrain au Début de l’Affrontement)\nCapacité 3 des Identités avec des Capacités (à l’exception de Capacités E.G.O.) qui gagnent de la Puissance ou du Compte de [Breath] : +1 de Puissance de Pièce\n\nDébut du Combat : un allié aléatoire gagne 3 de Puissance de [Breath]. (priorise les Identités qui gagnent de la Puissance ou du Compte de [Breath] avec leurs Capacités d’Attaque) Priorise les alliés avec des Capacités d’Attaque d’Affinité de Peine ; ils gagnent 3 de Puissance de [Breath] et +2 de Compte de [Breath] à la place.",
       "simpleDesc": [
         {
-          "abilityID": 9730,
-          "simpleDesc": "Capacité 3 gagne +2 de Puissance de Pièce et inflige +25% de dégâts supplémentaires"
+          "abilityID": 9179,
+          "simpleDesc": "+1 de Puissance de Pièce"
         },
         {
-          "abilityID": 97301,
-          "simpleDesc": "Capacité 3 gagne +2 de Puissance de Pièce et inflige +(25 + (somme de la Puissance et du Compte de [Vibration] de la cible))% de dégâts supplémentaires."
-        },
-        {
-          "abilityID": 97302,
-          "simpleDesc": "Gagne +3 de Compte de [Vibration]"
+          "abilityID": 91791,
+          "simpleDesc": "Gagne 3 de Puissance de [Breath]. Alliés avec des Capacités d’Attaque d’Affinité de Peine gagnent +2 de Compte de [Breath] supplémentaire"
         }
       ]
     },
     {
-      "id": 9731,
-      "name": "Montre de Poche : Type P",
-      "desc": "Début de l’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui appliquent de la Puissance ou du Compte de [Vibration] ou des effets de 'Tremblement Unique'. (N’inclut pas les Capacités E.G.O., ne compte que les Identités sur le terrain au début de l’Affrontement)\n\nAux Capacités 3 des alliés qui infligent de la Puissance ou du Compte de [Vibration] ou un 'Tremblement Unique' : +2 de Puissance de Pièce et +25% de dégâts supplémentaires.\n\nLorsqu’un allié qui inflige de la Puissance ou du Compte de [Vibration] ou un 'Tremblement Unique' affronte en Duel un ennemi plus rapide avec 2+ de différence de Vitesse : +2 de Puissance de Duel et inflige +(Puissance de [Vibration] de la cible)% de dégâts supplémentaires. (50% max)\n\nDébut du Tour : du plus lent au plus rapide, les 3 alliés les plus lents gagnent 5 de [AttackUp], 3 de [AttackUp] et 2 de [AttackUp] respectivement.",
+      "id": 9182,
+      "name": "Boulon Octogonal T-1B",
+      "desc": "Début de l’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui gagnent du Compte de [Charge] ou une 'Charge Unique'. (à l’exception des Capacités E.G.O., ne compte que les Identités sur le terrain au Début de l’Affrontement)\n\nDébut du Tour : tous les alliés gagnent ((Compte de [Charge] + 'Charge Unique') / 10) de [AttackDmgUp]. (2 max, arrondi au supérieur)\n\nFin du Tour : les alliés sans [ChargeForceField] gagnent 1 de [ChargeForceField].\n\nChaque Identité gagne 1 de Puissance de [Charge] chaque fois qu’elle consomme 20 de Compte de [Charge]. (2 fois par Identité par Affrontement ; les Charges Uniques n’interagissent pas avec cet effet)",
       "simpleDesc": [
         {
-          "abilityID": 9731,
-          "simpleDesc": "Capacité 3 gagne +2 de Puissance de Pièce et inflige +25% de dégâts supplémentaires"
+          "abilityID": 9182,
+          "simpleDesc": "Gagne (Compte de [Charge] / 10) de [AttackDmgUp]"
         },
         {
-          "abilityID": 97311,
-          "simpleDesc": "+2 de Puissance de Duel et inflige +(Puissance de [Vibration] de la cible)% de dégâts supplémentaires"
+          "abilityID": 91821,
+          "simpleDesc": "Gagne 1 de [ChargeForceField]"
         },
         {
-          "abilityID": 97312,
-          "simpleDesc": "Gagne du [AttackUp]"
+          "abilityID": 91822,
+          "simpleDesc": "Gagne 1 de Puissance de [Charge]"
+        }
+      ]
+    },
+    {
+      "id": 9185,
+      "name": "Jeton de Réduction",
+      "desc": "20% de chance d’avoir le Coût remboursé en Améliorant dans une Boutique.",
+      "simpleDesc": [
+        {
+          "abilityID": 9185,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9186,
+      "name": "Brochure de Nouvelle Parution",
+      "desc": "20% de chance d’avoir le Coût remboursé en Rafraichissant dans une Boutique.",
+      "simpleDesc": [
+        {
+          "abilityID": 9186,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9187,
+      "name": "Catalogue Spécial",
+      "desc": "+1 Nombre de Choix de Carte de Récompense d’Affrontement",
+      "simpleDesc": [
+        {
+          "abilityID": 9187,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9188,
+      "name": "Réduction de Pré-commande",
+      "desc": "-30% de Coût de Rafraichissement Normal de Boutique",
+      "simpleDesc": [
+        {
+          "abilityID": 19188,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9189,
+      "name": "Merch Renouvellée",
+      "desc": "-30% de Coût d’Amélioration de Don E.G.O. dans les Boutiques",
+      "simpleDesc": [
+        {
+          "abilityID": 19189,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9190,
+      "name": "Guide de Plan d’Essai",
+      "desc": "-30% de Coût de Remplacement de Capacité dans les Boutiques",
+      "simpleDesc": [
+        {
+          "abilityID": 29190,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9191,
+      "name": "Carte Prestige",
+      "desc": "-30% de Coût d’Achat de Don E.G.O. dans les Boutiques",
+      "simpleDesc": [
+        {
+          "abilityID": 29191,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9991,
+      "name": "Vestige Sombre",
+      "desc": "Compte comme un Don E.G.O. de Tier 1. Peut être vendu dans une Boutique ou utilisé comme ingrédient pour les Fusions.",
+      "simpleDesc": [
+        {
+          "abilityID": 9991,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9992,
+      "name": "Faible Vestige",
+      "desc": "Compte comme un Don E.G.O. de Tier 2. Peut être vendu dans une Boutique ou utilisé comme ingrédient pour les Fusions.",
+      "simpleDesc": [
+        {
+          "abilityID": 9992,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9993,
+      "name": "Vestige Scintillant",
+      "desc": "Compte comme un Don E.G.O. de Tier 3. Peut être vendu dans une Boutique ou utilisé comme ingrédient pour les Fusions.",
+      "simpleDesc": [
+        {
+          "abilityID": 9993,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9994,
+      "name": "Vestige Brilliant",
+      "desc": "Compte comme un Don E.G.O. de Tier 4. Peut être vendu dans une Boutique ou utilisé comme ingrédient pour les Fusions.",
+      "simpleDesc": [
+        {
+          "abilityID": 9994,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9995,
+      "name": "Vestige Lunaire",
+      "desc": "Compte comme un Don E.G.O. de Tier 5. Peut être vendu dans une Boutique ou utilisé comme ingrédient pour les Fusions.",
+      "simpleDesc": [
+        {
+          "abilityID": 9995,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9192,
+      "name": "Pansements Superposés",
+      "desc": "Fin du Tour : parmi les alliés avec Saignement, l’Identité avec le moins de PV regagne 5% de ses PV Max.",
+      "simpleDesc": [
+        {
+          "abilityID": 9192,
+          "simpleDesc": "Soigne 1 allié avec Saignement"
+        }
+      ]
+    },
+    {
+      "id": 19192,
+      "name": "Pansements Superposés+",
+      "desc": "Fin du Tour : parmi les alliés avec Saignement, deux Identités avec le moins de PV regagnent 5% de ses PV Max.",
+      "simpleDesc": [
+        {
+          "abilityID": 19192,
+          "simpleDesc": "Soigne 2 alliés avec Saignement"
+        }
+      ]
+    },
+    {
+      "id": 9193,
+      "name": "Pierre à Aiguiser Surutilisée",
+      "desc": "[Les effets s’appliquent uniquement à l’Identité Déployée #3]\n\nLes Capacités Tranchantes gagnent +(# de Capacités d’Attaque Tranchantes de Base) de Niveau Offensif. (La même Capacité ne compte pas deux fois ; 3 max)\n\nEn attaquant des ennemis faibles au Tranchant (Résist. supérieure à 1.0 ; l’état Déséquilibré ne compte pas), inflige +(5 + (Résist. au Tranchant de la cible * 10))% de dégâts supplémentaires. (25% max)",
+      "simpleDesc": [
+        {
+          "abilityID": 9193,
+          "simpleDesc": "Capacités Tranchantes gagnent du Niveau Offensif"
+        },
+        {
+          "abilityID": 91931,
+          "simpleDesc": "Inflige plus de Dégâts Tranchants"
+        }
+      ]
+    },
+    {
+      "id": 9194,
+      "name": "Courte Canne-Épée",
+      "desc": "En gagnant un Duel avec une Capacité d’Attaque Tranchante de Base, inflige 2 de Malus de Niveau Défensif à la cible. (une fois par tour pour chaque Identité ; l’effet ne peut pas se cumuler sur le même ennemi)\n- Pour les Identités de l’Association Seven : l’effet s’applique également aux Capacités d’Attaque Perçantes et Contondantes de Base\n\nDébut de l’Affrontement : les Identités de l’Association Seven gagnent (# d’autres Identités de l’Association Seven / 2) de Bonus de Puissance de Duel (arrondi à l’inférieur ; 2 max)",
+      "simpleDesc": [
+        {
+          "abilityID": 9193,
+          "simpleDesc": "Inflige du Malus de Niveau Défensif. Les Identités de l’Association Seven gagnent de la Puissance de Duel"
+        },
+        {
+          "abilityID": 91931,
+          "simpleDesc": "Bonus de Puissance de Duel"
+        }
+      ]
+    },
+    {
+      "id": 19194,
+      "name": "Courte Canne-Épée+",
+      "desc": "En gagnant un Duel avec une Capacité d’Attaque Tranchante de Base, inflige 2 de Malus de Niveau Défensif à la cible. (une fois par tour pour chaque Identité ; l’effet ne peut pas se cumuler sur le même ennemi)\n- Pour les Identités de l’Association Seven : l’effet s’applique également aux Capacités d’Attaque Perçantes et Contondantes de Baseet infligent également Faiblesse Analysée\n\nDébut de Tour Impair : les Identités de l’Association Seven gagnent (# d’autres Identités de l’Association Seven / 2) de Bonus de Puissance de Duel (arrondi à l’inférieur ; 2 max)",
+      "simpleDesc": [
+        {
+          "abilityID": 19193,
+          "simpleDesc": "Inflige du Malus de Niveau Défensif. Les Identités de l’Association Seven gagnent de la Puissance de Duel et infligent Faiblesse Analysée"
+        },
+        {
+          "abilityID": 191931,
+          "simpleDesc": "Bonus de Puissance de Duel"
+        }
+      ]
+    },
+    {
+      "id": 29194,
+      "name": "Courte Canne-Épée++",
+      "desc": "En gagnant un Duel avec une Capacité d’Attaque Tranchante de Base, inflige 2 de Malus de Niveau Défensif à la cible. (une fois par tour pour chaque Identité ; l’effet ne peut pas se cumuler sur le même ennemi)\n- Pour les Identités de l’Association Seven : l’effet s’applique également aux Capacités d’Attaque Perçantes et Contondantes de Baseet infligent également Faiblesse Analysée et 1 de Malus de Puissance de Duel\n\nDébut du Tour : les Identités de l’Association Seven gagnent (# d’autres Identités de l’Association Seven / 2) de Bonus de Puissance de Duel. (arrondi à l’inférieur ; 2 max) En\u200B Duel Gagné, infligent +20% de dégâts supplémentaires avec la Capacité.",
+      "simpleDesc": [
+        {
+          "abilityID": 29193,
+          "simpleDesc": "Inflige du Malus de Niveau Défensif. Les Identités de l’Association Seven gagnent de la Puissance de Duel et infligent Faiblesse Analysée"
+        },
+        {
+          "abilityID": 291931,
+          "simpleDesc": "Bonus de Puissance de Duel, inflige +20% de dégâts supplémentaires"
+        }
+      ]
+    },
+    {
+      "id": 9195,
+      "name": "Calebasse à Motif de Nuage",
+      "desc": "Capacité d’Attaque 1 de Type Tranchant : +1 de Puissance de Duel, inflige 2 de Malus de Niveau Offensif En Touche.\n- Pour les Identités du Clan Kurokumo : les effets ci-dessus s’appliquent à toutes les Capacités d’Attaque de Type Tranchant à la place\n\nDébut du Tour : les Identités du Clan Kurokumo gagnent 1 de Bonus de Puissance ; en infligeant de la Puissance ou du Compte de Saignement En Touche avec une Capacité d’Attaque de Base, gagne 1 de Puissance de Calme (4 fois par tour pour chaque Identité)",
+      "simpleDesc": [
+        {
+          "abilityID": 9195,
+          "simpleDesc": "+1 de Puissance de Duel, inflige du Malus de Niveau Offensif En Touche"
+        },
+        {
+          "abilityID": 91951,
+          "simpleDesc": "Gagne 1 de Bonus de Puissance ; gagne du Calme en infligeant du Saignement"
+        }
+      ]
+    },
+    {
+      "id": 19195,
+      "name": "Calebasse à Motif de Nuage+",
+      "desc": "Capacité d’Attaque 1 de Type Tranchant : +1 de Puissance de Duel, inflige 2 de Malus de Niveau Offensif En Touche.\n- Pour les Identités du Clan Kurokumo : les effets ci-dessus s’appliquent à toutes les Capacités d’Attaque de Type Tranchant à la place ou d’Affinité de Luxure à la place (l’effet ne se cumule pas)\n\nDébut du Tour : les Identités du Clan Kurokumo gagnent 1 de Bonus de Puissance ; en infligeant de la Puissance ou du Compte de Saignement En Touche avec une Capacité d’Attaque de Base, gagne 1 de Puissance de Calme (6 fois par tour pour chaque Identité)",
+      "simpleDesc": [
+        {
+          "abilityID": 19195,
+          "simpleDesc": "+1 de Puissance de Duel, inflige du Malus de Niveau Offensif En Touche"
+        },
+        {
+          "abilityID": 191951,
+          "simpleDesc": "Gagne 1 de Bonus de Puissance ; gagne du Calme en infligeant du Saignement"
+        }
+      ]
+    },
+    {
+      "id": 29195,
+      "name": "Calebasse à Motif de Nuage++",
+      "desc": "Capacité d’Attaque 1 de Type Tranchant : +1 de Puissance de Duel, inflige 2 de Malus de Niveau Offensif En Touche.\n- Pour les Identités du Clan Kurokumo : les effets ci-dessus s’appliquent à toutes les Capacités à la place (l’effet ne se cumule pas)\n\nDébut du Tour : les Identités du Clan Kurokumo gagnent 1 de Bonus de Puissance ; en infligeant de la Puissance ou du Compte de Saignement En Touche avec une Capacité d’Attaque de Base, gagne 1~2 de Puissance de Calme (8 fois par tour pour chaque Identité)",
+      "simpleDesc": [
+        {
+          "abilityID": 29195,
+          "simpleDesc": "+1 de Puissance de Duel, inflige du Malus de Niveau Offensif En Touche"
+        },
+        {
+          "abilityID": 291951,
+          "simpleDesc": "Gagne 1 de Bonus de Puissance ; gagne du Calme en infligeant du Saignement"
+        }
+      ]
+    },
+    {
+      "id": 9196,
+      "name": "Grande Épée Brisée",
+      "desc": "En infligeant des dégâts à un ennemi avec une Capacité d’Attaque 1 ou 2 de Type Tranchant : inflige +(10 + (Bonus de Niveau Défensif sur soi * 4))% de dégâts supplémentaires (50% max)\n- Pour les Identités de l’Association Zwei : l’effet ci-dessus s’applique à toutes les Capacités d’Attaque de Base\n\nDébut du Tour : les Identités de l’Association Zwei gagnent (# d’autres Identités de l’Association Zwei) de Bonus de Niveau Défensif (4 max)\n\nFin du Tour : si une Identité de l’Association Zwei a été touché par un ennemi ou a utilisé une Capacité de Défense au début de la Phase de Combat, l’unité gagne 2 de Bonus de Puissance d’Attaque au prochain tour.",
+      "simpleDesc": [
+        {
+          "abilityID": 9196,
+          "simpleDesc": "Capacités infligent plus de dégâts"
+        },
+        {
+          "abilityID": 91961,
+          "simpleDesc": "Gagne du Bonus de Niveau Défensif"
+        },
+        {
+          "abilityID": 91962,
+          "simpleDesc": "Gagne du Bonus de Puissance d’Attaque"
+        }
+      ]
+    },
+    {
+      "id": 9197,
+      "name": "Chaussures Extensibles",
+      "desc": "[Les effets s’appliquent uniquement à l’Identité Déployée #3]\n\nLes Capacités Perçantes gagnent +(# de Capacités d’Attaque de Base Perçantes) Niveaux Offensifs. (Même Capacité ne compte pas deux fois ; 3 max)\n\nÀ 3+ de [Agility] : en attaquant un ennemi, inflige +(10 + ([Agility] sur soi * 3))% de dégâts Perçants supplémentaires (25% max).",
+      "simpleDesc": [
+        {
+          "abilityID": 9197,
+          "simpleDesc": "Capacités Perçantes gagnent +(# de Capacités d’Attaque de Base Perçantes) Niveaux Offensifs. (Même Capacité ne compte pas deux fois ; 3 max)"
+        },
+        {
+          "abilityID": 91971,
+          "simpleDesc": "À 3+ de Vitesse : en attaquant un ennemi, inflige +(10 + (Vitesse sur soi * 3))% de dégâts Perçants supplémentaires (25% max)."
+        }
+      ]
+    },
+    {
+      "id": 9198,
+      "name": "Plume de la Preuve",
+      "desc": "En Touche après avoir gagné un Duel avec une Capacité d’Attaque de Base Perçante, inflige 1 de Ralentissement à la cible au prochain tour. (une fois par tour pour chaque Identité ; ne se cumule pas sur le même ennemi)\n- Pour les Identités de l’Association Cinq : gagne également 1 de Vitesse au prochain tour.\n\nLorsqu’une Identité de l’Association Cinq utilise une Capacité d’Attaque de Base pour gagner un Duel contre des cibles (pour les Anomalies, des Parties) avec “Duel Déclaré” ou “Attaque Concentrée”, gagne 2 de Puissance de Calme En Touche (une fois par tour pour chaque Identité)",
+      "simpleDesc": [
+        {
+          "abilityID": 9198,
+          "simpleDesc": "Inflige du Ralentissement ; les Identités de l’Assoc. Cinq gagnent aussi de la Vitesse"
+        },
+        {
+          "abilityID": 91981,
+          "simpleDesc": "Gagne de la Puissance de Calme"
+        }
+      ]
+    },
+    {
+      "id": 19198,
+      "name": "Plume de la Preuve+",
+      "desc": "En Touche après avoir gagné un Duel avec une Capacité d’Attaque de Base Perçante, inflige 1 de Ralentissement à la cible au prochain tour. (une fois par tour pour chaque Identité ; 2 max pour chaque ennemi)\n- Pour les Identités de l’Association Cinq : gagne également 1 de Vitesse au prochain tour.\n\nLorsqu’une Identité de l’Association Cinq utilise une Capacité d’Attaque de Base pour gagner un Duel contre des cibles (pour les Anomalies, des Parties) avec “Duel Déclaré” ou “Attaque Concentrée”, gagne 4 de Puissance de Calme En Touche (une fois par tour pour chaque Identité)",
+      "simpleDesc": [
+        {
+          "abilityID": 19198,
+          "simpleDesc": "Inflige du Ralentissement ; les Identités de l’Assoc. Cinq gagnent aussi de la Vitesse"
+        },
+        {
+          "abilityID": 191981,
+          "simpleDesc": "Gagne de la Puissance de Calme"
+        }
+      ]
+    },
+    {
+      "id": 29198,
+      "name": "Plume de la Preuve++",
+      "desc": "En Touche après avoir gagné un Duel avec une Capacité d’Attaque de Base Perçante, inflige 1 de Ralentissement à la cible au prochain tour. (une fois par tour pour chaque Identité ; 2 max pour chaque ennemi)\n- Pour les Identités de l’Association Cinq : gagne également 1 de Vitesse au prochain tour. (2 fois par tour pour chaque Identité)\n\nLorsqu’une Identité de l’Association Cinq utilise une Capacité d’Attaque de Base pour gagner un Duel contre des cibles (pour les Anomalies, des Parties) avec “Duel Déclaré” ou “Attaque Concentrée”, gagne 4 de Puissance de Calme En Touche (2 fois par tour pour chaque Identité)",
+      "simpleDesc": [
+        {
+          "abilityID": 29198,
+          "simpleDesc": "Inflige du Ralentissement ; les Identités de l’Assoc. Cinq gagnent aussi de la Vitesse"
+        },
+        {
+          "abilityID": 291981,
+          "simpleDesc": "Gagne de la Puissance de Calme"
+        }
+      ]
+    },
+    {
+      "id": 9199,
+      "name": "Ourlets Déchirés",
+      "desc": "Capacité d’Attaque 2 de Type Perçant : +2 Niveaux Offensifs ; si la Capacité a 2 Pièces ou moins, +2 Niveaux Offensifs et +(2/# de Pièces) de Puissance de Duel à la place.\n- Pour les Identités de l’Alliance de Libération Technologique : l’effet ci-dessus s’applique à toutes les Capacités d’Attaque de Base de Type Perçant à la place\n\nDébut du Tour : les Identités de l’Alliance de Libération Technologique gagnent (# d’effets négatifs sur soi) de [AttackUp]. (3 max)",
+      "simpleDesc": [
+        {
+          "abilityID": 9199,
+          "simpleDesc": "Bonus de Niveau Offensif ; Capacités avec 2 Pièces ou moins gagnent de la Puissance de Duel"
+        },
+        {
+          "abilityID": 91991,
+          "simpleDesc": "Gagne du Bonus de Niveau Offensif"
+        }
+      ]
+    },
+    {
+      "id": 19199,
+      "name": "Ourlets Déchirés+",
+      "desc": "Capacité d’Attaque 2 de Type Perçant : +2 Niveaux Offensifs ; si la Capacité a 2 Pièces ou moins, +2 Niveaux Offensifs et +(2/# de Pièces) de Puissance de Duel à la place.\n- Pour les Identités de l’Alliance de Libération Technologique : l’effet ci-dessus s’applique à toutes les Capacités d’Attaque de Base de Type Perçant ou d’Affinité de Gourmandise à la place\n\nDébut du Tour : les Identités de l’Alliance de Libération Technologique gagnent (# d’effets négatifs sur soi + 1) de [AttackUp]. (4 max)",
+      "simpleDesc": [
+        {
+          "abilityID": 19199,
+          "simpleDesc": "Bonus de Niveau Offensif ; Capacités avec 2 Pièces ou moins gagnent de la Puissance de Duel"
+        },
+        {
+          "abilityID": 191991,
+          "simpleDesc": "Gagne du Bonus de Niveau Offensif"
+        }
+      ]
+    },
+    {
+      "id": 29199,
+      "name": "Ourlets Déchirés++",
+      "desc": "Capacité d’Attaque 2 de Type Perçant : +2 Niveaux Offensifs ; si la Capacité a 2 Pièces ou moins, +2 Niveaux Offensifs et +(2/# de Pièces) de Puissance de Duel à la place.\n- Pour les Identités de l’Alliance de Libération Technologique : l’effet ci-dessus s’applique à toutes les Capacités d’Attaque de Base\n\nDébut du Tour : les Identités de l’Alliance de Libération Technologique gagnent 1 de Bonus de Puissance de Duel et (plus haute valeur d’effet négatif sur soi) de [AttackUp]. (5 max)",
+      "simpleDesc": [
+        {
+          "abilityID": 29199,
+          "simpleDesc": "Bonus de Niveau Offensif ; Capacités avec 2 Pièces ou moins gagnent de la Puissance de Duel"
+        },
+        {
+          "abilityID": 291991,
+          "simpleDesc": "Gagne du Bonus de Puissance de Duel et de Niveau Offensif"
+        }
+      ]
+    },
+    {
+      "id": 9200,
+      "name": "Livre Manuel 3 de Duel",
+      "desc": "[Les effets s’appliquent uniquement à l’Identité Déployée #1]\n\n+1~3 de Puissance de Capacité d’Esquive ; après 3 Esquives réussies, gagne 1 de [PenetrateDamageUp] ce tour et au prochain tour (5 par tour)\n\nSi l’unité a infligé des dégâts avec une Capacité Perçante, réinitialise le Stack de [PenetrateDamageUp] gagné grâce à l’effet de ce Don E.G.O. au prochain Début de Tour.",
+      "simpleDesc": [
+        {
+          "abilityID": 9200,
+          "simpleDesc": "Gagne de la Puissance de Capacité d’Esquive. Gagne du Bonus de DGT Perçant après 3 Esquives réussies"
+        }
+      ]
+    },
+    {
+      "id": 9201,
+      "name": "Corbeille Dimensionnelle",
+      "desc": "[Les effets s’appliquent uniquement à l’Identité Déployée #3]\n\nCapacités Contondantes gagnent (# de Capacités d’Attaque de Base Contondantes) Niveaux Offensifs. (Même Capacité ne compte pas deux fois ; 3 max)\n\nEn utilisant une Capacité pour attaquer un ennemi, si une différente Capacité se fait [Discard]r, inflige +(10 + (rang de la Capacité Défaussée * 5))% de dégâts Contondants supplémentaires. (Si plusieurs ont été défaussées, prend la plus haute valeur ; 25% max)",
+      "simpleDesc": [
+        {
+          "abilityID": 9201,
+          "simpleDesc": "Capacités Contondantes gagnent du Niveau Offensif"
+        },
+        {
+          "abilityID": 92011,
+          "simpleDesc": "Inflige plus de dégâts Contondants"
+        }
+      ]
+    },
+    {
+      "id": 9202,
+      "name": "Cartes Mémoire de Poche",
+      "desc": "En gagnant un Duel avec une Capacité d’Attaque de Base Contondante, inflige 2 de Malus de Niveau Défensif au prochain tour à la cible. (une fois par tour pour chaque Identité ; l’effet ne peut pas se cumuler sur le même ennemi)\n- Pour les Identités de l’Association Dieci : l’effet ci-dessus s’applique également aux Capacités d’Attaque de Base Tranchantes et Perçantes ; inflige 1 de Malus de Niveau Défensif supplémentaire\n\nSi une Identité de l’Association Dieci a Défaussé sa propre Capacité avec une Capacité de Défausse, gagne (rang de la Capacité Défaussée) de Bonus de Niveau Offensif au prochain Début de Tour. (si plusieurs sont défaussées, prend la plus haute valeur ; 3 max)",
+      "simpleDesc": [
+        {
+          "abilityID": 9202,
+          "simpleDesc": "Inflige du Malus de Niveau Défensif au prochain tour"
+        },
+        {
+          "abilityID": 92021,
+          "simpleDesc": "Gagne (rang de la Capacité Défaussée) de Bonus de Niveau Offensif"
+        }
+      ]
+    },
+    {
+      "id": 19202,
+      "name": "Cartes Mémoire de Poche+",
+      "desc": "En gagnant un Duel avec une Capacité d’Attaque de Base Contondante, inflige 2 de Malus de Niveau Défensif au prochain tour à la cible. (une fois par tour pour chaque Identité ; l’effet ne peut pas se cumuler sur le même ennemi)\n- Pour les Identités de l’Association Dieci : l’effet ci-dessus s’applique également aux Capacités d’Attaque de Base Tranchantes et Perçantes ; inflige 1 de Malus de Niveau Défensif supplémentaire\n\nSi une Identité de l’Association Dieci a Défaussé sa propre Capacité avec une Capacité de Défausse, gagne (rang de la Capacité Défaussée + 1) de Bonus de Niveau Offensif au prochain Début de Tour. (si plusieurs sont défaussées, prend la plus haute valeur ; 4 max)",
+      "simpleDesc": [
+        {
+          "abilityID": 19202,
+          "simpleDesc": "Inflige du Malus de Niveau Défensif au prochain tour"
+        },
+        {
+          "abilityID": 192021,
+          "simpleDesc": "Gagne (rang de la Capacité Défaussée) de Bonus de Niveau Offensif"
+        }
+      ]
+    },
+    {
+      "id": 29202,
+      "name": "Cartes Mémoire de Poche++",
+      "desc": "En gagnant un Duel avec une Capacité d’Attaque de Base Contondante, inflige 2 de Malus de Niveau Défensif au prochain tour à la cible. (une fois par tour pour chaque Identité ; l’effet ne peut pas se cumuler sur le même ennemi)\n- Pour les Identités de l’Association Dieci : l’effet ci-dessus s’applique également aux Capacités d’Attaque de Base Tranchantes et Perçantes ; inflige 1 de Malus de Niveau Défensif supplémentaire\n\nSi une Identité de l’Association Dieci a Défaussé sa propre Capacité avec une Capacité de Défausse, gagne (rang de la Capacité Défaussée + 2) de Bonus de Niveau Offensif au prochain Début de Tour. (si plusieurs sont défaussées, prend la plus haute valeur ; 5 max)",
+      "simpleDesc": [
+        {
+          "abilityID": 29202,
+          "simpleDesc": "Inflige du Malus de Niveau Défensif au prochain tour"
+        },
+        {
+          "abilityID": 292021,
+          "simpleDesc": "Gagne (rang de la Capacité Défaussée) de Bonus de Niveau Offensif"
+        }
+      ]
+    },
+    {
+      "id": 9203,
+      "name": "Modificateur de Perception Dimensionnelle",
+      "desc": "Capacité d’Attaque 1 & 2 de Type Contondant : +(# de Pièces - 1) Niveaux Offensifs (2 max)\n- Capacités avec effets de Défausse gagnent +(# de Pièces) Niveaux Défensifs à la place (4 max)\n\nSi une unité a utilisé une Capacité de Défausse pour défausser sa Capacité, gagne 1 de Bonus de Dégât et (rang de la Capacité Défaussée) de Bonus de Niveau Offensif. (une fois par tour pour chaque Identité ; si plusieurs ont été défaussées, prend la plus haute valeur ; 3 max)\n- Si une Capacité d’Attaque de Type Contondant a été Défaussée, gagne également 1 de Bonus de DGT Contondant",
+      "simpleDesc": [
+        {
+          "abilityID": 9203,
+          "simpleDesc": "Gagne du Niveau Offensif"
+        },
+        {
+          "abilityID": 92031,
+          "simpleDesc": "Gagne du Bonus de Dégât et de Niveau Offensif. Si une Capacité Contondante a été Défaussée, gagne également du Bonus de DGT Contondant"
+        }
+      ]
+    },
+    {
+      "id": 9204,
+      "name": "Le Livre des Vengeances",
+      "desc": "En ripostant après avoir utilisé une Capacité de Riposte (excepté les Ripostes affrontables) et subit des dégâts, la riposte inflige +(12.5 * plus haute Réson.)% de dégâts supplémentaires. (Une fois par tour ; 75% max ; l’effet s’applique aux autres Capacités de Riposte de la même Réson.)\n\nEn utilisant une Capacité de Riposte Contondante (excepté les Ripostes affrontables), gagne (2.5 * plus haute Réson.)% de PV Max en Bouclier avant d’utiliser la Capacité de Riposte. (La somme de Bouclier sur soi et le Bouclier de cet effet ne peut pas dépasser 25% des PV Max)\n\nNe peut pas être Déséquilibré en étant touché par une Capacité de Riposte. (Excepté les Ripostes affrontables ; une fois par Affrontement)",
+      "simpleDesc": [
+        {
+          "abilityID": 9204,
+          "simpleDesc": "Capacités de Riposte infligent plus de dégâts"
+        },
+        {
+          "abilityID": 92041,
+          "simpleDesc": "Gagne du Bouclier"
+        },
+        {
+          "abilityID": 92042,
+          "simpleDesc": "Ne peut pas être Déséquilibré par des dégâts de riposte"
         }
       ]
     }

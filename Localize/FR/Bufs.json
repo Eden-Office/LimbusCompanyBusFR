@@ -2110,7 +2110,7 @@
     },
     {
       "id": "DevyatDimensionalSack",
-      "name": "Malle de Coursier",
+      "name": "Malle de Coursier - Rodion",
       "desc": "- Valeur de Base : 0\n- Début du Tour : gagne 3 Stacks\n- Les Stacks n’expirent pas en Battant en Retraite ; ils sont, à la place, stockés\n- À 10+ Stacks : augmente de 1 les valeurs Min & Max de Vitesse\n- À 20+ Stacks : gagne 1 de Bonus de Puissance de Duel et 1 de Bonus de Dégâts Tranchants\n- À 30+ Stacks :\n· À l’Usage de Capacité, subit (Stack/3)% de dégâts de PV et (Stack/3) dégâts de PSM\n· À la Fin du Tour, subit (Stack/2)% de dégâts de PV et (Stack/2) dégâts de PSM (s’applique avant de Battre en Retraite)",
       "summary": "",
       "undefined": "-"
@@ -2202,6 +2202,54 @@
       "desc": "- Valeur Max : 10\n- Fin du Tour : gagne 1 de Valeur\n- Début du Tour : gagne 1 de Bonus de Niveau Défensif pour chaque 3 de Valeur\n- À 50%- de PV, gagne 1 Niveau Défensif pour chaque 3 de Valeur\n- À 40%- de PV, En Touche avec des Capacités de Base, regagne (Valeur * 5)% des dégâts infligés En Touche en tant que PV (1 min ; arrondi à l’inférieur ; soigne jusqu’à 30 PV par Capacité)",
       "summary": "",
       "undefined": "-"
+    },
+    {
+      "id": "BloomingThornsRodionFirst",
+      "name": "Épine Fleurie",
+      "desc": "- Valeur Max : 10\n- Épine Fleurie de Niveau 1\n- Gagne 1 de Niveau Défensif pour chaque 2 de Valeur (5 max)\n- Lorsque touché, inflige 1 de Saignement à l’attaquant et perd 1 de Valeur\n- [Uniquement pour La Princesse de La Manchaland Rodion]\n· Au max de Valeur, se convertit au prochain Niveau de cet effet.\n· Inflige +(Niveau - 1) de Puissance de Saignement et de Déchirure supplémentaire avec les effets de Pièce de Capacité d’Attaque de Base de cette unité.\n· Revient au Niveau précédant lorsque la Valeur tombe sous les conditions.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BloomingThornsRodionSecond",
+      "name": "Épine Fleurie II",
+      "desc": "- Valeur Max : 20\n- Épine Fleurie de Niveau 2\n- Gagne 1 de Niveau Défensif pour chaque 2 de Valeur (5 max)\n- Lorsque touché, inflige 1 de Saignement à l’attaquant et perd 1 de Valeur\n- [Uniquement pour La Princesse de La Manchaland Rodion]\n· Au max de Valeur, se convertit au prochain Niveau de cet effet.\n· Inflige +(Niveau - 1) de Puissance de Saignement et de Déchirure supplémentaire avec les effets de Pièce de Capacité d’Attaque de Base de cette unité.\n· Revient au Niveau précédant lorsque la Valeur tombe sous les conditions.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BloomingThornsRodionThird",
+      "name": "Épine Fleurie III",
+      "desc": "- Valeur Max : 30\n- Épine Fleurie de Niveau 3\n- Gagne 1 de Niveau Défensif pour chaque 2 de Valeur (5 max)\n- Lorsque touché, inflige 1 de Saignement à l’attaquant et perd 1 de Valeur\n- [Uniquement pour La Princesse de La Manchaland Rodion]\n· Au max de Valeur, se convertit au prochain Niveau de cet effet.\n· Inflige +(Niveau - 1) de Puissance de Saignement et de Déchirure supplémentaire avec les effets de Pièce de Capacité d’Attaque de Base de cette unité.\n· Revient au Niveau précédant lorsque la Valeur tombe sous les conditions.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "FestivalFeverRodion",
+      "name": "Fièvre Festive",
+      "desc": "- Valeur Max : 10\n- Expire à la Fin du Tour\n- Inflige +({0} * 1.5)% de dégâts supplémentaires contre les cibles avec Saignement\n- Capacités qui consomment ou gagnent du Festin Sanglant : inflige +({0} * 3)% de dégâts supplémentaires à la place",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "VibrationSpring",
+      "name": "Tremblement - Remontage",
+      "desc": "- +2 de Vitesse Max\n- Inflige 1 de Puissance et de Compte supplémentaire avec les effets de Capacité ou de Pièce de cette unité en consommant 1 de Compte de Tremblement sur soi\n- Lorsque touché par des Capacités qui déclenchent un Sursaut de Tremblement, augmente le Seuil de Déséquilibre selon la Puissance de l’effet\n- Fin du Tour : réduit le Compte de 1\n- (Interagit de la même manière que du Tremblement normal aux effets qui augmentent ou réduisent la Puissance/Compte de Tremblement)",
+      "summary": "Vitesse Max +2\nConsomme du Compte de Tremblement sur soi pour infliger +1 de Puissance et de Compte de Tremblement supplémentaire",
+      "undefined": "-"
+    },
+    {
+      "id": "DevyatDimensionalSackSinclair",
+      "name": "Malle de Coursier - Sinclair",
+      "desc": "- Valeur de Base : 0\n- Début du Tour : gagne 3 Stacks\n- Les Stacks n’expirent pas en Battant en Retraite ; ils sont, à la place, stockés\n- À 10+ Stacks : augmente de 1 les valeurs Min & Max de Vitesse\n- À 20+ Stacks : gagne 1 de Bonus de Puissance de Duel et 1 de Bonus de Dégâts Contondants\n- À 30+ Stacks :\n· À l’Usage de Capacité, subit (Stack/3)% de dégâts de PV et (Stack/3) dégâts de PSM\n· À la Fin du Tour, subit (Stack/2)% de dégâts de PV et (Stack/2) dégâts de PSM (s’applique avant de Battre en Retraite)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Zazen",
+      "name": "Dhyāna",
+      "desc": "- Stack Max : 108\n- Inflige +1% de dégâts supplémentaires pour chaque Stack",
+      "summary": "Inflige plus de dégâts"
     }
   ]
 }
