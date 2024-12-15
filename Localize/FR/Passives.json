@@ -1338,7 +1338,7 @@
     {
       "id": 999905,
       "name": "Yeux d’un Ami Qui ████",
-      "desc": "'Le R\u200Begard Rouge' devient disponible",
+      "desc": "'Le Regard[TabExplain] Rouge' devient disponible",
       "summary": ""
     },
     {
@@ -1717,8 +1717,8 @@
     {
       "id": 1051121,
       "name": "Un Pas d’Avance",
-      "desc": "En D\u200Buel Gagné, l’allié le plus rapide gagne 1 de [Agility] au prochain tour (2 fois par tour)",
-      "summary": "En D\u200Buel Gagné, l’allié le plus rapide gagne 1 de [Agility] au prochain tour"
+      "desc": "En Duel[TabExplain] Gagné, l’allié le plus rapide gagne 1 de [Agility] au prochain tour (2 fois par tour)",
+      "summary": "En Duel[TabExplain] Gagné, l’allié le plus rapide gagne 1 de [Agility] au prochain tour"
     },
     {
       "id": 1061001,
@@ -1839,6 +1839,31 @@
       "name": "Coursier Rapide",
       "desc": "Lorsque 1 allié avec la plus haute Vitesse touche un ennemi avec [Burst], inflige 1 de [DefenseDown] (3 fois par ennemi par tour)",
       "summary": ""
+    },
+    {
+      "id": 1031001,
+      "name": "Festin Sanglant",
+      "desc": "Si cette unité est sur le terrain, ou est l’une des unités qui peut apparaître sur ce Niveau, augmente la valeur de [BloodDinner] par la quantité de dégâts de [Laceration] reçu collectivement par chaque unité.\nLorsque cette unité arrivera sur le terrain, le sang ensommeillé et baignant le champ de bataille s’élèvera au-dessus de la surface.\n\nEn consommant du [BloodDinner], s’il y a des Parents de <La Manchaland[TabExplain]> de la même génération que cette unité, cette unité est prioritaire.\n\nEn utilisant 'Arts Variants du Sang Durci[TabExplain] de Sancho 9 - Fouet', les PV ne peuvent pas tomber en-dessous de 1 suite à des dégâts de [Laceration]."
+    },
+    {
+      "id": 1031002,
+      "name": "Arts Variants du Sang Durci de Sancho",
+      "desc": "Début du Tour : à 15+ de [BloodArmorPersonalityFirst], si chacune des unités suivantes est soit vaincue, soit participante à l’Affrontement, renforce l’Emplacement le plus à gauche de cette unité.\nLe Prêtre de La Manchaland[TabExplain] Gregor : renforce la Capacité 1\nLa Barbière de La Manchaland[TabExplain] Outis : renforce la Capacité 2\nCette Unité : renforce la Capacité 3\nLa Princesse de La Manchaland[TabExplain] Rodion : renforce la Capacité[TabExplain] de Défense\n\nLorsque d’autres unités parmis les alliés subissent des dégâts de [Laceration] ou consomment du [BloodDinner], gagne 2 de [BloodArmorPersonalityFirst] sur soi (3 fois par tour)"
+    },
+    {
+      "id": 1031003,
+      "name": "Porteuse du Clan Sanguin",
+      "desc": "Dans un Affrontement, si une autre unité alliée de <La Manchaland[TabExplain]> est vaincue :\n- Gagne 1 de [BloodArmorPersonalityFirst] supplémentaire en gagnant du [BloodArmorPersonalityFirst] par les Capacités d’Attaque de Base de cette unité\n- Lorsque 3+ autres unités alliées de <La Manchaland[TabExplain]> sont vaincues : gagne 3 de [BloodArmorPersonalityFirst] ; au Début du Tour, gagne 1 de [SadLamanchaland]"
+    },
+    {
+      "id": 1031004,
+      "name": "Armadura de Sangre",
+      "desc": "Après l’Attaque : si l’ennemi est vaincu, augmente le [BloodDinner] de 10% des PV max de la cible (100 par tour ; en Affrontements Concentrés, si la Partie est brisée)\nGagne 1 de [AttackDmgUp] au prochain tour pour chaque 15% de PV manquant à la Fin du Tour (3 max)\nSi un allié est sur le point de mourir suite à des dégâts de [Laceration], l’empêche d’être vaincu par les dégâts de [Laceration] pour le tour (une fois par Affrontement pour chaque Identité)"
+    },
+    {
+      "id": 1031021,
+      "name": "“Nourissez votre faim réprimée, ma Famille”",
+      "desc": "Début du Combat : 1 allié avec le moins de PV gagne 1 de [AttackDmgUp] pour chaque 20% de PV manquant (3 max)\n- Si cet allié est un <Démon de Sang>, gagne 1 de [AttackDmgUp] pour chaque 15% de PV manquant à la place (3 max)"
     }
   ]
 }
