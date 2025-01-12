@@ -9,6 +9,7 @@ using System.IO;
 using UnityEngine;
 using ILObject = Il2CppSystem.Object;
 using UObject = UnityEngine.Object;
+using ULogger = UnityEngine.Logger;
 
 namespace LimbusCompanyFR
 {
@@ -78,40 +79,26 @@ namespace LimbusCompanyFR
         public static Action FatalErrorAction;
         public static string FatalErrorlog;
         #region Запрет предупреждений
-        [HarmonyPatch(typeof(Logger), nameof(Logger.Log), new Type[]
-        {
-            typeof(LogType),
-            typeof(ILObject)
-        })]
+        [HarmonyPatch(typeof(UnityEngine.Logger), nameof(UnityEngine.Logger.Log), typeof(LogType), typeof(ILObject))]
         [HarmonyPrefix]
-        private static bool Log(Logger __instance, LogType __0, ILObject __1)
+        private static bool Log(UnityEngine.Logger __instance, LogType logType, ILObject message)
         {
-            if (__0 == LogType.Warning)
-            {
-                string LogString = Logger.GetString(__1);
-                if (!LogString.Contains("DOTWEEN"))
-                    __instance.logHandler.LogFormat(__0, null, "{0}", new ILObject[] { LogString });
-                return false;
-            }
-            return true;
+            if (logType != LogType.Warning) return true;
+            var logString = UnityEngine.Logger.GetString(message);
+            if (!logString.StartsWith("<color=#0099bc><b>DOTWEEN"))
+                __instance.logHandler.LogFormat(logType, null, "{0}", logString);
+            return false;
         }
-        [HarmonyPatch(typeof(Logger), nameof(Logger.Log), new Type[]
-        {
-            typeof(LogType),
-            typeof(ILObject),
-            typeof(UObject)
-        })]
+
+        [HarmonyPatch(typeof(UnityEngine.Logger), nameof(UnityEngine.Logger.Log), typeof(LogType), typeof(ILObject), typeof(UObject))]
         [HarmonyPrefix]
-        private static bool Log(Logger __instance, LogType logType, ILObject message, UObject context)
+        private static bool Log(UnityEngine.Logger __instance, LogType logType, ILObject message, UObject context)
         {
-            if (logType == LogType.Warning)
-            {
-                string LogString = Logger.GetString(message);
-                if (!LogString.Contains("Material"))
-                    __instance.logHandler.LogFormat(logType, context, "{0}", new ILObject[] { LogString });
-                return false;
-            }
-            return true;
+            if (logType != LogType.Warning) return true;
+            var logString = UnityEngine.Logger.GetString(message);
+            if (!logString.StartsWith("Material"))
+                __instance.logHandler.LogFormat(logType, context, "{0}", logString);
+            return false;
         }
         #endregion
         #region Исправление некоторых ошибок

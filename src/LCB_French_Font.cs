@@ -5,6 +5,8 @@ using SimpleJSON;
 using StorySystem;
 using System;
 using System.IO;
+using System.Linq;
+using System.Text.Json;
 using TMPro;
 using UnityEngine;
 using UtilityUI;
@@ -16,15 +18,11 @@ namespace LimbusCompanyFR
     {
         public static List<TMP_FontAsset> tmpfrenchfonts = new();
         public static List<string> tmpfrenchfontsnames = new();
-        public static List<Material> tmpfrenchmats = new();
-        public static List<string> tmpfrenchmatsnames = new();
         #region Шрифты
         public static bool AddFrenchFont(string path)
         {
             if (File.Exists(path))
             {
-                bool result1 = false;
-                bool result2 = false;
                 bool __result = false;
                 var AllAssets = AssetBundle.LoadFromFile(path).LoadAllAssets();
                 foreach (var Asset in AllAssets)
@@ -36,23 +34,9 @@ namespace LimbusCompanyFR
                         TryCastFontAsset.hideFlags |= HideFlags.HideAndDontSave;
                         tmpfrenchfonts.Add(TryCastFontAsset);
                         tmpfrenchfontsnames.Add(TryCastFontAsset.name);
-                        result1 = true;
-                    }
-                    var TryCastMaterial = Asset.TryCast<Material>();
-                    if (TryCastMaterial)
-                    {
-
-                        UnityEngine.Object.DontDestroyOnLoad(TryCastMaterial);
-                        TryCastMaterial.hideFlags |= HideFlags.HideAndDontSave;
-                        tmpfrenchmats.Add(TryCastMaterial);
-                        tmpfrenchmatsnames.Add(TryCastMaterial.name);
-                        result2 = true;
-                    }
-
-                    if (result1 = result2)
                         __result = true;
+                    }
                 }
-
                 return __result;
             }
             return false;
@@ -62,27 +46,7 @@ namespace LimbusCompanyFR
             fontAsset = null;
             if (tmpfrenchfonts.Count == 0)
                 return false;
-            if (fontname == "BebasKai SDF" || fontname == "Liberation Sans SDF")
-            {
-                fontAsset = GetFrenchFonts(0);
-                return true;
-            }
-            if (fontname == "Caveat Semibold SDF")
-            {
-                fontAsset = GetFrenchFonts(1);
-                return true;
-            }
-            if (fontname == "ExcelsiorSans SDF")
-            {
-                fontAsset = GetFrenchFonts(2);
-                return true;
-            }
-            if (fontname.StartsWith("Corporate-Logo-Bold") || fontname == "Mikodacs SDF" || fontname == "KOTRA_BOLD SDF")
-            {
-                fontAsset = GetFrenchFonts(3);
-                return true;
-            }
-            if (fontname == "Pretendard-Regular SDF" || fontname.StartsWith("HigashiOme - Gothic - C") || fontname.StartsWith("SCDream"))
+            if (fontname == "Pretendard-Regular SDF" || fontname.StartsWith("HigashiOme-Gothic-C") || fontname == "SCDream5 SDF")
             {
                 fontAsset = GetFrenchFonts(4);
                 return true;
@@ -96,102 +60,66 @@ namespace LimbusCompanyFR
                 idx = Count;
             return tmpfrenchfonts[idx];
         }
-        public static Material GetFrenchMats(int idx)
-        {
-            int Count = tmpfrenchmats.Count - 1;
-            if (Count < idx)
-                idx = Count;
-            return tmpfrenchmats[idx];
-        }
-
         public static bool IsFrenchFont(TMP_FontAsset fontAsset)
         {
             return tmpfrenchfontsnames.Contains(fontAsset.name);
         }
-
-        public static bool IsFrenchMat(Material matAsset)
+        static void AddFallbackFont(TMP_FontAsset fontAsset, TMP_FontAsset fallbackFont)
         {
-            return tmpfrenchmatsnames.Contains(matAsset.name);
+            if (!fontAsset.fallbackFontAssetTable.Contains(fallbackFont))
+            {
+                fontAsset.fallbackFontAssetTable.Add(fallbackFont);
+                fontAsset.SetDirty();
+            }
+        }
+        public static void RemovePretendard(TMP_FontAsset fontAsset)
+        {
+            TMP_FontAsset pretendard = Resources.Load<TMP_FontAsset>("Font/EN/Pretendard/Pretendard-Regular SDF");
+            fontAsset.fallbackFontAssetTable.Remove(pretendard);
+        }
+        public static void RemoveLiberation(TMP_FontAsset fontAsset)
+        {
+            TMP_FontAsset liberation = Resources.Load<TMP_FontAsset>("Fonts & Materials/LiberationSans SDF");
+            fontAsset.fallbackFontAssetTable.Remove(liberation);
         }
         [HarmonyPatch(typeof(TMP_Text), nameof(TMP_Text.font), MethodType.Setter)]
         [HarmonyPrefix]
-        private static bool set_font(TMP_Text __instance, ref TMP_FontAsset value)
+        public static bool Set_font(TMP_Text __instance, ref TMP_FontAsset value)
         {
+            switch (value.name)
+            {
+                case "BebasKai SDF":
+                    AddFallbackFont(value, tmpfrenchfonts[0]);
+                    return true;
+                case "ExcelsiorSans SDF":
+                    RemovePretendard(value);
+                    RemoveLiberation(value);
+                    AddFallbackFont(value, tmpfrenchfonts[2]);
+                    return true;
+                case "Mikodacs SDF":
+                case "KOTRA_BOLD SDF":
+                    RemovePretendard(value);
+                    AddFallbackFont(value, tmpfrenchfonts[3]);
+                    return true;
+                case "SCDream5 SDF":
+                    AddFallbackFont(value, tmpfrenchfonts[4]);
+                    return true;
+            }
             if (IsFrenchFont(__instance.m_fontAsset))
                 return false;
-            string fontname = __instance.m_fontAsset.name;
-            if (GetFrenchFonts(fontname, out TMP_FontAsset font))
-            {
-                if ((__instance.fontMaterial.name.StartsWith("Mikodacs SDF UnderLine") || __instance.fontMaterial.name.StartsWith("Mikodacs SDF UnderLine (Instance)") || __instance.fontMaterial.name.StartsWith("Mikodacs SDF IntroduceCharacter") || __instance.fontMaterial.name.Contains("KOTRA_BOLD SDF Underline") || __instance.fontMaterial.name.Contains("Mikodacs SDF InformationEgoTabShadow") || __instance.fontMaterial.name.Contains("KOTRA_BOLD SDF InfomationEgoTabShadow  Material") && (!__instance.fontMaterial.name.Contains("Mikodacs SDF Burning_ver3") && !__instance.fontMaterial.name.Contains("KOTRA_BOLD SDF Burnning_ver_3"))))
-                {
-                    if (__instance.fontMaterial.IsKeywordEnabled("UNDERLAY_ON") && (!__instance.fontMaterial.name.Contains("Mikodacs SDF CommonGlow") || !__instance.fontMaterial.name.Contains("KOTRA_BOLD SDF CommonGlow") || !__instance.fontMaterial.name.Contains("Mikodacs SDF GreenGlow") || !__instance.fontMaterial.name.Contains("KOTRA_BOLD SDF GreenGlow")))
-                    {
-                        __instance.GetComponentInChildren<TextMeshProLanguageSetter>().enabled = false;
-                        if (!premat.ContainsKey(__instance))
-                        {
-                            premat[__instance] = __instance.fontMaterial;
-                        }
-                    }
-                }
+            var fontname = __instance.m_fontAsset.name;
+            if (GetFrenchFonts(fontname, out var font))
                 value = font;
-            }
             return true;
         }
-        public static Dictionary<TMP_Text, Material> premat = new Dictionary<TMP_Text, Material>();
         [HarmonyPatch(typeof(TMP_Text), nameof(TMP_Text.fontMaterial), MethodType.Setter)]
         [HarmonyPrefix]
-        static void set_fontMaterialUnderlay(TMP_Text __instance, ref Material value)
+        public static void Set_fontMaterial(TMP_Text __instance, ref Material value)
         {
             if (IsFrenchFont(__instance.m_fontAsset))
             {
-                value = __instance.m_fontAsset.material;
-                if (premat.ContainsKey(__instance))
-                {
-                    if (CloneMat == null)
-                    {
-                        CloneMat = UnityEngine.Object.Instantiate(__instance.m_fontAsset.material);
-                    }
-                    Color f1 = new Color(0.01568628f, 0, 0.003921569f, 1f);
-
-                    CloneMat.shader = Shader.Find("TextMeshPro/Distance Field");
-                    CloneMat.EnableKeyword("UNDERLAY_ON");
-                    CloneMat.SetColor("_UnderlayColor", f1);
-                    CloneMat.SetFloat("_UnderlayOffsetX", 0.75f);
-                    CloneMat.SetFloat("_UnderlayOffsetY", -1f);
-                    CloneMat.SetFloat("_UnderlayDilate", -0.03f);
-                    CloneMat.SetFloat("_UnderlaySoftness", 0);
-                    CloneMat.name = "Mikodacs OG SDF UnderLine Coded";
-                    value = CloneMat;
-                    Material pre = premat[__instance];
-                }
+                __instance.m_fontAsset.material = value;
             }
-        }
-        public static Material CloneMat;
-        [HarmonyPatch(typeof(TextMeshProLanguageSetter), nameof(TextMeshProLanguageSetter.UpdateTMP))]
-        [HarmonyPrefix]
-        private static bool UpdateTMP(TextMeshProLanguageSetter __instance, LOCALIZE_LANGUAGE lang)
-        {
-            FontInformation fontInformation = __instance._fontInformation.Count > 0 ? __instance._fontInformation[0] : null;
-            if (fontInformation == null)
-                return false;
-            if (fontInformation.fontAsset == null)
-                return false;
-            if (__instance._text == null)
-                return false;
-            var raw_fontAsset = fontInformation.fontAsset;
-            bool use_fr = GetFrenchFonts(raw_fontAsset.name, out var fr_fontAsset);
-
-            var fontAsset = use_fr ? fr_fontAsset : fontInformation.fontAsset;
-            var fontMaterial = use_fr ? fr_fontAsset.material : fontInformation.fontMaterial ?? fontInformation.fontAsset.material;
-
-            __instance._text.font = fontAsset;
-            __instance._text.fontMaterial = fontMaterial;
-            if (__instance._matSetter)
-            {
-                __instance._matSetter.defaultMat = fontMaterial;
-                __instance._matSetter.ResetMaterial();
-            }
-            return false;
         }
         [HarmonyPatch(typeof(TextMeshProLanguageSetter), nameof(TextMeshProLanguageSetter.Awake))]
         [HarmonyPrefix]
@@ -209,7 +137,7 @@ namespace LimbusCompanyFR
         private static void LoadRemote2(LOCALIZE_LANGUAGE lang)
         {
             var tm = TextDataManager.Instance;
-            TextDataManager.RomoteLocalizeFileList romoteLocalizeFileList = JsonUtility.FromJson<TextDataManager.RomoteLocalizeFileList>(AddressableManager.Instance.LoadAssetSync<TextAsset>("Assets/Resources_moved/Localize", "RemoteLocalizeFileList", null, null).Item1.ToString());
+            TextDataSet.RomoteLocalizeFileList romoteLocalizeFileList = JsonUtility.FromJson<TextDataSet.RomoteLocalizeFileList>(AddressableManager.Instance.LoadAssetSync<TextAsset>("Assets/Resources_moved/Localize", "RemoteLocalizeFileList", null, null).Item1.ToString());
             tm._uiList.Init(romoteLocalizeFileList.UIFilePaths);
             tm._characterList.Init(romoteLocalizeFileList.CharacterFilePaths);
             tm._personalityList.Init(romoteLocalizeFileList.PersonalityFilePaths);
@@ -309,13 +237,13 @@ namespace LimbusCompanyFR
             TextAsset textAsset = AddressableManager.Instance.LoadAssetSync<TextAsset>("Assets/Resources_moved/Story/Effect", scenarioID, null, null).Item1;
             if (!textAsset)
             {
-                LCB_EOMod.LogError("Story Unknown Error! Call Story: Dirty Hacker");
+                LCB_EOMod.LogError("Story Unknown Error! It's time to call the 'Dirty Hacker' Story");
                 scenarioID = "SDUMMY";
                 textAsset = AddressableManager.Instance.LoadAssetSync<TextAsset>("Assets/Resources_moved/Story/Effect", scenarioID, null, null).Item1;
             }
             if (!EO_Manager.Localizes.TryGetValue(scenarioID, out string text))
             {
-                LCB_EOMod.LogError("Story error! We can't find the FR story file, so we'll use EN story");
+                LCB_EOMod.LogError("Story error! We can't find the RU story file, so we'll use EN story instead");
                 text = AddressableManager.Instance.LoadAssetSync<TextAsset>("Assets/Resources_moved/Localize/en/StoryData", "EN_" + scenarioID, null, null).Item1.ToString();
             }
             string text2 = textAsset.ToString();
@@ -344,7 +272,7 @@ namespace LimbusCompanyFR
                     scenario.Scenarios.Add(new Dialog(num, new(), effectToken));
                     if (jSONNode.Count == 1)
                         continue;
-                    s--; 
+                    s--;
                     effectToken = jsonarray2[num + 1];
                 }
                 scenario.Scenarios.Add(new Dialog(num, jSONNode, effectToken));
@@ -363,38 +291,55 @@ namespace LimbusCompanyFR
         [HarmonyPrefix]
         private static bool GetTellerName(StoryAssetLoader __instance, string name, LOCALIZE_LANGUAGE lang, ref string __result)
         {
-            if (__instance._modelAssetMap.TryGetValueEX(name, out var scenarioAssetData))
-                __result = scenarioAssetData.krname ?? string.Empty;
+            __instance._modelAssetMap.TryGetValueEX(name, out var scenarioAssetData);
+            var model = nickNames.FirstOrDefault(_ => _.name == name);
+            __result = model.frname ?? scenarioAssetData.enname ?? string.Empty;
             return false;
         }
         [HarmonyPatch(typeof(StoryAssetLoader), nameof(StoryAssetLoader.GetTellerTitle))]
         [HarmonyPrefix]
         private static bool GetTellerTitle(StoryAssetLoader __instance, string name, LOCALIZE_LANGUAGE lang, ref string __result)
         {
-            if (__instance._modelAssetMap.TryGetValueEX(name, out var scenarioAssetData))
-                __result = scenarioAssetData.nickName ?? string.Empty;
+            __instance._modelAssetMap.TryGetValueEX(name, out var scenarioAssetData);
+            var model = nickNames.FirstOrDefault(_ => _.name == name);
+            __result = model.frNickName ?? scenarioAssetData.enNickName ?? string.Empty;
             return false;
         }
         private static bool LoadLocal(LOCALIZE_LANGUAGE lang)
         {
             var tm = TextDataManager.Instance;
-            TextDataManager.LocalizeFileList localizeFileList = JsonUtility.FromJson<TextDataManager.LocalizeFileList>(Resources.Load<TextAsset>("Localize/LocalizeFileList").ToString());
+            TextDataSet.LocalizeFileList localizeFileList = JsonUtility.FromJson<TextDataSet.LocalizeFileList>(Resources.Load<TextAsset>("Localize/LocalizeFileList").ToString());
             tm._loginUIList.Init(localizeFileList.LoginUIFilePaths);
             tm._fileDownloadDesc.Init(localizeFileList.FileDownloadDesc);
             tm._battleHint._dic.Clear();
             tm._battleHint.Init(localizeFileList.BattleHint);
             return false;
         }
-        [HarmonyPatch(typeof(TextDataManager), nameof(TextDataManager.LoadRemote))]
+        [HarmonyPatch(typeof(TextDataSet), nameof(TextDataSet.LoadLocal))]
         [HarmonyPrefix]
         private static void LoadRemote(ref LOCALIZE_LANGUAGE lang)
            => lang = LOCALIZE_LANGUAGE.EN;
+
+        //IT'S GAMBLING TIME
+        static LCB_French_Font()
+        {
+            var _jsonSerializerOptions = new JsonSerializerOptions(); _jsonSerializerOptions.Converters.Add(item: new NicknameDataEnumerableConverter());
+            _jsonSerializerOptions.Converters.Add(item: new NicknameDataConverter());
+            nickNames = JsonSerializer.Deserialize<System.Collections.Generic.IEnumerable<NicknameData>>(EO_Manager.Localizes["NickName"], _jsonSerializerOptions).ToArray();
+        }
+        public static List<ScenarioAssetData> assetData = JsonUtility.FromJson<ScenarioAssetDataList>(EO_Manager.Localizes["NickName"]).assetData;
+        static NicknameData[] nickNames;
+
+
         [HarmonyPatch(typeof(StoryData), nameof(StoryData.Init))]
         [HarmonyPostfix]
         private static void StoryDataInit(StoryData __instance)
         {
-            foreach (ScenarioAssetData scenarioAssetData in JsonUtility.FromJson<ScenarioAssetDataList>(EO_Manager.Localizes["NickName"]).assetData)
-                __instance._modelAssetMap._modelAssetMap[scenarioAssetData.name] = scenarioAssetData;
+
+            foreach (ScenarioAssetData data in assetData)
+            {
+                __instance._modelAssetMap._modelAssetMap[data.name] = data;
+            }
         }
         [HarmonyPatch(typeof(LoginSceneManager), nameof(LoginSceneManager.SetLoginInfo))]
         [HarmonyPostfix]
@@ -404,6 +349,7 @@ namespace LimbusCompanyFR
             __instance.tmp_loginAccount.text = "LimbusCompany Français v" + LCB_EOMod.VERSION + LCB_EOMod.VERSION_STATE;
             __instance.tmp_loginAccount.characterSpacing = -2;
             __instance.tmp_loginAccount.lineSpacing = -20;
+            __instance.tmp_loginAccount.font = GetFrenchFonts(4);
         }
         private static void Init<T>(this JsonDataList<T> jsonDataList, List<string> jsonFilePathList) where T : LocalizeTextData, new()
         {
@@ -417,7 +363,6 @@ namespace LimbusCompanyFR
                 }
             }
         }
-
         private static void AbEventCharDlgRootInit(this AbEventCharDlgRoot root, List<string> jsonFilePathList)
         {
             root._personalityDict = new();
@@ -454,7 +399,6 @@ namespace LimbusCompanyFR
                 jsonDataList[text.Split('_')[^1]] = localizeTextData;
             }
         }
-
         #endregion
         public static bool TryGetValueEX<TKey, TValue>(this Dictionary<TKey, TValue> dic, TKey key, out TValue value)
         {

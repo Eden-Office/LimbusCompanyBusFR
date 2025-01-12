@@ -95,6 +95,18 @@ namespace LimbusCompanyFR
             }
 
         }
+        public static Sprite GetReadmeSprites(string spriteName)
+        {
+            if (ReadmeSprites.TryGetValue(spriteName, out Sprite sprite))
+            {
+                return sprite;
+            }
+            else
+            {
+                LCB_EOMod.LogInfo($"Sprite with name '{spriteName}' not found! (ReadmeSprites)");
+                return null;
+            }
+        }
         public static void InitReadmeEventSprites()
         {
             ReadmeEventSprites = new Dictionary<string, Sprite>();
@@ -112,6 +124,18 @@ namespace LimbusCompanyFR
                 ReadmeEventSprites[fileNameWithoutExtension] = sprite;
             }
         }
+        public static Sprite GetReadmeEventSprites(string spriteName)
+        {
+            if (ReadmeEventSprites.TryGetValue(spriteName, out Sprite sprite))
+            {
+                return sprite;
+            }
+            else
+            {
+                LCB_EOMod.LogInfo($"Sprite with name '{spriteName}' not found! (ReadmeEventSprites)");
+                return null;
+            }
+        }
         public static void InitReadmeStorySprites()
         {
             ReadmeStorySprites = new Dictionary<string, Sprite>();
@@ -127,6 +151,18 @@ namespace LimbusCompanyFR
                 UObject.DontDestroyOnLoad(sprite);
                 sprite.hideFlags |= HideFlags.HideAndDontSave;
                 ReadmeStorySprites[fileNameWithoutExtension] = sprite;
+            }
+        }
+        public static Sprite GetReadmeStorySprites(string spriteName)
+        {
+            if (ReadmeStorySprites.TryGetValue(spriteName, out Sprite sprite))
+            {
+                return sprite;
+            }
+            else
+            {
+                LCB_EOMod.LogInfo($"Sprite with name '{spriteName}' not found! (ReadmeStorySprites)");
+                return null;
             }
         }
         public static void InitReadmeList()

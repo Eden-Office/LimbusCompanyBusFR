@@ -282,13 +282,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1~2 de [SinkingWhite] aléatoire<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige 1~2 de [SinkingWhite] aléatoire"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Perd 2~6 PSM<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Perd 2~6 PSM"
                 },
                 {
-                  "desc": "[OnSucceedAttack] À 0+ PSM, Réutilise cette Pièce (5 fois max par Capacité)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] À 0+ PSM, Réutilise cette Pièce (5 fois max par Capacité)"
                 }
               ]
             }
@@ -317,13 +317,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1~2 de [SinkingWhite] aléatoire<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige 1~2 de [SinkingWhite] aléatoire"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Perd 2~6 PSM<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Perd 2~6 PSM"
                 },
                 {
-                  "desc": "[OnSucceedAttack] À 0+ PSM, Réutilise cette Pièce (5 fois max par Capacité)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] À 0+ PSM, Réutilise cette Pièce (5 fois max par Capacité)"
                 }
               ]
             }
@@ -361,10 +361,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de [SinkingWhite] (Les Vivants)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige 4 de [SinkingWhite] (Les Vivants)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de [SinkingWhite] (Les Défunts)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige 4 de [SinkingWhite] (Les Défunts)"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige +3 de Compte de [Sinking]</style>"
@@ -377,21 +377,211 @@
           "level": 4,
           "name": "Solennelle Lamentation",
           "abName": "La Funéraille des Papillons Morts",
-          "desc": "[CantIdentify]\nCible aléatoirement\nSi la cible a moins de 0 PSM, inflige plus de dégâts pour chaque PSM de différence par rapport à 0 (+1% de dégâts pour chaque PSM manquant, 45% max)\nContre les cibles sans PSM : inflige +1% de dégâts supplémentaires pour chaque 2 de [Sinking] sur la cible (45% max)\n[EnemyKill] Regagne 5 PSM<style=\"highlight\"></style>",
+          "desc": "[CantIdentify]\nCible aléatoirement\nSi la cible a moins de 0 PSM, inflige plus de dégâts pour chaque PSM de différence par rapport à 0 (+1% de dégâts pour chaque PSM manquant, 45% max)\nContre les cibles sans PSM : inflige +1% de dégâts supplémentaires pour chaque 2 de [Sinking] sur la cible (45% max)\n[EnemyKill] Regagne 5 PSM",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 5 de [SinkingWhite] (Les Vivants)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige 5 de [SinkingWhite] (Les Vivants)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 5 de [SinkingWhite] (Les Défunts)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige 5 de [SinkingWhite] (Les Défunts)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Sinking]"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Si la cible a 50%- de PV, inflige des Dégâts de Peine égaux à \"Toutes\" les valeurs de [SinkingWhite] sur la cible\n- \"Toutes\" = la somme des Vivants et des Défunts sur la cible</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cauchemar de Noël",
+          "abName": "Lit Douillet",
+          "desc": "[EndSkill] À PV max, regagne 10 PSM à la Fin du Tour et gagne 1 de [Enhancement] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible est Déséquilibrée, en Bas Moral ou dans un état de Panique, inflige 1 de [Reduction] au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Cauchemar de Noël",
+          "abName": "Lit Douillet",
+          "desc": "<style=\"highlight\">Si la cible a moins de 0 PSM, inflige +1% de dégâts supplémentaires pour chaque PSM en-dessous de 0 (45% max)</style>\n[EndSkill] À PV max, regagne 10 PSM à la Fin du Tour et gagne 1 de [Enhancement] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Regagne (2 + plus haute Réson.)% des PV manquants sur soi (30% max par Capacité)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible est Déséquilibrée, en Bas Moral ou dans un état de Panique, inflige 1 de [Reduction] au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Cauchemar de Noël",
+          "abName": "Lit Douillet",
+          "desc": "Si la cible a moins de 0 PSM, inflige +1% de dégâts supplémentaires pour chaque PSM en-dessous de 0 (45% max)\n[EndSkill] À PV max, regagne <style=\"highlight\">15</style> PSM à la Fin du Tour et gagne 1 de [Enhancement] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Regagne (<style=\"highlight\">3</style> + plus haute Réson.)% des PV manquants sur soi (30% max par Capacité)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible est Déséquilibrée, en Bas Moral ou dans un état de Panique, inflige 1 de [Reduction] <style=\"highlight\">et de Vulnérabilité[TabExplain] à l’Affinité de la plus haute Réson.</style> au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120821,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cauchemar de Noël",
+          "abName": "Lit Douillet",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[BeforeAttack] Regagne 10 PV\n[EndSkill] À PV max, regagne 10 PSM à la Fin du Tour et gagne 1 de [Enhancement] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible est Déséquilibrée, en Bas Moral ou dans un état de Panique, inflige 1 de [Reduction] au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Cauchemar de Noël",
+          "abName": "Lit Douillet",
+          "desc": "[CantIdentify]\nCible aléatoirement\n<style=\"highlight\">Si la cible a moins de 0 PSM, inflige +1% de dégâts supplémentaires pour chaque PSM en-dessous de 0 (45% max)</style>\n[BeforeAttack] Regagne 10 PV\n[EndSkill] À PV max, regagne <style=\"highlight\">15</style> PSM à la Fin du Tour et gagne 1 de [Enhancement] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Regagne (2 + plus haute Réson.)% des PV manquants (30% max par Capacité)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible est Déséquilibrée, en Bas Moral ou dans un état de Panique, inflige 1 de [Reduction] au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Cauchemar de Noël",
+          "abName": "Lit Douillet",
+          "desc": "[CantIdentify]\nCible aléatoirement\nSi la cible a moins de 0 PSM, inflige +1% de dégâts supplémentaires pour chaque PSM en-dessous de 0 (45% max)\n[BeforeAttack] Regagne 10 PV\n[EndSkill] À PV max, regagne <style=\"highlight\">20</style> PSM à la Fin du Tour et gagne 1 de [Enhancement] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Regagne (<style=\"highlight\">3</style> + plus haute Réson.)% des PV manquants sur soi (30% max par Capacité)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible est Déséquilibrée, en Bas Moral ou dans un état de Panique, inflige 1 de [Reduction] <style=\"highlight\">et 2 de Vulnérabilité[TabExplain] à l’Affinité de la plus haute Réson.</style> au prochain tour"
                 }
               ]
             }

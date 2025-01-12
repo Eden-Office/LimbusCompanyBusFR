@@ -450,7 +450,7 @@
         {
           "level": 2,
           "name": "Activation 40S-2",
-          "desc": "[WhenUse] Consomme 5 de Compte de [Charge] pour gagner +1 de Puissance de Pièce<style=\"highlight\"></style>",
+          "desc": "[WhenUse] Consomme 5 de Compte de [Charge] pour gagner +1 de Puissance de Pièce",
           "coinlist": [
             {
               "coindescs": [
@@ -462,7 +462,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Charge]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Charge]"
                 }
               ]
             }
@@ -471,19 +471,19 @@
         {
           "level": 4,
           "name": "Activation 40S-2",
-          "desc": "[WhenUse] Consomme 5 de Compte de [Charge] pour gagner +1 de Puissance de Pièce<style=\"highlight\"></style>",
+          "desc": "[WhenUse] Consomme 5 de Compte de [Charge] pour gagner +1 de Puissance de Pièce",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Charge]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Charge]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Charge]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Charge]"
                 }
               ]
             }
@@ -513,7 +513,7 @@
         {
           "level": 2,
           "name": "Marque Photoélectrique",
-          "desc": "[WhenUse] À 5~9 de Compte de [Charge], consomme 2*(10 - Compte de [Charge] actuel)% PV pour augmenter le Compte de [Charge] à 10\n[WhenUse] Consomme 10 de Compte de [Charge] pour gagner +1 de Puissance de Pièce<style=\"highlight\"></style>",
+          "desc": "[WhenUse] À 5~9 de Compte de [Charge], consomme 2*(10 - Compte de [Charge] actuel)% PV pour augmenter le Compte de [Charge] à 10\n[WhenUse] Consomme 10 de Compte de [Charge] pour gagner +1 de Puissance de Pièce",
           "coinlist": [
             {},
             {
@@ -550,7 +550,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si cette unité a consommé du Compte de [Charge], inflige 2 de [DefenseDown]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Si cette unité a consommé du Compte de [Charge], inflige 2 de [DefenseDown]"
                 }
               ]
             },
@@ -616,14 +616,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne +([Charge] * 3) de Compte de [Charge] (9 max)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Gagne +([Charge] * 3) de Compte de [Charge] (9 max)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige de la [PhotoElectricity] égale à la [Charge] (3 max)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige de la [PhotoElectricity] égale à la [Charge] (3 max)"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 1 de [HitTakeDamageUp] pour chaque 2 de [Charge] (2 max)</style>"
@@ -1017,6 +1017,323 @@
                 },
                 {
                   "desc": "[EnemyKill] Regagne 15 PSM"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Répliquer",
+          "desc": "[WhenUse] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [Bullet]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [Bullet]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [Bullet]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Répliquer",
+          "desc": "[WhenUse] Gagne +2 de Compte de [Breath]\n<style=\"highlight\">[WhenUse] Gagne 1 de [Agility] au prochain tour (une fois par tour)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [Bullet]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Gagne +1 de Compte de [Breath]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [Bullet]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [Bullet]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Répliquer",
+          "desc": "[WhenUse] Gagne +2 de Compte de [Breath]\n[WhenUse] Gagne <style=\"highlight\">2</style> de [Agility] au prochain tour (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [Bullet]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [Bullet]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [Bullet]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tir à la Tête",
+          "desc": "[WhenUse] Gagne 3 de [Breath] et +1 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [Bullet]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [PenetrateTakeDamageUp] (2 fois par tour)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Tir à la Tête",
+          "desc": "<style=\"highlight\">Si cette unité est plus rapide que la cible, inflige +10% de dégâts supplémentaires pour chaque 1 de différence de Vitesse (30% max)</style>\n[WhenUse] Gagne 3 de [Breath] et +1 de Compte de [Breath]\n<style=\"highlight\">[WhenUse] Gagne 2 de [Agility] au prochain tour (une fois par tour)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [Bullet]"
+                },
+                {
+                  "desc": "<style=\"highlight\">+30% de Dégâts en Touche Critique</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [PenetrateTakeDamageUp] (2 fois par tour)"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Inflige 1 de [PenetrateTakeDamageUp] au prochain tour (une fois par tour)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Tir à la Tête",
+          "desc": "Si cette unité est plus rapide que la cible, inflige +10% de dégâts supplémentaires pour chaque 1 de différence de Vitesse <style=\"highlight\">(50% max)</style>\n[WhenUse] Gagne 3 de [Breath] et +<style=\"highlight\">2</style> de Compte de [Breath]\n[WhenUse] Gagne 2 de [Agility] au prochain tour (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [Bullet]"
+                },
+                {
+                  "desc": "<style=\"highlight\">+50%</style> de Dégâts en Touche Critique"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 de [PenetrateTakeDamageUp] (2 fois par tour)"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 1 de [PenetrateTakeDamageUp] au prochain tour (une fois par tour)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071103,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Viser dans l’Mille",
+          "desc": "[BeforeUse] Si cette unité possède [Bullet_LogicAtelier], active 'Cartouche de Pulvérisation HV-AL' à la place\nSi cette unité est plus rapide que la cible, inflige +10% de dégâts supplémentaires pour chaque 1 de différence de Vitesse (50% max)\n[WhenUse] Gagne 5 de [Breath]\n[WhenUse] Consomme toute [LogicAtelierAM] sur soi, gagne (valeur consommée * 2) de Puissance de Calme et inflige +(valeur consommée * 12.5)% de dégâts supplémentaires",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [Bullet]"
+                },
+                {
+                  "desc": "+50% de Dégâts en Touche Critique"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] À plus de 30 de Puissance de [Breath], consomme jusqu’à 10 de Puissance de [Breath] sur 30 pour infliger +(Puissance de [Breath] consommée * 10)% de dégâts supplémentaires"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Viser dans l’Mille",
+          "desc": "[BeforeUse] Si cette unité possède [Bullet_LogicAtelier], active 'Cartouche de Pulvérisation HV-AL' à la place\nSi cette unité est plus rapide que la cible, inflige +10% de dégâts supplémentaires pour chaque 1 de différence de Vitesse (50% max)\n[WhenUse] Gagne 5 de [Breath]\n[WhenUse] Consomme toute [LogicAtelierAM] sur soi, gagne (valeur consommée * 2) de Puissance de Calme et inflige +(valeur consommée * 12.5)% de dégâts supplémentaires\n<style=\"highlight\">[EndSkill] Gagne +2 de Compte de [Breath]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [Bullet]"
+                },
+                {
+                  "desc": "<style=\"highlight\">+80%</style> de Dégâts en Touche Critique"
+                },
+                {
+                  "desc": "<style=\"highlight\">+(Rés. Perçante de la cible * 50)% de Dégâts en Touche Critique</style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] À plus de 30 de Puissance de [Breath], consomme jusqu’à 10 de Puissance de [Breath] sur 30 pour infliger +(Puissance de [Breath] consommée * 10)% de dégâts supplémentaires"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Calme Combatif",
+          "desc": "Début du Tour : à 0 Munition, cette Capacité active 'Mise à Couvert' à la place\n[WhenUse] Si Rep. du Bureau du Point Final Hong Lu est sur le terrain, demande du [MeleeCover] à cette unité (une fois par tour)\n[EndBattle] Gagne 1 de [LogicAtelierAM] au prochain tour (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": []
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Calme Combatif",
+          "desc": "Début du Tour : à 0 Munition, cette Capacité active 'Mise à Couvert' à la place\n[WhenUse] Si Rep. du Bureau du Point Final Hong Lu est sur le terrain, demande du [MeleeCover] à cette unité (une fois par tour)\n<style=\"highlight\">[OnSucceedEvade] Gagne 3 de [Breath] (3 fois par tour)</style>\n[EndBattle] Gagne 1 de [LogicAtelierAM] au prochain tour (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071105,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Cartouche de Pulvérisation HV-AL",
+          "desc": "Si cette unité est plus rapide que la cible, inflige +10% de dégâts supplémentaires pour chaque 1 de différence de Vitesse (50% max)\n[WhenUse] Gagne 5 de [Breath]\n[WhenUse] Consomme toute [LogicAtelierAM] sur soi, gagne (valeur consommée * 2) de Puissance de [Breath] et inflige +(valeur consommée * 25)% de dégâts supplémentaires",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [Bullet_LogicAtelier]"
+                },
+                {
+                  "desc": "+100% de Dégâts en Touche Critique"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] À plus de 30 de Puissance de [Breath], consomme jusqu’à 10 de Puissance de [Breath] sur 30 pour infliger +(Puissance de [Breath] consommée * 10)% de dégâts supplémentaires"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Cartouche de Pulvérisation HV-AL",
+          "desc": "Si cette unité est plus rapide que la cible, inflige +10% de dégâts supplémentaires pour chaque 1 de différence de Vitesse (50% max)\n[WhenUse] Gagne 5 de [Breath]\n[WhenUse] Consomme toute [LogicAtelierAM] sur soi, gagne (valeur consommée * 2) de Puissance de [Breath] et inflige +(valeur consommée * 25)% de dégâts supplémentaires\n<style=\"highlight\">[EndSkill] Gagne +5 de Compte de [Breath]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [Bullet_LogicAtelier]"
+                },
+                {
+                  "desc": "<style=\"highlight\">+130%</style> de Dégâts en Touche Critique"
+                },
+                {
+                  "desc": "<style=\"highlight\">+(Rés. Perçante de la cible * 50)% de Dégâts en Touche Critique</style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] À plus de 30 de Puissance de [Breath], consomme jusqu’à 10 de Puissance de [Breath] sur 30 pour infliger +(Puissance de [Breath] consommée * 10)% de dégâts supplémentaires"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071106,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Mise à Couvert",
+          "desc": "[CanDuelGuard]\n[WhenUse] Si Rep. du Bureau du Point Final Hong Lu est sur le terrain, demande du [MeleeCover] à cette unité (une fois par tour)\n[EndBattle] Gagne 1 de [LogicAtelierAM] au prochain tour (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Mise à Couvert",
+          "desc": "[CanDuelGuard]\n[WhenUse] Si Rep. du Bureau du Point Final Hong Lu est sur le terrain, demande du [MeleeCover] à cette unité (une fois par tour)\n<style=\"highlight\">[WinDuel] Inflige 1 de [PenetrateResistDown] (une fois par tour)</style>\n[EndBattle] Gagne 1 de [LogicAtelierAM] au prochain tour (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
                 }
               ]
             }

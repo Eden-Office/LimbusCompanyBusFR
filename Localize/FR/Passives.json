@@ -1843,7 +1843,7 @@
     {
       "id": 1031001,
       "name": "Festin Sanglant",
-      "desc": "Si cette unité est sur le terrain, ou est l’une des unités qui peut apparaître sur ce Niveau, augmente la valeur de [BloodDinner] par la quantité de dégâts de [Laceration] reçu collectivement par chaque unité.\nLorsque cette unité arrivera sur le terrain, le sang ensommeillé et baignant le champ de bataille s’élèvera au-dessus de la surface.\n\nEn consommant du [BloodDinner], s’il y a des Parents de <La Manchaland[TabExplain]> de la même génération que cette unité, cette unité est prioritaire.\n\nEn utilisant 'Arts Variants du Sang Durci[TabExplain] de Sancho 9 - Fouet', les PV ne peuvent pas tomber en-dessous de 1 suite à des dégâts de [Laceration]."
+      "desc": "Si cette unité est sur le terrain, ou est l’une des unités qui peut apparaître sur ce Niveau, augmente la valeur de [BloodDinner] par la quantité de dégâts de [Laceration] reçu collectivement par chaque unité.\nLorsque cette unité arrivera sur le terrain, le sang ensommeillé et baignant le champ de bataille s’élèvera au-dessus de la surface.\n\nEn consommant du [BloodDinner], s’il y a des Parents de <La Manchaland[TabExplain]> de la même génération que cette unité, cette unité est prioritaire.\n\nEn utilisant 'Arts Variants du Sang Durci[TabExplain] de Sancho 6 - Fouet', les PV ne peuvent pas tomber en-dessous de 1 suite à des dégâts de [Laceration]."
     },
     {
       "id": 1031002,
@@ -1864,6 +1864,51 @@
       "id": 1031021,
       "name": "“Nourissez votre faim réprimée, ma Famille”",
       "desc": "Début du Combat : 1 allié avec le moins de PV gagne 1 de [AttackDmgUp] pour chaque 20% de PV manquant (3 max)\n- Si cet allié est un <Démon de Sang>, gagne 1 de [AttackDmgUp] pour chaque 15% de PV manquant à la place (3 max)"
+    },
+    {
+      "id": 1061101,
+      "name": "Concentration",
+      "desc": "En lançant une Pièce qui consomme une [Bullet] : même lorsque cette unité est à court de [Bullet], l’attaque n’est pas annulée. Cependant, les effets En Touche des Pièces concernées ne s’activent pas."
+    },
+    {
+      "id": 1061102,
+      "name": "Soutien Tactique d’Arme à Feu",
+      "desc": "Si le Fixer du Bureau du Point Final Heathcliff est dnas un état de [Retreat_FullStop], ou a été Déployé comme unité de Renfort, renforce les Capacités 2 & 3 du Rep. du Bureau du Point Final Hong Lu"
+    },
+    {
+      "id": 1061111,
+      "name": "Soutien de Tir Tactique",
+      "desc": "Si le Fixer du Bureau du Point Final Heathcliff est dnas un état de [Retreat_FullStop], ou a été Déployé comme unité de Renfort, renforce les Capacités 2 & 3 du Rep. du Bureau du Point Final Hong Lu\n\nDébut du Combat : à 20+ de Puissance de [Breath], gagne +1 de Compte de [Breath]"
+    },
+    {
+      "id": 1061121,
+      "name": "Tir de Suppression",
+      "desc": "L’Identité Alliée avec le plus de [Bullet]s inflige +10% de dégâts supplémentaires avec les Capacités qui dépensent des [Bullet]s\n(Ne s’active pas lorsque à court de [Bullet])"
+    },
+    {
+      "id": 1071101,
+      "name": "Coup de Feu",
+      "desc": "Début de l’Affrontement : gagne 3 de [PenetrateResultUp]\n\nFin du Tour : si cette unité n’a plus la moindre [Bullet], active [Retreat_FullStop] (une fois par Affrontement)\n\nSi cette unité est Substituée ou rejoint le combat après [Retreat_FullStop], gagne le max de [LogicAtelierAM], 3 de [PenetrateResultUp] et [FullReload] (sauf [Bullet_LogicAtelier] ; une fois par Affrontement)"
+    },
+    {
+      "id": 1071102,
+      "name": "Visée Parfaite",
+      "desc": "Fin du Tour : gagne 1 de [Agility] au prochain tour pour chaque 10 de [Breath] sur soi (2 max)\n\nFin du Tour : si cette unité ne s’apprête pas à utiliser de Capacités d’Attaque (inclut les Capacités E.G.O., exclut [CoveringFire]), gagne 10 de [Breath] et 1 de [PenetrateResultUp] au prochain tour."
+    },
+    {
+      "id": 1071103,
+      "name": "Coup de Feu",
+      "desc": "Début de l’Affrontement : gagne 3 de [PenetrateResultUp]\n\nLorsque cette unité entre dans l’Affrontement, gagne 1 de [Bullet_LogicAtelier] (une fois par Affrontement)\n\nFin du Tour : si cette unité n’a plus la moindre [Bullet], active [Retreat_FullStop] (une fois par Affrontement)\n\nSi cette unité est Substituée ou rejoint le combat après [Retreat_FullStop], gagne le max de [LogicAtelierAM], 3 de [PenetrateResultUp] et [FullReload]\n(Sauf [Bullet_LogicAtelier] ; une fois par Affrontement)"
+    },
+    {
+      "id": 1071111,
+      "name": "Visée Parfaite",
+      "desc": "Fin du Tour : gagne 1 de [Agility] au prochain tour pour chaque 10 de [Breath] sur soi (2 max)\n\n<style=\"highlight\">Début du Combat : si cette unité ne s’apprête pas à utiliser de Capacités d’Attaque (inclut les Capacités E.G.O.), applique 3 de [Breath] à 1 allié avec le moins de Puissance de Calme</style>\n\nFin du Tour : si cette unité n’a pas utilisé de Capacités d’Attaque (inclut les Capacités E.G.O., exclut [CoveringFire]), gagne 10 de [Breath] et 1 de [PenetrateResultUp] au prochain tour"
+    },
+    {
+      "id": 1071121,
+      "name": "Guetteur",
+      "desc": "1 allié avec le moins de [Bullet] gagne +2 de Compte de [Breath] en utilisant une Capacité qui consomme une [Bullet].\n- Si cet allié est une Identité du Bureau du Point Final, ou si elle possède moins de 5 de Compte de [Breath], gagne +4 de Compte de [Breath] à la place (une fois par tour ; ne s’applique pas aux unités sans [Bullet])"
     }
   ]
 }

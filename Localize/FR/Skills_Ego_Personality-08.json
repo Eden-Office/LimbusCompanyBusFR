@@ -338,16 +338,16 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Curse]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige 1 de [Curse]"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttack] À Réson. de Peine de 4+, inflige 1 de [AzureTakeDamageUp]</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [UninvitedGuestPersonality]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige 2 de [UninvitedGuestPersonality]"
                 }
               ]
             }
@@ -368,10 +368,10 @@
                   "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> de [Curse]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] À Réson. de Peine de 4+, inflige 1 de [AzureTakeDamageUp]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] À Réson. de Peine de 4+, inflige 1 de [AzureTakeDamageUp]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [UninvitedGuestPersonality]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige 2 de [UninvitedGuestPersonality]"
                 }
               ]
             }
@@ -455,6 +455,196 @@
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige 2 de [EchoOfMansion] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cauchemar de Noël",
+          "abName": "Lit Douillet",
+          "desc": "[BeforeAttack] Gagne (plus haute Réson. +5) de Compte de [Vibration] (10 max)\n[EndSkill] Si une cible est Déséquilibrée, en Bas Moral ou dans un état de Panique, regagne 10 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +5 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Cauchemar de Noël",
+          "abName": "Lit Douillet",
+          "desc": "<style=\"highlight\">Si la cible a moins de 0 PSM, inflige +1% de dégâts supplémentaires pour chaque PSM en-dessous de 0 (45% max)</style>\n[BeforeAttack] Gagne (plus haute Réson. +5) de Compte de [Vibration] (10 max)\n[EndSkill] Si une cible est Déséquilibrée, en Bas Moral ou dans un état de Panique, regagne 10 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +5 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible n’est pas Déséquilibrée, en Bas Moral ou dans un état de Panique, inflige 5 de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible n’est pas Déséquilibrée, en Bas Moral ou dans un état de Panique, déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Cauchemar de Noël",
+          "abName": "Lit Douillet",
+          "desc": "Si la cible a moins de 0 PSM, inflige +1% de dégâts supplémentaires pour chaque PSM en-dessous de 0 (45% max)\n[BeforeAttack] Gagne (plus haute Réson. +5) de Compte de [Vibration] (10 max)\n[EndSkill] Si une cible est Déséquilibrée, en Bas Moral ou dans un état de Panique, regagne 10 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +5 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible n’est pas Déséquilibrée, en Bas Moral ou dans un état de Panique, inflige 5 de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible n’est pas Déséquilibrée, en Bas Moral ou dans un état de Panique, déclenche un [VibrationExplosion] <style=\"highlight\">deux fois</style> ; puis, réduit le Compte de [Vibration] de la cible de 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080821,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cauchemar de Noël",
+          "abName": "Lit Douillet",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[BeforeAttack] Gagne (plus haute Réson. +5) de Compte de [Vibration] (10 max)\n[BeforeAttack] Regagne 10 PV",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +5 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Cauchemar de Noël",
+          "abName": "Lit Douillet",
+          "desc": "[CantIdentify]\nCible aléatoirement\n<style=\"highlight\">Si la cible principale est Déséquilibrée, en Bas Moral ou dans un état de Panique, +1 de Puissance de Base</style>\n[BeforeAttack] Gagne (plus haute Réson. +5) de Compte de [Vibration] (10 max)\n[BeforeAttack] Regagne 10 PV\n<style=\"highlight\">[EndSkill] Regagne 5 PSM pour chaque ennemi Déséquilibré, en Bas Moral ou dans un état de Panique</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +5 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible n’est pas Déséquilibrée, en Bas Moral ou dans un état de Panique, inflige 5 de [Sinking] et +2 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible n’est pas Déséquilibrée, en Bas Moral ou dans un état de Panique, déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Cauchemar de Noël",
+          "abName": "Lit Douillet",
+          "desc": "[CantIdentify]\nCible aléatoirement\nSi la cible principale est Déséquilibrée, en Bas Moral ou dans un état de Panique, +<style=\"highlight\">2</style> de Puissance de Base\n[BeforeAttack] Gagne (plus haute Réson. +5) de Compte de [Vibration] (10 max)\n[BeforeAttack] Regagne 10 PV\n[EndSkill] Regagne 5 PSM pour chaque ennemi Déséquilibré, en Bas Moral ou dans un état de Panique",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +5 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible n’est pas Déséquilibrée, en Bas Moral ou dans un état de Panique, inflige 5 de [Sinking] et +2 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible n’est pas Déséquilibrée, en Bas Moral ou dans un état de Panique, déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible n’est pas Déséquilibrée, en Bas Moral ou dans un état de Panique, déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
                 }
               ]
             }

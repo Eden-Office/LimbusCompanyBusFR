@@ -230,6 +230,221 @@
           "simpleDesc": "Regagne des PSM, gagne du Bonus de Puissance de Duel et des ressources E.G.O. en arrivant en renfort"
         }
       ]
+    },
+    {
+      "id": 9759,
+      "name": "Lanterne Éteinte",
+      "desc": "[Les effets s’appliquent uniquement à l’Identité Déployée #7]\n\nGagne +1 de Compte de [Vibration] supplémentaire d’effets de Capacité ou de Pièce\n\n- Si la cible est Déséquilibrée, en Bas Moral ou dans un état de Panique, en gagne +2 à la place",
+      "simpleDesc": [
+        {
+          "abilityID": 9759,
+          "simpleDesc": "Gagne plus de Compte de [Vibration] avec les effets de Capacité ou de Pièce"
+        }
+      ]
+    },
+    {
+      "id": 9760,
+      "name": "Chandelier Éteint",
+      "desc": "[Les effets s’appliquent uniquement à l’Identité Déployée #1]\n\nS’il y a des ennemis Déséquilibrés, en Bas Moral ou en état de Panique au Début du Tour, inflige 1 de [AttackDown] ou 1 de [DefenseDown] à tous les ennemis. (3 fois par tour)\n\nEn Touche sur un ennemi Déséquilibré, en Bas Moral ou en état de Panique : inflige 1 de [AttackDown] ou 1 de [DefenseDown] (3 fois par tour)",
+      "simpleDesc": [
+        {
+          "abilityID": 9760,
+          "simpleDesc": "Inflige 1 de [AttackDown] ou 1 de [DefenseDown]"
+        },
+        {
+          "abilityID": 97601,
+          "simpleDesc": "Inflige 1 de [AttackDown] ou 1 de [DefenseDown]"
+        }
+      ]
+    },
+    {
+      "id": 9761,
+      "name": "Monstre de l’Ombre",
+      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées #1, #2, #7 et #8]\n\nGagne +1 de Compte de [Vibration] supplémentaire d’effets de Capacité & de Pièce\n  - Si la cible est Déséquilibrée, en Bas Moral ou dans un état de Panique, en gagne +2 à la place\n\nS’il y a des ennemis Déséquilibrés, en Bas Moral ou dans un état de Panique au Début du Tour, inflige 2 de [AttackDown] ou 2 de [DefenseDown] à tous les ennemis. (3 fois par tour)\n\nEn Touche sur des ennemis Déséquilibrés, en Bas Moral ou en état de Panique : inflige 1 de [AttackDown] ou 1 de [DefenseDown] (3 fois par tour entre toutes les Identités)",
+      "simpleDesc": [
+        {
+          "abilityID": 9761,
+          "simpleDesc": "Gagne plus de Compte de [Vibration] avec les effets de Capacité ou de Pièce"
+        },
+        {
+          "abilityID": 97611,
+          "simpleDesc": "Inflige 1 de [AttackDown] ou 1 de [DefenseDown]"
+        },
+        {
+          "abilityID": 97612,
+          "simpleDesc": "Inflige 1 de [AttackDown] ou 1 de [DefenseDown]"
+        }
+      ]
+    },
+    {
+      "id": 9762,
+      "name": "Boîte d’Emballage",
+      "desc": "En Touche de Capacités alliées) Choisi aléatoirement l’un des effets suivants : [Combustion], [Laceration], [Vibration], [Burst] et [Sinking], inflige ensuite 1 de Puissance de l’effet choisi (3 fois par tour)\n\nAprès qu’un allié ait tué) Choisi aléatoirement l’un des effets suivants : Compte de [Breath], Compte de [Charge], [Agility], [AttackUp] et [DefenseUp], inflige ensuite 1 de l’effet choisi à un allié aléatoire (3 fois par tour)",
+      "simpleDesc": [
+        {
+          "abilityID": 9762,
+          "simpleDesc": "Inflige un debuff aléatoire"
+        },
+        {
+          "abilityID": 97621,
+          "simpleDesc": "Gagne un buff aléatoire"
+        }
+      ]
+    },
+    {
+      "id": 9763,
+      "name": "Ruban d’Emballage",
+      "desc": "Début du Tour : choisi aléatoirement l’un des effets 'Bonus de DGT de Colère ~ Envie' et applique 1 Instance à tous les alliés\n\nDébut du Tour : choisi aléatoirement l’un des effets 'Vulnérabilité de Colère ~ Envie' et inflige 1 Instance à tous les ennemis",
+      "simpleDesc": [
+        {
+          "abilityID": 9763,
+          "simpleDesc": "Gagne un effet de Bonus de DGT d’Affinité aléatoire"
+        },
+        {
+          "abilityID": 97631,
+          "simpleDesc": "Inflige de la 'Vulnérabilité' à une Affinité aléatoire"
+        }
+      ]
+    },
+    {
+      "id": 9764,
+      "name": "Cadeau",
+      "desc": "Lorsqu’un allié touche avec une Capacité, choisi aléatoirement 2 des effets suivants : [Combustion], [Laceration], [Vibration], [Burst] et [Sinking], inflige ensuite 1 de Puissance de l’effet choisi (3 fois par tour)\n\nLorsqu’un allié touche avec une Capacité, choisi aléatoirement l’un des effets suivants : Compte de [Breath], Compte de [Charge], [Agility], [AttackUp] et [DefenseUp], inflige ensuite 1 de l’effet choisi à 2 alliés aléatoires (3 fois par tour)\n\nDébut du Tour : choisi aléatoirement 2 des effets 'Bonus de DGT de Colère ~ Envie' et applique 1 Instance à tous les alliés\n\nDébut du Tour : choisi aléatoirement 2 des effets 'Vulnérabilité de Colère ~ Envie' et inflige 1 Instance à tous les ennemis",
+      "simpleDesc": [
+        {
+          "abilityID": 9764,
+          "simpleDesc": "Inflige un debuff aléatoire"
+        },
+        {
+          "abilityID": 97641,
+          "simpleDesc": "Gagne un buff aléatoire"
+        },
+        {
+          "abilityID": 97642,
+          "simpleDesc": "Gagne un effet de Bonus de DGT d’Affinité aléatoire"
+        }
+      ]
+    },
+    {
+      "id": 9765,
+      "name": "Peluche Joyeuse",
+      "desc": "Gagne 2 de Puissance de [Breath] au prochain tour selon le nombre de Capacités d’Attaque alliées ayant infligé des dégâts d’ici la Fin du Tour\n- En Affrontement Concentré, gagne 4 de Puissance de [Breath] à la place.\n\nDébut du Tour : applique 2 de [Breath], +2 de Compte de [Breath] et 2 de [Protection] à l’allié avec le moins de PV.\n\nInflige +(valeur absolue de PSM)% de dégâts supplémentaires. (0% min)\n\nLorsqu’un allié avec des Capacités à Pièces Positives se remet de Déséquilibre, regagne tous ses PSM. (Ne s’active pas lorsque Érodé)\n\nPour un allié avec des Capacités à Pièces Négatives : gagne 5 de [Paralysis] au Début du Tour.",
+      "simpleDesc": [
+        {
+          "abilityID": 9765,
+          "simpleDesc": "Gagne de la Puissance de Calme"
+        },
+        {
+          "abilityID": 97651,
+          "simpleDesc": "Applique un buff aléatoire"
+        },
+        {
+          "abilityID": 97652,
+          "simpleDesc": "Applique du [Breath] et de la [Protection]"
+        },
+        {
+          "abilityID": 97653,
+          "simpleDesc": "Inflige plus de dégâts"
+        },
+        {
+          "abilityID": 97654,
+          "simpleDesc": "Regagne tous les PSM"
+        },
+        {
+          "abilityID": 97655,
+          "simpleDesc": "Gagne de la [Paralysis]"
+        }
+      ]
+    },
+    {
+      "id": 9766,
+      "name": "Renouvellement Implicite de Contrat",
+      "desc": "S’il n’y a aucune [RequestedTarget] vivante, inflige l’effet [RequestedTarget] au premier ennemi attaqué par un allié. (Une fois par tour)",
+      "simpleDesc": [
+        {
+          "abilityID": 9766,
+          "simpleDesc": "Inflige [RequestedTarget]"
+        }
+      ]
+    },
+    {
+      "id": 9767,
+      "name": "Pipe de Flamme Sombre",
+      "desc": "[Les effets s’appliquent uniquement à l’Identité Déployée #1]\n\nGagne 2 de [Enhancement] et 1 de [Vulnerable] à chaque tour\n\nSi la cible principale a actuellement un Niveau Défensif diminué, gagne 5 de [Breath] avant l’attaque\n\nLes Capacités Perçantes d’Orgueil infligent +(50 / # de Pièces)% de dégâts supplémentaires (inclut les E.G.O.)",
+      "simpleDesc": [
+        {
+          "abilityID": 9767,
+          "simpleDesc": "Gagne du [Enhancement] et de la [Vulnerable]"
+        },
+        {
+          "abilityID": 97671,
+          "simpleDesc": "Gagne du [Breath]"
+        },
+        {
+          "abilityID": 97672,
+          "simpleDesc": "Capacités Perçantes infligent plus de dégâts"
+        }
+      ]
+    },
+    {
+      "id": 9768,
+      "name": "Flingue",
+      "desc": "Si la cible a 1.5 de Résistance Perçante ou moins, +0.3 de Résistance Perçante",
+      "simpleDesc": [
+        {
+          "abilityID": 9768,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9769,
+      "name": "Commandement Rapide",
+      "desc": "Fin du Tour : si un allié a battu en Retraite ce tour, 1 allié avec la plus grande Vitesse gagne 2 de [Enhancement] et 1 de [AttackDmgUp] au prochain Début de Tour\n\nDébut du Combat : si un allié a été Substitué pendant ce tour, les alliés qui ont Substitués gagnent 2 de [Enhancement] et 2 de [Endurance]",
+      "simpleDesc": [
+        {
+          "abilityID": 9769,
+          "simpleDesc": "Gagne du [Enhancement] et du [AttackDmgUp]"
+        },
+        {
+          "abilityID": 97691,
+          "simpleDesc": "Gagne du [Enhancement] et de la [Endurance]"
+        }
+      ]
+    },
+    {
+      "id": 9770,
+      "name": "Éclats de Rouage",
+      "desc": "Fin du Tour : si cette unité a du [Breath], gagne 2 de [DefenseUp] et 1 de [Endurance]\n\nSi cette unité a du [Breath], la première Pièce à toucher inflige +10% de dégâts supplémentaires\n\nSi cette Pièce touche critiquement, +20% de dégâts en Touche Critique",
+      "simpleDesc": [
+        {
+          "abilityID": 9770,
+          "simpleDesc": "Gagne du [DefenseUp] et de la [Endurance]"
+        },
+        {
+          "abilityID": 97701,
+          "simpleDesc": "Inflige plus de dégâts avec la première Pièce qui touche"
+        }
+      ]
+    },
+    {
+      "id": 9771,
+      "name": "Manuel de CàC",
+      "desc": "Si une Capacité qui dépense des [Bullet]s ne dépense pas de [Bullet], gagne 1 de [Enhancement] ce tour et au prochain tour (une fois par tour)\n\nEn gagnant une [Bullet], la Capacité 3 inflige +50% de dégâts supplémentaires ce tour et au prochain tour lorsque utilisé\n\nEn utilisant une Capacité qui dépense une [Bullet], gagne 3 de [Breath] et +1 de Compte de [Breath]",
+      "simpleDesc": [
+        {
+          "abilityID": 9771,
+          "simpleDesc": "Gagne de la [Enhancement]"
+        },
+        {
+          "abilityID": 97711,
+          "simpleDesc": "Capacité 3 inflige plus de dégâts"
+        },
+        {
+          "abilityID": 97712,
+          "simpleDesc": "Gagne de la Puissance et du Compte de [Breath]"
+        }
+      ]
     }
   ]
 }

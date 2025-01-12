@@ -1695,7 +1695,7 @@
     {
       "id": "FreischutzShotCount",
       "name": "Balle Magique",
-      "desc": "- Valeur Max. : 7\n- La valeur change selon les effets de certaines Capacités.\n- +{0} de Puissance de Base de la Capacité 3\n- +{1} de Puissance de Pièce de la Capacité 3"
+      "desc": "- Valeur Max. : 7\n- La valeur change selon les effets de certaines Capacités.\n- [Unique à E.G.O. de Lobotomy::Tir Enchanté Outis]\n· +{0} de Puissance de Base de la Capacité 3\n· +{1} de Puissance de Pièce de la Capacité 3"
     },
     {
       "id": "DarkFlame",
@@ -2280,6 +2280,81 @@
       "name": "Responsabilité",
       "desc": "- Valeur Max : 1\n- +1 de Puissance de Duel\n- Inflige +20% de dégâts supplémentaires\n- Subit +20% de dégâts supplémentaires",
       "summary": ""
+    },
+    {
+      "id": "FreishutzOutisEgoBullet_1st",
+      "name": "La Première Balle Magique",
+      "desc": "- Inflige +20% de dégâts supplémentaires\n- Augmente le Seuil de Déséquilibre de la cible des dégâts infligés (30 max)"
+    },
+    {
+      "id": "FreishutzOutisEgoBullet_2nd",
+      "name": "La Deuxième Balle Magique",
+      "desc": "- Inflige +10% de dégâts supplémentaires\n- Inflige des dégâts aux cibles autres que la cible principale (cibles max : 4) ; la cible principale subit 0 dégât\n- En Touche, inflige 3 de Paralysie"
+    },
+    {
+      "id": "FreishutzOutisEgoBullet_3rd",
+      "name": "La Troisième Balle Magique",
+      "desc": "- Inflige +20% de dégâts supplémentaires\n- Avant l’Attaque : gagne +2 de Poids d’Atq\n- En Touche, inflige 2 de Malus de Puissance d’Attaque et 10 de Brûlure"
+    },
+    {
+      "id": "FreishutzOutisEgoBullet_4th",
+      "name": "La Quatrième Balle Magique",
+      "desc": "- Inflige +30% de dégâts supplémentaires\n- Avant l’Attaque : gagne +3 de Poids d’Atq\n- En Touche, augmente le Seuil de Déséquilibre de la cible des dégâts infligés (20 max) ; puis, inflige 3 de Vulnérabilité au prochain tour"
+    },
+    {
+      "id": "FreishutzOutisEgoBullet_5th",
+      "name": "La Cinquième Balle Magique",
+      "desc": "- Inflige +30% de dégâts supplémentaires\n- Avant l’Attaque : gagne +4 de Poids d’Atq\n- En Touche, inflige 10 de Brûlure ; puis, inflige 4 de Malus de Niveau Offensif et 4 de Malus de Niveau Défensif au prochain tour"
+    },
+    {
+      "id": "FreishutzOutisEgoBullet_6th",
+      "name": "La Sixième Balle Magique",
+      "desc": "- Avant l’Attaque : gagne +6 de Poids d’Atq\n- En Touche, augmente le Seuil de Déséquilibre de la cible des dégâts infligés (30 max)\n- Réutilise la Pièce pour chaque 7 de Brûlure sur la cible principale (2 fois max)\n- -16 de Puissance de Base de Capacité à Pièce Positive\n- -22 de Puissance de Base de Capacité à Pièce Négative\n - -8 de Puissance de Pièce Positive\n - -12 de Puissance de Pièce Négative"
+    },
+    {
+      "id": "FreishutzOutisEgoBullet_7th",
+      "name": "La Septième Balle Magique",
+      "desc": "- Inflige +200% de dégâts supplémentaires\n- Inflige +2.5% de dégâts supplémentaires pour chaque 1% de PV manquant sur la cible (200% max)\n- Avant l’Attaque : pour cette attaque, si la Rés. au Dégâts Perçants de la cible ou sur soi est inférieure à 2.0, la rend Fatale (x2.0)\n- Après l’Attaque : tue cette unité"
+    },
+    {
+      "id": "FreishutzOutisEgoBulletCnt",
+      "name": "Balle du Tireur D’élite",
+      "desc": "Utilise une Munition différente selon la Balle du Tireur D’élite"
+    },
+    {
+      "id": "CoveringFire",
+      "name": "Cible Repérée",
+      "desc": "Si l’unité A applique cet effet à l’unité B : l’unité B effectue une Attaque à Sens-Unique avec sa Capacité 2 contre le même ennemi que l’unité A a attaqué avec sa Capacité. S’active à la Fin de l’Attaque de l’unité A.\n- La Capacité utilisée suite à cet effet n’affecte pas la liste de Capacités à venir de l’unité B."
+    },
+    {
+      "id": "FullReload",
+      "name": "Recharge",
+      "desc": "Perd toutes les Munitions actuellement possédées et les recharge entièrement."
+    },
+    {
+      "id": "Bullet_LogicAtelier",
+      "name": "Munition - Atelier Logic",
+      "desc": "Munition Unique\nMunition Spéciale de l’Atelier Logic\n- Le compte de cette Munition ne peut être gagné ou perdu suite à des effets externes"
+    },
+    {
+      "id": "Retreat_FullStop",
+      "name": "Mission de Surveillance",
+      "desc": "- Fin du Tour : se remet de Déséquilibre et bat en Retraite de l’Affrontement (à moins qu’il s’agisse d’un Déséquilibrage forcé ; ne compte pas comme une mort)\n· En Combats Chaînés, donne les Emplacements de cette unité à une unité Substituante et se place en dernière position de l’ordre de Déploiement des unités de Renfort (s’échappe entièrement de l’Affrontement s’il n’y a aucune Unité de Renfort restante avec qui changer de place au prochain tour. En revenant au combat, revient dans l’ordre d’où elle a battu en retraite)\n· En revenant au combat, revient avec la même quantité de PV et de PSM que cette unité avant en battant en retraite et élimine tous les effets sur soi pour certains (si cette unité avait moins de 0 PSM en battant en retraite, remet les PSM à 0 à la place)"
+    },
+    {
+      "id": "LogicAtelierAM",
+      "name": "Concentration [Sniper]",
+      "desc": "- Valeur Max : 4\n- Fin du Tour : gagne 1 de Valeur"
+    },
+    {
+      "id": "MeleeCover",
+      "name": "Soutien de Mêlée",
+      "desc": "- Si l’unité A applique cet effet à l’unité B : l’unité B effectue une Attaque à Sens-Unique avec la Capacité 'Soutien de Mêlée' contre le même ennemi ayant attaqué l’unité A. S’active à la Fin de Capacité de l’unité A.\n- La Capacité utilisée suite à l’effet 'Soutien de Mêlée' n’affecte pas la liste de Capacités à venir de l’unité B."
+    },
+    {
+      "id": "RequestedTarget",
+      "name": "Cible Demandée",
+      "desc": "+0.2 de Résistance aux Types d’Attaque avec 1.5 ou moins de Résistance. Si la cible avec cet effet est vaincu, gagne 1 ressource E.G.O. de toutes les Affinités et l’unité ayant vaincu la cible gagne 10 PSM"
     }
   ]
 }

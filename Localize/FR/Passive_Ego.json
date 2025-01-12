@@ -406,7 +406,7 @@
     {
       "id": 2030711,
       "name": "Fleurissement Pourpre Fléchissant",
-      "desc": "Chaque fois que 10 dégâts de [Laceration] ont lieu, se soigne de 1 PSM (10 par tour)"
+      "desc": "Chaque fois que 10+ dégâts de [Laceration] ont lieu, se soigne de 1 PSM (10 par tour)"
     },
     {
       "id": 2090711,
@@ -433,7 +433,22 @@
       "id": 2070811,
       "name": "Cloche Brisée",
       "desc": "Inflige de la [Vulnerable] ce tour aux ennemis touchés par un [VibrationExplosion] d’effets de Capacité, de Pièce ou de Passive.\n- Ne se cumule pas aux Dons E.G.O. qui infligent de la [Vulnerable] en déclenchant un Sursaut de Tremblement. (Si ces Dons E.G.O. ont été améliorés, soustrait la valeur de cet effet à la valeur finale avant de l’infliger.)",
-      "summary": "Inflige 1 de [Vulnerable] en déclenchant un [VibrationExplosion] "
+      "summary": "Inflige 1 de [Vulnerable] en déclenchant un [VibrationExplosion]"
+    },
+    {
+      "id": 2080811,
+      "name": "Un Regard dans l’Ombre",
+      "desc": "Les alliés gagnent +1 de Compte de [Vibration] supplémentaire d’effets de Capacité ou de Pièce (2 fois par tour)\n- Si la cible de l’allié est Déséquilibrée, en Bas Moral ou en état de Panique, gagne +2 à la place\n- L’effet ne se cumule pas avec des Dons E.G.O. ayant le même effet"
+    },
+    {
+      "id": 2120811,
+      "name": "Nuit Insomniaque",
+      "desc": "Début du Combat : contre tous les ennemis, inflige 1 de [AttackDown] ou 1 de [DefenseDown] à tous les ennemis (# d’ennemis Déséquilibrés, en Bas Moral ou en état de Panique) fois. (2 fois par tour)\n- L’effet ne se cumule pas avec des Dons E.G.O. ayant le même effet"
+    },
+    {
+      "id": 2110811,
+      "name": "Sept Balles",
+      "desc": "- En Touche avec des Capacités d’Attaque de Base : inflige ([FreischutzShotCount] / 3) de [Combustion] (3 fois par tour)\n- Pour l’Identité E.G.O. de Lobotomy::Tir Enchanté Outis, inflige ([FreischutzShotCount]) de [Combustion] à la place (3 fois par tour)\n- Si la cible a 30+ de [Combustion], inflige 1 de [DarkFlame] au lieu de l’effet ci-dessus (2 fois par tour)"
     }
   ]
 }

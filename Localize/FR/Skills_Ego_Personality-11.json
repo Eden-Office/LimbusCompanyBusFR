@@ -258,7 +258,7 @@
                   "desc": "[OnSucceedAttackTail] Déclenche un [VibrationExplosion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion]"
                 }
               ]
             }
@@ -285,10 +285,10 @@
                   "desc": "[OnSucceedAttackTail] Déclenche un [VibrationExplosion]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Déclenche un [VibrationExplosion]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackTail] Déclenche un [VibrationExplosion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion]"
                 }
               ]
             }
@@ -335,7 +335,7 @@
                   "desc": "[OnSucceedAttack] Gagne 1 de [Agility] et 1 de [ChargeLoad] au prochain tour pour chaque [Charge] (<style=\"highlight\">2</style> max de chaque par Capacité)"
                 },
                 {
-                  "desc": "[EnemyKill] Gagne +2 de Compte de [Charge]<style=\"highlight\"></style>"
+                  "desc": "[EnemyKill] Gagne +2 de Compte de [Charge]"
                 }
               ]
             }
@@ -350,13 +350,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige ([Charge] - 1) de [DimensionRift] (2 max)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige ([Charge] - 1) de [DimensionRift] (2 max)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Gagne 1 de [Agility] et 1 de [ChargeLoad] au prochain tour pour chaque [Charge] (<style=\"highlight\">3</style> max de chaque par Capacité)"
                 },
                 {
-                  "desc": "[EnemyKill] Gagne +2 de Compte de [Charge]<style=\"highlight\"></style>"
+                  "desc": "[EnemyKill] Gagne +2 de Compte de [Charge]"
                 }
               ]
             }
@@ -397,13 +397,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige ([Charge] - 1) de [DimensionRift] (2 max)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige ([Charge] - 1) de [DimensionRift] (2 max)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Gagne 1 de [Agility] et 1 de [ChargeLoad] au prochain tour pour chaque [Charge] (2 max de chaque par Capacité)"
                 },
                 {
-                  "desc": "[EnemyKill] Gagne +2 de Compte de [Charge]<style=\"highlight\"></style>"
+                  "desc": "[EnemyKill] Gagne +2 de Compte de [Charge]"
                 }
               ]
             }
@@ -424,7 +424,131 @@
                   "desc": "[OnSucceedAttack] Gagne 1 de [Agility] et 1 de [ChargeLoad] au prochain tour pour chaque [Charge] (<style=\"highlight\">3</style> max de chaque par Capacité)"
                 },
                 {
-                  "desc": "[EnemyKill] Gagne +2 de Compte de [Charge]<style=\"highlight\"></style>"
+                  "desc": "[EnemyKill] Gagne +2 de Compte de [Charge]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2110811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tir Enchanté",
+          "abName": "Der Freischütz",
+          "desc": "Inflige +1% de dégâts supplémentaires pour chaque 3 de [Combustion] sur la cible (10% max)\n[BeforeAttack] À 0 [FreischutzShotCount], gagne 1 [FreischutzShotCount].\n- La valeur de [FreischutzShotCount] détermine la balle à tirer.\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] Gagne autant de [FreischutzShotCount] que de plus haute Réson. (1 min., 4 max)\n[EndSkill] Si la cible principale est vaincue, inflige 2 de [DarkFlame] à tous les ennemis avec [Combustion]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige autant de [Combustion] que de [FreischutzShotCount]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige autant de [DarkFlame] que de [FreischutzShotCount] (une fois par tour pour chaque unité)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Tir Enchanté",
+          "abName": "Der Freischütz",
+          "desc": "Inflige +<style=\"highlight\">2</style>% de dégâts supplémentaires pour chaque 3 de [Combustion] sur la cible (<style=\"highlight\">20</style>% max)\n[BeforeAttack] À 0 [FreischutzShotCount], gagne 1 [FreischutzShotCount].\n- La valeur de [FreischutzShotCount] détermine la balle à tirer.\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] Gagne autant de [FreischutzShotCount] que de plus haute Réson. (1 min., 4 max)\n[EndSkill] Si la cible principale est vaincue, inflige <style=\"highlight\">3</style> de [DarkFlame] à tous les ennemis avec [Combustion]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige autant de [Combustion] que de [FreischutzShotCount]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige autant de [DarkFlame] que de [FreischutzShotCount] (une fois par tour pour chaque unité)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Tir Enchanté",
+          "abName": "Der Freischütz",
+          "desc": "Inflige +<style=\"highlight\">3</style>% de dégâts supplémentaires pour chaque 3 de [Combustion] sur la cible (<style=\"highlight\">30</style>% max)\n[BeforeAttack] À 0 [FreischutzShotCount], gagne 1 [FreischutzShotCount].\n- La valeur de [FreischutzShotCount] détermine la balle à tirer.\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] Gagne autant de [FreischutzShotCount] que de plus haute Réson. (1 min., 4 max)\n[EndSkill] Si la cible principale est vaincue, inflige <style=\"highlight\">4</style> [DarkFlame] à tous les ennemis avec [Combustion]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige autant de [Combustion] que de [FreischutzShotCount]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige autant de [DarkFlame] que de [FreischutzShotCount] (une fois par tour pour chaque unité)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2110821,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tir Enchanté",
+          "abName": "Der Freischütz",
+          "desc": "[CantIdentify]\nCible aléatoirement\nInflige +1% de dégâts supplémentaires pour chaque 3 de [Combustion] sur la cible (10% max)\n[BeforeAttack] À 0 [FreischutzShotCount], gagne 1 [FreischutzShotCount].\n- La valeur de [FreischutzShotCount] détermine la balle à tirer.\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] Gagne autant de [FreischutzShotCount] que de plus haute Réson. (1 min., 4 max)\n[EndSkill] Si la cible principale est vaincue, inflige 3 [DarkFlame] à tous les ennemis avec [Combustion]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige autant de [Combustion] que de [FreischutzShotCount]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige autant de [DarkFlame] que de [FreischutzShotCount] (une fois par tour pour chaque unité)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Tir Enchanté",
+          "abName": "Der Freischütz",
+          "desc": "[CantIdentify]\nCible aléatoirement\nInflige +<style=\"highlight\">2</style>% de dégâts supplémentaires pour chaque 3 de [Combustion] sur la cible (<style=\"highlight\">20</style>% max)\n[BeforeAttack] À 0 [FreischutzShotCount], gagne 1 [FreischutzShotCount].\n- La valeur de [FreischutzShotCount] détermine la balle à tirer.\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] Gagne autant de [FreischutzShotCount] que de plus haute Réson. (1 min., 4 max)\n[EndSkill] Si la cible principale est vaincue, inflige <style=\"highlight\">5</style> [DarkFlame] à tous les ennemis avec [Combustion]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige autant de [Combustion] que de [FreischutzShotCount]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +([FreischutzShotCount] / 3) de Compte de [Combustion] (arrondi à l’inférieur)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige autant de [DarkFlame] que de [FreischutzShotCount] (une fois par tour pour chaque unité)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Tir Enchanté",
+          "abName": "Der Freischütz",
+          "desc": "[CantIdentify]\nCible aléatoirement\nInflige +<style=\"highlight\">3</style>% de dégâts supplémentaires pour chaque 3 de [Combustion] sur la cible (<style=\"highlight\">30</style>% max)\n[BeforeAttack] À 0 [FreischutzShotCount], gagne 1 [FreischutzShotCount].\n- La valeur de [FreischutzShotCount] détermine la balle à tirer.\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] Gagne autant de [FreischutzShotCount] que de plus haute Réson. (1 min., 4 max)\n[EndSkill] Si la cible principale est vaincue, inflige <style=\"highlight\">7</style> [DarkFlame] à tous les ennemis avec [Combustion]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige autant de [Combustion] que de [FreischutzShotCount]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +([FreischutzShotCount] / <style=\"highlight\">2</style>) de Compte de [Combustion] (arrondi à l’inférieur)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige autant de [DarkFlame] que de [FreischutzShotCount] (une fois par tour pour chaque unité)"
                 }
               ]
             }

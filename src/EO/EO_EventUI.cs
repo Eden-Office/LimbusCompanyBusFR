@@ -108,27 +108,6 @@ namespace LimbusCompanyFR
                 __instance._logoImage.GetComponentInChildren<Image>(true).overrideSprite = EO_ReadmeManager.ReadmeEventSprites["EO_WN3_Logo"];
             }
         }
-        [HarmonyPatch(typeof(Walpu3EventRewardPopup), nameof(Walpu3EventRewardPopup.Initialize))]
-        [HarmonyPostfix]
-        private static void ThirdWalpurgisReward(Walpu3EventUIPanel __instance)
-        {
-            GameObject thirdWalpurgisDate = GameObject.Find("[Canvas]RatioMainUI/[Rect]PopupRoot/[UIPopup]Walpu3_RewardEvent(Clone)/EventDescriptionPanel/[Text]EventPeriod");
-            if (thirdWalpurgisDate != null)
-            {
-                thirdWalpurgisDate.GetComponentInChildren<TextMeshProUGUI>(true).text = "04:00 02.05.2024 (JEU) - 02:00 24.05.2024 (JEU) (CET)";
-                thirdWalpurgisDate.GetComponentInChildren<TextMeshProUGUI>(true).font = LCB_French_Font.tmpfrenchfonts[0];
-                thirdWalpurgisDate.GetComponentInChildren<TextMeshProUGUI>(true).fontMaterial = LCB_French_Font.tmpfrenchfonts[0].material;
-            }
-            GameObject logoImage = GameObject.Find("[Canvas]RatioMainUI/[Rect]PopupRoot/[UIPopup]Walpu3_RewardEvent(Clone)/EventDescriptionPanel/[Image]LocalizeLogo");
-            if (logoImage != null)
-                logoImage.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.ReadmeEventSprites["EO_WN3_Logo"];
-            GameObject namePopup = GameObject.Find("[Canvas]RatioMainUI/[Rect]PopupRoot/[UIPopup]Walpu3_RewardEvent(Clone)/[Image]PopupNameTag/[Text]PopupName");
-            if (namePopup != null)
-            {
-                namePopup.GetComponentInChildren<UITextDataLoader>(true).enabled = false;
-                namePopup.GetComponentInChildren<TextMeshProUGUI>(true).text = "Missions";
-            }
-        }
         [HarmonyPatch(typeof(Walpu3EventRewardButton), nameof(Walpu3EventRewardButton.SetData))]
         [HarmonyPostfix]
         private static void ThirdWalpuClear_Init(Walpu3EventRewardButton __instance)
