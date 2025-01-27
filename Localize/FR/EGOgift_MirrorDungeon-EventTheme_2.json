@@ -445,6 +445,169 @@
           "simpleDesc": "Gagne de la Puissance et du Compte de [Breath]"
         }
       ]
+    },
+    {
+      "id": 9772,
+      "name": "Gants à Combustion",
+      "desc": "En Duel Gagné avec une Capacité d’Attaque de Base qui inflige de l’Intensité de [Combustion] ou une 'Brûlure Unique', inflige 2 d’Intensité de [Combustion] (2 fois par tour par Identité)\n\nEn Duel Gagné avec une Capacité d’Attaque de Base qui inflige du Compte de [Combustion], inflige +2 de Compte de [Combustion] (3 fois par tour par ennemi)\n\nCapacités d’Attaque de Base qui infligent de l’Intensité ou du Compte de [Combustion] ou une 'Brûlure Unique' : chaque Capacité gagne du Niveau Offensif égal au nombre de copies de chaque Capacité (3 max).\n- Si une Capacité a 3 copies ou plus, gagne 2 Niveaux Offensifs supplémentaires.",
+      "simpleDesc": [
+        {
+          "abilityID": 9772,
+          "simpleDesc": "Inflige de la [Combustion]"
+        },
+        {
+          "abilityID": 97721,
+          "simpleDesc": "Inflige du Compte de [Combustion]"
+        },
+        {
+          "abilityID": 97722,
+          "simpleDesc": "Gagne du Niveau Offensif"
+        }
+      ]
+    },
+    {
+      "id": 9773,
+      "name": "Bottes de Combat à Pointes",
+      "desc": "En Duel Gagné avec une Capacité d’Attaque de Base qui inflige de l’Intensité ou du Compte de [Burst] à un ennemi, inflige +3 de Compte de [Burst] (2 fois par tour par ennemi)\n\nEn Touche : si l’ennemi n’a pas de [Burst], les effets de Pièce qui infligent de l’Intensité de [Burst] infligent du Compte de [Burst] à la place (4 max ; 2 fois par tour par ennemi ; pour les Anomalies, pour chaque Partie)\n\nCapacités d’Attaque de Base qui infligent de l’Intensité ou du Compte de [Burst] : chaque Capacité gagne du Niveau Offensif égal au nombre de copies de chaque Capacité (3 max).\n- Si une Capacité a 3 copies ou plus, gagne 2 Niveaux Offensifs supplémentaires.",
+      "simpleDesc": [
+        {
+          "abilityID": 9773,
+          "simpleDesc": "Inflige du Compte de [Burst]"
+        },
+        {
+          "abilityID": 97731,
+          "simpleDesc": "Inflige du Compte de [Burst]"
+        },
+        {
+          "abilityID": 97732,
+          "simpleDesc": "Gagne du Niveau Offensif"
+        }
+      ]
+    },
+    {
+      "id": 9774,
+      "name": "Bougie de Rallumage",
+      "desc": "Capacités d’Attaque de Base qui infligent du Compte de [Combustion] : inflige +20% de dégâts supplémentaires et infligent +1 de Compte de [Combustion] supplémentaire. En Touche avec ces Capacités contre des ennemis avec [Combustion] ou une 'Brûlure Unique' : inflige 1 [DefenseDown] (2 fois par tour par Identité)\n\nIdentités dont toutes les Capacités d’Attaque de Base infligent de l’Intensité ou du Compte de [Combustion] ou une 'Brûlure Unique' : au Début du Tour, gagne du [AttackUp] égal au nombre de tour survécus (exclut le tour où elle a rejoint l’Affrontement ; 5 max)",
+      "simpleDesc": [
+        {
+          "abilityID": 9774,
+          "simpleDesc": "Inflige du [DefenseDown]"
+        },
+        {
+          "abilityID": 97741,
+          "simpleDesc": "Gagne du [AttackUp]"
+        },
+        {
+          "abilityID": 97742,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9775,
+      "name": "Stimulant Mk.4",
+      "desc": "En Touche avec la Pièce finale contre des ennemis avec 15 d’Intensité de [Burst] ou moins en utilisant une Capacité d’Attaque de Base qui inflige de l’Intensité ou du Compte de [Burst] : inflige +3 de Compte de [Burst] (une fois par tour par Identité)\n\nCapacités d’Attaque de Base qui infligent du Compte de [Burst] : +1 de Puissance de Duel, inflige +20% de dégâts supplémentaires",
+      "simpleDesc": [
+        {
+          "abilityID": 9775,
+          "simpleDesc": "Inflige du Compte de [Burst]"
+        },
+        {
+          "abilityID": 97751,
+          "simpleDesc": "Gagne de la Puissance de Duel et inflige plus de dégâts"
+        },
+        {
+          "abilityID": 97752,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9776,
+      "name": "Braises",
+      "desc": "Début du Tour : tous les ennemis (pour les Anomalies, toutes les Parties) avec 2~7 de Compte de [Combustion] gagnent 1~2 de Compte de [Combustion].\n\nLorsque des ennemis subissent 5 touches de Capacités d’Attaque alliées (inclut les Capacités E.G.O.) qui infligent de l’Intensité ou du Compte de [Combustion] ou une 'Brûlure Unique' : déclenche [Combustion] une fois, puis réduit le Compte de [Combustion] de 1 (2 fois par tour par ennemi ; pour les Anomalies, pour chaque Partie)",
+      "simpleDesc": [
+        {
+          "abilityID": 9776,
+          "simpleDesc": "Inflige du Compte de [Combustion]"
+        },
+        {
+          "abilityID": 97761,
+          "simpleDesc": "Active [Combustion]"
+        },
+        {
+          "abilityID": 97762,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9777,
+      "name": "Brindilles",
+      "desc": "Chaque fois que [Burst] s’active 3 fois sur des ennemis avec [Burst] suite à des touches de Capacités d’Attaque alliées (inclut les Capacités E.G.O.) qui infligent de l’Intensité ou du Compte de [Burst], inflige 2 [AttackDown] à cet ennemi au prochain tour (3 fois par tour par ennemi ; pour les Anomalies, pour chaque Partie)\n\nEn Tuant avec une Capacité d’Attaque de Base qui inflige du Compte de [Burst] : inflige le Compte de [Burst] restant de l’ennemi vaincu à un ennemi aléatoire au prochain tour (2 fois par tour)",
+      "simpleDesc": [
+        {
+          "abilityID": 9777,
+          "simpleDesc": "Inflige du [AttackDown]"
+        },
+        {
+          "abilityID": 97771,
+          "simpleDesc": "Inflige du Compte de [Burst]"
+        },
+        {
+          "abilityID": 97772,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9778,
+      "name": "Équipement Habituel",
+      "desc": "Identités de Limbus Company : la Capacité 2 gagne +1 Niveau Offensif et inflige +15% de dégâts supplémentaires ; la Capacité 3 gagne +2 Niveaux Offensifs et inflige +30% de dégâts supplémentaires\n\nS’il y a 4 Identités de Limbus Company ou plus parmi les Unités de Renfort, 2 alliés aléatoires gagnent 2 [AttackUp] au Début du Tour",
+      "simpleDesc": [
+        {
+          "abilityID": 9778,
+          "simpleDesc": "Gagne du Niveau Offensif et inflige plus de dégâts"
+        },
+        {
+          "abilityID": 97781,
+          "simpleDesc": "Gagne du Bonus de Niveau Offensif"
+        }
+      ]
+    },
+    {
+      "id": 9779,
+      "name": "Carte d’Autorisation d’Intervention",
+      "desc": "Durant l’Affrontement, lorsqu’un allié bat en retraite ou est vaincu, applique aléatoirement 3 [AttackUp] entre toutes les Identités au prochain Début de Tour. (2 fois par tour)\n- Lorsque 3 alliés ou plus battent en retraite ou sont vaincus, applique aléatoirement 6 [AttackUp] entre toutes les Identités au prochain Début de Tour à la place. (2 fois par tour)\n\nDébut du Tour : 3 alliés avec le moins de PSM regagnent 15, 10 et 5 PSM chacun (ne se cumule pas ; les nombres s’appliquent par ordre ascendant ; ne s’active pas si les unités affectées sont Paniquées ou Érodées)",
+      "simpleDesc": [
+        {
+          "abilityID": 9779,
+          "simpleDesc": "Gagne du Bonus de Niveau Offensif"
+        },
+        {
+          "abilityID": 97791,
+          "simpleDesc": "Regagne des PSM"
+        }
+      ]
+    },
+    {
+      "id": 9780,
+      "name": "Équipement à Haut-Risque",
+      "desc": "Identités de Limbus Company : la Capacité 2 gagne +2 Niveaux Offensifs et inflige +20% de dégâts supplémentaires ; la Capacité 3 gagne +3 Niveaux Offensifs et inflige +40% de dégâts supplémentaires\n\nDébut du Tour : un allié aléatoire gagne 2 [AttackUp] pour chaque Identité de Limbus Company vaincues ou de Renfort.\n\nDurant l’Affrontement, lorsqu’un allié bat en retraite ou est vaincu, applique aléatoirement 3 [AttackUp] entre toutes les Identités au prochain Début du Tour. (Distribué équitablement, 2 fois par tour)\n- Lorsque 3 alliés ou plus battent en retraite ou sont vaincus, applique aléatoirement 6 [AttackUp] entre toutes les Identités au prochain Début du Tour à la place. (2 fois par tour)\n- Lorsque 3 Identités de Limbus Company ou plus battent en retraite ou sont vaincus, applique aléatoirement 8 [AttackUp] entre toutes les Identités à la place.",
+      "simpleDesc": [
+        {
+          "abilityID": 9780,
+          "simpleDesc": "Gagne du Niveau Offensif et inflige plus de dégâts"
+        },
+        {
+          "abilityID": 97801,
+          "simpleDesc": "Applique aléatoirement du Bonus de Niveau Offensif entre les alliés"
+        },
+        {
+          "abilityID": 97802,
+          "simpleDesc": "Applique aléatoirement du Bonus de Niveau Offensif entre les alliés"
+        }
+      ]
     }
   ]
 }

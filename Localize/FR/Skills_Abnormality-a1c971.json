@@ -1,0 +1,567 @@
+{
+  "dataList": [
+    {
+      "id": 108001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pluie de Roches",
+          "desc": "[WhenUse] Si la cible a 5 [Vibration] ou plus, +1 de Puissance de Base",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 8 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Rassemblement de Pierres",
+          "desc": "[WinDuel] Si la cible a [Vibration], +2 de Puissance de Base",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 8 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Paresse Grandissante",
+          "desc": "[WhenUse] +1 de Puissance de Pièce pour chaque 3 [Vibration] sur la cible (3 max)\n[WinDuel] Cette Capacité gagne +1 de Poids d’Atq pour chaque 5 [Vibration] sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationEcho]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] une fois pour chaque Compte de [Vibration] sur la cible (2 max) ; puis, réduit le Compte de [Vibration] de la cible de 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +4 de Compte de [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Garde",
+          "desc": "Inflige 2 [Vibration] à l’Attaquant lorsque touché tant qu’il reste des PV de Bouclier\n[WhenUse] Gagne 3 Protection",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Colision de Déclin",
+          "desc": "[WhenUse] Si la cible a 5 [Sinking] ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking] et +2 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Torrent",
+          "desc": "[WhenUse] Si la cible a [Sinking], +2 de Puissance de Base",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 8 [Sinking] et +2 de Compte de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Sinking] et +2 de Compte de [Sinking] à 2 cibles aléatoires"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Peine Cascadante",
+          "desc": "[WhenUse] +1 de Puissance de Pièce pour chaque 3 [Sinking] sur la cible (3 max)\n[WinDuel] Cette Capacité gagne +1 de Poids d’Atq pour chaque 5 [Sinking] sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Sinking] et +4 de Compte de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] +1 de Puissance pour la prochaine Pièce pour chaque 3 [Sinking] sur la cible (3 fois max)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Cause un [SinkingSurge]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Esquive",
+          "desc": "Si la cible a moins de 0 PSM, +1 de Puissance de Pièce\nSi la cible a 10 [Sinking] ou plus, +1 de Puissance de Base\n[OnSucceedEvade] La cible perd 5 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 107901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Renversement",
+          "desc": "[WhenUse] Consomme 20 [BloodDinner] : gagne 1 [BloodArmor] pour chaque 10 [BloodDinner] consommé\n[WhenUse] +1 de Puissance de Pièce pour chaque 10 [BloodArmor] (2 max)\n[WhenUse] +1 de Puissance de Pièce pour chaque 15 [Laceration] sur soi (3 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 107902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Blessure",
+          "desc": "[WhenUse] Consomme 20 [BloodDinner] : gagne 1 [BloodArmor] pour chaque 10 [BloodDinner] consommé\n[WhenUse] +1 de Puissance de Pièce pour chaque 10 [BloodArmor] (2 max)\n[WhenUse] +1 de Puissance de Pièce pour chaque 15 [Laceration] sur soi (3 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 107903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Arts du Sang Durci de Don Quichotte 4 - Fracture",
+          "desc": "[WhenUse] Si la cible a 6 [Laceration] ou plus, +1 de Puissance de Pièce\n[WinDuel] Avec cette Capacité, inflige +20% de dégâts supplémentaires pour chaque Niveau de [BloodArmor] (60% max)\n[DefeatDuel] Consomme 4 [BloodArmor]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 107904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Arts du Sang Durci de Don Quichotte 11 - Empalement",
+          "desc": "[WhenUse] Pour chaque 3 [Laceration] sur la cible, +1 de Puissance de Base (3 max)\n[WinDuel] Avec cette Capacité, inflige +20% de dégâts supplémentaires pour chaque Niveau de [BloodArmor] (60% max)\n[DefeatDuel] Consomme 4 [BloodArmor]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Active [Laceration] sur la cible autant de fois que son Compte. Utilise le Compte de [Laceration] de la cible jusqu’à 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 107905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Style Variant de Don Quichotte : Arts de Sancho 4 - Piste",
+          "desc": "Priorise les cibles avec le plus de [Laceration]\n[BeforeAttack] +1 de Poids d’Atq pour chaque 10 [BloodArmor] sur soi (3 max)\n[WhenUse] +1 de Puissance de Duel pour chaque 5 [Laceration] sur la cible (3 max)\n[WhenUse] Consomme jusqu’à 30 [BloodDinner] : gagne 1 [BloodArmor] et +1 de Puissance de Pièce pour chaque 15 [BloodDinner] consommé (2 max)\n- Si cette unité n’a pas consommé de [BloodDinner], gagne 10 [Laceration] et active [Laceration] immédiatement. Perd 1 de Compte de [Laceration]\n[EndSkill] Augmente [BloodDinner] du nombre de dégâts infligés par cette Capacité",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 8 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour\n- Si cette Capacité a consommé 30 [BloodDinner], inflige 2 [Binding] supplémentaires"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 107906,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Style Variant de Don Quichotte : Arts de Sancho 3 - Embuscade",
+          "desc": "Priorise les cibles avec le plus de [Laceration]\n[BeforeAttack] +1 de Poids d’Atq pour chaque 10 [BloodArmor] sur soi (2 max)\n[WhenUse] +1 de Puissance de Duel pour chaque 5 [Laceration] sur la cible (3 max)\n[WhenUse] Consomme jusqu’à 30 [BloodDinner] : gagne 1 [BloodArmor] et +1 de Puissance de Pièce pour chaque 15 [BloodDinner] consommé (2 max)\n- Si cette unité n’a pas consommé de [BloodDinner], gagne 10 [Laceration] et active [Laceration] immédiatement. Perd 1 de Compte de [Laceration]\n[EndSkill] Augmente [BloodDinner] du nombre de dégâts infligés par cette Capacité",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Paralysis] au prochain tour\n- Si cette Capacité a consommé 50 [BloodDinner], inflige 2 [Paralysis] supplémentaires"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 107907,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Arts du Sang Durci de Don Quichotte 2 - Sang Durci",
+          "desc": "Peut affronter en Duel cette Capacité qu’importe la Vitesse\n[StartBattle] Gagne 1 [SwirlingBlood]\n[StartBattle] Consomme 100 [BloodDinner] ; gagne 1 [BloodArmor] et 20 PV de Bouclier pour chaque 10 [BloodDinner] consommé\n- Si cette unité n’a pas assez de [BloodDinner], gagne 50 [Laceration] et l’active immédiatement. Perd 2 de Compte de [Laceration]. Gagne 200 PV de Bouclier (Ce dégât ne réduit pas les PV de cette unité à 0)\n[DefeatDuel] Tant qu’il reste des PV de Bouclier de cette Capacité, gagne 3 [Vulnerable]\n[DefeatDuel] Cette Capacité inflige -50% de dégâts\n[EndSkill] Termine la Phase de Combat",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Laceration] et +3 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 107908,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "La Aventura Ha Terminado",
+          "desc": "Inflige +10% de dégâts supplémentaires pour chaque [Laceration] sur la cible (200% max)\nInflige +10% de dégâts supplémentaires pour chaque 3 [BloodArmor] (100% max)\n[StartBattle] Consomme (45 - PSM actuels) [BloodDinner] et regagne jusqu’à 45 PSM\n- S’il n’y a pas assez de [BloodDinner], gagne 20 [Laceration] et regagne jusqu’à 45 PSM\n- Gagne des PV de Bouclier égaux au [BloodDinner] restant (100 max)\n[WinDuel] Inflige 10 [Laceration]\n[EndSkill] Augmente le [BloodDinner] du nombre de dégâts de PV infligés à la cible\n[EndSkill] Si la cible est vaincue, augmente le [BloodDinner] du nombre de PV max de la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 10 [Laceration] et +3 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Laceration] et +3 de Compte de [Laceration] à tous les ennemis sauf la cible"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 107909,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "La Aventura Ha Terminado…",
+          "desc": "Inflige +40% de dégâts supplémentaires pour chaque 10 (somme de [Laceration] sur toutes les cibles) (200% max)\nInflige +10% de dégâts supplémentaires pour chaque [BloodDinner] cumulé que cette unité a consommé (100% max)\n[StartBattle] Consomme (45 - PSM actuel) [BloodDinner] et regagne jusqu’à 45 PSM\n- S’il n’y a pas assez de [BloodDinner], gagne 20 [Laceration] et regagne jusqu’à 45 PSM\n- Gagne des PV de Bouclier égaux au [BloodDinner] restant (100 max)\n[WinDuel] Inflige 10 [Laceration]\n[EndSkill] Augmente le [BloodDinner] du nombre de dégâts de PV infligés à la cible\n[EndSkill] Si la cible est vaincue, augmente le [BloodDinner] du nombre de PV max de la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Inflige 10 [Laceration] et +3 de Compte de [Laceration] Count"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Compression",
+          "desc": "[WhenUse] +1 de Puissance Finale pour chaque 5 d’Intensité de [Breath] sur soi (3 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 d’Intensité de [Vibration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 3 d’Intensité de [Vibration] et +2 de Compte de [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Démontage",
+          "desc": "[WhenUse] +1 de Puissance Finale pour chaque 3 d’Intensité [Breath] sur soi (5 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 d’Intensité de [Vibration]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Inflige +3 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Réalisation d’Analyse",
+          "desc": "[WhenUse] À 10 d’Intensité de [Breath] ou plus, consomme de l’Intensité de [Breath] pour gagner +2 de Puissance Finale pour chaque 3 d’Intensité de [Breath] consommées (4 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 5 de Compte de [Vibration] ou plus, déclenche [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[WinDuelAttack] Inflige 5 d’Intensité de [Vibration] et +3 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Déclenche un [VibrationExplosion] deux fois ; puis, réduit le Compte de [Vibration] de la cible de 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Délenchement de la Séquence d’Extinction",
+          "desc": "[WhenUse] Consomme la moitié de l’Intensité et du Compte de [Breath] sur soi\n- Gagne (somme d’Intensité et de Compte de [Breath] consommé / 2) de Puissance Finale (20 max)\n- Inflige +(somme d’Intensité et de Compte de [Breath] consommé * 2)% de dégâts supplémentaires (50% max)\n- +(somme d’Intensité et de Compte de [Breath] consommé * 4)% de dégâts supplémentaires en Touche Critique (100% max)\n[DefeatDuel] Réduit le Compte de [Breath] restant de moitié",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Si l’utilisateur n’a pas subi de dégâts au dernier tour, garantit un Critique"
+                },
+                {
+                  "desc": "Si l’utilisateur a subi des dégâts au dernier tour, ne Critique pas ; à la place, inflige -80% de dégâts"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Déclenche un [VibrationExplosion] trois fois ; puis, réduit le Compte de [Vibration] de la cible de 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108205,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Réflexion",
+          "desc": "[WhenUse] +1 de Puissance Finale pour chaque Intensité de [Breath] sur soi (5 max)\n[WhenUse] Gagne 4 d’Intensité de [Breath]\n- Si cette unité a un Bouclier, gagne également +2 de Compte de [Breath]",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    }
+  ]
+}

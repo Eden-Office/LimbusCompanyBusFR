@@ -529,7 +529,7 @@
                   "desc": "[OnSucceedAttack] Inflige 1 de Ralentissement au prochain tour"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflige 2 de [RedApricotBlossom]<style=\"highlight\"></style>"
+                  "desc": "[CriticalOnSucceedAttack] Inflige 2 de [RedApricotBlossom]"
                 }
               ]
             }
@@ -556,7 +556,7 @@
                   "desc": "[OnSucceedAttack] Inflige 1 de Ralentissement au prochain tour"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflige 2 de [RedApricotBlossom]<style=\"highlight\"></style>"
+                  "desc": "[CriticalOnSucceedAttack] Inflige 2 de [RedApricotBlossom]"
                 }
               ]
             }
@@ -837,7 +837,7 @@
         {
           "level": 2,
           "name": "Activation 40Y-3",
-          "desc": "[WhenUse] Consomme 5 de Compte de [Charge] pour gagner +1 de Puissance de Pièce<style=\"highlight\"></style>",
+          "desc": "[WhenUse] Consomme 5 de Compte de [Charge] pour gagner +1 de Puissance de Pièce",
           "coinlist": [
             {},
             {
@@ -858,7 +858,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne +3 de Compte de [Charge]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Gagne +3 de Compte de [Charge]"
                 }
               ]
             }
@@ -888,7 +888,7 @@
         {
           "level": 2,
           "name": "Contre-Courant de Charge",
-          "desc": "[WhenUse] À 5~9 de Compte de [Charge], consomme 2*(10 - Compte de [Charge] actuel)% PV pour augmenter le Compte de [Charge] à 10\n[WhenUse] Consomme 10 de Compte de [Charge] pour gagner +1 de Puissance de Pièce<style=\"highlight\"></style>",
+          "desc": "[WhenUse] À 5~9 de Compte de [Charge], consomme 2*(10 - Compte de [Charge] actuel)% PV pour augmenter le Compte de [Charge] à 10\n[WhenUse] Consomme 10 de Compte de [Charge] pour gagner +1 de Puissance de Pièce",
           "coinlist": [
             {},
             {},
@@ -1002,6 +1002,348 @@
           "desc": "[WhenUse] Gagne +<style=\"highlight\">4</style> de Compte de [Charge] (2 fois par tour)",
           "coinlist": [
             {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Allumage",
+          "desc": "[WhenUse] À 10 [Combustion] ou plus, inflige +10% de dégâts supplémentaires\n[WhenUse] Gagne 7 [Combustion] et +1 de Compte de [Combustion]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Allumage",
+          "desc": "[WhenUse] À 10 [Combustion] ou plus, inflige +10% de dégâts supplémentaires\n[WhenUse] Gagne 7 [Combustion] et +1 de Compte de [Combustion]\n[WhenUse] À 10 ([Combustion] sur soi + [Combustion] sur la cible) ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] À 10 [Combustion] ou plus, inflige 1 [Combustion] supplémentaire</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Allumage",
+          "desc": "[WhenUse] À 10 [Combustion] ou plus, inflige +10% de dégâts supplémentaires\n[WhenUse] Gagne 7 [Combustion] et +1 de Compte de [Combustion]\n[WhenUse] +1 de Puissance de Pièce pour chaque 10 ([Combustion] sur soi + [Combustion] sur la cible) (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 10 [Combustion] ou plus, inflige <style=\"highlight\">3</style> [Combustion] supplémentaires"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "E.G.O. - Activation E.F.A.",
+          "desc": "[WhenUse] À 10 [Combustion] ou plus, inflige +10% de dégâts supplémentaires\n[WhenUse] Gagne +4 de Compte de [Combustion]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "E.G.O. - Activation E.F.A.",
+          "desc": "[WhenUse] Inflige +10% de dégâts supplémentaires pour chaque 10 [Combustion] sur soi (20% max)\n[WhenUse] Gagne +4 de Compte de [Combustion]\n[WhenUse] At 4+ ([Combustion] sur soi + [Combustion] sur la cible), +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 3 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "E.G.O. - Activation E.F.A.",
+          "desc": "[WhenUse] Inflige +10% de dégâts supplémentaires pour chaque 10 [Combustion] sur soi (20% max)\n[WhenUse] Gagne +4 de Compte de [Combustion]\n[WhenUse] +1 de Puissance de Pièce pour chaque 4 ([Combustion] sur soi + [Combustion] sur la cible) (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 3 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 15 [Combustion] ou plus, inflige +2 de Compte de [Combustion] à la cible"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021103,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Attiré par les Flammes",
+          "desc": "[StartBattle] Gagne 7 [Combustion] et +1 de Compte de [Combustion]\n[BeforeUse] À 30 [Combustion] ou plus, active “Syntonie Max E.F.A 【Érosion Dégradée】” à la place\n[WhenUse] Inflige +7.5% de dégâts supplémentaires pour chaque 5 [Combustion] sur soi (30% max)\n[WhenUse] À 10 ([Combustion] sur soi + [Combustion] sur la cible) ou plus, +1 de Puissance de Base\n[WhenUse] S’il manque à cette unité 30% de PV ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Combustion]"
+                }
+              ]
+            },
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Attiré par les Flammes",
+          "desc": "[StartBattle] Gagne 7 [Combustion] et +1 de Compte de [Combustion]\n[BeforeUse] À 30 [Combustion] ou plus, active “Syntonie Max E.F.A 【Érosion Dégradée】” à la place\n[WhenUse] Inflige +12.5% de dégâts supplémentaires pour chaque 5 [Combustion] sur soi (50% max)\n[WhenUse] +1 de Puissance de Base pour chaque 10 ([Combustion] sur soi + [Combustion] sur la cible) (2 max)\n[WhenUse] S’il manque à cette unité 30% de PV ou plus, +1 de Puissance de Pièce (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Combustion]"
+                }
+              ]
+            },
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Résonnance en augmentant la Syntonisation E.F.A.",
+          "desc": "[WhenUse] Perd 5 [Combustion] (une fois par tour)\n[OnSucceedEvade] Perd 5 [Combustion] (une fois par tour)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Résonnance en augmentant la Syntonisation E.F.A.",
+          "desc": "[WhenUse] À 10 [Combustion] ou plus, +3 de Puissance de Pièce\n[WhenUse] Perd 5 [Combustion] (une fois par tour)\n[OnSucceedEvade] Perd 5 [Combustion] (une fois par tour)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Syntonie Max E.F.A 【Érosion Dégradée】",
+          "desc": "Après avoir utilisé cette Capacité, meurt.\n- Si les PV tombent à 1 en utilisant cette Capacité, maintient les PV à 1 pour la durée de cette Capacité.\n[WhenUse] Inflige +7.5% de dégâts supplémentaires pour chaque 5 [Combustion] sur soi (30% max)\n[WhenUse] À 10 ([Combustion] sur soi + [Combustion] sur la cible) ou plus, +1 de Puissance de Base\n[WhenUse] +1 de Puissance de Pièce pour chaque 30% de PV manquant sur soi (2 max)\n[BeforeAttack] +1 de Poids d’Atq pour chaque 20% de PV manquant sur soi (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +10% de dégâts supplémentaires pour chaque 20% de PV manquant sur soi (30% max)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Syntonie Max E.F.A 【Érosion Dégradée】",
+          "desc": "Après avoir utilisé cette Capacité, meurt.\n- Si les PV tombent à 1 en utilisant cette Capacité, maintient les PV à 1 pour la durée de cette Capacité.\n[WhenUse] Inflige +12.5% de dégâts supplémentaires pour chaque 5 [Combustion] sur soi (50% max)\n[WhenUse] +1 de Puissance de Base pour chaque 10 ([Combustion] sur soi + [Combustion] sur la cible) (2 max)\n[WhenUse] +1 de Puissance de Pièce pour chaque 30% de PV manquant sur soi (3 max)\n[BeforeAttack] +1 de Poids d’Atq pour chaque 20% de PV manquant sur soi (4 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +10% de dégâts supplémentaires pour chaque 20% de PV manquant sur soi (30% max)"
+                }
+              ]
+            }
           ]
         }
       ]
