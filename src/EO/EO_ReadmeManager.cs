@@ -169,10 +169,17 @@ namespace LimbusCompanyFR
         {
             ReadmeList.Clear();
             foreach (var notices in JSONNode.Parse(File.ReadAllText(LCB_EOMod.ModPath + "/Localize/Readme/Readme.json"))[0].AsArray.m_List)
-            {
-                ReadmeList.Add(new Notice(JsonUtility.FromJson<JIDKMFJDLEG>(notices.ToString()), LOCALIZE_LANGUAGE.KR));
-            }
+                ReadmeList.Add(HandleDynamicType(notices.ToString()));
         }
+        public static Notice HandleDynamicType(string jsonPayload)
+        {
+            var noticetype = SynchronousDataManager.Instance.NoticeSynchronousDataList.noticeFormats.GetType()
+                .GetGenericArguments()[0];
+            var deserializedObject = typeof(JsonUtility).GetMethod("FromJson", new[] { typeof(string) })
+                ?.MakeGenericMethod(noticetype).Invoke(null, new object[] { jsonPayload });
+            return Activator.CreateInstance(typeof(Notice), deserializedObject, LOCALIZE_LANGUAGE.KR) as Notice;
+        }
+
         public static List<Notice> ReadmeList = new();
         public static Dictionary<string, Sprite> ReadmeButton = new();
         public static Dictionary<string, Sprite> ReadmeSprites = new();

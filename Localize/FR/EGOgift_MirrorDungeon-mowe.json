@@ -3,11 +3,11 @@
     {
       "id": 9732,
       "name": "Bon de Réduction de Classe Économique",
-      "desc": "Fin du Tour : parmi les Identités avec 5- de Vitesse, la plus lente gagne 1 de [Agility] au prochain tour.",
+      "desc": "Fin du Tour : parmi les Identités avec 5 de Vitesse ou moins, la plus lente gagne 1 [Agility] au prochain tour.",
       "simpleDesc": [
         {
           "abilityID": 9732,
-          "simpleDesc": "Gagne 1 de Vitesse au prochain tour"
+          "simpleDesc": "Gagne 1 Accélération au prochain tour"
         }
       ]
     },
@@ -29,7 +29,7 @@
     {
       "id": 9734,
       "name": "Dague Dimensionnelle de Type E",
-      "desc": "Les Capacités 1 qui gagnent du Compte de [Charge] ou de la 'Charge Unique' gagnent +1 de Puissance de Duel et infligent +5% de dégâts supplémentaires.\n\nSi cette Capacité 1 était une Capacité Monopièce, gagne +1 de Puissance de Duel et inflige +12.5% de dégâts supplémentaires à la place.\n\nSi une Identité de la W Corp. a infligé des dégâts à un ennemi avec une Capacité d’Envie (inclut les Capacités E.G.O.), inflige 2 de Malus de Soin de PV. (Ne se cumule pas)",
+      "desc": "Les Capacités 1 qui gagnent du Compte de [Charge] ou de la “Charge Unique” gagnent +1 de Puissance de Duel et infligent +5% de dégâts supplémentaires.\n\nSi cette Capacité 1 était une Capacité Monopièce, gagne +1 de Puissance de Duel et inflige +12.5% de dégâts supplémentaires à la place.\n\nSi une Identité de la W Corp. a infligé des dégâts à un ennemi avec une Capacité d’Envie (inclut les Capacités E.G.O.), inflige 2 Malus de Soin de PV. (Ne se cumule pas)",
       "simpleDesc": [
         {
           "abilityID": 9734,
@@ -41,14 +41,14 @@
         },
         {
           "abilityID": 97342,
-          "simpleDesc": "Inflige 2 de Malus de Soin de PV"
+          "simpleDesc": "Inflige 2 Malus de Soin de PV"
         }
       ]
     },
     {
       "id": 9735,
       "name": "Batterie de Barrière Portative",
-      "desc": "Les Capacités 1 qui gagnent du Compte de [Charge] ou de la 'Charge Unique' gagnent +2 de Puissance de Duel.\n\nEn utilisant une Capacité 1 qui gagne du Compte de [Charge], gagne +2 de Compte de [Charge] et 1 de [ChargeForceField]. (Une fois par tour)\n\nSi une Identité de la W Corp. subit des dégâts de PV suite à un effet autre que des dégâts directs, gagne 5 de [ChargeForceField]. (Une fois par tour)",
+      "desc": "Les Capacités 1 qui gagnent du Compte de [Charge] ou de la “Charge Unique” gagnent +2 de Puissance de Duel.\n\nEn utilisant une Capacité 1 qui gagne du Compte de [Charge], gagne +2 de Compte de [Charge] et 1 [ChargeForceField]. (Une fois par tour)\n\nSi une Identité de la W Corp. subit des dégâts de PV suite à un effet autre que des dégâts directs, gagne 5 [ChargeForceField]. (Une fois par tour)",
       "simpleDesc": [
         {
           "abilityID": 9735,
@@ -63,7 +63,7 @@
     {
       "id": 9736,
       "name": "Batterie Bio-générative",
-      "desc": "Les alliés avec du Compte de [Charge] ou de la 'Charge Unique' gagnent 1 de Niveau Offensif à chaque Duel. (6 max. Se réinitialise Après l’Attaque ou lorsque le Compte de [Charge] est complètement expiré)\n\nFin du Tour : les Identités avec 10+ de (Compte de [Charge] + 'Charge Unique') gagnent 1 de [Agility] au prochain tour. À 18+ de (Compte de [Charge] + 'Charge Unique'), gagnent également 3 de [AttackUp].",
+      "desc": "Les alliés avec du Compte de [Charge] ou de la “Charge Unique” gagnent 1 Niveau Offensif à chaque Duel. (6 max. Se réinitialise Après l’Attaque ou lorsque le Compte de [Charge] est complètement expiré)\n\nFin du Tour : les Identités avec 10 de (Compte de [Charge] + “Charge Unique”) ou plus gagnent 1 [Agility] au prochain tour. À 18 de (Compte de [Charge] + “Charge Unique”) ou plus, gagnent également 3 [AttackUp].",
       "simpleDesc": [
         {
           "abilityID": 9736,
@@ -71,7 +71,7 @@
         },
         {
           "abilityID": 97361,
-          "simpleDesc": "Gagne de la Vitesse"
+          "simpleDesc": "Gagne de l’Accélération"
         },
         {
           "abilityID": 97362,
@@ -82,7 +82,7 @@
     {
       "id": 9737,
       "name": "Module de Réactivation Cardiovasculaire",
-      "desc": "Lorsqu’un allié avec du Compte de [Charge] ou de la 'Charge Unique' perd un Duel, gagne du Bouclier égal à (Compte de [Charge] + 'Charge Unique'). (Une fois par tour)\n\nLorsque à 50%- de PV, gagne ((Compte de [Charge] + 'Charge Unique') * 2) de Bouclier à la place. (Une fois par tour)\n\nSi une Identité du Bureau MultiCrack reçoit des dégâts de PV pendant cet Affrontement : au prochain tour, regagne 33% des PV perdus au dernier tour. (Arrondi à l’inférieur)",
+      "desc": "Lorsqu’un allié avec du Compte de [Charge] ou de la “Charge Unique” perd un Duel, gagne du Bouclier égal à (Compte de [Charge] + “Charge Unique”). (Une fois par tour)\n\nLorsque à 50%- de PV, gagne ((Compte de [Charge] + “Charge Unique”) * 2) de Bouclier à la place. (Une fois par tour)\n\nSi une Identité du Bureau MultiCrack reçoit des dégâts de PV pendant cet Affrontement : au prochain tour, regagne 33% des PV perdus au dernier tour. (Arrondi à l’inférieur)",
       "simpleDesc": [
         {
           "abilityID": 9737,
@@ -97,11 +97,11 @@
     {
       "id": 9738,
       "name": "Servos de Raccord Prosthétique",
-      "desc": "Prochain Tour : les alliés gagnent de la [Agility] et du Compte de [Charge] égaux au nombre de Capacités d’Attaques de base faisant gagner du Compte de [Charge] ou de la 'Charge Unique' utilisées ce tour. (2 max)\n\nSi une Identité du Bureau MultiCrack gagne ou consomme du Compte de [Charge] avec une Capacité d’Attaque de base, elle gagne +1 de Compte de [Charge] supplémentaire. (2 max)",
+      "desc": "Prochain Tour : les alliés gagnent de la [Agility] et du Compte de [Charge] égaux au nombre de Capacités d’Attaques de base faisant gagner du Compte de [Charge] ou de la “Charge Unique” utilisées ce tour. (2 max)\n\nSi une Identité du Bureau MultiCrack gagne ou consomme du Compte de [Charge] avec une Capacité d’Attaque de base, elle gagne +1 de Compte de [Charge] supplémentaire. (2 max)",
       "simpleDesc": [
         {
           "abilityID": 9738,
-          "simpleDesc": "Gagne de la Vitesse et du Compte de Charge"
+          "simpleDesc": "Gagne de l’Accélération et du Compte de Charge"
         },
         {
           "abilityID": 97381,
@@ -112,7 +112,7 @@
     {
       "id": 9739,
       "name": "Sang Cristallisé",
-      "desc": "Fin du Tour : si cette unité a [Laceration], réduit de moitié la Puissance de [Laceration] sur soi et regagne (Puissance de [Laceration] réduit * Compte de [Laceration] sur soi) PV. (Arrondi à l’inférieur. Peut regagner jusqu’à 10% des PV max en une fois)",
+      "desc": "Fin du Tour : si cette unité a [Laceration], réduit de moitié l’Intensité de [Laceration] sur soi et regagne (Intensité de [Laceration] réduit * Compte de [Laceration] sur soi) PV. (Arrondi à l’inférieur. Peut regagner jusqu’à 10% des PV max en une fois)",
       "simpleDesc": [
         {
           "abilityID": 9739,
@@ -123,7 +123,7 @@
     {
       "id": 9740,
       "name": "Articulations Automatisées",
-      "desc": "Début de l’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des effets de Capacités d’Attaque qui gagnent du Compte de [Charge] ou de la 'Charge Unique'. (Ne compte pas les Capacités E.G.O., ne compte que les Identités sur le terrain au Début de l’Affrontement)\n\nCapacités d’Attaques de Base qui consomment du Compte de [Charge] ou de la 'Charge Unique' : gagnent +1 de Puissance de Pièce et infligent +(somme du Compte de [Charge] et de 'Charge Unique' consommés par cette Capacité * 4)% de dégâts supplémentaires (40% max)\n\nFin du Tour : les alliés avec du Compte de [Charge] ou de la 'Charge Unique' gagnent 1 de [Agility] (2 max) et 1 de [AttackDmgUp] (3 max) pour chaque fois où ils ont utilisé une Capacité d’Attaque de base qui consomme du Compte de [Charge] ou de la 'Charge Unique' cet Affrontement.\n\nSi une Identité du Bureau MultiCrack a 5+ de [Charge], elle gagne +1 de Puissance de Pièce à ses Capacités d’Attaque de base.",
+      "desc": "Début de l’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des effets de Capacités d’Attaque qui gagnent du Compte de [Charge] ou de la “Charge Unique”. (Ne compte pas les Capacités E.G.O., ne compte que les Identités sur le terrain au Début de l’Affrontement)\n\nCapacités d’Attaques de Base qui consomment du Compte de [Charge] ou de la “Charge Unique” : gagnent +1 de Puissance de Pièce et infligent +(somme du Compte de [Charge] et de “Charge Unique” consommés par cette Capacité * 4)% de dégâts supplémentaires (40% max)\n\nFin du Tour : les alliés avec du Compte de [Charge] ou de la “Charge Unique” gagnent 1 [Agility] (2 max) et 1 [AttackDmgUp] (3 max) pour chaque fois où ils ont utilisé une Capacité d’Attaque de base qui consomme du Compte de [Charge] ou de la “Charge Unique” cet Affrontement.\n\nSi une Identité du Bureau MultiCrack a 5 [Charge] ou plus, elle gagne +1 de Puissance de Pièce à ses Capacités d’Attaque de base.",
       "simpleDesc": [
         {
           "abilityID": 9740,
@@ -131,7 +131,7 @@
         },
         {
           "abilityID": 97401,
-          "simpleDesc": "Gagne de la Vitesse et du Bonus de Dégâts au prochain tour"
+          "simpleDesc": "Gagne de l’Accélération et du Bonus de Dégâts au prochain tour"
         },
         {
           "abilityID": 97402,
@@ -142,7 +142,7 @@
     {
       "id": 9741,
       "name": "Batterie Surchargée",
-      "desc": "Début de l’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des effets de Capacités d’Attaque qui gagnent du Compte de [Charge] ou de la 'Charge Unique'. (Ne compte pas les Capacités E.G.O., ne compte que les Identités sur le terrain au Début de l’Affrontement)\n\nCapacités d’Attaques de Base qui consomment du Compte de [Charge] ou de la 'Charge Unique' : gagnent +1 de Puissance de Pièce et infligent +(somme du Compte de [Charge] et de 'Charge Unique' consommés par cette Capacité * 4)% de dégâts supplémentaires (40% max)\n\nLorsque des alliés avec du Compte de [Charge] ou de la 'Charge Unique' s’engagent dans des Duels avec des Capacités d’Attaque de base : +2 de Puissance de Duel ; gagnent +3 de Compte de [Charge] en Duel Gagné et perdent 6 de Compte de [Charge] en Duel Perdu.\n\nEn gagnant un Duel avec une Capacité d’Attaque de base d’Affinité d’Envie, inflige 1 de [VioletTakeDamageUp]. (Se cumule 3 fois)",
+      "desc": "Début de l’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des effets de Capacités d’Attaque qui gagnent du Compte de [Charge] ou de la “Charge Unique”. (Ne compte pas les Capacités E.G.O., ne compte que les Identités sur le terrain au Début de l’Affrontement)\n\nCapacités d’Attaques de Base qui consomment du Compte de [Charge] ou de la “Charge Unique” : gagnent +1 de Puissance de Pièce et infligent +(somme du Compte de [Charge] et de “Charge Unique” consommés par cette Capacité * 4)% de dégâts supplémentaires (40% max)\n\nLorsque des alliés avec du Compte de [Charge] ou de la “Charge Unique” s’engagent dans des Duels avec des Capacités d’Attaque de base : +2 de Puissance de Duel ; gagnent +3 de Compte de [Charge] en Duel Gagné et perdent 6 de Compte de [Charge] en Duel Perdu.\n\nEn gagnant un Duel avec une Capacité d’Attaque de base d’Affinité d’Envie, inflige 1 [VioletTakeDamageUp]. (Se cumule 3 fois)",
       "simpleDesc": [
         {
           "abilityID": 9741,
@@ -161,7 +161,7 @@
     {
       "id": 9742,
       "name": "Servos de Générateur Perpétuel",
-      "desc": "Début de l’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des effets de Capacités d’Attaque qui gagnent du Compte de [Charge] ou de la 'Charge Unique'. (Ne compte pas les Capacités E.G.O., ne compte que les Identités sur le terrain au Début de l’Affrontement)\n\nCapacités d’Attaques de Base qui consomment du Compte de [Charge] ou de la 'Charge Unique' : gagnent +1 de Puissance de Pièce et infligent +(somme du Compte de [Charge] et de 'Charge Unique' consommés par cette Capacité * 4)% de dégâts supplémentaires (40% max)\n\nLorsque des alliés avec du Compte de [Charge] ou de la 'Charge Unique' s’engagent dans un Duel avec des Capacités d’Attaque de base : +1 de Puissance de Duel ; gagnent 2 de [AttackUp] au Début du Tour pour chaque Duel Gagné durant ce Duel. (6 max)\n\nDans cet Affrontement, lorsqu’un allié subit des dégâts qui pourraient le tuer, consomme tout le Compte de [Charge] et de 'Charge Unique' sur soi ; puis, regagne immédiatement (10 + somme du Compte de [Charge] et de 'Charge Unique' consommés)% de PV (une fois par Affrontement) ; puis, gagne 3 de [Protection] jusqu’à ce que l’allié soit vaincu.",
+      "desc": "Début de l’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des effets de Capacités d’Attaque qui gagnent du Compte de [Charge] ou de la “Charge Unique”. (Ne compte pas les Capacités E.G.O., ne compte que les Identités sur le terrain au Début de l’Affrontement)\n\nCapacités d’Attaques de Base qui consomment du Compte de [Charge] ou de la “Charge Unique” : gagnent +1 de Puissance de Pièce et infligent +(somme du Compte de [Charge] et de “Charge Unique” consommés par cette Capacité * 4)% de dégâts supplémentaires (40% max)\n\nLorsque des alliés avec du Compte de [Charge] ou de la “Charge Unique” s’engagent dans un Duel avec des Capacités d’Attaque de base : +1 de Puissance de Duel ; gagnent 2 [AttackUp] au Début du Tour pour chaque Duel Gagné durant ce Duel. (6 max)\n\nDans cet Affrontement, lorsqu’un allié subit des dégâts qui pourraient le tuer, consomme tout le Compte de [Charge] et de “Charge Unique” sur soi ; puis, regagne immédiatement (10 + somme du Compte de [Charge] et de “Charge Unique” consommés)% de PV (une fois par Affrontement) ; puis, gagne 3 [Protection] jusqu’à ce que l’allié soit vaincu.",
       "simpleDesc": [
         {
           "abilityID": 9742,
@@ -180,7 +180,7 @@
     {
       "id": 9743,
       "name": "Bijou Fonctionnant aux Cœurs",
-      "desc": "Début de l’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des effets de Capacités d’Attaque qui gagnent du Compte de [Charge] ou de la 'Charge Unique'. (Ne compte pas les Capacités E.G.O., ne compte que les Identités sur le terrain au Début de l’Affrontement)\n\nCapacités d’Attaques de Base qui consomment du Compte de [Charge] : gagnent +1 de Puissance de Pièce et infligent +(somme du Compte de [Charge] et de 'Charge Unique' consommés par cette Capacité * 4)% de dégâts supplémentaires (40% max)\n\nLorsque des alliés ont 15+ de (Compte de [Charge] + 'Charge Unique') : lorsqu’ils utilisent une Capacité 3 qui consomme du Compte de [Charge] ou de la 'Charge Unique', et s’il reste du Compte de [Charge] ou de la 'Charge Unique' Après l’Attaque, consomme tout le Compte de [Charge] et 'Charge Unique' restant pour infliger (somme du Compte de [Charge] et de 'Charge Unique' consommés * 7.5)% dégâts supplémentaires fixes. (75% max)\n\n+5 de Compte de [Charge] Max.",
+      "desc": "Début de l’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des effets de Capacités d’Attaque qui gagnent du Compte de [Charge] ou de la “Charge Unique”. (Ne compte pas les Capacités E.G.O., ne compte que les Identités sur le terrain au Début de l’Affrontement)\n\nCapacités d’Attaques de Base qui consomment du Compte de [Charge] : gagnent +1 de Puissance de Pièce et infligent +(somme du Compte de [Charge] et de “Charge Unique” consommés par cette Capacité * 4)% de dégâts supplémentaires (40% max)\n\nLorsque des alliés ont 15 de (Compte de [Charge] + “Charge Unique”) ou plus : lorsqu’ils utilisent une Capacité 3 qui consomme du Compte de [Charge] ou de la “Charge Unique”, et s’il reste du Compte de [Charge] ou de la “Charge Unique” Après l’Attaque, consomme tout le Compte de [Charge] et “Charge Unique” restant pour infliger (somme du Compte de [Charge] et de “Charge Unique” consommés * 7.5)% dégâts supplémentaires fixes. (75% max)\n\n+5 de Compte de [Charge] Max.",
       "simpleDesc": [
         {
           "abilityID": 9743,

@@ -3,7 +3,7 @@
     {
       "id": 2036,
       "name": "Boîtier de Montre en Argent",
-      "desc": "En infligeant des dégâts à un ennemi avec des Capacités d’Attaque (n’inclut pas les Capacités E.G.O.) qui infligent de la Puissance ou du Compte de [Vibration] ou un 'Tremblement Unique', inflige +10% de dégâts supplémentaires.\n\nSi la Capacité déclenche un [VibrationExplosion] sur l’ennemi pour la première fois ce tour, inflige +2 de Compte de [Vibration] au prochain tour (une fois par tour)",
+      "desc": "En infligeant des dégâts à un ennemi avec des Capacités d’Attaque (n’inclut pas les Capacités E.G.O.) qui infligent de l’Intensité ou du Compte de [Vibration] ou un “Tremblement Unique”, inflige +10% de dégâts supplémentaires.\n\nSi la Capacité déclenche un [VibrationExplosion] sur l’ennemi pour la première fois ce tour, inflige +2 de Compte de [Vibration] au prochain tour (une fois par tour)",
       "simpleDesc": [
         {
           "abilityID": 2036,
@@ -18,7 +18,7 @@
     {
       "id": 2037,
       "name": "Boîtier de Montre Décoloré",
-      "desc": "En Duel contre un ennemi plus rapide, +1 de Puissance de Duel.\n\nEn infligeant des dégâts à un ennemi plus rapide, inflige 3 de Puissance de [Vibration] et +2 de Compte de [Vibration] au prochain tour. (une fois par tour)",
+      "desc": "En Duel contre un ennemi plus rapide, +1 de Puissance de Duel.\n\nEn infligeant des dégâts à un ennemi plus rapide, inflige 3 d’Intensité de [Vibration] et +2 de Compte de [Vibration] au prochain tour. (une fois par tour)",
       "simpleDesc": [
         {
           "abilityID": 2037,
@@ -26,18 +26,18 @@
         },
         {
           "abilityID": 20371,
-          "simpleDesc": "Inflige 3 de Puissance de [Vibration] et +2 de Compte de [Vibration] au prochain tour"
+          "simpleDesc": "Inflige 3 d’Intensité de [Vibration] et +2 de Compte de [Vibration] au prochain tour"
         }
       ]
     },
     {
       "id": 2038,
       "name": "Avertissement",
-      "desc": "Fin du Tour : inflige 1 de [Binding] à l’ennemi le plus rapide au prochain tour. (pour les Anomalies, une Partie)\n\nSi la cible a [Vibration] ou un 'Tremblement Unique', inflige 2 de [Binding] à la place.\n\nLorsqu’un allié attaque des cibles avec [Binding], inflige +(5 + (2.5 * valeur de [Binding])) de dégâts supplémentaires. (15% max)",
+      "desc": "Fin du Tour : inflige 1 [Binding] à l’ennemi le plus rapide au prochain tour. (pour les Anomalies, une Partie)\n\nSi la cible a [Vibration] ou un “Tremblement Unique”, inflige 2 [Binding] à la place.\n\nLorsqu’un allié attaque des cibles avec [Binding], inflige +(5 + (2.5 * valeur de [Binding])) de dégâts supplémentaires. (15% max)",
       "simpleDesc": [
         {
           "abilityID": 2038,
-          "simpleDesc": "Applique 1 de [Binding] au prochain tour"
+          "simpleDesc": "Applique 1 [Binding] au prochain tour"
         },
         {
           "abilityID": 20381,
@@ -48,11 +48,11 @@
     {
       "id": 2039,
       "name": "Aiguilles d’Horloge Gravées",
-      "desc": "Premier Début du Tour d’une vague : inflige (9 - Vitesse actuelle) de Puissance de [Vibration] à 3 ennemis les plus lents. (3 min.)\n\nInflige +10% de dégâts supplémentaires aux cibles avec 12+ de [Vibration] ou de 'Tremblement Unique' au Début du Tour.",
+      "desc": "Premier Début du Tour d’une vague : inflige (9 - Vitesse actuelle) d’Intensité de [Vibration] à 3 ennemis les plus lents. (3 min.)\n\nInflige +10% de dégâts supplémentaires aux cibles avec 12 [Vibration] ou de “Tremblement Unique” ou plus au Début du Tour.",
       "simpleDesc": [
         {
           "abilityID": 2039,
-          "simpleDesc": "Inflige (9 - Vitesse actuelle) de Puissance de [Vibration]"
+          "simpleDesc": "Inflige (9 - Vitesse actuelle) d’Intensité de [Vibration]"
         },
         {
           "abilityID": 20391,
@@ -63,11 +63,11 @@
     {
       "id": 2040,
       "name": "Aiguilles d’Horloge Rouillées",
-      "desc": "Premier Début du Tour d’une vague : inflige (9 - Vitesse actuelle) de Puissance de [Vibration] (3 min.) et (9 - Vitesse actuelle)/2 de Compte de [Vibration] à 1 ennemi le plus rapide. (arrondi au supérieur ; pour les Anomalies, une Partie)\n\nSubit -10% de dégâts de moins des cibles avec 12+ de [Vibration] ou de 'Tremblement Unique' au Début du Tour.",
+      "desc": "Premier Début du Tour d’une vague : inflige (9 - Vitesse actuelle) d’Intensité de [Vibration] (3 min.) et (9 - Vitesse actuelle)/2 de Compte de [Vibration] à 1 ennemi le plus rapide. (arrondi au supérieur ; pour les Anomalies, une Partie)\n\nSubit -10% de dégâts de moins des cibles avec 12 [Vibration] ou de “Tremblement Unique” ou plus au Début du Tour.",
       "simpleDesc": [
         {
           "abilityID": 2040,
-          "simpleDesc": "Inflige (9 - Vitesse actuelle) de Puissance de [Vibration] (3 min.) et (9 - Vitesse actuelle)/2 de Compte de [Vibration]"
+          "simpleDesc": "Inflige (9 - Vitesse actuelle) d’Intensité de [Vibration] (3 min.) et (9 - Vitesse actuelle)/2 de Compte de [Vibration]"
         },
         {
           "abilityID": 20401,
@@ -78,15 +78,15 @@
     {
       "id": 2041,
       "name": "Calice du Ruissellement",
-      "desc": "Lorsqu’un allié avec des Capacités d’Attaque (n’inclut pas les Capacités E.G.O.) qui infligent de la Puissance ou du Compte de [Vibration] ou un 'Tremblement Unique' gagne un duel, inflige 2 de Puissance de [Vibration] et +2 de Compte de [Vibration]. (2 fois par tour)\n\nIdentités Yurodivy : inflige 3 de Puissance de [Vibration] et +3 de Compte de [Vibration] à la place (3 fois par tour)\n\nSi l’Identité affectée affronte en duel des cibles avec des Niveaux Offensifs supérieurs, +2 de Puissance de Duel ; inflige +20% de dégâts supplémentaires en attaquant après avoir gagné le Duel.",
+      "desc": "Lorsqu’un allié avec des Capacités d’Attaque (n’inclut pas les Capacités E.G.O.) qui infligent de l’Intensité ou du Compte de [Vibration] ou un “Tremblement Unique” gagne un duel, inflige 2 d’Intensité de [Vibration] et +2 de Compte de [Vibration]. (2 fois par tour)\n\nIdentités Yurodivy : inflige 3 d’Intensité de [Vibration] et +3 de Compte de [Vibration] à la place (3 fois par tour)\n\nSi l’Identité affectée affronte en duel des cibles avec des Niveaux Offensifs supérieurs, +2 de Puissance de Duel ; inflige +20% de dégâts supplémentaires en attaquant après avoir gagné le Duel.",
       "simpleDesc": [
         {
           "abilityID": 2041,
-          "simpleDesc": "Inflige 2 de Puissance de [Vibration] et +2 de Compte de [Vibration]"
+          "simpleDesc": "Inflige 2 d’Intensité de [Vibration] et +2 de Compte de [Vibration]"
         },
         {
           "abilityID": 20411,
-          "simpleDesc": "Inflige 3 de Puissance de [Vibration] et +3 de Compte de [Vibration]"
+          "simpleDesc": "Inflige 3 d’Intensité de [Vibration] et +3 de Compte de [Vibration]"
         },
         {
           "abilityID": 20412,
@@ -97,7 +97,7 @@
     {
       "id": 2042,
       "name": "Reçu de Temps Prépayé",
-      "desc": "Inflige +(5 + (2.5 * différence de Vitesse))% de dégâts supplémentaires aux ennemis plus rapides avec 2+ de différence de Vitesse. (15% max)\n\nFin du Tour : si un allié inflige des dégâts avec une Capacité d’Attaque (n’inclut pas les Capacités E.G.O.) ce tour à des ennemis plus rapides avec 2+ de différence de Vitesse, inflige 2 de [Binding] et 1 de [ResultReduction] à l’ennemi au prochain tour. (une fois par tour)",
+      "desc": "Inflige +(5 + (2.5 * différence de Vitesse))% de dégâts supplémentaires aux ennemis plus rapides avec 2 de différence de Vitesse ou plus. (15% max)\n\nFin du Tour : si un allié inflige des dégâts avec une Capacité d’Attaque (n’inclut pas les Capacités E.G.O.) ce tour à des ennemis plus rapides avec 2 de différence de Vitesse ou plus, inflige 2 [Binding] et 1 [ResultReduction] à l’ennemi au prochain tour. (une fois par tour)",
       "simpleDesc": [
         {
           "abilityID": 2042,
@@ -105,14 +105,14 @@
         },
         {
           "abilityID": 20421,
-          "simpleDesc": "Inflige 2 de [Binding] et 1 de [ResultReduction] à l’ennemi au prochain tour"
+          "simpleDesc": "Inflige 2 [Binding] et 1 [ResultReduction] à l’ennemi au prochain tour"
         }
       ]
     },
     {
       "id": 2043,
       "name": "Montre de Poche : Type L",
-      "desc": "Début de l’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui appliquent de la Puissance ou du Compte de [Vibration] ou des effets de 'Tremblement Unique'. (N’inclut pas les Capacités E.G.O.)\n\nAux Capacités 3 des alliés qui infligent de la Puissance ou du Compte de [Vibration] ou un 'Tremblement Unique' : +2 de Puissance de Pièce et +25% de dégâts supplémentaires.\n\nLorsqu’un allié qui inflige de la Puissance ou du Compte de [Vibration] ou un 'Tremblement Unique' déclenche une [Switch_Vibration] sur un ennemi avec des Capacités d’Attaque (inclut les Capacités E.G.O.) : multiplie par 1.5 la Puissance et le Compte de [Vibration] (seulement en les Convertissant en d’autres types de 'Tremblement') et inflige 5 de [DefenseDown] au prochain tour. (une fois par tour)\n\nPremier Début du Tour d’une vague : inflige (12 - Vitesse actuelle) de Puissance de [Vibration] (6 min.) à 3 ennemis les plus lents.",
+      "desc": "Début de l’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui appliquent de l’Intensité ou du Compte de [Vibration] ou des effets de “Tremblement Unique”. (N’inclut pas les Capacités E.G.O.)\n\nAux Capacités 3 des alliés qui infligent de l’Intensité ou du Compte de [Vibration] ou un “Tremblement Unique” : +2 de Puissance de Pièce et +25% de dégâts supplémentaires.\n\nLorsqu’un allié qui inflige de l’Intensité ou du Compte de [Vibration] ou un “Tremblement Unique” déclenche une [Switch_Vibration] sur un ennemi avec des Capacités d’Attaque (inclut les Capacités E.G.O.) : multiplie par 1.5 la Puissance et le Compte de [Vibration] (seulement en les Convertissant en d’autres types de “Tremblement”) et inflige 5 [DefenseDown] au prochain tour. (une fois par tour)\n\nPremier Début du Tour d’une vague : inflige (12 - Vitesse actuelle) d’Intensité de [Vibration] (6 min.) à 3 ennemis les plus lents.",
       "simpleDesc": [
         {
           "abilityID": 2043,
@@ -124,14 +124,14 @@
         },
         {
           "abilityID": 20432,
-          "simpleDesc": "Inflige (12 - Vitesse actuelle) de Puissance de [Vibration]"
+          "simpleDesc": "Inflige (12 - Vitesse actuelle) d’Intensité de [Vibration]"
         }
       ]
     },
     {
       "id": 2044,
       "name": "Montre de Poche : Type E",
-      "desc": "Début de l’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui appliquent de la Puissance ou du Compte de [Vibration] ou des effets de 'Tremblement Unique'. (N’inclut pas les Capacités E.G.O.)\n\nAux Capacités 3 des alliés qui infligent de la Puissance ou du Compte de [Vibration] ou un 'Tremblement Unique' : +2 de Puissance de Pièce et +25% de dégâts supplémentaires.\n\nLorsqu’un allié qui inflige de la Puissance ou du Compte de [Vibration] ou un 'Tremblement Unique' inflige des dégâts à un ennemi plus lent avec 2+ de différence de Vitesse : inflige +(Puissance de [Vibration] sur la cible, 25 max)% de dégâts supplémentaires et inflige 2 de [DefenseDown] chaque fois qu’un allié inflige des dégâts (6 max)\n\nPremier Début du Tour d’une vague : inflige (12 - Vitesse actuelle) de Puissance de [Vibration] (6 min.) et (12 -Vitesse actuelle)/2 de Compte de [Vibration] à 1 ennemi le plus rapide. (arrondi au supérieur ; pour les Anomalies, une Partie)",
+      "desc": "Début de l’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui appliquent de l’Intensité ou du Compte de [Vibration] ou des effets de “Tremblement Unique”. (N’inclut pas les Capacités E.G.O.)\n\nAux Capacités 3 des alliés qui infligent de l’Intensité ou du Compte de [Vibration] ou un “Tremblement Unique” : +2 de Puissance de Pièce et +25% de dégâts supplémentaires.\n\nLorsqu’un allié qui inflige de l’Intensité ou du Compte de [Vibration] ou un “Tremblement Unique” inflige des dégâts à un ennemi plus lent avec 2 de différence de Vitesse ou plus : inflige +(Intensité de [Vibration] sur la cible, 25 max)% de dégâts supplémentaires et inflige 2 [DefenseDown] chaque fois qu’un allié inflige des dégâts (6 max)\n\nPremier Début du Tour d’une vague : inflige (12 - Vitesse actuelle) d’Intensité de [Vibration] (6 min.) et (12 -Vitesse actuelle)/2 de Compte de [Vibration] à 1 ennemi le plus rapide. (arrondi au supérieur ; pour les Anomalies, une Partie)",
       "simpleDesc": [
         {
           "abilityID": 2044,
@@ -139,18 +139,18 @@
         },
         {
           "abilityID": 20441,
-          "simpleDesc": "Inflige +(Puissance de [Vibration] de la cible)% de dégâts supplémentaires ; inflige 2 de [DefenseDown] chaque fois qu’un allié inflige des dégâts"
+          "simpleDesc": "Inflige +(Intensité de [Vibration] de la cible)% de dégâts supplémentaires ; inflige 2 [DefenseDown] chaque fois qu’un allié inflige des dégâts"
         },
         {
           "abilityID": 20442,
-          "simpleDesc": "Inflige (12 - Vitesse actuelle) de Puissance de [Vibration] (3 min.) et (9 - Vitesse actuelle)/2 de Compte de [Vibration]"
+          "simpleDesc": "Inflige (12 - Vitesse actuelle) d’Intensité de [Vibration] (3 min.) et (9 - Vitesse actuelle)/2 de Compte de [Vibration]"
         }
       ]
     },
     {
       "id": 2045,
       "name": "Montre de Poche : Type Y",
-      "desc": "Début de l’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui appliquent de la Puissance ou du Compte de [Vibration] ou des effets de 'Tremblement Unique'. (N’inclut pas les Capacités E.G.O.)\n\nAux Capacités 3 des alliés qui infligent de la Puissance ou du Compte de [Vibration] ou un 'Tremblement Unique' : +2 de Puissance de Pièce et +25% de dégâts supplémentaires.\n\nIdentités Yurodivy : Capacité 3 gagne +2 de Puissance de Pièce et inflige +(25 + (somme de la Puissance et du Compte de [Vibration] de la cible))% de dégâts supplémentaires. (100% max)\n\nIdentités Yurodivy : gagne +3 de Compte de [Vibration] au Début du Tour.",
+      "desc": "Début de l’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui appliquent de l’Intensité ou du Compte de [Vibration] ou des effets de “Tremblement Unique”. (N’inclut pas les Capacités E.G.O.)\n\nAux Capacités 3 des alliés qui infligent de l’Intensité ou du Compte de [Vibration] ou un “Tremblement Unique” : +2 de Puissance de Pièce et +25% de dégâts supplémentaires.\n\nIdentités Yurodivy : Capacité 3 gagne +2 de Puissance de Pièce et inflige +(25 + (somme de la Puissance et du Compte de [Vibration] de la cible))% de dégâts supplémentaires. (100% max)\n\nIdentités Yurodivy : gagne +3 de Compte de [Vibration] au Début du Tour.",
       "simpleDesc": [
         {
           "abilityID": 2045,
@@ -169,7 +169,7 @@
     {
       "id": 2046,
       "name": "Montre de Poche : Type P",
-      "desc": "Début de l’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui appliquent de la Puissance ou du Compte de [Vibration] ou des effets de 'Tremblement Unique'. (N’inclut pas les Capacités E.G.O.)\n\nAux Capacités 3 des alliés qui infligent de la Puissance ou du Compte de [Vibration] ou un 'Tremblement Unique' : +2 de Puissance de Pièce et +25% de dégâts supplémentaires.\n\nLorsqu’un allié qui inflige de la Puissance ou du Compte de [Vibration] ou un 'Tremblement Unique' affronte en Duel un ennemi plus rapide avec 2+ de différence de Vitesse : +2 de Puissance de Duel et inflige +(Puissance de [Vibration] de la cible)% de dégâts supplémentaires. (50% max)\n\nDébut du Tour : du plus lent au plus rapide, les 3 alliés les plus lents gagnent 5 de [AttackUp], 3 de [AttackUp] et 2 de [AttackUp] respectivement.",
+      "desc": "Début de l’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui appliquent de l’Intensité ou du Compte de [Vibration] ou des effets de “Tremblement Unique”. (N’inclut pas les Capacités E.G.O.)\n\nAux Capacités 3 des alliés qui infligent de l’Intensité ou du Compte de [Vibration] ou un “Tremblement Unique” : +2 de Puissance de Pièce et +25% de dégâts supplémentaires.\n\nLorsqu’un allié qui inflige de l’Intensité ou du Compte de [Vibration] ou un “Tremblement Unique” affronte en Duel un ennemi plus rapide avec 2 de différence de Vitesse ou plus : +2 de Puissance de Duel et inflige +(Intensité de [Vibration] de la cible)% de dégâts supplémentaires. (50% max)\n\nDébut du Tour : du plus lent au plus rapide, les 3 alliés les plus lents gagnent 5 [AttackUp], 3 [AttackUp] et 2 [AttackUp] respectivement.",
       "simpleDesc": [
         {
           "abilityID": 2046,
@@ -177,7 +177,7 @@
         },
         {
           "abilityID": 20461,
-          "simpleDesc": "+2 de Puissance de Duel et inflige +(Puissance de [Vibration] de la cible)% de dégâts supplémentaires"
+          "simpleDesc": "+2 de Puissance de Duel et inflige +(Intensité de [Vibration] de la cible)% de dégâts supplémentaires"
         },
         {
           "abilityID": 20462,

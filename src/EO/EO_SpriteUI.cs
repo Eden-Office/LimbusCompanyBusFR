@@ -77,6 +77,17 @@ namespace LimbusCompanyFR
                 lunacyTag.GetComponentInChildren<Image>(true).sprite = EO_ReadmeManager.GetReadmeSprites("LunacyTag");
             }
         }
+
+        [HarmonyPatch(typeof(MirrorDungeonBanner), nameof(MirrorDungeonBanner.Initialize))]
+        [HarmonyPostfix]
+        private static void MirrorDungeon_Banner_Init(MirrorDungeonBanner __instance)
+        {
+            Transform banner = __instance._hsv.transform.Find("[Rect]Items/[Image]ImageBackground/[Image]Image");
+            if (banner.GetComponentInChildren<Image>(true).sprite.name.StartsWith("MirrorDungeon5"))
+            {
+                banner.GetComponentInChildren<Image>(true).overrideSprite = EO_ReadmeManager.GetReadmeSprites("MirrorDungeon_Banner");
+            }
+        }
         #endregion
 
         #region Friends

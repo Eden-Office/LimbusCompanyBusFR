@@ -25,7 +25,7 @@
         {
           "level": 1,
           "name": "Attaque Sournoise",
-          "desc": "[OnSucceedAttack] Gagne 1 de Bonus de Puissance d’Attaque au prochain tour"
+          "desc": "[OnSucceedAttack] Gagne 1 de Bonus de Puissance Offensive au prochain tour"
         }
       ]
     },
@@ -44,7 +44,7 @@
         {
           "level": 1,
           "name": "Blessure Ouverte",
-          "desc": "[OnSucceedAttack] Inflige 1 de Malus de Puissance d’Attaque au prochain tour"
+          "desc": "[OnSucceedAttack] Inflige 1 de Malus de Puissance Offensive au prochain tour"
         }
       ]
     },
@@ -73,7 +73,7 @@
         {
           "level": 1,
           "name": "Commande d’Assaut",
-          "desc": "[WhenUse] Applique 1 de Bonus de Puissance d’Attaque à un allié aléatoire au prochain tour"
+          "desc": "[WhenUse] Applique 1 de Bonus de Puissance Offensive à un allié aléatoire au prochain tour"
         }
       ]
     },
@@ -83,7 +83,7 @@
         {
           "level": 1,
           "name": "Commande de Rempart",
-          "desc": "[2xPostLine]\n[WhenUse] Donne 2 de 1 de Bonus de Puissance de Défense à 2 alliés aléatoires au prochain tour"
+          "desc": "[2xPostLine]\n[WhenUse] Donne 2 de 1 de Bonus de Puissance Défensive à 2 alliés aléatoires au prochain tour"
         }
       ]
     },
@@ -961,7 +961,7 @@
         {
           "level": 1,
           "name": "Je Vais Vous Montrer... !",
-          "desc": "[StartBattle] Gagne 1 de Bonus de Puissance d’Attaque",
+          "desc": "[StartBattle] Gagne 1 de Bonus de Puissance Offensive",
           "coinlist": [
             {}
           ]
@@ -1213,7 +1213,7 @@
         {
           "level": 1,
           "name": "Danza de Paz",
-          "desc": "[WhenUse] Applique 1 de Bonus de Puissance de Défense à tous les alliés au prochain tour",
+          "desc": "[WhenUse] Applique 1 de Bonus de Puissance Défensive à tous les alliés au prochain tour",
           "coinlist": [
             {}
           ]
@@ -1233,7 +1233,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de Malus de Puissance d’Attaque au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 de Malus de Puissance Offensive au prochain tour"
                 }
               ]
             }
@@ -1273,7 +1273,7 @@
         {
           "level": 1,
           "name": "Danza de Emoción",
-          "desc": "[WhenUse] Gagne 1 de Bonus de Puissance d’Attaque au prochain tour",
+          "desc": "[WhenUse] Gagne 1 de Bonus de Puissance Offensive au prochain tour",
           "coinlist": [
             {}
           ]
@@ -1331,7 +1331,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de Malus de Puissance d’Attaque et de Paralysie au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 3 de Malus de Puissance Offensive et de Paralysie au prochain tour"
                 }
               ]
             }
@@ -1351,7 +1351,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 2 de Bonus de Puissance d’Attaque au prochain tour"
+                  "desc": "[OnSucceedAttack] Gagne 2 de Bonus de Puissance Offensive au prochain tour"
                 }
               ]
             }
@@ -1371,7 +1371,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 2 de Bonus de Puissance de Défense au prochain tour"
+                  "desc": "[OnSucceedAttack] Gagne 2 de Bonus de Puissance Défensive au prochain tour"
                 }
               ]
             }
@@ -1638,7 +1638,7 @@
         {
           "level": 1,
           "name": "Abri",
-          "desc": "[WinDuel] Applique 1 de Bonus de Puissance de Défense à 2 alliés aléatoires au prochain tour",
+          "desc": "[WinDuel] Applique 1 de Bonus de Puissance Défensive à 2 alliés aléatoires au prochain tour",
           "coinlist": [
             {}
           ]
@@ -1778,7 +1778,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de Paralysie et de Malus de Puissance de Défense au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 de Paralysie et de Malus de Puissance Défensive au prochain tour"
                 }
               ]
             }
@@ -1958,12 +1958,12 @@
         {
           "level": 1,
           "name": "Sermon Oppressant",
-          "desc": "[DefeatDuel] Gagne 2 de Malus de Puissance d’Attaque au prochain tour",
+          "desc": "[DefeatDuel] Gagne 2 de Malus de Puissance Offensive au prochain tour",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de Malus de Puissance d’Attaque au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 de Malus de Puissance Offensive au prochain tour"
                 }
               ]
             }
@@ -2074,7 +2074,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 3 de Ralentissement et 2 de Malus de Puissance d’Attaque au prochain tour"
+                  "desc": "[OnSucceedAttackHead] Inflige 3 de Ralentissement et 2 de Malus de Puissance Offensive au prochain tour"
                 }
               ]
             }
@@ -2140,7 +2140,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a 5+ de Clous de la N Corp., inflige 10 de Malus de Puissance d’Attaque et de Paralysie au prochain tour"
+                  "desc": "[OnSucceedAttack] Si la cible a 5+ de Clous de la N Corp., inflige 10 de Malus de Puissance Offensive et de Paralysie au prochain tour"
                 }
               ]
             }
@@ -2839,7 +2839,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de Malus de Puissance d’Attaque au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 de Malus de Puissance Offensive au prochain tour"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Déclenche un Sursaut de Tremblement"
@@ -2978,7 +2978,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de Malus de Puissance d’Attaque au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 de Malus de Puissance Offensive au prochain tour"
                 }
               ]
             }
@@ -3931,7 +3931,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Donne 2 de Bonus de Puissance d’Attaque au prochain tour"
+                  "desc": "[OnSucceedAttack] Donne 2 de Bonus de Puissance Offensive au prochain tour"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige 2 de Vulnérabilité au prochain tour"
@@ -4606,7 +4606,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 1 de Vitesse ; inflige 2 de Ralentissement au prochain tour"
+                  "desc": "[OnSucceedAttack] Gagne 1 Accélération ; inflige 2 de Ralentissement au prochain tour"
                 }
               ]
             }

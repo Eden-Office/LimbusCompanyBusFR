@@ -12,7 +12,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gagne 1 de Vitesse au prochain tour"
+                  "desc": "[OnSucceedAttackHead] Gagne 1 Accélération au prochain tour"
                 }
               ]
             }
@@ -27,7 +27,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 1 de Vitesse au prochain tour"
+                  "desc": "[OnSucceedAttack] Gagne 1 Accélération au prochain tour"
                 }
               ]
             }
@@ -42,7 +42,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 2 de Vitesse au prochain tour"
+                  "desc": "[OnSucceedAttack] Gagne 2 Accélération au prochain tour"
                 }
               ]
             }
@@ -148,7 +148,7 @@
         {
           "level": 3,
           "name": "Gardien",
-          "desc": "[WhenUse] Applique 2 de Bonus de Puissance de Défense et 3 de Bonus de Niveau Défensif à tous les alliés\nÀ 6+ de Bonus de Niveau Défensif, +1 de Puissance de Pièce\nÀ 10+ de Bonus de Niveau Défensif, inflige +30% de dégâts",
+          "desc": "[WhenUse] Applique 2 de Bonus de Puissance Défensive et 3 de Bonus de Niveau Défensif à tous les alliés\nÀ 6+ de Bonus de Niveau Défensif, +1 de Puissance de Pièce\nÀ 10+ de Bonus de Niveau Défensif, inflige +30% de dégâts",
           "coinlist": [
             {},
             {},
@@ -164,7 +164,7 @@
         {
           "level": 4,
           "name": "Gardien",
-          "desc": "[WhenUse] Applique 2 de Bonus de Puissance de Défense et 3 de Bonus de Niveau Défensif à tous les alliés\n+1 de Puissance de Pièce tous les 6 de Bonus de Niveau Défensif (3 Max)\nÀ 10+ de Bonus de Niveau Défensif, inflige +50% de dégâts",
+          "desc": "[WhenUse] Applique 2 de Bonus de Puissance Défensive et 3 de Bonus de Niveau Défensif à tous les alliés\n+1 de Puissance de Pièce tous les 6 de Bonus de Niveau Défensif (3 Max)\nÀ 10+ de Bonus de Niveau Défensif, inflige +50% de dégâts",
           "coinlist": [
             {},
             {},
@@ -520,7 +520,7 @@
                   "desc": "[OnSucceedAttack] Inflige 1 de Malus de Niveau Défensif"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a 10+ de [Laceration], inflige 1 de Malus de Puissance d’Attaque au prochain tour"
+                  "desc": "[OnSucceedAttack] Si la cible a 10+ de [Laceration], inflige 1 de Malus de Puissance Offensive au prochain tour"
                 }
               ]
             }
@@ -544,7 +544,7 @@
                   "desc": "[OnSucceedAttack] Inflige 1 de Malus de Niveau Défensif"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a 10+ de [Laceration], inflige 1 de Malus de Puissance d’Attaque au prochain tour"
+                  "desc": "[OnSucceedAttack] Si la cible a 10+ de [Laceration], inflige 1 de Malus de Puissance Offensive au prochain tour"
                 }
               ]
             }
@@ -568,7 +568,7 @@
                   "desc": "[OnSucceedAttack] Inflige 1 de Malus de Niveau Défensif"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a 7+ de [Laceration], inflige 1 de Malus de Puissance d’Attaque au prochain tour"
+                  "desc": "[OnSucceedAttack] Si la cible a 7+ de [Laceration], inflige 1 de Malus de Puissance Offensive au prochain tour"
                 }
               ]
             }
