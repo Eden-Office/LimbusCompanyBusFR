@@ -15,7 +15,7 @@
                   "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de [Vibration]"
+                  "desc": "[OnSucceedAttack] Inflige 4 [Vibration]"
                 }
               ]
             }
@@ -33,10 +33,10 @@
                   "desc": "[OnSucceedAttack] Inflige +4 de Compte de [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 5 de [Vibration]"
+                  "desc": "[OnSucceedAttack] Inflige 5 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 2 de [Paralysis]"
+                  "desc": "[OnSucceedAttackHead] Inflige 2 [Paralysis]"
                 }
               ]
             }
@@ -54,10 +54,10 @@
                   "desc": "[OnSucceedAttack] Inflige +4 de Compte de [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 5 de [Vibration]"
+                  "desc": "[OnSucceedAttack] Inflige 5 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 2 de [Paralysis]"
+                  "desc": "[OnSucceedAttackHead] Inflige 2 [Paralysis]"
                 }
               ]
             }
@@ -80,7 +80,7 @@
                   "desc": "[CriticalOnSucceedAttack] Déclenche un [VibrationExplosion]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflige 4 de [Laceration]"
+                  "desc": "[CriticalOnSucceedAttack] Inflige 4 [Laceration]"
                 },
                 {
                   "desc": "[OnSucceedAttackTail] Déclenche un [VibrationExplosion]"
@@ -104,7 +104,7 @@
                   "desc": "[CriticalOnSucceedAttack] Déclenche un [VibrationExplosion]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflige 6 de [Laceration]"
+                  "desc": "[CriticalOnSucceedAttack] Inflige 6 [Laceration]"
                 },
                 {
                   "desc": "[OnSucceedAttackTail] Déclenche un [VibrationExplosion]"
@@ -128,7 +128,7 @@
                   "desc": "[CriticalOnSucceedAttack] Déclenche un [VibrationExplosion]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflige 8 de [Laceration]"
+                  "desc": "[CriticalOnSucceedAttack] Inflige 8 [Laceration]"
                 },
                 {
                   "desc": "[OnSucceedAttackTail] Déclenche un [VibrationExplosion]"
@@ -149,7 +149,7 @@
           "level": 1,
           "name": "Cri Électrique",
           "abName": "Mouton Électrique Rêveur",
-          "desc": "[BeforeAttack] Gagne (Réson. d’Envie -2) de Poids d’Atq (1 max)\n[BeforeAttack] Si cette unité a 20+ de Compte de [Charge], dépense 20 de Compte de Charge pour infliger +30% de dégât supplémentaire",
+          "desc": "[BeforeAttack] Gagne (Réson. d’Envie -2) de Poids d’Atq (1 max)\n[BeforeAttack] Si cette unité a 20 de Compte de [Charge] ou plus, dépense 20 de Compte de Charge pour infliger +30% de dégât supplémentaire",
           "coinlist": [
             {
               "coindescs": [
@@ -164,7 +164,7 @@
           "level": 3,
           "name": "Cri Électrique",
           "abName": "Mouton Électrique Rêveur",
-          "desc": "[BeforeAttack] Gagne (Réson. d’Envie -2) de Poids d’Atq (2 max)\n[BeforeAttack] Inflige +((Réson. d’Envie - 3) * 5)% de dégât supplémentaire (15% max)\n[BeforeAttack] Si cette unité a 20+ de Compte de [Charge], dépense 20 de Compte de Charge pour infliger +35% de dégât supplémentaire",
+          "desc": "[BeforeAttack] Gagne (Réson. d’Envie -2) de Poids d’Atq (2 max)\n[BeforeAttack] Inflige +((Réson. d’Envie - 3) * 5)% de dégât supplémentaire (15% max)\n[BeforeAttack] Si cette unité a 20 de Compte de [Charge] ou plus, dépense 20 de Compte de Charge pour infliger +35% de dégât supplémentaire",
           "coinlist": [
             {
               "coindescs": [
@@ -179,7 +179,7 @@
           "level": 4,
           "name": "Cri Électrique",
           "abName": "Mouton Électrique Rêveur",
-          "desc": "[BeforeAttack] Gagne (Réson. d’Envie -2) de Poids d’Atq (3 max)\n[BeforeAttack] Inflige +((Réson. d’Envie - 3) * 10)% de dégât supplémentaire (30% max)\n[BeforeAttack] Si cette unité a 20+ de Compte de [Charge], dépense 20 de Compte de Charge pour infliger +40% de dégât supplémentaire",
+          "desc": "[BeforeAttack] Gagne (Réson. d’Envie -2) de Poids d’Atq (3 max)\n[BeforeAttack] Inflige +((Réson. d’Envie - 3) * 10)% de dégât supplémentaire (30% max)\n[BeforeAttack] Si cette unité a 20 de Compte de [Charge] ou plus, dépense 20 de Compte de Charge pour infliger +40% de dégât supplémentaire",
           "coinlist": [
             {
               "coindescs": [
@@ -249,7 +249,7 @@
           "level": 1,
           "name": "Désir - Mircalla",
           "abName": "Quatre-cents Roses",
-          "desc": "Les PV de cette unité ne tombent pas en-dessous de 1 en utilisant cette Capacité.\n+1 de Puissance de Duel pour chaque 100 de [BloodDinner_Accumulation] de cette unité (2 max)\n[BeforeAttack] À moins de 50 de [BloodDinner], inflige 1 de [Laceration] à chaque Touche\n[EndSkill] Pendant 3 tours, perd 10 PSM à la Fin du Tour.",
+          "desc": "Les PV de cette unité ne tombent pas en-dessous de 1 en utilisant cette Capacité.\n+1 de Puissance de Duel pour chaque 100 [BloodDinner_Accumulation] de cette unité (2 max)\n[BeforeAttack] À moins de 50 [BloodDinner], inflige 1 [Laceration] à chaque Touche\n[EndSkill] Pendant 3 tours, perd 10 PSM à la Fin du Tour.",
           "coinlist": [
             {
               "coindescs": [
@@ -267,7 +267,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "À 100+ de [BloodDinner_Common_Accumulation] : inflige +0.1% de dégâts supplémentaires pour chaque valeur (10% max)"
+                  "desc": "À 100 [BloodDinner_Common_Accumulation] ou plus : inflige +0.1% de dégâts supplémentaires pour chaque valeur (10% max)"
                 }
               ]
             },
@@ -277,7 +277,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "À 200+ de [BloodDinner_Common_Accumulation] : inflige +0.1% de dégâts supplémentaires pour chaque valeur (20% max)"
+                  "desc": "À 200 [BloodDinner_Common_Accumulation] ou plus : inflige +0.1% de dégâts supplémentaires pour chaque valeur (20% max)"
                 }
               ]
             },
@@ -287,7 +287,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "À 300+ de [BloodDinner_Common_Accumulation] : inflige +0.1% de dégâts supplémentaires pour chaque valeur (30% max)"
+                  "desc": "À 300 [BloodDinner_Common_Accumulation] ou plus : inflige +0.1% de dégâts supplémentaires pour chaque valeur (30% max)"
                 },
                 {
                   "desc": "[WinDuelAttack] Inflige [ThirstyRose] selon la plus haute Réson.-A de Luxure (3 max)"
@@ -300,58 +300,7 @@
           "level": 3,
           "name": "Désir - Mircalla",
           "abName": "Quatre-cents Roses",
-          "desc": "Les PV de cette unité ne tombent pas en-dessous de 1 en utilisant cette Capacité.\n<style=\"highlight\">Si la cible a 10+ de [Laceration], +1 de Puissance de Pièce</style>\n+1 de Puissance de Duel pour chaque 100 de [BloodDinner_Accumulation] de cette unité (<style=\"highlight\">3</style> max)\n[BeforeAttack] À moins de <style=\"highlight\">75</style> de [BloodDinner], inflige 1 de [Laceration] à chaque Touche\n[EndSkill] Pendant 3 tours, perd 10 PSM à la Fin du Tour.",
-          "coinlist": [
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "Inflige +0.1% de dégâts supplémentaires pour chaque [BloodDinner_Common_Accumulation] (10% max)<style=\"highlight\"></style>"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "À 100+ de [BloodDinner_Common_Accumulation] : inflige +0.1% de dégâts supplémentaires pour chaque valeur (<style=\"highlight\">15</style>% max)"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "À 200+ de [BloodDinner_Common_Accumulation] : inflige +0.1% de dégâts supplémentaires pour chaque valeur (<style=\"highlight\">25</style>% max)"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "À 300+ de [BloodDinner_Common_Accumulation] : inflige +0.1% de dégâts supplémentaires pour chaque valeur (<style=\"highlight\">40</style>% max)"
-                },
-                {
-                  "desc": "[WinDuelAttack] Inflige [ThirstyRose] selon la plus haute Réson.-A de Luxure (3 max)"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "level": 4,
-          "name": "Désir - Mircalla",
-          "abName": "Quatre-cents Roses",
-          "desc": "Les PV de cette unité ne tombent pas en-dessous de 1 en utilisant cette Capacité.\n<style=\"highlight\">+1 de Puissance de Pièce pour chaque 10 de [Laceration] sur la cible (2 max)</style>\n+1 de Puissance de Duel pour chaque 100 de [BloodDinner_Accumulation] de cette unité (<style=\"highlight\">5</style> max)\n[BeforeAttack] À moins de <style=\"highlight\">100</style> de [BloodDinner], inflige 1 de [Laceration] à chaque Touche\n[EndSkill] Pendant 3 tours, perd 10 PSM à la Fin du Tour.",
+          "desc": "Les PV de cette unité ne tombent pas en-dessous de 1 en utilisant cette Capacité.\n<style=\"highlight\">Si la cible a 10 [Laceration] ou plus, +1 de Puissance de Pièce</style>\n+1 de Puissance de Duel pour chaque 100 [BloodDinner_Accumulation] de cette unité (<style=\"highlight\">3</style> max)\n[BeforeAttack] À moins de <style=\"highlight\">75</style> de [BloodDinner], inflige 1 [Laceration] à chaque Touche\n[EndSkill] Pendant 3 tours, perd 10 PSM à la Fin du Tour.",
           "coinlist": [
             {
               "coindescs": [
@@ -369,7 +318,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "À 100+ de [BloodDinner_Common_Accumulation] : inflige +0.1% de dégâts supplémentaires pour chaque valeur (<style=\"highlight\">20</style>% max)"
+                  "desc": "À 100 [BloodDinner_Common_Accumulation] ou plus : inflige +0.1% de dégâts supplémentaires pour chaque valeur (<style=\"highlight\">15</style>% max)"
                 }
               ]
             },
@@ -379,7 +328,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "À 200+ de [BloodDinner_Common_Accumulation] : inflige +0.1% de dégâts supplémentaires pour chaque valeur (<style=\"highlight\">30</style>% max)"
+                  "desc": "À 200 [BloodDinner_Common_Accumulation] ou plus : inflige +0.1% de dégâts supplémentaires pour chaque valeur (<style=\"highlight\">25</style>% max)"
                 }
               ]
             },
@@ -389,7 +338,58 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "À 300+ de [BloodDinner_Common_Accumulation] : inflige +0.1% de dégâts supplémentaires pour chaque valeur (<style=\"highlight\">50</style>% max)"
+                  "desc": "À 300 [BloodDinner_Common_Accumulation] ou plus : inflige +0.1% de dégâts supplémentaires pour chaque valeur (<style=\"highlight\">40</style>% max)"
+                },
+                {
+                  "desc": "[WinDuelAttack] Inflige [ThirstyRose] selon la plus haute Réson.-A de Luxure (3 max)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Désir - Mircalla",
+          "abName": "Quatre-cents Roses",
+          "desc": "Les PV de cette unité ne tombent pas en-dessous de 1 en utilisant cette Capacité.\n<style=\"highlight\">+1 de Puissance de Pièce pour chaque 10 [Laceration] sur la cible (2 max)</style>\n+1 de Puissance de Duel pour chaque 100 [BloodDinner_Accumulation] de cette unité (<style=\"highlight\">5</style> max)\n[BeforeAttack] À moins de <style=\"highlight\">100</style> de [BloodDinner], inflige 1 [Laceration] à chaque Touche\n[EndSkill] Pendant 3 tours, perd 10 PSM à la Fin du Tour.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Inflige +0.1% de dégâts supplémentaires pour chaque [BloodDinner_Common_Accumulation] (10% max)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "À 100 [BloodDinner_Common_Accumulation] ou plus : inflige +0.1% de dégâts supplémentaires pour chaque valeur (<style=\"highlight\">20</style>% max)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "À 200 [BloodDinner_Common_Accumulation] ou plus : inflige +0.1% de dégâts supplémentaires pour chaque valeur (<style=\"highlight\">30</style>% max)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "À 300 [BloodDinner_Common_Accumulation] ou plus : inflige +0.1% de dégâts supplémentaires pour chaque valeur (<style=\"highlight\">50</style>% max)"
                 },
                 {
                   "desc": "[WinDuelAttack] Inflige [ThirstyRose] selon la plus haute Réson.-A de Luxure (<style=\"highlight\">4</style> max)"
@@ -407,22 +407,22 @@
           "level": 1,
           "name": "Désir - Mircalla",
           "abName": "Quatre-cents Roses",
-          "desc": "[CantIdentify]\nCible aléatoirement\nLes PV de cette unité ne tombent pas en-dessous de 1 en utilisant cette Capacité.\nSi la cible a 10+ de [Laceration], -1 de Puissance de Pièce\n[BeforeAttack] À moins de 150 [BloodDinner], inflige 1 de [Laceration] à chaque Touche\n[BeforeAttack] Gagne 20 de [Laceration] et active immédiatement le [Laceration] sur soi. Perd 2 de Compte de [Laceration]",
+          "desc": "[CantIdentify]\nCible aléatoirement\nLes PV de cette unité ne tombent pas en-dessous de 1 en utilisant cette Capacité.\nSi la cible a 10 [Laceration] ou plus, -1 de Puissance de Pièce\n[BeforeAttack] À moins de 150 [BloodDinner], inflige 1 [Laceration] à chaque Touche\n[BeforeAttack] Gagne 20 [Laceration] et active immédiatement le [Laceration] sur soi. Perd 2 de Compte de [Laceration]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Laceration] pour chaque 50 de [BloodDinner_Common_Accumulation] (10 max)"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration] pour chaque 50 [BloodDinner_Common_Accumulation] (10 max)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] À 100- de [BloodDinner], inflige 10 de [Laceration]"
+                  "desc": "[OnSucceedAttack] À 100 [BloodDinner] ou moins, inflige 10 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Inflige +5% de dégâts supplémentaires pour chaque 100 de [BloodDinner_Common_Accumulation] (25% max)"
+                  "desc": "Inflige +5% de dégâts supplémentaires pour chaque 100 [BloodDinner_Common_Accumulation] (25% max)"
                 },
                 {
                   "desc": "[WinDuelAttack] Inflige [ThirstyRose] selon la plus haute Réson.-A de Luxure (3 max)"
@@ -438,22 +438,22 @@
           "level": 3,
           "name": "Désir - Mircalla",
           "abName": "Quatre-cents Roses",
-          "desc": "[CantIdentify]\nCible aléatoirement\nLes PV de cette unité ne tombent pas en-dessous de 1 en utilisant cette Capacité.\nSi la cible a 10+ de [Laceration], -1 de Puissance de Pièce\n<style=\"highlight\">À 200+ de [BloodDinner_Accumulation] par cette unité, -1 de Puissance de Pièce</style>\n[BeforeAttack] À moins de 150 [BloodDinner], inflige 1 de [Laceration] à chaque Touche\n[BeforeAttack] Gagne 20 de [Laceration] et active immédiatement le [Laceration] sur soi. Perd 2 de Compte de [Laceration]",
+          "desc": "[CantIdentify]\nCible aléatoirement\nLes PV de cette unité ne tombent pas en-dessous de 1 en utilisant cette Capacité.\nSi la cible a 10 [Laceration] ou plus, -1 de Puissance de Pièce\n<style=\"highlight\">À 200 [BloodDinner_Accumulation] ou plus par cette unité, -1 de Puissance de Pièce</style>\n[BeforeAttack] À moins de 150 [BloodDinner], inflige 1 [Laceration] à chaque Touche\n[BeforeAttack] Gagne 20 [Laceration] et active immédiatement le [Laceration] sur soi. Perd 2 de Compte de [Laceration]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Laceration] pour chaque 50 de [BloodDinner_Common_Accumulation] (10 max)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration] pour chaque 50 [BloodDinner_Common_Accumulation] (10 max)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] À 100- de [BloodDinner], inflige 10 de [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] À 100 [BloodDinner] ou moins, inflige 10 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Inflige +<style=\"highlight\">10</style>% de dégâts supplémentaires pour chaque 100 de [BloodDinner_Common_Accumulation] (<style=\"highlight\">50</style>% max)"
+                  "desc": "Inflige +<style=\"highlight\">10</style>% de dégâts supplémentaires pour chaque 100 [BloodDinner_Common_Accumulation] (<style=\"highlight\">50</style>% max)"
                 },
                 {
                   "desc": "[WinDuelAttack] Inflige [ThirstyRose] selon la plus haute Réson.-A de Luxure (<style=\"highlight\">4</style> max)"
@@ -469,22 +469,22 @@
           "level": 4,
           "name": "Désir - Mircalla",
           "abName": "Quatre-cents Roses",
-          "desc": "[CantIdentify]\nCible aléatoirement\nLes PV de cette unité ne tombent pas en-dessous de 1 en utilisant cette Capacité.\nSi la cible a 10+ de [Laceration], -1 de Puissance de Pièce\nÀ 200+ [BloodDinner_Accumulation] par cette unité, -1 de Puissance de Pièce\n[BeforeAttack] À moins de 150 [BloodDinner], inflige 1 de [Laceration] à chaque Touche\n[BeforeAttack] Gagne 20 de [Laceration] et active immédiatement le [Laceration] sur soi. Perd 2 de Compte de [Laceration]<style=\"highlight\"></style>",
+          "desc": "[CantIdentify]\nCible aléatoirement\nLes PV de cette unité ne tombent pas en-dessous de 1 en utilisant cette Capacité.\nSi la cible a 10 [Laceration] ou plus, -1 de Puissance de Pièce\nÀ 200 [BloodDinner_Accumulation] ou plus par cette unité, -1 de Puissance de Pièce\n[BeforeAttack] À moins de 150 [BloodDinner], inflige 1 [Laceration] à chaque Touche\n[BeforeAttack] Gagne 20 [Laceration] et active immédiatement le [Laceration] sur soi. Perd 2 de Compte de [Laceration]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Laceration] pour chaque 50 de [BloodDinner_Common_Accumulation] (10 max)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration] pour chaque 50 [BloodDinner_Common_Accumulation] (10 max)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] À 100- de [BloodDinner], inflige 10 de [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] À 100 [BloodDinner] ou moins, inflige 10 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Inflige +<style=\"highlight\">20</style>% de dégâts supplémentaires pour chaque 100 de [BloodDinner_Common_Accumulation] (<style=\"highlight\">100</style>% max)"
+                  "desc": "Inflige +<style=\"highlight\">20</style>% de dégâts supplémentaires pour chaque 100 [BloodDinner_Common_Accumulation] (<style=\"highlight\">100</style>% max)"
                 },
                 {
                   "desc": "[WinDuelAttack] Inflige [ThirstyRose] selon la plus haute Réson.-A de Luxure (<style=\"highlight\">5</style> max)"

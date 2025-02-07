@@ -77,10 +77,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de Ralentissement au prochain tour"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 Ralentissement au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de Tremblement"
+                  "desc": "[OnSucceedAttack] Inflige 3 Tremblement"
                 }
               ]
             }
@@ -95,10 +95,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de Ralentissement au prochain tour"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 Ralentissement au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de Tremblement"
+                  "desc": "[OnSucceedAttack] Inflige 4 Tremblement"
                 }
               ]
             }
@@ -113,10 +113,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de Ralentissement au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 Ralentissement au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 5 de Tremblement"
+                  "desc": "[OnSucceedAttack] Inflige 5 Tremblement"
                 }
               ]
             }
@@ -139,7 +139,7 @@
                   "desc": "[OnSucceedAttack] Inflige de la Déchirure égale à (Réson. de Gour. /2)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de Ralentissement au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 Ralentissement au prochain tour"
                 }
               ]
             }
@@ -149,7 +149,7 @@
           "level": 3,
           "name": "Corrosion Effervescente",
           "abName": "Perle Flânante",
-          "desc": "[BeforeAttack] À 50%- de PV, +1 de Poids d’Attaque",
+          "desc": "[BeforeAttack] À 50% de PV ou moins, +1 de Poids d’Attaque",
           "coinlist": [
             {
               "coindescs": [
@@ -157,10 +157,10 @@
                   "desc": "[OnSucceedAttack] Inflige de la Déchirure égale à (Réson. de Gour. /2)"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 2 de Vulnérabilité de Gourmandise au prochain tour"
+                  "desc": "[OnSucceedAttackHead] Inflige 2 Vulnérabilité de Gourmandise au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de Ralentissement au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 Ralentissement au prochain tour"
                 }
               ]
             }
@@ -170,7 +170,7 @@
           "level": 4,
           "name": "Corrosion Effervescente",
           "abName": "Perle Flânante",
-          "desc": "[BeforeAttack] À 50%- de PV, +1 de Poids d’Attaque;\nÀ 25%- de PV, +1 de Poids d’Attaque supplémentaire",
+          "desc": "[BeforeAttack] À 50% de PV ou moins, +1 de Poids d’Attaque;\nÀ 25% de PV ou moins, +1 de Poids d’Attaque supplémentaire",
           "coinlist": [
             {
               "coindescs": [
@@ -178,10 +178,10 @@
                   "desc": "[OnSucceedAttack] Inflige de la Déchirure égale à (Réson. de Gour. /2)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de Vulnérabilité de Gourmandise au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 Vulnérabilité de Gourmandise au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de Ralentissement au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 Ralentissement au prochain tour"
                 }
               ]
             }
@@ -207,7 +207,7 @@
                   "desc": "[OnSucceedAttack] Se soigne de 20% des dégâts infligés"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de Ralentissement au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 Ralentissement au prochain tour"
                 }
               ]
             }
@@ -217,7 +217,7 @@
           "level": 3,
           "name": "Corrosion Effervescente",
           "abName": "Perle Flânante",
-          "desc": "[CantIdentify]\nCible l’unité avec le moins de PV\n[BeforeAttack] À 50%- de PV, +1 de Poids d’Attaque",
+          "desc": "[CantIdentify]\nCible l’unité avec le moins de PV\n[BeforeAttack] À 50% de PV ou moins, +1 de Poids d’Attaque",
           "coinlist": [
             {
               "coindescs": [
@@ -228,7 +228,7 @@
                   "desc": "[OnSucceedAttack] Se soigne de 30% des dégâts infligés"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de Ralentissement au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 Ralentissement au prochain tour"
                 }
               ]
             }
@@ -238,7 +238,7 @@
           "level": 4,
           "name": "Corrosion Effervescente",
           "abName": "Perle Flânante",
-          "desc": "[CantIdentify]\nCible l’unité avec le moins de PV\n[BeforeAttack] À 50%- de PV, +1 de Poids d’Attaque\nÀ 25%- de PV, +1 de Poids d’Attaque supplémentaire",
+          "desc": "[CantIdentify]\nCible l’unité avec le moins de PV\n[BeforeAttack] À 50% de PV ou moins, +1 de Poids d’Attaque\nÀ 25% de PV ou moins, +1 de Poids d’Attaque supplémentaire",
           "coinlist": [
             {
               "coindescs": [
@@ -249,7 +249,7 @@
                   "desc": "[OnSucceedAttack] Se soigne de 50% des dégâts infligés"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de Ralentissement au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 Ralentissement au prochain tour"
                 }
               ]
             }
@@ -264,12 +264,12 @@
           "level": 1,
           "name": "Lamentation Caverneuse",
           "abName": "Crapaud Pleurnicheur",
-          "desc": "Si la cible a [Vibration], inflige +((somme de la Puissance et du Compte de [Vibration] sur la cible)/2)% de dégâts supplémentaires (20% max)",
+          "desc": "Si la cible a [Vibration], inflige +((somme de l’Intensité et du Compte de [Vibration] sur la cible)/2)% de dégâts supplémentaires (20% max)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Vibration]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Vibration]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible"
@@ -282,18 +282,18 @@
           "level": 3,
           "name": "Lamentation Caverneuse",
           "abName": "Crapaud Pleurnicheur",
-          "desc": "Si la cible a [Vibration], inflige +((somme de la Puissance et du Compte de [Vibration] sur la cible)/2)% de dégâts supplémentaires (<style=\"highlight\">25%</style> max)\n<style=\"highlight\">- À 4+ de plus haute Réson., inflige +(5 + (somme de la Puissance et du Compte de [Vibration] sur la cible)/2)% de dégâts supplémentaires à la place (35% max)</style>",
+          "desc": "Si la cible a [Vibration], inflige +((somme de l’Intensité et du Compte de [Vibration] sur la cible)/2)% de dégâts supplémentaires (<style=\"highlight\">25%</style> max)\n<style=\"highlight\">- À 4 de plus haute Réson. ou plus, inflige +(5 + (somme de l’Intensité et du Compte de [Vibration] sur la cible)/2)% de dégâts supplémentaires à la place (35% max)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Vibration] et <style=\"highlight\">+2 de Compte [Vibration]</style>"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Vibration] et <style=\"highlight\">+2 de Compte [Vibration]</style>"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationEcho]</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible"
                 }
               ]
             }
@@ -303,18 +303,18 @@
           "level": 4,
           "name": "Lamentation Caverneuse",
           "abName": "Crapaud Pleurnicheur",
-          "desc": "Si la cible a [Vibration], inflige +(<style=\"highlight\">5 +</style> (somme de la Puissance et du Compte de [Vibration] sur la cible)/2)% de dégâts supplémentaires (<style=\"highlight\">30%</style> max)\n- À 4+ de plus haute Réson., inflige +(<style=\"highlight\">7.5 +</style> (somme de la Puissance et du Compte de [Vibration] sur la cible)/<style=\"highlight\">1.5</style>)% de dégâts supplémentaires à la place (<style=\"highlight\">40%</style> max)",
+          "desc": "Si la cible a [Vibration], inflige +(<style=\"highlight\">5 +</style> (somme de l’Intensité et du Compte de [Vibration] sur la cible)/2)% de dégâts supplémentaires (<style=\"highlight\">30%</style> max)\n- À 4 de plus haute Réson. ou plus, inflige +(<style=\"highlight\">7.5 +</style> (somme de l’Intensité et du Compte de [Vibration] sur la cible)/<style=\"highlight\">1.5</style>)% de dégâts supplémentaires à la place (<style=\"highlight\">40%</style> max)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Vibration] et <style=\"highlight\">+3</style> de Compte de [Vibration]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Vibration] et <style=\"highlight\">+3</style> de Compte de [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationEcho]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationEcho]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible"
                 }
               ]
             }
@@ -329,12 +329,12 @@
           "level": 1,
           "name": "Lamentation Caverneuse",
           "abName": "Crapaud Pleurnicheur",
-          "desc": "[CantIdentify]\nCible aléatoirement\nSi la cible a [Vibration], inflige +((somme de la Puissance et du Compte de [Vibration] sur la cible)/2)% de dégâts supplémentaires (25% max)\n- À 4+ de plus haute Réson., augmente la limite ci-dessus à (35% max)",
+          "desc": "[CantIdentify]\nCible aléatoirement\nSi la cible a [Vibration], inflige +((somme de l’Intensité et du Compte de [Vibration] sur la cible)/2)% de dégâts supplémentaires (25% max)\n- À 4 de plus haute Réson. ou plus, augmente la limite ci-dessus à (35% max)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Vibration] et +3 de Compte de [Vibration]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Vibration] et +3 de Compte de [Vibration]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible"
@@ -347,18 +347,18 @@
           "level": 3,
           "name": "Lamentation Caverneuse",
           "abName": "Crapaud Pleurnicheur",
-          "desc": "[CantIdentify]\nCible aléatoirement\nSi la cible a [Vibration], inflige +((somme de la Puissance et du Compte de [Vibration] sur la cible)/2)% de dégâts supplémentaires (<style=\"highlight\">30%</style> max)\n- À 4+ de plus haute Réson., <style=\"highlight\">inflige +(5 + (somme de la Puissance et du Compte de [Vibration] sur la cible)/2)% de dégâts supplémentaires à la place (40% max)</style>",
+          "desc": "[CantIdentify]\nCible aléatoirement\nSi la cible a [Vibration], inflige +((somme de l’Intensité et du Compte de [Vibration] sur la cible)/2)% de dégâts supplémentaires (<style=\"highlight\">30%</style> max)\n- À 4 de plus haute Réson. ou plus, <style=\"highlight\">inflige +(5 + (somme de l’Intensité et du Compte de [Vibration] sur la cible)/2)% de dégâts supplémentaires à la place (40% max)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Vibration] et +3 de Compte de [Vibration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Vibration] et +3 de Compte de [Vibration]"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationEcho]</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible</style>"
@@ -371,21 +371,21 @@
           "level": 4,
           "name": "Lamentation Caverneuse",
           "abName": "Crapaud Pleurnicheur",
-          "desc": "[CantIdentify]\nCible aléatoirement\nSi la cible a [Vibration], inflige +(<style=\"highlight\">5</style> + (somme de la Puissance et du Compte de [Vibration] sur la cible)/2)% de dégâts supplémentaires (<style=\"highlight\">40%</style> max)\n- À 4+ de plus haute Réson., inflige +(<style=\"highlight\">7.5</style> + (somme de la Puissance et du Compte de [Vibration] sur la cible)/<style=\"highlight\">1.5</style>)% de dégâts supplémentaires à la place (<style=\"highlight\">50%</style> max)",
+          "desc": "[CantIdentify]\nCible aléatoirement\nSi la cible a [Vibration], inflige +(<style=\"highlight\">5</style> + (somme de l’Intensité et du Compte de [Vibration] sur la cible)/2)% de dégâts supplémentaires (<style=\"highlight\">40%</style> max)\n- À 4 de plus haute Réson. ou plus, inflige +(<style=\"highlight\">7.5</style> + (somme de l’Intensité et du Compte de [Vibration] sur la cible)/<style=\"highlight\">1.5</style>)% de dégâts supplémentaires à la place (<style=\"highlight\">50%</style> max)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">6</style> de [Vibration] et <style=\"highlight\">+6</style> de Compte de [Vibration]"
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">6</style> [Vibration] et <style=\"highlight\">+6</style> de Compte de [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationEcho]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationEcho]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible"
                 }
               ]
             }
@@ -400,7 +400,7 @@
           "level": 1,
           "name": "Lasso",
           "abName": "La Rose Chasseuse",
-          "desc": "+1 de Puissance de Pièce pour chaque 7 de [Burst] sur la cible (2 max)",
+          "desc": "+1 de Puissance de Pièce pour chaque 7 [Burst] sur la cible (2 max)",
           "coinlist": [
             {
               "coindescs": [
@@ -412,7 +412,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Snare]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Snare]"
                 }
               ]
             },
@@ -426,10 +426,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Burst]"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
                 }
               ]
             }
@@ -439,7 +439,7 @@
           "level": 3,
           "name": "Lasso",
           "abName": "La Rose Chasseuse",
-          "desc": "<style=\"highlight\">Si la somme des Vitesses de cette unité et de la cible est de 6 ou plus, +1 de Puissance de Pièce</style>\n+1 de Puissance de Pièce pour chaque 7 de [Burst] sur la cible (2 max)\n<style=\"highlight\">[BeforeAttack] Gagne 2 de [Agility] au prochain tour",
+          "desc": "<style=\"highlight\">Si la somme des Vitesses de cette unité et de la cible est de 6 ou plus, +1 de Puissance de Pièce</style>\n+1 de Puissance de Pièce pour chaque 7 [Burst] sur la cible (2 max)\n<style=\"highlight\">[BeforeAttack] Gagne 2 [Agility] au prochain tour",
           "coinlist": [
             {
               "coindescs": [
@@ -451,14 +451,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Snare]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Snare]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst] pour chaque 2 de Réson. de Gourmandise (3 max)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst] pour chaque 2 de Réson. de Gourmandise (3 max)"
                 }
               ]
             },
@@ -478,7 +478,7 @@
           "level": 4,
           "name": "Lasso",
           "abName": "La Rose Chasseuse",
-          "desc": "Si la somme des Vitesses de cette unité et de la cible est de 6 ou plus, +1 de Puissance de Pièce\n+1 de Puissance de Pièce pour chaque 7 de [Burst] sur la cible (2 max)\n[BeforeAttack] Gagne 2 de [Agility] au prochain tour<style=\"highlight\"></style>",
+          "desc": "Si la somme des Vitesses de cette unité et de la cible est de 6 ou plus, +1 de Puissance de Pièce\n+1 de Puissance de Pièce pour chaque 7 [Burst] sur la cible (2 max)\n[BeforeAttack] Gagne 2 [Agility] au prochain tour",
           "coinlist": [
             {
               "coindescs": [
@@ -490,17 +490,17 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Snare]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Snare]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 2 de [TakeHpHealReduce] au prochain tour</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 2 [TakeHpHealReduce] au prochain tour</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst] pour chaque 2 de Réson. de Gourmandise (3 max)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst] pour chaque 2 de Réson. de Gourmandise (3 max)"
                 }
               ]
             },
@@ -525,12 +525,12 @@
           "level": 1,
           "name": "Lasso",
           "abName": "La Rose Chasseuse",
-          "desc": "[CantIdentify]\nCible aléatoirement\n+1 de Puissance de Pièce pour chaque 7 de [Burst] sur la cible (2 max)",
+          "desc": "[CantIdentify]\nCible aléatoirement\n+1 de Puissance de Pièce pour chaque 7 [Burst] sur la cible (2 max)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Snare]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Snare]"
                 }
               ]
             },
@@ -560,22 +560,22 @@
           "level": 3,
           "name": "Lasso",
           "abName": "La Rose Chasseuse",
-          "desc": "[CantIdentify]\nCible aléatoirement\n<style=\"highlight\">Si la somme des Vitesses de cette unité et de la cible est de 6 ou plus, +1 de Puissance de Pièce</style>\n+1 de Puissance de Pièce pour chaque 7 de [Burst] sur la cible (2 max)\n<style=\"highlight\">[BeforeAttack] Gagne 2 de [Agility] au prochain tour</style>",
+          "desc": "[CantIdentify]\nCible aléatoirement\n<style=\"highlight\">Si la somme des Vitesses de cette unité et de la cible est de 6 ou plus, +1 de Puissance de Pièce</style>\n+1 de Puissance de Pièce pour chaque 7 [Burst] sur la cible (2 max)\n<style=\"highlight\">[BeforeAttack] Gagne 2 [Agility] au prochain tour</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Snare]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Snare]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
                 }
               ]
             },
@@ -595,35 +595,35 @@
           "level": 4,
           "name": "Lasso",
           "abName": "La Rose Chasseuse",
-          "desc": "[CantIdentify]\nCible aléatoirement\nSi la somme des Vitesses de cette unité et de la cible est de 6 ou plus, +1 de Puissance de Pièce\n+1 de Puissance de Pièce pour chaque 7 de [Burst] sur la cible (2 max)\n[BeforeAttack] Gagne 2 de [Agility] au prochain tour\n<style=\"highlight\">[BeforeAttack] À 4+ de Réson. de Gourmandise ou de Luxure, gagne +1 de Poids d’Atq</style>",
+          "desc": "[CantIdentify]\nCible aléatoirement\nSi la somme des Vitesses de cette unité et de la cible est de 6 ou plus, +1 de Puissance de Pièce\n+1 de Puissance de Pièce pour chaque 7 [Burst] sur la cible (2 max)\n[BeforeAttack] Gagne 2 [Agility] au prochain tour\n<style=\"highlight\">[BeforeAttack] À 4 de Réson. ou plus de Gourmandise ou de Luxure, gagne +1 de Poids d’Atq</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Snare]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Snare]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 3 de [TakeHpHealReduce] au prochain tour</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 3 [TakeHpHealReduce] au prochain tour</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige +1% de dégâts supplémentaires pour chaque [Laceration] sur la cible (30% max)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige +1% de dégâts supplémentaires pour chaque [Laceration] sur la cible (30% max)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige +1% de dégâts supplémentaires pour chaque [Burst] sur la cible (30% max)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige +1% de dégâts supplémentaires pour chaque [Burst] sur la cible (30% max)"
                 }
               ]
             }

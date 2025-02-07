@@ -6,12 +6,12 @@
         {
           "level": 1,
           "name": "Prosternez-Vous Devant Moi",
-          "desc": "[WhenUse] Si la cible a 4+ de [Laceration], +1 de Puissance de Duel",
+          "desc": "[WhenUse] Si la cible a 4 [Laceration] ou plus, +1 de Puissance de Duel",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 4 [Laceration]"
                 }
               ]
             }
@@ -25,7 +25,7 @@
         {
           "level": 1,
           "name": "Pathétique",
-          "desc": "[WhenUse] Si la cible a 4+ de [Laceration], +1 de Puissance de Duel",
+          "desc": "[WhenUse] Si la cible a 4 [Laceration] ou plus, +1 de Puissance de Duel",
           "coinlist": [
             {
               "coindescs": [
@@ -44,13 +44,13 @@
         {
           "level": 1,
           "name": "Allez... Allez-vous en...!",
-          "desc": "[WhenUse] Si la cible a 4+ de [Laceration], +1 de Puissance de Duel\n[WhenUse] Inflige +5% de dégâts supplémentaire pour chaque Compte de [Laceration] sur la cible (20% max)",
+          "desc": "[WhenUse] Si la cible a 4 [Laceration] ou plus, +1 de Puissance de Duel\n[WhenUse] Inflige +5% de dégâts supplémentaire pour chaque Compte de [Laceration] sur la cible (20% max)",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 8 de [Laceration] et +2 de Compte de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 8 [Laceration] et +2 de Compte de [Laceration]"
                 }
               ]
             }
@@ -64,7 +64,7 @@
         {
           "level": 1,
           "name": "La Parade du Prince",
-          "desc": "[StartBattle] Gagne du Poids d’Atq égal au nombre de cibles avec [Laceration] (5 max)\n[WhenUse] Si la cible a 4+ de [Laceration], +1 de Puissance de Base\n[WhenUse] Si la cible a 3+ de [Laceration], +1 de Puissance de Pièce\n[DefeatDuel] Perd 1 de [KeptBlood]",
+          "desc": "[StartBattle] Gagne du Poids d’Atq égal au nombre de cibles avec [Laceration] (5 max)\n[WhenUse] Si la cible a 4 [Laceration] ou plus, +1 de Puissance de Base\n[WhenUse] Si la cible a 3 [Laceration] ou plus, +1 de Puissance de Pièce\n[DefeatDuel] Perd 1 [KeptBlood]",
           "coinlist": [
             {
               "coindescs": [
@@ -83,14 +83,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 4 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 4 [Laceration]"
                 }
               ]
             }
@@ -104,25 +104,25 @@
         {
           "level": 1,
           "name": "Du Sang... Du Sang... Du Sang...!",
-          "desc": "[WhenUse] Si la cible a 8+ de [Laceration], +1 de Puissance de Pièce\n[DefeatDuel] Perd 1 de [KeptBlood]",
+          "desc": "[WhenUse] Si la cible a 8 [Laceration] ou plus, +1 de Puissance de Pièce\n[DefeatDuel] Perd 1 [KeptBlood]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 5 de [Laceration] et +3 de Compte de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 5 [Laceration] et +3 de Compte de [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a 10+ de [Laceration], la prochaine Pièce inflige +20% de dégâts supplémentaires"
+                  "desc": "[OnSucceedAttack] Si la cible a 10 [Laceration] ou plus, la prochaine Pièce inflige +20% de dégâts supplémentaires"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 1 de [KeptBlood]"
+                  "desc": "[OnSucceedAttack] Gagne 1 [KeptBlood]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Binding] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour"
                 }
               ]
             }
@@ -149,33 +149,33 @@
         {
           "level": 1,
           "name": "Je Suis... Le Prince... de la Parade...!",
-          "desc": "[CantDuel]\n[WhenUse] Double la quantité soignée par Glaive de Sang Dur[TabExplain]\n[WhenUse] Remet les PSM à 0\n[EndSkill] Gagne 10 de [KeptBlood]\nNe peut pas être Déséquilibré ce tour ; finit le tour après avoir utilisé cette Capacité.",
+          "desc": "[CantDuel]\n[WhenUse] Double la quantité soignée par Glaive de Sang Dur[TabExplain]\n[WhenUse] Remet les PSM à 0\n[EndSkill] Gagne 10 [KeptBlood]\nNe peut pas être Déséquilibré ce tour ; finit le tour après avoir utilisé cette Capacité.",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Laceration] et +1 de Compte de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration] et +1 de Compte de [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Laceration] et +1 de Compte de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration] et +1 de Compte de [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Laceration] et +1 de Compte de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration] et +1 de Compte de [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Laceration] et +1 de Compte de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration] et +1 de Compte de [Laceration]"
                 }
               ]
             }
@@ -189,33 +189,33 @@
         {
           "level": 1,
           "name": "Je... Ne Rentrerai... Jamais...!",
-          "desc": "[WhenUse] +1 de Puissance de Duel pour chaque 5 de [Laceration] sur la cible (3 max)\n[WhenUse] Si la cible a 4+ de [Laceration], +1 de Puissance de Pièce\n[WhenUse] Inflige +5% de dégâts supplémentaires pour chaque [Laceration] sur la cible (20% max)\n[WhenUse] Double la quantité soignée par Glaive de Sang Dur[TabExplain]\n[EndSkill] Gagne 10 de [KeptBlood]",
+          "desc": "[WhenUse] +1 de Puissance de Duel pour chaque 5 [Laceration] sur la cible (3 max)\n[WhenUse] Si la cible a 4 [Laceration] ou plus, +1 de Puissance de Pièce\n[WhenUse] Inflige +5% de dégâts supplémentaires pour chaque [Laceration] sur la cible (20% max)\n[WhenUse] Double la quantité soignée par Glaive de Sang Dur[TabExplain]\n[EndSkill] Gagne 10 [KeptBlood]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Laceration] et +1 de Compte de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration] et +1 de Compte de [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Laceration] et +1 de Compte de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration] et +1 de Compte de [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Laceration] et +1 de Compte de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration] et +1 de Compte de [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Laceration] et +1 de Compte de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration] et +1 de Compte de [Laceration]"
                 }
               ]
             }

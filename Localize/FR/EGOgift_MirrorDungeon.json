@@ -990,7 +990,7 @@
     {
       "id": 9042,
       "name": "Fumées et Fils de Fer",
-      "desc": "Les alliés infligent x2 d’Intensité de [Laceration] avec les effets de Capacité.\n\nFin du Tour : les ennemis avec [Laceration] ou un “Saignement Unique” perdent 2 de Vitesse au prochain tour.",
+      "desc": "Contre des ennemis, les alliés infligent x2 d’Intensité de [Laceration] avec les effets de Capacité.\n\nFin du Tour : les ennemis avec [Laceration] ou un “Saignement Unique” perdent 2 de Vitesse au prochain tour.",
       "simpleDesc": [
         {
           "abilityID": 9042,
@@ -2414,7 +2414,7 @@
     {
       "id": 9090,
       "name": "Brume Sanglante",
-      "desc": "Début d’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui infligent de l’Intensité de [Laceration], Compte, ou effets de “Saignement Unique”. (à l’exception des Capacités E.G.O., ne compte que les Identités sur le terrain au début de l’Affrontement)\n\nLes alliés infligent le double d’Intensité et de Compte de [Laceration] avec les effets de Capacité.\n\nPour 1 allié le plus rapide avec des Capacités qui infligent de l’Intensité de [Laceration], Compte, ou effets de “Saignement Unique” : +2 de Puissance de Pièce, +100% de dégâts infligés. Si l’enemi ataqué ou affronté en Duel par cet allié meurt, inflige l’Intensité de [Laceration] restante de l’ennemi aléatoirement entre tous les ennemis. (En Affrontement Concentrés, les Parties)\n\n+1 de Puissance de Pièce à toutes les Capacités qui infligent de l’Intensité ou du Compte de [Laceration] ou un “Saignement Unique”.",
+      "desc": "Début d’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités d’Attaque qui infligent de l’Intensité de [Laceration], Compte, ou effets de “Saignement Unique”. (à l’exception des Capacités E.G.O., ne compte que les Identités sur le terrain au début de l’Affrontement)\n\nLes alliés infligent le double d’Intensité et de Compte de [Laceration] avec les effets de Capacité aux ennemis.\n\nL’allié le plus haut dans l’ordre de Déploiement avec des Capacités qui infligent de l’Intensité de [Laceration], Compte, ou effets de “Saignement Unique” : +2 de Puissance de Pièce, +100% de dégâts infligés. Si l’enemi ataqué ou affronté en Duel par cet allié meurt, inflige l’Intensité de [Laceration] restante de l’ennemi aléatoirement entre tous les ennemis. (En Affrontement Concentrés, les Parties)\n\n+1 de Puissance de Pièce à toutes les Capacités qui infligent de l’Intensité ou du Compte de [Laceration] ou un “Saignement Unique”.",
       "simpleDesc": [
         {
           "abilityID": 9090,
@@ -2827,11 +2827,11 @@
     {
       "id": 9105,
       "name": "Fragment du Feu de l’Enfer",
-      "desc": "S’active en utilisant une Capacité d’Éveil E.G.O. qui inflige de l’Intensité ou du Compte de [Combustion] ou une “Brûlure Unique”. (PAS les Capacités d’Érosion)\n\nGagne de la Puissance Finale égale à (Ressource E.G.O. de Colère + somme des autres ressources E.G.O./3) consommées.\n\nCapacités d’Éveil E.G.O. de Colère : inflige du Compte de [Combustion] supplémentaire basé sur le rang E.G.O. Avant l’Attaque (ZAYIN inflige +2 de Compte, TETH inflige +3 de Compte, HE inflige +4 de Compte, etc...) et inflige +(Poids d’Atq/# de cibles de l’attaque * 20)% de dégâts supplémentaires.",
+      "desc": "S’active en utilisant une Capacité E.G.O. qui inflige de l’Intensité ou du Compte de [Combustion] ou une “Brûlure Unique”.\n\nGagne de la Puissance Finale égale à (Ressource E.G.O. de Colère + somme des autres ressources E.G.O./3) consommées et inflige +50% de dégâts supplémentaires\n\nCapacités E.G.O. de Colère : inflige du Compte de [Combustion] supplémentaire basé sur le rang E.G.O. Avant l’Attaque (ZAYIN inflige +2 de Compte, TETH inflige +3 de Compte, HE inflige +4 de Compte, etc...) et inflige +(Poids d’Atq/# de cibles de l’attaque * 20)% de dégâts supplémentaires.",
       "simpleDesc": [
         {
           "abilityID": 9105,
-          "simpleDesc": "Gagne de la Puissance Finale égale à (Ressource E.G.O. de Colère + somme des autres ressources E.G.O./3) consommées."
+          "simpleDesc": "Gagne de la Puissance Finale égale à (Ressource E.G.O. de Colère + somme des autres ressources E.G.O./3) consommées et inflige plus de dégâts"
         },
         {
           "abilityID": 91051,
@@ -2956,11 +2956,11 @@
     {
       "id": 9110,
       "name": "Fragment de Séduction",
-      "desc": "S’active en utilisant une Capacité d’Éveil E.G.O. qui inflige de l’Intensité ou du Compte de [Laceration] ou un “Saignement Unique”. (PAS les Capacités d’Érosion)\n\nGagne de la Puissance Finale égale à (Ressource E.G.O. de Luxure + somme des autres ressources E.G.O./3) consommées.\n\nCapacités d’Éveil E.G.O. de Luxure : inflige du Compte de [Laceration] supplémentaire basé sur le rang E.G.O. Avant l’Attaque (ZAYIN inflige +2 de Compte, TETH inflige +3 de Compte, HE inflige +4 de Compte, etc...) et inflige des dégâts de Luxure supplémentaires égaux à l’Intensité de [Laceration] sur la cible",
+      "desc": "S’active en utilisant une Capacité E.G.O. qui inflige de l’Intensité ou du Compte de [Laceration] ou un “Saignement Unique”.\n\nGagne de la Puissance Finale égale à (Ressource E.G.O. de Luxure + somme des autres ressources E.G.O./3) consommées et inflige +50% de dégâts supplémentaires.\n\nCapacités E.G.O. de Luxure : inflige du Compte de [Laceration] supplémentaire basé sur le rang E.G.O. Avant l’Attaque (ZAYIN inflige +2 de Compte, TETH inflige +3 de Compte, HE inflige +4 de Compte, etc...) et inflige des dégâts de Luxure supplémentaires égaux à l’Intensité de [Laceration] sur la cible",
       "simpleDesc": [
         {
           "abilityID": 9110,
-          "simpleDesc": "Gagne de la Puissance Finale égale à (Ressource E.G.O. de Luxure + somme des autres ressources E.G.O./3) consommées."
+          "simpleDesc": "Gagne de la Puissance Finale égale à (Ressource E.G.O. de Luxure + somme des autres ressources E.G.O./3) consommées et inflige plus de dégâts."
         },
         {
           "abilityID": 91101,
@@ -3128,11 +3128,11 @@
     {
       "id": 9116,
       "name": "Fragment d’Inertie",
-      "desc": "S’active en utilisant une Capacité d’Éveil E.G.O. qui applique de l’Intensité ou du Compte de [Vibration] ou un “Tremblement Unique”. (PAS les Capacités d’Érosion)\n\nGagne de la Puissance Finale égale à (Ressource E.G.O. de Paresse + somme des autres ressources E.G.O./3) consommées.\n\nCapacités d’Éveil E.G.O. de Paresse : inflige du Compte de [Vibration] supplémentaire basé sur le rang E.G.O. Avant l’Attaque (ZAYIN inflige +2 de Compte, TETH inflige +3 de Compte, HE inflige +4 de Compte, etc...), et inflige +(Intensité de [Vibration] sur la cible * 1.5)% de dégâts supplémentaires",
+      "desc": "S’active en utilisant une Capacité E.G.O. qui applique de l’Intensité ou du Compte de [Vibration] ou un “Tremblement Unique”.\n\nGagne de la Puissance Finale égale à (Ressource E.G.O. de Paresse + somme des autres ressources E.G.O./3) consommées et inflige +50% de dégâts supplémentaires.\n\nCapacités E.G.O. de Paresse : inflige du Compte de [Vibration] supplémentaire basé sur le rang E.G.O. Avant l’Attaque (ZAYIN inflige +2 de Compte, TETH inflige +3 de Compte, HE inflige +4 de Compte, etc...), et inflige +(Intensité de [Vibration] sur la cible * 1.5)% de dégâts supplémentaires",
       "simpleDesc": [
         {
           "abilityID": 9116,
-          "simpleDesc": "Gagne de la Puissance Finale égale à (Ressource E.G.O. de Paresse + somme des autres ressources E.G.O./3) consommées."
+          "simpleDesc": "Gagne de la Puissance Finale égale à (Ressource E.G.O. de Paresse + somme des autres ressources E.G.O./3) consommées et inflige plus de dégâts."
         },
         {
           "abilityID": 91161,
@@ -3229,11 +3229,11 @@
     {
       "id": 9121,
       "name": "Fragment de Désir",
-      "desc": "S’active en utilisant une Capacité d’Éveil E.G.O. qui inflige de l’Intensité ou du Compte de [Burst]. (PAS les Capacités d’Érosion)\n\nGagne de la Puissance Finale égale à (Ressource E.G.O. de Gourmandise + somme des autres ressources E.G.O./3) consommées.\n\nCapacités d’Éveil E.G.O. de Gourmandise : inflige du Compte de [Burst] supplémentaire basé sur le rang E.G.O. (ZAYIN inflige +2 de Compte, TETH inflige +3 de Compte, HE inflige +4 de Compte, etc...) et inflige +(# de ressources E.G.O. différentes utilisées * 15)% de dégâts supplémentaires",
+      "desc": "S’active en utilisant une Capacité E.G.O. qui inflige de l’Intensité ou du Compte de [Burst].\n\nGagne de la Puissance Finale égale à (Ressource E.G.O. de Gourmandise + somme des autres ressources E.G.O./3) consommées et inflige +50% de dégâts supplémentaires.\n\nCapacités E.G.O. de Gourmandise : inflige du Compte de [Burst] supplémentaire basé sur le rang E.G.O. (ZAYIN inflige +2 de Compte, TETH inflige +3 de Compte, HE inflige +4 de Compte, etc...) et inflige +(# de ressources E.G.O. différentes utilisées * 15)% de dégâts supplémentaires",
       "simpleDesc": [
         {
           "abilityID": 9121,
-          "simpleDesc": "Gagne de la Puissance Finale égale à (Ressource E.G.O. de Gourmandise + somme des autres ressources E.G.O./3) consommées."
+          "simpleDesc": "Gagne de la Puissance Finale égale à (Ressource E.G.O. de Gourmandise + somme des autres ressources E.G.O./3) consommées et inflige plus de dégâts."
         },
         {
           "abilityID": 91211,
@@ -3367,29 +3367,25 @@
     {
       "id": 9125,
       "name": "Étoile Lointaine",
-      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées #1 et #2]\n\nPour cet Affrontement, l’Allié ayant utilisé des Capacités d’Attaque qui infligent de l’Intensité ou du Compte de [Sinking] ou une “Lourdeur Unique” 3 fois ou plus durant cet Affrontement inflige 1 d’Intensité de [Sinking] supplémentaire. (cet effet s’applique à partir de la 4ème Capacité appliquant du la [Sinking])\n\nEn Affrontements Concentrés : inflige 2 d’Intensité de [Sinking] supplémentaires à la place.",
+      "desc": "En activant l’effet [Sinking] (inclut “Lourdeur Unique”) à la cible avec un effet En Touche d’une Capacité d’Attaque de Base qui inflige ou gagne de l’Intensité ou du Compte de [Sinking] ou une “Lourdeur Unique”, regagne 3 PSM à la Fin du Tour (2 fois par tour par Identité)\n\nSi cette unité était à 45 PSM au Début du Tour, l’effet devient le suivant : en activant l’effet [Sinking] (inclut “Lourdeur Unique”) à la cible avec un effet En Touche d’une Capacité d’Attaque de Base, inflige +2 de Compte de [Sinking] à la cible (2 fois par tour par Identité)",
       "simpleDesc": [
         {
           "abilityID": 9124,
-          "simpleDesc": "Inflige 1 d’Intensité de [Sinking] supplémentaire"
+          "simpleDesc": "Inflige du Compte de [Sinking]"
         }
       ]
     },
     {
       "id": 9126,
       "name": "Fragment de Décomposition",
-      "desc": "S’active en utilisant une Capacité d’Éveil E.G.O. qui inflige de l’Intensité ou du Compte de [Sinking] ou une “Lourdeur Unique”. (PAS les Capacités d’Érosion)\n\nGagne de la Puissance Finale égale à (Ressource E.G.O. de Peine + somme des autres ressources E.G.O./3) consommées.\n\nCapacités d’Éveil E.G.O. de Peine : inflige du Compte de [Sinking] supplémentaire Avant l’Attaque (ZAYIN inflige +2 de Compte, TETH inflige +3 de Compte, HE inflige +4 de Compte, etc...) et inflige +(PSM consommés pour activer la Capacité E.G.O. * 2.5)% de dégâts supplémentaires.",
+      "desc": "S’active en utilisant une Capacité E.G.O. qui inflige de l’Intensité ou du Compte de [Sinking] ou une “Lourdeur Unique”.\n\nGagne de la Puissance Finale égale à (Ressource E.G.O. de Peine + somme des autres ressources E.G.O./3) consommées et inflige +50% de dégâts supplémentaires.\n\nCapacités E.G.O. de Peine : inflige du Compte de [Sinking] supplémentaire Avant l’Attaque (ZAYIN inflige +2 de Compte, TETH inflige +3 de Compte, HE inflige +4 de Compte, etc...) et inflige +(PSM consommés pour activer la Capacité E.G.O. * 2.5)% de dégâts supplémentaires.",
       "simpleDesc": [
         {
           "abilityID": 9126,
-          "simpleDesc": "S’active en utilisant une Capacité d’Éveil E.G.O. qui inflige de l’Intensité ou du Compte de [Sinking] ou une “Lourdeur Unique”."
+          "simpleDesc": "Gagne de la Puissance Finale égale aux (ressource E.G.O. de Peine + somme des autres ressources E.G.O. / 3) consommées et inflige plus de dégâts"
         },
         {
           "abilityID": 91261,
-          "simpleDesc": "Gagne de la Puissance Finale égale à (Ressource E.G.O. de Peine + somme des autres ressources E.G.O./3) consommées."
-        },
-        {
-          "abilityID": 91262,
           "simpleDesc": "Si les conditions sont remplies : inflige du Compte de [Sinking] supplémentaire basé sur le rang E.G.O. Avant l’Attaque (ZAYIN inflige +2 de Compte, TETH inflige +3 de Compte, HE inflige +4 de Compte, etc...) et inflige +(PSM consommés pour activer la Capacité E.G.O. * 2.5)% de dégâts supplémentaires"
         }
       ]
@@ -3515,11 +3511,11 @@
     {
       "id": 9131,
       "name": "Fragment de Suffisance",
-      "desc": "S’active en utilisant une Capacité d’Éveil E.G.O. qui applique ou gagne de l’Intensité ou du Compte de [Breath]. (PAS les Capacités d’Érosion)\n\nGagne de la Puissance Finale égale à (Ressource E.G.O. d’Orgueil + somme des autres ressources E.G.O./3) consommées.\n\nCapacités d’Éveil E.G.O. d’Orgueil : gagne du Compte de [Breath] supplémentaire Avant l’Attaque (ZAYIN gagne +2 de Compte, TETH gagne +3 de Compte, HE gagne +4 de Compte, etc...) et inflige +(somme de toutes les ressources E.G.O. consommées * 8)% de dégâts supplémentaires.",
+      "desc": "S’active en utilisant une Capacité E.G.O. qui applique ou gagne de l’Intensité ou du Compte de [Breath].\n\nGagne de la Puissance Finale égale à (Ressource E.G.O. d’Orgueil + somme des autres ressources E.G.O./3) consommées et inflige +50% de dégâts supplémentaires.\n\nCapacités E.G.O. d’Orgueil : gagne du Compte de [Breath] supplémentaire Avant l’Attaque (ZAYIN gagne +2 de Compte, TETH gagne +3 de Compte, HE gagne +4 de Compte, etc...) et inflige +(somme de toutes les ressources E.G.O. consommées * 8)% de dégâts supplémentaires.",
       "simpleDesc": [
         {
           "abilityID": 9131,
-          "simpleDesc": "Gagne de la Puissance Finale égale à (Ressource E.G.O. d’Orgueil + somme des autres ressources E.G.O./3) consommées."
+          "simpleDesc": "Gagne de la Puissance Finale égale à (Ressource E.G.O. d’Orgueil + somme des autres ressources E.G.O./3) consommées et inflige plus de dégâts."
         },
         {
           "abilityID": 91311,
@@ -3668,11 +3664,11 @@
     {
       "id": 9136,
       "name": "Fragment de Friction",
-      "desc": "S’active en utilisant une Capacité d’Éveil E.G.O. qui gagne ou consomme du Compte de [Charge] ou de la “Charge Unique”. (PAS les Capacités d’Érosion)\n\nGagne de la Puissance Finale égale à (Ressource E.G.O. d’Envie + somme des autres ressources E.G.O./3) consommées.\n\nCapacités d’Éveil E.G.O. d’Envie : gagne du Compte de [Charge] supplémentaire Avant l’Attaque (ZAYIN gagne +2 de Compte, TETH gagne +3 de Compte, HE gagne +4 de Compte, etc...) et inflige +((Compte de [Charge] sur soi + “Charge Unique”) * 5)% de dégâts supplémentaires. (200% max)",
+      "desc": "S’active en utilisant une Capacité E.G.O. qui gagne ou consomme du Compte de [Charge] ou de la “Charge Unique”.\n\nGagne de la Puissance Finale égale à (Ressource E.G.O. d’Envie + somme des autres ressources E.G.O./3) consommées et inflige +50% de dégâts supplémentaires.\n\nCapacités E.G.O. d’Envie : gagne du Compte de [Charge] supplémentaire Avant l’Attaque (ZAYIN gagne +2 de Compte, TETH gagne +3 de Compte, HE gagne +4 de Compte, etc...) et inflige +((Compte de [Charge] sur soi + “Charge Unique”) * 5)% de dégâts supplémentaires. (200% max)",
       "simpleDesc": [
         {
           "abilityID": 9136,
-          "simpleDesc": "Gagne de la Puissance Finale égale à (Ressource E.G.O. d’Envie + somme des autres ressources E.G.O./3) consommées."
+          "simpleDesc": "Gagne de la Puissance Finale égale à (Ressource E.G.O. d’Envie + somme des autres ressources E.G.O./3) consommées et inflige plus de dégâts."
         },
         {
           "abilityID": 91361,
@@ -3884,19 +3880,15 @@
     {
       "id": 9142,
       "name": "Souvenir Scindé",
-      "desc": "[Les effets s’appliquent uniquement à l’Identité Déployée #3]\n\nLes Capacités d’Attaque Tranchantes (à l’exception des Capacités E.G.O.) gagnent +1 de Puissance de Duel et +1 de Puissance Finale.\n\nPour les Capacités d’Attaque Tranchantes avec 2 Pièces ou moins, gagnent +3 de Puissance Finale et infligent +20% de dégâts supplémentaires à la place.\n\nFin du Tour : si à moins de 50% HP, gagne 4 [SlashDamageUp] au prochain tour.",
+      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées #1 et #2]\n\nLes Capacités d’Attaque Tranchantes (inclut les Capacités E.G.O.) gagnent +2 de Puissance de Base, +1 de Puissance de Pièce Positive et -1 de Puissance de Pièce Négative\n\nEn Duel Gagné avec une Capacité d’Attaque Tranchante (exclut les Capacités E.G.O.), inflige +30% de dégâts supplémentaires avec cette Capacité ; En Touche avec cette Capacité, inflige +5% de dégâts supplémentaires tous les 5% de PV manquants sur soi (20% max)",
       "simpleDesc": [
         {
           "abilityID": 9142,
-          "simpleDesc": "+1 de Puissance de Duel, +1 de Puissance Finale"
+          "simpleDesc": "Bonus de Puissance Tranchante"
         },
         {
           "abilityID": 91421,
-          "simpleDesc": "+3 de Puissance Finale, inflige +20% de dégâts supplémentaires"
-        },
-        {
-          "abilityID": 91422,
-          "simpleDesc": "Gagne 4 [SlashDamageUp] au prochain tour"
+          "simpleDesc": "Les Capacités Tranchantes infligent plus de dégâts ; inflige plus de dégâts selon les PV manquant"
         }
       ]
     },
@@ -4083,11 +4075,11 @@
     {
       "id": 9147,
       "name": "Souvenir Perforé",
-      "desc": "[Les effets s’appliquent uniquement à l’Identité Déployée #3]\n\nLes Capacités d’Attaque Perçantes (à l’exception des Capacités E.G.O.) gagnent +2 de Puissance de Duel et infligent +15% de dégâts supplémentaires.\n\nEn gagnent un Duel avec une Capacité d’Attaque Perçante, inflige +(2.5(# de Duels + # de Pièces restantes))% de dégâts supplémentaires. (35% max)\n\nFin du Tour : si cette unité a infligé 15 dégâts de PV ou plus en gagnant un Duel avec une Capacité d’Attaque Perçante ce tour, gagne 4 [PenetrateDamageUp] au prochain tour.",
+      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées #1 et #2]\n\nLes Capacités d’Attaque Perçantes (inclut les Capacités E.G.O.) gagnent +2 de Puissance de Base, +1 de Puissance de Pièce Positive et -1 de Puissance de Pièce Négative\n\nEn Duel Gagné avec une Capacité d’Attaque Perçante (exclut les Capacités E.G.O.), inflige +15% de dégâts supplémentaires avec cette Capacité ; En Touche avec cette Capacité, si plus rapide que la cible principale, inflige +(différence de Vitesse avec la cible principale * 2.5)% de dégâts supplémentaires (35% max)",
       "simpleDesc": [
         {
           "abilityID": 9147,
-          "simpleDesc": "Les Capacités Perçantes gagnent +2 de Puissance de Duel et infligent +15% de dégâts supplémentaires"
+          "simpleDesc": "Bonus de Puissance de Capacité d’Attaque Perçante"
         },
         {
           "abilityID": 91471,
@@ -4282,19 +4274,15 @@
     {
       "id": 9152,
       "name": "Souvenir Écrasé",
-      "desc": "[Les effets s’appliquent uniquement à l’Identité Déployée #3]\n\nLes Capacités d’Attaque Contondantes gagnent +(# de Pièces/3) de Puissance de Duel, les Pièces Positives gagnent +1 de Puissance de Pièce supplémentaire, les Pièces Négatives gagnent -1 de Puissance de Pièce supplémentaire. (à l’exception des Capacités E.G.O. ; arrondi au supérieur)\n\nSi, dans cet Affrontement, cette unité perd ne serai-ce qu’un seul Duel avec une Capacité d’Attaque Contondante, améliore l’effet ci-dessus de la manière suivante : les Capacités d’Attaque Contondantes gagnent +(# de Pièces/2) de Puissance de Duel, les Pièces Positives gagnent +2 de Puissance de Pièce supplémentaire, les Pièces Négatives gagnent -2 de Puissance de Pièce supplémentaire.\n\nFin du Tour : si cette unité a utilisé une Capacité d’Attaque Contondante avec 3 Pièces ou plus ce tour, gagne 4 [HitDamageUp] au prochain tour.",
+      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées #1 et #2]\n\nLes Capacités d’Attaque Contondantes (inclut les Capacités E.G.O.) gagnent +2 de Puissance de Base, +1 de Puissance de Pièce Positive et -1 de Puissance de Pièce Négative\n\nEn Duel Gagné avec une Capacité d’Attaque Contondante (exclut les Capacités E.G.O.), inflige +20% de dégâts supplémentaires avec cette Capacité ; En Touche avec cette Capacité, inflige +(30 / # de Pièce)% de dégâts supplémentaires (10% min.)",
       "simpleDesc": [
         {
           "abilityID": 9152,
-          "simpleDesc": "+(# de Pièces/3) de Puissance de Duel : les Pièces Positives gagnent +1 de Puissance de Pièce supplémentaire, les Pièces Négatives gagnent -1 de Puissance de Pièce supplémentaire"
+          "simpleDesc": "Bonus de Puissance de Capacité Contondante"
         },
         {
           "abilityID": 91521,
-          "simpleDesc": "+(# de Pièces/2) de Puissance de Duel : les Pièces Positives gagnent +2 de Puissance de Pièce supplémentaire, les Pièces Négatives gagnent -2 de Puissance de Pièce supplémentaire"
-        },
-        {
-          "abilityID": 91522,
-          "simpleDesc": "Gagne 4 [HitDamageUp] au prochain tour"
+          "simpleDesc": "Capacités Contondantes infligent plus de dégâts ; moins elles ont de pièce, plus elles font de dégâts"
         }
       ]
     },
@@ -4784,11 +4772,11 @@
     {
       "id": 9196,
       "name": "Grande Épée Brisée",
-      "desc": "En infligeant des dégâts à un ennemi avec une Capacité d’Attaque 1 ou 2 de Type Tranchant : inflige +(10 + (Bonus de Niveau Défensif sur soi * 4))% de dégâts supplémentaires (50% max)\n- Pour les Identités de l’Association Zwei : l’effet ci-dessus s’applique à toutes les Capacités d’Attaque de Base\n\nDébut du Tour : les Identités de l’Association Zwei gagnent (# d’autres Identités de l’Association Zwei) de Bonus de Niveau Défensif (4 max)\n\nFin du Tour : si une Identité de l’Association Zwei a été touché par un ennemi ou a utilisé une Capacité de Défense au début de la Phase de Combat, l’unité gagne 2 Bonus de Puissance Offensive au prochain tour.",
+      "desc": "Capacités d’Attaque Tranchantes de Base gagnent +2 de Puissance de Duel. En Début de Combat, gagne du [AttackUp] égal au nombre d’Identités qui utilisent des Capacités d’Attaque Tranchantes de base ce tour. (3 max)\n\nLes alliés n’ayant que des Types d’Attaque Tranchantes sur leurs Capacités d’Attaque de base gagnent 2 [SlashDamageUp] au Début du Tour. (À l’exception des Capacités Renforcées ou des Capacités nécessitant des conditions uniques)\n\nEn utilisant Garde (à l’exception de Garde Affrontable), gagne 1 [Protection] et 3 [DefenseUp] (une fois par Identité par tour). Lorsque, en un seul tour, un allié perd 2 instances de PV ou de PV de Bouclier suite à une Capacité d’Attaque ennemie à cible unique, gagne 1 [DefenseUp] au prochain tour (3 max)\n\nAu Début du Tour, les Identités de l’Association Zwei gagnent 2 [Enhancement] et 1 [SlashResultUp] ; puis, gagnent 2 [DefenseUp] pour chaque autre Identité de l’Association Zwei (8 max)",
       "simpleDesc": [
         {
           "abilityID": 9196,
-          "simpleDesc": "Capacités infligent plus de dégâts"
+          "simpleDesc": "Gagne du Bonus de Niveau Offensif"
         },
         {
           "abilityID": 91961,
@@ -4796,7 +4784,7 @@
         },
         {
           "abilityID": 91962,
-          "simpleDesc": "Gagne du Bonus de Puissance Offensive"
+          "simpleDesc": "Gagne du Bonus de Puissance Offensive et du Bonus de Niveau Défensif"
         }
       ]
     },
@@ -4908,11 +4896,23 @@
     {
       "id": 9200,
       "name": "Livre Manuel 3 de Duel",
-      "desc": "[Les effets s’appliquent uniquement à l’Identité Déployée #1]\n\n+1~3 de Puissance de Capacité d’Esquive ; après 3 Esquives réussies, gagne 1 [PenetrateDamageUp] ce tour et au prochain tour (5 par tour)\n\nSi l’unité a infligé des dégâts avec une Capacité Perçante, réinitialise le Stack de [PenetrateDamageUp] gagné grâce à l’effet de ce Don E.G.O. au prochain Début de Tour.",
+      "desc": "Les Capacités d’Attaque Perçantes de Base gagnent +2 de Puissance de Duel. En Début de Combat, gagne du [AttackUp] égal au nombre d’Identités qui utilisent des Capacités d’Attaque Perçantes de base ce tour. (3 max)\n\nLes alliés n’ayant que des Types d’Attaque Perçants sur leurs Capacités d’Attaque de base gagnent 2 [PenetrateDamageUp] au Début du Tour. (À l’exception des Capacités Renforcées ou des Capacités nécessitant des conditions uniques)\n\n+2 de Puissance de Capacité d’Esquive. Chaque fois qu’une Identité alliée réussit à Esquiver 2 fois un seul tour, elle gagne 1 [AttackDmgUp] au prochain tour (3 max)\n\nAu Début du Tour, les Identités de l’Association Cinq gagnent 1 [PenetrateResultUp] et 2 [PenetrateDamageUp] ; si une Identité de l’Association Cinq a infligé des dégâts En Touche à un ennemi subissant son Duel Déclaré ou Attaque Concentrée, elle gagne 2 [PenetrateDamageUp] et 1 [Agility] au prochain tour. (une fois par Identité par tour)",
       "simpleDesc": [
         {
           "abilityID": 9200,
-          "simpleDesc": "Gagne de la Puissance de Capacité d’Esquive. Gagne du Bonus de DGT Perçant après 3 Esquives réussies"
+          "simpleDesc": "Bonus de Puissance de Duel"
+        },
+        {
+          "abilityID": 92001,
+          "simpleDesc": "Bonus de DGT Perçant"
+        },
+        {
+          "abilityID": 92002,
+          "simpleDesc": "Gagne de la Puissance de Capacité d’Esquive. Gagne du Bonus de DGT Perçant après 2 Esquives réussies"
+        },
+        {
+          "abilityID": 92003,
+          "simpleDesc": "Gagne du Bonus de Puissance Perçante et inflige plus de dégâts Perçants"
         }
       ]
     },
@@ -4994,19 +4994,23 @@
     {
       "id": 9204,
       "name": "Le Livre des Vengeances",
-      "desc": "En ripostant après avoir utilisé une Capacité de Riposte (excepté les Ripostes affrontables) et subit des dégâts, la riposte inflige +(12.5 * plus haute Réson.)% de dégâts supplémentaires. (Une fois par tour ; 75% max ; l’effet s’applique aux autres Capacités de Riposte de la même Réson.)\n\nEn utilisant une Capacité de Riposte Contondante (excepté les Ripostes affrontables), gagne (2.5 * plus haute Réson.)% de PV Max en Bouclier avant d’utiliser la Capacité de Riposte. (La somme de Bouclier sur soi et le Bouclier de cet effet ne peut pas dépasser 25% des PV Max)\n\nNe peut pas être Déséquilibré en étant touché par une Capacité de Riposte. (Excepté les Ripostes affrontables ; une fois par Affrontement)",
+      "desc": "Les Capacités d’Attaque Contondantes de Base gagnent +2 de Puissance de Duel. En Début de Combat, gagne du [AttackUp] égal au nombre d’Identités qui utilisent des Capacités d’Attaque Contondantes de base ce tour. (3 max)\n\nLes alliés n’ayant que des Types d’Attaque Contondants sur leurs Capacités d’Attaque de base gagnent [HitDamageUp] au Début du Tour. (À l’exception des Capacités Renforcées ou des Capacités nécessitant des conditions uniques)\n\nEn utilisant une Capacité de Riposte (à l’exception des Ripostes Affrontables), gagne 7.5% des PV max de cette unité en PV de Bouclier et inflige +20% de dégâts supplémentaires. Ne peut pas être Déséquilibré par des dégâts en utilisant une Capacité Riposte (une fois par Identité par Affrontement)\n\nAu Début du Tour, les Identités du Majeur gagnent 1 [HitResultUp] et 2 [Endurance] ; lorsqu’une Identité du Majeur utilise une Capacité de Riposte, le renforcement de Capacité de Riposte ci-dessus s’active deux fois par Affrontement et inflige +40% de dégâts supplémentaires à la place.",
       "simpleDesc": [
         {
           "abilityID": 9204,
-          "simpleDesc": "Capacités de Riposte infligent plus de dégâts"
+          "simpleDesc": "Gagne de la Puissance de Duel et du Bonus de Niveau Offensif"
         },
         {
           "abilityID": 92041,
-          "simpleDesc": "Gagne du Bouclier"
+          "simpleDesc": "Gagne du Bonus de DGT Contondant"
         },
         {
           "abilityID": 92042,
           "simpleDesc": "Ne peut pas être Déséquilibré par des dégâts de riposte"
+        },
+        {
+          "abilityID": 92042,
+          "simpleDesc": "Gagne du Bonus de DGT Contondant, Bonus de Puissance Défensive et inflige plus de dégâts en Ripostant"
         }
       ]
     }

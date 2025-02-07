@@ -1,0 +1,62 @@
+{
+  "dataList": [
+    {
+      "id": 9101905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tranche-Ciel",
+          "desc": "[StartBattle] Si la cible principale a 5 [Laceration] ou plus, +1 de Poids d’Atq\n[StartBattle] Si cette unité utilisera 4 Capacités d’Attaque ou plus ce tour, +5 de Puissance Finale\n[WinDuel] Tous les alliés regagnent 15 PSM\nSi la cible a 7 [Laceration] ou plus, inflige +30% de dégâts supplémentaires",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Si la cible a 7 [Laceration] ou plus, inflige +50% de dégâts"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +10 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101906,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Règles des Ruelles",
+          "desc": "[WhenUse] Ajoute 1 pièce supplémentaire pour chaque autre allié en vie (3 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration] et +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[EnemyKill] Tous les alliés regagnent 20 PSM"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

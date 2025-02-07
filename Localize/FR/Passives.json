@@ -1266,14 +1266,14 @@
     {
       "id": 1020901,
       "name": "Réponse Style Majordome",
-      "desc": "- En Duel Gagné : inflige 1 [Sinking] à la cible (3 fois par tour)",
-      "summary": "En Duel Gagné : inflige 1 [Sinking]"
+      "desc": "- En Duel[TabExplain] Gagné : inflige 1 [Sinking] à la cible (3 fois par tour)",
+      "summary": "En Duel[TabExplain] Gagné : inflige 1 [Sinking]"
     },
     {
       "id": 1020911,
       "name": "Réponse Style Majordome",
-      "desc": "- En Duel Gagné : inflige 1 [Sinking] à la cible (3 fois par tour)\n- Si la cible a [EchoOfMansion], inflige 3 [Sinking] à la place",
-      "summary": "En Duel Gagné : inflige 1 [Sinking]"
+      "desc": "- En Duel[TabExplain] Gagné : inflige 1 [Sinking] à la cible (3 fois par tour)\n- Si la cible a [EchoOfMansion], inflige 3 [Sinking] à la place",
+      "summary": "En Duel[TabExplain] Gagné : inflige 1 [Sinking]"
     },
     {
       "id": 1020921,
@@ -1939,6 +1939,50 @@
       "id": 1021121,
       "name": "Chaleur Résiduelle",
       "desc": "Lorsque 1 allié avec le moins de PSM inflige de la [Combustion] avec un effet En Touche de Capacité d’Attaque de Base, inflige 2 [Combustion] supplémentaires (3 fois max)\n- Si la cible que l’allié attaque a 30 Brûlure ou plus, inflige +1 de Compte de Brûlure à la place (3 fois max)"
+    },
+    {
+      "id": 1071201,
+      "name": "Lame du Nuage Noir",
+      "desc": "Lorsqu’il y a 2 Identités alliées du Clan Kurokumo ou plus sur le terrain, incluant cette unité, gagne 1 [BlackCloudBlade] (1 max)\n\nContre les ennemis qui, pendant ce tour, ont utilisé des Capacités Défensives ou étaient au max de PV avant d’attaquer : inflige +10% de dégâts supplémentaires\n\nSi un ennemi a attaqué un autre allié avec une Capacité et infligé des dégâts ce tour : utilise une Attaque à Sens-Unique contre l’attaquant avec la Capacité 1 (une fois par tour)",
+      "summary": "Gagne [BlackCloudBlade] ; inflige plus de dégâts aux ennemis qui étaient à PV max ou ont utilisé une Capacité Défensive ; contre-attaque lorsqu’un allié est attaqué"
+    },
+    {
+      "id": 1071202,
+      "name": "Prêt au Combat",
+      "desc": "Lorsqu’un allié du Clan Kurokumo meurt, gagne 1 [SlashResultUp] pour cet Affrontement\n\nLorsque 3 alliés du Clan Kurokumo ou plus sont vaincus, gagne [EngageToBattle] pour cet Affrontement"
+    },
+    {
+      "id": 1071211,
+      "name": "Lame du Nuage Noir",
+      "desc": "Lorsqu’il y a 2 Identités alliées du Clan Kurokumo ou plus sur le terrain, incluant cette unité, gagne 1 [BlackCloudBlade] (1 max)\n\nContre les ennemis qui, pendant ce tour, ont utilisé des Capacités Défensives ou étaient au max de PV avant d’attaquer : inflige +10% de dégâts supplémentaires\n\nSi un ennemi a attaqué un autre allié avec une Capacité et infligé des dégâts ce tour : utilise une Attaque à Sens-Unique contre l’attaquant avec la Capacité 1 (une fois par tour)\n\n<style=\"highlight\">Si l’ennemi a tué un autre allié, ou si les PV de cet allié sont à moins de 25% après l’attaque de l’ennemi, utilise une Attaque à Sens-Unique contre l’attaquant avec <Règles des Ruelles> à la place (une fois par allié ; 2 fois par tour ; la Capacité activée avec cet effet compte comme une Capacité d’Attaque)</style>",
+      "summary": "Gagne [BlackCloudBlade] ; inflige plus de dégâts aux ennemis qui étaient à PV max ou ont utilisé une Capacité Défensive ; contre-attaque lorsqu’un allié est attaqué"
+    },
+    {
+      "id": 1071221,
+      "name": "Empaler",
+      "desc": "1 allié avec la plus haute Vitesse : inflige +10% de dégâts supplémentaires aux ennemis ayant utilisé des Capacités Défensives et qui étaient à PV max avant d’attaquer ce tour"
+    },
+    {
+      "id": 1081101,
+      "name": "Nuages Sombres Menaçants",
+      "desc": "Début du Combat : s’il y a 2 Identités alliées du Clan Kurokumo ou plus dans cet Affrontement, incluant cette unité, gagne 1 [BlackCloudBlade]\n\nDébut du Combat : applique 1 [BlackCloud] aux Identités du Clan Kurokumo adjacentes à cette unité sur le Tableau de Bord",
+      "summary": "Gagne [BlackCloudBlade] ; applique [BlackCloud] aux Identités alliées du Clan Kurokumo"
+    },
+    {
+      "id": 1081102,
+      "name": "Prête au Combat",
+      "desc": "Lorsqu’un allié du Clan Kurokumo meurt, gagne 1 [SlashResultUp] pour cet Affrontement\n\nLorsque 3 alliés du Clan Kurokumo ou plus sont vaincus, gagne [EngageToBattle] pour cet Affrontement"
+    },
+    {
+      "id": 1081111,
+      "name": "Nuages Sombres Menaçants",
+      "desc": "Début du Combat : s’il y a 2 Identités alliées du Clan Kurokumo ou plus dans cet Affrontement, incluant cette unité, gagne 1 [BlackCloudBlade]\n\nDébut du Combat : applique 1 [BlackCloud] aux Identités du Clan Kurokumo adjacentes à cette unité sur le Tableau de Bord\n<style=\"highlight\">- À 4 de Réson. de Luxure ou plus, applique 1 [BlackCloud] à tous les autres alliés du Clan Kurokumo</style>",
+      "summary": "Gagne [BlackCloudBlade] ; applique [BlackCloud] aux Identités alliées du Clan Kurokumo"
+    },
+    {
+      "id": 1081121,
+      "name": "Lame de l’Atelier Nuage",
+      "desc": "1 allié avec la plus haute Vitesse inflige +1 [Laceration] supplémentaire"
     }
   ]
 }

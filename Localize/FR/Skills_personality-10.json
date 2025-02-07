@@ -29,7 +29,7 @@
         {
           "level": 2,
           "name": "Assaut Féroce",
-          "desc": "À 10+ de Compte de Tremblement, +1 de Puissance de Pièce",
+          "desc": "À 10 de Compte de Tremblement ou plus, +1 de Puissance de Pièce",
           "coinlist": [
             {},
             {
@@ -58,7 +58,7 @@
         {
           "level": 4,
           "name": "Assaut Féroce",
-          "desc": "À 10+ de Compte de Tremblement, +1 de Puissance de Pièce",
+          "desc": "À 10 de Compte de Tremblement ou plus, +1 de Puissance de Pièce",
           "coinlist": [
             {},
             {
@@ -97,7 +97,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de Tremblement"
+                  "desc": "[OnSucceedAttack] Inflige 2 Tremblement"
                 }
               ]
             }
@@ -111,7 +111,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de Tremblement"
+                  "desc": "[OnSucceedAttack] Inflige 4 Tremblement"
                 }
               ]
             }
@@ -125,7 +125,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 6 de Tremblement"
+                  "desc": "[OnSucceedAttack] Inflige 6 Tremblement"
                 }
               ]
             }
@@ -144,7 +144,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] À 10+ de Compte de Tremblement, dépense tout le Compte de Tremblement pour infliger autant de Compte de Tremblement à la cible\n[OnSucceedAttack] À moins de 10 de Compte de Tremblement, gagne 6 de Tremblement et déclenche un Sursaut de Tremblement sur soi-même\nInflige des dégâts Contondants égaux aux dégâts de Sursaut de Tremblement"
+                  "desc": "[OnSucceedAttack] À 10 de Compte de Tremblement ou plus, dépense tout le Compte de Tremblement pour infliger autant de Compte de Tremblement à la cible\n[OnSucceedAttack] À moins de 10 de Compte de Tremblement, gagne 6 Tremblement et déclenche un Sursaut de Tremblement sur soi-même\nInflige des dégâts Contondants égaux aux dégâts de Sursaut de Tremblement"
                 }
               ]
             }
@@ -158,7 +158,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] À 10+ de Compte de Tremblement, dépense tout le Compte de Tremblement pour infliger autant de Compte de Tremblement à la cible\n[OnSucceedAttack] À moins de 10 de Compte de Tremblement, gagne 10 de Tremblement et déclenche un Sursaut de Tremblement sur soi-même\nInflige des dégâts Contondants égaux aux dégâts de Sursaut de Tremblement"
+                  "desc": "[OnSucceedAttack] À 10 de Compte de Tremblement ou plus, dépense tout le Compte de Tremblement pour infliger autant de Compte de Tremblement à la cible\n[OnSucceedAttack] À moins de 10 de Compte de Tremblement, gagne 10 Tremblement et déclenche un Sursaut de Tremblement sur soi-même\nInflige des dégâts Contondants égaux aux dégâts de Sursaut de Tremblement"
                 }
               ]
             }
@@ -172,7 +172,7 @@
         {
           "level": 1,
           "name": "Enfoirés de Crabes... !",
-          "desc": "[WhenUse] Gagne 1 de Protection de Déchirure (3 fois par tour)",
+          "desc": "[WhenUse] Gagne 1 Protection de Déchirure (3 fois par tour)",
           "coinlist": [
             {
               "coindescs": [
@@ -196,14 +196,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gagne 1 de [Agility] au prochain tour"
+                  "desc": "[OnSucceedAttackHead] Gagne 1 [Agility] au prochain tour"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gagne 1 de [Agility] au prochain tour"
+                  "desc": "[OnSucceedAttackHead] Gagne 1 [Agility] au prochain tour"
                 }
               ]
             }
@@ -217,14 +217,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 1 de [Agility] au prochain tour"
+                  "desc": "[OnSucceedAttack] Gagne 1 [Agility] au prochain tour"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 1 de [Agility] au prochain tour"
+                  "desc": "[OnSucceedAttack] Gagne 1 [Agility] au prochain tour"
                 }
               ]
             }
@@ -238,14 +238,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 1 de [Agility] au prochain tour"
+                  "desc": "[OnSucceedAttack] Gagne 1 [Agility] au prochain tour"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 1 de [Agility] au prochain tour"
+                  "desc": "[OnSucceedAttack] Gagne 1 [Agility] au prochain tour"
                 }
               ]
             }
@@ -330,7 +330,7 @@
         {
           "level": 3,
           "name": "Contre Attaque",
-          "desc": "Si la Vitesse de cette unité dépasse celle de la cible de 2 ou plus, +1 de Puissance de Pièce\n[WinDuel] Consomme 10 de Compte de [Breath]. Gagne du [Breath] égal au Compte de [Breath] consommé.\n[WinDuel] Si cette unité a conduit un [OneOnOneDuel] avec la Capacité d’Attaque de l’Emplacement de la cible, inflige 1 de [Vulnerable] en touche (Deux fois par tour)",
+          "desc": "Si la Vitesse de cette unité dépasse celle de la cible de 2 ou plus, +1 de Puissance de Pièce\n[WinDuel] Consomme 10 de Compte de [Breath]. Gagne du [Breath] égal au Compte de [Breath] consommé.\n[WinDuel] Si cette unité a conduit un [OneOnOneDuel] avec la Capacité d’Attaque de l’Emplacement de la cible, inflige 1 [Vulnerable] en touche (Deux fois par tour)",
           "coinlist": [
             {
               "coindescs": [
@@ -352,7 +352,7 @@
         {
           "level": 4,
           "name": "Contre Attaque",
-          "desc": "Si la Vitesse de cette unité est supérieure à celle de la cible, +1 de Puissance de Pièce pour chaque 2 de différence de Vitesse (3 Max)\n[WinDuel] Consomme 10 de Compte de [Breath]. Gagne du [Breath] égal au Compte de [Breath] consommé. Contre les cibles avec [DuelDeclaration_Sinclair], gagne à la place (Compte de [Breath] consommé * 2) de [Breath]\n[WinDuel] Si cette unité a conduit un [OneOnOneDuel] avec la Capacité d’Attaque de l’Emplacement de la cible, inflige 1 de [Vulnerable] en touche (Deux fois par tour)",
+          "desc": "Si la Vitesse de cette unité est supérieure à celle de la cible, +1 de Puissance de Pièce pour chaque 2 de différence de Vitesse (3 Max)\n[WinDuel] Consomme 10 de Compte de [Breath]. Gagne du [Breath] égal au Compte de [Breath] consommé. Contre les cibles avec [DuelDeclaration_Sinclair], gagne à la place (Compte de [Breath] consommé * 2) de [Breath]\n[WinDuel] Si cette unité a conduit un [OneOnOneDuel] avec la Capacité d’Attaque de l’Emplacement de la cible, inflige 1 [Vulnerable] en touche (Deux fois par tour)",
           "coinlist": [
             {
               "coindescs": [
@@ -417,7 +417,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Combustion]"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Lorsque dans l’état E.G.O. Volatile, Réutilise la Pièce (une fois par Capacité)",
@@ -435,7 +435,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Combustion]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Lorsque dans l’état E.G.O. Volatile, Réutilise la Pièce (une fois par Capacité)",
@@ -453,7 +453,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Combustion]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Lorsque dans l’état E.G.O. Volatile, Réutilise la Pièce (une fois par Capacité)",
@@ -499,7 +499,7 @@
         {
           "level": 2,
           "name": "Lame du Couchant",
-          "desc": "<style=\"highlight\">Si la cible a 4+ de [Combustion], +1 de Puissance de Duel</style>\n[WhenUse] Lorsque dans l’état E.G.O. Volatile, consomme 5 PSM\n[BeforeAttack] Lorsque dans l’état E.G.O. Volatile, +1 de Poids d’Atq\n[EndSkill] Lorsque dans l’état E.G.O. Volatile, consomme 5 PSM",
+          "desc": "<style=\"highlight\">Si la cible a 4 [Combustion] ou plus, +1 de Puissance de Duel</style>\n[WhenUse] Lorsque dans l’état E.G.O. Volatile, consomme 5 PSM\n[BeforeAttack] Lorsque dans l’état E.G.O. Volatile, +1 de Poids d’Atq\n[EndSkill] Lorsque dans l’état E.G.O. Volatile, consomme 5 PSM",
           "coinlist": [
             {
               "coindescs": [
@@ -527,7 +527,7 @@
         {
           "level": 4,
           "name": "Lame du Couchant",
-          "desc": "Si la cible a 4+ de [Combustion], +1 de Puissance de Duel\n[WhenUse] Lorsque dans l’état E.G.O. Volatile, consomme 5 PSM\n[BeforeAttack] Lorsque dans l’état E.G.O. Volatile, +1 de Poids d’Atq\n<style=\"highlight\">- À 45 PSM, +2 de Poids d’Atq à la place</style>\n[EndSkill] Lorsque dans l’état E.G.O. Volatile, consomme 5 PSM",
+          "desc": "Si la cible a 4 [Combustion] ou plus, +1 de Puissance de Duel\n[WhenUse] Lorsque dans l’état E.G.O. Volatile, consomme 5 PSM\n[BeforeAttack] Lorsque dans l’état E.G.O. Volatile, +1 de Poids d’Atq\n<style=\"highlight\">- À 45 PSM, +2 de Poids d’Atq à la place</style>\n[EndSkill] Lorsque dans l’état E.G.O. Volatile, consomme 5 PSM",
           "coinlist": [
             {
               "coindescs": [
@@ -560,19 +560,19 @@
         {
           "level": 3,
           "name": "Stigmatisation",
-          "desc": "Si la cible a 10+ de [Combustion], +1 de Puissance de Pièce\nLorsque dans l’état E.G.O. Volatile, active Coup Embrasé à la place\n[WinDuel] Se soigne de 10 PSM\n[DefeatDuel] Perd 10 PSM",
+          "desc": "Si la cible a 10 [Combustion] ou plus, +1 de Puissance de Pièce\nLorsque dans l’état E.G.O. Volatile, active Coup Embrasé à la place\n[WinDuel] Se soigne de 10 PSM\n[DefeatDuel] Perd 10 PSM",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Combustion]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Combustion]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Combustion]"
                 }
               ]
             }
@@ -581,19 +581,19 @@
         {
           "level": 4,
           "name": "Stigmatisation",
-          "desc": "<style=\"highlight\">+1 de Puissance de Pièce pour chaque 7 de [Combustion] sur la cible (2 max)</style>\nLorsque dans l’état E.G.O. Volatile, active Coup Embrasé à la place\n[WinDuel] Se soigne de 10 PSM\n[DefeatDuel] Perd 10 PSM",
+          "desc": "<style=\"highlight\">+1 de Puissance de Pièce pour chaque 7 [Combustion] sur la cible (2 max)</style>\nLorsque dans l’état E.G.O. Volatile, active Coup Embrasé à la place\n[WinDuel] Se soigne de 10 PSM\n[DefeatDuel] Perd 10 PSM",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Combustion]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Combustion]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Combustion]"
                 }
               ]
             }
@@ -607,7 +607,7 @@
         {
           "level": 3,
           "name": "Chagrin",
-          "desc": "Lorsque dans l’état E.G.O. Volatile, +1 de Puissance de Base pour chaque 2 de [Combustion] sur la cible (10 max)",
+          "desc": "Lorsque dans l’état E.G.O. Volatile, +1 de Puissance de Base pour chaque 2 [Combustion] sur la cible (10 max)",
           "coinlist": [
             {
               "coindescs": [
@@ -621,7 +621,7 @@
         {
           "level": 4,
           "name": "Chagrin",
-          "desc": "Lorsque dans l’état E.G.O. Volatile, +1 de Puissance de Base pour chaque 2 de [Combustion] sur la cible (<style=\"highlight\">20</style> max)",
+          "desc": "Lorsque dans l’état E.G.O. Volatile, +1 de Puissance de Base pour chaque 2 [Combustion] sur la cible (<style=\"highlight\">20</style> max)",
           "coinlist": [
             {
               "coindescs": [
@@ -640,23 +640,23 @@
         {
           "level": 3,
           "name": "Coup Embrasé",
-          "desc": "+1 de Puissance de Pièce pour chaque 4 de (somme de la Puissance de [Combustion] sur tous les ennemis) (8 max)\n[WinDuel] Se soigne de 10 PSM\n[DefeatDuel] Perd 30 PSM\nInflige +5% de dégâts supplémentaires pour chaque Réson. de Colère (30% max)\n[EndSkill] Perd 15 PSM",
+          "desc": "+1 de Puissance de Pièce pour chaque 4 de (somme de l’Intensité de [Combustion] sur tous les ennemis) (8 max)\n[WinDuel] Se soigne de 10 PSM\n[DefeatDuel] Perd 30 PSM\nInflige +5% de dégâts supplémentaires pour chaque Réson. de Colère (30% max)\n[EndSkill] Perd 15 PSM",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Inflige +2.5% de dégâts supplémentaires pour chaque 1 de [Combustion] sur la cible (100% max)",
+                  "desc": "Inflige +2.5% de dégâts supplémentaires pour chaque 1 [Combustion] sur la cible (100% max)",
                   "summary": "Inflige plus de dégâts selon la [Combustion] sur la cible"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a 10+ de [Combustion], inflige 2 de [Combustion] à (# de la plus haute Réson.) ennemis aléatoires",
+                  "desc": "[OnSucceedAttack] Si la cible a 10 [Combustion] ou plus, inflige 2 [Combustion] à (# de la plus haute Réson.) ennemis aléatoires",
                   "summary": "[OnSucceedAttack] Inflige de la [Combustion] selon la Réson."
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 10 de [Combustion]"
+                  "desc": "[OnSucceedAttack] Inflige 10 [Combustion]"
                 },
                 {
-                  "desc": "[EnemyKill] Inflige aléatoirement la Puissance de [Combustion] de la cible vaincue à tous les ennemis (10 max. En Affrontement Concentré, entre toutes les Parties)",
+                  "desc": "[EnemyKill] Inflige aléatoirement l’Intensité de [Combustion] de la cible vaincue à tous les ennemis (10 max. En Affrontement Concentré, entre toutes les Parties)",
                   "summary": "[EnemyKill] Inflige de la [Combustion] à des ennemis aléatoires"
                 }
               ]
@@ -666,23 +666,23 @@
         {
           "level": 4,
           "name": "Coup Embrasé",
-          "desc": "+<style=\"highlight\">2</style> de Puissance de Pièce pour chaque 4 de (somme de la Puissance de [Combustion] sur tous les ennemis) (8 max)\n[WinDuel] Se soigne de 10 PSM\n[DefeatDuel] Perd 30 PSM\nInflige +<style=\"highlight\">10</style>% de dégâts supplémentaires pour chaque Réson. de Colère (<style=\"highlight\">60</style>% max)\n<style=\"highlight\">Si à 4+ de plus haute Réson.-A de Colère, inflige +20% de dégâts supplémentaires pour chaque Réson. de Colère à la place (120% max)</style>\n[EndSkill] Perd 15 PSM",
+          "desc": "+<style=\"highlight\">2</style> de Puissance de Pièce pour chaque 4 de (somme de l’Intensité de [Combustion] sur tous les ennemis) (8 max)\n[WinDuel] Se soigne de 10 PSM\n[DefeatDuel] Perd 30 PSM\nInflige +<style=\"highlight\">10</style>% de dégâts supplémentaires pour chaque Réson. de Colère (<style=\"highlight\">60</style>% max)\n<style=\"highlight\">Si à 4 de plus haute Réson.-A de Colère ou plus, inflige +20% de dégâts supplémentaires pour chaque Réson. de Colère à la place (120% max)</style>\n[EndSkill] Perd 15 PSM",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Inflige +<style=\"highlight\">4</style>% de dégâts supplémentaires pour chaque 1 de [Combustion] sur la cible (<style=\"highlight\">120</style>% max)",
+                  "desc": "Inflige +<style=\"highlight\">4</style>% de dégâts supplémentaires pour chaque 1 [Combustion] sur la cible (<style=\"highlight\">120</style>% max)",
                   "summary": "Inflige plus de dégâts selon la [Combustion] sur la cible"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a 10+ de [Combustion], inflige 2 de [Combustion] à (# de la plus haute Réson.) ennemis aléatoires\n<style=\"highlight\">- Si la Réson. ci-dessus était une Réson. de Colère, inflige également +1 de Compte de [Combustion]</style>",
+                  "desc": "[OnSucceedAttack] Si la cible a 10 [Combustion] ou plus, inflige 2 [Combustion] à (# de la plus haute Réson.) ennemis aléatoires\n<style=\"highlight\">- Si la Réson. ci-dessus était une Réson. de Colère, inflige également +1 de Compte de [Combustion]</style>",
                   "summary": "[OnSucceedAttack] Inflige de la [Combustion] selon la Réson."
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 10 de [Combustion]"
+                  "desc": "[OnSucceedAttack] Inflige 10 [Combustion]"
                 },
                 {
-                  "desc": "[EnemyKill] Inflige aléatoirement la Puissance de [Combustion] de la cible vaincue à tous les ennemis (10 max. En Affrontement Concentré, entre toutes les Parties)",
+                  "desc": "[EnemyKill] Inflige aléatoirement l’Intensité de [Combustion] de la cible vaincue à tous les ennemis (10 max. En Affrontement Concentré, entre toutes les Parties)",
                   "summary": "[EnemyKill] Inflige de la [Combustion] à des ennemis aléatoires"
                 }
               ]
@@ -697,7 +697,7 @@
         {
           "level": 1,
           "name": "Répression.",
-          "desc": "[WhenUse] Gagne +3 d’[Aggro] sur cet Emplacement de Capacité au prochain tour\n[WhenUse] Gagne 1 de [DefenseUp]\n[WinDuel] Gagne +2 de Compte de [Vibration]",
+          "desc": "[WhenUse] Gagne +3 d’[Aggro] sur cet Emplacement de Capacité au prochain tour\n[WhenUse] Gagne 1 [DefenseUp]\n[WinDuel] Gagne +2 de Compte de [Vibration]",
           "coinlist": [
             {
               "coindescs": [
@@ -709,7 +709,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gagne 2 de [DefenseUp] au prochain tour"
+                  "desc": "[OnSucceedAttackHead] Gagne 2 [DefenseUp] au prochain tour"
                 }
               ]
             }
@@ -718,7 +718,7 @@
         {
           "level": 2,
           "name": "Répression.",
-          "desc": "[WhenUse] Gagne +3 d’[Aggro] sur cet Emplacement de Capacité au prochain tour\n[WhenUse] Gagne <style=\"highlight\">2</style> de [DefenseUp]\n<style=\"highlight\">[WhenUse] Si la cible a 4+ de Compte de [Vibration], +1 de Puissance de Duel</style>\n[WinDuel] Gagne +2 de Compte de [Vibration]",
+          "desc": "[WhenUse] Gagne +3 d’[Aggro] sur cet Emplacement de Capacité au prochain tour\n[WhenUse] Gagne <style=\"highlight\">2</style> [DefenseUp]\n<style=\"highlight\">[WhenUse] Si la cible a 4 de Compte de [Vibration] ou plus, +1 de Puissance de Duel</style>\n[WinDuel] Gagne +2 de Compte de [Vibration]",
           "coinlist": [
             {
               "coindescs": [
@@ -730,7 +730,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gagne 2 de [DefenseUp] au prochain tour"
+                  "desc": "[OnSucceedAttackHead] Gagne 2 [DefenseUp] au prochain tour"
                 }
               ]
             }
@@ -739,7 +739,7 @@
         {
           "level": 4,
           "name": "Répression.",
-          "desc": "[WhenUse] Gagne +3 d’[Aggro] sur cet Emplacement de Capacité au prochain tour\n[WhenUse] Gagne 2 de [DefenseUp]\n[WhenUse] Si la cible a 4+ de Compte de [Vibration], +<style=\"highlight\">2</style> de Puissance de Duel\n[WinDuel] Gagne +<style=\"highlight\">3</style> de Compte de [Vibration]",
+          "desc": "[WhenUse] Gagne +3 d’[Aggro] sur cet Emplacement de Capacité au prochain tour\n[WhenUse] Gagne 2 [DefenseUp]\n[WhenUse] Si la cible a 4 de Compte de [Vibration] ou plus, +<style=\"highlight\">2</style> de Puissance de Duel\n[WinDuel] Gagne +<style=\"highlight\">3</style> de Compte de [Vibration]",
           "coinlist": [
             {
               "coindescs": [
@@ -751,7 +751,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 2 de [DefenseUp] au prochain tour"
+                  "desc": "[OnSucceedAttack] Gagne 2 [DefenseUp] au prochain tour"
                 }
               ]
             }
@@ -771,7 +771,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Pour 1 autre allié avec [DefenseUp], applique (([DefenseUp] sur l’allié)/3) de [AttackUp] au prochain tour (une fois par tour, 3 max)"
+                  "desc": "[OnSucceedAttack] Pour 1 autre allié avec [DefenseUp], applique (([DefenseUp] sur l’allié)/3) [AttackUp] au prochain tour (une fois par tour, 3 max)"
                 }
               ]
             }
@@ -780,19 +780,19 @@
         {
           "level": 2,
           "name": "Préparation au Combat",
-          "desc": "[WhenUse] Gagne +3 d’[Aggro] sur cet Emplacement de Capacité au prochain tour\n<style=\"highlight\">[WhenUse] Gagne 1 de [DefenseUp] pour chaque 2 de Compte de [Vibration] sur soi (3 max)\n[WhenUse] À 4+ de [DefenseUp], +1 de Puissance de Pièce</style>\n[WinDuel] Gagne +<style=\"highlight\">3</style> de Compte de [Vibration]",
+          "desc": "[WhenUse] Gagne +3 d’[Aggro] sur cet Emplacement de Capacité au prochain tour\n<style=\"highlight\">[WhenUse] Gagne 1 [DefenseUp] pour chaque 2 de Compte de [Vibration] sur soi (3 max)\n[WhenUse] À 4 [DefenseUp] ou plus, +1 de Puissance de Pièce</style>\n[WinDuel] Gagne +<style=\"highlight\">3</style> de Compte de [Vibration]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[WinDuelAttack] Pour 1 autre allié avec le moins de pourcentage de PV, applique 2 de [DefenseUp] au prochain tour"
+                  "desc": "[WinDuelAttack] Pour 1 autre allié avec le moins de pourcentage de PV, applique 2 [DefenseUp] au prochain tour"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Pour 1 autre allié avec [DefenseUp], applique (([DefenseUp] sur l’allié)/<style=\"highlight\">2</style>) de [AttackUp] au prochain tour (une fois par tour, 3 max)"
+                  "desc": "[OnSucceedAttack] Pour 1 autre allié avec [DefenseUp], applique (([DefenseUp] sur l’allié)/<style=\"highlight\">2</style>) [AttackUp] au prochain tour (une fois par tour, 3 max)"
                 }
               ]
             }
@@ -801,19 +801,19 @@
         {
           "level": 4,
           "name": "Préparation au Combat",
-          "desc": "[WhenUse] Gagne +3 d’[Aggro] sur cet Emplacement de Capacité au prochain tour\n[WhenUse] Gagne 1 de [DefenseUp] pour chaque 2 de Compte de [Vibration] sur soi (3 max)\n[WhenUse] À 4+ de [DefenseUp], +1 de Puissance de Pièce\n[WinDuel] Gagne +3 de Compte de [Vibration]",
+          "desc": "[WhenUse] Gagne +3 d’[Aggro] sur cet Emplacement de Capacité au prochain tour\n[WhenUse] Gagne 1 [DefenseUp] pour chaque 2 de Compte de [Vibration] sur soi (3 max)\n[WhenUse] À 4 [DefenseUp] ou plus, +1 de Puissance de Pièce\n[WinDuel] Gagne +3 de Compte de [Vibration]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[WinDuelAttack] Pour <style=\"highlight\">2 autres alliés</style> avec le moins de pourcentage de PV, applique 2 de [DefenseUp] au prochain tour"
+                  "desc": "[WinDuelAttack] Pour <style=\"highlight\">2 autres alliés</style> avec le moins de pourcentage de PV, applique 2 [DefenseUp] au prochain tour"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Pour <style=\"highlight\">2 autres alliés</style> avec [DefenseUp], applique (([DefenseUp] sur l’allié)/2) de [AttackUp] au prochain tour (une fois par tour, 3 max)"
+                  "desc": "[OnSucceedAttack] Pour <style=\"highlight\">2 autres alliés</style> avec [DefenseUp], applique (([DefenseUp] sur l’allié)/2) [AttackUp] au prochain tour (une fois par tour, 3 max)"
                 }
               ]
             }
@@ -827,12 +827,12 @@
         {
           "level": 3,
           "name": "Barrière",
-          "desc": "[WhenUse] Gagne 1 de [DefenseUp] pour chaque 2 de Compte de [Vibration] sur soi (2 max)\n[WhenUse] +1 de Puissance de Pièce pour chaque 3 de [DefenseUp] sur soi (2 max)",
+          "desc": "[WhenUse] Gagne 1 [DefenseUp] pour chaque 2 de Compte de [Vibration] sur soi (2 max)\n[WhenUse] +1 de Puissance de Pièce pour chaque 3 [DefenseUp] sur soi (2 max)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Pour 1 autre allié avec le moins de pourcentage de PV, applique 3 de [DefenseUp] au prochain tour"
+                  "desc": "[OnSucceedAttack] Pour 1 autre allié avec le moins de pourcentage de PV, applique 3 [DefenseUp] au prochain tour"
                 }
               ]
             },
@@ -858,12 +858,12 @@
         {
           "level": 4,
           "name": "Barrière",
-          "desc": "[WhenUse] Gagne 1 de [DefenseUp] pour chaque 2 de Compte de [Vibration] sur soi (<style=\"highlight\">4</style> max)\n[WhenUse] +1 de Puissance de Pièce pour chaque 3 de [DefenseUp] sur soi (<style=\"highlight\">3</style> max)",
+          "desc": "[WhenUse] Gagne 1 [DefenseUp] pour chaque 2 de Compte de [Vibration] sur soi (<style=\"highlight\">4</style> max)\n[WhenUse] +1 de Puissance de Pièce pour chaque 3 [DefenseUp] sur soi (<style=\"highlight\">3</style> max)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Pour 1 autre allié avec le moins de pourcentage de PV, applique <style=\"highlight\">4</style> de [DefenseUp] au prochain tour"
+                  "desc": "[OnSucceedAttack] Pour 1 autre allié avec le moins de pourcentage de PV, applique <style=\"highlight\">4</style> [DefenseUp] au prochain tour"
                 }
               ]
             },
@@ -926,12 +926,12 @@
         {
           "level": 1,
           "name": "Malle de Coursier - Marteau de Décomposition",
-          "desc": "[WhenUse] Si la cible a 15+ de [Burst] et 3+ de Compte de [Burst] : cette Capacité n’inflige pas de [Burst] avec ses effets En Touche ; à la place, elle inflige 2 de [DefenseDown] (une fois par Pièce)",
+          "desc": "[WhenUse] Si la cible a 15 [Burst] ou plus et 3 de Compte de [Burst] ou plus : cette Capacité n’inflige pas de [Burst] avec ses effets En Touche ; à la place, elle inflige 2 [DefenseDown] (une fois par Pièce)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 1 de [DevyatDimensionalSackSinclair]\n- Si cette unité a moins de 15 [DevyatDimensionalSackSinclair], gagne 1 de [DevyatDimensionalSackSinclair] supplémentaire"
+                  "desc": "[OnSucceedAttack] Gagne 1 [DevyatDimensionalSackSinclair]\n- Si cette unité a moins de 15 [DevyatDimensionalSackSinclair], gagne 1 [DevyatDimensionalSackSinclair] supplémentaire"
                 }
               ]
             },
@@ -947,19 +947,19 @@
         {
           "level": 2,
           "name": "Malle de Coursier - Marteau de Décomposition",
-          "desc": "À 10+ de [DevyatDimensionalSackSinclair], ou si la cible a 6+ de [Burst], +1 de Puissance de Pièce\n[WhenUse] Si la cible a 15+ de [Burst] et 3+ de Compte de [Burst], cette Capacité n’inflige pas de Compte de [Burst] avec ses effets En Touche ; à la place, elle inflige 2 de [DefenseDown] (une fois par Pièce)",
+          "desc": "À 10 [DevyatDimensionalSackSinclair] ou plus, ou si la cible a 6 [Burst] ou plus, +1 de Puissance de Pièce\n[WhenUse] Si la cible a 15 [Burst] ou plus et 3 de Compte de [Burst] ou plus, cette Capacité n’inflige pas de Compte de [Burst] avec ses effets En Touche ; à la place, elle inflige 2 [DefenseDown] (une fois par Pièce)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 1 de [DevyatDimensionalSackSinclair]\n- Si cette unité a moins de 15 [DevyatDimensionalSackSinclair], gagne 1 de [DevyatDimensionalSackSinclair] supplémentaire"
+                  "desc": "[OnSucceedAttack] Gagne 1 [DevyatDimensionalSackSinclair]\n- Si cette unité a moins de 15 [DevyatDimensionalSackSinclair], gagne 1 [DevyatDimensionalSackSinclair] supplémentaire"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]\n- À 15+ de [DevyatDimensionalSackSinclair], inflige +1 de Compte de [Burst] supplémentaire"
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]\n- À 15 [DevyatDimensionalSackSinclair] ou plus, inflige +1 de Compte de [Burst] supplémentaire"
                 }
               ]
             }
@@ -968,19 +968,19 @@
         {
           "level": 4,
           "name": "Malle de Coursier - Marteau de Décomposition",
-          "desc": "+1 de Puissance de Pièce pour chaque 10 de [DevyatDimensionalSackSinclair] sur soi ou pour chaque 6 de [Burst] sur la cible (2 max)\n[WhenUse] Si la cible a 15+ de [Burst] et 3+ de Compte de [Burst], cette Capacité n’inflige pas de Compte de [Burst] avec ses effets En Touche ; à la place, elle inflige 2 de [DefenseDown] (une fois par Pièce)",
+          "desc": "+1 de Puissance de Pièce pour chaque 10 [DevyatDimensionalSackSinclair] sur soi ou pour chaque 6 [Burst] sur la cible (2 max)\n[WhenUse] Si la cible a 15 [Burst] ou plus et 3 de Compte de [Burst] ou plus, cette Capacité n’inflige pas de Compte de [Burst] avec ses effets En Touche ; à la place, elle inflige 2 [DefenseDown] (une fois par Pièce)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 1 de [DevyatDimensionalSackSinclair]\n- Si cette unité a moins de 15 [DevyatDimensionalSackSinclair], gagne 1 de [DevyatDimensionalSackSinclair] supplémentaire"
+                  "desc": "[OnSucceedAttack] Gagne 1 [DevyatDimensionalSackSinclair]\n- Si cette unité a moins de 15 [DevyatDimensionalSackSinclair], gagne 1 [DevyatDimensionalSackSinclair] supplémentaire"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]\n- À 15+ de [DevyatDimensionalSackSinclair], inflige +1 de Compte de [Burst] supplémentaire"
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]\n- À 15 [DevyatDimensionalSackSinclair] ou plus, inflige +1 de Compte de [Burst] supplémentaire"
                 }
               ]
             }
@@ -994,26 +994,26 @@
         {
           "level": 1,
           "name": "Malle de Coursier - Gadget de Démolition",
-          "desc": "[WhenUse] Si la cible a 15+ de [Burst] et 3+ de Compte de [Burst] : cette Capacité n’inflige pas de [Burst] ou de Compte de [Burst] avec ses effets En Touche ; à la place, elle inflige 2 de [DefenseDown] (une fois par Pièce)",
+          "desc": "[WhenUse] Si la cible a 15 [Burst] ou plus et 3 de Compte de [Burst] ou plus : cette Capacité n’inflige pas de [Burst] ou de Compte de [Burst] avec ses effets En Touche ; à la place, elle inflige 2 [DefenseDown] (une fois par Pièce)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 1 de [DevyatDimensionalSackSinclair]\n- Si cette unité a moins de 15 [DevyatDimensionalSackSinclair], gagne 2 de [DevyatDimensionalSackSinclair] supplémentaires"
+                  "desc": "[OnSucceedAttack] Gagne 1 [DevyatDimensionalSackSinclair]\n- Si cette unité a moins de 15 [DevyatDimensionalSackSinclair], gagne 2 [DevyatDimensionalSackSinclair] supplémentaires"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Burst]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Burst]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
                 }
               ]
             }
@@ -1022,26 +1022,26 @@
         {
           "level": 2,
           "name": "Malle de Coursier - Gadget de Démolition",
-          "desc": "À 10+ de [DevyatDimensionalSackSinclair], ou si la cible a 6+ de [Burst], +1 de Puissance de Pièce\n[WhenUse] Si la cible a 15+ de [Burst] et 3+ de Compte de [Burst], cette Capacité n’inflige pas de [Burst] ou de Compte de [Burst] avec ses effets En Touche ; à la place, elle inflige 2 de [DefenseDown] (une fois par Pièce)\n[WhenUse] À 20- de [DevyatDimensionalSackSinclair], gagne 1 de [Agility] au prochain tour (une fois par tour)",
+          "desc": "À 10 [DevyatDimensionalSackSinclair] ou plus, ou si la cible a 6 [Burst] ou plus, +1 de Puissance de Pièce\n[WhenUse] Si la cible a 15 [Burst] ou plus et 3 de Compte de [Burst] ou plus, cette Capacité n’inflige pas de [Burst] ou de Compte de [Burst] avec ses effets En Touche ; à la place, elle inflige 2 [DefenseDown] (une fois par Pièce)\n[WhenUse] À 20 [DevyatDimensionalSackSinclair] ou moins, gagne 1 [Agility] au prochain tour (une fois par tour)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 1 de [DevyatDimensionalSackSinclair]\n- Si cette unité a moins de 15 [DevyatDimensionalSackSinclair], gagne 2 de [DevyatDimensionalSackSinclair] supplémentaires"
+                  "desc": "[OnSucceedAttack] Gagne 1 [DevyatDimensionalSackSinclair]\n- Si cette unité a moins de 15 [DevyatDimensionalSackSinclair], gagne 2 [DevyatDimensionalSackSinclair] supplémentaires"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Burst]\n- À 15+ de [DevyatDimensionalSackSinclair], inflige +1 de Compte de [Burst]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]\n- À 15 [DevyatDimensionalSackSinclair] ou plus, inflige +1 de Compte de [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Burst]\n- À 15+ de [DevyatDimensionalSackSinclair], inflige +1 de Compte de [Burst]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]\n- À 15 [DevyatDimensionalSackSinclair] ou plus, inflige +1 de Compte de [Burst]"
                 }
               ]
             }
@@ -1050,26 +1050,26 @@
         {
           "level": 4,
           "name": "Malle de Coursier - Gadget de Démolition",
-          "desc": "+1 de Puissance de Pièce pour chaque 10 de [DevyatDimensionalSackSinclair] sur soi ou pour chaque 6 de [Burst] sur la cible (2 max)\n[WhenUse] Si la cible a 15+ de [Burst] et 3+ de Compte de [Burst], cette Capacité n’inflige pas de [Burst] ou de Compte de [Burst] avec ses effets En Touche ; à la place, elle inflige 2 de [DefenseDown] (une fois par Pièce)\n[WhenUse] À 30- de [DevyatDimensionalSackSinclair], gagne 1 de [Agility] au prochain tour (une fois par tour)",
+          "desc": "+1 de Puissance de Pièce pour chaque 10 [DevyatDimensionalSackSinclair] sur soi ou pour chaque 6 [Burst] sur la cible (2 max)\n[WhenUse] Si la cible a 15 [Burst] ou plus et 3 de Compte de [Burst] ou plus, cette Capacité n’inflige pas de [Burst] ou de Compte de [Burst] avec ses effets En Touche ; à la place, elle inflige 2 [DefenseDown] (une fois par Pièce)\n[WhenUse] À 30 [DevyatDimensionalSackSinclair] ou moins, gagne 1 [Agility] au prochain tour (une fois par tour)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 1 de [DevyatDimensionalSackSinclair]\n- Si cette unité a moins de 15 [DevyatDimensionalSackSinclair], gagne 2 de [DevyatDimensionalSackSinclair] supplémentaires"
+                  "desc": "[OnSucceedAttack] Gagne 1 [DevyatDimensionalSackSinclair]\n- Si cette unité a moins de 15 [DevyatDimensionalSackSinclair], gagne 2 [DevyatDimensionalSackSinclair] supplémentaires"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Burst]\n- À 15+ de [DevyatDimensionalSackSinclair], inflige +<style=\"highlight\">2</style> de Compte de [Burst]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]\n- À 15 [DevyatDimensionalSackSinclair] ou plus, inflige +<style=\"highlight\">2</style> de Compte de [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Burst]\n- À 15+ de [DevyatDimensionalSackSinclair], inflige +<style=\"highlight\">2</style> de Compte de [Burst]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]\n- À 15 [DevyatDimensionalSackSinclair] ou plus, inflige +<style=\"highlight\">2</style> de Compte de [Burst]"
                 }
               ]
             }
@@ -1083,26 +1083,26 @@
         {
           "level": 3,
           "name": "Poludnitsa… Je te fais confiance !",
-          "desc": "À 10+ de [DevyatDimensionalSackSinclair], ou si la cible a 6+ de [Burst], +1 de Puissance de Pièce\n[WhenUse] Si la cible a 15+ de [Burst] et 3+ de Compte de [Burst], cette Capacité n’inflige pas de [Burst] ou de Compte de [Burst] avec ses effets En Touche ; à la place, la Pièce finale gagne +2 de Puissance de Pièce\n[WhenUse] Si la cible a 15+ de [Burst], inflige +3% de dégâts supplémentaires pour chaque [DevyatDimensionalSackSinclair] (90% max)",
+          "desc": "À 10 [DevyatDimensionalSackSinclair] ou plus, ou si la cible a 6 [Burst] ou plus, +1 de Puissance de Pièce\n[WhenUse] Si la cible a 15 [Burst] ou plus et 3 de Compte de [Burst] ou plus, cette Capacité n’inflige pas de [Burst] ou de Compte de [Burst] avec ses effets En Touche ; à la place, la Pièce finale gagne +2 de Puissance de Pièce\n[WhenUse] Si la cible a 15 [Burst] ou plus, inflige +3% de dégâts supplémentaires pour chaque [DevyatDimensionalSackSinclair] (90% max)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]\n- Inflige +1 de Compte de [Burst] supplémentaire pour chaque 10 de [DevyatDimensionalSackSinclair] (2 max)"
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]\n- Inflige +1 de Compte de [Burst] supplémentaire pour chaque 10 [DevyatDimensionalSackSinclair] (2 max)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Burst]\n- Inflige 1 de [Burst] supplémentaire pour chaque 10 de [DevyatDimensionalSackSinclair] (2 max)"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]\n- Inflige 1 [Burst] supplémentaire pour chaque 10 [DevyatDimensionalSackSinclair] (2 max)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si cette Capacité n’a pas activé son effet de Puissance de Pièce finale, gagne 1 de [Agility] au prochain tour"
+                  "desc": "[OnSucceedAttack] Si cette Capacité n’a pas activé son effet de Puissance de Pièce finale, gagne 1 [Agility] au prochain tour"
                 }
               ]
             }
@@ -1111,26 +1111,26 @@
         {
           "level": 4,
           "name": "Poludnitsa… Je te fais confiance !",
-          "desc": "+1 de Puissance de Pièce pour chaque 10 de [DevyatDimensionalSackSinclair] sur soi ou pour chaque 6 de [Burst] sur la cible (2 max)\n[WhenUse] Si la cible a 15+ de [Burst] et 3+ de Compte de [Burst], cette Capacité n’inflige pas de [Burst] ou de Compte de [Burst] avec ses effets En Touche ; à la place, la Pièce finale gagne +4 de Puissance de Pièce\n[WhenUse] Si la cible a 15+ de [Burst], inflige +4% de dégâts supplémentaires pour chaque [DevyatDimensionalSackSinclair] (120% max)",
+          "desc": "+1 de Puissance de Pièce pour chaque 10 [DevyatDimensionalSackSinclair] sur soi ou pour chaque 6 [Burst] sur la cible (2 max)\n[WhenUse] Si la cible a 15 [Burst] ou plus et 3 de Compte de [Burst] ou plus, cette Capacité n’inflige pas de [Burst] ou de Compte de [Burst] avec ses effets En Touche ; à la place, la Pièce finale gagne +4 de Puissance de Pièce\n[WhenUse] Si la cible a 15 [Burst] ou plus, inflige +4% de dégâts supplémentaires pour chaque [DevyatDimensionalSackSinclair] (120% max)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]\n- Inflige +1 de Compte de [Burst] supplémentaire pour chaque 10 de [DevyatDimensionalSackSinclair] (<style=\"highlight\">3</style> max)"
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]\n- Inflige +1 de Compte de [Burst] supplémentaire pour chaque 10 [DevyatDimensionalSackSinclair] (<style=\"highlight\">3</style> max)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Burst]\n- Inflige 1 de [Burst] supplémentaire pour chaque <style=\"highlight\">8</style> de [DevyatDimensionalSackSinclair] (<style=\"highlight\">4</style> max)"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]\n- Inflige 1 [Burst] supplémentaire pour chaque <style=\"highlight\">8</style> de [DevyatDimensionalSackSinclair] (<style=\"highlight\">4</style> max)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si cette Capacité n’a pas activé son effet de Puissance de Pièce finale, gagne 2 de [Agility] au prochain tour"
+                  "desc": "[OnSucceedAttack] Si cette Capacité n’a pas activé son effet de Puissance de Pièce finale, gagne 2 [Agility] au prochain tour"
                 }
               ]
             }
@@ -1144,7 +1144,7 @@
         {
           "level": 1,
           "name": "Système d’Assistance de Coursier & de Gestion de Crise",
-          "desc": "[StartBattle] À 15+ de [DevyatDimensionalSackSinclair], active “A-attendez, j’ai de la maintenance à faire… !” à la place (une fois par tour)\n[StartBattle] Si cette Capacité est activée, gagne ([DevyatDimensionalSackSinclair] / 2)% des PV Max de cette unité en Bouclier (15% max, une fois par tour)",
+          "desc": "[StartBattle] À 15 [DevyatDimensionalSackSinclair] ou plus, active “A-attendez, j’ai de la maintenance à faire… !” à la place (une fois par tour)\n[StartBattle] Si cette Capacité est activée, gagne ([DevyatDimensionalSackSinclair] / 2)% des PV Max de cette unité en Bouclier (15% max, une fois par tour)",
           "coinlist": [
             {
               "coindescs": [
@@ -1158,7 +1158,7 @@
         {
           "level": 4,
           "name": "Système d’Assistance de Coursier & de Gestion de Crise",
-          "desc": "[StartBattle] À 15+ de [DevyatDimensionalSackSinclair], active “A-attendez, j’ai de la maintenance à faire… !” à la place (une fois par tour)\n[StartBattle] Si cette Capacité est activée, gagne <style=\"highlight\">([DevyatDimensionalSackSinclair])%</style> des PV Max de cette unité en Bouclier (<style=\"highlight\">25%</style> max, une fois par tour)",
+          "desc": "[StartBattle] À 15 [DevyatDimensionalSackSinclair] ou plus, active “A-attendez, j’ai de la maintenance à faire… !” à la place (une fois par tour)\n[StartBattle] Si cette Capacité est activée, gagne <style=\"highlight\">([DevyatDimensionalSackSinclair])%</style> des PV Max de cette unité en Bouclier (<style=\"highlight\">25%</style> max, une fois par tour)",
           "coinlist": [
             {
               "coindescs": [

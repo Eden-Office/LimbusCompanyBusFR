@@ -449,7 +449,7 @@
     {
       "id": 9772,
       "name": "Gants à Combustion",
-      "desc": "En Duel Gagné avec une Capacité d’Attaque de Base qui inflige de l’Intensité de [Combustion] ou une “Brûlure Unique”, inflige 2 d’Intensité de [Combustion] (2 fois par tour par Identité)\n\nEn Duel Gagné avec une Capacité d’Attaque de Base qui inflige du Compte de [Combustion], inflige +2 de Compte de [Combustion] (3 fois par tour par ennemi)\n\nCapacités d’Attaque de Base qui infligent de l’Intensité ou du Compte de [Combustion] ou une “Brûlure Unique” : chaque Capacité gagne du Niveau Offensif égal au nombre de copies de chaque Capacité (3 max).\n- Si une Capacité a 3 copies ou plus, gagne 2 Niveaux Offensifs supplémentaires.",
+      "desc": "En D\u200Buel Gagné avec une Capacité d’Attaque de Base qui inflige de l’Intensité de [Combustion] ou une “Brûlure Unique”, inflige 2 d’Intensité de [Combustion] (2 fois par tour par Identité)\n\nEn D\u200Buel Gagné avec une Capacité d’Attaque de Base qui inflige du Compte de [Combustion], inflige +2 de Compte de [Combustion] (3 fois par tour par ennemi)\n\nCapacités d’Attaque de Base qui infligent de l’Intensité ou du Compte de [Combustion] ou une “Brûlure Unique” : chaque Capacité gagne du Niveau Offensif égal au nombre de copies de chaque Capacité (3 max).\n- Si une Capacité a 3 copies ou plus, gagne 2 Niveaux Offensifs supplémentaires.",
       "simpleDesc": [
         {
           "abilityID": 9772,
@@ -468,7 +468,7 @@
     {
       "id": 9773,
       "name": "Bottes de Combat à Pointes",
-      "desc": "En Duel Gagné avec une Capacité d’Attaque de Base qui inflige de l’Intensité ou du Compte de [Burst] à un ennemi, inflige +3 de Compte de [Burst] (2 fois par tour par ennemi)\n\nEn Touche : si l’ennemi n’a pas de [Burst], les effets de Pièce qui infligent de l’Intensité de [Burst] infligent du Compte de [Burst] à la place (4 max ; 2 fois par tour par ennemi ; pour les Anomalies, pour chaque Partie)\n\nCapacités d’Attaque de Base qui infligent de l’Intensité ou du Compte de [Burst] : chaque Capacité gagne du Niveau Offensif égal au nombre de copies de chaque Capacité (3 max).\n- Si une Capacité a 3 copies ou plus, gagne 2 Niveaux Offensifs supplémentaires.",
+      "desc": "En D\u200Buel Gagné avec une Capacité d’Attaque de Base qui inflige de l’Intensité ou du Compte de [Burst] à un ennemi, inflige +3 de Compte de [Burst] (2 fois par tour par ennemi)\n\nEn Touche : si l’ennemi n’a pas de [Burst], les effets de Pièce qui infligent de l’Intensité de [Burst] infligent du Compte de [Burst] à la place (4 max ; 2 fois par tour par ennemi ; pour les Anomalies, pour chaque Partie)\n\nCapacités d’Attaque de Base qui infligent de l’Intensité ou du Compte de [Burst] : chaque Capacité gagne du Niveau Offensif égal au nombre de copies de chaque Capacité (3 max).\n- Si une Capacité a 3 copies ou plus, gagne 2 Niveaux Offensifs supplémentaires.",
       "simpleDesc": [
         {
           "abilityID": 9773,
@@ -606,6 +606,93 @@
         {
           "abilityID": 97802,
           "simpleDesc": "Applique aléatoirement du Bonus de Niveau Offensif entre les alliés"
+        }
+      ]
+    },
+    {
+      "id": 9781,
+      "name": "Coupelle de Liqueur en Bois Dur",
+      "desc": "En Duel Perdu, gagne 1 [Protection] et regagne 3~6 PSM (une fois par tour par Identité)\n\nEn attaquant un ennemi avec l’effet de [SuperCoin] de la Capacité (excepté les Capacités E.G.O.) qui a perdu le Duel :\n- Les Capacités de Pièce Positive reçoivent +(3 / # de Pièces) de Puissance de Pièce Positive et infligent +20% de dégâts supplémentaires (Gain min. de Puissance de Pièce Positive : 1)\n- Les Capacités de Pièce Négative infligent +40% de dégâts supplémentaires",
+      "simpleDesc": [
+        {
+          "abilityID": 9781,
+          "simpleDesc": "Gagne de la Protection et regagne des PSM"
+        },
+        {
+          "abilityID": 97811,
+          "simpleDesc": "Gagne de la Puissance de Pièce et inflige plus de dégâts"
+        }
+      ]
+    },
+    {
+      "id": 9782,
+      "name": "Pommeau Usé",
+      "desc": "Début du Tour : tous les alliés gagnent 1 [ScarletResultUp].\n\nLes Identités de la Lignée de la Lame ou du Clan Kurokumo gagnent gain 2 [ScarletResultUp] et 1 [SlashResultUp] à la place.",
+      "simpleDesc": [
+        {
+          "abilityID": 9782,
+          "simpleDesc": "Gagne du Bonus de Puissance de Luxure"
+        },
+        {
+          "abilityID": 97821,
+          "simpleDesc": "Gagne du Bonus de Puissance de Luxure et du Bonus de Puissance Tranchante"
+        }
+      ]
+    },
+    {
+      "id": 9783,
+      "name": "Splendeur",
+      "desc": "Début du Tour : s’active lorsqu’il y a 3 Identités du Clan Kurokumo ou plus.\n\nTous les alliés gagnent 2 [ScarletResultUp] et 1 [SlashResultUp] au Début du Tour.\n\nCapacités d’Attaque de Base des Identités du Clan Kurokumo : gagnent +(4 / # de Pièce ; 1 min.) de Puissance de Pièce, inflige 1 d’Intensité et de Compte de [Laceration] supplémentaire et inflige +(80 / # de Pièce)% de dégâts supplémentaires\n\nNullifie le premier Seuil de Déséquilibre des Identités du Clan Kurokumo ; à moins de 50% de PV, gagne 2 [Protection] au Début du Tour. Les Identités ayant subi des dégâts d’ennemis ce tour gagnent 2 [Agility] au prochain tour.",
+      "simpleDesc": [
+        {
+          "abilityID": 9783,
+          "simpleDesc": "Gagne du Bonus de Puissance de Luxure et du Bonus de Puissance Tranchante"
+        },
+        {
+          "abilityID": 97831,
+          "simpleDesc": "Gagne de la Puissance de Pièce, inflige plus de Saignement et de Compte de Saignement et inflige plus de dégâts"
+        },
+        {
+          "abilityID": 97832,
+          "simpleDesc": "Nullifie le premier Seuil de Déséquilibre ; gagne de la Protection sous certains PV ; gagne de l’Accélération après avoir subi des dégâts"
+        }
+      ]
+    },
+    {
+      "id": 9784,
+      "name": "Cultivation",
+      "desc": "Début du Tour : s’active lorsqu’il y a 3 Identités de la Lignée de la Lame ou plus.\n\nDébut du Tour : tous les alliés gagnent 2 [SlashResultUp] et infligent +35% de dégâts supplémentaires.\n\nDébut du Tour : lorsqu’une Identité de la Lignée de la Lame touche critiquement, inflige des dégâts d’Orgueil supplémentaires égaux à (Intensité de [Breath] / 2) sur soi.\n\nSi une Identité de la Lignée de la Lame a 30 d’Intensité de [Breath] ou plus à la Fin du Tour, consomme 10 d’Intensité de [Breath] et gagne 2 [SlashResultUp] au prochain tour",
+      "simpleDesc": [
+        {
+          "abilityID": 9784,
+          "simpleDesc": "Gagne du Bonus de Puissance Tranchante et inflige plus de dégâts"
+        },
+        {
+          "abilityID": 97841,
+          "simpleDesc": "Inflige (Intensité de [Breath] / 2) de dégâts d’Orgueil supplémentaires."
+        },
+        {
+          "abilityID": 97842,
+          "simpleDesc": "Gagne du Bonus de DGT Tranchant"
+        }
+      ]
+    },
+    {
+      "id": 9785,
+      "name": "Nuée Nuageuse",
+      "desc": "Début du Tour : s’active lorsqu’il y a 3 Identités du Clan Kurokumo ou plus.\n\nEn Touche avec une [SuperCoin] de Capacité d’Attaque de Base (exclut les Capacités E.G.O.) : inflige +(40/# de Pièce)% de dégâts supplémentaires\nIdentités du Clan Kurokumo : inflige +(80/# of Coins)% de dégâts supplémentaires à la place\n\nIdentités du Clan Kurokumo avec des Capacités d’Attaque Tranchantes de Base : gagnent 2 [SlashDamageUp] au Début du Tour. Les Identités du Clan Kurokumo gagnent 1 [AttackUp] et 1 [DefenseUp] au prochain tour tous les 10% de PV manquants sur soi à la Fin du Tour. (5 max chacun)\n\nLorsqu’une Identité du Clan Kurokumo meurt, toutes les Identités du Clan Kurokumo gagnent 2 [AttackDmgUp] au prochain tour (une fois par tour)",
+      "simpleDesc": [
+        {
+          "abilityID": 9785,
+          "simpleDesc": "Inflige plus de dégâts"
+        },
+        {
+          "abilityID": 97851,
+          "simpleDesc": "Gagne du Bonus de DGT Tranchant, Bonus de Niveau Offensif et Bonus de Niveau Défensif"
+        },
+        {
+          "abilityID": 97852,
+          "simpleDesc": "Gagne du Bonus de Dégât"
         }
       ]
     }

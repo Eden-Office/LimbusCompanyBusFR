@@ -173,8 +173,8 @@ namespace LimbusCompanyFR
         }
         public static Notice HandleDynamicType(string jsonPayload)
         {
-            var noticetype = SynchronousDataManager.Instance.NoticeSynchronousDataList.noticeFormats.GetType()
-                .GetGenericArguments()[0];
+            var noticetype = typeof(NoticeSynchronousDataList).GetProperty("noticeFormats")!.PropertyType
+            .GetGenericArguments()[0];
             var deserializedObject = typeof(JsonUtility).GetMethod("FromJson", new[] { typeof(string) })
                 ?.MakeGenericMethod(noticetype).Invoke(null, new object[] { jsonPayload });
             return Activator.CreateInstance(typeof(Notice), deserializedObject, LOCALIZE_LANGUAGE.KR) as Notice;

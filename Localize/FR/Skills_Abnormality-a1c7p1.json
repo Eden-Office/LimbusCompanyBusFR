@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Allez",
-          "desc": "[WhenUse] Inflige [DuelDeclaration_Camille]\n[WhenUse] Gagne 5 de [Breath]\n[WinDuel] Gagne +2 de Compte de [Breath]",
+          "desc": "[WhenUse] Inflige [DuelDeclaration_Camille]\n[WhenUse] Gagne 5 [Breath]\n[WinDuel] Gagne +2 de Compte de [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -25,7 +25,7 @@
         {
           "level": 1,
           "name": "Coup Droit",
-          "desc": "[WhenUse] Gagne 2 de [Breath]",
+          "desc": "[WhenUse] Gagne 2 [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -33,17 +33,17 @@
                   "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Breath]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] À 7+ de Vitesse, inflige 3 de [Burst]"
+                  "desc": "[OnSucceedAttack] À 7 de Vitesse ou plus, inflige 3 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 3 de [Breath]"
+                  "desc": "[OnSucceedAttack] Gagne 3 [Breath]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] À 7+ de Vitesse, inflige 3 de [Burst]"
+                  "desc": "[OnSucceedAttack] À 7 de Vitesse ou plus, inflige 3 [Burst]"
                 }
               ]
             }
@@ -57,15 +57,15 @@
         {
           "level": 1,
           "name": "Fente",
-          "desc": "[WhenUse] À 7+ de [Breath], +2 de Puissance de Pièce\n[WinDuel] Gagne +2 de Compte de [Breath]",
+          "desc": "[WhenUse] À 7 [Breath] ou plus, +2 de Puissance de Pièce\n[WinDuel] Gagne +2 de Compte de [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 3 de [Breath]"
+                  "desc": "[OnSucceedAttack] Gagne 3 [Breath]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] À 7+ de Vitesse, inflige 3 de Compte de [Burst]"
+                  "desc": "[OnSucceedAttack] À 7 de Vitesse ou plus, inflige 3 de Compte de [Burst]"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] +50% de dégâts en Touche Critique"
@@ -82,7 +82,7 @@
         {
           "level": 1,
           "name": "Salut",
-          "desc": "[WhenUse] Si la Vitesse de cette unité est plus rapide que celle de la cible, +1 de Puissance de Pièce (+1 de Puissance de Piècepour chaque 2 de différence de Vitesse ; 3 max)",
+          "desc": "[WhenUse] Si la Vitesse de cette unité est plus rapide que celle de la cible, +1 de Puissance de Pièce (+1 de Puissance de Pièce pour chaque 2 de différence de Vitesse ; 3 max)",
           "coinlist": [
             {
               "coindescs": [
@@ -90,27 +90,27 @@
                   "desc": "[OnSucceedAttack] Gagne +4 de Compte de [Breath]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] À 7+ de Vitesse, inflige 3 de [Burst] et +1 de Compte de [Burst]"
+                  "desc": "[OnSucceedAttack] À 7 de Vitesse ou plus, inflige 3 [Burst] et +1 de Compte de [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 5 de [Breath]"
+                  "desc": "[OnSucceedAttack] Gagne 5 [Breath]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] À 7+ de Vitesse, inflige 3 de [Burst] et +1 de Compte de [Burst]"
+                  "desc": "[OnSucceedAttack] À 7 de Vitesse ou plus, inflige 3 [Burst] et +1 de Compte de [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 5 de [Breath]"
+                  "desc": "[OnSucceedAttack] Gagne 5 [Breath]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] À 7+ de Vitesse, inflige 3 de [Burst] et +1 de Compte de [Burst]"
+                  "desc": "[OnSucceedAttack] À 7 de Vitesse ou plus, inflige 3 [Burst] et +1 de Compte de [Burst]"
                 }
               ]
             },
@@ -134,12 +134,12 @@
         {
           "level": 1,
           "name": "Parade",
-          "desc": "[WinDuel] Inflige plus de dégâts selon le nombre de Duels (+10% de dégâts supplémentaires par Duel, 50% max)\n[WinDuel] Gagne 2 de [Agility] au prochain tour\n[DefeatDuel] Gagne 2 de [Binding] au prochain tour",
+          "desc": "[WinDuel] Inflige plus de dégâts selon le nombre de Clashs (+10% de dégâts supplémentaires par Clash, 50% max)\n[WinDuel] Gagne 2 [Agility] au prochain tour\n[DefeatDuel] Gagne 2 [Binding] au prochain tour",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Vulnerable] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vulnerable] au prochain tour"
                 }
               ]
             }
@@ -153,7 +153,7 @@
         {
           "level": 1,
           "name": "Défensive",
-          "desc": "[OnSucceedEvade] Gagne 1 de [Agility] au prochain tour",
+          "desc": "[OnSucceedEvade] Gagne 1 [Agility] au prochain tour",
           "coinlist": [
             {
               "coindescs": [
@@ -172,12 +172,12 @@
         {
           "level": 1,
           "name": "Je Vais Vous Découper Tout Mignon !",
-          "desc": "[WhenUse] Si la cible a 6+ de [Laceration], +1 de Puissance de Duel\n[WhenUse] +1 de Puissance de Pièce pour chaque 5 de [Laceration] sur soi (3 max)",
+          "desc": "[WhenUse] Si la cible a 6 [Laceration] ou plus, +1 de Puissance de Duel\n[WhenUse] +1 de Puissance de Pièce pour chaque 5 [Laceration] sur soi (3 max)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 4 [Laceration]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Réutilise (Niveau de [BloodScissor] - 1) fois la Pièce (2 max)"
@@ -194,7 +194,7 @@
         {
           "level": 1,
           "name": "Encore Plus Tranchant",
-          "desc": "[WhenUse] Consomme jusqu’à 20 de [BloodDinner] ; gagne 1 de [BloodScissor] et regagne 3 PSM pour chaque 10 de [BloodDinner] consommé\n- Si cette unité échoue à consommer du [BloodDinner] avec cette Capacité, gagne 30 de [Laceration]\n[WhenUse] Si la cible a 6+ de [Laceration], +1 de Puissance de Duel\n[WhenUse] +1 de Puissance de Pièce pour chaque 5 de [Laceration] sur soi (2 max)",
+          "desc": "[WhenUse] Consomme jusqu’à 20 [BloodDinner] ; gagne 1 [BloodScissor] et regagne 3 PSM pour chaque 10 [BloodDinner] consommé\n- Si cette unité échoue à consommer du [BloodDinner] avec cette Capacité, gagne 30 [Laceration]\n[WhenUse] Si la cible a 6 [Laceration] ou plus, +1 de Puissance de Duel\n[WhenUse] +1 de Puissance de Pièce pour chaque 5 [Laceration] sur soi (2 max)",
           "coinlist": [
             {
               "coindescs": [
@@ -220,19 +220,19 @@
         {
           "level": 1,
           "name": "SNIP !!!",
-          "desc": "[WhenUse] Consomme jusqu’à 30 de [BloodDinner] ; gagne 1 de [BloodScissor] et regagne 3 PSM pour chaque 10 de [BloodDinner] consommé\n[WhenUse] Si la cible a [LineCutting], +5 de Puissance de Duel\nRegagne PSM à chaque touche contre [LineCutting]",
+          "desc": "[WhenUse] Consomme jusqu’à 30 [BloodDinner] ; gagne 1 [BloodScissor] et regagne 3 PSM pour chaque 10 [BloodDinner] consommé\n[WhenUse] Si la cible a [LineCutting], +5 de Puissance de Duel\nRegagne PSM à chaque touche contre [LineCutting]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
                 }
               ]
             },
@@ -253,7 +253,7 @@
         {
           "level": 1,
           "name": "Je Te Découperai Aussi !",
-          "desc": "[BeforeAttack] +1 de Poids d’Atq pour chaque Niveau de [BloodScissor] (2 max)\n[WhenUse] Consomme jusqu’à 30 de [BloodDinner] ; gagne 1 de [BloodScissor] et regagne 3 PSM pour chaque 10 de [BloodDinner] consommé\n[WhenUse] Si la cible a 6+ de [Laceration], +2 de Puissance de Duel",
+          "desc": "[BeforeAttack] +1 de Poids d’Atq pour chaque Niveau de [BloodScissor] (2 max)\n[WhenUse] Consomme jusqu’à 30 [BloodDinner] ; gagne 1 [BloodScissor] et regagne 3 PSM pour chaque 10 [BloodDinner] consommé\n[WhenUse] Si la cible a 6 [Laceration] ou plus, +2 de Puissance de Duel",
           "coinlist": [
             {
               "coindescs": [
@@ -261,10 +261,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [BloodScissorScars] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 [BloodScissorScars] au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 5 de [Laceration] et +2 de Compte de [Laceration]"
+                  "desc": "[OnSucceedAttackHead] Inflige 5 [Laceration] et +2 de Compte de [Laceration]"
                 }
               ]
             }
@@ -278,7 +278,7 @@
         {
           "level": 1,
           "name": "Maintenant, C’est À Ton Tour",
-          "desc": "[WhenUse] Si la cible a 6+ de [Laceration], +1 de Puissance de Pièce",
+          "desc": "[WhenUse] Si la cible a 6 [Laceration] ou plus, +1 de Puissance de Pièce",
           "coinlist": [
             {},
             {
@@ -304,7 +304,7 @@
         {
           "level": 1,
           "name": "Je Vous Découperai Tous Ensemble !",
-          "desc": "[BeforeAttack] +1 de Poids d’Atq pour chaque Niveau de [BloodScissor]\n[WhenUse] Consomme jusqu’à 100 de [BloodDinner] ; gagne 1 de [BloodScissor] et regagne 3 PSM pour chaque 10 de [BloodDinner] consommé\n[WhenUse] Si la cible a 6+ de [Laceration], +2 de Puissance de Duel\n[EndSkill] Consomme 10 de [BloodScissor]",
+          "desc": "[BeforeAttack] +1 de Poids d’Atq pour chaque Niveau de [BloodScissor]\n[WhenUse] Consomme jusqu’à 100 [BloodDinner] ; gagne 1 [BloodScissor] et regagne 3 PSM pour chaque 10 [BloodDinner] consommé\n[WhenUse] Si la cible a 6 [Laceration] ou plus, +2 de Puissance de Duel\n[EndSkill] Consomme 10 [BloodScissor]",
           "coinlist": [
             {
               "coindescs": [
@@ -325,7 +325,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 5 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 5 [Laceration]"
                 },
                 {
                   "desc": "[WinDuelAttack] Active le [Laceration] de la cible (10 max). La cible perd 1 de Compte de [Laceration]"
@@ -338,7 +338,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 5 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 5 [Laceration]"
                 },
                 {
                   "desc": "[WinDuelAttack] Active le [Laceration] de la cible (10 max). La cible perd 1 de Compte de [Laceration]"
@@ -365,12 +365,12 @@
         {
           "level": 1,
           "name": "Quelle Impolitesse !",
-          "desc": "[DuelCounter]\n[WhenUse] +1 de Puissance de Duel pour chaque Niveau de [BloodScissor] (3 max)\n[WhenUse] +1 de Puissance de Pièce pour chaque 5 de [Laceration] sur soi (3 max)",
+          "desc": "[DuelCounter]\n[WhenUse] +1 de Puissance de Duel pour chaque Niveau de [BloodScissor] (3 max)\n[WhenUse] +1 de Puissance de Pièce pour chaque 5 [Laceration] sur soi (3 max)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de [Laceration] et +4 de Compte de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 4 [Laceration] et +4 de Compte de [Laceration]"
                 }
               ]
             }
@@ -389,13 +389,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si la cible est à 30%- de PV, tue la cible"
+                  "desc": "[OnSucceedAttack] Si la cible est à 30% de PV ou moins, tue la cible"
                 },
                 {
                   "desc": "[EnemyKill] Augmente [BloodDinner] de 30% des PV max de l’ennemi vaincu"
                 },
                 {
-                  "desc": "[EnemyKill] Gagne 4 de [Vulnerable] au prochain tour"
+                  "desc": "[EnemyKill] Gagne 4 [Vulnerable] au prochain tour"
                 }
               ]
             }

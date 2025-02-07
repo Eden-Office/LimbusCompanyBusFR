@@ -11,7 +11,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 5 de [Vibration] et +2 de Compte de [Vibration]"
+                  "desc": "[OnSucceedAttack] Inflige 5 [Vibration] et +2 de Compte de [Vibration]"
                 }
               ]
             }
@@ -30,14 +30,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 5 de [Vibration] et +1 de Compte de [Vibration]"
+                  "desc": "[OnSucceedAttack] Inflige 5 [Vibration] et +1 de Compte de [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Paralysis] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Paralysis] au prochain tour"
                 }
               ]
             }
@@ -78,7 +78,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Vibration] et +4 de Compte de [Vibration]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration] et +4 de Compte de [Vibration]"
                 }
               ]
             }
@@ -97,14 +97,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Vibration] et +3 de Compte de [Vibration]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration] et +3 de Compte de [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Paralysis] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Paralysis] au prochain tour"
                 }
               ]
             }
@@ -145,7 +145,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Burst]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
                 }
               ]
             }
@@ -159,12 +159,12 @@
         {
           "level": 1,
           "name": "...Resp...",
-          "desc": "[WhenUse] Si la cible a 3+ de Puissance de [Burst], +1 de Puissance de Base",
+          "desc": "[WhenUse] Si la cible a 3 d’Intensité de [Burst] ou plus, +1 de Puissance de Base",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Inflige 1 [DefenseDown]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
@@ -174,10 +174,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Inflige 1 [DefenseDown]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Burst]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
                 }
               ]
             }
@@ -191,25 +191,25 @@
         {
           "level": 1,
           "name": "Faiblesse...",
-          "desc": "[WhenUse] Si la cible a [Burst], +1 de Puissance de Base pour chaque 3 de Puissance de [Burst] sur la cible (3 max)",
+          "desc": "[WhenUse] Si la cible a [Burst], +1 de Puissance de Base pour chaque 3 d’Intensité de [Burst] sur la cible (3 max)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 6 de [Burst]"
+                  "desc": "[OnSucceedAttack] Inflige 6 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 4 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Inflige 4 [DefenseDown]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 2 de [Paralysis] au prochain tour"
+                  "desc": "[OnSucceedAttackHead] Inflige 2 [Paralysis] au prochain tour"
                 }
               ]
             }
@@ -223,7 +223,7 @@
         {
           "level": 1,
           "name": "Gar...",
-          "desc": "Si cette Unité a des PV de Bouclier restants à la Fin du Tour, gagne 1 de [AttackUp] au prochain tour",
+          "desc": "Si cette Unité a des PV de Bouclier restants à la Fin du Tour, gagne 1 [AttackUp] au prochain tour",
           "coinlist": [
             {
               "coindescs": [
@@ -261,12 +261,12 @@
         {
           "level": 1,
           "name": "A-armure Br-",
-          "desc": "[WhenUse] Si la cible a 3+ de Compte de [Burst], +1 de Puissance de Base",
+          "desc": "[WhenUse] Si la cible a 3 de Compte de [Burst] ou plus, +1 de Puissance de Base",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [AttackDown]"
+                  "desc": "[OnSucceedAttack] Inflige 1 [AttackDown]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
@@ -276,10 +276,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [AttackDown]"
+                  "desc": "[OnSucceedAttack] Inflige 1 [AttackDown]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Burst]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
                 }
               ]
             }
@@ -301,17 +301,17 @@
                   "desc": "[OnSucceedAttack] Inflige +4 de Compte de [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 4 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de [AttackDown]"
+                  "desc": "[OnSucceedAttack] Inflige 4 [AttackDown]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 2 de [Paralysis] au prochain tour"
+                  "desc": "[OnSucceedAttackHead] Inflige 2 [Paralysis] au prochain tour"
                 }
               ]
             }
@@ -330,7 +330,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Si cette Unité a des PV de Bouclier restants à la Fin du Tour, gagne 1 de [AttackUp] au prochain tour"
+                  "desc": "Si cette Unité a des PV de Bouclier restants à la Fin du Tour, gagne 1 [AttackUp] au prochain tour"
                 }
               ]
             }
@@ -349,7 +349,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de [Burst]"
+                  "desc": "[OnSucceedAttack] Inflige 4 [Burst]"
                 }
               ]
             }
@@ -363,12 +363,12 @@
         {
           "level": 1,
           "name": "Reti...rer...",
-          "desc": "[WhenUse] Si la cible a 3+ de Puissance de Puissance de [Burst], +1 de Puissance de Base",
+          "desc": "[WhenUse] Si la cible a 3 d’Intensité de [Burst] ou plus, +1 de Puissance de Base",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [DefenseDown]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
@@ -378,10 +378,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [DefenseDown]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 6 de [Burst]"
+                  "desc": "[OnSucceedAttack] Inflige 6 [Burst]"
                 }
               ]
             }
@@ -395,25 +395,25 @@
         {
           "level": 1,
           "name": "Les Empêcher... d’Avan...",
-          "desc": "[WhenUse] Inflige 3 dégâts de PSM\n[WhenUse] Si la cible a [Burst], +1 de Puissance de Base pour chaque 4 de Puissance de [Burst] sur la cible (3 max)",
+          "desc": "[WhenUse] Inflige 3 dégâts de PSM\n[WhenUse] Si la cible a [Burst], +1 de Puissance de Base pour chaque 4 d’Intensité de [Burst] sur la cible (3 max)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 6 de [Burst]"
+                  "desc": "[OnSucceedAttack] Inflige 6 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 6 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 6 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [DefenseDown]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Paralysis] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Paralysis] au prochain tour"
                 }
               ]
             }
@@ -432,7 +432,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
                 }
               ]
             }
@@ -465,12 +465,12 @@
         {
           "level": 1,
           "name": "Sortez... De ma...",
-          "desc": "[WhenUse] Si la cible a 3+  de Compte de [Burst], +1 de Puissance de Base",
+          "desc": "[WhenUse] Si la cible a 3 de Compte de [Burst] ou plus, +1 de Puissance de Base",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [AttackDown]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [AttackDown]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Burst]"
@@ -480,10 +480,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [AttackDown]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [AttackDown]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 6 de [Burst]"
+                  "desc": "[OnSucceedAttack] Inflige 6 [Burst]"
                 }
               ]
             }
@@ -505,17 +505,17 @@
                   "desc": "[OnSucceedAttack] Inflige +4 de Compte de [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 8 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 8 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [AttackDown]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [AttackDown]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Paralysis] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Paralysis] au prochain tour"
                 }
               ]
             }
@@ -534,7 +534,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
                 }
               ]
             }
@@ -553,10 +553,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [DefenseDown] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 [DefenseDown] au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de [DefenseDown] au prochain tour"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [DefenseDown] au prochain tour"
                 }
               ]
             }
@@ -575,20 +575,20 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Binding] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Binding] au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de [Vulnerable]"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [Vulnerable]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [DefenseDown] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 [DefenseDown] au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de [Vulnerable] au prochain tour"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [Vulnerable] au prochain tour"
                 }
               ]
             }
@@ -602,29 +602,29 @@
         {
           "level": 1,
           "name": "Fracture d’Armure",
-          "desc": "[WhenUse] Si la Vitesse de cette unité est plus grande que celle de la cible, inflige 1 de [SlashResistDown]",
+          "desc": "[WhenUse] Si la Vitesse de cette unité est plus grande que celle de la cible, inflige 1 [SlashResistDown]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Vulnerable]"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vulnerable]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [DefenseDown] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 [DefenseDown] au prochain tour"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [DefenseDown] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 [DefenseDown] au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de [Vulnerable] au prochain tour"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [Vulnerable] au prochain tour"
                 }
               ]
             }
@@ -662,10 +662,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [AttackDown] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 [AttackDown] au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de [AttackDown] au prochain tour"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [AttackDown] au prochain tour"
                 }
               ]
             }
@@ -684,20 +684,20 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Binding] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Binding] au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 2 de [Paralysis]"
+                  "desc": "[OnSucceedAttackHead] Inflige 2 [Paralysis]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [AttackDown] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 [AttackDown] au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 2 de [Paralysis] au prochain tour"
+                  "desc": "[OnSucceedAttackHead] Inflige 2 [Paralysis] au prochain tour"
                 }
               ]
             }
@@ -711,29 +711,29 @@
         {
           "level": 1,
           "name": "Immobilisation",
-          "desc": "[WhenUse] Si la Vitesse de cette unité est plus grande que celle de la cible, inflige 1 de [SlashResistDown]",
+          "desc": "[WhenUse] Si la Vitesse de cette unité est plus grande que celle de la cible, inflige 1 [SlashResistDown]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Paralysis]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Paralysis]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [AttackDown] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 [AttackDown] au prochain tour"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [AttackDown] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 [AttackDown] au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 2 de [Paralysis] au prochain tour"
+                  "desc": "[OnSucceedAttackHead] Inflige 2 [Paralysis] au prochain tour"
                 }
               ]
             }
@@ -771,10 +771,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [AttackDown] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 [AttackDown] au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 2 de [DefenseDown] au prochain tour"
+                  "desc": "[OnSucceedAttackHead] Inflige 2 [DefenseDown] au prochain tour"
                 }
               ]
             }
@@ -793,20 +793,20 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 2 de [Agility] au prochain tour"
+                  "desc": "[OnSucceedAttack] Gagne 2 [Agility] au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Paralysis]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Paralysis]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [DefenseDown] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 [DefenseDown] au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Paralysis] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Paralysis] au prochain tour"
                 }
               ]
             }
@@ -820,38 +820,38 @@
         {
           "level": 1,
           "name": "Technique de Restriction",
-          "desc": "[WhenUse] Si la Vitesse de cette unité est plus grande que celle de la cible, inflige 2 de [SlashResistDown]",
+          "desc": "[WhenUse] Si la Vitesse de cette unité est plus grande que celle de la cible, inflige 2 [SlashResistDown]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Vulnerable]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vulnerable]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 3 de [DefenseDown]"
+                  "desc": "[OnSucceedAttackHead] Inflige 3 [DefenseDown]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [AttackDown] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 [AttackDown] au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [DefenseDown] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 [DefenseDown] au prochain tour"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 3 de [Agility] au prochain tour"
+                  "desc": "[OnSucceedAttack] Gagne 3 [Agility] au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [SlashResistDown] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 [SlashResistDown] au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Paralysis] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Paralysis] au prochain tour"
                 }
               ]
             }
@@ -870,10 +870,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 15 de [Laceration] et +3 de Compte de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 15 [Laceration] et +3 de Compte de [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Paralysis] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Paralysis] au prochain tour"
                 },
                 {
                   "desc": "[OnSucceedAttack] Si la Vitesse de cette unité dépasse celle de la cible de 3 ou plus, réutilise cette Capacité (une fois)"
@@ -914,7 +914,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
                 }
               ]
             },
@@ -924,7 +924,7 @@
                   "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de [Binding] au prochain tour"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [Binding] au prochain tour"
                 }
               ]
             }
@@ -938,12 +938,12 @@
         {
           "level": 1,
           "name": "Torsion",
-          "desc": "[WinDuel] Si les PV de la cible sont à 100%, inflige +30% de dégâts supplémentaires\n[DefeatDuel] Gagne 3 de [DefenseDown]",
+          "desc": "[WinDuel] Si les PV de la cible sont à 100%, inflige +30% de dégâts supplémentaires\n[DefeatDuel] Gagne 3 [DefenseDown]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 4 [Laceration]"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Inflige +2 de Compte de [Laceration]"
@@ -953,7 +953,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a 5+ de Puissance de [Laceration], inflige 1 de [Paralysis] au prochain tour"
+                  "desc": "[OnSucceedAttack] Si la cible a 5 d’Intensité de [Laceration] ou plus, inflige 1 [Paralysis] au prochain tour"
                 }
               ]
             }
@@ -967,12 +967,12 @@
         {
           "level": 1,
           "name": "Exacerber la Plaie",
-          "desc": "[WinDuel] Gagne 1 de [SlashResultUp]",
+          "desc": "[WinDuel] Gagne 1 [SlashResultUp]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 6 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 6 [Laceration]"
                 }
               ]
             },
@@ -982,21 +982,21 @@
                   "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 2 de [Binding] au prochain tour"
+                  "desc": "[OnSucceedAttackHead] Inflige 2 [Binding] au prochain tour"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a 7+ de Puissance de [Laceration], inflige 20% des dégâts infligés en dégâts bonus"
+                  "desc": "[OnSucceedAttack] Si la cible a 7 d’Intensité de [Laceration] ou plus, inflige 20% des dégâts infligés en dégâts bonus"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a 7+ de Puissance de [Laceration], inflige 20% des dégâts infligés en dégâts bonus"
+                  "desc": "[OnSucceedAttack] Si la cible a 7 d’Intensité de [Laceration] ou plus, inflige 20% des dégâts infligés en dégâts bonus"
                 }
               ]
             }
@@ -1029,12 +1029,12 @@
         {
           "level": 1,
           "name": "Mutilation de Nerfs",
-          "desc": "[WinDuel] Gagne 1 de [SlashResultUp]",
+          "desc": "[WinDuel] Gagne 1 [SlashResultUp]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 6 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 6 [Laceration]"
                 }
               ]
             },
@@ -1044,21 +1044,21 @@
                   "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 2 de [Paralysis] au prochain tour"
+                  "desc": "[OnSucceedAttackHead] Inflige 2 [Paralysis] au prochain tour"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a 7+ de Puissance de [Laceration], inflige 20% des dégâts infligés en dégâts bonus"
+                  "desc": "[OnSucceedAttack] Si la cible a 7 d’Intensité de [Laceration] ou plus, inflige 20% des dégâts infligés en dégâts bonus"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a 7+ de Puissance de [Laceration], inflige 20% des dégâts infligés en dégâts bonus"
+                  "desc": "[OnSucceedAttack] Si la cible a 7 d’Intensité de [Laceration] ou plus, inflige 20% des dégâts infligés en dégâts bonus"
                 }
               ]
             }
@@ -1077,7 +1077,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 5 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 5 [Laceration]"
                 }
               ]
             },
@@ -1087,7 +1087,7 @@
                   "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Binding] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Binding] au prochain tour"
                 }
               ]
             }
@@ -1101,12 +1101,12 @@
         {
           "level": 1,
           "name": "Élevage de Rat",
-          "desc": "[WinDuel] Si les PV de la cible sont à 80%+, inflige +50% de dégâts supplémentaires\n[DefeatDuel] Gagne 2 de [DefenseDown]",
+          "desc": "[WinDuel] Si les PV de la cible sont à 80%+, inflige +50% de dégâts supplémentaires\n[DefeatDuel] Gagne 2 [DefenseDown]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 4 [Laceration]"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Inflige +2 de Compte de [Laceration]"
@@ -1116,7 +1116,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a 5+ de Puissance de [Laceration], inflige 20% des dégâts infligés en dégâts bonus"
+                  "desc": "[OnSucceedAttack] Si la cible a 5 d’Intensité de [Laceration] ou plus, inflige 20% des dégâts infligés en dégâts bonus"
                 }
               ]
             }
@@ -1135,10 +1135,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 10 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 10 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de [Vulnerable]"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [Vulnerable]"
                 }
               ]
             },
@@ -1148,21 +1148,21 @@
                   "desc": "[OnSucceedAttack] Augmente le Seuil de Déséquilibre de la cible de la valeur de [Laceration] sur la cible"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 2 de [Paralysis] au prochain tour"
+                  "desc": "[OnSucceedAttackHead] Inflige 2 [Paralysis] au prochain tour"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a 12+ [Laceration], inflige 3 de [AttackDown]"
+                  "desc": "[OnSucceedAttack] Si la cible a 12 [Laceration] ou plus, inflige 3 [AttackDown]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a 15+ de Puissance de [Laceration], inflige 2 de [Vulnerable] au prochain tour"
+                  "desc": "[OnSucceedAttack] Si la cible a 15 d’Intensité de [Laceration] ou plus, inflige 2 [Vulnerable] au prochain tour"
                 }
               ]
             }
@@ -1181,17 +1181,17 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [DefenseDown]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 10 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 10 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 10 de [Combustion]"
+                  "desc": "[OnSucceedAttack] Inflige 10 [Combustion]"
                 }
               ]
             }
@@ -1229,17 +1229,17 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de [Sinking]"
+                  "desc": "[OnSucceedAttack] Inflige 4 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de [Sinking]"
+                  "desc": "[OnSucceedAttack] Inflige 4 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de [Binding] au prochain tour"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [Binding] au prochain tour"
                 }
               ]
             }
@@ -1253,12 +1253,12 @@
         {
           "level": 1,
           "name": "Accueil d’Intrus",
-          "desc": "[WinDuel] Gagne 1 de [PlusCoinValueUp]\n[DefeatDuel] Gagne 3 de [Sinking]",
+          "desc": "[WinDuel] Gagne 1 [PlusCoinValueUp]\n[DefeatDuel] Gagne 3 [Sinking]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 8 de [Sinking]"
+                  "desc": "[OnSucceedAttack] Inflige 8 [Sinking]"
                 }
               ]
             },
@@ -1279,35 +1279,35 @@
         {
           "level": 1,
           "name": "Arts de la Réception 2 : Attache",
-          "desc": "[WhenUse] +1 de Puissance de Base pour chaque 5 de Puissance de [Sinking] sur la cible (2 max)",
+          "desc": "[WhenUse] +1 de Puissance de Base pour chaque 5 d’Intensité de [Sinking] sur la cible (2 max)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Binding] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [DefenseDown]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Binding] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [DefenseDown]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a 8+ de Puissance de [Sinking], réutilise cette Pièce (1 fois max)"
+                  "desc": "[OnSucceedAttack] Si la cible a 8 d’Intensité de [Sinking] ou plus, réutilise cette Pièce (1 fois max)"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 4 de [DefenseDown] et 1 de [Vulnerable]"
+                  "desc": "[OnSucceedAttackHead] Inflige 4 [DefenseDown] et 1 [Vulnerable]"
                 }
               ]
             }
@@ -1345,17 +1345,17 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de [Sinking]"
+                  "desc": "[OnSucceedAttack] Inflige 4 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de [Sinking]"
+                  "desc": "[OnSucceedAttack] Inflige 4 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de [Paralysis] au prochain tour"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [Paralysis] au prochain tour"
                 }
               ]
             }
@@ -1369,7 +1369,7 @@
         {
           "level": 1,
           "name": "Réponse aux Intrus",
-          "desc": "[WinDuel] Gagne 1 de [PlusCoinValueUp]\n[DefeatDuel] Gagne 3 de [Sinking]",
+          "desc": "[WinDuel] Gagne 1 [PlusCoinValueUp]\n[DefeatDuel] Gagne 3 [Sinking]",
           "coinlist": [
             {
               "coindescs": [
@@ -1395,35 +1395,35 @@
         {
           "level": 1,
           "name": "Arts de la Réception 2 : Bascule",
-          "desc": "+1 de Puissance de Base pour chaque 5 de Puissance de [Sinking] sur la cible (2 max)",
+          "desc": "+1 de Puissance de Base pour chaque 5 d’Intensité de [Sinking] sur la cible (2 max)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Paralysis] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Paralysis] au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [AttackDown]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [AttackDown]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Paralysis] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Paralysis] au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [AttackDown]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [AttackDown]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a 4+ de Compte de [Sinking], réutilise cette Pièce (1 fois max)"
+                  "desc": "[OnSucceedAttack] Si la cible a 4 de Compte de [Sinking] ou plus, réutilise cette Pièce (1 fois max)"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 4 de [AttackDown] et 1 de [Paralysis] au prochain tour"
+                  "desc": "[OnSucceedAttackHead] Inflige 4 [AttackDown] et 1 [Paralysis] au prochain tour"
                 }
               ]
             }
@@ -1456,25 +1456,25 @@
         {
           "level": 1,
           "name": "Cogne",
-          "desc": "[WhenUse] Si la cible a 5+ de Puissance de [Sinking], inflige 1 de [AttackDown]",
+          "desc": "[WhenUse] Si la cible a 5 d’Intensité de [Sinking] ou plus, inflige 1 [AttackDown]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de [Sinking]"
+                  "desc": "[OnSucceedAttack] Inflige 4 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Binding] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de [Sinking]"
+                  "desc": "[OnSucceedAttack] Inflige 4 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Paralysis] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Paralysis] au prochain tour"
                 }
               ]
             }
@@ -1488,12 +1488,12 @@
         {
           "level": 1,
           "name": "L’Heure de Nettoyer !",
-          "desc": "[WhenUse] Si la cible a 10 de PSM ou moins, inflige 2 de [AttackDown]\n[WinDuel] Inflige 1 de [Vulnerable]",
+          "desc": "[WhenUse] Si la cible a 10 de PSM ou moins, inflige 2 [AttackDown]\n[WinDuel] Inflige 1 [Vulnerable]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de Malus de Puissance de Pièce Positive au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 Malus de Puissance de Pièce Positive au prochain tour"
                 }
               ]
             },
@@ -1503,7 +1503,7 @@
                   "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Vulnerable] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vulnerable] au prochain tour"
                 }
               ]
             }
@@ -1517,12 +1517,12 @@
         {
           "level": 1,
           "name": "Comme Maîtresse l’Ordonne ! ...",
-          "desc": "[WhenUse] +1 de Puissance de Base pour chaque 3 de Puissance de [Sinking] sur la cible (3 max)\n[WinDuel] Tous les alliés se soignent de 5 PSM",
+          "desc": "[WhenUse] +1 de Puissance de Base pour chaque 3 d’Intensité de [Sinking] sur la cible (3 max)\n[WinDuel] Tous les alliés se soignent de 5 PSM",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 8 de [Sinking]"
+                  "desc": "[OnSucceedAttack] Inflige 8 [Sinking]"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Inflige +2 de Compte de [Sinking]"
@@ -1532,7 +1532,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 8 de [Sinking]"
+                  "desc": "[OnSucceedAttack] Inflige 8 [Sinking]"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Inflige +2 de Compte de [Sinking]"
@@ -1545,7 +1545,7 @@
                   "desc": "[OnSucceedAttack] Inflige 2 [EchoOfMansion] au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 8 de [Sinking]"
+                  "desc": "[OnSucceedAttack] Inflige 8 [Sinking]"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Inflige +2 de Compte de [Sinking]"
@@ -1562,32 +1562,32 @@
         {
           "level": 1,
           "name": "Même Pas un Grain de Poussière !",
-          "desc": "[StartBattle] Applique 3 de [AttackUp] et soigne de 15 PSM tous les alliés, incluant cette unité\n[StartBattle] Inflige 1 de [Vulnerable] à tous les autres alliés",
+          "desc": "[StartBattle] Applique 3 [AttackUp] et soigne de 15 PSM tous les alliés, incluant cette unité\n[StartBattle] Inflige 1 [Vulnerable] à tous les autres alliés",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige des dégâts supplémentaires d’Affinité de Peine égaux à la Puissance de [Sinking] sur la cible. Réduit le Compte de [Sinking] sur la cible de 1"
+                  "desc": "[OnSucceedAttack] Inflige des dégâts supplémentaires d’Affinité de Peine égaux à l’Intensité de [Sinking] sur la cible. Réduit le Compte de [Sinking] sur la cible de 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige des dégâts supplémentaires d’Affinité de Peine égaux à la Puissance de [Sinking] sur la cible. Réduit le Compte de [Sinking] sur la cible de 1"
+                  "desc": "[OnSucceedAttack] Inflige des dégâts supplémentaires d’Affinité de Peine égaux à l’Intensité de [Sinking] sur la cible. Réduit le Compte de [Sinking] sur la cible de 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige des dégâts supplémentaires d’Affinité de Peine égaux à la Puissance de [Sinking] sur la cible. Réduit le Compte de [Sinking] sur la cible de 1"
+                  "desc": "[OnSucceedAttack] Inflige des dégâts supplémentaires d’Affinité de Peine égaux à l’Intensité de [Sinking] sur la cible. Réduit le Compte de [Sinking] sur la cible de 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de [Sinking]"
+                  "desc": "[OnSucceedAttack] Inflige 4 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a 3+ de Compte de [Sinking], réutilise cette Pièce (deux fois)"
+                  "desc": "[OnSucceedAttack] Si la cible a 3 de Compte de [Sinking] ou plus, réutilise cette Pièce (deux fois)"
                 }
               ]
             }

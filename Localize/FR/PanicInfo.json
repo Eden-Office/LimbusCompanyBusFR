@@ -3,32 +3,32 @@
     {
       "id": 1001,
       "panicName": "Compulsion",
-      "lowMoraleDescription": "Début du Tour : gagne 2 de <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Vitesse</color></link></u> et 2 de <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Vulnérabilité</color></link></u>",
+      "lowMoraleDescription": "Début du Tour : gagne 2 [Agility] et 2 [Vulnerable]",
       "panicDescription": "Début du Tour : perd 10 PV."
     },
     {
       "id": 1002,
       "panicName": "Déchaînement",
-      "lowMoraleDescription": "Début du Tour : gagne 2 de <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Bonus de Puissance d’Attaque</color></link></u> et 2 de <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Vulnérabilité</color></link></u>",
+      "lowMoraleDescription": "Début du Tour : gagne 2 [Enhancement] et 2 [Vulnerable]",
       "panicDescription": "Début du Tour : un allié aléatoire perd 20 PSM."
     },
     {
       "id": 1003,
       "panicName": "Submergé",
-      "lowMoraleDescription": "Début du Tour : gagne 2 de <sprite name=\"Reduction\"><color=#e30000><u><link=\"Reduction\">Malus de Puissance d’Attaque</color></link></u>",
+      "lowMoraleDescription": "Début du Tour : gagne 2 [Reduction]",
       "panicDescription": "N’agit pas pendant ce tour."
     },
     {
       "id": 1004,
       "panicName": "Atrophié",
-      "lowMoraleDescription": "Début du Tour : gagne 2 de <sprite name=\"Reduction\"><color=#e30000><u><link=\"Reduction\">Malus de Puissance d’Attaque</color></link></u>",
-      "panicDescription": "Début du Tour : gagne 4 de <sprite name=\"Reduction\"><color=#e30000><u><link=\"Reduction\">Malus de Puissance d’Attaque</color></link></u>"
+      "lowMoraleDescription": "Début du Tour : gagne 2 [Reduction]",
+      "panicDescription": "Début du Tour : gagne 4 [Reduction]"
     },
     {
       "id": 1005,
       "panicName": "Agité",
-      "lowMoraleDescription": "Début du Tour : gagne 1 de <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Bonus de Dégâts</color></link></u> et 2 de <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Vulnérabilité</color></link></u>",
-      "panicDescription": "Début du Tour : gagne 2 de <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Bonus de Dégâts</color></link></u> et 5 de <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Vulnérabilité</color></link></u>"
+      "lowMoraleDescription": "Début du Tour : gagne 1 [AttackDmgUp] et 2 [Vulnerable]",
+      "panicDescription": "Début du Tour : gagne 2 [AttackDmgUp] et 5 [Vulnerable]"
     },
     {
       "id": 1006,
@@ -39,14 +39,14 @@
     {
       "id": 1007,
       "panicName": "Chagrin",
-      "lowMoraleDescription": "Gagne 2 de <sprite name=\"AttackDmgDown\"><color=#e30000><u><link=\"AttackDmgDown\">Malus de Dégâts</color></link></u> à chaque tour",
-      "panicDescription": "Gagne 5 de <sprite name=\"AttackDmgDown\"><color=#e30000><u><link=\"AttackDmgDown\">Malus de Dégâts</color></link></u> et 2 de <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Vulnérabilité</color></link></u> à chaque tour"
+      "lowMoraleDescription": "Gagne 2 [AttackDmgDown] à chaque tour",
+      "panicDescription": "Gagne 5 [AttackDmgDown] et 2 [Vulnerable] à chaque tour"
     },
     {
       "id": 1008,
       "panicName": "Affolé",
       "lowMoraleDescription": "Lorsque en moral bas pour la première fois, cible les unités sans discernement",
-      "panicDescription": "Cible sans discernement ; +1 de Puissance de Duel et gagne 2 de <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Bonus de Dégâts</color></link></u>"
+      "panicDescription": "Cible sans discernement ; +1 de Puissance de Duel et gagne 2 [AttackDmgUp]"
     },
     {
       "id": 1009,
@@ -63,14 +63,14 @@
     {
       "id": 1011,
       "panicName": "Instable",
-      "lowMoraleDescription": "Début du Tour : gagne 2 de <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Bonus de Puissance d’Attaque</color></link></u> et 3 de <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Ralentissement</color></link></u>",
+      "lowMoraleDescription": "Début du Tour : gagne 2 [Enhancement] et 3 [Binding]",
       "panicDescription": "Début du Tour : devient Déséquilibré"
     },
     {
       "id": 1012,
       "panicName": "Abattement",
-      "lowMoraleDescription": "Gagne 1 de <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Vulnérabilité</color></link></u> ; dans un duel, si une pièce tombe sur face, -1 de Puissance de Duel pendant le duel.",
-      "panicDescription": "Gagne 3 de <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Vulnérabilité</color></link></u> ; dans un duel, si une pièce tombe sur face, -3 de Puissance de Duel pendant le duel."
+      "lowMoraleDescription": "Gagne 1 [Vulnerable] ; dans un duel, si une pièce tombe sur face, -1 de Puissance de Duel pendant le duel.",
+      "panicDescription": "Gagne 3 [Vulnerable] ; dans un duel, si une pièce tombe sur face, -3 de Puissance de Duel pendant le duel."
     },
     {
       "id": 9999,
@@ -81,32 +81,32 @@
     {
       "id": 1013,
       "panicName": "Impureté",
-      "lowMoraleDescription": "Gagne 1 de <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Vulnérabilité</color></link></u>. La cible perd 2 PSM si cette unité perd le duel",
-      "panicDescription": "Gagne 1 de <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Vulnérabilité</color></link></u>. La cible perd 5 PSM si cette unité perd le duel"
+      "lowMoraleDescription": "Gagne 1 [Vulnerable]. La cible perd 2 PSM si cette unité perd le duel",
+      "panicDescription": "Gagne 1 [Vulnerable]. La cible perd 5 PSM si cette unité perd le duel"
     },
     {
       "id": 1014,
       "panicName": "Vengeance",
-      "lowMoraleDescription": "Début du Tour : gagne 1 de <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Bonus de Puissance d’Attaque</color></link></u> et 3 de <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Malus de Niveau Défensif</color></link></u>. Gagne du <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Bonus de Dégâts</color></link></u> basé sur la quantité de dégâts subis au dernier tour (1 de <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Bonus de Dégâts</color></link></u> pour chaque 3% de PV Max perdus)",
-      "panicDescription": "Début du Tour : gagne 2 de <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Bonus de Puissance d’Attaque</color></link></u> et 6 de <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Malus de Niveau Défensif</color></link></u>. Gagne du <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Bonus de Dégâts</color></link></u> basé sur la quantité de dégâts subis au dernier tour (1 de <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Bonus de Dégâts</color></link></u> pour chaque 3% de PV Max perdus)"
+      "lowMoraleDescription": "Début du Tour : gagne 1 [Enhancement] et 3 [DefenseDown]. Gagne du [AttackDmgUp] basé sur la quantité de dégâts subis au dernier tour (1 [AttackDmgUp] tous les 3% de PV max perdus)",
+      "panicDescription": "Début du Tour : gagne 2 [Enhancement] et 6 [DefenseDown]. Gagne du [AttackDmgUp] basé sur la quantité de dégâts subis au dernier tour (1 [AttackDmgUp] tous les 3% de PV max perdus)"
     },
     {
       "id": 1015,
       "panicName": "Panique Livide",
       "lowMoraleDescription": "[MentalSystemResultDecrease_Typo] +2",
-      "panicDescription": "Chaque Fin de Tour : gagne 2 de <sprite name=\"Binding\"><color=#f8c200><u><link=\"Binding\">Ralentissement</color></link></u>.\nChaque Pièce que lance cette unité tombe sur face."
+      "panicDescription": "Chaque Fin de Tour : gagne 2 [Binding].\nChaque Pièce que lance cette unité tombe sur face."
     },
     {
       "id": 1016,
       "panicName": "Rancœur",
-      "lowMoraleDescription": "Début du Tour : gagne 2 de [AttackDmgUp] et 3 de [DefenseDown]",
-      "panicDescription": "Début du Tour : gagne 1 de [Enhancement] et 5 de [DefenseDown]"
+      "lowMoraleDescription": "Début du Tour : gagne 2 [AttackDmgUp] et 3 [DefenseDown]",
+      "panicDescription": "Début du Tour : gagne 1 [Enhancement] et 5 [DefenseDown]"
     },
     {
       "id": 1026,
       "panicName": "Ruine",
-      "lowMoraleDescription": "Gagne 3 de [Sinking] à chaque Fin du Tour ; -1 de Puissance de Duel",
-      "panicDescription": "Gagne 5 de [Sinking] et +3 de Compte de [Sinking] à chaque Fin du Tour ; -2 de Puissance de Duel"
+      "lowMoraleDescription": "Gagne 3 [Sinking] à chaque Fin du Tour ; -1 de Puissance de Duel",
+      "panicDescription": "Gagne 5 [Sinking] et +3 de Compte de [Sinking] à chaque Fin du Tour ; -2 de Puissance de Duel"
     }
   ]
 }

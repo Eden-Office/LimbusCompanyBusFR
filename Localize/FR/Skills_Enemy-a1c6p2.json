@@ -11,14 +11,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
                 }
               ]
             }
@@ -32,12 +32,12 @@
         {
           "level": 1,
           "name": "Exécution des Règles",
-          "desc": "[WhenUse] Si la cible a 5+ de [Laceration], +1 de Puissance de Pièce",
+          "desc": "[WhenUse] Si la cible a 5 [Laceration] ou plus, +1 de Puissance de Pièce",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 5 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 5 [Laceration]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Si la cible a [Laceration], se soigne de 5 PSM"
@@ -47,7 +47,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 5 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 5 [Laceration]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Si la cible a [Laceration], se soigne de 5 PSM"
@@ -64,25 +64,25 @@
         {
           "level": 1,
           "name": "Exécution des Transgresseurs",
-          "desc": "[WinDuel] Si la cible a [Laceration], gagne 1 de [Enhancement] au prochain tour",
+          "desc": "[WinDuel] Si la cible a [Laceration], gagne 1 [Enhancement] au prochain tour",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a 5+ de [Laceration], inflige 20% des dégâts infligés en dégâts supplémentaires"
+                  "desc": "[OnSucceedAttack] Si la cible a 5 [Laceration] ou plus, inflige 20% des dégâts infligés en dégâts supplémentaires"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de [DefenseDown]"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [DefenseDown]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a 5+ de [Laceration], inflige 20% des dégâts infligés en dégâts supplémentaires"
+                  "desc": "[OnSucceedAttack] Si la cible a 5 [Laceration] ou plus, inflige 20% des dégâts infligés en dégâts supplémentaires"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de [DefenseDown]"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [DefenseDown]"
                 }
               ]
             }
@@ -96,7 +96,7 @@
         {
           "level": 1,
           "name": "Garde",
-          "desc": "Si cette unité a des PV de Bouclier restants à la Fin du Tour, gagne 2 de [AttackDmgUp] au prochain tour",
+          "desc": "Si cette unité a des PV de Bouclier restants à la Fin du Tour, gagne 2 [AttackDmgUp] au prochain tour",
           "coinlist": [
             {
               "coindescs": [
@@ -141,7 +141,7 @@
         {
           "level": 1,
           "name": "Accomplissemet des Règles",
-          "desc": "[WhenUse] Si la cible a 4+ de Compte de [Laceration], +1 de Puissance de Pièce",
+          "desc": "[WhenUse] Si la cible a 4 de Compte de [Laceration] ou plus, +1 de Puissance de Pièce",
           "coinlist": [
             {
               "coindescs": [
@@ -173,25 +173,25 @@
         {
           "level": 1,
           "name": "Punition des Transgresseurs",
-          "desc": "[WinDuel] Si la cible a [Laceration], gagne 1 de [Enhancement] au prochain tour",
+          "desc": "[WinDuel] Si la cible a [Laceration], gagne 1 [Enhancement] au prochain tour",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a 4+ de Compte de [Laceration], inflige 20% des dégâts infligés en dégâts supplémentaires"
+                  "desc": "[OnSucceedAttack] Si la cible a 4 de Compte de [Laceration] ou plus, inflige 20% des dégâts infligés en dégâts supplémentaires"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de [DefenseDown]"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [DefenseDown]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a 4+ de Compte de [Laceration], inflige 20% des dégâts infligés en dégâts supplémentaires"
+                  "desc": "[OnSucceedAttack] Si la cible a 4 de Compte de [Laceration] ou plus, inflige 20% des dégâts infligés en dégâts supplémentaires"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de [DefenseDown]"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [DefenseDown]"
                 }
               ]
             }
@@ -205,7 +205,7 @@
         {
           "level": 1,
           "name": "Garde",
-          "desc": "Si cette unité a des PV de Bouclier restants à la Fin du Tour, gagne 2 de [AttackDmgUp] au prochain tour",
+          "desc": "Si cette unité a des PV de Bouclier restants à la Fin du Tour, gagne 2 [AttackDmgUp] au prochain tour",
           "coinlist": [
             {
               "coindescs": [
@@ -224,12 +224,12 @@
         {
           "level": 1,
           "name": "Exécution de la Punition",
-          "desc": "[WinDuel] Si la cible a 5+ de [Laceration], réutilise cette Capacité (une fois)",
+          "desc": "[WinDuel] Si la cible a 5 [Laceration] ou plus, réutilise cette Capacité (une fois)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 5 de [Laceration] et +2 de Compte de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 5 [Laceration] et +2 de Compte de [Laceration]"
                 }
               ]
             }
@@ -243,15 +243,15 @@
         {
           "level": 1,
           "name": "Sanctionnement des Transgresseurs",
-          "desc": "Si la cible a 5+ de [Laceration], inflige +30% de dégâts",
+          "desc": "Si la cible a 5 [Laceration] ou plus, inflige +30% de dégâts",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a [Laceration], inflige 2 de [AttackDown] au prochain tour"
+                  "desc": "[OnSucceedAttack] Si la cible a [Laceration], inflige 2 [AttackDown] au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 5 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 5 [Laceration]"
                 }
               ]
             },
@@ -275,12 +275,12 @@
         {
           "level": 1,
           "name": "Clause Enfreinte",
-          "desc": "+1 de Puissance de Pièce pour chaque 3 de [Laceration] sur la cible (3 max)\n[WinDuel] Si la cible a 6+ de [Laceration], inflige +40% de dégâts supplémentaires",
+          "desc": "+1 de Puissance de Pièce pour chaque 3 [Laceration] sur la cible (3 max)\n[WinDuel] Si la cible a 6 [Laceration] ou plus, inflige +40% de dégâts supplémentaires",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 8 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 8 [Laceration]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Si la cible a [Laceration], se soigne de 5 PSM"
@@ -296,7 +296,7 @@
                   "desc": "[OnSucceedAttack] Si la cible a [Laceration], se soigne de 10 PSM"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Si la cible a 5+ de [Laceration],  réutilise cette Capacité (une fois)"
+                  "desc": "[OnSucceedAttackHead] Si la cible a 5 [Laceration] ou plus,  réutilise cette Capacité (une fois)"
                 }
               ]
             }
@@ -334,21 +334,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
                 }
               ]
             }
@@ -362,12 +362,12 @@
         {
           "level": 1,
           "name": "Coup de Pinceau",
-          "desc": "Si la cible a 5+ de [Laceration], +2 de Puissance de Base",
+          "desc": "Si la cible a 5 [Laceration] ou plus, +2 de Puissance de Base",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 5 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 5 [Laceration]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Si la cible a [Laceration], se soigne de 5 PSM"
@@ -377,7 +377,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 5 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 5 [Laceration]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Si la cible a [Laceration], se soigne de 5 PSM"
@@ -401,35 +401,35 @@
         {
           "level": 1,
           "name": "Pois Sanguins",
-          "desc": "[WinDuel] Si la cible a [Laceration], gagne 1 de [Enhancement] au prochain tour",
+          "desc": "[WinDuel] Si la cible a [Laceration], gagne 1 [Enhancement] au prochain tour",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a 5+ de [Laceration], inflige 20% des dégâts infligés en dégâts supplémentaires"
+                  "desc": "[OnSucceedAttack] Si la cible a 5 [Laceration] ou plus, inflige 20% des dégâts infligés en dégâts supplémentaires"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de [DefenseDown]"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [DefenseDown]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a 5+ de [Laceration], inflige 20% des dégâts infligés en dégâts supplémentaires"
+                  "desc": "[OnSucceedAttack] Si la cible a 5 [Laceration] ou plus, inflige 20% des dégâts infligés en dégâts supplémentaires"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de [DefenseDown]"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [DefenseDown]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a 5+ de [Laceration], réutilise cette Capacité (1 fois max)"
+                  "desc": "[OnSucceedAttack] Si la cible a 5 [Laceration] ou plus, réutilise cette Capacité (1 fois max)"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 2 de [DefenseDown]"
+                  "desc": "[OnSucceedAttackHead] Inflige 2 [DefenseDown]"
                 }
               ]
             }
@@ -443,7 +443,7 @@
         {
           "level": 1,
           "name": "Garde",
-          "desc": "Si cette unité a des PV de Bouclier restants à la Fin du Tour, gagne 3 de [AttackDmgUp] au prochain tour",
+          "desc": "Si cette unité a des PV de Bouclier restants à la Fin du Tour, gagne 3 [AttackDmgUp] au prochain tour",
           "coinlist": [
             {
               "coindescs": [
@@ -495,7 +495,7 @@
         {
           "level": 1,
           "name": "Coup",
-          "desc": "Si la cible a 5+ de [Laceration], +2 de Puissance de Base",
+          "desc": "Si la cible a 5 [Laceration] ou plus, +2 de Puissance de Base",
           "coinlist": [
             {
               "coindescs": [
@@ -534,35 +534,35 @@
         {
           "level": 1,
           "name": "Points Sanguins",
-          "desc": "[WinDuel] Si la cible a [Laceration], gagne 1 de [Enhancement] au prochain tour",
+          "desc": "[WinDuel] Si la cible a [Laceration], gagne 1 [Enhancement] au prochain tour",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a 4+ de Compte de [Laceration], inflige 20% des dégâts infligés en dégâts supplémentaires"
+                  "desc": "[OnSucceedAttack] Si la cible a 4 de Compte de [Laceration] ou plus, inflige 20% des dégâts infligés en dégâts supplémentaires"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de [DefenseDown]"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [DefenseDown]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a 4+ de Compte de [Laceration], inflige 20% des dégâts infligés en dégâts supplémentaires"
+                  "desc": "[OnSucceedAttack] Si la cible a 4 de Compte de [Laceration] ou plus, inflige 20% des dégâts infligés en dégâts supplémentaires"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de [DefenseDown]"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [DefenseDown]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a 4+ de Compte de [Laceration], réutilise cette Capacité (1 fois max)"
+                  "desc": "[OnSucceedAttack] Si la cible a 4 de Compte de [Laceration] ou plus, réutilise cette Capacité (1 fois max)"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 2 de [DefenseDown]"
+                  "desc": "[OnSucceedAttackHead] Inflige 2 [DefenseDown]"
                 }
               ]
             }
@@ -576,7 +576,7 @@
         {
           "level": 1,
           "name": "Garde",
-          "desc": "Si cette unité a des PV de Bouclier restants à la Fin du Tour, gagne 3 de [AttackDmgUp] au prochain tour",
+          "desc": "Si cette unité a des PV de Bouclier restants à la Fin du Tour, gagne 3 [AttackDmgUp] au prochain tour",
           "coinlist": [
             {
               "coindescs": [
@@ -595,19 +595,19 @@
         {
           "level": 1,
           "name": "Coloration",
-          "desc": "[WinDuel] Si la cible a 5+ de [Laceration], réutilise cette Capacité sur un ennemi aléatoire Après l’Attaque (une fois)",
+          "desc": "[WinDuel] Si la cible a 5 [Laceration] ou plus, réutilise cette Capacité sur un ennemi aléatoire Après l’Attaque (une fois)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
                 }
               ]
             },
@@ -628,25 +628,25 @@
         {
           "level": 1,
           "name": "Pointillisme Sanguin",
-          "desc": "Si la cible a 5+ de [Laceration], inflige +30% de dégâts",
+          "desc": "Si la cible a 5 [Laceration] ou plus, inflige +30% de dégâts",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a [Laceration], inflige 2 de [AttackDown] au prochain tour"
+                  "desc": "[OnSucceedAttack] Si la cible a [Laceration], inflige 2 [AttackDown] au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 5 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 5 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [AttackDown] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 3 [AttackDown] au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 5 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 5 [Laceration]"
                 }
               ]
             },
@@ -667,12 +667,12 @@
         {
           "level": 1,
           "name": "Pointillisme",
-          "desc": "+1 de Puissance de Pièce pour chaque 3 de [Laceration] sur la cible (4 max)\n[WinDuel] Si la cible a 6+ de [Laceration], inflige +40% de dégâts supplémentaires",
+          "desc": "+1 de Puissance de Pièce pour chaque 3 [Laceration] sur la cible (4 max)\n[WinDuel] Si la cible a 6 [Laceration] ou plus, inflige +40% de dégâts supplémentaires",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 10 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 10 [Laceration]"
                 }
               ]
             },
@@ -700,32 +700,32 @@
         {
           "level": 1,
           "name": "Sanglant de la Vallée",
-          "desc": "[WinDuel] Si la cible a [Laceration], gagne 1 de [Enhancement] au prochain tour\n[WinDuel] Si la cible a 10+ de [Laceration], gagne 1 de [Enhancement] au prochain tour",
+          "desc": "[WinDuel] Si la cible a [Laceration], gagne 1 [Enhancement] au prochain tour\n[WinDuel] Si la cible a 10 [Laceration] ou plus, gagne 1 [Enhancement] au prochain tour",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [DefenseDown]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [DefenseDown]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a 5+ de [Laceration], réutilise cette Capacité (3 fois max)"
+                  "desc": "[OnSucceedAttack] Si la cible a 5 [Laceration] ou plus, réutilise cette Capacité (3 fois max)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Réduit de 1 le Compte de [Laceration] sur la cible"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 2 de [DefenseDown]"
+                  "desc": "[OnSucceedAttackHead] Inflige 2 [DefenseDown]"
                 }
               ]
             }
@@ -763,17 +763,17 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [AttackDown] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 [AttackDown] au prochain tour"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [AttackDown] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 [AttackDown] au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 2 de [Paralysis]"
+                  "desc": "[OnSucceedAttackHead] Inflige 2 [Paralysis]"
                 }
               ]
             }
@@ -792,17 +792,17 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [HitResistDown]"
+                  "desc": "[OnSucceedAttack] Inflige 1 [HitResistDown]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [HitResistDown]"
+                  "desc": "[OnSucceedAttack] Inflige 1 [HitResistDown]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de [DefenseDown] au prochain tour"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [DefenseDown] au prochain tour"
                 }
               ]
             }
@@ -816,15 +816,15 @@
         {
           "level": 1,
           "name": "Attaque Normale 3",
-          "desc": "[WhenUse] Si la cible a 2+ de [AttackDown], +1 de Puissance de Duel",
+          "desc": "[WhenUse] Si la cible a 2 [AttackDown] ou plus, +1 de Puissance de Duel",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Vulnerable]"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vulnerable]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Binding] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Binding] au prochain tour"
                 }
               ]
             },
@@ -834,7 +834,7 @@
                   "desc": "[OnSucceedAttack] Se soigne de 4 PSM"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [DefenseDown]"
                 }
               ]
             },
@@ -844,7 +844,7 @@
                   "desc": "[OnSucceedAttack] Se soigne de 4 PSM"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [DefenseDown]"
                 }
               ]
             },
@@ -854,7 +854,7 @@
                   "desc": "[OnSucceedAttack] Se soigne de 4 PSM"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [DefenseDown]"
                 }
               ]
             }
@@ -868,28 +868,28 @@
         {
           "level": 1,
           "name": "Attaque Normale 4",
-          "desc": "Priorise les cibles avec le plus d’effets négatifs\n[WhenUse] +1 de Puissance de Duel pour chaque 3 de [DefenseDown] sur la cible (3 max)",
+          "desc": "Priorise les cibles avec le plus d’effets négatifs\n[WhenUse] +1 de Puissance de Duel pour chaque 3 [DefenseDown] sur la cible (3 max)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Vulnerable]"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vulnerable]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Vulnerable] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vulnerable] au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Paralysis] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Paralysis] au prochain tour"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige +20% de dégâts supplémentaires pour chaque 2 de [AttackDown] sur la cible (100% max)"
+                  "desc": "[OnSucceedAttack] Inflige +20% de dégâts supplémentaires pour chaque 2 [AttackDown] sur la cible (100% max)"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Si la cible a 3+ effets négatifs, réutilise cette Pièce (1 fois max)"
+                  "desc": "[OnSucceedAttackHead] Si la cible a 3 effets négatifs ou plus, réutilise cette Pièce (1 fois max)"
                 }
               ]
             }
@@ -927,14 +927,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 1 de [AttackUp] au prochain tour"
+                  "desc": "[OnSucceedAttack] Gagne 1 [AttackUp] au prochain tour"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 1 de [AttackUp] au prochain tour"
+                  "desc": "[OnSucceedAttack] Gagne 1 [AttackUp] au prochain tour"
                 }
               ]
             }
@@ -974,7 +974,7 @@
         {
           "level": 1,
           "name": "Remettre en Ordre les Choses",
-          "desc": "[WinDuel] Si la cible a 2+ de [AttackDown], +1 de Puissance de Base\n[WhenUse] Si la cible a [AttackDown], inflige +30% de dégâts supplémentaires",
+          "desc": "[WinDuel] Si la cible a 2 [AttackDown] ou plus, +1 de Puissance de Base\n[WhenUse] Si la cible a [AttackDown], inflige +30% de dégâts supplémentaires",
           "coinlist": [
             {},
             {
@@ -1008,28 +1008,28 @@
         {
           "level": 1,
           "name": "Fais-Toi Écraser",
-          "desc": "Priorise les cibles avec le plus d’effets négatifs\n[WinDuel] +1 de Puissance de Pièce pour chaque 3 de [AttackDown] sur la cible (3 max)",
+          "desc": "Priorise les cibles avec le plus d’effets négatifs\n[WinDuel] +1 de Puissance de Pièce pour chaque 3 [AttackDown] sur la cible (3 max)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Vulnerable]"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vulnerable]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Vulnerable] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vulnerable] au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Paralysis] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Paralysis] au prochain tour"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige +30% de dégâts supplémentaires pour chaque 2 de [AttackDown] sur la cible (120% max)"
+                  "desc": "[OnSucceedAttack] Inflige +30% de dégâts supplémentaires pour chaque 2 [AttackDown] sur la cible (120% max)"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Si la cible a 3+ effets négatifs, réutilise cette Pièce (1 fois max)"
+                  "desc": "[OnSucceedAttackHead] Si la cible a 3 effets négatifs ou plus, réutilise cette Pièce (1 fois max)"
                 }
               ]
             }
@@ -1074,7 +1074,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Burst]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
                 }
               ]
             }
@@ -1088,7 +1088,7 @@
         {
           "level": 1,
           "name": "Confrontation",
-          "desc": "[WinDuel] Gagne 1 de [Enhancement] et 1 de Bonus de Dégât au prochain tour",
+          "desc": "[WinDuel] Gagne 1 [Enhancement] et 1 Bonus de Dégât au prochain tour",
           "coinlist": [
             {
               "coindescs": [
@@ -1100,14 +1100,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Burst]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige du [Laceration] égal à la [Burst] sur la cible"
@@ -1124,7 +1124,7 @@
         {
           "level": 1,
           "name": "Agitation",
-          "desc": "Si la cible a 5+ de [Burst], +1 de Puissance de Duel\nSi la cible a 5+ de [Laceration], +1 de Puissance de Duel\n[WinDuel] Inflige +3 de Compte de [Burst]",
+          "desc": "Si la cible a 5 [Burst] ou plus, +1 de Puissance de Duel\nSi la cible a 5 [Laceration] ou plus, +1 de Puissance de Duel\n[WinDuel] Inflige +3 de Compte de [Burst]",
           "coinlist": [
             {
               "coindescs": [
@@ -1143,7 +1143,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Paralysis] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Paralysis] au prochain tour"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige des dégâts Perçants supplémentaires égaux à ([Laceration] * Compte de [Laceration])"
@@ -1160,7 +1160,7 @@
         {
           "level": 1,
           "name": "Garde",
-          "desc": "[WhenUse] Gagne 1 de [Enhancement] au prochain tour",
+          "desc": "[WhenUse] Gagne 1 [Enhancement] au prochain tour",
           "coinlist": [
             {
               "coindescs": [
@@ -1179,7 +1179,7 @@
         {
           "level": 1,
           "name": "Riposte",
-          "desc": "[WhenUse] Gagne 1 de [Enhancement] au prochain tour",
+          "desc": "[WhenUse] Gagne 1 [Enhancement] au prochain tour",
           "coinlist": [
             {
               "coindescs": [

@@ -41,36 +41,36 @@
     {
       "id": "WaveFoxUmbrella",
       "name": "Parapluie Protecteur",
-      "desc": "Toutes les parties gagnent de la Protection égale à {0}\nEn utilisant la Capacité Attente, invoque {0} Vieux Parapluie\n1 dépensé chaque fois qu’un Parapluie est brisé."
+      "desc": "Toutes les parties gagnent de la Protection égale à {0}\nEn utilisant la Capacité “Attente”, invoque {0} Vieux Parapluie\n1 dépensé chaque fois qu’un Parapluie est brisé."
     },
     {
       "id": "InterlockingTime_Re",
       "name": "Temps Emboîté",
-      "desc": "Réduit les dégâts finaux de 30% et les stocke. À 3 de Compte, subit des dégâts fixes égaux à 2 fois les dégâts accumulés et gagne 3 de Ralentissement au tour suivant.",
-      "summary": "Réduit les dégâts finaux de 30% et les stocke. À 3 de Compte, subit des dégâts fixes égaux à 2 fois les dégâts accumulés et gagne 3 de Ralentissement au tour suivant."
+      "desc": "Réduit les dégâts finaux de 30% et les stocke. À 3 de Compte, subit des dégâts fixes égaux à 2 fois les dégâts accumulés et gagne 3 Ralentissement au tour suivant.",
+      "summary": "Réduit les dégâts finaux de 30% et les stocke. À 3 de Compte, subit des dégâts fixes égaux à 2 fois les dégâts accumulés et gagne 3 Ralentissement au tour suivant."
     },
     {
       "id": "TimeRental_Re",
       "name": "Temps Emprunté",
-      "desc": "À la fin du tour, gagne 3 de Vitesse, 2 de Bonus de Dégâts et 2 Bonus de Niveau Offensif ; s’il ne reste que 1 de Compte, gagne 3 de Ralentissement, 1 de Malus d’Attaque et 2 de Vulnérabilité au tour suivant",
-      "summary": "À la fin du tour, gagne 3 de Vitesse, 2 de Bonus de Dégâts et 2 Bonus de Niveau Offensif ; s’il ne reste que 1 de Compte, gagne 3 de Ralentissement, 1 de Malus d’Attaque et 2 de Vulnérabilité au tour suivant"
+      "desc": "À la fin du tour, gagne 3 Accélération, 2 Bonus de Dégâts et 2 Bonus de Niveau Offensif ; s’il ne reste que 1 de Compte, gagne 3 Ralentissement, 1 Malus de Puissance Offensive et 2 Vulnérabilité au tour suivant",
+      "summary": "À la fin du tour, gagne 3 Accélération, 2 Bonus de Dégâts et 2 Bonus de Niveau Offensif ; s’il ne reste que 1 de Compte, gagne 3 Ralentissement, 1 Malus de Puissance Offensive et 2 Vulnérabilité au tour suivant"
     },
     {
       "id": "ReattachedCurseTag_Re",
       "name": "Talisman de Malédiction Rattaché",
-      "desc": "À 9+, gagne 5 de Ralentissement au début du tour.\nÀ 12+, gagne 5 de Malus d’Attaque au début du tour. (12 Max)",
-      "summary": "À 9+, gagne 5 de Ralentissement au début du tour.\nÀ 12+, gagne 5 de Malus d’Attaque au début du tour."
+      "desc": "À 9 ou plus, gagne 5 Ralentissement au début du tour.\nÀ 12 ou plus, gagne 5 Malus de Puissance Offensive au début du tour. (12 max)",
+      "summary": "À 9 ou plus, gagne 5 Ralentissement au début du tour.\nÀ 12 ou plus, gagne 5 Malus de Puissance Offensive au début du tour."
     },
     {
       "id": "WrappedCurseTagRe",
       "name": "Talisman de Malédiction Enchevêtré",
-      "desc": "Inflige +1% de dégâts par Compte\nÀ 9+ de Compte, gagne 2 de Malus d’Attaque au début du tour (9 Max)",
+      "desc": "Inflige +1% de dégâts par Compte\nÀ 9 de Compte ou plus, gagne 2 Malus de Puissance Offensive au début du tour. (9 max)",
       "summary": " "
     },
     {
       "id": "AccumulatedPast",
       "name": "Passé Accumulé",
-      "desc": "Gagne 11 à la fin du Tour.\nComplètement utilisé lorsque la Partie Corps est brisée.",
+      "desc": "Gagne 11 de valeur à la fin du Tour.\nComplètement utilisé lorsque la Partie Corps est brisée.",
       "summary": ""
     },
     {
@@ -82,19 +82,19 @@
     {
       "id": "BloomingRose",
       "name": "Péché en Éclosion",
-      "desc": "À la fin du tour\n- Gagne 1 de Compte.\n- {2} perd des PV égaux à 25% des PV Max.\n- Perd 10% de ressource E.G.O. de {1}.\n- Le Panneau de Roses regagne des PV égaux à 5% de ses PV Max.\n\nÀ 4 de Compte,\n- {2} meurt.\n- Perd toutes les ressources E.G.O. de {1}.",
+      "desc": "À la fin du tour\n- Gagne 1 de Compte.\n- {2} perd des PV égaux à 25% des PV max.\n- Perd 10% de ressource E.G.O. de {1}.\n- Le Panneau de Roses regagne des PV égaux à 5% de ses PV max.\n\nÀ 4 de Compte,\n- {2} meurt.\n- Perd toutes les ressources E.G.O. de {1}.",
       "summary": ""
     },
     {
       "id": "EatingSin",
       "name": "Péché Trempé",
-      "desc": "Gagne {0}% (Ressources E.G.O. drainées) de PV Max.\n\nÀ la Mort\n- Regagne {0} de ressource E.G.O. de {1}.\n- {2} se soigne de (25% des PV Max de l’Identité * Stack de Péché en Éclosion à la mort) PV.",
+      "desc": "Gagne {0}% (Ressources E.G.O. drainées) de PV max.\n\nÀ la Mort\n- Regagne {0} de ressource E.G.O. de {1}.\n- {2} se soigne de (25% des PV max de l’Identité * Compte de Péché en Éclosion à la mort) PV.",
       "summary": ""
     },
     {
       "id": "EnhanceRose",
       "name": "État de Puissance",
-      "desc": "La passive État de Puissance est activée",
+      "desc": "Le passif “État de Puissance” est activé",
       "summary": ""
     },
     {

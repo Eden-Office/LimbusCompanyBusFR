@@ -11,7 +11,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 5 de [Combustion] et +2 de Compte de [Combustion]"
+                  "desc": "[OnSucceedAttack] Inflige 5 [Combustion] et +2 de Compte de [Combustion]"
                 }
               ]
             }
@@ -30,7 +30,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 5 de [Combustion] et +2 de Compte de [Combustion]"
+                  "desc": "[OnSucceedAttack] Inflige 5 [Combustion] et +2 de Compte de [Combustion]"
                 }
               ]
             }
@@ -44,7 +44,7 @@
         {
           "level": 1,
           "name": "Coup de Respiration",
-          "desc": "[WhenUse] Si la cible a 5+ de [Combustion], +1 de Puissance de Pièce",
+          "desc": "[WhenUse] Si la cible a 5 [Combustion] ou plus, +1 de Puissance de Pièce",
           "coinlist": [
             {
               "coindescs": [
@@ -52,17 +52,17 @@
                   "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de [CrimsonTakeDamageUp] au prochain tour"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [CrimsonTakeDamageUp] au prochain tour"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 8 de [Combustion]"
+                  "desc": "[OnSucceedAttack] Inflige 8 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de [CrimsonTakeDamageUp] au prochain tour"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [CrimsonTakeDamageUp] au prochain tour"
                 }
               ]
             }
@@ -76,12 +76,12 @@
         {
           "level": 1,
           "name": "Riposte",
-          "desc": "[WhenUse] Si la cible a 5+ de [Combustion], +2 de Puissance de Pièce",
+          "desc": "[WhenUse] Si la cible a 5 [Combustion] ou plus, +2 de Puissance de Pièce",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 1 de [AttackDmgUp] au prochain tour"
+                  "desc": "[OnSucceedAttack] Gagne 1 [AttackDmgUp] au prochain tour"
                 }
               ]
             }
@@ -100,14 +100,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Sinking] et +2 de Compte de [Sinking]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking] et +2 de Compte de [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Sinking] et +2 de Compte de [Sinking]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking] et +2 de Compte de [Sinking]"
                 }
               ]
             }
@@ -126,7 +126,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Sinking] et +3 de Compte de [Sinking]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Sinking] et +3 de Compte de [Sinking]"
                 }
               ]
             }
@@ -140,15 +140,15 @@
         {
           "level": 1,
           "name": "Bombe à Eau",
-          "desc": "[WhenUse] Si la cible a 5+ de [Sinking], +1 de Puissance de Pièce",
+          "desc": "[WhenUse] Si la cible a 5 [Sinking] ou plus, +1 de Puissance de Pièce",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 8 de [Sinking]"
+                  "desc": "[OnSucceedAttack] Inflige 8 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 2 de [AzureTakeDamageUp] au prochain tour"
+                  "desc": "[OnSucceedAttackHead] Inflige 2 [AzureTakeDamageUp] au prochain tour"
                 }
               ]
             }
@@ -162,7 +162,7 @@
         {
           "level": 1,
           "name": "Esquive",
-          "desc": "[OnSucceedEvade] Inflige 2 de [Sinking]",
+          "desc": "[OnSucceedEvade] Inflige 2 [Sinking]",
           "coinlist": [
             {
               "coindescs": [
@@ -181,7 +181,7 @@
         {
           "level": 1,
           "name": "Dégainer l’Épée",
-          "desc": "[WhenUse] Gagne 2 de [Breath]",
+          "desc": "[WhenUse] Gagne 2 [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -207,7 +207,7 @@
         {
           "level": 1,
           "name": "Paralysant",
-          "desc": "[WhenUse] Gagne 2 de [Breath]",
+          "desc": "[WhenUse] Gagne 2 [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -215,27 +215,27 @@
                   "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gagne 1 de [AttackDmgUp] au prochain tour"
+                  "desc": "[OnSucceedAttack] Gagne 1 [AttackDmgUp] au prochain tour"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Paralysis] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Paralysis] au prochain tour"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Paralysis] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Paralysis] au prochain tour"
                 }
               ]
             }
@@ -254,20 +254,20 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 1 de [Breath] et +1 de Compte de [Breath]"
+                  "desc": "[OnSucceedAttack] Gagne 1 [Breath] et +1 de Compte de [Breath]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 1 de [SlashDamageUp] au prochain tour"
+                  "desc": "[OnSucceedAttack] Gagne 1 [SlashDamageUp] au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [SlashResistDown] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 [SlashResistDown] au prochain tour"
                 }
               ]
             }
@@ -286,7 +286,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 3 de [Breath] et +1 de Compte de [Breath]"
+                  "desc": "[OnSucceedAttack] Gagne 3 [Breath] et +1 de Compte de [Breath]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
@@ -296,20 +296,20 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 2 de [SlashDamageUp] au prochain tour"
+                  "desc": "[OnSucceedAttack] Gagne 2 [SlashDamageUp] au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [SlashResistDown]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [SlashResistDown]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 5 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 5 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Paralysis] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Paralysis] au prochain tour"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Inflige +3 de Compte de [Laceration]"
@@ -331,7 +331,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [SlashResistDown]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [SlashResistDown]"
                 }
               ]
             },
@@ -341,7 +341,7 @@
                   "desc": "+100% de Dégâts en Coup Critique"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 10 de [Laceration] et +2 de Compte de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 10 [Laceration] et +2 de Compte de [Laceration]"
                 }
               ]
             },
@@ -362,7 +362,7 @@
         {
           "level": 1,
           "name": "Esquive",
-          "desc": "[OnSucceedEvade] Gagne 4 de [Breath]",
+          "desc": "[OnSucceedEvade] Gagne 4 [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -381,7 +381,7 @@
         {
           "level": 1,
           "name": "Offrir Ma Chair",
-          "desc": "Gagne X de [Grudge] au prochain tour (X = Dégâts infligés par la Capacité qui a activé la Capacité de Contre)",
+          "desc": "Gagne X de [Grudge] au prochain tour (X = Dégâts infligés par la Capacité qui a activé la Capacité Riposte)",
           "coinlist": [
             {
               "coindescs": [
@@ -405,7 +405,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [SlashResistDown]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [SlashResistDown]"
                 }
               ]
             },
@@ -415,10 +415,10 @@
                   "desc": "+100% de Dégâts en Coup Critique"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 5 de [Paralysis] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 5 [Paralysis] au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 10 de [Laceration] et +2 de Compte de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 10 [Laceration] et +2 de Compte de [Laceration]"
                 }
               ]
             },
@@ -439,7 +439,7 @@
         {
           "level": 1,
           "name": "Blade Dance",
-          "desc": "[EnemyKill] Gagne 3 de [AttackUp] et 3 de [DefenseUp] au prochain tour",
+          "desc": "[EnemyKill] Gagne 3 [AttackUp] et 3 [DefenseUp] au prochain tour",
           "coinlist": [
             {
               "coindescs": [

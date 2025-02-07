@@ -7,7 +7,8 @@
       "desc": "\"À partir de maintenant, c’est notre territoire à nous, le Clan Kurokumo.\"\n\n\"Est-ce si dur pour vous à comprendre qu’il faut payer le péage pour utiliser notre route ? Hein ?\"\n\nDes gens avec des habits du Clan Kurokumo se dressent face à des civils sans défense en les menaçant.\n\n\"… Je suppose que cette excuse était suffisante pour qu’ils viennent aussi empiéter sur notre territoire.\"\n\nAeng-du ne cache pas son indignation. Elle serre les dents.\n\nQue devrions-nous faire d’eux ?",
       "options": [
         {
-          "message": "Sauver les Civils."
+          "message": "Sauver les Civils.",
+          "messageDesc": "Gagnez un Don E.G.O. sans Mot-Clé selon le résultat du choix suivant"
         },
         {
           "message": "Détourner le regard.",
@@ -31,7 +32,7 @@
         },
         {
           "message": "Dire que vous êtes avec la Lignée de la Lame.",
-          "messageDesc": "Réussissez pour gagner un Don E.G.O."
+          "messageDesc": "Contrôle Avantage Orgueil. Réussissez pour gagner un Don E.G.O. sans Mot-Clé."
         }
       ]
     },
@@ -43,7 +44,7 @@
       "options": [
         {
           "message": "Bien sûr. Trancher est la voie à suivre lorsqu’on brandit une lame.",
-          "messageDesc": "Réussissez pour gagner un Don E.G.O."
+          "messageDesc": "Contrôle Avantage Luxure & Orgueil. Réussissez pour gagner un Don E.G.O. Tranchant."
         },
         {
           "message": "Mais non. Tranchant, Perçant et Contondant ont chacun leurs utilités.",
@@ -61,11 +62,11 @@
       "options": [
         {
           "message": "Prendre une posture comme si j’étais sur le point de dégainer l’épée.",
-          "messageDesc": "Réussissez pour gagner un Don E.G.O."
+          "messageDesc": "Contrôle Avantage Luxure & Peine. Réussissez pour gagner un Don E.G.O. de Saignement."
         },
         {
           "message": "Dégainer l’épée et la tenir sur le côté.",
-          "messageDesc": "Réussissez pour gagner un Don E.G.O."
+          "messageDesc": "Contrôle Avantage Orgueil & Colère. Réussissez pour gagner un Don E.G.O. de Calme."
         },
         {
           "message": "Laisser l’épée et partir.",
@@ -83,7 +84,7 @@
       "options": [
         {
           "message": "C’est la Cité. Voilà ce qui arrive quand du menu fretin se retrouve mêlé à un conflit qui les dépasse.",
-          "messageDesc": "Réussissez pour gagner un Don E.G.O."
+          "messageDesc": "Contrôle Avantage Peine & Orgueil. Réussissez pour gagner un Don E.G.O. Tranchant."
         },
         {
           "message": "Je n’ai pas d’avis concernant ce sujet. Mais, c’est dommage.",
@@ -101,11 +102,47 @@
       "options": [
         {
           "message": "Ce qui est 'juste' et ce qui est 'mal'... est-ce vraiment important de les différencier ? Dire que ce qui compte vraiment est autre chose.",
-          "messageDesc": "Réussissez pour gagner un Don E.G.O."
+          "messageDesc": "Contrôle Avantage Luxure & Orgueil. Réussissez pour gagner un Don E.G.O. de Calme."
         },
         {
           "message": "Malgré tout, il est vrai que ce qui est juste, est juste.",
-          "messageDesc": "Réussissez pour gagner un Don E.G.O."
+          "messageDesc": "Contrôle Avantage Peine & Orgueil. Réussissez pour gagner un Don E.G.O. Tranchant."
+        }
+      ]
+    },
+    {
+      "id": 971049,
+      "name": "Worn Hilt Choice",
+      "subDesc": "",
+      "desc": "“Est-ce une taverne ?”\n\nNous entrons dans ce qui semble être une sorte de bar, ses invités boivent et discutent bruyamment en groupe.\n\nNous trouvons un siège sur lequel nous reposer, mais un autre groupe qui était assis non loin s’approche de nous.\n\n“Qu’est-ce qu’il se passe ici ? Je vous ai jamais vu ici avant…”\n\n“Les gars, c’est une bonne journée, laissez-les tranquille. Ne provoquez pas d’embrouilles inutiles.”\n\n“Oui, madame ! Bien sûr, madame !”\n\nC’est alors que nous avons réalisé qu’ils portent tous des épées sur eux.\n\nDes épées avec un motif nuageux détaillé gravé dessus.\n\n“Avez-vous entendu parler de ce nouveau Syndicat qui a surgi aujourd’hui ?”\n\n“Ah, le… le groupe qui utilise surtout des lances, c’est ça… ?”\n\n“Des abrutis. Les épées sont la forme d’armement la plus supérieure qui existe, l’apex des armes. Et ils utilisent des <i>lances</i> à la place ?”\n\n“Les gars, soyons parfaitement honnêtes. D’accord, nous sommes un subsidiaire du Pouce, mais il y a quelque chose de stylé à avoir une épée, hein ? Encore plus cool que les poings et les fusils.”\n\n“Heureusement que nous avons ces braves gens ici pour nous donner une juste évaluation de la supériorité des épées.”\n\nNous sentons leurs regards se tournant simultanément vers nous.",
+      "options": [
+        {
+          "message": "Vous êtes sûrs que les épées sont aussi incroyables ?",
+          "result": [
+            "“Enterrons-les six pieds sous terre. C’est parti.”\n\n“Tch, ce n’est pas comme si nous pensions sérieusement que les épées sont les meilleures armes du monde.”\n\n“R’gardez autour de vous, v’voyez quelqu’un qui a pas d’épée ? Apprenez à sentir l’ambiance.”\n\n“Il semblerait que vous ayez énervé mes garçons. Cela vous aurait fait mal de suivre le mouvement ?”\n\n“Je pense que je vais sortir à présent. Rappelez-vous ce que j’ai dit plus tôt : ne provoquez pas d’embrouilles inutiles et laissez-les tranquille.”\n\n“Oui, madame !”\n\nDès que la personne qui semblait être leur cheffe quitta la pièce, les choses devinrent soudainement bien plus tendues…\n\nNous nous sommes calmement excusés avant de sortir en silence."
+          ]
+        },
+        {
+          "message": "Les épées sont vraiment les reines de toutes les armes. Hourra pour les épées !",
+          "messageDesc": "Contrôle Avantage Luxure & Orgueil. Réussissez pour gagner un Don E.G.O. sans Mot-Clé."
+        }
+      ]
+    },
+    {
+      "id": 971050,
+      "name": "Bamboo Hat & Dopo Robe Choice",
+      "subDesc": "",
+      "desc": "Marchant le long du mur en brique de pierre, nous entendons une paire de voix discuter.\n\n“J’ai cru comprendre que vous avez rencontré quelques problèmes récemment.”\n\n“Nous n’aurions eu aucun problème avec les tributs si ces enfoirés de la Lignée de la Lame n’étaient pas soudainement apparus sur notre territoire, monsieur…”\n\nLa tenue de l’un des deux se démarque.\n\nJe peux entendre certains Pécheurs la reconnaître comme étant l’uniforme du Pouce.\n\n“Tout d’abord, exigez la punition appropriée pour s’être introduit sur votre territoire…”\n\n“Bien sûr, monsieur.”\n\n“Mais n’oubliez pas de faire preuve de respect à ceux qui le mérite. Vous me comprenez ?”\n\n“Attendez. Qui est là ? Est-ce la Lignée de la Lame… ? Hm, on ne dirait pas.”\n\nRemarquant notre présence, la paire se retourna pour nous faire face.\n\n“Hm. Pourquoi ne pas leur demander aussi leur opinion maintenant qu’ils sont là ?”\n\n“Vous là-bas. Que pensez-vous de l’état actuel du Clan Kurokumo ?”\n\n“Vous feriez mieux de bien choisir vos mots.”",
+      "options": [
+        {
+          "message": "Malheureusement, une guerre avec la Lignée de la Lame semble être la seule option.",
+          "messageDesc": "Contrôle Avantage Luxure & Orgueil. Réussissez pour gagner un Don E.G.O. sans Mot-Clé."
+        },
+        {
+          "message": "Mauvais endroit au mauvais moment, mon gars.",
+          "result": [
+            "“Un événement banal dans la cité.”\n\n“Pourquoi ne pas les laisser partir, monsieur ? Ils ne semblent rien avoir d’intéresser à ajouter.”\n\n“Vous l’avez entendu. Filez avant que nous ne changions d’avis.”"
+          ]
         }
       ]
     }

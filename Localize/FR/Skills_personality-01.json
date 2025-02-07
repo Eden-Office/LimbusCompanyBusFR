@@ -36,7 +36,7 @@
         {
           "level": 4,
           "name": "Rester Calme",
-          "desc": "Si cette Capacité est Défaussée, gagne +4 de Compte de Tremblement\n[WhenUse] Gagne +2 de Compte de Tremblement\nÀ 5+ de Compte de Tremblement, gagne +1 de Puissance de Pièce",
+          "desc": "Si cette Capacité est Défaussée, gagne +4 de Compte de Tremblement\n[WhenUse] Gagne +2 de Compte de Tremblement\nÀ 5 de Compte de Tremblement ou plus, gagne +1 de Puissance de Pièce",
           "coinlist": [
             {},
             {
@@ -61,7 +61,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] À 5+ de Compte de Tremblement, déclenche un Sursaut de Tremblement. Réduit de 2 le Compte de Tremblement de la cible"
+                  "desc": "[OnSucceedAttack] À 5 de Compte de Tremblement ou plus, déclenche un Sursaut de Tremblement. Réduit de 2 le Compte de Tremblement de la cible"
                 }
               ]
             }
@@ -78,7 +78,7 @@
                   "desc": "[OnSucceedAttack] Inflige +2 de Compte de Tremblement"
                 },
                 {
-                  "desc": "[OnSucceedAttack] À 5+ de Compte de Tremblement, déclenche un Sursaut de Tremblement. Réduit de 2 le Compte de Tremblement de la cible"
+                  "desc": "[OnSucceedAttack] À 5 de Compte de Tremblement ou plus, déclenche un Sursaut de Tremblement. Réduit de 2 le Compte de Tremblement de la cible"
                 }
               ]
             }
@@ -95,7 +95,7 @@
                   "desc": "[OnSucceedAttack] Inflige +3 de Compte de Tremblement"
                 },
                 {
-                  "desc": "[OnSucceedAttack] À 5+ de Compte de Tremblement, déclenche un Sursaut de Tremblement. Réduit de 2 le Compte de Tremblement de la cible"
+                  "desc": "[OnSucceedAttack] À 5 de Compte de Tremblement ou plus, déclenche un Sursaut de Tremblement. Réduit de 2 le Compte de Tremblement de la cible"
                 }
               ]
             }
@@ -114,7 +114,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de Tremblement"
+                  "desc": "[OnSucceedAttack] Inflige 4 Tremblement"
                 },
                 {
                   "desc": "[OnSucceedAttack] Si cette Capacité a dépensé du Compte de Tremblement, déclenche un Sursaut de Tremblement"
@@ -125,7 +125,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 2 de Malus de Niveau Défensif"
+                  "desc": "[OnSucceedAttackHead] Inflige 2 Malus de Niveau Défensif"
                 },
                 {
                   "desc": "[OnSucceedAttack] Si cette Capacité a dépensé du Compte de Tremblement, déclenche un Sursaut de Tremblement"
@@ -142,7 +142,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de Tremblement"
+                  "desc": "[OnSucceedAttack] Inflige 4 Tremblement"
                 },
                 {
                   "desc": "[OnSucceedAttack] Si cette Capacité a dépensé du Compte de Tremblement, déclenche un Sursaut de Tremblement"
@@ -153,7 +153,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de Malus de Niveau Défensif"
+                  "desc": "[OnSucceedAttack] Inflige 2 Malus de Niveau Défensif"
                 },
                 {
                   "desc": "[OnSucceedAttack] Si cette Capacité a dépensé du Compte de Tremblement, déclenche un Sursaut de Tremblement"
@@ -213,7 +213,7 @@
                   "desc": "[OnSucceedAttack] Gagne +2 de Compte de Charge"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 2 de Déchirure"
+                  "desc": "[OnSucceedAttackHead] Inflige 2 Déchirure"
                 }
               ]
             }
@@ -222,7 +222,7 @@
         {
           "level": 4,
           "name": "Incision Dimensionnelle",
-          "desc": "[WhenUse] Gagne +2 de Compte de Charge\nAt 10+ Charge Count, Coin Power +2",
+          "desc": "[WhenUse] Gagne +2 de Compte de Charge\nÀ 10 de Compte de Charge ou plus, +2 de Puissance de Pièce",
           "coinlist": [
             {
               "coindescs": [
@@ -230,7 +230,7 @@
                   "desc": "[OnSucceedAttack] Gagne +2 de Compte de Charge"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de Déchirure"
+                  "desc": "[OnSucceedAttack] Inflige 2 Déchirure"
                 }
               ]
             }
@@ -249,14 +249,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de Ralentissement au prochain tour"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 Ralentissement au prochain tour"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de Déchirure"
+                  "desc": "[OnSucceedAttack] Inflige 3 Déchirure"
                 }
               ]
             }
@@ -265,22 +265,22 @@
         {
           "level": 2,
           "name": "Cycle Énergétique",
-          "desc": "[WhenUse] Gagne +6 de Compte de Charge\nÀ 10+ de Compte de Charge, +1 de Puissance de Pièce",
+          "desc": "[WhenUse] Gagne +6 de Compte de Charge\nÀ 10 de Compte de Charge ou plus, +1 de Puissance de Pièce",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de Ralentissement au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 Ralentissement au prochain tour"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de Déchirure"
+                  "desc": "[OnSucceedAttack] Inflige 3 Déchirure"
                 },
                 {
-                  "desc": "[OnSucceedAttack] À 10+ de Compte de Charge, inflige 3 de Déchirure"
+                  "desc": "[OnSucceedAttack] À 10 de Compte de Charge ou plus, inflige 3 de Déchirure"
                 }
               ]
             }
@@ -289,22 +289,22 @@
         {
           "level": 4,
           "name": "Cycle Énergétique",
-          "desc": "[WhenUse] Gain +7 Charge Count\nÀ 10+ de Compte de Charge, +1 de Puissance de Pièce",
+          "desc": "[WhenUse] Gain +7 Charge Count\nÀ 10 de Compte de Charge ou plus, +1 de Puissance de Pièce",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de Ralentissement au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 Ralentissement au prochain tour"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de Déchirure"
+                  "desc": "[OnSucceedAttack] Inflige 3 Déchirure"
                 },
                 {
-                  "desc": "[OnSucceedAttack] À 10+ de Compte de Charge, inflige 3 de Déchirure et +2 de Compte de Déchirure"
+                  "desc": "[OnSucceedAttack] À 10 de Compte de Charge ou plus, inflige 3 de Déchirure et +2 de Compte de Déchirure"
                 }
               ]
             }
@@ -318,32 +318,32 @@
         {
           "level": 3,
           "name": "Faille Dimensionnelle",
-          "desc": "[WhenUse] À moins de 15 de Compte de Charge, consomme 10 Compte de Charge pour gagne +1 de Puissance de Pièce\n[WhenUse] Consomme 15 de Compte de Charge pour gagner +2 de Puissance de Pièce",
+          "desc": "[WhenUse] À moins de 15 de Compte de Charge, consomme 10 Compte de Charge pour gagner +1 de Puissance de Pièce\n[WhenUse] Consomme 15 de Compte de Charge pour gagner +2 de Puissance de Pièce",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de Déchirure"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 Déchirure"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de Déchirure"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 Déchirure"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de Déchirure pour tous les 5 Compte de Charge consommés par la Capacité (6 Max)"
+                  "desc": "[OnSucceedAttack] Inflige 2 Déchirure pour tous les 5 de Compte de Charge consommés par la Capacité (6 Max)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Si la Capacité a consommé 15 de Compte de Charge lors de l’utilisation, inflige 2 de Faille Dimensionnelle"
+                  "desc": "[OnSucceedAttack] Si la Capacité a consommé 15 de Compte de Charge lors de l’utilisation, inflige 2 Faille Dimensionnelle"
                 },
                 {
-                  "desc": "[EnemyKill] Gagne 3 de Barrière de Charge"
+                  "desc": "[EnemyKill] Gagne 3 Barrière de Charge"
                 }
               ]
             }
@@ -352,32 +352,32 @@
         {
           "level": 4,
           "name": "Faille Dimensionnelle",
-          "desc": "[WhenUse] À moins de 15 de Compte de Charge, consomme 10 Compte de Charge pour gagne +1 de Puissance de Pièce\n[WhenUse] Consomme 15 de Compte de Charge pour gagner +2 de Puissance de Pièce\n[BeforeAttack] Si 15 de Compte de Charge a été consommé, inflige +3 de Compte de Déchirure",
+          "desc": "[WhenUse] À moins de 15 de Compte de Charge, consomme 10 Compte de Charge pour gagner +1 de Puissance de Pièce\n[WhenUse] Consomme 15 de Compte de Charge pour gagner +2 de Puissance de Pièce\n[BeforeAttack] Si 15 de Compte de Charge a été consommé, inflige +3 de Compte de Déchirure",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de Déchirure"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 Déchirure"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de Déchirure"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 Déchirure"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de Déchirure pour tous les 5 Compte de Charge consommés par la Capacité (9 Max)"
+                  "desc": "[OnSucceedAttack] Inflige 3 Déchirure pour tous les 5 de Compte de Charge consommés par la Capacité (9 Max)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Si la Capacité a consommé 15 de Compte de Charge lors de l’utilisation, inflige 2 de Faille Dimensionnelle"
+                  "desc": "[OnSucceedAttack] Si la Capacité a consommé 15 de Compte de Charge lors de l’utilisation, inflige 2 Faille Dimensionnelle"
                 },
                 {
-                  "desc": "[EnemyKill] Gagne 5 de Barrière de Charge"
+                  "desc": "[EnemyKill] Gagne 5 Barrière de Charge"
                 }
               ]
             }
@@ -399,7 +399,7 @@
         {
           "level": 4,
           "name": "Dimension Vide",
-          "desc": "+1 de Puissance de Base par 5 de Compte de Charge (2 Max)\n[OnSucceedEvade] +1 de Puissance en appliquant pour la première fois de la Déchirure avec un effet de Capacité au prochain tour (+3 Max par tour)",
+          "desc": "+1 de Puissance de Base par 5 de Compte de Charge (2 Max)\n[OnSucceedEvade] +1 d’Intensité en appliquant pour la première fois de la Déchirure avec un effet de Capacité au prochain tour (+3 Max par tour)",
           "coinlist": [
             {}
           ]
@@ -418,7 +418,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 2 de Saignement"
+                  "desc": "[OnSucceedAttackHead] Inflige 2 Saignement"
                 }
               ]
             }
@@ -433,10 +433,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de Ralentissement au prochain tour"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 Ralentissement au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de Saignement"
+                  "desc": "[OnSucceedAttack] Inflige 2 Saignement"
                 }
               ]
             }
@@ -451,10 +451,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de Ralentissement au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 Ralentissement au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de Saignement"
+                  "desc": "[OnSucceedAttack] Inflige 2 Saignement"
                 }
               ]
             }
@@ -468,19 +468,19 @@
         {
           "level": 1,
           "name": "Poignardage Incessant",
-          "desc": "[WhenUse] Gagne +2 de Compte de Calme\nÀ 5+ de Calme, +2 de Puissance de Duel",
+          "desc": "[WhenUse] Gagne +2 de Compte de Calme\nÀ 5 Calme ou plus, +2 de Puissance de Duel",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gagne 2 de Calme"
+                  "desc": "[OnSucceedAttackHead] Gagne 2 Calme"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de Saignement"
+                  "desc": "[OnSucceedAttack] Inflige 1 Saignement"
                 }
               ]
             }
@@ -489,19 +489,19 @@
         {
           "level": 2,
           "name": "Poignardage Incessant",
-          "desc": "[WhenUse] Gagne +2 de Compte de Calme\nÀ 5+ de Calme, +2 de Puissance de Duel",
+          "desc": "[WhenUse] Gagne +2 de Compte de Calme\nÀ 5 Calme ou plus, +2 de Puissance de Duel",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gagne 2 de Calme"
+                  "desc": "[OnSucceedAttackHead] Gagne 2 Calme"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de Saignement"
+                  "desc": "[OnSucceedAttack] Inflige 1 Saignement"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Réutilise cette Pièce (1 fois max)"
@@ -513,19 +513,19 @@
         {
           "level": 4,
           "name": "Poignardage Incessant",
-          "desc": "[WhenUse] Gagne +2 de Compte de Calme\nÀ 5+ de Calme, +3 de Puissance de Duel",
+          "desc": "[WhenUse] Gagne +2 de Compte de Calme\nÀ 5 Calme ou plus, +3 de Puissance de Duel",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 2 de Calme"
+                  "desc": "[OnSucceedAttack] Gagne 2 Calme"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de Saignement"
+                  "desc": "[OnSucceedAttack] Inflige 1 Saignement"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Réutilise cette Pièce (3 fois max)"
@@ -542,7 +542,7 @@
         {
           "level": 3,
           "name": "Embuscade",
-          "desc": "[WhenUse] Gagne 5 de Calme",
+          "desc": "[WhenUse] Gagne 5 Calme",
           "coinlist": [
             {
               "coindescs": [
@@ -554,7 +554,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de Saignement"
+                  "desc": "[OnSucceedAttack] Inflige 4 Saignement"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Inflige +4 de Compte de Saignement"
@@ -566,7 +566,7 @@
         {
           "level": 4,
           "name": "Embuscade",
-          "desc": "[WhenUse] Gagne 5 de Calme\nÀ 7+ de Calme, +1 de Puissance de Pièce",
+          "desc": "[WhenUse] Gagne 5 Calme\nÀ 7 Calme ou plus, +1 de Puissance de Pièce",
           "coinlist": [
             {
               "coindescs": [
@@ -578,7 +578,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de Saignement"
+                  "desc": "[OnSucceedAttack] Inflige 4 Saignement"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Inflige +6 de Compte de Saignement"
@@ -670,7 +670,7 @@
         {
           "level": 4,
           "name": "Dépenser la Connaissance",
-          "desc": "Gagne ([KnowledgeExplored] * 3% des PV Max.) Bouclier si cette Capacité est Défaussée\n[WhenUse] Défausse 1 Capacité du rang supérieur dans tous les Emplacements de Capacité de cette unité\n[WhenUse] Si la cible a 5+ de [Sinking], +1 de Puissance de Pièce",
+          "desc": "Gagne ([KnowledgeExplored] * 3% des PV Max.) Bouclier si cette Capacité est Défaussée\n[WhenUse] Défausse 1 Capacité du rang supérieur dans tous les Emplacements de Capacité de cette unité\n[WhenUse] Si la cible a 5 [Sinking] ou plus, +1 de Puissance de Pièce",
           "coinlist": [
             {
               "coindescs": [
@@ -740,7 +740,7 @@
         {
           "level": 4,
           "name": "Sceller",
-          "desc": "Gagne ([KnowledgeExplored] * 6% des PV Max.) Bouclier si cette Capacité est Défaussée\n[WhenUse] Défausse 1 Capacité du rang supérieur dans tous les Emplacements de Capacité de cette unité\n[WhenUse] Si la cible a 5+ de [Sinking], +1 de Puissance de Pièce\n[WhenUse] Gagne +3 d’Aggro sur cet Emplacement de Capacité au prochain tour",
+          "desc": "Gagne ([KnowledgeExplored] * 6% des PV Max.) Bouclier si cette Capacité est Défaussée\n[WhenUse] Défausse 1 Capacité du rang supérieur dans tous les Emplacements de Capacité de cette unité\n[WhenUse] Si la cible a 5 [Sinking] ou plus, +1 de Puissance de Pièce\n[WhenUse] Gagne +3 d’Aggro sur cet Emplacement de Capacité au prochain tour",
           "coinlist": [
             {},
             {
@@ -784,7 +784,7 @@
         {
           "level": 4,
           "name": "Grâce de la Connaissance",
-          "desc": "Gagne ([KnowledgeExplored] * 12% des PV Max.) Bouclier si cette Capacité est Défaussée\n[WhenUse] Gagne +10 d’Aggro sur cet Emplacement de Capacité au prochain tour\n[WhenUse] À 50%- de PV, +1 de Puissance de Pièce",
+          "desc": "Gagne ([KnowledgeExplored] * 12% des PV Max.) Bouclier si cette Capacité est Défaussée\n[WhenUse] Gagne +10 d’Aggro sur cet Emplacement de Capacité au prochain tour\n[WhenUse] À 50% de PV ou moins, +1 de Puissance de Pièce",
           "coinlist": [
             {},
             {},
@@ -852,7 +852,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 2 de [Laceration]"
+                  "desc": "[OnSucceedAttackHead] Inflige 2 [Laceration]"
                 }
               ]
             }
@@ -874,7 +874,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
                 }
               ]
             }
@@ -883,7 +883,7 @@
         {
           "level": 4,
           "name": "Repeindre",
-          "desc": "Si la cible a 6+ de [Laceration], +1 de Puissance de Duel",
+          "desc": "Si la cible a 6 [Laceration] ou plus, +1 de Puissance de Duel",
           "coinlist": [
             {},
             {
@@ -896,7 +896,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
                 }
               ]
             }
@@ -930,7 +930,7 @@
         {
           "level": 2,
           "name": "Pointillisme Sanguin",
-          "desc": "Si la cible a 6+ de [Laceration], +1 de Puissance de Duel",
+          "desc": "Si la cible a 6 [Laceration] ou plus, +1 de Puissance de Duel",
           "coinlist": [
             {
               "coindescs": [
@@ -950,7 +950,7 @@
         {
           "level": 4,
           "name": "Pointillisme Sanguin",
-          "desc": "+1 de Puissance de Duel pour chaque 3 de [Laceration] sur la cible (2 max)\n+1 de Puissance de Pièce pour chaque 3 de Compte de [Laceration] sur la cible (2 max)",
+          "desc": "+1 de Puissance de Duel pour chaque 3 [Laceration] sur la cible (2 max)\n+1 de Puissance de Pièce pour chaque 3 de Compte de [Laceration] sur la cible (2 max)",
           "coinlist": [
             {
               "coindescs": [
@@ -975,13 +975,13 @@
         {
           "level": 3,
           "name": "Coloration Hématique",
-          "desc": "Si la cible a 6+ de [Laceration], +1 de Puissance de Duel",
+          "desc": "Si la cible a 6 [Laceration] ou plus, +1 de Puissance de Duel",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]. Si la cible a 4+ types d’effets négatifs, inflige +2 de Compte de [Laceration] supplémentaire"
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]. Si la cible a 4 types d’effets négatifs ou plus, inflige +2 de Compte de [Laceration] supplémentaire"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige +3 de Compte de 1 des effets suivants : [Combustion], [Laceration], [Vibration], [Burst] ou [Sinking]. Effet choisi aléatoirement."
@@ -991,10 +991,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Laceration]. Si la cible a 4+ types d’effets négatifs, inflige 2 de [Laceration] supplémentaire"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]. Si la cible a 4 types d’effets négatifs ou plus, inflige 2 [Laceration] supplémentaire"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de Puissance de 1 des effets suivants : [Combustion], [Laceration], [Vibration], [Burst] ou [Sinking]. Effet choisi aléatoirement."
+                  "desc": "[OnSucceedAttack] Inflige 2 d’Intensité de 1 des effets suivants : [Combustion], [Laceration], [Vibration], [Burst] ou [Sinking]. Effet choisi aléatoirement."
                 }
               ]
             },
@@ -1004,7 +1004,7 @@
                   "desc": "Inflige +15% de dégâts supplémentaires pour chaque type d’effets négatifs sur la cible (75% max)"
                 },
                 {
-                  "desc": "[EndSkill] Si la cible est Déséquilibrée ou Vaincue, inflige 2 de Puissance de 1 des effets suivants à 1 ennemi avec le moins de types d’effets négatifs : [Combustion], [Laceration], [Vibration], [Burst], [Sinking]. Effet choisi aléatoirement."
+                  "desc": "[EndSkill] Si la cible est Déséquilibrée ou Vaincue, inflige 2 d’Intensité de 1 des effets suivants à 1 ennemi avec le moins de types d’effets négatifs : [Combustion], [Laceration], [Vibration], [Burst], [Sinking]. Effet choisi aléatoirement."
                 }
               ]
             }
@@ -1013,13 +1013,13 @@
         {
           "level": 4,
           "name": "Coloration Hématique",
-          "desc": "+1 de Puissance de Duel pour chaque 3 de [Laceration] sur la cible (2 max)\n+1 de Puissance de Pièce pour chaque 3 de Compte de [Laceration] sur la cible (2 max)",
+          "desc": "+1 de Puissance de Duel pour chaque 3 [Laceration] sur la cible (2 max)\n+1 de Puissance de Pièce pour chaque 3 de Compte de [Laceration] sur la cible (2 max)",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]. Si la cible a 3+ types d’effets négatifs, inflige +2 de Compte de [Laceration] supplémentaire"
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]. Si la cible a 3 types d’effets négatifs ou plus, inflige +2 de Compte de [Laceration] supplémentaire"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige +3 de Compte de 1 des effets suivants : [Combustion], [Laceration], [Vibration], [Burst] ou [Sinking]. Effet choisi aléatoirement."
@@ -1029,10 +1029,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Laceration]. Si la cible a 3+ types d’effets négatifs, inflige 2 de [Laceration] supplémentaire"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]. Si la cible a 3 types d’effets négatifs ou plus, inflige 2 [Laceration] supplémentaire"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de Puissance de 1 des effets suivants : [Combustion], [Laceration], [Vibration], [Burst] ou [Sinking]. Effet choisi aléatoirement."
+                  "desc": "[OnSucceedAttack] Inflige 2 d’Intensité de 1 des effets suivants : [Combustion], [Laceration], [Vibration], [Burst] ou [Sinking]. Effet choisi aléatoirement."
                 }
               ]
             },
@@ -1042,7 +1042,7 @@
                   "desc": "Inflige +25% de dégâts supplémentaires pour chaque type d’effets négatifs sur la cible (125% max)"
                 },
                 {
-                  "desc": "[EndSkill] Si la cible est Déséquilibrée ou Vaincue, inflige 2 de Puissance de 1 des effets suivants à 2 ennemis avec le moins de types d’effets négatifs : [Combustion], [Laceration], [Vibration], [Burst], [Sinking]. Effet choisi aléatoirement."
+                  "desc": "[EndSkill] Si la cible est Déséquilibrée ou Vaincue, inflige 2 d’Intensité de 1 des effets suivants à 2 ennemis avec le moins de types d’effets négatifs : [Combustion], [Laceration], [Vibration], [Burst], [Sinking]. Effet choisi aléatoirement."
                 }
               ]
             }
@@ -1056,7 +1056,7 @@
         {
           "level": 1,
           "name": "Brosser le Pinceau",
-          "desc": "Si la cible a 6+ de [Laceration], +5 de Puissance de Base",
+          "desc": "Si la cible a 6 [Laceration] ou plus, +5 de Puissance de Base",
           "coinlist": [
             {
               "coindescs": [
@@ -1070,7 +1070,7 @@
         {
           "level": 4,
           "name": "Brosser le Pinceau",
-          "desc": "+1 de Puissance de Base pour chaque 1 de [Laceration] sur la cible (10 max)",
+          "desc": "+1 de Puissance de Base pour chaque 1 [Laceration] sur la cible (10 max)",
           "coinlist": [
             {
               "coindescs": [
@@ -1094,7 +1094,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Consomme 1 de [BulletLament]"
+                  "desc": "Consomme 1 [BulletLament]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige du [SinkingWhite] égal au [BulletLament] consommé"
@@ -1104,7 +1104,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Consomme 1 de [BulletLament]"
+                  "desc": "Consomme 1 [BulletLament]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige du [SinkingWhite] égal au [BulletLament] consommé"
@@ -1121,7 +1121,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Consomme 1 de [BulletLament]"
+                  "desc": "Consomme 1 [BulletLament]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige du [SinkingWhite] égal au [BulletLament] consommé"
@@ -1131,7 +1131,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Consomme 1 de [BulletLament]"
+                  "desc": "Consomme 1 [BulletLament]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige du [SinkingWhite] égal au [BulletLament] consommé"
@@ -1143,12 +1143,12 @@
         {
           "level": 4,
           "name": "Cérémonie pour les Défunts",
-          "desc": "<style=\"highlight\">À 10+ de [BulletLament], +1 de Puissance de Duel</style>\nSi la somme de la [Sinking] et des [SinkingWhite] de la cible est de 6 ou plus, +1 de Puissance de Pièce\n[WinDuel] Inflige +2 de Compte de [Sinking]",
+          "desc": "<style=\"highlight\">À 10 [BulletLament] ou plus, +1 de Puissance de Duel</style>\nSi la somme de la [Sinking] et des [SinkingWhite] de la cible est de 6 ou plus, +1 de Puissance de Pièce\n[WinDuel] Inflige +2 de Compte de [Sinking]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Consomme 1 de [BulletLament]"
+                  "desc": "Consomme 1 [BulletLament]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige du [SinkingWhite] égal au [BulletLament] consommé"
@@ -1158,7 +1158,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Consomme 1 de [BulletLament]"
+                  "desc": "Consomme 1 [BulletLament]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige du [SinkingWhite] égal au [BulletLament] consommé"
@@ -1180,7 +1180,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Consomme 5 de [BulletLament]"
+                  "desc": "Consomme 5 [BulletLament]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige du [SinkingWhite] égal au [BulletLament] consommé"
@@ -1190,7 +1190,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Consomme 1 de [BulletLament]"
+                  "desc": "Consomme 1 [BulletLament]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige du [SinkingWhite] égal au [BulletLament] consommé"
@@ -1202,12 +1202,12 @@
         {
           "level": 2,
           "name": "Solennelle Lamentation pour les Vivants",
-          "desc": "Si la somme de la [Sinking] et des [SinkingWhite] de la cible est de 6 ou plus, +1 de Puissance de Pièce\n[WinDuel] Inflige +1 de Compte de [Sinking]\n[EndSkill] Gagne (plus haute Réson.) de [BulletLament] (6 max)\n- Si cette Réson. était une Réson.-A, gagne (plus haute Réson. * 2) de [BulletLament] (12 max)",
+          "desc": "Si la somme de la [Sinking] et des [SinkingWhite] de la cible est de 6 ou plus, +1 de Puissance de Pièce\n[WinDuel] Inflige +1 de Compte de [Sinking]\n[EndSkill] Gagne (plus haute Réson.) [BulletLament] (6 max)\n- Si cette Réson. était une Réson.-A, gagne (plus haute Réson. * 2) [BulletLament] (12 max)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Consomme 5 de [BulletLament]"
+                  "desc": "Consomme 5 [BulletLament]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige du [SinkingWhite] égal au [BulletLament] consommé"
@@ -1217,7 +1217,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Consomme 1 de [BulletLament]"
+                  "desc": "Consomme 1 [BulletLament]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige du [SinkingWhite] égal au [BulletLament] consommé"
@@ -1229,12 +1229,12 @@
         {
           "level": 4,
           "name": "Solennelle Lamentation pour les Vivants",
-          "desc": "À 10+ de [BulletLament], +1 de Puissance de Duel\n<style=\"highlight\">+1 de Puissance de Pièce pour chaque 6 de valeur</style> de la somme de la [Sinking] et des [SinkingWhite] de la cible <style=\"highlight\">(2 max)</style>\n[WinDuel] Inflige +1 de Compte de [Sinking]\n[EndSkill] Gagne (plus haute Réson.) de [BulletLament] (6 max)\n- Si cette Réson. était une Réson.-A, gagne (plus haute Réson. * 2) de [BulletLament] (12 max)\n- Si cette Réson. était à 4+ de Réson.-A, [ReloadLament] à la place",
+          "desc": "À 10 [BulletLament] ou plus, +1 de Puissance de Duel\n<style=\"highlight\">+1 de Puissance de Pièce pour chaque 6 de valeur</style> de la somme de la [Sinking] et des [SinkingWhite] de la cible <style=\"highlight\">(2 max)</style>\n[WinDuel] Inflige +1 de Compte de [Sinking]\n[EndSkill] Gagne (plus haute Réson.) [BulletLament] (6 max)\n- Si cette Réson. était une Réson.-A, gagne (plus haute Réson. * 2) [BulletLament] (12 max)\n- Si cette Réson. était à 4 de Réson.-A ou plus, [ReloadLament] à la place",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Consomme 5 de [BulletLament]"
+                  "desc": "Consomme 5 [BulletLament]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige du [SinkingWhite] égal au [BulletLament] consommé"
@@ -1244,7 +1244,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Consomme 1 de [BulletLament]"
+                  "desc": "Consomme 1 [BulletLament]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige du [SinkingWhite] égal au [BulletLament] consommé"
@@ -1266,7 +1266,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Consomme 1 de [BulletLament]"
+                  "desc": "Consomme 1 [BulletLament]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige du [SinkingWhite] égal au [BulletLament] consommé"
@@ -1276,7 +1276,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Consomme 6 de [BulletLament]"
+                  "desc": "Consomme 6 [BulletLament]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige du [SinkingWhite] égal au [BulletLament] consommé"
@@ -1313,7 +1313,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Consomme 1 de [BulletLament]"
+                  "desc": "Consomme 1 [BulletLament]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige du [SinkingWhite] égal au [BulletLament] consommé"
@@ -1323,7 +1323,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Consomme 6 de [BulletLament]"
+                  "desc": "Consomme 6 [BulletLament]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige du [SinkingWhite] égal au [BulletLament] consommé"
@@ -1420,7 +1420,7 @@
         {
           "level": 2,
           "name": "Bien qu’il soit à préfacer que les équipements E.G.O. sont des équipements standards,",
-          "desc": "[StartBattle] En Duel Perdu, gagne autant de Puissance Finale que de Capacités ciblant cette unité (2 max)\n[WhenUse] Gagne +3 d’[Aggro] au prochain tour\n[WhenUse] Si la cible a 15 [Burst] ou plus et 3 de Compte de [Burst] ou plus : cette Capacité n’inflige pas de [Burst] avec ses effets\n[DefeatDuel] +1 d’Intensité de [Burst] infligée par cette Capacité",
+          "desc": "[StartBattle] En Duel[TabExplain] Perdu, gagne autant de Puissance Finale que de Capacités ciblant cette unité (2 max)\n[WhenUse] Gagne +3 d’[Aggro] au prochain tour\n[WhenUse] Si la cible a 15 [Burst] ou plus et 3 de Compte de [Burst] ou plus : cette Capacité n’inflige pas de [Burst] avec ses effets\n[DefeatDuel] +1 d’Intensité de [Burst] infligée par cette Capacité",
           "coinlist": [
             {
               "coindescs": [
@@ -1447,7 +1447,7 @@
         {
           "level": 4,
           "name": "Bien qu’il soit à préfacer que les équipements E.G.O. sont des équipements standards,",
-          "desc": "[StartBattle] En Duel Perdu, gagne autant de Puissance Finale que de Capacités ciblant cette unité (3 max)\n[WhenUse] Gagne +3 d’[Aggro] au prochain tour\n[WhenUse] Si la cible a 15 [Burst] ou plus et 3 de Compte de [Burst] ou plus : cette Capacité n’inflige pas de [Burst] avec ses effets\n[DefeatDuel] +2 d’Intensité de [Burst] infligée par cette Capacité",
+          "desc": "[StartBattle] En Duel[TabExplain] Perdu, gagne autant de Puissance Finale que de Capacités ciblant cette unité (3 max)\n[WhenUse] Gagne +3 d’[Aggro] au prochain tour\n[WhenUse] Si la cible a 15 [Burst] ou plus et 3 de Compte de [Burst] ou plus : cette Capacité n’inflige pas de [Burst] avec ses effets\n[DefeatDuel] +2 d’Intensité de [Burst] infligée par cette Capacité",
           "coinlist": [
             {
               "coindescs": [
@@ -1496,7 +1496,7 @@
         {
           "level": 2,
           "name": "lorsque juxtaposé avec un équipement E.G.O. de L Corp., selon le degré de syntonisation à l’Anomalie,",
-          "desc": "[StartBattle] En Duel Perdu, gagne autant de Puissance Finale que de Capacités ciblant cette unité (3 max)\n[WhenUse] Gagne +3 d’[Aggro] au prochain tour\n[WhenUse] Si la cible a 15 [Burst] ou plus et 3 de Compte de [Burst] ou plus : cette Capacité n’inflige pas de Compte de [Burst] avec ses effets\n[DefeatDuel] +1 de Compte de [Burst] infligé par cette Capacité",
+          "desc": "[StartBattle] En Duel[TabExplain] Perdu, gagne autant de Puissance Finale que de Capacités ciblant cette unité (3 max)\n[WhenUse] Gagne +3 d’[Aggro] au prochain tour\n[WhenUse] Si la cible a 15 [Burst] ou plus et 3 de Compte de [Burst] ou plus : cette Capacité n’inflige pas de Compte de [Burst] avec ses effets\n[DefeatDuel] +1 de Compte de [Burst] infligé par cette Capacité",
           "coinlist": [
             {
               "coindescs": [
@@ -1513,7 +1513,7 @@
         {
           "level": 4,
           "name": "lorsque juxtaposé avec un équipement E.G.O. de L Corp., selon le degré de syntonisation à l’Anomalie,",
-          "desc": "[StartBattle] <style=\"highlight\">En Duel Perdu, gagne (# de Capacités ciblant cette unité * 2) de Puissance Finale (6 max)</style>\n[WhenUse] Gagne +4 d’[Aggro] au prochain tour\n[WhenUse] Si la cible a 15 [Burst] ou plus et 3 de Compte de [Burst] ou plus : cette Capacité n’inflige pas de Compte de [Burst] avec ses effets\n[DefeatDuel] +2 de Compte de [Burst] infligé par cette Capacité",
+          "desc": "[StartBattle] <style=\"highlight\">En Duel[TabExplain] Perdu, gagne (# de Capacités ciblant cette unité * 2) de Puissance Finale (6 max)</style>\n[WhenUse] Gagne +4 d’[Aggro] au prochain tour\n[WhenUse] Si la cible a 15 [Burst] ou plus et 3 de Compte de [Burst] ou plus : cette Capacité n’inflige pas de Compte de [Burst] avec ses effets\n[DefeatDuel] +2 de Compte de [Burst] infligé par cette Capacité",
           "coinlist": [
             {
               "coindescs": [

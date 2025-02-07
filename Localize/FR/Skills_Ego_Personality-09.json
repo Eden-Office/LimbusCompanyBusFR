@@ -15,7 +15,7 @@
                   "desc": "[OnSucceedAttack] Inflige +3 de Compte de Tremblement"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 2 de Ralentissement au prochain tour"
+                  "desc": "[OnSucceedAttackHead] Inflige 2 Ralentissement au prochain tour"
                 }
               ]
             }
@@ -30,10 +30,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de Tremblement et +5 de Compte de Tremblement"
+                  "desc": "[OnSucceedAttack] Inflige 3 Tremblement et +5 de Compte de Tremblement"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 2 de Ralentissement au prochain tour"
+                  "desc": "[OnSucceedAttackHead] Inflige 2 Ralentissement au prochain tour"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Déclenche un Sursaut de Tremblement"
@@ -51,10 +51,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de Tremblement et +7 de Compte de Tremblement"
+                  "desc": "[OnSucceedAttack] Inflige 3 Tremblement et +7 de Compte de Tremblement"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 2 de Ralentissement au prochain tour"
+                  "desc": "[OnSucceedAttackHead] Inflige 2 Ralentissement au prochain tour"
                 },
                 {
                   "desc": "[OnSucceedAttack] Déclenche un Sursaut de Tremblement"
@@ -98,7 +98,7 @@
                   "desc": "[OnSucceedAttack] Se soigne de 30% des dégâts infligés"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de Malus de Niveau Défensif"
+                  "desc": "[OnSucceedAttack] Inflige 3 Malus de Niveau Défensif"
                 },
                 {
                   "desc": "[OnSucceedAttack] Déclenche un Sursaut de Tremblement"
@@ -119,7 +119,7 @@
                   "desc": "[OnSucceedAttack] Se soigne de 30% des dégâts infligés"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 5 de Malus de Niveau Défensif"
+                  "desc": "[OnSucceedAttack] Inflige 5 Malus de Niveau Défensif"
                 },
                 {
                   "desc": "[OnSucceedAttack] Déclenche un Sursaut de Tremblement"
@@ -142,7 +142,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de Vulnérabilité de Paresse au prochain tour"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 Vulnérabilité de Paresse au prochain tour"
                 },
                 {
                   "desc": "[EndSkill] Soigne 2 autres alliés avec le moins de pourcentage de PV de 15% des PV Max. de cette unité"
@@ -160,7 +160,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de Vulnérabilité de Paresse au prochain tour"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 Vulnérabilité de Paresse au prochain tour"
                 },
                 {
                   "desc": "[EndSkill] Soigne 2 autres alliés avec le moins de pourcentage de PV de 25% des PV Max. de cette unité"
@@ -181,7 +181,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de Vulnérabilité de Paresse au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 Vulnérabilité de Paresse au prochain tour"
                 },
                 {
                   "desc": "[EndSkill] Soigne 2 autres alliés avec le moins de pourcentage de PV de 30% des PV Max. de cette unité"
@@ -220,7 +220,7 @@
           "level": 3,
           "name": "Poursuite",
           "abName": "Scribe de l’Exécuteur Divin",
-          "desc": "[CantIdentify]\nCible aléatoirement\n[BeforeAttack] À 50%- de PV, +1 de Poids d’Attaque",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[BeforeAttack] À 50% de PV ou moins, +1 de Poids d’Attaque",
           "coinlist": [
             {
               "coindescs": [
@@ -241,7 +241,7 @@
           "level": 4,
           "name": "Poursuite",
           "abName": "Scribe de l’Exécuteur Divin",
-          "desc": "[CantIdentify]\nCible aléatoirement\n[BeforeAttack] À 50%- de PV, +2 de Poids d’Attaque",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[BeforeAttack] À 50% de PV ou moins, +2 de Poids d’Attaque",
           "coinlist": [
             {
               "coindescs": [
@@ -267,12 +267,12 @@
           "level": 1,
           "name": "Désir Sanguin",
           "abName": "Les Chaussures Rouges",
-          "desc": "+1 de Puissance de Pièce pour chaque  2 de [Laceration] sur la cible (6 max)\n[StartBattle] La cible principale de cette Capacité ne perd pas de Compte de [Laceration] pendant ce tour.\n[EndSkill] Pendant 3 tours, perd 10 PSM à la Fin du Tour.",
+          "desc": "+1 de Puissance de Pièce pour chaque 2 [Laceration] sur la cible (6 max)\n[StartBattle] La cible principale de cette Capacité ne perd pas de Compte de [Laceration] pendant ce tour.\n[EndSkill] Pendant 3 tours, perd 10 PSM à la Fin du Tour.",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige autant de dégâts d’Affinité de Luxure que de Puissance de [Laceration] sur la cible.\n- À 4+ de Réson. de Luxure, inflige des dégâts de Luxure égaux à (Puissance de [Laceration] sur la cible * 1.2).\n(Un maximum de 99 de Puissance de [Laceration] sera utilisé pour le calcul de cette Capacité.)",
+                  "desc": "[OnSucceedAttack] Inflige autant de dégâts d’Affinité de Luxure que d’Intensité de [Laceration] sur la cible.\n- À 4 de Réson. de Luxure ou plus, inflige des dégâts de Luxure égaux à (Intensité de [Laceration] sur la cible * 1.2).\n(Un maximum de 99 d’Intensité de [Laceration] sera utilisé pour le calcul de cette Capacité.)",
                   "summary": "[OnSucceedAttack] Inflige des dégâts d’Affinité de Luxure basés sur le [Laceration] sur la cible"
                 },
                 {
@@ -287,12 +287,12 @@
           "level": 3,
           "name": "Désir Sanguin",
           "abName": "Les Chaussures Rouges",
-          "desc": "+1 de Puissance de Pièce pour chaque  2 de [Laceration] sur la cible (<style=\"highlight\">9</style> max)\n[StartBattle] La cible principale de cette Capacité ne perd pas de Compte de [Laceration] pendant ce tour.\n[EndSkill] Pendant 3 tours, perd 10 PSM à la Fin du Tour.",
+          "desc": "+1 de Puissance de Pièce pour chaque  2 [Laceration] sur la cible (<style=\"highlight\">9</style> max)\n[StartBattle] La cible principale de cette Capacité ne perd pas de Compte de [Laceration] pendant ce tour.\n[EndSkill] Pendant 3 tours, perd 10 PSM à la Fin du Tour.",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige des dégâts de Luxure égaux à <style=\"highlight\">(Puissance de [Laceration] sur la cible * 1.2)</style>.\n- À 4+ de Réson. de Luxure, inflige des dégâts de Luxure égaux à (Puissance de [Laceration] sur la cible * <style=\"highlight\">1.5</style>).\n<style=\"highlight\">- À 4+ de Réson.-A de Luxure, inflige des dégâts d’Affinité de Luxure égaux à (Puissance de [Laceration] sur la cible * 1.8).</style>\n(Un maximum de 99 de Puissance de [Laceration] sera utilisé pour le calcul de cette Capacité.)",
+                  "desc": "[OnSucceedAttack] Inflige des dégâts de Luxure égaux à <style=\"highlight\">(Intensité de [Laceration] sur la cible * 1.2)</style>.\n- À 4 de Réson. ou plus de Luxure, inflige des dégâts de Luxure égaux à (Intensité de [Laceration] sur la cible * <style=\"highlight\">1.5</style>).\n<style=\"highlight\">- À 4 de Réson.-A ou plus de Luxure, inflige des dégâts d’Affinité de Luxure égaux à (Intensité de [Laceration] sur la cible * 1.8).</style>\n(Un maximum de 99 d’Intensité de [Laceration] sera utilisé pour le calcul de cette Capacité.)",
                   "summary": "[OnSucceedAttack] Inflige des dégâts d’Affinité de Luxure basés sur le [Laceration] sur la cible"
                 },
                 {
@@ -307,12 +307,12 @@
           "level": 4,
           "name": "Désir Sanguin",
           "abName": "Les Chaussures Rouges",
-          "desc": "+1 de Puissance de Pièce pour chaque  2 de [Laceration] sur la cible (<style=\"highlight\">13</style> max)\n[StartBattle] La cible principale de cette Capacité ne perd pas de Compte de [Laceration] pendant ce tour.\n[EndSkill] Pendant 3 tours, perd 10 PSM à la Fin du Tour.",
+          "desc": "+1 de Puissance de Pièce pour chaque  2 [Laceration] sur la cible (<style=\"highlight\">13</style> max)\n[StartBattle] La cible principale de cette Capacité ne perd pas de Compte de [Laceration] pendant ce tour.\n[EndSkill] Pendant 3 tours, perd 10 PSM à la Fin du Tour.",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige des dégâts d’Affinité de Luxure égaux à (Puissance de [Laceration] sur la cible * <style=\"highlight\">1.5</style>)\n- À 4+ de Réson. de Luxure, inflige des dégâts de Luxure égaux à (Puissance de [Laceration] sur la cible * <style=\"highlight\">1.8</style>).\n- À 4+ de Réson.-A de Luxure, inflige des dégâts d’Affinité de Luxure égaux à (Puissance de [Laceration] sur la cible * <style=\"highlight\">2</style>).\n(Un maximum de 99 de Puissance de [Laceration] sera utilisé pour le calcul de cette Capacité.)",
+                  "desc": "[OnSucceedAttack] Inflige des dégâts d’Affinité de Luxure égaux à (Intensité de [Laceration] sur la cible * <style=\"highlight\">1.5</style>)\n- À 4 de Réson. ou plus de Luxure, inflige des dégâts de Luxure égaux à (Intensité de [Laceration] sur la cible * <style=\"highlight\">1.8</style>).\n- À 4 de Réson.-A ou plus de Luxure, inflige des dégâts d’Affinité de Luxure égaux à (Intensité de [Laceration] sur la cible * <style=\"highlight\">2</style>).\n(Un maximum de 99 d’Intensité de [Laceration] sera utilisé pour le calcul de cette Capacité.)",
                   "summary": "[OnSucceedAttack] Inflige des dégâts d’Affinité de Luxure basés sur le [Laceration] sur la cible"
                 },
                 {
@@ -337,8 +337,8 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige (2 + (Réson. de Luxure)) de [Laceration]\n(Réson. de Luxure Maximum pris en compte : 4)",
-                  "summary": "[OnSucceedAttack] Inflige (2 + (Réson. de Luxure)) de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige (2 + (Réson. de Luxure)) [Laceration]\n(Réson. de Luxure Maximum pris en compte : 4)",
+                  "summary": "[OnSucceedAttack] Inflige (2 + (Réson. de Luxure)) [Laceration]"
                 }
               ]
             }
@@ -353,8 +353,8 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige (<style=\"highlight\">3</style> + (Réson. de Luxure)) de [Laceration]\n(Réson. de Luxure Maximum pris en compte : <style=\"highlight\">5</style>)",
-                  "summary": "[OnSucceedAttack] Inflige (3 + (Réson. de Luxure)) de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige (<style=\"highlight\">3</style> + (Réson. de Luxure)) [Laceration]\n(Réson. de Luxure Maximum pris en compte : <style=\"highlight\">5</style>)",
+                  "summary": "[OnSucceedAttack] Inflige (3 + (Réson. de Luxure)) [Laceration]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
@@ -372,8 +372,8 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige (<style=\"highlight\">4</style> + (Réson. de Luxure)) de [Laceration]\n(Réson. de Luxure Maximum pris en compte : <style=\"highlight\">6</style>)",
-                  "summary": "[OnSucceedAttack] Inflige (4 + (Réson. de Luxure)) de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige (<style=\"highlight\">4</style> + (Réson. de Luxure)) [Laceration]\n(Réson. de Luxure Maximum pris en compte : <style=\"highlight\">6</style>)",
+                  "summary": "[OnSucceedAttack] Inflige (4 + (Réson. de Luxure)) [Laceration]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige +<style=\"highlight\">3</style> de Compte de [Laceration]"
@@ -396,17 +396,17 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Curse]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Curse]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 2 de [NailPersonality]"
+                  "desc": "[OnSucceedAttackHead] Inflige 2 [NailPersonality]"
                 }
               ]
             }
@@ -421,17 +421,17 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Curse]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Curse]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 2 de [NailPersonality]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackHead] Inflige 2 [NailPersonality]"
                 }
               ]
             }
@@ -441,22 +441,22 @@
           "level": 4,
           "name": "Clou Maudit",
           "abName": "Blessant Ours en Peluche",
-          "desc": "[EndSkill] Soigne soi-même et 2 autre alliés avec le moins de pourcentage de PV de <style=\"highlight\">15%</style> des PV max de cette unité\n- Chaque unité recevant du soin regagne +2.5% de PV supplémentaire pour <style=\"highlight\">chaque</style> effet négatif sur elle (<style=\"highlight\">10%</style> max)\n<style=\"highlight\">- À 4+ de Réson. d’Envie incluant cette Capacité, soigne 1 allié supplémentaire</style>",
+          "desc": "[EndSkill] Soigne soi-même et 2 autre alliés avec le moins de pourcentage de PV de <style=\"highlight\">15%</style> des PV max de cette unité\n- Chaque unité recevant du soin regagne +2.5% de PV supplémentaire pour <style=\"highlight\">chaque</style> effet négatif sur elle (<style=\"highlight\">10%</style> max)\n<style=\"highlight\">- À 4 de Réson. ou plus d’Envie incluant cette Capacité, soigne 1 allié supplémentaire</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">4</style> de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">4</style> [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> de [Curse]"
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> [Curse]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige <style=\"highlight\">3</style> de [NailPersonality]"
+                  "desc": "[OnSucceedAttackHead] Inflige <style=\"highlight\">3</style> [NailPersonality]"
                 }
               ]
             }
@@ -476,7 +476,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
@@ -486,10 +486,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Curse]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Curse]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Inflige 2 de [NailPersonality]"
+                  "desc": "[OnSucceedAttackTail] Inflige 2 [NailPersonality]"
                 }
               ]
             }
@@ -499,25 +499,25 @@
           "level": 3,
           "name": "Clou Maudit",
           "abName": "Blessant Ours en Peluche",
-          "desc": "[CantIdentify]\nCible aléatoirement\n[EndSkill] Soigne 3 autre alliés avec le moins de pourcentage de PV de 15% des PV max de cette unité\n<style=\"highlight\">- Chaque unité recevant du soin gagne 1 de [AttackUp] jusqu’au prochain tour pour chaque 2 effets négatifs sur elle (2 max)</style>",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[EndSkill] Soigne 3 autre alliés avec le moins de pourcentage de PV de 15% des PV max de cette unité\n<style=\"highlight\">- Chaque unité recevant du soin gagne 1 [AttackUp] jusqu’au prochain tour pour chaque 2 effets négatifs sur elle (2 max)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Curse]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Curse]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Inflige 2 de [NailPersonality]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackTail] Inflige 2 [NailPersonality]"
                 }
               ]
             }
@@ -527,25 +527,25 @@
           "level": 4,
           "name": "Clou Maudit",
           "abName": "Blessant Ours en Peluche",
-          "desc": "[CantIdentify]\nCible aléatoirement\n[EndSkill] Soigne 3 autre alliés avec le moins de pourcentage de PV de <style=\"highlight\">20%</style> des PV max de cette unité\n- Chaque unité recevant du soin gagne 1 de [AttackUp] jusqu’au prochain tour pour <style=\"highlight\">chaque</style> effets négatifs sur elle (<style=\"highlight\">3</style> max)\n<style=\"highlight\">- À 4+ de Réson. d’Envie incluant cette Capacité, soigne 1 allié supplémentaire</style>",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[EndSkill] Soigne 3 autre alliés avec le moins de pourcentage de PV de <style=\"highlight\">20%</style> des PV max de cette unité\n- Chaque unité recevant du soin gagne 1 [AttackUp] jusqu’au prochain tour pour <style=\"highlight\">chaque</style> effets négatifs sur elle (<style=\"highlight\">3</style> max)\n<style=\"highlight\">- À 4 de Réson. ou plus d’Envie incluant cette Capacité, soigne 1 allié supplémentaire</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">4</style> de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">4</style> [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> de [Curse]"
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> [Curse]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Inflige <style=\"highlight\">3</style> de [NailPersonality]"
+                  "desc": "[OnSucceedAttackTail] Inflige <style=\"highlight\">3</style> [NailPersonality]"
                 }
               ]
             }

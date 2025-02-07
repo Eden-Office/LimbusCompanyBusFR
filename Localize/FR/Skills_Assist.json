@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Coup Carmin",
-          "desc": "[WhenUse] Si la cible a 5+ effets négatifs, +1 de Puissance de Duel\n[WhenUse] +1 de Puissance de Base pour chaque 3 de [Burst] sur la cible (2 max)",
+          "desc": "[WhenUse] Si la cible a 5 effets négatifs ou plus, +1 de Puissance de Duel\n[WhenUse] +1 de Puissance de Base pour chaque 3 [Burst] sur la cible (2 max)",
           "coinlist": [
             {
               "coindescs": [
@@ -14,7 +14,7 @@
                   "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Gagne 1 de [AttackUp] au prochain tour"
+                  "desc": "[OnSucceedAttackHead] Gagne 1 [AttackUp] au prochain tour"
                 }
               ]
             },
@@ -24,7 +24,7 @@
                   "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Gagne 1 de [AttackUp] au prochain tour"
+                  "desc": "[OnSucceedAttackHead] Gagne 1 [AttackUp] au prochain tour"
                 }
               ]
             }
@@ -38,7 +38,7 @@
         {
           "level": 1,
           "name": "Phoenix Carmin",
-          "desc": "[WhenUse] Si la cible a 5+ effets négatifs, +1 de Puissance de Pièce\n[WhenUse] +1 de Puissance de Pièce pour chaque 6 de [Burst] sur la cible (2 max)",
+          "desc": "[WhenUse] Si la cible a 5 effets négatifs ou plus, +1 de Puissance de Pièce\n[WhenUse] +1 de Puissance de Pièce pour chaque 6 [Burst] sur la cible (2 max)",
           "coinlist": [
             {
               "coindescs": [
@@ -46,7 +46,7 @@
                   "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [DefenseDown]"
                 }
               ]
             },
@@ -56,7 +56,7 @@
                   "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gagne 3 de [AttackUp] au prochain tour"
+                  "desc": "[OnSucceedAttack] Gagne 3 [AttackUp] au prochain tour"
                 }
               ]
             },
@@ -79,7 +79,7 @@
                   "desc": "[CriticalEnemyTargetKillFail] Inflige +2 de Compte de [Burst]"
                 },
                 {
-                  "desc": "[CriticalEnemyTargetKill] Gagne 3 de [AttackUp] au prochain tour"
+                  "desc": "[CriticalEnemyTargetKill] Gagne 3 [AttackUp] au prochain tour"
                 }
               ]
             }
@@ -93,12 +93,12 @@
         {
           "level": 1,
           "name": "Printemps Carmin",
-          "desc": "[StartBattle] Gagne +1 de Poids d’Atq pour chaque 4 effets négatifs sur la cible (2 max)\n[WhenUse] Si la cible a 5+ effets négatifs, +5 de Puissance de Base\n[WhenUse] Si la somme de la [Burst] et du Compte de [Burst] de la cible est de 15+, +5 de Puissance de Pièce\n[WinDuel] Inflige +2 de Compte de [Burst]",
+          "desc": "[StartBattle] Gagne +1 de Poids d’Atq pour chaque 4 effets négatifs sur la cible (2 max)\n[WhenUse] Si la cible a 5 effets négatifs ou plus, +5 de Puissance de Base\n[WhenUse] Si la somme de la [Burst] et du Compte de [Burst] de la cible est de 15 ou plus, +5 de Puissance de Pièce\n[WinDuel] Inflige +2 de Compte de [Burst]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 7 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 7 [Laceration]"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Inflige +200% de dégâts supplémentaires"
@@ -107,7 +107,7 @@
                   "desc": "[CriticalOnSucceedAttack] Inflige +3 de Compte de [Laceration]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Gagne 2 de [Breath] et +1 de Compte de [Breath]"
+                  "desc": "[CriticalOnSucceedAttack] Gagne 2 [Breath] et +1 de Compte de [Breath]"
                 }
               ]
             }
@@ -121,7 +121,7 @@
         {
           "level": 1,
           "name": "Esquive Habile",
-          "desc": "[OnSucceedEvade] Gagne 1 de [Breath] au prochain tour. (3 fois par tour)"
+          "desc": "[OnSucceedEvade] Gagne 1 [Breath] au prochain tour. (3 fois par tour)"
         }
       ]
     }

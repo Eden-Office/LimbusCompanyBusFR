@@ -7,7 +7,7 @@
           "level": 1,
           "name": "Jardin d’Épines",
           "abName": "Panneau de Roses",
-          "desc": "[BeforeAttack] À 3+ de plus haute Réson., +1 de Poids d’Atq\n[WhenUse] Applique 1 de 'Bonus de Dégâts de (Affinité de Péché Correspondante)' et 1 de 'Bonus de Puissance de (Affinité de Péché Correspondante) à (1 + # de plus haute Réson.) alliés.\n- À 4+ de Réson. Correspondante, applique 1 de 'Bonus de Dégâts de (Affinité de Péché Correspondante)' supplémentaire",
+          "desc": "[BeforeAttack] À 3 de plus haute Réson. ou plus, +1 de Poids d’Atq\n[WhenUse] Applique 1 'Bonus de Dégâts de (Affinité de Péché Correspondante)' et 1 'Bonus de Puissance de (Affinité de Péché Correspondante) à (1 + # de plus haute Réson.) alliés.\n- À 4 de Réson. Correspondante ou plus, applique 1 'Bonus de Dégâts de (Affinité de Péché Correspondante)' supplémentaire",
           "coinlist": [
             {
               "coindescs": [
@@ -22,7 +22,7 @@
           "level": 3,
           "name": "Jardin d’Épines",
           "abName": "Panneau de Roses",
-          "desc": "[BeforeAttack] Gagne (# de plus haute Réson. - 2) de Poids d’Atq (2 Max)\n[WhenUse] Applique 1 de 'Bonus de Dégâts de (Affinité de Péché Correspondante)' et 1 de 'Bonus de Puissance de (Affinité de Péché Correspondante) à (2 + # de plus haute Réson.) alliés.\n- À 4+ de Réson. Correspondante, applique 1 de 'Bonus de Dégâts de (Affinité de Péché Correspondante)' supplémentaire\n- À 5+ de Réson. Correspondante, applique 1 de 'Bonus de Puissance de (Affinité de Péché Correspondante)' supplémentaire",
+          "desc": "[BeforeAttack] Gagne (# de plus haute Réson. - 2) de Poids d’Atq (2 Max)\n[WhenUse] Applique 1 'Bonus de Dégâts de (Affinité de Péché Correspondante)' et 1 'Bonus de Puissance de (Affinité de Péché Correspondante) à (2 + # de plus haute Réson.) alliés.\n- À 4 de Réson. Correspondante ou plus, applique 1 'Bonus de Dégâts de (Affinité de Péché Correspondante)' supplémentaire\n- À 5 de Réson. Correspondante ou plus, applique 1 'Bonus de Puissance de (Affinité de Péché Correspondante)' supplémentaire",
           "coinlist": [
             {
               "coindescs": [
@@ -37,7 +37,7 @@
           "level": 4,
           "name": "Jardin d’Épines",
           "abName": "Panneau de Roses",
-          "desc": "[BeforeAttack] Gagne (# de plus haute Réson. - 2) de Poids d’Atq (3 max)\n[WhenUse] Applique 1 de 'Bonus de Dégâts de (Affinité de Péché Correspondante)' et 1 de 'Bonus de Puissance de (Affinité de Péché Correspondante) à (4 + # de plus haute Réson.) alliés.\n- À 4+ de Réson. Correspondante, applique 1 de 'Bonus de Dégâts de (Affinité de Péché Correspondante)' supplémentaire\n- À 5+ de Réson. Correspondante, applique 1 de 'Bonus de Puissance de (Affinité de Péché Correspondante)' supplémentaire\n- À 6+ de Réson. Correspondante, applique également les effets ci-dessus au tour suivant",
+          "desc": "[BeforeAttack] Gagne (# de plus haute Réson. - 2) de Poids d’Atq (3 max)\n[WhenUse] Applique 1 'Bonus de Dégâts de (Affinité de Péché Correspondante)' et 1 'Bonus de Puissance de (Affinité de Péché Correspondante) à (4 + # de plus haute Réson.) alliés.\n- À 4 de Réson. Correspondante ou plus, applique 1 'Bonus de Dégâts de (Affinité de Péché Correspondante)' supplémentaire\n- À 5 de Réson. Correspondante ou plus, applique 1 'Bonus de Puissance de (Affinité de Péché Correspondante)' supplémentaire\n- À 6 de Réson. Correspondante ou plus, applique également les effets ci-dessus au tour suivant",
           "coinlist": [
             {
               "coindescs": [
@@ -57,15 +57,15 @@
           "level": 1,
           "name": "Jardin d’Épines",
           "abName": "Panneau de Roses",
-          "desc": "[CantIdentify]\nCible Aléatoirement\n[BeforeAttack] À 3+ de plus haute Réson., +1 de Poids d’Atq",
+          "desc": "[CantIdentify]\nCible Aléatoirement\n[BeforeAttack] À 3 de plus haute Réson. ou plus, +1 de Poids d’Atq",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [AttackDmgDown]. Inflige 2 de [Binding] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 [AttackDmgDown]. Inflige 2 [Binding] au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de 'Vulnérabilité' et 1 de 'Malus de Puissance' à l’Affinité de Péché avec le plus haut compte de Réson.\n- À 4+ de Réson. Correspondante, inflige 1 de 'Vulnérabilité de (Affinité de Péché Correspondante)' supplémentaire"
+                  "desc": "[OnSucceedAttack] Inflige 1 Vulnérabilité et 1 Malus de Puissance à l’Affinité de Péché avec le plus haut compte de Réson.\n- À 4 de Réson. Correspondante ou plus, inflige 1 'Vulnérabilité de (Affinité de Péché Correspondante)' supplémentaire"
                 }
               ]
             }
@@ -80,10 +80,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [AttackDmgDown]. Inflige 2 de [Binding] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 [AttackDmgDown]. Inflige 2 [Binding] au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de 'Vulnérabilité' et 1 de 'Malus de Puissance' à l’Affinité de Péché avec le plus haut compte de Réson.\n- À 4+ de Réson. Correspondante, inflige 1 de 'Vulnérabilité de (Affinité de Péché Correspondante)' supplémentaire\n- À 5+ de Réson. Correspondante, inflige 1 de 'Malus de Puissance de (Affinité de Péché Correspondante)' supplémentaire"
+                  "desc": "[OnSucceedAttack] Inflige 1 'Vulnérabilité' et 1 'Malus de Puissance' à l’Affinité de Péché avec le plus haut compte de Réson.\n- À 4 de Réson. Correspondante ou plus, inflige 1 'Vulnérabilité de (Affinité de Péché Correspondante)' supplémentaire\n- À 5 de Réson. Correspondante ou plus, inflige 1 'Malus de Puissance de (Affinité de Péché Correspondante)' supplémentaire"
                 }
               ]
             }
@@ -98,10 +98,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [AttackDmgDown]. Inflige 2 de [Binding] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 [AttackDmgDown]. Inflige 2 [Binding] au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de 'Vulnérabilité' et 1 de 'Malus de Puissance' à l’Affinité de Péché avec le plus haut compte de Réson.\n- À 4+ de Réson. Correspondante, inflige 1 de 'Vulnérabilité de (Affinité de Péché Correspondante)' supplémentaire\n- À 5+ de Réson. Correspondante, inflige 1 de 'Malus de Puissance de (Affinité de Péché Correspondante)' supplémentaire\n- À 6+ de Réson. Correspondante, applique également les effets ci-dessus au tour suivant"
+                  "desc": "[OnSucceedAttack] Inflige 1 'Vulnérabilité' et 1 'Malus de Puissance' à l’Affinité de Péché avec le plus haut compte de Réson.\n- À 4 de Réson. Correspondante ou plus, inflige 1 'Vulnérabilité de (Affinité de Péché Correspondante)' supplémentaire\n- À 5 de Réson. Correspondante ou plus, inflige 1 'Malus de Puissance de (Affinité de Péché Correspondante)' supplémentaire\n- À 6 de Réson. Correspondante ou plus, applique également les effets ci-dessus au tour suivant"
                 }
               ]
             }
@@ -116,7 +116,7 @@
           "level": 1,
           "name": "Jours d’Antan",
           "abName": "Portrait d’un Certain Jour",
-          "desc": "[EndSkill] Rend 10 PSM à soi-même et 2 autres alliés avec le moins de PSM\n- Si la cible survit à cette attaque, consomme 5 de Compte de [Sinking] sur la cible, puis rend des PSM supplémentaires (à soi et aux alliés affectés) égaux à la Puissance de [Sinking] sur la cible (Soin de PSM Max : 20)\n- Si la cible est vaincue, inflige 3 de [Sinking] sur 2 ennemis aléatoires (pour les Affrontements Concentrés, des Parties aléatoires)",
+          "desc": "[EndSkill] Rend 10 PSM à soi-même et 2 autres alliés avec le moins de PSM\n- Si la cible survit à cette attaque, consomme 5 de Compte de [Sinking] sur la cible, puis rend des PSM supplémentaires (à soi et aux alliés affectés) égaux à l’Intensité de [Sinking] sur la cible (Soin de PSM Max : 20)\n- Si la cible est vaincue, inflige 3 [Sinking] sur 2 ennemis aléatoires (pour les Affrontements Concentrés, des Parties aléatoires)",
           "coinlist": [
             {
               "coindescs": [
@@ -129,7 +129,7 @@
           "level": 3,
           "name": "Jours d’Antan",
           "abName": "Portrait d’un Certain Jour",
-          "desc": "[EndSkill] Rend <style=\"highlight\">12</style> PSM à soi-même et 2 autres alliés avec le moins de PSM\n- Si la cible survit à cette attaque, consomme 5 de Compte de [Sinking] sur la cible, puis rend des PSM supplémentaires (à soi et aux alliés affectés) égaux à la Puissance de [Sinking] sur la cible (Soin de PSM Max : 20)\n- Si la cible est vaincue, inflige 3 de [Sinking] et <style=\"highlight\">1 de [Curse]</style> sur 2 ennemis aléatoires (pour les Affrontements Concentrés, des Parties aléatoires)",
+          "desc": "[EndSkill] Rend <style=\"highlight\">12</style> PSM à soi-même et 2 autres alliés avec le moins de PSM\n- Si la cible survit à cette attaque, consomme 5 de Compte de [Sinking] sur la cible, puis rend des PSM supplémentaires (à soi et aux alliés affectés) égaux à l’Intensité de [Sinking] sur la cible (Soin de PSM Max : 20)\n- Si la cible est vaincue, inflige 3 [Sinking] et <style=\"highlight\">1 [Curse]</style> sur 2 ennemis aléatoires (pour les Affrontements Concentrés, des Parties aléatoires)",
           "coinlist": [
             {
               "coindescs": [
@@ -142,7 +142,7 @@
           "level": 4,
           "name": "Jours d’Antan",
           "abName": "Portrait d’un Certain Jour",
-          "desc": "[EndSkill] Rend <style=\"highlight\">15</style> PSM à soi-même et 2 autres alliés avec le moins de PSM\n- Si la cible survit à cette attaque, consomme <style=\"highlight\">3</style> de Compte de [Sinking] sur la cible, puis rend des PSM supplémentaires (à soi et aux alliés affectés) égaux à la Puissance de [Sinking] sur la cible (Soin de PSM Max : 20)\n- Si la cible est vaincue, inflige 3 de [Sinking] et 1 de [Curse] sur <style=\"highlight\">3</style> ennemis aléatoires (pour les Affrontements Concentrés, des Parties aléatoires)",
+          "desc": "[EndSkill] Rend <style=\"highlight\">15</style> PSM à soi-même et 2 autres alliés avec le moins de PSM\n- Si la cible survit à cette attaque, consomme <style=\"highlight\">3</style> de Compte de [Sinking] sur la cible, puis rend des PSM supplémentaires (à soi et aux alliés affectés) égaux à l’Intensité de [Sinking] sur la cible (Soin de PSM Max : 20)\n- Si la cible est vaincue, inflige 3 [Sinking] et 1 [Curse] sur <style=\"highlight\">3</style> ennemis aléatoires (pour les Affrontements Concentrés, des Parties aléatoires)",
           "coinlist": [
             {
               "coindescs": [
@@ -165,13 +165,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [AzureTakeDamageUp]. À 3+ de Réson. de Peine, inflige 1 de [AzureTakeDamageUp] supplémentaire"
+                  "desc": "[OnSucceedAttack] Inflige 2 [AzureTakeDamageUp]. À 3 de Réson. de Peine ou plus, inflige 1 [AzureTakeDamageUp] supplémentaire"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Curse]"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Curse]"
                 }
               ]
             }
@@ -186,13 +186,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [AzureTakeDamageUp]. Inflige 1 de [AzureTakeDamageUp] supplémentaire pour chaque 3 de Réson. de Peine (2 max)"
+                  "desc": "[OnSucceedAttack] Inflige 2 [AzureTakeDamageUp]. Inflige 1 [AzureTakeDamageUp] supplémentaire pour chaque 3 de Réson. de Peine (2 max)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Curse]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Curse]"
                 }
               ]
             }
@@ -207,13 +207,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [AzureTakeDamageUp]. Inflige 1 de [AzureTakeDamageUp] supplémentaire pour chaque 2 de Réson. de Peine (2 max)"
+                  "desc": "[OnSucceedAttack] Inflige 2 [AzureTakeDamageUp]. Inflige 1 [AzureTakeDamageUp] supplémentaire pour chaque 2 de Réson. de Peine (2 max)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Curse]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Curse]"
                 }
               ]
             }
@@ -228,32 +228,32 @@
           "level": 1,
           "name": "Solennelle Lamentation",
           "abName": "La Funéraille des Papillons Morts",
-          "desc": "Lorsque cette Capacité lance une Pièce, chaque Pièce est jouée contre un ennemi aléatoire parmi ses cibles.\n- La première Pièce cible toujours la cible principale.\n- Tous les effets ‘En Touche’ et les dégâts infligés par chaque Pièce sont infligés uniquement contre la cible aléatoire choisie par la Pièce.\nEn infligeant [SinkingWhite] avec les effets de cette Capacité : (Chances de faire Pile)% de chances d’infliger Les Défunts. Si cette unité n’a pas infligé Les Défunts, inflige Les Vivants à la place. (Calcule chaque stack de [SinkingWhite] indépendamment)",
+          "desc": "Lorsque cette Capacité lance une Pièce, chaque Pièce est jouée contre un ennemi aléatoire parmi ses cibles.\n- La première Pièce cible toujours la cible principale.\n- Tous les effets ‘En Touche’ et les dégâts infligés par chaque Pièce sont infligés uniquement contre la cible aléatoire choisie par la Pièce.\nEn infligeant [SinkingWhite] avec les effets de cette Capacité : (Chances de faire Pile)% de chances d’infliger Les Défunts. Si cette unité n’a pas infligé Les Défunts, inflige Les Vivants à la place. (Calcule chaque instance de [SinkingWhite] indépendamment)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [SinkingWhite] aléatoire"
+                  "desc": "[OnSucceedAttack] Inflige 1 [SinkingWhite] aléatoire"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [SinkingWhite] aléatoire"
+                  "desc": "[OnSucceedAttack] Inflige 1 [SinkingWhite] aléatoire"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1~2 de [SinkingWhite] aléatoire"
+                  "desc": "[OnSucceedAttack] Inflige 1~2 [SinkingWhite] aléatoire"
                 },
                 {
                   "desc": "[OnSucceedAttack] Perd 2~6 PSM"
                 },
                 {
-                  "desc": "[OnSucceedAttack] À 0+ PSM, Réutilise cette Pièce (5 fois max par Capacité)"
+                  "desc": "[OnSucceedAttack] À 0 PSM ou plus, Réutilise cette Pièce (5 fois max par Capacité)"
                 }
               ]
             }
@@ -263,32 +263,32 @@
           "level": 3,
           "name": "Solennelle Lamentation",
           "abName": "La Funéraille des Papillons Morts",
-          "desc": "Lorsque cette Capacité lance une Pièce, chaque Pièce est jouée contre un ennemi aléatoire parmi ses cibles.\n- La première Pièce cible toujours la cible principale.\n- Tous les effets ‘En Touche’ et les dégâts infligés par chaque Pièce sont infligés uniquement contre la cible aléatoire choisie par la Pièce.\nEn infligeant [SinkingWhite] avec les effets de cette Capacité : (Chances de faire Pile)% de chances d’infliger Les Défunts. Si cette unité n’a pas infligé Les Défunts, inflige Les Vivants à la place. (Calcule chaque stack de [SinkingWhite] indépendamment)\n<style=\"highlight\">[EndSkill] Regagne (# de Pièce 3 ayant touché * 2) PSM</style>",
+          "desc": "Lorsque cette Capacité lance une Pièce, chaque Pièce est jouée contre un ennemi aléatoire parmi ses cibles.\n- La première Pièce cible toujours la cible principale.\n- Tous les effets ‘En Touche’ et les dégâts infligés par chaque Pièce sont infligés uniquement contre la cible aléatoire choisie par la Pièce.\nEn infligeant [SinkingWhite] avec les effets de cette Capacité : (Chances de faire Pile)% de chances d’infliger Les Défunts. Si cette unité n’a pas infligé Les Défunts, inflige Les Vivants à la place. (Calcule chaque instance de [SinkingWhite] indépendamment)\n<style=\"highlight\">[EndSkill] Regagne (# de Pièce 3 ayant touché * 2) PSM</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [SinkingWhite] aléatoire"
+                  "desc": "[OnSucceedAttack] Inflige 1 [SinkingWhite] aléatoire"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [SinkingWhite] aléatoire"
+                  "desc": "[OnSucceedAttack] Inflige 1 [SinkingWhite] aléatoire"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1~2 de [SinkingWhite] aléatoire"
+                  "desc": "[OnSucceedAttack] Inflige 1~2 [SinkingWhite] aléatoire"
                 },
                 {
                   "desc": "[OnSucceedAttack] Perd 2~6 PSM"
                 },
                 {
-                  "desc": "[OnSucceedAttack] À 0+ PSM, Réutilise cette Pièce (5 fois max par Capacité)"
+                  "desc": "[OnSucceedAttack] À 0 PSM ou plus, Réutilise cette Pièce (5 fois max par Capacité)"
                 }
               ]
             }
@@ -298,32 +298,32 @@
           "level": 4,
           "name": "Solennelle Lamentation",
           "abName": "La Funéraille des Papillons Morts",
-          "desc": "Lorsque cette Capacité lance une Pièce, chaque Pièce est jouée contre un ennemi aléatoire parmi ses cibles.\n- La première Pièce cible toujours la cible principale.\n- Tous les effets ‘En Touche’ et les dégâts infligés par chaque Pièce sont infligés uniquement contre la cible aléatoire choisie par la Pièce.\nEn infligeant [SinkingWhite] avec les effets de cette Capacité : (Chances de faire Pile)% de chances d’infliger Les Défunts. Si cette unité n’a pas infligé Les Défunts, inflige Les Vivants à la place. (Calcule chaque stack de [SinkingWhite] indépendamment)\n[EndSkill] Regagne <style=\"highlight\">(# de Pièce 3 ayant touché * 3)</style> PSM",
+          "desc": "Lorsque cette Capacité lance une Pièce, chaque Pièce est jouée contre un ennemi aléatoire parmi ses cibles.\n- La première Pièce cible toujours la cible principale.\n- Tous les effets ‘En Touche’ et les dégâts infligés par chaque Pièce sont infligés uniquement contre la cible aléatoire choisie par la Pièce.\nEn infligeant [SinkingWhite] avec les effets de cette Capacité : (Chances de faire Pile)% de chances d’infliger Les Défunts. Si cette unité n’a pas infligé Les Défunts, inflige Les Vivants à la place. (Calcule chaque instance de [SinkingWhite] indépendamment)\n[EndSkill] Regagne <style=\"highlight\">(# de Pièce 3 ayant touché * 3)</style> PSM",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [SinkingWhite] aléatoire"
+                  "desc": "[OnSucceedAttack] Inflige 1 [SinkingWhite] aléatoire"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [SinkingWhite] aléatoire"
+                  "desc": "[OnSucceedAttack] Inflige 1 [SinkingWhite] aléatoire"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1~2 de [SinkingWhite] aléatoire"
+                  "desc": "[OnSucceedAttack] Inflige 1~2 [SinkingWhite] aléatoire"
                 },
                 {
                   "desc": "[OnSucceedAttack] Perd 2~6 PSM"
                 },
                 {
-                  "desc": "[OnSucceedAttack] À 0+ PSM, Réutilise cette Pièce (5 fois max par Capacité)"
+                  "desc": "[OnSucceedAttack] À 0 PSM ou plus, Réutilise cette Pièce (5 fois max par Capacité)"
                 }
               ]
             }
@@ -338,15 +338,15 @@
           "level": 1,
           "name": "Solennelle Lamentation",
           "abName": "La Funéraille des Papillons Morts",
-          "desc": "[CantIdentify]\nCible aléatoirement\nSi la cible a moins de 0 PSM, inflige plus de dégâts pour chaque PSM de différence par rapport à 0 (+1% de dégâts pour chaque PSM manquant, 45% max)\nContre les cibles sans PSM : inflige +1% de dégâts supplémentaires pour chaque 2 de [Sinking] sur la cible (45% max)",
+          "desc": "[CantIdentify]\nCible aléatoirement\nSi la cible a moins de 0 PSM, inflige plus de dégâts pour chaque PSM de différence par rapport à 0 (+1% de dégâts pour chaque PSM manquant, 45% max)\nContre les cibles sans PSM : inflige +1% de dégâts supplémentaires pour chaque 2 [Sinking] sur la cible (45% max)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de [SinkingWhite] (Les Vivants)"
+                  "desc": "[OnSucceedAttack] Inflige 4 [SinkingWhite] (Les Vivants)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de [SinkingWhite] (Les Défunts)"
+                  "desc": "[OnSucceedAttack] Inflige 4 [SinkingWhite] (Les Défunts)"
                 }
               ]
             }
@@ -356,15 +356,15 @@
           "level": 3,
           "name": "Solennelle Lamentation",
           "abName": "La Funéraille des Papillons Morts",
-          "desc": "[CantIdentify]\nCible aléatoirement\nSi la cible a moins de 0 PSM, inflige plus de dégâts pour chaque PSM de différence par rapport à 0 (+1% de dégâts pour chaque PSM manquant, 45% max)\nContre les cibles sans PSM : inflige +1% de dégâts supplémentaires pour chaque 2 de [Sinking] sur la cible (45% max)\n<style=\"highlight\">[EnemyKill] Regagne 5 PSM</style>",
+          "desc": "[CantIdentify]\nCible aléatoirement\nSi la cible a moins de 0 PSM, inflige plus de dégâts pour chaque PSM de différence par rapport à 0 (+1% de dégâts pour chaque PSM manquant, 45% max)\nContre les cibles sans PSM : inflige +1% de dégâts supplémentaires pour chaque 2 [Sinking] sur la cible (45% max)\n<style=\"highlight\">[EnemyKill] Regagne 5 PSM</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de [SinkingWhite] (Les Vivants)"
+                  "desc": "[OnSucceedAttack] Inflige 4 [SinkingWhite] (Les Vivants)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de [SinkingWhite] (Les Défunts)"
+                  "desc": "[OnSucceedAttack] Inflige 4 [SinkingWhite] (Les Défunts)"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige +3 de Compte de [Sinking]</style>"
@@ -377,21 +377,21 @@
           "level": 4,
           "name": "Solennelle Lamentation",
           "abName": "La Funéraille des Papillons Morts",
-          "desc": "[CantIdentify]\nCible aléatoirement\nSi la cible a moins de 0 PSM, inflige plus de dégâts pour chaque PSM de différence par rapport à 0 (+1% de dégâts pour chaque PSM manquant, 45% max)\nContre les cibles sans PSM : inflige +1% de dégâts supplémentaires pour chaque 2 de [Sinking] sur la cible (45% max)\n[EnemyKill] Regagne 5 PSM",
+          "desc": "[CantIdentify]\nCible aléatoirement\nSi la cible a moins de 0 PSM, inflige plus de dégâts pour chaque PSM de différence par rapport à 0 (+1% de dégâts pour chaque PSM manquant, 45% max)\nContre les cibles sans PSM : inflige +1% de dégâts supplémentaires pour chaque 2 [Sinking] sur la cible (45% max)\n[EnemyKill] Regagne 5 PSM",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 5 de [SinkingWhite] (Les Vivants)"
+                  "desc": "[OnSucceedAttack] Inflige 5 [SinkingWhite] (Les Vivants)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 5 de [SinkingWhite] (Les Défunts)"
+                  "desc": "[OnSucceedAttack] Inflige 5 [SinkingWhite] (Les Défunts)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Sinking]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Si la cible a 50%- de PV, inflige des Dégâts de Peine égaux à \"Toutes\" les valeurs de [SinkingWhite] sur la cible\n- \"Toutes\" = la somme des Vivants et des Défunts sur la cible</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Si la cible a 50% de PV ou moins, inflige des Dégâts de Peine égaux à \"Toutes\" les valeurs de [SinkingWhite] sur la cible\n- \"Toutes\" = la somme des Vivants et des Défunts sur la cible</style>"
                 }
               ]
             }
@@ -406,12 +406,12 @@
           "level": 1,
           "name": "Cauchemar de Noël",
           "abName": "Lit Douillet",
-          "desc": "[EndSkill] À PV max, regagne 10 PSM à la Fin du Tour et gagne 1 de [Enhancement] au prochain tour",
+          "desc": "[EndSkill] À PV max, regagne 10 PSM à la Fin du Tour et gagne 1 [Enhancement] au prochain tour",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 5 de [Vibration]"
+                  "desc": "[OnSucceedAttack] Inflige 5 [Vibration]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
@@ -421,10 +421,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de [Sinking]"
+                  "desc": "[OnSucceedAttack] Inflige 4 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Si la cible est Déséquilibrée, en Bas Moral ou dans un état de Panique, inflige 1 de [Reduction] au prochain tour"
+                  "desc": "[OnSucceedAttack] Si la cible est Déséquilibrée, en Bas Moral ou dans un état de Panique, inflige 1 [Reduction] au prochain tour"
                 }
               ]
             }
@@ -434,12 +434,12 @@
           "level": 3,
           "name": "Cauchemar de Noël",
           "abName": "Lit Douillet",
-          "desc": "<style=\"highlight\">Si la cible a moins de 0 PSM, inflige +1% de dégâts supplémentaires pour chaque PSM en-dessous de 0 (45% max)</style>\n[EndSkill] À PV max, regagne 10 PSM à la Fin du Tour et gagne 1 de [Enhancement] au prochain tour",
+          "desc": "<style=\"highlight\">Si la cible a moins de 0 PSM, inflige +1% de dégâts supplémentaires pour chaque PSM en-dessous de 0 (45% max)</style>\n[EndSkill] À PV max, regagne 10 PSM à la Fin du Tour et gagne 1 [Enhancement] au prochain tour",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 5 de [Vibration]"
+                  "desc": "[OnSucceedAttack] Inflige 5 [Vibration]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
@@ -452,10 +452,10 @@
                   "desc": "[OnSucceedAttack] Regagne (2 + plus haute Réson.)% des PV manquants sur soi (30% max par Capacité)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de [Sinking]"
+                  "desc": "[OnSucceedAttack] Inflige 4 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Si la cible est Déséquilibrée, en Bas Moral ou dans un état de Panique, inflige 1 de [Reduction] au prochain tour"
+                  "desc": "[OnSucceedAttack] Si la cible est Déséquilibrée, en Bas Moral ou dans un état de Panique, inflige 1 [Reduction] au prochain tour"
                 }
               ]
             }
@@ -465,12 +465,12 @@
           "level": 4,
           "name": "Cauchemar de Noël",
           "abName": "Lit Douillet",
-          "desc": "Si la cible a moins de 0 PSM, inflige +1% de dégâts supplémentaires pour chaque PSM en-dessous de 0 (45% max)\n[EndSkill] À PV max, regagne <style=\"highlight\">15</style> PSM à la Fin du Tour et gagne 1 de [Enhancement] au prochain tour",
+          "desc": "Si la cible a moins de 0 PSM, inflige +1% de dégâts supplémentaires pour chaque PSM en-dessous de 0 (45% max)\n[EndSkill] À PV max, regagne <style=\"highlight\">15</style> PSM à la Fin du Tour et gagne 1 [Enhancement] au prochain tour",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 5 de [Vibration]"
+                  "desc": "[OnSucceedAttack] Inflige 5 [Vibration]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
@@ -483,10 +483,10 @@
                   "desc": "[OnSucceedAttack] Regagne (<style=\"highlight\">3</style> + plus haute Réson.)% des PV manquants sur soi (30% max par Capacité)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de [Sinking]"
+                  "desc": "[OnSucceedAttack] Inflige 4 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Si la cible est Déséquilibrée, en Bas Moral ou dans un état de Panique, inflige 1 de [Reduction] <style=\"highlight\">et de Vulnérabilité[TabExplain] à l’Affinité de la plus haute Réson.</style> au prochain tour"
+                  "desc": "[OnSucceedAttack] Si la cible est Déséquilibrée, en Bas Moral ou dans un état de Panique, inflige 1 [Reduction] <style=\"highlight\">et de Vulnérabilité[TabExplain] à l’Affinité de la plus haute Réson.</style> au prochain tour"
                 }
               ]
             }
@@ -501,12 +501,12 @@
           "level": 1,
           "name": "Cauchemar de Noël",
           "abName": "Lit Douillet",
-          "desc": "[CantIdentify]\nCible aléatoirement\n[BeforeAttack] Regagne 10 PV\n[EndSkill] À PV max, regagne 10 PSM à la Fin du Tour et gagne 1 de [Enhancement] au prochain tour",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[BeforeAttack] Regagne 10 PV\n[EndSkill] À PV max, regagne 10 PSM à la Fin du Tour et gagne 1 [Enhancement] au prochain tour",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 5 de [Vibration]"
+                  "desc": "[OnSucceedAttack] Inflige 5 [Vibration]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
@@ -516,10 +516,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de [Sinking]"
+                  "desc": "[OnSucceedAttack] Inflige 4 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Si la cible est Déséquilibrée, en Bas Moral ou dans un état de Panique, inflige 1 de [Reduction] au prochain tour"
+                  "desc": "[OnSucceedAttack] Si la cible est Déséquilibrée, en Bas Moral ou dans un état de Panique, inflige 1 [Reduction] au prochain tour"
                 }
               ]
             }
@@ -529,12 +529,12 @@
           "level": 3,
           "name": "Cauchemar de Noël",
           "abName": "Lit Douillet",
-          "desc": "[CantIdentify]\nCible aléatoirement\n<style=\"highlight\">Si la cible a moins de 0 PSM, inflige +1% de dégâts supplémentaires pour chaque PSM en-dessous de 0 (45% max)</style>\n[BeforeAttack] Regagne 10 PV\n[EndSkill] À PV max, regagne <style=\"highlight\">15</style> PSM à la Fin du Tour et gagne 1 de [Enhancement] au prochain tour",
+          "desc": "[CantIdentify]\nCible aléatoirement\n<style=\"highlight\">Si la cible a moins de 0 PSM, inflige +1% de dégâts supplémentaires pour chaque PSM en-dessous de 0 (45% max)</style>\n[BeforeAttack] Regagne 10 PV\n[EndSkill] À PV max, regagne <style=\"highlight\">15</style> PSM à la Fin du Tour et gagne 1 [Enhancement] au prochain tour",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 5 de [Vibration]"
+                  "desc": "[OnSucceedAttack] Inflige 5 [Vibration]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
@@ -547,10 +547,10 @@
                   "desc": "[OnSucceedAttack] Regagne (2 + plus haute Réson.)% des PV manquants (30% max par Capacité)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de [Sinking]"
+                  "desc": "[OnSucceedAttack] Inflige 4 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Si la cible est Déséquilibrée, en Bas Moral ou dans un état de Panique, inflige 1 de [Reduction] au prochain tour"
+                  "desc": "[OnSucceedAttack] Si la cible est Déséquilibrée, en Bas Moral ou dans un état de Panique, inflige 1 [Reduction] au prochain tour"
                 }
               ]
             }
@@ -560,12 +560,12 @@
           "level": 4,
           "name": "Cauchemar de Noël",
           "abName": "Lit Douillet",
-          "desc": "[CantIdentify]\nCible aléatoirement\nSi la cible a moins de 0 PSM, inflige +1% de dégâts supplémentaires pour chaque PSM en-dessous de 0 (45% max)\n[BeforeAttack] Regagne 10 PV\n[EndSkill] À PV max, regagne <style=\"highlight\">20</style> PSM à la Fin du Tour et gagne 1 de [Enhancement] au prochain tour",
+          "desc": "[CantIdentify]\nCible aléatoirement\nSi la cible a moins de 0 PSM, inflige +1% de dégâts supplémentaires pour chaque PSM en-dessous de 0 (45% max)\n[BeforeAttack] Regagne 10 PV\n[EndSkill] À PV max, regagne <style=\"highlight\">20</style> PSM à la Fin du Tour et gagne 1 [Enhancement] au prochain tour",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 5 de [Vibration]"
+                  "desc": "[OnSucceedAttack] Inflige 5 [Vibration]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
@@ -578,10 +578,10 @@
                   "desc": "[OnSucceedAttack] Regagne (<style=\"highlight\">3</style> + plus haute Réson.)% des PV manquants sur soi (30% max par Capacité)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de [Sinking]"
+                  "desc": "[OnSucceedAttack] Inflige 4 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Si la cible est Déséquilibrée, en Bas Moral ou dans un état de Panique, inflige 1 de [Reduction] <style=\"highlight\">et 2 de Vulnérabilité[TabExplain] à l’Affinité de la plus haute Réson.</style> au prochain tour"
+                  "desc": "[OnSucceedAttack] Si la cible est Déséquilibrée, en Bas Moral ou dans un état de Panique, inflige 1 [Reduction] <style=\"highlight\">et 2 de Vulnérabilité[TabExplain] à l’Affinité de la plus haute Réson.</style> au prochain tour"
                 }
               ]
             }

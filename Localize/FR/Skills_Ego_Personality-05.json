@@ -74,7 +74,7 @@
                   "desc": "[OnSucceedAttack] Déclenche un Sursaut de Tremblement.\nLa quantité de Seuil de Déséquilibre élevé par le Sursaut de Tremblement augmente de 30% des Tremblements sur la cible.\nRéduit de 1 le Compte de Tremblement"
                 },
                 {
-                  "desc": "[EndSkill] Gagne 3 de Ralentissement et 1 de Bonus de Puissance Contondante au prochain tour."
+                  "desc": "[EndSkill] Gagne 3 Ralentissement et 1 Bonus de Puissance Contondante au prochain tour."
                 }
               ]
             }
@@ -92,7 +92,7 @@
                   "desc": "[OnSucceedAttack] Déclenche un Sursaut de Tremblement\nLa quantité de Seuil de Déséquilibre élevé par le Sursaut de Tremblement augmente de 40% des Tremblements sur la cible.\nSi la cible ne possède pas de Seuil de Déséquilibre lors du Sursaut de Tremblement,\nInflige des Dégâts de Colère égaux à (6 + 2*(Réson.-A de Colère))% du Seuil de Déséquilibre élevé final\nRéduit de 1 le Compte de Tremblement"
                 },
                 {
-                  "desc": "[EndSkill] Gagne 3 de Ralentissement et 1 de Bonus de Puissance Contondante au prochain tour."
+                  "desc": "[EndSkill] Gagne 3 Ralentissement et 1 Bonus de Puissance Contondante au prochain tour."
                 }
               ]
             }
@@ -110,7 +110,7 @@
                   "desc": "[OnSucceedAttack] Déclenche un Sursaut de Tremblement\nAmount of Stagger Threshold raised by Tremor Burst increases by 50% of Tremor on target.\nSi la cible ne possède pas de Seuil de Déséquilibre lors du Sursaut de Tremblement,\nInflige des Dégâts de Colère égaux à (12 + 3*(Réson.-A de Colère))% du Seuil de Déséquilibre élevé final\nRéduit de 1 le Compte de Tremblement"
                 },
                 {
-                  "desc": "[EndSkill] Gagne 3 de Ralentissement et 1 de Bonus de Puissance Contondante au prochain tour."
+                  "desc": "[EndSkill] Gagne 3 Ralentissement et 1 Bonus de Puissance Contondante au prochain tour."
                 }
               ]
             }
@@ -130,7 +130,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Burst]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
                 }
               ]
             }
@@ -140,12 +140,12 @@
           "level": 3,
           "name": "Cri Électrique",
           "abName": "Mouton Électrique Rêveur",
-          "desc": "[BeforeAttack] Gagne +8 de Compte de [Charge]\n[EndSkill] Applique +8 de Compte de [Charge] à 1 autre allié avec le moins de Compte de [Charge]\n- Le nombre d’alliés affectés augmente de (plus grande Réson. d’Envie - 2) (4 max)\n- À 4+ de (plus grande Réson. d’Envie), applique 1 de [VioletDamageUp] à soi et aux alliés affectés",
+          "desc": "[BeforeAttack] Gagne +8 de Compte de [Charge]\n[EndSkill] Applique +8 de Compte de [Charge] à 1 autre allié avec le moins de Compte de [Charge]\n- Le nombre d’alliés affectés augmente de (plus grande Réson. d’Envie - 2) (4 max)\n- À 4 de (plus grande Réson. d’Envie) ou plus, applique 1 [VioletDamageUp] à soi et aux alliés affectés",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Burst]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
                 }
               ]
             }
@@ -155,12 +155,12 @@
           "level": 4,
           "name": "Cri Électrique",
           "abName": "Mouton Électrique Rêveur",
-          "desc": "[BeforeAttack] Gagne +12 de Compte de [Charge]\n[EndSkill] Applique +8 de Compte de [Charge] à 1 autre allié avec le moins de Compte de [Charge]\n- Le nombre d’alliés affectés augmente de (plus grande Réson. d’Envie - 2) (<style=\"highlight\">5</style> max)\n- À 4+ de (plus grande Réson. d’Envie), applique 1 de [VioletDamageUp] à soi et aux alliés affectés\n<style=\"highlight\">- À 4+ de (plus grande Réson. d’Envie), applique 1 de [VioletDamageUp] à soi et aux alliés affectés</style>",
+          "desc": "[BeforeAttack] Gagne +12 de Compte de [Charge]\n[EndSkill] Applique +8 de Compte de [Charge] à 1 autre allié avec le moins de Compte de [Charge]\n- Le nombre d’alliés affectés augmente de (plus grande Réson. d’Envie - 2) (<style=\"highlight\">5</style> max)\n- À 4 de (plus grande Réson. d’Envie) ou plus, applique 1 [VioletDamageUp] à soi et aux alliés affectés\n<style=\"highlight\">- À 4 de (plus grande Réson. d’Envie) ou plus, applique 1 [VioletDamageUp] à soi et aux alliés affectés</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Burst]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
                 }
               ]
             }
@@ -175,15 +175,15 @@
           "level": 1,
           "name": "Cri Électrique",
           "abName": "Mouton Électrique Rêveur",
-          "desc": "[CantIdentify]\nCible Aléatoirement\n[BeforeAttack] Gagne (plus grande Réson. d’Envie - 2) de Poids d’Atq (2 max)\n[BeforeAttack] Si cette unité a 10+ de Compte de [Charge], dépense jusqu’à 20 de Compte de Charge ; inflige +2% de dégât supplémentaire pour chaque Compte de [Charge] consommé (40% max)",
+          "desc": "[CantIdentify]\nCible Aléatoirement\n[BeforeAttack] Gagne (plus grande Réson. d’Envie - 2) de Poids d’Atq (2 max)\n[BeforeAttack] Si cette unité a 10 de Compte de [Charge] ou plus, dépense jusqu’à 20 de Compte de Charge ; inflige +2% de dégât supplémentaire pour chaque Compte de [Charge] consommé (40% max)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Paralysis]"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Paralysis]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Burst]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
                 }
               ]
             }
@@ -193,15 +193,15 @@
           "level": 3,
           "name": "Cri Électrique",
           "abName": "Mouton Électrique Rêveur",
-          "desc": "[CantIdentify]\nCible Aléatoirement\n[BeforeAttack] Gagne (plus grande Réson. d’Envie - 2) de Poids d’Atq (<style=\"highlight\">3</style> max)\n[BeforeAttack] Si cette unité a 10+ de Compte de [Charge], dépense jusqu’à 20 de Compte de Charge ; inflige +<style=\"highlight\">2.5</style>% de dégât supplémentaire pour chaque Compte de [Charge] consommé (<style=\"highlight\">50</style>% max)",
+          "desc": "[CantIdentify]\nCible Aléatoirement\n[BeforeAttack] Gagne (plus grande Réson. d’Envie - 2) de Poids d’Atq (<style=\"highlight\">3</style> max)\n[BeforeAttack] Si cette unité a 10 de Compte de [Charge] ou plus, dépense jusqu’à 20 de Compte de Charge ; inflige +<style=\"highlight\">2.5</style>% de dégât supplémentaire pour chaque Compte de [Charge] consommé (<style=\"highlight\">50</style>% max)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Paralysis]"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Paralysis]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Burst]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
                 }
               ]
             }
@@ -211,15 +211,15 @@
           "level": 4,
           "name": "Cri Électrique",
           "abName": "Mouton Électrique Rêveur",
-          "desc": "[CantIdentify]\nCible Aléatoirement\n[BeforeAttack] Gagne (plus grande Réson. d’Envie - 2) de Poids d’Atq (3 max)\n<style=\"highlight\">[BeforeAttack] À 10+ de Compte de [Charge], applique les effets appliqués 'En Touche' deux fois</style>\n[BeforeAttack] Si cette unité a 10+ de Compte de [Charge], dépense jusqu’à 20 de Compte de Charge ; inflige +<style=\"highlight\">3</style>% de dégât supplémentaire pour chaque Compte de [Charge] consommé (<style=\"highlight\">60</style>% max)",
+          "desc": "[CantIdentify]\nCible Aléatoirement\n[BeforeAttack] Gagne (plus grande Réson. d’Envie - 2) de Poids d’Atq (3 max)\n<style=\"highlight\">[BeforeAttack] À 10 de Compte de [Charge] ou plus, applique les effets appliqués 'En Touche' deux fois</style>\n[BeforeAttack] Si cette unité a 10 de Compte de [Charge] ou plus, dépense jusqu’à 20 de Compte de Charge ; inflige +<style=\"highlight\">3</style>% de dégât supplémentaire pour chaque Compte de [Charge] consommé (<style=\"highlight\">60</style>% max)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Paralysis]"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Paralysis]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Burst]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
                 }
               ]
             }
@@ -239,14 +239,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
                 }
               ]
             },
@@ -279,25 +279,25 @@
           "level": 3,
           "name": "Désir - Mircalla",
           "abName": "Quatre-cents Roses",
-          "desc": "<style=\"highlight\">Si la cible a 6+ de [Laceration], +1 de Puissance de Pièce</style>\n[EndSkill] Pendant 3 tours, perd 10 PSM à la Fin du Tour",
+          "desc": "<style=\"highlight\">Si la cible a 6 [Laceration] ou plus, +1 de Puissance de Pièce</style>\n[EndSkill] Pendant 3 tours, perd 10 PSM à la Fin du Tour",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] À 4+ de plus haute Réson., active le [Laceration] sur la cible une fois (la cible perd 1 de Compte de [Laceration])</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] À 4 de plus haute Réson. ou plus, active le [Laceration] sur la cible une fois (la cible perd 1 de Compte de [Laceration])</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] À 4+ de plus haute Réson., active le [Laceration] sur la cible une fois (la cible perd 1 de Compte de [Laceration])</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] À 4 de plus haute Réson. ou plus, active le [Laceration] sur la cible une fois (la cible perd 1 de Compte de [Laceration])</style>"
                 }
               ]
             },
@@ -307,10 +307,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[WinDuelAttack] Inflige +2 de Compte d’[RoseWedge]<style=\"highlight\"></style>"
+                  "desc": "[WinDuelAttack] Inflige +2 de Compte d’[RoseWedge]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige +1 de Compte d’[RoseWedge]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte d’[RoseWedge]"
                 }
               ]
             },
@@ -330,25 +330,25 @@
           "level": 4,
           "name": "Désir - Mircalla",
           "abName": "Quatre-cents Roses",
-          "desc": "<style=\"highlight\">+1 de Puissance de Pièce pour chaque 6 de [Laceration] sur la cible (2 max)</style>\n[EndSkill] Pendant 3 tours, perd 10 PSM à la Fin du Tour",
+          "desc": "<style=\"highlight\">+1 de Puissance de Pièce pour chaque 6 [Laceration] sur la cible (2 max)</style>\n[EndSkill] Pendant 3 tours, perd 10 PSM à la Fin du Tour",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] À 4+ de plus haute Réson., active le [Laceration] sur la cible une fois (la cible perd 1 de Compte de [Laceration])<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] À 4 de plus haute Réson. ou plus, active le [Laceration] sur la cible une fois (la cible perd 1 de Compte de [Laceration])"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] À 4+ de plus haute Réson., active le [Laceration] sur la cible une fois (la cible perd 1 de Compte de [Laceration])<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] À 4 de plus haute Réson. ou plus, active le [Laceration] sur la cible une fois (la cible perd 1 de Compte de [Laceration])"
                 }
               ]
             },
@@ -358,7 +358,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[WinDuelAttack] Inflige +2 de Compte d’[RoseWedge]<style=\"highlight\"></style>"
+                  "desc": "[WinDuelAttack] Inflige +2 de Compte d’[RoseWedge]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige +<style=\"highlight\">2</style> de Compte d’[RoseWedge]"
@@ -371,7 +371,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[WinDuelAttack] Active le [Laceration] de la cible (1 + (Plus haute Réson./2)) fois. (3 fois max ; la cible perd autant de Compte de [Laceration] que d’activation)<style=\"highlight\"></style>"
+                  "desc": "[WinDuelAttack] Active le [Laceration] de la cible (1 + (Plus haute Réson./2)) fois. (3 fois max ; la cible perd autant de Compte de [Laceration] que d’activation)"
                 },
                 {
                   "desc": "<style=\"highlight\">[EnemyKill] En infligeant des dégâts excedant les PV restants de l’ennemi, inflige les dégâts en excès en dégâts fixes entre tous les ennemis. (1 min)</style>"
@@ -389,19 +389,19 @@
           "level": 1,
           "name": "Désir - Mircalla",
           "abName": "Quatre-cents Roses",
-          "desc": "[CantIdentify]\nCible aléatoirement\n[WhenUse] Consomme jusqu’à 10% des PV max de cette unité et inflige (PV consommés / 2) dégâts à tous les ennemis et alliés\n- À moins de 50% des PV max de cette unité, inflige et active 5 de [Laceration] à tous les alliés une fois à la place (perd 1 de Compte de [Laceration]). Regagne des PV égaux à la quantité de dégâts de [Laceration] infligés aux alliés",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[WhenUse] Consomme jusqu’à 10% des PV max de cette unité et inflige (PV consommés / 2) dégâts à tous les ennemis et alliés\n- À moins de 50% des PV max de cette unité, inflige et active 5 [Laceration] à tous les alliés une fois à la place (perd 1 de Compte de [Laceration]). Regagne des PV égaux à la quantité de dégâts de [Laceration] infligés aux alliés",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Laceration] à soi-même et à la cible"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration] à soi-même et à la cible"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Laceration] à soi-même et à la cible"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration] à soi-même et à la cible"
                 }
               ]
             },
@@ -417,7 +417,7 @@
                   "desc": "[OnSucceedAttack] Inflige +1 de Compte d’[RoseWedge]"
                 },
                 {
-                  "desc": "- Si la cible n’avait pas d’[RoseWedge], inflige 4 de Puissance d’[RoseWedge] supplémentaire"
+                  "desc": "- Si la cible n’avait pas d’[RoseWedge], inflige 4 d’Intensité d’[RoseWedge] supplémentaire"
                 }
               ]
             },
@@ -437,19 +437,19 @@
           "level": 3,
           "name": "Désir - Mircalla",
           "abName": "Quatre-cents Roses",
-          "desc": "[CantIdentify]\nCible aléatoirement\n<style=\"highlight\">À 6+ de (somme de [Laceration] sur soi et la cible), +1 de Puissance de Pièce</style>\n[WhenUse] Consomme jusqu’à 10% des PV max de cette unité et inflige (PV consommés / 2) dégâts à tous les ennemis et alliés\n- À moins de 50% des PV max de cette unité, inflige et active 5 de [Laceration] à tous les alliés une fois à la place (perd 1 de Compte de [Laceration]). Regagne des PV égaux à la quantité de dégâts de [Laceration] infligés aux alliés",
+          "desc": "[CantIdentify]\nCible aléatoirement\n<style=\"highlight\">À 6 de (somme de [Laceration] sur soi et la cible) ou plus, +1 de Puissance de Pièce</style>\n[WhenUse] Consomme jusqu’à 10% des PV max de cette unité et inflige (PV consommés / 2) dégâts à tous les ennemis et alliés\n- À moins de 50% des PV max de cette unité, inflige et active 5 [Laceration] à tous les alliés une fois à la place (perd 1 de Compte de [Laceration]). Regagne des PV égaux à la quantité de dégâts de [Laceration] infligés aux alliés",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> de [Laceration] à soi-même et à la cible"
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> [Laceration] à soi-même et à la cible"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> de [Laceration] à soi-même et à la cible"
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> [Laceration] à soi-même et à la cible"
                 }
               ]
             },
@@ -459,13 +459,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[WinDuelAttack] Inflige +2 de Compte d’[RoseWedge]<style=\"highlight\"></style>"
+                  "desc": "[WinDuelAttack] Inflige +2 de Compte d’[RoseWedge]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige +1 de Compte d’[RoseWedge]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte d’[RoseWedge]"
                 },
                 {
-                  "desc": "- Si la cible n’avait pas d’[RoseWedge], inflige 4 de Puissance d’[RoseWedge] supplémentaire<style=\"highlight\"></style>"
+                  "desc": "- Si la cible n’avait pas d’[RoseWedge], inflige 4 d’Intensité d’[RoseWedge] supplémentaire"
                 }
               ]
             },
@@ -485,12 +485,12 @@
           "level": 4,
           "name": "Désir - Mircalla",
           "abName": "Quatre-cents Roses",
-          "desc": "[CantIdentify]\nCible aléatoirement\n+1 de Puissance de Pièce pour chaque 6 de (somme de [Laceration] sur soi et la cible) <style=\"highlight\">(3 max)</style>\n[WhenUse] Consomme jusqu’à 10% des PV max de cette unité et inflige (PV consommés / 2) dégâts à tous les ennemis et alliés\n- À moins de 50% des PV max de cette unité, inflige et active 5 de [Laceration] à tous les alliés à la place (perd 1 de Compte de [Laceration]). Regagne des PV égaux à la quantité de dégâts de [Laceration] infligés aux alliés",
+          "desc": "[CantIdentify]\nCible aléatoirement\n+1 de Puissance de Pièce pour chaque 6 de (somme de [Laceration] sur soi et la cible) <style=\"highlight\">(3 max)</style>\n[WhenUse] Consomme jusqu’à 10% des PV max de cette unité et inflige (PV consommés / 2) dégâts à tous les ennemis et alliés\n- À moins de 50% des PV max de cette unité, inflige et active 5 [Laceration] à tous les alliés à la place (perd 1 de Compte de [Laceration]). Regagne des PV égaux à la quantité de dégâts de [Laceration] infligés aux alliés",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Laceration] à soi-même et à la cible<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration] à soi-même et à la cible"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Active le [Laceration] sur soi et la cible une fois (les deux perdent 1 de Compte)</style>"
@@ -500,7 +500,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Laceration] à soi-même et à la cible<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration] à soi-même et à la cible"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Active le [Laceration] sur soi et la cible une fois (les deux perdent 1 de Compte)</style>"
@@ -513,13 +513,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[WinDuelAttack] Inflige +2 de Compte d’[RoseWedge]<style=\"highlight\"></style>"
+                  "desc": "[WinDuelAttack] Inflige +2 de Compte d’[RoseWedge]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige +<style=\"highlight\">2</style> de Compte d’[RoseWedge]"
                 },
                 {
-                  "desc": "- Si la cible n’avait pas d’[RoseWedge], inflige 4 de Puissance d’[RoseWedge] supplémentaire<style=\"highlight\"></style>"
+                  "desc": "- Si la cible n’avait pas d’[RoseWedge], inflige 4 d’Intensité d’[RoseWedge] supplémentaire"
                 }
               ]
             },
@@ -529,7 +529,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[WinDuelAttack] Active le [Laceration] de la cible (1 + (Plus haute Réson./2)) fois. (3 fois max ; la cible perd autant de Compte de [Laceration] que d’activation)<style=\"highlight\"></style>"
+                  "desc": "[WinDuelAttack] Active le [Laceration] de la cible (1 + (Plus haute Réson./2)) fois. (3 fois max ; la cible perd autant de Compte de [Laceration] que d’activation)"
                 },
                 {
                   "desc": "<style=\"highlight\">[EnemyKill] En infligeant des dégâts excedant les PV restants de l’ennemi, inflige les dégâts en excès en dégâts fixes entre tous les ennemis. (1 min)</style>"

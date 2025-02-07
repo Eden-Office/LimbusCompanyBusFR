@@ -1505,7 +1505,7 @@
     {
       "id": "WildHunt",
       "name": "Chasse Sauvage",
-      "desc": "- Au même tour où cette unité a gagné Chasse Sauvage pour la première fois, a toujours 1 PV restant ; \"réanime\"(soigne à 50% des PV et remet les PSM à 0) cette unité à la Fin du Tour.\n- Si cette unité est tuée par une attaque, gagne une ressource E.G.O. pour la ressource E.G.O. la moins possédée\n- Si cette unité est tuée par une attaque, inflige 3 Lourdeur au dernier attaquant\n- Meurt à la fin du même tour où cette unité a été réanimée",
+      "desc": "- Au même tour où cette unité a gagné Chasse Sauvage pour la première fois, a toujours 1 PV restant ; \"réanime\"(soigne à 50% des PV et remet les PSM à 0) cette unité à la Fin du Tour.\n- En Mourrant, gagne 1 ressource E.G.O. pour la ressource E.G.O. la moins possédée\n- Si cette unité est tuée par une attaque, inflige 3 Lourdeur au dernier attaquant\n- Meurt à la fin du même tour où cette unité a été réanimée",
       "summary": ""
     },
     {
@@ -1827,6 +1827,31 @@
       "id": "Hohenheim_Panic",
       "name": "Angoisse",
       "desc": "Début du Tour : gagne 2 Vulnérabilité et 3 Malus d’Efficacité de Soin de PSM"
+    },
+    {
+      "id": "BlackCloud",
+      "name": "Nuage Noir",
+      "desc": "Instance Max : 1\nConverti toutes les Pièces des Capacité Offensives de Base de cette unité utilisées ce tour en [Unbreakable Coins], empêche les dégâts de Déséquilibrer cette unité jusqu’à la Fin de la Capacité et inflige +1 d’effets de Saignement supplémentaire\nEn Duel Perdu : gagne +3 de Puissance Finale\nFin du Tour : cet effet expire"
+    },
+    {
+      "id": "BlackCloudBlade",
+      "name": "Lame du Nuage Noir",
+      "desc": "Instance Max : 1\nGagne 1 de Puissance Tranchante\nInflige 1 Saignement En Touche avec des Capacités Tranchantes"
+    },
+    {
+      "id": "EngageToBattle",
+      "name": "Prêt au Combat",
+      "desc": "Valeur Max : 1\nIntensité et Compte de Saignement infligé avec les effets de Pièce ou de Capacité de cette unité : +1\nGagne 1 Bonus de Puissance Tranchance et 3 Bonus de DGT Tranchant pour la durée de cet Affrontement"
+    },
+    {
+      "id": "CloudWall",
+      "name": "Mur de Nuages",
+      "desc": "Instance Max : 1\n+1 de Puissance Finale de Capacité Défensive\nCet effet expire à la Fin du Tour ou après l’attaque suivante : “Règles des Ruelles”"
+    },
+    {
+      "id": "ScarletResultUp",
+      "name": "Bonus de Puissance de Luxure",
+      "desc": "Les Capacités de Luxure gagnent de la Puissance Finale égale au Compte de l’effet pendant un tour."
     }
   ]
 }

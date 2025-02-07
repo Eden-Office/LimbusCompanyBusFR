@@ -11,14 +11,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 2 de Lourdeur"
+                  "desc": "[OnSucceedAttackHead] Inflige 2 Lourdeur"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 2 de Lourdeur"
+                  "desc": "[OnSucceedAttackHead] Inflige 2 Lourdeur"
                 }
               ]
             }
@@ -32,7 +32,7 @@
         {
           "level": 1,
           "name": "Griffe",
-          "desc": "Si la cible a 5+ de <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Lourdeur</link></u></color>, inflige +20% de dégâts.",
+          "desc": "Si la cible a 5 Lourdeur ou plus, inflige +20% de dégâts.",
           "coinlist": [
             {
               "coindescs": [
@@ -77,7 +77,7 @@
         {
           "level": 1,
           "name": "Peau Muqueuse",
-          "desc": "Si attaqué lorsque protégé, inflige 1 de Lourdeur à l’attaquant",
+          "desc": "Si attaqué lorsque protégé, inflige 1 Lourdeur à l’attaquant",
           "coinlist": [
             {}
           ]
@@ -95,7 +95,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 3 de Saignement"
+                  "desc": "[OnSucceedAttackHead] Inflige 3 Saignement"
                 }
               ]
             }
@@ -121,7 +121,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 5 de Saignement"
+                  "desc": "[OnSucceedAttack] Inflige 5 Saignement"
                 }
               ]
             }
@@ -135,7 +135,7 @@
         {
           "level": 1,
           "name": "Cri de Ralliement",
-          "desc": "[WhenUse] Gagne 2 de Calme au prochain tour.\nFin du Tour : regagne des PV égaux aux PV de Bouclier.",
+          "desc": "[WhenUse] Gagne 2 Calme au prochain tour.\nFin du Tour : regagne des PV égaux aux PV de Bouclier.",
           "coinlist": [
             {}
           ]
@@ -148,7 +148,7 @@
         {
           "level": 1,
           "name": "Déchirer l’Entaille",
-          "desc": "Les effets de Pièce s’activent lorsque cette unité a <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Calme</link></u></color>.",
+          "desc": "Les effets de Pièce s’activent lorsque cette unité a Calme.",
           "coinlist": [
             {
               "coindescs": [
@@ -198,7 +198,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de Saignement"
+                  "desc": "[OnSucceedAttack] Inflige 2 Saignement"
                 }
               ]
             },
@@ -219,7 +219,7 @@
         {
           "level": 1,
           "name": "Cri de Ralliement",
-          "desc": "[WhenUse] Gagne 2 de Calme au prochain tour.\nFin du Tour : regagne des PV égaux aux PV de Bouclier.",
+          "desc": "[WhenUse] Gagne 2 Calme au prochain tour.\nFin du Tour : regagne des PV égaux aux PV de Bouclier.",
           "coinlist": [
             {
               "coindescs": [
@@ -238,7 +238,7 @@
         {
           "level": 1,
           "name": "Déchirer l’Entaille",
-          "desc": "Les effets de Pièce s’activent lorsque cette unité a <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Calme</link></u></color>.",
+          "desc": "Les effets de Pièce s’activent lorsque cette unité a Calme.",
           "coinlist": [
             {
               "coindescs": [
@@ -272,7 +272,7 @@
                   "desc": "[OnSucceedAttack] Inflige +2 de Compte de Saignement"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 3 de Saignement"
+                  "desc": "[OnSucceedAttackHead] Inflige 3 Saignement"
                 }
               ]
             }
@@ -292,7 +292,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de Saignement et +3 de Compte de Saignement"
+                  "desc": "[OnSucceedAttack] Inflige 4 Saignement et +3 de Compte de Saignement"
                 }
               ]
             }
@@ -306,19 +306,19 @@
         {
           "level": 1,
           "name": "Plus Vite",
-          "desc": "[EndSkill] Gagne 1 de Bonus de Dégâts au prochain tour",
+          "desc": "[EndSkill] Gagne 1 Bonus de Dégâts au prochain tour",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 4 de Calme au prochain tour"
+                  "desc": "[OnSucceedAttack] Gagne 4 Calme au prochain tour"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de Vulnérabilité au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 Vulnérabilité au prochain tour"
                 }
               ]
             }
@@ -332,7 +332,7 @@
         {
           "level": 1,
           "name": "Cri de Ralliement",
-          "desc": "[WhenUse] Gagne 2 de Calme au prochain tour.\nFin du Tour : regagne des PV égaux aux PV de Bouclier.",
+          "desc": "[WhenUse] Gagne 2 Calme au prochain tour.\nFin du Tour : regagne des PV égaux aux PV de Bouclier.",
           "coinlist": [
             {}
           ]
@@ -364,15 +364,15 @@
         {
           "level": 1,
           "name": "Frappe Moi Plus Fort",
-          "desc": "[WhenUse] Si la cible a <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Saignement</color></link></u>, gagne 1 de Protection",
+          "desc": "[WhenUse] Si la cible a Saignement, gagne 1 Protection",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de Ralentissement au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 Ralentissement au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de Saignement"
+                  "desc": "[OnSucceedAttack] Inflige 2 Saignement"
                 }
               ]
             }
@@ -386,25 +386,25 @@
         {
           "level": 1,
           "name": "Frappe Moi Juste Là",
-          "desc": "[WhenUse] Si la cible a <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Saignement</color></link></u>, gagne 1 de Protection",
+          "desc": "[WhenUse] Si la cible a Saignement, gagne 1 Protection",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de Paralysie au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 Paralysie au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de Saignement"
+                  "desc": "[OnSucceedAttack] Inflige 2 Saignement"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de Malus de Dégâts au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 Malus de Dégâts au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de Saignement"
+                  "desc": "[OnSucceedAttack] Inflige 2 Saignement"
                 }
               ]
             }
@@ -418,22 +418,22 @@
         {
           "level": 1,
           "name": "Encore Plus Fort",
-          "desc": "[EndSkill] Gagne 1 de Bonus de Dégâts au prochain tour",
+          "desc": "[EndSkill] Gagne 1 Bonus de Dégâts au prochain tour",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 2 de Protection"
+                  "desc": "[OnSucceedAttack] Gagne 2 Protection"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 2 de Protection au prochain tour"
+                  "desc": "[OnSucceedAttack] Gagne 2 Protection au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gagne 4 de Calme au prochain tour"
+                  "desc": "[OnSucceedAttack] Gagne 4 Calme au prochain tour"
                 }
               ]
             }
@@ -447,7 +447,7 @@
         {
           "level": 1,
           "name": "Défendre",
-          "desc": "[WhenUse] Gagne 2 de Calme au prochain tour.\nFin du Tour : regagne des PV égaux aux PV de Bouclier.",
+          "desc": "[WhenUse] Gagne 2 Calme au prochain tour.\nFin du Tour : regagne des PV égaux aux PV de Bouclier.",
           "coinlist": [
             {}
           ]
@@ -478,14 +478,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de Lourdeur"
+                  "desc": "[OnSucceedAttack] Inflige 3 Lourdeur"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de Lourdeur"
+                  "desc": "[OnSucceedAttack] Inflige 3 Lourdeur"
                 }
               ]
             }
@@ -504,7 +504,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de Vulnérabilité de Lourdeur"
+                  "desc": "[OnSucceedAttack] Inflige 2 Vulnérabilité de Lourdeur"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige +3 de Compte de Saignement"
@@ -532,7 +532,7 @@
                   "desc": "[OnSucceedAttack] Inflige +2 de Compte de Lourdeur"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 2 de Saignement"
+                  "desc": "[OnSucceedAttackHead] Inflige 2 Saignement"
                 }
               ]
             },
@@ -542,7 +542,7 @@
                   "desc": "[OnSucceedAttack] Inflige +2 de Compte de Lourdeur"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 2 de Saignement"
+                  "desc": "[OnSucceedAttackHead] Inflige 2 Saignement"
                 }
               ]
             }
@@ -556,7 +556,7 @@
         {
           "level": 1,
           "name": "Vagues Hurleuses",
-          "desc": "+20% de dégâts par 5 de Puissance de Lourdeur sur la cible\nSi les PSM de la cible sont inférieurs à 0, inflige +10% de dégâts",
+          "desc": "+20% de dégâts par 5 d’Intensité de Lourdeur sur la cible\nSi les PSM de la cible sont inférieurs à 0, inflige +10% de dégâts",
           "coinlist": [
             {
               "coindescs": [
@@ -575,7 +575,7 @@
         {
           "level": 1,
           "name": "Peau Muqueuse",
-          "desc": "Si attaqué lorsque protégé, inflige 1 de Lourdeur à l’attaquant",
+          "desc": "Si attaqué lorsque protégé, inflige 1 Lourdeur à l’attaquant",
           "coinlist": [
             {}
           ]
@@ -593,7 +593,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de Saignement"
+                  "desc": "[OnSucceedAttack] Inflige 3 Saignement"
                 }
               ]
             }
@@ -606,7 +606,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Les Garçons, On A de la Compagnie",
+          "name": "Les Garçons, On a de la Compagnie",
           "desc": "",
           "coinlist": [
             {
@@ -615,7 +615,7 @@
                   "desc": "[OnSucceedAttack] Inflige +2 de Compte de Saignement"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 2 de Saignement"
+                  "desc": "[OnSucceedAttackHead] Inflige 2 Saignement"
                 }
               ]
             },
@@ -625,7 +625,7 @@
                   "desc": "[OnSucceedAttack] Inflige +1 de Compte de Saignement"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 4 de Saignement"
+                  "desc": "[OnSucceedAttackHead] Inflige 4 Saignement"
                 }
               ]
             }
@@ -639,13 +639,13 @@
         {
           "level": 1,
           "name": "Ordre de Bataille",
-          "desc": "[WhenUse] Gagne 5 de Calme ce tour",
+          "desc": "[WhenUse] Gagne 5 Calme ce tour",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Applique 2 de Protection et 1 de Bonus de Puissance Offensive à tous les autres alliés au prochain tour"
+                  "desc": "[OnSucceedAttack] Applique 2 Protection et 1 Bonus de Puissance Offensive à tous les autres alliés au prochain tour"
                 }
               ]
             }
@@ -659,22 +659,22 @@
         {
           "level": 1,
           "name": "Faiblesse Repérée ! Tirez !",
-          "desc": "Si la cible a 5+ de <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Saignement</color></link></u>, +2 de Puissance de Duel",
+          "desc": "Si la cible a 5 Saignement ou plus, +2 de Puissance de Duel",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de Saignement"
+                  "desc": "[OnSucceedAttack] Inflige 4 Saignement"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 4 de Saignement"
+                  "desc": "[OnSucceedAttackHead] Inflige 4 Saignement"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de Compte de Saignement\nInflige des dégâts bonus égaux au <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Saignement</color></link></u> de la cible"
+                  "desc": "[OnSucceedAttack] Inflige 3 de Compte de Saignement\nInflige des dégâts bonus égaux au Saignement de la cible"
                 },
                 {
                   "desc": "Dépense 1 Munition"
@@ -691,7 +691,7 @@
         {
           "level": 1,
           "name": "Esquive",
-          "desc": "[OnSucceedEvade] Gagne 5 de Calme next turn.\n[OnSucceedEvade] Applique 2 de Calme à tous les alliés au prochain tour.",
+          "desc": "[OnSucceedEvade] Gagne 5 Calme au prochain tour.\n[OnSucceedEvade] Applique 2 Calme à tous les alliés au prochain tour.",
           "coinlist": [
             {
               "coindescs": [

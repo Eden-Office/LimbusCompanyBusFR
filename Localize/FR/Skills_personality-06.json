@@ -80,7 +80,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] À 10+ de Compte de Charge, gagne 2 de <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Barrière de Charge</color></link></u> au prochain tour"
+                  "desc": "[OnSucceedAttackHead] À 10 de Compte de Charge ou plus, gagne 2 Barrière de Charge au prochain tour"
                 }
               ]
             }
@@ -101,7 +101,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] À 10+ de Compte de Charge, gagne 2 de <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Barrière de Charge</color></link></u> au prochain tour"
+                  "desc": "[OnSucceedAttack] À 10 de Compte de Charge ou plus, gagne 2 Barrière de Charge au prochain tour"
                 }
               ]
             }
@@ -122,7 +122,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] À 5+ de Compte de Charge, gagne 1 de <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Barrière de Charge</color></link></u> pour chaque 5 de Compte de Charge au prochain tour (4 Max)"
+                  "desc": "[OnSucceedAttack] À 5 de Compte de Charge ou plus, gagne 1 Barrière de Charge pour chaque 5 de Compte de Charge au prochain tour (4 Max)"
                 }
               ]
             }
@@ -136,17 +136,17 @@
         {
           "level": 3,
           "name": "Déploiement de la Barrière de Charge",
-          "desc": "[WhenUse] À 10+ de Compte de Charge, consomme tout le Compte de Charge et applique (Compte de Charge Consommé / 2) de <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Barrière de Charge</color></link></u> (Arrondi à l’inférieur) à 2 alliés avec le plus faible pourcentage de PV",
+          "desc": "[WhenUse] À 10 de Compte de Charge ou plus, consomme tout le Compte de Charge et applique (Compte de Charge Consommé / 2) Barrière de Charge (Arrondi à l’inférieur) à 2 alliés avec le plus faible pourcentage de PV",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de Déchirure"
+                  "desc": "[OnSucceedAttack] Inflige 3 Déchirure"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gagne 2 de <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Barrière de Charge</color></link></u> au prochain tour"
+                  "desc": "[OnSucceedAttack] Gagne 2 Barrière de Charge au prochain tour"
                 }
               ]
             }
@@ -155,17 +155,17 @@
         {
           "level": 4,
           "name": "Déploiement de la Barrière de Charge",
-          "desc": "[WhenUse] À 10+ de Compte de Charge, consomme tout le Compte de Charge et applique (Compte de Charge Consommé / 2) de <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Barrière de Charge</color></link></u> (Arrondi à l’inférieur) à 2 alliés avec le plus faible pourcentage de PV",
+          "desc": "[WhenUse] À 10 de Compte de Charge ou plus, consomme tout le Compte de Charge et applique (Compte de Charge Consommé / 2) Barrière de Charge (Arrondi à l’inférieur) à 2 alliés avec le plus faible pourcentage de PV",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 5 de Déchirure"
+                  "desc": "[OnSucceedAttack] Inflige 5 Déchirure"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gagne 2 de <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Barrière de Charge</color></link></u> au prochain tour"
+                  "desc": "[OnSucceedAttack] Gagne 2 Barrière de Charge au prochain tour"
                 }
               ]
             }
@@ -179,7 +179,7 @@
         {
           "level": 1,
           "name": "Garde",
-          "desc": "[WhenUse] Gagne 2 de <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Barrière de Charge</color></link></u> (3 fois par tour)",
+          "desc": "[WhenUse] Gagne 2 Barrière de Charge (3 fois par tour)",
           "coinlist": [
             {}
           ]
@@ -187,7 +187,7 @@
         {
           "level": 4,
           "name": "Garde",
-          "desc": "[WhenUse] Gagne <style=\"highlight\">3</style> de <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Barrière de Charge</color></link></u> (3 fois par tour)",
+          "desc": "[WhenUse] Gagne <style=\"highlight\">3</style> Barrière de Charge (3 fois par tour)",
           "coinlist": [
             {}
           ]
@@ -206,7 +206,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de Saignement"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 Saignement"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Inflige +1 de Compte de Saignement"
@@ -224,7 +224,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de Saignement"
+                  "desc": "[OnSucceedAttack] Inflige 1 Saignement"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Inflige +1 de Compte de Saignement"
@@ -242,7 +242,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de Saignement"
+                  "desc": "[OnSucceedAttack] Inflige 1 Saignement"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Inflige +1 de Compte de Saignement"
@@ -264,14 +264,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de Saignement"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 Saignement"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de Saignement"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 Saignement"
                 }
               ]
             },
@@ -292,14 +292,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de Saignement"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 Saignement"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de Saignement"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 Saignement"
                 }
               ]
             },
@@ -315,19 +315,19 @@
         {
           "level": 4,
           "name": "’Vais d’Abord",
-          "desc": "À 6+ de Vitesse, +1 de Puissance de Pièce\n[WhenUse] Gagne 2 Accélération au prochain tour",
+          "desc": "À 6 de Vitesse ou plus, +1 de Puissance de Pièce\n[WhenUse] Gagne 2 Accélération au prochain tour",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de Saignement"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 Saignement"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de Saignement"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 Saignement"
                 }
               ]
             },
@@ -348,7 +348,7 @@
         {
           "level": 3,
           "name": "Massacre",
-          "desc": "À 8+ de Vitesse, +1 de Puissance de Pièce\nInflige plus de dégâts selon les PV manquants de la cible (+0.3% de dégâts par 1% de PV manquant)",
+          "desc": "À 8 de Vitesse ou plus, +1 de Puissance de Pièce\nInflige plus de dégâts selon les PV manquants de la cible (+0.3% de dégâts par 1% de PV manquant)",
           "coinlist": [
             {
               "coindescs": [
@@ -361,14 +361,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de Saignement"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 Saignement"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 2 de Saignement"
+                  "desc": "[OnSucceedAttackHead] Inflige 2 Saignement"
                 }
               ]
             }
@@ -377,7 +377,7 @@
         {
           "level": 4,
           "name": "Massacre",
-          "desc": "À 6+ de Vitesse, +1 de Puissance de Pièce\nInflige plus de dégâts selon les PV manquants de la cible (+0.5% de dégâts par 1% de PV manquant)",
+          "desc": "À 6 de Vitesse ou plus, +1 de Puissance de Pièce\nInflige plus de dégâts selon les PV manquants de la cible (+0.5% de dégâts par 1% de PV manquant)",
           "coinlist": [
             {
               "coindescs": [
@@ -390,14 +390,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de Saignement"
+                  "desc": "[OnSucceedAttack] Inflige 1 Saignement"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de Saignement"
+                  "desc": "[OnSucceedAttack] Inflige 2 Saignement"
                 }
               ]
             }
@@ -419,7 +419,7 @@
         {
           "level": 4,
           "name": "Rapidité",
-          "desc": "Si la cible a 7+ de Saignement, gagne +2 de Puissance de Pièce\n[OnSucceedEvade] Gagne 1 Accélération au prochain tour (3 fois par tour)",
+          "desc": "Si la cible a 7 Saignement ou plus, gagne +2 de Puissance de Pièce\n[OnSucceedEvade] Gagne 1 Accélération au prochain tour (3 fois par tour)",
           "coinlist": [
             {}
           ]
@@ -446,7 +446,7 @@
         {
           "level": 2,
           "name": "Dépenser la Connaissance",
-          "desc": "[WhenUse] Défausse 1 Capacité du rang supérieur dans tous les Emplacements de Capacité de cette unité\n[WhenUse] À 3+ de [KnowledgeExplored], +1 de Puissance de Duel",
+          "desc": "[WhenUse] Défausse 1 Capacité du rang supérieur dans tous les Emplacements de Capacité de cette unité\n[WhenUse] À 3 [KnowledgeExplored] ou plus, +1 de Puissance de Duel",
           "coinlist": [
             {
               "coindescs": [
@@ -454,7 +454,7 @@
                   "desc": "[OnSucceedAttackHead] Inflige +1 de Compte de [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] À 3+ de [KnowledgeExplored], réutilise cette Pièce une fois"
+                  "desc": "[OnSucceedAttack] À 3 [KnowledgeExplored] ou plus, réutilise cette Pièce une fois"
                 }
               ]
             }
@@ -492,7 +492,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 3 de [Sinking]"
+                  "desc": "[OnSucceedAttackHead] Inflige 3 [Sinking]"
                 }
               ]
             }
@@ -501,14 +501,14 @@
         {
           "level": 2,
           "name": "Dévoiler",
-          "desc": "[WhenUse] Défausse aléatoirement 2 des Capacités de cette unité par ordre ascendant de rang dans tous ses Emplacements de Capacité\n[WhenUse] À 3+ de [KnowledgeExplored], +1 de Puissance de Pièce",
+          "desc": "[WhenUse] Défausse aléatoirement 2 des Capacités de cette unité par ordre ascendant de rang dans tous ses Emplacements de Capacité\n[WhenUse] À 3 [KnowledgeExplored] ou plus, +1 de Puissance de Pièce",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Sinking]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Sinking]"
                 }
               ]
             }
@@ -524,7 +524,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 de [Sinking]"
+                  "desc": "[OnSucceedAttack] Inflige 4 [Sinking]"
                 }
               ]
             }
@@ -538,7 +538,7 @@
         {
           "level": 3,
           "name": "Savoir Cyclique",
-          "desc": "[WhenUse] À 2+ de [KnowledgeExplored], gagne de la Puissance de Pièce égale à [KnowledgeExplored]\n[WhenUse] Inflige +1.5% de dégâts par [Sinking] sur la cible (15% Max)",
+          "desc": "[WhenUse] À 2 [KnowledgeExplored] ou plus, gagne de la Puissance de Pièce égale à [KnowledgeExplored]\n[WhenUse] Inflige +1.5% de dégâts par [Sinking] sur la cible (15% Max)",
           "coinlist": [
             {},
             {},
@@ -557,7 +557,7 @@
         {
           "level": 4,
           "name": "Savoir Cyclique",
-          "desc": "[WhenUse] À 2+ de [KnowledgeExplored], gagne de la Puissance de Pièce égale à [KnowledgeExplored]\n[WhenUse] Inflige +3% de dégâts par [Sinking] sur la cible (30% Max)",
+          "desc": "[WhenUse] À 2 [KnowledgeExplored] ou plus, gagne de la Puissance de Pièce égale à [KnowledgeExplored]\n[WhenUse] Inflige +3% de dégâts par [Sinking] sur la cible (30% Max)",
           "coinlist": [
             {},
             {},
@@ -607,7 +607,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 2 de [Vibration]"
+                  "desc": "[OnSucceedAttackHead] Inflige 2 [Vibration]"
                 }
               ]
             },
@@ -628,7 +628,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Vibration]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
                 }
               ]
             },
@@ -644,12 +644,12 @@
         {
           "level": 4,
           "name": "Début de Déduction",
-          "desc": "[WhenUse] Gagne +2 de Compte de [Vibration]\n<style=\"highlight\">À 6+ de Compte de [Vibration], +1 de Puissance de Pièce</style>",
+          "desc": "[WhenUse] Gagne +2 de Compte de [Vibration]\n<style=\"highlight\">À 6 de Compte de [Vibration] ou plus, +1 de Puissance de Pièce</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Vibration]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
                 }
               ]
             },
@@ -682,14 +682,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Vibration]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a 9+ [Vibration], déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible"
+                  "desc": "[OnSucceedAttack] Si la cible a 9 [Vibration] ou plus, déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible"
                 }
               ]
             }
@@ -698,7 +698,7 @@
         {
           "level": 2,
           "name": "Technique de Transfo Canne",
-          "desc": "<style=\"highlight\">[WhenUse] Si la cible a 8+ [Vibration], +1 de Puissance de Duel</style>\n[WhenUse] Gagne +3 de Compte de [Vibration]\n<style=\"highlight\">À 6+ de Compte de [Vibration], +1 de Puissance de Pièce</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Si la cible a 8 [Vibration] ou plus, +1 de Puissance de Duel</style>\n[WhenUse] Gagne +3 de Compte de [Vibration]\n<style=\"highlight\">À 6 de Compte de [Vibration] ou plus, +1 de Puissance de Pièce</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -710,14 +710,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> de [Vibration]"
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a <style=\"highlight\">7</style>+ de [Vibration], déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible"
+                  "desc": "[OnSucceedAttack] Si la cible a <style=\"highlight\">7</style> [Vibration] ou plus, déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible"
                 }
               ]
             }
@@ -738,14 +738,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 de [Vibration]"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a <style=\"highlight\">6</style>+ de [Vibration], déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible"
+                  "desc": "[OnSucceedAttack] Si la cible a <style=\"highlight\">6</style> [Vibration] ou plus, déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible"
                 }
               ]
             }
@@ -759,7 +759,7 @@
         {
           "level": 3,
           "name": "Vous êtes le Coupable !",
-          "desc": "[WhenUse] Si la cible a 6+ de [Vibration], +1 de Puissance de Duel\n[WhenUse] Consomme 10 de Compte de [Vibration] sur soi pour gagner +2 de Puissance de Pièce",
+          "desc": "[WhenUse] Si la cible a 6 [Vibration] ou plus, +1 de Puissance de Duel\n[WhenUse] Consomme 10 de Compte de [Vibration] sur soi pour gagner +2 de Puissance de Pièce",
           "coinlist": [
             {
               "coindescs": [
@@ -807,14 +807,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Si cette Capacité a consommé 10+ de Compte de [Vibration] à l’usage, déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Si cette Capacité a consommé 10 de Compte de [Vibration] ou plus à l’usage, déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Si cette Capacité a consommé 10+ de Compte de [Vibration] à l’usage, déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible\n- Si cette unité a consommé moins de 15 de Compte de [Vibration], déclenche un [VibrationExplosion] sur soi après avoir activé l’effet ci-dessus</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Si cette Capacité a consommé 10 de Compte de [Vibration] ou plus à l’usage, déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible\n- Si cette unité a consommé moins de 15 de Compte de [Vibration], déclenche un [VibrationExplosion] sur soi après avoir activé l’effet ci-dessus</style>"
                 }
               ]
             }
@@ -854,7 +854,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Burst]"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
                 }
               ]
             },
@@ -870,19 +870,19 @@
         {
           "level": 2,
           "name": "Fracas",
-          "desc": "Si la cible a 6+ de [Burst], +1 de Puissance de Pièce",
+          "desc": "Si la cible a 6 [Burst] ou plus, +1 de Puissance de Pièce",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Burst]"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Burst]"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
                 }
               ]
             }
@@ -891,25 +891,25 @@
         {
           "level": 4,
           "name": "Fracas",
-          "desc": "Si la cible a 6+ de [Burst], +1 de Puissance de Pièce",
+          "desc": "Si la cible a 6 [Burst] ou plus, +1 de Puissance de Pièce",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Burst]"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de [Burst]"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Burst]"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de [Burst]"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [Burst]"
                 }
               ]
             }
@@ -935,7 +935,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Burst]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
                 }
               ]
             }
@@ -944,7 +944,7 @@
         {
           "level": 2,
           "name": "Massacreur",
-          "desc": "[WhenUse] Si la cible a 15+ de [Burst] et 3+ de Compte de [Burst] : cette Capacité n’inflige pas de [Burst] ou de Compte de [Burst] ; à la place, gagne +1 de Puissance de Pièce\n[WinDuel] Inflige +1 de Compte de [Burst]",
+          "desc": "[WhenUse] Si la cible a 15 [Burst] ou plus et 3 de Compte de [Burst] ou plus : cette Capacité n’inflige pas de [Burst] ou de Compte de [Burst] ; à la place, gagne +1 de Puissance de Pièce\n[WinDuel] Inflige +1 de Compte de [Burst]",
           "coinlist": [
             {
               "coindescs": [
@@ -956,10 +956,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Burst]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [TakeHpHealReduce] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 [TakeHpHealReduce] au prochain tour"
                 }
               ]
             }
@@ -968,7 +968,7 @@
         {
           "level": 4,
           "name": "Massacreur",
-          "desc": "Si la cible a 6+ de [Burst], +1 de Puissance de Pièce\n[WhenUse] Si la cible a 15+ de [Burst] et 3+ de Compte de [Burst] : cette Capacité n’inflige pas de [Burst] ou de Compte de [Burst] ; à la place, gagne +1 de Puissance de Pièce\n- Si la cible est un <Démon de Sang> ou une <Poche de Sang>, gagne +1 de Puissance de Pièce supplémentaire\n[WinDuel] Inflige +1 de Compte de [Burst]",
+          "desc": "Si la cible a 6 [Burst] ou plus, +1 de Puissance de Pièce\n[WhenUse] Si la cible a 15 [Burst] ou plus et 3 de Compte de [Burst] ou plus : cette Capacité n’inflige pas de [Burst] ou de Compte de [Burst] ; à la place, gagne +1 de Puissance de Pièce\n- Si la cible est un <Démon de Sang> ou une <Poche de Sang>, gagne +1 de Puissance de Pièce supplémentaire\n[WinDuel] Inflige +1 de Compte de [Burst]",
           "coinlist": [
             {
               "coindescs": [
@@ -983,10 +983,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [Burst]"
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 2 de [TakeHpHealReduce] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 2 [TakeHpHealReduce] au prochain tour"
                 }
               ]
             }
@@ -1000,19 +1000,19 @@
         {
           "level": 3,
           "name": "La Fin d’une Chasse Joyeuse",
-          "desc": "[WhenUse] Si la cible a 15+ de [Burst] et 3+ de Compte de [Burst] : cette Capacité n’inflige pas de [Burst] ou de Compte de [Burst] ; à la place, gagne +1 de Puissance de Pièce\n[WinDuel] Inflige +1 de Compte de [Burst]",
+          "desc": "[WhenUse] Si la cible a 15 [Burst] ou plus et 3 de Compte de [Burst] ou plus : cette Capacité n’inflige pas de [Burst] ou de Compte de [Burst] ; à la place, gagne +1 de Puissance de Pièce\n[WinDuel] Inflige +1 de Compte de [Burst]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de [Burst]"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 2 de [Burst]"
+                  "desc": "[OnSucceedAttackHead] Inflige 2 [Burst]"
                 }
               ]
             },
@@ -1022,26 +1022,26 @@
         {
           "level": 4,
           "name": "La Fin d’une Chasse Joyeuse",
-          "desc": "Si la cible a 6+ de [Burst], +1 de Puissance de Pièce\n[WhenUse] Si la cible a 15+ de [Burst] et 3+ de Compte de [Burst] : cette Capacité n’inflige pas de [Burst] ou de Compte de [Burst] ; à la place, gagne +1 de Puissance de Pièce\n- Si la cible est un <Démon de Sang> ou une <Poche de Sang>, gagne +1 de Puissance de Pièce supplémentaire\n[WinDuel] Inflige +2 de Compte de [Burst]",
+          "desc": "Si la cible a 6 [Burst] ou plus, +1 de Puissance de Pièce\n[WhenUse] Si la cible a 15 [Burst] ou plus et 3 de Compte de [Burst] ou plus : cette Capacité n’inflige pas de [Burst] ou de Compte de [Burst] ; à la place, gagne +1 de Puissance de Pièce\n- Si la cible est un <Démon de Sang> ou une <Poche de Sang>, gagne +1 de Puissance de Pièce supplémentaire\n[WinDuel] Inflige +2 de Compte de [Burst]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 1 de [Burst]"
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 2 de [Burst]"
+                  "desc": "[OnSucceedAttackHead] Inflige 2 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a 15+ de [Burst], ou a moins de 30% de PV, Réutilise cette Pièce (une fois par Capacité)"
+                  "desc": "[OnSucceedAttack] Si la cible a 15 [Burst] ou plus, ou a moins de 30% de PV, Réutilise cette Pièce (une fois par Capacité)"
                 }
               ]
             }
@@ -1069,7 +1069,7 @@
         {
           "level": 4,
           "name": "Styptiques d’Urgence",
-          "desc": "[StartBattle] Perd 2 de Puissance de [Laceration] sur soi (3 fois par tour. Si la Puissance de Saignement tombe à 0 ou moins, l’effet de Saignement expire)",
+          "desc": "[StartBattle] Perd 2 d’Intensité de [Laceration] sur soi (3 fois par tour. Si l’Intensité de Saignement tombe à 0 ou moins, l’effet Saignement expire)",
           "coinlist": [
             {
               "coindescs": [
@@ -1103,7 +1103,7 @@
                   "desc": "Dépense 1 [Bullet]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gagne 1 de [Breath]"
+                  "desc": "[OnSucceedAttack] Gagne 1 [Breath]"
                 }
               ]
             },
@@ -1113,7 +1113,7 @@
                   "desc": "Dépense 1 [Bullet]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gagne 1 de [Breath]"
+                  "desc": "[OnSucceedAttack] Gagne 1 [Breath]"
                 }
               ]
             }
@@ -1137,7 +1137,7 @@
                   "desc": "Dépense 1 [Bullet]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gagne <style=\"highlight\">2</style> de [Breath]"
+                  "desc": "[OnSucceedAttack] Gagne <style=\"highlight\">2</style> [Breath]"
                 }
               ]
             },
@@ -1147,7 +1147,7 @@
                   "desc": "Dépense 1 [Bullet]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gagne <style=\"highlight\">2</style> de [Breath]"
+                  "desc": "[OnSucceedAttack] Gagne <style=\"highlight\">2</style> [Breath]"
                 }
               ]
             }
@@ -1171,7 +1171,7 @@
                   "desc": "Dépense 1 [Bullet]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gagne 2 de [Breath]"
+                  "desc": "[OnSucceedAttack] Gagne 2 [Breath]"
                 }
               ]
             },
@@ -1181,7 +1181,7 @@
                   "desc": "Dépense 1 [Bullet]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gagne 2 de [Breath]"
+                  "desc": "[OnSucceedAttack] Gagne 2 [Breath]"
                 }
               ]
             }
@@ -1200,7 +1200,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 2 de [Breath]"
+                  "desc": "[OnSucceedAttack] Gagne 2 [Breath]"
                 }
               ]
             },
@@ -1217,7 +1217,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Reduction] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Reduction] au prochain tour"
                 }
               ]
             }
@@ -1231,7 +1231,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 2 de [Breath]"
+                  "desc": "[OnSucceedAttack] Gagne 2 [Breath]"
                 }
               ]
             },
@@ -1248,10 +1248,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 1 de [Binding] au prochain tour</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 1 [Binding] au prochain tour</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Reduction] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Reduction] au prochain tour"
                 }
               ]
             }
@@ -1265,7 +1265,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 2 de [Breath]"
+                  "desc": "[OnSucceedAttack] Gagne 2 [Breath]"
                 }
               ]
             },
@@ -1288,10 +1288,10 @@
                   "desc": "<style=\"highlight\">+20% de Dégâts en Touche Critique</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Binding] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Reduction] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Reduction] au prochain tour"
                 }
               ]
             }
@@ -1305,7 +1305,7 @@
         {
           "level": 3,
           "name": "Point Final à Vie",
-          "desc": "+1 de Puissance de Base pour chaque [Bullet] allant être dépensée par cette Capacité\n[WhenUse] Si Fixer du Bureau du Point Final Heathcliff est sur le terrain, active [CoveringFire]\n[WhenUse] Gagne 5 de [Breath]",
+          "desc": "+1 de Puissance de Base pour chaque [Bullet] allant être dépensée par cette Capacité\n[WhenUse] Si Fixer du Bureau du Point Final Heathcliff est sur le terrain, active [CoveringFire]\n[WhenUse] Gagne 5 [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -1339,10 +1339,10 @@
                   "desc": "Si la cible est Déséquilibrée, +30% de Dégâts en Touche Critique"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Binding] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [PenetrateTakeDamageUp]"
+                  "desc": "[OnSucceedAttack] Inflige 1 [PenetrateTakeDamageUp]"
                 }
               ]
             }
@@ -1351,7 +1351,7 @@
         {
           "level": 4,
           "name": "Point Final à Vie",
-          "desc": "+1 de Puissance de Base pour chaque [Bullet] allant être dépensée par cette Capacité\n[WhenUse] Si Fixer du Bureau du Point Final Heathcliff est sur le terrain, active [CoveringFire]\n[WhenUse] Gagne 5 de [Breath]\n<style=\"highlight\">[WinDuel] Gagne +2 de Compte de [Breath]</style>",
+          "desc": "+1 de Puissance de Base pour chaque [Bullet] allant être dépensée par cette Capacité\n[WhenUse] Si Fixer du Bureau du Point Final Heathcliff est sur le terrain, active [CoveringFire]\n[WhenUse] Gagne 5 [Breath]\n<style=\"highlight\">[WinDuel] Gagne +2 de Compte de [Breath]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1385,10 +1385,10 @@
                   "desc": "Si la cible est Déséquilibrée, +30% de Dégâts en Touche Critique"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> de [Binding] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [Binding] au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> de [PenetrateTakeDamageUp]"
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [PenetrateTakeDamageUp]"
                 }
               ]
             }
@@ -1402,7 +1402,7 @@
         {
           "level": 1,
           "name": "Calme Combatif",
-          "desc": "Début du Tour : à 0 [Bullet], active 'Au-delà de l’Ombre' à la place\n[OnSucceedEvade] Gagne 1 de [Breath] (3 fois par tour)",
+          "desc": "Début du Tour : à 0 [Bullet], active 'Au-delà de l’Ombre' à la place\n[OnSucceedEvade] Gagne 1 [Breath] (3 fois par tour)",
           "coinlist": [
             {
               "coindescs": [
@@ -1416,7 +1416,7 @@
         {
           "level": 4,
           "name": "Calme Combatif",
-          "desc": "Début du Tour : à 0 [Bullet], active 'Au-delà de l’Ombre' à la place\n[OnSucceedEvade] Gagne 1 de [Breath] (<style=\"highlight\">5</style> fois par tour)",
+          "desc": "Début du Tour : à 0 [Bullet], active 'Au-delà de l’Ombre' à la place\n[OnSucceedEvade] Gagne 1 [Breath] (<style=\"highlight\">5</style> fois par tour)",
           "coinlist": [
             {
               "coindescs": [
@@ -1440,7 +1440,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 2 de [Breath]"
+                  "desc": "[OnSucceedAttack] Gagne 2 [Breath]"
                 }
               ]
             },
@@ -1457,10 +1457,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Binding] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Reduction] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Reduction] au prochain tour"
                 }
               ]
             },
@@ -1484,7 +1484,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 2 de [Breath]"
+                  "desc": "[OnSucceedAttack] Gagne 2 [Breath]"
                 }
               ]
             },
@@ -1507,10 +1507,10 @@
                   "desc": "<style=\"highlight\">+20% de Dégâts en Touche Critique</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Binding] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Reduction] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Reduction] au prochain tour"
                 }
               ]
             },
@@ -1534,7 +1534,7 @@
         {
           "level": 3,
           "name": "Combo : Point Final à Vie",
-          "desc": "+1 de Puissance de Base pour chaque [Bullet] allant être dépensée par cette Capacité\n[WhenUse] Gagne 5 de [Breath]\n[DefeatDuel] +5 de Puissance Finale",
+          "desc": "+1 de Puissance de Base pour chaque [Bullet] allant être dépensée par cette Capacité\n[WhenUse] Gagne 5 [Breath]\n[DefeatDuel] +5 de Puissance Finale",
           "coinlist": [
             {
               "coindescs": [
@@ -1568,10 +1568,10 @@
                   "desc": "Si la cible est Déséquilibrée, +30% de Dégâts en Touche Critique"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [Binding] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 de [PenetrateTakeDamageUp]"
+                  "desc": "[OnSucceedAttack] Inflige 1 [PenetrateTakeDamageUp]"
                 }
               ]
             },
@@ -1593,7 +1593,7 @@
         {
           "level": 4,
           "name": "Combo : Point Final à Vie",
-          "desc": "+1 de Puissance de Base pour chaque [Bullet] allant être dépensée par cette Capacité\n[WhenUse] Gagne 5 de [Breath]\n<style=\"highlight\">[WinDuel] Gagne +2 de Compte de [Breath]</style>\n[DefeatDuel] +5 de Puissance Finale",
+          "desc": "+1 de Puissance de Base pour chaque [Bullet] allant être dépensée par cette Capacité\n[WhenUse] Gagne 5 [Breath]\n<style=\"highlight\">[WinDuel] Gagne +2 de Compte de [Breath]</style>\n[DefeatDuel] +5 de Puissance Finale",
           "coinlist": [
             {
               "coindescs": [
@@ -1627,10 +1627,10 @@
                   "desc": "Si la cible est Déséquilibrée, +30% de Dégâts en Touche Critique"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> de [Binding] au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [Binding] au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> de [PenetrateTakeDamageUp]"
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [PenetrateTakeDamageUp]"
                 }
               ]
             },
@@ -1662,14 +1662,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 1 de [Breath]"
+                  "desc": "[OnSucceedAttack] Gagne 1 [Breath]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 1 de [Breath]"
+                  "desc": "[OnSucceedAttack] Gagne 1 [Breath]"
                 }
               ]
             }
@@ -1683,14 +1683,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 1 de [Breath]"
+                  "desc": "[OnSucceedAttack] Gagne 1 [Breath]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 1 de [Breath]"
+                  "desc": "[OnSucceedAttack] Gagne 1 [Breath]"
                 }
               ]
             }
@@ -1709,14 +1709,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 1 de [Breath]"
+                  "desc": "[OnSucceedAttack] Gagne 1 [Breath]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 1 de [Breath]"
+                  "desc": "[OnSucceedAttack] Gagne 1 [Breath]"
                 }
               ]
             }
@@ -1730,14 +1730,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 1 de [Breath]"
+                  "desc": "[OnSucceedAttack] Gagne 1 [Breath]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 1 de [Breath]"
+                  "desc": "[OnSucceedAttack] Gagne 1 [Breath]"
                 }
               ]
             }
