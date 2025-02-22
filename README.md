@@ -1,8 +1,8 @@
 # LimbusCompanyBusFR
 
 <div align="center">
-<a href="https://github.com/TheRedPacman83/LimbusCompanyBusFR">
-   <img src="https://cdn.discordapp.com/attachments/1110974639192166521/1209250230235562084/EO_EdenButton.png?ex=65e63d09&is=65d3c809&hm=241169f55dcc703cb2ea507bc066b38bc932287ffbc9bb9d94fa2ebd2a535d68&"
+<a href="https://github.com/Eden-Office/LimbusCompanyBusFR">
+   <img src="https://raw.githubusercontent.com/Eden-Office/LimbusCompanyBusFR/refs/heads/main/Localize/Readme/EO_EdenButton.png"
       width="200"
       height="200"/>
 </a>
