@@ -1,0 +1,124 @@
+{
+  "dataList": [
+    {
+      "id": 863001,
+      "name": "Combat Rapproché",
+      "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible, inflige +10% de dégâts supplémentaires pour chaque différence de Vitesse (30% max)\nSi la Vitese de cette unité est plus lente que celle de la cible, inflige -10% de dégâts de moins pour chaque différence de Vitesse (30% max)"
+    },
+    {
+      "id": 863002,
+      "name": "Charger vers l’Avant",
+      "desc": "Augmente de 1 les valeurs de Vitesse min. & max tous les 5 [Breath] sur soi (4 max)"
+    },
+    {
+      "id": 863003,
+      "name": "Invocation de Cibles",
+      "desc": "À 75% de PV ou moins, gagne un nouveau comportement\nEn gagnant un nouveau comportement, invoque Chef d’État-Major de la G Corp. et Vétéran Démoralisé ; puis, inflige Stigmatisé à la cible avec le moins de PV actuels\n- Change les valeurs de Vitesse min. & max sur soi à 1.\n- Gagne 300 PV de Bouclier."
+    },
+    {
+      "id": 863004,
+      "name": "Désigner la Cible",
+      "desc": "En utilisant “Tir de Cible Désignée” ou “Tir de Réajustement de Cible” : parmi les cibles avec la plus basse Vitesse, inflige [FellBulletMark] à la cible avec le moins de PV actuels"
+    },
+    {
+      "id": 863201,
+      "name": "Apport en Oxygène",
+      "desc": "Au premier Début de Tour où Sac de Couchage d’un Jour d’Antan est apparu, il gagne 10 d’Intensité de [Breath] et +10 de Compte [Breath]\n\nFin du Tour : à moins de 10 d’Intensité ou de Compte de [Breath], consomme des PV de la Partie Tête égaux à 2% des PV max du Noyau pour gagner 5 [Breath] et +5 de Compte de [Breath] (ne peut pas être vaincu ou Partie brisée par cet effet)"
+    },
+    {
+      "id": 863202,
+      "name": "Respiration Profonde",
+      "desc": "Multiplie les Chances de Critiques des effets de [Breath] par x1.5\n\nEn Critique :\n- À 15 d’Intensité de [Breath] ou plus, consomme jusqu’à (Intensité de [Breath] sur soi / 5) d’Intensité de [Breath] pour infliger +(Intensité de [Breath] consommée * 4)% de dégâts supplémentaires en Critique\n- À 15 de Compte de [Breath] ou plus, consomme jusqu’à (Compte de [Breath] sur soi / 5) de Compte de [Breath] pour infliger +(Compte de [Breath] consommé * 8)% de dégâts supplémentaires en Critique"
+    },
+    {
+      "id": 863203,
+      "name": "Saturé en Oxygène",
+      "desc": "Dans le tour où cette unité utilise “C’est le… MIENS !”, fixe sa Vitesse à 1. Au Début du Tour, applique 6 d’Intensité de [Breath] et +6 de Compte de [Breath] à toutes les unités sur le Terrain.\n\nÀ la fin du même tour, consomme toute Intensité et Compte de [Breath] en excès supérieur à 5 ; puis, au prochain Début du Tour, applique la même quantité d’Intensité et de Compte de [Breath] consommé à la Partie Tête"
+    },
+    {
+      "id": 863204,
+      "name": "Cage Thoracique Fracassée",
+      "desc": "Lorsque la Partie Corps est brisée, retire la Partie Corps au prochain tour et la remplace avec une Partie Personne"
+    },
+    {
+      "id": 863205,
+      "name": "Régénération de Cage Thoracique",
+      "desc": "À la Fin du Combat, réduit de moitié l’Intensité et le Compte de [Breath] sur la Partie Personne\nAu prochain tour, la Partie Personne disparaît et est remplacée par une Partie Corps"
+    },
+    {
+      "id": 863206,
+      "name": "Souffrance Insoutenable",
+      "desc": "Chaque fois que cette unité perd un Duel et subit une touche, perd 1 d’Intensité de [Breath]\n\nChaque fois que cette unité est touchée par une Attaque à Sens-Unique, perd 1 de Compte de [Breath]\n\nL’Intensité et le Compte de [Breath] de cette unité, qu’importe qu’une attaque touche Critiquement ou que son Passif soit activé, ne tombent pas en-dessous de 5"
+    },
+    {
+      "id": 863207,
+      "name": "Cri Angoissé",
+      "desc": "À 40% de PV de Noyau ou moins, utilise “Partager la Douleur” au prochain tour"
+    },
+    {
+      "id": 863208,
+      "name": "Effet Secondaire",
+      "desc": "Lorsque la Personne meurt, les Parties Corps et Tête gagnent +0.2 de Faiblesse au Tranchant, Perçant et Contondant jusqu’au prochain tour (une fois par Affrontement)"
+    },
+    {
+      "id": 863301,
+      "name": "Pétales Indulgents",
+      "desc": "Fin du Tour: à 20 [BloodDinner] ou plus, consomme jusqu’à 50 [BloodDinner] et soigne les Parties Noyau et Tête du [BloodDinner] consommé\n- Ne s’active pas si la Partie Tête est Déséquilibrée ou Détruite"
+    },
+    {
+      "id": 863302,
+      "name": "Une Goutte d’Alimentation",
+      "desc": "Après l’Attaque, soigne le Noyau et la Partie du nombre de dégâts infligés par la Capacité Offensive de cette unité\n- Ne s’active pas si la Partie Tête est Déséquilibrée ou Détruite"
+    },
+    {
+      "id": 863303,
+      "name": "Désir",
+      "desc": "Fin du Tour: si cette unité a soigné des PV, gagne 1 [AttackUp] et 1 [DefenseDown] au prochain tour tous les 10 PV soignés (10 max)"
+    },
+    {
+      "id": 863304,
+      "name": "Puanteur Assoiffée de Sang",
+      "desc": "À 100 [BloodDinner] ou plus, utilise une Capacité spéciale\nFin du Tour: à 500 [BloodDinner_Accumulation] ou plus par cette unité, ou si cette unité est à moins de 60% de PV, gagne un nouveau comportement"
+    },
+    {
+      "id": 863305,
+      "name": "Péché Réfracté",
+      "desc": "Les Intensités de [Combustion], de [Laceration], de [Vibration], de [Burst] et de [Sinking] ne se cumule que jusqu’à 50 (inclut les variations uniques de ces Mots-Clé)"
+    },
+    {
+      "id": 863306,
+      "name": "Épine Tranchante",
+      "desc": "Si la Partie Corps de cette unité subit des dégâts d’attaque ennemie, inflige +1 de Compte de [Laceration] à l’attaquant (une fois par tour par Identité)"
+    },
+    {
+      "id": 863307,
+      "name": "Soif Sans Fin",
+      "desc": "Début du Tour : gagne 1 [DefenseDown] tous les 100 [BloodDinner_Accumulation] par cette unité (10 max)\nDébut du Tour : gagne 1 [TakeHpHealIncrease] tous les 200 [BloodDinner_Accumulation] par cette unité (5 max)"
+    },
+    {
+      "id": 863308,
+      "name": "Désir Éternel",
+      "desc": "Déclenche un Événement de Choix tous les “multiple de 3” tours."
+    },
+    {
+      "id": 863309,
+      "name": "Taux de Réfraction Augmenté",
+      "desc": "Si 9 tours sont passés depuis que cette unité est apparue sur le terrain, à partir du prochain tour, gagne 1 [AttackUp] chaque tour passé le 10ème tour (10 max)"
+    },
+    {
+      "id": 863101,
+      "name": "Éxécution Désignée",
+      "desc": "Lorsque tué par Der Fluchschütze, applique 1 [Agility], 1 [Enhancement] et 2 [AttackDmgUp] au prochain tour à Der Fluchschütze"
+    },
+    {
+      "id": 863102,
+      "name": "Premier Coup qui GagneFirst Strike Wins",
+      "desc": "Lorsque tué par un Pécheur, donne 3 ressources E.G.O. de l’Affinité de la Capacité ayant tué cette unité"
+    },
+    {
+      "id": 863103,
+      "name": "Pas Moi",
+      "desc": "Si cette unité n’a pas Stigmatisé au Début du Combat, gagne 300 Bouclier."
+    }
+  ]
+}

@@ -12,11 +12,11 @@
     },
     {
       "id": "GiveBuffOnSucceedAttack",
-      "desc": "Applique {1} de {0} en Touche"
+      "desc": "Applique {1} {0} en Touche"
     },
     {
       "id": "MaxHpMultiplierRail",
-      "desc": "{0}% PV Max"
+      "desc": "{0}% PV max"
     },
     {
       "id": "SlotWeightAdder",
@@ -24,15 +24,15 @@
     },
     {
       "id": "AtkAdder",
-      "desc": "{0} Niveau Offensif"
+      "desc": "{0} Niveau(x) Offensif(s)"
     },
     {
       "id": "DefAdder",
-      "desc": "{0} Niveau Défensif"
+      "desc": "{0} Niveau(x) Défensif(s)"
     },
     {
       "id": "AtkAdderIfNotDamagedPrevTurn",
-      "desc": "{0} Niveau Offensif si l’utilisateur n’a pas subi de dégâts pendant un tour\n(Dégâts de Bouclier ≠ dégâts de PV)"
+      "desc": "{0} Niveau(x) Offensif(s) si l’utilisateur n’a pas subi de dégâts pendant un tour\n(Dégâts de Bouclier ≠ dégâts de PV)"
     },
     {
       "id": "MaxSpeedAdderAsStack",
@@ -48,7 +48,7 @@
     },
     {
       "id": "TakeHpHealMultiplier",
-      "desc": "{0}% de PVs soignés par des Effets de Capacité"
+      "desc": "{0}% de PV soignés par des Effets de Capacité"
     },
     {
       "id": "RecoverSelfHpOnSucceedAttackByDmg",
@@ -60,25 +60,25 @@
     },
     {
       "id": "MaxHpMultiplier",
-      "desc": "{0}% de PV Max"
+      "desc": "{0}% de PV max"
     },
     {
       "id": "AtkAndDefAdder",
-      "desc": "{0} Niveau Offensif, {0} Niveau Défensif"
+      "desc": "{0} Niveau(x) Offensif(s), {0} Niveau(x) Défensif(s)"
     },
     {
       "id": "GiveBuffOnRoundStartToAllAlly",
-      "desc": "Au début du tour, applique {1} de {0} et +{2} de Compte de {0} à tous les alliés",
-      "variation": "Au début du tour, applique {1} de {0} à tous les alliés.",
+      "desc": "Au début du tour, applique {1} {0} et +{2} de Compte de {0} à tous les alliés",
+      "variation": "Au début du tour, applique {1} {0} à tous les alliés.",
       "variation2": "Au début du tour, applique +{1} de Compte de {0} à tous les alliés"
     },
     {
       "id": "GiveBuffOnRoundStartToAllAllyExtra",
-      "desc": "Au début du tour, applique {1} de {0} à tous les alliés et applique +{2} de Compte de {0} supplémentaire aux alliés avec {0}"
+      "desc": "Au début du tour, applique {1} {0} à tous les alliés et applique +{2} de Compte de {0} supplémentaire aux alliés avec {0}"
     },
     {
       "id": "GiveBuffOnRoundStartToAllEnemyExtra",
-      "desc": "Au début du tour, applique {1} {0} to all enemies et applique +{2} de Compte de {0} supplémentaire à tous les ennemis avec {0}"
+      "desc": "Au début du tour, applique {1} {0} à tous les ennemis et applique +{2} de Compte de {0} supplémentaire à tous les ennemis avec {0}"
     },
     {
       "id": "LoseTurnOnRoundEnd",
@@ -90,11 +90,11 @@
     },
     {
       "id": "DefAdderByStackCeilToInt",
-      "desc": "Perd 1 Niveau Défensif pour chaque 4 de Puissance de Tremblement"
+      "desc": "Perd 1 Niveau Défensif tous les 4 d’Intensité de Tremblement"
     },
     {
       "id": "Crack",
-      "desc": "Lorsque Déséquilibré et lorsque la somme de la Puissance et du Compte de Tremblement est supérieure ou égale à 20, augmente de 1 le Niveau de Déséquilibre.\nNe peut pas dépasser le Niveau de Déséquilibre maximal avec cet effet."
+      "desc": "Lorsque Déséquilibré et lorsque la somme de l’Intensité et du Compte de Tremblement est supérieure ou égale à 20, augmente de 1 le Niveau de Déséquilibre.\nNe peut pas dépasser le Niveau de Déséquilibre maximal avec cet effet."
     },
     {
       "id": "VibrationEcho",
@@ -102,11 +102,11 @@
     },
     {
       "id": "VibrationDistribution",
-      "desc": "- Fin du Tour : gagne ((somme du Compte de Tremblement - Distribution de tous les alliés) / (# d’alliés avec Tremblement - Distribution)) de Bonus de Niveau Offensif au prochain tour (5 max)"
+      "desc": "- Fin du Tour : gagne ((somme du Compte de Tremblement - Distribution de tous les alliés) / (# d’alliés avec Tremblement - Distribution)) Bonus de Niveau Offensif au prochain tour (5 max)"
     },
     {
       "id": "VibrationChain",
-      "desc": "Perd 1 de Puissance de Duel pour chaque 10 de Puissance de Tremblement sur la cible (3 max)"
+      "desc": "Perd 1 de Puissance de Duel tous les 10 d’Intensité de Tremblement sur la cible (3 max)"
     },
     {
       "id": "VibrationContinue",
@@ -119,13 +119,13 @@
     {
       "id": "TimeRentalTwoPersonality",
       "name": "Temps Emprunté",
-      "desc": "Fin du Tour : gagne {1} de Vitesse, de Bonus de Puissance de Duel et de Vulnérabilité au prochain tour\nÀ 1 de Compte, gagne {0} de Ralentissement au prochain tour à la place",
+      "desc": "Fin du Tour : gagne {1} de Vitesse, Bonus de Puissance de Duel et Vulnérabilité au prochain tour\nÀ 1 de Compte, gagne {0} Ralentissement au prochain tour à la place",
       "summary": ""
     },
     {
       "id": "VibrationChainPersonality",
       "name": "Tremblement - Chaîne",
-      "desc": "Perd 1 de Puissance de Duel pour chaque 10 de Puissance de Tremblement (3 max)",
+      "desc": "Perd 1 de Puissance de Duel tous les 10 d’Intensité de Tremblement (3 max)",
       "summary": ""
     },
     {
@@ -158,7 +158,191 @@
     },
     {
       "id": "DefaultMaxHpMultiplier",
-      "desc": "{0}% de PV Max"
+      "desc": "{0}% de PV max"
+    },
+    {
+      "id": "ResistAdderForLastBoss",
+      "desc": "{1} Résistance {0} du Boss Final de la Section 3"
+    },
+    {
+      "id": "MRR519P",
+      "desc": "Lorsqu’un allié meurt, inflige des dégâts fixes égaux à 20% des PV max de l’allié mort à tous les ennemis"
+    },
+    {
+      "id": "HealSelfOnSucceedAttackByDmgRatio",
+      "desc": "En Touche, si la touche a réduit les PV de la cible, se soigne de {0}% des dégâts infligés"
+    },
+    {
+      "id": "MRR524P",
+      "desc": "Toutes les Capacités infligent +1% de dégâts supplémentaires pour chaque 10 {0} sur soi (30% max)"
+    },
+    {
+      "id": "MRR525",
+      "desc": "Fin du Tour : perd {1} Compte de {0}"
+    },
+    {
+      "id": "CoinScaleAdderByAtkType",
+      "desc": "Capacités de {0} gagnent +{1} de Puissance de Pièce Positive, -{1} de Puissance de Pièce Négative"
+    },
+    {
+      "id": "GiveBuffOnReleaseStandBy",
+      "desc": "Gagne {1} {0} en Substituant"
+    },
+    {
+      "id": "MRR532",
+      "desc": "Après avoir utilisé un E.G.O. d’Éveil, consomme également 1 ressource E.G.O. de 3 Affinités de Péché aléatoires avec plus de 1 ressource E.G.O."
+    },
+    {
+      "id": "LacerationStackAndTurnAdder",
+      "desc": "+{0} d’Intensité et de Compte de {1} infligé par des effets de Capacité & de Pièce"
+    },
+    {
+      "id": "MRR536",
+      "desc": "Lorsque touché par une Capacité, gagne aléatoirement 1 des suivants au prochain tour : {0}, {1} (4 fois max)"
+    },
+    {
+      "id": "MRR540",
+      "desc": "Capacités qui consomment {0} gagne les suivants : +1 de Puissance Finale, inflige +10% de dégâts supplémentaires"
+    },
+    {
+      "id": "MRR541",
+      "desc": "En ciblant principalement l’unité avec le moins de {1}, +{0} de Puissance Finale de Capacité"
+    },
+    {
+      "id": "MRR518P",
+      "desc": "Début du Combat : 3 alliés actuellement Déployés le plus tôt gagnent 10 d’Intensité de Calme"
+    },
+    {
+      "id": "MRR520P",
+      "desc": "À la mort, inflige des dégâts fixes égaux à {0}% des PV max de l’unité morte à tous les ennemis (en Affrontement Concentré, toutes les Parties)"
+    },
+    {
+      "id": "MRR517",
+      "desc": "Lorsque touché par une Capacité, gagne 2 Bonus de Niveau Offensif au prochain tour (6 max)"
+    },
+    {
+      "id": "MRR5051",
+      "desc": "En Touche avec des Capacités qui ont consommé 8 Compte de {0} ou plus : +0.1 à la Résistance {1} de la cible pour cet Affrontement\n- Une fois par Capacité par Ennemi\n- Ajustement max de Résistance avec cet effet : 0.3"
+    },
+    {
+      "id": "MRR5052",
+      "desc": "Capacités qui consomment ou gagnent du Compte de {0} infligent +(10 + (Compte de Charge consommé * 2))% de dégâts supplémentaires (50% max)"
+    },
+    {
+      "id": "MRR506",
+      "desc": "Fin du Tour : pour chaque Mot-Clé, contre toutes les Parties ennemies avec 2 de Compte ou plus, inflige des dégâts de {1} égaux à l’Intensité de {0} sur chaque Partie ; puis, réduit leur Compte de {0} de 1, déclenche un {2} et réduit leur Compte de {3} de 1"
+    },
+    {
+      "id": "MRR507",
+      "desc": "Capacités qui infligent de l’Intensité ou du Compte de {0} : +2 de Puissance Finale"
+    },
+    {
+      "id": "MRR508",
+      "desc": "Inflige +(Intensité de {0} sur la cible)% de dégâts supplémentaires aux cibles à moins de 0 PSM ou sans PSM (45% max)"
+    },
+    {
+      "id": "MRR509P",
+      "desc": "Inflige +{0}% de dégâts supplémentaires contre les Parties Détruites ou Déséquilibrées"
+    },
+    {
+      "id": "GiveBuffOnFirstRoundStartPerWave",
+      "desc": "Premier Début de Tour d’une vague : gagne {1} d’Intensité de {0} et +{2} de Compte de {0}"
+    },
+    {
+      "id": "GiveBuffOnBattleStartAR",
+      "desc": "Si une Réson. de {0} a été activée, tous les alliés gagnent {2} d’Intensité de {1} et +{3} de Compte de {1} au Début du Combat"
+    },
+    {
+      "id": "MRR511PMaxSpeedAdder",
+      "desc": "#1 Allié Déployé : +1 de Vitesse max"
+    },
+    {
+      "id": "MRR511PMinSpeedAdder",
+      "desc": "#1 Allié Déployé : +1 de Vitesse min."
+    },
+    {
+      "id": "MRR511PMinSpeedChangeSkill",
+      "desc": "#1 Allié Déployé : perd une Capacité 1 mais gagne une Capacité 3"
+    },
+    {
+      "id": "MRR512",
+      "desc": "À partir du Pécheur Déployé #7, au début du même tour que son arrivée, regagne {0} PSm, gagne {2} {1} pour l’Affrontement et gagne {3} ressources E.G.O. pour chacune de ses Capacités 1, 2 et 3"
+    },
+    {
+      "id": "AddSinStockOnKillTargetByUsedSkillAttribute",
+      "desc": "Après avoir utilisé une Capacité Offensive ou de Riposte, si l’ennemi est vaincu, gagne {0} ressource(s) E.G.O. de l’Affinité de Péché qui a été utilisée (une fois par Capacité, inclut les Capacités E.G.O.)"
+    },
+    {
+      "id": "MRR514",
+      "desc": "Lorsque des ennemis de renfort entre dans le combat, leur inflige 5 Saignement et +3 de Compte de Saignement au Début du Combat. S’il y a un <Démon de Sang> parmi les alliés et lorsque les conditions ci-dessus sont remplies : active une fois le Saignement de tous les ennemis et réduit leurs Comptes de Saignement de 1"
+    },
+    {
+      "id": "EnemyLevelTextOnly",
+      "desc": "{0} Niveau(x) Ennemi"
+    },
+    {
+      "id": "MRR501",
+      "desc": "+{0} d’Intensité de Brûlure, Saignement, Tremblement, Déchirure et Lourdeur infligé aux ennemis avec des effets de Capacité & de Pièce"
+    },
+    {
+      "id": "TakeBuffTurnAdder",
+      "desc": "{1} au Compte de {0} gagné par les alliés avec des effets de Capacités & de Pièce"
+    },
+    {
+      "id": "MRR503",
+      "desc": "{0} alliés avec le moins de PSM regagnent {1} PSM à la Fin du Tour (exclut : les alliés qui sont Paniqués ou Érodés)"
+    },
+    {
+      "id": "CriticalDamageBoostWithBuffUse",
+      "desc": "En Critique, à plus de {1} d’Intensité de {0}, consomme jusqu’à {1} de l’excédent d’Intensité de {0} pour infliger +(Intensité de Calme consommée * {2})% de dégâts supplémentaires en Touche Critique ({3}% max)"
+    },
+    {
+      "id": "GainSinStockOnDieByDefaultSkill",
+      "desc": "Lorsque vaincu, gagne des Ressources E.G.O. basé sur l’Affinité et le Rang de chaque Capacité Offensive que possède cette unité"
+    },
+    {
+      "id": "MRR547",
+      "desc": "Début du Tour : toutes les Capacités ennemies gagnent +1~3 de Puissance Finale"
+    },
+    {
+      "id": "MRR544",
+      "desc": "Début du Tour : toutes les Capacités alliées gagnent +1~3 de Puissance Finale"
+    },
+    {
+      "id": "MRR551",
+      "desc": "Début du Tour : à PV max, gagne {1} d’Intensité de {0} et +{2} de Compte (une fois par ennemi par Partie par Affrontement)"
+    },
+    {
+      "id": "MRR552",
+      "desc": "À la mort, 1 allié avec le moins de PV actuels gagne {1} {0} au prochain tour"
+    },
+    {
+      "id": "MRR553",
+      "desc": "Capacités E.G.O. infligent +{0}% de dégâts supplémentaires"
+    },
+    {
+      "id": "MRR521",
+      "desc": "Retire le premier seuil de Déséquilibre"
+    },
+    {
+      "id": "MRR557",
+      "desc": "Inflige +(10 + Intensité de {0} + Compte de {0})% de dégâts supplémentaires en Touche Critique (50% max)"
+    },
+    {
+      "id": "LacerationStackAndTurnAdderIfNotZero",
+      "desc": "+{0} à l’Intensité et au Compte de {1} infligés par des effets de Capacité & de Pièce"
+    },
+    {
+      "id": "AttackDmgMultiplierSpecificType",
+      "desc": "Capacités de {0} infligent +30% de dégâts supplémentaires"
+    },
+    {
+      "id": "MRR565MaxSpeedAdder",
+      "desc": "{0} de Vitesse max"
+    },
+    {
+      "id": "MRR565MinSpeedAdder",
+      "desc": "{0} de Vitesse min."
     }
   ]
 }

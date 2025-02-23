@@ -57,7 +57,7 @@
     },
     {
       "id": 1040301,
-      "name": "Kokuundō",
+      "name": "Kokuuntō",
       "desc": "Inflige +10% de dégâts aux cibles avec Saignement."
     },
     {
@@ -583,12 +583,12 @@
     {
       "id": 1120501,
       "name": "Lame de Scie Allumée",
-      "desc": "Inflige +1 de Déchirure aux cibles avec Tremblement"
+      "desc": "Inflige +1 de Déchirure aux cibles avec [Vibration]"
     },
     {
       "id": 1120521,
       "name": "Entretien de Lame de Scie",
-      "desc": "1 allié avec la plus basse Vitesse inflige +1 de Déchirure aux cibles avec Tremblement"
+      "desc": "1 allié avec la plus basse Vitesse inflige +1 de Déchirure aux cibles avec [Vibration]"
     },
     {
       "id": 1010401,
@@ -673,7 +673,7 @@
     {
       "id": 1080701,
       "name": "Écrasement de Crabes",
-      "desc": "En touche contre une cible avec Tremblement, inflige +1 de Compte de Lourdeur"
+      "desc": "En touche contre une cible avec [Vibration], inflige +1 de Compte de Lourdeur"
     },
     {
       "id": 1080721,
@@ -1982,7 +1982,27 @@
     {
       "id": 1081121,
       "name": "Lame de l’Atelier Nuage",
-      "desc": "1 allié avec la plus haute Vitesse inflige +1 [Laceration] supplémentaire"
+      "desc": "1 allié avec la plus haute Vitesse inflige +1 d’Intensité ou de Compte de [Laceration] supplémentaire avec des effets de Capacité & de Pièce aux ennemis"
+    },
+    {
+      "id": 1011201,
+      "name": "Ardeur Intérieure",
+      "desc": "Fin du Tour : soigne 1 allié avec le moins de PSM de (5 + plus haute Réson.) PSM (10 max) (exclut : soi-même et les alliés Paniqués ou Érodés par E.G.O.)\n- Si cet allié a des Capacités de Base qui infligent de l’Intensité ou du Compte de [Combustion], leur fait regagner 5 PSM supplémentaires"
+    },
+    {
+      "id": 1011211,
+      "name": "Ardeur Intérieure",
+      "desc": "Fin du Tour : soigne 1 allié avec le moins de PSM de (5 + plus haute Réson.) PSM (10 max) (exclut : soi-même et les alliés Paniqués ou Érodés par E.G.O.)\n- Si cet allié a des Capacités de Base qui infligent de l’Intensité ou du Compte de [Combustion], leur fait regagner 5 PSM supplémentaires\n- À 4 de Réson. de Colère ou plus, soigne 1 allié supplémentaire"
+    },
+    {
+      "id": 1011221,
+      "name": "Formation Défensive Liu",
+      "desc": "Pour 2 alliés avec le moins de PSM : s’ils ont perdu des PSM durant ce tour, regagnent 5 PSM à la Fin du Tour"
+    },
+    {
+      "id": 1011231,
+      "name": "Formation Défensive Liu",
+      "desc": "Pour 2 alliés avec le moins de PSM : s’ils ont perdu des PSM durant ce tour, regagnent 5 PSM à la Fin du Tour\n- Si ces alliés ont des Capacités de Base qui infligent de l’Intensité ou du Compte de [Combustion], regagnent 5~10 PSM à la place"
     }
   ]
 }

@@ -1628,6 +1628,303 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1011201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Coupe Enflammée",
+          "desc": "Si la cible a 6 [Combustion] ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Coupe Enflammée",
+          "desc": "Si la cible a <style=\"highlight\">3</style> [Combustion] ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Coupe Enflammée",
+          "desc": "+1 de Puissance de Pièce <style=\"highlight\">pour chaque 3</style> [Combustion] sur la cible <style=\"highlight\">(2 max)</style>\n<style=\"highlight\">Inflige +10% de dégâts supplémentaires pour chaque 10 [Combustion] sur la cible (30% max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Assaut Frontal",
+          "desc": "Si la cible a 6 [Combustion] ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 6 [Combustion] ou plus, inflige +2 de Compte de [Combustion] à la cible"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Assaut Frontal",
+          "desc": "+1 de Puissance de Pièce pour chaque 6 [Combustion] sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +2.5% de dégâts supplémentaires pour chaque [Combustion] sur la cible (30% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 6 [Combustion] ou plus, inflige +2 de Compte de [Combustion] sur la cible"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Assaut Frontal",
+          "desc": "+1 de Puissance de Pièce pour chaque 6 [Combustion] sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +<style=\"highlight\">5</style>% de dégâts supplémentaires pour chaque [Combustion] sur la cible (<style=\"highlight\">60</style>% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 6 [Combustion] ou plus, inflige +2 de Compte de [Combustion] sur la cible"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011203,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Au Fil de l’Épée",
+          "desc": "Si la cible a 6 [Combustion] ou plus, +1 de Puissance de Pièce\nInflige +10% de dégâts supplémentaires pour chaque 6 [Combustion] sur la cible (30% max)\n[EndSkill] Rend 10 PSM à 1 autre allié avec le moins de PSM\n- Si cette attaque a tué la cible, ou si la cible avait 10 [Combustion] ou plus, soigne 1 allié supplémentaire",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +2% de dégâts supplémentaires pour chaque [Combustion] sur la cible (60% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts de Colère égaux à l’Intensité de [Combustion] de la cible (30 max). Réduit le Compte de [Combustion] de la cible de 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Au Fil de l’Épée",
+          "desc": "+1 de Puissance de Pièce <style=\"highlight\">pour chaque</style> 6 [Combustion] sur la cible <style=\"highlight\">(2 max)</style>\nInflige +10% de dégâts supplémentaires pour chaque 6 [Combustion] sur la cible (30% max)\n[EndSkill] Rend <style=\"highlight\">15</style> PSM à 1 autre allié avec le moins de PSM\n- Si cette attaque a tué la cible, ou si la cible avait 10 [Combustion] ou plus, soigne 1 allié supplémentaire",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +2% de dégâts supplémentaires pour chaque [Combustion] sur la cible (60% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts de Colère égaux à l’Intensité de [Combustion] de la cible (30 max). Réduit le Compte de [Combustion] de la cible de 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Riposte Enflammée",
+          "desc": "[BeforeHit] Gagne du Bouclier égal à la [Combustion] sur la cible (10 max, une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [Combustion]\n- Si cette unité a Bouclier, inflige 1 [Combustion] supplémentaire"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [Combustion]\n- Si cette unité a Bouclier, inflige 1 [Combustion] supplémentaire"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Riposte Enflammée",
+          "desc": "[BeforeHit] Gagne du Bouclier égal à la [Combustion] sur la cible (15 max, une fois par tour)\n[WhenUse] Si la cible a 10 [Combustion] ou plus, inflige +10% de dégâts supplémentaires",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [Combustion]\n- Si cette unité a Bouclier, inflige 1 [Combustion] supplémentaire"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [Combustion]\n- Si cette unité a Bouclier, inflige 1 [Combustion] supplémentaire"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

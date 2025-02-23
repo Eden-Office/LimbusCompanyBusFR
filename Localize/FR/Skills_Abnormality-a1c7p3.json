@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Ce Péché Impardonnable…",
-          "desc": "[WhenUse] Gagne 20 [Laceration] et +1 de Compte de [Laceration]\n[DefeatDuel] Gagne +1 de Compte de [Laceration]",
+          "desc": "[WhenUse] Gagne 20 [Laceration] et +1 de Compte de [Laceration]",
           "coinlist": [
             {
               "coindescs": [
@@ -25,7 +25,7 @@
         {
           "level": 1,
           "name": "Le Châtiment Mérité…",
-          "desc": "[WhenUse] Gagne 20 [Laceration] et +1 de Compte de [Laceration]\n[DefeatDuel] Gagne +1 de Compte de [Laceration]",
+          "desc": "[WhenUse] Gagne 20 [Laceration] et +1 de Compte de [Laceration]",
           "coinlist": [
             {
               "coindescs": [
@@ -51,7 +51,7 @@
         {
           "level": 1,
           "name": "Avez-vous pensé à du sang aujourd’hui ?",
-          "desc": "[WhenUse] Gagne 10 [Laceration]\n[WhenUse] Consomme jusqu’à 30 [BloodDinner] : soigne l’allié avec le moins de PV de ([BloodDinner] consommé * 2). (s’exclut ; arrondi à l’inférieur)",
+          "desc": "[WhenUse] Gagne 10 [Laceration]\n[WhenUse] Consomme jusqu’à 30 [BloodDinner] : soigne le Noyau et les Parties de l’allié avec le moins de PV de ([BloodDinner] consommé * 2). (s’exclut ; arrondi à l’inférieur)",
           "coinlist": [
             {
               "coindescs": [
@@ -63,7 +63,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 1 [WornHeart] et 1 [BloodyHand]"
+                  "desc": "[OnSucceedAttack] Gagne 2 [WornHeart] et [BloodyHand]"
                 }
               ]
             }
@@ -82,14 +82,23 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]\n[OnSucceedAttack] Inflige +2 de Compte de [Laceration]\n[OnSucceedAttack] Si cette unité a 50% de PV ou plus, active le [Laceration] sur soi et consomme 1 de Compte de [Laceration] sur soi"
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 50% de PV ou plus, active le [Laceration] sur soi. Perd 1 de Compte de [Laceration] sur soi"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne 3 [WornHeart] et [BloodyHand]\n[OnSucceedAttack] À 10 [WornHeart], gagne 3 [BloodyHand] supplémentaires et 1 [AttackUp] au prochain tour"
+                  "desc": "[OnSucceedAttack] Gagne 3 [WornHeart] et [BloodyHand]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 10 [WornHeart], gagne 3 [BloodyHand] supplémentaires et gagne 1 [AttackUp] au prochain tour"
                 }
               ]
             }
@@ -122,12 +131,15 @@
         {
           "level": 1,
           "name": "Quelle Abondance…",
-          "desc": "[WhenUse] Si la cible a 6 [Laceration] ou plus, +1 de Puissance de Pièce\n[WhenUse] Consomme jusqu’à 30 [BloodDinner] : gagne +1 de Puissance de Pièce pour chaque [BloodDinner] consommé\n[DefeatDuel] Gagne 1 [Vulnerable] au prochain tour",
+          "desc": "[WhenUse] Si la cible a 6 [Laceration] ou plus, +1 de Puissance de Pièce\n[WhenUse] Consomme jusqu’à 30 [BloodDinner] : gagne +1 de Puissance de Pièce pour chaque 10 [BloodDinner] consommé (l’effet expire après la première attaque de Pièce)\n[DefeatDuel] Gagne 1 [Vulnerable] au prochain tour",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]\n[OnSucceedAttack] Inflige 4 [Laceration]"
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc" : "[OnSucceedAttack] Inflige 4 [Laceration]"
                 }
               ]
             },
@@ -141,7 +153,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Regagne autant de PV que de dégâts infligés (30 max)\n[OnSucceedAttack] Si cette Capacité a consommé 30 [BloodDinner], et si cette unité est à 30 [BloodyHand_3rd] ou plus, Réutilise cette Pièce une fois\n- Si cette Capacité n’a pas consommé de [BloodDinner], gagne 20 [Laceration]"
+                  "desc": "[OnSucceedAttack] Regagne autant de PV que de dégâts infligés (30 max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cette Capacité a consommé 30 [BloodDinner], et si cette unité est à 30 [BloodyHand_3rd] ou plus, Réutilise cette Pièce une fois"
+                },
+                {
+                  "desc": "Si cette Capacité n’a pas consommé de [BloodDinner], gagne 20 [Laceration]"
                 }
               ]
             }
@@ -155,7 +173,7 @@
         {
           "level": 1,
           "name": "Sacrifice pour la Famille",
-          "desc": "[WhenUse] À 50% de PV ou plus, active le [Laceration] sur soi (3 fois max ; réduit le Compte de Saignement à chaque activation ; ne peut pas être Déséquilibré par ces dégâts)\n[WhenUse] Tous les alliés regagnent 5 PSM (inclut soi-même)",
+          "desc": "[StartBattle] À 50% de PV ou plus, active le [Laceration] sur soi (3 fois max ; réduit le Compte de Saignement à chaque activation ; ne peut pas être Déséquilibré par ces dégâts)\n[StartBattle] Tous les alliés regagnent 5 PSM (inclut soi-même)",
           "coinlist": [
             {
               "coindescs": [
