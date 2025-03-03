@@ -24,7 +24,7 @@ Traduction française pour le jeu "Limbus Company"
 ### 1. Appuyez simultanément sur '⊞ Win'+'R'
 ### 2. Dans la fenêtre qui s'ouvre, saisissez 'powershell' et appuyez sur 'Entrée'
 ### 3. Dans la nouvelle fenêtre qui s'ouvre, collez simplement le code suivant :
-   - iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/Eden-Office/LimbusCompanyBusFR/main/Install/patchFR_installer.ps1'))
+iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/Eden-Office/LimbusCompanyBusFR/main/Install/patchFR_installer.ps1'))
 ### 4. Suivez les instructions. Les questions peuvent être répondues en saisissant 'o' ou 'n' suivi d'un appui sur 'Entrée'.
 
 
