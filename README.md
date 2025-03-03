@@ -18,6 +18,18 @@ Traduction française pour le jeu "Limbus Company"
 </div>
 
 # Installation
+
+## Installation automatique (Windows uniquement)
+
+### 1. Appuyez simultanément sur '⊞ Win'+'R'
+### 2. Dans la fenêtre qui s'ouvre, saisissez 'powershell' et appuyez sur 'Entrée'
+### 3. Dans la nouvelle fenêtre qui s'ouvre, collez simplement le code suivant :
+   - iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/Eden-Office/LimbusCompanyBusFR/main/Install/patchFR_installer.ps1'))
+### 4. Suivez les instructions. Les questions peuvent être répondues en saisissant 'o' ou 'n' suivi d'un appui sur 'Entrée'.
+
+
+## Installation manuelle
+
 ### 0. Téléchargez et installez [.NET 6.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-6.0.413-windows-x64-installer)
 ### 1. Installez le framework mod
    - Téléchargez [BepInEx](https://builds.bepinex.dev/projects/bepinex_be/674/BepInEx-Unity.IL2CPP-win-x64-6.0.0-be.674%2B82077ec.zip) puis transférez le contenu de l'archive dans le dossier du jeu
@@ -40,5 +52,10 @@ Traduction française pour le jeu "Limbus Company"
     
 ## Je n'ai pas compris, que dois-je faire ? 
    - [Confessez-vous](https://www.youtube.com/watch?v=kLaaJ_aeoyM)
+
+# Mise à jour du mod
+   - Si vous avez suivi l'installation automatique : suivez à nouveau les consignes de l'installation automatique
+   - Si vous avez suivi l'installation manuelle : suivez à nouveau les consignes de l'installation manuelle depuis l'étape 6.
+
 # Notes
 - Merci aussi à <b>Knightey</b> pour son aide avec le code et les visuels !
