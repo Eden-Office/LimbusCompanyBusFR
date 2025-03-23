@@ -241,7 +241,7 @@
         {
           "level": 4,
           "name": "Punition Multiple",
-          "desc": "[StartBattle] Si à 6 de Réson.-A ou plus d’Envie incluant cette Capacité, utilise 'Une Juste Vengeance' en guise de Riposte.\nEn activant l’effet ci-dessus, l’affinité de la Capacité est changée en Envie.\n(La 'Punition Multiple' la plus à gauche s’active en premier. S’active 2 fois par tour)",
+          "desc": "[StartBattle] Si à 6 de Réson.-A ou plus d’Envie incluant cette Capacité, utilise “Une Juste Vengeance” en guise de Riposte.\nEn activant l’effet ci-dessus, l’affinité de la Capacité est changée en Envie.\n(La “Punition Multiple” la plus à gauche s’active en premier. S’active 2 fois par tour)",
           "coinlist": [
             {
               "coindescs": [
@@ -732,8 +732,9 @@
             },
             {
               "coindescs": [
+                {},
                 {
-                  "desc": "[CriticalOnSucceedAttack] Pour 2 alliés sans [Breath] ou avec le moins de Puissance de [Breath], applique 2 de Compte de [Breath]"
+                  "desc": "[CriticalOnSucceedAttack] Pour 2 alliés sans [Breath] ou avec le moins de Puissance de [Breath], applique +2 de Compte de [Breath]"
                 },
                 {
                   "desc": "[EndSkill] Si la cible est vaincue, gagne 1 [SlashDamageUp] au prochain tour"
@@ -763,11 +764,12 @@
             },
             {
               "coindescs": [
+                {},
                 {
                   "desc": "+30% de Dégâts en Coup Critique"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Pour 2 alliés sans [Breath] ou avec le moins de Puissance de [Breath], applique 2 de Compte de [Breath].\n<style=\"highlight\">Si l’allié affecté est de la Lignée de la Lame, applique 2 de Compte de [Breath] supplémentaires</style>"
+                  "desc": "[CriticalOnSucceedAttack] Pour 2 alliés sans [Breath] ou avec le moins de Puissance de [Breath], applique +2 de Compte de [Breath].\n<style=\"highlight\">Si l’allié affecté est de la Lignée de la Lame, applique 2 de Compte de [Breath] supplémentaires</style>"
                 },
                 {
                   "desc": "[EndSkill] Si la cible est vaincue, <style=\"highlight\">applique 1 [SlashDamageUp] à soi et 1 autre allié aléatoire au prochain tour</style>"
@@ -1570,6 +1572,274 @@
                 }
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fa Jin",
+          "desc": "Si la Vitesse de cette unité dépasse celle de la cible de 3 ou plus, +1 de Puissance de Pièce\n[WhenUse] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Fa Jin",
+          "desc": "Si la Vitesse de cette unité dépasse celle de la cible de <style=\"highlight\">2</style> ou plus, +1 de Puissance de Pièce\n[WhenUse] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Inflige 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Inflige 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Fa Jin",
+          "desc": "<style=\"highlight\">Si la Vitesse de cette unité dépasse celle de la cible, gagne de la Puissance de Pièce basée sur la différence de Vitesse (+1 de Puissance de Pièce toutes les 2 différences de Vitesse ; 2 max)</style>\n[WhenUse] Gagne +<style=\"highlight\">3</style> de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Inflige +1 de Compte de [Combustion]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Paume de Flamme Verdissante",
+          "desc": "Si la Vitesse de cette unité dépasse celle de la cible de 3 ou plus, +1 de Puissance de Pièce\n[WinDuel] Gagne 3 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne +2 de Compte de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [DefenseDown] tous les 6 [Combustion] sur la cible (2 max, une fois par tour)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Paume de Flamme Verdissante",
+          "desc": "Si la Vitesse de cette unité dépasse celle de la cible de <style=\"highlight\">2</style> ou plus, +1 de Puissance de Pièce\n[WinDuel] Gagne 3 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Gagne +2 de Compte de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Inflige 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [DefenseDown] tous les 6 [Combustion] sur la cible (<style=\"highlight\">3</style> max, une fois par tour)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Paume de Flamme Verdissante",
+          "desc": "<style=\"highlight\">Si la Vitesse de cette unité dépasse celle de la cible, gagne de la Puissance de Pièce basée sur la différence de Vitesse (+1 de Puissance de Pièce toutes les 2 différences de Vitesse ; 2 max)</style>\n[WinDuel] Gagne 3 [Breath]\n<style=\"highlight\">- Gagne du Compte de [Breath] supplémentaire égal au [DianxueDonQuixote] sur la cible</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [DefenseDown] tous les 6 [Combustion] sur la cible (<style=\"highlight\">5</style> max, une fois par tour)\n<style=\"highlight\">- Inflige du [DefenseDown] supplémentaire égal au [DianxueDonQuixote] sur la cible</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031103,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "S’il vos plaît, que cest combat soit instructif",
+          "desc": "Inflige +10% de dégâts supplémentaires pour chaque 1 [DianxueDonQuixote] sur la cible (30% max)\nSi la Vitesse de cette unité dépasse celle de la cible de 2 ou plus, +1 de Puissance de Pièce\n[WinDuel] Gagne 5 [Breath]\n- Si la cible a [DianxueDonQuixote], gagne 3 [Breath] supplémentaires",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +([Breath] sur soi + [Combustion] sur la cible)% de dégâts supplémentaires en Touche Critique (30% max)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "S’il vos plaît, que cest combat soit instructif",
+          "desc": "Inflige <style=\"highlight\">+15%</style> de dégâts supplémentaires pour chaque 1 [DianxueDonQuixote] sur la cible (<style=\"highlight\">45%</style> max)\n<style=\"highlight\">Si la Vitesse de cette unité dépasse celle de la cible, gagne de la Puissance de Pièce basée sur la différence de Vitesse (+1 de Puissance de Pièce toutes les 2 différences de Vitesse ; 2 max)</style>\n[WinDuel] Gagne 5 [Breath]\n- Si la cible a [DianxueDonQuixote], gagne 3 [Breath] supplémentaires",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +([Breath] sur soi + [Combustion] sur la cible)% de dégâts supplémentaires en Touche Critique (<style=\"highlight\">50%</style> max)"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Si la cible a [DianxueDonQuixote], inflige 3 [DefenseDown]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vos estes en grant besoin d’aprendre à vos tenir à table !",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Vos estes en grant besoin d’aprendre à vos tenir à table !",
+          "desc": "<style=\"highlight\">Si la Vitesse de cette unité dépasse celle de la cible, gagne +1 de Puissance de Pièce toutes les 2 différences de Vitesse (2 max)</style>",
+          "coinlist": [
+            {}
           ]
         }
       ]

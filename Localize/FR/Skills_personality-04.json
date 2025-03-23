@@ -1542,6 +1542,272 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1041101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Battement de Pas",
+          "desc": "[WhenUse] Si la cible a 6 [Burst] ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Battement de Pas",
+          "desc": "[WhenUse] Si la cible a <style=\"highlight\">4</style> [Burst] ou plus, +1 de Puissance de Pièce\n<style=\"highlight\">[WinDuel] Inflige +1 de Compte de [Burst]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] À 10 de Vitesse ou plus, Réutilise cette Pièce une fois (une fois par Capacité)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Battement de Pas",
+          "desc": "<style=\"highlight\">Si la Vitesse de cette unité est plus rapide que celle de la cible de 3 ou plus, +1 de Puissance de Pièce</style>\n[WhenUse] Si la cible a 4 [Burst] ou plus, +1 de Puissance de Pièce\n[WinDuel] Inflige +1 de Compte de [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 10 de Vitesse ou plus, Réutilise cette Pièce une fois (une fois par Capacité)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Comme Écrit",
+          "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible, inflige (différence de Vitesse * Intensité de [Burst] sur la cible)% de dégâts supplémentaires (50% max)\n[WhenUse] Si la cible a 6 [Burst] ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "À 10 de Vitesse ou plus, inflige +10% de dégâts supplémentaires"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Comme Écrit",
+          "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible, inflige (différence de Vitesse * Intensité de [Burst] sur la cible)% de dégâts supplémentaires (50% max)\n[WhenUse] Si la cible a <style=\"highlight\">4</style> [Burst] ou plus, +1 de Puissance de Pièce\n<style=\"highlight\">[WhenUse] Gagne 2 [Agility] au prochain tour (une fois par tour)\n[WinDuel] Inflige +1 de Compte de [Burst]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] À 10 de Vitesse ou plus, inflige +1 de Compte de [Burst]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "À 10 de Vitesse ou plus, inflige +<style=\"highlight\">20</style>% de dégâts supplémentaires"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Comme Écrit",
+          "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible, inflige (différence de Vitesse * Intensité de [Burst] sur la cible)% de dégâts supplémentaires (50% max)\n<style=\"highlight\">Si la Vitesse de cette unité est plus rapide que celle de la cible de 3 ou plus, +1 de Puissance de Pièce</style>\n[WhenUse] Si la cible a 4 [Burst] ou plus, +1 de Puissance de Pièce\n[WhenUse] Gagne 2 [Agility] au prochain tour (une fois par tour)\n[WinDuel] Inflige +1 de Compte de [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 10 de Vitesse ou plus, inflige +1 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "À 10 de Vitesse ou plus, inflige +<style=\"highlight\">30</style>% de dégâts supplémentaires"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 1 [Burst]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041103,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Je t’étriperai avec une lame gravée de malédiction",
+          "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible, inflige (différence de Vitesse * Intensité de [Burst] sur la cible)% de dégâts supplémentaires (50% max)\nSi la Vitesse de cette unité est plus rapide que celle de la cible de 2 ou plus, +1 de Puissance de Pièce\n[WhenUse] Gagne 3 [LegStrength]\n[WinDuel] Inflige +2 de Compte de [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [BurstAgility]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "À 10 de Vitesse ou plus, inflige +30% de dégâts supplémentaires"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 10 de Vitesse ou plus, Réutilise cette Pièce une fois (une fois par Capacité)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Je t’étriperai avec une lame gravée de malédiction",
+          "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible, inflige (différence de Vitesse * Intensité de [Burst] sur la cible)% de dégâts supplémentaires (50% max)\nSi la Vitesse de cette unité est plus rapide <style=\"highlight\">que celle de la cible, gagne de la Puissance de Pièce selon la différence de Vitesse (+1 de Puissance de Pièce pour chaque 2 différences de Vitesse ; 2 max)\n[WhenUse] Si la cible a 15 [Burst] ou plus, +1 de Puissance de Pièce</style>\n[WhenUse] Gagne 3 [LegStrength]\n[WinDuel] Inflige +2 de Compte de [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [BurstAgility]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "À 10 de Vitesse ou plus, inflige +30% de dégâts supplémentaires"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 10 de Vitesse ou plus, Réutilise cette Pièce une fois (une fois par Capacité)"
+                },
+                {
+                  "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Inflige [BurstAgility]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Marcheur. Libéré. Heh",
+          "desc": "[DuelCounter]\n[WhenUse] Gagne 3 [LegStrength]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Marcheur. Libéré. Heh",
+          "desc": "[DuelCounter]\n[WhenUse] Gagne 3 [LegStrength]\n<style=\"highlight\">[WhenUse] Si la Vitesse de cette unité est plus rapide que celle de la cible, gagne de la Puissance de Base selon la différence de Vitesse (+1 de Puissance de Base pour chaque 2 différences de Vitesse ; 2 max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

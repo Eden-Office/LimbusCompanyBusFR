@@ -70,9 +70,9 @@ namespace LimbusCompanyFR
                 if (!LCB_French_Font.AddFrenchFont(ModPath + "/tmpfrenchfonts"))
                     LogFatalError("Vous avez oublié d'installer le mod de mise à jour de police d'écriture. Veuillez relire le README sur Github.", OpenEOURL);
                 LogInfo("-------------------------\n");
-                TMP_FontAsset pretendard = Resources.Load<TMP_FontAsset>("Font/EN/Pretendard/Pretendard-Regular SDF");
-                LCB_French_Font.tmpfrenchfonts[4].fallbackFontAssetTable.Add(pretendard);
-                LogInfo("Startup" + DateTime.Now);
+                TMP_FontAsset excel = Resources.Load<TMP_FontAsset>("Font/ExcelsiorSans SDF");
+                LogInfo("Startup at:" + DateTime.Now.ToString());
+                excel.fallbackFontAssetTable.Insert(0, LCB_French_Font.tmpfrenchfonts[2]);
             }
             catch (Exception e)
             {

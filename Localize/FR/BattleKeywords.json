@@ -1372,7 +1372,7 @@
     {
       "id": "EchoOfMansion",
       "name": "Échos du Manoir",
-      "desc": "- 50% de chance de gagner +1 de Compte de Lourdeur en gagnant de l’Intensité ou du Compte de Lourdeur d’effets de Capacité ou de Pièce\n- Unités avec PSM : change le Type de Panique en Échos du Manoir. Lorsque cette unité panique, inflige 2 Échos du Manoir à 2 autres alliés aléatoires de cette unité\n- Unités sans PSM : -10% de chance de faire Pile\n- Réduit de 1 à la Fin du Tour\nCet effet n’est pas cumulatif ; l’infliger remplacera la valeur actuelle avec la valeur infligée.\n※ Applique la condition “Unités sans PSM” à certains ennemis avec des PSM mais ne pouvant pas changer de Type de Panique."
+      "desc": "- 50% de chance de gagner +1 de Compte de Lourdeur en gagnant de l’Intensité ou du Compte de Lourdeur d’effets de Capacité ou de Pièce\n- Unités avec PSM : change le Type de Panique en Échos du Manoir. Lorsque cette unité panique, inflige 2 Échos du Manoir à 2 autres alliés aléatoires de cette unité au prochain tour\n- Unités sans PSM : -10% de chance de faire Pile\n- Réduit de 1 à la Fin du Tour\nCet effet n’est pas cumulatif ; l’infliger remplacera la valeur actuelle avec la valeur infligée.\n※ Applique la condition “Unités sans PSM” à certains ennemis avec des PSM mais ne pouvant pas changer de Type de Panique."
     },
     {
       "id": "Switch_Vibration",
@@ -1531,7 +1531,7 @@
     {
       "id": "WanderingFootsteps_Sub",
       "name": "Ruine Imminente",
-      "desc": "-10% de chance de faire Pile\n- Réduit de 1 à la Fin du Tour",
+      "desc": "- -10% de chance de faire Pile\n- Réduit de 1 à la Fin du Tour",
       "summary": ""
     },
     {
@@ -1864,6 +1864,27 @@
       "id": "ReleaseBreath",
       "name": "Expiration Superficielle",
       "desc": "- Valeur Max : 1\n- À 20 d’Intensité de Calme ou plus, gagne également +1 de Compte chaque fois que cette unité gagne de l’Intensité de Calme avec des effets de Capacité et de Pièce\n- Expire à la Fin du Tour"
+    },
+    {
+      "id": "FirePunchFuel",
+      "name": "Carburant du District 12",
+      "desc": "Instance max : 100\nConsommé par certaines Capacités\nÀ 50 Instances ou moins, devient Carburant Surchauffé",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "FirePunchFuelOverheated",
+      "name": "Carburant Surchauffé",
+      "desc": "Instance max : 100\nConsommer du Carburant du District 12 en état de Carburant Surchauffé consomme du Carburant Surchauffé à la place\nConsommer du Carburant Surchauffé compte comme consommer du Carburant du District 12\nÀ plus de 50 Instances, devient Carburant du District 12",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "DianxueDonQuixote",
+      "name": "Point Sensible - Don Quichotte",
+      "desc": "- Instance max : 3\n- L’unité ayant infligé ce Point Sensible gagne les effets suivants selon la Valeur de Point Sensible sur la cible (ou la Partie ciblée)\n· 1 de Valeur : gagne +1 de Puissance de Duel\n· 2 de Valeur : gagne +1 de Puissance de Base\n· 3 de Valeur : gagne +1 de Puissance de Duel et +1 de Puissance de Base\n- Expire si l’unité ayant infligé cet effet l’inflige à une cible différente (ou une Partie différente)\n- Remplacé lorsqu’une autre unité inflige Point Sensible",
+      "summary": "",
+      "undefined": "-"
     }
   ]
 }

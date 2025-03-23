@@ -1,5 +1,7 @@
 ﻿$OutputEncoding = [System.Text.Encoding]::UTF8   
-$version = "Alpha-1"
+$version = "Alpha-2"
+$date_release = "2025/03/22"
+$discord_link_github = "https://discord.gg/kcQv8CrKG8"
 
 $steamDirectory = Get-ItemPropertyValue -Path HKCU:\SOFTWARE\Valve\Steam -Name "SteamPath"
 $limbusDirectory = Join-Path -Path $steamDirectory -ChildPath 'steamapps\common\Limbus Company'
@@ -17,7 +19,8 @@ $banner = @"
 ******************************************************
 Installation automatisée du patch FR de Limbus Company
 Auteur : @Azuro pour @EdenOffice
-Version : $version
+Version : $version ($date_release)
+Nous rejoindre : $discord_link_github
 ******************************************************
 "@
 
@@ -92,9 +95,10 @@ function installPatchFR {
 $tempWorkingDir = setWorkingDir
 
 try{
+  Write-Host $banner
   if ((Read-Host -Prompt 'Microsoft .NET SDK 6.0 et BepInEx sont nécessaires pour installer le patch. Le script les installera automatiquement si nécessaire. Voulez-vous continuer ? (O/N)') -ne 'o') { throw "L'utilisateur a choisi d'interrompre le script." }
 
-  if ($null -eq (dotnet --list-sdks | findstr 6.0)) { installDotNetSDK }
+  if ($null -eq (Get-Command dotnet -ErrorAction SilentlyContinue) -or $null -eq (dotnet --list-sdks | findstr 6.0)) { installDotNetSDK }
   else { Write-Host "Microsoft .NET SDK 6.0 détecté, poursuite de l'installation." }
   Write-Host
 

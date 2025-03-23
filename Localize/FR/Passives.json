@@ -253,7 +253,7 @@
     {
       "id": 1050121,
       "name": "Renforts",
-      "desc": "1 allié avec le plus de PV Max subit -10% de dégâts de capacités d’attaque."
+      "desc": "1 allié avec le plus de PV Max subit -10% de dégâts de capacités offensives."
     },
     {
       "id": 1050221,
@@ -603,7 +603,7 @@
     {
       "id": 1080501,
       "name": "Fluide Bourratif",
-      "desc": "Si cette unité échoue à infliger des dégâts de PV avec des capacités d’attaque durant un tour, gagne un Bouclier égal à 5% des PV Max au prochain tour. (30 Max)"
+      "desc": "Si cette unité échoue à infliger des dégâts de PV avec des capacités offensives durant un tour, gagne un Bouclier égal à 5% des PV Max au prochain tour. (30 Max)"
     },
     {
       "id": 1080521,
@@ -762,7 +762,7 @@
     {
       "id": 1020601,
       "name": "Avant Que Le Thé Refroidisse...",
-      "desc": "En attaquant une cible avec un type de dégât auquel elle est \"Faible\" ou \"Fatal\" (Résistance > x1), gagne 1 <sprite name=\"Breath\"><color=#e30000><u><link=\"Breath\">Calme</color></link></u> pour chaque <sprite name=\"Burst\"><color=#f8c200><u><link=\"Burst\">Déchirure</color></link></u> sur la cible avant l’attaque (20 Max par tour)",
+      "desc": "En attaquant une cible avec un type de dégât auquel elle est \"Faible\" ou \"Fatal\" (Résistance > x1), gagne 1 [Breath] pour chaque [Rupture] sur la cible avant l’attaque (20 max par tour)",
       "summary": "En attaquant une cible avec un type de dégât auquel elle est Faible ou Fatal, gagne 1 Calme pour chaque Déchirure sur la cible avant l’attaque"
     },
     {
@@ -1009,12 +1009,12 @@
     {
       "id": 1030701,
       "name": "Om Nom Nom",
-      "desc": "Si l’Emplacement de Capacité de cette unité a [Aggro], +1 de Puissance de Duel\nSe soigne de 4 PV chaque fois que cette unité touche des ennemis qui ciblaient cette unité avec une Capacité d’Attaque de la Phase de Chaînage (pour les Anomalies, les Parties qui ciblaient cette unité avec une Capacité d’Attaque)"
+      "desc": "Si l’Emplacement de Capacité de cette unité a [Aggro], +1 de Puissance de Duel\nSe soigne de 4 PV chaque fois que cette unité touche des ennemis qui ciblaient cette unité avec une Capacité Offensive de la Phase de Chaînage (pour les Anomalies, les Parties qui ciblaient cette unité avec une Capacité Offensive)"
     },
     {
       "id": 1030711,
       "name": "Om Nom Nom",
-      "desc": "Si l’Emplacement de Capacité de cette unité a [Aggro], +1 de Puissance de Duel\nSe soigne de 6 PV chaque fois que cette unité touche des ennemis qui ciblaient cette unité avec une Capacité d’Attaque de la Phase de Chaînage (pour les Anomalies, chaque Partie est calculée séparément)"
+      "desc": "Si l’Emplacement de Capacité de cette unité a [Aggro], +1 de Puissance de Duel\nSe soigne de 6 PV chaque fois que cette unité touche des ennemis qui ciblaient cette unité avec une Capacité Offensive de la Phase de Chaînage (pour les Anomalies, chaque Partie est calculée séparément)"
     },
     {
       "id": 1030721,
@@ -1266,14 +1266,14 @@
     {
       "id": 1020901,
       "name": "Réponse Style Majordome",
-      "desc": "- En Duel[TabExplain] Gagné : inflige 1 [Sinking] à la cible (3 fois par tour)",
-      "summary": "En Duel[TabExplain] Gagné : inflige 1 [Sinking]"
+      "desc": "- En Duel Gagné : inflige 1 [Sinking] à la cible (3 fois par tour)",
+      "summary": "En Duel Gagné : inflige 1 [Sinking]"
     },
     {
       "id": 1020911,
       "name": "Réponse Style Majordome",
-      "desc": "- En Duel[TabExplain] Gagné : inflige 1 [Sinking] à la cible (3 fois par tour)\n- Si la cible a [EchoOfMansion], inflige 3 [Sinking] à la place",
-      "summary": "En Duel[TabExplain] Gagné : inflige 1 [Sinking]"
+      "desc": "- En Duel Gagné : inflige 1 [Sinking] à la cible (3 fois par tour)\n- Si la cible a [EchoOfMansion], inflige 3 [Sinking] à la place",
+      "summary": "En Duel Gagné : inflige 1 [Sinking]"
     },
     {
       "id": 1020921,
@@ -1596,7 +1596,7 @@
     {
       "id": 1071021,
       "name": "Lamentation Éternelle",
-      "desc": "1 allié avec les plus hauts PSM inflige +5% de dégâts supplémentaires aux cibles avec moins de 0 PSM\nSi la cible a moins de 0 PSM : plus les PSM de la cible sont éloignés de 0 et plus les dégâts sont amplifiés (+0.5% de dégâts supplémentaires par PSM, 20% max)\nSi la cible n’a pas de PSM, cet allié inflige +1 d’Intensité et de Compte de [Sinking] supplémentaire avec les Effets de Capacité et de Pièce de leurs Capacités d’Attaque (2 fois par tour)",
+      "desc": "1 allié avec les plus hauts PSM inflige +5% de dégâts supplémentaires aux cibles avec moins de 0 PSM\nSi la cible a moins de 0 PSM : plus les PSM de la cible sont éloignés de 0 et plus les dégâts sont amplifiés (+0.5% de dégâts supplémentaires par PSM, 20% max)\nSi la cible n’a pas de PSM, cet allié inflige +1 d’Intensité et de Compte de [Sinking] supplémentaire avec les Effets de Capacité et de Pièce de leurs Capacités Offensives (2 fois par tour)",
       "summary": "Inflige plus de dégâts aux cibles avec moins de 0 PSM"
     },
     {
@@ -1705,20 +1705,20 @@
     {
       "id": 1051101,
       "name": "Diffusion de Duel",
-      "desc": "Gagne 1 [Agility] au prochain tour pour chaque 3 d’Intensité de [Breath] sur soi à la Fin du Tour (2 max)\nEn Touche avec des Capacités d’Attaques basiques : inflige [ConcentratedAttackMeursault] au prochain tour. (une fois par Capacité)",
+      "desc": "Gagne 1 [Agility] au prochain tour pour chaque 3 d’Intensité de [Breath] sur soi à la Fin du Tour (2 max)\nEn Touche avec des Capacités Offensives basiques : inflige [ConcentratedAttackMeursault] au prochain tour. (une fois par Capacité)",
       "summary": "Fin du Tour : gagne de la [Agility] selon le Compte de [Breath] sur soi. En Touche avec une Capacité basique, inflige [ConcentratedAttackMeursault] au prochain tour"
     },
     {
       "id": 1051111,
       "name": "Diffusion de Duel",
-      "desc": "Gagne 1 [Agility] au prochain tour pour chaque 3 d’Intensité de [Breath] sur soi à la Fin du Tour (2 max)\nEn Touche avec des Capacités d’Attaques basiques : inflige [ConcentratedAttackMeursault] au prochain tour. (une fois par Capacité)\n<style=\"highlight\">Si cette unité a attaqué l’Emplacement avec [ConcentratedAttackMeursault] et vaincu son propriétaire ou brisé la Partie, regagne 7 PSM</style>",
+      "desc": "Gagne 1 [Agility] au prochain tour pour chaque 3 d’Intensité de [Breath] sur soi à la Fin du Tour (2 max)\nEn Touche avec des Capacités Offensives basiques : inflige [ConcentratedAttackMeursault] au prochain tour. (une fois par Capacité)\n<style=\"highlight\">Si cette unité a attaqué l’Emplacement avec [ConcentratedAttackMeursault] et vaincu son propriétaire ou brisé la Partie, regagne 7 PSM</style>",
       "summary": "Fin du Tour : gagne de la [Agility] selon le Compte de [Breath] sur soi. En Touche avec une Capacité basique, inflige [ConcentratedAttackMeursault] au prochain tour. Regagne des PSM En Tuant"
     },
     {
       "id": 1051121,
       "name": "Un Pas d’Avance",
-      "desc": "En Duel[TabExplain] Gagné, l’allié le plus rapide gagne 1 [Agility] au prochain tour (2 fois par tour)",
-      "summary": "En Duel[TabExplain] Gagné, l’allié le plus rapide gagne 1 [Agility] au prochain tour"
+      "desc": "En Duel Gagné, l’allié le plus rapide gagne 1 [Agility] au prochain tour (2 fois par tour)",
+      "summary": "En Duel Gagné, l’allié le plus rapide gagne 1 [Agility] au prochain tour"
     },
     {
       "id": 1061001,
@@ -1843,17 +1843,17 @@
     {
       "id": 1031001,
       "name": "Festin Sanglant",
-      "desc": "Si cette unité est sur le terrain, ou est l’une des unités qui peut apparaître sur ce Niveau, augmente la valeur de [BloodDinner] par la quantité de dégâts de [Laceration] reçu collectivement par chaque unité.\nLorsque cette unité arrivera sur le terrain, le sang ensommeillé et baignant le champ de bataille s’élèvera au-dessus de la surface.\n\nEn consommant du [BloodDinner], s’il y a des Parents de <La Manchaland[TabExplain]> de la même génération que cette unité, cette unité est prioritaire.\n\nEn utilisant 'Arts Variants du Sang Durci[TabExplain] de Sancho 6 - Fouet', les PV ne peuvent pas tomber en-dessous de 1 suite à des dégâts de [Laceration]."
+      "desc": "Si cette unité est sur le terrain, ou est l’une des unités qui peut apparaître sur ce Niveau, augmente la valeur de [BloodDinner] par la quantité de dégâts de [Laceration] reçu collectivement par chaque unité.\nLorsque cette unité arrivera sur le terrain, le sang ensommeillé et baignant le champ de bataille s’élèvera au-dessus de la surface.\n\nEn consommant du [BloodDinner], s’il y a des Parents de <La Manchaland> de la même génération que cette unité, cette unité est prioritaire.\n\nEn utilisant 'Arts Variants du Sang Durci[TabExplain] de Sancho 6 - Fouet', les PV ne peuvent pas tomber en-dessous de 1 suite à des dégâts de [Laceration]."
     },
     {
       "id": 1031002,
       "name": "Arts Variants du Sang Durci de Sancho",
-      "desc": "Début du Tour : à 15 [BloodArmorPersonalityFirst] ou plus, si chacune des unités suivantes est soit vaincue, soit participante à l’Affrontement, renforce l’Emplacement le plus à gauche de cette unité.\nLe Prêtre de La Manchaland[TabExplain] Gregor : renforce la Capacité 1\nLa Barbière de La Manchaland[TabExplain] Outis : renforce la Capacité 2\nCette Unité : renforce la Capacité 3\nLa Princesse de La Manchaland[TabExplain] Rodion : renforce la Capacité[TabExplain] de Défense\n\nLorsque d’autres unités parmis les alliés subissent des dégâts de [Laceration] ou consomment du [BloodDinner], gagne 2 [BloodArmorPersonalityFirst] sur soi (3 fois par tour)"
+      "desc": "Début du Tour : à 15 [BloodArmorPersonalityFirst] ou plus, si chacune des unités suivantes est soit vaincue, soit participante à l’Affrontement, renforce l’Emplacement le plus à gauche de cette unité.\nLe Prêtre de La Manchaland] Gregor : renforce la Capacité 1\nLa Barbière de La Manchaland Outis : renforce la Capacité 2\nCette Unité : renforce la Capacité 3\nLa Princesse de La Manchaland Rodion : renforce la Capacité Défensive\n\nLorsque d’autres unités parmis les alliés subissent des dégâts de [Laceration] ou consomment du [BloodDinner], gagne 2 [BloodArmorPersonalityFirst] sur soi (3 fois par tour)"
     },
     {
       "id": 1031003,
       "name": "Porteuse du Clan Sanguin",
-      "desc": "Dans un Affrontement, si une autre unité alliée de <La Manchaland[TabExplain]> est vaincue :\n- Gagne 1 [BloodArmorPersonalityFirst] supplémentaire en gagnant du [BloodArmorPersonalityFirst] par les Capacités d’Attaque de Base de cette unité\n- Lorsque 3 autres unités alliées de <La Manchaland[TabExplain]> ou plus sont vaincues : gagne 3 [BloodArmorPersonalityFirst] ; au Début du Tour, gagne 1 [SadLamanchaland]"
+      "desc": "Dans un Affrontement, si une autre unité alliée de <La Manchaland> est vaincue :\n- Gagne 1 [BloodArmorPersonalityFirst] supplémentaire en gagnant du [BloodArmorPersonalityFirst] par les Capacités Offensives de Base de cette unité\n- Lorsque 3 autres unités alliées de <La Manchaland> ou plus sont vaincues : gagne 3 [BloodArmorPersonalityFirst] ; au Début du Tour, gagne 1 [SadLamanchaland]"
     },
     {
       "id": 1031004,
@@ -1893,7 +1893,7 @@
     {
       "id": 1071102,
       "name": "Visée Parfaite",
-      "desc": "Fin du Tour : gagne 1 [Agility] au prochain tour pour chaque 10 [Breath] sur soi (2 max)\n\nFin du Tour : si cette unité ne s’apprête pas à utiliser de Capacités d’Attaque (inclut les Capacités E.G.O., exclut [CoveringFire]), gagne 10 [Breath] et 1 [PenetrateResultUp] au prochain tour."
+      "desc": "Fin du Tour : gagne 1 [Agility] au prochain tour pour chaque 10 [Breath] sur soi (2 max)\n\nFin du Tour : si cette unité ne s’apprête pas à utiliser de Capacités Offensives (inclut les Capacités E.G.O., exclut [CoveringFire]), gagne 10 [Breath] et 1 [PenetrateResultUp] au prochain tour."
     },
     {
       "id": 1071103,
@@ -1903,7 +1903,7 @@
     {
       "id": 1071111,
       "name": "Visée Parfaite",
-      "desc": "Fin du Tour : gagne 1 [Agility] au prochain tour pour chaque 10 [Breath] sur soi (2 max)\n\n<style=\"highlight\">Début du Combat : si cette unité ne s’apprête pas à utiliser de Capacités d’Attaque (inclut les Capacités E.G.O.), applique 3 [Breath] à 1 allié avec le moins d’Intensité de Calme</style>\n\nFin du Tour : si cette unité n’a pas utilisé de Capacités d’Attaque (inclut les Capacités E.G.O., exclut [CoveringFire]), gagne 10 [Breath] et 1 [PenetrateResultUp] au prochain tour"
+      "desc": "Fin du Tour : gagne 1 [Agility] au prochain tour pour chaque 10 [Breath] sur soi (2 max)\n\n<style=\"highlight\">Début du Combat : si cette unité ne s’apprête pas à utiliser de Capacités Offensives (inclut les Capacités E.G.O.), applique 3 [Breath] à 1 allié avec le moins d’Intensité de Calme</style>\n\nFin du Tour : si cette unité n’a pas utilisé de Capacités Offensives (inclut les Capacités E.G.O., exclut [CoveringFire]), gagne 10 [Breath] et 1 [PenetrateResultUp] au prochain tour"
     },
     {
       "id": 1071121,
@@ -1938,7 +1938,7 @@
     {
       "id": 1021121,
       "name": "Chaleur Résiduelle",
-      "desc": "Lorsque 1 allié avec le moins de PSM inflige de la [Combustion] avec un effet En Touche de Capacité d’Attaque de Base, inflige 2 [Combustion] supplémentaires (3 fois max)\n- Si la cible que l’allié attaque a 30 Brûlure ou plus, inflige +1 de Compte de Brûlure à la place (3 fois max)"
+      "desc": "Lorsque 1 allié avec le moins de PSM inflige de la [Combustion] avec un effet En Touche de Capacité Offensive de Base, inflige 2 [Combustion] supplémentaires (3 fois max)\n- Si la cible que l’allié attaque a 30 Brûlure ou plus, inflige +1 de Compte de Brûlure à la place (3 fois max)"
     },
     {
       "id": 1071201,
@@ -1954,7 +1954,7 @@
     {
       "id": 1071211,
       "name": "Lame du Nuage Noir",
-      "desc": "Lorsqu’il y a 2 Identités alliées du Clan Kurokumo ou plus sur le terrain, incluant cette unité, gagne 1 [BlackCloudBlade] (1 max)\n\nContre les ennemis qui, pendant ce tour, ont utilisé des Capacités Défensives ou étaient au max de PV avant d’attaquer : inflige +10% de dégâts supplémentaires\n\nSi un ennemi a attaqué un autre allié avec une Capacité et infligé des dégâts ce tour : utilise une Attaque à Sens-Unique contre l’attaquant avec la Capacité 1 (une fois par tour)\n\n<style=\"highlight\">Si l’ennemi a tué un autre allié, ou si les PV de cet allié sont à moins de 25% après l’attaque de l’ennemi, utilise une Attaque à Sens-Unique contre l’attaquant avec <Règles des Ruelles> à la place (une fois par allié ; 2 fois par tour ; la Capacité activée avec cet effet compte comme une Capacité d’Attaque)</style>",
+      "desc": "Lorsqu’il y a 2 Identités alliées du Clan Kurokumo ou plus sur le terrain, incluant cette unité, gagne 1 [BlackCloudBlade] (1 max)\n\nContre les ennemis qui, pendant ce tour, ont utilisé des Capacités Défensives ou étaient au max de PV avant d’attaquer : inflige +10% de dégâts supplémentaires\n\nSi un ennemi a attaqué un autre allié avec une Capacité et infligé des dégâts ce tour : utilise une Attaque à Sens-Unique contre l’attaquant avec la Capacité 1 (une fois par tour)\n\n<style=\"highlight\">Si l’ennemi a tué un autre allié, ou si les PV de cet allié sont à moins de 25% après l’attaque de l’ennemi, utilise une Attaque à Sens-Unique contre l’attaquant avec <Règles des Ruelles> à la place (une fois par allié ; 2 fois par tour ; la Capacité activée avec cet effet compte comme une Capacité Offensive)</style>",
       "summary": "Gagne [BlackCloudBlade] ; inflige plus de dégâts aux ennemis qui étaient à PV max ou ont utilisé une Capacité Défensive ; contre-attaque lorsqu’un allié est attaqué"
     },
     {
@@ -2003,6 +2003,66 @@
       "id": 1011231,
       "name": "Formation Défensive Liu",
       "desc": "Pour 2 alliés avec le moins de PSM : s’ils ont perdu des PSM durant ce tour, regagnent 5 PSM à la Fin du Tour\n- Si ces alliés ont des Capacités de Base qui infligent de l’Intensité ou du Compte de [Combustion], regagnent 5~10 PSM à la place"
+    },
+    {
+      "id": 1121102,
+      "name": "Carburant d’Atelier Spécial du District 12",
+      "desc": "Commence l’Affrontement avec 100 [FirePunchFuel]\n- À plus de 50 Instances, devient [FirePunchFuel]\n- À 50 Instances ou moins, tout [FirePunchFuel] devient [FirePunchFuelOverheated]"
+    },
+    {
+      "id": 1121101,
+      "name": "Je suis le seul survivant…",
+      "desc": "Inflige +0.2% dégâts supplémentaires pour chaque [FirePunchFuel] et [FirePunchFuelOverheated] que cette unité a consommé dans cet Affrontement (40% max)\n- Si la cible principale est un <Démon de Sang>, une <Poche de Sang> ou si la somme de [Combustion] et de Compte de [Combustion] est de 30 ou plus, inflige +0.3% dégâts supplémentaires à la place (60% max)\n\nÀ 1 [FirePunchFuel] ou [FirePunchFuelOverheated] ou plus, si cette unité Déséquilibre ou vainc des ennemis avec [Combustion], inflige +2 de Compte de [Combustion] à 2 ennemis aléatoires sans [Combustion] ou avec le moins de Compte de [Combustion] (une fois par tour)\n- Pour les Affrontements Concentrés, sur les Parties"
+    },
+    {
+      "id": 1121121,
+      "name": "J'espère qu’ils sont de notre Bureau…",
+      "desc": "1 allié avec la plus haute Vitesse : En Touche, inflige +5% de Dégâts de Colère supplémentaires tous les 6 [Combustion] sur la cible (20% max)"
+    },
+    {
+      "id": 1031101,
+      "name": "Pyrojade Verdissante",
+      "desc": "Fin du Tour : gagne 1 [Agility] au prochain tous les 5 d’Intensité de [Breath] sur soi (2 max)\n\nContre la cible (ou la Partie) touchée en dernier par une Capacité Offensive de Base, inflige [DianxueDonQuixote] au prochain tour (une fois par tour)\n\nInflige +(Intensité de [Combustion] sur la cible)% de dégâts supplémentaires en Touche Critique (15% max)"
+    },
+    {
+      "id": 1031111,
+      "name": "Pyrojade Verdissante",
+      "desc": "Fin du Tour : gagne 1 [Agility] au prochain tous les <style=\"highlight\">3</style> d’Intensité de [Breath] sur soi (2 max)\n\nContre la cible (ou la Partie) touchée en dernier par une Capacité Offensive de Base, inflige [DianxueDonQuixote] au prochain tour (une fois par tour)\n\nInflige +(Intensité de [Combustion] sur la cible)% de dégâts supplémentaires en Touche Critique (15% max)\n<style=\"highlight\">- Augmente le plafond max de 5% pour chaque 1 [DianxueDonQuixote] sur la cible</style>"
+    },
+    {
+      "id": 1031121,
+      "name": "Technique de l’Enjambée Plumeuse",
+      "desc": "1 allié avec la plus haute Vitesse : en Duel Gagné contre des ennemis avec [Combustion] ou une “Brûlure Unique”, gagne 1 [Agility] au prochain tour (une fois par tour)"
+    },
+    {
+      "id": 1031131,
+      "name": "Technique de l’Enjambée Plumeuse",
+      "desc": "1 allié avec la plus haute Vitesse : en Duel Gagné contre des ennemis avec [Combustion] ou une “Brûlure Unique”, gagne 1 [Agility] au prochain tour (une fois par tour)\n<style=\"highlight\">- Si la cible a 20 d’Intensité de [Combustion] ou plus, gagne 1 [Agility] supplémentaire</style>"
+    },
+    {
+      "id": 1041101,
+      "name": "Mutation Heishou [Mao]",
+      "desc": "Si cette unité a [LegStrength], inflige +5% de dégâts supplémentaires"
+    },
+    {
+      "id": 1041111,
+      "name": "Mutation Heishou [Mao]",
+      "desc": "Si cette unité a [LegStrength], inflige +5% de dégâts supplémentaires\nSi la cible a [BurstAgility], inflige +5% de dégâts supplémentaires"
+    },
+    {
+      "id": 1041121,
+      "name": "Entraînement de Mutation Heishou Partielle",
+      "desc": "Fin du Tour : 1 allié avec la plus haute Vitesse gagne 2 [Agility] au prochain tour"
+    },
+    {
+      "id": 1111201,
+      "name": "Mutation Heishou [Mao]",
+      "desc": "Si cette unité a [LegStrength] et la cible a [BurstAgility], inflige +5% de dégâts supplémentaires pour chaque [LegStrength] (15% max)"
+    },
+    {
+      "id": 1111221,
+      "name": "Une Coquille de Lièvres",
+      "desc": "1 allié avec la plus haute Vitesse : en attaquant des cibles avec [Burst], inflige +10% de dégâts supplémentaires\nGagne 1 [Agility] au prochain tour (une fois par tour)"
     }
   ]
 }

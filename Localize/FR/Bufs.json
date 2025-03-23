@@ -271,7 +271,7 @@
     {
       "id": "Laceration",
       "name": "Saignement",
-      "desc": "Chacun des {1} prochains jets de Pièce de capacité d’attaque de cette unité, subit {0} dégâts fixes.",
+      "desc": "Chacun des {1} prochains jets de Pièce de capacité offensive de cette unité, subit {0} dégâts fixes.",
       "summary": "{0} dégâts de PV fixes"
     },
     {
@@ -343,7 +343,7 @@
     {
       "id": "PinkRibbon_Ishmael",
       "name": "Rubans Roses",
-      "desc": "Augmente de 1 le Compte chaque fois que cette unité lance une Pièce de capacité d’attaque.\nFin du Tour : gagne autant de Ralentissement que de Compte, puis retire cet effet.",
+      "desc": "Augmente de 1 le Compte chaque fois que cette unité lance une Pièce de capacité offensive.\nFin du Tour : gagne autant de Ralentissement que de Compte, puis retire cet effet.",
       "summary": "Gagne {0} Ralentissement"
     },
     {
@@ -645,7 +645,7 @@
     {
       "id": "Choice_901010",
       "name": "Vidé",
-      "desc": "Début du Combat : les Alliés sans Capacité d’Attaque d’Affinité de Luxure sont Déséquilibrés."
+      "desc": "Début du Combat : les Alliés sans Capacité Offensive d’Affinité de Luxure sont Déséquilibrés."
     },
     {
       "id": "Choice_901019",
@@ -1850,7 +1850,7 @@
     {
       "id": "EchoOfMansion",
       "name": "Échos du Manoir",
-      "desc": "- 50% de chance de gagner +1 de Compte de Lourdeur en gagnant de l’Intensité ou du Compte de Lourdeur d’effets de Capacité ou de Pièce\n- Unités avec PSM : change le Type de Panique en Échos du Manoir. Lorsque cette unité panique, inflige 2 Échos du Manoir à 2 autres alliés aléatoires de cette unité\n- Unités sans PSM : -10% de chance de faire Pile\n- Réduit de 1 à la Fin du Tour",
+      "desc": "- 50% de chance de gagner +1 de Compte de Lourdeur en gagnant de l’Intensité ou du Compte de Lourdeur d’effets de Capacité ou de Pièce\n- Unités avec PSM : change le Type de Panique en Échos du Manoir. Lorsque cette unité panique, inflige 2 Échos du Manoir à 2 autres alliés aléatoires de cette unité au prochain tour\n- Unités sans PSM : -10% de chance de faire Pile\n- Réduit de 1 à la Fin du Tour",
       "summary": ""
     },
     {
@@ -1874,13 +1874,13 @@
     {
       "id": "ForwardToTheKing",
       "name": "Présence du Roi",
-      "desc": "En Touche, inflige 50% de la valeur de Pièce obtenue En Touche en dégâts de (Affinité/Type d’Attaque de la Capacité d’Attaque utilisée pour toucher) à 2 autres ennemis attaquables avec le moins de PV pouvant être attaqués.",
+      "desc": "En Touche, inflige 50% de la valeur de Pièce obtenue En Touche en dégâts de (Affinité/Type d’Attaque de la Capacité Offensive utilisée pour toucher) à 2 autres ennemis attaquables avec le moins de PV pouvant être attaqués.",
       "summary": ""
     },
     {
       "id": "ForwardToTheBoundKing",
       "name": "Présence du Roi Attaché",
-      "desc": "En Touche, inflige 100% de la valeur de Pièce obtenue En Touche en dégâts de (Affinité/Type d’Attaque de la Capacité d’Attaque utilisée pour toucher) à 2 autres ennemis attaquables avec le moins de PV pouvant être attaqués.",
+      "desc": "En Touche, inflige 100% de la valeur de Pièce obtenue En Touche en dégâts de (Affinité/Type d’Attaque de la Capacité Offensive utilisée pour toucher) à 2 autres ennemis attaquables avec le moins de PV pouvant être attaqués.",
       "summary": ""
     },
     {
@@ -1944,7 +1944,7 @@
     },
     {
       "id": "VibrationContinue",
-      "name": "Tremor - Everlasting",
+      "name": "Tremblement - Éternel",
       "desc": "- Lorsque touché par des effets de Capacité ou de Pièce provoquant un Sursaut de Tremblement, (Intensité de Tremblement sur soi)% de chances de déclencher un Sursaut de Tremblement supplémentaire. (50% max)\n- Lorsque touché par des effets de Capacité ou de Pièce provoquant un Sursaut de Tremblement, (Compte de Tremblement sur soi)% de chances de déclencher un Sursaut de Tremblement supplémentaire. (50% max)\n- Lorsque touché par des Capacités provoquant un Sursaut de Tremblement, augmente le Seuil de Déséquilibre de l’Intensité de l’effet.\n- Fin du Tour : réduit de 1 le Compte\n(Interagit de la même manière que le Tremblement normal avec les effets qui augmentent ou réduisent l’Intensité/Compte de Tremblement)",
       "summary": ""
     },
@@ -1981,7 +1981,7 @@
     {
       "id": "KnowledgeTraining",
       "name": "Érudition",
-      "desc": "- Valeur Max : 6\n- En Défaussant une Capacité, gagne (Érudition * 1.5)% des PV max de cette unité en Bouclier (une fois par tour)\n- Si cette unité Défausse une Capacité à 2 d’Information ou plus, gagne 1 de Puissance de Duel (une fois par tour)\n- Réduit de 1 en subissant des dégâts de PV après avoir été touché par une Capacité d’Attaque ennemie\n- Expire lorsque Déséquilibré",
+      "desc": "- Valeur Max : 6\n- En Défaussant une Capacité, gagne (Érudition * 1.5)% des PV max de cette unité en Bouclier (une fois par tour)\n- Si cette unité Défausse une Capacité à 2 d’Information ou plus, gagne 1 de Puissance de Duel (une fois par tour)\n- Réduit de 1 en subissant des dégâts de PV après avoir été touché par une Capacité Offensive ennemie\n- Expire lorsque Déséquilibré",
       "summary": ""
     },
     {
@@ -2084,7 +2084,7 @@
     {
       "id": "WanderingFootsteps_Sub",
       "name": "Ruine Imminente",
-      "desc": "-10% de chance de faire Pile\n- Réduit de 1 à la Fin du Tour",
+      "desc": "- -10% de chance de faire Pile\n- Réduit de 1 à la Fin du Tour",
       "summary": ""
     },
     {
@@ -2412,6 +2412,27 @@
       "id": "ReleaseBreath",
       "name": "Expiration Superficielle",
       "desc": "- Valeur Max : 1\n- À 20 d’Intensité de Calme ou plus, gagne également +1 de Compte chaque fois que cette unité gagne de l’Intensité de Calme avec des effets de Capacité et de Pièce\n- Expire à la Fin du Tour"
+    },
+    {
+      "id": "FirePunchFuel",
+      "name": "Carburant du District 12",
+      "desc": "Instance max : 100\nConsommé par certaines Capacités\nÀ 50 Instances ou moins, devient Carburant Surchauffé\nFuel consumed: {0}",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "FirePunchFuelOverheated",
+      "name": "Carburant Surchauffé",
+      "desc": "Instance max : 100\nConsommer du Carburant du District 12 en état de Carburant Surchauffé consomme du Carburant Surchauffé à la place\nConsommer du Carburant Surchauffé compte comme consommer du Carburant du District 12\nÀ plus de 50 Instances, devient Carburant du District 12\nFuel consumed: {0}",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "DianxueDonQuixote",
+      "name": "Point Sensible - Don Quichotte",
+      "desc": "- Instance max : 3\n- L’unité ayant infligé ce Point Sensible gagne les effets suivants selon la Valeur de Point Sensible sur la cible (ou la Partie ciblée)\n· 1 de Valeur : gagne +1 de Puissance de Duel\n· 2 de Valeur : gagne +1 de Puissance de Base\n· 3 de Valeur : gagne +1 de Puissance de Duel et +1 de Puissance de Base\n- Expire si l’unité ayant infligé cet effet l’inflige à une cible différente (ou une Partie différente)\n- Remplacé lorsqu’une autre unité inflige Point Sensible",
+      "summary": "",
+      "undefined": "-"
     }
   ]
 }

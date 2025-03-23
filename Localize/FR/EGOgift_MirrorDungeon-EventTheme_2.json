@@ -135,7 +135,7 @@
     {
       "id": 9755,
       "name": "Mépris du Regard de Mépris",
-      "desc": "[Les effets s’appliquent uniquement à l’Identité Déployée #6]\n\nDébut du Combat : inflige +10% de dégâts supplémentaires pour chaque Capacité d’Attaque ennemie ciblant cette unité (20% max)\n\nDébut du Combat : lorsque ciblé par 2 Capacités d’Attaque ou plus, inflige (# de Capacités ciblant cette unité) dégâts de PV & de PSM fixes à tous les ennemis ciblant cette unité. (3 max ; cet effet ne blesse pas les alliés)",
+      "desc": "[Les effets s’appliquent uniquement à l’Identité Déployée #6]\n\nDébut du Combat : inflige +10% de dégâts supplémentaires pour chaque Capacité Offensive ennemie ciblant cette unité (20% max)\n\nDébut du Combat : lorsque ciblé par 2 Capacités Offensives ou plus, inflige (# de Capacités ciblant cette unité) dégâts de PV & de PSM fixes à tous les ennemis ciblant cette unité. (3 max ; cet effet ne blesse pas les alliés)",
       "simpleDesc": [
         {
           "abilityID": 9755,
@@ -146,7 +146,7 @@
     {
       "id": 19755,
       "name": "Mépris du Regard de Mépris+",
-      "desc": "[Les effets s’appliquent uniquement à l’Identité Déployée #6]\n\nDébut du Combat : inflige +10% de dégâts supplémentaires pour chaque Capacité d’Attaque ennemie ciblant cette unité (20% max)\n\nDébut du Combat : lorsque ciblé par 2 Capacités d’Attaque ou plus, inflige (# de Capacités ciblant cette unité * 2) dégâts de PV & de PSM fixes à tous les ennemis ciblant cette unité. (5 max ; cet effet ne blesse pas les alliés)",
+      "desc": "[Les effets s’appliquent uniquement à l’Identité Déployée #6]\n\nDébut du Combat : inflige +10% de dégâts supplémentaires pour chaque Capacité Offensive ennemie ciblant cette unité (20% max)\n\nDébut du Combat : lorsque ciblé par 2 Capacités Offensives ou plus, inflige (# de Capacités ciblant cette unité * 2) dégâts de PV & de PSM fixes à tous les ennemis ciblant cette unité. (5 max ; cet effet ne blesse pas les alliés)",
       "simpleDesc": [
         {
           "abilityID": 19755,
@@ -157,7 +157,7 @@
     {
       "id": 29755,
       "name": "Mépris du Regard de Mépris++",
-      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées #1 & #6]\n\nDébut du Combat : inflige +10% de dégâts supplémentaires pour chaque Capacité d’Attaque ennemie ciblant cette unité (30% max)\n\nDébut du Combat : lorsque ciblé par 2 Capacités d’Attaque ou plus, inflige (# de Capacités ciblant cette unité * 2) dégâts de PV & de PSM fixes à tous les ennemis ciblant cette unité. (10 max ; cet effet ne blesse pas les alliés)",
+      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées #1 & #6]\n\nDébut du Combat : inflige +10% de dégâts supplémentaires pour chaque Capacité Offensive ennemie ciblant cette unité (30% max)\n\nDébut du Combat : lorsque ciblé par 2 Capacités Offensives ou plus, inflige (# de Capacités ciblant cette unité * 2) dégâts de PV & de PSM fixes à tous les ennemis ciblant cette unité. (10 max ; cet effet ne blesse pas les alliés)",
       "simpleDesc": [
         {
           "abilityID": 29755,
@@ -328,7 +328,7 @@
     {
       "id": 9765,
       "name": "Peluche Joyeuse",
-      "desc": "Gagne 2 d’Intensité de [Breath] au prochain tour selon le nombre de Capacités d’Attaque alliées ayant infligé des dégâts d’ici la Fin du Tour\n- En Affrontement Concentré, gagne 4 d’Intensité de [Breath] à la place.\n\nDébut du Tour : applique 2 [Breath], +2 de Compte de [Breath] et 2 [Protection] à l’allié avec le moins de PV.\n\nInflige +(valeur absolue de PSM)% de dégâts supplémentaires. (0% min)\n\nLorsqu’un allié avec des Capacités à Pièces Positives se remet de Déséquilibre, regagne tous ses PSM. (Ne s’active pas lorsque Érodé)\n\nPour un allié avec des Capacités à Pièces Négatives : gagne 5 [Paralysis] au Début du Tour.",
+      "desc": "Gagne 2 d’Intensité de [Breath] au prochain tour selon le nombre de Capacités Offensives alliées ayant infligé des dégâts d’ici la Fin du Tour\n- En Affrontement Concentré, gagne 4 d’Intensité de [Breath] à la place.\n\nDébut du Tour : applique 2 [Breath], +2 de Compte de [Breath] et 2 [Protection] à l’allié avec le moins de PV.\n\nInflige +(valeur absolue de PSM)% de dégâts supplémentaires. (0% min)\n\nLorsqu’un allié avec des Capacités à Pièces Positives se remet de Déséquilibre, regagne tous ses PSM. (Ne s’active pas lorsque Érodé)\n\nPour un allié avec des Capacités à Pièces Négatives : gagne 5 [Paralysis] au Début du Tour.",
       "simpleDesc": [
         {
           "abilityID": 9765,
@@ -449,7 +449,7 @@
     {
       "id": 9772,
       "name": "Gants à Combustion",
-      "desc": "En D\u200Buel Gagné avec une Capacité d’Attaque de Base qui inflige de l’Intensité de [Combustion] ou une “Brûlure Unique”, inflige 2 d’Intensité de [Combustion] (2 fois par tour par Identité)\n\nEn D\u200Buel Gagné avec une Capacité d’Attaque de Base qui inflige du Compte de [Combustion], inflige +2 de Compte de [Combustion] (3 fois par tour par ennemi)\n\nCapacités d’Attaque de Base qui infligent de l’Intensité ou du Compte de [Combustion] ou une “Brûlure Unique” : chaque Capacité gagne du Niveau Offensif égal au nombre de copies de chaque Capacité (3 max).\n- Si une Capacité a 3 copies ou plus, gagne 2 Niveaux Offensifs supplémentaires.",
+      "desc": "En D\u200Buel Gagné avec une Capacité Offensive de Base qui inflige de l’Intensité de [Combustion] ou une “Brûlure Unique”, inflige 2 d’Intensité de [Combustion] (2 fois par tour par Identité)\n\nEn D\u200Buel Gagné avec une Capacité Offensive de Base qui inflige du Compte de [Combustion], inflige +2 de Compte de [Combustion] (3 fois par tour par ennemi)\n\nCapacités Offensives de Base qui infligent de l’Intensité ou du Compte de [Combustion] ou une “Brûlure Unique” : chaque Capacité gagne du Niveau Offensif égal au nombre de copies de chaque Capacité (3 max).\n- Si une Capacité a 3 copies ou plus, gagne 2 Niveaux Offensifs supplémentaires.",
       "simpleDesc": [
         {
           "abilityID": 9772,
@@ -468,7 +468,7 @@
     {
       "id": 9773,
       "name": "Bottes de Combat à Pointes",
-      "desc": "En D\u200Buel Gagné avec une Capacité d’Attaque de Base qui inflige de l’Intensité ou du Compte de [Burst] à un ennemi, inflige +3 de Compte de [Burst] (2 fois par tour par ennemi)\n\nEn Touche : si l’ennemi n’a pas de [Burst], les effets de Pièce qui infligent de l’Intensité de [Burst] infligent du Compte de [Burst] à la place (4 max ; 2 fois par tour par ennemi ; pour les Anomalies, pour chaque Partie)\n\nCapacités d’Attaque de Base qui infligent de l’Intensité ou du Compte de [Burst] : chaque Capacité gagne du Niveau Offensif égal au nombre de copies de chaque Capacité (3 max).\n- Si une Capacité a 3 copies ou plus, gagne 2 Niveaux Offensifs supplémentaires.",
+      "desc": "En D\u200Buel Gagné avec une Capacité Offensive de Base qui inflige de l’Intensité ou du Compte de [Burst] à un ennemi, inflige +3 de Compte de [Burst] (2 fois par tour par ennemi)\n\nEn Touche : si l’ennemi n’a pas de [Burst], les effets de Pièce qui infligent de l’Intensité de [Burst] infligent du Compte de [Burst] à la place (4 max ; 2 fois par tour par ennemi ; pour les Anomalies, pour chaque Partie)\n\nCapacités Offensives de Base qui infligent de l’Intensité ou du Compte de [Burst] : chaque Capacité gagne du Niveau Offensif égal au nombre de copies de chaque Capacité (3 max).\n- Si une Capacité a 3 copies ou plus, gagne 2 Niveaux Offensifs supplémentaires.",
       "simpleDesc": [
         {
           "abilityID": 9773,
@@ -487,7 +487,7 @@
     {
       "id": 9774,
       "name": "Bougie de Rallumage",
-      "desc": "Capacités d’Attaque de Base qui infligent du Compte de [Combustion] : inflige +20% de dégâts supplémentaires et infligent +1 de Compte de [Combustion] supplémentaire. En Touche avec ces Capacités contre des ennemis avec [Combustion] ou une “Brûlure Unique” : inflige 1 [DefenseDown] (2 fois par tour par Identité)\n\nIdentités dont toutes les Capacités d’Attaque de Base infligent de l’Intensité ou du Compte de [Combustion] ou une “Brûlure Unique” : au Début du Tour, gagne du [AttackUp] égal au nombre de tour survécus (exclut le tour où elle a rejoint l’Affrontement ; 5 max)",
+      "desc": "Capacités Offensives de Base qui infligent du Compte de [Combustion] : inflige +20% de dégâts supplémentaires et infligent +1 de Compte de [Combustion] supplémentaire. En Touche avec ces Capacités contre des ennemis avec [Combustion] ou une “Brûlure Unique” : inflige 1 [DefenseDown] (2 fois par tour par Identité)\n\nIdentités dont toutes les Capacités Offensives de Base infligent de l’Intensité ou du Compte de [Combustion] ou une “Brûlure Unique” : au Début du Tour, gagne du [AttackUp] égal au nombre de tour survécus (exclut le tour où elle a rejoint l’Affrontement ; 5 max)",
       "simpleDesc": [
         {
           "abilityID": 9774,
@@ -506,7 +506,7 @@
     {
       "id": 9775,
       "name": "Stimulant Mk.4",
-      "desc": "En Touche avec la Pièce finale contre des ennemis avec 15 d’Intensité de [Burst] ou moins en utilisant une Capacité d’Attaque de Base qui inflige de l’Intensité ou du Compte de [Burst] : inflige +3 de Compte de [Burst] (une fois par tour par Identité)\n\nCapacités d’Attaque de Base qui infligent du Compte de [Burst] : +1 de Puissance de Duel, inflige +20% de dégâts supplémentaires",
+      "desc": "En Touche avec la Pièce finale contre des ennemis avec 15 d’Intensité de [Burst] ou moins en utilisant une Capacité Offensive de Base qui inflige de l’Intensité ou du Compte de [Burst] : inflige +3 de Compte de [Burst] (une fois par tour par Identité)\n\nCapacités Offensives de Base qui infligent du Compte de [Burst] : +1 de Puissance de Duel, inflige +20% de dégâts supplémentaires",
       "simpleDesc": [
         {
           "abilityID": 9775,
@@ -525,7 +525,7 @@
     {
       "id": 9776,
       "name": "Braises",
-      "desc": "Début du Tour : tous les ennemis (pour les Anomalies, toutes les Parties) avec 2~7 de Compte de [Combustion] gagnent 1~2 de Compte de [Combustion].\n\nLorsque des ennemis subissent 5 touches de Capacités d’Attaque alliées (inclut les Capacités E.G.O.) qui infligent de l’Intensité ou du Compte de [Combustion] ou une “Brûlure Unique” : déclenche [Combustion] une fois, puis réduit le Compte de [Combustion] de 1 (2 fois par tour par ennemi ; pour les Anomalies, pour chaque Partie)",
+      "desc": "Début du Tour : tous les ennemis (pour les Anomalies, toutes les Parties) avec 2~7 de Compte de [Combustion] gagnent 1~2 de Compte de [Combustion].\n\nLorsque des ennemis subissent 5 touches de Capacités Offensives alliées (inclut les Capacités E.G.O.) qui infligent de l’Intensité ou du Compte de [Combustion] ou une “Brûlure Unique” : déclenche [Combustion] une fois, puis réduit le Compte de [Combustion] de 1 (2 fois par tour par ennemi ; pour les Anomalies, pour chaque Partie)",
       "simpleDesc": [
         {
           "abilityID": 9776,
@@ -544,7 +544,7 @@
     {
       "id": 9777,
       "name": "Brindilles",
-      "desc": "Chaque fois que [Burst] s’active 3 fois sur des ennemis avec [Burst] suite à des touches de Capacités d’Attaque alliées (inclut les Capacités E.G.O.) qui infligent de l’Intensité ou du Compte de [Burst], inflige 2 [AttackDown] à cet ennemi au prochain tour (3 fois par tour par ennemi ; pour les Anomalies, pour chaque Partie)\n\nEn Tuant avec une Capacité d’Attaque de Base qui inflige du Compte de [Burst] : inflige le Compte de [Burst] restant de l’ennemi vaincu à un ennemi aléatoire au prochain tour (2 fois par tour)",
+      "desc": "Chaque fois que [Burst] s’active 3 fois sur des ennemis avec [Burst] suite à des touches de Capacités Offensives alliées (inclut les Capacités E.G.O.) qui infligent de l’Intensité ou du Compte de [Burst], inflige 2 [AttackDown] à cet ennemi au prochain tour (3 fois par tour par ennemi ; pour les Anomalies, pour chaque Partie)\n\nEn Tuant avec une Capacité Offensive de Base qui inflige du Compte de [Burst] : inflige le Compte de [Burst] restant de l’ennemi vaincu à un ennemi aléatoire au prochain tour (2 fois par tour)",
       "simpleDesc": [
         {
           "abilityID": 9777,
@@ -642,7 +642,7 @@
     {
       "id": 9783,
       "name": "Splendeur",
-      "desc": "Début du Tour : s’active lorsqu’il y a 3 Identités du Clan Kurokumo ou plus.\n\nTous les alliés gagnent 2 [ScarletResultUp] et 1 [SlashResultUp] au Début du Tour.\n\nCapacités d’Attaque de Base des Identités du Clan Kurokumo : gagnent +(4 / # de Pièce ; 1 min.) de Puissance de Pièce, inflige 1 d’Intensité et de Compte de [Laceration] supplémentaire et inflige +(80 / # de Pièce)% de dégâts supplémentaires\n\nNullifie le premier Seuil de Déséquilibre des Identités du Clan Kurokumo ; à moins de 50% de PV, gagne 2 [Protection] au Début du Tour. Les Identités ayant subi des dégâts d’ennemis ce tour gagnent 2 [Agility] au prochain tour.",
+      "desc": "Début du Tour : s’active lorsqu’il y a 3 Identités du Clan Kurokumo ou plus.\n\nTous les alliés gagnent 2 [ScarletResultUp] et 1 [SlashResultUp] au Début du Tour.\n\nCapacités Offensives de Base des Identités du Clan Kurokumo : gagnent +(4 / # de Pièce ; 1 min.) de Puissance de Pièce, inflige 1 d’Intensité et de Compte de [Laceration] supplémentaire et inflige +(80 / # de Pièce)% de dégâts supplémentaires\n\nNullifie le premier Seuil de Déséquilibre des Identités du Clan Kurokumo ; à moins de 50% de PV, gagne 2 [Protection] au Début du Tour. Les Identités ayant subi des dégâts d’ennemis ce tour gagnent 2 [Agility] au prochain tour.",
       "simpleDesc": [
         {
           "abilityID": 9783,
@@ -661,7 +661,7 @@
     {
       "id": 9784,
       "name": "Cultivation",
-      "desc": "Début du Tour : s’active lorsqu’il y a 3 Identités de la Lignée de la Lame ou plus.\n\nDébut du Tour : tous les alliés gagnent 2 [SlashResultUp] et infligent +35% de dégâts supplémentaires.\n\nDébut du Tour : lorsqu’une Identité de la Lignée de la Lame touche critiquement, inflige des dégâts d’Orgueil supplémentaires égaux à (Intensité de [Breath] / 2) sur soi.\n\nSi une Identité de la Lignée de la Lame a 30 d’Intensité de [Breath] ou plus à la Fin du Tour, consomme 10 d’Intensité de [Breath] et gagne 2 [SlashResultUp] au prochain tour",
+      "desc": "Début du Tour : s’active lorsqu’il y a 3 Identités de la Lignée de la Lame ou plus.\n\nDébut du Tour : tous les alliés gagnent 2 [SlashResultUp] et infligent +35% de dégâts supplémentaires.\n\nDébut du Tour : lorsqu’une Identité de la Lignée de la Lame touche critiquement, inflige des dégâts d’Orgueil supplémentaires égaux à (Intensité de [Breath] / 2) sur soi.\n\nSi une Identité de la Lignée de la Lame a 30 d’Intensité de [Breath] ou plus à la Fin du Tour, consomme 10 d’Intensité de [Breath] et gagne 2 [SlashDamageUp] au prochain tour",
       "simpleDesc": [
         {
           "abilityID": 9784,
@@ -680,7 +680,7 @@
     {
       "id": 9785,
       "name": "Nuée Nuageuse",
-      "desc": "Début du Tour : s’active lorsqu’il y a 3 Identités du Clan Kurokumo ou plus.\n\nEn Touche avec une [SuperCoin] de Capacité d’Attaque de Base (exclut les Capacités E.G.O.) : inflige +(40/# de Pièce)% de dégâts supplémentaires\nIdentités du Clan Kurokumo : inflige +(80/# of Coins)% de dégâts supplémentaires à la place\n\nIdentités du Clan Kurokumo avec des Capacités d’Attaque Tranchantes de Base : gagnent 2 [SlashDamageUp] au Début du Tour. Les Identités du Clan Kurokumo gagnent 1 [AttackUp] et 1 [DefenseUp] au prochain tour tous les 10% de PV manquants sur soi à la Fin du Tour. (5 max chacun)\n\nLorsqu’une Identité du Clan Kurokumo meurt, toutes les Identités du Clan Kurokumo gagnent 2 [AttackDmgUp] au prochain tour (une fois par tour)",
+      "desc": "Début du Tour : s’active lorsqu’il y a 3 Identités du Clan Kurokumo ou plus.\n\nEn Touche avec une [SuperCoin] de Capacité Offensive de Base (exclut les Capacités E.G.O.) : inflige +(40/# de Pièce)% de dégâts supplémentaires\nIdentités du Clan Kurokumo : inflige +(80/# of Coins)% de dégâts supplémentaires à la place\n\nIdentités du Clan Kurokumo avec des Capacités Offensives Tranchantes de Base : gagnent 2 [SlashDamageUp] au Début du Tour. Les Identités du Clan Kurokumo gagnent 1 [AttackUp] et 1 [DefenseUp] au prochain tour tous les 10% de PV manquants sur soi à la Fin du Tour. (5 max chacun)\n\nLorsqu’une Identité du Clan Kurokumo meurt, toutes les Identités du Clan Kurokumo gagnent 2 [AttackDmgUp] au prochain tour (une fois par tour)",
       "simpleDesc": [
         {
           "abilityID": 9785,
@@ -693,6 +693,141 @@
         {
           "abilityID": 97852,
           "simpleDesc": "Gagne du Bonus de Dégât"
+        }
+      ]
+    },
+    {
+      "id": 9786,
+      "name": "Tatouages Amé. - Le Majeur",
+      "desc": "Capacités Contondantes : +1 de Puissance de Duel\n- Identités du Majeur : gagnent +1 de Puissance de Duel et +1 de Puissance de Pièce à la place\n- Identités du Majeur : si la cible principale a [RetaliationBook], gagne +1 de Puissance de Duel, +1 de Puissance de Pièce et inflige +10% de dégâts supplémentaires à la place",
+      "simpleDesc": [
+        {
+          "abilityID": 9786,
+          "simpleDesc": "Gagne de la Puissance de Duel. Les Identités du Majeur gagnent également de la Puissance de Pièce et infligent plus de dégâts."
+        }
+      ]
+    },
+    {
+      "id": 9787,
+      "name": "Talisman à Glyphes Étranges",
+      "desc": "En vainquant une cible avec [Burst] (en Affrontements Concentrés, une Partie) avec une Capacité Offensive, inflige l’Intensité de [Burst] de la cible entre tous les ennemis (en Affrontements Concentrés, toutes les Parties) (2 max par ennemi, arrondi à l’inférieur)\n\nEn vainquant une cible avec [BurstAgility] (en Affrontements Concentrés, une Partie) avec une Capacité Offensive, inflige l’Intensité et le Compte de [Burst] de la cible entre tous les ennemis (en Affrontements Concentrés, toutes les Parties) (2 max par ennemi, arrondi à l’inférieur)",
+      "simpleDesc": [
+        {
+          "abilityID": 9787,
+          "simpleDesc": "Inflige de la Déchirure"
+        },
+        {
+          "abilityID": 97871,
+          "simpleDesc": "Inflige de l’Intensité et du Compte de Déchirure"
+        }
+      ]
+    },
+    {
+      "id": 9788,
+      "name": "Enjambée de Lièvre",
+      "desc": "Si la Vitesse d’un allié est plus rapide que celle de la cible, l’allié inflige (différence de Vitesse / 3) [Burst] ou Compte de [Burst] supplémentaire en en infligeant avec des Capacités (3 max)",
+      "simpleDesc": [
+        {
+          "abilityID": 9788,
+          "simpleDesc": "Inflige de la Déchirure ou du Compte de Déchirure"
+        }
+      ]
+    },
+    {
+      "id": 9789,
+      "name": "Chaînes de Loyauté",
+      "desc": "Lorsque touché, tous les alliés de la même faction infligent +5% de dégâts Contondants supplémentaires (15% par tour)\n\nPour les Identités du Majeur, gagne 1 [AttackUp] et inflige +10% de dégâts Contondants supplémentaires à la place (3 par tour, 30% par tour)",
+      "simpleDesc": [
+        {
+          "abilityID": 9789,
+          "simpleDesc": "Inflige plus de dégâts Contondants. Les Identités du Majeur gagnent également du Bonus de Niveau Offensive."
+        }
+      ]
+    },
+    {
+      "id": 9790,
+      "name": "Inscriptions de Glyphes Étranges",
+      "desc": "En affrontant des cibles avec [Burst], gagne ([Burst] sur la cible / 20) de Puissance de Duel (2 max)\n- En affrontant des cibles avec [BurstAgility], gagne ([Burst] sur la cible / 15) de Puissance de Duel à la place (3 max)\n\nEn infligeant des dégâts avec l’effet [BurstAgility], inflige des dégâts fixes égaux à (Dégâts de [BurstAgility] / 3)",
+      "simpleDesc": [
+        {
+          "abilityID": 9790,
+          "simpleDesc": "Bonus de Puissance de Duel"
+        },
+        {
+          "abilityID": 97901,
+          "simpleDesc": "Inflige des dégâts supplémentaires en infligeant des dégâts avec Heishou - Talisman Mao"
+        }
+      ]
+    },
+    {
+      "id": 9791,
+      "name": "Chapeau de Bambou Ombragé",
+      "desc": "Fin du Tour : Identités de Meute Heishou - Branche Mao gagnent 2 [Agility] au prochain tour\n\nSi la Vitesse d’un allié est supérieure à celle de la cible, ou en activant des Attaques à Sens-Unique, inflige +10% de dégâts Tranchants supplémentaires pour chaque (Différence de Vitesse / 3) (30% max)\n\nSi la Vitesse d’un allié est supérieure à celle de la cible, subit -10% de dégâts pour chaque (Différence de Vitesse / 3) (30% max)",
+      "simpleDesc": [
+        {
+          "abilityID": 9791,
+          "simpleDesc": "Gagne de l’Accélération"
+        },
+        {
+          "abilityID": 97911,
+          "simpleDesc": "Inflige plus de dégâts Tranchants"
+        },
+        {
+          "abilityID": 97912,
+          "simpleDesc": "Subit moins de dégâts"
+        }
+      ]
+    },
+    {
+      "id": 9792,
+      "name": "Chaînes de Lien Éternelles",
+      "desc": "Début de l’Affrontement : s’active lorsqu’il y a des 2 Identités du Majeur ou plus (ne compte que les Identités sur le terrain au Début de l’Affrontement)\n\nLorsque touché, tous les alliés de la même faction infligent +5% de dégâts Contondants supplémentaires (15% par tour)\nLes Identités du Majeur gagnent 1 [AttackUp] et infligent +10% de dégâts Contondants supplémentaires à la place (3 par tour, 30% par tour)\n\nCapacités Contondantes gagnent +1 de Puissance de Base\n- Les Identités du Majeur gagnent +1 de Puissance de Base et +1 de Puissance de Pièce à la place\n- Si la cible a [RetaliationBook], les Identités du Majeur gagnent +1 de Puissance de Base, +1 de Puissance de Pièce et infligent +30% de dégâts supplémentaires à la place\n\nLes Identités du Majeur gagnent +1 de Vitesse min. et +1 de Vitesse max pour l’Affrontement",
+      "simpleDesc": [
+        {
+          "abilityID": 9792,
+          "simpleDesc": "Inflige plus de dégâts Contondants. Les Identités du Majeur gagnent aussi du Bonus de Niveau Offensif"
+        },
+        {
+          "abilityID": 97921,
+          "simpleDesc": "Bonus de Puissance Contondante"
+        },
+        {
+          "abilityID": 97922,
+          "simpleDesc": "Gagne de la Vitesse min. et max"
+        }
+      ]
+    },
+    {
+      "id": 9793,
+      "name": "Glyphes de Fragments de Verre",
+      "desc": "Début de l’Affrontement : s’active lorsqu’il y a 5 Identités ou plus qui infligent de l’Intensité ou du Compte de [Burst] (exclut les Capacités E.G.O.)\n\nEn vainquant une cible avec [Burst] (en Affrontements Concentrés, une Partie) avec une Capacité Offensive, inflige l’Intensité de [Burst] de la cible entre tous les ennemis (en Affrontements Concentrés, toutes les Parties) (3 max par ennemi)\n\nEn vainquant une cible avec [BurstAgility] (en Affrontements Concentrés, une Partie) avec une Capacité Offensive, inflige l’Intensité et le Compte de [Burst] de la cible entre tous les ennemis (en Affrontements Concentrés, toutes les Parties) (6 max par ennemi)\n\nEn affrontant des cibles avec [Burst], gagne ([Burst] de la cible / 20) de Puissance de Duel (2 max)\n- En affrontant des cibles avec [BurstAgility], gagne ([BurstAgility] sur la cible / 10) de Puissance de Pièce à la place (2 max)\n\nEn infligeant des dégâts avec l’effet [BurstAgility], inflige des dégâts fixes égaux à (Dégâts de [BurstAgility] / 2)",
+      "simpleDesc": [
+        {
+          "abilityID": 9793,
+          "simpleDesc": "Inflige de la Déchirure"
+        },
+        {
+          "abilityID": 97931,
+          "simpleDesc": "Inflige de la Déchirure"
+        },
+        {
+          "abilityID": 97932,
+          "simpleDesc": "Bonus de Puissance de Duel"
+        },
+        {
+          "abilityID": 97933,
+          "simpleDesc": "Inflige des dégâts supplémentaires en infligeant des dégâts avec Heishou - Talisman Mao"
+        }
+      ]
+    },
+    {
+      "id": 9794,
+      "name": "Réservoir Bruissant",
+      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées #2 et #4]\n\nEn subissant des dégâts létaux, 60% de chance de ne pas subir ces dégâts et de regagner 30 PV. (Une fois par Affrontement)\nCet effet ne s’applique pas sous les conditions suivantes :\n- Lorsque les dégâts de Capacité subis dépassent les PV max de l’unité\n- Lorsque l’unité possède l’effet Malus de Soin de PV",
+      "simpleDesc": [
+        {
+          "abilityID": 9794,
+          "simpleDesc": "Soigne des PV"
         }
       ]
     }

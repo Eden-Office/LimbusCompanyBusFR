@@ -879,6 +879,7 @@ namespace LimbusCompanyFR
             package.GetComponentInChildren<TextMeshProLanguageSetter>(true).enabled = false;
         }
         #endregion
+
         #region BattlePass Timer
         [HarmonyPatch(typeof(BattlePassUIPopup), nameof(BattlePassUIPopup.SetRemainText))]
         [HarmonyPostfix]
@@ -998,6 +999,7 @@ namespace LimbusCompanyFR
             __instance._egoSkillNameText.lineSpacing = -20;
         }
         #endregion
+
         #region Dante Notes
         [HarmonyPatch(typeof(StoryTheaterDanteNoteDescSlot), nameof(StoryTheaterDanteNoteDescSlot.SetData))]
         [HarmonyPostfix]
@@ -1014,6 +1016,21 @@ namespace LimbusCompanyFR
         {
             __instance.tmp_addConditionDesc.text = Regex.Replace(__instance.tmp_addConditionDesc.text, @"<line-height=.*?>", "");
             __instance.tmp_addConditionDesc.fontSize = 35;
+        }
+        #endregion
+
+        #region History de
+        [HarmonyPatch(typeof(PersonalityStoryPersonalityStorySlot), nameof(PersonalityStoryPersonalityStorySlot.SetData))]
+        [HarmonyPostfix]
+        private static void DescriptionChange(PersonalityStoryPersonalityStorySlot __instance)
+        {
+            __instance._storyTitleText.GetComponentInChildren<TextMeshProLanguageSetter>(true).enabled = false;
+            __instance._storyTitleText.text = __instance._storyTitleText.text.Replace(",H", ", H");
+            string[] parts = __instance._storyTitleText.text.Split(',');
+            string faction = parts[0];
+            string sinner = parts[1];
+            string history = parts[2];
+            __instance._storyTitleText.text = $"{faction} : {history}{sinner}";
         }
         #endregion
     }

@@ -41,18 +41,6 @@ namespace LimbusCompanyFR
             }
             return false;
         }
-        public static bool GetFrenchFonts(string fontname, out TMP_FontAsset fontAsset)
-        {
-            fontAsset = null;
-            if (tmpfrenchfonts.Count == 0)
-                return false;
-            if (fontname == "Pretendard-Regular SDF" || fontname.StartsWith("HigashiOme-Gothic-C") || fontname == "SCDream5 SDF")
-            {
-                fontAsset = GetFrenchFonts(4);
-                return true;
-            }
-            return false;
-        }
         public static TMP_FontAsset GetFrenchFonts(int idx)
         {
             int Count = tmpfrenchfonts.Count - 1;
@@ -60,65 +48,35 @@ namespace LimbusCompanyFR
                 idx = Count;
             return tmpfrenchfonts[idx];
         }
-        public static bool IsFrenchFont(TMP_FontAsset fontAsset)
-        {
-            return tmpfrenchfontsnames.Contains(fontAsset.name);
-        }
-        static void AddFallbackFont(TMP_FontAsset fontAsset, TMP_FontAsset fallbackFont)
-        {
-            if (!fontAsset.fallbackFontAssetTable.Contains(fallbackFont))
-            {
-                fontAsset.fallbackFontAssetTable.Add(fallbackFont);
-                fontAsset.SetDirty();
-            }
-        }
-        public static void RemovePretendard(TMP_FontAsset fontAsset)
-        {
-            TMP_FontAsset pretendard = Resources.Load<TMP_FontAsset>("Font/EN/Pretendard/Pretendard-Regular SDF");
-            fontAsset.fallbackFontAssetTable.Remove(pretendard);
-        }
-        public static void RemoveLiberation(TMP_FontAsset fontAsset)
-        {
-            TMP_FontAsset liberation = Resources.Load<TMP_FontAsset>("Fonts & Materials/LiberationSans SDF");
-            fontAsset.fallbackFontAssetTable.Remove(liberation);
-        }
         [HarmonyPatch(typeof(TMP_Text), nameof(TMP_Text.font), MethodType.Setter)]
         [HarmonyPrefix]
         public static bool Set_font(TMP_Text __instance, ref TMP_FontAsset value)
         {
+            if (__instance == null || __instance.m_fontAsset == null || value == null)
+                return true;
+
             switch (value.name)
             {
                 case "BebasKai SDF":
                     AddFallbackFont(value, tmpfrenchfonts[0]);
                     return true;
-                case "ExcelsiorSans SDF":
-                    RemovePretendard(value);
-                    RemoveLiberation(value);
-                    AddFallbackFont(value, tmpfrenchfonts[2]);
-                    return true;
                 case "Mikodacs SDF":
                 case "KOTRA_BOLD SDF":
-                    RemovePretendard(value);
                     AddFallbackFont(value, tmpfrenchfonts[3]);
                     return true;
                 case "SCDream5 SDF":
+                case "Pretendard-Regular SDF":
                     AddFallbackFont(value, tmpfrenchfonts[4]);
                     return true;
             }
-            if (IsFrenchFont(__instance.m_fontAsset))
-                return false;
-            var fontname = __instance.m_fontAsset.name;
-            if (GetFrenchFonts(fontname, out var font))
-                value = font;
             return true;
         }
-        [HarmonyPatch(typeof(TMP_Text), nameof(TMP_Text.fontMaterial), MethodType.Setter)]
-        [HarmonyPrefix]
-        public static void Set_fontMaterial(TMP_Text __instance, ref Material value)
+        static void AddFallbackFont(TMP_FontAsset fontAsset, TMP_FontAsset fallbackFont)
         {
-            if (IsFrenchFont(__instance.m_fontAsset))
+            if (!fontAsset.fallbackFontAssetTable.Contains(fallbackFont))
             {
-                __instance.m_fontAsset.material = value;
+                fontAsset.fallbackFontAssetTable.Insert(0, fallbackFont);
+                fontAsset.SetDirty();
             }
         }
         [HarmonyPatch(typeof(TextMeshProLanguageSetter), nameof(TextMeshProLanguageSetter.Awake))]
