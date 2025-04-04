@@ -1,0 +1,381 @@
+{
+  "dataList": [
+    {
+      "id": 2010611,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Jours d’Antan",
+          "abName": "Portrait d’un Certain Jour",
+          "desc": "[EndSkill] Inflige aléatoirement (6 + Réson. de Peine) [Sinking] entre les cibles",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 6 [Sinking] ou plus, inflige 1 [Binding] au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Jours d’Antan",
+          "abName": "Portrait d’un Certain Jour",
+          "desc": "[EndSkill] Inflige aléatoirement (6 + Réson. de Peine) [Sinking] entre les cibles",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 6 [Sinking] ou plus, inflige 2 [Binding] au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Jours d’Antan",
+          "abName": "Portrait d’un Certain Jour",
+          "desc": "[EndSkill] Inflige aléatoirement (6 + (<style=\"highlight\">Réson. de Peine * 1.5</style>)) [Sinking] entre les cibles",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 6 [Sinking] ou plus, inflige 2 [Binding] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2010621,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Jours d’Antan",
+          "abName": "Portrait d’un Certain Jour",
+          "desc": "[CantIdentify]\nCible aléatoirement",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]. Inflige 2 [Binding] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 6 [Sinking] ou plus, inflige 1 [Binding] au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Jours d’Antan",
+          "abName": "Portrait d’un Certain Jour",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[BeforeAttack] À 3 (Réson. de Peine) ou plus, +1 de Poids d’Atq",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]. Inflige 2 [Binding] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 6 [Sinking] ou plus, inflige 1 [Binding] au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Jours d’Antan",
+          "abName": "Portrait d’un Certain Jour",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[BeforeAttack] À 3 (Réson. de Peine) ou plus, +1 de Poids d’Atq\n[BeforeAttack] À 5 (Réson. de Peine) ou plus, +1 de Poids d’Atq supplémentaire",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]. Inflige 2 [Binding] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 6 [Sinking] ou plus, inflige 2 [Binding] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2010711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Balle Tombée",
+          "abName": "Der Fluchschütze",
+          "desc": "Priorise les cibles avec le moins de PV (priorise les alliés)\n[BeforeAttack] Gagne (plus haute Réson. +1) [BoseProjektil] (7 max)\n[BeforeAttack] Gagne 1 [Breath] pour chaque [BoseProjektil] (7 max)\n[EndSkill] Perd tout [BoseProjektil]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Cette Pièce n’inflige des dégâts qu’à la cible principale."
+                },
+                {
+                  "desc": "Si la cible principale est un allié, inflige +8% de dégâts supplémentaires pour chaque [BoseProjektil] (56% max)"
+                },
+                {
+                  "desc": "[AllyKill] Applique 2 [Breath] à soi et 2 alliés aléatoires"
+                },
+                {
+                  "desc": "[AllyKillFail] Gagne 1 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Cette Pièce n’inflige des dégâts qu’aux sous-cibles\n- Si la première Pièce a échoué à tuer l’allié, 1 sous-cible aléatoire subit des dégâts"
+                },
+                {
+                  "desc": "+2% de Dégât en Touche Critique pour chaque [BoseProjektil] (14% max)"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Balle Tombée",
+          "abName": "Der Fluchschütze",
+          "desc": "Priorise les cibles avec le moins de PV (priorise les alliés)\n[BeforeAttack] Gagne (plus haute Réson. +1) [BoseProjektil] (7 max)\n[BeforeAttack] Gagne 1 [Breath] pour chaque [BoseProjektil] (7 max)\n[EndSkill] Perd tout [BoseProjektil]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Cette Pièce n’inflige des dégâts qu’à la cible principale."
+                },
+                {
+                  "desc": "Si la cible principale est un allié, inflige <style=\"highlight\">+10%</style> de dégâts supplémentaires pour chaque [BoseProjektil] (<style=\"highlight\">70%</style> max)"
+                },
+                {
+                  "desc": "[AllyKill] Applique 3 [Breath] à soi et 2 alliés aléatoires"
+                },
+                {
+                  "desc": "<style=\"highlight\">[AllyKill] +1 ressource E.G.O. de l’Affinité de la Capacité 1 de l’allié tué</style>"
+                },
+                {
+                  "desc": "[AllyKillFail] Gagne <style=\"highlight\">3</style> [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Cette Pièce n’inflige des dégâts qu’aux sous-cibles\n- Si la première Pièce a échoué à tuer l’allié, 1 sous-cible aléatoire subit des dégâts"
+                },
+                {
+                  "desc": "<style=\"highlight\">+5%</style> de Dégât en Touche Critique pour chaque [BoseProjektil] (<style=\"highlight\">35%</style> max)"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Balle Tombée",
+          "abName": "Der Fluchschütze",
+          "desc": "Priorise les cibles avec le moins de PV (priorise les alliés)\n[BeforeAttack] Gagne (plus haute Réson. +1) [BoseProjektil] (7 max)\n<style=\"highlight\">- Si cette Réson. était une Réson. d’Orgueil, gagne (plus haute Réson. * 2) [BoseProjektil] à la place (7 max)</style>\n[BeforeAttack] Gagne 1 [Breath] pour chaque [BoseProjektil] (7 max)\n[EndSkill] Perd tout [BoseProjektil]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Cette Pièce n’inflige des dégâts qu’à la cible principale."
+                },
+                {
+                  "desc": "Si la cible principale est un allié, inflige <style=\"highlight\">+15%</style> de dégâts supplémentaires pour chaque [BoseProjektil] (<style=\"highlight\">105%</style> max)"
+                },
+                {
+                  "desc": "[AllyKill] Applique 3 [Breath] à soi et 2 alliés aléatoires"
+                },
+                {
+                  "desc": "<style=\"highlight\">[AllyKill] +1 ressource E.G.O. des Affinités des Capacités 1 et 2 de l’allié tué</style>"
+                },
+                {
+                  "desc": "[AllyKillFail] Gagne <style=\"highlight\">3</style> [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Cette Pièce n’inflige des dégâts qu’aux sous-cibles\n- Si la première Pièce a échoué à tuer l’allié, 1 sous-cible aléatoire subit des dégâts"
+                },
+                {
+                  "desc": "<style=\"highlight\">+9%</style> de Dégât en Touche Critique pour chaque [BoseProjektil] (<style=\"highlight\">63%</style> max)"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige <style=\"highlight\">3</style> [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2010721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Balle Tombée",
+          "abName": "Der Fluchschütze",
+          "desc": "[CantIdentify]\nPriorise les cibles avec le moins de PV (priorise les alliés)\n[BeforeAttack] Gagne (plus haute Réson. +1) [BoseProjektil] (7 max)\n[BeforeAttack] Inflige +2% de dégâts supplémentaires pour chaque [BoseProjektil] (14% max)\n[BeforeAttack] Gagne 1 [Breath] pour chaque [BoseProjektil] (7 max)\n[EndSkill] Perd tout [BoseProjektil]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Cette Pièce n’inflige des dégâts qu’à la cible principale."
+                },
+                {
+                  "desc": "Si la cible principale est un allié, inflige +10% de dégâts supplémentaires pour chaque [BoseProjektil] (70% max)"
+                },
+                {
+                  "desc": "Si la cible principale est un allié, inflige +2% de dégâts supplémentaires pour chaque [Breath] sur soi (50% max)"
+                },
+                {
+                  "desc": "[AllyKill] Applique 2 [Breath] à soi et 3 alliés aléatoires"
+                },
+                {
+                  "desc": "[AllyKill] La prochaine Pièce inflige +2% de dégâts supplémentaires pour chaque [BoseProjektil] (14% max)"
+                },
+                {
+                  "desc": "[AllyKill] +1 ressource E.G.O. des Affinités des Capacités 1 et 2 de l’allié tué"
+                },
+                {
+                  "desc": "[AllyKillFail] Gagne 1 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Cette Pièce n’inflige des dégâts qu’aux sous-cibles\n- Si la première Pièce a échoué à tuer l’allié, 1 sous-cible aléatoire subit des dégâts"
+                },
+                {
+                  "desc": "+2% de Dégât en Touche Critique pour chaque [BoseProjektil] (14% max)"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Balle Tombée",
+          "abName": "Der Fluchschütze",
+          "desc": "[CantIdentify]\nPriorise les cibles avec le moins de PV (priorise les alliés)\n[BeforeAttack] Gagne (plus haute Réson. +1) [BoseProjektil] (7 max)\n[BeforeAttack] Inflige <style=\"highlight\">+3%</style> de dégâts supplémentaires pour chaque [BoseProjektil] (<style=\"highlight\">21%</style> max)\n[BeforeAttack] Gagne 1 [Breath] pour chaque [BoseProjektil] (7 max)\n[EndSkill] Perd tout [BoseProjektil]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Cette Pièce n’inflige des dégâts qu’à la cible principale."
+                },
+                {
+                  "desc": "Si la cible principale est un allié, inflige <style=\"highlight\">+12%</style> de dégâts supplémentaires pour chaque [BoseProjektil] (<style=\"highlight\">84%</style> max)"
+                },
+                {
+                  "desc": "Si la cible principale est un allié, inflige +2% de dégâts supplémentaires pour chaque [Breath] sur soi (50% max)"
+                },
+                {
+                  "desc": "[AllyKill] Applique 3 [Breath] à soi et <style=\"highlight\">3</style> alliés aléatoires"
+                },
+                {
+                  "desc": "[AllyKill] La prochaine Pièce inflige <style=\"highlight\">+5%</style> de dégâts supplémentaires pour chaque [BoseProjektil] (<style=\"highlight\">35%</style> max)"
+                },
+                {
+                  "desc": "<style=\"highlight\">[AllyKill] +1 ressource E.G.O. des Affinités des Capacités 1, 2 et 3 de l’allié tué</style>"
+                },
+                {
+                  "desc": "[AllyKillFail] Gagne <style=\"highlight\">2</style> [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Cette Pièce n’inflige des dégâts qu’aux sous-cibles\n- Si la première Pièce a échoué à tuer l’allié, 1 sous-cible aléatoire subit des dégâts"
+                },
+                {
+                  "desc": "<style=\"highlight\">+3%</style> de Dégât en Touche Critique pour chaque [BoseProjektil] (<style=\"highlight\">21%</style> max)"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige <style=\"highlight\">4</style> [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Balle Tombée",
+          "abName": "Der Fluchschütze",
+          "desc": "[CantIdentify]\nPriorise les cibles avec le moins de PV (priorise les alliés)\n[BeforeAttack] Gagne (plus haute Réson. +1) [BoseProjektil] (7 max)\n<style=\"highlight\">- Si cette Réson. était une Réson. d’Orgueil, gagne (plus haute Réson. * 2) [BoseProjektil] à la place (7 max)</style>\n[BeforeAttack] Inflige <style=\"highlight\">+4%</style> de dégâts supplémentaires pour chaque [BoseProjektil] (28% max)\n[BeforeAttack] Gagne 1 [Breath] pour chaque [BoseProjektil] (7 max)\n[EndSkill] Perd tout [BoseProjektil]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Cette Pièce n’inflige des dégâts qu’à la cible principale."
+                },
+                {
+                  "desc": "Si la cible principale est un allié, inflige +15% de dégâts supplémentaires pour chaque [BoseProjektil] (105% max)"
+                },
+                {
+                  "desc": "Si la cible principale est un allié, inflige +2% de dégâts supplémentaires pour chaque [Breath] sur soi (50% max)"
+                },
+                {
+                  "desc": "<style=\"highlight\">+30% de Dégât en Touche Critique</style>"
+                },
+                {
+                  "desc": "[AllyKill] Applique 3 [Breath] à soi et <style=\"highlight\">4</style> alliés aléatoires"
+                },
+                {
+                  "desc": "[AllyKill] La prochaine Pièce inflige <style=\"highlight\">+7%</style> de dégâts supplémentaires pour chaque [BoseProjektil] (<style=\"highlight\">49%</style> max)"
+                },
+                {
+                  "desc": "[AllyKill] +1 ressource E.G.O. des Affinités des Capacités 1, 2 et 3 de l’allié tué"
+                },
+                {
+                  "desc": "[AllyKillFail] Gagne <style=\"highlight\">3</style> [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Cette Pièce n’inflige des dégâts qu’aux sous-cibles\n- Si la première Pièce a échoué à tuer l’allié, 1 sous-cible aléatoire subit des dégâts"
+                },
+                {
+                  "desc": "<style=\"highlight\">+4% de Dégât en Touche Critique pour chaque [BoseProjektil] (28% max)</style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige <style=\"highlight\">5</style> [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

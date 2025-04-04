@@ -1,0 +1,1911 @@
+{
+  "dataList": [
+    {
+      "id": "AreaAtk",
+      "name": "Attaque de Zone",
+      "desc": "Cible 2 adversaires ou plus."
+    },
+    {
+      "id": "Enhancement",
+      "name": "Bonus de Puissance Offensive",
+      "desc": "Les capacités offensives obtiennent autant de Puissance finale que de Compte pendant un tour."
+    },
+    {
+      "id": "Agility",
+      "name": "Accélération",
+      "desc": "La Vitesse augmente par le Compte de cet effet pendant un tour."
+    },
+    {
+      "id": "Endurance",
+      "name": "Bonus de Puissance Défensive",
+      "desc": "Les capacités défensives obtiennent autant de Puissance finale que de Compte pendant un tour."
+    },
+    {
+      "id": "Reduction",
+      "name": "Malus de Puissance Offensive",
+      "desc": "Les capacités offensives perdent autant de Puissance finale que de Compte pendant un tour."
+    },
+    {
+      "id": "Binding",
+      "name": "Ralentissement",
+      "desc": "La Vitesse diminue par le Compte de cet effet pendant un tour."
+    },
+    {
+      "id": "Vulnerable",
+      "name": "Vulnérabilité",
+      "desc": "Subit plus de dégâts de capacités selon le Compte de l’effet pendant un tour. (10 max)",
+      "summary": "+{0}0% de Dégâts Subis"
+    },
+    {
+      "id": "Taunt",
+      "name": "Raillerie",
+      "desc": ""
+    },
+    {
+      "id": "Stun",
+      "name": "Étourdissement",
+      "desc": ""
+    },
+    {
+      "id": "ElectricShock",
+      "name": "Choc",
+      "desc": "Subit plus de dégâts selon la valeur de l’effet pendant le tour"
+    },
+    {
+      "id": "Burn",
+      "name": "Brûlure",
+      "desc": "À la fin du tour, subit des dégâts fixes selon le Compte de l’effet puis le réduit de moitié."
+    },
+    {
+      "id": "Bleeding",
+      "name": "Saignement",
+      "desc": "En attaquant, subit des dégâts fixes égaux à (Compte)% des PV actuels puis le réduit de moitié."
+    },
+    {
+      "id": "Target",
+      "name": "Marqué",
+      "desc": "Ciblé par le personnage ayant le passif [Bord Tranchant]."
+    },
+    {
+      "id": "SelfHarm_LowMorale",
+      "name": "Compulsion",
+      "desc": "- Moral Bas\n- Début du Tour : gagne 2 Accélération et 2 Vulnérabilité."
+    },
+    {
+      "id": "SelfHarm_Panic",
+      "name": "Compulsion",
+      "desc": "- Panique\n- Début du Tour : perd 10 PV."
+    },
+    {
+      "id": "Blame_LowMorale",
+      "name": "Déchaînement",
+      "desc": "- Moral Bas\n- Début du Tour : gagne 2 Bonus de Puissance Offensive et 2 Vulnérabilité."
+    },
+    {
+      "id": "Blame_Panic",
+      "name": "Déchaînement",
+      "desc": "- Panique\n- Début du Tour : un allié aléatoire perd 20 PSM."
+    },
+    {
+      "id": "Charge",
+      "name": "Charge",
+      "desc": "Ressource utilisée par certaines capacités pour des effets additionnels. Son Compte peut monter jusqu’à 20. Le Compte diminue de 1 à la fin de chaque tour."
+    },
+    {
+      "id": "DamageOverTime",
+      "name": "Dégâts En Cours",
+      "desc": "Au début du tour, subit des dégâts fixes selon le Compte de l’effet."
+    },
+    {
+      "id": "ResultEnhancement",
+      "name": "Bonus de Puissance",
+      "desc": "Les capacités gagnent autant de Puissance finale que de Compte de l’effet pendant un tour.",
+      "summary": "+{0} de Puissance Finale de Capacité"
+    },
+    {
+      "id": "Protection",
+      "name": "Protection",
+      "desc": "Subit moins de dégâts de capacités selon le Compte de l’effet pendant un tour. (10 max)",
+      "summary": "-{0}0% de Dégâts Subis"
+    },
+    {
+      "id": "AttackDmgUp",
+      "name": "Bonus de Dégâts",
+      "desc": "Inflige plus de dégâts de capacités selon le Compte de l’effet pendant un tour. (10 max)",
+      "summary": "+{0}0% de Dégâts Infligés"
+    },
+    {
+      "id": "DefenseUp",
+      "name": "Bonus de Niveau Défensif",
+      "desc": "Le Niveau Défensif augmente selon l’Intensité de l’effet pendant un tour.",
+      "summary": "Niveau Défensif +{0}"
+    },
+    {
+      "id": "PlusCoinValueUp",
+      "name": "Bonus de Puissance de Pièce Positive",
+      "desc": "Augmente la Puissance des Pièces Positives selon le Compte de l’effet."
+    },
+    {
+      "id": "MinusCoinValueUp",
+      "name": "Bonus de Puissance de Pièce Négative",
+      "desc": "Augmente la Puissance des Pièces Négatives selon le Compte de l’effet."
+    },
+    {
+      "id": "TimesCoinValueUp",
+      "name": "Bonus de Puissance de Pièce Multiplicative",
+      "desc": "Augmente la Puissance des Pièces Multiplicatives selon le Compte de l’effet."
+    },
+    {
+      "id": "Disarming",
+      "name": "Malus de Puissance Défensive",
+      "desc": "Les capacités défensives perdent autant de Puissance finale que de Compte pendant un tour."
+    },
+    {
+      "id": "ResultReduction",
+      "name": "Malus de Puissance",
+      "desc": "Les capacités perdent autant de Puissance finale que de Compte de l’effet pendant un tour.",
+      "summary": "-{0} de Puissance Finale de Capacité"
+    },
+    {
+      "id": "AttackDmgDown",
+      "name": "Malus de Dégâts",
+      "desc": "Inflige moins de dégâts de capacités selon le Compte de l’effet pendant un tour. (10 max)",
+      "summary": "-{0}0% de Dégâts Infligés"
+    },
+    {
+      "id": "DefenseDown",
+      "name": "Malus de Niveau Défensif",
+      "desc": "Le Niveau Défensif diminue selon l’Intensité de l’effet pendant un tour.",
+      "summary": "Niveau Défensif -{0}"
+    },
+    {
+      "id": "Paralysis",
+      "name": "Paralysie",
+      "desc": "Fixe la Puissance des Pièces à 0 pendant un tour, avec une Pièce par Compte de l’effet."
+    },
+    {
+      "id": "PlusCoinValueDown",
+      "name": "Malus de Puissance de Pièce Positive",
+      "desc": "Diminue la Puissance des Pièces Positives selon le Compte de l’effet."
+    },
+    {
+      "id": "MinusCoinValueDown",
+      "name": "Malus de Puissance de Pièce Négative",
+      "desc": "Diminue la Puissance des Pièces Négatives selon le Compte de l’effet."
+    },
+    {
+      "id": "TimesCoinValueDown",
+      "name": "Malus de Puissance de Pièce Multiplicative",
+      "desc": "Diminue la Puissance des Pièces Multiplicatives selon le Compte de l’effet."
+    },
+    {
+      "id": "MoonLight",
+      "name": "Clair de Lune",
+      "desc": "Ressource utilisée par certaines capacités pour des effets additionnels."
+    },
+    {
+      "id": "Anger",
+      "name": "Rage",
+      "desc": "Utilisée par certaines capacités. Nécessaires pour l’utilisation de certaines capacités."
+    },
+    {
+      "id": "Inactible",
+      "name": "Immobilisé",
+      "desc": "N’agit pas pendant le tour."
+    },
+    {
+      "id": "Combustion",
+      "name": "Brûlure",
+      "desc": "À la fin du tour, subit des dégâts fixes selon l’Intensité de l’effet.\nPuis, réduit son Compte de 1."
+    },
+    {
+      "id": "Laceration",
+      "name": "Saignement",
+      "desc": "En lançant une Pièce d’attaque, subit des dégâts fixes selon l’Intensité de l’effet.\nPuis, réduit son Compte de 1."
+    },
+    {
+      "id": "Vibration",
+      "name": "Tremblement",
+      "desc": "Lorsque attaqué par des capacités activant un Sursaut de Tremblement, augmente le Seuil de Déséquilibre selon l’Intensité de l’effet.\nÀ la fin du tour, réduit le Compte de 1."
+    },
+    {
+      "id": "Burst",
+      "name": "Déchirure",
+      "desc": "Lorsque touché par une attaque, subit des dégâts fixes selon l’Intensité de l’effet.\nPuis, réduit son Compte de 1."
+    },
+    {
+      "id": "Sinking",
+      "name": "Lourdeur",
+      "desc": "Lorsque touché par une attaque, subit des dégâts fixes de PSM selon l’Intensité de l’effet.\n(Les unités sans Santé Mentale subissent des dégâts de Peine à la place.)\nPuis, réduit son Compte de 1."
+    },
+    {
+      "id": "Breath",
+      "name": "Calme",
+      "desc": "En touche, gagne une chance basée sur l’Intensité de l’effet d’infliger des dégâts critiques, réduisant le Compte de 1 en cas de réussite.\nÀ la fin du tour, réduit le Compte de 1."
+    },
+    {
+      "id": "BloodPocket",
+      "name": "Sac de Sang",
+      "desc": "Utilise une attaque puissante après que le Compte ait atteint une certaine quantité."
+    },
+    {
+      "id": "WaterPocket",
+      "name": "Sac de Fluide",
+      "desc": "Regagne des PV selon le Compte."
+    },
+    {
+      "id": "DogThunder",
+      "name": "Foudre",
+      "desc": "Obtient un bonus de Puissance après que le Compte ait atteint une certaine quantité."
+    },
+    {
+      "id": "Run_Panic",
+      "name": "Oppression",
+      "desc": "Ne peut pas agir pendant un tour. Lorsque touché, fuit le combat après que l’attaquant a terminé sa Capacité Offensive."
+    },
+    {
+      "id": "Operation",
+      "name": "Chirurgie",
+      "desc": "Meurt lorsque le Compte atteint 5.\nRéduit les PV max de 20% (par Compte)\nInflige 20% (par Compte) de dégâts supplémentaires.\nAu début du tour, gagne autant d’Accélération que de Compte de l’effet."
+    },
+    {
+      "id": "Emergency_Operation",
+      "name": "Chirurgie Improvisée",
+      "desc": "Augmente de 25% les PV max et la Puissance des capacités de 1 par Compte de l’effet.\nChaque tour, augmente de 1 le Compte de cet effet.\nMeurt lorsque le Compte atteint 5."
+    },
+    {
+      "id": "BabayagaTimeLimit",
+      "name": "Baba Yaga Arrive !",
+      "desc": ""
+    },
+    {
+      "id": "PinkRibbon",
+      "name": "Rubans Roses",
+      "desc": "À la fin du tour, si à 5 d’Intensité ou plus, retire cet effet et applique “Désireux” au tour suivant."
+    },
+    {
+      "id": "Greedy",
+      "name": "Désireux",
+      "desc": "Au début du tour, gagne 10 Ralentissement.\nToutes les résistances physiques deviennent “Fatal”.\n+2 de Puissance de Capacité Offensive.\n-2 de Puissance de Capacité Défensive."
+    },
+    {
+      "id": "PinkRibbon_Ishmael",
+      "name": "Rubans Roses",
+      "desc": "Le Compte augmente de 1 chaque fois que l’unité affectée lance une Pièce d’attaque.\nÀ la fin du tour, inflige autant de Ralentissement que de Compte de l’effet, puis retire l’effet."
+    },
+    {
+      "id": "Muckworm",
+      "name": "Asticots",
+      "desc": "Fin du Tour : subit des dégâts de Gourmandise selon le Compte, puis le diminue de 1 ; +1 de Compte de Saignement."
+    },
+    {
+      "id": "AttackUp",
+      "name": "Bonus de Niveau Offensif",
+      "desc": "Le Niveau Offensif augmente selon l’Intensité de l’effet pendant un tour."
+    },
+    {
+      "id": "AttackDown",
+      "name": "Malus de Niveau Offensif",
+      "desc": "Le Niveau Offensif diminue selon l’Intensité de l’effet pendant un tour."
+    },
+    {
+      "id": "Liu_Meursault_Guard_Buff",
+      "name": "Grande Montagne",
+      "desc": "Lorsque attaqué, inflige +1 de Compte de Brûlure à l’attaquant."
+    },
+    {
+      "id": "SlashResistUp",
+      "name": "Bonus de Résistance au Tranchant",
+      "desc": "Réduit la faiblesse au Tranchant selon l’Instance.\n(0.1 par Instance)"
+    },
+    {
+      "id": "PenetrateResistUp",
+      "name": "Bonus de Résistance au Perçant",
+      "desc": "Réduit la faiblesse au Perçant selon l’Instance.\n(0.1 par Instance)"
+    },
+    {
+      "id": "HitResistUp",
+      "name": "Bonus de Résistance au Contondant",
+      "desc": "Réduit la faiblesse au Contondant selon l’Instance.\n(0.1 par Instance)"
+    },
+    {
+      "id": "SlashDamageUp",
+      "name": "Bonus de DGT Tranchant",
+      "desc": "Inflige plus de dégâts avec les capacités Tranchantes selon le Compte de l’effet pendant un tour. (10 max)"
+    },
+    {
+      "id": "PenetrateDamageUp",
+      "name": "Bonus de DGT Perçant",
+      "desc": "Inflige plus de dégâts avec les capacités Perçantes selon le Compte de l’effet pendant un tour. (10 max)"
+    },
+    {
+      "id": "HitDamageUp",
+      "name": "Bonus de DGT Contondant",
+      "desc": "Inflige plus de dégâts avec les capacités Contondantes selon le Compte de l’effet pendant un tour. (10 max)"
+    },
+    {
+      "id": "SlashResistDown",
+      "name": "Malus de Résistance au Tranchant",
+      "desc": "Augmente la faiblesse au Tranchant selon l’Instance.\n(0.1 par Instance)"
+    },
+    {
+      "id": "PenetrateResistDown",
+      "name": "Malus de Résistance au Perçant",
+      "desc": "Augmente la faiblesse au Perçant selon l’Instance.\n(0.1 par Instance)"
+    },
+    {
+      "id": "HitResistDown",
+      "name": "Malus de Résistance au Contondant",
+      "desc": "Augmente la faiblesse au Contondant selon l’Instance.\n(0.1 par Instance)"
+    },
+    {
+      "id": "SlashDamageDown",
+      "name": "Malus de DGT Tranchant",
+      "desc": "Inflige moins de dégâts avec les capacités Tranchantes selon le Compte de l’effet pendant un tour. (10 max)"
+    },
+    {
+      "id": "PenetrateDamageDown",
+      "name": "Malus de DGT Perçant",
+      "desc": "Inflige moins de dégâts avec les capacités Perçantes selon le Compte de l’effet pendant un tour. (10 max)"
+    },
+    {
+      "id": "HitDamageDown",
+      "name": "Malus de DGT Contondant",
+      "desc": "Inflige moins de dégâts avec les capacités Contondantes selon le Compte de l’effet pendant un tour. (10 max)"
+    },
+    {
+      "id": "CrimsonResistDown",
+      "name": "Malus de Résistance à la Colère",
+      "desc": "Augmente la faiblesse à la Colère selon l’Instance.\n(0.1 par Instance)"
+    },
+    {
+      "id": "ScarletResistDown",
+      "name": "Malus de Résistance à la Luxure",
+      "desc": "Augmente la faiblesse à la Luxure selon l’Instance.\n(0.1 par Instance)"
+    },
+    {
+      "id": "AmberResistDown",
+      "name": "Malus de Résistance à la Paresse",
+      "desc": "Augmente la faiblesse à la Paresse selon l’Instance.\n(0.1 par Instance)"
+    },
+    {
+      "id": "ShamrockResistDown",
+      "name": "Malus de Résistance à la Gourmandise",
+      "desc": "Augmente la faiblesse à la Gourmandise selon l’Instance.\n(0.1 par Instance)"
+    },
+    {
+      "id": "AzureResistDown",
+      "name": "Malus de Résistance à la Peine",
+      "desc": "Augmente la faiblesse à la Peine selon l’Instance.\n(0.1 par Instance)"
+    },
+    {
+      "id": "IndigoResistDown",
+      "name": "Malus de Résistance à l’Orgueil",
+      "desc": "Augmente la faiblesse à l’Orgueil selon l’Instance.\n(0.1 par Instance)"
+    },
+    {
+      "id": "VioletResistDown",
+      "name": "Malus de Résistance à l’Envie",
+      "desc": "Augmente la faiblesse à l’Envie selon l’Instance.\n(0.1 par Instance)"
+    },
+    {
+      "id": "CrimsonResistUp",
+      "name": "Bonus de Résistance à la Colère",
+      "desc": "Diminue la faiblesse à la Colère selon l’Instance.\n(0.1 par Instance)"
+    },
+    {
+      "id": "ScarletResistUp",
+      "name": "Bonus de Résistance à la Luxure",
+      "desc": "Diminue la faiblesse à la Luxure selon l’Instance.\n(0.1 par Instance)"
+    },
+    {
+      "id": "AmberResistUp",
+      "name": "Bonus de Résistance à la Paresse",
+      "desc": "Diminue la faiblesse à la Paresse selon l’Instance.\n(0.1 par Instance)"
+    },
+    {
+      "id": "ShamrockResistUp",
+      "name": "Bonus de Résistance à la Gourmandise",
+      "desc": "Diminue la faiblesse à la Gourmandise selon l’Instance.\n(0.1 par Instance)"
+    },
+    {
+      "id": "AzureResistUp",
+      "name": "Bonus de Résistance à la Peine",
+      "desc": "Diminue la faiblesse à la Peine selon l’Instance.\n(0.1 par Instance)"
+    },
+    {
+      "id": "IndigoResistUp",
+      "name": "Bonus de Résistance à l’Orgueil",
+      "desc": "Diminue la faiblesse à l’Orgueil selon l’Instance.\n(0.1 par Instance)"
+    },
+    {
+      "id": "VioletResistUp",
+      "name": "Bonus de Résistance à l’Envie",
+      "desc": "Diminue la faiblesse à l’Envie selon l’Instance.\n(0.1 par Instance)"
+    },
+    {
+      "id": "CrimsonDamageDown",
+      "name": "Malus de DGT de Colère",
+      "desc": "Inflige moins de dégâts avec les capacités de Colère selon le Compte de l’effet pendant un tour. (10 max)"
+    },
+    {
+      "id": "ScarletDamageDown",
+      "name": "Malus de DGT de Luxure",
+      "desc": "Inflige moins de dégâts avec les capacités de Luxure selon le Compte de l’effet pendant un tour. (10 max)"
+    },
+    {
+      "id": "AmberDamageDown",
+      "name": "Malus de DGT de Paresse",
+      "desc": "Inflige moins de dégâts avec les capacités de Paresse selon le Compte de l’effet pendant un tour. (10 max)"
+    },
+    {
+      "id": "ShamrockDamageDown",
+      "name": "Malus de DGT de Gourmandise",
+      "desc": "Inflige moins de dégâts avec les capacités de Gourmandise selon le Compte de l’effet pendant un tour. (10 max)"
+    },
+    {
+      "id": "AzureDamageDown",
+      "name": "Malus de DGT de Peine",
+      "desc": "Inflige moins de dégâts avec les capacités de Peine selon le Compte de l’effet pendant un tour. (10 max)"
+    },
+    {
+      "id": "IndigoDamageDown",
+      "name": "Malus de DGT d’Orgueil",
+      "desc": "Inflige moins de dégâts avec les capacités d’Orgueil selon le Compte de l’effet pendant un tour. (10 max)"
+    },
+    {
+      "id": "VioletDamageDown",
+      "name": "Malus de DGT d’Envie",
+      "desc": "Inflige moins de dégâts avec les capacités d’Envie selon le Compte de l’effet pendant un tour. (10 max)"
+    },
+    {
+      "id": "CrimsonDamageUp",
+      "name": "Bonus de DGT de Colère",
+      "desc": "Inflige plus de dégâts avec les capacités de Colère selon le Compte de l’effet pendant un tour. (10 max)"
+    },
+    {
+      "id": "ScarletDamageUp",
+      "name": "Bonus de DGT de Luxure",
+      "desc": "Inflige plus de dégâts avec les capacités de Luxure selon le Compte de l’effet pendant un tour. (10 max)"
+    },
+    {
+      "id": "AmberDamageUp",
+      "name": "Bonus de DGT de Paresse",
+      "desc": "Inflige plus de dégâts avec les capacités de Paresse selon le Compte de l’effet pendant un tour. (10 max)"
+    },
+    {
+      "id": "ShamrockDamageUp",
+      "name": "Bonus de DGT de Gourmandise",
+      "desc": "Inflige plus de dégâts avec les capacités de Gourmandise selon le Compte de l’effet pendant un tour. (10 max)"
+    },
+    {
+      "id": "AzureDamageUp",
+      "name": "Bonus de DGT de Peine",
+      "desc": "Inflige plus de dégâts avec les capacités de Peine selon le Compte de l’effet pendant un tour. (10 max)"
+    },
+    {
+      "id": "IndigoDamageUp",
+      "name": "Bonus de DGT d’Orgueil",
+      "desc": "Inflige plus de dégâts avec les capacités d’Orgueil selon le Compte de l’effet pendant un tour. (10 max)"
+    },
+    {
+      "id": "VioletDamageUp",
+      "name": "Bonus de DGT d’Envie",
+      "desc": "Inflige plus de dégâts avec les capacités d’Envie selon le Compte de l’effet pendant un tour. (10 max)"
+    },
+    {
+      "id": "Curse",
+      "name": "Malédiction",
+      "desc": "Fin du Tour : gagne l’un des effets suivants, puis réduit le Compte de cet effet de 1.\n1 Malus de Puissance Offensive/1 Malus de Puissance Défensive/2 Malus de Niveau Offensif/2 Malus de Niveau Défensif."
+    },
+    {
+      "id": "AttackDmgUp_Weak",
+      "name": "Bonus de DGT de résistance Faible",
+      "desc": "Augmente les dégâts des attaques contre les résistances “Faible” d’un % selon le Compte.\n(10% par Compte)"
+    },
+    {
+      "id": "Bullet",
+      "name": "Munition",
+      "desc": "Utilisée par certaines capacités.\nCertaines attaques s’annulent s’il n’y a pas assez de Munitions."
+    },
+    {
+      "id": "Meursault_Last_Remodeling",
+      "name": "Renforcement Final",
+      "desc": "Au début du tour, gagne 3 Bonus de Puissance Offensive, Bonus de Puissance Défensive et Accélération ; meurt après 3 tours."
+    },
+    {
+      "id": "Choice_90103301",
+      "name": "Lutte",
+      "desc": "+1 de Vitesse pour ce combat.",
+      "summary": "VTS +1"
+    },
+    {
+      "id": "Choice_90103402",
+      "name": "Soulagement",
+      "desc": "+2 de Vitesse pour ce combat.",
+      "summary": "VTS +2"
+    },
+    {
+      "id": "Choice_901001",
+      "name": "Flamme Propagatrice",
+      "desc": "Début du Combat : les alliés sans Capacité Offensive d’Affinité de Colère subissent 5 dégâts de Colère"
+    },
+    {
+      "id": "Choice_901007",
+      "name": "Doux Départ",
+      "desc": "Début du Tour : regagne 10 PV et PSM. (Jusqu’à 3 tours)",
+      "summary": "PV & PSM +10"
+    },
+    {
+      "id": "Choice_901009",
+      "name": "Photopia",
+      "desc": "Début du Combat : -1 de Puissance Finale de Capacité.",
+      "summary": "Puissance Finale de Capacité -1"
+    },
+    {
+      "id": "Choice_901010",
+      "name": "Vidé",
+      "desc": "Début du Combat : les Alliés sans Capacité Offensive d’Affinité de Luxure sont Déséquilibrés."
+    },
+    {
+      "id": "Choice_901019",
+      "name": "Contamination",
+      "desc": "Début du Combat : -2 de Vitesse.",
+      "summary": "VTS -2"
+    },
+    {
+      "id": "Aggressive",
+      "name": "Intuition",
+      "desc": "À la fin du tour, si le Compte est à 4 ou plus, passe dans un état “agressif”."
+    },
+    {
+      "id": "Cromer_Target",
+      "name": "Regard de Celle Qui Agrippe",
+      "desc": "Déséquilibré pendant un tour. Subit +100% de dégâts de la part de Kromer."
+    },
+    {
+      "id": "Poison",
+      "name": "Poison",
+      "desc": "À la fin du tour, subit des dégâts fixes selon le Compte, puis réduit le Compte de moitié."
+    },
+    {
+      "id": "Desire",
+      "name": "Besoin",
+      "desc": "À la fin du tour, si à 5 de Compte ou plus, subit 30 dégâts de PSM, gagne 2 Vulnérabilité et 10 Ralentissement et retire cet effet."
+    },
+    {
+      "id": "Assemble",
+      "name": "Fanatique",
+      "desc": "Augmente la Puissance Finale des Capacités par le Compte de l’effet contre les unités avec Clous pendant le tour. (S’applique aussi aux duels)"
+    },
+    {
+      "id": "Nail",
+      "name": "Clous de la N Corp.",
+      "desc": "Au début du tour, gagne 1 Saignement et augmente le Compte de Saignement selon le Compte de cet effet.\nÀ la fin du tour, réduit le Compte de 1."
+    },
+    {
+      "id": "BeingGolden",
+      "name": "Éclat Doré",
+      "desc": "Au début du tour, regagne 10 PV par Compte."
+    },
+    {
+      "id": "SlashTakeDamageDown",
+      "name": "Protection Tranchante",
+      "desc": "Subit moins de dégâts de capacités Tranchantes selon le Compte de l’effet pendant un tour. (10 max)"
+    },
+    {
+      "id": "PenetrateTakeDamageDown",
+      "name": "Protection Perçante",
+      "desc": "Subit moins de dégâts de capacités Perçantes selon le Compte de l’effet pendant un tour. (10 max)"
+    },
+    {
+      "id": "HitTakeDamageDown",
+      "name": "Protection Contondante",
+      "desc": "Subit moins de dégâts de capacités Contondantes selon le Compte de l’effet pendant un tour. (10 max)"
+    },
+    {
+      "id": "CrimsonTakeDamageDown",
+      "name": "Protection de Colère",
+      "desc": "Subit moins de dégâts de capacités de Colère selon le Compte de l’effet pendant un tour. (10 max)"
+    },
+    {
+      "id": "ScarletTakeDamageDown",
+      "name": "Protection de Luxure",
+      "desc": "Subit moins de dégâts de capacités de Luxure selon le Compte de l’effet pendant un tour. (10 max)"
+    },
+    {
+      "id": "AmberTakeDamageDown",
+      "name": "Protection de Paresse",
+      "desc": "Subit moins de dégâts de capacités de Paresse selon le Compte de l’effet pendant un tour. (10 max)"
+    },
+    {
+      "id": "ShamrockTakeDamageDown",
+      "name": "Protection de Gourmandise",
+      "desc": "Subit moins de dégâts de capacités de Gourmandise selon le Compte de l’effet pendant un tour. (10 max)"
+    },
+    {
+      "id": "AzureTakeDamageDown",
+      "name": "Protection de Peine",
+      "desc": "Subit moins de dégâts de capacités de Peine selon le Compte de l’effet pendant un tour. (10 max)"
+    },
+    {
+      "id": "IndigoTakeDamageDown",
+      "name": "Protection d’Orgueil",
+      "desc": "Subit moins de dégâts de capacités d’Orgueil selon le Compte de l’effet pendant un tour. (10 max)"
+    },
+    {
+      "id": "VioletTakeDamageDown",
+      "name": "Protection d’Envie",
+      "desc": "Subit moins de dégâts de capacités d’Envie selon le Compte de l’effet pendant un tour. (10 max)"
+    },
+    {
+      "id": "SlashTakeDamageUp",
+      "name": "Vulnérabilité Tranchante",
+      "desc": "Subit plus de dégâts de capacités Tranchantes selon le Compte de l’effet pendant un tour. (10 max)"
+    },
+    {
+      "id": "PenetrateTakeDamageUp",
+      "name": "Vulnérabilité Perçante",
+      "desc": "Subit plus de dégâts de capacités Perçantes selon le Compte de l’effet pendant un tour. (10 max)"
+    },
+    {
+      "id": "HitTakeDamageUp",
+      "name": "Vulnérabilité Contondante",
+      "desc": "Subit plus de dégâts de capacités Contondantes selon le Compte de l’effet pendant un tour. (10 max)"
+    },
+    {
+      "id": "CrimsonTakeDamageUp",
+      "name": "Vulnérabilité de Colère",
+      "desc": "Subit plus de dégâts de capacités de Colère selon le Compte de l’effet pendant un tour. (10 max)"
+    },
+    {
+      "id": "ScarletTakeDamageUp",
+      "name": "Vulnérabilité de Luxure",
+      "desc": "Subit plus de dégâts de capacités de Luxure selon le Compte de l’effet pendant un tour. (10 max)"
+    },
+    {
+      "id": "AmberTakeDamageUp",
+      "name": "Vulnérabilité de Paresse",
+      "desc": "Subit plus de dégâts de capacités de Paresse selon le Compte de l’effet pendant un tour. (10 max)"
+    },
+    {
+      "id": "ShamrockTakeDamageUp",
+      "name": "Vulnérabilité de Gourmandise",
+      "desc": "Subit plus de dégâts de capacités de Gourmandise selon le Compte de l’effet pendant un tour. (10 max)"
+    },
+    {
+      "id": "AzureTakeDamageUp",
+      "name": "Vulnérabilité de Peine",
+      "desc": "Subit plus de dégâts de capacités de Peine selon le Compte de l’effet pendant un tour. (10 max)"
+    },
+    {
+      "id": "IndigoTakeDamageUp",
+      "name": "Vulnérabilité d’Orgueil",
+      "desc": "Subit plus de dégâts de capacités d’Orgueil selon le Compte de l’effet pendant un tour. (10 max)"
+    },
+    {
+      "id": "VioletTakeDamageUp",
+      "name": "Vulnérabilité d’Envie",
+      "desc": "Subit plus de dégâts de capacités d’Envie selon le Compte de l’effet pendant un tour. (10 max)"
+    },
+    {
+      "id": "NailPersonality",
+      "name": "Clous",
+      "desc": "Saignement Unique\nDébut du Tour : gagne 1 Saignement et augmente le Compte de Saignement par le Compte de cet effet.\nFin du Tour : réduit le Compte de moitié. (Arrondi à l’inférieur)"
+    },
+    {
+      "id": "AssemblePersonality",
+      "name": "Fanatique",
+      "desc": "Augmente la Puissance Finale des Capacités par le Compte de l’effet contre les unités avec Clous pendant ce tour. (S’applique aussi aux duels)"
+    },
+    {
+      "id": "MarkOfHeresy",
+      "name": "Regard",
+      "desc": "Subit +20% de dégâts de capacités Perçantes et Contondantes pendant un tour.\nL’allié qui parvient à vaincre l’unité marquée regagne 10 PSM ; si l’allié est un “Fanatique de la N Corp.”, applique aussi 1 Fanatique au tour suivant."
+    },
+
+
+    {
+      "id": "HitResultUp",
+      "name": "Bonus de Puissance Contondante",
+      "desc": "Les capacités Contondantes gagnent de la Puissance finale selon le Compte de l’effet pendant un tour."
+    },
+    {
+      "id": "WeaknessAnalysis",
+      "name": "Faiblesse Analysée",
+      "desc": "Une résistance d’attaque “Résistant” ou “Normal” aléatoire est affaiblie [+0.2 au multiplicateur de dégâts] pendant un tour."
+    },
+    {
+      "id": "Cycle",
+      "name": "Karma",
+      "desc": "Subit +1% de dégâts par Compte. À la fin du tour, si à 108 de Compte ou plus, l’unité meurt."
+    },
+    {
+      "id": "Duress",
+      "name": "Captivité",
+      "desc": "Devient Déséquilibré pendant 3 tours.\nDébut du Tour : si Kqe-1j-23 est Déséquilibré, retire ce statut."
+    },
+    {
+      "id": "VioletResultUp",
+      "name": "Bonus de Puissance d’Envie",
+      "desc": "Les capacités d’Envie gagnent de la Puissance finale selon le Compte de l’effet pendant un tour."
+    },
+    {
+      "id": "CyclingKarma",
+      "name": "Karma Cyclique",
+      "desc": "Toutes les unités transfèrent leur Karma à leurs cibles après une attaque réussie.\nLe Karma n’est pas transmis à Ma Forme Vide tant que ses alliés sont vivants.",
+      "summary": "Karma transféré en Duel réussi"
+    },
+    {
+      "id": "Cromer_Ecstasy",
+      "name": "Extatique",
+      "desc": "Toutes les résistances physiques de la Gueule deviennent “Fatal”."
+    },
+    {
+      "id": "Cromer_Madness",
+      "name": "Pureté",
+      "desc": "Toutes les parties gagnent 3 Ralentissement et 3 Bonus de Dégâts et leurs résistances physiques deviennent “Fatal”."
+    },
+    {
+      "id": "TakeHpHealReduce",
+      "name": "Malus de Soin de PV",
+      "desc": "Les soins de PV par des effets de passifs, de Capacités ou de Pièces sont diminués selon la valeur de cet effet. (5 max)"
+    },
+    {
+      "id": "AttackLevelAdder",
+      "name": "Niveau Offensif+",
+      "desc": "Le Niveau Offensif augmente selon le Compte de l’effet pendant un tour."
+    },
+    {
+      "id": "Thirst",
+      "name": "Appétit",
+      "desc": "Augmente les soins prodigués par le passif [Concocter].\nUtilisé lorsque le passif s’active."
+    },
+    {
+      "id": "GainSinStockAdder",
+      "name": "Amp de Ressources E.G.O.",
+      "desc": "Augmente pendant un tour la quantité de ressources E.G.O. générés par les capacités selon le Compte de l’effet."
+    },
+    {
+      "id": "Enrage",
+      "name": "Frénésie",
+      "desc": "Gagne 3 Bonus de Puissance Offensive et 3 Vulnérabilité pendant un tour et change de comportement. Ne gagne pas Intuition lorsque attaqué."
+    },
+    {
+      "id": "DimensionRift",
+      "name": "Faille Dimensionnelle",
+      "desc": "À la fin du tour, gagne un Compte de Déchirure égal à celui de cet effet. Puis, retire cet effet."
+    },
+    {
+      "id": "ShardOfUmbrella",
+      "name": "Éclats de Parapluie",
+      "desc": "Gagne 5 Déchirure par Compte à la fin du tour",
+      "summary": "Gagne 5 Déchirure par Compte à la fin du tour"
+    },
+    {
+      "id": "WrappedCurseTag",
+      "name": "Talisman de Malédiction Enchevêtré",
+      "desc": "Inflige +1% de dégâts par Compte\nÀ 9 de Compte ou plus, gagne 2 Malus de Puissance Offensive au début du tour",
+      "summary": "Inflige +1% de dégâts par Compte ; à 9 de Compte ou plus, gagne 2 Malus de Puissance Offensive au début du tour"
+    },
+    {
+      "id": "ReattachedCurseTag",
+      "name": "Talisman de Malédiction Rattaché",
+      "desc": "À 9 ou plus, gagne 5 Ralentissement au début du tour.\nÀ 12 ou plus, gagne 5 Malus de Puissance Offensive au début du tour.",
+      "summary": "À 9 ou plus, gagne 5 Ralentissement au début du tour.\nÀ 12 ou plus, gagne 5 Malus de Puissance Offensive au début du tour."
+    },
+    {
+      "id": "ElectricStorage",
+      "name": "Condensateur",
+      "desc": "Il semble stocker de l’électricité dans son corps.",
+      "summary": "표시용"
+    },
+    {
+      "id": "SelfCharge",
+      "name": "Auto-charge",
+      "desc": "Du courant électrique semble flotter autour de son corps.\nAprès que l’unité ait fait face à la mort, tant qu’elle possède Auto-charge, ses PV restent fixés à 1 jusqu’à être pleinement consommé. (20 max)",
+      "summary": "표시용"
+    },
+    {
+      "id": "Exalted",
+      "name": "Baume au Cœur",
+      "desc": "Gagne un Bonus de Dégâts selon le Compte de l’effet à chaque tour (5 max)\nNe peut pas gagner ce statut en étant Pompette",
+      "summary": "Gagne un Bonus de Dégâts selon le Compte de l’effet à chaque tour ; ne peut pas gagner ce statut en étant Pompette"
+    },
+    {
+      "id": "Tipsiness",
+      "name": "Pompette",
+      "desc": "Perd de la Puissance de Duel selon le Compte de l’effet (5 max)",
+      "summary": "Perd de la Puissance de Duel selon le Compte de l’effet"
+    },
+    {
+      "id": "Predation",
+      "name": "Prédation",
+      "desc": "Il semble préparer une attaque puissante.",
+      "summary": "표시용"
+    },
+    {
+      "id": "ATL_EndureCombustion",
+      "name": "Résistance aux Brûlures",
+      "desc": "En subissant des dégâts de Brûlure, réduit les dégâts de 10% par Compte (10 max)",
+      "summary": "En subissant des dégâts de Brûlure, subit 10% de dégâts de moins par Compte"
+    },
+    {
+      "id": "Resonate",
+      "name": "Résonnant",
+      "desc": "En activant un Sursaut de Tremblement ou en augmentant le Seuil de Déséquilibre, inflige 3% de dégâts fixes par Compte et augmente davantage le Seuil de Déséquilibre de 3% par Compte",
+      "summary": "En activant un Sursaut de Tremblement ou en augmentant le Seuil de Déséquilibre, inflige des dégâts et augmente davantage le Seuil de Déséquilibre"
+    },
+    {
+      "id": "VibrationAssimilation",
+      "name": "Tremblement Synchro",
+      "desc": "Dans un duel, l’adversaire a -1 de Puissance de Duel pour tous les 5 Tremblement qu’il possède",
+      "summary": "Dans un duel, l’adversaire a -1 de Puissance de Duel pour tous les 5 Tremblement qu’il possède"
+    },
+    {
+      "id": "CollapseAmpoule",
+      "name": "Ampoule de Désintégration",
+      "desc": "Subit des dégâts égaux à 2% des PV max par Compte",
+      "summary": "Subit des dégâts égaux à 2% des PV max par Compte"
+    },
+    {
+      "id": "InterlockingTime",
+      "name": "Temps Emboîté",
+      "desc": "Réduit les dégâts finaux de 30% et les stocke. À 3 de Compte, subit des dégâts fixes égaux à 1.5 fois les dégâts accumulés et gagne 3 Ralentissement au tour suivant.",
+      "summary": "Réduit les dégâts finaux de 30% et les stocke. À 3 de Compte, subit des dégâts fixes égaux à 1.5 fois les dégâts accumulés et gagne 3 Ralentissement au tour suivant."
+    },
+    {
+      "id": "TimeRental",
+      "name": "Temps Emprunté des Songes",
+      "desc": "À la fin du tour, gagne 3 Accélération et 2 Bonus de Dégâts ; s’il ne reste que 1 de Compte, gagne 4 Ralentissement et 1 Malus de Puissance Offensive au tour suivant",
+      "summary": "À la fin du tour, gagne 3 Accélération et 2 Bonus de Dégâts ; s’il ne reste que 1 de Compte, gagne 4 Ralentissement et 1 Malus de Puissance Offensive au tour suivant"
+    },
+    {
+      "id": "ATL_EndureLaceration",
+      "name": "Résistance aux Saignements",
+      "desc": "En subissant des dégâts de Saignement, réduit les dégâts de 10% par Compte (10 max)",
+      "summary": "En subissant des dégâts de Saignement, subit 10% de dégâts de moins par Compte"
+    },
+    {
+      "id": "Bull_Sadness",
+      "name": "Chagrin Irrésolu",
+      "desc": "Au début du tour, gagne du Malus de Puissance Offensive selon le Compte\nÀ la fin du tour, si cet effet est à 3 de Compte ou plus, devient Chagrin en Expansion",
+      "summary": ""
+    },
+    {
+      "id": "Bull_BuzzingEmotion",
+      "name": "Émotions Vacillantes",
+      "desc": "Début du Tour : gagne aléatoirement autant de Malus de Puissance Offensive, de Paralysie ou de Ralentissement que de Compte sur cet effet, puis retire cet effet",
+      "summary": "Début du Tour : gagne aléatoirement autant de Malus de Puissance Offensive, de Paralysie ou de Ralentissement que de Compte sur cet effet, puis retire cet effet"
+    },
+    {
+      "id": "Scared",
+      "name": "Peur",
+      "desc": "Fin du Tour : à -20 PSM ou moins, gagne 1 Protection au tour suivant.",
+      "summary": "Fin du Tour : à -20 PSM ou moins, gagne 1 Protection au tour suivant."
+    },
+    {
+      "id": "Stressed",
+      "name": "Stressé",
+      "desc": "Fin du Tour : à -25 PSM ou moins, gagne 1 Bonus de Puissance Défensive au tour suivant",
+      "summary": "Fin du Tour : à -25 PSM ou moins, gagne 1 Bonus de Puissance Défensive au tour suivant"
+    },
+    {
+      "id": "Nervous",
+      "name": "Nerveux",
+      "desc": "Fin du Tour : à -15 PSM ou moins, gagne 5 Bonus de Niveau Défensif au tour suivant",
+      "summary": "Fin du Tour : à -15 PSM ou moins, gagne 5 Bonus de Niveau Défensif au tour suivant"
+    },
+    {
+      "id": "ATL_Agility",
+      "name": "Plus Vite !",
+      "desc": "Gagne 2 Accélération",
+      "summary": "표시용"
+    },
+    {
+      "id": "ATL_Breath",
+      "name": "Visez Juste !",
+      "desc": "Gagne 3 Calme",
+      "summary": "표시용"
+    },
+    {
+      "id": "ATL_Target",
+      "name": "Attrapez-le !",
+      "desc": "Attaquent simultanément une unité.",
+      "summary": "표시용"
+    },
+    {
+      "id": "Bull_FadedHeat",
+      "name": "Refroidissement Momentané",
+      "desc": "Le noyau et le corps perdent 50% de PV max"
+    },
+    {
+      "id": "Bull_Fever",
+      "name": "Fièvre",
+      "desc": "Inflige +10% de dégâts par Compte\nRéduit de 1 à la fin du tour",
+      "summary": ""
+    },
+    {
+      "id": "Bull_ReinforcedSadness",
+      "name": "Chagrin en Expansion",
+      "desc": "Change de comportement.",
+      "summary": "Change de comportement."
+    },
+    {
+      "id": "Crazy_LowMorale",
+      "name": "Affolé",
+      "desc": "- Moral Bas\n- Lorsqu’en moral bas pour la première fois, cible des unités sans distinction",
+      "undefined": "-"
+    },
+    {
+      "id": "Crazy_Panic",
+      "name": "Affolé",
+      "desc": "- Panique\n- Attaque sans distinction ; +1 de Puissance de Duel et gagne 2 Bonus de Dégâts",
+      "undefined": "-"
+    },
+    {
+      "id": "Suicide_LowMorale",
+      "name": "Suicidaire",
+      "desc": "- Moral Bas\n- Lorsqu’en moral bas pour la première fois, devient incapable d’agir",
+      "undefined": "-"
+    },
+    {
+      "id": "Suicide_Panic",
+      "name": "Suicidaire",
+      "desc": "- Panique\n- Ne peut pas agir pendant 3 tours. L’unité meurt au début du tour ; tous ses alliés perdent 10 PSM",
+      "undefined": "-"
+    },
+    {
+      "id": "Prowl_LowMorale",
+      "name": "Errant",
+      "desc": "- Moral Bas\n- Fin du Tour : inflige 2 dégâts de PSM aux alliés",
+      "undefined": "-"
+    },
+    {
+      "id": "Prowl_Panic",
+      "name": "Errant",
+      "desc": "- Panique\n- Fin du Tour : inflige 5 dégâts de PSM aux alliés. Fuit le combat après que 3 tours sont passés",
+      "undefined": "-"
+    },
+    {
+      "id": "Blue_LowMorale",
+      "name": "Abattement",
+      "desc": "- Moral Bas\n- Dans un duel, si une Pièce tombe sur face, -1 de Puissance de Duel pour le duel",
+      "undefined": "-"
+    },
+    {
+      "id": "Blue_Panic",
+      "name": "Abattement",
+      "desc": "- Panique\n- Dans un duel, si une Pièce tombe sur face, -3 de Puissance de Duel pour le duel",
+      "undefined": "-"
+    },
+    {
+      "id": "DongbaekGrow",
+      "name": "En Croissance",
+      "desc": "À la fin du tour, ajoute +1 de Compte et gagne des PV max proportionnels au Compte. (3 max)",
+      "summary": "À la fin du tour, ajoute +1 de Compte et gagne des PV max proportionnels au Compte. (3 max)"
+    },
+    {
+      "id": "DongbaekFlorescence",
+      "name": "Floraison",
+      "desc": "Fin du Tour : à 5 de Compte ou plus, subit des dégâts de Paresse égaux à (Compte)% des PV max et devient Complètement Éclos\nÀ moins de 5 de Compte, perd (Compte * 5) PSM puis réduit le Compte de 1",
+      "summary": ""
+    },
+    {
+      "id": "DongbaekFullBloom",
+      "name": "Complètement Éclos",
+      "desc": "Ne peut pas agir\nÀ la fin du tour, perd 20 PSM ; si les PSM atteignent -45, regagne tous ses PV puis obtient “Esprit Ébloui” au tour suivant.\nSi cet effet n’est pas retiré au bout de 2 tours, le retire à la fin du tour.",
+      "summary": ""
+    },
+    {
+      "id": "DongbaekFascination",
+      "name": "Esprit Ébloui",
+      "desc": "Cible les alliés avec ses attaques\nLorsque déséquilibré, retire cet effet au tour suivant\nSi cet effet n’est pas retiré au bout de 2 tours, le retire à la fin du tour et perd 30 PSM.",
+      "summary": ""
+    },
+    {
+      "id": "DongbaekShowdown",
+      "name": "Duel en Cours",
+      "desc": "Début du Tour : les unités sans ce statut obtiennent le statut “Complètement Éclos”\nSi Yi Sang a cet effet, Dongbaek gagne 1 Bonus de Puissance Offensive",
+      "summary": ""
+    },
+    {
+      "id": "DongbaekScatterPetal",
+      "name": "Pétales Dispersés",
+      "desc": "Fin du Tour : à 6 de Compte ou plus, devient déséquilibrée",
+      "summary": ""
+    },
+    {
+      "id": "Thorn",
+      "name": "Épines",
+      "desc": "Lorsque touché, renvoit 50% des dégâts subis à l’attaquant",
+      "summary": "Inflige 50% des dégâts subis à l’attaquant"
+    },
+    {
+      "id": "Fragile_Mind_LowMorale",
+      "name": "Cœur Périlleux",
+      "desc": "Début du Tour : gagne 2 Bonus de Puissance Offensive et 3 Ralentissement",
+      "summary": "Début du Tour : gagne 2 Bonus de Puissance Offensive et 3 Ralentissement"
+    },
+    {
+      "id": "Fragile_Mind_Panic",
+      "name": "Cœur Hésitant",
+      "desc": "En panique, devient déséquilibrée.",
+      "summary": "En panique, devient déséquilibrée."
+    },
+    {
+      "id": "ErodingMind",
+      "name": "Cœur Érodé",
+      "desc": "Début du Tour : gagne 2 Malus de Puissance Offensive, 2 Vulnérabilité et 5 Ralentissement",
+      "summary": "Début du Tour : gagne 2 Malus de Puissance Offensive, 2 Vulnérabilité et 5 Ralentissement"
+    },
+    {
+      "id": "CrimsonResultUp",
+      "name": "Bonus de Puissance de Colère",
+      "desc": "Les capacités de Colère gagnent de la Puissance finale selon le Compte de l’effet pendant un tour."
+    },
+    {
+      "id": "EmittedCurrent",
+      "name": "Décharge d’Étincelle",
+      "desc": "Lorsque touché, l’attaquant gagne +1 de Compte de Charge ; lorsque touché par une attaque de Peine, gagne +1 de Compte de Déchirure puis réduit le Compte de ce statut de 1"
+    },
+    {
+      "id": "DistortedDongrangRadiantVanity",
+      "name": "Vanité Rayonnante",
+      "desc": "Au début du tour, Dongrang gagne 1 Protection et 1 Bonus de Puissance Offensive."
+    },
+    {
+      "id": "DistortedDongrangEmptyMark",
+      "name": "Marque Vide",
+      "desc": "Ciblé par Dongrang. Gagne 2 Ralentissement à chaque tour et subit +50% de dégâts de la part de Dongrang."
+    },
+    {
+      "id": "DistortedDongrangEarnestAchievement",
+      "name": "Accomplissement Sincère",
+      "desc": "Si cette unité est vaincue ou que ses PV tombent à 1, l’attaquant gagne des buffs."
+    },
+    {
+      "id": "DistortedDongrangEmptyHonor",
+      "name": "Honneur Vide",
+      "desc": "Si Dongrang vainc cette unité, il perd des PV, gagne 1 Vacuité et est affaibli au tour suivant."
+    },
+    {
+      "id": "DistortedDongrangMomentaryGlory",
+      "name": "Gloire Momentanée",
+      "desc": "À 3 de Compte ou plus, Dongrang devient plus puissant."
+    },
+    {
+      "id": "DistortedDongrangEmptiness",
+      "name": "Vacuité",
+      "desc": "À 4 de Compte ou plus, Dongrang devient déséquilibré."
+    },
+    {
+      "id": "DistortedDongrangFruition",
+      "name": "Réalisation Supportée",
+      "desc": "L’unité qui vainc cette unité regagne des PV et gagne 1 Accélération et 1 Bonus de Puissance Offensive au tour suivant"
+    },
+    {
+      "id": "EgoAwakenDongrangRadiantDesire",
+      "name": "Désir Rayonnant",
+      "desc": "Début du Tour : Dongrang gagne 1 Bonus de Dégâts et 1 Protection."
+    },
+    {
+      "id": "EgoAwakenDongrangSeed",
+      "name": "Graines",
+      "desc": "À 5 de Compte ou plus, gagne Drainage Nutritif pendant 2 tours ; à moins de 5 de Compte, réduit le Compte de 1"
+    },
+    {
+      "id": "EgoAwakenDongrangTree",
+      "name": "Drainage Nutritif",
+      "desc": "Fin du Tour : Dongrang regagne 10 PV"
+    },
+    {
+      "id": "EgoAwakenDongrangOverHeal",
+      "name": "Sursoin",
+      "desc": "Le Compte augmente par la quantité de PV que Dongrang a soigné ; à 50 de Compte ou plus, subit des dégâts de Gourmandise égaux au Compte de l’effet, gagne 5 Vulnérabilité et retire cet effet."
+    },
+    {
+      "id": "SinkingSurge",
+      "name": "Déluge de Lourdeur",
+      "desc": "Inflige des dégâts de PSM égaux à (Compte de Lourdeur * Intensité de Lourdeur), puis retire toute Lourdeur.\nSi les PSM de la cible sont à -45 ou moins, les dégâts de PSM en excès seront infligés en tant que dégâts de Peine\n(Les unités sans Santé Mentale prennent tout sous forme de dégâts de Peine)"
+    },
+    {
+      "id": "AmberResultUp",
+      "name": "Bonus de Puissance de Paresse",
+      "desc": "Les capacités de Paresse gagnent de la Puissance finale selon le Compte de l’effet pendant un tour.",
+      "summary": "+{0} Puissance Finale de Capacités de Paresse"
+    },
+    {
+      "id": "Blue",
+      "name": "Larmes",
+      "desc": "Fin du Tour : perd 5 PSM\nLes Pièces qui font Face infligent 2 Lourdeur"
+    },
+    {
+      "id": "EgoAwakenDongrangTreeDisplay",
+      "name": "Drainage Nutritif",
+      "desc": "Fin du Tour : Dongrang regagne 10 PV"
+    },
+    {
+      "id": "DongbaekFullBloomDisplay",
+      "name": "Complètement Éclos",
+      "desc": "Ne peut pas agir\nÀ la fin du tour, perd 20 PSM ; si les PSM atteignent -45, regagne tous ses PV puis obtient “Esprit Ébloui” au tour suivant.\nSi cet effet n’est pas retiré au bout de 2 tours, le retire à la fin du tour.",
+      "summary": ""
+    },
+    {
+      "id": "TakeHpHealIncrease",
+      "name": "Bonus de Soin de PV",
+      "desc": "Les soins de PV par des effets de passifs, de Capacités ou de Pièces sont augmentés selon la valeur de cet effet. (5 max)"
+    },
+    {
+      "id": "SkillPowerUp",
+      "name": "Bonus de Puissance de Base",
+      "desc": "Augmente la Puissance de Base des Capacités selon le Compte de l’effet."
+    },
+    {
+      "id": "MaxHpMultiplier",
+      "name": "Bonus de PV max",
+      "desc": "Augmente les PV max de 10% par Compte."
+    },
+    {
+      "id": "KCorpSerum",
+      "name": "Ampoule de la K Corp.",
+      "desc": "Début du Tour : à moins de 4 de Compte, regagne (Compte * 5)% des PV max\nÀ 4 de Compte ou plus, l’unité meurt",
+      "summary": ""
+    },
+    {
+      "id": "Talisman",
+      "name": "Talisman",
+      "desc": "En touche, inflige de la Déchirure selon le Compte ; lorsque touché, gagne de la Déchirure selon le Compte.\nFin du Tour : à 6 de Compte ou plus, retire tous les Talismans et subit des dégâts fixes selon son Compte.",
+      "summary": "Inflige de la Déchirure avec les attaques et gagne de la Déchirure lorsque touché"
+    },
+    {
+      "id": "Choice_90104001",
+      "name": "Compréhensif",
+      "desc": "Au début du combat, gagne 2 ressources E.G.O. de chaque Affinité",
+      "summary": "Gagne 2 ressources E.G.O. de chaque Affinité"
+    },
+    {
+      "id": "Choice_9010400101",
+      "name": "Déterminé",
+      "desc": "Toutes les Unités Alliées gagnent +2 de Puissance Finale de Capacité pour ce combat",
+      "summary": "+2 de Puissance Finale de Capacité"
+    },
+    {
+      "id": "Choice_90104002",
+      "name": "Envieux",
+      "desc": "Toutes les Unités Alliées gagnent +1 de Puissance de Capacité pour ce combat",
+      "summary": "+1 de Puissance de Capacité"
+    },
+    {
+      "id": "MentalSystemResultIncrease_Typo",
+      "name": "Efficacité de Soin de PSM",
+      "desc": "Quantité de PSM soignés suite aux facteurs de base de soin de PSM de l’Identité"
+    },
+    {
+      "id": "MentalSystemResultDecrease_Typo",
+      "name": "Efficacité de Perte de PSM",
+      "desc": "Quantité de PSM soignés suite aux facteurs de base de perte de PSM de l’Identité"
+    },
+    {
+      "id": "DuelDeclaration",
+      "name": "Duel Déclaré",
+      "desc": "Dans un duel entre l’unité ayant infligé Duel Déclaré et l’unité avec le statut, le déclarant obtient +1 de Puissance de Duel et gagne 1 Accélération au tour suivant après une attaque réussie (4 fois par tour). L’effet est retiré lorsque le déclarant inflige ce statut sur une cible différente. Remplacé lorsqu’une autre unité déclare un duel."
+    },
+    {
+      "id": "Aggro",
+      "name": "Aggro",
+      "desc": "Dans les combats concentrés, les emplacements avec une haute valeur d’Aggro ont plus de chances d’être ciblés par les ennemis."
+    },
+    {
+      "id": "BurstVulnerable",
+      "name": "Vulnérabilité de Déchirure",
+      "desc": "Subit +1 de dégât par Compte d’effets de Déchirure pendant un tour."
+    },
+    {
+      "id": "EmergencyFeed",
+      "name": "Ration de Nutriment d’Urgence",
+      "desc": "À la fin du tour, si cette unité a soigné 15% de ses PV max ou plus, le corps se restaure au tour suivant."
+    },
+    {
+      "id": "Bullet_Crab",
+      "name": "Balle de Carapace Muée",
+      "desc": "Ressource utilisée par certaines capacités pour des effets additionnels."
+    },
+    {
+      "id": "SinkingVulnerable",
+      "name": "Vulnérabilité de Lourdeur",
+      "desc": "Subit +1 de dégât par Compte d’effets de Lourdeur pendant un tour."
+    },
+    {
+      "id": "BurstProtection",
+      "name": "Protection de Déchirure",
+      "desc": "Subit -1 de dégât par Compte d’effets de Déchirure pendant un tour."
+    },
+    {
+      "id": "PseudoLastBoss_KingCrap",
+      "name": "La Rage des Crabes",
+      "desc": "Au début du tour, applique un Bonus de Puissance Offensive à tous les autres crabes alliés et gagne 2 Protection si sa carapace n’est pas brisée.\n-5 de PSM aux cibles en utilisant une capacité.\nÀ 50% de PV ou moins, chaque partie gagne 2 Bonus de Puissance Offensive et 2 Vulnérabilité."
+    },
+    {
+      "id": "ChargeForceField",
+      "name": "Barrière de Charge",
+      "desc": "- Gagne (# de Barrière de Charge * 3) de Bouclier.\n- Perd 1 Barrière de Charge après avoir perdu (# de Barrière de Charge * 3) de Bouclier.\n- (Si l’unité est un employé de la W Corp., tous les effets de Barrière de Charge s’activent à (# de Barrière de Charge * 5) au lieu de (# de Barrière de Charge * 3))\n- Fin du Tour : gagne un Compte de Charge pour chaque # de Barrière de Charge, et Barrière de Charge et le Bouclier gagnés par Barrière de Charge disparaissent complètement au tour suivant"
+    },
+    {
+      "id": "SlashResultUp",
+      "name": "Bonus de Puissance Tranchante",
+      "desc": "Les capacités Tranchantes gagnent de la Puissance finale selon le Compte de l’effet pendant un tour."
+    },
+    {
+      "id": "Discard",
+      "name": "Défausse",
+      "desc": "- Supprime les Capacités correspondant aux conditions et qui sont sélectionnables dans la Phase d’Enchaînement du Tableau de Bord. (Les Capacités Défensives & E.G.O. ne comptent pas. Ne supprime pas la Capacité à venir de la liste de Capacités)\n- Les Capacités Défaussées n’activeront pas d’effets de Capacités ou de Pièces autre que les effets de Défausse et ne donneront pas de ressources E.G.O."
+    },
+    {
+      "id": "KnowledgeExplored",
+      "name": "Information",
+      "desc": "Le rang de la dernière Capacité Défaussée par l’unité avec cet effet (Valeur de Base : 1)"
+    },
+    {
+      "id": "Unjust_Enrichment",
+      "name": "Enrichissement Injuste",
+      "desc": "- Gagné en Touche Pile contre des cibles avec Saignement (4 max)\n- Lorsque le passif “Les Balles c’est Cher” s’active, consomme toutes les charges d’Enrichissement Injuste pour infliger des dégâts supplémentaires"
+    },
+    {
+      "id": "Resentment",
+      "name": "Rancœur",
+      "desc": "Si l’ennemi avec la <sprite name=\"RetaliationBook\"><color=#e30000><link=\"RetaliationBook\">Marque de Vengeance</color></link></u> est touché par une attaque, cet effet expire à la Fin de l’Attaque.\nExpire à la fin du tour",
+      "undefined": "-"
+    },
+    {
+      "id": "RetaliationBook",
+      "name": "Marque de Vengeance",
+      "desc": "Appliqué à l’unité ayant infligé le plus de dégâts à un allié (1 max)",
+      "undefined": "-"
+    },
+    {
+      "id": "PenetrateResultUp",
+      "name": "Bonus de Puissance Perçante",
+      "desc": "Les capacités Perçantes gagnent de la Puissance finale selon le Compte de l’effet pendant un tour."
+    },
+    {
+      "id": "DuelDeclaration_DonQuixote",
+      "name": "Duel Déclaré - Don Quichotte",
+      "desc": "- Dans un duel entre l’unité ayant infligé Duel Déclaré et l’unité avec le statut, le déclarant obtient +1 de Puissance de Duel et gagne 1 Accélération au tour suivant après une attaque réussie (4 fois par tour).\n- L’effet est retiré lorsque le déclarant inflige ce statut sur une cible différente. Remplacé lorsqu’une autre unité déclare un duel."
+    },
+    {
+      "id": "DuelDeclaration_Outis",
+      "name": "Duel Déclaré - Outis",
+      "desc": "- Dans un duel entre l’unité ayant infligé Duel Déclaré et l’unité avec le statut, le déclarant obtient +1 de Puissance de Duel et gagne 1 Accélération au tour suivant après une attaque réussie (4 fois par tour).\n- L’effet est retiré lorsque le déclarant inflige ce statut sur une cible différente. Remplacé lorsqu’une autre unité déclare un duel."
+    },
+    {
+      "id": "DuelDeclaration_Sinclair",
+      "name": "Duel Déclaré - Sinclair",
+      "desc": "- Dans un duel entre l’unité ayant infligé Duel Déclaré et l’unité avec le statut, le déclarant obtient +1 de Puissance de Duel et gagne 1 Accélération au tour suivant après une attaque réussie (4 fois par tour).\n- L’effet est retiré lorsque le déclarant inflige ce statut sur une cible différente. Remplacé lorsqu’une autre unité déclare un duel."
+    },
+    {
+      "id": "VibrationExplosion",
+      "name": "Sursaut de Tremblement",
+      "desc": "Augmente le Seuil de Déséquilibre de la Cible selon son Intensité de Tremblement."
+    },
+    {
+      "id": "OneOnOneDuel",
+      "name": "Combat Singulier",
+      "desc": "Établi lorsque l’Emplacement attaqué est ciblé par une unique unité et seulement cette unité. Cette condition est établie seulement entre l’unité attaquante et l’Emplacement attaqué. (Ne s’applique pas aux Capacités réutilisées)"
+    },
+    {
+      "id": "BulletFreischutz",
+      "name": "사용하지 않음",
+      "desc": "사용하지 않음"
+    },
+    {
+      "id": "FreischutzShotCount",
+      "name": "Balle Magique",
+      "desc": "- Valeur max : 7\n- La valeur change selon les effets de certaines Capacités.\n- [Unique à E.G.O. de Lobotomy::Tir Enchanté Outis]\n- Plus la valeur est haute, plus la Puissance de Base et la Pièce de la Capacité 3 le sont aussi"
+    },
+    {
+      "id": "DarkFlame",
+      "name": "Flamme Sombre",
+      "desc": "- Brûlure Unique\n- Valeur max : 7\n- La cible perd du Niveau Défensif égal à la valeur de cet effet\n- Fin du Tour : inflige (Valeur * Brûlure de la cible) dégâts d’Affinité d’Orgueil puis expire"
+    },
+    {
+      "id": "CtrlTeamCaptain",
+      "name": "Capitaine de l’Équipe de Contrôle",
+      "desc": "- +1 Emplacement de Capacité\n- Modifie la réserve de Capacité : gagne 1 utilisation de Capacité 3 mais perd 1 utilisation de Capacité 1\n- Lorsque cette unité vainc un ennemi avec une Capacité, 2 alliés (incluant cette unité) avec le moins de PSM gagnent 25 PSM. Gagne +2 ressources E.G.O. de l’Affinité de la Capacité ayant vaincue l’ennemi ; gagne +1 ressource E.G.O. du reste des Affinités"
+    },
+    {
+      "id": "HeatedGasHarpoon",
+      "name": "Harpon à Gaz Chauffé",
+      "desc": "Pendant 1 tour, inflige 1 Brûlure en Touche Pile"
+    },
+    {
+      "id": "OverHeatedGasHarpoon",
+      "name": "Harpon à Gaz Surchauffé",
+      "desc": "Pendant 1 tour, inflige 1 Brûlure en Touche"
+    },
+    {
+      "id": "CoverAttack",
+      "name": "Attaque d’Assistance",
+      "desc": "- Si l’unité A applique cet effet à l’unité B : l’unité B déclenche une attaque de suivi à sens unique avec sa capacité 1 sur le même ennemi attaqué par l’unité A. S’active à la fin de l’attaque de l’unité A.\n- La Capacité utilisée comme attaque d’assistance n’affecte pas les Capacités à venir de l’unité B."
+    },
+    {
+      "id": "ReCompulsion",
+      "name": "Compulsion Inversée",
+      "desc": "Regagne 15 PSM à chaque Début de Tour"
+    },
+    {
+      "id": "IndigoResultUp",
+      "name": "Bonus de Puissance d’Orgueil",
+      "desc": "Les capacités d’Orgueil gagnent de la Puissance finale selon le Compte de l’effet pendant un tour."
+    },
+    {
+      "id": "BladeResultUpTier1",
+      "name": "Épée Patriote - Déchirement",
+      "desc": "Durant ce tour, la Capacité 1 gagne de la Puissance Finale selon le Compte de l’effet."
+    },
+    {
+      "id": "BladeResultUpTier2",
+      "name": "Épée Patriote - Pénétration",
+      "desc": "Durant ce tour, la Capacité 2 gagne de la Puissance Finale selon le Compte de l’effet."
+    },
+    {
+      "id": "SwordPlayOfTheHomeland",
+      "name": "Maniement de l’Épée Patriote",
+      "desc": "- Lorsque à 5 de Calme ou plus, en utilisant une Capacité, les Capacités 1 et 2 gagnent +(3/# de Pièces, minimum 1) de Puissance de Pièce et infligent +(30/# de Pièces)% de dégâts en Coup Critique\n- Lorsque à 7 de Calme ou plus, en utilisant une Capacité, la Capacité 3 inflige +(30/# de Pièces)% de dégâts supplémentaires et inflige +(50/# de Pièces)% de dégâts en Coup Critique"
+    },
+    {
+      "id": "SwordPlayOfTheMemorial",
+      "name": "Commémoration",
+      "desc": "- Lorsque à 5 de Calme ou plus, en utilisant une Capacité, les Capacités 1 et 2 gagnent +(3/# de Pièces, minimum 1) de Puissance de Pièce et infligent +(30/# de Pièces)% de dégâts en Coup Critique\n- Lorsque à 7 de Calme ou plus, en utilisant une Capacité, la Capacité 3 inflige +(30/# de Pièces)% de dégâts supplémentaires et inflige +(50/# de Pièces)% de dégâts en Coup Critique"
+    },
+    {
+      "id": "RedApricotBlossom",
+      "name": "Fleur de Prune Rouge",
+      "desc": "- Saignement Unique\n- Valeur max : 10\n- +10% de chance pour cette unité de subir des Coups Critiques si cette unité est la cible principale\n- Lorsque touché par un Coup Critique, gagne du Saignement égal à la moitié de la valeur et subit +(valeur * 3)% de dégâts en Coup Critique\n- Réduit la valeur de 1 lorsque touché",
+      "summary": "Plus de chances de subir des Coups Critiques ; subit plus de dégâts de Coups Critiques"
+    },
+    {
+      "id": "VibrationCollapse",
+      "name": "Tremblement - Désintégration",
+      "desc": "Perd 1 Niveau Défensif tous les 4 d’Intensité de Tremblement sur soi.\nLorsque Touché par des Capacités provoquant un Sursaut de Tremblement, augmente le Seuil de Déséquilibre selon l’Intensité de l’effet\nFin du Tour : réduit le Compte de 1\n(Interagit de la même manière que le Tremblement normal avec les effets qui augmentent ou réduisent l’Intensité/Compte de Tremblement)"
+    },
+    {
+      "id": "EchoOfMansion",
+      "name": "Échos du Manoir",
+      "desc": "- 50% de chance de gagner +1 de Compte de Lourdeur en gagnant de l’Intensité ou du Compte de Lourdeur d’effets de Capacité ou de Pièce\n- Unités avec PSM : change le Type de Panique en Échos du Manoir. Lorsque cette unité panique, inflige 2 Échos du Manoir à 2 autres alliés aléatoires de cette unité au prochain tour\n- Unités sans PSM : -10% de chance de faire Pile\n- Réduit de 1 à la Fin du Tour\nCet effet n’est pas cumulatif ; l’infliger remplacera la valeur actuelle avec la valeur infligée.\n※ Applique la condition “Unités sans PSM” à certains ennemis avec des PSM mais ne pouvant pas changer de Type de Panique."
+    },
+    {
+      "id": "Switch_Vibration",
+      "name": "Conversion d’Amplitude",
+      "desc": "Convertit le Tremblement ou le Tremblement déjà converti de la cible en un type différent de Tremblement.\nLes valeurs d’Intensité et de Compte ne changent pas durant la conversion."
+    },
+    {
+      "id": "AzureResultUp",
+      "name": "Bonus de Puissance de Peine",
+      "desc": "Les capacités de Peine gagnent de la Puissance finale selon le Compte de l’effet pendant un tour."
+    },
+    {
+      "id": "VibrationCrack",
+      "name": "Tremblement - Fracture",
+      "desc": "- Lorsque Déséquilibré, et lorsque la somme de l’Intensité et du Compte de Tremblement est supérieure ou égale à 20, augmente le Niveau de Déséquilibre de 1\n- Ne peut pas dépasser le Niveau de Déséquilibre maximum avec cet effet\n\nLorsque Touché par des Capacités provoquant un Sursaut de Tremblement, augmente le Seuil de Déséquilibre selon l’Intensité de l’effet\nFin du Tour : réduit le Compte de 1\n(Interagit de la même manière que le Tremblement normal avec les effets qui augmentent ou réduisent l’Intensité/Compte de Tremblement)",
+      "summary": ""
+    },
+    {
+      "id": "ForwardToTheKing",
+      "name": "Présence du Roi",
+      "desc": "Lorsque l’attaque avec 1 de Poids d’Atq de cette unité touche, inflige 50% de la valeur de Pièce obtenue En Touche en dégâts de (Affinité/Type d’Attaque de la Capacité Offensive utilisée pour toucher) à 2 autres ennemis attaquables avec le moins de PV.",
+      "summary": ""
+    },
+    {
+      "id": "ForwardToTheBoundKing",
+      "name": "Présence du Roi Attaché",
+      "desc": "Lorsque l’attaque avec 1 de Poids d’Atq de cette unité touche, inflige 100% de la valeur de Pièce obtenue En Touche en dégâts de (Affinité/Type d’Attaque de la Capacité Offensive utilisée pour toucher) à 2 autres ennemis attaquables avec le moins de PV.",
+      "summary": ""
+    },
+    {
+      "id": "MarkOfButler",
+      "name": "M.M.",
+      "desc": "Améliore les Capacités de Cheffe des Majordomes de la Famille Edgar Ryōshū contre les cibles avec cet effet.\nFin du Tour : réduit le Compte de 1",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "PreparedMeat",
+      "name": "Viande Préparée",
+      "desc": "Si les conditions sont remplies, la Reine des Fées tue cette unité à la Fin du Tour"
+    },
+    {
+      "id": "Hunger",
+      "name": "Faim",
+      "desc": "Fin du Tour : gagne 1 si cette unité échoue à vaincre un allié avec Viande Préparée.\nÀ 75% de PV ou moins, gagne 2. À 50% de PV ou moins, gagne 3.\nDébut du Tour : perd 1 si cette unité a vaincu un allié avec Viande Préparée.\nÀ 0 de valeur, gagne (# d’alliés vaincus * 3) Malus de Puissance Offensive et Malus de Puissance Défensive.",
+      "summary": ""
+    },
+    {
+      "id": "UnstableFeeling",
+      "name": "Passion Volatile",
+      "desc": "- En Touche, inflige 1 Brûlure\n- Si la cible principale a Brûlure, +1 de Puissance Finale\n- Lorsque touché, si cette unité a une Capacité Défensive chaînée au Début du Combat, inflige de la Brûlure à l’attaquant ce tour\n- Fin du Tour : perd (# de tours passés en état d’E.G.O. Volatile * 5) PSM. (Perte max de PSM : 40)",
+      "summary": ""
+    },
+    {
+      "id": "VibrationEcho",
+      "name": "Tremblement - Réverbe",
+      "desc": "- En Sursaut de Tremblement, subit des dégâts de Paresse égaux à l’Intensité de Tremblement sur soi.\n- Lorsque touché par des Capacités qui déclenchent des Sursauts de Tremblement, augmente le Seuil de Déséquilibre selon l’Intensité de l’effet.\n- Fin du Tour : réduit de 1 le Compte.\n(Interagit de la même manière que le Tremblement normal avec les effets qui augmentent ou réduisent l’Intensité/Compte de Tremblement)",
+      "summary": ""
+    },
+    {
+      "id": "ShieldManagerCryingToad",
+      "name": "Lacribulle",
+      "desc": "- Cet effet compte comme un effet de “Gestion de Bouclier”.\n- Fin du Tour : réduit de 1 le Compte\n- Cette unité ne perd pas de Bouclier à la Fin du Tour tant qu’elle possède l’effet Lacribulle (sauf si épuisé par des dégâts ou des effets)\n- Si le Bouclier affecté par Lacribulle se brise suite à des dégâts, inflige 4 d’Intensité/Compte de Lourdeur à l’attaquant. (La quantité de cette valeur “4” répartie en Intensité ou Compte est déterminée aléatoirement)\n- Cette unité peut cumuler ses valeurs de Bouclier en utilisant cet effet. Cependant, tant que Lacribulle est en cours, la valeur de Bouclier ne peut pas dépasser 60% des PV max de cette unité.",
+      "summary": ""
+    },
+    {
+      "id": "VibrationContinue",
+      "name": "Tremblement - Éternel",
+      "desc": "- Lorsque touché par des effets de Capacité ou de Pièce provoquant un Sursaut de Tremblement, (Intensité de Tremblement sur soi)% de chances de déclencher un Sursaut de Tremblement supplémentaire. (50% max)\n- Lorsque touché par des effets de Capacité ou de Pièce provoquant un Sursaut de Tremblement, (Compte de Tremblement sur soi)% de chances de déclencher un Sursaut de Tremblement supplémentaire. (50% max)\n- Lorsque touché par des Capacités provoquant un Sursaut de Tremblement, augmente le Seuil de Déséquilibre de l’Intensité de l’effet.\n- Fin du Tour : réduit de 1 le Compte\n(Interagit de la même manière que le Tremblement normal avec les effets qui augmentent ou réduisent l’Intensité/Compte de Tremblement)",
+      "summary": ""
+    },
+    {
+      "id": "TimeSuspend",
+      "name": "Moratoire Temporel",
+      "desc": "- Ne subit aucun dégât tant que cet effet est actif ; stocke tous les dégâts reçus à la place\n- Fin du Combat : s’il ne reste que 1 de Compte à cet effet, l’effet déclenche un Sursaut de Tremblement après avoir infligé (100 + (Instance * 15))% des dégâts stockés en dégâts de Paresse\n- Fin du Tour : gagne 1 d’Instance et perd 1 de Compte\n- Le Moratoire Temporel expirera immédiatement après avoir déclenché le Sursaut de Tremblement et l’effet de dégât de Paresse si une autre instance de Moratoire Temporel est infligé à une unité avec Moratoire Temporel.",
+      "summary": ""
+    },
+    {
+      "id": "TimeRentalTwoPersonality",
+      "name": "Temps Emprunté",
+      "desc": "Fin du Tour à 2 de Compte ou plus :\n- Gagne (Compte de Temps Emprunté - 1) Accélération, Bonus de Puissance de Duel et Vulnérabilité au prochain tour\n- Si cette unité reçoit plus de Ralentissement que d’Accélération au prochain tour, l’effet Temps Emprunté expire au prochain Début de Tour et cette unité devient Déséquilibrée\n\nFin du Tour : à 1 de Compte, gagne (2 * (Valeur de Temps Emprunté - 1)) Ralentissement au prochain tour\nFin du Tour : gagne 1 de Valeur et perd 1 de Compte",
+      "summary": ""
+    },
+    {
+      "id": "VibrationChainPersonality",
+      "name": "Tremblement - Chaîne",
+      "desc": "- Perd 1 de Puissance de Duel tous les 10 d’Intensité de Tremblement sur soi (3 max)\n- Lorsque Touché par des Capacités déclenchant un Sursaut de Tremblement, augmente le Seuil de Déséquilibre de l’Intensité de l’effet\n- Fin du Tour : réduit de 1 le Compte\n- (Interagit de la même manière que le Tremblement normal avec les effets qui augmentent ou réduisent l’Intensité/Compte de Tremblement)",
+      "summary": ""
+    },
+    {
+      "id": "GazePersonality",
+      "name": "Regard de Mépris",
+      "desc": "- Valeur max : 7\n- Inflige +7% de dégâts supplémentaires pour chaque Regard de Mépris\n- Fin du Tour : cet effet expire\n- Fin du Tour : à 7 de valeur de Regard de Mépris, le converti en Mépris du Regard au prochain tour au lieu d’expirer\n\n[Mépris du Regard]\n- Gagne 7 Protection\n- Gagne 7 Malus de Dégât\n- L’un des Emplacements de Capacité de cette unité gagne +20 d’Aggro\n- Ne peut pas gagner de Regard de Mépris tant que Mépris du Regard est actif\n- Fin du Tour : cet effet expire",
+      "summary": ""
+    },
+    {
+      "id": "ContemptPersonality",
+      "name": "Mépris du Regard",
+      "desc": "- Gagne 7 Protection\n- Gagne 7 Malus de Dégât\n- L’un des Emplacements de Capacité de cette unité gagne +20 d’Aggro\n- Ne peut pas gagner de Regard de Mépris tant que Mépris du Regard est actif\n- Fin du Tour : cet effet expire",
+      "summary": ""
+    },
+    {
+      "id": "KnowledgeTraining",
+      "name": "Érudition",
+      "desc": "- Valeur max : 6\n- En Défaussant une Capacité, gagne (Érudition * 1.5)% des PV max de cette unité en Bouclier (une fois par tour)\n- Si cette unité Défausse une Capacité à 2 d’Information ou plus, gagne 1 de Puissance de Duel (une fois par tour)\n- Réduit de 1 en subissant des dégâts de PV après avoir été touché par une Capacité Offensive ennemie\n- Expire lorsque Déséquilibré",
+      "summary": ""
+    },
+    {
+      "id": "BoseProjektil",
+      "name": "Souvenir Déchiré",
+      "desc": "- Valeur max : 7\n- Utilisé pour certaines Capacités",
+      "summary": ""
+    },
+    {
+      "id": "ChargeLoad",
+      "name": "Charge Électrique",
+      "desc": "- Valeur max : 6\n- Les capacités offensives ayant consommé du Compte de Charge infligent +2.5% de dégâts supplémentaires pour chaque valeur sur soi (15% max)\n- Si l’unité affectée est un employé de la W Corp., inflige +5% de dégâts supplémentaires pour chaque valeur à la place (30% max)\n- Fin du Tour : cet effet expire",
+      "summary": ""
+    },
+    {
+      "id": "PhotoElectricity",
+      "name": "Photoélectricité",
+      "desc": "Valeur max : 3\nLorsque cette unité est touchée, l’Attaquant gagne du Compte de Charge égal à la valeur (une fois par Capacité)\n- Si l’Attaquant a 5 de Compte de Charge ou moins, il gagne +3 de Compte de Charge supplémentaire\nFin du Tour : cet effet expire",
+      "summary": ""
+    },
+    {
+      "id": "Coffin",
+      "name": "Cercueil",
+      "desc": "- Valeur max : 10\n- À la Fin du Tour :\n  - Gagne 2 Bonus de Dégâts au prochain tour tous les 3 de Valeur (6 max)\n  - Augmente de 1 la Vitesse minimale au prochain tour tous les 4 de Valeur (2 max)\n  - Gagne 1 Bonus de Puissance de Duel au prochain tour tous les 5 de Valeur (2 max)",
+      "summary": ""
+    },
+    {
+      "id": "WildHunt",
+      "name": "Chasse Sauvage",
+      "desc": "- Au même tour où cette unité a gagné Chasse Sauvage pour la première fois, a toujours 1 PV restant ; “réanime” (soigne à 50% des PV et remet les PSM à 0) cette unité à la Fin du Tour.\n- En Mourant, gagne 1 ressource E.G.O. pour la ressource E.G.O. la moins possédée\n- Si cette unité est tuée par une attaque, inflige 3 Lourdeur au dernier attaquant\n- Meurt à la fin du même tour où cette unité a été réanimée",
+      "summary": ""
+    },
+    {
+      "id": "NightPathfinding",
+      "name": "Dullahan",
+      "desc": "- Valeur max : 3\n- Gagne 3 Niveaux Offensifs\n- Perd 3 Niveaux Défensifs\n- Augmente de 1 les valeurs min. & max de Vitesse\n- Fin du Tour : gagne 1 Dullahan au prochain tour (cependant, à -25 PSM ou moins, perd tout Dullahan)\n- Fin du Tour : si cette unité a Dullahan, perd (15 - (Cercueil/2)) PSM. (10 min.)",
+      "summary": ""
+    },
+    {
+      "id": "WanderingFootsteps",
+      "name": "Ruine Imminente",
+      "desc": "- Unités avec PSM : change leur Type de Panique en “Ruine”.\n(Ruine : lorsque cette unité entre en état de Moral Bas, gagne 3 Lourdeur à chaque Fin de Tour et perd 1 de Puissance de Duel. Lorsque cette unité Panique, gagne 5 Lourdeur et 3 de Compte de Lourdeur à chaque Fin de Tour et perd 2 de Puissance de Duel)\n- Unités sans PSM : -10% de chance de faire Pile\n- Réduit de 1 à la Fin du Tour\n- Cet effet ne se cumule pas ; l’infliger remplacera la valeur actuelle par la valeur infligée.\n※ Applique la condition “Unités sans PSM” à certains ennemis ayant des PSM mais ne pouvant pas changer leurs Types de Panique.",
+      "summary": ""
+    },
+    {
+      "id": "WanderingFootsteps_Main",
+      "name": "Ruine Imminente",
+      "desc": "- Cible avec PSM : change leur Type de Panique en “Ruine”\n- Réduit de 1 à la Fin du Tour",
+      "summary": ""
+    },
+    {
+      "id": "WanderingFootsteps_Sub",
+      "name": "Ruine Imminente",
+      "desc": "- -10% de chance de faire Pile\n- Réduit de 1 à la Fin du Tour",
+      "summary": ""
+    },
+    {
+      "id": "WanderingFootsteps_LowMorale",
+      "name": "Ruine",
+      "desc": "- Moral Bas\n- -1 de Puissance de Duel sur soi. Gagne 3 Lourdeur à chaque Fin de Tour",
+      "summary": "-1 de Puissance de Duel sur soi. Gagne 3 Lourdeur à chaque Fin du Tour",
+      "undefined": "-"
+    },
+    {
+      "id": "WanderingFootsteps_Panic",
+      "name": "Ruine",
+      "desc": "- Panique\n- -2 de Puissance de Duel sur soi. Gagne 5 Lourdeur et +3 de Compte de Lourdeur à chaque Fin de Tour",
+      "summary": "-2 de Puissance de Duel sur soi. Gagne 5 Lourdeur et +3 de Compte de Lourdeur à chaque Fin du Tour",
+      "undefined": "-"
+    },
+    {
+      "id": "UninvitedGuestPersonality",
+      "name": "L’Intrus",
+      "desc": "- Valeur max : 2\n- À la mort, le dernier attaquant regagne 3 PSM ; puis, un allié aléatoire sans cet effet gagne 2 Instances de cet effet.\n- Subit +0.5% de dégâts supplémentaires pour chaque Lourdeur sur soi (10% max ; pour les Affrontements Concentrés, compte séparément la Lourdeur sur chaque partie)\n- Fin du Tour : diminue de 1",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "DevyatDimensionalSack",
+      "name": "Malle de Coursier - Rodion",
+      "desc": "- Valeur de Base : 0\n- Début du Tour : gagne 3 Valeurs\n- Les Valeurs n’expirent pas en Battant en Retraite ; elles sont, à la place, stockées\n- À 10 Valeurs ou plus : augmente de 1 les valeurs min. & max de Vitesse\n- À 20 Valeurs ou plus : gagne 1 Bonus de Puissance de Duel et 1 Bonus de Dégâts Tranchants\n- À 30 Valeurs ou plus :\n· À l’Usage d’une Capacité, subit (Valeur/3)% de dégâts de PV et (Valeur/3) dégâts de PSM\n· À la Fin du Tour, subit (Valeur/2)% de dégâts de PV et (Valeur/2) dégâts de PSM (s’applique avant de Battre en Retraite)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Retreat",
+      "name": "Mode de Repos Stratégique",
+      "desc": "- Fin du Tour : se remet de Déséquilibre et Bat en Retraite de l’Affrontement (sauf s’il s’agit d’un Déséquilibre forcé ; ne compte pas comme une mort)\n· En Combats Chaînés, donne les Emplacements de cette unité à une unité Substituée et se place à la dernière place de l’ordre de Déploiement des unités de Renfort (s’échappe entièrement de l’Affrontement s’il n’y a aucune Unité de Renfort restante avec qui changer de place au prochain tour. En revenant au combat, revient dans l’ordre de sa retraite.)\n· En revenant au combat, revient avec la même quantité de PV et de PSM qu’avait cette unité en battant en retraite et élimine tous les effets sur soi pour certains (si cette unité avait moins de 0 PSM en battant en retraite, remet à 0 les PSM à la place)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "DefensiveStance",
+      "name": "Posture Défensive",
+      "desc": "- Valeur max : 2\n- Cet effet ne se compose pas d’intensité ; le cumuler ne fait qu’étendre sa durée.\n- Diminue de 1 à la Fin du Tour\n- Lorsqu’une unité gagne cet effet, gagne les effets suivants au prochain tour :\n  · Fixe la Vitesse de cette unité à sa valeur minimale\n  · Gagne 5 Bonus de Niveau Défensif\n  · Chaque Emplacement de cette unité gagne +(10 / # d’Emplacement de cette unité) d’Aggro\n  · En enchaînant des Capacités, cette unité peut attirer les attaques ennemies vers elle, qu’importe la Vitesse (Affrontements Concentrés uniquement)\n  · En Duel Gagné, déclenche un Sursaut de Tremblement\n  · Ne peut pas être Déséquilibrée par des dégâts",
+      "summary": ""
+    },
+    {
+      "id": "CanDuelGuard",
+      "name": "Garde Affrontable",
+      "desc": "- En Duel Gagné : augmente de la Puissance de Duel finale de cette unité le Seuil de Déséquilibre de la cible.\n- En Duel Perdu : lorsque touché, réduit de la Puissance Finale de cette unité la Puissance de Capacité de l’attaquant",
+      "summary": ""
+    },
+    {
+      "id": "SuperCoin",
+      "name": "Pièce Incassable",
+      "desc": "- Cette pièce ne se casse pas en Duel Perdu.\n- Si une Capacité Offensive a cette Pièce, attaque avec cette Pièce après avoir été touché.\n- En Duel Perdu, fixe la Puissance de Pièce de la Pièce incassable à 1",
+      "summary": ""
+    },
+    {
+      "id": "BloodScissorPersonalityFirst",
+      "name": "Ciseaux Teintés de Sang",
+      "desc": "- Valeur max : 10\n- Ciseaux Teintés de Sang de Niveau 1\n- À 10 Ciseaux Teintés de Sang ou plus, devient Ciseaux Teintés de Sang II.\n- À 20 Ciseaux Teintés de Sang ou plus, devient Ciseaux Teintés de Sang III.\n- Revient au Niveau précédant lorsque la Valeur tombe sous les conditions.\n- Ciseaux Teintés de Sang ne descend pas en-dessous de 1.\n- À Ciseaux Teintés de Sang II, gagne 1 Bonus de Niveau Offensif et 1 Malus de Niveau Défensif selon la Valeur\n- À Ciseaux Teintés de Sang III, gagne 1 Bonus de Niveau Offensif selon la Valeur",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BloodScissorPersonalitySecond",
+      "name": "Ciseaux Teintés de Sang II",
+      "desc": "- Valeur max : 20\n- Ciseaux Teintés de Sang de Niveau 2\n- Début du Tour : gagne 1 Bonus de Niveau Offensif et 1 Malus de Niveau Défensif tous les 5 de Valeur\n- À 10 Ciseaux Teintés de Sang ou plus, devient Ciseaux Teintés de Sang II.\n- À 20 Ciseaux Teintés de Sang ou plus, devient Ciseaux Teintés de Sang III.\n- Revient au Niveau précédant lorsque la Valeur tombe sous les conditions.\n- Ciseaux Teintés de Sang ne descend pas en-dessous de 1.\n- À Ciseaux Teintés de Sang II, gagne 1 Bonus de Niveau Offensif et 1 Malus de Niveau Défensif selon la Valeur\n- À Ciseaux Teintés de Sang III, gagne 1 Bonus de Niveau Offensif selon la Valeur",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BloodScissorPersonalityThird",
+      "name": "Ciseaux Teintés de Sang III",
+      "desc": "- Valeur max : 30\n- Ciseaux Teintés de Sang de Niveau 3\n- Début du Tour : gagne 2 Bonus de Niveau Offensif et 1 Malus de Niveau Défensif tous les 5 de Valeur\n- À 10 Ciseaux Teintés de Sang ou plus, devient Ciseaux Teintés de Sang II.\n- À 20 Ciseaux Teintés de Sang ou plus, devient Ciseaux Teintés de Sang III.\n- Revient au Niveau précédant lorsque la Valeur tombe sous les conditions.\n- Ciseaux Teintés de Sang ne descend pas en-dessous de 1.\n- À Ciseaux Teintés de Sang II, gagne 1 Bonus de Niveau Offensif et 1 Malus de Niveau Défensif selon la Valeur\n- À Ciseaux Teintés de Sang III, gagne 1 Bonus de Niveau Offensif selon la Valeur",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "LineCuttingPersonality",
+      "name": "Cible de Couture",
+      "desc": "- Valeur max : 1\n- Subit +0.5% de dégâts supplémentaires pour chaque Saignement sur soi (10% max)\n- Fin du Tour : diminue de 1",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Snare",
+      "name": "Lasso",
+      "desc": "- Valeur max : 3\n- Fin du Tour : gagne de l’Intensité de Déchirure égale à la valeur de Vitesse actuelle de cette unité (5 max), et gagne 1 Ralentissement au prochain tour\n- Fin du Tour : diminue de 1",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BloodyHandGregFirst",
+      "name": "Main Ensanglantée",
+      "desc": "- Valeur max : 10\n- Main Ensanglantée de Niveau 1\n- À 10 Main Ensanglantée ou plus, les convertit en Main Ensanglantée II.\n- À 20 Main Ensanglantée ou plus, les convertit en Main Ensanglantée III.\n- Revient au Niveau précédant lorsque la Valeur tombe sous les conditions.\n- À Main Ensanglantée II, gagne 1 Bonus de Niveau Offensif selon la Valeur\n- À Main Ensanglantée III, gagne 1 Bonus de Niveau Offensif selon la Valeur, et inflige 1 Déchirure et 1 Saignement supplémentaires En Touche avec des Capacités de Base",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BloodyHandGregSecond",
+      "name": "Main Ensanglantée II",
+      "desc": "- Valeur max : 20\n- Main Ensanglantée de Niveau 2\n- Début du Tour : gagne 1 Bonus de Niveau Offensif tous les 10 de Valeur\n- À 10 Main Ensanglantée ou plus, les convertit en Main Ensanglantée II.\n- À 20 Main Ensanglantée ou plus, les convertit en Main Ensanglantée III.\n- Revient au Niveau précédant lorsque la Valeur tombe sous les conditions.\n- À Main Ensanglantée II, gagne 1 Bonus de Niveau Offensif selon la Valeur\n- À Main Ensanglantée III, gagne 1 Bonus de Niveau Offensif selon la Valeur, et inflige 1 Déchirure et 1 Saignement supplémentaires En Touche avec des Capacités de Base",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BloodyHandGregThird",
+      "name": "Main Ensanglantée III",
+      "desc": "- Valeur max : 30\n- Main Ensanglantée de Niveau 3\n- Début du Tour : gagne 1 Bonus de Niveau Offensif tous les 10 de Valeur\n- En Touche avec des Capacités de Base : inflige 1 Déchirure et Saignement supplémentaire\n- À 10 Main Ensanglantée ou plus, les convertit en Main Ensanglantée II.\n- À 20 Main Ensanglantée ou plus, les convertit en Main Ensanglantée III.\n- Revient au Niveau précédant lorsque la Valeur tombe sous les conditions.\n- À Main Ensanglantée II, gagne 1 Bonus de Niveau Offensif selon la Valeur\n- À Main Ensanglantée III, gagne 1 Bonus de Niveau Offensif selon la Valeur, et inflige 1 Déchirure et 1 Saignement supplémentaires En Touche avec des Capacités de Base",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "WornHeartGreg",
+      "name": "Cœur Malade",
+      "desc": "- Valeur max : 10\n- Fin du Tour : gagne 1 de Valeur\n- Début du Tour : gagne 1 Bonus de Niveau Défensif tous les 3 de Valeur\n- À 50% de PV ou moins, gagne 1 Niveau Défensif tous les 3 de Valeur\n- À 40% de PV ou moins, En Touche avec des Capacités de Base, regagne (Valeur * 5)% des dégâts infligés En Touche en tant que PV (1 min. ; arrondi à l’inférieur ; soigne jusqu’à 30 PV par Capacité)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BloomingThornsRodionFirst",
+      "name": "Épine Fleurie",
+      "desc": "- Valeur max : 10\n- Épine Fleurie de Niveau 1\n- Gagne 1 Niveau Défensif tous les 2 de Valeur (5 max)\n- Lorsque touché, inflige 1 Saignement à l’attaquant et perd 1 de Valeur\n- [Uniquement pour La Princesse de La Manchaland Rodion]\n· Au max de Valeur, se convertit au prochain Niveau de cet effet.\n· Inflige +(Niveau - 1) d’Intensité de Saignement et de Déchirure supplémentaire avec les effets de Pièce de Capacité Offensive de Base de cette unité.\n· Revient au Niveau précédant lorsque la Valeur tombe sous les conditions.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BloomingThornsRodionSecond",
+      "name": "Épine Fleurie II",
+      "desc": "- Valeur max : 20\n- Épine Fleurie de Niveau 2\n- Gagne 1 Niveau Défensif tous les 2 de Valeur (5 max)\n- Lorsque touché, inflige 1 Saignement à l’attaquant et perd 1 de Valeur\n- [Uniquement pour La Princesse de La Manchaland Rodion]\n· Au max de Valeur, se convertit au prochain Niveau de cet effet.\n· Inflige +(Niveau - 1) d’Intensité de Saignement et de Déchirure supplémentaire avec les effets de Pièce de Capacité Offensive de Base de cette unité.\n· Revient au Niveau précédant lorsque la Valeur tombe sous les conditions.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BloomingThornsRodionThird",
+      "name": "Épine Fleurie III",
+      "desc": "- Valeur max : 30\n- Épine Fleurie de Niveau 3\n- Gagne 1 Niveau Défensif tous les 2 de Valeur (5 max)\n- Lorsque touché, inflige 1 Saignement à l’attaquant et perd 1 de Valeur\n- [Uniquement pour La Princesse de La Manchaland Rodion]\n· Au max de Valeur, se convertit au prochain Niveau de cet effet.\n· Inflige +(Niveau - 1) d’Intensité de Saignement et de Déchirure supplémentaire avec les effets de Pièce de Capacité Offensive de Base de cette unité.\n· Revient au Niveau précédant lorsque la Valeur tombe sous les conditions.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "FestivalFeverRodion",
+      "name": "Fièvre Festive",
+      "desc": "- Valeur max : 10\n- Expire à la Fin du Tour\n- Contre les cibles avec Saignement : inflige +1.5% de dégâts supplémentaires pour chaque Valeur\n- Capacités qui consomment ou gagnent du Festin Sanglant infligent +3% de dégâts supplémentaires pour chaque Valeur à la place",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "VibrationSpring",
+      "name": "Tremblement - Remontage",
+      "desc": "- +2 de Vitesse max\n- Consomme du Compte de Tremblement sur soi pour infliger 1 d’Intensité ou de Compte de Tremblement supplémentaire en en infligeant avec les effets de Capacité ou de pièce de cette unité\n- Lorsque touché par des Capacités qui déclenchent un Sursaut de Tremblement, augmente le Seuil de Déséquilibre selon l’Intensité de l’effet\n- Fin du Tour : réduit le Compte de 1\n- (Interagit de la même manière que le Tremblement normal avec les effets qui augmentent ou réduisent l’Intensité/Compte de Tremblement)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "DevyatDimensionalSackSinclair",
+      "name": "Malle de Coursier - Sinclair",
+      "desc": "- Valeur de Base : 0\n- Début du Tour : gagne 3 Valeurs\n- Les Valeurs n’expirent pas en Battant en Retraite ; elles sont, à la place, stockées\n- À 10 Valeurs ou plus : augmente de 1 les valeurs min. & max de Vitesse\n- À 20 Valeurs ou plus : gagne 1 Bonus de Puissance de Duel et 1 Bonus de Dégâts Contondants\n- À 30 Valeurs ou plus :\n· À l’Usage de Capacité, subit (Valeur/3)% de dégâts de PV et (Valeur/3) dégâts de PSM\n· À la Fin du Tour, subit (Valeur/2)% de dégâts de PV et (Valeur/2) dégâts de PSM (s’applique avant de Battre en Retraite)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Zazen",
+      "name": "Dhyāna",
+      "desc": "- Instance max : 108\n- Inflige +1% de dégâts supplémentaires pour chaque Instance",
+      "summary": "Inflige plus de dégâts"
+    },
+    {
+      "id": "SwirlingBloodPersonality",
+      "name": "Scintillement 【Démon de Sang】",
+      "desc": "- Valeur max : 50\n- Tant que cet effet existe, tous les dégâts de Saignement subis par le Bouclier de PV sont convertis en Festin Sanglant.\n- Gagne autant de Bouclier de PV que de Valeur au moment de son application\n- Expire à la Fin du Tour",
+      "summary": ""
+    },
+    {
+      "id": "BloodArmorPersonalityFirst",
+      "name": "Sang Durci",
+      "desc": "- Valeur max : 10\n- Sang Durci de Niveau 1\n- À 10 Sang Durci ou plus, devient Sang Durci II.\n- À 20 Sang Durci ou plus, devient Sang Durci III.\n- Revient au Niveau précédant lorsque la Valeur tombe sous les conditions.\n- Sang Durci ne peut pas tomber en-dessous de 1.\n- Augmente la valeur de Vitesse min. & max tous les 10 de Sang Durci\n- À Sang Durci II, gagne 1 Bonus de Niveau Offensif selon la Valeur\n- À Sang Durci III, gagne 1 Bonus de Niveau Offensif et 1 Bonus de Niveau Défensif selon la Valeur",
+      "summary": ""
+    },
+    {
+      "id": "BloodArmorPersonalitySecond",
+      "name": "Sang Durci II",
+      "desc": "- Valeur max : 20\n- Sang Durci de Niveau 2\n- Début du Tour : gagne 1 Bonus de Niveau Offensif tous les 5 de Valeur\n- Augmente les valeurs de Vitesse min. & max de 1\n- À 10 Sang Durci ou plus, devient Sang Durci II.\n- À 20 Sang Durci ou plus, devient Sang Durci III.\n- Revient au Niveau précédant lorsque la Valeur tombe sous les conditions.\n- Sang Durci ne peut pas tomber en-dessous de 1.\n- À Sang Durci II, gagne 1 Bonus de Niveau Offensif selon la Valeur\n- À Sang Durci III, gagne 1 Bonus de Niveau Offensif et 1 Bonus de Niveau Défensif selon la Valeur",
+      "summary": ""
+    },
+    {
+      "id": "BloodArmorPersonalityThird",
+      "name": "Sang Durci III",
+      "desc": "- Valeur max : 30\n- Sang Durci de Niveau 3\n- Début du Tour : gagne 1 Bonus de Niveau Offensif et 1 Bonus de Niveau Défensif tous les 5 de Valeur\n- Augmente les valeurs de Vitesse min. & max de 2\n- À 10 Sang Durci ou plus, devient Sang Durci II.\n- À 20 Sang Durci ou plus, devient Sang Durci III.\n- Revient au Niveau précédant lorsque la Valeur tombe sous les conditions.\n- Sang Durci ne peut pas tomber en-dessous de 1.\n- À Sang Durci II, gagne 1 Bonus de Niveau Offensif selon la Valeur\n- À Sang Durci III, gagne 1 Bonus de Niveau Offensif et 1 Bonus de Niveau Défensif selon la Valeur",
+      "summary": ""
+    },
+    {
+      "id": "SadLamanchaland",
+      "name": "Responsabilité",
+      "desc": "- Valeur max : 1\n- +1 de Puissance de Duel\n- Inflige +20% de dégâts supplémentaires\n- Subit +20% de dégâts supplémentaires",
+      "summary": ""
+    },
+    {
+      "id": "FreishutzOutisEgoBullet_1st",
+      "name": "La Première Balle Magique",
+      "desc": "- Inflige +20% de dégâts supplémentaires\n- Augmente le Seuil de Déséquilibre de la cible des dégâts infligés (30 max)"
+    },
+    {
+      "id": "FreishutzOutisEgoBullet_2nd",
+      "name": "La Deuxième Balle Magique",
+      "desc": "- Inflige +10% de dégâts supplémentaires\n- Inflige des dégâts aux cibles autres que la cible principale (cibles max : 4) ; la cible principale subit 0 dégât\n- En Touche, inflige 3 Paralysie"
+    },
+    {
+      "id": "FreishutzOutisEgoBullet_3rd",
+      "name": "La Troisième Balle Magique",
+      "desc": "- Inflige +20% de dégâts supplémentaires\n- Avant l’Attaque : gagne +2 de Poids d’Atq\n- En Touche, inflige 2 Malus de Puissance Offensive et 10 Brûlure"
+    },
+    {
+      "id": "FreishutzOutisEgoBullet_4th",
+      "name": "La Quatrième Balle Magique",
+      "desc": "- Inflige +30% de dégâts supplémentaires\n- Avant l’Attaque : gagne +3 de Poids d’Atq\n- En Touche, augmente le Seuil de Déséquilibre de la cible des dégâts infligés (20 max) ; puis, inflige 3 Vulnérabilité au prochain tour"
+    },
+    {
+      "id": "FreishutzOutisEgoBullet_5th",
+      "name": "La Cinquième Balle Magique",
+      "desc": "- Inflige +30% de dégâts supplémentaires\n- Avant l’Attaque : gagne +4 de Poids d’Atq\n- En Touche, inflige 10 Brûlure ; puis, inflige 4 Malus de Niveau Offensif et de Malus de Niveau Défensif au prochain tour"
+    },
+    {
+      "id": "FreishutzOutisEgoBullet_6th",
+      "name": "La Sixième Balle Magique",
+      "desc": "- Avant l’Attaque : gagne +6 de Poids d’Atq\n- En Touche, augmente le Seuil de Déséquilibre de la cible des dégâts infligés (30 max)\n- Réutilise la Pièce toutes les 7 Brûlure sur la cible principale (2 fois max)\n- -16 de Puissance de Base de Capacité à Pièce Positive\n- -22 de Puissance de Base de Capacité à Pièce Négative\n - -8 de Puissance de Pièce Positive\n - -12 de Puissance de Pièce Négative"
+    },
+    {
+      "id": "FreishutzOutisEgoBullet_7th",
+      "name": "La Septième Balle Magique",
+      "desc": "- Inflige +200% de dégâts supplémentaires\n- Inflige +2.5% de dégâts supplémentaires tous les 1% de PV manquant sur la cible (200% max)\n- Avant l’Attaque : pour cette attaque, si la Rés. aux Dégâts Perçants de la cible ou sur soi est inférieure à 2.0, la rend “Fatale” (x2.0)\n- Après l’Attaque : tue cette unité"
+    },
+    {
+      "id": "FreishutzOutisEgoBulletCnt",
+      "name": "Balle du Tireur D’élite",
+      "desc": "Utilise une Munition différente selon la Balle du Tireur D’élite"
+    },
+    {
+      "id": "CoveringFire",
+      "name": "Cible Repérée",
+      "desc": "- Si l’unité A applique cet effet à l’unité B : l’unité B déclenche une attaque de suivi à sens unique avec sa Capacité 2 sur le même ennemi attaqué par l’unité A. S’active à la fin de l’attaque de l’unité A.\n- La Capacité utilisée grâce à cet effet n’affecte pas les Capacités à venir de l’unité B."
+    },
+    {
+      "id": "FullReload",
+      "name": "Recharge",
+      "desc": "Perd toutes les Munitions actuellement possédées et les recharge entièrement."
+    },
+    {
+      "id": "Bullet_LogicAtelier",
+      "name": "Munition - Atelier Logic",
+      "desc": "Munition Unique\nMunition Spéciale de l’Atelier Logic\n- Le compte de cette Munition ne peut être gagné ou perdu suite à des effets externes"
+    },
+    {
+      "id": "Retreat_FullStop",
+      "name": "Mission de Surveillance",
+      "desc": "- Fin du Tour : se remet de Déséquilibre et Bat en Retraite de l’Affrontement (sauf s’il s’agit d’un Déséquilibre forcé ; ne compte pas comme une mort)\n· En Combats Chaînés, donne les Emplacements de cette unité à une unité Substituée et se place à la dernière place de l’ordre de Déploiement des unités de Renfort (s’échappe entièrement de l’Affrontement s’il n’y a aucune Unité de Renfort restante avec qui changer de place au prochain tour. En revenant au combat, revient dans l’ordre de sa retraite.)\n· En revenant au combat, revient avec la même quantité de PV et de PSM qu’avait cette unité en battant en retraite et élimine tous les effets sur soi pour certains (si cette unité avait moins de 0 PSM en battant en retraite, remet à 0 les PSM à la place)"
+    },
+    {
+      "id": "LogicAtelierAM",
+      "name": "Concentration 【Sniper】",
+      "desc": "- Valeur max : 4\n- Fin du Tour : gagne 1 de Valeur"
+    },
+    {
+      "id": "MeleeCover",
+      "name": "Soutien de Mêlée",
+      "desc": "- Si l’unité A applique cet effet à l’unité B : l’unité B effectue une Attaque à Sens-Unique avec la Capacité “Soutien de Mêlée” contre le même ennemi ayant attaqué l’unité A. S’active à la Fin de Capacité de l’unité A.\n- La Capacité utilisée suite à l’effet “Soutien de Mêlée” n’affecte pas la liste de Capacités à venir de l’unité B."
+    },
+    {
+      "id": "RequestedTarget",
+      "name": "Cible Demandée",
+      "desc": "+0.2 de Résistance aux Types d’Attaque avec 1.5 ou moins de Résistance. Si la cible avec cet effet est vaincu, gagne 1 ressource E.G.O. de toutes les Affinités et l’unité ayant vaincu la cible gagne 10 PSM"
+    },
+    {
+      "id": "GlowingLantern",
+      "name": "Appât Féerique",
+      "desc": "- Instance max : 5\n- Fin du Tour : l’Emplacement le plus à gauche du Tableau de Bord gagne +10 d’Aggro\n- Subit +50% de dégâts supplémentaires\n- Lorsque touché, inflige 1 Déchirure à l’Attaquant (3 fois par Capacité de la cible)\n· À moins de 50% de PV, inflige 1 Déchirure supplémentaire\n· Si la cible a 15 Déchirure ou plus, cet effet n’inflige pas de Déchirure\n- Réduit de 1 à la Fin du Tour"
+    },
+    {
+      "id": "HoldingBreath",
+      "name": "Profonde Inspiration",
+      "desc": "- Instance max : 20\n- En Critique, à 15 d’Intensité de Calme ou plus et 5 de Compte de Calme ou plus, consomme (Intensité de Calme sur soi / 5) d’Intensité de Calme pour infliger +(Intensité de Calme consommée * 4)% de dégâts supplémentaires en Touche Critique et perd 1 Instance",
+      "summary": "Inflige plus de Dégâts en Touche Critique"
+    },
+    {
+      "id": "NebulizerInhale",
+      "name": "Inhalateur β",
+      "desc": "- Instance max : 5\n- Cet effet persiste à travers l’Affrontement\n- En activant une Rés.-A d’Orgueil : au Début du Combat, applique 3 Calme et +3 Compte de Calme à soi-même et (Instance) alliés (priorise les alliés qui gagnent ou utilisent du Calme ou du Compte de Calme ; parmi eux, priorise les alliés avec le moins d’Intensité de Calme)",
+      "summary": "Gagne du Calme et du Compte de Calme"
+    },
+    {
+      "id": "Hohenheim_LowMorale",
+      "name": "Angoisse",
+      "desc": "Début du Tour : gagne 1 Vulnérabilité et 2 Malus d’Efficacité de Soin de PSM"
+    },
+    {
+      "id": "Hohenheim_Panic",
+      "name": "Angoisse",
+      "desc": "Début du Tour : gagne 2 Vulnérabilité et 3 Malus d’Efficacité de Soin de PSM"
+    },
+    {
+      "id": "BlackCloud",
+      "name": "Nuage Noir",
+      "desc": "Instance max : 1\nConverti toutes les Pièces des Capacités Offensives de Base de cette unité utilisées ce tour en [Pièces Incassables], empêche les dégâts de Déséquilibrer cette unité jusqu’à la Fin de la Capacité et inflige +1 d’effets de Saignement supplémentaire\nEn Duel Perdu : gagne +3 de Puissance Finale\nFin du Tour : cet effet expire"
+    },
+    {
+      "id": "BlackCloudBlade",
+      "name": "Lame du Nuage Noir",
+      "desc": "Instance max : 1\nGagne 1 de Puissance Tranchante\nInflige 1 Saignement En Touche avec des Capacités Tranchantes"
+    },
+    {
+      "id": "EngageToBattle",
+      "name": "Prêt au Combat",
+      "desc": "Valeur max : 1\nIntensité et Compte de Saignement infligé avec les effets de Pièce ou de Capacité de cette unité : +1\nGagne 1 Bonus de Puissance Tranchante et 3 Bonus de DGT Tranchant pour la durée de cet Affrontement"
+    },
+    {
+      "id": "CloudWall",
+      "name": "Mur de Nuages",
+      "desc": "Instance max : 1\n+1 de Puissance Finale de Capacité Défensive\nCet effet expire à la Fin du Tour ou après l’attaque suivante : “Règles des Ruelles”"
+    },
+    {
+      "id": "ScarletResultUp",
+      "name": "Bonus de Puissance de Luxure",
+      "desc": "Les Capacités de Luxure gagnent de la Puissance Finale égale au Compte de l’effet pendant un tour."
+    },
+    {
+      "id": "NebulizerExhale",
+      "name": "Inhalateur α",
+      "desc": "- Instance Max : 5\n- Cet effet persiste à travers l’Affrontement\n- Début du Combat : à tous les alliés, inclut cette unité, applique 1 d’Intensité de Calme et +1 de Compte de Calme"
+    },
+    {
+      "id": "ReleaseBreath",
+      "name": "Expiration Superficielle",
+      "desc": "- Valeur Max : 1\n- À 20 d’Intensité de Calme ou plus, gagne également +1 de Compte chaque fois que cette unité gagne de l’Intensité de Calme avec des effets de Capacité et de Pièce\n- Expire à la Fin du Tour"
+    },
+    {
+      "id": "FirePunchFuel",
+      "name": "Carburant du District 12",
+      "desc": "Instance max : 100\nConsommé par certaines Capacités\nÀ 50 Instances ou moins, devient Carburant Surchauffé",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "FirePunchFuelOverheated",
+      "name": "Carburant Surchauffé",
+      "desc": "Instance max : 100\nConsommer du Carburant du District 12 en état de Carburant Surchauffé consomme du Carburant Surchauffé à la place\nConsommer du Carburant Surchauffé compte comme consommer du Carburant du District 12\nÀ plus de 50 Instances, devient Carburant du District 12",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "DianxueDonQuixote",
+      "name": "Point Sensible - Don Quichotte",
+      "desc": "- Instance max : 3\n- L’unité ayant infligé ce Point Sensible gagne les effets suivants selon la Valeur de Point Sensible sur la cible (ou la Partie ciblée)\n· 1 de Valeur : gagne +1 de Puissance de Duel\n· 2 de Valeur : gagne +1 de Puissance de Base\n· 3 de Valeur : gagne +1 de Puissance de Duel et +1 de Puissance de Base\n- Expire si l’unité ayant infligé cet effet l’inflige à une cible différente (ou une Partie différente)\n- Remplacé lorsqu’une autre unité inflige Point Sensible",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "VengeanceBookSinclair",
+      "name": "Livre des Vengeances [Sinclair]",
+      "desc": "- Instance Max : 30\n- Inflige (Instance)% de dégâts supplémentaires (30% max)\n- Gagne les effets suivants au prochain tour selon l’Instance :\n· À 10 Instances ou plus : gagne 1 Bonus de DGT Contondant\n· À 20 Instances ou plus : +1 de Vitesse max, gagne 1 Bonus de Puissance\n· À 30 Instances : gagne 2 Bonus de DGT Contondant",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "VendettaMark",
+      "name": "Marque de Vendetta",
+      "desc": "- Instance Max : 10\n- Consommé par certaines Capacités ou Passifs\n- Subit +2% de dégâts supplémentaires d’ennemis du Majeur pour chaque Instance (20% max)\n- Fin du Tour : l’unité avec le plus d’Instances de cet effet gagne 1 Marque de Vengeance d’Adelphe au prochain tour\n(Compté séparément de Marque de Vengeance ; si plus d’une unité possèdent le plus d’Instances de cet effet, cet effet cible celui avec le plus haut pourcentage de PV)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "RetaliationBookFamily",
+      "name": "Marque de Vengeance d’Adelphe",
+      "desc": "- Instance Max : 1\n- Expire à la Fin du Tour\n- Toutes les Identités traitent cette unité comme si elle avait Marque de Vengeance",
+      "summary": "",
+      "undefined": "-"
+    }
+  ]
+}

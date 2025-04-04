@@ -1,0 +1,249 @@
+{
+  "dataList": [
+    {
+      "id": 112701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Plus de Tests",
+          "desc": "[WhenUse] Gagne 3 [HitDamageUp] au prochain tour\n[WhenUse] Si la cible principale a 3 [MiddleFingerBook] ou plus, converti toutes les Pièces de cette Capacité en [SuperCoin]s",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 112702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Souffrance Promise",
+          "desc": "Priorise les cibles avec le plus d’Instances de [MiddleFingerBook]\n[WhenUse] Si la cible a 3 [MiddleFingerBook] ou plus, converti toutes les Pièces de cette Capacité en [SuperCoin]s",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vulnerable] ce tour et au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vulnerable] ce tour et au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige ([MiddleFingerBook] sur la cible * 3) dégâts Contondants bonus"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Retire tout [MiddleFingerBook] sur la cible"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 112703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Assez joué",
+          "desc": "[StartBattle] Soigne de 10 tous les PSM alliés\n[EndBattle] S’il y a des alliés Paniqués, les fait se remettre de Panique au prochain Début de Tour et remet leurs PSM à 0\n[EndBattle] Applique 1 [HitResultUp] à tous les alliés, incluant cette unité",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 112704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ANNIHILATION TOTALE ET ABSOLUE !!!",
+          "desc": "Peut affronter en Duel cette Capacité qu’importe la Vitesse\nSi la cible principale a 5 [MiddleFingerBook] ou plus, +5 de Puissance Finale\n[EndSkill] Retire [MiddleFingerBook] de toutes les cibles touchées",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige ([MiddleFingerBook] sur la cible * 10) dégâts Contondants bonus"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 112601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Frappe Surprenante",
+          "desc": "[WhenUse] Si la cible a 5 [Burst] ou plus, +1 de Puissance de Duel",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 112602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Meurtre Perforant",
+          "desc": "[WhenUse] Si la cible a 5 [Burst] ou plus, +1 de Puissance de Duel\n[WhenUse] Gagne 3 [LegStrength]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [BurstAgility], gagne 1 [Agility] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 112603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Frappe Graveuse",
+          "desc": "[WhenUse] Si la cible a 5 [Burst] ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [BurstAgility]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 112604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lame de Boucher Gravée de Malédiction - Battement de Pas",
+          "desc": "Priorise les cibles avec [BurstAgility]\nInflige +15% de dégâts supplémentaires tous les 2 différences de Vitesse entre cette unité et la cible (60% max)\n[WhenUse] +1 de Puissance de Pièce tous les 5 [Burst] sur la cible (2 max)\n[WhenUse] +1 de Puissance de Base tous les 2 de Compte de [Burst] sur la cible (3 max)\n[EndSkill] À 10 de Vitesse ou plus, et si la cible est vaincue, Réutilise cette Capacité contre un ennemi aléatoire (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Si la cible a [BurstAgility], inflige +50% de dégâts supplémentaires"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 112605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Gravée de Malédiction",
+          "desc": "[DuelCounter]\n[WhenUse] Si la cible a [BurstAgility], inflige +1 de Compte de [Burst] supplémentaire avec cette Capacité",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

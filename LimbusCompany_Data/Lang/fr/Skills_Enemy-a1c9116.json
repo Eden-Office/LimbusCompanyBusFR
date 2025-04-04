@@ -1,0 +1,905 @@
+{
+  "dataList": [
+    {
+      "id": 9018301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Attaque Malpolie",
+          "desc": "[WhenUse] Gagne 1 [Agility] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9018302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Coupe au Tendon",
+          "desc": "[WhenUse] Si la Vitesse de cette unité est plus rapide que celle de la cible, +1 de Puissance de Pièce\n[WhenUse] Si la cible a 3 [Laceration] ou plus, +1 de Puissance de Base",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Binding] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9018303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Attaque Désordonnée",
+          "desc": "[WhenUse] À 7 de Vitesse ou plus, +1 de Puissance de Pièce\n[WhenUse] Si la cible a 4 [Laceration] ou plus, +1 de Puissance de Pièce\n[WinDuel] Inflige plus de dégâts selon le compte de Clash (+5% par compte de Clash, 50% max)\n[WinDuel] Inflige +3 de Compte de [Laceration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9018304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Garde",
+          "desc": "[WhenUse] Gagne 3 Bouclier pour chaque type d’effet négatif sur soi (10 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9018401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fendre",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9018402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Blessure à la Jambe",
+          "desc": "[WhenUse] +1 de Puissance de Pièce tous les 3 [Laceration] sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Paralysis] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9018403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Grand Balayage",
+          "desc": "[WhenUse] +1 de Puissance de Pièce tous les 3 [Laceration] sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9018404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Riposte",
+          "desc": "[BeforeHit] Gagne 2 Bouclier pour chaque type d’effet négatif sur soi (10 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si cette unité a Bouclier, inflige 1 [Paralysis] sur la cible au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9018701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Extraire l’Essence",
+          "desc": "Si la cible a 2 [Laceration] ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Regagne 2 PV"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9018702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Balayer les Ruelles",
+          "desc": "Si la cible a 2 [Laceration] ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Paralysis]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9018703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vider les Ordures",
+          "desc": "Si la cible a 4 [Laceration] ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "En Touche avec cette Pièce, regagne 30% des dégâts infligés en PV"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Réutilise cette Pièce (3 fois par Capacité)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9018704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "333… 1973",
+          "desc": "[StartBattle] Gagne 4 [Persistent]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Réduit de 5 le Seuil de Déséquilibre de l’utilisateur"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9018705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pour la Famille",
+          "desc": "[StartBattle] Applique 1 [Protection] à 2 alliés aléatoires",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9018706,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Nuit dans les Ruelles",
+          "desc": "Si la cible a 2 [Laceration] ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Regagne 8 PV"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Regagne 8 PV"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Réduit de 8 le Seuil de Déséquilibre de l’utilisateur"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Active le [Laceration] sur la cible une fois (réduit le Compte de [Laceration] de 1)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9019301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Frappe Soudaine",
+          "desc": "[WhenUse] Gagne 1 [Agility] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9019302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Coupe Musculaire",
+          "desc": "[WhenUse] Si la Vitesse de cette unité est plus rapide que celle de la cible, +1 de Puissance de Pièce\n[WhenUse] Si la cible a 3 [Laceration] ou plus, +1 de Puissance de Base",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Binding] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9019303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Attaque Indiscriminée",
+          "desc": "[WhenUse] À 7 de Vitesse ou plus, +1 de Puissance de Pièce\n[WhenUse] Si la cible a 4 [Laceration] ou plus, +1 de Puissance de Pièce\n[WinDuel] Inflige plus de dégâts selon le compte de Clash (+5% par compte de Clash, 50% max)\n[WinDuel] Inflige 5 [Laceration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9019304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Garde",
+          "desc": "[WhenUse] Gagne 3 Bouclier pour chaque type d’effet négatif sur soi (10 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9019401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Coupe",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9019402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Blessure Musculaire",
+          "desc": "[WhenUse] +1 de Puissance de Pièce tous les 3 [Laceration] sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Paralysis] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9019403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Attaque Rapide",
+          "desc": "[WhenUse] +1 de Puissance de Pièce tous les 3 [Laceration] sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9019404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Riposte",
+          "desc": "[BeforeHit] Gagne 2 Bouclier pour chaque type d’effet négatif sur soi (10 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si cette unité a Bouclier, inflige 1 [Paralysis] sur la cible au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9018501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Frappe Surprenante",
+          "desc": "[WhenUse] Si la cible a 3 [Burst] ou plus, +1 de Puissance de Duel",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9018502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Contrainte",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Réutilise cette Pièce (Vitesse de cette unité / 4) fois (2 max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9018503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Frappe de Plumes",
+          "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible, gagne de la Puissance de Pièce selon la différence de Vitesse (+1 de Puissance de Pièce tous les 2 différences de Vitesse ; 3 max)\n[WhenUse] Si la cible a 4 [Burst] ou plus, +1 de Puissance de Pièce\n[WinDuel] Inflige +3 de Compte de [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [BurstAgility]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Si la cible a [BurstAgility], inflige +50% de dégâts supplémentaires"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 3 [LegStrength]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9018504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "La Conclusion",
+          "desc": "[DuelCounter]\n[WinDuel] Gagne 3 [Agility] au prochain tour",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9018601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Poursuite",
+          "desc": "[WhenUse] Si la cible a 3 [Burst] ou plus, +1 de Puissance de Duel",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9018602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Submerger",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Réutilise cette Pièce (Vitesse de cette unité / 4) fois (2 max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9018603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Frappe de l’Ombre",
+          "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible, gagne de la Puissance de Pièce selon la différence de Vitesse (+1 de Puissance de Pièce tous les 2 différences de Vitesse ; 3 max)\n[WhenUse] Si la cible a 4 [Burst] ou plus, +1 de Puissance de Pièce\n[WinDuel] Inflige +3 de Compte de [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [BurstAgility]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Si la cible a [BurstAgility], inflige +50% de dégâts supplémentaires"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 3 [LegStrength]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9018604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "La Conclusion",
+          "desc": "[DuelCounter]\n[WinDuel] Gagne 3 [Agility] au prochain tour",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Viser le Plexus Solaire",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Paralysis] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "En plein dans le Crâne",
+          "desc": "[WhenUse] Si la cible a [MiddleFingerBook], inflige 2 [DefenseDown] supplémentaires avec cette Capacité",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [DefenseDown] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Écrasement Ventral",
+          "desc": "[WhenUse] Si la cible a [MiddleFingerBook], inflige 1 [AttackDown] supplémentaire avec cette Capacité",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [AttackDown] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [MiddleFingerBook], gagne 1 [PlusCoinValueUp] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [AttackDown] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [MiddleFingerBook], gagne 1 [PlusCoinValueUp] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "La vengeance vous attend tous !",
+          "desc": "Inflige +10% de dégâts supplémentaires tous les 2 [MiddleFingerBook] sur la cible (50% max)\n[BeforeAttack] À 40% de PV ou moins, gagne +1 de Poids d’Atq\n[WhenUse] Si la cible principale a [MiddleFingerBook], converti toutes les Pièces de cette Capacité en [SuperCoin]s\n[WhenUse] +1 de Puissance de Pièce tous les 3 ennemis avec [MiddleFingerBook] (2 max)\n[WhenUse] +1 de Puissance de Duel tous les 2 [MiddleFingerBook] sur la cible principale (5 max)\n[EndSkill] Si cette unité a tué une cible avec [MiddleFingerBook], gagne 1 [PlusCoinValueUp] au prochain tour (2 fois par tour)\n[EndSkill] Retire [MiddleFingerBook] de toutes les cibles touchées",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Paralysis] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Binding] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Reduction] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102005,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Saisir sa Chance",
+          "desc": "[BeforeHit] Gagne 5 Bouclier pour chaque [MiddleFingerBook] sur la cible (une fois par tour ; 50 max)\n[WhenUse] Si la cible a 5 [MiddleFingerBook] ou plus, +3 de Puissance de Base ; inflige 4 [DefenseDown]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Augmente de 20 le Seuil de Déséquilibre"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 15 dégâts fixes de PV"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Augmente de 20 le Seuil de Déséquilibre"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 15 dégâts fixes de PV"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

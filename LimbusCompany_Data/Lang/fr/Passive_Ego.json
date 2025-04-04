@@ -1,0 +1,464 @@
+{
+  "dataList": [
+    {
+      "id": 2010111,
+      "name": "Silence",
+      "desc": "Lorsque touché par une attaque, gagne 3 Ralentissement au prochain tour et inflige +20% de dégâts en attaquant avec un type ou une Affinité auquel la cible est Faible ou Fatal.\n(Une fois par tour.)"
+    },
+    {
+      "id": 2010211,
+      "name": "Braise",
+      "desc": "En gagnant un duel, inflige de la Brûlure égale à (Réson.-A de Colère /2).\n(Une fois par capacité.)"
+    },
+    {
+      "id": 2010311,
+      "name": "Dol Hareubang",
+      "desc": "Au début du tour, gagne 3 Protection Contondante et Protection de Paresse."
+    },
+    {
+      "id": 2020111,
+      "name": "Ennui",
+      "desc": "Si un ennemi est déséquilibré durant l’attaque de cette unité, 1 allié avec le moins de PSM gagne +2 d’Efficacité de Soin de PSM au prochain tour. (Max 3 fois par tour)"
+    },
+    {
+      "id": 2020211,
+      "name": "Voile de Liquide",
+      "desc": "Au début du tour, applique 2 Protection à l’allié avec le moins de PV. (Inclut soi-même)"
+    },
+    {
+      "id": 2020311,
+      "name": "Ça fait mal !",
+      "desc": "Inflige +10% de dégâts pour chaque effet de statut négatif sur cette unité. (Jusqu’à 50%)"
+    },
+    {
+      "id": 2030111,
+      "name": "Passion Excessive",
+      "desc": "En Touche, si la cible a [Laceration], se soigne de 3 PV"
+    },
+    {
+      "id": 2030211,
+      "name": "Vague de Dépression",
+      "desc": "La cible de la capacité la plus à droite du Tableau de Bord perd des PSM égaux à (2*Réson.-A de Peine) après l’attaque\n(Les cibles sans PSM subissent à la palce des dégâts de Peine.)"
+    },
+    {
+      "id": 2040111,
+      "name": "Art",
+      "desc": "Inflige et subit +5% de dégâts pour chaque ennemi vaincu par cette unité au dernier tour."
+    },
+    {
+      "id": 2040211,
+      "name": "Flamme de la 4ème Allumette",
+      "desc": "Toutes les 4èmes capacités utilisées gagnent +4 de Puissance Finale et infligent 4 Brûlure à chaque attaque."
+    },
+    {
+      "id": 2050111,
+      "name": "Refus de Juger",
+      "desc": "Au début de la phase de combat, gagne 3 Protection si cette unité est ciblée par 3 capacités ou plus."
+    },
+    {
+      "id": 2050211,
+      "name": "Renforcement Final",
+      "desc": "Si la Capacité E.G.O. <Torgnole Boulonnée> est utilisée à moins de 25% de PV, gagne 3 Bonus de Puissance Offensive, de Bonus de Puissance Défensive et Accélération chaque tour, puis meurt dans 3 tours."
+    },
+    {
+      "id": 2050311,
+      "name": "Révélation d’En Haut.",
+      "desc": "Après avoir gagné un duel avec la capacité la plus à gauche du Tableau de Bord, applique 1 Bonus de Puissance Offensive ou de Bonus de Puissance Défensive à un allié aléatoire au prochain tour."
+    },
+    {
+      "id": 2060111,
+      "name": "Ondulation",
+      "desc": "Au début de la phase de combat, rend des PSM à l’allié avec le moins de PSM égaux au compte de votre plus grande valeur de Réson.-A, exclut ceux en Panique."
+    },
+    {
+      "id": 2060211,
+      "name": "Rubans Contraignants",
+      "desc": "La cible de la capacité la plus à gauche du Tableau de Bord subit (Réson.-A de Luxure / 4) de Vulnérabilité de Luxure au prochain tour."
+    },
+    {
+      "id": 2070111,
+      "name": "Esprit de Rivalité",
+      "desc": "Lorsqu’un autre allié vainc un ennemi, gagne 1 Bonus de Puissance Offensive et 1 Accélération au début du prochain tour. (Max 3)"
+    },
+    {
+      "id": 2070211,
+      "name": "Rugissement",
+      "desc": "Après avoir vaincu un ennemi, gagne du Compte de Charge égal à la moitié de la Réson.-A d’Envie de ce tour.\n(Réson.-A d’Envie / 2)"
+    },
+    {
+      "id": 2080111,
+      "name": "Compulsion",
+      "desc": "+2 de Puissance de duel dans les duels dont les taux de victoire sont en faveur de cette unité.\n-2 de Puissance de duel dans les duels dont les taux de victoire ne sont pas en faveur de cette unité."
+    },
+    {
+      "id": 2080211,
+      "name": "Rubans Roses",
+      "desc": "En duel gagné, inflige 1 Rubans Roses."
+    },
+    {
+      "id": 2080311,
+      "name": "Pluie de Feu",
+      "desc": "En touche, si la cible possède [Combustion], inflige 1 Brûlure à 3 ennemis aléatoires."
+    },
+    {
+      "id": 2090111,
+      "name": "Rupture",
+      "desc": "+1 d’Efficacité de Soin de PSM, -1 d’Efficacité de Perte de PSM"
+    },
+    {
+      "id": 2090211,
+      "name": "Étincelle de Flamme",
+      "desc": "Après avoir vaincu un ennemi qui avec [Combustion], regagne des PV égaux à (Réson.-A de Colère)% des PV Max."
+    },
+    {
+      "id": 2090311,
+      "name": "Froideur",
+      "desc": "En touche, si la cible a 5 Lourdeur ou plus, inflige 1 Ralentissement et de Malus de Puissance Offensive.\n(3 fois par unité.)"
+    },
+    {
+      "id": 2100111,
+      "name": "Instable",
+      "desc": "Si une Pièce de capacité tombe d’un côté différent de la précédante de la même capacité, perd 5 PSM et gagne 1 Bonus de Dégâts ce tour. (3 fois par tour)"
+    },
+    {
+      "id": 2100211,
+      "name": "Offrande",
+      "desc": "Après avoir vaincu un ennemi avec une attaque ou une capacité de riposte, gagne 5 ressources E.G.O. de l’Affinité de cette capacité."
+    },
+    {
+      "id": 2110111,
+      "name": "Perfection Tactique",
+      "desc": "Si cette unité n’a pas été touché durant un tour, gagne 1 Bonus de Dégâts au prochain tour. (Max 3 de cumul)"
+    },
+    {
+      "id": 2110211,
+      "name": "Tige de Méfiance",
+      "desc": "Au début du tour, gagne 1 Bonus de DGT Perçant.\nEn touche avec une pièce Pile, inflige 1 Ralentissement et +1 de Compte de Déchirure au prochain tour."
+    },
+    {
+      "id": 2110311,
+      "name": "Vidage",
+      "desc": "Au début du tour, gagne 1 Bonus de DGT de Luxure.\nEn gagne 1 de plus lorsqu’en-dessous de 0 PSM."
+    },
+    {
+      "id": 2120111,
+      "name": "Mue Incontrôlée",
+      "desc": "Au début du tour, si en-dessous de 25% de PV, regagne 15 PV et gagne 2 Protection.\nLorsque cet effet s’active, inflige +2 d’Efficacité de Perte de PSM à 1 allié aléatoire & 1 ennemi aléatoire."
+    },
+    {
+      "id": 2120211,
+      "name": "Asticots",
+      "desc": "En touche, a (Réson.-A de Gourmandise * 8)% de chances d’infliger 5 d’Asticots."
+    },
+    {
+      "id": 2120311,
+      "name": "Absorption de Nutriment",
+      "desc": "Après avoir vaincu un ennemi qui a de la Déchirure, regagne des PV égaux à (Réson.-A de Gourmandise)% des PV Max."
+    },
+    {
+      "id": 2030311,
+      "name": "Décharge Désordonnée",
+      "desc": "Au début de la phase de combat, un allié aléatoire avec [Charge] gagne +(Réson.-A d’Envie) de Compte de Charge."
+    },
+    {
+      "id": 2020411,
+      "name": "Libération Adaptative",
+      "desc": "Tant que cette unité a [Charge], inflige +2% de dégâts par Compte de Charge.\nLes capacités utilisent 2 de Compte de Charge."
+    },
+    {
+      "id": 2030411,
+      "name": "Chaudron de Gavage",
+      "desc": "Au début du tour, converti 2 ressources E.G.O. aléatoire autre que Luxure en 1 ressource de Luxure."
+    },
+    {
+      "id": 2100311,
+      "name": "Épuration de Ragoût",
+      "desc": "Les Pièces Face infligent 1 Brûlure si elles touchent un ennemi."
+    },
+    {
+      "id": 2010411,
+      "name": "Homme Divagant",
+      "desc": "Au début du tour, si cette unité n’a subi aucun dégâts au dernier tour, gagne +4 de Compte de Charge.\nAprès avoir touché un ennemi avec une Vitesse inférieure, inflige +1 de Compte de Déchirure. (3 fois par tour)"
+    },
+    {
+      "id": 2060311,
+      "name": "Restauration de Phénomène Entremêlé",
+      "desc": "En touchant un ennemi avec des effets de statut négatifs, cette unité gagne +1 de Compte de Charge.\n(Max +4 par tour.)\nLorsque les PV  tombent à 0 pour la première fois durant le combat, dépense tout le Compte de Charge et se soigne proportionnellement à la quantité dépensée. (Ne peut pas se soigner de plus de 25% des PV Max.)"
+    },
+    {
+      "id": 2050411,
+      "name": "Agitation Non Tempérée",
+      "desc": "Au début de la phase de combat, si ciblé par 2 capacités ou plus, les capacités de cette unité gagnent +1 de Puissance de Base ; lorsque touché, inflige 1 Brûlure à l’attaquant. (5 fois par tour.)"
+    },
+    {
+      "id": 2080411,
+      "name": "Meurtre Parmi les Acclamations",
+      "desc": "En attaquant une cible avec moins de 30% de PV, les capacités de Colère infligent +20% de dégâts."
+    },
+    {
+      "id": 2110411,
+      "name": "Breath of the Hunt",
+      "desc": "Après un duel, gagne 2 Calme\nLorsque déséquilibré, gagne 2 Protection ; en se relevant, gagne 5 Calme"
+    },
+    {
+      "id": 2070311,
+      "name": "Décharge Capricieuse",
+      "desc": "Lorsque touché, dépense 1 de Compte de Charge pour regagne 2.5% des PV Max.\nÀ moins de 40% de PV, gagne 1 de Compte de Charge avant d’activer l’effet de soin. (Peut gagner jusqu’à 10 de Compte de Charge par tour)"
+    },
+    {
+      "id": 2120411,
+      "name": "Décharge Alternative",
+      "desc": "En touche avec une pièce Pile, dépense 2 de Compte de Charge pour donner +1 de Compte de Charge à un allié possesseur de Charge avec le plus bas Compte de Charge"
+    },
+    {
+      "id": 2010511,
+      "name": "Rayon de Soleil Après la Pluie",
+      "desc": "Au début du tour, tous les alliés regagnent 3 PSM"
+    },
+    {
+      "id": 2040311,
+      "name": "Toiles de l’Araignée",
+      "desc": "En duel gagné, inflige 1 Ralentissement au prochain tour. (3 fois par tour)"
+    },
+    {
+      "id": 2040411,
+      "name": "Prédateur",
+      "desc": "Si cette unité s’est soignée de plus de 10% de ses PV Max. ce tour, gagne 1 Bonus de Puissance Offensive au prochain tour."
+    },
+    {
+      "id": 2040511,
+      "name": "Canette Ouverte",
+      "desc": "En touche, si la cible a 5 [Sinking] ou plus, inflige 1 Malus de Puissance Défensive. (5 fois par tour)"
+    },
+    {
+      "id": 2060411,
+      "name": "Mouettes Piaillantes Des Mers Lointaines",
+      "desc": "Lorsqu’un ennemi est vaincu, l’allié avec le moins de PSM en regagne 1.\nChaque fois qu’un ennemi est vaincu, la quantité de PSM rendu augmente de 2. (Max 9)\nLa quantité est réinitialisée au début d’une nouvelle vague."
+    },
+    {
+      "id": 2100411,
+      "name": "Leurre Féérique",
+      "desc": "Après avoir vaincu un ennemi qui ciblait principalement cette unité au début de la phase de combat, regagne 3% des PV Max. + (Réson.-A de Gourmandise)% des PV Max."
+    },
+    {
+      "id": 2070411,
+      "name": "Dhyāna",
+      "desc": "Augmente les PV Max. de 15% des PV Max. de base de cette Identité en sortant de l’état de Déséquilibre.\nPuis, se soigne de 15% des PV Max. actuels. Si à moins de 30% des PV Max. actuels, se soigne de 25% à la place.\n(3 fois par Affrontement. À la Fin de l’Affrontement, retrouve ses PV Max. de base. Les valeurs actuelles de PV seront ajustées pour refléter le pourcentage de PV au moment de la Fin de l’Affrontement.)"
+    },
+    {
+      "id": 2050511,
+      "name": "Colère Restreinte",
+      "desc": "La capacité la plus à gauche de cette unité sur le Tableau de Bord perd 1 de Puissance de Base et gagne 2 de Puissance de Pièce.\nAu début du tour, si à -4 de Vitesse, gagne 1 Bonus de Puissance Contondante"
+    },
+    {
+      "id": 2020511,
+      "name": "Marque de Flamme",
+      "desc": "En Touche Pile avec une Capacité d’Affinité Luxure, inflige 1 Brûlure à la cible (6 fois par tour)"
+    },
+    {
+      "id": 2060511,
+      "name": "Boue Verte",
+      "desc": "Si touché à moins de 50% des PV, inflige 1 Déchirure à l’attaquant. (S’active (Plus grande Réson.-A de Gourmandise) fois par tour)"
+    },
+    {
+      "id": 2040611,
+      "name": "Devoreur de Rêves",
+      "desc": "En Critique avec une Capacité d’Affinité Orgueil, gagne 1 de Compte de Calme (3 fois par tour)"
+    },
+    {
+      "id": 2080511,
+      "name": "Voyage Émérite",
+      "desc": "À la fin du tour, inflige 5 Lourdeur à 1 autre allié avec le moins de PV ; applique 1 Accélération et 3 Bonus de Niveau Offensif au prochain tour"
+    },
+    {
+      "id": 2090411,
+      "name": "Crasse Collante",
+      "desc": "En Touche Pile avec une Capacité Perçante, inflige 1 Ralentissement (2 fois par tour)"
+    },
+    {
+      "id": 2100511,
+      "name": "Prophétie de la Ruine",
+      "desc": "En Touche Pile avec une Capacité d’Affinité Luxure, diminue de 4 les PSM de cette unité et de la cible.\n(Ne fonctionne pas sur les cibles sans Santé Mentale)\nGagne 5 ressources E.G.O. de Luxure en Tuant avec une Capacité d’Affinité Luxure"
+    },
+    {
+      "id": 2090511,
+      "name": "Condamnation d’en Haut",
+      "desc": "Chaque fois qu’un ennemi est Déséquilibré, l’allié avec le moins de pourcentage de PV regagne 4% de ses PV Max. (Une fois par tour)"
+    },
+    {
+      "id": 2070511,
+      "name": "Haine Infinie",
+      "desc": "Lorsque cette unité a un effet de statut positif ou négatif, et si la cible principale ou l’attaquant a un effet positif :\n- Inflige +1 d’Intensité de Brûlure, de Saignement, de Tremblement, de Déchirure et de Lourdeur à soi-même et aux ennemis avec des effets de Capacité ou des effets de Pièce\n- Gagne +1 de Compte de Calme et de Charge avec les effets de Capacité ou les effets de Pièces"
+    },
+    {
+      "id": 2110511,
+      "name": "Cadeaux Justes",
+      "desc": "En appliquant des effets positifs à d’autres alliés avec des effets de Capacité ou des effets de Pièce, choisi aléatoirement l’un des effets suivants : Brûlure, Saignement, Tremblement, Déchirure ou Lourdeur.\nPuis, inflige 1 d’Intensité de l’effet sélectionné à 1 ennemi aléatoire. (S’active 5 fois par Tour. Peut s’appliquer jusqu’à 5 fois par ennemi. Pour les Anomalies, appliqué à une Partie aléatoire.)"
+    },
+    {
+      "id": 2030511,
+      "name": "Pagode de Pierres Tombées",
+      "desc": "Gagne 2 Calme et +2 de Compte de Calme en vainquant un ennemi avec [Laceration] (3 fois par tour)"
+    },
+    {
+      "id": 2120511,
+      "name": "Couronne de Roses",
+      "desc": "Début du Tour : inflige 2 d’Intensité de Déchirure à un ennemi aléatoire (Dans les Affrontements Concentrés, toutes les parties)\nEn activant une Résonance Absolue, inflige 2 d’Intensité de Déchirure à tous les ennemis au Début du Combat"
+    },
+    {
+      "id": 2120611,
+      "name": "Si C’Était à Refaire...",
+      "desc": "Après l’Attaque : si la cible est vaincue après l’attaque de cette unité, gagne 1 ressource E.G.O. de la ressource E.G.O. la moins possédée.\nGagne 1 ressource E.G.O. pour chaque 5 (Intensité + Compte de [Sinking]) (3 max)\n(S’il y a 2 ou plus de \"ressource E.G.O. la moins possédée\", choisi aléatoirement 1 de ces Affinités pour gagner une ressource E.G.O.)"
+    },
+    {
+      "id": 2010611,
+      "name": "Passé Fracturé",
+      "desc": "Si la cible a 6 d’Intensité de [Sinking] ou plus, +1 de Puissance de Duel\nSi la cible a 4 de Compte de [Sinking] ou plus, +1 de Puissance de Duel"
+    },
+    {
+      "id": 2030611,
+      "name": "Cri Tempétueux",
+      "desc": "Si la cible est vaincu à la fin de la Capacité Tranchante ou d’Affinité d’Envie de cette unité, gagne 1 [Enhancement] au prochain tour (une fois par tour)"
+    },
+    {
+      "id": 2050611,
+      "name": "Câbles en Surchage",
+      "desc": "Début du Combat : à 4 de Réson. ou plus, gagne 2 [AttackUp] et 2 [DefenseUp].\nSi la Réson. était une Réson. d’Envie, applique également l’effet ci-dessus aux 2 unités adjacentes à cette unité sur le Tableau de Bord"
+    },
+    {
+      "id": 2070611,
+      "name": "Chaînes de Liens",
+      "desc": "- Début du Combat : à 4 de plus haute Réson. ou plus incluant les Capacités de cette unité, applique 3 [AttackUp] et 3 [DefenseUp] à soi et aux alliés ayant participé à cette Réson.\n- Si cette Réson. était une Réson.-A, applique 2 [AttackUp] et [DefenseUp] supplémentaires"
+    },
+    {
+      "id": 2110611,
+      "name": "Accueil Grandiose",
+      "desc": "Après une Attaque de cette unité : si la cible est Déséquilibrée ou vaincue, gagne +1 ressource E.G.O. d’Orgueil et +1 ressource E.G.O. d’une autre Affinité aléatoire (3 fois par tour)"
+    },
+    {
+      "id": 2080611,
+      "name": "Gourmandise",
+      "desc": "Si la cible principale a subi des dégâts de PV ce tour et n’est pas à PV max à l’Utilisation de Capacité :\nEn Touche,\n- Lorsque cette unité est à PV Max, inflige +5~+10% de dégâts supplémentaires.\n- Lorsque cette unité n’est pas à PV Max, se soigne de 2~5 PV. \n(7 fois par tour)",
+      "summary": "Si la cible n’est pas à PV max, inflige plus de dégâts ou se soigne En Touche"
+    },
+    {
+      "id": 2090611,
+      "name": "Obsession",
+      "desc": "La Capacité la plus à gauche sur le Tableau de Bord de cette unité inflige le double d’Intensité de [Laceration] (une fois par tour)",
+      "summary": "Cette Capacité inflige *2 d’Intensité de [Laceration]"
+    },
+    {
+      "id": 2060611,
+      "name": "Morosité",
+      "desc": "Lorsque cette unité utilise une Capacité qui déclenche un [VibrationExplosion] sur un ennemi, inflige 1 [AttackDown] et 2 [DefenseDown] sur l’ennemi au prochain tour. (3 fois par tour, inclut les Capacités E.G.O.)",
+      "summary": "En déclenchant un [VibrationExplosion], inflige 1 [AttackDown] et 2 [DefenseDown] au prochain tour"
+    },
+    {
+      "id": 2100611,
+      "name": "Film Lacrymal",
+      "desc": "Début du Tour : si cette unité a Bouclier, gagne 1 [Protection]\nSi cette unité est sous l’effet [ShieldManagerCryingToad], gagne 1 [Protection] supplémentaire",
+      "summary": "Si cette unité a Bouclier, gagne 1 [Protection]\nSi [ShieldManagerCryingToad] est actif, gagne 1 [Protection]"
+    },
+    {
+      "id": 2020611,
+      "name": "Temps de Fonctionnement",
+      "desc": "Lorsque cette unité utilise une Capacité pour déclencher un [VibrationExplosion] sur un ennemi, gagne 1 [Agility] au prochain tour. (4 fois par tour, inclut les Capacités E.G.O.)",
+      "summary": "En utilisant une Capacité pour déclencher un [VibrationExplosion] sur un ennemi, gagne 1 [Agility] au prochain tour. (4 fois par tour, inclut les Capacités E.G.O.)"
+    },
+    {
+      "id": 2040711,
+      "name": "Marque du Regard",
+      "desc": "Chaque fois que cette unité utilise une Capacité Offensive basique contre un ennemi, gagne 1 ressource E.G.O. supplémentaire d’une Affinité aléatoire la moins possédée et ne correspondant pas à l’Affinité de la Capacité Offensive utilisée (2 fois par tour)"
+    },
+    {
+      "id": 2070711,
+      "name": "Pendentif Écrasé",
+      "desc": "Début du Combat : à 3 de plus haute Réson. ou plus, gagne 3 [Breath]."
+    },
+    {
+      "id": 2110711,
+      "name": "Bougeotte",
+      "desc": "+5 Compte de [Charge] Max\nLes Capacités qui consomment du Compte de [Charge] infligent +2% de dégâts supplémentaires pour chaque ([Charge] - 1) (10% max)",
+      "summary": "Capacités qui consomment du Compte de [Charge] infligent plus de dégâts"
+    },
+    {
+      "id": 2120711,
+      "name": "Lamentation",
+      "desc": "Fin du Tour : si cette unité a un effet négatif, gagne 1 [Enhancement] au prochain tour\nEn attaquant des cibles qui sont soit en Panique, soit en Érosion E.G.O. : inflige +15% de dégâts supplémentaires",
+      "summary": ""
+    },
+    {
+      "id": 2080711,
+      "name": "Accueil d’Intrus",
+      "desc": "Si la cible possède [UninvitedGuestPersonality] ou tout autre effet de changement de Type de Panique, +1 de Puissance de Duel.\nEn Touche contre cette cible, rend 5 PSM à 1 allié avec le moins de PSM. (Une fois par tour)"
+    },
+    {
+      "id": 2020711,
+      "name": "Lasso Tentaculaire",
+      "desc": "Après l’Attaque, si la cible est Déséquilibrée ou vaincue, inflige +1 de Compte de [Burst] à 2 ennemis aléatoires (une fois par tour ; ne se cumule pas ; en Affrontements Concentrés, à 2 parties aléatoires)",
+      "summary": "Après l’Attaque, si la cible est Déséquilibrée ou vaincue, inflige +1 de Compte de [Burst] à 2 ennemis aléatoires"
+    },
+    {
+      "id": 2060711,
+      "name": "L’Heure de Chasser",
+      "desc": "Si un ennemi ou un allié est tué suite à des dégâts de [Burst] ou de [Laceration], inflige 2 [Snare] à un ennemi aléatoire et gagne 1 [Agility] au prochain tour (une fois par tour)"
+    },
+    {
+      "id": 2030711,
+      "name": "Fleurissement Pourpre Fléchissant",
+      "desc": "Chaque fois que 10 dégâts de [Laceration] ou plus ont lieu, se soigne de 1 PSM (10 par tour)"
+    },
+    {
+      "id": 2090711,
+      "name": "Piquet de Fer contre le Cœur",
+      "desc": "En infligeant du [Laceration] ou un ‘Saignement Unique’ à un ennemi avec des Capacités Offensives Basiques, inflige 1 [DefenseDown] (une fois par tour)\n- Si la cible a [Laceration] ou un ‘Saignement Unique’, inflige 2 [Laceration] supplémentaire (une fois par tour)\n\nSi un allié, incluant cette unité, subit des dégâts directs d’un ennemi, inflige 1 [Curse] à l’ennemi cible (2 fois par tour)",
+      "summary": ""
+    },
+    {
+      "id": 2100711,
+      "name": "Cachette Crasseuse",
+      "desc": "Début du Combat : si cette unité a un effet négatif, gagne 1 [ParryingResultUp] et 1 [Endurance]\n- Gagne 1 [Protection] pour chaque 3 effets négatifs sur soi (2 max)"
+    },
+    {
+      "id": 2050711,
+      "name": "Banquet Assoiffé de Sang",
+      "desc": "Lorsque cette unité inflige ou subit des dégâts de [Laceration], regagne des PV égaux aux dégâts de [Laceration] (10 max par tour)\n- En activant un effet de Capacité/Pièce qui inflige du [Laceration], si la cible a [RoseWedge], inflige 1 [Laceration] à la cible. (2 fois par tour)"
+    },
+    {
+      "id": 2010711,
+      "name": "Suivant",
+      "desc": "Après l’Attaque : si la cible est tuée, gagne +2 de Compte de [Breath] (2 fois par tour)"
+    },
+    {
+      "id": 2070811,
+      "name": "Cloche Brisée",
+      "desc": "Inflige de la [Vulnerable] ce tour aux ennemis touchés par un [VibrationExplosion] d’effets de Capacité, de Pièce ou de Passive.\n- Ne se cumule pas aux Dons E.G.O. qui infligent de la [Vulnerable] en déclenchant un Sursaut de Tremblement. (Si ces Dons E.G.O. ont été améliorés, soustrait la valeur de cet effet à la valeur finale avant de l’infliger.)",
+      "summary": "Inflige 1 [Vulnerable] en déclenchant un [VibrationExplosion]"
+    },
+    {
+      "id": 2080811,
+      "name": "Un Regard dans l’Ombre",
+      "desc": "Les alliés gagnent +1 de Compte de [Vibration] supplémentaire d’effets de Capacité ou de Pièce (2 fois par tour)\n- Si la cible de l’allié est Déséquilibrée, en Bas Moral ou en état de Panique, gagne +2 à la place\n- L’effet ne se cumule pas avec des Dons E.G.O. ayant le même effet"
+    },
+    {
+      "id": 2120811,
+      "name": "Nuit Insomniaque",
+      "desc": "Début du Combat : contre tous les ennemis, inflige 1 [AttackDown] ou 1 [DefenseDown] à tous les ennemis (# d’ennemis Déséquilibrés, en Bas Moral ou en état de Panique) fois. (2 fois par tour)\n- L’effet ne se cumule pas avec des Dons E.G.O. ayant le même effet"
+    },
+    {
+      "id": 2110811,
+      "name": "Sept Balles",
+      "desc": "- En Touche avec des Capacités Offensives de Base : inflige ([FreischutzShotCount] / 3) [Combustion] (3 fois par tour)\n- Pour l’Identité E.G.O. de Lobotomy::Tir Enchanté Outis, inflige ([FreischutzShotCount]) [Combustion] à la place (3 fois par tour)\n- Si la cible a 30 [Combustion] ou plus, inflige 1 [DarkFlame] au lieu de l’effet ci-dessus (2 fois par tour)"
+    },
+    {
+      "id": 2040811,
+      "name": "Respiration",
+      "desc": "Prochain Début de Tour après utilisation de cette Capacité E.G.O. : gagne 1 [NebulizerInhale] (une fois par tour)\n- Si cette Capacité a vaincu des ennemis, gagne du [NebulizerInhale] supplémentaire égal au nombre de cibles vaincues\n- Si cette Capacité a vaincu des alliés, gagne (cibles vaincues * 2) [NebulizerInhale] supplémentaires\n- Cette valeur se cumule au fil de l’Affrontement"
+    },
+    {
+      "id": 2020811,
+      "name": "Respiration",
+      "desc": "Prochain Début de Tour après utilisation de cette Capacité E.G.O. : gagne 1 [NebulizerExhale] (une fois par tour)\n- Cette valeur se cumule à travers l’Affrontement\n\nDébut du Combat : gagne 1 [NebulizerExhale] chaque fois que cette unité applique 10 de Compte de [Breath] aux alliés avec l’effet [NebulizerExhale]\n\nFin du Tour : en partant des alliés avec le plus faible pourcentage de PV, soigne (Instance [NebulizerExhale])% de PV à (plus haute Réson.) alliés (6 max)\n- Si l’unité recevant les soins a 20 d’Intensité de [Breath] ou plus, active le soin une nouvelle fois"
+    }
+  ]
+}
