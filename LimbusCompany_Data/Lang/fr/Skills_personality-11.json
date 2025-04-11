@@ -950,7 +950,7 @@
         {
           "level": 3,
           "name": "Contrôle d’Œuvre",
-          "desc": "Inflige +10% de dégâts supplémentaires pour chaque type d’effet négatif sur la cible (30% max)\n[WhenUse] Applique 1 [Agility] au prochain tour à 2 alliés adjacents à cette unité sur le Tableau de Bord",
+          "desc": "Inflige +10% de dégâts pour chaque type d’effet négatif sur la cible (30% max)\n[WhenUse] Applique 1 [Agility] au prochain tour à 2 alliés adjacents à cette unité sur le Tableau de Bord",
           "coinlist": [
             {},
             {
@@ -971,7 +971,7 @@
         {
           "level": 4,
           "name": "Contrôle d’Œuvre",
-          "desc": "Si la cible a 6 [Laceration] ou plus, +1 de Puissance de Pièce\nInflige +12.5% de dégâts supplémentaires pour chaque type d’effet négatif sur la cible (50% max)\n[WhenUse] Applique 1 [Agility] au prochain tour à 2 alliés adjacents à cette unité sur le Tableau de Bord",
+          "desc": "Si la cible a 6 [Laceration] ou plus, +1 de Puissance de Pièce\nInflige +12.5% de dégâts pour chaque type d’effet négatif sur la cible (50% max)\n[WhenUse] Applique 1 [Agility] au prochain tour à 2 alliés adjacents à cette unité sur le Tableau de Bord",
           "coinlist": [
             {},
             {
@@ -1472,7 +1472,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] À 10 [BloodScissorPersonalityFirst] ou plus, inflige +([BloodScissorPersonalityFirst] * 2)% de dégâts supplémentaires (38% max)\n- À 20 [BloodScissorPersonalityFirst] ou plus, inflige +([BloodScissorPersonalityFirst] * 3)% de dégâts supplémentaires à la place (90% max)"
+                  "desc": "[OnSucceedAttack] À 10 [BloodScissorPersonalityFirst] ou plus, inflige +([BloodScissorPersonalityFirst] * 2)% de dégâts (38% max)\n- À 20 [BloodScissorPersonalityFirst] ou plus, inflige +([BloodScissorPersonalityFirst] * 3)% de dégâts à la place (90% max)"
                 }
               ]
             }
@@ -1507,7 +1507,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] À 10 [BloodScissorPersonalityFirst] ou plus, inflige +([BloodScissorPersonalityFirst] * <style=\"highlight\">3</style>)% de dégâts supplémentaires (<style=\"highlight\">57</style>% max)\n- À 20 [BloodScissorPersonalityFirst] ou plus, inflige +([BloodScissorPersonalityFirst] * <style=\"highlight\">4</style>)% de dégâts supplémentaires à la place (<style=\"highlight\">120</style>% max)"
+                  "desc": "[OnSucceedAttack] À 10 [BloodScissorPersonalityFirst] ou plus, inflige +([BloodScissorPersonalityFirst] * <style=\"highlight\">3</style>)% de dégâts (<style=\"highlight\">57</style>% max)\n- À 20 [BloodScissorPersonalityFirst] ou plus, inflige +([BloodScissorPersonalityFirst] * <style=\"highlight\">4</style>)% de dégâts à la place (<style=\"highlight\">120</style>% max)"
                 }
               ]
             }
@@ -1634,7 +1634,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "À 10 de Vitesse ou plus, inflige +10% de dégâts supplémentaires"
+                  "desc": "À 10 de Vitesse ou plus, inflige +10% de dégâts"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
@@ -1658,7 +1658,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "À 10 de Vitesse ou plus, inflige +<style=\"highlight\">20</style>% de dégâts supplémentaires"
+                  "desc": "À 10 de Vitesse ou plus, inflige +<style=\"highlight\">20</style>% de dégâts"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
@@ -1685,7 +1685,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "À 10 de Vitesse ou plus, inflige +<style=\"highlight\">30</style>% de dégâts supplémentaires"
+                  "desc": "À 10 de Vitesse ou plus, inflige +<style=\"highlight\">30</style>% de dégâts"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
@@ -1702,7 +1702,7 @@
         {
           "level": 3,
           "name": "Lame de Boucher Gravée de Malédiction",
-          "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible, inflige (différence de Vitesse * Intensité de [Burst] sur la cible)% de dégâts supplémentaires (50% max)\nSi la Vitesse de cette unité est plus rapide que celle de la cible de 2 ou plus, +1 de Puissance de Pièce\n[WhenUse] Gagne 3 [LegStrength]\n[OnDirectAttack] Inflige +2 de Compte de [Burst]",
+          "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible, inflige +(différence de Vitesse * Intensité de [Burst] sur la cible)% de dégâts (50% max)\nSi la Vitesse de cette unité est plus rapide que celle de la cible de 2 ou plus, +1 de Puissance de Pièce\n[WhenUse] Gagne 3 [LegStrength]\n[OnDirectAttack] Inflige +2 de Compte de [Burst]",
           "coinlist": [
             {
               "coindescs": [
@@ -1736,7 +1736,7 @@
         {
           "level": 4,
           "name": "Lame de Boucher Gravée de Malédiction",
-          "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible, inflige (différence de Vitesse * Intensité de [Burst] sur la cible)% de dégâts supplémentaires (50% max)\n<style=\"highlight\">Si la Vitesse de cette unité est plus rapide que celle de la cible, gagne de la Puissance de Pièce selon la différence de Vitesse (+1 de Puissance de Pièce pour chaque 2 différences de Vitesse ; 2 max)\n[WhenUse] Si la cible a 15 [Burst] ou plus, +1 de Puissance de Pièce</style>\n[WhenUse] Gagne 3 [LegStrength]\n[OnDirectAttack] Inflige +2 de Compte de [Burst]",
+          "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible, inflige +(différence de Vitesse * Intensité de [Burst] sur la cible)% de dégâts (50% max)\n<style=\"highlight\">Si la Vitesse de cette unité est plus rapide que celle de la cible, gagne de la Puissance de Pièce selon la différence de Vitesse (+1 de Puissance de Pièce pour chaque 2 différences de Vitesse ; 2 max)\n[WhenUse] Si la cible a 15 [Burst] ou plus, +1 de Puissance de Pièce</style>\n[WhenUse] Gagne 3 [LegStrength]\n[OnDirectAttack] Inflige +2 de Compte de [Burst]",
           "coinlist": [
             {
               "coindescs": [

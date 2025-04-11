@@ -119,22 +119,22 @@
     {
       "id": 9415,
       "name": "Délaissement",
-      "desc": "Lorsqu’un allié attaque un ennemi avec [Laceration] avec une Capacité qui inflige de l’Intensité ou du Compte de [Laceration] ou un “Saignement Unique”, inflige +15% de dégâts supplémentaires à la cible.\n\nSi la cible a 33%- de PV, inflige +25% de dégâts supplémentaires contre la cible à la place.",
+      "desc": "Lorsqu’un allié attaque un ennemi avec [Laceration] avec une Capacité qui inflige de l’Intensité ou du Compte de [Laceration] ou un “Saignement Unique”, inflige +15% de dégâts à la cible.\n\nSi la cible a 33% de PV ou moins, inflige +25% de dégâts contre la cible à la place.",
       "simpleDesc": [
         {
           "abilityID": 9415,
-          "simpleDesc": "Inflige +15% de dégâts supplémentaires"
+          "simpleDesc": "Inflige +15% de dégâts"
         },
         {
           "abilityID": 94151,
-          "simpleDesc": "Inflige +25% de dégâts supplémentaires"
+          "simpleDesc": "Inflige +25% de dégâts"
         }
       ]
     },
     {
       "id": 9416,
       "name": "Chasteté",
-      "desc": "Si l’allié gagne un Duel avec une Capacité qui inflige de l’Intensité ou du Compte de [Laceration] ou un “Saignement Unique”, inflige 2~3 [NailPersonality].\n\nSi l’allié est un “Fanatique de la N Corp.”, gagne 1 de Fanatique au Début du Tour et inflige +25% de dégâts supplémentaires contre des cibles avec [Laceration].\n\nActive un effet spécial s’il y a 5 Identités “Fanatiques de la N Corp.” ou plus (ne compte que les Identités sur le terrain au Début de l’Affrontement) :\n- Les Identités “Fanatiques de la N Corp.” gagnent +1 de Puissance Finale, +1 de Puissance de Pièce Positive, -1 de Puissance de Pièce Négative et les Capacités Offensives infligent +1 [NailPersonality] supplémentaire. Si une Identité “Fanatique de la N Corp.” est à PSM max au Début du Tour, gagne 3 [AttackDmgUp].",
+      "desc": "Si l’allié gagne un Duel avec une Capacité qui inflige de l’Intensité ou du Compte de [Laceration] ou un “Saignement Unique”, inflige 2~3 [NailPersonality].\n\nSi l’allié est un “Fanatique de la N Corp.”, gagne 1 de Fanatique au Début du Tour et inflige +25% de dégâts contre des cibles avec [Laceration].\n\nActive un effet spécial s’il y a 5 Identités “Fanatiques de la N Corp.” ou plus (ne compte que les Identités sur le terrain au Début de l’Affrontement) :\n- Les Identités “Fanatiques de la N Corp.” gagnent +1 de Puissance Finale, +1 de Puissance de Pièce Positive, -1 de Puissance de Pièce Négative et les Capacités Offensives infligent +1 [NailPersonality] supplémentaire. Si une Identité “Fanatique de la N Corp.” est à PSM max au Début du Tour, gagne 3 [AttackDmgUp].",
       "simpleDesc": [
         {
           "abilityID": 9416,
@@ -142,7 +142,7 @@
         },
         {
           "abilityID": 94161,
-          "simpleDesc": "Les Identités “Fanatiques de la N Corp.” infligent +25% de dégâts supplémentaires en attaquant un ennemi"
+          "simpleDesc": "Les Identités “Fanatiques de la N Corp.” infligent +25% de dégâts en attaquant un ennemi"
         },
         {
           "abilityID": 94162,
@@ -194,7 +194,7 @@
     {
       "id": 9424,
       "name": "Lettre Non Envoyée",
-      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées #1 et #2]\n\nEn gagnant un Duel avec une Capacité Offensive qui inflige de l’Intensité ou du Compte de [Burst], inflige 5 d’Intensité de [Burst] et +3 de Compte de [Burst] à la cible. (une fois par tour par Identité)\n\nEn affrontant en Duel un ennemi avec une Vitesse plus petite, gagne +1 de Puissance Finale et inflige +25% de dégâts supplémentaires.\n\nEn gagnant un Duel contre un ennemi avec du [AttackUp], gagne 3 [AttackUp] pour le prochain tour et inflige 3 [AttackDown] à l’ennemi ayant perdu le Duel (valeur absolue : 9)",
+      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées #1 et #2]\n\nEn gagnant un Duel avec une Capacité Offensive qui inflige de l’Intensité ou du Compte de [Burst], inflige 5 d’Intensité de [Burst] et +3 de Compte de [Burst] à la cible. (une fois par tour par Identité)\n\nEn affrontant en Duel un ennemi avec une Vitesse plus petite, gagne +1 de Puissance Finale et inflige +25% de dégâts.\n\nEn gagnant un Duel contre un ennemi avec du [AttackUp], gagne 3 [AttackUp] pour le prochain tour et inflige 3 [AttackDown] à l’ennemi ayant perdu le Duel (valeur absolue : 9)",
       "simpleDesc": [
         {
           "abilityID": 9424,
@@ -202,7 +202,7 @@
         },
         {
           "abilityID": 94241,
-          "simpleDesc": "+1 de Puissance Finale, inflige +25% de dégâts supplémentaires"
+          "simpleDesc": "+1 de Puissance Finale, inflige +25% de dégâts"
         },
         {
           "abilityID": 94242,

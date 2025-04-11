@@ -295,7 +295,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a [Laceration], inflige +(somme de l’Intensité et du Compte de [Laceration] sur la cible)% de dégâts supplémentaires (20% max)"
+                  "desc": "[OnSucceedAttack] Si la cible a [Laceration], inflige +(somme de l’Intensité et du Compte de [Laceration] sur la cible)% de dégâts (20% max)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige (1 + (plus haute Réson. * 1.5)) [Laceration] (10 max, arrondi à l’inférieur)"
@@ -316,7 +316,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a [Laceration], inflige +(somme de l’Intensité et du Compte de [Laceration] sur la cible)% de dégâts supplémentaires (<style=\"highlight\">40%</style> max)"
+                  "desc": "[OnSucceedAttack] Si la cible a [Laceration], inflige +(somme de l’Intensité et du Compte de [Laceration] sur la cible)% de dégâts (<style=\"highlight\">40%</style> max)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">(3 + (plus haute Réson. * 2))</style> [Laceration] (<style=\"highlight\">15</style> max, arrondi à l’inférieur)"
@@ -337,7 +337,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a [Laceration], inflige +(somme de l’Intensité et du Compte de [Laceration] sur la cible)% de dégâts supplémentaires (<style=\"highlight\">60%</style> max)"
+                  "desc": "[OnSucceedAttack] Si la cible a [Laceration], inflige +(somme de l’Intensité et du Compte de [Laceration] sur la cible)% de dégâts (<style=\"highlight\">60%</style> max)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">(10 + (plus haute Réson. * 2.5))</style> [Laceration] (<style=\"highlight\">25</style> max, arrondi à l’inférieur)"
@@ -380,7 +380,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">Inflige +(Intensité + Compte de [Breath])% de dégâts supplémentaires en Touche Critique (20% max)</style>"
+                  "desc": "<style=\"highlight\">Inflige +(Intensité + Compte de [Breath])% de dégâts en Touche Critique (20% max)</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Gagne 2 [HoldingBreath] (une fois par tour)"
@@ -399,7 +399,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Inflige +(Intensité + Compte de [Breath])% de dégâts supplémentaires en Touche Critique (<style=\"highlight\">40%</style> max)"
+                  "desc": "Inflige +(Intensité + Compte de [Breath])% de dégâts en Touche Critique (<style=\"highlight\">40%</style> max)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Gagne <style=\"highlight\">4</style> [HoldingBreath] (une fois par tour)"
@@ -417,7 +417,7 @@
           "level": 1,
           "name": "Thoracalgie",
           "abName": "Sac de Couchage d’un Jour d’Antan",
-          "desc": "[CantIdentify]\nPriorise les cibles avec le moins de PV (priorise les alliés)\nSi un allié est l’une des cibles de cette Capacité, inflige +30% de dégâts supplémentaires\n\n[BeforeAttack] À moins de 15 [Breath], consomme 10% de PV pour gagner 5 [Breath] et +5 de Compte de [Breath]\n- Ne peut pas être Déséquilibrée ou vaincue suite à cet effet\n\n[EndSkill] Si la cible est vaincue, gagne 2 [HoldingBreath] au prochain tour. (une fois par tour) Si cette cible était un allié, active également l’effet suivant :\n- Les alliés qui participent ou Rejoignent cet Affrontement suite aux alliés vaincus gagnent 2 [Breath] et +2 de Compte de [Breath]",
+          "desc": "[CantIdentify]\nPriorise les cibles avec le moins de PV (priorise les alliés)\nSi un allié est l’une des cibles de cette Capacité, inflige +30% de dégâts\n\n[BeforeAttack] À moins de 15 [Breath], consomme 10% de PV pour gagner 5 [Breath] et +5 de Compte de [Breath]\n- Ne peut pas être Déséquilibrée ou vaincue suite à cet effet\n\n[EndSkill] Si la cible est vaincue, gagne 2 [HoldingBreath] au prochain tour. (une fois par tour) Si cette cible était un allié, active également l’effet suivant :\n- Les alliés qui participent ou Rejoignent cet Affrontement suite aux alliés vaincus gagnent 2 [Breath] et +2 de Compte de [Breath]",
           "coinlist": [
             {},
             {
@@ -433,13 +433,13 @@
           "level": 3,
           "name": "Thoracalgie",
           "abName": "Sac de Couchage d’un Jour d’Antan",
-          "desc": "[CantIdentify]\nPriorise les cibles avec le moins de PV (priorise les alliés)\nSi un allié est l’une des cibles de cette Capacité, inflige +30% de dégâts supplémentaires\n\n[BeforeAttack] À moins de 15 [Breath], consomme 10% de PV pour gagner 5 [Breath] et +5 de Compte de [Breath]\n- Ne peut pas être Déséquilibrée ou vaincue suite à cet effet\n<style=\"highlight\">- Gagne 1 [Breath] pour chaque allié cible par cette Capacité (2 max)</style>\n\n[EndSkill] Si la cible est vaincue, gagne 2 [HoldingBreath] au prochain tour. (une fois par tour) Si cette cible était un allié, active également l’effet suivant :\n- Les alliés qui participent ou Rejoignent cet Affrontement suite aux alliés vaincus gagnent <style=\"highlight\">4</style> [Breath] et +2 de Compte de [Breath]\n<style=\"highlight\">- Regagne la moitié des PSM utilisés par cette Capacité</style>",
+          "desc": "[CantIdentify]\nPriorise les cibles avec le moins de PV (priorise les alliés)\nSi un allié est l’une des cibles de cette Capacité, inflige +30% de dégâts\n\n[BeforeAttack] À moins de 15 [Breath], consomme 10% de PV pour gagner 5 [Breath] et +5 de Compte de [Breath]\n- Ne peut pas être Déséquilibrée ou vaincue suite à cet effet\n<style=\"highlight\">- Gagne 1 [Breath] pour chaque allié cible par cette Capacité (2 max)</style>\n\n[EndSkill] Si la cible est vaincue, gagne 2 [HoldingBreath] au prochain tour. (une fois par tour) Si cette cible était un allié, active également l’effet suivant :\n- Les alliés qui participent ou Rejoignent cet Affrontement suite aux alliés vaincus gagnent <style=\"highlight\">4</style> [Breath] et +2 de Compte de [Breath]\n<style=\"highlight\">- Regagne la moitié des PSM utilisés par cette Capacité</style>",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">Inflige +(Intensité + Compte de [Breath])% de dégâts supplémentaires en Touche Critique (20% max)</style>"
+                  "desc": "<style=\"highlight\">Inflige +(Intensité + Compte de [Breath])% de dégâts en Touche Critique (20% max)</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Gagne 4 [HoldingBreath] (une fois par tour)"
@@ -452,13 +452,13 @@
           "level": 4,
           "name": "Thoracalgie",
           "abName": "Sac de Couchage d’un Jour d’Antan",
-          "desc": "[CantIdentify]\nPriorise les cibles avec le moins de PV (priorise les alliés)\nSi un allié est l’une des cibles de cette Capacité, inflige +30% de dégâts supplémentaires\n\n[BeforeAttack] À moins de 15 [Breath], consomme 10% de PV pour gagner 5 [Breath] et +5 de Compte de [Breath]\n- Ne peut pas être Déséquilibrée ou vaincue suite à cet effet\n- Gagne <style=\"highlight\">2</style> [Breath] pour chaque allié ciblé par cette Capacité (<style=\"highlight\">4</style> max)\n\n[EndSkill] Si la cible est vaincue, gagne 3 [HoldingBreath] au prochain tour. (une fois par tour) Si cette cible était un allié, active également l’effet suivant :\n- Les alliés qui participent ou Rejoignent cet Affrontement suite aux alliés vaincus gagnent 4 [Breath] et +<style=\"highlight\">4</style> de Compte de [Breath]\n<style=\"highlight\">- Regagne les PSM utilisés par cette Capacité et regagne 1 de chaque ressource E.G.O. consommée</style>",
+          "desc": "[CantIdentify]\nPriorise les cibles avec le moins de PV (priorise les alliés)\nSi un allié est l’une des cibles de cette Capacité, inflige +30% de dégâts\n\n[BeforeAttack] À moins de 15 [Breath], consomme 10% de PV pour gagner 5 [Breath] et +5 de Compte de [Breath]\n- Ne peut pas être Déséquilibrée ou vaincue suite à cet effet\n- Gagne <style=\"highlight\">2</style> [Breath] pour chaque allié ciblé par cette Capacité (<style=\"highlight\">4</style> max)\n\n[EndSkill] Si la cible est vaincue, gagne 3 [HoldingBreath] au prochain tour. (une fois par tour) Si cette cible était un allié, active également l’effet suivant :\n- Les alliés qui participent ou Rejoignent cet Affrontement suite aux alliés vaincus gagnent 4 [Breath] et +<style=\"highlight\">4</style> de Compte de [Breath]\n<style=\"highlight\">- Regagne les PSM utilisés par cette Capacité et regagne 1 de chaque ressource E.G.O. consommée</style>",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "Inflige +(Intensité + Compte de [Breath])% de dégâts supplémentaires en Touche Critique (<style=\"highlight\">40%</style> max)"
+                  "desc": "Inflige +(Intensité + Compte de [Breath])% de dégâts en Touche Critique (<style=\"highlight\">40%</style> max)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Gagne <style=\"highlight\">7</style> [HoldingBreath] (une fois par tour)"

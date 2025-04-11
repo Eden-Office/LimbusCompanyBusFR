@@ -50,7 +50,7 @@
         {
           "level": 1,
           "name": "Passer au Travers",
-          "desc": "[WhenUse] Gagne 2 [Breath]\n[WhenUse] À 10 [Breath] ou plus, +1 de Puissance de Base\n[WhenUse] +1 de Puissance de Pièce tous les 5 de Compte de [Breath] sur soi (2 max)\n[WinDuel] Cette Capacité Offensive inflige +50% de dégâts supplémentaires en Touche Critique",
+          "desc": "[WhenUse] Gagne 2 [Breath]\n[WhenUse] À 10 [Breath] ou plus, +1 de Puissance de Base\n[WhenUse] +1 de Puissance de Pièce tous les 5 de Compte de [Breath] sur soi (2 max)\n[WinDuel] Cette Capacité Offensive inflige +50% de dégâts en Touche Critique",
           "coinlist": [
             {
               "coindescs": [
@@ -143,7 +143,7 @@
                   "desc": "Cette Pièce inflige des dégâts uniquement à la cible principale"
                 },
                 {
-                  "desc": "Si la cible a [FellBulletMark], inflige +100% de dégâts supplémentaires"
+                  "desc": "Si la cible a [FellBulletMark], inflige +100% de dégâts"
                 },
                 {
                   "desc": "[OnSucceedAttack] Si la cible a [FellBulletMark], gagne 10 [Breath] au prochain tour"
@@ -278,7 +278,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Inflige (Intensité de [Breath])% de dégâts supplémentaires en Touche Critique"
+                  "desc": "Inflige (Intensité de [Breath])% de dégâts en Touche Critique"
                 }
               ]
             }
@@ -336,7 +336,7 @@
         {
           "level": 1,
           "name": "Partager la Douleur",
-          "desc": "[WhenUse] +1 de Puissance Finale tous les 8 d’Intensité de [Breath] sur soi (5 max)\n[WhenUse] +1 de Puissance de Pièce tous les 8 de Compte de [Breath] sur soi (5 max)\n[DefeatDuel] Inflige -75% de dégâts en moins et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible\n[EndSkill] Réduit de moitié l’Intensité et le Compte de [Breath] sur soi",
+          "desc": "[WhenUse] +1 de Puissance Finale tous les 8 d’Intensité de [Breath] sur soi (5 max)\n[WhenUse] +1 de Puissance de Pièce tous les 8 de Compte de [Breath] sur soi (5 max)\n[DefeatDuel] Inflige -75% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible\n[EndSkill] Réduit de moitié l’Intensité et le Compte de [Breath] sur soi",
           "coinlist": [
             {
               "coindescs": [
@@ -364,7 +364,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Inflige +(Intensité de [Breath] + Compte de [Breath])% de dégâts supplémentaires en Touche Critique"
+                  "desc": "Inflige +(Intensité de [Breath] + Compte de [Breath])% de dégâts en Touche Critique"
                 }
               ]
             }

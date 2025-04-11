@@ -895,7 +895,7 @@
         {
           "level": 3,
           "name": "Pupille",
-          "desc": "[WhenUse] Gagne 1 [DefenseUp] pour chaque 2 de Compte de [Vibration] sur soi (3 max)\n[WhenUse] Si cette unité est en [DefensiveStance], inflige +50% de dégâts supplémentaires\n[WhenUse] +1 de Puissance de Pièce pour chaque 4 [DefenseUp] sur soi (2 max)\n[WhenUse] Gagne +8 d’[Aggro] à cet Emplacement de Capacité au prochain tour\n[WinDuel] Gagne +3 de Compte de [Vibration]",
+          "desc": "[WhenUse] Gagne 1 [DefenseUp] pour chaque 2 de Compte de [Vibration] sur soi (3 max)\n[WhenUse] Si cette unité est en [DefensiveStance], inflige +50% de dégâts\n[WhenUse] +1 de Puissance de Pièce pour chaque 4 [DefenseUp] sur soi (2 max)\n[WhenUse] Gagne +8 d’[Aggro] à cet Emplacement de Capacité au prochain tour\n[WinDuel] Gagne +3 de Compte de [Vibration]",
           "coinlist": [
             {
               "coindescs": [
@@ -914,7 +914,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Consomme tout le Compte de [Vibration] sur soi et inflige la valeur du Compte consommé en [Vibration] sur la cible. (10 max)\n- Inflige +([Vibration] en excès * 1.5)% de dégâts supplémentaires (30% max)"
+                  "desc": "[OnSucceedAttack] Consomme tout le Compte de [Vibration] sur soi et inflige la valeur du Compte consommé en [Vibration] sur la cible. (10 max)\n- Inflige +([Vibration] en excès * 1.5)% de dégâts (30% max)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible"
@@ -929,7 +929,7 @@
         {
           "level": 4,
           "name": "Pupille",
-          "desc": "[WhenUse] Gagne 1 [DefenseUp] pour chaque 2 de Compte de [Vibration] sur soi (<style=\"highlight\">5</style> max)\n[WhenUse] Si cette unité est en [DefensiveStance], inflige +<style=\"highlight\">70</style>% de dégâts supplémentaires\n[WhenUse] +1 de Puissance de Pièce pour chaque 4 [DefenseUp] sur soi (<style=\"highlight\">4</style> max)\n[WhenUse] Gagne +<style=\"highlight\">10</style> d’[Aggro] à cet Emplacement de Capacité au prochain tour\n[WinDuel] Gagne +3 de Compte de [Vibration]",
+          "desc": "[WhenUse] Gagne 1 [DefenseUp] pour chaque 2 de Compte de [Vibration] sur soi (<style=\"highlight\">5</style> max)\n[WhenUse] Si cette unité est en [DefensiveStance], inflige +<style=\"highlight\">70</style>% de dégâts\n[WhenUse] +1 de Puissance de Pièce pour chaque 4 [DefenseUp] sur soi (<style=\"highlight\">4</style> max)\n[WhenUse] Gagne +<style=\"highlight\">10</style> d’[Aggro] à cet Emplacement de Capacité au prochain tour\n[WinDuel] Gagne +3 de Compte de [Vibration]",
           "coinlist": [
             {
               "coindescs": [
@@ -948,7 +948,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Consomme tout le Compte de [Vibration] sur soi et inflige la valeur du Compte consommé en [Vibration] sur la cible. (<style=\"highlight\">20</style> max)\n- Inflige +([Vibration] en excès * <style=\"highlight\">5</style>)% de dégâts supplémentaires (<style=\"highlight\">50</style>% max)"
+                  "desc": "[OnSucceedAttack] Consomme tout le Compte de [Vibration] sur soi et inflige la valeur du Compte consommé en [Vibration] sur la cible. (<style=\"highlight\">20</style> max)\n- Inflige +([Vibration] en excès * <style=\"highlight\">5</style>)% de dégâts (<style=\"highlight\">50</style>% max)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit de 1 le Compte de [Vibration] de la cible"
@@ -1049,7 +1049,7 @@
         {
           "level": 4,
           "name": "Nettoyer",
-          "desc": "<style=\"highlight\">+1 de Puissance de Pièce tous les 6 [Laceration] sur la cible (2 max)\nInflige +10% de dégâts supplémentaires pour chaque type d’effet négatif sur la cible (30% max)</style>",
+          "desc": "<style=\"highlight\">+1 de Puissance de Pièce tous les 6 [Laceration] sur la cible (2 max)\nInflige +10% de dégâts pour chaque type d’effet négatif sur la cible (30% max)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1126,7 +1126,7 @@
         {
           "level": 4,
           "name": "Lame Affûtée",
-          "desc": "<style=\"highlight\">+1 de Puissance de Pièce tous les 6 [Laceration] sur la cible (2 max)\nInflige +10% de dégâts supplémentaires pour chaque type d’effet négatif sur la cible (50% max)</style>\n[StartBattle] À 2 autres Identités alliées du Clan Kurokumo avec la plus haute Vitesse : applique 2 [AttackDmgUp] (une fois par tour)\n- S’il y a 6 alliés du Clan Kurokumo ou plus, incluant cette unité, applique 4 [AttackDmgUp] à 5 alliés à la place",
+          "desc": "<style=\"highlight\">+1 de Puissance de Pièce tous les 6 [Laceration] sur la cible (2 max)\nInflige +10% de dégâts pour chaque type d’effet négatif sur la cible (50% max)</style>\n[StartBattle] À 2 autres Identités alliées du Clan Kurokumo avec la plus haute Vitesse : applique 2 [AttackDmgUp] (une fois par tour)\n- S’il y a 6 alliés du Clan Kurokumo ou plus, incluant cette unité, applique 4 [AttackDmgUp] à 5 alliés à la place",
           "coinlist": [
             {
               "coindescs": [
@@ -1208,7 +1208,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">Inflige +10% de dégâts supplémentaires pour chaque type d’effet négatif sur la cible (100% max)</style>"
+                  "desc": "<style=\"highlight\">Inflige +10% de dégâts pour chaque type d’effet négatif sur la cible (100% max)</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Active 3 fois le [Laceration] de la cible ; puis, réduit son Compte de [Laceration] de 3"

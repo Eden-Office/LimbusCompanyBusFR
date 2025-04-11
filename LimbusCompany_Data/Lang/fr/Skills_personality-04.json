@@ -1495,7 +1495,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Inflige +2.5% de dégâts supplémentaires pour chaque [RedEyeFirst] et [PenanceFirst] consommés (100% max)"
+                  "desc": "Inflige +2.5% de dégâts pour chaque [RedEyeFirst] et [PenanceFirst] consommés (100% max)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Soigne 1 allié avec le plus pourcentage de PV et soi-même de ([PenanceFirst] consommée / 2)% des PV max de chaque unité\n- Soigne 1 allié supplémentaire pour chaque 2 plus haute Réson. (2 alliés de plus max)"
@@ -1526,7 +1526,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Inflige <style=\"highlight\">+4%</style> de dégâts supplémentaires pour chaque [RedEyeFirst] et [PenanceFirst] consommés (<style=\"highlight\">160%</style> max)"
+                  "desc": "Inflige <style=\"highlight\">+4%</style> de dégâts pour chaque [RedEyeFirst] et [PenanceFirst] consommés (<style=\"highlight\">160%</style> max)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Soigne 1 allié avec le plus pourcentage de PV et soi-même de <style=\"highlight\">([PenanceFirst] consommée)%</style> des PV max de chaque unité\n- Soigne 1 allié supplémentaire pour chaque 2 plus haute Réson. (2 alliés de plus max)"
@@ -1623,7 +1623,7 @@
         {
           "level": 1,
           "name": "Comme Écrit",
-          "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible, inflige (différence de Vitesse * Intensité de [Burst] sur la cible)% de dégâts supplémentaires (50% max)\n[WhenUse] Si la cible a 6 [Burst] ou plus, +1 de Puissance de Pièce",
+          "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible, inflige +(différence de Vitesse * Intensité de [Burst] sur la cible)% de dégâts (50% max)\n[WhenUse] Si la cible a 6 [Burst] ou plus, +1 de Puissance de Pièce",
           "coinlist": [
             {
               "coindescs": [
@@ -1635,7 +1635,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "À 10 de Vitesse ou plus, inflige +10% de dégâts supplémentaires"
+                  "desc": "À 10 de Vitesse ou plus, inflige +10% de dégâts"
                 }
               ]
             }
@@ -1644,7 +1644,7 @@
         {
           "level": 2,
           "name": "Comme Écrit",
-          "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible, inflige (différence de Vitesse * Intensité de [Burst] sur la cible)% de dégâts supplémentaires (50% max)\n[WhenUse] Si la cible a <style=\"highlight\">4</style> [Burst] ou plus, +1 de Puissance de Pièce\n<style=\"highlight\">[WhenUse] Gagne 2 [Agility] au prochain tour (une fois par tour)\n[WinDuel] Inflige +1 de Compte de [Burst]</style>",
+          "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible, inflige +(différence de Vitesse * Intensité de [Burst] sur la cible)% de dégâts (50% max)\n[WhenUse] Si la cible a <style=\"highlight\">4</style> [Burst] ou plus, +1 de Puissance de Pièce\n<style=\"highlight\">[WhenUse] Gagne 2 [Agility] au prochain tour (une fois par tour)\n[WinDuel] Inflige +1 de Compte de [Burst]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1659,7 +1659,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "À 10 de Vitesse ou plus, inflige +<style=\"highlight\">20</style>% de dégâts supplémentaires"
+                  "desc": "À 10 de Vitesse ou plus, inflige +<style=\"highlight\">20</style>% de dégâts"
                 }
               ]
             }
@@ -1668,7 +1668,7 @@
         {
           "level": 4,
           "name": "Comme Écrit",
-          "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible, inflige (différence de Vitesse * Intensité de [Burst] sur la cible)% de dégâts supplémentaires (50% max)\n<style=\"highlight\">Si la Vitesse de cette unité est plus rapide que celle de la cible de 3 ou plus, +1 de Puissance de Pièce</style>\n[WhenUse] Si la cible a 4 [Burst] ou plus, +1 de Puissance de Pièce\n[WhenUse] Gagne 2 [Agility] au prochain tour (une fois par tour)\n[WinDuel] Inflige +1 de Compte de [Burst]",
+          "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible, inflige +(différence de Vitesse * Intensité de [Burst] sur la cible)% de dégâts (50% max)\n<style=\"highlight\">Si la Vitesse de cette unité est plus rapide que celle de la cible de 3 ou plus, +1 de Puissance de Pièce</style>\n[WhenUse] Si la cible a 4 [Burst] ou plus, +1 de Puissance de Pièce\n[WhenUse] Gagne 2 [Agility] au prochain tour (une fois par tour)\n[WinDuel] Inflige +1 de Compte de [Burst]",
           "coinlist": [
             {
               "coindescs": [
@@ -1683,7 +1683,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "À 10 de Vitesse ou plus, inflige +<style=\"highlight\">30</style>% de dégâts supplémentaires"
+                  "desc": "À 10 de Vitesse ou plus, inflige +<style=\"highlight\">30</style>% de dégâts"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 1 [Burst]</style>"
@@ -1700,7 +1700,7 @@
         {
           "level": 3,
           "name": "Je t’étriperai avec une lame gravée de malédiction",
-          "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible, inflige (différence de Vitesse * Intensité de [Burst] sur la cible)% de dégâts supplémentaires (50% max)\nSi la Vitesse de cette unité est plus rapide que celle de la cible de 2 ou plus, +1 de Puissance de Pièce\n[WhenUse] Gagne 3 [LegStrength]\n[WinDuel] Inflige +2 de Compte de [Burst]",
+          "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible, inflige +(différence de Vitesse * Intensité de [Burst] sur la cible)% de dégâts (50% max)\nSi la Vitesse de cette unité est plus rapide que celle de la cible de 2 ou plus, +1 de Puissance de Pièce\n[WhenUse] Gagne 3 [LegStrength]\n[WinDuel] Inflige +2 de Compte de [Burst]",
           "coinlist": [
             {
               "coindescs": [
@@ -1722,7 +1722,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "À 10 de Vitesse ou plus, inflige +30% de dégâts supplémentaires"
+                  "desc": "À 10 de Vitesse ou plus, inflige +30% de dégâts"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
@@ -1737,7 +1737,7 @@
         {
           "level": 4,
           "name": "Je t’étriperai avec une lame gravée de malédiction",
-          "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible, inflige (différence de Vitesse * Intensité de [Burst] sur la cible)% de dégâts supplémentaires (50% max)\nSi la Vitesse de cette unité est plus rapide que celle de la cible, <style=\"highlight\">gagne de la Puissance de Pièce selon la différence de Vitesse (+1 de Puissance de Pièce pour chaque 2 différences de Vitesse ; 2 max)\n[WhenUse] Si la cible a 15 [Burst] ou plus, +1 de Puissance de Pièce</style>\n[WhenUse] Gagne 3 [LegStrength]\n[WinDuel] Inflige +2 de Compte de [Burst]",
+          "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible, inflige +(différence de Vitesse * Intensité de [Burst] sur la cible)% de dégâts (50% max)\nSi la Vitesse de cette unité est plus rapide que celle de la cible, <style=\"highlight\">gagne de la Puissance de Pièce selon la différence de Vitesse (+1 de Puissance de Pièce pour chaque 2 différences de Vitesse ; 2 max)\n[WhenUse] Si la cible a 15 [Burst] ou plus, +1 de Puissance de Pièce</style>\n[WhenUse] Gagne 3 [LegStrength]\n[WinDuel] Inflige +2 de Compte de [Burst]",
           "coinlist": [
             {
               "coindescs": [
@@ -1759,7 +1759,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "À 10 de Vitesse ou plus, inflige +30% de dégâts supplémentaires"
+                  "desc": "À 10 de Vitesse ou plus, inflige +30% de dégâts"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige 3 [Burst]"

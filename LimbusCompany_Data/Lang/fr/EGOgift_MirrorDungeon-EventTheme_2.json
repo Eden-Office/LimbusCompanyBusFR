@@ -135,7 +135,7 @@
     {
       "id": 9755,
       "name": "Mépris du Regard de Mépris",
-      "desc": "[Les effets s’appliquent uniquement à l’Identité Déployée #6]\n\nDébut du Combat : inflige +10% de dégâts supplémentaires pour chaque Capacité Offensive ennemie ciblant cette unité (20% max)\n\nDébut du Combat : lorsque ciblé par 2 Capacités Offensives ou plus, inflige (# de Capacités ciblant cette unité) dégâts de PV & de PSM fixes à tous les ennemis ciblant cette unité. (3 max ; cet effet ne blesse pas les alliés)",
+      "desc": "[Les effets s’appliquent uniquement à l’Identité Déployée #6]\n\nDébut du Combat : inflige +10% de dégâts pour chaque Capacité Offensive ennemie ciblant cette unité (20% max)\n\nDébut du Combat : lorsque ciblé par 2 Capacités Offensives ou plus, inflige (# de Capacités ciblant cette unité) dégâts de PV & de PSM fixes à tous les ennemis ciblant cette unité. (3 max ; cet effet ne blesse pas les alliés)",
       "simpleDesc": [
         {
           "abilityID": 9755,
@@ -146,7 +146,7 @@
     {
       "id": 19755,
       "name": "Mépris du Regard de Mépris+",
-      "desc": "[Les effets s’appliquent uniquement à l’Identité Déployée #6]\n\nDébut du Combat : inflige +10% de dégâts supplémentaires pour chaque Capacité Offensive ennemie ciblant cette unité (20% max)\n\nDébut du Combat : lorsque ciblé par 2 Capacités Offensives ou plus, inflige <style=\"upgradeHighlight\">(# de Capacités ciblant cette unité * 2)</style> dégâts de PV & de PSM fixes à tous les ennemis ciblant cette unité. (<style=\"upgradeHighlight\">5</style> max ; cet effet ne blesse pas les alliés)",
+      "desc": "[Les effets s’appliquent uniquement à l’Identité Déployée #6]\n\nDébut du Combat : inflige +10% de dégâts pour chaque Capacité Offensive ennemie ciblant cette unité (20% max)\n\nDébut du Combat : lorsque ciblé par 2 Capacités Offensives ou plus, inflige <style=\"upgradeHighlight\">(# de Capacités ciblant cette unité * 2)</style> dégâts de PV & de PSM fixes à tous les ennemis ciblant cette unité. (<style=\"upgradeHighlight\">5</style> max ; cet effet ne blesse pas les alliés)",
       "simpleDesc": [
         {
           "abilityID": 19755,
@@ -157,7 +157,7 @@
     {
       "id": 29755,
       "name": "Mépris du Regard de Mépris++",
-      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées <style=\"upgradeHighlight\">#1</style> & #6]\n\nDébut du Combat : inflige +10% de dégâts supplémentaires pour chaque Capacité Offensive ennemie ciblant cette unité (<style=\"upgradeHighlight\">30</style>% max)\n\nDébut du Combat : lorsque ciblé par 2 Capacités Offensives ou plus, inflige (# de Capacités ciblant cette unité * 2) dégâts de PV & de PSM fixes à tous les ennemis ciblant cette unité. (<style=\"upgradeHighlight\">10</style> max ; cet effet ne blesse pas les alliés)",
+      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées <style=\"upgradeHighlight\">#1</style> & #6]\n\nDébut du Combat : inflige +10% de dégâts pour chaque Capacité Offensive ennemie ciblant cette unité (<style=\"upgradeHighlight\">30</style>% max)\n\nDébut du Combat : lorsque ciblé par 2 Capacités Offensives ou plus, inflige (# de Capacités ciblant cette unité * 2) dégâts de PV & de PSM fixes à tous les ennemis ciblant cette unité. (<style=\"upgradeHighlight\">10</style> max ; cet effet ne blesse pas les alliés)",
       "simpleDesc": [
         {
           "abilityID": 29755,
@@ -328,7 +328,7 @@
     {
       "id": 9765,
       "name": "Peluche Joyeuse",
-      "desc": "Gagne 2 d’Intensité de [Breath] au prochain tour selon le nombre de Capacités Offensives alliées ayant infligé des dégâts d’ici la Fin du Tour\n- En Affrontement Concentré, gagne 4 d’Intensité de [Breath] à la place.\n\nDébut du Tour : applique 2 [Breath], +2 de Compte de [Breath] et 2 [Protection] à l’allié avec le moins de PV.\n\nInflige +(valeur absolue de PSM)% de dégâts supplémentaires. (0% min)\n\nLorsqu’un allié avec des Capacités à Pièces Positives se remet de Déséquilibre, regagne tous ses PSM. (Ne s’active pas lorsque Érodé)\n\nPour un allié avec des Capacités à Pièces Négatives : gagne 5 [Paralysis] au Début du Tour.",
+      "desc": "Gagne 2 d’Intensité de [Breath] au prochain tour selon le nombre de Capacités Offensives alliées ayant infligé des dégâts d’ici la Fin du Tour\n- En Affrontement Concentré, gagne 4 d’Intensité de [Breath] à la place.\n\nDébut du Tour : applique 2 [Breath], +2 de Compte de [Breath] et 2 [Protection] à l’allié avec le moins de PV.\n\nInflige +(valeur absolue de PSM)% de dégâts. (0% min)\n\nLorsqu’un allié avec des Capacités à Pièces Positives se remet de Déséquilibre, regagne tous ses PSM. (Ne s’active pas lorsque Érodé)\n\nPour un allié avec des Capacités à Pièces Négatives : gagne 5 [Paralysis] au Début du Tour.",
       "simpleDesc": [
         {
           "abilityID": 9765,
@@ -370,7 +370,7 @@
     {
       "id": 9767,
       "name": "Pipe de Flamme Sombre",
-      "desc": "[Les effets s’appliquent uniquement à l’Identité Déployée #1]\n\nGagne 2 [Enhancement] et 1 [Vulnerable] à chaque tour\n\nSi la cible principale a actuellement un Niveau Défensif diminué, gagne 5 [Breath] avant l’attaque\n\nLes Capacités Perçantes d’Orgueil infligent +(50 / # de Pièces)% de dégâts supplémentaires (inclut les E.G.O.)",
+      "desc": "[Les effets s’appliquent uniquement à l’Identité Déployée #1]\n\nGagne 2 [Enhancement] et 1 [Vulnerable] à chaque tour\n\nSi la cible principale a actuellement un Niveau Défensif diminué, gagne 5 [Breath] avant l’attaque\n\nLes Capacités Perçantes d’Orgueil infligent +(50 / # de Pièces)% de dégâts (inclut les E.G.O.)",
       "simpleDesc": [
         {
           "abilityID": 9767,
@@ -415,7 +415,7 @@
     {
       "id": 9770,
       "name": "Éclats de Rouage",
-      "desc": "Fin du Tour : si cette unité a du [Breath], gagne 2 [DefenseUp] et 1 [Endurance]\n\nSi cette unité a du [Breath], la première Pièce à toucher inflige +10% de dégâts supplémentaires\n\nSi cette Pièce touche critiquement, +20% de dégâts en Touche Critique",
+      "desc": "Fin du Tour : si cette unité a du [Breath], gagne 2 [DefenseUp] et 1 [Endurance]\n\nSi cette unité a du [Breath], la première Pièce à toucher inflige +10% de dégâts\n\nSi cette Pièce touche critiquement, +20% de dégâts en Touche Critique",
       "simpleDesc": [
         {
           "abilityID": 9770,
@@ -430,7 +430,7 @@
     {
       "id": 9771,
       "name": "Manuel de CàC",
-      "desc": "Si une Capacité qui dépense des [Bullet]s ne dépense pas de [Bullet], gagne 1 [Enhancement] ce tour et au prochain tour (une fois par tour)\n\nEn gagnant une [Bullet], la Capacité 3 inflige +50% de dégâts supplémentaires ce tour et au prochain tour lorsque utilisé\n\nEn utilisant une Capacité qui dépense une [Bullet], gagne 3 [Breath] et +1 de Compte de [Breath]",
+      "desc": "Si une Capacité qui dépense des [Bullet]s ne dépense pas de [Bullet], gagne 1 [Enhancement] ce tour et au prochain tour (une fois par tour)\n\nEn gagnant une [Bullet], la Capacité 3 inflige +50% de dégâts ce tour et au prochain tour lorsque utilisé\n\nEn utilisant une Capacité qui dépense une [Bullet], gagne 3 [Breath] et +1 de Compte de [Breath]",
       "simpleDesc": [
         {
           "abilityID": 9771,
@@ -487,7 +487,7 @@
     {
       "id": 9774,
       "name": "Bougie de Rallumage",
-      "desc": "Capacités Offensives de Base qui infligent du Compte de [Combustion] : inflige +20% de dégâts supplémentaires et infligent +1 de Compte de [Combustion] supplémentaire. En Touche avec ces Capacités contre des ennemis avec [Combustion] ou une “Brûlure Unique” : inflige 1 [DefenseDown] (2 fois par tour par Identité)\n\nIdentités dont toutes les Capacités Offensives de Base infligent de l’Intensité ou du Compte de [Combustion] ou une “Brûlure Unique” : au Début du Tour, gagne du [AttackUp] égal au nombre de tour survécus (exclut le tour où elle a rejoint l’Affrontement ; 5 max)",
+      "desc": "Capacités Offensives de Base qui infligent du Compte de [Combustion] : inflige +20% de dégâts et infligent +1 de Compte de [Combustion] supplémentaire. En Touche avec ces Capacités contre des ennemis avec [Combustion] ou une “Brûlure Unique” : inflige 1 [DefenseDown] (2 fois par tour par Identité)\n\nIdentités dont toutes les Capacités Offensives de Base infligent de l’Intensité ou du Compte de [Combustion] ou une “Brûlure Unique” : au Début du Tour, gagne du [AttackUp] égal au nombre de tour survécus (exclut le tour où elle a rejoint l’Affrontement ; 5 max)",
       "simpleDesc": [
         {
           "abilityID": 9774,
@@ -506,7 +506,7 @@
     {
       "id": 9775,
       "name": "Stimulant Mk.4",
-      "desc": "En Touche avec la Pièce finale contre des ennemis avec 15 d’Intensité de [Burst] ou moins en utilisant une Capacité Offensive de Base qui inflige de l’Intensité ou du Compte de [Burst] : inflige +3 de Compte de [Burst] (une fois par tour par Identité)\n\nCapacités Offensives de Base qui infligent du Compte de [Burst] : +1 de Puissance de Duel, inflige +20% de dégâts supplémentaires",
+      "desc": "En Touche avec la Pièce finale contre des ennemis avec 15 d’Intensité de [Burst] ou moins en utilisant une Capacité Offensive de Base qui inflige de l’Intensité ou du Compte de [Burst] : inflige +3 de Compte de [Burst] (une fois par tour par Identité)\n\nCapacités Offensives de Base qui infligent du Compte de [Burst] : +1 de Puissance de Duel, inflige +20% de dégâts",
       "simpleDesc": [
         {
           "abilityID": 9775,
@@ -563,7 +563,7 @@
     {
       "id": 9778,
       "name": "Équipement Habituel",
-      "desc": "Identités de Limbus Company : la Capacité 2 gagne +1 Niveau Offensif et inflige +15% de dégâts supplémentaires ; la Capacité 3 gagne +2 Niveaux Offensifs et inflige +30% de dégâts supplémentaires\n\nS’il y a 4 Identités de Limbus Company ou plus parmi les Unités de Renfort, 2 alliés aléatoires gagnent 2 [AttackUp] au Début du Tour",
+      "desc": "Identités de Limbus Company : la Capacité 2 gagne +1 Niveau Offensif et inflige +15% de dégâts ; la Capacité 3 gagne +2 Niveaux Offensifs et inflige +30% de dégâts\n\nS’il y a 4 Identités de Limbus Company ou plus parmi les Unités de Renfort, 2 alliés aléatoires gagnent 2 [AttackUp] au Début du Tour",
       "simpleDesc": [
         {
           "abilityID": 9778,
@@ -593,7 +593,7 @@
     {
       "id": 9780,
       "name": "Équipement à Haut-Risque",
-      "desc": "Identités de Limbus Company : la Capacité 2 gagne +2 Niveaux Offensifs et inflige +20% de dégâts supplémentaires ; la Capacité 3 gagne +3 Niveaux Offensifs et inflige +40% de dégâts supplémentaires\n\nDébut du Tour : un allié aléatoire gagne 2 [AttackUp] pour chaque Identité de Limbus Company vaincues ou de Renfort.\n\nDurant l’Affrontement, lorsqu’un allié bat en retraite ou est vaincu, applique aléatoirement 3 [AttackUp] entre toutes les Identités au prochain Début du Tour. (Distribué équitablement, 2 fois par tour)\n- Lorsque 3 alliés ou plus battent en retraite ou sont vaincus, applique aléatoirement 6 [AttackUp] entre toutes les Identités au prochain Début du Tour à la place. (2 fois par tour)\n- Lorsque 3 Identités de Limbus Company ou plus battent en retraite ou sont vaincus, applique aléatoirement 8 [AttackUp] entre toutes les Identités à la place.",
+      "desc": "Identités de Limbus Company : la Capacité 2 gagne +2 Niveaux Offensifs et inflige +20% de dégâts ; la Capacité 3 gagne +3 Niveaux Offensifs et inflige +40% de dégâts\n\nDébut du Tour : un allié aléatoire gagne 2 [AttackUp] pour chaque Identité de Limbus Company vaincues ou de Renfort.\n\nDurant l’Affrontement, lorsqu’un allié bat en retraite ou est vaincu, applique aléatoirement 3 [AttackUp] entre toutes les Identités au prochain Début du Tour. (Distribué équitablement, 2 fois par tour)\n- Lorsque 3 alliés ou plus battent en retraite ou sont vaincus, applique aléatoirement 6 [AttackUp] entre toutes les Identités au prochain Début du Tour à la place. (2 fois par tour)\n- Lorsque 3 Identités de Limbus Company ou plus battent en retraite ou sont vaincus, applique aléatoirement 8 [AttackUp] entre toutes les Identités à la place.",
       "simpleDesc": [
         {
           "abilityID": 9780,
@@ -612,7 +612,7 @@
     {
       "id": 9781,
       "name": "Coupelle de Liqueur en Bois Dur",
-      "desc": "En Duel Perdu, gagne 1 [Protection] et regagne 3~6 PSM (une fois par tour par Identité)\n\nEn attaquant un ennemi avec l’effet de [SuperCoin] de la Capacité (excepté les Capacités E.G.O.) qui a perdu le Duel :\n- Les Capacités de Pièce Positive reçoivent +(3 / # de Pièces) de Puissance de Pièce Positive et infligent +20% de dégâts supplémentaires (Gain min. de Puissance de Pièce Positive : 1)\n- Les Capacités de Pièce Négative infligent +40% de dégâts supplémentaires",
+      "desc": "En Duel Perdu, gagne 1 [Protection] et regagne 3~6 PSM (une fois par tour par Identité)\n\nEn attaquant un ennemi avec l’effet de [SuperCoin] de la Capacité (excepté les Capacités E.G.O.) qui a perdu le Duel :\n- Les Capacités de Pièce Positive reçoivent +(3 / # de Pièces) de Puissance de Pièce Positive et infligent +20% de dégâts (Gain min. de Puissance de Pièce Positive : 1)\n- Les Capacités de Pièce Négative infligent +40% de dégâts",
       "simpleDesc": [
         {
           "abilityID": 9781,
@@ -627,7 +627,7 @@
     {
       "id": 9782,
       "name": "Pommeau Usé",
-      "desc": "Début du Tour : tous les alliés gagnent 1 [ScarletResultUp].\n\nLes Identités de la Lignée de la Lame ou du Clan Kurokumo gagnent gain 2 [ScarletResultUp] et 1 [SlashResultUp] à la place.",
+      "desc": "Début du Tour : tous les alliés gagnent 1 [ScarletResultUp].\n\nLes Identités de la Lignée de la Lame ou du Clan Kurokumo gagnent 2 [ScarletResultUp] et 1 [SlashResultUp] à la place.",
       "simpleDesc": [
         {
           "abilityID": 9782,
@@ -642,7 +642,7 @@
     {
       "id": 9783,
       "name": "Splendeur",
-      "desc": "Début du Tour : s’active lorsqu’il y a 3 Identités du Clan Kurokumo ou plus.\n\nTous les alliés gagnent 2 [ScarletResultUp] et 1 [SlashResultUp] au Début du Tour.\n\nCapacités Offensives de Base des Identités du Clan Kurokumo : gagnent +(4 / # de Pièce ; 1 min.) de Puissance de Pièce, inflige 1 d’Intensité et de Compte de [Laceration] supplémentaire et inflige +(80 / # de Pièce)% de dégâts supplémentaires\n\nNullifie le premier Seuil de Déséquilibre des Identités du Clan Kurokumo ; à moins de 50% de PV, gagne 2 [Protection] au Début du Tour. Les Identités ayant subi des dégâts d’ennemis ce tour gagnent 2 [Agility] au prochain tour.",
+      "desc": "Début du Tour : s’active lorsqu’il y a 3 Identités du Clan Kurokumo ou plus.\n\nTous les alliés gagnent 2 [ScarletResultUp] et 1 [SlashResultUp] au Début du Tour.\n\nCapacités Offensives de Base des Identités du Clan Kurokumo : gagnent +(4 / # de Pièce ; 1 min.) de Puissance de Pièce, inflige 1 d’Intensité et de Compte de [Laceration] supplémentaire et inflige +(80 / # de Pièce)% de dégâts\n\nNullifie le premier Seuil de Déséquilibre des Identités du Clan Kurokumo ; à moins de 50% de PV, gagne 2 [Protection] au Début du Tour. Les Identités ayant subi des dégâts d’ennemis ce tour gagnent 2 [Agility] au prochain tour.",
       "simpleDesc": [
         {
           "abilityID": 9783,
@@ -661,7 +661,7 @@
     {
       "id": 9784,
       "name": "Cultivation",
-      "desc": "Début du Tour : s’active lorsqu’il y a 3 Identités de la Lignée de la Lame ou plus.\n\nDébut du Tour : tous les alliés gagnent 2 [SlashResultUp] et infligent +35% de dégâts supplémentaires.\n\nDébut du Tour : lorsqu’une Identité de la Lignée de la Lame touche critiquement, inflige des dégâts d’Orgueil supplémentaires égaux à (Intensité de [Breath] / 2) sur soi.\n\nSi une Identité de la Lignée de la Lame a 30 d’Intensité de [Breath] ou plus à la Fin du Tour, consomme 10 d’Intensité de [Breath] et gagne 2 [SlashDamageUp] au prochain tour",
+      "desc": "Début du Tour : s’active lorsqu’il y a 3 Identités de la Lignée de la Lame ou plus.\n\nDébut du Tour : tous les alliés gagnent 2 [SlashResultUp] et infligent +35% de dégâts.\n\nDébut du Tour : lorsqu’une Identité de la Lignée de la Lame touche critiquement, inflige des dégâts d’Orgueil supplémentaires égaux à (Intensité de [Breath] / 2) sur soi.\n\nSi une Identité de la Lignée de la Lame a 30 d’Intensité de [Breath] ou plus à la Fin du Tour, consomme 10 d’Intensité de [Breath] et gagne 2 [SlashDamageUp] au prochain tour",
       "simpleDesc": [
         {
           "abilityID": 9784,
@@ -680,7 +680,7 @@
     {
       "id": 9785,
       "name": "Nuée Nuageuse",
-      "desc": "Début du Tour : s’active lorsqu’il y a 3 Identités du Clan Kurokumo ou plus.\n\nEn Touche avec une [SuperCoin] de Capacité Offensive de Base (exclut les Capacités E.G.O.) : inflige +(40/# de Pièce)% de dégâts supplémentaires\nIdentités du Clan Kurokumo : inflige +(80/# of Coins)% de dégâts supplémentaires à la place\n\nIdentités du Clan Kurokumo avec des Capacités Offensives Tranchantes de Base : gagnent 2 [SlashDamageUp] au Début du Tour. Les Identités du Clan Kurokumo gagnent 1 [AttackUp] et 1 [DefenseUp] au prochain tour tous les 10% de PV manquants sur soi à la Fin du Tour. (5 max chacun)\n\nLorsqu’une Identité du Clan Kurokumo meurt, toutes les Identités du Clan Kurokumo gagnent 2 [AttackDmgUp] au prochain tour (une fois par tour)",
+      "desc": "Début du Tour : s’active lorsqu’il y a 3 Identités du Clan Kurokumo ou plus.\n\nEn Touche avec une [SuperCoin] de Capacité Offensive de Base (exclut les Capacités E.G.O.) : inflige +(40/# de Pièce)% de dégâts\nIdentités du Clan Kurokumo : inflige +(80/# of Coins)% de dégâts à la place\n\nIdentités du Clan Kurokumo avec des Capacités Offensives Tranchantes de Base : gagnent 2 [SlashDamageUp] au Début du Tour. Les Identités du Clan Kurokumo gagnent 1 [AttackUp] et 1 [DefenseUp] au prochain tour tous les 10% de PV manquants sur soi à la Fin du Tour. (5 max chacun)\n\nLorsqu’une Identité du Clan Kurokumo meurt, toutes les Identités du Clan Kurokumo gagnent 2 [AttackDmgUp] au prochain tour (une fois par tour)",
       "simpleDesc": [
         {
           "abilityID": 9785,
@@ -699,7 +699,7 @@
     {
       "id": 9786,
       "name": "Tatouages Amé. - Le Majeur",
-      "desc": "Capacités Contondantes : +1 de Puissance de Duel\n- Identités du Majeur : gagnent +1 de Puissance de Duel et +1 de Puissance de Pièce à la place\n- Identités du Majeur : si la cible principale a [RetaliationBook], gagne +1 de Puissance de Duel, +1 de Puissance de Pièce et inflige +10% de dégâts supplémentaires à la place",
+      "desc": "Capacités Contondantes : +1 de Puissance de Duel\n- Identités du Majeur : gagnent +1 de Puissance de Duel et +1 de Puissance de Pièce à la place\n- Identités du Majeur : si la cible principale a [RetaliationBook], gagne +1 de Puissance de Duel, +1 de Puissance de Pièce et inflige +10% de dégâts à la place",
       "simpleDesc": [
         {
           "abilityID": 9786,
@@ -781,7 +781,7 @@
     {
       "id": 9792,
       "name": "Chaînes de Lien Éternelles",
-      "desc": "Début de l’Affrontement : s’active lorsqu’il y a des 2 Identités du Majeur ou plus (ne compte que les Identités sur le terrain au Début de l’Affrontement)\n\nLorsque touché, tous les alliés de la même faction infligent +5% de dégâts Contondants supplémentaires (15% par tour)\nLes Identités du Majeur gagnent 1 [AttackUp] et infligent +10% de dégâts Contondants supplémentaires à la place (3 par tour, 30% par tour)\n\nCapacités Contondantes gagnent +1 de Puissance de Base\n- Les Identités du Majeur gagnent +1 de Puissance de Base et +1 de Puissance de Pièce à la place\n- Si la cible a [RetaliationBook], les Identités du Majeur gagnent +1 de Puissance de Base, +1 de Puissance de Pièce et infligent +30% de dégâts supplémentaires à la place\n\nLes Identités du Majeur gagnent +1 de Vitesse min. et +1 de Vitesse max pour l’Affrontement",
+      "desc": "Début de l’Affrontement : s’active lorsqu’il y a des 2 Identités du Majeur ou plus (ne compte que les Identités sur le terrain au Début de l’Affrontement)\n\nLorsque touché, tous les alliés de la même faction infligent +5% de dégâts Contondants supplémentaires (15% par tour)\nLes Identités du Majeur gagnent 1 [AttackUp] et infligent +10% de dégâts Contondants supplémentaires à la place (3 par tour, 30% par tour)\n\nCapacités Contondantes gagnent +1 de Puissance de Base\n- Les Identités du Majeur gagnent +1 de Puissance de Base et +1 de Puissance de Pièce à la place\n- Si la cible a [RetaliationBook], les Identités du Majeur gagnent +1 de Puissance de Base, +1 de Puissance de Pièce et infligent +30% de dégâts à la place\n\nLes Identités du Majeur gagnent +1 de Vitesse min. et +1 de Vitesse max pour l’Affrontement",
       "simpleDesc": [
         {
           "abilityID": 9792,
