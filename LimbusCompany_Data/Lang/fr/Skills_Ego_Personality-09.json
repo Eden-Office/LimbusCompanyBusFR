@@ -552,6 +552,178 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2090811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Procès de l'Indicateur",
+          "abName": "La Duchesse Enflammée",
+          "desc": "[EndSkill] Soigne (1 + plus haute Réson.) alliés avec le moins de pourcentage de PV de 15% de leur PV max (3 alliés max)\n[EndSkill] Pendant 3 tours, perd 10 PSM à la Fin du Tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 6 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible principale est touchée, inflige (1 + (Réson. de Colère / 3)) [BirdCage] au prochain tour à la cible principale (2 max ; arrondi à l’inférieur)"
+                }
+              ]
+            },
+            {}
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Procès de l'Indicateur",
+          "abName": "La Duchesse Enflammée",
+          "desc": "<style=\"highlight\">[BeforeAttack] Gagne (plus haute Réson. / 2) de Poids d’Atq (3 max ; arrondi à l’inférieur)</style>\n[EndSkill] Soigne (1 + plus haute Réson.) alliés avec le moins de pourcentage de PV de <style=\"highlight\">18</style>% de leur PV max (3 alliés max)\n[EndSkill] Pendant 3 tours, perd 10 PSM à la Fin du Tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">8</style> [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible principale est touchée, inflige (1 + (Réson. de Colère / 3)) [BirdCage] au prochain tour à la cible principale (<style=\"highlight\">3</style> max ; arrondi à l’inférieur)"
+                }
+              ]
+            },
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Procès de l'Indicateur",
+          "abName": "La Duchesse Enflammée",
+          "desc": "[BeforeAttack] Gagne (plus haute Réson. / 2) de Poids d’Atq (3 max ; arrondi à l’inférieur)\n[EndSkill] Soigne (1 + plus haute Réson.) alliés avec le moins de pourcentage de PV de <style=\"highlight\">20</style>% de leur PV max (3 alliés max)\n[EndSkill] Pendant 3 tours, perd 10 PSM à la Fin du Tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 8 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible principale est touchée, inflige (1 + (Réson. de Colère / 3)) [BirdCage] au prochain tour à la cible principale (3 max ; arrondi à l’inférieur)"
+                }
+              ]
+            },
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090821,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Procès de l'Indicateur",
+          "abName": "La Duchesse Enflammée",
+          "desc": "[CantIdentify]\nCible Aléatoirement\n[BeforeAttack] Gagne (plus haute Réson. / 2) de Poids d’Atq (3 max ; arrondi à l’inférieur)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 6 [Combustion]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Si la cible principale est touchée, inflige (1 + Réson. de Colère) [BirdCage] à la cible principale (3 max)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Inflige +1% de dégâts à la cible principale pour chaque Intensité de [Combustion] sur la cible principale (50% max)"
+                },
+                {
+                  "desc": "[EnemyKill] Applique 1 [CrimsonResultUp] et 1 [CrimsonDamageUp] à (1 + plus haute Réson.) alliés avec le moins de pourcentage de PV (4 alliés max ; une fois par Capacité)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Procès de l'Indicateur",
+          "abName": "La Duchesse Enflammée",
+          "desc": "[CantIdentify]\nCible Aléatoirement\n[BeforeAttack] Gagne (plus haute Réson. / 2) de Poids d’Atq (3 max ; arrondi à l’inférieur)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige <style=\"highlight\">8</style> [Combustion]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Si la cible principale est touchée, inflige (1 + Réson. de Colère) [BirdCage] à la cible principale (<style=\"highlight\">4</style> max)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Inflige +1% de dégâts à la cible principale pour chaque Intensité de [Combustion] sur la cible principale (50% max)"
+                },
+                {
+                  "desc": "[EnemyKill] Applique 1 [CrimsonResultUp] et 1 [CrimsonDamageUp] à (1 + plus haute Réson.) alliés avec le moins de pourcentage de PV (<style=\"highlight\">5</style> alliés max ; une fois par Capacité)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Procès de l'Indicateur",
+          "abName": "La Duchesse Enflammée",
+          "desc": "[CantIdentify]\nCible Aléatoirement\n[BeforeAttack] Gagne (plus haute Réson. / 2) de Poids d’Atq (3 max ; arrondi à l’inférieur)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige <style=\"highlight\">10</style> [Combustion]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[UnBrokenCoinOnSucceedAttack] Inflige +1 de Compte de [Combustion]</style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Si la cible principale est touchée, inflige (1 + Réson. de Colère) [BirdCage] à la cible principale (<style=\"highlight\">5</style> max)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Inflige +<style=\"highlight\">2</style>% de dégâts à la cible principale pour chaque Intensité de [Combustion] sur la cible principale (<style=\"highlight\">100</style>% max)"
+                },
+                {
+                  "desc": "[EnemyKill] Applique 1 [CrimsonResultUp] et 1 [CrimsonDamageUp] à (1 + plus haute Réson.) alliés avec le moins de pourcentage de PV (<style=\"highlight\">6</style> alliés max ; une fois par Capacité)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
