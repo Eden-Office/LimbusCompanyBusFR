@@ -1744,6 +1744,271 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1061201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Frappe Énergétique",
+          "desc": "À 2 [Charge] ou plus, +1 de Puissance de Pièce\n[WhenUse] Gagne +2 de Compte de [Charge]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Frappe Énergétique",
+          "desc": "<style=\"highlight\">Inflige +2% de dégâts par [Charge] (10% max)</style>\nÀ 2 [Charge] ou plus, +1 de Puissance de Pièce\n[WhenUse] Gagne +2 de Compte de [Charge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Gagne +([Charge] + 1) de Compte de [Charge] (3 max)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Frappe Énergétique",
+          "desc": "Inflige <style=\"highlight\">+3%</style> de dégâts par [Charge] (<style=\"highlight\">15%</style> max)\nÀ 2 [Charge] ou plus, +1 de Puissance de Pièce\n<style=\"highlight\">À 5 de Compte de [Charge] ou plus, +1 de Puissance de Pièce</style>\n[WhenUse] Gagne +2 de Compte de [Charge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +([Charge] + 1) de Compte de [Charge] (<style=\"highlight\">4</style> max)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fouet Mental",
+          "desc": "[WhenUse] À 5~9 de Compte de [Charge] :\n- Gagne 15 [Sinking] et augmente le Compte de [Charge] de cette unité à 10\n- Cette Capacité gagne les attributs suivants : [CantIdentify], [WideAreaRampage] et +1 de Poids d’Atq\n[WhenUse] Consomme 10 de Compte de [Charge] pour gagner +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Fouet Mental",
+          "desc": "<style=\"highlight\">Inflige +2% de dégâts par [Charge] (10% max)</style>\n[WhenUse] À 5~9 de Compte de [Charge] :\n- Gagne 15 [Sinking] et augmente le Compte de [Charge] de cette unité à 10\n- Cette Capacité gagne les attributs suivants : [CantIdentify], [WideAreaRampage] et +1 de Poids d’Atq\n[WhenUse] Consomme 10 de Compte de [Charge] pour gagner +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Augmente le Seuil de Déséquilibre de 5% des dégâts infligés</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Augmente le Seuil de Déséquilibre de 5% des dégâts infligés</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Augmente le Seuil de Déséquilibre de 5% des dégâts infligés</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Sinking]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Augmente le Seuil de Déséquilibre de 10% des dégâts infligés</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Fouet Mental",
+          "desc": "Inflige <style=\"highlight\">+4%</style> de dégâts par [Charge] (<style=\"highlight\">20%</style> max)\n[WhenUse] À 5~9 de Compte de [Charge] :\n- Gagne <style=\"highlight\">10</style> [Sinking] et augmente le Compte de [Charge] de cette unité à 10\n- Cette Capacité gagne les attributs suivants : [CantIdentify], [WideAreaRampage] et +1 de Poids d’Atq\n<style=\"highlight\">- [BeforeUse] À 5 [Charge] ou plus, cette Capacité ne gagne pas l’effet [CantIdentify]</style>\n[WhenUse] Consomme 10 de Compte de [Charge] pour gagner <style=\"highlight\">+2</style> de Puissance de Pièce\n<style=\"highlight\">[BeforeAttack] À 8 de Compte de [Charge] restant ou plus, consomme 8 de Compte de [Charge] pour infliger +40% de dégâts</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Augmente le Seuil de Déséquilibre de 5% des dégâts infligés"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Augmente le Seuil de Déséquilibre de 5% des dégâts infligés"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Augmente le Seuil de Déséquilibre de 5% des dégâts infligés"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Augmente le Seuil de Déséquilibre de 10% des dégâts infligés"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061203,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Concentration",
+          "desc": "+1 de Puissance de Pièce par [Charge] (5 max)\nÀ 10 de Compte de [Charge] ou plus, +2 de Puissance Finale\n[WhenUse] Gagne +5 de Compte de [Charge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +(Puissance de cette Capacité * 5)% de dégâts (100% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne +([Charge] + 1) de Compte de [Charge] (6 max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Sinking] et +2 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Concentration",
+          "desc": "<style=\"highlight\">+1 de Puissance de Base</style> et +1 de Puissance de Pièce par [Charge] <style=\"highlight\">(5 max chacun)</style>\nÀ 10 de Compte de [Charge] ou plus, <style=\"highlight\">+4</style> de Puissance Finale\n[WhenUse] Gagne <style=\"highlight\">+7</style> de Compte de [Charge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +(Puissance de cette Capacité * 5)% de dégâts (<style=\"highlight\">150%</style> max)"
+                },
+                {
+                  "desc": "<style=\"highlight\">À 3 [Charge] ou plus, inflige +20% de dégâts par [Charge] (100% max)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne +([Charge] + <style=\"highlight\">3</style>) de Compte de [Charge] (<style=\"highlight\">8</style> max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Sinking] et <style=\"highlight\">+4</style> de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Condensation Énergétique",
+          "desc": "[WhenUse] À 10 de Compte de [Charge] ou plus, +2 de Puissance de Pièce\n[WhenUse] Gagne +3 de Compte de [Charge] (une fois par tour)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Condensation Énergétique",
+          "desc": "[WhenUse] À 10 de Compte de [Charge] ou plus, <style=\"highlight\">+4</style> de Puissance de Pièce\n[WhenUse] Gagne +3 de Compte de [Charge] (<style=\"highlight\">2 fois</style> par tour)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
     }
   ]
 }
