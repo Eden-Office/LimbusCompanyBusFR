@@ -1391,6 +1391,280 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1121201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Crochet de Serpent",
+          "desc": "[WhenUse] Gagne +1 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Crochet de Serpent",
+          "desc": "<style=\"highlight\">[WhenUse] Si la somme d’Intensité de [Breath] sur soi et d’Intensité de [Burst] sur la cible est de 10 ou plus, +1 de Puissance de Pièce</style>\n[WhenUse] Gagne +<style=\"highlight\">2</style> de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Si cette unité a [SnakeStance], inflige +1 de Compte de [Burst]</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Crochet de Serpent",
+          "desc": "<style=\"highlight\">[WhenUse] +1 de Puissance de Pièce tous les 10 (somme d’Intensité de [Breath] de cette unité et d’Intensité de [Burst] de la cible) (2 max)</style>\n[WhenUse] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Si cette unité a [SnakeStance], inflige +1 de Compte de [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Taillade Surprenante",
+          "desc": "[WinDuel] Inflige +1 de Compte de [Burst]\n[WinDuel] Gagne +1 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [BurstPoison]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Taillade Surprenante",
+          "desc": "<style=\"highlight\">[WhenUse] Si la somme d’Intensité de [Breath] sur soi et d’Intensité de [Burst] sur la cible est de 10 ou plus, +1 de Puissance de Pièce</style>\n[WinDuel] Inflige +1 de Compte de [Burst]\n[WinDuel] Gagne +<style=\"highlight\">2</style> de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [Burst]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] À 30 [Breath] ou plus, consomme 10 [Breath] sur soi pour Réutiliser cette Pièce une fois (1 fois max)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [BurstPoison]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Taillade Surprenante",
+          "desc": "<style=\"highlight\">[WhenUse] +1 de Puissance de Pièce tous les 10 (somme d’Intensité de [Breath] de cette unité et d’Intensité de [Burst] de la cible) (2 max)</style>\n[WinDuel] Inflige +<style=\"highlight\">2</style> de Compte de [Burst]\n[WinDuel] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 30 [Breath] ou plus, consomme 10 [Breath] sur soi pour Réutiliser cette Pièce une fois (1 fois max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [BurstPoison]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Gagne 1 [SnakeStance]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121203,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Bras Perforant Serpentin",
+          "desc": "[WhenUse] +1 de Puissance de Pièce tous les 8 (somme d’Intensité de [Breath] de cette unité et d’Intensité de [Burst] de la cible) (4 max)\n- Si cette unité a [SnakeStance], +1 de Puissance de Pièce tous les 5 (somme d’Intensité de [Breath] de cette unité et d’Intensité de [Burst] de la cible) à la place (6 max)\n[WhenUse] Gagne 3 [SnakeStance]\n[WinDuel] Si la cible a 5 [Burst] ou plus, gagne 5 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +5% dégâts pour chaque (Intensité de [Breath] sur soi + Intensité de [Burst] sur la cible) (150% max)"
+                },
+                {
+                  "desc": "Si cette unité a [SnakeStance], inflige +75% de dégâts en Touche Critique"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Réduit de 2 le [BurstPoison] de la cible"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Réduit de 3 le [BurstPoison] de la cible"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [BurstPoison]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Bras Perforant Serpentin",
+          "desc": "[WhenUse] +1 de Puissance de Pièce tous les 8 (somme d’Intensité de [Breath] de cette unité et d’Intensité de [Burst] de la cible) (4 max)\n- Si cette unité a [SnakeStance], +1 de Puissance de Pièce tous les 5 (somme d’Intensité de [Breath] de cette unité et d’Intensité de [Burst] de la cible) à la place (6 max)\n[WhenUse] Gagne 3 [SnakeStance]\n[WinDuel] Si la cible a 5 [Burst] ou plus, gagne 5 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige <style=\"highlight\">+10%</style> dégâts pour chaque (Intensité de [Breath] sur soi + Intensité de [Burst] sur la cible) <style=\"highlight\">(200% max)</style>"
+                },
+                {
+                  "desc": "Si cette unité a [SnakeStance], inflige <style=\"highlight\">+100%</style> de dégâts en Touche Critique"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Réduit de 2 le [BurstPoison] de la cible"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Réduit de 3 le [BurstPoison] de la cible"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Inflige +2 de Compte de [Burst]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [BurstPoison]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Coup de Pied Retourné",
+          "desc": "[CanDuelGuard]\n[StartBattle] Gagne 3 [SnakeStance] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Coup de Pied Retourné",
+          "desc": "[CanDuelGuard]\n[StartBattle] Gagne 3 [SnakeStance] au prochain tour\n<style=\"highlight\">[WhenUse] À 10 de Compte de [Breath] ou plus, +1 de Puissance de Pièce</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

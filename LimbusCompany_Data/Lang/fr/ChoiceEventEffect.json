@@ -26,7 +26,7 @@
     },
     {
       "id": "GetConfirmedEgogiftOnWinBattle",
-      "content": "<color=#ebcaa2>Gagnez le prochain combat pour obtenir {reward} !</color>"
+      "content": "<color=#ebcaa2>Gagnez le prochain combat pour obtenir le Don E.G.O. {reward} !</color>"
     },
     {
       "id": "StartBattle",
@@ -90,7 +90,15 @@
     },
     {
       "id": "GetConfirmedEgogift",
-      "content": "<color=#ebcaa2>{reward} Obtenu !</color>"
+      "content": "<color=#ebcaa2>Don E.G.O. {reward} Obtenu !</color>"
+    },
+    {
+      "id": "GetConfirmedStackableEgogift",
+      "content": "<color=#ebcaa2>Don E.G.O. {stack} {reward} obtenu !</color>"
+    },
+    {
+      "id": "LoseConfirmedStackableEgogift",
+      "content": "<color=#ebcaa2>Don E.G.O. {stack} {reward} perdu !</color>"
     },
     {
       "id": "GetBuff_OnStageStart",
@@ -102,23 +110,23 @@
     },
     {
       "id": "ReduceEnemyWave",
-      "content": "<color=#ebcaa2>Vagues ennemies du prochain combat réduites de {waveNum}.</color>"
+      "content": "<color=#ebcaa2>Vagues ennemies du prochain combat réduites de {waveNum}</color>"
     },
     {
       "id": "DestroyEgogift",
-      "content": "<color=#ebcaa2>{reward}</color> <color=#e30000>Expirée !</color>"
+      "content": "<color=#ebcaa2>Don E.G.O. {reward}</color> <color=#e30000>détruit !</color>"
     },
     {
       "id": "Choice_90103301",
-      "content": "<color=#f8c200>+1 de Vitesse</color> <color=#ebcaa2>pour ce combat.</color>"
+      "content": "<color=#f8c200>+1 de Vitesse</color> <color=#ebcaa2>pour ce combat</color>"
     },
     {
       "id": "Choice_901001",
-      "content": "<color=#ebcaa2>Au début de la phase de combat,</color> les alliés sans <color=#a0392b>Capacité Offensive d’Affinité de Colère</color> <color=#ebcaa2>subissent</color> <color=#e30000>5 dégâts de Colère.</color>"
+      "content": "<color=#ebcaa2>Au début de la phase de combat,</color> les alliés sans <color=#a0392b>Capacité Offensive d’Affinité de Colère</color> <color=#ebcaa2>subissent</color> <color=#e30000>5 dégâts de Colère</color>"
     },
     {
       "id": "Choice_901007",
-      "content": "<color=#ebcaa2>Au début du tour,</color> </color=#ebcaa2>regagne</color> <color=#00ff9c>10 PV</color> et <color=#80c9ff>10 PSM.</color> (Jusqu’à 3 tours)"
+      "content": "<color=#ebcaa2>Au début du tour,</color> </color=#ebcaa2>regagne</color> <color=#00ff9c>10 PV</color> et <color=#80c9ff>10 PSM</color> (Jusqu’à 3 tours)"
     },
     {
       "id": "Choice_901009",
@@ -126,7 +134,7 @@
     },
     {
       "id": "Choice_901010",
-      "content": "<color=#ebcaa2>Au début du prochain combat,</color> <color=#ebcaa2>les Unités Alliées sans</color> <color=#bb521f>Capacité Offensive d’Affinité de Luxure</color> <color=#ebcaa2>sont Déséquilibrées.</color> "
+      "content": "<color=#ebcaa2>Au début du prochain combat,</color> <color=#ebcaa2>les Unités Alliées sans</color> <color=#bb521f>Capacité Offensive d’Affinité de Luxure</color> <color=#ebcaa2>sont Déséquilibrées</color>"
     },
     {
       "id": "Choice_901019",
@@ -134,7 +142,7 @@
     },
     {
       "id": "Choice_90103402",
-      "content": "<color=#f8c200>+2 de Vitesse</color> <color=#ebcaa2>pour ce combat.</color>"
+      "content": "<color=#f8c200>+2 de Vitesse</color> <color=#ebcaa2>pour ce combat</color>"
     },
     {
       "id": "Choice_1030301",
@@ -278,7 +286,7 @@
     },
     {
       "id": "Choice_90102801",
-      "content": "<color=#ebcaa2>Les Identités avec une</color> <color=#185188>Capacité Offensive d’Affinité d’Orgueil</color> <color=#ebcaa2>regagnent</color> <color=#f8c200>10 PV.</color>"
+      "content": "<color=#ebcaa2>Les Identités avec une</color> <color=#185188>Capacité Offensive d’Affinité d’Orgueil</color> <color=#ebcaa2>regagnent</color> <color=#f8c200>15 PV.</color>"
     },
     {
       "id": "Choice_901032",
@@ -294,7 +302,7 @@
     },
     {
       "id": "Choice_90103501",
-      "content": "<color=#ebcaa2>Les Identités avec une</color> <color=#7d4e94>Capacité Offensive d’Affinité d’Envie</color> <color=#ebcaa2>regagnent</color> <color=#f8c200>10 PV.</color>"
+      "content": "<color=#ebcaa2>Les Identités avec une</color> <color=#7d4e94>Capacité Offensive d’Affinité d’Envie</color> <color=#ebcaa2>regagnent</color> <color=#f8c200>15 PV.</color>"
     },
     {
       "id": "Choice_1040301",
@@ -430,7 +438,7 @@
     },
     {
       "id": "GetImmediateConfirmedEgogifts",
-      "content": "<color=#ebcaa2>{reward} obtenu !</color>"
+      "content": "<color=#ebcaa2>Don E.G.O. {reward} obtenu !</color>"
     },
     {
       "id": "Choice_EGO901101",
@@ -443,6 +451,10 @@
     {
       "id": "Choice_EGO971054",
       "content": "Gagnez le combat pour obtenir le Don E.G.O. “Réservoir Bruissant”"
+    },
+    {
+      "id": "LoseMpOnlyUntilMin",
+      "content": "<color=#ebcaa2>Réduit</color> <color=#fe4b48>les PSM à la valeur minimale pour</color> <color=#ebcaa2>{conditions}{targets}</color>"
     }
   ]
 }

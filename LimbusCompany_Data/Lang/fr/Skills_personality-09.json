@@ -1320,6 +1320,272 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1091201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Éclat Serpentin",
+          "desc": "[WhenUse] Gagne +1 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Éclat Serpentin",
+          "desc": "<style=\"highlight\">[WhenUse] Si la somme d’Intensité de [Breath] sur soi et d’Intensité de [Burst] sur la cible est de 10 ou plus, +1 de Puissance de Pièce</style>\n[WhenUse] Gagne +<style=\"highlight\">2</style> de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Si cette unité a [SnakeStance], inflige 1 [Burst]</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Éclat Serpentin",
+          "desc": "<style=\"highlight\">[WhenUse] +1 de Puissance de Pièce tous les 10 (somme d’Intensité de [Breath] de cette unité et d’Intensité de [Burst] de la cible) (2 max)</style>\n[WhenUse] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Si cette unité a [SnakeStance], inflige <style=\"highlight\">2</style> [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Crochet de Serpent",
+          "desc": "[WinDuel] Inflige +2 de Compte de [Burst]\n[WinDuel] Gagne +1 de Compte de [Breath]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige [BurstPoison]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Crochet de Serpent",
+          "desc": "<style=\"highlight\">[WhenUse] Si la somme d’Intensité de [Breath] sur soi et d’Intensité de [Burst] sur la cible est de 10 ou plus, +1 de Puissance de Pièce</style>\n[WinDuel] Inflige +2 de Compte de [Burst]\n[WinDuel] Gagne +<style=\"highlight\">2</style> de Compte de [Breath]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] À 30 [Breath] ou plus, consomme 10 [Breath] sur soi pour Réutiliser la Pièce une fois (1 fois max)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [BurstPoison]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Crochet de Serpent",
+          "desc": "<style=\"highlight\">[WhenUse] +1 de Puissance de Pièce tous les 10 (somme d’Intensité de [Breath] de cette unité et d’Intensité de [Burst] de la cible) (2 max)</style>\n[WinDuel] Inflige +2 de Compte de [Burst]\n[WinDuel] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 1 [Burst]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] À 30 [Breath] ou plus, consomme 10 [Breath] sur soi pour Réutiliser la Pièce une fois (1 time max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [BurstPoison]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Gagne 1 [SnakeStance]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091203,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Florilège Mortel du Serpent",
+          "desc": "[WideAreaRampage]\n[WhenUse] Si la somme d’Intensité de [Breath] sur soi et d’Intensité de [Burst] sur la cible principale est de 10 ou plus, +1 de Puissance de Pièce\n[WhenUse] Gagne de la Puissance de Duel égale au [SnakeStance] sur soi\n[WhenUse] Gagne 3 [SnakeStance]\n[WinDuel] Inflige +1 de Compte de [Burst] à toutes les cibles",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Réduit de 1 le [BurstPoison] de la cible"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Réutilise cette Pièce une fois (2 fois par Capacité)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Florilège Mortel du Serpent",
+          "desc": "[WideAreaRampage]\n<style=\"highlight\">[WhenUse] +1 de Puissance de Pièce tous les 10 (somme d’Intensité de [Breath] de cette unité et d’Intensité de [Burst] de la cible principale) (2 max)</style>\n[WhenUse] Gagne de la Puissance de Duel égale au [SnakeStance] sur soi\n[WhenUse] Gagne 3 [SnakeStance]\n[WinDuel] Inflige +1 de Compte de [Burst] à toutes les cibles",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Réduit de 1 le [BurstPoison] de la cible"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Réutilise cette Pièce une fois (2 fois par Capacité)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Coup de Pied Retourné",
+          "desc": "[CanDuelGuard] \n[StartBattle] Gagne 3 [SnakeStance] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Coup de Pied Retourné",
+          "desc": "[CanDuelGuard]\n[StartBattle] Gagne 3 [SnakeStance] au prochain tour\n<style=\"highlight\">[WhenUse] À 10 de Compte de [Breath] ou plus, +1 de Puissance de Pièce</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
