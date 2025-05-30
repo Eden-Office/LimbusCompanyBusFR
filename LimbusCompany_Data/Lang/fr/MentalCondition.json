@@ -6,6 +6,11 @@
       "min": "Diminue après avoir gagné un Duel selon le compte de Duel\n<size=95%>(Valeur de Base est {0}, augmenté de {1}% par compte de Duel après 1)</size>"
     },
     {
+      "id": "OnWinDuelAsParryingCountMultiplyAndPlusPercentWithMax",
+      "add": "Augmente après avoir gagné un Duel selon le compte de Clash\n<size=95%>(Valeur de Base est {0}, augmenté de {1}% par compte de Clash après 1 ; {2}% max)</size>",
+      "min": "Diminue après avoir gagné un Duel selon le compte de Clash\n<size=95%>(Valeur de Base est {0}, augmenté de {1}% par compte de Clash après 1 ; {2}% max)</size>"
+    },
+    {
       "id": "OnKillEnemyAsLevelRatioMultiply",
       "add": "Augmente de {0} après que cette unité a vaincu un ennemi dont le niveau était supérieur ou égal à celui de l’unité",
       "min": "Diminue de {0} après que cette unité a vaincu un ennemi dont le niveau était supérieur ou égal à celui de l’unité"
@@ -42,7 +47,7 @@
     },
     {
       "id": "OnKillEnemyByOtherAllyExceptSupportiveAction",
-      "add": "Augmente de {0} après qu’un allié ait vaincu un ennemi dont le niveau était supérieur ou égal à celui de cette unité",
+      "add": "Augmente de {0} après qu’un allié ait vaincu un ennemi dont le niveau était supérieur ou égal à celui de l’unité",
       "min": "Diminue de {0} après qu’un allié ait vaincu un ennemi dont le niveau était supérieur ou égal à celui de cette unité. N’augmente pas lorsque l’ennemi est vaincu par une Attaque d’Assistance."
     },
     {
@@ -68,6 +73,11 @@
     {
       "id": "OnWinDuelAnyTarget",
       "add": "Augmenté de {0} en Duel Gagné",
+      "min": "Diminué de {0} en Duel Perdu"
+    },
+    {
+      "id": "OnLoseDuelAnyTarget",
+      "add": "Augmenté de {0} en Duel Perdu",
       "min": "Diminué de {0} en Duel Perdu"
     }
   ]

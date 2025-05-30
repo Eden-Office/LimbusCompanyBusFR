@@ -1,0 +1,496 @@
+{
+  "dataList": [
+    {
+      "id": 10801,
+      "name": "막힌길_뚫기",
+      "subDesc": "",
+      "desc": "Un mur décrépit bloque notre chemin.\nIl y a un appareil dessus avec une étiquette disant “Récupérez vos cartes d’entrée ici”. À côté se trouve une sorte d’interface.\n\n“On dirait qu’ils ne vont pas nous laisser entrer si facilement.”\n“Est-ce que quelqu’un sait utiliser ce genre d’appareil ? Je n’arrive pas à le comprendre…”",
+      "options": [
+        {
+          "message": "Communiquer avec l’appareil.",
+          "messageDesc": "",
+          "result": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10802,
+      "name": "부적_떼기",
+      "subDesc": "",
+      "desc": "Il y a plusieurs talismans collés au mur.\n\nJe peux sentir le vent souffler au travers des fentes à peine visible sur le mur.\n\n“Il semble y avoir quelque chose de l’autre côté.”\n\nPeut-être qu’il y a un passage secret par ici ?\n\nLes Pécheurs se mirent à fouiller la salle pendant un moment et trouvèrent un mur avec des talismans de différentes couleurs visiblement arrangés d’une certaine manière.\n\n“Ohh ~ Ce doivent être les couleurs qui correspondent à chaque direction cardinale ~”\n“Il semblerait que nous devons retirer ces talismans dans le bon ordre.”\n\nDevrions-nous essayer de retirer les talismans ?",
+      "options": [
+        {
+          "message": "Essayons de retirer un talisman.",
+          "messageDesc": "",
+          "result": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1080201,
+      "name": "부적_떼기_북",
+      "subDesc": "",
+      "desc": "Il y a quelque chose d’écrit sur le talisman bleu à l’Ouest.\n\nOn dirait que cela indique qu’il s’agit du premier talisman à retirer.\n\nEn retirant le talisman, le mur commença à trembler.\n\nLequel devrais-je retirer ensuite ?",
+      "options": [
+        {
+          "message": "Centre",
+          "messageDesc": "",
+          "result": [
+            "Les murs cessent de trembler, mais quelque chose cloche.\n\nEt pile au bon moment, la voix vibrante de la présentatrice se met à résonner à travers les enceintes.\n\n“Les candidats qui échouent à résoudre le puzzle devraient être punis, vous ne pensez pas ?”\n\nIl y eut un son d’objets en bois qui s’entrechoquent…\nEt des portes s’ouvrirent tandis que des mannequins de bois se précipitèrent."
+          ]
+        },
+        {
+          "message": "Est",
+          "messageDesc": "",
+          "result": [
+            "Les murs cessent de trembler, mais quelque chose cloche.\n\nEt pile au bon moment, la voix vibrante de la présentatrice se met à résonner à travers les enceintes.\n\n“Les candidats qui échouent à résoudre le puzzle devraient être punis, vous ne pensez pas ?”\n\nIl y eut un son d’objets en bois qui s’entrechoquent…\nEt des portes s’ouvrirent tandis que des mannequins de bois se précipitèrent."
+          ]
+        },
+        {
+          "message": "Sud",
+          "messageDesc": "",
+          "result": [
+            "Les murs cessent de trembler, mais quelque chose cloche.\n\nEt pile au bon moment, la voix vibrante de la présentatrice se met à résonner à travers les enceintes.\n\n“Les candidats qui échouent à résoudre le puzzle devraient être punis, vous ne pensez pas ?”\n\nIl y eut un son d’objets en bois qui s’entrechoquent…\nEt des portes s’ouvrirent tandis que des mannequins de bois se précipitèrent."
+          ]
+        },
+        {
+          "message": "Nord",
+          "messageDesc": "",
+          "result": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1080202,
+      "name": "부적_떼기_중앙",
+      "subDesc": "",
+      "desc": "Je retire le talisman rouge au Nord.\n\nLes murs tremblent désormais avec une plus d’intensité.\n\nLequel devrions-nous retirer ensuite ?",
+      "options": [
+        {
+          "message": "Centre",
+          "messageDesc": "",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Est",
+          "messageDesc": "",
+          "result": [
+            "Les murs cessent de trembler, mais quelque chose cloche.\n\nEt pile au bon moment, la voix vibrante de la présentatrice se met à résonner à travers les enceintes.\n\n“Les candidats qui échouent à résoudre le puzzle devraient être punis, vous ne pensez pas ?”\n\nIl y eut un son d’objets en bois qui s’entrechoquent…\nEt des portes s’ouvrirent tandis que des mannequins de bois se précipitèrent."
+          ]
+        },
+        {
+          "message": "Sud",
+          "messageDesc": "",
+          "result": [
+            "Les murs cessent de trembler, mais quelque chose cloche.\n\nEt pile au bon moment, la voix vibrante de la présentatrice se met à résonner à travers les enceintes.\n\n“Les candidats qui échouent à résoudre le puzzle devraient être punis, vous ne pensez pas ?”\n\nIl y eut un son d’objets en bois qui s’entrechoquent…\nEt des portes s’ouvrirent tandis que des mannequins de bois se précipitèrent."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1080203,
+      "name": "부적_떼기_서",
+      "subDesc": "",
+      "desc": "Je retire le talisman jaune au centre.\n\nLes murs tremblent désormais avec une plus d’intensité.\n\nLequel devrions-nous retirer ensuite ?",
+      "options": [
+        {
+          "message": "Est",
+          "messageDesc": "",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Sud",
+          "messageDesc": "",
+          "result": [
+            "Les murs cessent de trembler, mais quelque chose cloche.\n\nEt pile au bon moment, la voix vibrante de la présentatrice se met à résonner à travers les enceintes.\n\n“Les candidats qui échouent à résoudre le puzzle devraient être punis, vous ne pensez pas ?”\n\nIl y eut un son d’objets en bois qui s’entrechoquent…\nEt des portes s’ouvrirent tandis que des mannequins de bois se précipitèrent."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1080204,
+      "name": "부적_떼기_끝",
+      "subDesc": "",
+      "desc": "Je retire le talisman blanc à l’Est.\n\nLes murs tremblent comme s’ils risquaient de s’effondrer à tout instant.\n\nIl n’en reste plus qu’un à retirer.",
+      "options": [
+        {
+          "message": "Sud",
+          "messageDesc": "",
+          "result": [
+            "Le mur s’effondre, révélant un nouveau chemin.\n\nJ’ai trouvé quelques pièces scintillantes à travers les débris."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10803,
+      "name": "붉은_출입증_획득_전투",
+      "subDesc": "",
+      "desc": "“Ahem. Vous devez être Jia Baoyu… et son clan, pas vrai ?”\n\n“Je, euh… J’ai été séparé de ma faction lorsque les murs sont d’un coup sortis du sol.”\n\n“Certains sont encore avec moi, mais je ne pense pas pouvoir aller très loin ainsi…”\n\n“Pouvez-vous m’aider à trouver où se trouve le reste de ma faction ?”\n\n“Hé, si vous me donnez un coup de main, je prendrai soin de vous lorsque je deviendrai le Hiérarque Familial.”\n\n“Allez quoi, aidez-moi !”",
+      "options": [
+        {
+          "message": "Lui donner la Carte d’Entrée.\n<size=75%><color=#a16a3b>Choix débloqué avec la “Carte d’Entrée Usée”</color></size>",
+          "messageDesc": "Gagnez un Objet",
+          "result": [
+            "Ce gars a l’air assez énervant…\n\nMais nous n’avons aucune raison de l’affronter, d’autant plus qu’on ne sait pas combien de combats nous attendant. Et puis, il n’est pas agressif.\n\nAu lieu de commencer un combat, je lui tends la carte d’entrée.\n\n“Nous avons aussi ramassé quelque chose comme ça, mais… elle s’est révélée plutôt inutile.”\n\n“En espérant que celle-ci soit meilleure. Enfin… Je suppose que je veux bien qu’on échange nos cartes. Jetez-la ou gardez-la, faites comme vous voulez.”\n\n“Oh, d’ailleurs… J’ai pris ce Bolus bizarre à un autre candidat. Il me paraît suspect alors… Je vais vous laisser en prendre soin.”\n\n“Bref, voilà. Je ne serai pas aussi gentil à notre prochain rencontre, alors faites attention.”"
+          ]
+        },
+        {
+          "message": "L’éliminer et prendre ses pièces.",
+          "messageDesc": "Lance un affrontement. Gagnez pour obtenir des pièces.",
+          "result": [
+            "Au moment où j’allais expliquer aux Pécheurs que nous n’étions pas obligés de nous battre…\n\n… Enfin, est-ce qu’on doit vraiment l’aider ?\n\nÀ la place, j’ai suggéré aux Pécheurs que nous devrions le battre et prendre ses pièces. La plupart des Pécheurs semblent d’accord.\n\n“A-attendez ? Sérieux ? Vous allez m’affronter ? Vous avez la moindre idée de qui je suis ? Je suis l’éminent candidat de la famille Shi—”\n\nLes Pécheurs commencèrent à le frapper avant que la conversation ne puisse continuer."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10804,
+      "name": "죄수_꽃뜯기",
+      "subDesc": "",
+      "desc": "<i>L’un adresse une lamentation creuse,\nL’autre aspire à un désir vide.\nL’un est une lune sur la surface de l’eau, un reflet,\nEt l’autre est l’image d’une fleur dans un miroir.</i>\n\nLes fleurs ont fleuri sur les corps des prisonniers.\nJe ne vois aucun mouvement… ils semblent tous morts.\n\n“Ces fleurs possèdent… les qualités augmentatives de H Corp.”\n“Elles donneront probablement une forme d’avantage dans les combats à venir.”\n\nQuelle fleur devrions-nous prendre ?",
+      "options": [
+        {
+          "message": "Lotus",
+          "messageDesc": "Choisissez pour gagner un Objet",
+          "result": [
+            "Nous prenons la fleur de lotus.\nLa fleur se transforme en un petit Bolus\net les autres fleurs fleurissent dans le miroir.\n\nPuissent les prisonniers reposent en paix…\nNous avançons, après avoir rendu hommage aux morts."
+          ]
+        },
+        {
+          "message": "Amaryllis Rouge",
+          "messageDesc": "Choisissez pour gagner un Objet",
+          "result": [
+            "Nous prenons l’amaryllis rouge.\nLa fleur se transforme en un petit Bolus\net les autres fleurs fleurissent dans le miroir.\n\nPuissent les prisonniers reposent en paix…\nNous avançons, après avoir rendu hommage aux morts."
+          ]
+        },
+        {
+          "message": "Herbe Sans Nom",
+          "messageDesc": "Choisissez pour gagner un Objet",
+          "result": [
+            "Nous prenons l’herbe sans nom.\nL’herbe se transforme en un petit Bolus\net les autres fleurs fleurissent dans le miroir.\n\nPuissent les prisonniers reposent en paix…\nNous avançons, après avoir rendu hommage aux morts."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10805,
+      "name": "환_도박",
+      "subDesc": "",
+      "desc": "Nous entrons dans une nouvelle salle et voyons un prisonnier attaché aux côtés d’un Bolus sur une table.\nNous voyons également un candidat immobile, comme s’il attendait que quelqu’un arrive.\n\n“Ah, nous avons désormais assez de gens pour que le jeu spécial puisse commencer !”\n\n“Veuillez diriger votre attention vers le Bolus sur la table ! Observez-le bien !”\n\n“Il s’agit d’un Bolus actuellement développé ici, à H Corp. ; il n’a pas encore été commercialisé en grande distribution.”\n\n“Apparemment, il pourrait restaurer votre vitalité une fois consommé, mais… voyons si cela est vrai, qu’en dites-vous ?”\n\n“Pensez-vous qu’il s’agisse bel et bien d’un nouveau produit réussi ou… est-ce un échec ?”\n\n“Il est à présent l’heure de parier avec vos pièces ! Devinez, est-ce une réussite ou un échec ?”\n\n“Le candidat qui répond juste à cette question obtient toutes les pièces de la cagnotte !”",
+      "options": [
+        {
+          "message": "C’est une réussite.",
+          "messageDesc": "",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "C’est un échec.",
+          "messageDesc": "",
+          "result": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1080501,
+      "name": "환_도박_코인_성공",
+      "subDesc": "",
+      "desc": "L’autre candidat a parié sur “failure”.\n\nCombien de pièces devrions-nous miser ?",
+      "options": [
+        {
+          "message": "1 pièce.\n<size=75%><color=#a16a3b>Choix débloqué en possédant 1 pièce ou plus</color></size>",
+          "messageDesc": "Gagnez le pari pour obtenir quelques pièces\nPerdez le pari et renoncez aux pièces que vous avez misées",
+          "result": [
+            "Nous misons une pièce et l’autre candidat aussi.\n\n“Très bien, voyons voir ce qu’il va se passer !”\n\nLe condamné avale le Bolus, mais semble être en paix.\nNous attendons un peu plus et la fleur poussant du condamné devint plus éclatante.\n\n“Comme c’est merveilleux ! Il semblerait que le Bolus soit une réussite !”\n“Le candidat qui a misé sur sa réussite obtient les pièces…”\n“… tandis que le candidat qui a misé sur son échec doit remettre ses pièces !”",
+            "Nous misons une pièce et l’autre candidat aussi.\n\n“Très bien, voyons voir ce qu’il va se passer !”\n\nLe condamné avale le Bolus et commence immédiatement à hurler de douleur.\nIl s’est évanoui sur le sol après s’être sauvagement débattu et contorsionné pendant une minute.\n\n“Oh, quel dommage. C’était un échec.”\n“Le candidat qui a misé sur son échec gagne les pièces…”\n“… tandis que le candidat qui a misé sur sa réussite doit remettre ses pièces !”"
+          ]
+        },
+        {
+          "message": "2 pièces.\n<size=75%><color=#a16a3b>Choix débloqué en possédant 2 pièces ou plus</color></size>",
+          "messageDesc": "Gagnez le pari pour obtenir une quantité modérée de pièces\nPerdez le pari et renoncez aux pièces que vous avez misées",
+          "result": [
+            "Nous misons deux pièces, l’autre candidat mise également deux pièces.\n\n“Très bien, voyons voir ce qu’il va se passer !”\n\nLe condamné avale le Bolus, mais semble être en paix.\nNous attendons un peu plus et la fleur poussant du condamné devint plus éclatante.\n\n“Comme c’est merveilleux ! Il semblerait que le Bolus soit une réussite !”\n“Le candidat qui a misé sur sa réussite obtient les pièces…”\n“… tandis que le candidat qui a misé sur son échec doit remettre ses pièces !”",
+            "Nous misons deux pièces, l’autre candidat mise également deux pièces.\n\n“Très bien, voyons voir ce qu’il va se passer !”\n\nLe condamné avale le Bolus et commence immédiatement à hurler de douleur.\nIl s’est évanoui sur le sol après s’être sauvagement débattu et contorsionné pendant une minute.\n\n“Oh, quel dommage. C’était un échec.”\n“Le candidat qui a misé sur son échec gagne les pièces…”\n“… tandis que le candidat qui a misé sur sa réussite doit remettre ses pièces !”"
+          ]
+        },
+        {
+          "message": "3 pièces.\n<size=75%><color=#a16a3b>Choix débloqué en possédant 3 pièces ou plus</color></size>",
+          "messageDesc": "Gagnez le pari pour obtenir un gros paquet de pièces\nPerdez le pari et renoncez aux pièces que vous avez misées",
+          "result": [
+            "Nous misons trois pièces, l’autre candidat mise aussi trois pièces.\n\n“Très bien, voyons voir ce qu’il va se passer !”\n\nLe condamné avale le Bolus, mais semble être en paix.\nNous attendons un peu plus et la fleur poussant du condamné devint plus éclatante.\n\n“Comme c’est merveilleux ! Il semblerait que le Bolus soit une réussite !”\n“Le candidat qui a misé sur sa réussite remporte les pièces !”\n“Également, voici un bonus pour son audace !”\n“Le candidat qui a misé sur son échec, veuillez remettre vos pièces !”",
+            "Nous misons trois pièces, l’autre candidat mise aussi trois pièces.\n\n“Très bien, voyons voir ce qu’il va se passer !”\n\nLe condamné avale le Bolus et commence immédiatement à hurler de douleur.\nIl s’est évanoui sur le sol après s’être sauvagement débattu et contorsionné pendant une minute.\n\n“Oh, quel dommage. C’était un échec.”\n“Le candidat qui a misé sur son échec remporte les pièces !”\n“Également, voici un bonus pour son audace !”\n“Le candidat qui a misé sur sa réussite, veuillez remettre vos pièces !”"
+          ]
+        },
+        {
+          "message": "Parier ne vaut pas le coup. Retirons-nous.",
+          "messageDesc": "",
+          "result": [
+            "“Oh non… Ce petit pari était-il trop effrayant pour vous ?”\n\n“Cela risque d’être difficile de naviguer à travers ce jeu avec un cœur sur couard !”\n\nParier apporte toujours un risque.\nNous quittons la salle, laissant le condamné et l’autre candidat derrière."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1080502,
+      "name": "환_도박_코인_실패",
+      "subDesc": "",
+      "desc": "L’autre candidat a parié sur “réussite”.\n\nCombien de pièces devrions-nous miser ?",
+      "options": [
+        {
+          "message": "1 pièce.\n<size=75%><color=#a16a3b>Choix débloqué en possédant 1 pièce ou plus</color></size>",
+          "messageDesc": "Gagnez le pari pour obtenir quelques pièces\nPerdez le pari et renoncez aux pièces que vous avez misées",
+          "result": [
+            "Nous misons une pièce et l’autre candidat aussi.\n\n“Très bien, voyons voir ce qu’il va se passer !”\n\nLe condamné avale le Bolus et commence immédiatement à hurler de douleur.\nIl s’est évanoui sur le sol après s’être sauvagement débattu et contorsionné pendant une minute.\n\n“Oh, quel dommage. C’était un échec.”\n“Le candidat qui a misé sur son échec gagne les pièces…”\n“… tandis que le candidat qui a misé sur sa réussite doit remettre ses pièces !”",
+            "Nous misons une pièce et l’autre candidat aussi.\n\n“Très bien, voyons voir ce qu’il va se passer !”\n\nLe condamné avale le Bolus, mais semble être en paix.\nNous attendons un peu plus et la fleur poussant du condamné devint plus éclatante.\n\n“Comme c’est merveilleux ! Il semblerait que le Bolus soit une réussite !”\n“Le candidat qui a misé sur sa réussite obtient les pièces…”\n“… tandis que le candidat qui a misé sur son échec doit remettre ses pièces !”"
+          ]
+        },
+        {
+          "message": "2 pièces.\n<size=75%><color=#a16a3b>Choix débloqué en possédant 2 pièces ou plus</color></size>",
+          "messageDesc": "Gagnez le pari pour obtenir une quantité modérée de pièces\nPerdez le pari et renoncez aux pièces que vous avez misées",
+          "result": [
+            "Nous misons deux pièces, l’autre candidat mise également deux pièces.\n\n“Très bien, voyons voir ce qu’il va se passer !”\n\nLe condamné avale le Bolus et commence immédiatement à hurler de douleur.\nIl s’est évanoui sur le sol après s’être sauvagement débattu et contorsionné pendant une minute.\n\n“Oh, quel dommage. C’était un échec.”\n“Le candidat qui a misé sur son échec gagne les pièces…”\n“… tandis que le candidat qui a misé sur sa réussite doit remettre ses pièces !”",
+            "Nous misons deux pièces, l’autre candidat mise également deux pièces.\n\n“Très bien, voyons voir ce qu’il va se passer !”\n\nLe condamné avale le Bolus, mais semble être en paix.\nNous attendons un peu plus et la fleur poussant du condamné devint plus éclatante.\n\n“Comme c’est merveilleux ! Il semblerait que le Bolus soit une réussite !”\n“Le candidat qui a misé sur sa réussite obtient les pièces…”\n“… tandis que le candidat qui a misé sur son échec doit remettre ses pièces !”"
+          ]
+        },
+        {
+          "message": "3 pièces.\n<size=75%><color=#a16a3b>Choix débloqué en possédant 3 pièces ou plus</color></size>",
+          "messageDesc": "Gagnez le pari pour obtenir un gros paquet de pièces\nPerdez le pari et renoncez aux pièces que vous avez misées",
+          "result": [
+            "Nous misons trois pièces, l’autre candidat mise aussi trois pièces.\n\n“Très bien, voyons voir ce qu’il va se passer !”\n\nLe condamné avale le Bolus et commence immédiatement à hurler de douleur.\nIl s’est évanoui sur le sol après s’être sauvagement débattu et contorsionné pendant une minute.\n\n“Oh, quel dommage. C’était un échec.”\n“Le candidat qui a misé sur son échec remporte les pièces !”\n“Également, voici un bonus pour son audace !”\n“Le candidat qui a misé sur sa réussite, veuillez remettre vos pièces !”",
+            "Nous misons trois pièces, l’autre candidat mise aussi trois pièces.\n\n“Très bien, voyons voir ce qu’il va se passer !”\n\nLe condamné avale le Bolus, mais semble être en paix.\nNous attendons un peu plus et la fleur poussant du condamné devint plus éclatante.\n\n“Comme c’est merveilleux ! Il semblerait que le Bolus soit une réussite !”\n“Le candidat qui a misé sur sa réussite remporte les pièces !”\n“Également, voici un bonus pour son audace !”\n“Le candidat qui a misé sur son échec, veuillez remettre vos pièces !”"
+          ]
+        },
+        {
+          "message": "Parier ne vaut pas le coup. Retirons-nous.",
+          "messageDesc": "",
+          "result": [
+            "“Oh non… Ce petit pari était-il trop effrayant pour vous ?”\n\n“Cela risque d’être difficile de naviguer à travers ce jeu avec un cœur sur couard !”\n\nParier apporte toujours un risque.\nNous quittons la salle, laissant le condamné et l’autre candidat derrière."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10806,
+      "name": "낭떠러지_도전",
+      "subDesc": "",
+      "desc": "<i>Aucune sagesse ou vertus ne peut changer le passé et le future,\net les relations humaines et le destin font des étrangers des voisins.</i>\n\n“Candidats, bienvenue ! Félicitations pour avoir atteint le rez-de-chaussée !”\n\n“Saviez-vous qu’ici, il y a bien plus d’opportunités de récolter ces pièces que vous désirez ?”\n\n“En fait, il y a tellement d’opportunités… qu’en voilà une juste sous vos pieds, dans ce trou !”\n\n“Qui osera faire la descente sombre pour réclamer les pièces ?!”\n\nLe trou mène dans les ruines obscures du bâtiment. Inutile de descendre pour savoir qu’il s’agit probablement d’une marche risquée.\n\nNous avons besoin des pièces, mais… cela risque d’être un trop gros risque à prendre. Qu’arriverait-il si nous finissions blessés, ou pire, tués ?\n\nQue devons-nous faire ?",
+      "options": [
+        {
+          "message": "Sauter dedans.",
+          "messageDesc": "Lance un contrôle Avantage Luxure, Gourmandise & Envie. Réussissez pour obtenir des pièces.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Ne pas sauter dedans.",
+          "messageDesc": "",
+          "result": [
+            "Récolter des pièces est important, mais je ne veux pas risque de jeter les vies des Pécheurs pour un rien si tôt dans le jeu. Il y a simplement trop de variables.\nNous décidons d’avancer sans plonger dans le trou."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10807,
+      "name": "죄인_고문",
+      "subDesc": "",
+      "desc": "Nous entrons dans une salle et trouvons un condamné d’Hongyuan attaché à un mur.\nDevant lui se trouvent plusieurs armes de punition, comme des fouets et des bâtons.\n\n“L’homme assis devant vous est un prisonnier de H Corp. Il est un condamné ayant commis un terrible crime.”\n“Candidats, punissez le condamné et vous serez récompensé avec des pièces !”\n\nQu’allons-nous faire ?",
+      "options": [
+        {
+          "message": "Punir le condamné.",
+          "messageDesc": "Lance un contrôle Avantage Gourmandise & Orgueil. Réussissez pour obtenir des pièces.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Nous ne le punirons pas. Refuser de jouer selon leurs règles.",
+          "messageDesc": "Lance un affrontement. Gagnez pour obtenir des pièces.",
+          "result": [
+            "Le prisonnier semble déjà grandement souffrir des effets secondaires de certaines expériences.\nD’accord, il est censé être l’un des condamnés, mais… je ne pense pas que nous ayons la raison ou le droit de le punir…\nAprès une brève discussion avec les Pécheurs, j’ai décidé de mettre un terme à ses souffrances."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10808,
+      "name": "항아리_보기_뽀개기",
+      "subDesc": "",
+      "desc": "Nous entrons dans une nouvelle salle avec une collection de jarres en son centre.\nS’agit-il des jarres que Xue Pan n’a pas pu utiliser ?\n\nJe remarque que l’un des jarres est entrouverte.\nIl y a un bruit qui en sort…\n\nPeut-être que quelqu’un est piégé dedans, mais…\n… je ne sais pas si c’est une bonne idée de toucher à ces choses.\n\nQue devons-nous faire ?",
+      "options": [
+        {
+          "message": "Regarder dans la jarre.",
+          "messageDesc": "Lance un contrôle Avantage Peine. Réussissez pour obtenir un Objet.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Détruire la jarre.",
+          "messageDesc": "Lance un affrontement. Gagnez pour obtenir des pièces.",
+          "result": [
+            "Nous prendrions un risque inacceptable en ouvrant et regardant l’intérieur de ces étranges jarres.\nLes laisser là posera un danger non seulement pour nous… mais aussi pour tous ceux entrant en contact avec.\n\nAprès réflexion, nous avons décidé de briser chaque jarre dans la salle."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10809,
+      "name": "타임어택_인형_전투",
+      "subDesc": "",
+      "desc": "<i>La rancune est un cycle de vengeance au poids infini,\nchaque rencontre et réunion est une destinée immuable ;\nainsi, le karma d’une vie précédente mesure le séjour matériel avec l’envol final.</i>\n\n<i>La richesse au crépuscule d’une vie est une fortune des plus rares ;\nceux qui le comprennent quittent leurs maisons pour des temples,\net ceux qui sont séduits par elle comblent leurs temps de vide.</i>\n\n<i>Les oiseaux s’envolent vers la forêt, leurs ventres remplis d’aliments ;\nle champ de neige blanche demeure immaculé, pas la moindre trace ne dénaturant son innocence.</i>\n\n“Je vois un candidat qui vient de perdre beaucoup de pièces !”\n“Quelqu’un dans le public souhaite accorder l’opportunité de rebondir !”\n“Enfin, il semblerait que… nous allons devoir vous envoyer quelques mannequins de bois pour recouvrer vos pièces perdues !”",
+      "options": [
+        {
+          "message": "Accepter le challenge.",
+          "messageDesc": "Lance un affrontement. Gagnez pour obtenir des pièces.",
+          "result": [
+            "Nous devons recouvrer les pièces que nous avons perdu. Affrontons les mannequins de bois.\nLes Pécheurs et moi sommes d’accord."
+          ]
+        },
+        {
+          "message": "Refuser le challenge.",
+          "messageDesc": "",
+          "result": [
+            "Pour l’heure, nous avons plus besoin de repos que de pièces."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10810,
+      "name": "공포_견디기_내기",
+      "subDesc": "",
+      "desc": "<i>Les courants se rougissent des pétales des tombés,\net un chagrin indicible devient un vaste système d’innombrables racines ;\nainsi, la rancune irrésolue ne blâme que la brise printanière.</i>\n\nIl y a deux grandes jarres dans la salle, chacune avec un appareil mystérieux suspendu par-dessus.\nLa voix de la présentatrice sortit des enceintes au moment où nous nous sommes approchés des jarres.\n\n“Une nouvelle chance pour vous de gagner quelques pièces !”\n“La condition est simple : restez aussi longtemps que possible à l’intérieur de ces jarres.”\n“Essayez d’envoyer à l’intérieur un membre de votre clan qui n’a pas facilement peur et récupérez des pièces ! Facile, non ?”",
+      "options": [
+        {
+          "message": "Choisir un Pécheur.",
+          "messageDesc": "",
+          "result": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10811,
+      "name": "붉은_출입증_사용",
+      "subDesc": "",
+      "desc": "<i>Les songes printaniers s’envolent comme des nuages dans le vent,\net les pétales qui tombent se laissent emporter par le courant ;\nainsi, à chaque fils et fille, nous posons cette question :\npourquoi chercher et errer pour une souffrance si vaine ?</i>\n\nIl y a un autre candidat dans cette salle.\nAu moment où nous passons le seuil, la porte se ferma derrière nous et la voix de la présentatrice sortit une fois de plus des enceintes.\n\n“Vainquez le candidat adverse et obtenez l’opportunité de trouver un nouveau passage avec de <i>bien meilleures</i> opportunités !”\n\n“Cependant… nous ne voulons pas rendre ce combat trop ennuyeux, n’est-ce pas ? Alors ajoutons quelques variables.”\n\nAvec un immense bruit sourd, des panaches de fumée suspecte commencent à s’échapper du sol. Les Pécheurs qui la respire commencent à tousser violemment.\n… Ça ne peut pas être bon.",
+      "options": [
+        {
+          "message": "Accepter le challenge.",
+          "messageDesc": "Lance un affrontement. Gagnez pour obtenir des pièces et ouvrir un nouveau chemin sur la carte.",
+          "result": [
+            "Vainquons rapidement les ennemis avant que les Pécheurs ne subissent trop de dégâts."
+          ]
+        },
+        {
+          "message": "Utiliser la Carte d’Entrée pour débloquer la porte et partir.\n<size=75%><color=#a16a3b>Choix débloqué avec la “Carte d’Entrée Rouge”</color></size>",
+          "messageDesc": "Un nouveau chemin s’ouvre sur la carte.",
+          "result": [
+            "Ce n’est pas le bon moment pour affronter un autre candidat.\n\nAlors que nous réfléchissons à une possible sortie, nous remarquons un mécanisme de verrouillage équipé d’un lecteur de carte.\nHé, peut-être que nous pouvons utiliser la carte d’entrée que le candidat que nous avions rencontré nous a donné.\nJe place la carte sur le lecteur, au cas où cela fonctionne.\n\n<i>Entrée autorisée.</i>\n\nLa porte se déverrouille avec un bip.\nNous nous échappons de la salle dès que la porte s’ouvre…\n… et partons avant que l’autre candidat ne le remarque."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10812,
+      "name": "가문_기물_획득",
+      "subDesc": "",
+      "desc": "“Qu’importe la méthode que vous avez utilisée pour arriver dans cette salle… des félicitations s’imposent !”\n“En récompense pour avoir trouvé cette pièce secrète… soyez libre de prendre un objet utile ! Mais juste un seul.”\n“Par ailleurs… certains de ces objets pourraient se voir refusés à ceux n’ayant pas assez de pièces !”\n“Veuillez choisir avec soin. Ce sont de précieux objets des grandes maisons.”\n\nLequel devrions-nous choisir ?",
+      "options": [
+        {
+          "message": "Objet de la Famille Shi",
+          "messageDesc": "",
+          "result": [
+            "J’ouvre la boîte la plus à gauche.\nÀ l’intérieur se trouve une hache, la même qu’utilisent les membres de la famille Shi.\n\nSi je me rappelle bien, cette hache devrait être capable de se charger pour créer de puissantes ondulations…\nCe sera utile pour les Pécheurs.\n\nNous prenons l’objet et quittons la salle.",
+            "J’ouvre la boîte la plus à gauche.\nÀ l’intérieur se trouve une hache, la même qu’utilisent les membres de la famille Shi.\n\nSi je me rappelle bien, cette hache devrait être capable de se charger pour créer de puissantes ondulations…\nCe sera utile pour les Pécheurs.\n\nNous prenons l’objet et quittons la salle."
+          ]
+        },
+        {
+          "message": "Objet de la Famille Wang\n<size=75%><color=#a16a3b>Choix débloqué en possédant 10 pièces ou plus</color></size>",
+          "messageDesc": "",
+          "result": [
+            "J’ouvre la deuxième boîte en partant de la gauche.\nDedans se trouve un talisman, le même qu’utilisent les membres de la famille Wang.\n\nCes talismans semblent chacun posséder un pouvoir spécial… ils devraient pouvoir être utile.\nCe sera utile pour les Pécheurs.\n\nNous prenons l’objet et quittons la salle.",
+            "J’ouvre la deuxième boîte en partant de la gauche.\nDedans se trouve un talisman, le même qu’utilisent les membres de la famille Wang.\n\nCes talismans semblent chacun posséder un pouvoir spécial… ils devraient pouvoir être utile.\nCe sera utile pour les Pécheurs.\n\nNous prenons l’objet et quittons la salle."
+          ]
+        },
+        {
+          "message": "Objet de la Famille Xue\n<size=75%><color=#a16a3b>Choix débloqué en possédant 20 pièces ou plus</color></size>",
+          "messageDesc": "",
+          "result": [
+            "J’ouvre la deuxième boîte en partant de la droite.\nDedans se trouve un podao, le même qu’utilisent les guerriers vagabonds de la famille Xue.\n\nL’épée était immense, mais… ils la faisaient tourner comme si elle était aussi légère qu’une plume.\nCe sera utile pour les Pécheurs.\n\nNous prenons l’objet et quittons la salle.",
+            "J’ouvre la deuxième boîte en partant de la droite.\nDedans se trouve un podao, le même qu’utilisent les guerriers vagabonds de la famille Xue.\n\nL’épée était immense, mais… ils la faisaient tourner comme si elle était aussi légère qu’une plume.\nCe sera utile pour les Pécheurs.\n\nNous prenons l’objet et quittons la salle."
+          ]
+        },
+        {
+          "message": "Objet de la Famille Jia\n<size=75%><color=#a16a3b>Choix débloqué en possédant 25 pièces ou plus</color></size>",
+          "messageDesc": "",
+          "result": [
+            "J’ouvre la boîte la plus à droite.\nUn Bolus aux couleurs positives de la famille Jia se trouve à l’intérieur.\n\nIl devrait avoir des qualités impressionnantes, étant donné qu’il s’agit d’une des Singularités de H Corp.\nCe sera utile pour les Pécheurs.\n\nNous prenons l’objet et quittons la salle.",
+            "J’ouvre la boîte la plus à droite.\nUn Bolus aux couleurs positives de la famille Jia se trouve à l’intérieur.\n\nIl devrait avoir des qualités impressionnantes, étant donné qu’il s’agit d’une des Singularités de H Corp.\nCe sera utile pour les Pécheurs.\n\nNous prenons l’objet et quittons la salle."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10813,
+      "name": "막바지_보너스",
+      "subDesc": "",
+      "desc": "<i>La joie et les rires ne sont qu’illusions.\nLe chagrin et le deuil le sont tout autant.\nL’avarice, le besoin et le désir ne sont que manifestations de la vacuité d’autrui.</i>\n\nNous croisons le clan d’un candidat différent dans un couloir étroit.\n\n“Soyez libres d’en découdre, mais… avec l’accord mutuel des candidats…”\n“Je pense que nous pouvons faire de ce combat un jeu plus intéressant.”\n“Mais bien sûr, tout dépend de chacun de vous !”",
+      "options": [
+        {
+          "message": "Les affronter.",
+          "messageDesc": "Lance un affrontement. Gagnez pour obtenir des pièces.",
+          "result": [
+            "Inutile de parier quand nous sommes en position de force.\nNous décidons de les affronter comme d’habitude."
+          ]
+        },
+        {
+          "message": "Faire un pari.\n<size=75%><color=#a16a3b>Choix débloqué en possédant 5 pièces ou plus</color></size>",
+          "messageDesc": "Lance un contrôle Avantage Luxure & Gourmandise. Réussissez pour obtenir des pièces, échouez pour perdre des pièces.",
+          "result": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081302,
+      "name": "막바지_보너스_내기_패배",
+      "subDesc": "",
+      "desc": "Je veux dire, est-ce que l’on <i>doit</i> vraiment lui donner nos pièces ?\nPourquoi ne pas simplement le tabasser pour les reprendre ?\nEn fait… Rien ne nous empêche de les tabasser et de prendre <i>leurs</i> pièces !\n\nLa question est… allons-nous le faire ?",
+      "options": [
+        {
+          "message": "Les affronter.",
+          "messageDesc": "Lance un affrontement. Gagnez pour obtenir des pièces.",
+          "result": [
+            "“Un autre jour, une nouvelle excellente démonstration d’une décision personnelle avisée, Manager Exécutif !”\n“Snif… Manager Escuier… Depuis quand commettez-vous de telles perfidies… ?”\n\nLes Pécheurs commentent ma décision avant de s’élancer vers le candidat adverse."
+          ]
+        },
+        {
+          "message": "Se reculer.",
+          "messageDesc": "",
+          "result": [
+            "Ils ont gagné à la loyale. Acceptons notre défaite avec grâce et continuons.\n\nNous laissons les pièces et partons, bien qu’à contrecœur."
+          ]
+        }
+      ]
+    }
+  ]
+}

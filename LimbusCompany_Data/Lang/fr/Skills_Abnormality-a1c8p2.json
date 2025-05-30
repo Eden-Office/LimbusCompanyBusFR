@@ -1,0 +1,1806 @@
+{
+  "dataList": [
+    {
+      "id": 113101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Frappe Surprenante",
+          "desc": "[WhenUse] Si la cible a 3 [Burst] ou plus, +1 de Puissance de Duel",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 113102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Contrainte",
+          "desc": "[WhenUse] Si la cible a 4 [Burst] ou plus, +1 de Puissance de Base",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Réutilise cette Pièce (Vitesse de cette unité / 3) fois (2 max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 113103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Frappe de Plumes",
+          "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible principale gagne de la Puissance de Pièce basée sur la différence de Vitesse (+1 de Puissance de Pièce toutes les 2 différences de Vitesse ; 3 max)\n[WhenUse] Si la cible a 4 [Burst] ou plus, +1 de Puissance de Pièce\n[WinDuel] Inflige +3 de Compte de [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [BurstAgility]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Si la cible a [BurstAgility], inflige +50% de dégâts"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gagne 3 [LegStrength]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Réutilise cette Pièce une fois (une fois par Capacité)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 113104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "La Conclusion",
+          "desc": "[WhenUse] Gagne 3 [Agility] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 113201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Poursuite",
+          "desc": "[WhenUse] Si la cible a 3 [Burst] ou plus, +1 de Puissance de Duel",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 113202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Submerger",
+          "desc": "[WhenUse] Si la cible a 4 [Burst] ou plus, +1 de Puissance de Base",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Réutilise cette Pièce (Vitesse de cette unité / 3) fois (2 max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 113203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Frappe de l’Ombre",
+          "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible principale gagne de la Puissance de Pièce basée sur la différence de Vitesse (+1 de Puissance de Pièce toutes les 2 différences de Vitesse ; 3 max)\n[WhenUse] Si la cible a 4 [Burst] ou plus, +1 de Puissance de Pièce\n[WinDuel] Inflige +3 de Compte de [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [BurstAgility]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Si la cible a [BurstAgility], inflige +50% de dégâts"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gagne 3 [LegStrength]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Réutilise cette Pièce une fois (une fois par Capacité)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 113204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "La Conclusion",
+          "desc": "[WhenUse] Gagne 3 [Agility] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 113701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Question (問)",
+          "desc": "[WhenUse] Si la cible a 5 [Burst] ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 113702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Réponse (答)",
+          "desc": "[WhenUse] Si la cible a 5 [Burst] ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 113703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "N’agit Pas Sans Inconvenance (非禮勿動)",
+          "desc": "[WhenUse] +1 de Puissance de Pièce tous les 4 [Burst] sur la cible (2 max)\n[WhenUse] +1 de Puissance de Duel tous les 2 de Compte de [Burst] de la cible (3 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Burst]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Inflige 1 [Binding] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Binding] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [BurstStop]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 113704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Esquive",
+          "desc": "Si cette unité échoue à utiliser cette Capacité, gagne 1 [Binding] au prochain tour\n[WhenUse] +1 de Puissance de Pièce tous les 2 [Burst] de la cible (3 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 113705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Coup de Tonnerre",
+          "desc": "[WhenUse] Si la cible a 5 [Burst] ou plus, +1 de Puissance de Pièce\n[WinDuel] Inflige +2 de Compte de [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [BurstWave]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 113706,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Abattez-les, Mao",
+          "desc": "[WhenUse] Regagne 10 PSM\n[WhenUse] Si la cible a 5 [Burst] ou plus, +1 de Puissance de Pièce\n[WinDuel] Inflige 2 [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [BurstSuppress]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 113707,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Je Dois Repousser Tes Limites",
+          "desc": "[WhenUse] +1 de Puissance de Pièce tous les 4 [Burst] sur la cible (2 max)\n[WhenUse] +1 de Puissance de Duel tous les 2 de Compte de [Burst] de la cible (3 max)\n[WinDuel] Inflige 2 [Burst] et +2 de Compte de [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +4 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 3 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Inflige +5% de dégâts tous les (Intensité de [Burst] de la cible + Compte de [Burst] de la cible) (200% max)\n[OnSucceedAttack] Réduit tous les Ritemorts de la cible à 0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 113708,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "N’interférez Pas",
+          "desc": "[WhenUse] +1 de Puissance de Pièce tous les 4 [Burst] sur la cible (3 max)\n[WinDuel] Inflige +2 de Compte de [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [BurstWave]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 113301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Frappe Surprenante",
+          "desc": "[WhenUse] Si la cible a 5 [Burst] ou plus, +1 de Puissance de Duel",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 113302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Meurtre Perforant",
+          "desc": "[WhenUse] Si la cible a 5 [Burst] ou plus, +1 de Puissance de Pièce\n[WhenUse] Gagne 3 [LegStrength]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [BurstAgility], gagne 1 [Agility] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 113303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Frappe Graveuse",
+          "desc": "[WhenUse] Si la cible a 5 [Burst] ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [BurstAgility]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 113304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lame de Boucher Gravée de Malédiction - Battement de Pas",
+          "desc": "Priorise les cibles avec [BurstAgility]\n[StartBattle] Gagne 1 [SupportProtect]\nInflige +15% de dégâts toutes les 2 différences de Vitesse entre cette unité et la cible (60% max)\n[WhenUse] +1 de Puissance de Pièce tous les 5 [Burst] sur la cible (2 max)\n[WhenUse] +1 de Puissance de Base tous les 2 de Compte de [Burst] sur la cible (3 max)\n[WinDuel] Inflige +2 de Compte de [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Si la cible a [BurstAgility], inflige +50% de dégâts"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Burst]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Réutilise cette Pièce une fois (une fois par Capacité)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 113305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Gravée de Malédiction",
+          "desc": "[WhenUse] Si la Vitesse de cette unité dépasse celle de la cible de 3 ou plus, +1 de Puissance de Duel\n[WhenUse] Si la cible a [BurstAgility], inflige +1 de Compte de [Burst] supplémentaire avec cette Capacité",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 113306,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Libération Incomplète de Sceau : <Lame de l’Étoile Tianjiu>",
+          "desc": "+20% de dégâts toutes les 2 différences de Vitesse entre cette unité et la cible (60% max)\n[WhenUse] +1 de Puissance de Pièce tous les 5 [Burst] de la cible (3 max)\n[WhenUse] +1 de Puissance de Duel tous les 2 de Compte de [Burst] de la cible (3 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 5 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [BurstZilu]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 114101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Je te le Redemande",
+          "desc": "[WhenUse] Si la cible a 5 [Burst] ou plus, +1 de Puissance de Duel\n[WinDuel] Inflige +2 de Compte de [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 114102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "N’agit Pas Sans Inconvenance (非禮勿動)",
+          "desc": "[WhenUse] Si la cible a 5 [Burst] ou plus, +1 de Puissance de Duel\n[WinDuel] Inflige +2 de Compte de [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [BurstStop]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 114103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vous N’interférerez Pas",
+          "desc": "[WhenUse] Si la cible a 5 [Burst] ou plus, +1 de Puissance de Duel\n[WinDuel] Inflige +2 de Compte de [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [BurstSuppress]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 114104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Coup de Tonnerre - Vague (波)",
+          "desc": "Priorise les cibles avec le plus de types de Ritemort\n[WhenUse] +1 de Puissance de Pièce tous les 2 [Burst] sur la cible principale (4 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 2 types de Ritemort ou plus, inflige [BurstWave]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 114105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Heishou - Liaison Mao - Tempête de Lame",
+          "desc": "[WhenUse] Regagne 10 PSM\n[WhenUse] +1 de Puissance de Pièce tous les 5 [Burst] de la cible (2 max)\n[WinDuel] Inflige 2 [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [BurstAgility]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 114106,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Écoute-Moi, Zilu",
+          "desc": "[WhenUse] Regagne 10 PSM\n[WhenUse] +1 de Puissance de Pièce tous les 5 [Burst] de la cible (2 max)\n[WinDuel] Inflige 2 [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [BurstZilu]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 114107,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Déluge de Ritemort",
+          "desc": "[CantChangeTarget]\nPriorise les cibles avec le plus de types de Ritemort\n[WhenUse] +1 de Puissance de Pièce par type de Ritemort sur la cible (3 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Inflige +5% de dégâts tous les (Intensité de [Burst] de la cible + Compte de [Burst] de la cible + nombre de types de Ritemort de la cible) (200% max)\n[OnSucceedAttack] Réduit tous les Ritemorts de la cible à 0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 114108,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Réponds-Moi, Jia Baoyu",
+          "desc": "[CantChangeTarget]\nPriorise Hong Lu\n[WinDuel] Inflige +4 de Compte de [Burst]\n[DefeatDuel] Si la cible est Hong Lu, inflige 1 [Teaching]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 114109,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Étoile Tiangang - Forme (格)",
+          "desc": "Priorise Hong Lu\n-2 de Puissance de Pièce par [Teaching] de la cible\n[DefeatDuel] Ne peut pas Déséquilibrer avec cette attaque. Gagne 24 [DefenseDown] pour l’Affrontement\n[DefeatDuel] Inflige -50% de dégâts",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +5% de dégâts tous les (Intensité de [Burst] de la cible + Compte de [Burst] de la cible + nombre de types de Ritemort de la cible) (100% max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 115701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Minables…",
+          "desc": "[StartBattle] Applique 2 [AttackDmgUp] à l’allié le plus rapide",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 115702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Abrutis…",
+          "desc": "[StartBattle] Applique 2 [Agility] à l’allié le plus lent au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Binding] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vulnerable] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 115703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Je Vais Te Tuer !",
+          "desc": "[WhenUse] Si la cible a 3 types d’effets négatifs ou plus, +1 de Puissance de Base\n[WhenUse] +1 de Puissance de Pièce tous les 6 [Burst] de la cible (2 max)\n[DefeatDuel] Gagne 1 [Vulnerable]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 dégâts de PSM"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 dégâts de PSM"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 115704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Intervenez !!",
+          "desc": "[WhenUse] Regagne 15 PSM\n[WhenUse] Si la cible a 3 types d’effets négatifs ou plus, +1 de Puissance de Base\n[EndSkill] 1 Jarre avec le moins de PV actuels utilise la Capacité “Jarre Fêlée Jaillissante” sur la cible (ignore le Déséquilibre)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 115705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Regardons Ce Spectable, Tous Ensemble !",
+          "desc": "[StartBattle] Invoque 2 Jarres au prochain tour\n[WhenUse] Si la cible a 3 effets négatifs ou plus, +1 de Puissance de Base",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 115901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "École des Talismans Spirituels - Frappe de Talisman",
+          "desc": "[WhenUse] +1 de Puissance Finale tous les 4 [Burst] sur la cible (3 max)\n[WhenUse] +1 de Puissance de Duel tous les 30% de PV manquants sur soi (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst] et +2 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 10 [OminousTalisman]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 115902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "École des Talismans Spirituels - Effet Déclencheur",
+          "desc": "[WhenUse] +1 de Puissance Finale tous les 4 [Burst] sur la cible (3 max)\n[WhenUse] +1 de Puissance de Duel tous les 30% de PV manquants sur soi (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst] et +2 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 10 [OminousTalisman]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Réduit le [OminousTalisman] de la cible de 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 115903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "École des Talismans Spirituels - Poupée Ritemort",
+          "desc": "[WhenUse] +1 de Puissance Finale tous les 4 [Burst] sur la cible (4 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst] et +3 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Réduit le [OminousTalisman] de la cible de 5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 115904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "École des Talismans Spirituels - Rage Infâme",
+          "desc": "[StartBattle] +1 de Poids d’Atq tous les 20% de PV manquants sur soi (4 max)\n[WhenUse] +1 de Puissance Finale tous les 4 [Burst] sur la cible (4 max)\n[DefeatDuel] Inflige -50% de dégâts ; cette Capacité ne peut pas Déséquilibrer la cible avec des dégâts ou des effets\n[EndSkill] Si cette Capacité a vaincu un ennemi, applique 2 [ResultEnhancement] et 2 [AttackDmgUp] à tous les alliés, incluant cette unité, au prochain tour (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 10 [OminousTalisman]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 10 [OminousTalisman]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Retire tous les [OminousTalisman] de la cible"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 115801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Prenez Ça !",
+          "desc": "[WhenUse] +1 de Puissance de Pièce tous les 2 types d’effets négatifs sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [MadFeather]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [MadFeather]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Binding] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 115802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "À GENOUX !",
+          "desc": "[CantIdentify]\n[WhenUse] +1 de Puissance de Pièce tous les 2 types d’effets négatifs sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [MadFeather]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [MadFeather]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 115803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Regardez-Vous, Bande de Cons !",
+          "desc": "[WhenUse] +1 de Puissance de Pièce tous les 2 types d’effets négatifs sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [MadFeather]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Activate [Burst] de la cible une fois. La cible perd 1 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige de l’Intensité de [Laceration] et de [Burst] égale aux Instances de [MadFeather]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 115804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Restez à votre Place !",
+          "desc": "[WideAreaRampage]\n[WhenUse] Consomme 3% de PV sur soi (ce dégât ne tue pas cette unité)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [MadFeather]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [ShamrockTakeDamageUp] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [MadFeather]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [ShamrockTakeDamageUp] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [MadFeather]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [ShamrockTakeDamageUp] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 115805,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Prosternez-Vous Devant Moi !",
+          "desc": "[CantIdentify]\n[WhenUse] Consomme 5% de PV sur soi (ce dégât ne tue pas cette unité)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige ([MadFeather] de la cible * 10) [Burst] ; toutes [MadFeather] de la cible expirent"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Active [Burst] de la cible 2 fois. La cible perd 2 de Compte de [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 115806,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Je Vais Vous Laisser une Chance",
+          "desc": "[DuelCounter]\n[DefeatDuel] Toutes [MadFeather] de la cible expirent",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [MadFeather]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [MadFeather]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Binding] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 116701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Style de la Lame Chargée - Fente Descendante",
+          "desc": "[WhenUse] Consomme 5 de Compte de [Charge] pour gagner +1 de Puissance Finale (2 max)\n[WhenUse] Gagne +2 de Compte de [Charge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Charge]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 116702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Style de la Lame Chargée - Tranche Conclusive",
+          "desc": "[WhenUse] Consomme 5 de Compte de [Charge] pour gagner +1 de Puissance de Duel (2 max)\n[WhenUse] Gagne +5 de Compte de [Charge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Charge]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Charge]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 116703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Style de la Lame Chargée - Tranche Écrasante",
+          "desc": "[WhenUse] Consomme 5 de Compte de [Charge] pour gagner +1 de Puissance de Pièce (2 max)\n[WhenUse] Si cette unité a consommé 5 de Compte de Charge ou plus, inflige +2 [Burst] supplémentaires\n[WhenUse] Si cette unité a consommé 10 de Compte de [Charge] ou plus, inflige +3 de Compte de [Burst]\n[WhenUse] À 5~9 de Compte de [Charge], gagne 2*(13 - Compte de [Charge] actuel) [Burst] pour faire monter le Compte de [Charge] de cette unité à 10\n[DefeatDuel] Inflige -75% de dégâts ; les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts de Gourmandise égaux à l’Intensité de [Burst] sur la cible ; puis, réduit le Compte de [Burst] de 1 (30 max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst] tous les 5 de Compte de [Charge] consommés À l’Usage (4 max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 116704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Style de la Lame Chargée - Tranche Circulante",
+          "desc": "[WhenUse] Gagne +5 de Compte de [Charge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 116001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Style du Poing Chargé - Confrontation",
+          "desc": "[WhenUse] +1 de Puissance Finale tous les 4 [Burst] sur la cible (2 max)\n[WhenUse] Gagne +3 de Compte de [Charge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +3 de Compte de [Charge]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 116002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Style du Poing Chargé - Coup de Rotonde",
+          "desc": "[WhenUse] +1 de Puissance Finale tous les 5 [Burst] de la cible (2 max)\n[WhenUse] Consomme 5 de Compte de [Charge] pour gagner +1 de Puissance Finale\n[WhenUse] À 5~9 de Compte de [Charge], gagne 2*(13 - Compte de [Charge] actuel) d’Intensité de [Burst] pour augmenter le Compte de [Charge] à 10 (une fois par tour)\n[WhenUse] Gagne +5 de Compte de [Charge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +5 de Compte de [Charge]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 2 [Charge] ou plus, inflige +2 de Compte de [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 116003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Style du Poing Chargé - Destruction",
+          "desc": "[WhenUse] +1 de Puissance Finale tous les 6 [Burst] de la cible (2 max)\n[WhenUse] Consomme 5 de Compte de [Charge] pour gagner +1 de Puissance de Pièce (3 max)\n[WhenUse] Si cette unité a consommé 5 de Compte de Charge ou plus, inflige +2 [Burst] supplémentaires\n[WhenUse] Si cette unité a consommé 10 de Compte de [Charge] ou plus, inflige +3 de Compte de [Burst]\n[DefeatDuel] Inflige -80% de dégâts ; les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne +5 de Compte de [Charge]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cette unité a consommé du Compte de [Charge], inflige 10 [OminousTalisman]\n- Si cette unité a consommé 10 de Compte de [Charge] ou plus, inflige (Compte de [Charge] consommé - 10) de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +5 de Compte de [Charge]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Retire tous les [OminousTalisman] de la cible"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Si cette unité a consommé 5 de Compte de Charge ou plus À l’Usage, inflige 10 [OminousTalisman]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Si cette unité a consommé 10 de Compte de [Charge] ou plus À l’Usage, consomme tous [OminousTalisman] de la cible"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 116004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Style du Poing Chargé - Concordance Rythmique",
+          "desc": "[WhenUse] Gagne +5 de Compte de [Charge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Réduit le [OminousTalisman] de la cible de 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 113307,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Protection à Pas Rapide",
+          "desc": "[CanDuelGuard]\n[BeforeUse] À 2 [SupportProtect] ou plus, active “Heishou Ascendant - Technique Mao : Manifestation Fendeuse de Nuage” à la place\n[WhenUse] Gagne 1 Niveau Défensif tous les 5% de PV cumulés que cette unité a perdu dans cet Affrontement (10 max)\n[WhenUse] Ne peut pas être Déséquilibré par des dégâts avant la fin de cette Capacité",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 113308,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Heishou Ascendant - Technique Mao : Manifestation Fendeuse de Nuage",
+          "desc": "+20% de dégâts toutes les 2 différences de Vitesse entre cette unité et la cible (60% max)\n[WhenUse] +1 de Puissance de Pièce tous les 5 [Burst] de la cible (3 max)\n[WhenUse] +1 de Puissance de Duel tous les 2 de Compte de [Burst] de la cible (3 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 5 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [BurstZilu]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 114110,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Telle une Tempête Hurlante",
+          "desc": "[CantDuel]\n[CantChangeTarget]\nCette Capacité attaque les cibles qui ne sont pas Hong Lu\nUtilise la Meute Heishou - Branche Mao pour Déséquilibrer toutes les Identités à l’exception de Hong Lu au prochain tour ; cette unité se remet de Déséquilibre\n[EndSkill] Termine le tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

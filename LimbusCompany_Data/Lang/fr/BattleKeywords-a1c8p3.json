@@ -1,0 +1,322 @@
+{
+  "dataList": [
+    {
+      "id": "Bothersome",
+      "name": "Entaille Séparatrice [切斬]",
+      "desc": "- La Résistance au Tranchant de la cible compte comme “Faible” (1.5). (Ne s’active pas sur les cibles avec une Résistance au Tranchant de 1.5 ou plus)\n- Expire à la Fin du Tour",
+      "summary": ""
+    },
+    {
+      "id": "VibrationIgnition",
+      "name": "Tremblement - Calcination",
+      "desc": "- En Sursaut de Tremblement, subit des Dégâts de Colère égaux à (somme d’Intensité de Tremblement et de Brûlure / 2) et perd 1 de Compte de Brûlure\n- Lorsque touché par des Capacités qui déclenchent un Sursaut de Tremblement, augmente le Seuil de Déséquilibre selon l’Intensité de l’effet\n- Fin du Tour : réduit le Compte de 1\n(Interagit de la même manière que le Tremblement normal avec les effets qui augmentent ou réduisent l’Intensité/Compte de Tremblement)",
+      "summary": ""
+    },
+    {
+      "id": "BulletPropellant",
+      "name": "Cartouche de Marque du Tigre",
+      "desc": "- Munition Unique\n- Utilisé par certaines Capacités\n- Instance max : 6",
+      "summary": ""
+    },
+    {
+      "id": "BulletPropellantSpecial",
+      "name": "Cartouche de Marque du Tigre Sauvage",
+      "desc": "- Munition Unique\n- Utilisé par certaines Capacités (s’active de la même manière que Cartouche de Marque du Tigre)\n- L’Intensité et le Compte de cet effet sont respectivement appelés “Munition Chargée” et “Munition Restante”.\n· Intensité max (Munition Chargée) : 6\n- Les Pièces qui ont utilisé cette Munition infligent +30% de dégâts et infligent le double d’Intensité et de Compte de Brûlure\n- Lorsque toutes les Munitions Chargées et Munitions Restantes sont utilisées, les reconvertit en Cartouche de Marque du Tigre",
+      "summary": ""
+    },
+    {
+      "id": "Prey",
+      "name": "Proie",
+      "desc": "- Dans un Duel avec un ennemi, -5 de Puissance de Duel\n- Début du Combat :\n· Si cette unité a équipé une Capacité Offensive, inflige -50% de dégâts à Lei Heng avec ses Capacités Offensives\n· Si cette unité a équipé une Capacité Défensive, subit -75% de dégâts de Lei Heng\n- Si cette unité gagne un Duel contre Lei Heng en ayant cet effet, gagne 3 de la Ressource E.G.O. la moins possédée\n- Expire à la Fin du Tour ; cette unité regagne 10 PSM",
+      "summary": ""
+    },
+    {
+      "id": "Complacency",
+      "name": "Surchauffe",
+      "desc": "- Instance max : 5\n- Début du Tour : gagne du Malus de Puissance de Duel et de la Vulnérabilité égaux à l’Instance\n- Expire à la Fin du Tour",
+      "summary": ""
+    },
+    {
+      "id": "BattleSense",
+      "name": "Force Intérieure [底力]",
+      "desc": "- Instance max : 25\n- Consommé par certaines Capacités ; à la Fin du Tour, regagne autant de PSM que d’Instances consommées d’ici la Fin du Tour\n- Gagne 1 Instance à chaque Clash (5 max par Capacité). En Duel Perdu, perd les Instances gagnées lors de ce Duel\n- Gagne 2 Instances en touchant avec une Capacité à Sens-Unique (10 max par Capacité)\n- Fin du Tour : au prochain tour, gagne de l’Accélération selon l’Instance totale consommée ce tour (1 Accélération par 25 Instances ; 2 max)\n- Gagne un buff différent en suivant un certain comportement",
+      "summary": ""
+    },
+    {
+      "id": "RestoredBattleSense",
+      "name": "Force Extrême [極力]",
+      "desc": "- Instance max : 50\n- Compte comme “Force Intérieure”. Consommé par certaines Capacités ; à la Fin du Tour, regagne autant de PSM que d’Instances consommées d’ici la Fin du Tour.\n- Gagne 2 Instances à chaque Clash (10 max par Capacité). En Duel Perdu, perd les Instances gagnées lors de ce Duel\n- Gagne 3 Instances en touchant avec une Capacité à Sens-Unique (15 max par Capacité)\n- Fin du Tour : au prochain tour, gagne de l’Accélération selon l’Instance totale consommée ce tour (1 Accélération par 25 Instances, 5 max)",
+      "summary": ""
+    },
+    {
+      "id": "Irritation",
+      "name": "Esprit Implacable [剛氣]",
+      "desc": "- Début du Tour : gagne 1 Bonus de Dégâts et 1 Bonus de Puissance tous les 20% de PV manquants sur soi (3 max chacun)\n- Inflige +2 d’Intensité de Tremblement supplémentaires avec les Capacités de cette unité\n- Si la Vitesse de cette unité est plus rapide que celle de la cible de 3 ou plus, inflige +(différence de Vitesse * 5)% de dégâts (20% max)\n- Convertit la Pièce finale de “Triple Coup - Sursaut” en une Pièce Incassable\n- Ce buff se change en Esprit Implacable - Shin en suivant un certain comportement",
+      "summary": ""
+    },
+    {
+      "id": "HugeIrritation",
+      "name": "Esprit Implacable - Shin [剛氣-心]",
+      "desc": "- Début du Tour : gagne 1 Bonus de Dégâts et 1 Bonus de Puissance tous les 15% de PV manquants sur soi (5 max chacun)\n- Inflige +3 d’Intensité de Tremblement et +1 de Compte de Tremblement supplémentaires avec les Capacités de cette unité\n- Si la Vitesse de cette unité est plus rapide que celle de la cible de 3 ou plus, inflige +(différence de Vitesse * 5)% de dégâts (20% max)\n- Convertit les Pièces finales de “Double Entaille - Explosion” et “Triple Coup - Sursaut” en Pièces Incassables",
+      "summary": ""
+    },
+    {
+      "id": "ReloadKeepAmmo",
+      "name": "Recharge - Tactique",
+      "desc": "- Restaure les Munitions de cette unité à sa capacité maximale (ne défausse pas les Munitions restantes)",
+      "summary": ""
+    },
+    {
+      "id": "BeastEyes_LowMorale",
+      "name": "Instinct Bestial - Moral Bas",
+      "desc": "- Inflige +(différence de pourcentage de PV / 2)% de dégâts aux cibles avec un plus haut pourcentage de PV que cette unité (10% max)\n- Début du Tour : gagne 1 Bonus de Puissance Finale, 1 Bonus de Dégâts et 1 Vulnérabilité",
+      "summary": ""
+    },
+    {
+      "id": "BeastEyes_Panic",
+      "name": "Instinct Bestial - Panique",
+      "desc": "- Inflige +(différence de pourcentage de PV)% de dégâts aux cibles avec un plus haut pourcentage de PV que cette unité (25% max)\n- Début du Tour : gagne 1 Bonus de Puissance de Pièce, 2 Bonus de Dégâts et 2 Vulnérabilité\n- Prochain Début de Tour : regagne des PSM égaux au pourcentage de PV manquants de cette unité (25 max)",
+      "summary": ""
+    },
+    {
+      "id": "DisengageCombat",
+      "name": "Bataille d’Évasion",
+      "desc": "- Fin du Tour : se remet de Déséquilibre et fuit l’Affrontement (sauf s’il s’agit d’un Déséquilibre forcé ; ne compte pas comme une mort)",
+      "summary": ""
+    },
+    {
+      "id": "Chesed_Mercy",
+      "name": "Miséricorde de Chesed",
+      "desc": "- Moyenne le Niveau Offensif et Défensif de toutes les unités\n- Après que l’effet Chesed s’active, les Identités alliées gagnent 3 Niveaux Offensifs et 6 Niveaux Défensifs\n- Premier Déclenchement de l’Effet : “Miséricorde de Chesed” dure tout l’Affrontement",
+      "summary": ""
+    },
+    {
+      "id": "Ryoshu_Attackup",
+      "name": "Souvenir Mutilé",
+      "desc": "[Effet Exclusif de Ryōshū]\n- Inflige +(Compte de Tour Actuel * 2.5)% de dégâts à Lei Heng cet Affrontement (30% max)",
+      "summary": ""
+    },
+    {
+      "id": "Honglu_EGOResourceup",
+      "name": "Mon Cœur, Mes Propres Pensées…",
+      "desc": "[Effet Exclusif de Hong Lu]\n- Pour cet Affrontement : après avoir utilisé une Capacité Offensive, gagne 2 ressources E.G.O. supplémentaires de l’Affinité de la Capacité (une fois par tour)",
+      "summary": ""
+    },
+    {
+      "id": "BudgetBulletPropellant",
+      "name": "Munition Propulsive",
+      "desc": "- Munition Unique\n- Utilisé par certaines Capacités\n- Instance max : 4",
+      "summary": ""
+    },
+    {
+      "id": "NEgoFleshSpatula_LowMorale",
+      "name": "Rafle Charnelle",
+      "desc": "- Moral Bas\nDébut du Tour : gagne 5 Saignement et 1 Bonus de Puissance Offensive",
+      "summary": ""
+    },
+    {
+      "id": "NEgoFleshSpatula_Panic",
+      "name": "Rafle Charnelle",
+      "desc": "- Moral Bas\nDébut du Tour : gagne 10 Saignement et 2 Bonus de Puissance Offensive",
+      "summary": ""
+    },
+    {
+      "id": "LeRegole_LowMorale",
+      "name": "Le Regole",
+      "desc": "- Moral Bas\n- Si cette unité a infligé 2 Tremblement ou plus au dernier tour, gagne 1 Bonus de DGT de Paresse\n- Si cette unité a infligé 2 Brûlure ou plus au dernier tour, gagne 1 Bonus de DGT de Colère\n- Si cette unité n’a rien infligé, gagne 2 Malus de Niveau Défensif",
+      "summary": ""
+    },
+    {
+      "id": "LeRegole_Panic",
+      "name": "Le Regole",
+      "desc": "- Moral Bas\n- Si cette unité a infligé 2 Tremblement ou plus au dernier tour, gagne 2 Bonus de DGT de Paresse\n- Si cette unité a infligé 2 Brûlure ou plus au dernier tour, gagne 2 Bonus de DGT de Colère\n- Si cette unité n’a rien infligé, gagne 3 Malus de Niveau Défensif",
+      "summary": ""
+    },
+    {
+      "id": "GazeReplica",
+      "name": "Regard",
+      "desc": "- Instance max : 7\n- Inflige et subit +10% de dégâts de Jia Huan\n- À 7 Instances, se convertit en Mépris",
+      "summary": ""
+    },
+    {
+      "id": "ContemptReplica",
+      "name": "Mépris",
+      "desc": "- Instance max : 1\n- Inflige et subit -50% de dégâts de Jia Huan\n- Les cibles avec Mépris ne peuvent pas gagner de Regard\n- Expire à la Fin du Tour",
+      "summary": ""
+    },
+    {
+      "id": "GraspReplica",
+      "name": "Agrippage",
+      "desc": "- Instance max : 4\n- Fin du Tour : gagne 10 Ralentissement au prochain tour\n- Fin du Tour : perd 1 Instance",
+      "summary": ""
+    },
+    {
+      "id": "EgoErodeReplica",
+      "name": "Érosion E.G.O. - N Corp.",
+      "desc": "- Instance max : 10\n- Les effets suivants s’activent à chaque Début de Tour :\n· Perd des PSM selon l’Instance de l’effet\n· Gagne 1 Bonus de Puissance Offensive toutes les 3 Instances\n- À Instance max, subit 5% de dégâts de PV à la Fin du Tour",
+      "summary": ""
+    },
+    {
+      "id": "BoseProjektilReplica",
+      "name": "Souvenir Déchiré",
+      "desc": "Instance max : 7",
+      "summary": ""
+    },
+    {
+      "id": "EgoErodeContempt_LowMorale",
+      "name": "Doux Cœur d’Or Moulé",
+      "desc": "- Moral Bas\n- Début du Tour : gagne 1 Bonus de Puissance Offensive et 1 Vulnérabilité",
+      "summary": ""
+    },
+    {
+      "id": "EgoErodeContempt_Panic",
+      "name": "Doux Cœur d’Or Moulé",
+      "desc": "- Panique\n- Début du Tour : gagne 2 Bonus de Puissance Offensive et 2 Vulnérabilité",
+      "summary": ""
+    },
+    {
+      "id": "EgoErodeMemory_LowMorale",
+      "name": "Cœur Vers la Nouvelle Ère",
+      "desc": "- Moral Bas\n- En Touche, consomme 3 PSM sur soi pour infliger 2 Lourdeur",
+      "summary": ""
+    },
+    {
+      "id": "EgoErodeMemory_Panic",
+      "name": "Cœur Vers la Nouvelle Ère",
+      "desc": "- Panique\n- En Touche, inflige 3 Lourdeur et gagne 1 Lourdeur",
+      "summary": ""
+    },
+    {
+      "id": "PileObedient",
+      "name": "Obéissance Généreuse",
+      "desc": "- Fin du Tour : à 3 Instances, convertit cet effet en Obéissance Vaine au prochain tour",
+      "summary": ""
+    },
+    {
+      "id": "Obedient",
+      "name": "Obéissance Vaine",
+      "desc": "- -2 de Puissance de Duel contre Jia Mu\n- Expire lorsque les PSM de cette unité atteignent 45 ou lorsque l’Instance tombe à 0\n- Fin du Tour : perd 1 Instance",
+      "summary": ""
+    },
+    {
+      "id": "ExpensiveJade",
+      "name": "Berceau du Précieux Jade",
+      "desc": "- Entre dans un état “Immobilisé” où les buffs, PV et PSM de cette unité ne peuvent être changés. Forme un Jade Précieux connecté à cette unité",
+      "summary": ""
+    },
+    {
+      "id": "FamilyTreasure",
+      "name": "Divertissement Explosif",
+      "desc": "- À la Fin du Tour :\n· Instance de Base : 1\n· L’unité connectée à cette unité regagne 25% de PV et perd 20 PSM\n· Gagne 1 Instance\n· À 3 Instances, utilise une Capacité d’auto-destruction. Si cette unité est tuée par auto-destruction, inflige au personnage enfermé 3 Obéissance Vaine au prochain tour",
+      "summary": ""
+    },
+    {
+      "id": "OutpouringAnger",
+      "name": "Carnage",
+      "desc": "- Si la cible principale de la Capacité “Vous ne connaissez point la profondeur des pouvoirs de l’œil, sa nature spéciale” est Hong Lu, ignore tous les effets de Capacité et convertit toutes les Pièces de la Capacité en Pièces Incassables",
+      "summary": ""
+    },
+    {
+      "id": "Honglu_Xi",
+      "name": "Bonheur",
+      "desc": "- +1 de Puissance de Duel d’Hong Lu\n- Lorsqu’il y a 1 allié survivant ou plus dans cet Affrontement : en subissant des dégâts léthaux, Hong Lu ne meurt par et se soigne de 50% de PV à la place\n- Nullifie l’effet qui transforme cette unité en un Précieux Jade une fois. En affrontant en Duel des Capacités qui changent cette unité en un Précieux Jade, +5 de Puissance de Duel ; si cette unité gagne ce Duel, cette unité ne devient pas un Précieux Jade, se remet de Déséquilibre, réduit les PSM de Jia Mu de 10 et inflige 2 Vulnérabilité à Jia Mu\nEn Duel Gagné contre Jia Mu, gagne 1 Ressource E.G.O. aléatoire pour chacune des 3 Affinités E.G.O. avec le moins de ressources",
+      "summary": ""
+    },
+    {
+      "id": "Honglu_Le",
+      "name": "Bonheur, Joie",
+      "desc": "- +1 de Puissance Finale d’Hong Lu\n- En Duel Gagné, rend 5 PSM à 1 allié avec le moins de PSM (inclut cette unité)\n- Lorsqu’il y a 1 allié survivant ou plus dans cet Affrontement : en subissant des dégâts léthaux, Hong Lu ne meurt par et se soigne de 50% de PV à la place\nEn Duel Gagné contre Jia Mu, gagne 1 Ressource E.G.O. aléatoire pour chacune des 3 Affinités E.G.O. avec le moins de ressources",
+      "summary": ""
+    },
+    {
+      "id": "Honglu_Ai",
+      "name": "Bonheur, Joie, Peine",
+      "desc": "- +3 de Puissance Finale d’Hong Lu\n- En Duel Gagné, rend 5 PSM à 1 allié avec le moins de PSM (inclut cette unité)\n- Lorsqu’un allié est tué, les alliés restants à la Fin du Tour gagnent 1 Bonus de Puissance Offensive au prochain tour (une fois par tour)\n- Lorsqu’il y a 1 allié survivant ou plus dans cet Affrontement : en subissant des dégâts léthaux, Hong Lu ne meurt par et se soigne de 50% de PV à la place\nEn Duel Gagné contre Jia Mu, gagne 1 Ressource E.G.O. aléatoire pour chacune des 3 Affinités E.G.O. avec le moins de ressources",
+      "summary": ""
+    },
+    {
+      "id": "Honglu_Nu",
+      "name": "Bonheur, Joie, Peine, Colère",
+      "desc": "- +5 de Puissance Finale d’Hong Lu\n- Les alliés regagnent 5 PSM à chaque Début de Tour (inclut cette unité)\n- Lorsqu’un allié est tué, les alliés restants à la Fin du Tour gagnent 1 Bonus de Puissance Offensive au prochain tour (une fois par tour)\n- Lorsqu’il y a 1 allié survivant ou plus dans cet Affrontement : en subissant des dégâts léthaux, Hong Lu ne meurt par et se soigne de 50% de PV à la place\n- Augmente les dégâts infligés de 30% du pourcentage total cumulé de PV que cette unité a perdu durant cet Affrontement (100% max)\nEn Duel Gagné contre Jia Mu, gagne 1 Ressource E.G.O. aléatoire pour chacune des 3 Affinités E.G.O. avec le moins de ressources",
+      "summary": ""
+    },
+    {
+      "id": "SupremeEternalLife",
+      "name": "Immortalité Sublime",
+      "desc": "- Début du Tour : le Noyau de Jia Mu et chaque Partie gagnent 5% de chacun de leurs PV max en Bouclier",
+      "summary": ""
+    },
+    {
+      "id": "ImperfectEternalLife",
+      "name": "Immortalité Imparfaite",
+      "desc": "- Absorbé lorsque touché par certaines Capacités de Jia Mu\n- Si cet effet a été infligé à Jia Mu, gagne 1 Vulnérabilité par Instance ; à 5 Instances, devient Déséquilibrée",
+      "summary": ""
+    },
+    {
+      "id": "GoldenBoughSync",
+      "name": "Désyntonisation",
+      "desc": "- +2 Niveaux Offensifs de Base, +2 Niveaux Défensifs de Base",
+      "summary": ""
+    },
+    {
+      "id": "GoldenBoughSyncDistorted",
+      "name": "Surnaturel, Force, Chaos et Esprits",
+      "desc": "- +4 Niveaux Offensifs de Base, +4 Niveaux Défensifs de Base",
+      "summary": ""
+    },
+    {
+      "id": "LastingHongwonWill_LowMorale",
+      "name": "Volonté Héritée d’Hongyuan",
+      "desc": "- Moral Bas\n- Gagne 2 Bonus de Puissance Offensive et 1 Ralentissement\n- Lorsque la Partie Corps perd un Duel contre Hong Lu : la Partie Corps gagne 1 Bonus de Dégâts et 1 Vulnérabilité au prochain tour (une fois par tour)",
+      "summary": ""
+    },
+    {
+      "id": "LastingHongwonWill_Panic",
+      "name": "Volonté Héritée d’Hongyuan",
+      "desc": "- Panique\n- Gagne 2 Bonus de Puissance Offensive et 2 Ralentissement\n- Lorsque la Partie Corps perd un Duel contre Hong Lu : la Partie Corps gagne 2 Bonus de Dégâts et 2 Vulnérabilité au prochain tour (une fois par tour)",
+      "summary": ""
+    },
+    {
+      "id": "LongLastingHongwonWill_LowMorale",
+      "name": "Volonté d’Hongyuan Transmise Infiniment",
+      "desc": "- Moral Bas\n- Gagne 2 Bonus de Puissance Offensive et 1 Vulnérabilité\n- Les unités générées par cette unité gagnent 3 Malus de Niveau Défensif\n- Inflige +20% de dégâts. Si les PV de la Partie Palanquin tombent à 0, inflige -10% de dégâts à la place",
+      "summary": ""
+    },
+    {
+      "id": "LongLastingHongwonWill_Panic",
+      "name": "Volonté d’Hongyuan Transmise Infiniment",
+      "desc": "- Panique\n- gagne 2 Bonus de Puissance Offensive et 2 Vulnérabilité\n- Les unités générées par cette unité gagnent 6 Malus de Niveau Défensif\n- Inflige +30% de dégâts. Si les PV de la Partie Palanquin tombent à 0, inflige -15% de dégâts à la place",
+      "summary": ""
+    },
+    {
+      "id": "YisangParryGubo",
+      "name": "Responsabilité",
+      "desc": "En Duels contre Gubo, +2 de Puissance de Duel",
+      "summary": ""
+    },
+    {
+      "id": "HongluParryGahwan",
+      "name": "La Volonté de Confronter",
+      "desc": "En Duels contre Jia Huan, +2 de Puissance de Duel",
+      "summary": ""
+    },
+    {
+      "id": "GahwanEgoContempt",
+      "name": "Syntonisation E.G.O. Volatile - Mépris",
+      "desc": "- Équipement E.G.O. extrait par la N Corp. Bien que l’utilisateur remplisse les standards d’aptitude requis, le manque d’expérience peut causer des difficultés.\n- Instance max : 5\n- -7 Niveaux Offensifs et Défensifs\n- En Duel Gagné, gagne 1 Instance\n- Perd 1 Niveau Offensif et gagne 1 Niveau Défensif par Instance\n- À Instance max : au prochain tour, gagne 2 Protection et remet l’Instance à 0",
+      "summary": ""
+    },
+    {
+      "id": "GuboEgoShooter",
+      "name": "Syntonisation E.G.O. Volatile - Balle Tombée",
+      "desc": "- Équipement E.G.O. extrait par la N Corp. Bien que l’utilisateur remplisse les standards d’aptitude requis, le manque d’expérience peut causer des difficultés.\n- Instance max : 5\n- -2 Niveaux Offensifs et Défensifs\n- En Duel Perdu, gagne 1 Instance\n- Gagne 1 Niveau Offensif et perd 1 Niveau Défensif par Instance\n- À Instance max : au prochain tour, gagne 2 Bonus de Dégâts et remet l’Instance à 0",
+      "summary": ""
+    },
+    {
+      "id": "FellBulletMarkReplica",
+      "name": "Stigmatisé",
+      "desc": "- Ciblé par Gubo\n- Expire à la Fin du Tour",
+      "summary": ""
+    }
+  ]
+}

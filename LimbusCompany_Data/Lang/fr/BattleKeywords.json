@@ -1155,8 +1155,8 @@
     {
       "id": "Talisman",
       "name": "Talisman",
-      "desc": "En touche, inflige de la Déchirure selon le Compte ; lorsque touché, gagne de la Déchirure selon le Compte.\nFin du Tour : à 6 de Compte ou plus, retire tous les Talismans et subit des dégâts fixes selon son Compte.",
-      "summary": "Inflige de la Déchirure avec les attaques et gagne de la Déchirure lorsque touché"
+      "desc": "Instance max : 6\nEn Touche, consomme 1 de Compte de Déchirure de la cible pour infliger (Instance / 2) Déchirure (inflige au moins 1 Déchirure si du Compte de Déchirure a été consommé ; arrondi à l’inférieur)\nLorsque touché, gagne (Instance /2) Déchirure et perd 1 Instance (gagne au moins 1 Déchirure ; arrondi à l’inférieur)\nFin du Tour : à 6 Instances ou plus, retire tous Talisman sur soi et subit des dégâts fixes par Instance",
+      "summary": "En Touche, consomme du Compte de Déchirure de la cible pour infliger de la Déchirure ; lorsque touché, gagne de la Déchirure et perd 1 Instance"
     },
     {
       "id": "Choice_90104001",
@@ -1930,7 +1930,7 @@
     },
     {
       "id": "BurstPoison",
-      "name": "Ritemort【Venin】",
+      "name": "Ritemort 【Venin】",
       "desc": "Instance de Base : 5\n- Ritemort\n- En subissant des dégâts de Déchirure suite à une Touche Critique de la cible, perd 1 Instance\n- En perdant des Instances suite à cet effet, gagne 1 Malus de Niveau Offensif et 1 Malus de Niveau Défensif (3 fois par tour)\n- En perdant des Instances suite à cet effet, si l’Instance tombe à 0, subit des dégâts de Gourmandise égaux à l’Intensité de Déchirure sur soi\n- ※ Ne peut pas gagner d’Instances supplémentaires tant que cet effet est déjà actif",
       "summary": "",
       "undefined": "-"
@@ -1939,6 +1939,90 @@
       "id": "SnakeStance",
       "name": "Bras de Serpent",
       "desc": "Instance max : 3\nFin du Tour : gagne 3 Calme et +2 de Compte de Calme au prochain tour\nÀ l’usage de Capacité Offensive de Base, si la cible a Déchirure, gagne 5 Calme\nFin du Tour : perd 1 Instance",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BurstZilu",
+      "name": "Ritemort 【Fissure】",
+      "desc": "- Instance de Base : 3\n- En subissant des dégâts de Déchirure alors que cette unité possède Ritemort, perd 1 Instance et gagne 1 Ralentissement au prochain tour\n· Lorsque cet effet s’active, si cette unité va gagner 3 Ralentissements ou plus au prochain tour, perd 2 Instances au lieu de gagner du Ralentissement\n- À 0 Instance, subit des dégâts de Gourmandise égaux à l’Intensité de Déchirure sur soi\n※ Ne peut pas gagner d’Instances supplémentaires tant que cet effet est déjà actif",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "SupportProtect",
+      "name": "Défense de Secours",
+      "desc": "- Instance Max : 3\n- Lorsqu’un allié s’apprête à subir une Attaque à Sens-Unique ennemie, consomme 1 Instance pour rediriger le ciblage de l’ennemi vers soi ; puis, utilise la Capacité unique qui s’active pour Défense de Secours\n- Lorsqu’il y a plusieurs alliés avec des Instances de Défense de Secours, l’allié avec le plus d’Instance a la plus haute priorité d’activation\n- Ne s’active pas pour les alliés qui ont des Capacités Défensives équipées\n- Expire à la Fin du Tour",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "EnhanceZilu",
+      "name": "Lame de l’Étoile Tianjiu",
+      "desc": "- Instance Max : 20\n- À 10 Instances ou plus : à la Fin du Tour, gagne 1 Accélération au prochain tour\n- Utilisé par certaines Capacités",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BurstVulnerableZilu",
+      "name": "Marque de Décomposition",
+      "desc": "- Instance Max : 1\n- Subit +10% de dégâts de Capacités de Gourmandise\n- Subit +10% de dégâts de Ritemort\n- Retiré à la Fin du Tour",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "SupportProtectTypo",
+      "name": "Défense de Secours",
+      "desc": "",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "EntangledCurseTalisman",
+      "name": "Talisman de Malédiction Entortillé",
+      "desc": "- Instance Max : 10\n- Expire à la Fin du Tour\n- À 10 Instances ou plus, en subissant 30 dégâts ou plus d’une Capacité : gagne +1 de Compte de Déchirure ; subit des dégâts de Gourmandise égaux à l’Intensité de Déchirure sur soi (une fois par tour)\n- Lorsque cet effet expire, gagne (Instance / 4) Malus de Puissance Offensive au prochain tour (2 max)\n※ Ne peut pas gagner d’Instances supplémentaires de cet effet tant qu’il est déjà actif",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "CentipedePoison",
+      "name": "Venin de Centipède",
+      "desc": "- Instance Max : 20\n- Fin du Tour : gagne (Instance / 4) Malus de Niveau Défensif au prochain tour (arrondi à l’inférieur)\n- Fin du Tour : subit des dégâts de Gourmandise égaux à l’Instance et réduit de moitié l’Instance (arrondi à l’inférieur)\nÀ la mort, transfère à l’allié de cette unité (en Affrontement Concentré, une Partie différente) avec aucun ou le moins d’Instances de Venin de Centipède",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "DragonLance",
+      "name": "Épieu de Sépulture Florale [埋花櫼]",
+      "desc": "Instance de Base : 0\nInstance max : 3\n- Toutes les Pièces de la Capacité Offensive de Base la plus à gauche du Tableau de Bord de cette unité deviennent des Pièces Incassables\n- Début du Tour : gagne 2 Bonus de Niveau Offensif et 2 Malus de Niveau Défensif\n- Début du Tour : à 3 Instances ou plus, gagne 1 Sang Terni (une fois par Affrontement)\n- Fin du Tour : gagne 1 Instance\n※ Impossible d’augmenter l’Instance de l’effet avec une méthode différente que celles ci-dessus\n- Expire en Mourrant ou en Battant en Retraite\n\n- Lorsque cette unité subit des dégâts amenant ses PV à 0 : au lieu de laisser les PV de cette unité tomber en-dessous de 1, ou de devenir Déséquilibré ou Vaincu, utilise la Capacité “Larmes du Sang Terni - La Fin” à la toute fin de ce tour. Retire l’Épieu de Sépulture Florale à la fin de la Capacité.\nLorsque cette unité subit des dégâts amenant ses PV à 1 à la Fin du Tour, utilise la Capacité “Larmes du Sang Terni - La Fin” selon la Vitesse de cette unité au prochain tour",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "CondensedBlood",
+      "name": "Sang Terni",
+      "desc": "Instance max : 5\n- Fin du Tour : subit 20% de dégâts de PV par Instance (ne peut pas être Déséquilibré par cet effet)\n- Gagne 1 Instance à la Fin du Tour\n- Expire en Mourrant ou en Battant en Retraite",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "YesdragonSelf",
+      "name": "Épine de Sépulture Florale [埋花針]",
+      "desc": "Instance max : 20\n- Gagne 1 Instance à la Fin du Tour ou lorsque touché\n- Gagne 1 Niveau Offensif toutes les 5 Instances\n- Si l’unité avec cet effet meurt, inflige des dégâts de Gourmandise égaux à l’Instance et inflige 5 Déchirure\n- Expire en Mourrant ou en Battant en Retraite",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "YesdragonNodie",
+      "name": "Refus [不許]",
+      "desc": "Lorsque cette unité subit des dégâts amenant ses PV à 0 : les PV de cette unité ne descendent pas en-dessosu de 1 ; se remet du Déséquilibre causé par les dégâts.\nSi l’effet ci-dessus s’est activé, meurt à la Fin du Tour.\nExpire en mourrant, en Battant en Retraite ou à la Fin du Tour",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "YesdragonBurst",
+      "name": "Épine Barbelée",
+      "desc": "",
       "summary": "",
       "undefined": "-"
     }

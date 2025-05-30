@@ -1347,6 +1347,407 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1021201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Battement de Pas",
+          "desc": "[WhenUse] Si la cible a 6 [Burst] ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Battement de Pas",
+          "desc": "[WhenUse] Si la cible a <style=\"highlight\">4</style> [Burst] ou plus, +1 de Puissance de Pièce\n<style=\"highlight\">[WinDuel] Inflige +1 de Compte de [Burst]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] À 10 de Vitesse ou plus, Réutilise la Pièce une fois (une fois par Capacité)</style> "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Battement de Pas",
+          "desc": "<style=\"highlight\">Si la Vitesse de cette unité dépasse celle de la cible de 3 ou plus, +1 de Puissance de Pièce</style>\n[WhenUse] Si la cible a 4 [Burst] ou plus, +1 de Puissance de Pièce\n[WinDuel] Inflige +1 de Compte de [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 10 de Vitesse ou plus, Réutilise la Pièce une fois (une fois par Capacité)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "J’ouvre la Voie, Mon Seigneur.",
+          "desc": "[WhenUse] Si la cible a 4 [Burst] ou plus, +1 de Puissance de Pièce\n[WinDuel] Inflige +1 de Compte de [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Si la cible a [BurstAgility] ou [BurstZilu], inflige +30% de dégâts"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "J’ouvre la Voie, Mon Seigneur.",
+          "desc": "[WhenUse] Si la cible a 4 [Burst] ou plus, +1 de Puissance de Pièce\n<style=\"highlight\">[WhenUse] Gagne 2 [Agility] au prochain tour (une fois par tour)</style>\n[WinDuel] Inflige +1 de Compte de [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Si la cible a [BurstAgility] ou [BurstZilu], inflige +30% de dégâts"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "J’ouvre la Voie, Mon Seigneur.",
+          "desc": "<style=\"highlight\">Si la Vitesse de cette unité est plus grande que celle de la cible, inflige +(différence de Vitesse * [EnhanceZilu] sur soi)% de dégâts (max 50%)</style>\n<style=\"highlight\">Si la Vitesse de cette unité dépasse celle de la cible de 3 ou plus, +1 de Puissance de Pièce\n[WhenUse] Si la cible a 4 [Burst] ou plus, +1 de Puissance de Pièce</style>\n[WhenUse] Gagne 2 [Agility] au prochain tour (une fois par tour)\n[WinDuel] Inflige +1 de Compte de [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 1 [Burst]</style>"
+                },
+                {
+                  "desc": "Si la cible a [BurstAgility] ou [BurstZilu], inflige <style=\"highlight\">+50%</style> de dégâts"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021203,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Intraçable Autant à la Vue qu’au Son.",
+          "desc": "Si la Vitesse de cette unité est plus grande que celle de la cible, inflige +(différence de Vitesse * Intensité de [Burst] sur la cible)% de dégâts (max 50%)\nSi la Vitesse de cette unité dépasse celle de la cible de 2 ou plus, +1 de Puissance de Pièce\n[StartBattle] Gagne 1 [SupportProtect] (une fois par tour)\n[BeforeUse] À 10 [EnhanceZilu] ou plus, active “Heishou Ascendant - Technique Mao : Manifestation Fendeuse de Nuage” à la place\n[WhenUse] Gagne 3 [LegStrength]\n[WinDuel] Inflige +2 de Compte de [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [BurstAgility]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "À 10 de Vitesse ou plus, inflige +30% de dégâts"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 10 de Vitesse ou plus, Réutilise la Pièce une fois (une fois par Capacité)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Intraçable Autant à la Vue qu’au Son.",
+          "desc": "Si la Vitesse de cette unité est plus grande que celle de la cible, inflige +(différence de Vitesse * Intensité de [Burst] sur la cible)% de dégâts (max 50%)\n<style=\"highlight\">Si la Vitesse de cette unité est plus grande que celle de la cible, gagne de la Puissance de Pièce basée sur la différence de Vitesse (+1 de Puissance de Pièce toutes les 2 différences de Vitesse ; 2 max)</style>\n[StartBattle] Gagne 1 [SupportProtect] (une fois par tour)\n[BeforeUse] À 10 [EnhanceZilu] ou plus, active “Heishou Ascendant - Technique Mao : Manifestation Fendeuse de Nuage” à la place\n<style=\"highlight\">[WhenUse] Si la cible a 15 [Burst] ou plus, +1 de Puissance de Pièce</style>\n[WhenUse] Gagne 3 [LegStrength]\n[WinDuel] Inflige +2 de Compte de [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [BurstAgility]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "À 10 de Vitesse ou plus, inflige +30% de dégâts"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 10 de Vitesse ou plus, Réutilise la Pièce une fois (une fois par Capacité)"
+                },
+                {
+                  "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Inflige [BurstAgility]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cela Sera Fait.",
+          "desc": "[DuelCounter]\n[StartBattle] Gagne 1 [SupportProtect] (une fois par tour)\n[WhenUse] Cette Capacité gagne +1 Niveau Offensif tous les 10% de PV cumulés que cette unité a perdu dans cet Affrontement (6 max ; basé sur les PV max au moment de l’activation)\n[WhenUse] Gagne 3 [LegStrength]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Cela Sera Fait.",
+          "desc": "[DuelCounter]\n[StartBattle] Gagne 1 [SupportProtect] (une fois par tour)\n[WhenUse] Cette Capacité gagne +1 Niveau Offensif tous les 10% de PV cumulés que cette unité a perdu dans cet Affrontement (6 max ; basé sur les PV max au moment de l’activation)\n[WhenUse] Gagne 3 [LegStrength]\n<style=\"highlight\">[WhenUse] Si la Vitesse de cette unité dépasse celle de la cible de 2 ou plus, gagne de la Puissance de Base selon la différence de Vitesse (+1 de Puissance de Base toutes les 2 différences de Vitesse ; 2 max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021205,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Heishou Ascendant - Technique Mao : Manifestation Fendeuse de Nuage",
+          "desc": "Si la Vitesse de cette unité est plus grande que celle de la cible, inflige +(différence de Vitesse * Intensité de [Burst] sur la cible)% de dégâts (max 50%)\nSi la Vitesse de cette unité dépasse celle de la cible de 2 ou plus, +1 de Puissance de Pièce\n[WhenUse] Si la cible a 15 [Burst] ou plus, +1 de Puissance de Pièce\n[WhenUse] À 10 de Vitesse ou plus, gagne 20 [Breath] ; si cette unité a moins de 4 de Compte de [Breath], augmente son Compte de [Breath] à 4\n[WhenUse] Gagne 3 [LegStrength]\n[WinDuel] Inflige +2 de Compte de [Burst]\n[EndSkill] Consomme 10 [EnhanceZilu]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [BurstZilu]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [BurstAgility]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "À 10 de Vitesse ou plus, inflige +30% de dégâts"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 10 de Vitesse ou plus, Réutilise la Pièce une fois (une fois par Capacité)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Inflige [BurstZilu]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Heishou Ascendant - Technique Mao : Manifestation Fendeuse de Nuage",
+          "desc": "Si la Vitesse de cette unité est plus grande que celle de la cible, inflige +(différence de Vitesse * Intensité de [Burst] sur la cible)% de dégâts (max 50%)\n<style=\"highlight\">Si la Vitesse de cette unité est plus grande que celle de la cible, gagne de la Puissance de Pièce basée sur la différence de Vitesse (+1 de Puissance de Pièce toutes les 2 différences de Vitesse ; 2 max)</style>\n<style=\"highlight\">[WhenUse] +1 de Puissance de Pièce tous les 10 [Burst] sur la cible (2 max)</style>\n[WhenUse] À 10 de Vitesse ou plus, gagne 20 [Breath] ; si cette unité a moins de 4 de Compte de [Breath], augmente son Compte de [Breath] à 4\n[WhenUse] Gagne 3 [LegStrength]\n[WinDuel] Inflige +2 de Compte de [Burst]\n[EndSkill] Consomme 10 [EnhanceZilu]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [BurstZilu]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [BurstAgility]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "À 10 de Vitesse ou plus, inflige +30% de dégâts"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 10 de Vitesse ou plus, Réutilise la Pièce une fois (une fois par Capacité)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Inflige [BurstZilu]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Inflige [BurstAgility]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021206,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Protection à Pas Rapide",
+          "desc": "[CanDuelGuard]\nCapacité Exclusive de [SupportProtect]\n[BeforeUse] À 10 [EnhanceZilu] ou plus, active “Heishou Ascendant - Technique Mao : Manifestation Fendeuse de Nuage” à la place\n[WhenUse] Cette Capacité gagne +1 Niveau Défensif tous les 10% de PV cumulés que cette unité a perdu dans cet Affrontement (6 max ; basé sur les PV max au moment de l’activation)\n[WhenUse] Ne peut pas être Déséquilibré par des dégâts avant la fin de cette Capacité\n[WhenUse] Gagne 2 [Protection] (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Protection à Pas Rapide",
+          "desc": "[CanDuelGuard]\nCapacité Exclusive de [SupportProtect]\n[BeforeUse] À 10 [EnhanceZilu] ou plus, active “Heishou Ascendant - Technique Mao : Manifestation Fendeuse de Nuage” à la place\n[WhenUse] Cette Capacité gagne +1 Niveau Défensif tous les 10% de PV cumulés que cette unité a perdu dans cet Affrontement (6 max ; basé sur les PV max au moment de l’activation)\n[WhenUse] Ne peut pas être Déséquilibré par des dégâts avant la fin de cette Capacité\n[WhenUse] Gagne 2 [Protection] (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -628,7 +628,7 @@
     {
       "id": 1100621,
       "name": "Talisman de Souhait",
-      "desc": "Au début de la phase de combat, donne (Plus haute Réson. * 2) Talisman à l’allié avec le plus de PV."
+      "desc": "1 allié avec le plus de PV actuels inflige +1 d’Intensité de Déchirure supplémentaire avec ses Capacités Offensives et de Riposte"
     },
     {
       "id": 1080601,
@@ -2123,6 +2123,22 @@
       "id": 1091221,
       "name": "Venin Intravasculaire",
       "desc": "Lorsque 1 allié avec la Vitesse la plus rapide inflige des dégâts de [Burst] à un ennemi, inflige 1 [AttackDown] et 1 [DefenseDown] au prochain tour (une fois par tour)"
+    },
+    {
+      "id": 1021201,
+      "name": "Mutation Heishou [Mao] / Adepte de la Branche Mao",
+      "desc": "Si la Vitesse de cette Unité est plus rapide que celle de la cible, inflige +2% de dégâts toutes les 1 différence de Vitesse (10% max)\n\nGagne 1 [EnhanceZilu] chaque fois qu’un allié déclenche un effet Ritemort (5 fois par tour)\n- Si cette unité a déclenché un effet Ritemort, gagne 1 [EnhanceZilu] supplémentaire\nEn activant l’effet [SupportProtect] effect, gagne 5 [EnhanceZilu]",
+      "summary": "Inflige plus de dégâts selon la différence de Vitesse\nEn activant Ritemort ou des effets [SupportProtect] effects, gagne [EnhanceZilu]"
+    },
+    {
+      "id": 1021221,
+      "name": "Lame Battante",
+      "desc": "Lorsque 1 allié avec la plus haute Vitesse inflige des dégâts de [Burst], gagne 1 [AttackUp] au prochain tour (3 fois par tour)"
+    },
+    {
+      "id": 1021203,
+      "name": "Étoile Tianjiu",
+      "desc": "Lorsque l’Instance de [BurstZilu] tombe à 0 et expire, gagne [BurstVulnerableZilu]"
     }
   ]
 }

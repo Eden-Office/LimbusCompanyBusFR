@@ -1,0 +1,88 @@
+{
+  "dataList": [
+    {
+      "id": 1080101,
+      "title": "막힌_길_장치_조작",
+      "eventDesc": "",
+      "behaveDesc": "Qui communiquera avec l’interface ?",
+      "successDesc": [
+        "{0} tripota l’interface un moment, puis l’appareil s’activa avec un lourd bruit de pierres qui se frottent.\n\n“Autorisation accordée. Impression de la carte d’habilitation d’entrée…”\n\nUne carte d’entrée glissa hors de la machine.\nCela devrait nous ouvrir un nouveau chemin… probablement."
+      ],
+      "failureDesc": [
+        "{0} tripota l’interface un bon moment, mais rien ne s’est passé.\n\nNous avons décidé de faire demi-tour ; cela semble être une impasse."
+      ]
+    },
+    {
+      "id": 1080601,
+      "title": "낭떠러지_도전",
+      "eventDesc": "Nous avons besoin de toutes les pièces que l’on peut avoir pour atteindre la deuxième place.\nCela semble dangereux, mais… nous devons prendre ce risque.",
+      "behaveDesc": "À qui pouvons-nous faire confiance pour descendre et revenir indemne ?",
+      "successDesc": [
+        "{0} longe les autres clans et commence à rapidement descendre.\n\n“Eh bien, on dirait que tout le monde se précipite !”\n“Voyons voir quel participant parviendra à attraper les pièces !”\n\nDes bruits sourds résonnent dans l’obscurité.\nPuis, quelque chose d’immense s’effondre ; nous n’entendons que les cris des participants.\n\nEst-ce que… quelque chose a mal tourné ?\nAlors que je commençais à m’inquiéter, {0} rampa hors du trou, seul.\nLes autres candidats n’ont pas réussi.\nNous prenons les pièces qu’a ramassées {0} dans le trou et continuons."
+      ],
+      "failureDesc": [
+        "{0} longe les autres clans et commence à rapidement descendre.\n\n“Eh bien, on dirait que tout le monde se précipite !”\n“Voyons voir quel participant parviendra à attraper les pièces !”\n\nDes bruits sourds résonnent dans l’obscurité.\nPuis, quelque chose d’immense s’effondre ; nous n’entendons que les cris des participants.\n\nEst-ce que… quelque chose a mal tourné ?\nAlors que je commençais à m’inquiéter, un candidat rampa hors du trou, seul.\n{0} n’est pas revenu…\nNous devons trouver sa dépouille et remonter l’horloge…\n… Alors ne nous nous sommes précipités dans le trou pour chercher le corps de {0}."
+      ]
+    },
+    {
+      "id": 1080701,
+      "title": "죄인_벌주기_1차",
+      "eventDesc": "Nous devons récolter autant de pièces que possible, quoi qu’il en coûte.\nJe me sens désolé pour le prisonnier, mais…\n… Je demande malgré tout aux Pécheurs de le punir.",
+      "behaveDesc": "Qui punira le condamné ?",
+      "successDesc": [
+        "{0} balance son arme de toutes ses forces.\nCertains Pécheurs placent leurs mains sur leurs oreilles, pour essayer de bloquer les pleures douloureuses du prisonnier.\n\n“Très beau travail !”\n“Voilà ce que j’appelle une bonne punition. Voici une pièce bonus pour vous !”\n\nNous ramassons la pièce, mais…\n{0} ne semble pas des plus ravis.\n\n“C’estoit peutestre un pecheor ayant mal agi, pourtant ceci… n’estoit point une justice.”\n“… Ouais. Ce n’est pas agréable du tout.”"
+      ],
+      "failureDesc": [
+        "{0} balance son arme mais ne semble pas y mettre beaucoup de force.\n{0} posa l’arme, ne voulant pas continuer à punir le condamné. Nous recevons un petit tas de pièces en récompense.\n\nNous l’acceptons, mais…\n{0} ne semble pas des plus ravis.\n\n“C’estoit peutestre un pecheor ayant mal agi, pourtant ceci… n’estoit point une justice.”\n“… Ouais. Ce n’est pas agréable du tout.”"
+      ]
+    },
+    {
+      "id": 1080702,
+      "title": "죄인_벌주기_2차",
+      "eventDesc": "“Oho, cependant nous sommes loin d’avoir fini !”\n“Ce prisonnier a commi un crime très, très grave ! Il mérite d’être puni davantage, encore !”\n“Êtes-vous prêts ?!”",
+      "behaveDesc": "Qui punira le condamné ?",
+      "successDesc": [
+        "{0} balance son arme de toutes ses forces.\nCertains Pécheurs placent leurs mains sur leurs oreilles, pour essayer de bloquer les pleures douloureuses du prisonnier.\n\n“Très beau travail !”\n“Voilà ce que j’appelle une bonne punition. Voici une pièce bonus pour vous !”\n\nNous ramassons la pièce, mais…\n{0} ne semble pas des plus ravis.\n\n“Cessez… Cessez cela, je vos en conjure. Je ne souhaide point rester dans ceste salle plus longtemps.”\n“Ces enfoirés qui nous r’gardent là-haut… J’vais les tabasser à mort si j’les croise.”\n\nLe condamné s’effondre au sol. Il ne bouge plus.\n… Avançons."
+      ],
+      "failureDesc": [
+        "{0} balance son arme mais ne semble pas y mettre beaucoup de force.\n{0} posa l’arme, ne voulant pas continuer à punir le condamné. Nous recevons un petit tas de pièces en récompense.\n\nNous ramassons la pièce, mais…\n{0} ne semble pas des plus ravis.\n\n“Cessez… Cessez cela, je vos en conjure. Je ne souhaide point rester dans ceste salle plus longtemps.”\n“Ces enfoirés qui nous r’gardent là-haut… J’vais les tabasser à mort si j’les croise.”\n\nLe condamné s’effondre au sol. Il ne bouge plus.\n… Avançons."
+      ]
+    },
+    {
+      "id": 1080801,
+      "title": "항아리_보기",
+      "eventDesc": "Nous nous sommes approchés de la jarre avec prudence pour en inspecter l’intérieur…\nUne énergie puissante et lugubre s’échappe de l’ouverture.\nPlus nous nous approchons, plus le bruit inquiétant provenant des profondeurs de la jarre devient bruyant.",
+      "behaveDesc": "Qui regardera dans la jarre ?",
+      "successDesc": [
+        "{0} regarde dans la jarre.\n\n“… !”\n“……”\n“… ?”\n\n{0} commence à marmonner de manière incompréhensive.\nJe ne pense pas qu’il y a une personne dans la jarre, ce qui est une bonne nouvelle, mais…\n… quoi que ce soit, y regarder trop longtemps est clairement dangereux.\n\nAvec assez d’effort, nous sommes parvenus à éloigner {0} de la jarre.\n{0} tient un vieux parchemin usé.\nIl pourrait se révéler utile dans les combats à venir, alors j’ai décidé de le prendre avec nous."
+      ],
+      "failureDesc": [
+        "{0} regarde dans la jarre.\n\n“!?#*$!”\n“…*!&@^?!”\n“@%#&…”\n\n{0} commence à marmonner de manière incompréhensive.\nJe ne pense pas qu’il y a une personne dans la jarre, ce qui est une bonne nouvelle, mais…\n… quoi que ce soit, y regarder trop longtemps est clairement dangereux.\n\nAvec assez d’effort, nous avons réussi à empêcher {0} de rentrer dans la jarre.\n{0} tient un vieux parchemin usé.\nIl pourrait se révéler utile dans les combats à venir, alors j’ai décidé de le prendre avec nous."
+      ]
+    },
+    {
+      "id": 1081001,
+      "title": "공포_견디기",
+      "eventDesc": "",
+      "behaveDesc": "Qui résiste le plus à la peur ?",
+      "successDesc": [
+        "{0} et quelques membres de clans d’autres candidats se glissent dans les jarres.\nL’appareil s’active et toutes sortes d’insectes rampants et effrayants se déversent de l’appareil en direction de la jarre.\n{0} parvient à rester à l’intérieur, malgré l’horreur…\n… mais tous les autres s’échappent des jarres en hurlant.\n\n“Voilà que notre cher public a grandement aimé cela !”\n“Enfin… Quel dommage, les pièces ne sont que pour les courageux qui sont restés dans la jarre !”\n\nDes pièces tombent près de l’enceinte.\n{0} sort également de la jarre, avec un visage que l’on pourrait décrire de tout sauf positif."
+      ],
+      "failureDesc": [
+        "{0} et quelques membres de clans d’autres candidats se glissent dans les jarres.\nL’appareil s’active et toutes sortes d’insectes rampants et effrayants se déversent de l’appareil en direction de la jarre.\n{0} bondit hors de la jarre, incapable de supporter la sensation des insectes crapahutant.\n\n“Voilà que notre cher public a grandement aimé cela !”\n“Enfin… Quel dommage, les pièces ne sont que pour les courageux qui sont restés dans la jarre !”\n\nDes pièces tombent près de l’enceinte, mais un autre candidat les ramasse."
+      ]
+    },
+    {
+      "id": 1081301,
+      "title": "막바지_보너스_내기",
+      "eventDesc": "“Ah, il semble y avoir un accord commun entre les deux candidats ! C’est donc un <i>pari</i> !”\n\n“Très bien, placez cinq de vos pièces devant vous et…”\n\n“… envoyez un membre de votre clan faire une présentation quant au pourquoi son ‘candidat’ mérite le plus d’accéder au siège de Hiérarque Familial !”\n\n“Réfutez les arguments de votre adversaire tout en renforçant le vôtre et… notre cher public choisira le vainqueur.”\n\n“Allez ! Envoyez vos représentants les plus éloquents et persuasifs !”",
+      "behaveDesc": "Lequel d’entre nous est le meilleur orateur ?",
+      "successDesc": [
+        "{0} écrase les arguments adverses avec facilité.\n\nLe représentant du candidat opposé tombe sur ses genoux, visiblement dévasté par sa défaite.\n\n“Félicitations au vainqueur !”\n\n{0} rassemble toutes les pièces au sol."
+      ],
+      "failureDesc": [
+        "Le représentant opposé détruit l’argumentaire de {0} avec facilité…\n\nIl s’avance triomphalement pour récupérer les pièces que nous avons placées au sol, tandis que {0} reste immobile, complètement submergé.\n\n… Que devrions-nous faire ?"
+      ]
+    }
+  ]
+}

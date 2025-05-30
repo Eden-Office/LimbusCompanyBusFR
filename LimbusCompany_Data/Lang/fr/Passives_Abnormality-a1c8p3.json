@@ -1,0 +1,219 @@
+{
+    "dataList": [
+      {
+        "id": 114501,
+        "name": "Officier du Pouce, Capo IIII",
+        "desc": "Subit -30% de dégâts de [Combustion], de [Laceration], de [Vibration], de [Burst] et de [Sinking]\n\nEn lançant des Pièces qui consomme une [BulletPropellant] : n’annule pas l’attaque de cette unité en n’ayant pas de [BulletPropellant], les effets de Pièce “inflige [Combustion]” et “inflige du Compte de [Combustion]” ne s’activent pas\n\nDans un Duel, inflige +(1 + (# de Clash / 3)) de Compte de [Vibration]\n(3 max ; 3 fois par tour contre la même cible)"
+      },
+      {
+        "id": 114502,
+        "name": "Dix Lames de l’Est",
+        "desc": "Au Début de l’Affrontement et au Début de Tour d’un nouveau comportement :\n- Gagne 1 [Bothersome]\n- Regagne 5 PSM pour chaque 10% de PV manquants sur soi (40 max)"
+      },
+      {
+        "id": 114503,
+        "name": "Proie Choisie",
+        "desc": "Début du Tour : inflige 1 [Prey] à la cible ayant infligé le plus de dégâts à cette unité au dernier tour\n\nAprès que Lei Heng ait attaqué la cible avec [Prey], si la cible est :\n- Déséquilibrée, tous les ennemis perdent 10 PSM et gagnent 1 [ParryingResultDown] pour ce tour et le tour suivant (une fois par tour)\n- Vaincue, activer l’effet ci-dessus une nouvelle fois"
+      },
+      {
+        "id": 114504,
+        "name": "Lame de l’Étoile Tiantui [天退星刀]",
+        "desc": "Les Attaques à Sens-Unique infligent +30% dégâts En Touche et infligent 1 [Vulnerable] au prochain tour\n\nLes Pièces de Capacité ayant utilisé une [BulletPropellant] infligent +20% de dégâts En Touche et infligent 2 [DefenseDown] au prochain tour\n\nLes effets ci-dessus ne s’activent pas si la cible a équipé une Capacité Défensive"
+      },
+      {
+        "id": 114505,
+        "name": "Recharge de Cartouche de Marque du Tigre",
+        "desc": "Fin du Tour : à 90% de PV ou moins, ou à la fin du 2ème tour, recharge [BulletPropellant] et gagne un nouveau comportement au tour suivant\n- Si cette unité est Déséquilibrée, se remet de Déséquilibre"
+      },
+      {
+        "id": 114506,
+        "name": "Lei Heng [雷橫]",
+        "desc": "Fin du Tour : à 80% de PV ou moins, ou à la fin du 4ème tour, suit un nouveau comportement au tour suivant\n- Utilise une attaque puissante (“Tranchenœud”), se répète tous les 3 tours. +10 de Vitesse Min & Max lors des tours où cette unité utilise cette Capacité\n- Au début de ce tour, gagne 25 [BattleSense]\n- Si cette unité est Déséquilibrée, se remet de Déséquilibre"
+      },
+      {
+        "id": 114507,
+        "name": "Étoile Tiantui [天退星]",
+        "desc": "Fin du Tour : à 60% de PV ou moins, ou si cette unité est prête à utiliser une attaque puissante (“Tranchenœud”) au prochain tour pour la deuxième fois de l’Affrontement, suit un nouveau comportement au tour suivant\n- Lorsque ce tour commence, gagne 1 [Irritation]\n- Lorsque ce tour commence, gagne 18 [BulletPropellantSpecial] et recharge immédiatement\n· Si cette unité a dépensé toutes ses [BulletPropellantSpecial], convertit l’effet en [BulletPropellant] et invoque 2 unités “Soldato Rigide du Pouce” au prochain tour pour ravitailler cette unité en [BulletPropellantSpecial]\n- Lorsque Déséquilibré, se remet de Déséquilibre"
+      },
+      {
+        "id": 114508,
+        "name": "Lei Heng, Étoile Tiantui de l’Auriculaire",
+        "desc": "Fin du Tour : à 40% de PV ou moins, ou si cette unité est prête à utiliser une attaque puissante (“Tranchenœud”) au prochain tour pour la troisième fois de l’Affrontement, suit un nouveau comportement au tour suivant\n- Remplace l’attaque puissante “Tranchenœud” par “Rafale Perfectionnée de Lames du Tueur de Tigre Sauvage”. +15 de Vitesse Min & Max lors des tours où cette unité utilise cette Capacité\n- Convertit [BattleSense] en [RestoredBattleSense]\n- Convertit [Irritation] en [HugeIrritation]\n- Si cette unité est Déséquilibrée, se remet de Déséquilibre"
+      },
+      {
+        "id": 114510,
+        "name": "Chachihu [揷翅虎]",
+        "desc": "Début du Combat : selon la valeur de Vitesse de cette unité,\n- Regagne des PSM égaux à la valeur de Vitesse. À moins de 0 PSM, double la quantité de soin\n- Gagne (Valeur de Vitesse / 3) [SlashDamageUp] (5 max)\n\nDébut de l’Affrontement : si cette unité a 3 [Binding] ou plus, l’effet ci-dessus ne s’active pas ; gagne du [DefenseDown] égal au [Binding] sur soi (9 max)"
+      },
+      {
+        "id": 114512,
+        "name": "Lame de l’Étoile Tiantui - Surchauffe",
+        "desc": "Si cette unité a utilisé une attaque puissante (“Tranchenœud” ou “Rafale Perfectionnée de Lames du Tueur de Tigre Sauvage”), gagne au prochain tour de la [Complacency] égale au nombre de fois où ces Capacités ont été utilisées (5 max)"
+      },
+      {
+        "id": 117101,
+        "name": "Support de la Marque du Tigre Sauvage",
+        "desc": "Début du Tour : gagne 5 [Vulnerable]\nFin du Tour : donne des [BulletPropellantSpecial] à Lei Heng\n\nSi cette unité est tuée, cette unité ne peut pas donner de [BulletPropellantSpecial] à Lei Heng ; Lei Heng gagne 1 [Vulnerable] et 1 [ParryingResultDown] au prochain tour"
+      },
+      {
+        "id": 113501,
+        "name": "La Main de Mon Petit Frère que J’ai Laissé Échapper",
+        "desc": "En Touche contre un ennemi, inflige 1 [GazeReplica] (une fois par Identité par tour)\nLorsque attaqué par un ennemi, inflige 1 [GazeReplica] à l’attaquant (une fois par Identité par tour)\nDébut du Tour : si Hong Lu est sur le terrain, inflige 1 [GazeReplica] à Hong Lu"
+      },
+      {
+        "id": 113502,
+        "name": "Agrippage",
+        "desc": "Priorise les cibles avec [GraspReplica]\nGagne un nouveau comportement lorsqu’il y a des cibles avec [GraspReplica] ; +0.1 à toutes les Résistances"
+      },
+      {
+        "id": 113503,
+        "name": "Érosion E.G.O. - N Corp.",
+        "desc": "Après être entré dans cet Affrontement, gagne 1 [EgoErodeReplica] à chaque Fin de Tour\n- Fin du Tour : à moins de 50% de PV, ou à -20 PSM ou moins, gagne 1 [EgoErodeReplica] supplémentaire"
+      },
+      {
+        "id": 113504,
+        "name": "Syntonisation E.G.O Max Temporaire",
+        "desc": "S’il y a 4 Pécheurs ou plus avec 4 Instances de [GazeReplica] ou plus, utilise la Capacité “Émerveillement[TabExplain], Mépris[TabExplain] 【Déchaîné】”"
+      },
+      {
+        "id": 113505,
+        "name": "Mieux vaux détourner vos yeux",
+        "desc": "Lorsqu’il n’y a plus d’autres alliés en vie, si cette unité devient la cible principale de 5 ennemis ou plus, ces ennemis perdent 10 PV et PSM"
+      },
+      {
+        "id": 113601,
+        "name": "Le Prix de Balles Tombées",
+        "desc": "En Touche, regagne 5 PSM ; en Duel Perdu, perd 5 PSM"
+      },
+      {
+        "id": 113602,
+        "name": "Charge Avancée",
+        "desc": "En Tuant un ennemi, gagne +3 de Compte de [Breath]"
+      },
+      {
+        "id": 113603,
+        "name": "Une nouvelle ère est à nos portes, mon cher camarade.",
+        "desc": "À moins de -20 PSM, utilise un comportement spécial"
+      },
+      {
+        "id": 113604,
+        "name": "Veuillez vous dédier au nouvel idéal.",
+        "desc": "Si les PV d’un Employé de la N Corp. (Jia Huan exclut) sont à moins de 50%, utilise un comportement spécial"
+      },
+      {
+        "id": 114601,
+        "name": "-",
+        "desc": "Les PV ne tombent pas en-dessous de 50%"
+      },
+      {
+        "id": 114602,
+        "name": "Petit Baoyu, la lignée des Hiérarques Familiaux ne saurait s’arrêter là…",
+        "desc": "Perd l’Affrontement à la mort d’Hong Lu. Toutes les Capacités priorisent Hong Lu"
+      },
+      {
+        "id": 114603,
+        "name": "Alors, qui servira les anciens, qui transmettra la volonté du vénérable Ver Xianhuang à Hongyuan ?!!!",
+        "desc": "En Touche après un Duel Gagné contre Hong Lu : inflige 1 [PileObedient] (une fois par Capacité)"
+      },
+      {
+        "id": 114604,
+        "name": "Assimilation du Rameau d’Or - Désyntonisation",
+        "desc": "Début de l’Affrontement : gagne [GoldenBoughSync]"
+      },
+      {
+        "id": 114605,
+        "name": "Pillule Interdite d’Hongyuan - Bolus Hēixiān Complété [全黑仙丸]",
+        "desc": "Gagne 1 [AttackUp] et 1 [DefenseDown] chaque fois que cette unité utilise un différent type de Capacité (3 fois par tour)"
+      },
+      {
+        "id": 114606,
+        "name": "Hongyuan a toujours été un mastic dans les mains des vénérés Xianren",
+        "desc": "Fin du Tour : si Paniquée, se remet de Panique au prochain Début de Tour et remet les PSM à 0\n\nEn se remettant de Panique, gagne 2 [Enhancement] et 2 [Endurance] au prochain tour ; si Hong Lu a [Obedient], regagne 15 PSM"
+      },
+      {
+        "id": 115201,
+        "name": "Regarde cette petite fille… !",
+        "desc": "Perd l’Affrontement à la mort d’Hong Lu. S’il y a des unités invoquées par cette unité au Début du Tour, regagne 10 PSM"
+      },
+      {
+        "id": 115202,
+        "name": "Assimilation du Rameau d’Or - Distorsion",
+        "desc": "Début de la 2ème Phase : gagne [GoldenBoughSyncDistorted]"
+      },
+      {
+        "id": 115203,
+        "name": "Chaque Hiérarque Familial a le devoir de d’abandonner son corps au Ver Xianhuang et son honorable volonté",
+        "desc": "Fin du Tour : si Paniquée, se remet de Panique au prochain Début de Tour et remet les PSM à 0\n\nEn se remettant de Panique,\n- gagne 2 [Enhancement], 2 [Endurance] et 1 [Agility] au prochain tour\n- S’il y a des unités invoquées par cette unité au Début du Tour, regagne 15 PSM\n- Si Hong Lu a [Obedient], regagne 15 PSM"
+      },
+      {
+        "id": 115204,
+        "name": "-",
+        "desc": "Les PV ne tombent pas en-dessous de 85%"
+      },
+      {
+        "id": 115205,
+        "name": "-",
+        "desc": "Les PV ne tombent pas en-dessous de 65%"
+      },
+      {
+        "id": 115206,
+        "name": "-",
+        "desc": "Les PV ne tombent pas en-dessous de 50%"
+      },
+      {
+        "id": 115207,
+        "name": "Pourris et moisis dans la Coquille d’Or et de Jade [金玉其外 敗絮其中]",
+        "desc": "Si cette unité a 10 [Burst] ou plus, subit +10% de dégâts\nSi cette unité a 5 types d’effets négatifs ou plus, subit +10% de dégâts"
+      },
+      {
+        "id": 115208,
+        "name": "Un Hiérarque Familial sans le vénérable Ver Xianhuang ne servira jamais Hongyuan",
+        "desc": "À 0 PV, la Partie Corps devient Déséquilibrée au prochain tour\nPuis, cette Partie devient Détachée et la Partie Corps gagne 2 [Vulnerable]"
+      },
+      {
+        "id": 115209,
+        "name": "-",
+        "desc": "Les PV ne tombent pas en-dessous de 20%"
+      },
+      {
+        "id": 115301,
+        "name": "Regardez-moi, Ô Vénérables Xianren!",
+        "desc": "Lorsque cette unité est présente, Jia Mu gagne 200 de Bouclier pour son Noyau et toutes ses Parties"
+      },
+      {
+        "id": 115302,
+        "name": "Devoirs du Précieux Jade",
+        "desc": "Tant que cette unité est présente, applique les effets suivants à l’unité enfermée :\n- Devient “immobilisé”\n- Les buffs, PV et PSM de cette unité ne peuvent pas être changés"
+      },
+      {
+        "id": 115303,
+        "name": "Départ",
+        "desc": "Lorsque cette unité est vaincue, renvoi le personnage enfermé au combat au prochain tour"
+      },
+      {
+        "id": 115304,
+        "name": "Rejeter le Mal ; Restaurer la Justice [破邪顯正]",
+        "desc": "Si cette unité est vaincue par les Pécheurs, active les effets suivants :\n- Tous les alliés regagnent 10 PSM ; tous les alliés gagnent 2 [AttackDmgUp] au prochain tour\n- Inflige 5 [Binding], 3 [AttackDown] et 5 [Vulnerable] à Jia Mu pour les 2 prochains tours\n- L’unité qui était enfermée dans cette unité se soigne jusqu’à 45 PSM. Gagne 2 [Enhancement] à son retour\n- Gagne 3 Ressources E.G.O. de toutes les Affinités"
+      },
+      {
+        "id": 115401,
+        "name": "Ô Suprême Xianren d’Immortalité",
+        "desc": "A l’effet [SupremeEternalLife]"
+      },
+      {
+        "id": 115402,
+        "name": "Libérons-nous éternellement de la vieillesse et de la mort",
+        "desc": "Les PV ne tombent pas en-dessous de 1\n\nÀ 1 PV, remplace [SupremeEternalLife] par [ImperfectEternalLife]"
+      },
+      {
+        "id": 115403,
+        "name": "Savoir d’Immortalité",
+        "desc": "Si les PV de cette unité tombent à 1 en se faisant toucher, rend 10 PSM au Pécheur ayant attaqué cette unité ; puis, gagne 3 Ressources E.G.O. aléatoires des Affinités de Péché les moins possédées (s’activate une fois pour cette unité)"
+      },
+      {
+        "id": 114513,
+        "name": "Remise de Panique",
+        "desc": "Fin du Tour : si l’unité est Paniquée, remet les PSM à 0\n\nEn se remettant de Panique : au prochain Début de Tour, regagne autant de PSM qu’il manque de PV à cette unité (30 max)"
+      }
+    ]
+}

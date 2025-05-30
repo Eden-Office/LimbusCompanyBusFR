@@ -361,7 +361,7 @@
                   "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
                 },
                 {
-                  "desc": "[EndSkill] Gagne (<style=\"highlight\">18</style> + <style=\"highlight\">3</style>*(plus haute Réson.))% des PV max de cette unité en Bouclier à soi-même et gagne 2 [ShieldManagerCryingToad]. (max <style=\"highlight\">30%</style>)"
+                  "desc": "[EndSkill] Gagne (<style=\"highlight\">18</style> + <style=\"highlight\">3</style>*(plus haute Réson.))% des PV max de cette unité en Bouclier à soi-même et gagne 2 [ShieldManagerCryingToad]. (<style=\"highlight\">30%</style> max)"
                 },
                 {
                   "desc": "- Si cette unité a déjà [ShieldManagerCryingToad], change la valeur de [ShieldManagerCryingToad] à 2"
@@ -385,7 +385,7 @@
                   "desc": "[OnSucceedAttack] Inflige 2 [Sinking] et <style=\"highlight\">+3 de Compte de [Sinking]</style>"
                 },
                 {
-                  "desc": "[EndSkill] Gagne (<style=\"highlight\">20</style> + <style=\"highlight\">5</style>*(plus haute Réson.))% des PV max de cette unité en Bouclier à soi-même et gagne 2 [ShieldManagerCryingToad]. (max <style=\"highlight\">40%</style>)"
+                  "desc": "[EndSkill] Gagne (<style=\"highlight\">20</style> + <style=\"highlight\">5</style>*(plus haute Réson.))% des PV max de cette unité en Bouclier à soi-même et gagne 2 [ShieldManagerCryingToad]. (<style=\"highlight\">40%</style> max)"
                 },
                 {
                   "desc": "- Si cette unité a déjà [ShieldManagerCryingToad], change la valeur de [ShieldManagerCryingToad] à 2"
@@ -576,6 +576,190 @@
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttackTail] Inflige 2 [DefenseDown] au prochain tour (une fois par tour)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2100811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Larmes du Sang Terni",
+          "abName": "Yinglong",
+          "desc": "[StartBattle] Gagne [YesdragonNodie]\n[BeforeAttack] Gagne [YesdragonSelf] égal à la Réson. de Gourmandise (5 max)\n[BeforeAttack] Subit ([YesdragonSelf] sur soi * 2) dégâts de PV\n- Ne devient pas Déséquilibré si cela diminue les PV de cette unité sous le Seuil de Déséquilibre ; à la place, retire le Seuil de Déséquilibre supérieur aux PV actuels de cette unité\n[EndSkill] Pendant 3 tours, perd 10 PSM à la Fin du Tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cette unité a 30% de PV ou moins, ou est à 20 Instances de [YesdragonSelf], Réutilise cette Capacité (une fois par Capacité)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Consomme tous les PV sur soi pour infliger +20% de dégâts avec cette Pièce (une fois par Tour)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Larmes du Sang Terni",
+          "abName": "Yinglong",
+          "desc": "<style=\"highlight\">À 6 [YesdragonSelf] ou plus, +1 de Puissance de Pièce</style>\n[StartBattle] Gagne [YesdragonNodie]\n[BeforeAttack] Gagne [YesdragonSelf] égal à la Réson. de Gourmandise (5 max)\n[BeforeAttack] Subit ([YesdragonSelf] sur soi * 2) dégâts de PV\n- Ne devient pas Déséquilibré si cela diminue les PV de cette unité sous le Seuil de Déséquilibre ; à la place, retire le Seuil de Déséquilibre supérieur aux PV actuels de cette unité\n[EndSkill] Pendant 3 tours, perd 10 PSM à la Fin du Tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cette unité a 30% de PV ou moins, ou est à 20 Instances de [YesdragonSelf], Réutilise cette Capacité (une fois par Capacité)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Consomme tous les PV sur soi pour infliger +20% de dégâts avec cette Pièce (une fois par Tour)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Larmes du Sang Terni",
+          "abName": "Yinglong",
+          "desc": "<style=\"highlight\">+1 de Puissance de Pièce tous les 6 [YesdragonSelf] sur soi (3 max)</style>\n[StartBattle] Gagne [YesdragonNodie]\n[BeforeAttack] Gagne [YesdragonSelf] égal à la Réson. de Gourmandise (5 max)\n[BeforeAttack] Subit ([YesdragonSelf] sur soi * 2) dégâts de PV\n- Ne devient pas Déséquilibré si cela diminue les PV de cette unité sous le Seuil de Déséquilibre ; à la place, retire le Seuil de Déséquilibre supérieur aux PV actuels de cette unité\n[EndSkill] Pendant 3 tours, perd 10 PSM à la Fin du Tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\"> Inflige +1% de dégâts pour chaque 2% de PV manquants sur soi (40% max)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cette unité a 30% de PV ou moins, ou est à 20 Instances de [YesdragonSelf], Réutilise cette Capacité (une fois par Capacité)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Consomme tous les PV sur soi pour infliger +20% de dégâts avec cette Pièce (une fois par Tour)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2100821,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Larmes du Sang Terni",
+          "abName": "Yinglong",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[StartBattle] Gagne [YesdragonNodie]\n[BeforeAttack] Gagne (Réson. de Gourmandise + 4) [YesdragonSelf] (10 max)\n[BeforeAttack] Subit ([YesdragonSelf] sur soi * 2) dégâts de PV\nNe devient pas Déséquilibré si cela diminue les PV de cette unité sous le Seuil de Déséquilibre ; à la place, retire le Seuil de Déséquilibre supérieur aux PV actuels de cette unité",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si cette unité a 30% de PV ou moins, ou est à 20 Instances de [YesdragonSelf], Réutilise cette Capacité (une fois par Capacité)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Consomme tous les PV sur soi pour infliger +20% de dégâts avec cette Pièce (une fois par Tour)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Larmes du Sang Terni",
+          "abName": "Yinglong",
+          "desc": "[CantIdentify]\nCible aléatoirement\n<style=\"highlight\">À 10 [YesdragonSelf] ou plus, +1 de Puissance de Base</style>\n[StartBattle] Gagne [YesdragonNodie]\n[BeforeAttack] Gagne (Réson. de Gourmandise + 4) [YesdragonSelf] (10 max)\n[BeforeAttack] Subit ([YesdragonSelf] sur soi * 2) dégâts de PV\nNe devient pas Déséquilibré si cela diminue les PV de cette unité sous le Seuil de Déséquilibre ; à la place, retire le Seuil de Déséquilibre supérieur aux PV actuels de cette unité",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si cette unité a 30% de PV ou moins, ou est à 20 Instances de [YesdragonSelf], Réutilise cette Capacité (une fois par Capacité)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Consomme tous les PV sur soi pour infliger +20% de dégâts avec cette Pièce (une fois par Tour)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Larmes du Sang Terni",
+          "abName": "Yinglong",
+          "desc": "[CantIdentify]\nCible aléatoirement\n<style=\"highlight\">+1 de Puissance de Base tous les 10 [YesdragonSelf] sur soi (2 max)</style>\n[StartBattle] Gagne [YesdragonNodie]\n[BeforeAttack] Gagne (Réson. de Gourmandise + 4) [YesdragonSelf] (10 max)\n[BeforeAttack] Subit ([YesdragonSelf] sur soi * 2) dégâts de PV\nNe devient pas Déséquilibré si cela diminue les PV de cette unité sous le Seuil de Déséquilibre ; à la place, retire le Seuil de Déséquilibre supérieur aux PV actuels de cette unité",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">Inflige +1% de dégâts pour chaque 2% de PV manquants sur soi (40% max)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cette unité a 30% de PV ou moins, ou est à 20 Instances de [YesdragonSelf], Réutilise cette Capacité (une fois par Capacité)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Consomme tous les PV sur soi pour infliger +20% de dégâts avec cette Pièce (une fois par Tour)"
                 }
               ]
             }
