@@ -2,7 +2,7 @@
 
 <div align="center">
 <a href="https://github.com/Eden-Office/LimbusCompanyBusFR">
-   <img src="https://raw.githubusercontent.com/Eden-Office/LimbusCompanyBusFR/refs/heads/main/Localize/Readme/EO_EdenButton.png"
+   <img src="https://i.imgur.com/uNYcUEw.png"
       width="200"
       height="200"/>
 </a>
@@ -29,6 +29,8 @@ Traduction française pour le jeu "Limbus Company"
    
 ### 2. Installez le mod
    - Ouvrez le fichier compressé que vous avez téléchargé et glissez son contenu dans le dossier affiché sur la fenêtre ouverte par Steam. (Le dossier Limbus Company)
+    - Assurez vous bien que le dossier "Lang" soit placé dans le dossier "LimbusCompany_Data"
+ 
 
 ### 3. Profitez du jeu
 
