@@ -1159,13 +1159,13 @@
     {
       "id": 1090801,
       "name": "Passion Brûlante",
-      "desc": "Inflige +5% de dégâts pour chaque 6 d’Intensité de [Combustion] sur la cible (15% Max)\nDébut du Combat : si tous les ennemis ont 6 d’Intensité de [Combustion] ou plus, applique 1 [CrimsonDamageUp] à (plus haute Réson.-A de Colère) alliés par ordre de Déploiement\n- En Affrontement Concentré, la condition ci-dessus s’active lorsque toutes les Parties ennemies ont 6 d’Intensité de [Combustion] ou plus",
+      "desc": "Inflige +5% de dégâts pour chaque 6 d’Intensité de [Combustion] sur la cible (15% Max)\nDébut du Combat : si tous les ennemis ont 6 d’Intensité de [Combustion] ou plus, applique 1 [CrimsonDamageUp] à (plus haute Réson.-A de Colère) alliés par ordre de Déploiement\n- En Affrontement Ciblé, la condition ci-dessus s’active lorsque toutes les Parties ennemies ont 6 d’Intensité de [Combustion] ou plus",
       "summary": "Inflige +5% de dégâts pour chaque 6 d’Intensité de [Combustion] sur la cible (15% Max)\nSous certaines conditions de Brûlure et de Réson.-A, applique un buff aux alliés"
     },
     {
       "id": 1090811,
       "name": "Passion Brûlante",
-      "desc": "Inflige +10% de dégâts pour chaque 6 d’Intensité de [Combustion] sur la cible (30% Max)\nDébut du Combat : si tous les ennemis ont 6 d’Intensité de [Combustion] ou plus, applique 1 [CrimsonDamageUp] à (plus haute Réson.-A de Colère) alliés par ordre de Déploiement\n- En Affrontement Concentré, la condition ci-dessus s’active lorsque toutes les Parties ennemies ont 6 d’Intensité de [Combustion] ou plus\n- Si l’allié est un Fixer de l’Association Liu, applique 1 Bonus de Puissance Offensive",
+      "desc": "Inflige +10% de dégâts pour chaque 6 d’Intensité de [Combustion] sur la cible (30% Max)\nDébut du Combat : si tous les ennemis ont 6 d’Intensité de [Combustion] ou plus, applique 1 [CrimsonDamageUp] à (plus haute Réson.-A de Colère) alliés par ordre de Déploiement\n- En Affrontement Ciblé, la condition ci-dessus s’active lorsque toutes les Parties ennemies ont 6 d’Intensité de [Combustion] ou plus\n- Si l’allié est un Fixer de l’Association Liu, applique 1 Bonus de Puissance Offensive",
       "summary": "Inflige +10% de dégâts pour chaque 6 d’Intensité de [Combustion] sur la cible (30% Max)\nSous certaines conditions de Brûlure et de Réson.-A, applique un buff aux alliés"
     },
     {
@@ -1446,13 +1446,13 @@
     {
       "id": 1110901,
       "name": "Multitude de Points",
-      "desc": "Début du Combat : inflige 2 d’Intensité de 1 des effets suivants à 1 ennemi avec le moins de type d’effets négatifs : [Combustion], [Laceration], [Vibration], [Burst] ou [Sinking]. Effet choisi aléatoirement.\n(En Affrontement Concentré, une Partie)",
+      "desc": "Début du Combat : inflige 2 d’Intensité de 1 des effets suivants à 1 ennemi avec le moins de type d’effets négatifs : [Combustion], [Laceration], [Vibration], [Burst] ou [Sinking]. Effet choisi aléatoirement.\n(En Affrontement Ciblé, une Partie)",
       "summary": "Début du Combat : inflige 2 d’Intensité d’un effet de statut aléatoire à un ennemi"
     },
     {
       "id": 1110911,
       "name": "Multitude de Points",
-      "desc": "Début du Combat : inflige 2 d’Intensité de 1 des effets suivants à <style=\"highlight\">2</style> ennemis avec le moins de type d’effets négatifs : [Combustion], [Laceration], [Vibration], [Burst] ou [Sinking]. Effet choisi aléatoirement.\n(En Affrontement Concentré, des Parties)",
+      "desc": "Début du Combat : inflige 2 d’Intensité de 1 des effets suivants à <style=\"highlight\">2</style> ennemis avec le moins de type d’effets négatifs : [Combustion], [Laceration], [Vibration], [Burst] ou [Sinking]. Effet choisi aléatoirement.\n(En Affrontement Ciblé, des Parties)",
       "summary": "Début du Combat : inflige 2 d’Intensité d’un effet de statut aléatoire à 2 ennemis"
     },
     {
@@ -2139,6 +2139,24 @@
       "id": 1021203,
       "name": "Étoile Tianjiu",
       "desc": "Lorsque l’Instance de [BurstZilu] tombe à 0 et expire, gagne [BurstVulnerableZilu]"
+    },
+    {
+      "id": 1081201,
+      "name": "Détermination Briseuse d’Aspiration [破吸自桓]",
+      "desc": "En tuant la cible avec les Capacités Offensives de cette unité, gagne du [Breath] égal à la [Burst] sur la cible (3 par 1 ennemi ; une fois par tour)\n- Si cette unité a gagné 3 [Breath] grâce à cet effet, gagne du Compte de [Breath] égal au Compte de [Burst] de la cible (2 par 1 ennemi ; une fois par tour)\n\nDans un Duel, si le Niveau Offensif de cette unité est supérieur à celui de la cible, +1 de Puissance de Duel\n\nDans un Duel, si le Niveau Offensif de cette unité est supérieur à celui de la cible, inflge +1 d’Intensité ou de Compte de [Burst] avec les Capacités Offensives de Base de cette unité (2 fois par tour)",
+      "summary": "Dans un Duel, si le Niveau Offensif de cette unité est supérieur à celui de la cible, +1 de Puissance de Duel\nInflge +1 d’Intensité et de Compte de [Burst] avec les Capacités Offensives de Base de cette unité"
+    },
+    {
+      "id": 1081202,
+      "name": "Manœuvre de Lancement [始動]",
+      "desc": "En Battant en Retraite : applique 1 Bonus de Niveau Offensif au prochain tour aux alliés par ordre de Déploiement\n- Nombre d’alliés affectés = Instance de [StartXichun] sur soi\n- Si l’allié affecté est une unité “Famille Jia”, applique 2 Bonus de Niveau Offensif au prochain tour à la place\n- N’affecte pas les alliés qui Reviennent ou Substituent au prochain tour\n\nLors du tour où cette unité a Substitué ou est Revenue sur le terrain, gagne [WaitingXichun] ; puis, au Début du Combat, utilise “Coup Carmin - Lanceur【始】” sur une cible aléatoire en guise de toute première Capacité dans l’ordre de Capacité.",
+      "summary": "Lors du tour où cette unité entre dans le combat via Substitution ou Retour : au Début du Combat, comme première Capacité dans l’ordre de Capacité, utilise “Coup Carmin - Lanceur【始】” sur une cible aléatoire"
+    },
+    {
+      "id": 1081221,
+      "name": "Détermination Rémanente [餘桓]",
+      "desc": "Si cette unité est vaincue dans un Affrontement, applique [CheerUpXichun] à l’Identité Substituante suivante (l’Unité de Renfort la plus rapide dans l’ordre de Déploiement) au prochain tour\n\nEn Combats Chaînés, si cette unité est une unité de Renfort ou a Battu en Retraite, active les effets suivants :\n- Début du Combat : parmi les Identités qui 1) sont à 50% de PV ou moins, et 2) ont utilisé une Capacité Défensive, choisi l’Identité avec l’ordre de Déploiement le plus rapide. À la Fin du Tour, cette Identité se remet de Déséquilibre causé par des dégâts et effectue un [RetreatForCommon] (2 fois par Affrontement)",
+      "summary": "Fin du Tour : fait Battre en Retraite l’Identité qui, au Début de Combat, a 50% de PV ou moins et a utilisé une Capacité Défensive ce tour"
     }
   ]
 }

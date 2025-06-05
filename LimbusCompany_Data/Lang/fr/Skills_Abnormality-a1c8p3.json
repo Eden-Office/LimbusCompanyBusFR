@@ -569,7 +569,7 @@
         {
           "level": 1,
           "name": "Champ de Distorsion Spiral",
-          "desc": "[DuelGuard]\n[StartBattle] Jia Huan et Gubo gagnent 30 de Bouclier\n[WinDuel] Jia Huan et Gubo gagnent 30 de Bouclier",
+          "desc": "[CanDuelGuard]\n[StartBattle] Jia Huan et Gubo gagnent 30 de Bouclier\n[WinDuel] Jia Huan et Gubo gagnent 30 de Bouclier",
           "coinlist": [
             {
               "coindescs": [
@@ -986,7 +986,7 @@
         {
           "level": 1,
           "name": "Bolus Hēixiān Complété - You [酉] - Défense",
-          "desc": "[WhenUse] Si la cible a 5 (somme de [Laceration] + [Burst]) ou plus, +2 de Puissance de Pièce\n[WhenUse] Regagne 8 PSM\n[WhenUse] Gagne 3 [Breath] et +2 de Compte de [Breath]",
+          "desc": "[CanDuelGuard]\n[WhenUse] Si la cible a 5 (somme de [Laceration] + [Burst]) ou plus, +2 de Puissance de Pièce\n[WhenUse] Regagne 8 PSM\n[WhenUse] Gagne 3 [Breath] et +2 de Compte de [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -1156,9 +1156,15 @@
         {
           "level": 1,
           "name": "Rien d’Autre qu’une Lutte Inutile… !",
-          "desc": "[WhenUse] +1 de Puissance de Pièce toutes les 5 (somme de [Laceration] et de [Burst] sur la cible) (3 max)\n[WinDuel] Inflige +1 de Compte de [Burst], inflige 2 [DefenseDown]",
+          "desc": "[CanDuelGuard]\n[WinDuel] Jia Mu regagne 15 PSM. À 0 PSM, regagne 30 PSM à la place.",
           "coinlist": [
-            {}
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
           ]
         }
       ]
@@ -1339,7 +1345,7 @@
         {
           "level": 1,
           "name": "Une Offrande d’Extrême Immortalité Extraite [極仙榨滴供養]",
-          "desc": "[CantIdentify]\nCette Capacité ne peut pas infliger de dégâts aux alliés\n[WhenUse] +2 de Puissance de Pièce et inflige +20% de dégâts par allié avec [SupremeEternalLife]\n[WhenUse] S’il n’y a pas d’allié avec [SupremeEternalLife], applique 200 de Bouclier à toutes les cibles\n[EndSkill] Termine le tour",
+          "desc": "[CantIdentify]\nCette Capacité ne peut pas infliger de dégâts aux alliés\nCette Capacité peut être affrontée en Duel qu’importe la Vitesse ; ne peut pas être Déséquilibrée avant d’avoir utilisé cette Capacité\n[WhenUse] +2 de Puissance de Pièce et inflige +20% de dégâts par allié avec [SupremeEternalLife]\n[WhenUse] S’il n’y a pas d’allié avec [SupremeEternalLife], applique 200 de Bouclier à toutes les cibles\n[EndSkill] Termine le tour",
           "coinlist": [
             {
               "coindescs": [
@@ -1548,9 +1554,11 @@
         {
           "level": 1,
           "name": "Rien d’Autre qu’une Lutte Inutile… !",
-          "desc": "[WhenUse] +1 de Puissance de Pièce toutes les 5 (somme de [Laceration] et de [Burst] sur la cible) (3 max)\n[WinDuel] Inflige +1 de Compte de [Burst], inflige 2 [DefenseDown]",
+          "desc": "[CanDuelGuard]\n[WhenUse] +1 de Puissance de Pièce toutes les 5 (somme de [Laceration] et de [Burst] sur la cible) (3 max)\n[WinDuel] Inflige +1 de Compte de [Burst], inflige 2 [DefenseDown]",
           "coinlist": [
-            {}
+            {
+              "desc": "[SuperCoin]"
+            }
           ]
         }
       ]
