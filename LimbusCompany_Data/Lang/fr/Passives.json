@@ -1099,7 +1099,7 @@
     {
       "id": 1050821,
       "name": "Maniement de l’Épée Patriote",
-      "desc": "Début du Combat : 1 allié avec le plus de [Breath] inflige +15% de dégâts en Coup Critique"
+      "desc": "Début du Combat : 1 allié avec le plus de [Breath] inflige +15% de dégâts en Coup Critique avec des Capacités Tranchantes"
     },
     {
       "id": 1020801,
@@ -1608,13 +1608,13 @@
     {
       "id": 1041001,
       "name": "Tête d’Araignée/Crânepoil",
-      "desc": "En frappant un ennemi avec une Pièce qui gagne [RedEyeFirst]:\n- Inflige +([RedEyeFirst]/2)% de dégâts\n- Si la cible a [Laceration], gagne 1 [RedEyeFirst] (3 fois par tour)\n\nEn frappant un ennemi avec une Pièce qui gagne [PenanceFirst]:\n- Inflige +([PenanceFirst]/2)% de dégâts\n- À 20 PSM ou plus, gagne 1 [PenanceFirst] (3 fois par tour)",
+      "desc": "En frappant un ennemi avec une Pièce qui gagne [RedEyeFirst] :\n- Inflige +([RedEyeFirst]/2)% de dégâts\n- Si la cible a [Laceration], gagne 1 [RedEyeFirst] (3 fois par tour)\n\nEn frappant un ennemi avec une Pièce qui gagne [PenanceFirst] :\n- Inflige +([PenanceFirst]/2)% de dégâts\n- À 20 PSM ou plus, gagne 1 [PenanceFirst] (3 fois par tour)",
       "summary": "Pièces qui gagnant Yeux Rouges infligent plus de dégâts ; si la cible a Saignement, gagne 1 Yeux Rouges\nPièces qui gagnant Pénitence infligent plus de dégâts ; à 20 PSM ou plus, gagne 1 Pénitence"
     },
     {
       "id": 1041011,
       "name": "Tête d’Araignée/Crânepoil",
-      "desc": "En frappant un ennemi avec une Pièce qui gagne [RedEyeFirst]:\n- Inflige +([RedEyeFirst]/2)% de dégâts\n<style=\"highlight\">- Si la Vitesse de cette unité est supérieure de 3 ou plus à celle de la cible, inflige +([RedEyeFirst]/2)% de dégâts</style>\n- Si la cible a [Laceration], gagne 1 [RedEyeFirst] (3 fois par tour)\n\nEn frappant un ennemi avec une Pièce qui gagne [PenanceFirst]:\n- Inflige +([PenanceFirst]/2)% de dégâts\n<style=\"highlight\">- Si les PSM de la cible sont inférieurs à ceux de cette unité, inflige +([PenanceFirst]/2)% de dégâts (cibles sans PSM : leur PSM compte comme 0)</style>\n- À 20 PSM ou plus, gagne 1 [PenanceFirst] (3 fois par tour)\n\n<style=\"highlight\">Lorsque touché par un ennemi, gagne 1 [PenanceFirst] (3 max)</style>",
+      "desc": "En frappant un ennemi avec une Pièce qui gagne [RedEyeFirst] :\n- Inflige +([RedEyeFirst]/2)% de dégâts\n<style=\"highlight\">- Si la Vitesse de cette unité est supérieure de 3 ou plus à celle de la cible, inflige +([RedEyeFirst]/2)% de dégâts</style>\n- Si la cible a [Laceration], gagne 1 [RedEyeFirst] (3 fois par tour)\n\nEn frappant un ennemi avec une Pièce qui gagne [PenanceFirst] :\n- Inflige +([PenanceFirst]/2)% de dégâts\n<style=\"highlight\">- Si les PSM de la cible sont inférieurs à ceux de cette unité, inflige +([PenanceFirst]/2)% de dégâts (cibles sans PSM : leur PSM compte comme 0)</style>\n- À 20 PSM ou plus, gagne 1 [PenanceFirst] (3 fois par tour)\n\n<style=\"highlight\">Lorsque touché par un ennemi, gagne 1 [PenanceFirst] (3 max)</style>",
       "summary": "Pièces qui gagnant Yeux Rouges infligent plus de dégâts ; si la cible a Saignement, gagne 1 Yeux Rouges\nPièces qui gagnant Pénitence infligent plus de dégâts ; à 20 PSM ou plus, gagne 1 Pénitence\nLorsque touché par un ennemi, gagne 1 Pénitence (3 max)"
     },
     {
@@ -2157,6 +2157,60 @@
       "name": "Détermination Rémanente [餘桓]",
       "desc": "Si cette unité est vaincue dans un Affrontement, applique [CheerUpXichun] à l’Identité Substituante suivante (l’Unité de Renfort la plus rapide dans l’ordre de Déploiement) au prochain tour\n\nEn Combats Chaînés, si cette unité est une unité de Renfort ou a Battu en Retraite, active les effets suivants :\n- Début du Combat : parmi les Identités qui 1) sont à 50% de PV ou moins, et 2) ont utilisé une Capacité Défensive, choisi l’Identité avec l’ordre de Déploiement le plus rapide. À la Fin du Tour, cette Identité se remet de Déséquilibre causé par des dégâts et effectue un [RetreatForCommon] (2 fois par Affrontement)",
       "summary": "Fin du Tour : fait Battre en Retraite l’Identité qui, au Début de Combat, a 50% de PV ou moins et a utilisé une Capacité Défensive ce tour"
+    },
+    {
+      "id": 1101301,
+      "name": "Tribut de Munition",
+      "desc": "Lorsque l’Identité alliée avec le plus haut ordre de Déploiement parmi ceux utilisant des [Bullet]s finit son attaque, et si son compte actuel de [Bullet] est inférieur à la moitié (arrondi au supérieur), dépense autant de [FireBulletPropellant] sur soi que de compte de [Bullet] total dépensé par l’unité affectée et l’approvisionne d’autant de [Bullet] que de [FireBulletPropellant] que vient de dépenser cette unité. (Peut dépenser jusqu’à 3 munitions) (une fois par Affrontement)\n\n- Si l’Identité receveuse de [Bullet] est une Identité du Pouce d’un plus haut rang, l’approvisionne de 1 [Bullet] supplémentaire\n- Si l’Identité receveuse de [Bullet] a des valeurs séparées pour l’Intensité et le Compte, elles seront approvisionnées aléatoirement.\n- Si l’Intensité et le Compte sont au max, approvisionne celui qui n’est pas au max.",
+      "summary": ""
+    },
+    {
+      "id": 1101311,
+      "name": "Tribut de Munition",
+      "desc": "Lorsque l’Identité alliée avec le plus haut ordre de Déploiement parmi ceux utilisant des [Bullet]s finit son attaque, et si son compte actuel de [Bullet] est inférieur à la moitié (arrondi au supérieur), dépense autant de [FireBulletPropellant] sur soi que de compte de [Bullet] total dépensé par l’unité affectée et l’approvisionne d’autant de [Bullet] que de [FireBulletPropellant] que vient de dépenser cette unité. <style=\"highlight\">(Peut dépenser jusqu’à 5 munitions)</style> (une fois par Affrontement)\n\n- Si l’Identité receveuse de [Bullet] est une Identité du Pouce d’un plus haut rang, l’approvisionne de 1 [Bullet] supplémentaire\n- Si l’Identité receveuse de [Bullet] a des valeurs séparées pour l’Intensité et le Compte, elles seront approvisionnées aléatoirement.\n- Si l’Intensité et le Compte sont au max, approvisionne celui qui n’est pas au max.",
+      "summary": ""
+    },
+    {
+      "id": 1101312,
+      "name": "Baïonnettes",
+      "desc": "Toujours actif : commence les Affrontements avec 15 [FireBulletPropellant]\n\nSi cette unité a dépensé [FireBulletPropellant] avec des Capacités ou des Passives, gagne du [AttackDmgUp] égal à la quantité dépensée au prochain tour (3 max)\n\nEn lançant une Pièce qui dépense [FireBulletPropellant] : bien que ne pas avoir [FireBulletPropellant] n’annule pas les attaques de cette unité, les effets En Touche “inflige [Combustion]” et “inflige du Compte de [Combustion]” de la Pièce ne s’activent pas",
+      "summary": ""
+    },
+    {
+      "id": 1101321,
+      "name": "Rechargeur",
+      "desc": "Lorsque l’Identité alliée avec le plus haut ordre de Déploiement parmi ceux utilisant des [Bullet]s finit son attaque, et si son compte actuel de [Bullet] est inférieur à la moitié (arrondi au supérieur), regagne la moitié de sa capacité de [Bullet] maximale (arrondi au supérieur ; une fois par Affrontement ; [Bullet] regagnée max : 5)\n\n- Si l’Identité receveuse de [Bullet] a des valeurs séparées d’Intensité et de Compte, elle les gagnera aléatoirement\n- Si l’Intensité ou le Compte de [Bullet] sont au max, gagne celui qui n’est pas au max\n- Cet effet ne s’active pas s’il n’y a pas d’Identité qui utilise [Bullet]",
+      "summary": ""
+    },
+    {
+      "id": 1051202,
+      "name": "Chachihu [揷翅虎]",
+      "desc": "Toujours actif : commence les Affrontements avec 12 [BulletPropellantAlly]\n\nEn lançant une Pièce qui consomme [BulletPropellantAlly] ou [BulletPropellantSpecialAlly] : bien que ne pas avoir ces “Munitions Uniques” n’annule pas les attaques de cette unité, les effets En Touche “inflige [Combustion]” et “inflige du Compte de [Combustion]” de la Pièce ne s’activent pas\n\nSi cette unité a équipé une Capacité Défensive pour la première fois dans cet Affrontement, a dépensé toutes ses [BulletPropellantAlly] ou est Déséquilibrée : à la fin de ce tour, recharge 8 [BulletPropellantSpecialAlly] et gagne 1 [IrritationAlly] (une fois par Affrontement)\n- Si cet effet s’active alors que cette unité est Déséquilibrée, se remet de Déséquilibre (à moins qu’il s’agisse d’un Déséquilibre forcé)\n- Retire toutes [BulletPropellantAlly] si cette unité a des [BulletPropellantAlly] restantes\n- À 8 (somme de [BulletPropellantAlly] et de [BulletPropellantSpecialAlly] dépensées) ou plus, convertit [IrritationAlly] en [HugeIrritationAlly]\n\nLorsque cette unit utilise une Capacité Offensive de Base qui dépense la dernière Cartouche de [BulletPropellantSpecialAlly]…\n- Gagne +2 de Poids d’Atq avant d’attaquer\n- Gagne 1 [BeastEyesAlly] au prochain tour",
+      "summary": ""
+    },
+    {
+      "id": 1051201,
+      "name": "Lame de l’Étoile Tiantui [天退星刀]",
+      "desc": "Lorsque cette unité a [BulletPropellantAlly] :\n- À 1 [BulletPropellantAlly] ou plus, convertit toutes les Pièces de “Tranchenœud” en [SuperCoin]s\n- Les Pièces de Capacité qui dépensent [BulletPropellantAlly] gagnent +1 de Puissance (s’active tant que la Pièce a encore des Cartouches à dépenser)\n\nLorsque cette unité a [BulletPropellantSpecialAlly] :\n- À 1 [BulletPropellantSpecialAlly] ou plus, convertit toutes les Pièces des Capacités Offensives de Base de cette unité en [SuperCoin]s\n- À 0 [BulletPropellantSpecialAlly], convertit toutes les Pièces de Capacités Offensives de Base de cette unité qui dépensent des “Munitions Uniques” en [SuperCoin]s\n- Les Pièces de Capacité qui dépensent [BulletPropellantSpecialAlly] gagnent +2 de Puissance (s’active tant que la Pièce a encore des Cartouches à dépenser)",
+      "summary": ""
+    },
+    {
+      "id": 1051211,
+      "name": "Lame de l’Étoile Tiantui [天退星刀]",
+      "desc": "Lorsque cette unité a [BulletPropellantAlly] :\n- À 1 [BulletPropellantAlly] ou plus, convertit toutes les Pièces de “Tranchenœud” en [SuperCoin]s\n- Les Pièces de Capacité qui dépensent [BulletPropellantAlly] gagnent +1 de Puissance <style=\"highlight\">et infligent +10% de dégâts</style> (s’active tant que la Pièce a encore des Cartouches à dépenser)\n\nLorsque cette unité a [BulletPropellantSpecialAlly] :\n- À 1 [BulletPropellantSpecialAlly] ou plus, convertit toutes les Pièces des Capacités Offensives de Base de cette unité en [SuperCoin]s\n- À 0 [BulletPropellantSpecialAlly], convertit toutes les Pièces de Capacités Offensives de Base de cette unité qui dépensent des “Munitions Uniques” en [SuperCoin]s\n- Les Pièces de Capacité qui dépensent [BulletPropellantAlly] gagnent +2 de Puissance, <style=\"highlight\">infligent +30% de dégâts et infligent +2 d’Intensité et de Compte de [Combustion] supplémentaires En Touche avec ces Pièces</style> (s’active tant que la Pièce a encore des Cartouches à dépenser)",
+      "summary": ""
+    },
+    {
+      "id": 1051221,
+      "name": "Bond du Tigre Sauvage",
+      "desc": "Lorsque 1 allié avec la Vitesse la plus rapide utilise une Capacité qui dépense une [Bullet], ou si sa Vitesse dépasse celle de la cible de 3 ou plus, inflige (différence de Vitesse * 2)% de dégâts supplémentaires (10% max).\n(Cet effet ne s’active pas si l’unité affectée manque complètement de [Bullet]. Cependant, elle s’activera si elle possède le buff [Bullet], même s’il lui reste 0 cartouches)",
+      "summary": ""
+    },
+    {
+      "id": 1051231,
+      "name": "Bond du Tigre Sauvage",
+      "desc": "Lorsque 1 allié avec la Vitesse la plus rapide utilise une Capacité qui dépense une [Bullet], ou si sa Vitesse dépasse celle de la cible de 3 ou plus, inflige (différence de Vitesse * <style=\"highlight\">3</style>)% de dégâts supplémentaires (<style=\"highlight\">15%</style> max).\n(Cet effet ne s’active pas si l’unité affectée manque complètement de [Bullet]. Cependant, elle s’activera si elle possède le buff [Bullet], même s’il lui reste 0 cartouches)",
+      "summary": ""
     }
   ]
 }

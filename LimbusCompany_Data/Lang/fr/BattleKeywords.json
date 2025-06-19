@@ -2053,6 +2053,55 @@
       "desc": "- Fin du Tour : se remet de Déséquilibre et Bat en Retraite de l’Affrontement (sauf s’il s’agit d’un Déséquilibre forcé ; ne compte pas comme une mort)\n· En Combats Chaînés, donne les Emplacements de cette unité à une unité Substituée et se place à la dernière place de l’ordre de Déploiement des unités de Renfort (s’échappe entièrement de l’Affrontement s’il n’y a aucune Unité de Renfort restante avec qui changer de place au prochain tour. En revenant au combat, revient dans l’ordre de sa retraite.)\n· En revenant au combat, revient avec la même quantité de PV et de PSM qu’avait cette unité en battant en retraite et élimine tous les effets sur soi à l’exception de certains (si cette unité avait moins de 0 PSM en battant en retraite, remet à 0 les PSM à la place)",
       "summary": "",
       "undefined": "-"
+    },
+    {
+      "id": "FireBulletPropellant",
+      "name": "Munition Propulsive Calcinante",
+      "desc": "- Capacité Max : 15\n- Munition Unique\n- Dépensé par certaines Capacités\n- Compte comme un “Munition”",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "SingBulletSupport",
+      "name": "(엄지 싱클 탄환 보급 받는 대상 이펙트)",
+      "desc": "",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BulletPropellantAlly",
+      "name": "Cartouche de Marque du Tigre",
+      "desc": "- Munition Unique\n- À 8 (somme cumulée de Cartouches de Marque du Tigre et de Cartouches de Marque du Tigre Sauvage dépensées) ou plus, gagne Esprit Implacable - Shin [剛氣-心] au lieu d’Esprit Implacable [剛氣] grâce à la Passive de cette unité\n- Capacité Max : 12",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BulletPropellantSpecialAlly",
+      "name": "Cartouche de Marque du Tigre Sauvage",
+      "desc": "- Munition Unique\n- À 8 (somme cumulée de Cartouches de Marque du Tigre et de Cartouches de Marque du Tigre Sauvage dépensées) ou plus, gagne Esprit Implacable - Shin [剛氣-心] au lieu d’Esprit Implacable [剛氣] grâce à la Passive de cette unité\n- S’active de la même manière que Cartouche de Marque du Tigre\n- Capacité Max : 8",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "IrritationAlly",
+      "name": "Esprit Implacable [剛氣]",
+      "desc": "- +1 de Vitesse Min & Max\n- Si la Vitesse de cette unité dépasse celle de la cible de 3 ou plus, inflige +(différence de Vitesse * 2.5)% de dégâts (20% max)\n- Inflige +1 d’Intensité et de Compte de Tremblement avec les Capacités de cette unité\n- Si cette unité a dépensé 8 (somme de Cartouche de Marque du Tigre et de Cartouche de Marque du Tigre Sauvage) ou plus : à la Fin du Tour, convertit ce buff en Esprit Implacable - Shin [剛氣-心] au prochain tour\n- Instance max : 1",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "HugeIrritationAlly",
+      "name": "Esprit Implacable - Shin [剛氣-心]",
+      "desc": "- +3 de Vitesse Min & Max\n- Si la Vitesse de cette unité dépasse celle de la cible de 3 ou plus, inflige +(différence de Vitesse * 5)% de dégâts (40% max)\n- Inflige +2 d’Intensité et de Compte de Tremblement avec les Capacités de cette unité\n- Instance max : 1",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BeastEyesAlly",
+      "name": "Surchauffe",
+      "desc": "- Perd cet effet lorsque cette unité gagne Cartouche de Marque du Tigre Sauvage\n- +2 de Vitesse Min & Max\n- Les Capacités Offensives de Base perdent (nombre cumulé de Cartouches de Marque du Tigre et de Marque du Tigre Sauvage dépensées / 2) de Puissance de Duel (10 max) ; cependant, gagne les effets suivants (cumulatifs) :\n· 8 Cartouches dépensées ou plus : gagne 1 Protection tous les 10% de PV manquants sur soi au Début du Tour (5 max)\n· 14 Cartouches dépensées ou plus : en Duel Perdu, les Pièces Incassables des Capacités Offensives de Base de cette unité infligent +(75 + pourcentage de PV manquant sur soi)% de dégâts (150% max)\n· 20 Cartouches dépensées ou plus : inflige +(différence de pourcentage de PV)% de dégâts contre les cibles avec plus de pourcentage de PV restant que cette unité (50% max ; exclut les Capacités E.G.O.)",
+      "summary": "",
+      "undefined": "-"
     }
   ]
 }

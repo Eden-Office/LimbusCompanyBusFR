@@ -1444,6 +1444,314 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1101301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Adhésion à la Bienséance.",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Adhésion à la Bienséance.",
+          "desc": "<style=\"highlight\">[WhenUse] +1 de Puissance de Pièce toutes les 6 (somme de [Combustion] et de [Vibration] sur la cible) (2 max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Adhésion à la Bienséance.",
+          "desc": "[WhenUse] +1 de Puissance de Pièce toutes les 6 (somme de [Combustion] et de [Vibration] sur la cible) (2 max)\n<style=\"highlight\">[WhenUse] Si la cible a un “Tremblement Unique” comme [Vibration], +1 de Puissance de Duel</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Respectez le Pouce.",
+          "desc": "[WhenUse] Si la cible a 6 (somme de [Combustion] et de [Vibration]) ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 6 [Vibration] ou plus, déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Respectez le Pouce.",
+          "desc": "<style=\"highlight\">[WhenUse] +1 de Puissance de Pièce toutes les 6 (somme de [Combustion] et de [Vibration] sur la cible) (2 max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Si la cible a 10 [VibrationIgnition] ou plus, inflige +1 de Compte de [Combustion]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 6 [Vibration] ou plus, déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Respectez le Pouce.",
+          "desc": "[WhenUse] +1 de Puissance de Pièce toutes les 6 (somme de [Combustion] et de [Vibration] sur la cible) (2 max)\n<style=\"highlight\">[WhenUse] Inflige +10% de dégâts toutes les 4 (somme de [Combustion] et de [Vibration] sur la cible) (30% max)\n[WhenUse] Si la cible a 10 “Tremblement Unique” ou plus, +2 de Puissance de Base</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 10 [VibrationIgnition] ou plus, inflige <style=\"highlight\">+2</style> de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 6 [Vibration] ou plus, déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101303,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Compression de Propulseur",
+          "desc": "[WhenUse] +1 de Puissance de Pièce toutes les 8 (somme de [Combustion] et de [Vibration] sur la cible) (2 max)\n[WhenUse] À 3 [FireBulletPropellant] ou plus, +1 de Puissance de Base",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [FireBulletPropellant]"
+                },
+                {
+                  "desc": "Si cette unité a dépensé une [FireBullerPropellant] suite à l’effet de cette Pièce, inflige +20% de dégâts"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationIgnition]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [FireBulletPropellant]"
+                },
+                {
+                  "desc": "Si cette unité a dépensé une [FireBullerPropellant] suite à l’effet de cette Pièce, inflige +20% de dégâts"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [FireBulletPropellant]"
+                },
+                {
+                  "desc": "Si cette unité a dépensé une [FireBullerPropellant] suite à l’effet de cette Pièce, inflige +20% de dégâts"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cette unité a dépensé [FireBulletPropellant], déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Compression de Propulseur",
+          "desc": "[WhenUse] +1 de Puissance de Pièce toutes les 8 (somme de [Combustion] et de [Vibration] sur la cible) (2 max)\n[WhenUse] À 3 [FireBulletPropellant] ou plus, <style=\"highlight\">+3 de Puissance de Base, inflige +30% de dégâts et convertit les Pièces en [SuperCoin]s</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [FireBulletPropellant]"
+                },
+                {
+                  "desc": "Si cette unité a dépensé une [FireBullerPropellant] suite à l’effet de cette Pièce, inflige <style=\"highlight\">+25%</style> de dégâts"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">+3</style> de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationIgnition]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [FireBulletPropellant]"
+                },
+                {
+                  "desc": "Si cette unité a dépensé une [FireBullerPropellant] suite à l’effet de cette Pièce, inflige <style=\"highlight\">+25%</style> de dégâts"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [FireBulletPropellant]"
+                },
+                {
+                  "desc": "Si cette unité a dépensé une [FireBullerPropellant] suite à l’effet de cette Pièce, inflige <style=\"highlight\">+25%</style> de dégâts"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cette unité a dépensé [FireBulletPropellant], déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Si cette Capacité a dépensé 3 [FireBulletPropellant], déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Garde Ferreuse",
+          "desc": "Inflige 1 [Vibration] à l’Attaquant lorsque touché tant que cette unité a encore du Bouclier (3 fois par tour)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Garde Ferreuse",
+          "desc": "Inflict <style=\"highlight\">2</style> [Vibration] à l’Attaquant lorsque touché tant que cette unité a encore du Bouclier (<style=\"highlight\">4</style> fois par tour)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
     }
   ]
 }
