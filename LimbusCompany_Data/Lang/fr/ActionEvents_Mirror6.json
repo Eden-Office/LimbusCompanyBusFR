@@ -1,0 +1,98 @@
+{
+  "dataList": [
+    {
+      "id": 971055,
+      "name": "Bizarre Machine",
+      "desc": "Il y a une machine bizarre. Devant elle se trouve une pièce.\n\nIl y a également une fente à pièces scintillante et brillante sur le côté de la machine, nous incitant presque à y déposer la pièce.\n\nUne voix mécanique désincarnée résonne de quelque part lorsque nous nous approchons de la machine.\n\n“Testez votre chance !”\n\nD’où vient cette voix ? Est-ce qu’elle vient de la machine, ou était-ce l’espace lui-même qui me l’a murmuré ?\n\nJe me surprends de justesse à ramasser distraitement la pièce en m’approchant de la fente à pièces. Je devrais calmement y réfléchir.",
+      "options": [
+        {
+          "message": "Simplement prendre la pièce.",
+          "messageDesc": "",
+          "result": [
+            "En y regardant de plus près, cette pièce devrait nous être utile dans le donjon.\n\n… Nous devrions partir tant que nous avons l’avantage, même pour un si petit gain. Il vaut mieux miser cette pièce ailleurs que dans une machine suspicieuse dont le résultat nous est complètement inconnu.\n\nNous prenons la pièce et laissons la machine."
+          ]
+        },
+        {
+          "message": "Insérer la pièce dans la fente.",
+          "messageDesc": "???",
+          "result": [
+            "La fente aspire la pièce dans un claquement.\n\n“#%^*@%@!!#@$%”\n\nLa machine fait un bruit étrange, ineffable et dérangeant. Après un moment, elle recracha quelque chose de son… espèce d’aération.\n\nEnsuite, elle disparut quelque part avant même que l’on ait la chance de réaliser ce qu’il venait de se passer.",
+            "La fente aspire la pièce dans un claquement.\n\n“……”\n\nPuis, rien.\n\n“Ah p’tain ! Elle a bouffé la pièce !”\n\nL’un des Pécheurs s’avança pour fracasser la machine, mais elle disparut quelque part avant que l’on ait la chance de réaliser ce qu’il venait de se passer."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 971056,
+      "name": "Carnival of La Manchaland",
+      "desc": "“Dans ce carnaval… béni infiniment… béni éternellement…”\n\nLa parade donne des sourires et des exclamations radieuses aux spectateurs. Elle est criarde et extravagante qu’importe où ou comment on la regarde.\n\nC’est comme si les paroles… Comme si le carnaval était vraiment destiné à durer éternellement.\n\n“Oh.”\n\nQuelqu’un exprima un léger cri de douleur et une seringue rouillée tomba au sol.\n\n“D-Du sang ! Du sang !”\n“J-juste une goutte, pitié… !”\n\nLa parade s’effondra immédiatement alors que tout le monde se ruait follement vers la seringue.\nC’est comme s’ils ne réalisaient pas qui ou quoi les entouraient ; ils semblaient prêts à déchirer tout ce qui se dressait sur leurs chemins.\n\nDevrions-nous les arrêter ?",
+      "options": [
+        {
+          "message": "Essayer de les arrêter.",
+          "messageDesc": "Contrôle Avantage Luxure & Paresse. Réussissez pour gagner un Don E.G.O. de Saignement."
+        },
+        {
+          "message": "Les ignorer.",
+          "messageDesc": "",
+          "result": [
+            "Rien ne s’est passé."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 971057,
+      "name": "The Carousel",
+      "subDesc": "",
+      "desc": "Est-ce… un carrousel ?\n\nIl y a un bâtiment incandescent, presque aveuglant, qui brille radieusement dans cet espace sombre.\n\n“……”\n\n“Eh bien, quelque chose ne va pas ?”\n\n“Hm ? Q-que nenni, il n’y a point de quoi s’inquiéter.”\n\nLe carrousel semblait occuper les pensées de certains Pécheurs.\n\nDevrions-nous nous y arrêter ?",
+      "options": [
+        {
+          "message": "S’arrêter au carrousel.",
+          "messageDesc": "Contrôle Avantage Luxure & Paresse. Réussissez pour gagner un Don E.G.O. sans Mot-Clé."
+        },
+        {
+          "message": "Cela semble dangereux. Partons.",
+          "result": [
+            "Rien ne s’est passé."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 971058,
+      "name": "Refracted Sleeping Bag of a Bygone Day",
+      "subDesc": "",
+      "desc": "Quelque chose respire lourdement. Son origine, sa forme étrange, repose ici.\n\nCela semble être une Anomalie. La chose peine à respirer, chacune de ses respirations est laborieuse et irrégulière.\n\nEst-ce qu’elle… pleure ?",
+      "options": [
+        {
+          "message": "Écouter la respiration.",
+          "messageDesc": "Contrôle Avantage Orgueil & Envie. Réussissez pour gagner un Don E.G.O. de Calme."
+        },
+        {
+          "message": "Se boucher les oreilles.",
+          "result": [
+            "Écouter la respiration douloureuse nous fend le cœur.\n\nCette simple sensation était si écrasante qu’elle me donnait la nausée. Les Pécheurs n’étaient pas mieux ; soit ils s’attrapaient la tête, soit ils finissaient lentement couverts de sueurs froides.\n\n“B-bouchez vous les oreilles. Je crois que ce… ce sont me fait perdre la tête.”\n\nJe dis au reste des Pécheurs de faire de même et nous commençons doucement à aller mieux.\n\n… L’Anomalie continue à faire ce bruit pendant un moment, avant de devenir complètement silencieuse."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 971059,
+      "name": "Refracted Four-hundred Roses",
+      "subDesc": "",
+      "desc": "Les pétales imprégnés de sang sont tellement carmins que l’on pourrait croire qu’elle saigne.\n\nSes tiges, siphonnant du sang quelque part pour nourrir les pétales, sont tordues, sombres et rouges.\n\nDes épines vicieuses et pointues couvrent sa peau.\n\nMais la curiosité prend place, peut-être que lui casser une épine la ferait saigner ?",
+      "options": [
+        {
+          "message": "Casser une épine.",
+          "messageDesc": "Contrôle Avantage Luxure & Envie. Réussissez pour gagner un Don E.G.O. de Saignement."
+        },
+        {
+          "message": "Ne pas le faire.",
+          "result": [
+            "La curiosité est le principal suspect lorsqu’on parle de chats morts.\n\nNe la provoquons pas inutilement cette fois."
+          ]
+        }
+      ]
+    }
+  ]
+}

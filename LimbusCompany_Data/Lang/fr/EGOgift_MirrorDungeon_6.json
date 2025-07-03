@@ -1,0 +1,170 @@
+{
+  "dataList": [
+    {
+      "id": 9799,
+      "name": "Une Certaine Philosophie",
+      "desc": "Si les prévisions de Probabilité de Fusion sont de 90% ou plus, les fixe à 100%",
+      "simpleDesc": [
+        {
+          "abilityID": 9799,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9800,
+      "name": "Richesse",
+      "desc": "Fixe le Coût d’Achat & d’Amélioration de tous les Dons E.G.O. à 1.\n\nLes alliés gagnent 1 [AttackUp] tous les 500 Coûts sur soi (20 max)",
+      "simpleDesc": [
+        {
+          "abilityID": 9800,
+          "simpleDesc": ""
+        },
+        {
+          "abilityID": 980001,
+          "simpleDesc": "Gagne du Bonus de Niveau Offensif"
+        }
+      ]
+    },
+    {
+      "id": 9801,
+      "name": "Bolus de Tenacité",
+      "desc": "Début du Tour : 1 allié avec le plus de PV max gagne du [DefenseUp] égal au nombre de fois où cette unité a été touché par des Capacités Offensives ennemies (6 max)",
+      "simpleDesc": [
+        {
+          "abilityID": 9801,
+          "simpleDesc": "Gagne du Bonus de Niveau Défensif"
+        }
+      ]
+    },
+    {
+      "id": 9802,
+      "name": "Hache d’Éclaircissement",
+      "desc": "En Touche avec des Capacités qui consomment du Compte de [Charge] : inflige 1 [Burst] (3 fois par Capacité)\n\nL’effet du Don E.G.O. s’intensifie selon le nombre d’Identités avec des Capacités Offensives qui appliquent de la [Burst] ou gagnent de la [Charge] qui sont Déployées. (Exclut les Capacités E.G.O. ; inclut les Unités de Renfort)\n\n- À 6 ou plus…\nEn infligeant des dégâts de [Burst] aux ennemis, gagne +1 de Compte de [Charge] (3 fois par Capacité)\n\n- À 8 ou plus…\nEn Touche avec des Capacités qui consomment du Compte de [Charge], inflige +1 de Compte de [Burst] (3 fois par Capacité)",
+      "simpleDesc": [
+        {
+          "abilityID": 9802,
+          "simpleDesc": "Inflige 1 Déchirure"
+        },
+        {
+          "abilityID": 980201,
+          "simpleDesc": ""
+        },
+        {
+          "abilityID": 980202,
+          "simpleDesc": "Gagne +1 de Compte de Charge"
+        },
+        {
+          "abilityID": 980203,
+          "simpleDesc": "Inflige +1 de Compte de Déchirure"
+        }
+      ]
+    },
+    {
+      "id": 9803,
+      "name": "Fleur dans le Miroir",
+      "desc": "Chaque Début de Tour : inflige 3 d’Intensité de [Burst] et +1 de Compte de [Burst] à tous les ennemis (en Affrontements Concentrés, toutes les Parties)\n\nL’effet du Don E.G.O. s’intensifie selon le nombre d’Identités avec des Capacités Offensives qui appliquent de la [Burst] ou gagnent du [Breath] qui sont Déployées. (Exclut les Capacités E.G.O. ; inclut les Unités de Renfort)\n\n- À 6 ou plus…\nLorsque des dégâts de [Burst] ont lieu En Touche avec une Capacité, gagne +1 de Compte de [Breath] (3 fois par Capacité)\n\n- À 10 ou plus…\nEn Critique avec une Capacité, inflige +1 de Compte de [Burst] (3 fois par Capacité)",
+      "simpleDesc": [
+        {
+          "abilityID": 9803,
+          "simpleDesc": "Inflige 3 d’Intensité de Déchirure et +1 de Compte de Déchirure"
+        },
+        {
+          "abilityID": 980301,
+          "simpleDesc": ""
+        },
+        {
+          "abilityID": 980302,
+          "simpleDesc": "Gagne +1 de Compte de Calme"
+        },
+        {
+          "abilityID": 980303,
+          "simpleDesc": "Inflige +1 de Compte de Déchirure"
+        }
+      ]
+    },
+    {
+      "id": 9804,
+      "name": "Lune dans l’Eau",
+      "desc": "En Touche contre des ennemis avec 5 d’Intensité de [Burst] ou plus : gagne 1 d’Intensité de [Breath] et +1 de Compte de [Breath] (3 fois par Capacité)\n\nL’effet du Don E.G.O. s’intensifie selon le nombre d’Identités avec des Capacités Offensives qui appliquent de la [Burst] ou gagnent du [Breath] qui sont Déployées. (Exclut les Capacités E.G.O. ; inclut les Unités de Renfort)\n\nEn Touche avec une Capacité : si la cible a 20 [Burst] ou plus, inflige +10% de dégâts en Touche Critique (+3% de dégâts supplémentaires en Touche Critique par Identité Déployée qui remplit les conditions ci-dessus)\n\n- À 12 ou plus…\nEn Touche avec une Capacité : si elle touche Critiquement, retire aléatoirement 1 effet négatif retirable appliqué sur soi (une fois par tour, par Identité)",
+      "simpleDesc": [
+        {
+          "abilityID": 9804,
+          "simpleDesc": "Gagne de l’Intensité et du Compte de Calme"
+        },
+        {
+          "abilityID": 980401,
+          "simpleDesc": ""
+        },
+        {
+          "abilityID": 980402,
+          "simpleDesc": "Inflige plus de dégâts en Touche Critique"
+        },
+        {
+          "abilityID": 980403,
+          "simpleDesc": "Retire un effet négatif aléatoire"
+        }
+      ]
+    },
+    {
+      "id": 9795,
+      "name": "Une Goutte",
+      "desc": "S’active lorsque 3 Identités ou plus ont des Capacités qui consomment du [BloodDinner]. (Exclut les Capacités E.G.O. et les Unités de Renfort)\n\nAvant d’utiliser des Capacités qui consomment du [BloodDinner], si la cible a 30 d’Intensité de [Laceration] ou plus, réduit son Intensité de [Laceration] à 15. Puis, augmente le [BloodDinner] de la quantité d’Intensité de [Laceration] retirée. (Une fois par tour pour le groupe ennemi entier ; ne s’active que contre la cible principale en utilisant des Capacités à Poids d’Atq multiples)\n\nPour les Identités avec des Capacités qui consomment du [BloodDinner], applique 1 Bonus de Puissance et 1 Bonus de Dégâts au prochain tour pour tous les 10 [BloodDinner] générés avec l’effet ci-dessus (4 max)",
+      "simpleDesc": [
+        {
+          "abilityID": 9795,
+          "simpleDesc": "Réduit l’Intensité de Saignement et augmente le Festin Sanglant"
+        },
+        {
+          "abilityID": 979501,
+          "simpleDesc": "Applique du Bonus de Puissance et de Dégâts"
+        }
+      ]
+    },
+    {
+      "id": 9796,
+      "name": "Expiration Peinée",
+      "desc": "Si l’allié Déployé #5 a 50 (somme d’Intensité et de Compte de [Breath]) ou plus : ses Pièces de Capacité, en attaquant après un Duel Gagné ou en utilisant des Attaques à Sens-Unique, font toujours Pile (Face pour les Pièces Négatives) et infligent +80% de dégâts en Touche Critique. (Une fois par Affrontement, exclut les Capacités E.G.O.)\n\nS’il y a 5 alliés Déployés ou plus avec des Capacités Offensives qui appliquent ou gagnent de l’Intensité ou du Compte de [Breath], l’allié Déployé #5 inflige +60% de dégâts en Touche Critique (+20% de dégâts supplémentaires en Touche Critique par Identité Déployée dépassant la condition, inclut les Unités de Renfort)",
+      "simpleDesc": [
+        {
+          "abilityID": 9796,
+          "simpleDesc": "Inflige plus de dégâts en Touche Critique"
+        },
+        {
+          "abilityID": 979601,
+          "simpleDesc": "Inflige plus de dégâts en Touche Critique"
+        }
+      ]
+    },
+    {
+      "id": 9797,
+      "name": "Canon Destiné à l’Éclatement",
+      "desc": "Début du Combat : gagne 2 [AttackDmgUp] et 2 [Vulnerable]\nÀ partir du 2ème tour, ajoute 1 aux [AttackDmgUp] et [Vulnerable] obtenus suite à l’effet précédant (jusqu’à 8 fois)",
+      "simpleDesc": [
+        {
+          "abilityID": 9797,
+          "simpleDesc": "Gagne du Bonus de Dégâts et de la Vulnérabilité"
+        },
+        {
+          "abilityID": 979701,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9798,
+      "name": "Épine d’Avidité",
+      "desc": "Tous les 3 tours, inflige 2 [RoseThorn] aux ennemis (ou Parties) avec [Laceration].\nSi tous les ennemis (ou toutes les Parties) ont [Laceration], inflige 4 [RoseThorn].",
+      "simpleDesc": [
+        {
+          "abilityID": 9798,
+          "simpleDesc": "Inflige Épine Gourmande (貪食棘)"
+        },
+        {
+          "abilityID": 979801,
+          "simpleDesc": "Inflige Épine Gourmande (貪食棘)"
+        }
+      ]
+    }
+  ]
+}

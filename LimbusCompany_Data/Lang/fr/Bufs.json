@@ -2605,7 +2605,7 @@
     {
       "id": "FireBulletPropellant",
       "name": "Munition Propulsive Calcinante",
-      "desc": "- Capacité Max : 15\n- Munition Unique\n- Dépensé par certaines Capacités\n- Compte comme un “Munition”",
+      "desc": "- Capacité Max : 15\n- Munition Unique\n- Dépensé par certaines Capacités",
       "summary": "",
       "undefined": "-"
     },
@@ -2649,6 +2649,20 @@
       "name": "Surchauffe",
       "desc": "- Perd cet effet lorsque cette unité gagne Cartouche de Marque du Tigre Sauvage\n- +2 de Vitesse Min & Max\n- Les Capacités Offensives de Base perdent (nombre cumulé de Cartouches de Marque du Tigre et de Marque du Tigre Sauvage dépensées / 2) de Puissance de Duel (10 max) ; cependant, gagne les effets suivants (cumulatifs) :\n· Cartouches cumulatives dépensées : {0}\n· 8 Cartouches dépensées ou plus : gagne 1 Protection tous les 10% de PV manquants sur soi au Début du Tour (5 max)\n· 14 Cartouches dépensées ou plus : en Duel Perdu, les Pièces Incassables des Capacités Offensives de Base de cette unité infligent +(75 + pourcentage de PV manquant sur soi)% de dégâts (150% max)\n· 20 Cartouches dépensées ou plus : inflige +(différence de pourcentage de PV)% de dégâts contre les cibles avec plus de pourcentage de PV restant que cette unité (50% max ; exclut les Capacités E.G.O.)",
       "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "RoseThorn",
+      "name": "Épine Gourmande (貪食棘)",
+      "desc": "Instance max : 9\n\nFin du Tour : gagne du Compte de Saignement égal à la Réson. de Luxure, puis perd 1 Épine Gourmande (貪食棘). (Gain de Compte de Saignement max : 5)\n\nTant que cette unité a cet effet, si elle gagne de l’Intensité de Saignement supérieure à 99, augmente le Festin Sanglant de l’Intensité de Saignement en excès ; puis, gagne du Malus de Niveau Défensif au prochain tour égal à l’augmentation de Festin Sanglant (Gain de Malux de Niveau Défensif max : 5)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "FellBulletPersonality",
+      "name": "Balle Tombée",
+      "desc": "Instance max : 1\n+3% de dégâts en Touche Critique par Souvenir Déchiré (18% max)\nEn Touche, inflige 1 Saignement (3 par tour)\nEn Tuant, gagne 3 Calme et +2 de Compte de Calme (2 fois par tour)\nExpire à la Fin du Tour",
+      "summary": "Inflige plus de dégâts Critiques, inflige plus de Saignement",
       "undefined": "-"
     }
   ]
