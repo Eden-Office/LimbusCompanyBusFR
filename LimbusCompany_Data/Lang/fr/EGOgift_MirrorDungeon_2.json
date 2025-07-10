@@ -14,7 +14,7 @@
     {
       "id": 9158,
       "name": "Flamme Dérobée",
-      "desc": "Début de l’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent de la [Combustion] ou une “Brûlure Unique”. (Excepté les Capacités E.G.O., ne compte que les Identités sur le terrain au Début de l’Affrontement)\n\nEn Touche avec une Capacité (inclut les Capacités E.G.O.) : si la cible a 3 de Compte de [Combustion] ou plus, active [Combustion] une fois sur la cible. (La cible perd 1 de Compte de [Combustion] ; s’active une fois par Capacité)\n\nFin du Tour : cibles avec 3 de Compte de [Combustion] ou plus activent [Combustion] une fois de plus (la cible perd 1 de Compte de [Combustion])\n\nSi la cible avec [Combustion] est vaincue (pour les Anomalies, lorsque le Noyau est vaincu), inflige sa Intensité de [Combustion] restante à l’un des ennemis avec le moins d’Intensité de [Combustion] au prochain Début de Tour.\n\nDébut du Tour : pour ce tour, inflige 4 [AttackDown] aux ennemis avec [Combustion]\n\nSi une cible avec [Combustion] est vaincue, au prochain Début de Tour, (Intensité de [Combustion] de l’ennemi vaincu / 15) alliés avec des Capacités qui infligent [Combustion] gagnent 2 [AttackDmgUp]. (une fois par tour)",
+      "desc": "Début du Tour : ce Don s’active lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent de la [Combustion] ou une “Brûlure Unique”. (Excepté les Capacités E.G.O., ne compte que les Identités sur le terrain)\n\nEn Touche avec une Capacité (inclut les Capacités E.G.O.) : si la cible a 3 de Compte de [Combustion] ou plus, active [Combustion] une fois sur la cible. (La cible perd 1 de Compte de [Combustion] ; s’active une fois par Capacité)\n\nFin du Tour : cibles avec 3 de Compte de [Combustion] ou plus activent [Combustion] une fois de plus (la cible perd 1 de Compte de [Combustion])\n\nSi la cible avec [Combustion] est vaincue (pour les Anomalies, lorsque le Noyau est vaincu), inflige sa Intensité de [Combustion] restante à l’un des ennemis avec le moins d’Intensité de [Combustion] au prochain Début de Tour.\n\nDébut du Tour : pour ce tour, inflige 4 [AttackDown] aux ennemis avec [Combustion]\n\nSi une cible avec [Combustion] est vaincue, au prochain Début de Tour, (Intensité de [Combustion] de l’ennemi vaincu / 15) alliés avec des Capacités qui infligent [Combustion] gagnent 2 [AttackDmgUp]. (une fois par tour)",
       "simpleDesc": [
         {
           "abilityID": 9158,
@@ -41,7 +41,7 @@
     {
       "id": 9160,
       "name": "Sac de Sang Déchiré",
-      "desc": "En\u200B Duel Gagné allié : active le [Laceration] ennemi une fois (3 fois par tour)",
+      "desc": "En Duel Gagné allié : active le [Laceration] ennemi une fois (3 fois par tour)",
       "simpleDesc": [
         {
           "abilityID": 9160,
@@ -51,12 +51,12 @@
     },
     {
       "id": 9162,
-      "name": "Hemorrhagic Shock",
-      "desc": "Début de l’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent du [Laceration] ou un “Saignement Unique”. (Excepté les Capacités E.G.O., ne compte que les Identités sur le terrain au Début de l’Affrontement)\n\nEn\u200B Duel Gagné allié : active le [Laceration] ennemi une fois. (une fois par tour pour chaque allié)\n\nLes ennemis peuvent être Déséquilibrés par Dégâts de [Laceration] ; si un ennemi est Déséquilibré à cause de dégâts de [Laceration] au milieu d’un Duel, active [Laceration] (# de Pièces ennemies restantes) fois\n\nSi tous les ennemis ont [Laceration], ils perdent 2 Niveaux Défensifs. À la Fin du Tour, inflige (# d’activations de [Laceration] * 2) de [DefenseDown] (20 max)\n\nEn infligeant de l’Intensité de [Laceration] ou un “Saignement Unique” avec des effets de Capacité, inflige 3 d’Intensité de [Laceration] et +1 de Compte de [Laceration] sur la cible",
+      "name": "Choc Hémorragique",
+      "desc": "Début du Tour : ce Don s’active lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent du [Laceration] ou un “Saignement Unique”. (Excepté les Capacités E.G.O., ne compte que les Identités sur le terrain)\n\nEn Duel Gagné allié : active le [Laceration] ennemi une fois. (une fois par tour pour chaque allié)\n\nLes ennemis peuvent être Déséquilibrés par Dégâts de [Laceration] ; si un ennemi est Déséquilibré à cause de dégâts de [Laceration] au milieu d’un Duel, active [Laceration] (# de Pièces ennemies restantes) fois\n\nSi tous les ennemis ont [Laceration], ils perdent 2 Niveaux Défensifs. À la Fin du Tour, inflige (# d’activations de [Laceration] * 2) [DefenseDown] au prochain tour (20 max)\n\nEn infligeant de l’Intensité de [Laceration] ou un “Saignement Unique” avec des effets de Capacité, inflige 3 d’Intensité de [Laceration] et +1 de Compte de [Laceration] sur la cible",
       "simpleDesc": [
         {
           "abilityID": 9162,
-          "simpleDesc": "En\u200B Duel Gagné, active Saignement sur la cible une fois"
+          "simpleDesc": "En Duel Gagné, active Saignement sur la cible une fois"
         },
         {
           "abilityID": 91621,
@@ -105,7 +105,7 @@
     {
       "id": 9166,
       "name": "Épicentre",
-      "desc": "Début de l’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent de l’Intensité ou du Compte de [Vibration]. (Excepté les Capacités E.G.O., ne compte que les Identités sur le terrain au Début de l’Affrontement)\n(Si une Identité n’a que des Capacités Offensives qui gagnent du Compte de [Vibration] sur soi, ce Don E.G.O. ne s’active pas pour elle)\n\nEn gagnant un Duel avec une Capacité qui a consommé du Compte de [Vibration] sur soi : si la cible n’a pas de [Vibration], inflige +3 de Compte de [Vibration]\n\nDébut du Tour : gagne +(Compte de [Vibration] sur soi / 5) de Puissance de Duel (3 max)\n\nEn utilisant une Capacité qui consomme du Compte de [Vibration] sur soi : si la cible est vaincue ou Déséquilibrée, gagne +(Compte de [Vibration] consommé / 2) de Compte de [Vibration] (une fois par Capacité)",
+      "desc": "Début du Tour : ce Don s’active lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent de l’Intensité ou du Compte de [Vibration]. (Excepté les Capacités E.G.O., ne compte que les Identités sur le terrain)\n(Si une Identité n’a que des Capacités Offensives qui gagnent du Compte de [Vibration] sur soi, ce Don E.G.O. ne s’active pas pour elle)\n\nEn gagnant un Duel avec une Capacité qui a consommé du Compte de [Vibration] sur soi : si la cible n’a pas de [Vibration], inflige +3 de Compte de [Vibration]\n\nDébut du Tour : gagne +(Compte de [Vibration] sur soi / 5) de Puissance de Duel (3 max)\n\nEn utilisant une Capacité qui consomme du Compte de [Vibration] sur soi : si la cible est vaincue ou Déséquilibrée, gagne +(Compte de [Vibration] consommé / 2) de Compte de [Vibration] (une fois par Capacité)",
       "simpleDesc": [
         {
           "abilityID": 9166,
@@ -124,7 +124,7 @@
     {
       "id": 9167,
       "name": "Cloche-Omnivibro-Octovecti",
-      "desc": "Début de l’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent de l’Intensité ou du Compte de [Vibration] ou un “Tremblement Unique”. (Excepté les Capacités E.G.O., ne compte que les Identités sur le terrain au Début de l’Affrontement)\n(Si une Identité n’a que des Capacités Offensives qui gagnent du Compte de [Vibration] sur soi, ce Don E.G.O. ne s’active pas pour elle)\n\nEn gagnant un Duel avec une Capacité qui inflige de l’Intensité ou du Compte de [Vibration] ou consomme du Compte de [Vibration] sur soi : inflige (# de Pièces restantes) d’Intensité de [Vibration] sur la cible ; si la cible n’a pas de [Vibration], inflige +3 de Compte de [Vibration]\n\nDébut du Tour : gagne (1 + (Compte de [Vibration] sur soi / 5)) de [ParryingResultUp]. (3 max)\n\nEn utilisant une Capacité qui consomme du Compte de [Vibration] sur soi : en vainquant ou Déséquilibrant une cible, gagne (Compte de [Vibration] consommé / 2) de Compte de [Vibration] (une fois par Capacité)\n\nCapacités qui consomment du Compte de [Vibration] sur soi infligent +([Vibration] consommé sur soi + Intensité de [Vibration] sur l’ennemi + 5)% de dégâts (à l’exception des Capacités E.G.O. ; 50% max)",
+      "desc": "Début du Tour : ce Don s’active lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent de l’Intensité ou du Compte de [Vibration] ou un “Tremblement Unique”. (Excepté les Capacités E.G.O., ne compte que les Identités sur le terrain)\n(Si une Identité n’a que des Capacités Offensives qui gagnent du Compte de [Vibration] sur soi, ce Don E.G.O. ne s’active pas pour elle)\n\nEn gagnant un Duel avec une Capacité qui inflige de l’Intensité ou du Compte de [Vibration] ou consomme du Compte de [Vibration] sur soi : inflige (# de Pièces restantes) d’Intensité de [Vibration] sur la cible ; si la cible n’a pas de [Vibration], inflige +3 de Compte de [Vibration]\n\nDébut du Tour : gagne (1 + (Compte de [Vibration] sur soi / 5)) de [ParryingResultUp]. (3 max)\n\nEn utilisant une Capacité qui consomme du Compte de [Vibration] sur soi : en vainquant ou Déséquilibrant une cible, gagne (Compte de [Vibration] consommé / 2) de Compte de [Vibration] (une fois par Capacité)\n\nCapacités qui consomment du Compte de [Vibration] sur soi infligent +([Vibration] consommé sur soi + Intensité de [Vibration] sur l’ennemi + 5)% de dégâts (à l’exception des Capacités E.G.O. ; 50% max)",
       "simpleDesc": [
         {
           "abilityID": 9167,
@@ -158,7 +158,7 @@
     {
       "id": 9170,
       "name": "Effigie Lugubre",
-      "desc": "Début de l’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent de l’Intensité ou du Compte de [Burst]. (Excepté les Capacités E.G.O., ne compte que les Identités sur le terrain au Début de l’Affrontement)\nLes effets de [Burst] infligent +100% de dégâts contre les Boucliers ennemis\nSi la cible a moins de 15 d’Intensité de [Burst], inflige 2 de Puissance supplémentaires en infligeant de l’Intensité de [Burst]\n\nSi [Burst] ne peut pas être appliqué suite à des effets de Capacités, gagne +1 de Puissance de Pièce à la place",
+      "desc": "Début du Tour : ce Don s’active lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent de l’Intensité ou du Compte de [Burst]. (Excepté les Capacités E.G.O., ne compte que les Identités sur le terrain)\nLes effets de [Burst] infligent +100% de dégâts contre les Boucliers ennemis\nSi la cible a moins de 15 d’Intensité de [Burst], inflige 2 de Puissance supplémentaires en infligeant de l’Intensité de [Burst]\n\nSi [Burst] ne peut pas être appliqué suite à des effets de Capacités, gagne +1 de Puissance de Pièce à la place",
       "simpleDesc": [
         {
           "abilityID": 9170,
@@ -177,7 +177,7 @@
     {
       "id": 9171,
       "name": "Ruine",
-      "desc": "Début de l’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent de l’Intensité ou du Compte de [Burst]. (Excepté les Capacités E.G.O., ne compte que les Identités sur le terrain au Début de l’Affrontement)\n\nLes effets de [Burst] infligent +150% de dégâts contre les Boucliers ennemis\n\nDébut du Tour : les ennemis ou Parties avec [Burst] perdent (3 + (Intensité de [Burst] / 2)) Niveaux Offensifs et Niveaux Défensifs. (6 max)\n\nEn infligeant de l’Intensité de [Burst] avec des effets de Capacité, inflige 2 d’Intensité de [Burst] et +1 de Compte de [Burst] sur la cible. Si la cible a moins de 15 d’Intensité de [Burst], inflige 2 d’Intensité de [Burst] supplémentaires.\n\nSi [Burst] ne peut pas être appliqué suite à des effets de Capacités, gagne +(4 / # de Pièces) de Puissance de Pièce à la place",
+      "desc": "Début du Tour : ce Don s’active lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent de l’Intensité ou du Compte de [Burst]. (Excepté les Capacités E.G.O., ne compte que les Identités sur le terrain)\n\nLes effets de [Burst] infligent +150% de dégâts contre les Boucliers ennemis\n\nDébut du Tour : les ennemis ou Parties avec [Burst] perdent (3 + (Intensité de [Burst] / 2)) Niveaux Offensifs et Niveaux Défensifs. (6 max)\n\nEn infligeant de l’Intensité de [Burst] avec des effets de Capacité, inflige 2 d’Intensité de [Burst] et +1 de Compte de [Burst] sur la cible. Si la cible a moins de 15 d’Intensité de [Burst], inflige 2 d’Intensité de [Burst] supplémentaires.\n\n+1 de Puissance de Pièce pour les Capacités à Pièces Positives qui infligent de l’Intensité ou du Compte de [Burst] ou une “Déchirure Unique”\n+(4 / # de Pièces) de Puissance de Base (1 min ; arrondi à l’inférieur) pour les Capacités à Pièces Négatives qui infligent de l’Intensité ou du Compte de [Burst] ou une “Déchirure Unique”",
       "simpleDesc": [
         {
           "abilityID": 9171,
@@ -193,7 +193,7 @@
         },
         {
           "abilityID": 91713,
-          "simpleDesc": "Si [Burst] ne peut pas être appliqué suite à des effets de Capacités, gagne +(4 / # de Pièces) de Puissance de Pièce à la place"
+          "simpleDesc": "Gagne de la Puissance de Pièce"
         }
       ]
     },
@@ -222,7 +222,7 @@
     {
       "id": 9175,
       "name": "Globe Déferlant",
-      "desc": "Début de l’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent de l’Intensité ou du Compte de [Sinking] ou une “Lourdeur Unique”. (Excepté les Capacités E.G.O., ne compte que les Identités sur le terrain au Début de l’Affrontement)\n\nEn utilisant une Capacité Offensive de Base, si l’ennemi a 5 d’Intensité de [Sinking] ou plus, regagne (Intensité de [Sinking] sur la cible / 10) PSM (5 max)\n\nFin du Tour : prochain tour, tous les alliés gagnent du [AttackUp] égal au nombre d’ennemis avec -45 PSM (3 max)",
+      "desc": "Début du Tour : ce Don s’active lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent de l’Intensité ou du Compte de [Sinking] ou une “Lourdeur Unique”. (Excepté les Capacités E.G.O., ne compte que les Identités sur le terrain)\n\nEn utilisant une Capacité Offensive de Base, si l’ennemi a 5 d’Intensité de [Sinking] ou plus, regagne (Intensité de [Sinking] sur la cible / 10) PSM (5 max)\n\nFin du Tour : prochain tour, tous les alliés gagnent du [AttackUp] égal au nombre d’ennemis avec -45 PSM (3 max)",
       "simpleDesc": [
         {
           "abilityID": 9175,
@@ -237,11 +237,11 @@
     {
       "id": 9176,
       "name": "Vague Imminente",
-      "desc": "Début de l’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent de l’Intensité ou du Compte de [Sinking] ou une “Lourdeur Unique”. (Excepté les Capacités E.G.O., ne compte que les Identités sur le terrain au Début de l’Affrontement)\n\nEn touchant et infligeant des dégâts de PV à un ennemi avec une Capacité qui inflige de l’Intensité ou du Compte de [Sinking] ou une “Lourdeur Unique”, inflige 4 d’Intensité de [Sinking] et +3 de Compte de [Sinking] à la Fin du Tour (une fois par tour pour chaque ennemi)\nDébut du Combat : en activant une Réson.-A de Peine ou de Luxure, inflige 3 [Sinking] et +3 de Compte de [Sinking] à tous les ennemis (pour les Anomalies, une Partie aléatoire)\n\nAprès avoir utilisé une Capacité Offensive de Base, si la cible a 10 d’Intensité de [Sinking] ou plus, regagne (Intensité de [Sinking] sur la cible / 10) PSM (5 max) et inflige la même quantité en [DefenseDown] à la cible (5 max ; une fois par tour pour chaque ennemi)\n\nFin du Tour : tous les alliés gagnent du [AttackUp] égal au nombre d’ennemi avec -45 PSM ou sans PSM au prochain tour (6 max)\n\nEn activant l’effet [Sinking] (inclut “Lourdeur Unique”) sur la cible avec un effet En Touche d’une Capacité Offensive de Base qui inflige ou gagne de l’Intensité ou du Compte de [Sinking] ou une “Lourdeur Unique”, regagne 5 PSM à la Fin du Tour (2 fois par tour par Identité)\nSi l’unité était à 45 PSM au Début du Tour, l’effet change pour devenir : en touchant et activant l’effet [Sinking] (inclut “Lourdeur Unique”) sur la cible avec une Capacité Offensive de Base, inflige +3 de Compte de [Sinking] à l’ennemi ciblé (2 fois par tour par Identité)",
+      "desc": "Début du Tour : ce Don s’active lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent de l’Intensité ou du Compte de [Sinking] ou une “Lourdeur Unique”. (Excepté les Capacités E.G.O., ne compte que les Identités sur le terrain\n\nDébut du Tour : inflige 1 [WaveSinking] à un ennemi aléatoire\n\nLorsqu’un ennemi avec [WaveSinking] est tué, au prochain Début de Tour, transfère l’Instance de [WaveSinking] de cet ennemi sur un ennemi avec le plus d’Instance de [WaveSinking] mais pas le max\n\nEn touchant et infligeant des dégâts de PV à un ennemi avec une Capacité qui inflige de l’Intensité ou du Compte de [Sinking] ou une “Lourdeur Unique”, inflige 4 d’Intensité de [Sinking] et +3 de Compte de [Sinking] à la Fin du Tour (une fois par tour pour chaque ennemi)\nDébut du Combat : en activant une Réson.-A de Peine ou de Luxure, inflige 3 [Sinking] et +3 de Compte [Sinking] à tous les ennemis (pour les Anomalies, une Partie aléatoire)\n\nAprès avoir utilisé une Capacité Offensive de base, si la cible a 10 d’Intensité de [Sinking] ou plus, regagne (Intensité de [Sinking] sur la cible / 10) PSM (5 max) et inflige la même quantité en [DefenseDown] à la cible (5 max ; une fois par tour pour chaque ennemi)\n\nFin du Tour : tous les alliés gagnent autant de [AttackUp] que d’ennemis avec -45 PSM ou sans PSM au prochain tour (6 max)\n\n+1 de Puissance de Pièce pour les Capacités à Pièces Positives qui infligent de l’Intensité ou du Compte de [Sinking] ou une “Lourdeur Unique”\n+(4 / # de Pièces) de Puissance de Base (1 min ; arrondi à l’inférieur) pour les Capacités à Pièces Négatives qui infligent de l’Intensité ou du Compte de [Sinking] ou une “Lourdeur Unique”\n\nEn activant l’effet [Sinking] (inclut “Lourdeur Unique”) sur la cible avec un effet En Touche d’une Capacité Offensive de Base qui inflige ou gagne de l’Intensité ou du Compte de [Sinking] ou une “Lourdeur Unique”., regagne 5 PSM à la Fin du Tour (2 fois par tour par Identité)\nSi l’unité était à 45 PSM au Début du Tour, l’effet devient le suivant : en touchant et activant l’effet [Sinking] (inclut “Lourdeur Unique”) sur la cible avec une Capacité Offensive de Base, inflige +3 de Compte de [Sinking] à l’ennemi ciblé (2 fois par tour par Identité)",
       "simpleDesc": [
         {
           "abilityID": 9176,
-          "simpleDesc": "Inflige de l’Intensité et du Compte de Lourdeur"
+          "simpleDesc": "Inflige de la Lourdeur"
         },
         {
           "abilityID": 91761,
@@ -249,11 +249,31 @@
         },
         {
           "abilityID": 91762,
-          "simpleDesc": "Gagne du Bonus de Niveau Offensif"
+          "simpleDesc": "Applique du Bonus de Niveau Offensif"
         },
         {
           "abilityID": 91763,
-          "simpleDesc": "Inflige du Compte de Lourdeur"
+          "simpleDesc": "Regagne des PSM"
+        },
+        {
+          "abilityID": 91764,
+          "simpleDesc": "Inflige de la Lourdeur"
+        },
+        {
+          "abilityID": 91765,
+          "simpleDesc": "Gagne de la Puissance de Pièce"
+        },
+        {
+          "abilityID": 91766,
+          "simpleDesc": "Gagne de la Puissance de Base"
+        },
+        {
+          "abilityID": 91767,
+          "simpleDesc": "Inflige Reflux"
+        },
+        {
+          "abilityID": 91768,
+          "simpleDesc": "Inflige Reflux"
         }
       ]
     },
@@ -271,7 +291,7 @@
     {
       "id": 9180,
       "name": "Fût de Spiritueux",
-      "desc": "Début de l’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent ou gagnent de l’Intensité ou du Compte de [Breath]. (Excepté les Capacités E.G.O., ne compte que les Identités sur le terrain au Début de l’Affrontement)\n\nFin du Tour : si un allié a plus de 20 d’Intensité de [Breath] sur soi, l’allié consomme 1 d’Intensité de [Breath] pour gagner 1 de Compte de [Breath]\n\nFin du Tour : 1 allié avec le plus d’Intensité de [Breath] et 1 allié avec le plus de Compte de [Breath] gagnent 2 [Agility] et 1 [AttackUp] (peut s’activer en même temps sur la même Identité)\n\nEn gagnant de l’Intensité de [Breath] avec des effets de Capacité, gagne 2 d’Intensité de [Breath] et +2 de Compte de [Breath] supplémentaires. Si la somme d’Intensité et de Compte de [Breath] est inférieure à 20, gagne 3 d’Intensité de [Breath] et +3 de Compte de [Breath] à la place.\n\nFin du Combat : à moins de 40 d’Intensité de [Breath], consomme 15 d’Intensité de [Breath] pour [Discard]r 1 Capacité du plus bas rang dans tous les Emplacements de Capacité de cette unité (une fois par tour pour chaque personnage)",
+      "desc": "Début du Tour : ce Don s’active lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent ou gagnent de l’Intensité ou du Compte de [Breath]. (Excepté les Capacités E.G.O., ne compte que les Identités sur le terrain)\n\nFin du Tour : si un allié a plus de 20 d’Intensité de [Breath] sur soi, l’allié consomme 1 d’Intensité de [Breath] pour gagner 1 de Compte de [Breath]\n\nFin du Tour : 1 allié avec le plus d’Intensité de [Breath] et 1 allié avec le plus de Compte de [Breath] gagnent 2 [Agility] et 1 [AttackUp] au prochain tour (peut s’activer en même temps sur la même Identité)\n\nEn gagnant de l’Intensité de [Breath] avec des effets de Capacité, gagne 2 d’Intensité de [Breath] et +2 de Compte de [Breath] supplémentaires. Si la somme d’Intensité et de Compte de [Breath] est inférieure à 20, gagne 3 d’Intensité de [Breath] et +3 de Compte de [Breath] à la place.\n\nFin du Combat : à moins de 40 d’Intensité de [Breath], consomme 15 d’Intensité de [Breath] pour [Discard]r 1 Capacité du plus bas rang dans tous les Emplacements de Capacité de cette unité (une fois par tour pour chaque personnage)",
       "simpleDesc": [
         {
           "abilityID": 9180,
@@ -305,7 +325,7 @@
     {
       "id": 9183,
       "name": "Isolant",
-      "desc": "Début de l’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités Offensives qui gagnent du Compte de [Charge] ou une “Charge Unique”. (Excepté les Capacités E.G.O., ne compte que les Identités sur le terrain au Début de l’Affrontement)\n\nAprès l’Attaque avec une Capacité qui consomme du Compte de [Charge] sur soi : si la cible est vaincue, gagne (Compte de [Charge] consommé par la Capacité / 3) de Compte de [Charge]\n\nDébut du Tour : à moins de 3 de Compte de [Charge], gagne +3 de Compte de [Charge]\nDébut du Tour : à 3 de Compte de [Charge] ou plus, gagne 1 [AttackDmgUp]",
+      "desc": "Début du Tour : ce Don s’active lorsque 5 Identités ou plus ont des Capacités Offensives qui gagnent du Compte de [Charge] ou une “Charge Unique”. (Excepté les Capacités E.G.O., ne compte que les Identités sur le terrain)\n\nAprès l’Attaque avec une Capacité qui consomme du Compte de [Charge] sur soi : si la cible est vaincue, gagne (Compte de [Charge] consommé par la Capacité / 3) de Compte de [Charge]\n\nDébut du Tour : à moins de 3 de Compte de [Charge], gagne +3 de Compte de [Charge]\nDébut du Tour : à 3 de Compte de [Charge] ou plus, gagne 1 [AttackDmgUp]",
       "simpleDesc": [
         {
           "abilityID": 9183,
@@ -320,7 +340,7 @@
     {
       "id": 9184,
       "name": "Machine à Mouvement Perpétuel T-5",
-      "desc": "Début de l’Affrontement : ce Don s’active lorsque 5 Identités ou plus ont des Capacités Offensives qui gagnent du Compte de [Charge] ou une “Charge Unique”. (Excepté les Capacités E.G.O., ne compte que les Identités sur le terrain au Début de l’Affrontement)\n\nDébut du Tour : à moins de 3 de Compte de [Charge], gagne +3 de Compte de [Charge].\nDébut du Tour : à 5 de Compte de [Charge] ou plus, gagne +2 de Vitesse min/max, 1 [Enhancement] et 2 [AttackDmgUp].\n\nAprès l’Attaque avec une Capacité qui a consommé du Compte de [Charge] sur soi : si la cible est vaincue, gagne +(Compte de [Charge] consommé par la Capacité / 3) de Compte de [Charge] ; au prochain tour, gagne 1 [PlusCoinValueUp]\n\nAprès l’Attaque avec une Capacité 3 qui a consommé du Compte de [Charge] sur soi : si la cible est vaincue, ou si l’allié qui a utilisé la Capacité est à 3 [Charge] ou plus, ils ajoutent 1 Capacité 3 à la liste des Capacités du prochain tour à venir. (une fois par tour pour chaque allié ; “Charge Unique” n’interagit pas avec cet effet)",
+      "desc": "Début du Tour : ce Don s’active lorsque 5 Identités ou plus ont des Capacités Offensives qui gagnent du Compte de [Charge] ou une “Charge Unique”. (Excepté les Capacités E.G.O., ne compte que les Identités sur le terrain)\n\nDébut du Tour : à moins de 3 de Compte de [Charge], gagne +3 de Compte de [Charge].\nDébut du Tour : à 5 de Compte de [Charge] ou plus, gagne +2 de Vitesse min/max, 1 [Enhancement] et 2 [AttackDmgUp].\n\nTous les alliés sur le terrain gagnent [ShareCharge] au Début du Tour.\n\nAprès l’Attaque avec une Capacité 3 qui consomme ou gagne du Compte de [Charge] sur soi : si la cible est vaincue, ou si l’allié qui a utilisé la Capacité est à 3 [Charge] ou plus, ils ajoutent 1 Capacité 3 à la liste des Capacités du prochain tour à venir. (une fois par tour pour chaque allié)",
       "simpleDesc": [
         {
           "abilityID": 9184,

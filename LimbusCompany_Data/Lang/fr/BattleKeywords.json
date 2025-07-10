@@ -2111,10 +2111,31 @@
       "undefined": "-"
     },
     {
+      "id": "ChoSuperCharge",
+      "name": "Superbatterie à Lumière Proche",
+      "desc": "- Instance max : 100\n- En consommant du Compte de Charge, ajoute la quantité consommée à l’Instance de ce buff\n- +10 au Plafond de Compte de Charge max\n- Gagne 1 de Compte de Charge lorsque des alliés gagnent de l’Intensité ou du Compte de Charge\n- Lorsque cette unité consomme du Compte de Charge avec ses Capacités, consomme la même quantité de Compte de Charge 1 nouvelle fois (lorsqu’il n’y a pas assez de Compte de Charge, en consomme autant que disponible)\n- Inflige +10% de dégâts toutes les 10 Instances\n- Les ennemis gagnent +0.1 de Résistance contre les attaques de cette unité toutes les 20 Instances (+0.5 de Résist max ; ne s’active pas sur les ennemis Déséquilibrés)\n- Lorsque l’Identité avec cet effet meurt, le buff est transféré à l’allié en deuxième position de cette unité dans l’ordre de Déploiement. Les Instances sont aussi transférées.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "ShareCharge",
+      "name": "Circuit d’Auto-Résonance",
+      "desc": "Somme Totale du Compte de Charge actuellement possédé par tous les alliés\n\nCompte de Charge cumulé consommé par les alliés : {0}\n\nEn Touche avec une Capacité : inflige +(somme du Compte de Charge de tous les alliés / 3)% de dégâts\nTous les alliés gagnent 1 Bonus de Niveau Offensif tous les 100 de Compte de Charge cumulés consommés par des alliés (30 max)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "WaveSinking",
+      "name": "Reflux",
+      "desc": "- Instance max : 3\nLorsque touché, gagne autant d’Intensité de Lourdeur que d’Instance\n\nFin du Tour : si cette unité a -30 PSM ou moins, active les effets suivants (pour les unités sans PSM, s’active à 60 d’Intensité de Lourdeur ou plus)\n- Subit (Intensité de Lourdeur sur soi * Instance) dégâts de Peine\n- Inflige 1 Reflux à 2 autres cibles avec le moins de PV (pour les Anomalies, les Parties) ; puis, inflige (Intensité de Lourdeur * Instance) dégâts de Peine aux deux cibles, respectivement\nSi l’unité avec Reflux meurt, transfère ses Instances de Reflux à son allié avec le plus d’Instances de Reflux",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
       "id": "FellBulletPersonality",
       "name": "Balle Tombée",
       "desc": "Instance max : 1\n+3% de dégâts en Touche Critique par Souvenir Déchiré (18% max)\nEn Touche, inflige 1 Saignement (3 par tour)\nEn Tuant, gagne 3 Calme et +2 de Compte de Calme (2 fois par tour)\nExpire à la Fin du Tour",
-      "summary": "",
+      "summary": "Inflige plus de dégâts Critiques, inflige plus de Saignement",
       "undefined": "-"
     }
   ]
