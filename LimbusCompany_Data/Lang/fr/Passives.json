@@ -2155,19 +2155,19 @@
     {
       "id": 1081221,
       "name": "Détermination Rémanente [餘桓]",
-      "desc": "Si cette unité est vaincue dans un Affrontement, applique [CheerUpXichun] à l’Identité Substituante suivante (l’Unité de Renfort la plus rapide dans l’ordre de Déploiement) au prochain tour\n\nEn Combats Chaînés, si cette unité est une unité de Renfort ou a Battu en Retraite, active les effets suivants :\n- Début du Combat : parmi les Identités qui 1) sont à 50% de PV ou moins, et 2) ont utilisé une Capacité Défensive, choisi l’Identité avec l’ordre de Déploiement le plus rapide. À la Fin du Tour, cette Identité se remet de Déséquilibre causé par des dégâts et effectue un [RetreatForCommon] (2 fois par Affrontement)",
+      "desc": "Si cette unité est vaincue dans un Affrontement, applique [CheerUpXichun] à l’Identité Substituante suivante (l’Unité de Renfort la plus rapide dans l’ordre de Déploiement) au prochain tour\n\nEn Combats Chaînés, si cette unité est une unité de Renfort ou a Battu en Retraite, active les effets suivants :\n- Début du Combat : parmi les Identités qui 1) sont à 50% de PV ou moins, et 2) ont utilisé une Capacité Défensive, choisi l’Identité le plus tôt dans l’ordre de Déploiement. À la Fin du Tour, cette Identité se remet de Déséquilibre causé par des dégâts et effectue un [RetreatForCommon] (2 fois par Affrontement)",
       "summary": "Fin du Tour : fait Battre en Retraite l’Identité qui, au Début de Combat, a 50% de PV ou moins et a utilisé une Capacité Défensive ce tour"
     },
     {
       "id": 1101301,
       "name": "Tribut de Munition",
-      "desc": "Lorsque l’Identité alliée avec le plus haut ordre de Déploiement parmi ceux utilisant des [Bullet]s finit son attaque, et si son compte actuel de [Bullet] est inférieur à la moitié (arrondi au supérieur), dépense autant de [FireBulletPropellant] sur soi que de compte de [Bullet] total dépensé par l’unité affectée et l’approvisionne d’autant de [Bullet] que de [FireBulletPropellant] que vient de dépenser cette unité. (Peut dépenser jusqu’à 3 munitions) (une fois par Affrontement)\n\n- Si l’Identité receveuse de [Bullet] est une Identité du Pouce d’un plus haut rang, l’approvisionne de 1 [Bullet] supplémentaire\n- Si l’Identité receveuse de [Bullet] a des valeurs séparées pour l’Intensité et le Compte, elles seront approvisionnées aléatoirement.\n- Si l’Intensité et le Compte sont au max, approvisionne celui qui n’est pas au max.",
+      "desc": "Lorsque l’Identité alliée la plus tôt dans l’ordre de Déploiement parmi ceux utilisant des [Bullet]s finit son attaque, et si son compte actuel de [Bullet] est inférieur à la moitié (arrondi au supérieur), dépense autant de [FireBulletPropellant] sur soi que de compte de [Bullet] total dépensé par l’unité affectée et l’approvisionne d’autant de [Bullet] que de [FireBulletPropellant] que vient de dépenser cette unité. (Peut dépenser jusqu’à 3 munitions) (une fois par Affrontement)\n\n- Si l’Identité receveuse de [Bullet] est une Identité du Pouce d’un plus haut rang, l’approvisionne de 1 [Bullet] supplémentaire\n- Si l’Identité receveuse de [Bullet] a des valeurs séparées pour l’Intensité et le Compte, elles seront approvisionnées aléatoirement.\n- Si l’Intensité et le Compte sont au max, approvisionne celui qui n’est pas au max.",
       "summary": ""
     },
     {
       "id": 1101311,
       "name": "Tribut de Munition",
-      "desc": "Lorsque l’Identité alliée avec le plus haut ordre de Déploiement parmi ceux utilisant des [Bullet]s finit son attaque, et si son compte actuel de [Bullet] est inférieur à la moitié (arrondi au supérieur), dépense autant de [FireBulletPropellant] sur soi que de compte de [Bullet] total dépensé par l’unité affectée et l’approvisionne d’autant de [Bullet] que de [FireBulletPropellant] que vient de dépenser cette unité. <style=\"highlight\">(Peut dépenser jusqu’à 5 munitions)</style> (une fois par Affrontement)\n\n- Si l’Identité receveuse de [Bullet] est une Identité du Pouce d’un plus haut rang, l’approvisionne de 1 [Bullet] supplémentaire\n- Si l’Identité receveuse de [Bullet] a des valeurs séparées pour l’Intensité et le Compte, elles seront approvisionnées aléatoirement.\n- Si l’Intensité et le Compte sont au max, approvisionne celui qui n’est pas au max.",
+      "desc": "Lorsque l’Identité alliée la plus tôt dans l’ordre de Déploiement parmi ceux utilisant des [Bullet]s finit son attaque, et si son compte actuel de [Bullet] est inférieur à la moitié (arrondi au supérieur), dépense autant de [FireBulletPropellant] sur soi que de compte de [Bullet] total dépensé par l’unité affectée et l’approvisionne d’autant de [Bullet] que de [FireBulletPropellant] que vient de dépenser cette unité. <style=\"highlight\">(Peut dépenser jusqu’à 5 munitions)</style> (une fois par Affrontement)\n\n- Si l’Identité receveuse de [Bullet] est une Identité du Pouce d’un plus haut rang, l’approvisionne de 1 [Bullet] supplémentaire\n- Si l’Identité receveuse de [Bullet] a des valeurs séparées pour l’Intensité et le Compte, elles seront approvisionnées aléatoirement.\n- Si l’Intensité et le Compte sont au max, approvisionne celui qui n’est pas au max.",
       "summary": ""
     },
     {
@@ -2179,7 +2179,7 @@
     {
       "id": 1101321,
       "name": "Rechargeur",
-      "desc": "Lorsque l’Identité alliée avec le plus haut ordre de Déploiement parmi ceux utilisant des [Bullet]s finit son attaque, et si son compte actuel de [Bullet] est inférieur à la moitié (arrondi au supérieur), regagne la moitié de sa capacité de [Bullet] maximale (arrondi au supérieur ; une fois par Affrontement ; [Bullet] regagnée max : 5)\n\n- Si l’Identité receveuse de [Bullet] a des valeurs séparées d’Intensité et de Compte, elle les gagnera aléatoirement\n- Si l’Intensité ou le Compte de [Bullet] sont au max, gagne celui qui n’est pas au max\n- Cet effet ne s’active pas s’il n’y a pas d’Identité qui utilise [Bullet]",
+      "desc": "Lorsque l’Identité alliée la plus tôt dans l’ordre de Déploiement parmi ceux utilisant des [Bullet]s finit son attaque, et si son compte actuel de [Bullet] est inférieur à la moitié (arrondi au supérieur), regagne la moitié de sa capacité de [Bullet] maximale (arrondi au supérieur ; une fois par Affrontement ; [Bullet] regagnée max : 5)\n\n- Si l’Identité receveuse de [Bullet] a des valeurs séparées d’Intensité et de Compte, elle les gagnera aléatoirement\n- Si l’Intensité ou le Compte de [Bullet] sont au max, gagne celui qui n’est pas au max\n- Cet effet ne s’active pas s’il n’y a pas d’Identité qui utilise [Bullet]",
       "summary": ""
     },
     {
@@ -2214,8 +2214,8 @@
     },
     {
       "id": 1011301,
-      "name": "Balle Tombée",
-      "desc": "Si cette unité a tué une unité alliée avec son attaque, gagne [FellBulletPersonality] au prochain tour (inclut les “Érosion E.G.O.” et les attaques contre les alliés de cette unité)\nSi cette unité utilise son E.G.O. “Balle Tombée” et consomme des [BoseProjektil] : a prochain tour, gagne autant de [BoseProjektil] que de quantité consommée à la fin du dernier tour."
+      "name": "Balle Cruelle",
+      "desc": "Si cette unité a tué une unité alliée avec son attaque, gagne [FellBulletPersonality] au prochain tour (inclut les “Érosion E.G.O.” et les attaques contre les alliés de cette unité)\nSi cette unité utilise son E.G.O. “Balle Cruelle” et consomme des [BoseProjektil] : a prochain tour, gagne autant de [BoseProjektil] que de quantité consommée à la fin du dernier tour."
     },
     {
       "id": 1011302,
@@ -2226,6 +2226,72 @@
       "id": 1011321,
       "name": "Désigner la Cible",
       "desc": "Lorsque l’allié avec la Vitesse la plus lente attaqué un allié : Après l’Attaque, gagne 1 [AttackDmgUp] au prochain tour (2 fois par tour)\n- Si l’allié attaqué est tué par cette attaque, gagne 1 [AttackDmgUp] pour tout l’Affrontement à la place (2 max par Niveau par Identité)\n- Peut donner uniquement jusqu’à 2 [AttackDmgUp] avec l’effet ci-dessus."
+    },
+    {
+      "id": 1031202,
+      "name": "Au Nom de l’Amour et de la Haine - ! ALERTE : SEUIL DE SYNC AVEC L’ÉQUIPEMENT E.G.O. SURPASSÉ !",
+      "desc": "Gagne 1 [ThePowerOfLoveAndHate] chaque fois que cette unité consomme 10 de Compte d’[ThePowerOfLoveAndHate] cumulé dans cet Affrontement\n\nDébut de l’Affrontement : si cette unité ne possède pas [HystericGauge], gagne [HystericGauge]\n\nDébut de l’Affrontement : si cette unité ne possède pas [ThePowerOfLoveAndHate], gagne [ThePowerOfLoveAndHate]\n\nDébut du Tour :\n- À 0 PSM ou plus, gagne [MagicalGirlAppear] et perd [NoVillain]\n- À moins de 0 PSM, gagne [NoVillain] et perd [MagicalGirlAppear]\n\nLes PSM de cette unité ne peuvent pas tomber en-dessous de -40 suite aux effets de perd de PSM des Capacités Offensives de Base de cette unité",
+      "summary": ""
+    },
+    {
+      "id": 1031201,
+      "name": "Magical Girl de l’Amour / Reine de l’Aversion",
+      "desc": "Inflige +2% de dégâts par [ThePowerOfLoveAndHate] (10% max)",
+      "summary": ""
+    },
+    {
+      "id": 1031211,
+      "name": "Magical Girl de l’Amour / Reine de l’Aversion",
+      "desc": "Inflige +2% de dégâts par [ThePowerOfLoveAndHate] (10% max)\nDébut du Combat : gagne 1 [ArcanaQueenOfHate]",
+      "summary": ""
+    },
+    {
+      "id": 1031221,
+      "name": "Aide au Chargement de Pouvoir Magique",
+      "desc": "Si, parmi les alliés qui gagnent du Compte de [Charge] avec leurs Capacités Offensives de Base, 1 allié avec le moins de Compte de [Charge] utilise une Capacité Offensive de Base qui gagne du Compte de [Charge], il gagne +2 de Compte de [Charge] (2 fois par tour)\n- À 0 PSM ou plus : rend ([Charge] de la cible * 2) PV (10 max ; soigne jusqu’à 20 PV par tour)\n- À moins de 0 PSM : rend ([Charge] de la cible) PSM (5 max ; soigne jusqu’à 10 PSM par tour)",
+      "summary": ""
+    },
+    {
+      "id": 1091302,
+      "name": "L’Épée Aiguisée par les Larmes - ! ALERTE : SEUIL DE SYNC AVEC L’ÉQUIPEMENT E.G.O. SURPASSÉ !",
+      "desc": "Début du Tour : à 0 PSM ou plus, gagne [BlessingAlly]\n- Utilise des Capacités à Pièces Positives comme Capacités de Base\n\nDébut du Tour : à moins de 0 PSM, gagne [DespairAlly]\n- Utilise des Capacités à Pièces Négatives comme Capacités de Base\n\nEn gagnant du Compte de [Charge], gagne [BlackTearsAlly] à la place\n- [BlackTearsAlly] n’est pas affecté par l’Intensité de [Charge]",
+      "summary": ""
+    },
+    {
+      "id": 1091303,
+      "name": "Murmures de la Chevaleresse Trahie",
+      "desc": "Les PSM de cette unité ne peuvent pas tomber en-dessous de -40 suite aux effets suivants :\n- effets de perte de PSM sur les Capacités de Base de cette unité\n- effets de perte de PSM des Passives de Support d’unités alliées\n- effets de perte de PSM de [SwordCutwithTear]\n- effets de perte de PSM de mort alliée des “facteurs de Base de diminution de Santé Mentale” de cette unité\n\nDans un Affrontement, lorsque cette unité subit des dégâts faisant tomber ses PSM à -45, maintien les PSM de cette unité à -44 pour ce tour (une fois par Affrontement)\n(※ Cela ne s’applique qu’aux dégâts de PSM ; ne s’applique pas aux changements de PSM ou aux capacités qui consomment des PSM comme les Capacités E.G.O.)",
+      "summary": ""
+    },
+    {
+      "id": 1091304,
+      "name": "Brise, Déchire et Perce",
+      "desc": "Si cette unité a [PenetratingSword] : avant de toucher un ennemi avec une Capacité Offensive de Base, consomme 1 [PenetratingSword] pour infliger 1 [Sinking]\n- Si cette unité a 2 [PenetratingSword] ou plus avant que touche la Pièce Finale de la Capacité Offensive de Base finale de ce tour, les consomme toutes à la place pour les infligeant en [Sinking]\n\nSi cette unité a 3 [SwordCutwithTear] : avant de toucher un ennemi avec la Pièce finale d’une Capacité Offensive de Base, consomme tous [SwordCutwithTear] pour infliger 3 [Sinking] et +3 de Compte de [Sinking] et inflige +50% de dégâts avec cette Pièce\n- Si cet effet s’est activé, remet les PSM de cette unité à 0 s’ils étaient inférieurs à 0 à la Fin du Tour. (Lorsque en Panique ou en “Érosion E.G.O.”, s’en remet) Puis, regagne 30 PSM",
+      "summary": ""
+    },
+    {
+      "id": 1091301,
+      "name": "Magical Girl de la Justice / Chevaleresse de la Désillusion",
+      "desc": "Lorsque dans un état de [BlessingAlly]…\n- Subit -(PSM / 2)% dégâts de PV venant d’attaques (20% max)\n\nLorsque dans un état de [DespairAlly]…\n- Inflige +(-PSM / 2)% de dégâts avec les Capacités de Base (20% max)",
+      "summary": ""
+    },
+    {
+      "id": 1091311,
+      "name": "Magical Girl de la Justice / Chevaleresse de la Désillusion",
+      "desc": "Lorsque dans un état de [BlessingAlly]…\n- Subit -(PSM / 2)% dégâts de PV venant d’attaques (20% max)\n<style=\"highlight\">- Début du Combat : à 3 [ProtectiveSword] ou plus, gagne 1 [Protection]\n- Début du Combat : à 5 [ProtectiveSword], gagne 2 [Protection] et 1 [ParryingResultUp] à la place</style>\n\nLorsque dans un état de [DespairAlly]…\n- Inflige +(-PSM / 2)% de dégâts avec les Capacités de Base (20% max)\n<style=\"highlight\">- Début du Combat : à 3 [PenetratingSword] ou plus, gagne 1 [AttackDmgUp]\n- Début du Combat : à 5 [PenetratingSword], gagne 2 [AttackDmgUp] et 1 [ResultEnhancement] à la place</style>",
+      "summary": ""
+    },
+    {
+      "id": 1091321,
+      "name": "Pour Tous Ceux Qui Désespèrent…",
+      "desc": "Début du Combat : s’applique à l’allié le plus tôt dans l’ordre de Déploiement\n\nÀ -15 PSM ou moins, +1 de Puissance Finale aux Capacités à Pièces Négatives",
+      "summary": ""
+    },
+    {
+      "id": 1091331,
+      "name": "Pour Tous Ceux Qui Désespèrent…",
+      "desc": "Début du Combat : s’applique à l’allié le plus tôt dans l’ordre de Déploiement\n\nÀ -15 PSM ou moins, +1 de Puissance Finale aux Capacités à Pièces Négatives\n<style=\"highlight\">À -30 PSM ou moins, +15% de dégâts et +1 de Puissance Finale aux Capacités à Pièces Négatives à la place</style>",
+      "summary": ""
     }
   ]
 }

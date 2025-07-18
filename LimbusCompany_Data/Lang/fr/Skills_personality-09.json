@@ -1586,6 +1586,507 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1091301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sanctuaire de la Chevaleresse",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [BlackTearsAlly]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Sanctuaire de la Chevaleresse",
+          "desc": "<style=\"highlight\">Si la cible a 6 [Sinking] ou plus, +1 de Puissance de Pièce</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [BlackTearsAlly]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Sanctuaire de la Chevaleresse",
+          "desc": "Si la cible a 6 [Sinking] ou plus, +1 de Puissance de Pièce\n<style=\"highlight\">À 3 [ProtectiveSword] ou plus, +1 de Puissance de Duel</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 1 [Sinking]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [BlackTearsAlly]<style=\"highlight\">\n- Gagne 1 [BlackTearsAlly] supplémentaire toutes les 2 [ProtectiveSword] (2 max)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Par le Pouvoir de la Justice",
+          "desc": "[WhenUse] À 15 [BlackTearsAlly] ou plus, consomme 5 [BlackTearsAlly] pour infliger +15% de dégâts",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 3 [BlackTearsAlly]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Par le Pouvoir de la Justice",
+          "desc": "<style=\"highlight\">Si la cible a 6 [Sinking] ou plus, +1 de Puissance de Pièce</style>\n[WhenUse] À 15 [BlackTearsAlly] ou plus, consomme 5 [BlackTearsAlly] pour infliger +15% de dégâts",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +<style=\"highlight\">2</style> de Compte de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 3 [BlackTearsAlly]\n<style=\"highlight\">- Gagne 1 [BlackTearsAlly] supplémentaire toutes les 2 [ProtectiveSword] (2 max)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Par le Pouvoir de la Justice",
+          "desc": "Si la cible a 6 [Sinking] ou plus, +1 de Puissance de Pièce\n<style=\"highlight\">+1 de Puissance de Duel toutes les 2 [ProtectiveSword] (2 max)</style>\n[WhenUse] À 15 [BlackTearsAlly] ou plus, consomme 5 [BlackTearsAlly] pour infliger +15% de dégâts",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 3 [BlackTearsAlly]\n- Gagne des [BlackTearsAlly] supplémentaires <style=\"highlight\">égales aux [ProtectiveSword]</style> (<style=\"highlight\">5</style> max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091303,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Percement Arcanique",
+          "desc": "Si la cible a 6 [Sinking] ou plus, +1 de Puissance de Pièce\n+1 de Puissance de Duel toutes les 2 [ProtectiveSword] (2 max)\n[WhenUse] À 10 [BlackTearsAlly] ou plus, consomme jusqu’à 20 [BlackTearsAlly]\n- Inflige +(Instance consommée * 1.5)% de dégâts\n[EndSkill] Si la cible est vaincue, regagne la moitié des [BlackTearsAlly] consommées par cette Capacité",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige de la [Sinking] égales aux [ProtectiveSword] (3 max)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Percement Arcanique",
+          "desc": "Si la cible a 6 [Sinking] ou plus, +1 de Puissance de Pièce\n+1 de Puissance de Duel <style=\"highlight\">par</style> [ProtectiveSword] (<style=\"highlight\">5</style> max)\n[WhenUse] À 10 [BlackTearsAlly] ou plus, consomme jusqu’à 20 [BlackTearsAlly]\n- Inflige +(Instance consommée * 1.5)% de dégâts\n<style=\"highlight\">- +1 de Puissance de Base toutes les 5 Instances consommées</style>\n[EndSkill] Si la cible est vaincue, regagne la moitié des [BlackTearsAlly] consommées par cette Capacité",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +<style=\"highlight\">3</style> de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">Si cette unité a [SwordCutwithTear], ou l’a consommé avec cette Pièce, inflige +20% de dégâts</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige de la [Sinking] égales aux [ProtectiveSword] (<style=\"highlight\">5</style> max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Foi de la Chevaleresse",
+          "desc": "[CanDuelGuard]\n[StartBattle] Gagne du Bouclier égal à (PSM / 5)% des PV max de cette unité (une fois par tour)\n[WhenUse] Gagne 3 [BlackTearsAlly] (2 fois par tour)\n[EndBattle] À moins de 3 [SwordCutwithTear], perd 15 PSM et gagne 1 [SwordCutwithTear] (une fois par tour)\n- Si cette unité a [SwordCutwithTear], perd (Instance de [SwordCutwithTear] * 15) PSM supplémentaires",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Foi de la Chevaleresse",
+          "desc": "[CanDuelGuard]\n<style=\"highlight\">[StartBattle] +1 de Puissance de Pièce tous les 2 [ProtectiveSword] (2 max)</style>\n[StartBattle] Gagne du Bouclier égal à (PSM / <style=\"highlight\">3</style>)% des PV max de cette unité (une fois par tour)\n[WhenUse] Gagne <style=\"highlight\">5</style> [BlackTearsAlly] (2 fois par tour)\n[EndBattle] À moins de 3 [SwordCutwithTear], perd 15 PSM et gagne 1 [SwordCutwithTear] (une fois par tour)\n- Si cette unité a [SwordCutwithTear], perd (Instance de [SwordCutwithTear] * 15) PSM supplémentaires",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Foi Ternie",
+          "desc": "[WhenUse] Perd 7 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [BlackTearsAlly]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Foi Ternie",
+          "desc": "<style=\"highlight\">+1 de Puissance Finale toutes les 3 [Sinking] sur la cible (2 max)</style>\n[WhenUse] Perd 7 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [BlackTearsAlly]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Foi Ternie",
+          "desc": "+1 de Puissance Finale toutes les 3 [Sinking] sur la cible (<style=\"highlight\">3</style> max)\n[WhenUse] Perd 7 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 1 [Sinking]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [BlackTearsAlly]\n<style=\"highlight\">- Gagne 1 [BlackTearsAlly] supplémentaire toutes les 2 [PenetratingSword] qu’avait cette unité au Début du Combat (2 max)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091306,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Avec l’Épée Aiguisée par les Larmes",
+          "desc": "[WhenUse] Perd 10 PSM\n[WhenUse] À 15 [BlackTearsAlly] ou plus, consomme 5 [BlackTearsAlly] pour infliger +20% de dégâts",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 3 [BlackTearsAlly]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Avec l’Épée Aiguisée par les Larmes",
+          "desc": "<style=\"highlight\">+1 de Puissance Finale toutes les 3 [Sinking] sur la cible (2 max)</style>\n[WhenUse] Perd 10 PSM\n[WhenUse] À 15 [BlackTearsAlly] ou plus, consomme 5 [BlackTearsAlly] pour infliger +20% de dégâts",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">+2</style> de Compte de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 3 [BlackTearsAlly]\n<style=\"highlight\">- Gagne 1 [BlackTearsAlly] supplémentaire toutes les 2 [PenetratingSword] qu’avait cette unité au Début du Combat (2 max)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Avec l’Épée Aiguisée par les Larmes",
+          "desc": "+1 de Puissance Finale toutes les 3 [Sinking] sur la cible (<style=\"highlight\">3</style> max)\n[WhenUse] Perd 10 PSM\n[WhenUse] À 15 [BlackTearsAlly] ou plus, consomme 5 [BlackTearsAlly] pour infliger +20% de dégâts",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2 [Sinking]</style> et +2 de Compte de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 3 [BlackTearsAlly]\n- Gagne des [BlackTearsAlly] supplémentaires <style=\"highlight\">égales aux [PenetratingSword]</style> qu’avait cette unité au Début du Combat (<style=\"highlight\">5</style> max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091307,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Arcane : Déchirer et Percer",
+          "desc": "+1 de Puissance Finale toutes les 3 [Sinking] sur la cible (2 max)\n[WhenUse] Perd 15 PSM\n[WhenUse] À 10 [BlackTearsAlly] ou plus, consomme jusqu’à 20 [BlackTearsAlly]\n- Inflige +(Instances consommées * 3)% de dégâts\n[EndSkill] Si la cible est vaincue, regagne la moitié des [BlackTearsAlly] consommées par cette Capacité",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Sinking] (une fois par Capacité)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cette Pièce a consommé [SwordCutwithTear], Réutilise cette Pièce une fois (une fois par tour)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Arcane : Déchirer et Percer",
+          "desc": "+1 de Puissance Finale toutes les 3 [Sinking] sur la cible (<style=\"highlight\">4</style> max)\n[WhenUse] Perd 15 PSM\n[WhenUse] À 10 [BlackTearsAlly] ou plus, consomme jusqu’à 20 [BlackTearsAlly]\n- Inflige +(Instances consommées * 3)% de dégâts\n<style=\"highlight\">- +1 de Puissance de Base toutes les 5 Instances consommées</style>\n[EndSkill] Si la cible est vaincue, regagne la moitié des [BlackTearsAlly] consommées par cette Capacité",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">+4</style> de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">5</style> [Sinking] (une fois par Capacité)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cette Pièce a consommé [SwordCutwithTear], Réutilise cette Pièce une fois (une fois par tour)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091308,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fierté Flétrie",
+          "desc": "[DuelCounter]\n[WhenUse] Gagne 3 [BlackTearsAlly] (2 fois par tour)\n[EndBattle] À moins de 3 [SwordCutwithTear], perd 15 PSM et gagne 1 [SwordCutwithTear] (une fois par tour)\n- Si cette unité a [SwordCutwithTear], perd (Instance de [SwordCutwithTear] * 15) PSM supplémentaires",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Fierté Flétrie",
+          "desc": "[DuelCounter]\n<style=\"highlight\">[StartBattle] +1 de Puissance Finale toutes les 2 [PenetratingSword] (2 max)</style>\n[WhenUse] Gagne <style=\"highlight\">5</style> [BlackTearsAlly] (2 fois par tour)\n[EndBattle] À moins de 3 [SwordCutwithTear], perd 15 PSM et gagne 1 [SwordCutwithTear] (une fois par tour)\n- Si cette unité a [SwordCutwithTear], perd (Instance de [SwordCutwithTear] * 15) PSM supplémentaires",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,101 @@
+{
+  "dataList": [
+    {
+      "id": 9805,
+      "name": "Bénédiction de la Constellation Blême",
+      "desc": "[Les effets s’appliquent uniquement à l’Identité Déployée #1]\n\nGagne [KnightBless] au Début de l’Affrontement",
+      "simpleDesc": [
+        {
+          "abilityID": 9744,
+          "simpleDesc": "Gagne [KnightBless]"
+        }
+      ]
+    },
+    {
+      "id": 9806,
+      "name": "La Non-Choisie",
+      "desc": "Lorsqu’un allié subit un coup, inflige 3 [Sinking] à l’attaquant\n\nLorsqu’un allié est tué, tous les alliés gagnent 2 [Enhancement] au prochain tour",
+      "simpleDesc": [
+        {
+          "abilityID": 9806,
+          "simpleDesc": "Inflige [Sinking]"
+        },
+        {
+          "abilityID": 98061,
+          "simpleDesc": "Gagne [Enhancement] et [Agility]"
+        }
+      ]
+    },
+    {
+      "id": 9807,
+      "name": "Épée Aiguisée avec des Larmes",
+      "desc": "Lorsqu’un allié touche avec une Capacité, si la cible a -20 PSM ou moins, inflige des dégâts de Peine égaux à la [Sinking] sur la cible (une fois par Capacité)\n\n- Si c’était une Capacité Perçante, inflige (Compte de [Sinking] sur la cible / 2) dégâts fixes bonus (une fois par Capacité)",
+      "simpleDesc": [
+        {
+          "abilityID": 9807,
+          "simpleDesc": "Dégâts de Peine bonus"
+        },
+        {
+          "abilityID": 98071,
+          "simpleDesc": "Dégâts fixes bonus"
+        }
+      ]
+    },
+    {
+      "id": 9808,
+      "name": "Charmant Cadeau de la Magical Girl",
+      "desc": "Lorsqu’un allié touche avec une Capacité qui gagne ou consomme du Compte de [Charge] ou une “Charge Unique”, rend 3 PV ou PSM à un un allié aléatoire (une fois par Pièce ; exclut les alliés avec PV ou PSM max)\n\nLorsqu’un allié se remet de Panique ou d’“Érosion E.G.O.”, lui rend 20 PSM",
+      "simpleDesc": [
+        {
+          "abilityID": 9808,
+          "simpleDesc": "Soigne aléatoirement des PV ou PSM"
+        },
+        {
+          "abilityID": 98081,
+          "simpleDesc": "Soigne des PSM"
+        }
+      ]
+    },
+    {
+      "id": 9809,
+      "name": "Mauvaise Utilisation, Formation d’Aversion",
+      "desc": "En consommant du Compte de [Charge] avec des Capacités Offensives, gagne (Compte de [Charge] consommé / 2) [AttackUp] au prochain tour (10 par tour ; inclut “Charge Unique”)\n\nFin du Tour : si un allié a perdu des PSM ce tour, cet allié gagne 1 [Enhancement] et 1 [Vulnerable] au prochain tour",
+      "simpleDesc": [
+        {
+          "abilityID": 9809,
+          "simpleDesc": "Gagne [AttackUp]"
+        },
+        {
+          "abilityID": 98091,
+          "simpleDesc": "Gagne [AttackUp] et [DefenseDown]"
+        }
+      ]
+    },
+    {
+      "id": 9810,
+      "name": "Bouclier Anti-Trauma",
+      "desc": "Début de l’Affrontement : tous les alliés gagnent 2 [TraumaShield]",
+      "simpleDesc": [
+        {
+          "abilityID": 9810,
+          "simpleDesc": "Gagne [TraumaShield]"
+        }
+      ]
+    },
+    {
+      "id": 9811,
+      "name": "Disposition de Valeur",
+      "desc": "Lorsqu’un allié meurt dans un Affrontement, gagne 2 Ressources E.G.O. de toutes les Affinités\n\nDébut du Combat : si aucun allié n’a Subsitué durant ce tour, rend 10 PSM aux 2 alliés avec le moins de PSM (une fois par tour ; sauf s’ils sont en Panique ou en “Érosion E.G.O.”)",
+      "simpleDesc": [
+        {
+          "abilityID": 9811,
+          "simpleDesc": "Gain de Ressources E.G.O."
+        },
+        {
+          "abilityID": 98111,
+          "simpleDesc": "Soin de PSM"
+        }
+      ]
+    }
+  ]
+}

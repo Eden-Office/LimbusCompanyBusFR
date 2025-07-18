@@ -1,0 +1,756 @@
+{
+  "dataList": [
+    {
+      "id": 122301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Désillusion en Cascade",
+          "desc": "[WhenUse] Si la cible a 4 [Sinking] ou plus, +1 de Puissance de Pièce\n[WinDuel] Inflige des [ColdBlackTear] égales au nombre de Pièces restantes",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Larmes Aiguisées",
+          "desc": "[WhenUse] Si la cible a 4 [Sinking] ou plus, +1 de Puissance de Pièce\n[WhenUse] Si la cible a 20 PSM ou plus, +1 de Puissance de Base\n[WinDuel] Inflige des [ColdBlackTear] égales au nombre de Pièces restantes",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Rivière de Larmes Désespérées",
+          "desc": "[WhenUse] +1 de Puissance de Base toutes les 4 [Sinking] sur la cible (2 max)\n[WhenUse] Si la cible a 1 [ColdBlackTear] ou plus, +1 de Puissance de Pièce\n[DefeatDuel] Inflige -80% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [ColdBlackTear]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [ColdBlackTear]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [ColdBlackTear]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [ColdBlackTear]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [ColdBlackTear]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chagrin Partagé, Émoussé",
+          "desc": "[WhenUse] Inflige 1 [ColdBlackTear]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 3 [ColdBlackTear] ou plus, inflige 1 [Vulnerable]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Violente Cascade de Désespoir Vain",
+          "desc": "Priorise la cible avec le plus de [ColdBlackTear]\n[WhenUse] Si la cible principale a 5 [ColdBlackTear] ou plus, +5 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige des dégâts fixes égaux à (Instance de [ColdBlackTear] sur la cible * 6)% des PV max de la cible, puis retire toutes [ColdBlackTear] de la cible"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122306,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Arcane : Déchire et Perce",
+          "desc": "Utilise cette Capacité lorsqu’un ennemi utilise Esclave[TabExplain] Arcanique et lorsque cette unité n’a pas [CollapsedPride]\nContre-attaque uniquement Esclave Arcanique",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [ColdBlackTear]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [ColdBlackTear]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [ColdBlackTear]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [ColdBlackTear]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts fixes égaux à (Instance de [ColdBlackTear] sur la cible * 6)% des PV max de la cible, puis retire toutes [ColdBlackTear] de la cible (ignores Resistances)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Foi Ternie",
+          "desc": "[WhenUse] +1 de Puissance de Duel toutes les 4 [Sinking] sur la cible (2 max)\n[WhenUse] Si la cible a 10 PSM ou plus, +1 de Puissance de Base\n[WhenUse] Si la cible a 20 PSM ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fierté Flétrie",
+          "desc": "[WhenUse] +1 de Puissance de Duel toutes les 4 [Sinking] sur la cible (2 max)\n[WhenUse] Si la cible a 10 PSM ou plus, +1 de Puissance de Base\n[WhenUse] Si la cible a 20 PSM ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Désespoir Éternel",
+          "desc": "[WhenUse] +1 de Puissance de Duel toutes les 4 [Sinking] sur la cible (2 max)\n[WhenUse] Si la cible a 10 PSM ou plus, +1 de Puissance de Base\n[WhenUse] Si la cible a 20 PSM ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Épée Aiguisée avec des Larmes",
+          "desc": "[WhenUse] +5 de Puissance de Pièce toutes les 6 [Sinking] sur la cible (10 max)\n[WhenUse] Si la cible a [ColdBlackTear], +1 de Puissance Finale",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 6 [Sinking] ou plus, inflige ([Sinking] de la cible / 10) [DefenseDown] au prochain tour (arrondi à l’inférieur)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122405,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Épée Imprégnée de Chagrin",
+          "desc": "[WhenUse] +3 de Puissance de Pièce toutes les 6 [Sinking] sur la cible (6 max)\n[WhenUse] +1 de Puissance de Base par Compte de [ColdBlackTear] sur la cible (3 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige des dégâts de Peine bonus égaux à (Puissance de Capacité)% des PV max de la cible (30 max)\n- Si la cible a 2 [ColdBlackTear] ou plus, inflige encore des dégâts de Peine bonus"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Foi Ternie",
+          "desc": "[WhenUse] +1 de Puissance de Duel toutes les 4 [Sinking] sur la cible (2 max)\n[WhenUse] Si la cible a 10 PSM ou plus, +1 de Puissance de Base\n[WhenUse] Si la cible a 20 PSM ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fierté Flétrie",
+          "desc": "[WhenUse] +1 de Puissance de Duel toutes les 4 [Sinking] sur la cible (2 max)\n[WhenUse] Si la cible a 10 PSM ou plus, +1 de Puissance de Base\n[WhenUse] Si la cible a 20 PSM ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Désespoir Éternel",
+          "desc": "[WhenUse] +1 de Puissance de Duel toutes les 4 [Sinking] sur la cible (2 max)\n[WhenUse] Si la cible a 10 PSM ou plus, +1 de Puissance de Base\n[WhenUse] Si la cible a 20 PSM ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Épée Aiguisée avec des Larmes",
+          "desc": "[WhenUse] +5 de Puissance de Pièce toutes les 6 [Sinking] sur la cible (10 max)\n[WhenUse] Si la cible a [ColdBlackTear], +1 de Puissance Finale",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 6 [Sinking] ou plus, inflige ([Sinking] de la cible / 10) [DefenseDown] au prochain tour (arrondi à l’inférieur)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Épée Imprégnée de Chagrin",
+          "desc": "[WhenUse] +3 de Puissance de Pièce toutes les 6 [Sinking] sur la cible (6 max)\n[WhenUse] +1 de Puissance de Base par Compte de [ColdBlackTear] sur la cible (3 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige des dégâts de Peine bonus égaux à (Puissance de Capacité)% des PV max de la cible (30 max)\n- Si la cible a 2 [ColdBlackTear] ou plus, inflige encore des dégâts de Peine bonus"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Foi Ternie",
+          "desc": "[WhenUse] +1 de Puissance de Duel toutes les 4 [Sinking] sur la cible (2 max)\n[WhenUse] Si la cible a 10 PSM ou plus, +1 de Puissance de Base\n[WhenUse] Si la cible a 20 PSM ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fierté Flétrie",
+          "desc": "[WhenUse] +1 de Puissance de Duel toutes les 4 [Sinking] sur la cible (2 max)\n[WhenUse] Si la cible a 10 PSM ou plus, +1 de Puissance de Base\n[WhenUse] Si la cible a 20 PSM ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Désespoir Éternel",
+          "desc": "[WhenUse] +1 de Puissance de Duel toutes les 4 [Sinking] sur la cible (2 max)\n[WhenUse] Si la cible a 10 PSM ou plus, +1 de Puissance de Base\n[WhenUse] Si la cible a 20 PSM ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Épée Aiguisée avec des Larmes",
+          "desc": "[WhenUse] +5 de Puissance de Pièce toutes les 6 [Sinking] sur la cible (10 max)\n[WhenUse] Si la cible a [ColdBlackTear], +1 de Puissance Finale",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 6 [Sinking] ou plus, inflige ([Sinking] de la cible / 10) [DefenseDown] au prochain tour (arrondi à l’inférieur)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Épée Imprégnée de Chagrin",
+          "desc": "[WhenUse] +3 de Puissance de Pièce toutes les 6 [Sinking] sur la cible (6 max)\n[WhenUse] +1 de Puissance de Base par Compte de [ColdBlackTear] sur la cible (3 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige des dégâts de Peine bonus égaux à (Puissance de Capacité)% des PV max de la cible (30 max)\n- Si la cible a 2 [ColdBlackTear] ou plus, inflige encore des dégâts de Peine bonus"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Foi Ternie",
+          "desc": "[WhenUse] +1 de Puissance de Duel toutes les 4 [Sinking] sur la cible (2 max)\n[WhenUse] Si la cible a 10 PSM ou plus, +1 de Puissance de Base\n[WhenUse] Si la cible a 20 PSM ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fierté Flétrie",
+          "desc": "[WhenUse] +1 de Puissance de Duel toutes les 4 [Sinking] sur la cible (2 max)\n[WhenUse] Si la cible a 10 PSM ou plus, +1 de Puissance de Base\n[WhenUse] Si la cible a 20 PSM ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Désespoir Éternel",
+          "desc": "[WhenUse] +1 de Puissance de Duel toutes les 4 [Sinking] sur la cible (2 max)\n[WhenUse] Si la cible a 10 PSM ou plus, +1 de Puissance de Base\n[WhenUse] Si la cible a 20 PSM ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Épée Aiguisée avec des Larmes",
+          "desc": "[WhenUse] +5 de Puissance de Pièce toutes les 6 [Sinking] sur la cible (10 max)\n[WhenUse] Si la cible a [ColdBlackTear], +1 de Puissance Finale",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 6 [Sinking] ou plus, inflige ([Sinking] de la cible / 10) [DefenseDown] au prochain tour (arrondi à l’inférieur)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Épée Imprégnée de Chagrin",
+          "desc": "[WhenUse] +3 de Puissance de Pièce toutes les 6 [Sinking] sur la cible (6 max)\n[WhenUse] +1 de Puissance de Base par Compte de [ColdBlackTear] sur la cible (3 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige des dégâts de Peine bonus égaux à (Puissance de Capacité)% des PV max de la cible (30 max)\n- Si la cible a 2 [ColdBlackTear] ou plus, inflige encore des dégâts de Peine bonus"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

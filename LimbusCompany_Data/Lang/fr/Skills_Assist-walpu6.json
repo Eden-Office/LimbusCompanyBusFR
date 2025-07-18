@@ -1,0 +1,183 @@
+{
+  "dataList": [
+    {
+      "id": 40000301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Avec Amour !",
+          "desc": "[WhenUse] +1 de Puissance de Base toutes les 5 (somme de [Burst] et de [Sinking] sur la cible) (2 max)\n[WhenUse] Gagne +10 [PowerOfLoveAndJustice]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Au Nom de la Justice !",
+          "desc": "[WhenUse] +1 de Puissance de Pièce toutes les 7 (somme de [Burst] et de [Sinking] sur la cible) (2 max)\n[WhenUse] Gagne +10 de Compte de [PowerOfLoveAndJustice]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 10 (somme de [Burst] et de [Sinking]) ou plus, inflige 1 [Binding] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Frappe des Arcanes",
+          "desc": "Cible principalement “La Chevaleresse de la Désillusion”\nSous-cible l’allié avec le plus de [ColdBlackTear]\n- S’il n’y en a pas, sous-cible l’allié avec le moins de PV\nInflige 0 dégât et n’active pas les effets [Sinking] et [ColdBlackTear] des alliés\n\n[WinDuel] Retire 1 [ColdBlackTear] à l’allié sous-ciblé",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible est un ennemi, inflige 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible est un allié, rend 5 PV"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible est un ennemi, inflige 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible est un allié, rend 5 PV"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible est un ennemi, inflige 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible est un allié, rend 5 PV"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Je Vais Devoir Utiliser Ce Pouvoir !",
+          "desc": "[StartBattle] Gagne 1 [ChasingArcana]\n[StartBattle] Gagne 50 de Bouclier\n[StartBattle] Gagne 20 d’[Aggro] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Incantation - Esclave Arcanique",
+          "desc": "[StartBattle] Gagne 50 de Bouclier\n[StartBattle] Gagne 20 d’[Aggro] au prochain tour\n[EndBattle] À 0 PV de Bouclier, Bat en Retraite",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000306,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ESCLAVE ARCANIQUE",
+          "desc": "[CantDuel]\nN’inflige pas des dégâts à Épée d’une Chevaleresse Oubliée\nTermine le Tour en touchant des ennemis avec [WornOutKnight]\n[EndBattle] Gagne [UsedTooMuchPower]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Réduit les PV de la cible à (100 - (Instance de [CollapsedPride] * 33))%"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000307,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ESCLAVE ARCANIQUE",
+          "desc": "[CantDuel]\nN’inflige uniquement des dégâts qu’avec les effets de Pièce\nN’inflige pas de dégâts à Épée Brise-Cœur, Épée Déchire-Cœur et Épée Perce-Cœur\nTermine le tour en touchant des ennemis avec [WornOutKnight] et 600 PV ou moins\n[EndBattle] Gagne [UsedTooMuchPower]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige ([CollapsedPride] * 200) dégâts fixes"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000308,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Je Vais Devoir Utiliser Ce Pouvoir !",
+          "desc": "[StartBattle] Gagne 1 [ChasingArcanahard]\n[StartBattle] Gagne 50 de Bouclier\n[StartBattle] Gagne 20 d’[Aggro] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

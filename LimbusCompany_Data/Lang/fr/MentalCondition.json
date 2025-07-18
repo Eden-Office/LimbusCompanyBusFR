@@ -79,6 +79,31 @@
       "id": "OnLoseDuelAnyTarget",
       "add": "Augmenté de {0} en Duel Perdu",
       "min": "Diminué de {0} en Duel Perdu"
+    },
+    {
+      "id": "OnWinDuelAsParryingCountMultiplyAndPlusPercentWithEmphasis",
+      "add": "Augmente après avoir gagné un Duel selon le compte de Clash\n<size=95%>(Valeur de Base est {0}, augmentée de <color=red>{1}%</color> par compte de Clash après 1)</size>",
+      "min": "Diminue après avoir gagné un Duel selon le compte de Clash\n<size=95%>(Valeur de Base est {0}, augmentée de <color=red>{1}%</color> par compte de Clash après 1)</size>"
+    },
+    {
+      "id": "OnLoseDuelAsParryingCountMultiplyAndPlusPercentWithEmphasis",
+      "add": "Augmente après avoir perdu un Duel selon le compte de Clash\n<size=95%>(Valeur de Base est {0}, augmentée de <color=red>{1}%</color> par compte de Clash après 1)</size>",
+      "min": "Diminue après avoir perdu un Duel selon le compte de Clash\n<size=95%>(Valeur de Base est {0}, augmentée de <color=red>{1}%</color> par compte de Clash après 1)</size>"
+    },
+    {
+      "id": "OnTakeAttackDamagePerWithMax",
+      "add": "<color=red>Augmente lorsque touché par un ennemi\n<size=95%>(Valeur de Base est {0}, augmentée jusqu’à {1} par Tour)</size></color>",
+      "min": "<color=red>Diminue lorsque touché par un ennemi\n<size=95%>(Valeur de Base est {0}, augmentée jusqu’à {1} par Tour)</size></color>"
+    },
+    {
+      "id": "OnWinDuelAsParryingCountMultiplyAndPlusPercentIfMpNotLessThan",
+      "add": "À {2} PSM ou plus, augmente après avoir gagné un Duel selon le compte de Clash\n<size=95%>(Valeur de Base est {0}, augmentée de {1}% par compte de Clash après 1)</size>",
+      "min": "À {2} PSM ou plus, diminue après avoir gagné un Duel selon le compte de Clash\n<size=95%>(Valeur de Base est {0}, augmentée de {1}% par compte de Clash après 1)</size>"
+    },
+    {
+      "id": "OnWinDuelAsParryingCountMultiplyAndPlusPercentIfMpNotLessThanWithEmphasis",
+      "add": "<color=red>À {2} PSM ou plus,</color> augmente après avoir gagné un Duel selon le compte de Clash\n<size=95%>(Valeur de Base est {0}, augmentée de <color=red>{1}%</color> par compte de Clash après 1)</size>",
+      "min": "<color=red>À {2} PSM ou plus,</color> diminue après avoir gagné un Duel selon le compte de Clash\n<size=95%>(Valeur de Base est {0}, augmentée de <color=red>{1}%</color> par compte de Clash après 1)</size>"
     }
   ]
 }
