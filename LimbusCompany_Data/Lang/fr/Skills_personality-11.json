@@ -1804,6 +1804,296 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1111301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Préparez-Vous à Recouvrer",
+          "desc": "[WhenUse] Gagne +1 de Compte de [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Préparez-Vous à Recouvrer",
+          "desc": "[WhenUse] Gagne +<style=\"highlight\">2</style> de Compte de [Vibration]\n<style=\"highlight\">[WhenUse] Si la cible a 6 [Vibration] ou plus, +1 de Puissance de Pièce</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Préparez-Vous à Recouvrer",
+          "desc": "[WhenUse] Gagne +<style=\"highlight\">3</style> de Compte de [Vibration]\n[WhenUse] Si la cible a 6 [Vibration] ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Module de Microcavité T Corp.",
+          "desc": "[WhenUse] Gagne +2 de Compte de [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 3 de Compte de [Vibration] ou plus, déclenche un [VibrationExplosion] une fois ; puis, réduit le Compte de [Vibration] de la cible a 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Module de Microcavité T Corp.",
+          "desc": "[WhenUse] Gagne +<style=\"highlight\">3</style> de Compte de [Vibration]\n<style=\"highlight\">[WhenUse] Si la cible a 6 [Vibration] ou plus, +1 de Puissance de Pièce</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Si la cible a 10 [Vibration] ou plus, consomme 4 [Vibration] de la cible pour appliquer +2 de Compte de [Vibration] à la cible et soi-même</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Si la cible n’est pas en état de [Switch_Vibration] ou d’[FusionVibration], consomme 3 de Compte de [Vibration] sur soi pour déclencher une [Switch_Vibration] en [VibrationChainPersonality]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 3 de Compte de [Vibration] ou plus, déclenche un [VibrationExplosion] une fois ; puis, réduit le Compte de [Vibration] de la cible a 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Module de Microcavité T Corp.",
+          "desc": "[WhenUse] Gagne +<style=\"highlight\">4</style> de Compte de [Vibration]\n[WhenUse] Si la cible a 6 [Vibration] ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 10 [Vibration] ou plus, consomme 4 [Vibration] de la cible pour appliquer +2 de Compte de [Vibration] à la cible et soi-même"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\"> Si la cible est en état de [Switch_Vibration] ou d’[FusionVibration], cette Pièce inflige +60% de dégâts</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible n’est pas en état de [Switch_Vibration] ou d’[FusionVibration], consomme 3 de Compte de [Vibration] sur soi pour déclencher une [Switch_Vibration] en [VibrationChainPersonality]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 3 de Compte de [Vibration] ou plus, déclenche un [VibrationExplosion] une fois ; puis, réduit le Compte de [Vibration] de la cible a 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111303,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Mace de Recouvrement T-3 Activation Maximale",
+          "desc": "Si la cible a [TimeSuspend], inflige +30% de dégâts\n[WhenUse] Si la cible a 6 [Vibration] ou plus, +1 de Puissance de Pièce\n[EndSkill] Perd [TimeRentalTwoPersonality] sur soi\n[EndSkill] Gagne [OutisNoHat] (une fois par Affrontement)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Consomme jusqu’à 3 [Vibration] sur la cible\n- Gagne +([Vibration] consommé * 2) de Compte de [Vibration]\n- Inflige ([Vibration] consommé - 1) [Binding] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 3 de Compte de [Vibration] ou plus, déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] Consomme tout le Compte de [Vibration] sur soi\n- +1 de Puissance de Pièce tous les 5 de Compte de [Vibration] consommés (5 max)\n- Inflige +1% de dégâts tous les 1 de Compte de [Vibration] consommés (50% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cette unité a [TimeRentalTwoPersonality], déclenche un [VibrationExplosion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cette unité a [TimeRentalTwoPersonality], inflige 2 [TimeSuspend]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Mace de Recouvrement T-3 Activation Maximale",
+          "desc": "<style=\"highlight\">Si la cible est en état de [Switch_Vibration] ou d’[FusionVibration], inflige +30% de dégâts</style>\nSi la cible a [TimeSuspend], inflige +30% de dégâts\n<style=\"highlight\">[WhenUse] +1 de Puissance de Pièce tous les 6 [Vibration] sur la cible (2 max)</style>\n<style=\"highlight\">[WhenUse] Si la cible a [Binding], +1 de Puissance de Duel</style>\n[EndSkill] Perd [TimeRentalTwoPersonality] sur soi\n[EndSkill] Gagne [OutisNoHat] (une fois par Affrontement)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Consomme jusqu’à 3 [Vibration] sur la cible\n- Gagne +([Vibration] consommé * 2) de Compte de [Vibration]\n- Inflige ([Vibration] consommé - 1) [Binding] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 3 de Compte de [Vibration] ou plus, déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] Consomme tout le Compte de [Vibration] sur soi\n- +1 de Puissance de Pièce tous les <style=\"highlight\">4</style> de Compte de [Vibration] consommés (max 5)\n- Inflige +<style=\"highlight\">2</style>% de dégâts tous les 1 de Compte de [Vibration] consommés (100% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cette unité a [TimeRentalTwoPersonality], déclenche un [VibrationExplosion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cette unité a [TimeRentalTwoPersonality], inflige 2 [TimeSuspend]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Temps Emprunté - Microcavité",
+          "desc": "[CanDuelGuard]\n[StartBattle] Si cette unité n’est pas en état de [TimeRentalTwoPersonality], gagne 4 [TimeRentalTwoPersonality]à la Fin du Tour (une fois par tour)\n[WinDuel] Applique +2 de Compte de [Vibration] à la cible et soi-même\n[DefeatDuel] Gagne +4 de Compte de [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Temps Emprunté - Microcavité",
+          "desc": "[CanDuelGuard]\n[StartBattle] Si cette unité n’est pas en état de [TimeRentalTwoPersonality], gagne 4 [TimeRentalTwoPersonality]à la Fin du Tour (une fois par tour)\n[WinDuel] Applique +2 de Compte de [Vibration] à la cible et soi-même\n[DefeatDuel] Gagne +4 de Compte de [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

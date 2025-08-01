@@ -2249,37 +2249,37 @@
       "id": 1031221,
       "name": "Aide au Chargement de Pouvoir Magique",
       "desc": "Si, parmi les alliés qui gagnent du Compte de [Charge] avec leurs Capacités Offensives de Base, 1 allié avec le moins de Compte de [Charge] utilise une Capacité Offensive de Base qui gagne du Compte de [Charge], il gagne +2 de Compte de [Charge] (2 fois par tour)\n- À 0 PSM ou plus : rend ([Charge] de la cible * 2) PV (10 max ; soigne jusqu’à 20 PV par tour)\n- À moins de 0 PSM : rend ([Charge] de la cible) PSM (5 max ; soigne jusqu’à 10 PSM par tour)",
-      "summary": ""
+      "summary": "Gagne du Compte de [Charge]\n- Selon les PSM de cette unité, rend des PV ou des PSM selon la [Charge]"
     },
     {
       "id": 1091302,
       "name": "L’Épée Aiguisée par les Larmes - ! ALERTE : SEUIL DE SYNC AVEC L’ÉQUIPEMENT E.G.O. SURPASSÉ !",
       "desc": "Début du Tour : à 0 PSM ou plus, gagne [BlessingAlly]\n- Utilise des Capacités à Pièces Positives comme Capacités de Base\n\nDébut du Tour : à moins de 0 PSM, gagne [DespairAlly]\n- Utilise des Capacités à Pièces Négatives comme Capacités de Base\n\nEn gagnant du Compte de [Charge], gagne [BlackTearsAlly] à la place\n- [BlackTearsAlly] n’est pas affecté par l’Intensité de [Charge]",
-      "summary": ""
+      "summary": "Selon les PSM de cette unité, gagne [BlessingAlly] ou [DespairAlly]"
     },
     {
       "id": 1091303,
       "name": "Murmures de la Chevaleresse Trahie",
       "desc": "Les PSM de cette unité ne peuvent pas tomber en-dessous de -40 suite aux effets suivants :\n- effets de perte de PSM sur les Capacités de Base de cette unité\n- effets de perte de PSM des Passives de Support d’unités alliées\n- effets de perte de PSM de [SwordCutwithTear]\n- effets de perte de PSM de mort alliée des “facteurs de Base de diminution de Santé Mentale” de cette unité\n\nDans un Affrontement, lorsque cette unité subit des dégâts faisant tomber ses PSM à -45, maintien les PSM de cette unité à -44 pour ce tour (une fois par Affrontement)\n(※ Cela ne s’applique qu’aux dégâts de PSM ; ne s’applique pas aux changements de PSM ou aux capacités qui consomment des PSM comme les Capacités E.G.O.)",
-      "summary": ""
+      "summary": "Certains effets ne peuvent pas réduire les PSM de cette unité sous -40\nLes PSM ne tombent pas en-dessous de -44 (une fois par Affrontement, ne fonctionnement pas lorsque cette unité consomme ses propres PSM)"
     },
     {
       "id": 1091304,
       "name": "Brise, Déchire et Perce",
       "desc": "Si cette unité a [PenetratingSword] : avant de toucher un ennemi avec une Capacité Offensive de Base, consomme 1 [PenetratingSword] pour infliger 1 [Sinking]\n- Si cette unité a 2 [PenetratingSword] ou plus avant que touche la Pièce Finale de la Capacité Offensive de Base finale de ce tour, les consomme toutes à la place pour les infligeant en [Sinking]\n\nSi cette unité a 3 [SwordCutwithTear] : avant de toucher un ennemi avec la Pièce finale d’une Capacité Offensive de Base, consomme tous [SwordCutwithTear] pour infliger 3 [Sinking] et +3 de Compte de [Sinking] et inflige +50% de dégâts avec cette Pièce\n- Si cet effet s’est activé, remet les PSM de cette unité à 0 s’ils étaient inférieurs à 0 à la Fin du Tour. (Lorsque en Panique ou en “Érosion E.G.O.”, s’en remet) Puis, regagne 30 PSM",
-      "summary": ""
+      "summary": "Consomme [PenetratingSword] pour infliger de la [Sinking]\n- À 3 [PenetratingSword], inflige plus de dégâts ; à moins de 0 PSM, regagne des PSM au prochain tour"
     },
     {
       "id": 1091301,
       "name": "Magical Girl de la Justice / Chevaleresse de la Désillusion",
       "desc": "Lorsque dans un état de [BlessingAlly]…\n- Subit -(PSM / 2)% dégâts de PV venant d’attaques (20% max)\n\nLorsque dans un état de [DespairAlly]…\n- Inflige +(-PSM / 2)% de dégâts avec les Capacités de Base (20% max)",
-      "summary": ""
+      "summary": "Lorsqu’en état de [BlessingAlly], subit moins de dégâts\nLorsqu’en état de [DespairAlly], inflige plus de dégâts"
     },
     {
       "id": 1091311,
       "name": "Magical Girl de la Justice / Chevaleresse de la Désillusion",
       "desc": "Lorsque dans un état de [BlessingAlly]…\n- Subit -(PSM / 2)% dégâts de PV venant d’attaques (20% max)\n<style=\"highlight\">- Début du Combat : à 3 [ProtectiveSword] ou plus, gagne 1 [Protection]\n- Début du Combat : à 5 [ProtectiveSword], gagne 2 [Protection] et 1 [ParryingResultUp] à la place</style>\n\nLorsque dans un état de [DespairAlly]…\n- Inflige +(-PSM / 2)% de dégâts avec les Capacités de Base (20% max)\n<style=\"highlight\">- Début du Combat : à 3 [PenetratingSword] ou plus, gagne 1 [AttackDmgUp]\n- Début du Combat : à 5 [PenetratingSword], gagne 2 [AttackDmgUp] et 1 [ResultEnhancement] à la place</style>",
-      "summary": ""
+      "summary": "Lorsqu’en état de [BlessingAlly], subit moins de dégâts ; gagne de la [Protection] et du [ParryingResultUp] selon l’Instance de [ProtectiveSword] de cette unité\nLorsqu’en état de [DespairAlly], inflige plus de dégâts ; gagne du [AttackDmgUp] et du [ResultEnhancement] selon l’Instance de [PenetratingSword] de cette unité"
     },
     {
       "id": 1091321,
@@ -2292,6 +2292,17 @@
       "name": "Pour Tous Ceux Qui Désespèrent…",
       "desc": "Début du Combat : s’applique à l’allié le plus tôt dans l’ordre de Déploiement\n\nÀ -15 PSM ou moins, +1 de Puissance Finale aux Capacités à Pièces Négatives\n<style=\"highlight\">À -30 PSM ou moins, +15% de dégâts et +1 de Puissance Finale aux Capacités à Pièces Négatives à la place</style>",
       "summary": ""
+    },
+    {
+      "id": 1111301,
+      "name": "Temps en Or - Microcavité",
+      "desc": "Fin du Tour : si les PV de cette unité sont entre 10% ~ 20%, regagne instantanément 80% des PV max de cette unité et se remet de Déséquilibre. (Une fois par Affrontement)\n\nSi cette unité a [TimeRentalTwoPersonality], ses Capacités gagnent +1 de Puissance Finale",
+      "summary": "En état de [TimeRentalTwoPersonality], les Capacités gagnent +1 de Puissance Finale"
+    },
+    {
+      "id": 1111321,
+      "name": "Exécution Expéditive des Obligations Professionnelles",
+      "desc": "1 allié avec la Vitesse la plus rapide inflige +10% de dégâts en attaquant une cible Déséquilibrée."
     }
   ]
 }

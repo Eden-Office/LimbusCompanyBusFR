@@ -1,0 +1,228 @@
+{
+  "dataList": [
+    {
+      "id": 9102401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "N’Avez-Vous Aucune Honte ?",
+          "desc": "[WhenUse] Gagne +2 de Compte de [Vibration]\n[WhenUse] À 5 de Compte de [Vibration] ou plus, +1 de Puissance de Duel",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Je Vois, Vous N’Avez Aucune Honte",
+          "desc": "[WhenUse] Gagne +2 de Compte de [Vibration]\n[WhenUse] À 5 de Compte de [Vibration] ou plus, +1 de Puissance de Duel",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pouvez-Vous les Protéger ?",
+          "desc": "[WhenUse] Gagne +2 de Compte de [Vibration]\n[WhenUse] À 5 de Compte de [Vibration] ou plus, +1 de Puissance de Duel",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] À 10 de Compte de [Vibration] ou plus sur soi, déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 15 d’Intensité de [Vibration], déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Peux Pas Utiliser Cette Arme Maintenant",
+          "desc": "[WhenUse] Gagne +3 de Compte de [Vibration]\n[WhenUse] À 5 de Compte de [Vibration] ou plus, +1 de Puissance de Duel",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationCollapse]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102405,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Prêt Pour Un Tabassage ?",
+          "desc": "Priorise les cibles avec [VibrationCollapse]\n[WhenUse] Applique du Compte de [Vibration] égal au Compte de [Vibration] sur soi à tous les autres alliés\n[WhenUse] Déclenche une [Switch_Vibration] sur tous les alliés (inclut cette unité) pour convertir leur [Vibration] en [VibrationDistribution]\n[DefeatDuel] Inflige -80% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 10 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche une [FusionVibration] en [VibrationEcho]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102406,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Garde",
+          "desc": "[StartBattle] Gagne 5*(Compte de [Vibration] sur soi) PV de Bouclier (60 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102407,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pour Le Plus Grand Bien",
+          "desc": "[CantDuel]\n[StartBattle] Attire le Compte de [Vibration] de tous les autres alliés vers soi ; le [Vibration] sur tous les alliés expire\n[StartBattle] Gagne 1 [AttackUp] tous les 3 de Compte de [Vibration] sur soi\n[WhenUse] Gagne 10 de Compte de [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 10 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 20% de dégâts de Paresse bonus par Compte de [Vibration] sur soi"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +4 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 20% de dégâts de Paresse bonus par Compte de [Vibration] sur soi"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Consomme 1 de Compte de [Vibration] sur soi et déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Consomme 1 de Compte de [Vibration] sur soi et déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Consomme 1 de Compte de [Vibration] sur soi et déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,12 +1,12 @@
 {
   "dataList": [
     {
-      "id": 827701,
+      "id": 122801,
       "levelList": [
         {
           "level": 1,
           "name": "Avez-Vous Peur ?",
-          "desc": "Lorsque en état d’[TimeAcceleration], +1 de Puissance de Duel\n[DefeatDuel] À 75% de PV ou moins, consomme 50 [LimitedTime] et gagne 1 [Protection] (une fois par tour)",
+          "desc": "Lorsqu’en état d’[TimeAcceleration], +1 de Puissance de Duel\n[DefeatDuel] À 75% de PV ou moins, consomme 40 [LimitedTime] et gagne 1 [Protection] (une fois par tour)",
           "coinlist": [
             {
               "coindescs": [
@@ -27,12 +27,12 @@
       ]
     },
     {
-      "id": 827702,
+      "id": 122802,
       "levelList": [
         {
           "level": 1,
           "name": "Punition Pour les Tueurs de Temps",
-          "desc": "Lorsque en état d’[TimeAcceleration], +2 de Puissance de Duel\n[WhenUse] À 500 [LimitedTime] ou plus, inflige +1 de Compte de [Laceration]\n[WhenUse] À 300 [LimitedTime] ou plus, consomme 25 [LimitedTime] et inflige +1 d’Intensité et de Compte de [Laceration] supplémentaire avec cette Capacité",
+          "desc": "Lorsqu’en état d’[TimeAcceleration], +2 de Puissance de Duel\n[WhenUse] À 700 [LimitedTime] ou plus, inflige +3 de Compte de [Laceration]\n[WhenUse] À 500 [LimitedTime] ou plus, inflige +1 de Compte de [Laceration]\n[WhenUse] À 400 [LimitedTime] ou plus, consomme 20 [LimitedTime] et inflige +1 d’Intensité et de Compte de [Laceration] supplémentaire avec cette Capacité",
           "coinlist": [
             {
               "coindescs": [
@@ -60,22 +60,18 @@
       ]
     },
     {
-      "id": 827703,
+      "id": 122803,
       "levelList": [
         {
           "level": 1,
           "name": "Extraction",
-          "desc": "Lorsque en état d’[TimeAcceleration], +1 de Puissance de Pièce\n[DefeatDuel] À 75% de PV ou moins, consomme 50 [LimitedTime] et gagne +2 de Puissance de Duel (une fois par tour)",
+          "desc": "Lorsqu’en état d’[TimeAcceleration], +1 de Puissance de Pièce\n[WhenUse] À 75% de PV ou moins, consomme 40 [LimitedTime] et gagne +2 de Puissance de Duel\n[DefeatDuel] Inflige -80% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
-                }
-              ]
-            },
-            {
-              "coindescs": [
+                  "desc": "[SuperCoin]"
+                },
                 {
                   "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
                 }
@@ -84,12 +80,28 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 3 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
                 {
                   "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
                 }
@@ -100,15 +112,18 @@
       ]
     },
     {
-      "id": 827704,
+      "id": 122804,
       "levelList": [
         {
           "level": 1,
           "name": "Mutiler",
-          "desc": "[DefeatDuel] À 75% de PV ou moins, consomme 75 [LimitedTime] et gagne +2 de Puissance de Duel\n[BeforeAttack] Lorsque en état d’[TimeAcceleration], gagne +1 de Poids d’Atq",
+          "desc": "[DefeatDuel] À 75% de PV ou moins, consomme 60 [LimitedTime] et gagne +2 de Puissance de Duel\n[BeforeAttack] Lorsqu’en état d’[TimeAcceleration], gagne +1 de Poids d’Atq",
           "coinlist": [
             {
               "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
                 {
                   "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
                 }
@@ -117,7 +132,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 8 [Laceration]"
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Laceration]"
                 }
               ]
             }
@@ -126,7 +144,7 @@
       ]
     },
     {
-      "id": 827705,
+      "id": 122805,
       "levelList": [
         {
           "level": 1,
@@ -145,12 +163,12 @@
       ]
     },
     {
-      "id": 827706,
+      "id": 122806,
       "levelList": [
         {
           "level": 1,
           "name": "Esquive",
-          "desc": "[WhenUse] +1 de Puissance de Base pour chaque 100 [LimitedTime] sur soi",
+          "desc": "[WhenUse] +1 de Puissance de Base tous les 100 [LimitedTime] (3 max)",
           "coinlist": [
             {
               "coindescs": [
@@ -164,293 +182,11 @@
       ]
     },
     {
-      "id": 827801,
+      "id": 122807,
       "levelList": [
         {
           "level": 1,
-          "name": "Avez-Vous Peur ?",
-          "desc": "Lorsque en état d’[TimeAcceleration], +1 de Puissance de Duel\n[DefeatDuel] À 75% de PV ou moins, consomme 50 [OwnTime] et gagne 1 [Protection] (une fois par tour)",
-          "coinlist": [
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 827802,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "Punition Pour les Tueurs de Temps",
-          "desc": "Lorsque en état d’[TimeAcceleration], +2 de Puissance de Duel\n[WhenUse] À 500 (somme de [OwnTime] sur toutes les Parties) ou plus, inflige +1 de Compte de [Laceration]\n[WhenUse] À 300 (somme de [OwnTime] sur toutes les Parties) ou plus, consomme 25 [OwnTime] et inflige +1 d’Intensité et de Compte de [Laceration] supplémentaire avec cette Capacité",
-          "coinlist": [
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] Inflige 4 [Laceration]"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 827803,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "Extraction",
-          "desc": "Lorsque en état d’[TimeAcceleration], +1 de Puissance de Pièce\n[DefeatDuel] À 75% de PV ou moins, consomme 50 [OwnTime] et gagne +2 de Puissance de Duel (une fois par tour)",
-          "coinlist": [
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 827804,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "Mutiler",
-          "desc": "[DefeatDuel] À 75% de PV ou moins, consomme 75 [OwnTime] et gagne +2 de Puissance de Duel\n[BeforeAttack] Lorsque en état d’[TimeAcceleration], gagne +1 de Poids d’Atq\n[BeforeAttack] À 60% de PV ou moins, consomme 10 [OwnTime] et gagne +1 de Poids d’Atq",
-          "coinlist": [
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] Inflige 8 [Laceration]"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 827805,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "L’Heure d’être Sauvé",
-          "desc": "[CantDuel]\nInflige [TimeKillerWatch] à la cible ayant utilisé une Capacité Offensive contre cette unité\n[StartBattle] Consomme 200 [OwnTime] et gagne [TimeAcceleration] au prochain tour",
-          "coinlist": [
-            {
-              "coindescs": [
-                {
-                  "desc": ""
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 827806,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "Esquive",
-          "desc": "[WhenUse] +1 de Puissance de Base pour chaque 100 de somme de [OwnTime] entre toutes les Parties (3 max)",
-          "coinlist": [
-            {
-              "coindescs": [
-                {
-                  "desc": ""
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 827807,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "L’Heure de Tuer le Temps",
-          "desc": "[CantDuel]\nLa Vitesse de cette unité est fixée à 24.\nNe peut pas être Déséquilibré ce tour.\n[WhenUse] Prend un total de 400 [OwnTime] à tout le monde, puis le consomme.",
-          "coinlist": [
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] Efface le temps de la cible. Une fois que cette unité a effacé le temps de la cible, toutes les Parties regagnent leur valeur max de [OwnTime] et gagne 10 Accélération et 10 Bonus de Puissance Offensive au prochain tour."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 827901,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "Tic",
-          "desc": "",
-          "coinlist": [
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 827902,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "Toc",
-          "desc": "[WhenUse] Si la cible a 5 [Laceration] ou plus, +1 de Puissance de Duel",
-          "coinlist": [
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 827903,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "Tictic-Toc",
-          "desc": "[WhenUse] Si la cible a 5 [Laceration] ou plus, +1 de Puissance de Duel",
-          "coinlist": [
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] Inflige 4 [Laceration]"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Laceration]"
-                },
-                {
-                  "desc": "[OnSucceedAttack] Inflige 5 Brûlure"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 827904,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "Toc",
-          "desc": "",
-          "coinlist": [
-            {
-              "coindescs": [
-                {
-                  "desc": ""
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 827707,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "Mon...",
+          "name": "Mon…",
           "desc": "[DefeatDuel] Gagne 1 [Vulnerable]",
           "coinlist": [
             {
@@ -472,7 +208,7 @@
       ]
     },
     {
-      "id": 827708,
+      "id": 122808,
       "levelList": [
         {
           "level": 1,
@@ -512,7 +248,207 @@
       ]
     },
     {
-      "id": 827808,
+      "id": 122901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Avez-Vous Peur ?",
+          "desc": "Lorsqu’en état d’[TimeAcceleration], +1 de Puissance de Duel\n[DefeatDuel] À 75% de PV ou moins, consomme 40 [OwnTime] et gagne 1 [Protection] (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Punition Pour les Tueurs de Temps",
+          "desc": "Lorsqu’en état d’[TimeAcceleration], +2 de Puissance de Duel\n[WhenUse] À 600 (somme de [OwnTime] sur toutes les Parties) ou plus, inflige +3 de Compte de [Laceration]\n[WhenUse] À 500 (somme de [OwnTime] sur toutes les Parties) ou plus, inflige +1 de Compte de [Laceration]\n[WhenUse] À 400 (somme de [OwnTime] sur toutes les Parties) ou plus, consomme 20 [OwnTime] et inflige +1 d’Intensité et de Compte de [Laceration] supplémentaire avec cette Capacité",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Extraction",
+          "desc": "Lorsqu’en état d’[TimeAcceleration], +1 de Puissance de Pièce\n[WhenUse] À 75% de PV ou moins, consomme 40 [OwnTime] et gagne +2 de Puissance de Duel\n[DefeatDuel] Inflige -80% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Mutiler",
+          "desc": "[DefeatDuel] À 75% de PV ou moins, consomme 60 [OwnTime] et gagne +2 de Puissance de Duel\n[BeforeAttack] Lorsqu’en état d’[TimeAcceleration], gagne +3 de Poids d’Atq\n[BeforeAttack] À 60% de PV ou moins, consomme 10 [OwnTime] et gagne +1 de Poids d’Atq",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "L’Heure d’être Sauvé",
+          "desc": "[CantDuel]\nInflige [TimeKillerWatch] à la cible ayant utilisé une Capacité Offensive contre cette unité\n[StartBattle] Consomme 200 [OwnTime] et gagne [TimeAcceleration] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122906,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Esquive",
+          "desc": "[WhenUse] +1 de Puissance de Base tous les 50 somme de [OwnTime] à travers toutes les Parties (3 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122907,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "L’Heure de Tuer le Temps",
+          "desc": "[CantDuel]\nLa Vitesse de cette unité est fixée à 24.\nNe peut pas être Déséquilibré ce tour.\n[WhenUse] Prend un total de 400 [OwnTime] à tout le monde, puis le consomme.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Efface le temps de la cible. Une fois que cette unité a effacé le temps de la cible, toutes les Parties regagnent la valeur max de [OwnTime] et gagnent 10 Accélération et 10 Bonus de Puissance Offensive au prochain tour."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122908,
       "levelList": [
         {
           "level": 1,

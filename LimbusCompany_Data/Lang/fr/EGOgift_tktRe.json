@@ -1,0 +1,138 @@
+{
+  "dataList": [
+    {
+      "id": 9812,
+      "name": "Temps Interconnecté",
+      "desc": "En déclenchant une [Switch_Vibration] ou une [FusionVibration], déclenche un [VibrationExplosion] sur la cible (une fois par tour par Identité)",
+      "simpleDesc": [
+        {
+          "abilityID": 9812,
+          "simpleDesc": "Déclenche un Sursaut de Tremblement sur la cible"
+        }
+      ]
+    },
+    {
+      "id": 19812,
+      "name": "Temps Interconnecté+",
+      "desc": "En déclenchant une [Switch_Vibration] ou une [FusionVibration], déclenche un [VibrationExplosion] sur la cible (<style=\"upgradeHighlight\">2 fois</style> par tour par Identité)",
+      "simpleDesc": [
+        {
+          "abilityID": 19812,
+          "simpleDesc": "Déclenche un Sursaut de Tremblement sur la cible"
+        }
+      ]
+    },
+    {
+      "id": 29812,
+      "name": "Temps Interconnecté++",
+      "desc": "En déclenchant une [Switch_Vibration] ou une [FusionVibration], déclenche un [VibrationExplosion] sur la cible (<style=\"upgradeHighlight\">3</style> fois par tour par Identité)",
+      "simpleDesc": [
+        {
+          "abilityID": 29812,
+          "simpleDesc": "Déclenche un Sursaut de Tremblement sur la cible"
+        }
+      ]
+    },
+    {
+      "id": 9813,
+      "name": "Badge de Détective d’Urgence",
+      "desc": "[Les effets s’appliquent uniquement à l’Identité Déployée #3]\n\nLorsque cette unité subit des dégâts létaux, ses PV ne tombent pas en-dessous de 1, regagne instantanément 80% de ses PV max et se remet de Déséquilibre. (Une fois par Affrontement, arrondi au supérieur)\nLorsque le Don E.G.O. s’active, à partir du prochain tour, gagne 2 [Enhancement] et 1 [Vulnerable] à chaque Début de Tour pour cet Affrontement.\nSi l’unité affectée est un employé de la T Corp., gagne 1 [TimeRentalTwoPersonality] supplémentaire en en gagnant une Instance.\nSi l’unité affectée est un employé de la T Corp., si la cible a [TimeSuspend], inflige +10% de dégâts avec les Capacités Offensives.",
+      "simpleDesc": [
+        {
+          "abilityID": 9813,
+          "simpleDesc": "Les PV ne tombent pas en-dessous de 1 et regagne instantanément 80% des PV max"
+        },
+        {
+          "abilityID": 98131,
+          "simpleDesc": "Gagne du Temps Emprunté supplémentaire en en gagnant"
+        },
+        {
+          "abilityID": 98132,
+          "simpleDesc": "Inflige plus de dégâts si cette unité a Moratoire Temporel"
+        }
+      ]
+    },
+    {
+      "id": 19813,
+      "name": "Badge de Détective d’Urgence+",
+      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées <style=\"upgradeHighlight\">#2 et</style> #3]\n\nLorsque cette unité subit des dégâts létaux, ses PV ne tombent pas en-dessous de 1, regagne instantanément 80% de ses PV max et se remet de Déséquilibre. (Une fois par Affrontement, arrondi au supérieur)\nLorsque le Don E.G.O. s’active, à partir du prochain tour, gagne 2 [Enhancement] et 1 [Vulnerable] à chaque Début de Tour pour cet Affrontement.\nSi l’unité affectée est un employé de la T Corp., gagne 1 [TimeRentalTwoPersonality] supplémentaire en en gagnant une Instance.\nSi l’unité affectée est un employé de la T Corp., si la cible a [TimeSuspend], inflige +<style=\"upgradeHighlight\">12.5</style>% de dégâts avec les Capacités Offensives.",
+      "simpleDesc": [
+        {
+          "abilityID": 19813,
+          "simpleDesc": "Les PV ne tombent pas en-dessous de 1 et regagne instantanément 80% des PV max"
+        },
+        {
+          "abilityID": 198131,
+          "simpleDesc": "Gagne du Temps Emprunté supplémentaire en en gagnant"
+        },
+        {
+          "abilityID": 198132,
+          "simpleDesc": "Inflige plus de dégâts si cette unité a Moratoire Temporel"
+        }
+      ]
+    },
+    {
+      "id": 29813,
+      "name": "Badge de Détective d’Urgence++",
+      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées <style=\"upgradeHighlight\">#1,</style> #2 et #3]\n\nLorsque cette unité subit des dégâts létaux, ses PV ne tombent pas en-dessous de 1, regagne instantanément 80% de ses PV max et se remet de Déséquilibre. (Une fois par Affrontement, arrondi au supérieur)\nLorsque le Don E.G.O. s’active, à partir du prochain tour, <style=\"upgradeHighlight\">gagne 2 [Enhancement]</style> à chaque Début de Tour pour cet Affrontement.\nSi l’unité affectée est un employé de la T Corp., gagne <style=\"upgradeHighlight\">2</style> [TimeRentalTwoPersonality] supplémentaires en en gagnant une Instance.\nSi l’unité affectée est un employé de la T Corp., si la cible a [TimeSuspend], inflige +<style=\"upgradeHighlight\">15</style>% de dégâts avec les Capacités Offensives.",
+      "simpleDesc": [
+        {
+          "abilityID": 29813,
+          "simpleDesc": "Les PV ne tombent pas en-dessous de 1 et regagne instantanément 80% des PV max"
+        },
+        {
+          "abilityID": 298131,
+          "simpleDesc": "Gagne du Temps Emprunté supplémentaire en en gagnant"
+        },
+        {
+          "abilityID": 298132,
+          "simpleDesc": "Inflige plus de dégâts si cette unité a Moratoire Temporel"
+        }
+      ]
+    },
+    {
+      "id": 9814,
+      "name": "Séquenceur d’Outrepassement d’Intrication",
+      "desc": "Au Début du Tour, pour 1 Identité avec le plus de Compte de [Vibration], déclenche une [FusionVibration] pour convertir leur [Vibration] en [VibrationDistribution]",
+      "simpleDesc": [
+        {
+          "abilityID": 9814,
+          "simpleDesc": "Déclenche une Intrication d’Amplitude en Tremblement - Distribution"
+        }
+      ]
+    },
+    {
+      "id": 19814,
+      "name": "Séquenceur d’Outrepassement d’Intrication+",
+      "desc": "Au Début du Tour, pour <style=\"upgradeHighlight\">2 Identités</style> avec le plus de Compte de [Vibration], déclenche une [FusionVibration] pour convertir leur [Vibration] en [VibrationDistribution]",
+      "simpleDesc": [
+        {
+          "abilityID": 19814,
+          "simpleDesc": "Déclenche une Intrication d’Amplitude en Tremblement - Distribution"
+        }
+      ]
+    },
+    {
+      "id": 29814,
+      "name": "Séquenceur d’Outrepassement d’Intrication++",
+      "desc": "Au Début du Tour, pour <style=\"upgradeHighlight\">3 </style>Identités avec le plus de Compte de [Vibration], déclenche une [FusionVibration] pour convertir leur [Vibration] en [VibrationDistribution]",
+      "simpleDesc": [
+        {
+          "abilityID": 29814,
+          "simpleDesc": "Déclenche une Intrication d’Amplitude en Tremblement - Distribution"
+        }
+      ]
+    },
+    {
+      "id": 9816,
+      "name": "Accélérateur Temporel de Microprécision",
+      "desc": "[Les effets s’appliquent uniquement à l’Identité Déployée #1]\n\nS’applique aux Identités avec des Capacités qui infligent de l’Intensité ou du Compte de [Vibration] ou qui déclenchent un [VibrationExplosion].\nDébut de l’Affrontement : gagne 5 [UltraPrecisionTimeAcceleration]",
+      "simpleDesc": [
+        {
+          "abilityID": 9816,
+          "simpleDesc": "Gagne 5 Accélération Temporelle de Microprécision"
+        }
+      ]
+    }
+  ]
+}

@@ -124,7 +124,7 @@
     {
       "id": 9167,
       "name": "Cloche-Omnivibro-Octovecti",
-      "desc": "Début du Tour : ce Don s’active lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent de l’Intensité ou du Compte de [Vibration] ou un “Tremblement Unique”. (Excepté les Capacités E.G.O., ne compte que les Identités sur le terrain)\n(Si une Identité n’a que des Capacités Offensives qui gagnent du Compte de [Vibration] sur soi, ce Don E.G.O. ne s’active pas pour elle)\n\nEn gagnant un Duel avec une Capacité qui inflige de l’Intensité ou du Compte de [Vibration] ou consomme du Compte de [Vibration] sur soi : inflige (# de Pièces restantes) d’Intensité de [Vibration] sur la cible ; si la cible n’a pas de [Vibration], inflige +3 de Compte de [Vibration]\n\nDébut du Tour : gagne (1 + (Compte de [Vibration] sur soi / 5)) de [ParryingResultUp]. (3 max)\n\nEn utilisant une Capacité qui consomme du Compte de [Vibration] sur soi : en vainquant ou Déséquilibrant une cible, gagne (Compte de [Vibration] consommé / 2) de Compte de [Vibration] (une fois par Capacité)\n\nCapacités qui consomment du Compte de [Vibration] sur soi infligent +([Vibration] consommé sur soi + Intensité de [Vibration] sur l’ennemi + 5)% de dégâts (à l’exception des Capacités E.G.O. ; 50% max)",
+      "desc": "Début du Tour : ce Don s’active lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent de l’Intensité ou du Compte de [Vibration] ou un “Tremblement Unique”. (Excepté les Capacités E.G.O., ne compte que les Identités sur le terrain)\n(Si une Identité n’a que des Capacités Offensives qui gagnent du Compte de [Vibration] sur soi, ce Don E.G.O. ne s’active pas pour elle)\n\nEn gagnant un Duel avec une Capacité qui inflige de l’Intensité ou du Compte de [Vibration] ou consomme du Compte de [Vibration] sur soi : inflige (# de Pièces restantes) d’Intensité de [Vibration] à la cible et gagne (# de Pièces restantes) de Compte de Tremblement (+3 de Compte de Tremblement max gagné par Capacité). Si la cible n’a pas de [Vibration], inflige +3 de Compte de [Vibration]\n\nDébut du Tour : gagne (1 + (Compte de [Vibration] sur soi / 5)) de [ParryingResultUp]. (3 max)\n\nEn utilisant une Capacité qui consomme du Compte de [Vibration] sur soi : en vainquant ou Déséquilibrant une cible, gagne (Compte de [Vibration] consommé / 2) de Compte de [Vibration] (une fois par Capacité)\n\nLes Capacités infligent +([Vibration] consommé sur soi + Intensité de [Vibration] sur l’ennemi + 5)% de dégâts (exclut les Capacités E.G.O. ; 50% max)\nLorsque la cible a [VibrationNesting], en déclenchant une [Switch_Vibration] ou une [FusionVibration] sur l’ennemi avec un type de [Vibration] qu’il ne possède pas dans son [VibrationNesting], prolonge le [VibrationNesting] de la cible à la Fin du Tour jusqu’au prochain tour",
       "simpleDesc": [
         {
           "abilityID": 9167,
@@ -141,6 +141,10 @@
         {
           "abilityID": 91673,
           "simpleDesc": "Capacités qui consomment du Compte de [Tremor] infligent plus de dégâts"
+        },
+        {
+          "abilityID": 91674,
+          "simpleDesc": "Prolonge le Tremblement - Superposition de la cible à la Fin du Tour jusqu’au prochain tour"
         }
       ]
     },
