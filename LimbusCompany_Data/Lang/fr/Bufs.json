@@ -2685,6 +2685,103 @@
       "desc": "- Instance max : 3\nLorsque touché, gagne autant d’Intensité de Lourdeur que d’Instance\n\nFin du Tour : si cette unité a -30 PSM ou moins, active les effets suivants (pour les unités sans PSM, s’active à 60 d’Intensité de Lourdeur ou plus)\n- Subit (Intensité de Lourdeur sur soi * Instance) dégâts de Peine\n- Inflige 1 Reflux à 2 autres cibles avec le moins de PV (pour les Anomalies, les Parties) ; puis, inflige (Intensité de Lourdeur * Instance) dégâts de Peine aux deux cibles, respectivement\nSi l’unité avec Reflux meurt, transfère ses Instances de Reflux à son allié avec le plus d’Instances de Reflux",
       "summary": "",
       "undefined": "-"
+    },
+    {
+      "id": "HeishouDeathCount",
+      "name": "À la Vie, À la Mort [死中求活]",
+      "desc": "- Instance Max : 5\n- Début du Tour : active les effets suivants\n· Gagne 1 Bonus de Niveau Offensif par Instance (5 max)\n· Gagne 1 Bonus de Dégâts toutes les 2 Instances (2 max)\n· Gagne 1 Bonus de Puissance Offensive à 3 Instances ou plus",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "HeishouCombo",
+      "name": "Ordre Prestigieux",
+      "desc": "- Si l’unité A applique cet effet à l’unité B : l’unité B enchaîne avec une Attaque à Sens-Unique avec sa Capacité 3 de Base contre le même ennemi qu’a attaqué l’unité A avec sa Capacité. S’active à la Fin de l’Attaque de l’unité A. (Ne s’active pas en Capacités Renforcées)\n- La Capacité utilisée comme Attaque d’Assistance n’affecte pas la liste des Capacités à venir de l’unité B.\n- Ne s’active pas si la Capacité 3 de l’allié affecté n’est pas débloquée.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "HeishouComboCount",
+      "name": "Tempête Incessante",
+      "desc": "- Nombre de fois où cette unité a activé un combo avec l’Identité Le Seigneur d’Hongyuan Hong Lu\n- Instance Max : 2\n- Début du Tour : gagne 1 Bonus de Niveau Offensif et 1 Bonus de Niveau Défensif par Instance",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "HeishouAttack",
+      "name": "Votre Volonté Guide Ma Lame.",
+      "desc": "- Si l’unité A applique cet effet à l’unité B : l’unité B enchaîne avec une Attaque à Sens-Unique avec sa Capacité 1 contre le même ennemi qu’a attaqué l’unité A avec sa Capacité. S’active à la Fin de l’Attaque de l’unité A.\n- La Capacité utilisée comme Attaque d’Assistance n’affecte pas la liste des Capacités à venir de l’unité B.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "HeishouSupportProtect",
+      "name": "Garde-Seigneur",
+      "desc": "- Défense d’Assistance Unique\n- Instance Max : 1\n- Lorsque Le Seigneur d’Hongyuan Hong Lu s’apprête à subit une Attaque à Sens-Unique d’un ennemi, consomme 1 Instance pour rediriger le ciblage de cet ennemi vers soi ; puis, copie et utilise la Capacité “Garde-Seigneur” du Seigneur d’Hongyuan Hong Lu\n- Lorsqu’il y a plusieurs alliés avec des Instances de Défense d’Assistance, l’allié avec le plus d’Instance a la plus haute priorité d’activation\n- Cet effet compte comme une Défense d’Assistance et compte dans le calcul d’Instances de Défense d’Assistance\n- Expire à la Fin du Tour",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "HeishouSynergy",
+      "name": "Teneur de Laisse de Tous les Heishou",
+      "desc": "- Instance Max : 11\n- Gagne les effets suivants selon l’Instance :\n· Pour chaque Instance, gagne 1 Vitesse Max (5 max) et inflige +1% de dégâts avec les Capacités\n· Toutes les 2 Instances, gagne 1 Vitesse Min (2 max) et 1 Bonus de Niveau Défensif (5 max)\n· Toutes les 3 Instances, gagne 1 Niveau Offensif (3 max)\n· À 5 Instances ou plus, gagne 1 Bonus de Dégâts et applique 1 Bonus de Niveau Offensif à toutes les Identités de Meutes Heishou",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "HeishouComboCountHonglu",
+      "name": "Contamination de Bolus Heishou [黑獣丸染]",
+      "desc": "- Instance Max : 11\n- Renforce Le Seigneur d’Hongyuan selon le Heishou avec lequel il a activé un combo\n- Les effets de Contamination de Bolus Heishou peuvent se cumuler entre eux\n\n· Heishou - Adepte Mao Faust : subit -5% de dégâts de Capacités\n· Heishou - Mao Ryōshū : si la Vitesse de cette unité est plus rapide que celle de la cible, inflige +5% de dégâts\n· Heishou - Mao Outis : inflige +1 de Compte de Déchirure En Touche avec des Attaques à Sens-Unique (une fois par tour)\n· Heishou - Si Rodion : inflige 1 Déchirure en Touche Critique (3 fois par tour)\n· Heishou - Si Gregor : gagne +1 de Compte de Calme en infligeant des dégâts de Déchirure (une fois par tour)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "DarkHongluQiuAndHonglu",
+      "name": "Celui Qui Suit La Voie de l’Hégémon",
+      "desc": "- Les Capacités d’Hong Lu gagnent +1 de Puissance Finale\n- En Duel Gagné, 1 allié (inclut cette unité) avec le moins de PSM regagne 5 PSM\n- Lorsqu’un allié meurt, au prochain tour, cette unité gagne 2 Bonus de Puissance Offensive et les alliés restants gagnent 1 Bonus de Puissance Offensive (une fois par tour)",
+      "summary": ""
+    },
+    {
+      "id": "DarkHongluTeaching",
+      "name": "Imposition Intransigeante",
+      "desc": "Instance Max : 3\n- Fin du Tour : regagne 5 PSM\n- Lorsque les PV tombent à 0 durant l’Affrontement, regagne tous ses PV (s’active autant de fois que cette unité a d’Instances)\n- Lorsque soigné par cet effet, gagne 1 Bonus de Puissance Finale au prochain tour\n- Activé : {0} fois",
+      "summary": ""
+    },
+    {
+      "id": "DarkHongluParryGahwan",
+      "name": "Tu Es Ridicule, Grand Frère.",
+      "desc": "En Duels contre Jia Huan, +2 de Puissance de Duel",
+      "summary": ""
+    },
+    {
+      "id": "DarkHonglu_EGOResourceup",
+      "name": "Qu’Importe Combien Doivent Saigner…",
+      "desc": "[Effet Exclusif de Hong Lu]\n- Pour cet Affrontement : après avoir utilisé une Capacité Offensive, gagne 2 ressources E.G.O. supplémentaires de l’Affinité de la Capacité (une fois par tour)\n- Lorsque cette unité subit des dégâts, elle gagne 2 Bonus de DGT Tranchant au prochain tour (une fois par tour)",
+      "summary": ""
+    },
+    {
+      "id": "DarkHonglu_Xi",
+      "name": "Bonheur",
+      "desc": "- +1 de Puissance de Duel d’Hong Lu\n- Lorsqu’il y a 1 allié survivant ou plus dans cet Affrontement : en subissant des dégâts léthaux, Hong Lu ne meurt par et se soigne de 50% de PV à la place\n- Nullifie l’effet qui transforme cette unité en un Précieux Jade une fois. En affrontant en Duel des Capacités qui changent cette unité en un Précieux Jade, +5 de Puissance de Duel ; si cette unité gagne ce Duel, cette unité ne devient pas un Précieux Jade, se remet de Déséquilibre, réduit les PSM de Jia Mu de 10 et inflige 2 Vulnérabilité à Jia Mu\nEn Duel Gagné contre Jia Mu, gagne 1 Ressource E.G.O. aléatoire pour chacune des 3 Affinités E.G.O. avec le moins de ressources",
+      "summary": ""
+    },
+    {
+      "id": "DarkHonglu_Le",
+      "name": "Bonheur, Joie",
+      "desc": "- +1 de Puissance Finale d’Hong Lu\n- En Duel Gagné, rend 5 PSM à 1 allié avec le moins de PSM (inclut cette unité)\n- Lorsqu’il y a 1 allié survivant ou plus dans cet Affrontement : en subissant des dégâts léthaux, Hong Lu ne meurt par et se soigne de 50% de PV à la place\nEn Duel Gagné contre Jia Mu, gagne 1 Ressource E.G.O. aléatoire pour chacune des 3 Affinités E.G.O. avec le moins de ressources",
+      "summary": ""
+    },
+    {
+      "id": "DarkHonglu_Ai",
+      "name": "Bonheur, Joie, Peine",
+      "desc": "- +3 de Puissance Finale d’Hong Lu\n- En Duel Gagné, rend 5 PSM à 1 allié avec le moins de PSM (inclut cette unité)\n- Lorsqu’un allié est tué, les alliés restants à la Fin du Tour gagnent 1 Bonus de Puissance Offensive au prochain tour (une fois par tour)\n- Lorsqu’il y a 1 allié survivant ou plus dans cet Affrontement : en subissant des dégâts léthaux, Hong Lu ne meurt par et se soigne de 50% de PV à la place\nEn Duel Gagné contre Jia Mu, gagne 1 Ressource E.G.O. aléatoire pour chacune des 3 Affinités E.G.O. avec le moins de ressources",
+      "summary": ""
+    },
+    {
+      "id": "DarkHonglu_Nu",
+      "name": "Bonheur, Joie, Peine, Colère",
+      "desc": "- +5 de Puissance Finale d’Hong Lu\n- Les alliés regagnent 5 PSM à chaque Début de Tour (inclut cette unité)\n- Lorsqu’un allié est tué, les alliés restants à la Fin du Tour gagnent 1 Bonus de Puissance Offensive au prochain tour (une fois par tour)\n- Lorsqu’il y a 1 allié survivant ou plus dans cet Affrontement : en subissant des dégâts léthaux, Hong Lu ne meurt par et se soigne de 50% de PV à la place\n- Augmente les dégâts infligés de 30% du pourcentage total cumulé de PV que cette unité a perdu durant cet Affrontement (100% max)\nEn Duel Gagné contre Jia Mu, gagne 1 Ressource E.G.O. aléatoire pour chacune des 3 Affinités E.G.O. avec le moins de ressources",
+      "summary": ""
     }
   ]
 }

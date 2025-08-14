@@ -2303,6 +2303,24 @@
       "id": 1111321,
       "name": "Exécution Expéditive des Obligations Professionnelles",
       "desc": "1 allié avec la Vitesse la plus rapide inflige +10% de dégâts en attaquant une cible Déséquilibrée."
+    },
+    {
+      "id": 1061302,
+      "name": "Le Seigneur Heishou",
+      "desc": "Lorsque d’autres unités alliées Substituent ou Reviennent dans le champ de bataille, elles regagnent 10 PSM ; puis, au Début du Combat, leur ordonne d’utiliser une Capacité 1 en Attaque à Sens-Unique contre un ennemi aléatoire\n- Si cet allié est une unité de Meute Heishou ou de la Famille Jia, active le suivant à la place : regagne 20 PSM ; puis, au Début du Combat, leur ordonne d’utiliser leur Capacité 3 de Base en Attaque à Sens-Unique contre un ennemi aléatoire (2 fois par Affrontement par Identité)\n\nDébut de l’Affrontement : gagne 1 [HeishouSynergy] par Identité de Meute Heishou dans l’Équipe, inclut les Unités de Renfort\n\nLorsque des Unités Heishou sont tués dans l’Affrontement, regagne 20 PSM et gagne 1 [HeishouDeathCount] (s’active même lorsque cette unité a Battu en Retraite)\n\nInflige +5% de dégâts par [HeishouComboCountHonglu] (55% max)",
+      "summary": "Inflige plus de dégâts par [HeishouComboCountHonglu]"
+    },
+    {
+      "id": 1061301,
+      "name": "Acceptez le Sang Terni et Exsanguinez les Autres Pour la Cause.",
+      "desc": "Début du Combat : si cette unité n’a pas équipé de Capacité Défensive et s’apprête à subir une Attaque à Sens-Unique, applique 1 [HeishouSupportProtect] à (plus haute Réson./ 3) alliés de Meute Heishou aléatoires avec le moins d’Instances de [SupportProtect]. (2 alliés max ; une fois par Identité ; exclut les Identités avec des Capacités qui gagnent [SupportProtect])\n\nDans cet Affrontement, lorsque cette unité subit des dégâts amenant ses PV à 0, nullifie ces dégâts ; puis, les PV de cette unité ne peuvent pas tomber en-dessous de 1 pour ce tour et gagne 1 [CondensedBlood] (une fois par Affrontement)\n\nLes Capacités de cette unité infligent +3% de dégâts par [CondensedBlood] sur soi\n\nEn activant la Capacité E.G.O. “Larmes[TabExplain] du Sang Terni[TabExplain] - La Fin”, nullifie l’effet de mort et ses effets Après Attaque ; à la place, regagne 60% de PV. À partir du prochain tour, gagne 1 [AttackDmgUp] à chaque Début de Tour (une fois par Affrontement)",
+      "summary": "En subissant des dégâts amenant les PV de cette unité à 0, nullifie la mort et gagne [CondensedBlood]\nEn activant “Larmes[TabExplain] du Sang Terni[TabExplain]”, nullifie la mort, regagne des PV et gagne du [AttackDmgUp]"
+    },
+    {
+      "id": 1061321,
+      "name": "Veuillez être intraçables dans vos actes.",
+      "desc": "Identité avec le moins de pourcentage de PV actuel : inflige +(types de Ritemorts sur la cible * 3)% de dégâts contre l’ennemi (15% max)",
+      "summary": ""
     }
   ]
 }

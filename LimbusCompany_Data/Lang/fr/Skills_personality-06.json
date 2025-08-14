@@ -2009,6 +2009,443 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1061301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Je Souhaite Ouvrir le Chemin",
+          "desc": "[StartBattle] Applique 1 [Endurance] à 1 + (plus haute Réson./3) autres alliés. (une fois par tour ; 3 max ; priorise les cibles avec [SupportProtect] ; inclut les Défenses d’Assistance Uniques)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Je Souhaite Ouvrir le Chemin",
+          "desc": "[StartBattle] Applique 1 [Endurance] à 1 + (plus haute Réson./3) autres alliés. (une fois par tour ; 3 max ; priorise les cibles avec [SupportProtect] ; inclut les Défenses d’Assistance Uniques)\n<style=\"highlight\">[WhenUse] À 6 ([Burst] de la cible + [Breath] sur soi) ou plus, +1 de Puissance de Pièce</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Breath]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Je Souhaite Ouvrir le Chemin",
+          "desc": "[StartBattle] Applique 1 [Endurance] à 1 + (plus haute Réson./3) autres alliés. (une fois par tour ; 3 max ; priorise les cibles avec [SupportProtect] ; inclut les Défenses d’Assistance Uniques)\n[WhenUse] À 6 ([Burst] de la cible + [Breath] sur soi) ou plus, +1 de Puissance de Pièce\n<style=\"highlight\">[WhenUse] Si la cible a 3 types d’effets négatifs ou plus, +1 de Puissance de Duel</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +<style=\"highlight\">3</style> de Compte de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Couperet Absolu d’Ambitions du Sang Terni [汚血絕志竟成]",
+          "desc": "[WhenUse] Gagne 2 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Couperet Absolu d’Ambitions du Sang Terni [汚血絕志竟成]",
+          "desc": "<style=\"highlight\">[WhenUse] À 6 ([Burst] de la cible + [Breath] sur soi) ou plus, +1 de Puissance de Pièce</style>\n[WhenUse] Gagne <style=\"highlight\">3</style> [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Breath]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 1 [Burst]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">Inflige +50% de dégâts</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Couperet Absolu d’Ambitions du Sang Terni [汚血絕志竟成]",
+          "desc": "<style=\"highlight\">[StartBattle] Applique 1 [ShamrockDamageUp] à tous les autres alliés qui ont des Capacités de Gourmandise équipées ce tour (une fois par tour)</style>\n<style=\"highlight\">[WhenUse] +1 de Puissance de Pièce toutes les 6 ([Burst] de la cible + [Breath] sur soi) (2 max)</style>\n[WhenUse] Gagne 3 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Breath]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "Inflige +50% de dégâts<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">+50% de dégâts en Touche Critique</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061303,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Répondez-Moi, Meute Heishou",
+          "desc": "Cette Capacité ne déclenche pas les Capacités Défensives\n\n[WhenUse] Gagne 3 [Breath] et +1 de Compte de [Breath]\n\n[EndSkill] Parmi les unités alliées de Meute Heishou pouvant agir, choisit 1 unité avec le moins d’Instance [HeishouComboCount] et applique [HeishouComboCount] ; puis, lui accorde [HeishouCombo]. (Une fois par tour)\n- Après la fin du [HeishouCombo], Le Seigneur d’Hongyuan Hong Lu active “Je Trace le Chemin d’un Seigneur”\n- Si le [HeishouCombo] ne s’est pas activé, ou si l’Identité de combo est Déséquilibrée ou vaincu avant la fin du [HeishouCombo], utilise “Position Solitaire : Sacrifice d'Obtention Du Jardin” à la place",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [AttackDown] tous les 2 types d’effets négatifs sur la cible (3 max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [DefenseDown] par type de Ritemort sur la cible (3 max)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Répondez-Moi, Meute Heishou",
+          "desc": "Cette Capacité ne déclenche pas les Capacités Défensives\n\n<style=\"highlight\">[WhenUse] +1 de Puissance de Pièce toutes les 4 ([Burst] de la cible + [Breath] sur soi) (3 max)</style>\n[WhenUse] Gagne <style=\"highlight\">5</style> [Breath] et +<style=\"highlight\">3</style> de Compte de [Breath]\n\n[EndSkill] Parmi les unités alliées de Meute Heishou pouvant agir, choisit 1 unité avec le moins d’Instance [HeishouComboCount] et applique [HeishouComboCount] ; puis, lui accorde [HeishouCombo]. (Une fois par tour)\n- Après la fin du [HeishouCombo], Le Seigneur d’Hongyuan Hong Lu active “Je Trace le Chemin d’un Seigneur”\n- Si le [HeishouCombo] ne s’est pas activé, ou si l’Identité de combo est Déséquilibrée ou vaincu avant la fin du [HeishouCombo], utilise “Position Solitaire : Sacrifice d'Obtention Du Jardin” à la place",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [AttackDown] tous les 2 types d’effets négatifs sur la cible (3 max)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [DefenseDown] par type de Ritemort sur la cible (3 max)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Griffe Acérée Heishou [黑獣利爪]",
+          "desc": "[DuelCounter]\n[StartBattle] Applique 1 [SlashResultUp] à (plus haute Réson.) Identités de Meute Heishou alliées (une fois par tour)\n\n[StartBattle] S’il y a des Unités de Renfort, sélectionne 1 allié Heishou avec le moins de pourcentage de PV.\n- En utilisant cette Capacité, applique [HeishouAttack] à l’allié sélectionné, lui ordonne [RetreatForCommon] et lui rend 10% de ses PV en Battant en Retraite (une fois par tour)\n- L’Identité de Meute Heishou qui a Battu en Retraite suite à cet effet sera placé plus tôt dans la ligne de Retour que les Identités non-Heishou\n[StartBattle] S’il n’y a pas d’Unités de Renfort, applique 2 [Enhancement] à 1 allié Heishou avec le moins de pourcentage de PV (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Griffe Acérée Heishou [黑獣利爪]",
+          "desc": "[DuelCounter]\n[StartBattle] Applique 1 [SlashResultUp] à (plus haute Réson.) Identités de Meute Heishou alliées (une fois par tour)\n\n[StartBattle] S’il y a des Unités de Renfort, sélectionne 1 allié Heishou avec le moins de pourcentage de PV.\n- En utilisant cette Capacité, applique [HeishouAttack] à l’allié sélectionné, lui ordonne [RetreatForCommon] et lui rend 10% de ses PV en Battant en Retraite (une fois par tour)\n- L’Identité de Meute Heishou qui a Battu en Retraite suite à cet effet sera placé plus tôt dans la ligne de Retour que les Identités non-Heishou\n[StartBattle] S’il n’y a pas d’Unités de Renfort, applique 2 [Enhancement] à 1 allié Heishou avec le moins de pourcentage de PV (une fois par tour)<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Je Trace le Chemin d’un Seigneur",
+          "desc": "[WhenUse] Si cette unité a activé un combo avec une Identité Adepte de Meute Heishou : +1 de Puissance de Base, +1 de Puissance de Pièce\n\n[WhenUse] À 6 ([Burst] de la cible + [Breath] sur soi) ou plus, +1 de Puissance de Pièce\n[WhenUse] Inflige +5% de dégâts par [HeishouComboCountHonglu]\n[EndSkill] Gagne [HeishouComboCountHonglu] selon quelle Identité de Meute Heishou a activé [HeishouCombo]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                },
+                {
+                  "desc": "[EnemyKill] Pour 2 Identités alliées de Meute Heishou avec le moins de PSM, regagne 10 PSM et applique 1 [Enhancement] au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Je Trace le Chemin d’un Seigneur",
+          "desc": "[WhenUse] Si cette unité a activé un combo avec une Identité Adepte de Meute Heishou : +1 de Puissance de Base, +1 de Puissance de Pièce\n\n<style=\"highlight\">Inflige +1% de dégâts tous les 1% de (pourcentage de PV manquant de la cible + pourcentage de PV manquant sur soi) (50% max)</style>\n[WhenUse] <style=\"highlight\">+1 de Puissance de Pièce toutes les 6 ([Burst] de la cible + [Breath] sur soi) (3 max)</style>\n<style=\"highlight\">[WhenUse] Inflige +10% de dégâts tous les 2 types d’effets négatifs sur la cible (30% max)</style>\n[WhenUse] Inflige <style=\"highlight\">+10%</style> de dégâts par [HeishouComboCountHonglu]\n[EndSkill] Gagne [HeishouComboCountHonglu] selon quelle Identité de Meute Heishou a activé [HeishouCombo]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">Inflige +50% de dégâts en Touche Critique</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 1 [SlashResistDown] au prochain tour (une fois par tour)</style>"
+                },
+                {
+                  "desc": "[EnemyKill] Pour 2 Identités alliées de Meute Heishou avec le moins de PSM, regagne 10 PSM et applique 1 [Enhancement] au prochain tour<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061306,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Position Solitaire : Sacrifice d'Obtention Du Jardin [孑孑單身, 捨生取园]",
+          "desc": "Inflige +10% de dégâts par [HeishouDeathCount] sur soi\nInflige +1% de dégâts tous les 1% (pourcentage de PV manquant de la cible + pourcentage de PV manquant sur soi) (50% max)\n[WhenUse] À 3 [HeishouDeathCount] ou plus, gagne +1 de Poids d’Atq\n[WhenUse] À 6 ([Burst] de la cible + [Breath] sur soi) ou plus, +1 de Puissance de Pièce\n[WhenUse] Inflige +5% de dégâts par [HeishouComboCountHonglu]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +10% de dégâts par type d’effet négatif sur la cible (50% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [SlashResistDown] au prochain tour (une fois par tour)"
+                },
+                {
+                  "desc": "[EnemyKill] Gagne 1 [Enhancement] au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Position Solitaire : Sacrifice d'Obtention Du Jardin [孑孑單身, 捨生取园]",
+          "desc": "Inflige +10% de dégâts par [HeishouDeathCount] sur soi\nInflige +1% de dégâts tous les 1% (pourcentage de PV manquant de la cible + pourcentage de PV manquant sur soi) (50% max)\n[WhenUse] À 3 [HeishouDeathCount] ou plus, gagne +1 de Poids d’Atq\n<style=\"highlight\">[WhenUse] +1 de Puissance de Pièce toutes les 6 ([Burst] de la cible + [Breath] sur soi) (3 max)</style>\n<style=\"highlight\">[WhenUse] Inflige +10% de dégâts tous les 2 types d’effets négatifs sur la cible (30% max)</style>\n[WhenUse] Inflige <style=\"highlight\">+10%</style> de dégâts par [HeishouComboCountHonglu]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +10% de dégâts par type d’effet négatif sur la cible (50% max)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [SlashResistDown] au prochain tour (une fois par tour)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[EnemyKill] Gagne <style=\"highlight\">2</style> [Enhancement] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061307,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Garde-Seigneur",
+          "desc": "[CanDuelGuard]\nCette Capacité compte comme une Défense d’Assistance[TabExplain] uniquement pour l’unité qui utilise la Capacité et ne déclenche pas les effets d’autres personnages avec des conditions vérifiant l’activation de [SupportProtect].\n[WhenUse] Si la cible a 3 types d’effets négatifs ou plus, +1 de Puissance de Duel",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
