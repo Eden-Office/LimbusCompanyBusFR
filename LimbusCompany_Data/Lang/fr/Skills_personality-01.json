@@ -2261,6 +2261,398 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1011401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Abattre et Piétiner",
+          "desc": "[WhenUse] Si la cible a 5 ([Burst] + [Vibration]) ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Abattre et Piétiner",
+          "desc": "<style=\"highlight\">Si la Vitesse de cette unité est plus rapide que celle de la cible, +1 de Puissance de Pièce</style>\n[WhenUse] Si la cible a 5 ([Burst] + [Vibration]) ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige +1 de Compte de [Burst]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Abattre et Piétiner",
+          "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible, +1 de Puissance de Pièce\n[WhenUse] Si la cible a 5 ([Burst] + [Vibration]) ou plus, +1 de Puissance de Pièce\n<style=\"highlight\">[WinDuel] Inflige 1 [Binding] au prochain tour (2 fois par tour)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Frappe du Croissant de Lame [月刀擊]",
+          "desc": "[WhenUse] +1 de Puissance de Pièce tous les 5 de ([Burst] + [Vibration]) sur la cible (2 max)\n[WhenUse] Gagne 1 [Agility] au prochain tour (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Frappe du Croissant de Lame [月刀擊]",
+          "desc": "<style=\"highlight\">Si la Vitesse de cette unité est plus rapide que celle de la cible, +1 de Puissance de Pièce</style>\n[WhenUse] +1 de Puissance de Pièce tous les 5 de ([Burst] + [Vibration]) sur la cible (2 max)\n[WhenUse] Gagne <style=\"highlight\">2</style> [Agility] au prochain tour (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Si la cible a Ritemort, inflige 1 [ConcussionYisang]</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Frappe du Croissant de Lame [月刀擊]",
+          "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible:\n- +1 de Puissance de Pièce\n<style=\"highlight\">- Si la Vitesse de cette unité est plus rapide que celle de la cible de 2 ou plus, inflige +([BreakthroughHorse] sur soi * 20)% de dégâts (100% max)</style>\n\n[WhenUse] +1 de Puissance de Pièce tous les 5 de ([Burst] + [Vibration]) sur la cible (2 max)\n[WhenUse] Gagne 2 [Agility] au prochain tour (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible n’a pas Ritemort, inflige 1 [ConcussionYisang]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Si la cible a Ritemort, inflige 3 [Burst]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011403,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Charge de Cavalerie d’Avant-Garde",
+          "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible:\n- +1 de Puissance Finale\n- Inflige +([BreakthroughHorse] sur soi * 10)% de dégâts (40% max)\n\nInflige +(PV de Bouclir sur soi * 2)% de dégâts (50% max)\n\n[BeforeUse] À 5 [BreakthroughHorse], le consomme entièrement pour activer “Décapiteur Croissant du Chevaucheur Obsidienne des Vents” à la place\n[WhenUse] Gagne 3 [LegStrengthHorseYisang]\n[WhenUse] +1 de Puissance de Pièce tous les 5 de ([Burst] + [Vibration]) sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 2 [LegStrengthHorseYisang] ou plus, inflige 1 [ConcussionYisang]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Charge de Cavalerie d’Avant-Garde",
+          "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible:\n- +1 de Puissance Finale\n- Inflige +([BreakthroughHorse] sur soi * <style=\"highlight\">20</style>)% de dégâts (<style=\"highlight\">80</style>% max)\n\nInflige +(PV de Bouclier sur soi * 2)% de dégâts (50% max)\n\n[BeforeUse] À 5 [BreakthroughHorse], le consomme entièrement pour activer “Décapiteur Croissant du Chevaucheur Obsidienne des Vents” à la place\n[WhenUse] Gagne 3 [LegStrengthHorseYisang]\n[WhenUse] +1 de Puissance de Pièce tous les 5 de ([Burst] + [Vibration]) sur la cible (2 max)\n<style=\"highlight\">[WhenUse] À 3 [BreakthroughHorse] ou plus, change toutes les Pièces en [SuperCoin]s</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour"
+                },
+                {
+                  "desc": "<style=\"highlight\">- À 3 [BreakthroughHorse] ou plus, inflige 1 [Binding] supplémentaire</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 2 [LegStrengthHorseYisang] ou plus, inflige <style=\"highlight\">2</style> [ConcussionYisang]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Préparation Avant la Charge.",
+          "desc": "[CanDuelGuard] \n[StartBattle] Gagne 3 [LegStrengthHorseYisang] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Préparation Avant la Charge.",
+          "desc": "[CanDuelGuard]\n[StartBattle] Gagne 3 [LegStrengthHorseYisang] au prochain tour\n<style=\"highlight\">[EndBattle] Retire 1 effet négatif aléatoire retirable appliqué sur soi (une fois par tour)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011405,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Décapiteur Croissant du Chevaucheur Obsidienne des Vents [黑風馬脚月斬]",
+          "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible, +1 de Puissance Finale\n[WhenUse] Applique 1 [BattlefieldHorse] à tous les autres alliés au prochain tour (une fois par tour)\n[WhenUse] Gagne 3 [LegStrengthHorseYisang]\n[WhenUse] +1 de Puissance de Pièce tous les 5 de ([Burst] + [Vibration]) sur la cible (2 max)\n[WinDuel] Si la Vitesse de cette unité est plus rapide que celle de la cible, inflige +50% de dégâts",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [ConcussionYisang]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Décapiteur Croissant du Chevaucheur Obsidienne des Vents [黑風馬脚月斬]",
+          "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible, +1 de Puissance Finale\n[WhenUse] Applique 1 [BattlefieldHorse] à tous les autres alliés au prochain tour (une fois par tour)\n[WhenUse] Gagne 3 [LegStrengthHorseYisang]\n[WhenUse] +1 de Puissance de Pièce tous les 5 de ([Burst] + [Vibration]) sur la cible (2 max)\n[WinDuel] Si la Vitesse de cette unité est plus rapide que celle de la cible, inflige +50% de dégâts\n<style=\"highlight\">[WinDuel] Inflige 1 [ConcussionYisang] à la cible principale</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [ConcussionYisang]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

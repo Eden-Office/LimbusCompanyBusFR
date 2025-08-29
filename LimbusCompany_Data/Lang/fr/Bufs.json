@@ -2542,7 +2542,7 @@
     {
       "id": "DragonLance",
       "name": "Épieu de Sépulture Florale [埋花櫼]",
-      "desc": "Instance de Base : 0\nInstance max : 3\n- Toutes les Pièces de la Capacité Offensive de Base la plus à gauche du Tableau de Bord de cette unité deviennent des Pièces Incassables\n- Début du Tour : gagne 2 Bonus de Niveau Offensif et 2 Malus de Niveau Défensif\n- Début du Tour : à 3 Instances ou plus, gagne 1 Sang Terni (une fois par Affrontement)\n- Fin du Tour : gagne 1 Instance\n※ Impossible d’augmenter l’Instance de l’effet avec une méthode différente que celles ci-dessus\n- Expire en étant vaincu ou en Battant en Retraite\n\n- Lorsque cette unité subit des dégâts amenant ses PV à 0 : au lieu de laisser les PV de cette unité tomber en-dessous de 1, ou de devenir Déséquilibré ou Vaincu, utilise la Capacité “Larmes du Sang Terni - La Fin” à la toute fin de ce tour. Retire l’Épieu de Sépulture Florale à la fin de la Capacité.\nLorsque cette unité subit des dégâts amenant ses PV à 1 à la Fin du Tour, utilise la Capacité “Larmes du Sang Terni - La Fin” selon la Vitesse de cette unité au prochain tour",
+      "desc": "Instance de Base : 0\nInstance max : 3\n- Toutes les Pièces de la Capacité Offensive de Base la plus à gauche du Tableau de Bord de cette unité deviennent des Pièces Incassables\n- Début du Tour : gagne 2 Bonus de Niveau Offensif et 2 Malus de Niveau Défensif par Instance\n- Début du Tour : à 3 Instances ou plus, gagne 1 Sang Terni (une fois par Affrontement)\n- Fin du Tour : gagne 1 Instance\n※ Impossible d’augmenter l’Instance de l’effet avec une méthode différente que celles ci-dessus\n- Expire en mourant ou en Battant en Retraite\n\n- Lorsque cette unité subit des dégâts amenant ses PV à 0 : au lieu de laisser les PV de cette unité tomber en-dessous de 1, ou de devenir Déséquilibré ou Vaincu, utilise la Capacité “Larmes du Sang Terni - La Fin” à la toute fin de ce tour. Retire l’Épieu de Sépulture Florale à la fin de la Capacité.\nLorsque cette unité subit des dégâts amenant ses PV à 1 à la Fin du Tour, utilise la Capacité “Larmes du Sang Terni - La Fin” selon la Vitesse de cette unité au prochain tour",
       "summary": "",
       "undefined": "-"
     },
@@ -2744,7 +2744,7 @@
     {
       "id": "DarkHongluTeaching",
       "name": "Imposition Intransigeante",
-      "desc": "Instance Max : 3\n- Fin du Tour : regagne 5 PSM\n- Lorsque les PV tombent à 0 durant l’Affrontement, regagne tous ses PV (s’active autant de fois que cette unité a d’Instances)\n- Lorsque soigné par cet effet, gagne 1 Bonus de Puissance Finale au prochain tour\n- Activé : {0} fois",
+      "desc": "Instance Max : 3\n- Fin du Tour : regagne 5 PSM\n- Lorsque les PV tombent à 0 durant l’Affrontement, regagne tous ses PV (s’active autant de fois que cette unité a d’Instances)\n- Lorsque soigné par cet effet, gagne 1 Bonus de Puissance au prochain tour\n- Activé : {0} fois",
       "summary": ""
     },
     {
@@ -2781,6 +2781,36 @@
       "id": "DarkHonglu_Nu",
       "name": "Bonheur, Joie, Peine, Colère",
       "desc": "- +5 de Puissance Finale d’Hong Lu\n- Les alliés regagnent 5 PSM à chaque Début de Tour (inclut cette unité)\n- Lorsqu’un allié est tué, les alliés restants à la Fin du Tour gagnent 1 Bonus de Puissance Offensive au prochain tour (une fois par tour)\n- Lorsqu’il y a 1 allié survivant ou plus dans cet Affrontement : en subissant des dégâts léthaux, Hong Lu ne meurt par et se soigne de 50% de PV à la place\n- Augmente les dégâts infligés de 30% du pourcentage total cumulé de PV que cette unité a perdu durant cet Affrontement (100% max)\nEn Duel Gagné contre Jia Mu, gagne 1 Ressource E.G.O. aléatoire pour chacune des 3 Affinités E.G.O. avec le moins de ressources",
+      "summary": ""
+    },
+    {
+      "id": "ChickenStance",
+      "name": "Embrasesang [血炎]",
+      "desc": "- Instance Max : 3\n- Cette unité inflige +1 d’Intensité de Brûlure et de Déchirure supplémentaire avec ses Capacités de Base\n- Tant que cette unité a cet effet, regagne 3 PSM en Déséquilibrant ou en tuant un ennemi (3 fois par tour)\n· Si les PSM de cette unité sont au max lorsque l’effet ci-dessus s’active, gagne 1 Bonus de Niveau Offensif et 1 Accélération au prochain tour\n- Perd 1 Instance à la Fin du Tour",
+      "summary": "Inflige +1 Brûlure ou Déchirure supplémentaire"
+    },
+    {
+      "id": "LegStrengthHorseYisang",
+      "name": "Marcheur【Wu】",
+      "desc": "- Instance Max : 3\n- Fin du Tour : gagne 2 Accélération et (Instance * 2) d’Aggro au prochain tour\n- Avant l’Attaque : inflige (Instance) d’Intensité de Tremblement à la cible principale (6 max par tour)\n- Perd 1 Instance à la Fin du Tour",
+      "summary": ""
+    },
+    {
+      "id": "ConcussionYisang",
+      "name": "Commotion Cérébrale",
+      "desc": "- Instance Max : 2\n- Multiplie par 1.2 la quantité de Seuil de Déséquilibre augmentée par Sursaut de Tremblement et les dégâts de Déchirure infligés à cette unité (arrondi à l’inférieur)\n- Perd 1 Instance à la Fin du Tour",
+      "summary": ""
+    },
+    {
+      "id": "BreakthroughHorse",
+      "name": "Briseur de Ligne",
+      "desc": "- Instance Max : 5\n- Début du Tour : gagne (Instance * 10) de Bouclier pour ce tour\n- À Instance max, gagne 2 de Puissance Finale\n- Lorsque touché : si cette unité a subi 100 dégâts ou plus en une seule Capacité, gagne 1 Protection après la fin de cette Capacité (2 fois par tour ; inclut les dégâts contre les PV de Bouclier ; ne compte pas les dégâts de Mots-Clé)",
+      "summary": ""
+    },
+    {
+      "id": "BattlefieldHorse",
+      "name": "Cri de Commandement",
+      "desc": "- Gagne 1 de Puissance de Duel et 2 Niveaux Défensifs\n- Expire à la Fin du Tour",
       "summary": ""
     }
   ]

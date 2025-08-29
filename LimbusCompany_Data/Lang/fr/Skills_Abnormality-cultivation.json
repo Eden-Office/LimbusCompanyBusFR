@@ -1,0 +1,954 @@
+{
+  "dataList": [
+    {
+      "id": 124701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Piétinement du Destrier de Fer",
+          "desc": "[WhenUse] Si la cible a 6 ([Burst] + [Vibration]) ou plus, +3 de Puissance de Base\n[DefeatDuel] Réduit l’Intensité de [Vibration] de la cible de 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 124702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Piétinement Déchirant",
+          "desc": "[WhenUse] +2 de Puissance de Base tous les 4 ([Burst] + [Vibration]) sur la cible (4 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 124703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Charge de Cavalrie Écraseuse de Ligne",
+          "desc": "[WhenUse] Si la cible a 6 ([Burst] + [Vibration]) ou plus, +2 de Puissance de Base\n[WhenUse] À -30 PSM ou moins, les Pièces de cette unité font toujours Face\n[DefeatDuel] Réduit l’Intensité de [Vibration] de la cible de 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 8 [Burst] et +5 de Compte de [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 124704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Piétiner et Décapiter",
+          "desc": "[WhenUse] +2 de Puissance de Base tous les 4 ([Burst] + [Vibration]) sur la cible (4 max)\n- À 15 ([Burst] + [Vibration]) ou plus sur la cible, +1 de Puissance de Pièce Négative",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 124705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sales serpents… Je vous écraserai tous…",
+          "desc": "[WhenUse] +2 de Puissance de Base tous les 4 ([Burst] + [Vibration]) sur la cible principale (4 max)\n[DefeatDuel] -8 de Puissance de Base\n[DefeatDuel] Inflige -80% de dégâts et les dégâts de cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [SweptAwayWei] aux sous-cibles au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 124706,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Destrier Véloce Briseur de Ligne",
+          "desc": "[WhenUse] +2 de Puissance de Base tous les 4 ([Burst] + [Vibration]) sur la cible principale (6 max)\n[DefeatDuel] -5 de Puissance de Base\n[DefeatDuel] Inflige -80% de dégâts et les dégâts de cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si c’est la cible principale, inflige 5 [Vibration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 3 [Vibration] à 1 sous-cible"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige [SweptAwayWei] aux sous-cibles au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 124707,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vous Ne Passerez Pas… !",
+          "desc": "Priorise la cible avec le moins d’Intensité de [Vibration]\n[WhenUse] Si la cible n’a pas de [Vibration], -5 de Puissance de Base\n[BeforeAttack] Si la cible n’a pas de [Vibration], inflige -90% de dégâts\n[DefeatDuel] -4 de Puissance de Base\n[DefeatDuel] Les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 124708,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Déchireur de Néant du Destrier Fou",
+          "desc": "Inflige +1% de dégâts par 1% de PV manquants sur soi (80% max)\n[BeforeAttack] À 50% de PV ou moins, gagne +2 de Poids d’Atq supplémentaires\n[BeforeAttack] Si cette unité n’a pas [LegStrengthHorse], cette Capacité inflige +120% de dégâts ; puis, gagne 2 [Vulnerable] au prochain tour\n[DefeatDuel] -12 de Puissance de Base\n[DefeatDuel] Inflige -80% de dégâts et les dégâts de cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Burst]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 5 [Burst] et +5 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Vibration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 5 [Vibration] et +5 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 127201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tourbillon Frontal (前旋斬)",
+          "desc": "[WhenUse] +1 de Puissance de Pièce tous les 5 [Laceration] sur la cible (2 max)\n[WhenUse] Gagne 1 [SipOfAlcoholJin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 127202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Voie de la Gorgée à Gorge Ouverte (咽道酒)",
+          "desc": "[WhenUse] +1 de Puissance de Pièce tous les 5 [Laceration] sur la cible (2 max)\n[WhenUse] Gagne 1 [SipOfAlcoholJin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 5 [Laceration] ou plus, inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 127203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cascade (落酒)",
+          "desc": "[WhenUse] Si la cible a 5 [Laceration] ou plus, +1 de Puissance de Pièce\n[WhenUse] +1 de Puissance de Base par Compte de [DrunkBlood] sur la cible (2 max)\n[WinDuel] Gagne 1 [SipOfAlcoholJin]\n[DefeatDuel] Perd 2 [SipOfAlcoholJin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +3 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 127204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Goulée (取)",
+          "desc": "[WhenUse] +1 de Puissance de Pièce tous les 5 [Laceration] sur la cible (2 max)\n[WhenUse] +1 de Puissance de Base par [DrunkBlood] sur la cible (2 max)\n[WhenUse] À 3 [SipOfAlcoholJin] ou plus, convertit toutes les Pièces en [SuperCoin]s\n[DefeatDuel] Inflige -80% de dégâts et les dégâts de cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +1% de dégâts par ([Laceration] + Compte de [Laceration]) sur la cible (20% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cette unité a 3 [SipOfAlcoholJin] ou plus, réutilise cette Capacité une fois (une fois par Capacité)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 127205,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Véritable Coup Fatal de Décapitation (眞鎭終斬)",
+          "desc": "[WhenUse] +5 de Puissance de Pièce tous les 6 [Laceration] sur la cible (10 max)\n[WhenUse] Si la cible a [DrunkBlood], convertit toutes les Pièces en [SuperCoin]s\n[DefeatDuel] Inflige -80% de dégâts et les dégâts de cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +1% de dégâts par ([Laceration] + Compte de [Laceration]) sur la cible (100% max)"
+                },
+                {
+                  "desc": "Inflige +10% de dégâts par [DrunkBlood] sur la cible (50% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [SipOfAlcoholJin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige ([DrunkBlood] sur la cible * 5) dégâts de Luxure (25 max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 127206,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Inclinaison Intoxiquée (醉靠)",
+          "desc": "[WhenUse] Gagne 10 Bouclier par [SipOfAlcoholJin] sur soi (50 max)\n[WhenUse] Si la cible a [DrunkBlood], inflige 5 [Laceration]",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 127207,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Frappe Ivre Renvoyée (醉回攻)",
+          "desc": "[DuelCounter]\n[WhenUse] Inflige +20% de dégâts par [SipOfAlcoholJin] sur soi (100% max)\n[WhenUse] Si la cible a [DrunkBlood], inflige +50% de dégâts",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [SlashResistDown] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige ([DrunkBlood] sur la cible * 5) dégâts de Luxure (25 max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 127208,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Véritable Coup Fatal de Décapitation Ultime (眞-眞鎭終斬)",
+          "desc": "Priorise Jia Xichun\n[CantChangeTarget]\n[WhenUse] Si la Vitesse de cette unité est supérieure à celle de la cible, +1 de Puissance de Pièce\n[WhenUse] Gagne 1 [AttackUp] et 1 [Agility] au prochain tour par [SipOfAlcoholJin] sur soi (3 max)\n[WinDuel] Gagne +7 de Poids d’Atq",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Inflige +1% de dégâts par ([Laceration] + Compte de [Laceration]) sur la cible (100% max)"
+                },
+                {
+                  "desc": "Inflige +10% de dégâts par [DrunkBlood] sur la cible (50% max)"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 10 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige ([DrunkBlood] sur la cible * 10) dégâts de Luxure (50 max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 127209,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chute de Lames Enivrantes de Décapitation (落醉斬)",
+          "desc": "[WhenUse] +1 de Puissance de Base tous les 5 [Breath] sur soi (2 max)\n[WhenUse] Si la Vitesse de cette unité est plus rapide que celle de la cible, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Véritable Coup Fatal de Décapitation Ultime (眞-眞鎭終斬) inflige +20% de dégâts"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Réutilise cette Pièce (5 fois max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 127210,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Marcheur d’Ombre Enivré (醉影步)",
+          "desc": "[WhenUse] +6 de Puissance de Base tous les 2 alliés en vie (12 max)\n[OnSucceedEvade] Gagne 3 [Breath]\n[EndBattle] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102506,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Véritable Coup Fatal de Décapitation",
+          "desc": "[StartBattle] Les PV ne tombent pas en-dessous de 1 avant la fin de cette Capacité.\n[WhenUse] Gagne 10 [AttackUp]\n[WhenUse] Gagne 5 [Enhancement]\n[WhenUse] Gagne 10 [AttackDmgUp]\n[DefeatDuel] Inflige -80% de dégâts et les dégâts de cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Inflige +1% de dégâts par ([Laceration] + Compte de [Laceration]) sur la cible (100% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 5 [SipOfAlcohol]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Écrasement Vers Le Bas",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Combo de Bâton",
+          "desc": "[WinDuel] Inflige +30% de dégâts",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Balayage Dévastateur",
+          "desc": "[WinDuel] Gagne 1 [Enhancement]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Riposte",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Croissance",
+          "desc": "[DefeatDuel] Inflige -80% de dégâts et les dégâts de cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 3 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +3 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +20% de dégâts"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +50% de dégâts"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 115905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "École des Talismans Spirituels - Fureur Infâme",
+          "desc": "[WhenUse] +1 de Puissance Finale tous les 4 [Burst] sur la cible (4 max)\n[DefeatDuel] Inflige -50% de dégâts et les dégâts de cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 10 [OminousTalisman]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 10 [OminousTalisman]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Retire tous les [OminousTalisman] de la cible"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 115706,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Oh, merde…",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 115707,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "C’est quoi ce faux combat idiot ?",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vulnerable] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 115708,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "…",
+          "desc": "[WhenUse] Si la cible a 3 types d’effets négatifs ou plus, +1 de Puissance de Base\n[WhenUse] +1 de Puissance de Pièce tous les 6 [Burst] sur la cible (2 max)\n[DefeatDuel] Gagne 1 [Vulnerable]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                },
+                {
+                  "desc": "Inflige 5 dégâts de PSM"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
+                },
+                {
+                  "desc": "Inflige 5 dégâts de PSM"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 115709,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "C’est Quoi ce Jeu d’Enfant ?",
+          "desc": "[WhenUse] Regagne 15 PSM\n[WhenUse] Si la cible a 3 types d’effets négatifs ou plus, +1 de Puissance de Base",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

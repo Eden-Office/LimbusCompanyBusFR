@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Coup Carmin",
-          "desc": "[WhenUse] Si la cible a 5 effets négatifs ou plus, +1 de Puissance de Duel\n[WhenUse] +1 de Puissance de Base pour chaque 3 [Burst] sur la cible (2 max)",
+          "desc": "[WhenUse] Si la cible a 5 types d’effets négatifs ou plus, +1 de Puissance de Duel\n[WhenUse] +1 de Puissance de Base pour chaque 3 [Burst] sur la cible (2 max)",
           "coinlist": [
             {
               "coindescs": [
@@ -29,6 +29,126 @@
               ]
             }
           ]
+        },
+        {
+          "level": 2,
+          "name": "Coup Carmin Deuxième Forme - Déchirure (破)",
+          "desc": "[WhenUse] Si la cible a 5 types d’effets négatifs ou plus, +1 de Puissance de Duel\n[WhenUse] +1 de Puissance de Base toutes les 3 [Burst] sur la cible (2 max)\n[WhenUse] +1 de Puissance de Pièce toutes les 6 [Burst] sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne 1 [AttackUp] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne 1 [AttackUp] au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Coup Carmin Troisième Forme - Puissance (强)",
+          "desc": "[WhenUse] Si la cible a 5 types d’effets négatifs ou plus, +2 de Puissance de Duel\n[WhenUse] +1 de Puissance de Base toutes les 3 [Burst] sur la cible (2 max)\n[WhenUse] +1 de Puissance de Pièce toutes les 6 [Burst] sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst] et +2 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne 1 [AttackUp] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst] et +2 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne 1 [AttackUp] au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Coup Carmin Quatrième Forme - Attache (束)",
+          "desc": "[WhenUse] Si la cible a 5 types d’effets négatifs ou plus, +2 de Puissance de Duel\n[WhenUse] +1 de Puissance de Base toutes les 3 [Burst] sur la cible (2 max)\n[WhenUse] +1 de Puissance de Pièce toutes les 6 [Burst] sur la cible (2 max)\n[WhenUse] Gagne 3 [Agility] au prochain tour (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst] et +2 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne 1 [AttackUp] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst] et +2 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne 1 [AttackUp] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Binding] au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "name": "Coup Carmin Cinquième Forme - Progression (進)",
+          "desc": "[WhenUse] Si la cible a 5 types d’effets négatifs ou plus, +2 de Puissance de Duel\n[WhenUse] +1 de Puissance de Base toutes les 3 [Burst] sur la cible (2 max)\n[WhenUse] +1 de Puissance de Pièce toutes les 6 [Burst] sur la cible (2 max)\n[WhenUse] Gagne 3 [Agility] au prochain tour (une fois par tour)\n[WhenUse] Gagne 3 [Breath] et +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst] et +2 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne 1 [AttackUp] au prochain tour"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst] et +2 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne 1 [AttackUp] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Binding]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Réutilise cette Pièce (2 fois max)"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -38,7 +158,7 @@
         {
           "level": 1,
           "name": "Phoenix Carmin",
-          "desc": "[WhenUse] Si la cible a 5 effets négatifs ou plus, +1 de Puissance de Pièce\n[WhenUse] +1 de Puissance de Pièce pour chaque 6 [Burst] sur la cible (2 max)",
+          "desc": "[WhenUse] Si la cible a 5 types d’effets négatifs ou plus, +1 de Puissance de Pièce\n[WhenUse] +1 de Puissance de Pièce pour chaque 6 [Burst] sur la cible (2 max)",
           "coinlist": [
             {
               "coindescs": [
@@ -63,23 +183,265 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gagne du [Breath] égal à la [Burst] de la cible (5 max)"
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Breath]. Gagne autant de [Breath] que de [Burst] sur la cible (5 max)"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Gagne du Compte de [Breath] égal au Compte de [Burst] de la cible (2 max)"
+                  "desc": "[OnSucceedAttackHead] Gagne 3 [Breath] au prochain tour. Gagne autant de Compte de [Breath] que de Compte de [Burst] sur la cible au prochain tour (2 max)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflige +50% de dégâts"
+                  "desc": "Inflige +50% de dégâts en Touche Critique"
                 },
                 {
                   "desc": "[CriticalEnemyTargetKillFail] Inflige +2 de Compte de [Burst]"
                 },
                 {
                   "desc": "[CriticalEnemyTargetKill] Gagne 3 [AttackUp] au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Phoenix Carmin Deuxième Forme - Déchirure (破)",
+          "desc": "[WhenUse] Si la cible a 4 types d’effets négatifs ou plus, +1 de Puissance de Pièce\n[WhenUse] +1 de Puissance de Pièce toutes les 6 [Burst] sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [DefenseDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 3 [AttackUp] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Breath]. Gagne autant de [Breath] que de [Burst] sur la cible (5 max)"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne 3 [Breath] au prochain tour. Gagne autant de Compte de [Breath] que de Compte de [Burst] sur la cible au prochain tour (2 max)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +50% de dégâts en Touche Critique"
+                },
+                {
+                  "desc": "[CriticalEnemyTargetKillFail] Inflige +2 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[CriticalEnemyTargetKill] Gagne 3 [AttackUp] au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Phoenix Carmin Troisième Forme - Inflammation (炎)",
+          "desc": "[WhenUse] Si la cible a 4 types d’effets négatifs ou plus, +1 de Puissance de Pièce\n[WhenUse] +1 de Puissance de Pièce toutes les 6 [Burst] sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [DefenseDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 3 [AttackUp] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne autant de [Breath] que de ([Burst] + [Combustion]) sur la cible (10 max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne autant de Compte de [Breath] que de (Compte de [Burst] + Compte de [Combustion]) sur la cible (5 max)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +50% de dégâts en Touche Critique"
+                },
+                {
+                  "desc": "[CriticalEnemyTargetKillFail] Inflige +2 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[CriticalEnemyTargetKill] Gagne 3 [AttackUp] au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Phoenix Carmin Quatrième Forme - Qi (氣)",
+          "desc": "[WhenUse] Si la cible a 4 types d’effets négatifs ou plus, +1 de Puissance de Pièce\n[WhenUse] +1 de Puissance de Pièce toutes les 3 [Burst] sur la cible (2 max)\n[WhenUse] Gagne 3 [Breath] et +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [DefenseDown]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 3 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 3 [AttackUp] au prochain tour"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 3 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne autant de [Breath] que de ([Burst] + [Combustion]) sur la cible (10 max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne autant de Compte de [Breath] que de (Compte de [Burst] + Compte de [Combustion]) sur la cible (5 max)"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 2 [Vulnerable]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +50% de dégâts en Touche Critique"
+                },
+                {
+                  "desc": "[CriticalEnemyTargetKillFail] Inflige +2 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[CriticalEnemyTargetKill] Gagne 3 [AttackUp] au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "name": "Phoenix Carmin Cinquième Forme - Ailes (翼)",
+          "desc": "[WhenUse] Si la cible a 4 types d’effets négatifs ou plus, +1 de Puissance de Pièce\n[WhenUse] +1 de Puissance de Pièce toutes les 3 [Burst] sur la cible (2 max)\n[WhenUse] Gagne 3 [Breath] et +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [DefenseDown]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 3 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 3 [AttackUp] au prochain tour"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 3 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne autant de [Breath] que de ([Burst] + [Combustion]) sur la cible (10 max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne autant de Compte de [Breath] que de (Compte de [Burst] + Compte de [Combustion]) sur la cible (5 max)"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 2 [Vulnerable]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +50% de dégâts en Touche Critique"
+                },
+                {
+                  "desc": "[CriticalEnemyTargetKillFail] Inflige +2 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[CriticalEnemyTargetKill] Gagne 3 [AttackUp] au prochain tour"
+                },
+                {
+                  "desc": "[CriticalEnemyTargetKillFail] Utilise Fente Carmine sur la cible"
+                },
+                {
+                  "desc": "[CriticalEnemyTargetKill] Utilise Fente Carmine sur un ennemi aléatoire"
                 }
               ]
             }
@@ -93,7 +455,7 @@
         {
           "level": 1,
           "name": "Printemps Carmin",
-          "desc": "[StartBattle] Gagne +1 de Poids d’Atq pour chaque 4 effets négatifs sur la cible (2 max)\n[WhenUse] Si la cible a 5 effets négatifs ou plus, +5 de Puissance de Base\n[WhenUse] Si la somme de la [Burst] et du Compte de [Burst] de la cible est de 15 ou plus, +5 de Puissance de Pièce\n[WinDuel] Inflige +2 de Compte de [Burst]",
+          "desc": "[BeforeAttack] Gagne +1 de Poids d’Atq tous les 4 types d’effets négatifs sur la cible (2 max)\n[WhenUse] Si la cible a 5 types d’effets négatifs ou plus, +5 de Puissance de Base\n[WhenUse] Si la cible a 15 ([Burst] + Compte de [Burst]) ou plus, +5 de Puissance de Pièce\n[WinDuel] Inflige +2 de Compte de [Burst]",
           "coinlist": [
             {
               "coindescs": [
@@ -101,13 +463,157 @@
                   "desc": "[OnSucceedAttack] Inflige 7 [Laceration]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflige +200% de dégâts"
+                  "desc": "Inflige +200% de dégâts en Touche Critique"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Inflige +3 de Compte de [Laceration]"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Gagne 2 [Breath] et +1 de Compte de [Breath]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Printemps Carmin Deuxième Forme - Passion (熱)",
+          "desc": "[BeforeAttack] Gagne +1 de Poids d’Atq tous les 3 types d’effets négatifs sur la cible (2 max)\n[WhenUse] Si la cible a 5 types d’effets négatifs ou plus, +5 de Puissance de Base\n[WhenUse] +1 de Puissance de Pièce tous les ([Burst] + Compte de [Burst] sur la cible) (5 max)\n[WinDuel] Inflige +2 de Compte de [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 7 [Laceration]"
+                },
+                {
+                  "desc": "Inflige +200% de dégâts en Touche Critique"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige +3 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Gagne 2 [Breath] et +1 de Compte de [Breath]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Printemps Carmin Troisième Forme - Décapitation (斬)",
+          "desc": "[BeforeAttack] Gagne +1 de Poids d’Atq tous les 3 types d’effets négatifs sur la cible (2 max)\n[WhenUse] Si la cible a 5 types d’effets négatifs ou plus, +5 de Puissance de Base\n[WhenUse] +1 de Puissance de Pièce tous les ([Burst] + Compte de [Burst] sur la cible) (5 max)\n[WinDuel] Inflige +2 de Compte de [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Gagne 2 [Breath] et +1 de Compte de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 7 [Laceration]"
+                },
+                {
+                  "desc": "Inflige +200% de dégâts en Touche Critique"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige +3 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Gagne 2 [Breath] et +1 de Compte de [Breath]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Printemps Carmin Quatrième Forme - Flux (巡)",
+          "desc": "[BeforeAttack] Gagne +1 de Poids d’Atq tous les 3 types d’effets négatifs sur la cible (2 max)\n[WhenUse] Si la cible a 5 types d’effets négatifs ou plus, +5 de Puissance de Base\n[WhenUse] +1 de Puissance de Pièce tous les ([Burst] + Compte de [Burst] sur la cible) (5 max)\n[WinDuel] Inflige +2 de Compte de [Burst]\n[WhenUse] Gagne 5 [Breath] et +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Gagne 2 [Breath] et +1 de Compte de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 7 [Laceration]"
+                },
+                {
+                  "desc": "Inflige +200% de dégâts en Touche Critique"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige +3 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Gagne 2 [Breath] et +1 de Compte de [Breath]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "name": "Printemps Carmin Cinquième Forme - Floraison (花)",
+          "desc": "[BeforeAttack] Gagne +1 de Poids d’Atq tous les 3 types d’effets négatifs sur la cible (2 max)\n[WhenUse] Si la cible a 5 types d’effets négatifs ou plus, +5 de Puissance de Base\n[WhenUse] +1 de Puissance de Pièce tous les ([Burst] + Compte de [Burst] sur la cible) (5 max)\n[WinDuel] Inflige +2 de Compte de [Burst]\n[WhenUse] Gagne 5 [Breath] et +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Gagne 2 [Breath] et +1 de Compte de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 7 [Laceration]"
+                },
+                {
+                  "desc": "Inflige +200% de dégâts en Touche Critique"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige +3 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Gagne 2 [Breath] et +1 de Compte de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +10% de dégâts par type d’effet négatif sur la cible (50% max)"
+                },
+                {
+                  "desc": "Inflige +50% de dégâts en Touche Critique"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 3 [Agility] au prochain tour (une fois par tour)"
                 }
               ]
             }
@@ -121,7 +627,22 @@
         {
           "level": 1,
           "name": "Esquive Habile",
-          "desc": "[OnSucceedEvade] Gagne 1 [Breath] au prochain tour. (3 fois par tour)"
+          "desc": "[OnSucceedEvade] Gagne 1 [Breath] au prochain tour. (3 fois par Capacité)"
+        },
+        {
+          "level": 2,
+          "name": "Esquive Habile",
+          "desc": "[OnSucceedEvade] Gagne 3 [Breath] au prochain tour. (2 fois par Capacité)"
+        },
+        {
+          "level": 3,
+          "name": "Esquive Habile",
+          "desc": "[WhenUse] +2 de Puissance de Base tous les 2 types d’effets négatifs sur la cible (10 max)\n[OnSucceedEvade] Gagne 3 [Breath] au prochain tour. (2 fois par Capacité)"
+        },
+        {
+          "level": 4,
+          "name": "Esquive Habile - Riposte Redirigée",
+          "desc": "[WhenUse] +2 de Puissance de Base tous les 2 types d’effets négatifs sur la cible (10 max)\n[OnSucceedEvade] Gagne 3 [Breath] au prochain tour. (2 fois par Capacité)\n[OnSucceedEvade] Utilise Fente Carmine (une fois par tour)"
         }
       ]
     }

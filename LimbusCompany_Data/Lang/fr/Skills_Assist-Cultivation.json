@@ -1,0 +1,67 @@
+{
+  "dataList": [
+    {
+      "id": 40000501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fente Carmine",
+          "desc": "[WhenUse] +1 de Puissance de Base toutes les 3 [Burst] sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [DefenseDown]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Gagne +2 de Compte de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [DefenseDown]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Gagne +2 de Compte de [Breath]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Repos Torché, Ricochets Effrénés",
+          "desc": "Peut rediriger n’importe quelle attaque vers cette unité qu’importe la Vitesse\n[WhenUse] +1 de Puissance de Base tous les 3 [Breath] (3 max)\n[WhenUse] +3 de Puissance de Base par type d’effet négatif sur la cible (9 max)\n[WhenUse] Gagne 5 [Agility] au prochain tour (une fois par tour)\n[WhenUse] Gagne 10 [Breath] et +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 7 [Laceration] et +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Paralysis] au prochain tour"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige +300% de dégâts"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -2321,6 +2321,46 @@
       "name": "Veuillez être intraçables dans vos actes.",
       "desc": "Identité avec le moins de pourcentage de PV actuel : inflige +(types de Ritemorts sur la cible * 3)% de dégâts contre l’ennemi (15% max)",
       "summary": ""
+    },
+    {
+      "id": 1101402,
+      "name": "Gallinacé",
+      "desc": "En activant [HeishouCombo], Le Seigneur d’Hongyuan Hong Lu obtient comme effet [HeishouComboCountHonglu] l’effet suivant :\n- En utilisant une Capacité qui inflige de l’Intensité ou du Compte de [Burst], inflige 1 [Combustion] (3 fois par tour)\n\nNe peut pas être Déséquilibré ou descendre en-dessous de 1 PV suite à des dégâts de [Combustion].\n\nGagne 3 [ChickenStance] durant le même tour où cette unité Substitue ou Revient au combat."
+    },
+    {
+      "id": 1101401,
+      "name": "Soyons Ivres de Combat",
+      "desc": "En Touche contre des cibles avec 7 [Burst] ou plus, (plus haute Réson. * 15)% de chance d’infliger 1 [Combustion] (4 fois par tour)\n\nFin du Combat : si cette unité a [Combustion], gagne 1 [ChickenStance], 1 [CrimsonDamageUp] et 1 [ShamrockDamageUp] au prochain Début de Tour\n\nDébut du Combat : gagne 1 [AttackUp] et [DefenseUp] tous les 20% de PV manquants sur soi (3 max)"
+    },
+    {
+      "id": 1101421,
+      "name": "Lame d’Embrasesang [血炎刀]",
+      "desc": "Lorsqu’un allié avec la Vitesse la plus rapide inflige de l’Intensité de [Combustion] ou de [Burst] avec ses Capacités, inflige 1 d’Intensité de [Combustion] et de [Burst] (une fois par tour)"
+    },
+    {
+      "id": 1011401,
+      "name": "Chevaucheur Obsidienne des Vents [黑風馬脚]",
+      "desc": "Gagne 1 [BreakthroughHorse] en remplissant une des conditions suivantes :\n- Début d’Attaque : lorsque la Vitesse de cette unité dépasse celle de la cible de 2 ou plus\n- Lorsque cette unité déclenche un [VibrationExplosion] deux fois avec ses Capacités (inclut les Capacités E.G.O.)\n- Lorsque cette unité gagne un Duel en ayant [LegStrengthHorseYisang]\n※ Seuls 3 [BreakthroughHorse] peuvent être gagnés par tour ; ne peux pas gagner de [BreakthroughHorse] avec la Capacité “Décapiteur Croissant du Chevaucheur Obsidienne des Vents”"
+    },
+    {
+      "id": 1011411,
+      "name": "Chevaucheur Obsidienne des Vents [黑風馬脚]",
+      "desc": "Gagne 1 [BreakthroughHorse] en remplissant une des conditions suivantes :\n- Début d’Attaque : lorsque la Vitesse de cette unité dépasse celle de la cible de 2 ou plus\n- Lorsque cette unité déclenche un [VibrationExplosion] deux fois avec ses Capacités (inclut les Capacités E.G.O.)\n- Lorsque cette unité gagne un Duel en ayant [LegStrengthHorseYisang]\n※ Seuls 3 [BreakthroughHorse] peuvent être gagnés par tour ; ne peux pas gagner de [BreakthroughHorse] avec la Capacité “Décapiteur Croissant du Chevaucheur Obsidienne des Vents”\n\n<style=\"highlight\">Lorsque cette unité a Bouclier, gagne (PV de Bouclier / 10) Niveaux Défensifs (5 max ; arrondi à l’inférieur)</style>"
+    },
+    {
+      "id": 1011402,
+      "name": "Loyauté de Chien du Destrier [狗馬之心]",
+      "desc": "En activant [HeishouCombo], Le Seigneur d’Hongyuan Hong Lu obtient comme effet [HeishouComboCountHonglu] l’effet suivant :\n- En Touche avec la Pièce Finale d’une Capacité de Base, déclenche un [VibrationExplosion] une fois (une fois par tour)\n\nSi Candidate Hiérarque Familial Ishmaël est une unité participant Activement, active le suivant :\n- Lorsque Candidate Hiérarque Familial Ishmaël inflige de la [Burst] ou du Compte de [Burst] avec ses effets de Capacité, cette unité gagne 3 d’Intensité de [Breath] (2 fois par tour ; exclut les Capacités E.G.O.)\n- Début du Tour : applique 1 [Enhancement] à Candidate Hiérarque Familial Ishmaël. Si Ishmaël a 10 d’Intensité de [Breath] ou plus, applique 1 [Enhancement] supplémentaire\n- Après que cette unité a utilisé la Capacité “Décapiteur Croissant du Chevaucheur Obsidienne des Vents”, Candidate Hiérarque Familial Ishmaël utilise “Printemps Carmin” comme Attaque d’Assistance[TabExplain] (une fois par tour)"
+    },
+    {
+      "id": 1011403,
+      "name": "Adepte de l’Avant-Garde",
+      "desc": "En appliquant [BattlefieldHorse], gagne 3 [AttackUp] ce tour et le tour suivant\n(Si cette unité a déjà gagné [AttackUp] avec cette passive, n’en gagne que pour le tour suivant)"
+    },
+    {
+      "id": 1011421,
+      "name": "Exosquelette d’obsidienne brisera et protégera ma chair",
+      "desc": "Applique l’effet suivant à 1 allié avec le plus de PV max\n- Début du Combat : gagne (différence de Vitesse de l’unité affectée entre ce tour et le précédent * 2) Niveau(x) Défensif(s) (5 max ; si l’unité affectée ne participait pas Activement au dernier tour, utilise sa valeur de Vitesse de base minimum pour calculer)\n- Début du Combat : si l’unité affectée est à moins de 50% de PV et si la différence de Vitesse entre ce tour et le précédent est de 3 ou plus, regagne 50 PV (une fois par Affrontement)"
     }
   ]
 }

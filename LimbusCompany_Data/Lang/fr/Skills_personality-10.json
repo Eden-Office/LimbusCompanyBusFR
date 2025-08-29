@@ -1753,6 +1753,345 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1101401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Oh, Puisse l’Odeur du Sang Brûlant…",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Oh, Puisse l’Odeur du Sang Brûlant…",
+          "desc": "<style=\"highlight\">[WhenUse] Si la cible a 6 ([Combustion] + [Burst]), +1 de Puissance de Pièce</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Oh, Puisse l’Odeur du Sang Brûlant…",
+          "desc": "[WhenUse] Si la cible a 6 ([Combustion] + [Burst]), +1 de Puissance de Pièce<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Inflige 1 [Combustion]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Inflige +1 de Compte de [Burst]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "… Alimenter Mon Carnage.",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Si cette unité a [ChickenStance], ou si cette unité a moins de 50% de PV, Réutilise cette Pièce (une fois par Capacité)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "… Alimenter Mon Carnage.",
+          "desc": "<style=\"highlight\">[WhenUse] Si la cible a 6 ([Combustion] + [Burst]), +1 de Puissance de Pièce</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Si cette unité a [ChickenStance], ou si cette unité a moins de 50% de PV, Réutilise cette Pièce (une fois par Capacité)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "… Alimenter Mon Carnage.",
+          "desc": "[WhenUse] Si la cible a 6 ([Combustion] + [Burst]), +1 de Puissance de Pièce<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Inflige +1 de Compte de [Burst]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Inflige +1 de Compte de [Burst]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Si cette unité a [ChickenStance], ou si cette unité a moins de 50% de PV, Réutilise cette Pièce (une fois par Capacité)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Inflige (10% des dégâts finaux de cette Pièce) en dégâts bonus de Colère</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101403,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Massacre d’Embrasesang [血炎亂舞]",
+          "desc": "[WideAreaRampage]\n[StartBattle] Si cette unité a [ChickenStance], ou si cette unité a moins de 50% de PV, change toutes les Pièces en [SuperCoin]\n[WhenUse] Gagne 1 [ChickenStance]\n[WhenUse] Si la cible a 6 ([Combustion] + [Burst]), +1 de Puissance de Pièce\n[DefeatDuel] Applique 2 [Combustion] à la cible et soi-même",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Massacre d’Embrasesang [血炎亂舞]",
+          "desc": "[WideAreaRampage]\n<style=\"highlight\">Inflige +1% de dégâts tous les 2% de (pourcentage de PV manquant de la cible + pourcentage de PV manquant sur soi) (50% max)</style>\n[StartBattle] Si cette unité a [ChickenStance], ou si cette unité a moins de 50% de PV, change toutes les Pièces en [SuperCoin]\n[WhenUse] Gagne 1 [ChickenStance]\n<style=\"highlight\">[WhenUse] +1 de Puissance de Pièce tous les 6 ([Combustion] + [Burst]) sur la cible (2 max)</style>\n<style=\"highlight\">[WhenUse] +1 de Puissance de Duel tous les 20% de PV manquant sur soi (2 max)</style>\n[DefeatDuel] Applique 2 [Combustion] à la cible et soi-même",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Inflige (10% des dégâts finaux de cette Pièce) en dégâts bonus de Gourmandise</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Inflige (20% des dégâts finaux de cette Pièce) en dégâts bonus de Gourmandise à toutes les cibles</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Coup Fatal du Coq [鷄窮則殺]",
+          "desc": "[DuelCounter]\n[WhenUse] Gagne 3 [ChickenStance] au prochain tour\n[WhenUse] Si cette unité a [ChickenStance], +1 de Puissance de Pièce\n[DefeatDuel] Applique 2 [Combustion] à la cible et soi-même",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Coup Fatal du Coq [鷄窮則殺]",
+          "desc": "[DuelCounter]\n[WhenUse] Gagne 3 [ChickenStance] au prochain tour\n<style=\"highlight\">[WhenUse] Si la cible a 10 ([Combustion] + [Burst]) ou plus, +1 de Puissance de Base</style>\n[WhenUse] Si cette unité a [ChickenStance], +1 de Puissance de Pièce\n<style=\"highlight\">[WhenUse] Cette Capacité inflige +1% de dégâts tous les 3% de PV cumulés que cette unité a perdu durant cet Affrontement (30% max)</style>\n[DefeatDuel] Applique 2 [Combustion] à la cible et soi-même",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
