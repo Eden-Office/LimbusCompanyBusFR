@@ -2812,6 +2812,27 @@
       "name": "Cri de Commandement",
       "desc": "- Gagne 1 de Puissance de Duel et 2 Niveaux Défensifs\n- Expire à la Fin du Tour",
       "summary": ""
+    },
+    {
+      "id": "VibrationBleeding",
+      "name": "Tremblement - Hémorragie",
+      "desc": "- En Sursaut de Tremblement, subit (somme d’Intensité de Tremblement et de Saignement / 2) Dégâts de Luxure et perd 1 de Compte de Saignement\n- Lorsque touché par des Capacités qui déclenchent un Sursaut de Tremblement, augmente le Seuil de Déséquilibre selon l’Intensité de l’effet\n- Fin du Tour : réduit le Compte de 1\n(Interagit de la même manière que le Tremblement normal avec les effets qui augmentent ou réduisent la Puissance/Compte de Tremblement)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "GazeRyoshu",
+      "name": "Regard",
+      "desc": "- Instance max : 7\n- Inflige et subit +10% de dégâts de Ryōshū par Instance de Regard\n- En Mourant, se transfère à l’allié de cette unité (en Affrontements Ciblés, une Partie différente) ayant le moins de Mépris ou de Regard (cet n’effet ne s’active pas si cette unité a été tué durant la Capacité offensive “Regard Cascadant d’Admiration Tapi dans le Mépris”)\n- Fin du Tour : à 7 Instances, convertit cet effet en Mépris au prochain tour",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "ContemptRyoshu",
+      "name": "Mépris",
+      "desc": "- Instance max : 1\n- Inflige et subit -50% de dégâts de Ryōshū\n- Les cibles avec Mépris ne peuvent pas gagner de Regard\n- En Mourant, se transfère à l’allié de cette unité (en Affrontements Ciblés, une Partie différente) ayant le moins de Mépris ou de Regard (cet n’effet ne s’active pas si cette unité a été tué durant la Capacité offensive “Regard Cascadant d’Admiration Tapi dans le Mépris”)\n- Fin du Tour : expire ; puis, cette unité gagne 7 Regard au prochain tour",
+      "summary": "",
+      "undefined": "-"
     }
   ]
 }

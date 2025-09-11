@@ -2361,6 +2361,32 @@
       "id": 1011421,
       "name": "Exosquelette d’obsidienne brisera et protégera ma chair",
       "desc": "Applique l’effet suivant à 1 allié avec le plus de PV max\n- Début du Combat : gagne (différence de Vitesse de l’unité affectée entre ce tour et le précédent * 2) Niveau(x) Défensif(s) (5 max ; si l’unité affectée ne participait pas Activement au dernier tour, utilise sa valeur de Vitesse de base minimum pour calculer)\n- Début du Combat : si l’unité affectée est à moins de 50% de PV et si la différence de Vitesse entre ce tour et le précédent est de 3 ou plus, regagne 50 PV (une fois par Affrontement)"
+    },
+    {
+      "id": 1041201,
+      "name": "La Main de @#$ que J’ai Laissé Échapper",
+      "desc": "En Touche contre des ennemis, inflige 1 [GazeRyoshu] (une fois par tour par ennemi)\n- Si cette unité a [GazePersonality], inflige +1 [GazeRyoshu] supplémentaire\n\nLorsque touché par un ennemi, inflige 1 [GazeRyoshu] à l’attaquant (une fois par Capacité ; 3 fois par tour)\n- Si cette unité a [ContemptPersonality] : lorsque touché par la Pièce finale de l’attaquant, inflige (10% des dégâts infligés par cette Pièce finale) dégâts de Paresse (10 max par Capacité ; 30 max par tour)\n\nSi cette unité a utilisé des Capacités Offensives de Base pour consommer du [GazeRyoshu] ou du [ContemptRyoshu] sur un ennemi :\nAu prochain tour, gagne (([GazeRyoshu] de l’ennemi consommé/2) + ([ContemptRyoshu] de l’ennemi consommé * 3)) [GazePersonality] (6 par tour ; arrondi à l’inférieur)"
+    },
+    {
+      "id": 1041211,
+      "name": "La Main de @#$ que J’ai Laissé Échapper",
+      "desc": "En Touche contre des ennemis, inflige <style=\"highlight\">2</style> [GazeRyoshu] (une fois par tour par ennemi)\n- Si cette unité a [GazePersonality], inflige +1 [GazeRyoshu] supplémentaire\n\nLorsque touché par un ennemi, inflige 1 [GazeRyoshu] à l’attaquant (une fois par Capacité ; 3 fois par tour)\n- Si cette unité a [ContemptPersonality] : lorsque touché par la Pièce finale de l’attaquant, inflige (<style=\"highlight\">20</style>% des dégâts infligés par cette Pièce finale) dégâts de Paresse (<style=\"highlight\">20</style> max par Capacité ; <style=\"highlight\">60</style> max par tour)\n\nSi cette unité a utilisé des Capacités Offensives de Base pour consommer du [GazeRyoshu] ou du [ContemptRyoshu] sur un ennemi :\nAu prochain tour, gagne (([GazeRyoshu] de l’ennemi consommé/2) + ([ContemptRyoshu] de l’ennemi consommé * 3)) [GazePersonality] (6 par tour ; arrondi à l’inférieur)"
+    },
+    {
+      "id": 1041202,
+      "name": "Agrippage Interdisant la Chute",
+      "desc": "Lorsque Déséquilibrée, gagne 4 [Protection] et gagne [ContemptPersonality] au prochain tour (une fois par Affrontement)\n\nEn Mourant, applique les effets suivants aux 3 ennemis avec le plus de [GazeRyoshu] ou de [ContemptRyoshu] (par ordre décroissant ; en Affrontement Ciblé, aux Parties)\n- Inflige 2 [Binding] au prochain tour\n- Inflige 2 [Laceration] et +1 de Compte de [Laceration]\n- Inflige 2 [Vibration] et +1 de Compte de [Vibration]"
+    },
+    {
+      "id": 1041203,
+      "name": "Laissez-moi vous montrer à tous quelque chose de très intéressant",
+      "desc": "Début du Combat : La Capacité “Tir de Réajustement de Cible” de E.G.O. de la N Corp.::<noparse>Balle Cruelle</noparse> Yi Sang gagne les effets suivants :\n- Avant d’utiliser la Capacité, si E.G.O. de la N Corp.::<noparse>Mépris</noparse>, Admiration Ryōshū a [ContemptPersonality] et peut utiliser ses Capacités de base, utilise “Je Vais Tirer / À Tout Moment” sur Ryōshū (une fois par tour ; “Je Vais Tirer / À Tout Moment” reflète le Tier sur Surfilage de Yi Sang)\n- Avant d’utiliser la Capacité, si la cible principale de la Capacité n’est pas E.G.O. de la N Corp.::<noparse>Mépris</noparse>, Admiration Ryōshū, et si elle peut utiliser ses Capacités de base, Ryōshū utilise sa Capacité 1 en Attaque à Sens-Unique contre la cible principale (une fois par tour ; [CantIdentify] ; Capacité 1 inflige -50% de dégâts ; la Capacité ne tue pas la cible principale)"
+    },
+    {
+      "id": 1041221,
+      "name": "Il s’écoule et pleure",
+      "desc": "Si l’allié le plus tôt dans l’ordre de Déploiement touche un ennemi avec son attaque, inflige 1 [Laceration] (une fois par ennemi par tour)\n- Si la cible a [Laceration], inflige également +1 de Compte de [Laceration]\n\nSi l’allié le plus tôt dans l’ordre de Déploiement est touché par un ennemi, inflige 1 [Vibration] à l’attaquant (3 fois par tour)\n- Si l’attaquant a [Vibration], inflige également +1 de Compte de [Vibration]",
+      "summary": "En Touche, inflige [Laceration] ; inflige également du Compte si la cible a déjà l’effet\nLorsque touché, inflige [Vibration] ; inflige également du Compte si la cible a déjà l’effet"
     }
   ]
 }

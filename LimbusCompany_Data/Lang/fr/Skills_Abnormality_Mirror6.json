@@ -1,6 +1,431 @@
 {
   "dataList": [
     {
+      "id": 123901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "La Parade Infinie",
+          "desc": "[CantDuel]\nSi la cible a utilisé une Capacité Défensive, la cible ne subit pas de dégâts\n[WhenUse] Génère 1 Nacelle au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 123902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "The Eternal Festival",
+          "desc": "[CantDuel]\nSi la cible a utilisé une Capacité Défensive, la cible ne subit pas de dégâts\n[WhenUse] Génère 4 Nacelles au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            },
+            {
+              "coindescs": [
+                {}
+              ]
+            },
+            {
+              "coindescs": [
+                {}
+              ]
+            },
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 124001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Soif Brûlante",
+          "desc": "+1 de Puissance Finale tous les 100 [BloodDinner] consommés par cette unité (5 max)\n[WhenUse] +1 de Puissance de Base tous les 5 [Laceration] sur la cible (3 max)\n[WhenUse] Consomme jusqu’à 30 [BloodDinner] : gagne 1 [RegainedStrength] tous les 10 [BloodDinner] consommés\n[DefeatDuel] Perd 3 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration] et +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 124002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sois Empalé",
+          "desc": "[WhenUse] onsomme jusqu’à 40 [BloodDinner] : gagne 1 [RegainedStrength] et regagne 3 PSM tous les 10 [BloodDinner] consommés\n\n[DefeatDuel] Perd 3 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts de Luxure égaux à 20% des PV max de la cible"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts de Luxure égaux à 20% des PV max de la cible"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 124003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Arts du Sang Durci de Don Quichotte 2 - Pieu",
+          "desc": "Attaque la cible avec le plus de [Laceration]\n+1 de Puissance Finale tous les 100 [BloodDinner] consommés par cette unité (5 max)\n[WhenUse] +1 de Puissance de Pièce tous les 5 [Laceration] sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration] et +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige (Intensité * Compte de [Laceration]) dégâts de Luxure"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 124004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pieu de Sang Durci",
+          "desc": "+1 de Puissance Finale tous les 100 [BloodDinner] consommés par cette unité (5 max)\n[StartBattle] +1 de Poids d’Atq tous les 3 [RegainedStrength] sur soi (2 max)\n[EndSkill] Consomme 3 [RegainedStrength]\n[DefeatDuel] Inflige -80% de dégâts finaux",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration] et +3 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Inflige 3 [Burst]"
+                },
+                {
+                  "desc": "[DefeatDuelAttack] Consomme 1 [RegainedStrength]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Inflige 3 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 124005,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Désir de Sang",
+          "desc": "[WhenUse] Consomme jusqu’à 40 [BloodDinner] : gagne 1 [RegainedStrength] et regagne 5 PSM tous les 10 [BloodDinner] consommés\n[WhenUse] Inflige +1 de Compte de [Laceration] supplémentaire tous les 5 [RegainedStrength] (2 max)\n[DefeatDuel] Inflige -80% de dégâts finaux",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 124006,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Moment d’un Festin Sanglant",
+          "desc": "[CantIdentify]\n[WhenUse] Consomme jusqu’à 300 [BloodDinner] : gagne 1 [RegainedStrength] et regagne 3 PSM tous les 10 [BloodDinner] consommés\n[WhenUse] Si cette unité a consommé du [BloodDinner], regagne 30 PSM\n[DefeatDuel] Inflige -80% de dégâts finaux",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 124007,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Arts du Sang Durci de Don Quichotte 4 - Fracture",
+          "desc": "Ne peut pas être Déséquilibré avant d’avoir utilisé cette Capacité.\n[WhenUse] Consomme jusqu’à 100 [BloodDinner] : gagne 1 [RegainedStrength] et regagne 15 PSM tous les 10 [BloodDinner] consommés\n[WhenUse] +1 de Puissance de Duel tous les 30 [BloodDinner_Accumulation] par cette unité (15 max)\n[DefeatDuel] Inflige -50% de dégâts et les dégâts de cette Capacité ne Déséquilibrent pas la cible.\n[EndSkill] Pour ce tour et le prochain tour, gagne du [AttackDown] et [DefenseDown] égaux à la Puissance de Duel gagnée avec cette Capacité. (15 max)\n[DefeatDuel] Inflige -80% de dégâts finaux",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 8 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Consomme 2 [RegainedStrength]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 124008,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Arts du Sang Durci de Don Quichotte 14 : Manteau",
+          "desc": "+1 de Puissance de Base tous les 100 [BloodDinner] consommés par cette unité (10 max)\n[DuelGuard]\n[WinDuel] Inflige 4 [Laceration] et [Burst]\n[DefeatDuel] Consomme 2 [RegainedStrength]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 124009,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Frêle, si Frêle",
+          "desc": "[DuelCounter]\n+1 de Puissance de Base tous les 5 [RegainedStrength]\n+1 de Puissance de Pièce tous les 5 [Laceration] sur la cible (2 max)\n[DefeatDuel] Perd 3 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration] et +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration] et +2 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 124010,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Carrousel Sanglant",
+          "desc": "[CantDuel]\n[WhenUse] N’inflige pas de dégâts aux ennemis ; génère des unités Rêve Coagulé au prochain tour\n[WhenUse] Tous les 5 [RegainedStrength], inflige +1 de Compte de [Laceration] supplémentaire (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 124011,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sois Empalé",
+          "desc": "[DefeatDuel] Perd 3 PSM\n[DefeatDuel] Inflige -50% de dégâts finaux",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] La cible devient Déséquilibrée, puis devient du [Penetration] au prochain tour"
+                },
+                {
+                  "desc": "[EndCoin] La cible perd 25 d’Intensité de [Laceration]. Gagne du [Laceration] et augmente [BloodDinner] de cette valeur"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 124012,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Arts Ascendants du Sang Durci de Don Quichotte - La Sphère",
+          "desc": "Ne peut pas être Déséquilibré avant d’avoir utilisé cette Capacité.\nInflige plus de dégâts égaux à [BloodDinner_Common_Accumulation]. (300% max)\n[WhenUse] Regagne 30 PSM\n[WhenUse] +1 de Puissance de Duel tous les 10 [RegainedStrength]\n[EndSkill] Consomme toute [RegainedStrength]. Gagne 5 [Vulnerable] ce tour et le prochain tour. Gagne 2 [Binding] au prochain tour.\n[DefeatDuel] Inflige -80% de dégâts finaux",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": 117501,
       "levelList": [
         {
@@ -506,6 +931,611 @@
                 },
                 {
                   "desc": "[OnSucceedAttack] Regagne 8 PSM"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 124105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Éclatement d’Entailles Explosives [爆碎斬]",
+          "desc": "Priorise les cibles avec [Prey]\nCette Capacité peut être affrontée en Duel qu’importe la Vitesse\n+1 de Puissance de Pièce toutes les 6 (somme de [Combustion] et de [Vibration] sur la cible) (3 max)\n[DefeatDuel] Inflige -50% de dégâts finaux",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Dépense 1 [BulletPropellant]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Vibration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 4 [Vibration] et +4 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Dépense 1 [BulletPropellant]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationIgnition]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Dépense 1 [BulletPropellant]"
+                },
+                {
+                  "desc": "Si cette unité a dépensé une [BulletPropellant] suite à l’effet de cette Pièce, inflige +50% de dégâts"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Combustion] et +3 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Déclenche un [VibrationExplosion] deux fois ; puis, réduit le Compte de [Vibration] de la cible de 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 124106,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tranchenœud [快刀亂麻]",
+          "desc": "Priorise les cibles avec [Prey]\nCette Capacité peut être affrontée en Duel qu’importe la Vitesse ; cette unité ne peut pas être Déséquilibrée avant d’avoir utilisé cette Capacité\n[WhenUse] Consomme toutes Instances de [BattleSense] sur soi. Si cette unité a consommé…\n- … 10 Instances ou plus, gagne +1 de Poids d’Atq toutes les 10 Instances consommées (2 max)\n- … 25 Instances, +1 de Puissance Finale toutes les 4 (somme de [Combustion] et de [Vibration] sur la cible principale) (5 max)\n[DefeatDuel] Inflige -80% de dégâts ; les dégâts de cette Capacité ne peuvent pas Déséquilibrer la cible ; inflige seulement la moitié de l’Intensité et du Compte de [Combustion] et de [Vibration] infligés par cette Capacité (sauf si augmenté par d’autres effets)\n[EndSkill] [FullReload] (une fois par tour)\n- Si cette unité a [BulletPropellantSpecial], [ReloadKeepAmmo] à la place (une fois par tour)\n[DefeatDuel] Inflige -50% de dégâts finaux\n[EndSkill] Termine ce tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Dépense toutes [BulletPropellant]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige de la [Combustion], du Compte de [Combustion], du [Vibration] et du Compte de [Vibration] égaux aux [BulletPropellant] dépensées"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationIgnition]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Déclenche un [VibrationExplosion] 3 fois ; puis, réduit le Compte de [Vibration] de la cible de 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 124107,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Rafale Perfectionnée de Lames du Tueur de Tigre Sauvage [超絕猛虎殺擊亂斬]",
+          "desc": "Priorise les cibles avec [Prey]\nCette Capacité peut être affrontée en Duel qu’importe la Vitesse ; cette unité ne peut pas être Déséquilibrée avant d’avoir utilisé cette Capacité\n[WhenUse] Consomme toutes Instances de [BattleSense] sur soi. Si cette unité a consommé…\n- … 10 Instances ou plus, gagne +1 de Poids d’Atq toutes les 10 Instances consommées (4 max)\n- … 25 Instances, +1 de Puissance Finale toutes les 4 (somme de [Combustion] et de [Vibration] sur la cible principale) (6 max)\n- … 50 Instances, +1 de Puissance de Pièce et inflige +50% de dégâts\n[DefeatDuel] Inflige -80% de dégâts ; les dégâts de cette Capacité ne peuvent pas Déséquilibrer la cible ; inflige seulement la moitié de l’Intensité et du Compte de [Combustion] et de [Vibration] infligés par cette Capacité (sauf si augmenté par d’autres effets)\n[EndSkill] [FullReload] (une fois par tour)\n- Si cette unité a [BulletPropellantSpecial], [ReloadKeepAmmo] à la place (une fois par tour)\n[DefeatDuel] Inflige -50% de dégâts finaux\n[EndSkill] Termine ce tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Dépense 1 [BulletPropellant]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 6 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Dépense 1 [BulletPropellant]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +6 de Compte de [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Dépense 1 [BulletPropellant]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 6 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Dépense 1 [BulletPropellant]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +6 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Dépense 1 [BulletPropellant]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationIgnition]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Dépense 1 [BulletPropellant]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Déclenche un [VibrationExplosion] 5 fois ; puis, réduit le Compte de [Vibration] de la cible de 5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 124108,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Recharge de la Lame de l’Étoile Tiantui",
+          "desc": "[WhenUse] Regagne 10 PSM\n- À moins de 0 PSM, regagne 5 PSM supplémentaires\n[DuelCounter]\n[DefeatDuel] Perd 1 [BulletPropellant]\n[EndSkill] [FullReload] (une fois par tour)\n- Si cette unité a [BulletPropellantSpecial], [ReloadKeepAmmo] à la place (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [BulletPropellant]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 124301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Donnez Bonbon.",
+          "desc": "Priorise les cibles avec [GiveMeCandy]\n[WhenUse] +1 de Puissance de Pièce par [GiveMeCandy] sur la cible (5 max)\n[DefeatDuel] Inflige -50% de dégâts finaux",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Si la cible a [GiveMeCandy], la cible devient Déséquilibrée au prochain tour."
+                },
+                {
+                  "desc": "[DefeatDuel] Gagne autant de Choyée que de [GiveMeCandy] sur la cible."
+                },
+                {
+                  "desc": "[EndSkill] Retitre tout [GiveMeCandy] de la cible affrontée par cette unité"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 124302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pas de Bonbon.",
+          "desc": "[BeforeAttack] Gagne +(# d’Identités avec [GiveMeCandy]) Poids d’Atq (3 max)\n[WhenUse] Inflige +10% de dégâts par Identité avec [GiveMeCandy] (50% max)\n[WhenUse] +1 de Puissance de Pièce par [GiveMeCandy] sur la cible principale (5 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 124303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vous…",
+          "desc": "[WhenUse] +1 de Puissance de Pièce par [GiveMeCandy] sur la cible (5 max)\n[DefeatDuel] Inflige -50% de dégâts finaux",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 124304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vroum-Vroum",
+          "desc": "[CantDuel]\n[WhenUse] Inflige +20% de dégâts part Identité avec [GiveMeCandy] (100% max)",
+          "coindescs": [
+            {
+              "desc": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 124305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Manger. Ensemble.",
+          "desc": "[WhenUse] Applique 1 [GiveMeCandy] à 2 ennemis aléatoires (priorise les ennemis sans [GiveMeCandy])",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 124306,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "… Kkomi en colère.",
+          "desc": "[BeforeAttack] Gagne +(# d’Identités avec [GiveMeCandy]) Poids d’Atq\n[WhenUse] Inflige +10% de dégâts par Identité avec [GiveMeCandy] (50% max)\n[WhenUse] Gagne (# d’Identités avec [GiveMeCandy]) de Puissance de Duel (5 max)\n[DefeatDuel] Inflige -80% de dégâts finaux",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 124307,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vous avez frappé Kkomi.",
+          "desc": "[DuelCounter]\n[WhenUse] Toutes les Parties gagnent 2 Bonus de Puissance de Duel au prochain tour\n[WhenUse] Toutes les Parties gagnent 2 Accélération au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 124201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Coup de Poing",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] +3 Dégâts Contondants"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] +3 Dégâts Contondants"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 Paralysie"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 124202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Coup de Pied",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] +5 Dégâts Contondants"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] +5 Dégâts Contondants"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 Paralysie au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 124203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vengeance",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] La cible perd 5 PSM"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 124204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Surveillez Vos Arrières !",
+          "desc": "Si la cible a moins de 0 PSM, +3 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Regagne 10 PSM"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 Ralentissement et 2 Malus de Puissance Offensive au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] La cible perd 20 PSM"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 124205,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Rassemblement",
+          "desc": "[StartBattle] Invoque 2 alliés au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 124206,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Plus de Tests",
+          "desc": "[WhenUse] Gagne 3 [HitDamageUp] au prochain tour\n[WhenUse] Si la cible principale a 3 [MiddleFingerBook] ou plus, converti toutes les Pièces de cette Capacité en [SuperCoin]s\n[WhenUse] Si la cible principale a 5 [MiddleFingerBook] ou plus, gagne +1 de Poids d’Atq\n[DefeatDuel] Inflige -80% de dégâts finaux",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 124207,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Souffrance Promise",
+          "desc": "Priorise les cibles avec le plus d’Instances de [MiddleFingerBook]\n[WhenUse] Si la cible a 3 [MiddleFingerBook] ou plus, converti toutes les Pièces de cette Capacité en [SuperCoin]s\n[DefeatDuel] Inflige -50% de dégâts finaux",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vulnerable] ce tour et au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vulnerable] ce tour et au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige ([MiddleFingerBook] sur la cible * 3) dégâts Contondants bonus"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Retire tout [MiddleFingerBook] sur la cible"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 124208,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Assez joué",
+          "desc": "[StartBattle] Soigne de 10 tous les PSM alliés\n[EndBattle] S’il y a des alliés Paniqués, les fait se remettre de Panique au prochain Début de Tour et remet leurs PSM à 0\n[EndBattle] Applique 1 [HitResultUp] à tous les alliés, incluant cette unité",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 124209,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ANNIHILATION TOTALE ET ABSOLUE !!!",
+          "desc": "Cette Capacité peut être affrontée en Duel qu’importe la Vitesse\nSi la cible principale a 5 [MiddleFingerBook] ou plus, +5 de Puissance Finale\n[DefeatDuel] Inflige -80% de dégâts finaux\n[EndSkill] Retire [MiddleFingerBook] de toutes les cibles touchées",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige ([MiddleFingerBook] sur la cible * 10) dégâts Contondants bonus"
                 }
               ]
             }

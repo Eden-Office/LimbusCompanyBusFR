@@ -118,11 +118,119 @@
     {
       "id": 29826,
       "name": "Vin Shaoxing++",
-      "desc": "[Les effets ne s’appliquent qu’aux Identités Déployées #2 ,#4 <style=\"upgradeHighlight\">et #6</style>]\n\nInflige +1% de dégâts par 1% de PV manquant sur soi (10% max)",
+      "desc": "[Les effets ne s’appliquent qu’aux Identités Déployées #2, #4 <style=\"upgradeHighlight\">et #6</style>]\n\nInflige +1% de dégâts par 1% de PV manquant sur soi (10% max)",
       "simpleDesc": [
         {
           "abilityID": 29826,
           "simpleDesc": "Inflige plus de dégâts selon les PV manquants"
+        }
+      ]
+    },
+    {
+      "id": 9827,
+      "name": "Rancœur de la Famille",
+      "desc": "Alliés avec Capacités à Pièces Positives : gagne +(8 / # de Pièces) de Puissance de Pièce (gagne au moins 1 de Puissance de Pièce, inclut les Capacités E.G.O. ; arrondi à l’inférieur)\nAlliés avec Capacités à Pièces Négatives : gagne +(8 / # de Pièces) de Puissance Finale (gagne au moins 1 de Puissance Finale, inclut les Capacités E.G.O. ; arrondi à l’inférieur)\n\nDouble la quantité de Festin Sanglant générée dans ce Niveau\nCapacités qui infligent de l’Intensité de [Laceration], du Compte de [Laceration] ou du “Saignement Unique” : après l’attaque, regagne 30% des dégâts infligés. (20 max)\n* Si une unité s’est soignée avec cet effet, elle gagne 1 [Enhancement] au prochain Début de Tour (2 max)\n\nTous les 50 [BloodDinner_Common_Accumulation], tous les alliés gagnent 1 [AttackUp] au prochain Début de Tour (5 max)\nChaque unité de La Manchaland gagne également 1 [AttackUp] tous les 30 [BloodDinner_Accumulation] consommés par chaque unité (3 max)",
+      "simpleDesc": [
+        {
+          "abilityID": 98270,
+          "simpleDesc": "Capacités à Pièces Positives gagnent de la Puissance de Pièce ; Capacités à Pièces Négatives gagnent de la Puissance Finale"
+        },
+        {
+          "abilityID": 9827,
+          "simpleDesc": "Génère plus de Festin Sanglant"
+        },
+        {
+          "abilityID": 98271,
+          "simpleDesc": "Soigne des PV"
+        },
+        {
+          "abilityID": 98272,
+          "simpleDesc": "Gagne du Bonus de Niveau Offensif"
+        },
+        {
+          "abilityID": 98272,
+          "simpleDesc": "Gagne du Bonus de Niveau Offensif"
+        }
+      ]
+    },
+    {
+      "id": 9828,
+      "name": "Pour le Capo",
+      "desc": "Alliés avec Capacités à Pièces Positives : gagne +(8 / # de Pièces) de Puissance de Pièce (gagne au moins 1 de Puissance de Pièce, inclut les Capacités E.G.O. ; arrondi à l’inférieur)\nAlliés avec Capacités à Pièces Négatives : gagne +(8 / # de Pièces) de Puissance Finale (gagne au moins 1 de Puissance Finale, inclut les Capacités E.G.O. ; arrondi à l’inférieur)\n\n[Les effets s’appliquent uniquement à l’Identité Déployée #1]\nEn utilisant une Capacité qui dépense une [Bullet], active l’effet suivant :\n- Gagne 3 [Agility] au prochain tour (une fois par tour)\n- En Touche : déclenche un [VibrationExplosion] une fois (et consomme 1 de Compte de [Vibration]) (2 fois par tour)\n- En Touche après Duel Gagné : si la cible a [Combustion] et [Vibration] (inclut les “Brûlures Uniques” et “Tremblements Uniques”), inflige ([Combustion] + [Vibration]) dégâts de Colère. (2 fois par tour)\n\nÀ 4 de Réson. de Colère ou plus, activant les effets suivants :\n- Les Capacités de Colère gagnent +2 de Puissance de Pièce à l’usage\n- En Touche, si une [Bullet] a été dépensée, inflige +30% de dégâts",
+      "simpleDesc": [
+        {
+          "abilityID": 98270,
+          "simpleDesc": "Capacités à Pièces Positives gagnent de la Puissance de Pièce ; Capacités à Pièces Négatives gagnent de la Puissance Finale"
+        },
+        {
+          "abilityID": 9828,
+          "simpleDesc": "Gagne de l’Accélération"
+        },
+        {
+          "abilityID": 98281,
+          "simpleDesc": "Déclenche un Sursaut de Tremblement"
+        },
+        {
+          "abilityID": 98282,
+          "simpleDesc": "Inflige des dégâts de Colère"
+        },
+        {
+          "abilityID": 98283,
+          "simpleDesc": "Gagne de la Puissance de Pièce"
+        },
+        {
+          "abilityID": 98284,
+          "simpleDesc": "Inflige plus de dégâts"
+        }
+      ]
+    },
+    {
+      "id": 9829,
+      "name": "Règles du Majeur",
+      "desc": "Alliés avec Capacités à Pièces Positives : gagne +(8 / # de Pièces) de Puissance de Pièce (gagne au moins 1 de Puissance de Pièce, inclut les Capacités E.G.O. ; arrondi à l’inférieur)\nAlliés avec Capacités à Pièces Négatives : gagne +(8 / # de Pièces) de Puissance Finale (gagne au moins 1 de Puissance Finale, inclut les Capacités E.G.O. ; arrondi à l’inférieur)\n\nCapacités Offensives Contondantes de Base : +1 de Puissance de Pièce ; les Identités du Majeur gagnent +2 de Puissance de Pièce à la place\nLorsqu’un allié est touché, tous les alliés gagnent 2 [AttackUp] au prochain tour (3 fois par tour)\n\nLes effets suivants s’activent lorsqu’il y a 3 Identités du “Majeur” ou plus dans l’Affrontement.\nDébut du Combat : gagne 1 [Enhancement] et 1 [Protection] par Réson. d’Envie (3 max)\nLorsqu’une Identité du Majeur utilise une Capacité Offensive d’Envie de Base, convertit ses Pièces en [SuperCoin]s, elle subit -50% de dégâts et gagne 2 [HitDamageUp] ce tour et le prochain.",
+      "simpleDesc": [
+        {
+          "abilityID": 98270,
+          "simpleDesc": "Capacités à Pièces Positives gagnent de la Puissance de Pièce ; Capacités à Pièces Négatives gagnent de la Puissance Finale"
+        },
+        {
+          "abilityID": 9829,
+          "simpleDesc": "Gagne de la Puissance de Pièce"
+        },
+        {
+          "abilityID": 98291,
+          "simpleDesc": "Gagne de la Puissance de Pièce"
+        },
+        {
+          "abilityID": 98292,
+          "simpleDesc": "Gagne du Niveau Offensif"
+        },
+        {
+          "abilityID": 98293,
+          "simpleDesc": "Gagne du Bonus de Puissance Offensive & de la Protection"
+        },
+        {
+          "abilityID": 98294,
+          "simpleDesc": "Convertit les Pièces en Pièces Incassables, subit moins de dégâts et inflige plus de dégâts Contondants"
+        }
+      ]
+    },
+    {
+      "id": 9830,
+      "name": "Mini-Cadeau de Kkomi",
+      "desc": "Alliés avec Capacités à Pièces Positives : gagne +(8 / # de Pièces) de Puissance de Pièce (gagne au moins 1 de Puissance de Pièce, inclut les Capacités E.G.O. ; arrondi à l’inférieur)\nAlliés avec Capacités à Pièces Négatives : gagne +(8 / # de Pièces) de Puissance Finale (gagne au moins 1 de Puissance Finale, inclut les Capacités E.G.O. ; arrondi à l’inférieur)\n\nAu premier Début de Tour de l’Affrontement, et pour tous les alliés qui Substituent, applique 3 [VerEmergencyCandy]\nS’ils n’ont pas consommé de [VerEmergencyCandy] au tour précédent, applique 1 [VerHunger] au Début du Tour",
+      "simpleDesc": [
+        {
+          "abilityID": 98270,
+          "simpleDesc": "Capacités à Pièces Positives gagnent de la Puissance de Pièce ; Capacités à Pièces Négatives gagnent de la Puissance Finale"
+        },
+        {
+          "abilityID": 9830,
+          "simpleDesc": "Applique Bonbon de Secours"
+        },
+        {
+          "abilityID": 98301,
+          "simpleDesc": "Applique Faim"
         }
       ]
     }

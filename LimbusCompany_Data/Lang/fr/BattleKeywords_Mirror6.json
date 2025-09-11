@@ -205,7 +205,7 @@
     {
       "id": "MD6Limit105",
       "name": "Interférence d’Ego I",
-      "desc": "Double la quantité de Ressources E.G.O. consommée en utilisant des Capacités E.G.O."
+      "desc": "Double la quantité de Ressources E.G.O. consommée en utilisant des Capacités E.G.O.\n(N’interagit pas avec les effets de Don E.G.O.)"
     },
     {
       "id": "MD6Limit111",
@@ -255,7 +255,7 @@
     {
       "id": "MD6Limit125",
       "name": "Interférence d’Ego II",
-      "desc": "Triple la quantité de Ressources E.G.O. consommée en utilisant des Capacités E.G.O.\n\n※ Si une Adversité de tier inférieur existe déjà, la remplace"
+      "desc": "Triple la quantité de Ressources E.G.O. consommée en utilisant des Capacités E.G.O.\n(N’interagit pas avec les effets de Don E.G.O.)\n\n※ Si une Adversité de tier inférieur existe déjà, la remplace"
     },
     {
       "id": "MD6Limit131",
@@ -306,6 +306,94 @@
       "id": "MD6Limit145",
       "name": "Fatigue de PSM II",
       "desc": "En combat, les alliés ne peuvent pas gagner plus de 30 PSM\n\n※ Si une Adversité de tier inférieur existe déjà, la remplace"
+    },
+    {
+      "id": "DerivativeHugeIrritation",
+      "name": "Esprit Implacable - Shin [剛氣-心]",
+      "desc": "- Début du Tour : gagne 1 Bonus de Dégâts et 1 Bonus de Puissance tous les 15% de PV manquants sur soi (5 max chacun)\n- Inflige +3 d’Intensité de Tremblement et +1 de Compte de Tremblement supplémentaires avec les Capacités de cette unité\n- Si la Vitesse de cette unité est plus rapide que celle de la cible de 3 ou plus, inflige +(différence de Vitesse * 5)% de dégâts (40% max)\n- Convertit les Pièces finales de “Double Entaille - Explosion” et “Triple Entaille - Explosion” en Pièces Incassables",
+      "summary": ""
+    },
+    {
+      "id": "GiveMeCandy",
+      "iconId": "CandyForCharon",
+      "name": "Bonbon",
+      "desc": "Instance max : 99\n- Est-ce que vous vous gardez tous les bonbons ?",
+      "summary": ""
+    },
+    {
+      "id": "HungryCharon",
+      "name": "Faim Enragée",
+      "desc": "Instance max : 3\nJ’ai faim. Je veux des bonbons.",
+      "summary": ""
+    },
+    {
+      "id": "FullCharon",
+      "name": "Choyée",
+      "desc": "Début du Tour : toutes les 2 Instances, gagne 1 Malus de Puissance de Duel (5 max)",
+      "summary": ""
+    },
+    {
+      "id": "GiveMeCandy_LowMoral",
+      "name": "Bonbon",
+      "desc": "- Bas Moral\n- En affrontant en Duel des Identités avec [GiveMeCandy], +3 de Puissance de Duel ; en affrontant en Duel d’autres Identités, -1 de Puissance de Duel",
+      "summary": "Fluctuation de Puissance de Duel Conditionnelle",
+      "undefined": "-"
+    },
+    {
+      "id": "GiveMeCandy_Panic",
+      "name": "Bonbon",
+      "desc": "- Panique\n- En affrontant en Duel des Identités avec [GiveMeCandy], +5 de Puissance de Duel ; en affrontant en Duel d’autres Identités, -2 de Puissance de Duel",
+      "summary": "Fluctuation de Puissance de Duel Conditionnelle",
+      "undefined": "-"
+    },
+    {
+      "id": "UnfinishedDreamMirror",
+      "name": "OÙ EST RACONTÉE LA LIBÉRATION DU SANG PLUS ÉPAIS QUE L’EAU",
+      "desc": "- À chaque Fin de Tour : gagne 1 Accélération et 3 Bonus de Niveau Offensif au prochain tour\n- Gagne 2 Bonus de Niveau Offensif supplémentaires après 3 tours cumulés (6 max)\n- En Duel Gagné, regagne 3 PSM\n- En Tuant, gagne 1 Bonus de Puissance de Duel au prochain tour (une fois par tour)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "UnfinishedDreamSanchoMirror",
+      "name": "Où est racontée la servitude du sang plus épais que l’eau.",
+      "desc": "- Gagne 2 Sang Durci supplémentaires chaque fois que cette unité gagne du Sang Durci. (5 fois par tour)\n- À chaque Fin de Tour : gagne 2 Accélération et 3 Bonus de Niveau Offensif au prochain tour\n- Gagne 2 Bonus de Niveau Offensif supplémentaires après 3 tours cumulés (6 max)\n- En Duel Gagné, regagne 3 PSM\n- En Tuant, gagne 1 Bonus de Puissance de Duel au prochain tour (une fois par tour)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "FragmentOfHopeFamilyMirror",
+      "name": "Ô compatriotes de mon cher enfant",
+      "desc": "+1 de Puissance de Duel par Instance (4 max)\nInflige +5% de dégâts",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "FragmentOfHopeTwoFamilyMirror",
+      "name": "Vivez ensemble son rêve à ma place",
+      "desc": "+2 de Puissance de Duel par Instance (8 max)\n- Applique du Bouclier à soi et tous les alliés au Début du Combat\n- En Touche, inflige 1 dégât fixe",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "VerEmergencyCandy",
+      "name": "Bonbon de Secours",
+      "desc": "Fin du Tour : à moins de 60% de PV…\nRegagne 30% de PV et 15 PSM et perd 1 Bonbon de Secours et 1 Faim\nÀ 0 Instance, applique 1 Indulgence Incandescente puis expire",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "VerHunger",
+      "name": "Faim",
+      "desc": "Instance max : 3\nFin du Tour : gagne 2 Bonus de Niveau Offensif et 1 Bonus de Dégâts par Instance au prochain tour\nÀ Instance max, perd 5% de PV à la Fin du Tour",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "VerShiningFullness",
+      "name": "Indulgence Incandescente",
+      "desc": "Gagne 30% de PV de base pour cet Affrontement\nFin du Tour : regagne tous ses PV et PSM (une fois par Affrontement)",
+      "summary": "",
+      "undefined": "-"
     }
   ]
 }

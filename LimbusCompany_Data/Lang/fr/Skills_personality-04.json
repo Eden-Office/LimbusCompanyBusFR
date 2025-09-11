@@ -1808,6 +1808,454 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1041201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chose Méprisante",
+          "desc": "[WhenUse] Si la cible a [GazeRyoshu] ou [ContemptRyoshu], +1 de Puissance de Duel",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [GazeRyoshu]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Chose Méprisante",
+          "desc": "[WhenUse] Si la cible a [GazeRyoshu] ou [ContemptRyoshu], +1 de Puissance de Duel\n[WhenUse] À 6 ([Laceration] + [Vibration]) ou plus sur la cible, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [GazeRyoshu]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Chose Méprisante",
+          "desc": "[WhenUse] Si la cible a [GazeRyoshu] ou [ContemptRyoshu], +1 de Puissance de Duel\n[WhenUse] <style=\"highlight\">+1 de Puissance de Pièce tous les 6 ([Laceration] + [Vibration]) sur la cible (2 max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [GazeRyoshu]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Soyez Émerveillés",
+          "desc": "[WhenUse] Si la cible a [GazeRyoshu] ou [ContemptRyoshu], +1 de Puissance de Duel",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [GazeRyoshu]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Soyez Émerveillés",
+          "desc": "[WhenUse] Si la cible a [GazeRyoshu] ou [ContemptRyoshu], +1 de Puissance de Duel\n[WhenUse] À 6 ([Laceration] + [Vibration]) ou plus sur la cible, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [GazeRyoshu]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 3 de Compte de [Vibration] ou plus, déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Soyez Émerveillés",
+          "desc": "[WhenUse] Si la cible a [GazeRyoshu] ou [ContemptRyoshu], +1 de Puissance de Duel\n[WhenUse] <style=\"highlight\">+1 de Puissance de Pièce tous les 6 ([Laceration] + [Vibration]) sur la cible (2 max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [GazeRyoshu]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 3 de Compte de [Vibration] ou plus, déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041203,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Émerveillement, Mépris",
+          "desc": "Si la cible a [GazeRyoshu], cette Capacité inflige +2 d’Intensité de [Laceration] et de [Vibration]\n[BeforeUse] À 7 (somme de [GazeRyoshu] sur tous les ennemis) ou plus, ou à 1 (somme de [ContemptRyoshu] sur tous les ennemis) ou plus, active “<noparse>Regard</noparse> Cascadant d’Admiration Tapi dans le <noparse>Mépris</noparse>” à la place\n[WhenUse] À 8 ([Laceration] + [Vibration]) ou plus sur la cible, +1 de Puissance de Pièce\n[WhenUse] Inflige +1% de dégâts par ([Laceration] + [Vibration]) sur la cible (20% max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Inflige +5% de dégâts par [GazeRyoshu] sur la cible (35% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [GazeRyoshu]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationBleeding]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Émerveillement, Mépris",
+          "desc": "Si la cible a [GazeRyoshu], cette Capacité inflige +2 d’Intensité de [Laceration] et de [Vibration]<style=\"highlight\"></style>\n[BeforeUse] À 7 (somme de [GazeRyoshu] sur tous les ennemis) ou plus, ou à 1 (somme de [ContemptRyoshu] sur tous les ennemis) ou plus, active “<noparse>Regard</noparse> Cascadant d’Admiration Tapi dans le <noparse>Mépris</noparse>” à la place\n[WhenUse] <style=\"highlight\">+1 de Puissance de Pièce tous les 8 ([Laceration] + [Vibration]) sur la cible (2 max)</style>\n[WhenUse] Inflige +1% de dégâts par ([Laceration] + [Vibration]) sur la cible (<style=\"highlight\">40</style>% max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Inflige +<style=\"highlight\">10</style>% de dégâts par [GazeRyoshu] sur la cible (<style=\"highlight\">70</style>% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [GazeRyoshu]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationBleeding]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Agripper",
+          "desc": "[StartBattle] Si cette unité n’a pas [ContemptPersonality] et à 7 (somme de [GazeRyoshu] sur tous les ennemis) ou plus ou 1 (somme de [ContemptRyoshu] sur tous les ennemis) ou plus, gagne [ContemptPersonality] (une fois par tour)\n[WhenUse] Si cette unité a [ContemptPersonality], +5 de Puissance Finale\n[WhenUse] Lorsque touché en utilisant cette Capacité, inflige +1 de Compte de [Laceration] à l’attaquant (3 fois par tour)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Agripper",
+          "desc": "[StartBattle] Si cette unité n’a pas [ContemptPersonality] et à 7 (somme de [GazeRyoshu] sur tous les ennemis) ou plus ou 1 (somme de [ContemptRyoshu] sur tous les ennemis) ou plus, gagne [ContemptPersonality] (une fois par tour)\n[WhenUse] Si cette unité a [ContemptPersonality], +10 de Puissance Finale\n[WhenUse] Lorsque touché en utilisant cette Capacité, inflige +1 de Compte de [Laceration] à l’attaquant (3 fois par tour)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041205,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Regard Cascadant d’Admiration Tapi dans le Mépris",
+          "desc": "Des effets externes ne peuvent pas déclencher de Réutilisation de cette Capacité\nPriorise les ennemis avec [GazeRyoshu] ou [ContemptRyoshu] comme sous-cibles\n- Inflige -50% de dégâts aux sous-cibles\nS’il n’y a qu’une seule cible, inflige +200% de dégâts (en Affrontement Ciblé, une Partie)\n[WhenUse] +1 de Puissance de Pièce tous les 4 ([Laceration] + [Vibration]) sur la cible principale (2 max)\n[WhenUse] Inflige +2% de dégâts par ([Laceration] + [Vibration]) sur la cible principale (50% max)\n[WhenUse] Inflige +7% de dégâts par (somme de [GazeZyoshu] sur toutes les cibles) (49% max)\n[EndSkill] Consomme le [GazeRyoshu] et le [ContemptRyoshu] de toutes les cibles touchées",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Si la cible a [ContemptRyoshu], inflige +180% de dégâts"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Vibration] et +1 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration] et +1 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationBleeding]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Regard Cascadant d’Admiration Tapi dans le Mépris",
+          "desc": "Des effets externes ne peuvent pas déclencher de Réutilisation de cette Capacité\nPriorise les ennemis avec [GazeRyoshu] ou [ContemptRyoshu] comme sous-cibles<style=\"highlight\"></style>\n- Inflige -50% de dégâts aux sous-cibles\nS’il n’y a qu’une seule cible, inflige +200% de dégâts (en Affrontement Ciblé, une Partie)\n[WhenUse] +1 de Puissance de Pièce tous les 4 ([Laceration] + [Vibration]) sur la cible principale (<style=\"highlight\">4</style> max)\n[WhenUse] Inflige +2% de dégâts par ([Laceration] + [Vibration]) sur la cible principale (<style=\"highlight\">100</style>% max)\n[WhenUse] Inflige +10% de dégâts par (somme de [GazeZyoshu] sur toutes les cibles) (70% max)\n[EndSkill] Consomme le [GazeRyoshu] et le [ContemptRyoshu] de toutes les cibles touchées",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Si la cible a [ContemptRyoshu], inflige +<style=\"highlight\">235</style>% de dégâts"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Vibration] et +2 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Laceration] et +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationBleeding]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041206,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Je Vais Tirer / À Tout Moment",
+          "desc": "[StartBattle] Priorise E.G.O. de la N Corp.::<noparse>Mépris</noparse>, Admiration Ryōshū\n[StartBattle] Gagne +1 de Poids d’Atq tous les 3 [BoseProjektil] sur soi (2 max)\n[WhenUse] À 5 [Breath] ou plus, +1 de Puissance de Pièce\n[WhenUse] À 3 de Compte de [Breath] ou plus, +1 de Puissance de Base\n[WhenUse] Gagne 1 [Breath] par [BoseProjektil] sur soi (7 max)\n[EndSkill] Perd ([BoseProjektil] sur soi * 2) PSM (14 max)\n[EndSkill] Si cette unité a 7 [BoseProjektil] au Début du Combat, les perd tous et regagne 20 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Cette Pièce n’inflige des dégâts qu’à la cible principale"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Cette Pièce n’inflige des dégâts qu’aux sous-cibles"
+                },
+                {
+                  "desc": "- Si la première Pièce n’était pas une Touche Critique, et si E.G.O. de la N Corp.::<noparse>Mépris</noparse>, Admiration Ryōshū a survécu, 1 sous-cible aléatoire subit des dégâts\n"
+                },
+                {
+                  "desc": "Inflige +30% de dégâts par [BoseProjektil] sur soi (210% max)"
+                },
+                {
+                  "desc": "+2.5% de dégâts en Touche Critique par Intensité de [Breath] (<style=\"highlight\">25%</style> max)"
+                },
+                {
+                  "desc": "+7% de dégâts en Touche Critique par [BoseProjektil] sur soi (49% max)"
+                },
+                {
+                  "desc": "Inflige +1% de dégâts par 1% de PV manquant sur la cible principale (100% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration] et +1 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Je Vais Tirer / À Tout Moment",
+          "desc": "[StartBattle] Priorise E.G.O. de la N Corp.::<noparse>Mépris</noparse>, Admiration Ryōshū\n[StartBattle] Gagne +1 de Poids d’Atq tous les 3 [BoseProjektil] sur soi (2 max)\n[WhenUse] <style=\"highlight\">+1 de Puissance de Pièce tous les 5 [Breath] sur soi (2 max)</style>\n[WhenUse] <style=\"highlight\">+1 de Puissance de Base tous les 3 de Compte de [Breath] sur soi (2 max)</style>\n[WhenUse] Gagne 1 [Breath] par [BoseProjektil] sur soi (7 max)\n[EndSkill] Perd ([BoseProjektil] sur soi * 2) PSM (14 max)\n[EndSkill] Si cette unité a 7 [BoseProjektil] au Début du Combat, les perd tous et regagne 20 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Cette Pièce n’inflige des dégâts qu’à la cible principale"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Cette Pièce n’inflige des dégâts qu’aux sous-cibles"
+                },
+                {
+                  "desc": "- Si la première Pièce n’était pas une Touche Critique, et si E.G.O. de la N Corp.::<noparse>Mépris</noparse>, Admiration Ryōshū a survécu, 1 sous-cible aléatoire subit des dégâts\n"
+                },
+                {
+                  "desc": "Inflige +<style=\"highlight\">40</style>% de dégâts par [BoseProjektil] sur soi (<style=\"highlight\">280</style>% max)"
+                },
+                {
+                  "desc": "+<style=\"highlight\">5</style>% de dégâts en Touche Critique par Intensité de [Breath] (<style=\"highlight\">50</style>% max)"
+                },
+                {
+                  "desc": "+<style=\"highlight\">10</style>% de dégâts en Touche Critique par [BoseProjektil] sur soi (<style=\"highlight\">70</style>% max)"
+                },
+                {
+                  "desc": "Inflige +1% de dégâts par 1% de PV manquant sur la cible principale (100% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Laceration] et +2 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
