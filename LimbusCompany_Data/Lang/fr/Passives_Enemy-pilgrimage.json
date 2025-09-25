@@ -1,0 +1,82 @@
+{
+  "dataList": [
+    {
+      "id": 128901,
+      "name": "Diversion",
+      "desc": "Fin du Tour : si cette unité n’a pas subi de dégât ce tour, gagne 2 [Agility] au prochain tour\nSi la Vitesse de cette unité est plus rapide que celle de la cible, inflige +5% de dégâts par différence de Vitesse (50% max)"
+    },
+    {
+      "id": 128902,
+      "name": "Lame Trempée",
+      "desc": "En Touche avec une Attaque à Sens-Unique, inflige 1 [NervousImpairment]"
+    },
+    {
+      "id": 128903,
+      "name": "Vénération Abyssale",
+      "desc": "Début du Tour : regagne 3 PSM par allié en vie"
+    },
+    {
+      "id": 9102701,
+      "name": "Horreur Abyssale",
+      "desc": "Inflige +1 d’Intensité de [Sinking] supplémentaire En Touche contre des cibles sans [Sinking]"
+    },
+    {
+      "id": 9102801,
+      "name": "Horreur Abyssale",
+      "desc": "Inflige +2 d’Intensité de [Sinking] supplémentaire En Touche contre des cibles sans [Sinking]"
+    },
+    {
+      "id": 9102802,
+      "name": "Utopie de la Marque de la Mer Infernale",
+      "desc": "Lorsque sur la [NetherseaBrandUnit] : gagne +2 de Puissance de Duel et double la quantité de [NervousImpairment] infligée En Touche"
+    },
+    {
+      "id": 9102901,
+      "name": "Stand-by",
+      "desc": "Lorsqu’en [WaitingforCommandMod], n’utilise pas de Capacités Offensives avant d’avoir subi des dégâts.\n\nLorsque cette unité subit des dégâts en [WaitingforCommandMod], entre en [ParticipationMod] et commence à utiliser des Capacités Offensives à partir du prochain tour"
+    },
+    {
+      "id": 9102902,
+      "name": "Prêt au Combat",
+      "desc": "Début de Tour en [ParticipationMod] :\n- Inflige 3 [NervousImpairment] à tous les ennemis avec moins de 15 [NervousImpairment]\n- +3 de Vitesse Min & Max\nGagne 1 [AttackUp] tous les 10% de PV manquants (8 max)\n\nFin du Tour en [ParticipationMod] : subit des dégâts fixes égaux à 10% de PV",
+      "summary": ""
+    },
+    {
+      "id": 9102903,
+      "name": "Réflexes de Survie",
+      "desc": "En affrontant en Duel la cible, ou En Touchant avec une attaque à Sens-Unique, inflige 2 [NervousImpairment]\n- Si cette unité est sur la [NetherseaBrandUnit], inflige 1 [NervousImpairment] supplémentaire"
+    },
+    {
+      "id": 9102904,
+      "name": "Utopie de la Marque de la Mer Infernale",
+      "desc": "Lorsque sur la [NetherseaBrandUnit] : gagne +2 de Puissance Finale et +2 de Puissance de Pièce et double la quantité de [NervousImpairment] infligée En Touche"
+    },
+    {
+      "id": 9103001,
+      "name": "Réfléxion en Profondeur",
+      "desc": "-0.5 à toutes les Résistances d’Affinité"
+    },
+    {
+      "id": 9103002,
+      "name": "Instinct Propagateur",
+      "desc": "À la mort, génère de la [NetherseaBrandUnit] dans le territoire des unités alliées au prochain tour."
+    },
+    {
+      "id": 9103003,
+      "name": "Utopie de la Marque de la Mer Infernale",
+      "desc": "Lorsque sur la [NetherseaBrandUnit] : gagne +1 de Puissance Finale et +1 de Puissance de Pièce et double la quantité de [NervousImpairment] infligée En Touche"
+    },
+    {
+      "id": 9103101,
+      "name": "Utopie de la Marque de la Mer Infernale",
+      "desc": "Les Capacités Offensives désignent l’ennemi le plus proche comme cible principale et sélectionne les sous-cibles situées au front\n\n\nLorsque sur la [NetherseaBrandUnit]…\n- Désigne l’ennemi le plus éloigné comme étant la cible et convertit toutes les pièces en [SuperCoin]s\n- Gagne +2 de Puissance Finale et +2 de Puissance de Pièce ; double la quantité de [NervousImpairment] infligée En Touche",
+      "summary": "Lorsque sur la [NetherseaBrandUnit], améliore les Capacités"
+    },
+    {
+      "id": 9103201,
+      "name": "Retrait de Débris",
+      "desc": "La Vitesse de cette unité est fixée à 1. Apparaît en été inactif dans les combats où peut apparaître la [NetherseaBrandUnit].\n\nLorsque la [NetherseaBrandUnit] apparaît sur le terrain, cette unité devient active et endommageable.\n- Lorsque les PV de cette unité tombent à 1 suite à des dégâts, déclenche Main du Saint et retire toute [NetherseaBrandUnit] du champ de bataille. Lorsque cet effet se déclenche, Main du Saint devient inactif au prochain tour.\n- Cette unité ne subit que des dégâts de Capacités la ciblant principalement et ne subit aucun autre dégât.\n- Lorsqu’elle devient inactive, elle retire tous les effets sur soi et regagne tous ses PV.",
+      "summary": "Retire toute [NetherseaBrandUnit] sur le champ de bataille"
+    }
+  ]
+}

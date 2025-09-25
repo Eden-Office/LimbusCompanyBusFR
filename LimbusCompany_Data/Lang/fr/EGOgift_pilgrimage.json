@@ -1,0 +1,151 @@
+{
+  "dataList": [
+    {
+      "id": 9831,
+      "name": "Note sur la Terreur Marine",
+      "desc": "Inflige +10% de dégâts aux ennemis\nInflige +1% de dégâts supplémentaires par ennemi vaincu ou Partie brisée durant cet Affrontement (+20% max de dégâts supplémentaires)\nPeut activer cet effet en brisant la même Partie à répétition.\nS’il y a des Terreurs Marines parmi les ennemis, l’effet ci-dessus s’active au potentiel maximal, qu’importe les conditions.",
+      "simpleDesc": [
+        {
+          "abilityID": 9831,
+          "simpleDesc": "Inflige plus de dégâts"
+        }
+      ]
+    },
+    {
+      "id": 9832,
+      "name": "Boussole Forgée en Or",
+      "desc": "En utilisant une Capacité à Pièce Positive, regagne 5 PSM ; en utilisant une Capacité à Pièce Négative, perd 5 PSM (Les PESM de chaque unité ne peuvent pas descendre sous -40 avec cet effet ; une fois par tour par Identité)\n\nDébut du Tour : à PSM max, ou à -30 PSM ou moins, gagne 1 [ResultEnhancement] et 2 [Protection].",
+      "simpleDesc": [
+        {
+          "abilityID": 9832,
+          "simpleDesc": "En utilisant une Capacité, gagne ou perd des PSM selon son type de Pièce"
+        },
+        {
+          "abilityID": 98321,
+          "simpleDesc": "À PSM max ou à -30 ou moins, gagne du Bonus de Puissance et de la Protection"
+        }
+      ]
+    },
+    {
+      "id": 9833,
+      "name": "Lot de Clé en Argent",
+      "desc": "Dans les combats de boss, gagne 1 ressource E.G.O. des 3 Affinités les moins possédées au début du tour.\n\nFin du Tour : si une Capacité E.G.O. a été utilisée ce tour, gagne 3 ressources E.G.O. de l’Affinité la moins possédée. (une fois par tour)",
+      "simpleDesc": [
+        {
+          "abilityID": 9833,
+          "simpleDesc": "+1 ressource E.G.O. pour les 3 Affinités les moins possédées"
+        },
+        {
+          "abilityID": 98331,
+          "simpleDesc": "Gagne 3 ressource E.G.O. la moins possédée"
+        }
+      ]
+    },
+    {
+      "id": 9834,
+      "name": "Viande Séchée de Terreur Marine",
+      "desc": "Début du Tour : inflige 3 [DefenseDown] à tous les ennemis (en Affrontement Ciblé, toutes les Parties)\n- Si des Terreurs Marines sont parmi les ennemis, inflige 7 [DefenseDown] à la place.",
+      "simpleDesc": [
+        {
+          "abilityID": 9834,
+          "simpleDesc": "Inflige du Malus de Niveau Défensif"
+        }
+      ]
+    },
+    {
+      "id": 9835,
+      "name": "Lumière de Lampe Brillante",
+      "desc": "[Les effets s’appliquent uniquement à l’Identité la plus tôt dans l’ordre de Déploiement]\n\nChaque tour, la première Capacité Offensive à être utilisée gagne +3 de Puissance Finale\nSi la Capacité Offensive était une Capacité E.G.O., elle gagne +4 de Puissance Finale et inflige +25% de dégâts à la place.\n\nDébut du Combat : si cette unité a des Instances de [NervousImpairment], en consomme jusqu’à 4 Instances pour gagner (Instances consommées * 2) [Combustion].",
+      "simpleDesc": [
+        {
+          "abilityID": 9835,
+          "simpleDesc": "Première Capacité Offensive utilisée ce tour gagne de la Puissance Finale"
+        },
+        {
+          "abilityID": 98351,
+          "simpleDesc": "Première Capacité Offensive utilisée ce tour gagne de la Puissance Finale et inflige plus de dégâts"
+        },
+        {
+          "abilityID": 98352,
+          "simpleDesc": "Si cette unité a Déficience Nerveuse, la consomme pour gagner une quantité proportionnelle de Brûlure"
+        }
+      ]
+    },
+    {
+      "id": 9836,
+      "name": "Partition Âgée",
+      "desc": "En utilisant une Capacité Offensive (inclut les Capacités E.G.O.) contre une seule cible (pour les Anomalies, une seule Partie), inflige +10% de dégâts\nSi la Capacité inflige de l’Intensité de [Sinking], du Compte de [Sinking] ou une “Lourdeur Unique”, inflige +25% de dégâts à la place.\n\n[Effet Exclusif à l’E.G.O. Élégie Hydraulique d’Ishmaël]\nSi cette Capacité E.G.O. ne cible qu’un seul ennemi, la Pièce finale gagne +4 de Puissance de Pièce et inflige +20% de dégâts.",
+      "simpleDesc": [
+        {
+          "abilityID": 9836,
+          "simpleDesc": "Inflige plus de dégâts En Touche avec une Capacité à 1 Poids d’Atq"
+        },
+        {
+          "abilityID": 98361,
+          "simpleDesc": "Inflige plus de dégâts En Touche avec une Capacité à 1 Poids d’Atq qui inflige de la Lourdeur"
+        },
+        {
+          "abilityID": 98362,
+          "simpleDesc": "Renforce l’E.G.O. Élégie Hydraulique d’Ishmaël"
+        }
+      ]
+    },
+    {
+      "id": 9837,
+      "name": "Construction en Métal",
+      "desc": "Début du Tour : tous les alliés gagnent 2 [TakeHpHealIncrease]\nPour les Identités avec des Capacités Offensives qui infligent de l’Intensité ou du Compte de [Burst] : gagne 4 [TakeHpHealIncrease] à la place\n\n[Effet Exclusif à l’E.G.O. Commande : Effondrement de Faust]\nTout soin de PV en excès suite à cette Capacité E.G.O. ou sa Passive est converti en Bouclier",
+      "simpleDesc": [
+        {
+          "abilityID": 9837,
+          "simpleDesc": "Gagne du Bonus de Soin de PV"
+        },
+        {
+          "abilityID": 98371,
+          "simpleDesc": "Gagne du Bonus de Soin de PV"
+        },
+        {
+          "abilityID": 98372,
+          "simpleDesc": "Renforce l’E.G.O. Commande : Effondrement de Faust"
+        }
+      ]
+    },
+    {
+      "id": 9838,
+      "name": "Coupe de Vin à Reflet Lunaire",
+      "desc": "Début du Tour : tous les alliés regagnent 5 PSM. À PSM max, gagne autant de [Breath] que de soin de PSM en excès (5 max)\nEn utilisant une Capacité Offensive qui applique ou gagne de l’Intensité ou du Compte de [Breath], gagne +2 de Compte de [Breath] (Une fois par Identité par tour)\n\n[Effet Exclusif à l’E.G.O. Rester Soi-même d’Hong Lu]\n- Éveil : en utilisant cette Capacité E.G.O., au lieu de consommer des PSM, soigne la quantité de PSM qu’elle aurait consommée\n- Érosion : en utilisant cette Capacité E.G.O., -50% de PSM consommés",
+      "simpleDesc": [
+        {
+          "abilityID": 9838,
+          "simpleDesc": "Soigne des PSM. À PSM max, gagne du Calme à la place"
+        },
+        {
+          "abilityID": 98381,
+          "simpleDesc": "En utilisant une Capacité qui applique ou gagne du Calme, gagne du Compte de Calme"
+        },
+        {
+          "abilityID": 98382,
+          "simpleDesc": "Renforce l’E.G.O. Rester Soi-même d’Hong Lu"
+        }
+      ]
+    },
+    {
+      "id": 9839,
+      "name": "Coupe-Papier de Style Classique",
+      "desc": "Les Capacités avec 2 de Poids d’Atq ou plus infligent +15% de dégâts\nLes Capacités qui infligent de l’Intensité ou du Compte de [Vibration] ou un “Tremblement Unique” infligent +(15 + Poids d’Atq * 5)% de dégâts à la place (50% max)\n\n[Effet Exclusif à l’E.G.O. Gloire Morne de Gregor]\nÉveil : inflige +20% de dégâts à chaque Réutilisation de Pièce de la Capacité E.G.O. (60% max)\nÉrosion : avant d’attaquer, gagne du [AttackDmgUp] tous les 10 [MlynarWaiting] consommés (4 max)",
+      "simpleDesc": [
+        {
+          "abilityID": 9839,
+          "simpleDesc": "En utilisant des Capacités avec 2 de Poids d’Atq ou plus, inflige plus de dégâts"
+        },
+        {
+          "abilityID": 98391,
+          "simpleDesc": "En utilisant des Capacités avec 2 de Poids d’Atq ou plus qui infligent du Tremblement, inflige plus de dégâts"
+        },
+        {
+          "abilityID": 98392,
+          "simpleDesc": "Renforce l’E.G.O. Gloire Morne de Gregor"
+        }
+      ]
+    }
+  ]
+}

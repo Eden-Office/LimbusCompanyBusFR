@@ -494,6 +494,28 @@
       "id": 2050811,
       "name": "Métronome",
       "desc": "Début du Tour : en tour impair, gagne 1 [AttackDmgUp] ; en tour pair, gagne 1 [Protection]\n- Ne se cumule pas avec le Don E.G.O. Métronome. (Si ce Don E.G.O. est dans un état amélioré, son effet soustrait les valeurs gagnées par cet effet)\n- N’affecte pas les instances de son effet appliqué aux autres alliés\n\nEn utilisant une Capacité E.G.O., gagne 1 [AccumulatedPastSinner] au prochain tour (une fois par Affrontement)\n- Gagne 1 [AccumulatedPastSinner] à chaque Fin de Tour qui suit"
+    },
+    {
+      "id": 2020911,
+      "name": "Doctoresse",
+      "desc": "Début du Tour : soigne soi-même et 1 allié avec le plus bas pourcentage de PV de (Instance de [CuredFilm])% des PV max de cette unité\n- Si cette unité est à PV max, soigne 2 autres alliés avec les plus bas pourcentages de PV à la place\n- Si les unités recevant du soin sont à 25% de PV ou moins, ou sont Déséquilibrées, multiplie le soin de cet effet par 1.5\n\nFin du Tour : si la dernière Capacité E.G.O. qu’a utilisé Faust durant l’Affrontement est Commande : Effondrement, perd seulement 1 Instance de [CuredFilm] à la Fin du Tour à la place\n- Cet effet s’active au même tour où est utilisée la Capacité E.G.O.",
+      "summary": "Début du Tour : soigne soi-même et 1 allié avec le plus bas pourcentage de PV"
+    },
+    {
+      "id": 2060911,
+      "name": "Ainsi est Décrété, une Ode au Vin",
+      "desc": "Fin du Tour : parmi les ressources E.G.O. consommées pour utiliser Rester Soi-même Hong Lu (Paresse, Peine, Orgueil), gagne 1 ressource E.G.O. de l’Affinité la moins possédée.\n\nInflige +1% de dégâts par Instance de [Cianjing] ou de [SeniorCianjing] perdue ou consommée durant cet Affrontement (15% max)",
+      "summary": "Fin du Tour : gagne des ressources E.G.O.\nInflige plus de dégâts selon combien de Foudroyeur ou Foudroyeur Supérieur ont été perdus ou consommé"
+    },
+    {
+      "id": 2081011,
+      "name": "Danse Abyssale",
+      "desc": "- Début du Combat : s’il n’y a qu’un seul ennemi, la Capacité Offensive la plus à gauche du Tableau de Bord de cette unité gagne +1 de Puissance de Duel et inflige +11.5% de dégâts en Touche après un Duel Gagné (inclut les Capacités E.G.O.)\n- Pour les tours durant lesquels cette unité est Revenue ou a Substitué : +1 de Vitesse Min & Max, +1 de Puissance de Duel"
+    },
+    {
+      "id": 2120911,
+      "name": "Vagabond",
+      "desc": "Gagne [MlynarWaiting] en remplissant une des conditions suivantes :\n- Gagne 1 tous les 3 dégâts de PV subis en étant touché\n- Gagne 1 tous les 5 dégâts de PV de Bouclier subis en étant touché\n- Gagne 10 par allié Déséquilibré lorsque d’autres alliés se font Déséquilibrer\n- Gagne 20 par allié mort lorsque d’autres alliés sont tués\n\nDébut du Tour : si cette unité est Déséquilibrée suite à des dégâts, et si cette unité a 40 [MlynarWaiting] ou plus, fixe toutes les valeurs de Résistance de cette unité à 2 pour ce tour et se remet de Déséquilibre (une fois par Affrontement ; sauf s’il s’agit d’un Déséquilibre forcé)"
     }
   ]
 }

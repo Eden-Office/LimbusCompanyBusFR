@@ -588,6 +588,297 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2120911,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Gloire Morne - Écoulement",
+          "abName": "Młynar",
+          "desc": "[CantDuel]\nLorsque utilisé pour la première fois en combat, consomme 1 ressource E.G.O. de Colère de moins, 2 de Paresse de moins et 1 d’Orgueil de moins.\nÀ 1 [MlynarWaiting] ou plus, active <noparse>Gloire Morne - Incandescence</noparse> à la place\nCette Capacité ne touche pas d’ennemi, ne déclenche pas de Capacités Défensives et les effets externes ne peuvent pas pousser cette Capacité à être Réutilisée\n[EndSkill] Gagne 1 [MlynarWaiting]\n[EndSkill] Regagne 25 PSM\n[EndSkill] Gagne 1 [AttackUp] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Gloire Morne - Écoulement",
+          "abName": "Młynar",
+          "desc": "[CantDuel]\nLorsque utilisé pour la première fois en combat, consomme 1 ressource E.G.O. de Colère de moins, 2 de Paresse de moins et 1 d’Orgueil de moins.\nÀ 1 [MlynarWaiting] ou plus, active <noparse>Gloire Morne - Incandescence</noparse> à la place\nCette Capacité ne touche pas d’ennemi, ne déclenche pas de Capacités Défensives et les effets externes ne peuvent pas pousser cette Capacité à être Réutilisée\n[EndSkill] Gagne 1 [MlynarWaiting]\n[EndSkill] Regagne 25 PSM\n[EndSkill] Gagne <style=\"highlight\">2</style> [AttackUp] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Gloire Morne - Écoulement",
+          "abName": "Młynar",
+          "desc": "[CantDuel]\nLorsque utilisé pour la première fois en combat, consomme 1 ressource E.G.O. de Colère de moins, 2 de Paresse de moins et 1 d’Orgueil de moins.\nÀ 1 [MlynarWaiting] ou plus, active <noparse>Gloire Morne - Incandescence</noparse> à la place\nCette Capacité ne touche pas d’ennemi, ne déclenche pas de Capacités Défensives et les effets externes ne peuvent pas pousser cette Capacité à être Réutilisée\n[EndSkill] Gagne 1 [MlynarWaiting]\n[EndSkill] Regagne 25 PSM\n[EndSkill] Gagne 2 [AttackUp] <style=\"highlight\">et 1 [AttackDmgUp]</style> au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120912,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Gloire Morne - Incandescence",
+          "abName": "Młynar",
+          "desc": "[CantDuel]\nLes effets externes ne peuvent pas pousser cette Capacité à être Réutilisée\nÀ 40 [MlynarWaiting], devient Affrontable\n[WhenUse] À 40 [MlynarWaiting], jusqu’à la fin de cette Capacité, cette unité ne peut pas être Déséquilibrée en subissant des dégâts et gagne +20 de Puissance de Duel\n\n[BeforeAttack] Consomme tout [MlynarWaiting] et gagne les effets suivants (chacun d’eux arrondi à l’inférieur) :\n- Pour chaque (Instance consommée / 20), récupère 1 ressource E.G.O. (dans l’ordre suivant : Orgueil, puis Colère)\n- Pour chaque (Instance consommée / 10), gagne +1 de Poids d’Atq (4 max)\n- Pour chaque (Instance consommée / 10), gagne du [DefenseUp] (une fois par tour)\n- Si 40 Instances ont été consommées, la 4ème Pièce inflige +50% de dégâts et cette unité gagne 2 [Protection] (une fois par tour)\n\n[BeforeAttack] Inflige +5% de dégâts tous les 8 ([Combustion] + [Vibration]) sur la cible principale (25% max)\n[EndSkill] Regagne 5 PSM par cible ayant été Déséquilibrée ou tuée suite aux dégâts de cette Capacité (25 max)\n[EndSkill] Gagne 1 [MlynarWaiting]\n[EndBattle] Si cette Capacité n’a pas consommé 40 [MlynarWaiting], l’Emplacement de Capacité le plus à gauche du Tableau de Bord gagne +4 d’[Aggro] au prochain tour (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Réutilise cette Pièce ((Instance d’[MlynarWaiting] consommée / 10) - 1) fois (3 fois max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Si c’est la Pièce finale et si la cible a 15 d’Intensité de [Vibration] ou plus, déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Si cette Pièce a été utilisée 4 fois, inflige des dégâts de Paresse égaux au [Vibration] de la cible (5 max)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Gloire Morne - Incandescence",
+          "abName": "Młynar",
+          "desc": "[CantDuel]\nLes effets externes ne peuvent pas pousser cette Capacité à être Réutilisée\nÀ 40 [MlynarWaiting], devient Affrontable\n[WhenUse] À 40 [MlynarWaiting], jusqu’à la fin de cette Capacité, cette unité ne peut pas être Déséquilibrée en subissant des dégâts et gagne +20 de Puissance de Duel\n\n[BeforeAttack] Consomme tout [MlynarWaiting] et gagne les effets suivants (chacun d’eux arrondi à l’inférieur) :\n- Pour chaque (Instance consommée / 20), récupère 1 ressource E.G.O. (dans l’ordre suivant : Orgueil, puis Colère)\n- Pour chaque (Instance consommée / 10), gagne +1 de Poids d’Atq (4 max)\n- Pour chaque (Instance consommée / 10), gagne du [DefenseUp] (une fois par tour)\n- Si 40 Instances ont été consommées, la 4ème Pièce inflige +<style=\"highlight\">80</style>% de dégâts et cette unité gagne 2 [Protection] (une fois par tour)\n\n[BeforeAttack] Inflige +5% de dégâts tous les 8 ([Combustion] + [Vibration]) sur la cible principale (25% max)\n[EndSkill] Regagne 5 PSM par cible ayant été Déséquilibrée ou tuée suite aux dégâts de cette Capacité (25 max)\n[EndSkill] Gagne 1 [MlynarWaiting]\n[EndBattle] Si cette Capacité n’a pas consommé 40 [MlynarWaiting], l’Emplacement de Capacité le plus à gauche du Tableau de Bord gagne +4 d’[Aggro] au prochain tour (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Réutilise cette Pièce ((Instance d’[MlynarWaiting] consommée / 10) - 1) fois (3 fois max)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnStartCoin] Si cette Pièce n’est pas Fissurée et si elle cible 3 ennemis ou plus, la Pièce finale à être utilisée inflige +10% de dégâts (en Affrontement Ciblé, chaque Partie compte comme 1 cible)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Si c’est la Pièce finale et si la cible a 15 d’Intensité de [Vibration] ou plus, déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Si cette Pièce a été utilisée 4 fois, inflige des dégâts de Paresse égaux au [Vibration] de la cible (5 max)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Gloire Morne - Incandescence",
+          "abName": "Młynar",
+          "desc": "[CantDuel]\nLes effets externes ne peuvent pas pousser cette Capacité à être Réutilisée\nÀ 40 [MlynarWaiting], devient Affrontable\n[WhenUse] À 40 [MlynarWaiting], jusqu’à la fin de cette Capacité, cette unité ne peut pas être Déséquilibrée en subissant des dégâts et gagne +20 de Puissance de Duel\n\n[BeforeAttack] Consomme tout [MlynarWaiting] et gagne les effets suivants (chacun d’eux arrondi à l’inférieur) :\n- Pour chaque (Instance consommée / 20), récupère 1 ressource E.G.O. (dans l’ordre suivant : Orgueil, puis Colère)\n- Pour chaque (Instance consommée / 10), gagne +1 de Poids d’Atq (4 max)\n- Pour chaque (Instance consommée / 10), gagne du [DefenseUp] (une fois par tour)\n- Si 40 Instances ont été consommées, la 4ème Pièce inflige +<style=\"highlight\">100</style>% de dégâts et cette unité gagne 2 [Protection] (une fois par tour)\n\n[BeforeAttack] Inflige +5% de dégâts tous les 8 ([Combustion] + [Vibration]) sur la cible principale (25% max)\n[EndSkill] Regagne 5 PSM par cible ayant été Déséquilibrée ou tuée suite aux dégâts de cette Capacité (25 max)\n[EndSkill] Gagne 1 [MlynarWaiting]\n[EndBattle] Si cette Capacité n’a pas consommé 40 [MlynarWaiting], l’Emplacement de Capacité le plus à gauche du Tableau de Bord gagne +4 d’[Aggro] au prochain tour (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Réutilise cette Pièce ((Instance d’[MlynarWaiting] consommée / 10) - 1) fois (3 fois max)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnStartCoin] Si cette Pièce n’est pas Fissurée et si elle cible 3 ennemis ou plus, la Pièce finale à être utilisée inflige +<style=\"highlight\">20</style>% de dégâts (en Affrontement Ciblé, chaque Partie compte comme 1 cible)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Si c’est la Pièce finale et si la cible a 15 d’Intensité de [Vibration] ou plus, déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Si cette Pièce a été utilisée 4 fois, inflige des dégâts de Paresse égaux au [Vibration] de la cible (<style=\"highlight\">10</style> max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120921,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Gloire Morne - Écoulement",
+          "abName": "Młynar",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[WhenUse] À 40 [MlynarWaiting], +1 de Puissance de Base\n\n[BeforeAttack] Consomme tout [MlynarWaiting] et gagne les effets suivants (chacun d’eux arrondi à l’inférieur) :\n- Gagne (Instances consommées / 10) [DefenseUp] (une fois par tour)\n- Si 40 Instances ont été consommées, la Pièce finale inflige +110% de dégâts et cette unité gagne 2 [Protection] (une fois par tour)\n\n[BeforeAttack] Inflige +3% de dégâts tous les 6 ([Combustion] + [Vibration]) sur la cible principale (15% max)\n[BeforeAttack] -4 de Puissance de Base par Pièce Fissurée (-16 max)\n[EndSkill] Gagne 1 [MlynarWaiting]\n[EndBattle] Si 40 [MlynarWaiting] ont été consommées par cette Capacité, l’Emplacement de Capacité le plus à gauche du Tableau de Bord gagne +8 d’[Aggro] au prochain tour (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Vibration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Si la cible a 15 d’Intensité de [Vibration] ou plus, déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Gloire Morne - Écoulement",
+          "abName": "Młynar",
+          "desc": "[CantIdentify]\nCible aléatoirement\n<style=\"highlight\">En attaquant 3 cibles ou plus : si les Pièces 1~3 touchent sans se Fissurer, la Pièce finale inflige +25% de dégâts (une fois par Pièce ; en Affrontement Ciblé, chaque Partie compte comme 1 cible)</style>\n[WhenUse] À 40 [MlynarWaiting], +1 de Puissance de Base\n\n[BeforeAttack] Consomme tout [MlynarWaiting] et gagne les effets suivants (chacun d’eux arrondi à l’inférieur) :\n- Gagne (Instances consommées / 10) [DefenseUp] (une fois par tour)\n- Si 40 Instances ont été consommées, la Pièce finale inflige +<style=\"highlight\">130</style>% de dégâts et cette unité gagne 2 [Protection] (une fois par tour)\n\n[BeforeAttack] Inflige +3% de dégâts tous les 6 ([Combustion] + [Vibration]) sur la cible principale (15% max)\n[BeforeAttack] -4 de Puissance de Base par Pièce Fissurée (-16 max)\n[EndSkill] Gagne 1 [MlynarWaiting]\n[EndBattle] Si 40 [MlynarWaiting] ont été consommées par cette Capacité, l’Emplacement de Capacité le plus à gauche du Tableau de Bord gagne +8 d’[Aggro] au prochain tour (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Si la cible a 15 d’Intensité de [Vibration] ou plus, déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Gloire Morne - Écoulement",
+          "abName": "Młynar",
+          "desc": "[CantIdentify]\nCible aléatoirement\nS’il y a 3 cibles ou plus : si les Pièces 1~3 touchent sans se Fissurer, la Pièce finale inflige +<style=\"highlight\">30</style>% de dégâts (une fois par Pièce ; en Affrontement Ciblé, chaque Partie compte comme 1 cible)\n[WhenUse] À 40 [MlynarWaiting], +1 de Puissance de Base\n\n[BeforeAttack] Consomme tout [MlynarWaiting] et gagne les effets suivants (chacun d’eux arrondi à l’inférieur) :\n- Gagne (Instances consommées / 10) [DefenseUp] (une fois par tour)\n- Si 40 Instances ont été consommées, la Pièce finale inflige +<style=\"highlight\">160</style>% de dégâts et cette unité gagne 2 [Protection] (une fois par tour)\n\n[BeforeAttack] Inflige +3% de dégâts tous les 6 ([Combustion] + [Vibration]) sur la cible principale (15% max)\n[BeforeAttack] -4 de Puissance de Base par Pièce Fissurée (-16 max)\n[EndSkill] Gagne 1 [MlynarWaiting]\n[EndBattle] Si 40 [MlynarWaiting] ont été consommées par cette Capacité, l’Emplacement de Capacité le plus à gauche du Tableau de Bord gagne +8 d’[Aggro] au prochain tour (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Si la cible a 15 d’Intensité de [Vibration] ou plus, déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

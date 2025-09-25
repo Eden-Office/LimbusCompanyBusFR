@@ -1,0 +1,747 @@
+{
+  "dataList": [
+    {
+      "id": 128801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lance Perce-Mer",
+          "desc": "[WhenUse] +1 de Puissance de Duel tous les 2 ennemis avec [ColdAirDOQ] (2 max)\n[WhenUse] +1 de Puissance Finale par [ColdAirDOQ] sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 128802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lance Brise-Mer",
+          "desc": "[WhenUse] +1 de Puissance de Base tous les 2 ennemis avec [ColdAirDOQ] (2 max)\n[WhenUse] Si la cible principale a [ColdAirDOQ], +1 de Poids d’Atq\n[WhenUse] +1 de Puissance Finale par [ColdAirDOQ] sur la cible principale (2 max)\n[DefeatDuel] Inflige -50% de dégâts et les dégâts de cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Sinking]\n- Si la cible a [ColdAirDOQ], inflige 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 3 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 128803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chasse-Mer",
+          "desc": "Priorise les cibles avec [FreezingDOQ]\nPeut affronter en Duel cette Capacité qu’importe la Vitesse\n[WhenUse] En attaquant des cibles avec [FreezingDOQ], +2 de Poids d’Atq\n[WhenUse] +1 de Puissance de Pièce tous les 2 ennemis avec [ColdAirDOQ] (2 max)\n[DefeatDuel] Inflige -50% de dégâts et les dégâts de cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne 3 [AttackUp] (une fois par tour)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[EnemyKill] Si la cible a [FreezingDOQ], regagne 20 PSM"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 128804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Abat l’Océan, Abat l’Océan !!!",
+          "desc": "[CantDuel]\n[WhenUse] Inflige +5% de dégâts par ennemi avec [ColdAirDOQ] (30% max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne 3 [AttackUp] (une fois par tour)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 10*(1 + [ColdAirDOQ] sur la cible) dégâts de Peine bonus"
+                },
+                {
+                  "desc": "[EnemyKill] Si la cible a [FreezingDOQ], regagne 20 PSM"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 128805,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Abat l’Océan, Abat l’Océan !!!",
+          "desc": "Priorise les cibles avec [FreezingDOQ]\nPeut affronter en Duel cette Capacité qu’importe la Vitesse\n[WhenUse] Inflige +5% de dégâts par ennemi avec [ColdAirDOQ] (30% max)\n[WhenUse] +1 de Puissance de Pièce tous les 2 ennemis avec [ColdAirDOQ] (3 max)\n[DefeatDuel] Inflige -80% de dégâts et les dégâts de cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 5 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne 3 [AttackUp] (une fois par tour)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 10*(1 + [ColdAirDOQ] sur la cible) dégâts de Peine bonus"
+                },
+                {
+                  "desc": "[EnemyKill] Si la cible a [FreezingDOQ], regagne 20 PSM"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 128806,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Le Chevalier Indomptable",
+          "desc": "[CanDuelGuard]\n[WhenUse] Gagne 2 [Agility] au prochain tour (une fois par tour)\n[WinDuel] Regagne 15 PSM\n[DefeatDuel] Perd 10 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 128901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Injection Cellulaire",
+          "desc": "[OnDirectAttack] +2 de Puissance de Pièce pour cette Capacité",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 5 [NervousImpairment]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [SeaTerrorCell]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 128902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Coupe Déchirante",
+          "desc": "+1 de Puissance Finale toutes les 6 [Sinking] sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 128903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Coupe Battante",
+          "desc": "[WhenUse] +1 de Puissance de Pièce par [Binding] sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 128904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Multiples Piques",
+          "desc": "+1 de Puissance Finale toutes les 6 [Sinking] sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts de Peine égaux à la [NervousImpairment] sur la cible"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 129101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Volonté Unie",
+          "desc": "+1 de Puissance de Pièce toutes les 6 [Sinking] sur la cible (2 max)\n[StartBattle] Applique 2 [Agility] au prochain tour au Cultiste des Profondeurs allié avec la Vitesse la plus lente",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [NervousImpairment]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 129102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Extase Propagatrice",
+          "desc": "+1 de Puissance de Pièce toutes les 6 [Sinking] sur la cible (2 max)\n[StartBattle] Applique 2 [Enhancement] au prochain tour au Cultiste des Profondeurs allié avec la Vitesse la plus rapide",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [NervousImpairment]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 129103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Rite de Libération",
+          "desc": "+1 de Puissance de Pièce toutes les 6 [Sinking] sur la cible (2 max)\n[WhenUse] Si la cible a [Binding], +2 de Puissance Finale\n[WinDuel] Inflige 6 [Sinking]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Binding] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [NervousImpairment]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [NervousImpairment]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 129104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Adaptation Environnementale",
+          "desc": "+1 de Puissance Finale toutes les 6 [Sinking] sur la cible (2 max)\n[StartBattle] Gagne 50 de Bouclier\n[EndBattle] Si cette unité a du Bouclier restant, gagne 2 [Enhancement] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 129105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pour les Semblables Attachés à la Terre",
+          "desc": "[WhenUse] Si la [NetherseaBrandUnit] est activée ici, +3 de Puissance Finale\n- Gagne 1 de Puissance Finale supplémentaire par Niveau de [NetherseaBrandUnit]\n\n[WhenUse] +1 de Puissance de Pièce toutes les 6 [Sinking] sur la cible principale (2 max)\nAu Niveau 2 de [NetherseaBrandUnit] ou plus, inflige +1 [NervousImpairment] supplémentaire avec cette Capacité",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [NervousImpairment]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [SeaTerrorCell]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [NervousImpairment]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [SeaTerrorCell]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [NervousImpairment]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [SeaTerrorCell]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 129701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Le Détour de l’Ego Impatient",
+          "desc": "[CantDuel]\nCette Capacité n’inflige pas de dégâts aux cibles\n[EndSkill] Gagne 100 [AbyssalVitality]",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 129702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Échos de Répit",
+          "desc": "[CantIdentify]\nPriorise les alliés ; parmi eux, priorise les alliés avec le moins de PV actuels\nEn ciblant des alliés, inflige 0 dégât\n+1 de Puissance de Duel toutes les 3 [Sinking] sur la cible (4 max)\n[StartBattle] En ciblant des alliés, soigne (20% des PV max de la cible) PV",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] En ciblant un allié, applique 1 [DefenseUp] ce tour et le tour suivant toutes les 4 [AbyssalVitality] consommées pour invoquer la cible (5 max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] En ciblant un ennemi, inflige 3 [Sinking] et 2 [NervousImpairment]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 129703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Échos d’Ascension",
+          "desc": "[CantIdentify]\nPriorise les alliés avec le plus de PV actuels\nEn ciblant un allié, inflige 0 dégât\n+1 de Puissance de Duel toutes les 3 [Sinking] sur la cible (4 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] En ciblant un allié, applique 1 [AttackUp] ce tour et le tour suivant toutes les 4 [AbyssalVitality] consommées pour invoquer la cible (5 max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] En ciblant un ennemi, inflige 3 [Sinking] et 2 [NervousImpairment]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 129704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Écosystème Cyclique",
+          "desc": "[CanDuelGuard]\n[EndBattle] Consomme autant de [AbyssalVitality] que d’allié en vie ; cependant, applique (# de tours où a survécu la cible) [AttackDmgUp] au prochain tour à tous les alliés (3 max)\n- [DefeatDuel] N’applique pas de [AttackDmgUp] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 129705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Avec une Charité Bleu Profond.",
+          "desc": "[CantIdentify]\n+1 de Puissance de Base toutes les 3 [NervousImpairment] sur la cible principale (9 max)\nEn ciblant des alliés, inflige 0 dégât\nPeut affronter en Duel cette Capacité qu’importe la Vitesse\n\n[DefeatDuel]\n- Gagne 3 [ResultReduction] et 3 [Paralysis]\n- Inflige -80% de dégâts et les dégâts de cette Capacité ne peuvent pas Déséquilibrer la cible\n- Réduit de moitié la quantité de [NervousImpairment] infligée par cette Capacité et n’inflige pas de [Sinking] ou de Compte de [Sinking]\n- Réduit de moitié la quantité de [AbyssalVitality] gagnée avec cette Capacité\n[EndSkill] Gagne 100 [AbyssalVitality]\n[EndBattle] Au début du prochain tour, génère de la [NetherseaBrandUnit] dans le territoire allié",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] En ciblant un allié, soigne 10% de ses PV max"
+                },
+                {
+                  "desc": "[OnSucceedAttack] En ciblant un ennemi, inflige 2 [NervousImpairment]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] En ciblant un allié, soigne 10% de ses PV max"
+                },
+                {
+                  "desc": "[OnSucceedAttack] En ciblant un ennemi, inflige 2 [NervousImpairment]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] En ciblant un allié, soigne 10% de ses PV max"
+                },
+                {
+                  "desc": "[OnSucceedAttack] En ciblant un ennemi, inflige 4 [Sinking], +4 de Compte de [Sinking] et 4 [NervousImpairment]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 129706,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Arc Hydraulique",
+          "desc": "[WhenUse] À 50 [AbyssalVitality] ou plus, consomme 5 [AbyssalVitality] pour infliger +2 [NervousImpairment] supplémentaire avec les effets de cette Capacité\n[WhenUse] Toutes les 5 [NervousImpairment] sur la cible, consomme 1 [AbyssalVitality] pour gagner +1 de Puissance de Duel (5 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [NervousImpairment]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 4 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [NervousImpairment]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 129707,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Courants Féroces",
+          "desc": "[WhenUse] À 50 [AbyssalVitality] ou plus, consomme 4 [AbyssalVitality] pour gagner +1 de Puissance de Pièce\n[WhenUse] Toutes les 10 [NervousImpairment] sur la cible, consomme 3 [AbyssalVitality] pour gagner +1 de Puissance de Pièce (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [NervousImpairment]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +3 de Compte de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [NervousImpairment]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 129708,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vagues Ondoyantes",
+          "desc": "[WhenUse] +1 de Puissance de Pièce toutes les 3 [NervousImpairment] sur la cible principale (9 max)\n[EndBattle] Consomme jusqu’à 10 [AbyssalVitality] et gagne la moitié des Instances consommées en [AttackUp] au prochain tour (5 max, arrondi au supérieur)\n- [DefeatDuel] Ne gagne pas de [AttackUp] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 3 [Sinking] et +2 de Compte de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 6 [NervousImpairment]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 129709,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Avant que la compassion en laquelle ils croient perde son sens.",
+          "desc": "Priorise les cibles avec le plus de [NervousImpairment]\n+1 de Puissance de Base toutes les 3 [NervousImpairment] sur la cible principale (9 max)\nPeut affronter en Duel cette Capacité qu’importe la Vitesse\n\n[DefeatDuel]\n- Gagne 3 [ResultReduction] et 3 [Paralysis]\n- Inflige -80% de dégâts et les dégâts de cette Capacité ne peuvent pas Déséquilibrer la cible\n- Réduit de moitié la quantité de [NervousImpairment] infligée par cette Capacité et n’inflige pas de [Sinking] ou de Compte de [Sinking]\n- Réduit de moitié la quantité de [AbyssalVitality] et de Bouclier gagnés avec cette Capacité\n[EndSkill]\n- Gagne 100 [AbyssalVitality]\n- Gagne du Bouclier égal à 20% des PV max de cette unité\n- Termine ce tour\n[EndBattle] Au début du prochain tour, génère de la [NetherseaBrandUnit] dans le territoire allié",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 4 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [NervousImpairment]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +4 de Compte de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [NervousImpairment]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 4 [Sinking] et +4 de Compte de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 6 [NervousImpairment]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

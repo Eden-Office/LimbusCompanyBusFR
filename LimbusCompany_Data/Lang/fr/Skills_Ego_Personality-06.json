@@ -933,6 +933,223 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2060911,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Rester Soi-même [宁作吾]",
+          "abName": "Ling",
+          "desc": "[WhenUse] Gagne 2 [Breath]\n[BeforeAttack] À 5 (Intensité de [Breath] + Compte de [Breath]) ou plus, +1 de Puissance Finale\n[BeforeAttack] Si cette unité a [Cianjing], inflige +15% de dégâts\n[BeforeAttack] Si cette unité a [SeniorCianjing], inflige +27% de dégâts\n[EndSkill] Gagne 5 [Cianjing]\n- Si cette unité a [Cianjing] ou [SeniorCianjing], le consomme entièrement et gagne 5 [SeniorCianjing]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "Si cette unité a [Cianjing], inflige +(Intensité de [Breath] / 2)% de dégâts en Touche Critique (15% max)"
+                },
+                {
+                  "desc": "Si cette unité a [SeniorCianjing], inflige +((Intensité de [Breath] + Compte de [Breath]) / 2)% de dégâts en Touche Critique (30% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Rester Soi-même [宁作吾]",
+          "abName": "Ling",
+          "desc": "[WhenUse] Gagne <style=\"highlight\">3</style> [Breath]\n[BeforeAttack] <style=\"highlight\">+1 de Puissance Finale tous les 5 (Intensité de [Breath] + Compte de [Breath]) (2 max)</style>\n[BeforeAttack] Si cette unité a [Cianjing], gagne <style=\"highlight\">+1 de Poids d’Atq</style> et inflige +15% de dégâts\n[BeforeAttack] Si cette unité a [SeniorCianjing], gagne <style=\"highlight\">+2 de Poids d’Atq</style> et inflige +27% de dégâts\n[EndSkill] Gagne 5 [Cianjing]\n- Si cette unité a [Cianjing] ou [SeniorCianjing], le consomme entièrement et gagne 5 [SeniorCianjing]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "Si cette unité a [Cianjing], inflige +(Intensité de [Breath] / 2)% de dégâts en Touche Critique (<style=\"highlight\">20</style>% max)"
+                },
+                {
+                  "desc": "Si cette unité a [SeniorCianjing], inflige +((Intensité de [Breath] + Compte de [Breath]) / 2)% de dégâts en Touche Critique (<style=\"highlight\">40</style>% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Rester Soi-même [宁作吾]",
+          "abName": "Ling",
+          "desc": "[WhenUse] Gagne <style=\"highlight\">4</style> [Breath]\n[BeforeAttack] +1 de Puissance Finale tous les 5 (Intensité de [Breath] + Compte de [Breath]) (<style=\"highlight\">3</style> max)\n<style=\"highlight\">[BeforeAttack] Si cette unité n’a pas [Cianjing] ou [SeniorCianjing], récupère la moitié des ressources E.G.O. et PSM consommés par cette Capacité (arrondi à l’inférieur)</style>\n[BeforeAttack] Si cette unité a [Cianjing], gagne +1 de Poids d’Atq et inflige +<style=\"highlight\">25</style>% de dégâts\n[BeforeAttack] Si cette unité a [SeniorCianjing], gagne +2 de Poids d’Atq et inflige +<style=\"highlight\">45</style>% de dégâts\n[EndSkill] Gagne 5 [Cianjing]\n- Si cette unité a [Cianjing] ou [SeniorCianjing], le consomme entièrement et gagne 5 [SeniorCianjing]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "Si cette unité a [Cianjing], inflige +(<style=\"highlight\">[Breath] Potency</style>)% de dégâts en Touche Critique (20% max)"
+                },
+                {
+                  "desc": "Si cette unité a [SeniorCianjing], inflige +(<style=\"highlight\">Intensité de [Breath] + Compte de [Breath]</style>)% de dégâts en Touche Critique (40% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2060921,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Rester Soi-même [宁作吾]",
+          "abName": "Ling",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[WhenUse] Gagne 2 [Breath] et +2 de Compte de [Breath]\n[BeforeAttack] Si cette unité a [Cianjing] ou [SeniorCianjing], +1 de Puissance de Pièce\n[EndSkill] Gagne 5 [Cianjing]\n- Si cette unité a [Cianjing] ou [SeniorCianjing], le consomme entièrement et gagne 5 [SeniorCianjing]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts d’Orgueil égaux à 10% des dégâts infligés (10 max)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts d’Orgueil égaux à 15% des dégâts infligés (15 max)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Si cette unité a [Cianjing], inflige +(Intensité de [Breath] / 2)% de dégâts en Touche Critique (20% max)"
+                },
+                {
+                  "desc": "Si cette unité a [SeniorCianjing], inflige +((Intensité de [Breath] + Compte de [Breath]) / 2)% de dégâts en Touche Critique (40% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts d’Orgueil égaux à 25% des dégâts infligés (25 max)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Rester Soi-même [宁作吾]",
+          "abName": "Ling",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[WhenUse] Gagne <style=\"highlight\">3</style> [Breath] et +<style=\"highlight\">3</style> de Compte de [Breath]\n[BeforeAttack] Si cette unité a [Cianjing] ou [SeniorCianjing], <style=\"highlight\">gagne +1 de Poids d’Atq, +1 de Puissance de Base</style> et +1 de Puissance de Pièce\n[EndSkill] Gagne 5 [Cianjing]\n- Si cette unité a [Cianjing] ou [SeniorCianjing], le consomme entièrement et gagne 5 [SeniorCianjing]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts d’Orgueil égaux à 10% des dégâts infligés (10 max)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts d’Orgueil égaux à 15% des dégâts infligés (15 max)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "Si cette unité a [Cianjing], inflige +(Intensité de [Breath] / 2)% de dégâts en Touche Critique (<style=\"highlight\">30</style>% max)"
+                },
+                {
+                  "desc": "Si cette unité a [SeniorCianjing], inflige +((Intensité de [Breath] + Compte de [Breath]) / 2)% de dégâts en Touche Critique (<style=\"highlight\">60</style>% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts d’Orgueil égaux à 25% des dégâts infligés (25 max)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Rester Soi-même [宁作吾]",
+          "abName": "Ling",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[WhenUse] Gagne <style=\"highlight\">4</style> [Breath] et +<style=\"highlight\">4</style> de Compte de [Breath]\n[BeforeAttack] Si cette unité a [Cianjing] ou [SeniorCianjing], gagne +<style=\"highlight\">2</style> de Poids d’Atq, +<style=\"highlight\">2</style> de Puissance de Base et +<style=\"highlight\">2</style> de Puissance de Pièce\n[EndSkill] Gagne 5 [Cianjing]\n- Si cette unité a [Cianjing] ou [SeniorCianjing], le consomme entièrement et gagne 5 [SeniorCianjing]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts d’Orgueil égaux à 10% des dégâts infligés (10 max)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts d’Orgueil égaux à 15% des dégâts infligés (15 max)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "Si cette unité a [Cianjing], inflige +(<style=\"highlight\">[Breath] Potency</style>)% de dégâts en Touche Critique (30% max)"
+                },
+                {
+                  "desc": "Si cette unité a [SeniorCianjing], inflige +(<style=\"highlight\">Intensité de [Breath] + Compte de [Breath]</style>)% de dégâts en Touche Critique (60% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking] <style=\"highlight\">et +2 de Compte de [Sinking]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts d’Orgueil égaux à 25% des dégâts infligés (25 max)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

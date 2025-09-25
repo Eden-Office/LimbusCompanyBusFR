@@ -675,6 +675,184 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2020911,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Commande : Effondrement",
+          "abName": "Kat’tsit",
+          "desc": "Si la cible principale a [Combustion] ou [Burst], +1 de Puissance Finale\n[BeforeAttack] Inflige +1% de dégâts tous les (Intensité de [Burst] + Compte de [Burst]) sur la cible principale (15% max)\n[EndSkill] Gagne 4 [CuredFilm]\n[EndSkill] Soigne soi-même et 1 allié avec le moins de pourcentage de PV de 15% des PV max de cette unité\n- Si cette unité est à PV max, soigne 2 autres alliés à la place\n[EndSkill] Rend 10 PSM à 2 alliés, inclut soi-même, avec le moins de PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Commande : Effondrement",
+          "abName": "Kat’tsit",
+          "desc": "Si la cible principale a [Combustion] ou [Burst], +<style=\"highlight\">2</style> de Puissance Finale\n[BeforeAttack] Inflige +1% de dégâts tous les (Intensité de [Burst] + Compte de [Burst]) sur la cible principale (15% max)\n<style=\"highlight\">- Si cette unité a [CuredFilm], multiplie cet effet et son seuil maximal par 1.5</style>\n[EndSkill] Gagne <style=\"highlight\">7</style> [CuredFilm]\n[EndSkill] Soigne soi-même et 1 allié avec le moins de pourcentage de PV de <style=\"highlight\">20</style>% des PV max de cette unité\n- Si cette unité est à PV max, soigne 2 autres alliés à la place\n[EndSkill] Rend 10 PSM à 2 alliés, inclut soi-même, avec le moins de PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Commande : Effondrement",
+          "abName": "Kat’tsit",
+          "desc": "Si la cible principale a [Combustion] ou [Burst], +<style=\"highlight\">3</style> de Puissance Finale\n[BeforeAttack] Inflige +1% de dégâts tous les (Intensité de [Burst] + Compte de [Burst]) sur la cible principale (<style=\"highlight\">25</style>% max)\n- Si cette unité a [CuredFilm], multiplie cet effet et son seuil maximal par <style=\"highlight\">2</style>\n[EndSkill] Gagne <style=\"highlight\">10</style> [CuredFilm]\n[EndSkill] Soigne soi-même et 1 allié avec le moins de pourcentage de PV de <style=\"highlight\">30</style>% des PV max de cette unité\n- Si cette unité est à PV max, soigne 2 autres alliés à la place\n[EndSkill] Rend <style=\"highlight\">15</style> PSM à 2 alliés, inclut soi-même, avec le moins de PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020921,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Commande : Effondrement",
+          "abName": "Kat’tsit",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[BeforeAttack] À 4 de plus haute Réson. ou plus, gagne +1 de Poids d’Atq\n[EndSkill] Gagne 4 [CuredFilm]\n[EndSkill] Si les dégâts de cette Capacité n’ont pas Déséquilibré ou tué la moindre cible, subit des dégâts de PV égaux à 20% des PV max de cette unité et gagne du Bouclier égal aux dégâts de PV subis suite à cet effet\n- Ces dégâts ne tuent pas cette unité. Maximise l’Instance de [CuredFilm] à la Fin du Tour et gagne 2 [AttackDmgUp] au prochain tour (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Commande : Effondrement",
+          "abName": "Kat’tsit",
+          "desc": "[CantIdentify]\nCible aléatoirement\n<style=\"highlight\">Si la cible principale a 6 (Intensité de [Burst] + Compte de [Burst]) ou plus, +1 de Puissance de Base</style>\n[BeforeAttack] À <style=\"highlight\">3</style> de plus haute Réson. ou plus, gagne +1 de Poids d’Atq\n[EndSkill] Gagn <style=\"highlight\">7</style> [CuredFilm]\n[EndSkill] Si les dégâts de cette Capacité n’ont pas Déséquilibré ou tué la moindre cible, subit des dégâts de PV égaux à 20% des PV max de cette unité et gagne du Bouclier égal aux dégâts de PV subis suite à cet effet\n- Ces dégâts ne tuent pas cette unité. Maximise l’Instance de [CuredFilm] à la Fin du Tour et gagne 2 [AttackDmgUp] au prochain tour (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige +1 de Compte de [Burst]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Commande : Effondrement",
+          "abName": "Kat’tsit",
+          "desc": "[CantIdentify]\nCible aléatoirement\n<style=\"highlight\">+1 de Puissance de Base tous les 6 (Intensité de [Burst] + Compte de [Burst]) sur la cible principale (2 max)</style>\n<style=\"highlight\">[BeforeAttack] Gagne +1 de Poids d’Atq toutes les 3 plus hautes Réson. (2 max)</style>\n[EndSkill] Gagne <style=\"highlight\">10</style> [CuredFilm]\n[EndSkill] Si les dégâts de cette Capacité n’ont pas Déséquilibré ou tué la moindre cible, subit des dégâts de PV égaux à 20% des PV max de cette unité et gagne du Bouclier égal à <style=\"highlight\">(dégâts de PV subis suite à cet effet * 2)</style>\n- Ces dégâts ne tuent pas cette unité. Maximise l’Instance de [CuredFilm] à la Fin du Tour et gagne 2 [AttackDmgUp] au prochain tour (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 1 [Burst]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +<style=\"highlight\">2</style> de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnStartCoin] Si les dégâts de cette Capacité n’ont pas Déséquilibré ou tué la moindre cible, inflige +30% de dégâts</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

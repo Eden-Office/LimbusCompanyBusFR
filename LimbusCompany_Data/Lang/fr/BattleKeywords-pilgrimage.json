@@ -1,0 +1,148 @@
+{
+  "dataList": [
+    {
+      "id": "NetherseaBrand",
+      "name": "Marque de la Mer Infernale",
+      "desc": "Marque de la Mer Infernale s’étend vers les Pécheurs à chaque tour qui passe.\n- Niveau 1 : territoire de Terreur Marine\n- Niveau 2 : les 2 Pécheurs les plus en avant\n- Niveau 3 : les 5 Pécheurs les plus en avant\n- Niveau 4 : tous les Pécheurs",
+      "summary": "La Marque de la Mer Infernale s’étend à chaque tour"
+    },
+    {
+      "id": "NetherseaBrandUnit",
+      "name": "Marque de la Mer Infernale",
+      "desc": "- Pécheurs sur la Marque de la Mer Infernale : à la Fin du Tour, subit des dégâts fixes égaux à 5% des PV et gagne 3 Déficience Nerveuse\n- Augmente considérablement les Instances qu’infligent les Terreurs Marines sur la Marque de la Mer Infernale aux Pécheurs\n- L’influence de la Marque de la Mer Infernale s’étend vers le territoire des Pécheurs à chaque tour qui passe\n· Niveau 1 : territoire de Terreur Marine\n· Niveau 2 : affecte les 2 Pécheurs les plus en avant\n· Niveau 3 : affecte les 5 Pécheurs les plus en avant\n· Niveau 4 : affecte tous les Pécheurs",
+      "summary": "Les alliés sur la Marque de la Mer Infernale subissent des dégâts fixes et gagnent Déficience Nerveuse.\nAugmente considérablement la quantité de Déficience Nerveuse infligée sur des alliés par des ennemis sur la Marque de la Mer Infernale"
+    },
+    {
+      "id": "SeaTerrorCell",
+      "name": "Assimilation de Terreur Marine",
+      "desc": "- Instance max : 5\n- Gagne 1 Instance au Début du Tour\n- Gagne 1 Malus de Niveau Offensif et 1 Malus de Niveau Défensif par Instance\n- Fin du Tour : si un Pécheur allié a 5 Instances de cet effet, il Fuit le Champ de Bataille.\n- Lorsqu’un Pécheur allié a une Capacité Défensive équipée alors qu’il a cet effet, il Fuit le Champ de Bataille au Début du Combat",
+      "summary": "Gagne du Malus de Niveau Offensif et du Malus de Niveau Défensif selon l’Instance"
+    },
+    {
+      "id": "NervousImpairment",
+      "name": "Déficience Nerveuse",
+      "desc": "- Instance max : 30\n- À 30 Instances, devient Déséquilibré ; puis, subit des dégâts fixes égaux à 25% des PV de cette unité et retire cet effet",
+      "summary": "Devient Déséquilibré et subit de lourds dégâts de PV"
+    },
+    {
+      "id": "WaitingforCommandMod",
+      "name": "État de Stand-by",
+      "desc": "- Lorsqu’en État de Stand-by, cette unité n’utilise pas de Capacités Offensives jusqu’à subir des dégâts",
+      "summary": "Lorsqu’en État de Stand-by, cette unité n’utilise pas de Capacités Offensives jusqu’à subir des dégâts"
+    },
+    {
+      "id": "ParticipationMod",
+      "name": "État Prêt au Combat",
+      "desc": "- Après avoir subi des dégâts, cette unité commence à utiliser ses Capacités Offensives.\n- Début du Tour en État Prêt au Combat:\n· Inflige 3 Déficience Nerveuse à tous les ennemis\n· +3 de Vitesse Min & Max\n· Gagne 1 Bonus de Niveau Offensif tous les 10% de PV manquants (8 max)\n- Turn End while in État Prêt au Combat: take fixed damage equal to 10% HP",
+      "summary": "Après avoir subi des dégâts, cette unité commence à utiliser ses Capacités Offensives."
+    },
+    {
+      "id": "AbyssalVitality",
+      "name": "Vitalité Abyssale",
+      "desc": "- Instance max : 100\n- Consommé en utilisant certaines Capacités\n- Chaque fois que cet effet est consommé, regagne autant de PSM que de quantité consommée",
+      "summary": "Consommé en utilisant certaines Capacités\n- Chaque fois que cet effet est consommé, regagne des PSM"
+    },
+    {
+      "id": "IndelibleGoodwill",
+      "name": "Compassion Indélébile",
+      "desc": "- Cette unité ne perd pas de Bouclier à la Fin du Tour (sauf si retiré par des dégâts ou certains effets)\n- Lorsque le Bouclier se brise après avoir été touché, devient Déséquilibré et gagne 5 Vulnérabilité jusqu’au prochain tour\n- En devenant Déséquilibré suite à un Seuil de Déséquilibre augmenté, gagne 5 Vulnérabilité jusqu’au prochain tour\n- La Vulnérabilité gagnée suite aux effets de ce statut ne se cumulent pas\n- Cependant, les PV de Bouclier se cumulent ; lorsque cet effet est actif, les PV de Bouclier ne peuvent pas être supérieur à 50% des PV max de l’unité avec Bouclier\n- Cet effet compte comme un effet de “Gestion de Bouclier”. (Remplacé en gagnant un effet différent de Gestion de Bouclier)",
+      "summary": "Ne perd pas de Bouclier à la Fin du Tour\nLorsque le Bouclier se brise, devient très vulnérable"
+    },
+    {
+      "id": "ColdAirDOQ",
+      "name": "Froid",
+      "desc": "- Instance max : 3\n- Perd 1 de Vitesse par Instance de Froid\n- Si cette unité a 3 Instances après la Fin de la Capacité : subit 20 dégâts de Peine et 20 dégâts de PSM ; puis, gagne 1 Gelé ce tour et le tour suivant.\n- Les Instances de Froid expirent après que tous les effets soient activés\n- Fin du Tour : si cette unité n’a pas attaqué Le Dernier Chevalier, expire",
+      "summary": ""
+    },
+    {
+      "id": "FreezingDOQ",
+      "name": "Gelé",
+      "desc": "- Froid Unique\n- Ne peut pas agir ce tour\n- Certaines activations de Capacité deviennent nullifiées à 1 PV",
+      "summary": ""
+    },
+    {
+      "id": "BloodborneDOQ",
+      "name": "Le Recueil du Chevalier",
+      "desc": "Subit +80% de dégâts",
+      "summary": ""
+    },
+    {
+      "id": "WeakenDOQ",
+      "name": "Misère et Calamité",
+      "desc": "- -?? Niveaux Offensifs\n- -?? Niveaux Défensifs",
+      "summary": ""
+    },
+    {
+      "id": "DOQ_LowMorale",
+      "name": "Esprit Ruche",
+      "desc": "Toutes les Résistances deviennent “Normale”",
+      "summary": "Toutes les Résistances deviennent “Normale”"
+    },
+    {
+      "id": "DOQ_Panic",
+      "name": "Esprit Ruche",
+      "desc": "Toutes les Résistances deviennent “Normale”\nDouble la quantité d’Intensité de Brûlure, Saignement, Tremblement et Déchirure gagnée suite aux effets de Capacité",
+      "summary": "Toutes les Résistances deviennent “Normale”\nDouble la quantité d’Intensité de Brûlure, Saignement, Tremblement et Déchirure gagnée suite aux effets de Capacité"
+    },
+    {
+      "id": "CallOfSea_LowMorale",
+      "name": "Appel de la Race de même Sang",
+      "desc": "Fin du Tour : consomme 3% de PV pour appliquer 1 Bonus de Puissance Offensive et 1 Vulnérabilité à tous les alliés, cette unité inclut, au prochain tour",
+      "summary": "Consomme des PV pour appliquer du Bonus de Puissance Offensive et de la Vulnérabilité aux alliés"
+    },
+    {
+      "id": "CallOfSea_Panic",
+      "name": "Appel de la Race de même Sang",
+      "desc": "Fin du Tour : consomme 5% de PV et gagne 1 Vulnérabilité pour appliquer 1 Bonus de Puissance Offensive et 1 Vulnérabilité à tous les alliés, cette unité inclut, au prochain tour",
+      "summary": "Consomme des PV pour appliquer du Bonus de Puissance Offensive et de la Vulnérabilité aux alliés"
+    },
+    {
+      "id": "BitOfEmotion",
+      "name": "Lien Émotionnel",
+      "desc": "- En Touche contre des ennemis : (50 / # de Pièces)% de chance de gagner 1 ressource E.G.O. de l’Affinité de la Capacité utilisée\n- Lorsqu’un ennemi meurt après que la Capacité d’une unité alliée se termine, gagne 2 ressources E.G.O. les moins possédées\n- Dans un Affrontement, gagne 1 ressource E.G.O. de chaque Affinité consommée en utilisant les Capacités E.G.O. suivantes (2 de chaque en utilisant des Capacités Overclockées)\n· Rester Soi-même Hong Lu\n· Commande : Effondrement Faust\n· Gloire Morne Gregor\n· Élégie Hydraulique Ishmaël",
+      "summary": "En Touche, ou en mort ennemie, gagne des Ressources E.G.O.\nEn utilisant certaines Capacités E.G.O., gagne des Ressources E.G.O."
+    },
+    {
+      "id": "WildernessSurvivalModule",
+      "name": "Petit Pratique - Module de Survie en Milieu Sauvage",
+      "desc": "- +20% de PV max. Se soigne de +40% des effets de Capacités, Passives et statut",
+      "summary": "Gagne des PV max et se soigne plus"
+    },
+    {
+      "id": "HousekeepingAssistantModule",
+      "name": "Petit Pratique - Module Assistant de Ménage",
+      "desc": "- En activant la Main du Sang, l’active une nouvelle fois le tour suivant\n- Début du Tour : gagne du Bonus de Niveau Offensif et du Bonus de Niveau Défensif égaux au nombre de fois que la Marque de la Mer Infernale a été retirée en utilisant la Main du Saint durant cet Affrontement (4 max chacun)",
+      "summary": "En activant la Main du Sang, l’active une nouvelle fois le tour suivant\nDébut du Tour : gagne du Bonus de Niveau Offensif et du Bonus de Niveau Défensif égaux au nombre de fois que la Marque de la Mer Infernale a été retirée"
+    },
+    {
+      "id": "IncrementalMotionFirmware",
+      "name": "Petit Pratique - Logiciel de Mouvement Incrémentiel",
+      "desc": "- Retire 1 plus haut Seuil de Déséquilibre de chaque unité alliée\n- Lorsque Déséquilibré, se remet immédiatement de Déséquilibre au début du prochain tour (une fois)",
+      "summary": "Retire un Seuil de Déséquilibre\nLorsque Déséquilibré, s’en remet immédiatement au prochain tour"
+    },
+    {
+      "id": "MiniDecontaminationKit",
+      "name": "Petit Pratique - Kit de Mini Décontamination",
+      "desc": "- Marque de la Mer Infernale n’inflige plus de Déficience Nerveuse ou n’inflige plus de dégâts aux alliés",
+      "summary": "Marque de la Mer Infernale n’inflige plus de Déficience Nerveuse ou n’inflige plus de dégâts aux alliés"
+    },
+    {
+      "id": "ExternalUpgradeModule",
+      "name": "Petit Pratique - Module d’Amélioration Externe",
+      "desc": "- Pendant 3 tours après avoir gagné cet effet : gagne 2 Bonus de Puissance et 2 Bonus de Dégâts au début de chaque tour (Les unités Substituantes les gagnent au tour où elles Substituent)",
+      "summary": "Pendant 3 tours après avoir gagné cet effet : gagne du Bonus de Puissance et de Dégâts"
+    },
+    {
+      "id": "DesireToSave_LowMorale",
+      "name": "Cœur de Compassion",
+      "desc": "- Inflige +(Déficience Nerveuse sur la cible / 2)% de dégâts (15% max)\n- Début du Tour : gagne 1 Bonus de Dégâts et 2 Vulnérabilité",
+      "summary": "Inflige plus de dégâts selon la Déficience Nerveuse sur la cible"
+    },
+    {
+      "id": "DesireToSave_Panic",
+      "name": "Cœur de Compassion",
+      "desc": "- Inflige +(Déficience Nerveuse sur la cible)% de dégâts (30% max)\n- Début du Tour : gagne 2 Bonus de Dégâts et 3 Vulnérabilité",
+      "summary": "Inflige plus de dégâts selon la Déficience Nerveuse sur la cible"
+    }
+  ]
+}

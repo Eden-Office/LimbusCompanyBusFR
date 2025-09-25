@@ -2833,6 +2833,35 @@
       "desc": "- Instance max : 1\n- Inflige et subit -50% de dégâts de Ryōshū\n- Les cibles avec Mépris ne peuvent pas gagner de Regard\n- En Mourant, se transfère à l’allié de cette unité (en Affrontements Ciblés, une Partie différente) ayant le moins de Mépris ou de Regard (cet n’effet ne s’active pas si cette unité a été tué durant la Capacité offensive “Regard Cascadant d’Admiration Tapi dans le Mépris”)\n- Fin du Tour : expire ; puis, cette unité gagne 7 Regard au prochain tour",
       "summary": "",
       "undefined": "-"
+    },
+    {
+      "id": "CommonExit",
+      "name": "Fuite du Champ de Bataille",
+      "desc": "- Fin du Tour : se remet de Déséquilibre et s’échappe de l’Affrontement (sauf s’il s’agit d’un Déséquilibre forcé ; ne compte pas comme une mort)",
+      "summary": ""
+    },
+    {
+      "id": "CuredFilm",
+      "name": "Barrière d’Enveloppe Durcie",
+      "desc": "- Début du Tour : gagne (Instance / 3) Bonus de Niveau Défensif (3 max ; arrondi à l’inférieur)\n- Immédiatement avant d’être touché par un ennemi, consomme la moitié de Barrière d’Enveloppe Durcie et gagne de la Protection égale à l’Instance consommée (une fois par tour, arrondi au supérieur)\n- Fin du Tour : perd 3 Instances\n- Instance Max : 10",
+      "summary": "Gagne du Bonus de Niveau Défensif\nImmédiatement avant de subir des dégâts de Capacités, consomme de l’Instance pour gagner de la Protection"
+    },
+    {
+      "id": "Cianjing",
+      "name": "Foudroyeur",
+      "desc": "- Début du Tour : gagne 1 Bonus de Niveau Offensif et 1 Bonus de Niveau Défensif\n- Fin du Tour : perd 1 Instance\n- Instance Max : 5",
+      "summary": "Gagne du Bonus de Niveau Offensif & Défensif"
+    },
+    {
+      "id": "SeniorCianjing",
+      "name": "Foudroyeur Supérieur",
+      "desc": "- Début du Tour : gagne 2 Bonus de Niveau Offensif et 2 Bonus de Niveau Défensif\n- Fin du Tour : perd 1 Instance\n- Instance Max : 5",
+      "summary": "Gagne du Bonus de Niveau Offensif & Défensif"
+    },
+    {
+      "id": "MlynarWaiting",
+      "name": "Homme en Fourreau",
+      "desc": "- Instance Max : 40\n- Pour chaque (Instance / 8), gagne 1 d’Aggro (5 max ; arrondi à l’inférieur ; affecte l’Emplacement de Capacité le plus à gauche du Tableau de Bord)\n- Pour chaque (Instance / 20), gagne 1 Protection (2 max ; arrondi à l’inférieur)\n- Gagne 10 Instances à la Fin du Tour\n※ Peut gagner jusqu’à 20 par tour"
     }
   ]
 }

@@ -1,0 +1,92 @@
+{
+  "dataList": [
+    {
+      "id": 128801,
+      "name": "Lutte",
+      "desc": "Début du Combat : gagne 8 [Protection]\n- Début du Combat : Si cette unité est en Moral Bas, réduit de moitié la quantité de [Protection] gagnée\n- Début du Combat : si cette unité est Déséquilibrée ou Paniquée, elle ne gagne pas de [Protection]"
+    },
+    {
+      "id": 128802,
+      "name": "Rugissement de Vagues Rebelles",
+      "desc": "Lorsque touché, inflige 1 [ColdAirDOQ] à l’attaquant (une fois par Capacité)"
+    },
+    {
+      "id": 128803,
+      "name": "Négligence de Toute Vie",
+      "desc": "Lorsque la Passive “Enfant Favori du Destin” se déclenche, active les effets suivants :\n- Fin du Tour : gagne 1 [Binding] au prochain tour\n- Lorsque touché, inflige 1 [ColdAirDOQ] à la cible (une fois par Capacité)"
+    },
+    {
+      "id": 128804,
+      "name": "Adversaire des Marées",
+      "desc": "En attaquant des cibles avec [FreezingDOQ], inflige +175% de dégâts"
+    },
+    {
+      "id": 128805,
+      "name": "Enfant Favori du Destin",
+      "desc": "Lorsque cette unité subit des dégâts amenant ses PV à 0, nullifie ces dégâts ; puis, cette unité regagne 100% de ses PV et PSM et gagne un nouveau comportement (une fois par Affrontement)"
+    },
+    {
+      "id": 128806,
+      "name": "Rage Contre les Vagues",
+      "desc": "Début du Tour : gagne 1 [AttackUp] par ennemi avec [ColdAirDOQ]"
+    },
+    {
+      "id": 128807,
+      "name": "Rossinante Galopant",
+      "desc": "Début du Tour : s’il y a 6 ennemis ou plus avec [ColdAirDOQ], gagne 2 [ParryingResultUp]"
+    },
+    {
+      "id": 128808,
+      "name": "L’Illusion du Chevalier",
+      "desc": "Début de l’Affrontement : gagne [WeakenDOQ]"
+    },
+    {
+      "id": 129101,
+      "name": "Déficience Nerveuse",
+      "desc": "Les Capacités de cette unité infligent +1% de dégâts par [NervousImpairment] sur la cible"
+    },
+    {
+      "id": 129102,
+      "name": "Seaborn",
+      "desc": "Début de l’Affrontement : gagne 5 [SeaTerrorCell]\nAu lieu des effets [AttackDown] et [DefenseDown] de [SeaTerrorCell], gagne [AttackUp] et [DefenseUp]"
+    },
+    {
+      "id": 129104,
+      "name": "Appel de la Race de même Sang",
+      "desc": "Fin du Tour : s’il y a 2 survivants en vie ou moins, consomme 10 PSM pour invoquer 2 unités “Coureur Marin Carapacé” sur le champ de bataille\n\nFin du Tour : si [NetherseaBrandUnit] existe à ce Niveau, applique 2 [Enhancement] au prochain tour à toutes les unités Terreur Marine\n- Applique également 1 [AttackUp] par Niveau de [NetherseaBrandUnit]",
+      "summary": "S’il y a [NetherseaBrandUnit] sur le champ de bataille, applique un statut offensif au prochain tour à toutes les unités Terreur Marine"
+    },
+    {
+      "id": 129701,
+      "name": "Procession Phototaxique",
+      "desc": "Subit -90% de dégâts de [Combustion], [Laceration], [Vibration], [Burst], [Sinking]\nDébut du Tour : gagne 10 [Protection]\n\nFin du Tour : consomme de la [AbyssalVitality] pour invoquer une horde de Terreur Marine\n- S’il y a moins de 3 Coureurs Marin Carapacés ou Glisseurs Marin Profonds sur le champ de bataille, invoque aléatoirement n’importa laquelle de ces unités jusqu’à ce qu’il y en ait 3 au prochain tour et consomme (# d’unités invoquées * 4) [AbyssalVitality]\n- Si Fondateur de la Mer Infernale n’est pas sur le champ de bataille, consomme 8 [AbyssalVitality] pour l’invoquer au prochain tour\n- Si Cracheur de la Mer Infernale n’est pas sur le champ de bataille, consomme 12 [AbyssalVitality] pour l’invoquer au prochain tour\n- Si Faucheur Marin de Bassin n’est pas sur le champ de bataille, consomme 20 [AbyssalVitality] pour l’invoquer au prochain tour",
+      "summary": "Subit moins de dégâts de [Combustion], [Laceration], [Vibration], [Burst] et [Sinking]"
+    },
+    {
+      "id": 129702,
+      "name": "Ego de Responsabilité",
+      "desc": "Chaque fois qu’une Terreur Marine invoquée par cette unité est tuée, subit des dégâts fixes de PV égaux aux PV max de l’unité"
+    },
+    {
+      "id": 129703,
+      "name": "Compassion à la Dérive",
+      "desc": "À 50% de PV ou moins, termine immédiatement la phase de combat et gagne un nouveau comportement\n- Désactive la Passive Procession Phototaxique\n- Gagne 100 [AbyssalVitality]\n- En gagnant cette Passive, ou en se remettant de Déséquilibre, gagne du Bouclier égal à la quantité de PV perdus (une fois par tour)\n- En gagnant du Bouclier, active les effets de [IndelibleGoodwill]\n\nDébut du Tour :\n- Applique 5 [NervousImpairment] à tous les ennemis avec moins de 15 [NervousImpairment]\n- Gagne de la [Vulnerable] égale au double du nombre de fois (“Avant que la compassion en laquelle ils croient perde son sens.”) a été utilisé durant cet Affrontement. (6 max)\n\nAprès avoir gagné un nouveau comportement : réduit les Emplacements de Capacité de cette unité du nom d’ennemis Déséquilibrés à chaque tour (de 6 max ; ne s’applique pas aux tours où cette unité utilise une Capacité puissante)",
+      "summary": "En consommant de la [AbyssalVitality], regagne des PSM"
+    },
+    {
+      "id": 129704,
+      "name": "Utopie de la Marque de la Mer Infernale",
+      "desc": "Lorsque sur la [NetherseaBrandUnit] : gagne +3 de Puissance Finale et +3 de Puissance de Pièce et double la quantité de [NervousImpairment] infligée En Touche"
+    },
+    {
+      "id": 129705,
+      "name": "Semblables Amadouants",
+      "desc": "En touchant un Faucheur Marin de Bassin avec les Capacité de cette unité, la convertit de l’[WaitingforCommandMod] à l’[ParticipationMod]"
+    },
+    {
+      "id": 129103,
+      "name": "Membrane Cellulaire",
+      "desc": "Si cette unité a encore du Bouclier après avoir été touché, inflige 2 [Sinking] à la cible"
+    }
+  ]
+}

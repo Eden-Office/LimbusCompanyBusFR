@@ -811,6 +811,280 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2081011,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Élégie Hydraulique",
+          "abName": "Skadi",
+          "desc": "En attaquant une seule cible (en Affrontement Ciblé, un Noyau et ses Parties connectées compte comme une seule cible), +2 de Puissance de Pièce et inflige +100% de dégâts\n[WhenUse] Si la cible principale a 4 [Sinking] ou plus, +1 de Puissance de Duel\n[BeforeAttack] Si la cible principale a une Résist. à la Peine supérieure à 1, inflige +2% de dégâts tous les 0.1 de Résist. en trop (10% max)\n[BeforeAttack] À 2 de Réson. de Peine ou plus, inflige +5% de dégâts par Réson. de Peine (20% max)\n[EndSkill] Si 1 cible ou plus sont tuées, inflige (Intensité de [Sinking] sur chaque cible / 2) dégâts de Peine à 2 ennemis aléatoires (15 max ; priorise les ennemis ciblés avec le plus d’Intensité de [Sinking])",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [Binding] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] S’il y a des unités Déséquilibrées, tuées ou des Parties brisées parmi les cibles, inflige 2 [Sinking] à un ennemi aléatoire non-ciblé (une fois par tour ; en Affrontement Ciblé, chaque Partie compte comme 1 cible)"
+                },
+                {
+                  "desc": "- S’il n’y a qu’une seule cible, l’applique à 3 cibles à la place"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Élégie Hydraulique",
+          "abName": "Skadi",
+          "desc": "En attaquant une seule cible (en Affrontement Ciblé, un Noyau et ses Parties connectées compte comme une seule cible), +2 de Puissance de Pièce et inflige +100% de dégâts\n[WhenUse] Si la cible principale a 4 [Sinking] ou plus, +1 de Puissance de Duel\n[BeforeAttack] Si la cible principale a une Résist. à la Peine supérieure à 1, inflige +<style=\"highlight\">3</style>% de dégâts tous les 0.1 de Résist. en trop (<style=\"highlight\">15</style>% max)\n[BeforeAttack] À 2 de Réson. de Peine ou plus, inflige +<style=\"highlight\">8</style>% de dégâts par Réson. de Peine (<style=\"highlight\">32</style>% max)\n[EndSkill] Si 1 cible ou plus sont tuées, inflige (Intensité de [Sinking] sur chaque cible / 2) dégâts de Peine à 2 ennemis aléatoires (15 max ; priorise les ennemis ciblés avec le plus d’Intensité de [Sinking])",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [Binding] au prochain tour<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] S’il y a des unités Déséquilibrées, tuées ou des Parties brisées parmi les cibles, inflige 2 [Sinking] à un ennemi aléatoire non-ciblé (une fois par tour ; en Affrontement Ciblé, chaque Partie compte comme 1 cible)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "- En attaquant une seule cible, l’applique à 3 cibles à la place<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Élégie Hydraulique",
+          "abName": "Skadi",
+          "desc": "En attaquant une seule cible (en Affrontement Ciblé, un Noyau et ses Parties connectées compte comme une seule cible), +2 de Puissance de Pièce et inflige +100% de dégâts\n[WhenUse] <style=\"highlight\">+1 de Puissance de Duel toutes les 4 [Sinking] sur la cible principale (2 max)</style>\n[BeforeAttack] Si la cible principale a une Résist. à la Peine supérieure à 1, inflige +<style=\"highlight\">5</style>% de dégâts tous les 0.1 de Résist. en trop (<style=\"highlight\">20</style>% max)\n[BeforeAttack] À 2 de Réson. de Peine ou plus, inflige +<style=\"highlight\">10</style>% de dégâts par Réson. de Peine (<style=\"highlight\">40</style>% max)\n[EndSkill] Si 1 cible ou plus sont tuées, inflige (Intensité de [Sinking] sur chaque cible / 2) dégâts de Peine à 2 ennemis aléatoires (15 max ; priorise les ennemis ciblés avec le plus d’Intensité de [Sinking])",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige <style=\"highlight\">2</style> [Binding] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] S’il y a des unités Déséquilibrées, tuées ou des Parties brisées parmi les cibles, inflige 2 [Sinking] à un ennemi aléatoire non-ciblé (une fois par tour ; en Affrontement Ciblé, chaque Partie compte comme 1 cible)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "- En attaquant une seule cible, l’applique à 3 cibles à la place<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2081021,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Élégie Hydraulique",
+          "abName": "Skadi",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[WhenUse] Si la cible principale a 5 [Sinking] ou plus, +1 de Puissance de Duel\n[BeforeAttack] Gagne les effets suivants toutes les 3 plus haute Réson.\n- Gagne +1 de Poids d’Atq (2 max)\n- Inflige +15% de dégâts (30% max)\n[EndSkill] Applique 1 [HitDamageUp] au prochain tour à (plus haute Réson.) alliés aléatoires (inclut cette unité ; 4 alliés max ; une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Élégie Hydraulique",
+          "abName": "Skadi",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[WhenUse] <style=\"highlight\">+1 de Puissance de Duel toutes les 5 [Sinking] sur la cible principale (2 max)</style>\n[BeforeAttack] Gagne les effets suivants toutes les 3 plus haute Réson.\n- Gagne +1 de Poids d’Atq (2 max)\n- Inflige +15% de dégâts (30% max)\n[EndSkill] Applique 1 [HitDamageUp] au prochain tour à (plus haute Réson.) alliés aléatoires (inclut cette unité ; 4 alliés max ; une fois par tour)\n<style=\"highlight\">- Si cette Réson. était une Réson. de Peine ou une Réson.-A, applique également 1 [AzureDamageUp]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] S’il y a des unités Déséquilibrées, tuées ou des Parties brisées parmi les cibles, inflige 1 [AzureTakeDamageUp] au prochain tour à un ennemi aléatoire non-ciblé (une fois par tour ; en Affrontement Ciblé, chaque Partie compte comme 1 cible)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Élégie Hydraulique",
+          "abName": "Skadi",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[WhenUse] +1 de Puissance de Duel toutes les 5 [Sinking] sur la cible principale (<style=\"highlight\">3</style> max)\n[BeforeAttack] Gagne les effets suivants toutes les 3 plus haute Réson. <style=\"highlight\">(si c’était une Réson. de Peine, toutes les 2 plus hautes Réson.)</style>\n- Gagne +1 de Poids d’Atq (2 max)\n- Inflige +15% de dégâts (30% max)\n[EndSkill] Applique 1 [HitDamageUp] au prochain tour à (plus haute Réson.) alliés aléatoires (inclut cette unité ; 4 alliés max ; une fois par tour)\n- Si cette Réson. était une Réson. de Peine ou une Réson.-A, applique également 1 [AzureDamageUp]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] S’il y a des unités Déséquilibrées, tuées ou des Parties brisées parmi les cibles, inflige 1 [AzureTakeDamageUp] au prochain tour à un ennemi aléatoire non-ciblé (une fois par tour ; en Affrontement Ciblé, chaque Partie compte comme 1 cible)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
