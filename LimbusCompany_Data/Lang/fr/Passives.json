@@ -1176,25 +1176,25 @@
     {
       "id": 1040701,
       "name": "Propagation de la Flamme",
-      "desc": "Lorsque cette unité vainc un ennemi avec [Combustion], applique 4 [Combustion] à 1 ennemi aléatoire sans [Combustion] ou avec le moins d’Intensité de [Combustion]. (Une fois par tour)\n- En Affrontements Concentrés, à 1 Partie aléatoire",
+      "desc": "Lorsque cette unité vainc un ennemi avec [Combustion], applique 4 [Combustion] à 1 ennemi aléatoire sans [Combustion] ou avec le moins d’Intensité de [Combustion]. (Une fois par tour)\n- En Affrontements Ciblés, à 1 Partie aléatoire",
       "summary": "Lorsque cette unité vainc un ennemi avec [Combustion], applique 4 [Combustion] à 1 ennemi aléatoire sans [Combustion] ou avec le moins d’Intensité de [Combustion]"
     },
     {
       "id": 1040711,
       "name": "Propagation de la Flamme",
-      "desc": "Lorsque cette unité vainc un ennemi avec [Combustion], applique 4 [Combustion] à 2 ennemis aléatoires sans [Combustion] ou avec le moins d’Intensité de [Combustion]. (2 fois par tour)\n- En Affrontements Concentrés, à 2 Parties aléatoires",
+      "desc": "Lorsque cette unité vainc un ennemi avec [Combustion], applique 4 [Combustion] à 2 ennemis aléatoires sans [Combustion] ou avec le moins d’Intensité de [Combustion]. (2 fois par tour)\n- En Affrontements Ciblés, à 2 Parties aléatoires",
       "summary": "Lorsque cette unité vainc un ennemi avec [Combustion], applique 4 [Combustion] à 2 ennemis aléatoires sans [Combustion] ou avec le moins d’Intensité de [Combustion]"
     },
     {
       "id": 1040721,
       "name": "Répandre la Flamme",
-      "desc": "Lorsque 1 allié avec la plus basse Vitesse vainc un ennemi avec [Combustion], inflige 3 [Combustion] à 1 ennemi aléatoire (Une fois par tour)\n- En Affrontements Concentrés, à 1 Partie aléatoire",
+      "desc": "Lorsque 1 allié avec la plus basse Vitesse vainc un ennemi avec [Combustion], inflige 3 [Combustion] à 1 ennemi aléatoire (Une fois par tour)\n- En Affrontements Ciblés, à 1 Partie aléatoire",
       "summary": "Lorsque 1 allié avec la plus basse Vitesse vainc un ennemi avec [Combustion], inflige 3 [Combustion] à 1 ennemi aléatoire"
     },
     {
       "id": 1040731,
       "name": "Répandre la Flamme",
-      "desc": "Lorsque 1 allié avec la plus basse Vitesse vainc un ennemi avec [Combustion], inflige 3 [Combustion] à 2 ennemis aléatoires (Une fois par tour)\n- En Affrontements Concentrés, à 2 Parties aléatoires",
+      "desc": "Lorsque 1 allié avec la plus basse Vitesse vainc un ennemi avec [Combustion], inflige 3 [Combustion] à 2 ennemis aléatoires (Une fois par tour)\n- En Affrontements Ciblés, à 2 Parties aléatoires",
       "summary": "Lorsque 1 allié avec la plus basse Vitesse vainc un ennemi avec [Combustion], inflige 3 [Combustion] à 2 ennemis aléatoires"
     },
     {
@@ -1858,7 +1858,7 @@
     {
       "id": 1031004,
       "name": "Armadura de Sangre",
-      "desc": "Après l’Attaque : si l’ennemi est vaincu, augmente le [BloodDinner] de 10% des PV max de la cible (100 par tour ; en Affrontements Concentrés, si la Partie est brisée)\nGagne 1 [AttackDmgUp] au prochain tour pour chaque 15% de PV manquant à la Fin du Tour (3 max)\nSi un allié est sur le point de mourir suite à des dégâts de [Laceration], l’empêche d’être vaincu par les dégâts de [Laceration] pour le tour (une fois par Affrontement pour chaque Identité)"
+      "desc": "Après l’Attaque : si l’ennemi est vaincu, augmente le [BloodDinner] de 10% des PV max de la cible (100 par tour ; en Affrontements Ciblés, si la Partie est brisée)\nGagne 1 [AttackDmgUp] au prochain tour pour chaque 15% de PV manquant à la Fin du Tour (3 max)\nSi un allié est sur le point de mourir suite à des dégâts de [Laceration], l’empêche d’être vaincu par les dégâts de [Laceration] pour le tour (une fois par Affrontement pour chaque Identité)"
     },
     {
       "id": 1031021,
@@ -2012,7 +2012,7 @@
     {
       "id": 1121101,
       "name": "Je suis le seul survivant…",
-      "desc": "Inflige +0.2% dégâts pour chaque [FirePunchFuel] et [FirePunchFuelOverheated] que cette unité a consommé dans cet Affrontement (40% max)\n- Si la cible principale est un <Démon de Sang>, une <Poche de Sang> ou si la somme de [Combustion] et de Compte de [Combustion] est de 30 ou plus, inflige +0.3% dégâts à la place (60% max)\n\nÀ 1 [FirePunchFuel] ou [FirePunchFuelOverheated] ou plus, si cette unité Déséquilibre ou vainc des ennemis avec [Combustion], inflige +2 de Compte de [Combustion] à 2 ennemis aléatoires sans [Combustion] ou avec le moins de Compte de [Combustion] (une fois par tour)\n- Pour les Affrontements Concentrés, sur les Parties"
+      "desc": "Inflige +0.2% dégâts pour chaque [FirePunchFuel] et [FirePunchFuelOverheated] que cette unité a consommé dans cet Affrontement (40% max)\n- Si la cible principale est un <Démon de Sang>, une <Poche de Sang> ou a 30 ([Combustion] + Compte de [Combustion]) ou plus, inflige +0.3% dégâts à la place (60% max)\n\nÀ 1 [FirePunchFuel] ou [FirePunchFuelOverheated] ou plus, si cette unité Déséquilibre ou vainc des ennemis avec [Combustion], inflige +2 de Compte de [Combustion] à 2 ennemis aléatoires sans [Combustion] ou avec le moins de Compte de [Combustion] (une fois par tour)\n- Pour les Affrontements Ciblés, sur les Parties"
     },
     {
       "id": 1121121,

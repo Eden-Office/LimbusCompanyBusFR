@@ -312,7 +312,7 @@
           "level": 1,
           "name": "Jours d’Antan",
           "abName": "Portrait d’un Certain Jour",
-          "desc": "[BeforeAttack] À 4 de plus haute Réson. ou plus, gagne +1 de Poids d’Atq\n[EndSkill] Rend (5 + (somme de l’Intensité et du Compte de [Sinking] sur la cible principale)/3)% de PV aux 2 alliés avec les plus bas pourcentage de PV (15% max)",
+          "desc": "[BeforeAttack] À 4 de plus haute Réson. ou plus, gagne +1 de Poids d’Atq\n[EndSkill] Rend (5 + ([Sinking] sur la cible principale + Compte de [Sinking] sur la cible principale)/3)% de PV aux 2 alliés avec les plus bas pourcentage de PV (15% max)",
           "coinlist": [
             {
               "coindescs": [
@@ -333,7 +333,7 @@
           "level": 3,
           "name": "Jours d’Antan",
           "abName": "Portrait d’un Certain Jour",
-          "desc": "[BeforeAttack] À 4 de plus haute Réson. ou plus, gagne +1 de Poids d’Atq\n<style=\"highlight\">- Si cette Réson. était une Réson. de Peine, gagne +1 de Poids d’Atq</style>\n[EndSkill] Rend (<style=\"highlight\">10</style> + (somme de l’Intensité et du Compte de [Sinking] sur la cible principale)/3)% de PV aux 2 alliés avec les plus bas pourcentage de PV (15% max)",
+          "desc": "[BeforeAttack] À 4 de plus haute Réson. ou plus, gagne +1 de Poids d’Atq\n<style=\"highlight\">- Si cette Réson. était une Réson. de Peine, gagne +1 de Poids d’Atq</style>\n[EndSkill] Rend (<style=\"highlight\">10</style> + ([Sinking] sur la cible principale + Compte de [Sinking] sur la cible principale)/3)% de PV aux 2 alliés avec les plus bas pourcentage de PV (15% max)",
           "coinlist": [
             {
               "coindescs": [
@@ -357,7 +357,7 @@
           "level": 4,
           "name": "Jours d’Antan",
           "abName": "Portrait d’un Certain Jour",
-          "desc": "[BeforeAttack] À 4 de plus haute Réson. ou plus, gagne +1 de Poids d’Atq\n- Si cette Réson. était une Réson. de Peine, gagne +1 de Poids d’Atq\n[EndSkill] Rend (10 + (somme de l’Intensité et du Compte de [Sinking] sur la cible principale)/3)% de PV aux 2 alliés avec les plus bas pourcentage de PV (<style=\"highlight\">20</style>% max)\n<style=\"highlight\">- Si la plus haute Réson. était une Réson. de Peine de 4 ou plus, soigne 10% supplémentaire des PV max</style>",
+          "desc": "[BeforeAttack] À 4 de plus haute Réson. ou plus, gagne +1 de Poids d’Atq\n- Si cette Réson. était une Réson. de Peine, gagne +1 de Poids d’Atq\n[EndSkill] Rend (10 + ([Sinking] sur la cible principale + Compte de [Sinking] sur la cible principale)/3)% de PV aux 2 alliés avec les plus bas pourcentage de PV (<style=\"highlight\">20</style>% max)\n<style=\"highlight\">- Si la plus haute Réson. était une Réson. de Peine de 4 ou plus, soigne 10% supplémentaire des PV max</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -386,7 +386,7 @@
           "level": 1,
           "name": "Jours d’Antan",
           "abName": "Portrait d’un Certain Jour",
-          "desc": "[CantIdentify]\nPriorise les cibles avec le plus de [Sinking]\n[BeforeAttack] Perd 10% de ses PV Max en PV (ne peut pas être Déséquilibrée suite à cet effet)\n[EndSkill] Rend (5 + (somme de l’Intensité et du Compte de [Sinking] sur la cible principale)/3)% de PV aux 3 alliés avec les plus bas pourcentage de PV (10% max)\n- À 4 de plus haute Réson. ou plus, soigne 1 allié supplémentaire",
+          "desc": "[CantIdentify]\nPriorise les cibles avec le plus de [Sinking]\n[BeforeAttack] Perd 10% de ses PV Max en PV (ne peut pas être Déséquilibrée suite à cet effet)\n[EndSkill] Rend (5 + ([Sinking] sur la cible principale + Compte de [Sinking] sur la cible principale)/3)% de PV aux 3 alliés avec les plus bas pourcentage de PV (10% max)\n- À 4 de plus haute Réson. ou plus, soigne 1 allié supplémentaire",
           "coinlist": [
             {
               "coindescs": [
@@ -410,7 +410,7 @@
           "level": 3,
           "name": "Jours d’Antan",
           "abName": "Portrait d’un Certain Jour",
-          "desc": "[CantIdentify]\nPriorise les cibles avec le plus de [Sinking]\n[BeforeAttack] Perd 10% de ses PV Max en PV (ne peut pas être Déséquilibrée suite à cet effet)\n[EndSkill] Rend (<style=\"highlight\">10</style> + (somme de l’Intensité et du Compte de [Sinking] sur la cible principale)/3)% de PV aux 3 alliés avec les plus bas pourcentage de PV (<style=\"highlight\">15</style>% max)\n- À 4 de plus haute Réson. ou plus, soigne 1 allié supplémentaire",
+          "desc": "[CantIdentify]\nPriorise les cibles avec le plus de [Sinking]\n[BeforeAttack] Perd 10% de ses PV Max en PV (ne peut pas être Déséquilibrée suite à cet effet)\n[EndSkill] Rend (<style=\"highlight\">10</style> + ([Sinking] sur la cible principale + Compte de [Sinking] sur la cible principale)/3)% de PV aux 3 alliés avec les plus bas pourcentage de PV (<style=\"highlight\">15</style>% max)\n- À 4 de plus haute Réson. ou plus, soigne 1 allié supplémentaire",
           "coinlist": [
             {
               "coindescs": [
@@ -437,7 +437,7 @@
           "level": 4,
           "name": "Jours d’Antan",
           "abName": "Portrait d’un Certain Jour",
-          "desc": "[CantIdentify]\nPriorise les cibles avec le plus de [Sinking]\n[BeforeAttack] Perd 10% de ses PV Max en PV (ne peut pas être Déséquilibrée suite à cet effet)\n[EndSkill] Rend (10 + (somme de l’Intensité et du Compte de [Sinking] sur la cible principale)/3)% de PV aux 3 alliés avec les plus bas pourcentage de PV (15% max)\n- À 4 de plus haute Réson. ou plus, soigne 1 allié supplémentaire\n<style=\"highlight\">- Si cette Réson. était une Réson. de Peine, soigne 5% de PV supplémentaire</style>",
+          "desc": "[CantIdentify]\nPriorise les cibles avec le plus de [Sinking]\n[BeforeAttack] Perd 10% de ses PV Max en PV (ne peut pas être Déséquilibrée suite à cet effet)\n[EndSkill] Rend (10 + ([Sinking] sur la cible principale + Compte de [Sinking] sur la cible principale)/3)% de PV aux 3 alliés avec les plus bas pourcentage de PV (15% max)\n- À 4 de plus haute Réson. ou plus, soigne 1 allié supplémentaire\n<style=\"highlight\">- Si cette Réson. était une Réson. de Peine, soigne 5% de PV supplémentaire</style>",
           "coinlist": [
             {
               "coindescs": [

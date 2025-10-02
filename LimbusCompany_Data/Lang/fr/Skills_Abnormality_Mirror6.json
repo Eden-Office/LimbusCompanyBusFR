@@ -489,7 +489,7 @@
         {
           "level": 1,
           "name": "Ronces qui Compriment",
-          "desc": "Si la cible a 6 d’Intensité de [Laceration] ou plus, cette Capacité inflige +1 d’Intensité de [Laceration] supplémentaire\nSi la cible a 15 (somme d’Intensité et de Compte de [Laceration]) ou plus, gagne +2 de Poids d’Atq",
+          "desc": "Si la cible a 6 d’Intensité de [Laceration] ou plus, cette Capacité inflige +1 d’Intensité de [Laceration] supplémentaire\nSi la cible a 15 ([Laceration] + Compte de [Laceration]) ou plus, gagne +2 de Poids d’Atq",
           "coinlist": [
             {
               "coindescs": [
@@ -858,7 +858,7 @@
         {
           "level": 1,
           "name": "Vous ne connaissez point la profondeur des pouvoirs de l’œil, sa nature spéciale",
-          "desc": "Priorise la cible avec l’ordre de Déploiement le plus tôt\n[WhenUse] Lorsqu’il y a Baoyu, le Précieux Jade, convertit toutes les Pièces de cette Capacité en [SuperCoin]s\n[WhenUse] +1 de Puissance de Pièce toutes les 5 (somme de [Laceration] et de [Burst] sur la cible) (2 max)",
+          "desc": "Priorise la cible avec l’ordre de Déploiement le plus tôt\n[WhenUse] Lorsqu’il y a Baoyu, le Précieux Jade, convertit toutes les Pièces de cette Capacité en [SuperCoin]s\n[WhenUse] +1 de Puissance de Pièce toutes les 5 ([Laceration] + [Burst]) sur la cible (2 max)",
           "coinlist": [
             {
               "coindescs": [
@@ -913,7 +913,7 @@
         {
           "level": 1,
           "name": "Cependant, vous ne pouvez rien faire",
-          "desc": "[WhenUse] Regagne 8 PSM\n[WhenUse] Si la cible principale a moins de 50% de PV, ou si la cible principale a 10 (somme de [Burst] et [Laceration]) ou plus, convertit les Pièces de cette Capacité en [SuperCoin]s\n[DefeatDuel] Gagne 1 [Vulnerable]\n- En perdant un duel contre Hong Lu, gagne 2 [Vulnerable] à la place",
+          "desc": "[WhenUse] Regagne 8 PSM\n[WhenUse] Si la cible principale a moins de 50% de PV, ou si la cible principale a 10 ([Burst] + [Laceration]) ou plus, convertit les Pièces de cette Capacité en [SuperCoin]s\n[DefeatDuel] Gagne 1 [Vulnerable]\n- En perdant un duel contre Hong Lu, gagne 2 [Vulnerable] à la place",
           "coinlist": [
             {
               "coindescs": [
@@ -944,7 +944,7 @@
         {
           "level": 1,
           "name": "Éclatement d’Entailles Explosives [爆碎斬]",
-          "desc": "Priorise les cibles avec [Prey]\nCette Capacité peut être affrontée en Duel qu’importe la Vitesse\n+1 de Puissance de Pièce toutes les 6 (somme de [Combustion] et de [Vibration] sur la cible) (3 max)\n[DefeatDuel] Inflige -50% de dégâts finaux",
+          "desc": "Priorise les cibles avec [Prey]\nCette Capacité peut être affrontée en Duel qu’importe la Vitesse\n+1 de Puissance de Pièce toutes les 6 ([Combustion] + [Vibration]) sur la cible (3 max)\n[DefeatDuel] Inflige -50% de dégâts finaux",
           "coinlist": [
             {
               "coindescs": [
@@ -1013,7 +1013,7 @@
         {
           "level": 1,
           "name": "Tranchenœud [快刀亂麻]",
-          "desc": "Priorise les cibles avec [Prey]\nCette Capacité peut être affrontée en Duel qu’importe la Vitesse ; cette unité ne peut pas être Déséquilibrée avant d’avoir utilisé cette Capacité\n[WhenUse] Consomme toutes Instances de [BattleSense] sur soi. Si cette unité a consommé…\n- … 10 Instances ou plus, gagne +1 de Poids d’Atq toutes les 10 Instances consommées (2 max)\n- … 25 Instances, +1 de Puissance Finale toutes les 4 (somme de [Combustion] et de [Vibration] sur la cible principale) (5 max)\n[DefeatDuel] Inflige -80% de dégâts ; les dégâts de cette Capacité ne peuvent pas Déséquilibrer la cible ; inflige seulement la moitié de l’Intensité et du Compte de [Combustion] et de [Vibration] infligés par cette Capacité (sauf si augmenté par d’autres effets)\n[EndSkill] [FullReload] (une fois par tour)\n- Si cette unité a [BulletPropellantSpecial], [ReloadKeepAmmo] à la place (une fois par tour)\n[DefeatDuel] Inflige -50% de dégâts finaux\n[EndSkill] Termine ce tour",
+          "desc": "Priorise les cibles avec [Prey]\nCette Capacité peut être affrontée en Duel qu’importe la Vitesse ; cette unité ne peut pas être Déséquilibrée avant d’avoir utilisé cette Capacité\n[WhenUse] Consomme toutes Instances de [BattleSense] sur soi. Si cette unité a consommé…\n- … 10 Instances ou plus, gagne +1 de Poids d’Atq toutes les 10 Instances consommées (2 max)\n- … 25 Instances, +1 de Puissance Finale toutes les 4 ([Combustion] + [Vibration]) sur la cible principale (5 max)\n[DefeatDuel] Inflige -80% de dégâts ; les dégâts de cette Capacité ne peuvent pas Déséquilibrer la cible ; inflige seulement la moitié de l’Intensité et du Compte de [Combustion] et de [Vibration] infligés par cette Capacité (sauf si augmenté par d’autres effets)\n[EndSkill] [FullReload] (une fois par tour)\n- Si cette unité a [BulletPropellantSpecial], [ReloadKeepAmmo] à la place (une fois par tour)\n[DefeatDuel] Inflige -50% de dégâts finaux\n[EndSkill] Termine ce tour",
           "coinlist": [
             {
               "coindescs": [
@@ -1044,7 +1044,7 @@
         {
           "level": 1,
           "name": "Rafale Perfectionnée de Lames du Tueur de Tigre Sauvage [超絕猛虎殺擊亂斬]",
-          "desc": "Priorise les cibles avec [Prey]\nCette Capacité peut être affrontée en Duel qu’importe la Vitesse ; cette unité ne peut pas être Déséquilibrée avant d’avoir utilisé cette Capacité\n[WhenUse] Consomme toutes Instances de [BattleSense] sur soi. Si cette unité a consommé…\n- … 10 Instances ou plus, gagne +1 de Poids d’Atq toutes les 10 Instances consommées (4 max)\n- … 25 Instances, +1 de Puissance Finale toutes les 4 (somme de [Combustion] et de [Vibration] sur la cible principale) (6 max)\n- … 50 Instances, +1 de Puissance de Pièce et inflige +50% de dégâts\n[DefeatDuel] Inflige -80% de dégâts ; les dégâts de cette Capacité ne peuvent pas Déséquilibrer la cible ; inflige seulement la moitié de l’Intensité et du Compte de [Combustion] et de [Vibration] infligés par cette Capacité (sauf si augmenté par d’autres effets)\n[EndSkill] [FullReload] (une fois par tour)\n- Si cette unité a [BulletPropellantSpecial], [ReloadKeepAmmo] à la place (une fois par tour)\n[DefeatDuel] Inflige -50% de dégâts finaux\n[EndSkill] Termine ce tour",
+          "desc": "Priorise les cibles avec [Prey]\nCette Capacité peut être affrontée en Duel qu’importe la Vitesse ; cette unité ne peut pas être Déséquilibrée avant d’avoir utilisé cette Capacité\n[WhenUse] Consomme toutes Instances de [BattleSense] sur soi. Si cette unité a consommé…\n- … 10 Instances ou plus, gagne +1 de Poids d’Atq toutes les 10 Instances consommées (4 max)\n- … 25 Instances, +1 de Puissance Finale toutes les 4 ([Combustion] + [Vibration]) sur la cible principale (6 max)\n- … 50 Instances, +1 de Puissance de Pièce et inflige +50% de dégâts\n[DefeatDuel] Inflige -80% de dégâts ; les dégâts de cette Capacité ne peuvent pas Déséquilibrer la cible ; inflige seulement la moitié de l’Intensité et du Compte de [Combustion] et de [Vibration] infligés par cette Capacité (sauf si augmenté par d’autres effets)\n[EndSkill] [FullReload] (une fois par tour)\n- Si cette unité a [BulletPropellantSpecial], [ReloadKeepAmmo] à la place (une fois par tour)\n[DefeatDuel] Inflige -50% de dégâts finaux\n[EndSkill] Termine ce tour",
           "coinlist": [
             {
               "coindescs": [

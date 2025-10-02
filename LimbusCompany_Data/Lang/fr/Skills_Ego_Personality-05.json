@@ -437,7 +437,7 @@
           "level": 3,
           "name": "Désir - Mircalla",
           "abName": "Quatre-cents Roses",
-          "desc": "[CantIdentify]\nCible aléatoirement\n<style=\"highlight\">À 6 de (somme de [Laceration] sur soi et la cible) ou plus, +1 de Puissance de Pièce</style>\n[WhenUse] Consomme jusqu’à 10% des PV max de cette unité et inflige (PV consommés / 2) dégâts à tous les ennemis et alliés\n- À moins de 50% des PV max de cette unité, inflige et active 5 [Laceration] à tous les alliés une fois à la place (perd 1 de Compte de [Laceration]). Regagne des PV égaux à la quantité de dégâts de [Laceration] infligés aux alliés",
+          "desc": "[CantIdentify]\nCible aléatoirement\n<style=\"highlight\">À 6 de ([Laceration] sur soi + [Laceration] sur la cible) ou plus, +1 de Puissance de Pièce</style>\n[WhenUse] Consomme jusqu’à 10% des PV max de cette unité et inflige (PV consommés / 2) dégâts à tous les ennemis et alliés\n- À moins de 50% des PV max de cette unité, inflige et active 5 [Laceration] à tous les alliés une fois à la place (perd 1 de Compte de [Laceration]). Regagne des PV égaux à la quantité de dégâts de [Laceration] infligés aux alliés",
           "coinlist": [
             {
               "coindescs": [
@@ -485,7 +485,7 @@
           "level": 4,
           "name": "Désir - Mircalla",
           "abName": "Quatre-cents Roses",
-          "desc": "[CantIdentify]\nCible aléatoirement\n+1 de Puissance de Pièce pour chaque 6 de (somme de [Laceration] sur soi et la cible) <style=\"highlight\">(3 max)</style>\n[WhenUse] Consomme jusqu’à 10% des PV max de cette unité et inflige (PV consommés / 2) dégâts à tous les ennemis et alliés\n- À moins de 50% des PV max de cette unité, inflige et active 5 [Laceration] à tous les alliés à la place (perd 1 de Compte de [Laceration]). Regagne des PV égaux à la quantité de dégâts de [Laceration] infligés aux alliés",
+          "desc": "[CantIdentify]\nCible aléatoirement\n+1 de Puissance de Pièce pour chaque 6 de ([Laceration] sur soi + [Laceration] sur la cible) <style=\"highlight\">(3 max)</style>\n[WhenUse] Consomme jusqu’à 10% des PV max de cette unité et inflige (PV consommés / 2) dégâts à tous les ennemis et alliés\n- À moins de 50% des PV max de cette unité, inflige et active 5 [Laceration] à tous les alliés à la place (perd 1 de Compte de [Laceration]). Regagne des PV égaux à la quantité de dégâts de [Laceration] infligés aux alliés",
           "coinlist": [
             {
               "coindescs": [
@@ -579,7 +579,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] Cette Pièce inflige +1% de dégâts par (somme d’Intensité et de Compte de [Vibration] sur la cible principale) (100% max)"
+                  "desc": "[OnStartCoin] Cette Pièce inflige +1% de dégâts par ([Vibration] + Compte de [Vibration]) sur la cible principale (100% max)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
@@ -595,7 +595,7 @@
           "level": 3,
           "name": "Passé Tenu à l’Écrasement",
           "abName": "Machine de Transport à Vapeur",
-          "desc": "<style=\"highlight\">[BeforeAttack] Si la cible principale a 30 (somme d’Intensité et de Compte de [Vibration]) ou plus, gagne +1 de Poids d’Atq</style>\n[EndSkill] Pendant 3 tours, perd 10 PSM à la Fin du Tour\n[EndSkill] En activant une (Réson. de Paresse) impaire lors de tours impairs ou en activant une (Réson. de Paresse) paire lors de tours pairs, regagne 10 PSM",
+          "desc": "<style=\"highlight\">[BeforeAttack] Si la cible principale a 30 ([Vibration] + Compte de [Vibration]) ou plus, gagne +1 de Poids d’Atq</style>\n[EndSkill] Pendant 3 tours, perd 10 PSM à la Fin du Tour\n[EndSkill] En activant une (Réson. de Paresse) impaire lors de tours impairs ou en activant une (Réson. de Paresse) paire lors de tours pairs, regagne 10 PSM",
           "coinlist": [
             {
               "coindescs": [
@@ -627,7 +627,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] Cette Pièce inflige +1% de dégâts par (somme d’Intensité et de Compte de [Vibration] sur la cible principale) (100% max)"
+                  "desc": "[OnStartCoin] Cette Pièce inflige +1% de dégâts par ([Vibration] + Compte de [Vibration]) sur la cible principale (100% max)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
@@ -643,7 +643,7 @@
           "level": 4,
           "name": "Passé Tenu à l’Écrasement",
           "abName": "Machine de Transport à Vapeur",
-          "desc": "[BeforeAttack] Si la cible principale a 30 (somme d’Intensité et de Compte de [Vibration]) ou plus, gagne +1 de Poids d’Atq\n<style=\"highlight\">- À 100 ou plus, gagne +3 de Poids d’Atq à la place</style>\n<style=\"highlight\">[BeforeAttack] Toutes les 2 plus hautes Réson., inflige 1 [Vibration] à toutes les cibles attaquées par cette unité (3 max)</style>\n[EndSkill] Pendant 3 tours, perd 10 PSM à la Fin du Tour\n<style=\"highlight\">[EndSkill] Regagne ([AccumulatedPastSinner] * 2)% de PV</style>\n[EndSkill] En activant une (Réson. de Paresse) impaire lors de tours impairs ou en activant une (Réson. de Paresse) paire lors de tours pairs, regagne 10 PSM",
+          "desc": "[BeforeAttack] Si la cible principale a 30 ([Vibration] + Compte de [Vibration]) ou plus, gagne +1 de Poids d’Atq\n<style=\"highlight\">- À 100 ou plus, gagne +3 de Poids d’Atq à la place</style>\n<style=\"highlight\">[BeforeAttack] Toutes les 2 plus hautes Réson., inflige 1 [Vibration] à toutes les cibles attaquées par cette unité (3 max)</style>\n[EndSkill] Pendant 3 tours, perd 10 PSM à la Fin du Tour\n<style=\"highlight\">[EndSkill] Regagne ([AccumulatedPastSinner] * 2)% de PV</style>\n[EndSkill] En activant une (Réson. de Paresse) impaire lors de tours impairs ou en activant une (Réson. de Paresse) paire lors de tours pairs, regagne 10 PSM",
           "coinlist": [
             {
               "coindescs": [
@@ -675,7 +675,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] Cette Pièce inflige +1% de dégâts par (somme d’Intensité et de Compte de [Vibration] sur la cible principale) (100% max)"
+                  "desc": "[OnStartCoin] Cette Pièce inflige +1% de dégâts par ([Vibration] + Compte de [Vibration]) sur la cible principale (100% max)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
@@ -704,7 +704,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] Cette Pièce inflige +1% de dégâts par (somme d’Intensité et de Compte de [Vibration] sur la cible principale) (100% max)"
+                  "desc": "[OnStartCoin] Cette Pièce inflige +1% de dégâts par ([Vibration] + Compte de [Vibration]) sur la cible principale (100% max)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige 5 [Vibration] et +2 de Compte de [Vibration]"
@@ -729,12 +729,12 @@
           "level": 3,
           "name": "Passé Tenu à l’Écrasement",
           "abName": "Machine de Transport à Vapeur",
-          "desc": "[CantIdentify]\nCible aléatoirement\nInflige +10% de dégâts par plus haute Réson. (100% max)\n- Si la plus haute Réson. était une Réson. de Paresse, inflige +20% de dégâts par plus haute Réson. à la place (100% max)\n<style=\"highlight\">[BeforeAttack] Si la cible principale a 30 (somme d’Intensité et de Compte de [Vibration]), gagne +2 de Poids d’Atq</style>\n[BeforeAttack] En activant une (Réson. de Paresse) paire lors de tours impairs ou en activant une (Réson. de Paresse) impaire lors de tours pairs, inflige +12% de dégâts",
+          "desc": "[CantIdentify]\nCible aléatoirement\nInflige +10% de dégâts par plus haute Réson. (100% max)\n- Si la plus haute Réson. était une Réson. de Paresse, inflige +20% de dégâts par plus haute Réson. à la place (100% max)\n<style=\"highlight\">[BeforeAttack] Si la cible principale a 30 ([Vibration] + Compte de [Vibration]), gagne +2 de Poids d’Atq</style>\n[BeforeAttack] En activant une (Réson. de Paresse) paire lors de tours impairs ou en activant une (Réson. de Paresse) impaire lors de tours pairs, inflige +12% de dégâts",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] Cette Pièce inflige +1% de dégâts par (somme d’Intensité et de Compte de [Vibration] sur la cible principale) (100% max)"
+                  "desc": "[OnStartCoin] Cette Pièce inflige +1% de dégâts par ([Vibration] + Compte de [Vibration]) sur la cible principale (100% max)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige 5 [Vibration] et +2 de Compte de [Vibration]"
@@ -759,12 +759,12 @@
           "level": 4,
           "name": "Passé Tenu à l’Écrasement",
           "abName": "Machine de Transport à Vapeur",
-          "desc": "[CantIdentify]\nCible aléatoirement\nInflige +10% de dégâts par plus haute Réson. (100% max)\n- Si la plus haute Réson. était une Réson. de Paresse, inflige +20% de dégâts par plus haute Réson. à la place (100% max)\n[BeforeAttack] Si la cible principale a 30 (somme d’Intensité et de Compte de [Vibration]), gagne +2 de Poids d’Atq\n[BeforeAttack] En activant une (Réson. de Paresse) paire lors de tours impairs ou en activant une (Réson. de Paresse) impaire lors de tours pairs, inflige +12% de dégâts\n<style=\"highlight\">[EndSkill] Regagne ([AccumulatedPastSinner] * 3)% de PV</style>",
+          "desc": "[CantIdentify]\nCible aléatoirement\nInflige +10% de dégâts par plus haute Réson. (100% max)\n- Si la plus haute Réson. était une Réson. de Paresse, inflige +20% de dégâts par plus haute Réson. à la place (100% max)\n[BeforeAttack] Si la cible principale a 30 ([Vibration] + Compte de [Vibration]), gagne +2 de Poids d’Atq\n[BeforeAttack] En activant une (Réson. de Paresse) paire lors de tours impairs ou en activant une (Réson. de Paresse) impaire lors de tours pairs, inflige +12% de dégâts\n<style=\"highlight\">[EndSkill] Regagne ([AccumulatedPastSinner] * 3)% de PV</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] This Coin deals <style=\"highlight\">+2%</style> damage for every (sum of [Vibration] Potency and [Vibration] Count on the main target) (max 100%)"
+                  "desc": "[OnStartCoin] Cette Pièce inflige <style=\"highlight\">+2%</style> de dégâts par ([Vibration] + Compte de [Vibration]) sur la cible principale (100% max)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige 5 [Vibration] et +2 de Compte de [Vibration]"
