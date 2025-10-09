@@ -2387,6 +2387,26 @@
       "name": "Il s’écoule et pleure",
       "desc": "Si l’allié le plus tôt dans l’ordre de Déploiement touche un ennemi avec son attaque, inflige 1 [Laceration] (une fois par ennemi par tour)\n- Si la cible a [Laceration], inflige également +1 de Compte de [Laceration]\n\nSi l’allié le plus tôt dans l’ordre de Déploiement est touché par un ennemi, inflige 1 [Vibration] à l’attaquant (3 fois par tour)\n- Si l’attaquant a [Vibration], inflige également +1 de Compte de [Vibration]",
       "summary": "En Touche, inflige [Laceration] ; inflige également du Compte si la cible a déjà l’effet\nLorsque touché, inflige [Vibration] ; inflige également du Compte si la cible a déjà l’effet"
+    },
+    {
+      "id": 1021301,
+      "name": "Shi-no-Yumi",
+      "desc": "À 4 Instances de [ArrowShiFau] : lorsque cette unité gagne de l’Intensité de [Breath] grâce à des effets de Capacités Offensives de Base, gagne +1 de Compte de [Breath] (2 fois par Affrontement ; le plafond par Affrontement se réinitialise lorsque [ArrowShiFau] tombe à 3)\nSi cette unité a utilisé la Capacité “Lueur de l’Arc” à 2 [AimForTheFoal] ou plus, gagne 1 [SlashDamageUp] au prochain tour"
+    },
+    {
+      "id": 1021311,
+      "name": "Shi-no-Yumi",
+      "desc": "À 4 Instances de [ArrowShiFau] : lorsque cette unité gagne de l’Intensité de [Breath] grâce à des effets de Capacités Offensives de Base, gagne +1 de Compte de [Breath] (<style=\"highlight\">3</style> fois par Affrontement ; le plafond par Affrontement se réinitialise lorsque [ArrowShiFau] tombe à 3)\nSi cette unité a utilisé la Capacité “Lueur de l’Arc” à 2 [AimForTheFoal] ou plus, gagne <style=\"highlight\">2</style> [SlashDamageUp] au prochain tour"
+    },
+    {
+      "id": 1021302,
+      "name": "Tirer - Archerie",
+      "desc": "Si cette unité est en état de [SnipingArrowMode], convertit la Capacité Offensive de Base la plus à gauche du Tableau de Bord en “Lueur de l’Arc”, puis l’utilise au Début du Combat\n- Si, à Instance max de [AimForTheGoal], la Capacité 3 de cette unité n’est ni sur le Tableau de Bord, ni dans la liste des Capacités à venir lorsque cet effet s’active, la Capacité Défensive équipée sur l’Emplacement de Capacité le plus à gauche compte comme une Capacité 3 et sera utilisée pour activer “Lueur de l’Arc”\n\nGagne les effets suivants selon quelle Capacité Offensive de Base a été convertie (l’Affinité de Péché est conservée sur la Capacité convertie)\n- Capacité 1 : +1 de Puissance de Base, inflige +11% de dégâts\n- Capacité 2 : +1 de Puissance de Base, +1 de Puissance de Pièce, inflige +22% de dégâts\n- Capacité 3 : +4 de Puissance de Base, +4 de Puissance de Pièce, inflige +44% de dégâts\n\n※ Si une Capacité E.G.O. a été équipée au Début du Combat, retire [SnipingArrowMode] et cette unité n’utilise pas “Lueur de l’Arc”"
+    },
+    {
+      "id": 1021321,
+      "name": "Viser dans le Mille",
+      "desc": "Fin du Tour : applique 1 [PenetrateDamageUp] au prochain tour à l’allié ayant infligé le plus d’Intensité de [Laceration] aux ennemis avec ses Capacités et Passives (inclut les Capacités E.G.O. ; si plusieurs Identités partagent le plus de [Laceration] infligé ce tour, sélectionne l’Identité la plus tôt dans l’ordre de Déploiement. Ne s’active pas si personne n’a infligé d’Intensité de [Laceration] ce tour)"
     }
   ]
 }
