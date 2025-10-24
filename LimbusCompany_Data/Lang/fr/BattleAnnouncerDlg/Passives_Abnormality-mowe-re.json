@@ -1,0 +1,24 @@
+{
+  "dataList": [
+    {
+      "id": 123806,
+      "name": "Cauchemar de La Manchaland",
+      "desc": "S’il y a des Démons de Sang de La Manchaland parmi les ennemis, gagne les effets suivants :\n- Dans un Duel contre un Démon de Sang de La Manchaland, perd 4 de Puissance de Duel\n- En attaquant un Démon de Sang de La Manchaland, perd 5 PSM (une fois par Capacité ; 2 fois par tour)\n- Inflige -20% de dégâts de Capacité aux Démons de Sang de La Manchaland"
+    },
+    {
+      "id": 123801,
+      "name": "Sang Stocké",
+      "desc": "À la Fin du Tour, selon l’instance de [KeptBlood] sur soi :\n- Inflige +2 [Laceration] et +1 de Compte de [Laceration] sur soi par Instance\n- À 5 Instances ou moins : gagne 1 [Binding], 1 [Vulnerable], 1 [AttackDown] et perd 5 PSM au prochain tour pour chaque (6 - Instance) (cet effet ne peut pas réduire les PSM de cette unité en dessous de -20)\n- À plus de 5 Instances : gagne 1 [AttackUp], 1 [DefenseUp] et regagne 8 PSM au prochain tour pour chaque (Instance - 5) (cet effet ne peut pas augmenter les PSM de cette unité au-dessus de 30)"
+    },
+    {
+      "id": 123805,
+      "name": "Sanguivore - Coagulation",
+      "desc": "En arrivant, regagne 30 PSM\nDébut du Tour : si cette unité a [Laceration],\n- Gagne 1 [AttackUp] et 1 [DefenseUp] tous les 5 [Laceration] (5 max)\n- Gagne 1 [ParryingResultUp] tous les 10 [Laceration] (2 max)\nSubit -50% de dégâts de [Laceration] (arrondi à l’inférieur)"
+    },
+    {
+      "id": 130502,
+      "name": "Modèle de Prothèse - L37",
+      "desc": "En arrivant, regagne 20 PSM\nDébut du Tour : regagne 1 PSM par Compte de [Charge] (15 max)\nDébut du Tour : à moins de 5 de Compte de [Charge], inflige 1 [Reduction] sur soi\nDébut du Tour : à 5 de Compte de [Charge] ou plus, gagne 2 [ParryingResultUp]\nDébut du Tour : à 10 de Compte de [Charge] ou plus, gagne 1 [PlusCoinValueUp]\nDébut du Tour : à 15 de Compte de [Charge] ou plus, inflige +(Compte de [Charge] sur soi * 2)% de dégâts avec les Capacités Offensives de Base"
+    }
+  ]
+}

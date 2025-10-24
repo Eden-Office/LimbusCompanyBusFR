@@ -2407,6 +2407,49 @@
       "id": 1021321,
       "name": "Viser dans le Mille",
       "desc": "Fin du Tour : applique 1 [PenetrateDamageUp] au prochain tour à l’allié ayant infligé le plus d’Intensité de [Laceration] aux ennemis avec ses Capacités et Passives (inclut les Capacités E.G.O. ; si plusieurs Identités partagent le plus de [Laceration] infligé ce tour, sélectionne l’Identité la plus tôt dans l’ordre de Déploiement. Ne s’active pas si personne n’a infligé d’Intensité de [Laceration] ce tour)"
+    },
+    {
+      "id": 1071301,
+      "name": "Charge Défensive",
+      "desc": "- Gagne 1 [Charge] chaque fois que cette unité consomme 10 de Compte de [Charge] cumulé dans cet Affrontement\n- Début du Tour : gagne autant de [DefenseUp] que d’Intensité de [Charge] sur soi (6 max)"
+    },
+    {
+      "id": 1071311,
+      "name": "Armure d’Assainissement de Congestion",
+      "desc": "- Début du Combat : si cette unité a moins de 50% de PV, gagne du Bouclier égal à (Intensité de [Charge] * 5) (25 max)\n- Immédiatement avant d’être touché, gagne du Bouclier égal à (Intensité de [Charge] sur soi) (5 max, 3 fois par tour)\n- Si cette unité gagne du Compte de [Charge] supérieur au Plafond Max de Compte de [Charge] en utilisant une Capacité, la Capacité inflige +3% de dégâts par Compte de [Charge] qui excède le Plafond Max de Compte de [Charge] (15% max)"
+    },
+    {
+      "id": 1071321,
+      "name": "Un jour, Je porterai mon Armure pour les Trains Annulés",
+      "desc": "- Début du Combat : si l’unité avec l’Ordre de Déploiement le plus tôt gagne du Compte de [Charge] supérieur au Plafond Max de Compte de [Charge] en utilisant une Capacité, l’unité gagne 1 [ChargeForceField] au prochain tour par Compte de [Charge] qui excède le Plafond Max de Compte de [Charge] (3 max, inclut les Capacités E.G.O.)"
+    },
+    {
+      "id": 1051301,
+      "name": "“Ensanglanté, Masqué et comme le Commande le Sang”",
+      "desc": "Début du Combat : si cette unité a [BloodArmorMeursault], gagne les effets suivants selon l’Instance :\n- À 3 Instances ou plus : gagne 1 [AttackUp] et 1 [DefenseUp]\n- À 4 Instances ou plus : gagne 1 [Agility] au prochain tour\n\nEn Touche contre des ennemis avec [Laceration] : si cette unité a moins de 30% de PV, regagne 30% de PV (une fois par Affrontement ; arrondi à l’inférieur)",
+      "summary": "Si les conditions sont remplies, regagne 30% de PV"
+    },
+    {
+      "id": 1051311,
+      "name": "“Ensanglanté, Masqué et comme le Commande le Sang”",
+      "desc": "Début du Combat : si cette unité a [BloodArmorMeursault], gagne les effets suivants selon l’Instance :\n- À 3 Instances ou plus : gagne <style=\"highlight\">2</style> [AttackUp] et <style=\"highlight\">2</style> [DefenseUp]\n- À 4 Instances ou plus : gagne <style=\"highlight\">2</style> [Agility] au prochain tour\n\n<style=\"highlight\">Début du Combat : si cette unité a [FocusOnActing], inflige 1 [ParadeConcentration] En Touche contre des ennemis (2 fois par tour ; inclut les Capacités E.G.O.)</style>\n\nEn Touche contre des ennemis avec [Laceration] : si cette unité a moins de 30% de PV, regagne 30% de PV (une fois par Affrontement ; arrondi à l’inférieur)",
+      "summary": "Si les conditions sont remplies : inflige 1 [ParadeConcentration]\nSi les conditions sont remplies : regagne 30% de PV"
+    },
+    {
+      "id": 1051302,
+      "name": "Festin Sanglant",
+      "desc": "Si cette unité est sur le terrain, ou est l’une des unités qui peut apparaître sur ce Niveau, augmente la valeur de [BloodDinner] par la quantité de dégâts de [Laceration] reçu collectivement par chaque unité.\nLorsque cette unité arrivera sur le terrain, le sang ensommeillé et baignant le champ de bataille s’élèvera au-dessus de la surface."
+    },
+    {
+      "id": 1051303,
+      "name": "Responsabilité d’un Ancien Prince",
+      "desc": "Début du Tour : les effets suivants s’activent pour les Identités de La Manchaland avec le max d’Instance d’[BloodArmorMeursault]\n· Gagne 1 [FocusOnActing]\n· Lorsque Déséquilibré suite à des dégâts, se remet de Déséquilibre ; puis, consomme toute l’[BloodArmorMeursault] sur soi (une fois par Niveau par Identité ; sauf si Déséquilibre forcé)\n\nSi La Princesse de La Manchaland Rodion est sur le terrain, elle et le Prince de La Manchaland Meursault infligent tous les deux +15% de dégâts avec leur Capacité 3 (inclut les Capacités Renforcées)",
+      "summary": "Meursault & Rodion infligent +15% de dégâts avec leur Capacité 3"
+    },
+    {
+      "id": 1051321,
+      "name": "Faire Déborder le Calice",
+      "desc": "Pour ce tour, multiplie la quantité de [BloodDinner] généré par 1.5 (2 fois par Affrontement ; arrondi à l’inférieur)"
     }
   ]
 }

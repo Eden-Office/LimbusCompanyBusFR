@@ -2344,6 +2344,47 @@
       "name": "Rendeuse de Vie",
       "desc": "- +2 Niveaux Offensifs\n- +1 de Puissance Finale\n- Expire à la Fin du Tour",
       "undefined": "-"
+    },
+    {
+      "id": "WOverCharge",
+      "name": "Surcharge",
+      "desc": "- Valeur max : 1\n- Devient Immobilisé\n- Subit 10 + (Intensité de Charge sur soi * 5)% de dégâts de moins (25% max)\n- Début du Tour : gagne de la Barrière de Charge selon l’Intensité de Charge sur soi (5 max)\n- Fin du Tour : gagne +10 de Compte de Charge et 2 Bonus de Puissance Offensive au prochain tour, et perd cet effet\n- Gagne de l’Aggro sur l’Emplacement le plus à gauche selon l’Intensité de Charge sur soi (5 max)\n- Lorsque touché, gagne +1 de Compte de Charge et 1 Charge Électrique au prochain tour (5 max par tour)\n- Si cette unité est Paniquée ou en Érosion E.G.O. au Début du Tour, ou si cette unité est Déséquilibrée, perd cet effet",
+      "summary": "Immobilisé. Subit moins de dégâts. Gagne Aggro et Barrière de Charge. Gagne du Compte de Charge au prochain tour. Lorsque touché, gagne Charge Électronique et du Compte de Charge",
+      "undefined": "-"
+    },
+    {
+      "id": "BloodArmorMeursault",
+      "name": "Armure de Sang Durci",
+      "desc": "- Instance max : 5\n- Si cette unité n’est pas à PV max : après que sa Capacité attaque, regagne 10% des dégâts infligés en PV (une fois par tour ; 40 de soin max)\n- Après l’Attaque : si cette unité a infligé des dégâts de PV, perd 1 Instance (une fois par tour)\n• Si une Réson. de Luxure a été activée, réduit de moitié la quantité de PV soignés mais ne perd pas d’Instance d’Armure de Sang Durci",
+      "undefined": "-"
+    },
+    {
+      "id": "FocusOnActing",
+      "name": "Prestation Concentrée",
+      "desc": "- Instance max : 3\n- Uniquement aux Identités de <La Manchaland> ; inclut les Capacités Renforcées\n- Capacité 1 et Capacité 2 gagnent +1 de Puissance Finale ; infligent +5% de dégâts par Instance (15% max)\n- Capacité 3 gagne +2 de Puissance Finale ; inflige +10% de dégâts par Instance (30% max)\n- Après avoir attaqué avec Capacité 3, ou au Début du Tour, si cette unité n’a pas Armure de Sang Durci, perd 1 Instance",
+      "summary": "En Touche, inflige plus de dégâts",
+      "undefined": "-"
+    },
+    {
+      "id": "ParadeConcentration",
+      "name": "Parade La Mancha",
+      "desc": "- Instance max : 4\n- Subit +10% de dégâts de Capacités de Luxure\n• Si la cible est une Identité de <La Manchaland>, subit +20% de dégâts qu'importe l’Affinité de la Capacité\n• À Instance max, inflige -20% de dégâts aux Identités de <La Manchaland>\n- Perd 1 Instance après que la Capacité de cette unité ait touché et se termine ou après que la Capacité ayant attaqué cette unité touche et se termine",
+      "summary": "Identités de <La Manchaland> subissent moins de dégâts",
+      "undefined": "-"
+    },
+    {
+      "id": "EmergencyChargeForceField",
+      "name": "Batterie de Barrière d’Urgence",
+      "desc": "- Instance max : 7\n- Lorsque Déséquilibré, consomme toutes les Instances de Batterie de Barrière d’Urgence et gagne autant de Barrière de Charge que d’Instances consommées",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BloodArmorCasting",
+      "name": "Plâtre de Sang Durci",
+      "desc": "- Instance max : 3\n- En affrontant en duel des ennemis avec Saignement ou un Saignement Unique, +1 de Puissance de Duel\n- En consommant du Festin Sanglant avec une Capacité Offensive, s’il n’y a pas assez de Festin Sanglant, consomme 1 PV par Festin Sanglant manquant pour en générer avant de le consommer (les dégâts de cet effet ne Déséquilibre pas ou ne réduisent pas les PV de cette unité en dessous de 1)\n- Réduit de 1 à la Fin du Tour",
+      "summary": "",
+      "undefined": "-"
     }
   ]
 }

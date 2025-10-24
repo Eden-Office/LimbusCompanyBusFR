@@ -1,0 +1,184 @@
+{
+  "dataList": [
+    {
+      "id": 9840,
+      "name": "Casquette W Corp. Standard",
+      "desc": "Après avoir utilisé une Capacité qui gagne du Compte de [Charge] ou une <noparse>Charge Unique</noparse>, gagne autant de [EmergencyChargeForceField] que de Compte gagné (7 max par Identité)",
+      "simpleDesc": [
+        {
+          "abilityID": 9840,
+          "simpleDesc": "Gagne Batterie de Barrière d’Urgence"
+        }
+      ]
+    },
+    {
+      "id": 9841,
+      "name": "Ensemble d’Équipement C d’Agent de Nettoyage",
+      "desc": "Après avoir utilisé une Capacité qui gagne du Compte de [Charge] ou une <noparse>Charge Unique</noparse>, gagne autant de [EmergencyChargeForceField] que de Compte gagné (7 max par Identité)\n\nLes Capacités qui consomment du Compte de [Charge] ou une <noparse>Charge Unique</noparse> infligent +(nombre d’Identités dans l’Équipe avec des Capacités qui gagnent ou consomment du Compte de [Charge] ou une <noparse>Charge Unique</noparse>)% de dégâts (compte toutes les unités dans l’Équipe)\n\nLes Capacités qui consomment du Compte de [Charge] ou une <noparse>Charge Unique</noparse> gagnent +3 de Puissance de Duel et infligent +15% de dégâts\n- En utilisant ces Capacités, l’unité gagne +4 de Compte de [Charge] et 1 [ChargeForceField] (une fois par Identité par tour)\n\nLes Identités W Corp. gagnent les effets suivants :\n- En infligeant des dégâts avec une Capacité (inclut les Capacités E.G.O.), inflige 2 [TakeHpHealReduce] (non cumulable)\n- Durant la phase de combat, lorsque cette unité subit des dégâts de PV de sources autres que des dégâts directs de Capacité, gagne 5 [ChargeForceField] (une fois par tour par Identité)\n- Les Capacités 2 gagnent +3 de Puissance de Duel et infligent +15% de dégâts\n- Début du Tour : pour ce tour, les Capacités 3 infligent +(nombre d’Identités W Corp. sur le terrain * 6.25)% de dégâts\n- Début du Tour : les Agents N2 de la W Corp. gagnent 1 [PlusCoinValueUp]\n- Début du Tour : gagne (nombre d’Identités W Corp. sur le terrain / 3) [ChargeLoad] (2 max ; arrondi à l’inférieur)",
+      "simpleDesc": [
+        {
+          "abilityID": 9841,
+          "simpleDesc": "Gagne Batterie de Barrière d’Urgence"
+        },
+        {
+          "abilityID": 98411,
+          "simpleDesc": "Capacités qui consomment du Compte de Charge infligent plus de dégâts"
+        },
+        {
+          "abilityID": 98412,
+          "simpleDesc": "Capacité 1 gagne de la Puissance de Duel et inflige plus de dégâts ; gagne du Compte de Charge et de la Barrière de Charge"
+        },
+        {
+          "abilityID": 98413,
+          "simpleDesc": "Inflige Malus de Soin de PV"
+        },
+        {
+          "abilityID": 98414,
+          "simpleDesc": "Gagne Barrière de Charge"
+        },
+        {
+          "abilityID": 98415,
+          "simpleDesc": "Capacité 2 gagne de la Puissance de Duel et inflige plus de dégâts"
+        },
+        {
+          "abilityID": 98416,
+          "simpleDesc": "Capacité 3 inflige plus de dégâts"
+        },
+        {
+          "abilityID": 98417,
+          "simpleDesc": "Applique Bonus de Pièce Positive"
+        },
+        {
+          "abilityID": 98418,
+          "simpleDesc": "Gagne Charge Électronique"
+        }
+      ]
+    },
+    {
+      "id": 9842,
+      "name": "Chair Sanglante, Sang Charnu",
+      "desc": "Les effets de ce Don E.G.O. sont renforcés selon le nombre d’Identités dans la configuration d’Équipe avec des Capacités Offensives qui consomment du [BloodDinner] (nombre d’Identités qui remplissent les conditions sont représentées par “N” ci-dessous ; exclut les Capacités E.G.O. ; compte toutes les unités dans l’Équipe)\n\nPremier Début de Tour d’une vague : augmente le [BloodDinner] de (N * 20) ; puis, applique 3 [Laceration] et +3 de Compte de [Laceration] à toutes les cibles ([BloodDinner] augmenté par cet effet est plafonné à 100 par activation)\n\nLes alliés subissent -(N * 10)% dégâts de [Laceration] (1 dégât de [Laceration] min ; 40% max)\n- Les dégâts réduits n’affectent pas la quantité de [BloodDinner] augmentée\n\nLes ennemis subissent +(N * 5)% dégâts de [Laceration] (20% max)",
+      "simpleDesc": [
+        {
+          "abilityID": 9842,
+          "simpleDesc": "Augmente le Festin Sanglant et inflige du Saignement & du Compte de Saignement"
+        },
+        {
+          "abilityID": 98421,
+          "simpleDesc": "Subit moins de dégâts de Saignement"
+        },
+        {
+          "abilityID": 98422,
+          "simpleDesc": "Inflige plus de dégâts de Saignement"
+        }
+      ]
+    },
+    {
+      "id": 9843,
+      "name": "Glaive de Sang Durci",
+      "desc": "Les effets de ce Don E.G.O. sont renforcés selon le nombre d’Identités dans la configuration d’Équipe avec des Capacités Offensives qui consomment du [BloodDinner] (nombre d’Identités qui remplissent les conditions sont représentées par “N” ci-dessous ; exclut les Capacités E.G.O. ; compte toutes les unités dans l’Équipe)\n\nDébut de l’Affrontement : tous les alliés gagnent (N - 2)[BloodArmorCasting] (3 max)",
+      "simpleDesc": [
+        {
+          "abilityID": 9843,
+          "simpleDesc": "Gagne Plâtre de Sang Durci"
+        }
+      ]
+    },
+    {
+      "id": 9205,
+      "name": "Flasque WB",
+      "desc": "S’active lorsqu’un allié avec des Capacités Offensives qui infligent du [Laceration] ou du <noparse>Saignement Unique</noparse> meurt (une fois par vague ; exclut les Capacités E.G.O. ; si plus d’un allié meurt en même temps, utilise l’allié avec le plus haut niveau parmi eux)\n- Tous les alliés regagnent (9% des PV max de l’Identité morte) PV et augmente le [BloodDinner] de (niveau de l’Identité morte + 9)\n- Tous les alliés gagnent (niveau de l’Identité morte / 9) [AttackUp] au prochain tour (6 max ; arrondi à l’inférieur)",
+      "simpleDesc": [
+        {
+          "abilityID": 9205,
+          "simpleDesc": "Soigne des PV et augmente le Festin Sanglant"
+        },
+        {
+          "abilityID": 92051,
+          "simpleDesc": "Gagne du Bonus de Niveau Offensif"
+        }
+      ]
+    },
+    {
+      "id": 9206,
+      "name": "Descente de la Fragrance Sanguine",
+      "desc": "L’allié avec le moins de PV avant le Début du Combat regagne 3% de PV En Touche avec des Capacités Offensives qui appliquent du [Laceration] ou du <noparse>Saignement Unique</noparse> (2 fois par tour)\n\nDans un Duel en utilisant des Capacités qui appliquent du [Laceration] ou du <noparse>Saignement Unique</noparse> contre des ennemis avec du [Laceration] ou du <noparse>Saignement Unique</noparse>, +1 de Puissance de Duel\n- Si 5 Identités ou plus ont des Capacités Offensives qui appliquent du [Laceration] ou du <noparse>Saignement Unique</noparse>, +1 de Puissance de Duel et inflige +10% de dégâts à la place (compte toutes les unités dans l’Équipe)\n- S’il y a 10 Identités ou plus qui remplissent cette description, +2 de Puissance de Duel et inflige +15% de dégâts à la place",
+      "simpleDesc": [
+        {
+          "abilityID": 9206,
+          "simpleDesc": "Soigne des PV"
+        },
+        {
+          "abilityID": 92061,
+          "simpleDesc": "Gagne de la Puissance de Duel et inflige plus de dégâts"
+        }
+      ]
+    },
+    {
+      "id": 9818,
+      "name": "Gantelet Dimensionnel Abandonné",
+      "desc": "En infligeant des dégâts aux ennemis avec des Capacités qui consomment du Compte de [Charge] ou une <noparse>Charge Unique</noparse>, +0.1 à la plus basse Faiblesse de Type d’Attaque pour ce tour (une fois par tour)",
+      "simpleDesc": [
+        {
+          "abilityID": 9818,
+          "simpleDesc": "Augmente la plus basse Faiblesse de Type d’Attaque"
+        }
+      ]
+    },
+    {
+      "id": 19818,
+      "name": "Gantelet Dimensionnel Abandonné+",
+      "desc": "En infligeant des dégâts aux ennemis avec des Capacités qui consomment du Compte de [Charge] ou une <noparse>Charge Unique</noparse>, +0.1 à la plus basse Faiblesse de Type d’Attaque pour ce tour (une fois par tour)\n- Également, inflige 1 [VioletResistDown]",
+      "simpleDesc": [
+        {
+          "abilityID": 19818,
+          "simpleDesc": "Augmente la plus basse Faiblesse de Type d’Attaque"
+        }
+      ]
+    },
+    {
+      "id": 29818,
+      "name": "Gantelet Dimensionnel Abandonné++",
+      "desc": "En infligeant des dégâts aux ennemis avec des Capacités qui consomment du Compte de [Charge] ou une <noparse>Charge Unique</noparse>, +0.1 à la plus basse Faiblesse de Type d’Attaque pour ce tour (2 fois par tour)\n- Également, inflige 1 [VioletResistDown] et 1 [AzureResistDown]",
+      "simpleDesc": [
+        {
+          "abilityID": 29818,
+          "simpleDesc": "Augmente la plus basse Faiblesse de Type d’Attaque"
+        }
+      ]
+    },
+    {
+      "id": 9817,
+      "name": "Fragment d’Étoile Bleue",
+      "desc": "Les ennemis en Moral Bas ou Paniqués perdent 1 de Puissance Finale (contre les cibles sans PSM, lorsqu’elles ont 25 [Sinking] ou plus)\n- En infligeant des dégâts aux ennemis affectés avec des Capacités qui appliquent de la [Sinking], du Compte de [Sinking] ou une <noparse>Lourdeur Unique</noparse>, inflige 2 [DefenseDown] (2 fois par tour)",
+      "simpleDesc": [
+        {
+          "abilityID": 9817,
+          "simpleDesc": "Réduit la Puissance Finale de la cible ; En Touche, inflige du Malus de Niveau Défensif"
+        }
+      ]
+    },
+    {
+      "id": 19817,
+      "name": "Fragment d’Étoile Bleue+",
+      "desc": "Les ennemis en Moral Bas ou Paniqués perdent 2 de Puissance Finale (contre les cibles sans PSM, lorsqu’elles ont 15 [Sinking] ou plus)\n- En infligeant des dégâts aux ennemis affectés avec des Capacités qui appliquent de la [Sinking], du Compte de [Sinking] ou une <noparse>Lourdeur Unique</noparse>, inflige 3 [DefenseDown] (2 fois par tour)",
+      "simpleDesc": [
+        {
+          "abilityID": 19817,
+          "simpleDesc": "Réduit la Puissance Finale de la cible ; En Touche, inflige du Malus de Niveau Défensif"
+        }
+      ]
+    },
+    {
+      "id": 29817,
+      "name": "Fragment d’Étoile Bleue++",
+      "desc": "Les ennemis en Moral Bas ou Paniqués perdent 3 de Puissance Finale (contre les cibles sans PSM, lorsqu’elles ont 10 [Sinking] ou plus)\n- En infligeant des dégâts aux ennemis affectés avec des Capacités qui appliquent de la [Sinking], du Compte de [Sinking] ou une <noparse>Lourdeur Unique</noparse>, inflige 3 [DefenseDown] (3 fois par tour)",
+      "simpleDesc": [
+        {
+          "abilityID": 29817,
+          "simpleDesc": "Réduit la Puissance Finale de la cible ; En Touche, inflige du Malus de Niveau Défensif"
+        }
+      ]
+    }
+  ]
+}

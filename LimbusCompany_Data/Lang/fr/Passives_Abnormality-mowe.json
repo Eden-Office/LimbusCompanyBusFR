@@ -3,7 +3,7 @@
     {
       "id": 835001,
       "name": "Sang Stocké",
-      "desc": "À la Fin du Tour, selon la valeur de [KeptBlood] sur soi :\n- À une valeur inférieure ou égale à 5 [KeptBlood], gagne 1 [Binding], 1 [Vulnerable] et 1 [AttackDown] au prochain tour pour chaque [KeptBlood] perdu\n- À une valeur supérieure à 5 [KeptBlood], gagne 2 [AttackUp] et 2 [DefenseUp] pour chaque valeur en excès"
+      "desc": "À la Fin du Tour, selon l’instance de [KeptBlood] sur soi :\n- À 5 Instances ou moins : gagne 1 [Binding], 1 [Vulnerable] et 1 [AttackDown] au prochain tour pour chaque (6 - Instance)\n- À plus de 5 Instances : gagne 2 [AttackUp] et 2 [DefenseUp] au prochain tour pour chaque (Instance - 5)"
     },
     {
       "id": 835002,
@@ -48,7 +48,7 @@
     {
       "id": 9014802,
       "name": "Fuite de Courant",
-      "desc": "Lorsque touché, si l’attaquant a utilisé une Capacité qui gagne de la [Charge], l’attaquant vole 1 de Compte de [Charge] à cette unité.\n(Une fois par Capacité. Ne s’active pas si cette unité n’a pas [Charge])"
+      "desc": "Chaque fois que cette unité est touchée, si l’attaquant a utilisé une Capacité qui gagne de la [Charge], l’attaquant vole 1 de Compte de [Charge] à cette unité.\n(Une fois par Capacité. Ne s’active pas si cette unité n’a pas [Charge])"
     },
     {
       "id": 9015101,

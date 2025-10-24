@@ -1605,6 +1605,429 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1051301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chef de Marche",
+          "desc": "[WhenUse] Sur soi et 1 allié avec le moins de PV max : consomme jusqu’à 10 [BloodDinner] et applique 1 [BloodArmorMeursault] tous les 5 [BloodDinner] consommés par cette unité (une fois par tour ; exclut les alliés avec Instance max)\n- Priorise les alliés de <La Manchaland> et <Démon de Sang>(Parent Supérieur)\n- Si l’allié affecté est de <La Manchaland>, cette unité applique 1 [BloodArmorMeursault] supplémentaire\n- Si cette unité échoue à consommer du [BloodDinner], gagne 10 [Laceration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Chef de Marche",
+          "desc": "[WhenUse] Sur soi et 1 allié avec le moins de PV max : consomme jusqu’à 10 [BloodDinner] et applique 1 [BloodArmorMeursault] tous les 5 [BloodDinner] consommés par cette unité (une fois par tour ; exclut les alliés avec Instance max)\n- Priorise les alliés de <La Manchaland> et <Démon de Sang>(Parent Supérieur)\n- Si l’allié affecté est de <La Manchaland>, cette unité applique 1 [BloodArmorMeursault] supplémentaire\n- Si cette unité échoue à consommer du [BloodDinner], gagne 10 [Laceration]\n<style=\"highlight\">[WhenUse] Si la cible a 4 [Laceration] ou plus, +1 de Puissance de Pièce</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige +1 de Compte de [Laceration]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Chef de Marche",
+          "desc": "[WhenUse] Sur soi et 1 allié avec le moins de PV max : consomme jusqu’à 10 [BloodDinner] et applique 1 [BloodArmorMeursault] tous les 5 [BloodDinner] consommés par cette unité (une fois par tour ; exclut les alliés avec Instance max)\n- Priorise les alliés de <La Manchaland> et <Démon de Sang>(Parent Supérieur)\n- Si l’allié affecté est de <La Manchaland>, cette unité applique 1 [BloodArmorMeursault] supplémentaire\n- Si cette unité échoue à consommer du [BloodDinner], gagne 10 [Laceration]\n[WhenUse] Si la cible a 4 [Laceration] ou plus, +1 de Puissance de Pièce\n<style=\"highlight\">[WhenUse] Si la cible a 3 de Compte de [Laceration] ou plus, +1 de Puissance Finale</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1051302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Responsabilité de Reconstruire",
+          "desc": "[WhenUse] Sur soi et 1 allié avec le plus de PV max : consomme jusqu’à 10 [BloodDinner] et applique 1 [BloodArmorMeursault] tous les 5 [BloodDinner] consommés par cette unité (une fois par tour ; exclut les alliés avec Instance max)\n- Priorise les alliés de <La Manchaland> et <Démon de Sang>(Parent Supérieur)\n- Si l’allié affecté est de <La Manchaland>, cette unité applique 1 [BloodArmorMeursault] supplémentaire\n- Si cette unité échoue à consommer du [BloodDinner], gagne 10 [Laceration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Responsabilité de Reconstruire",
+          "desc": "[WhenUse] Sur soi et 1 allié avec le plus de PV max : consomme jusqu’à 10 [BloodDinner] et applique 1 [BloodArmorMeursault] tous les 5 [BloodDinner] consommés par cette unité (une fois par tour ; exclut les alliés avec Instance max)\n- Priorise les alliés de <La Manchaland> et <Démon de Sang>(Parent Supérieur)\n- Si l’allié affecté est de <La Manchaland>, cette unité applique 1 [BloodArmorMeursault] supplémentaire\n- Si cette unité échoue à consommer du [BloodDinner], gagne 10 [Laceration]\n<style=\"highlight\">[WhenUse] +1 de Puissance de Pièce tous les 4 [Laceration] sur la cible (2 max)\n[WhenUse] Si la cible a 3 de Compte de [Laceration] ou plus, +1 de Puissance Finale</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Responsabilité de Reconstruire",
+          "desc": "[WhenUse] Sur soi et 1 allié avec le plus de PV max : consomme jusqu’à 10 [BloodDinner] et applique 1 [BloodArmorMeursault] tous les 5 [BloodDinner] consommés par cette unité (une fois par tour ; exclut les alliés avec Instance max)\n- Priorise les alliés de <La Manchaland> et <Démon de Sang>(Parent Supérieur)\n- Si l’allié affecté est de <La Manchaland>, cette unité applique 1 [BloodArmorMeursault] supplémentaire\n- Si cette unité échoue à consommer du [BloodDinner], gagne 10 [Laceration]\n[WhenUse] +1 de Puissance de Pièce tous les 4 [Laceration] sur la cible (2 max)\n[WhenUse] <style=\"highlight\">+1 de Puissance Finale tous les 3 de Compte de [Laceration] sur la cible (2 max)</style>\n<style=\"highlight\">[WhenUse] Inflige +10% de dégâts par [BloodArmorMeursault] sur soi (30% max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +<style=\"highlight\">2</style> de Compte de [Laceration]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige +1 de Compte de [Burst]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 1 [ScarletTakeDamageUp] au prochain tour (2 fois par tour)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1051303,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Portons le manteau coagulé du sang.",
+          "desc": "En Touche avec cette Capacité : regagne 40% des dégâts infligés en PV (50 max par Capacité)\n[BeforeUse] À 5 [BloodArmorMeursault], active “Ouverture” à la place\n[WhenUse] +1 de Puissance de Pièce tous les 6 [Laceration] sur la cible (2 max)\n[WhenUse] Applique 1 [BloodArmorMeursault] à soi-même et (plus haute Réson.) alliés (2 fois par tour ; jusqu’à 4 alliés ; priorise d’abord <La Manchaland> et <Démon de Sang>(Parent Supérieur) ensuite ; exclut les alliés avec Instance max)\n[EndSkill] Si la cible est vaincue, augmente le [BloodDinner] de 20 supplémentaires (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [ParadeConcentration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [ParadeConcentration] au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Portons le manteau coagulé du sang.",
+          "desc": "En Touche avec cette Capacité : regagne 40% des dégâts infligés en PV (<style=\"highlight\">80</style> max par Capacité)\n[BeforeUse] À 5 [BloodArmorMeursault], active “Ouverture” à la place\n[WhenUse] +1 de Puissance de Pièce tous les 6 [Laceration] sur la cible (2 max)\n<style=\"highlight\">[WhenUse] Inflige +10% de dégâts tous les 2 de Compte de [Laceration] sur la cible (40% max)</style>\n[WhenUse] Applique 1 [BloodArmorMeursault] à soi-même et (plus haute Réson.) alliés (2 fois par tour ; jusqu’à 4 alliés ; priorise d’abord <La Manchaland> et <Démon de Sang>(Parent Supérieur) ensuite ; exclut les alliés avec Instance max)\n<style=\"highlight\">- Si c’était une Réson. de Luxure, applique également 2 [BloodArmorMeursault] à 2 alliés avec le moins de PV max</style>\n[EndSkill] Si la cible est vaincue, augmente le [BloodDinner] de 20 supplémentaires (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 2 [Laceration]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [ParadeConcentration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [ParadeConcentration] au prochain tour<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1051304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Coagulation",
+          "desc": "[DuelCounter]\n[WinDuel] Gagne 1 [BloodArmorMeursault] (2 fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Coagulation",
+          "desc": "[DuelCounter]\n<style=\"highlight\">[WhenUse] À 2 alliés, incluant cette unité, applique 5 [Laceration] et l’active une fois ; puis, réduit leur Compte de [Laceration] by 1 (une fois par tour ; priorise les alliés avec le plus d’[BloodArmorMeursault] ; ne s’active pas pour les Parents Supérieurs ; ce dégât ne réduit pas les PV alliés en dessous de 1)</style>\n[WinDuel] Gagne 1 [BloodArmorMeursault] (2 fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 1 [Laceration]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1051305,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Ouverture",
+          "desc": "En Touche avec cette Capacité : regagne 50% des dégâts infligés en PV (85 max par Capacité))\n[WhenUse] +2 de Puissance de Duel tous les 3 [Laceration] sur la cible principale (8 max)\n[WhenUse] Inflige +5% de dégâts tous les 2 de Compte de [Laceration] sur la cible principale (20% max)\n[WhenUse] Applique 2 [BloodArmorMeursault] à (plus haute Réson.) autres alliés (4 alliés max ; priorise d’abord <La Manchaland> et <Démon de Sang>(Parent Supérieur) ensuite ; exclut les alliés avec Instance max)\n[EndSkill] Consomme toute l’[BloodArmorMeursault] sur soi\n[EndSkill] Si cette Capacité a vaincu une cible, augmente le [BloodDinner] de 10 supplémentaires par cible vaincue par cette Capacité (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [ParadeConcentration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gagne 1 [BloodArmorMeursault] au prochain tour par cible que les dégâts de cette Capacité ont Déséquilibré, Brisé une Partie ou vaincu (3 max)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ouverture",
+          "desc": "En Touche avec cette Capacité : regagne 50% des dégâts infligés en PV (<style=\"highlight\">100</style> max par Capacité)\n[WhenUse] +2 de Puissance de Duel tous les 3 [Laceration] sur la cible principale (8 max)\n[WhenUse] Inflige +<style=\"highlight\">10</style>% de dégâts tous les 2 de Compte de [Laceration] sur la cible principale (<style=\"highlight\">40</style>% max)\n[WhenUse] Applique 2 [BloodArmorMeursault] à (plus haute Réson.) autres alliés (4 alliés max ; priorise d’abord <La Manchaland> et <Démon de Sang>(Parent Supérieur) ensuite ; exclut les alliés avec Instance max)\n<style=\"highlight\">- Si c’était une Réson. de Luxure, applique 1 [BloodArmorMeursault] supplémentaire</style>\n[EndSkill] Consomme toute l’[BloodArmorMeursault] sur soi\n[EndSkill] Si cette Capacité a vaincu une cible, augmente le [BloodDinner] de 10 supplémentaires par cible vaincue par cette Capacité (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [ParadeConcentration]"
+                },
+                {
+                  "desc": "<style=\"highlight\">- À 2 [FocusOnActing] ou plus, inflige également 2 [ParadeConcentration] à 1 des cibles (une fois par tour)</style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gagne 1 [BloodArmorMeursault] au prochain tour par cible que les dégâts de cette Capacité ont Déséquilibré, Brisé une Partie ou vaincu (3 max)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

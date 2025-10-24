@@ -1,0 +1,116 @@
+{
+  "dataList": [
+    {
+      "id": 971080,
+      "name": "Hardblood weapon found while resting",
+      "desc": "Au milieu de notre bataille contre une horde de Poche de Sang quasi-infinie…\n\n<Hm… ?>\n\n… nous sommes tombés sur un objet menaçant posé au sol.\n\nBien qu’il ressemblait quelque peu aux armes des Poches de Sang, il était facilement distinguable de ces dernières.\n\n“Ce doit être une arme puissante, pas vrai ?”\n\n“C’est sûrement une arme assez dangereuse.”\n\n“Véritablement, un objet des plus estranges !”\n\nClairement, les Pécheurs ont du mal à arriver à un terrain d’entente.\n\n… On dirait que c’est à moi de décider si nous ramasserons cette chose ou non.",
+      "options": [
+        {
+          "message": "Ramasser l’arme.",
+          "messageDesc": "Choisir pour gagner un Don E.G.O. de Saignement",
+          "result": [
+            "Elle pourrait sûrement être utile, qu’importe la manière.\n\nAprès un bref repos, les Pécheurs continuèrent vers notre destination.\n\n… Mais aucun d’entre nous ne remarqua que le Pécheur qui tenait l’arme semblait incapable de détourner son regard des taches de sang."
+          ]
+        },
+        {
+          "message": "Ne pas ramasser l’arme.",
+          "messageDesc": "Aucun effet particulier",
+          "result": [
+            "Je n’allais pas simplement emporter un artefact mystérieux comme ça.\n\nLes Pécheurs continuèrent vers notre destination, malgré une légère déception."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 971081,
+      "name": "There is a useful piece of gear on a W Corp. Cleanup Agent who was turned into a Bloodbag.",
+      "desc": "Les Agents de la W Corp. qui se sont changés en Poche de Sang étaient des ennemis plus difficiles que les autres Poches de Sang à bord du train.\n\nUne fois vaincus, nous avons trouvé un étrange appareil dans le sillage du combat.\n\nJ’ai déjà vu des Identités de la W Corp. avec ce gantelet.\n\n“Cet appareil est encrassé de sang ; il sera difficile de l’utiliser tel quel.”\n\nOn dirait qu’on va devoir traverser une épreuve épuisante pour le refaire fonctionner…",
+      "options": [
+        {
+          "message": "Retirer le sang.",
+          "messageDesc": "Contrôle Avantage Colère & Peine. Réussissez pour gagner un Don E.G.O. de Saignement.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Le laisser.",
+          "messageDesc": "Aucun effet particulier",
+          "result": [
+            "Nous n’avons pas le luxe de perdre notre temps sur quelque chose comme ça.\n\nLaissant le gantelet derrière, nous continuons."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 971082,
+      "name": "There is a useful piece of gear on the body of a W Corp. Cleanup Agent who was turned into a Bloodbag.",
+      "desc": "On dirait qu’il est presque entièrement réparé.\n\nMais peut-être que risquer de blesser un Pécheur n’en vaut pas la peine.",
+      "options": [
+        {
+          "message": "Réparer le gantelet.",
+          "messageDesc": "Contrôle Avantage Luxure & Envie. Réussissez pour gagner un Don E.G.O. de Charge.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Abandonner la réparation.",
+          "messageDesc": "Aucun effet particulier",
+          "result": [
+            "Nous n’avons pas le luxe de perdre notre temps sur quelque chose comme ça.\n\nLaissant derrière nous le gantelet encrassé de sang, nous continuons."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 971083,
+      "name": "A merchan passenger",
+      "desc": "Cette section semble bondée de passagers.\n\nParmi eux, nous remarquons un passage surprenamment calme et détendu.\n\n“Rapprochez-vous, vous voulez bien… ?”\n\nIl y avait une bouteille remplie de pilules suspicieuses dans la main qu’il nous tendait.\n\nLe passager commença à expliquer que sa santé mentale actuelle est grâce aux pilules en sa possession.\n\n“Voulez-vous en essayer ?”",
+      "options": [
+        {
+          "message": "Acheter les pilules.",
+          "messageDesc": "Dépensez du Coût pour soigner tous les PV et PSM alliés",
+          "result": [
+            "J’ai payé le prix et ai distribué les pilules aux Pécheurs.\n\n“Ooh… C’est pas mauvais.”\n\nLes effets étaient très visibles ; les pilules semblaient avoir soigné tout le monde, aussi bien physiquement que mentalement.\n\n“Revenez quand vous le voulez…”\n\nLes passagers nous saluèrent, alors nous avons continué après avoir fait de même."
+          ]
+        },
+        {
+          "message": "Jeter un rapide coup d’œil, puis partir.",
+          "messageDesc": "Aucun effet particulier",
+          "result": [
+            "Pas besoin de payer pour quelque chose d’aussi louche.\n\nNous avons continué."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 971084,
+      "name": "A W Corp. Cleanup Agent is battling a group of Bloodbags.",
+      "desc": "“Oyez ! Un guerrier solitaire afronte une horde de Poche de Sang !”\n\nLes Pécheurs regardaient quelqu’un portant un uniforme de la W Corp.\n\nIl semblait très doué, mais le grand nombre de Poches de Sang allait le submerger.\n\n<Nous devons l’aider—>\n\nMais je suis interrompu par une autre horde de Poches de Sang qui se déversa dans cette cabine, nous encerclant.\n\n“Merde… Préparez-vous au combat !”\n\n“M-mais quoi dunc du guerrier solitaire ?!”\n\n“Eh bien—”",
+      "options": [
+        {
+          "message": "Lui donner une Dague Dimensionnelle de Type E.",
+          "messageDesc": "Choisir pour gagner un Don E.G.O. de Charge",
+          "result": [
+            "“Ça devrait pouvoir l’aider, au minimum… !”\n\nNous avons lancé la dague à l’Agent de la W Corp.…\n\n… et avons touché une Poche de Sang en plein dans l’arrière de sa tête, alors qu’il s’apprêtait à plonger ses dents en lui. Il arracha rapidement la dague et s’en servit pour se défendre.\n\nUne fois le nettoyage terminé, il nous remercia et nous rend la dague.\n\n“Merci d’être intervenu ! Encore une seconde et je me serai changé en de ces mons—”\n\nHorrifié, l’Agent coupa sa phrase et détourna son esprit loin de cette pensée morbide.\n\n“Je me retire. Prenez ça, ce n’est pas grand-chose mais j’espère que ça vous aidera.”"
+          ]
+        },
+        {
+          "message": "Envoyer un Pécheur assister l’Agent de la W Corp.",
+          "messageDesc": "Contrôle Avantage Envie & Colère. Réussissez pour gagner un Don E.G.O. de Charge.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "N’envoyer personne.",
+          "messageDesc": "Tous les alliés perdent des PSM",
+          "result": [
+            "Puisque nous avions notre lot de Poches de Sang à gérer, nous avons décidé de nous sauver en priorité.\n\nIl ne fallut pas longtemps avant que l’Agent de la W Corp. ne se fasse emporté par la nuée de Poches de Sang.\n\nNous pouvions entendre ses cris d’agonie à travers la ruée, suppliant que quelqu’un vienne le sauver, mais… Il était trop tard pour que l’on fasse quoi que ce soit."
+          ]
+        }
+      ]
+    }
+  ]
+}
