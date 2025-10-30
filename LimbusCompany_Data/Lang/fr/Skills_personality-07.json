@@ -791,7 +791,7 @@
         {
           "level": 3,
           "name": "Requiem",
-          "desc": "[WinDuel] Regagne 10 PSM\n[BeforeUse] Si cette unité a [NightPathfinding], active “Lamente-toi, Pleure et Désespère” à la place\n[WhenUse] +1 de Puissance de Pièce pour chaque 6 [Sinking] sur la cible (2 max)\n[WhenUse] Inflige +7% de dégâts pour chaque [Coffin] sur soi (70% max)\n[WhenUse] Gagne 1 [Coffin]\n[EndSkill] Si l’attaque de cette Capacité tue la cible, gagne 2 [Coffin]",
+          "desc": "[WinDuel] Regagne 10 PSM\n[BeforeUse] Si cette unité a [NightPathfinding], active “Lamente-toi, Pleure et Désespère” à la place\n[WhenUse] +1 de Puissance de Pièce pour chaque 6 [Sinking] sur la cible (2 max)\nInflige +7% de dégâts pour chaque [Coffin] sur soi (70% max)\n[WhenUse] Gagne 1 [Coffin]\n[EndSkill] Si l’attaque de cette Capacité tue la cible, gagne 2 [Coffin]",
           "coinlist": [
             {
               "coindescs": [
@@ -818,7 +818,7 @@
         {
           "level": 4,
           "name": "Requiem",
-          "desc": "[WinDuel] Regagne 10 PSM\n[BeforeUse] Si cette unité a [NightPathfinding], active “Lamente-toi, Pleure et Désespère” à la place\n[WhenUse] +1 de Puissance de Pièce pour <style=\"highlight\">chaque 3</style> de [Sinking] sur la cible (<style=\"highlight\">4</style> max)\n[WhenUse] Inflige +12% de dégâts pour chaque [Coffin] sur soi (120% max)\n[WhenUse] Gagne 1 [Coffin]\n[EndSkill] Si l’attaque de cette Capacité tue la cible, gagne 2 [Coffin]",
+          "desc": "[WinDuel] Regagne 10 PSM\n[BeforeUse] Si cette unité a [NightPathfinding], active “Lamente-toi, Pleure et Désespère” à la place\n[WhenUse] +1 de Puissance de Pièce pour <style=\"highlight\">chaque 3</style> de [Sinking] sur la cible (<style=\"highlight\">4</style> max)\nInflige +12% de dégâts pour chaque [Coffin] sur soi (120% max)\n[WhenUse] Gagne 1 [Coffin]\n[EndSkill] Si l’attaque de cette Capacité tue la cible, gagne 2 [Coffin]",
           "coinlist": [
             {
               "coindescs": [
@@ -900,7 +900,7 @@
         {
           "level": 3,
           "name": "Lamente-toi, Pleure et Désespère",
-          "desc": "[WhenUse] Perd 15 PSM\n[WhenUse] +1 de Puissance de Base pour chaque 5 [Sinking] sur la cible (2 max)\n[WhenUse] Plus la valeur des PSM de cette unité est éloignée de 45, plus elle inflige des dégâts (+0.3% de dégâts pour chaque PSM manquant, 21% max)\n[WhenUse] Inflige +7% de dégâts pour chaque Cercueil sur soi (70% max)\n[WhenUse] Inflige +10% de dégâts pour chaque [NightPathfinding] sur soi (30% max)\n[WhenUse] Gagne 1 [Coffin]\n[EndSkill] Si l’attaque de cette Capacité tue la cible, gagne 2 [Coffin]\n[EndSkill] À moins de 0 PSM, regagne 10 PSM. Lorsque à moins de 0 PSM, plus la valeur de PSM de cette unité est éloignée de 0 et plus elle regagne de PSM (regagne 1 PSM supplémentaire pour chaque PSM manquant ; 25 max)\n[EndBattle] Perd [NightPathfinding]",
+          "desc": "[WhenUse] Perd 15 PSM\n[WhenUse] +1 de Puissance de Base pour chaque 5 [Sinking] sur la cible (2 max)\n[WhenUse] Plus la valeur des PSM de cette unité est éloignée de 45, plus elle inflige des dégâts (+0.3% de dégâts par PSM manquant, 21% max)\nInflige +7% de dégâts par [Coffin] sur soi (70% max)\nInflige +10% de dégâts par [NightPathfinding] sur soi (30% max)\n[WhenUse] Gagne 1 [Coffin]\n[EndSkill] Si l’attaque de cette Capacité tue la cible, gagne 2 [Coffin]\n[EndSkill] À moins de 0 PSM, regagne 10 PSM. Lorsque à moins de 0 PSM, plus la valeur de PSM de cette unité est éloignée de 0 et plus elle regagne de PSM (regagne 1 PSM supplémentaire par PSM manquant ; 25 max)\n[EndBattle] Perd [NightPathfinding]",
           "coinlist": [
             {
               "coindescs": [
@@ -930,7 +930,7 @@
         {
           "level": 4,
           "name": "Lamente-toi, Pleure et Désespère",
-          "desc": "[WhenUse] Perd 15 PSM\n[WhenUse] +1 de Puissance de Base pour chaque 5 [Sinking] sur la cible (<style=\"highlight\">4</style> max)\n[WhenUse] Plus la valeur des PSM de cette unité est éloignée de 45, plus elle inflige des dégâts (+0.3% de dégâts pour chaque PSM manquant, 21% max)\n[WhenUse] Inflige +<style=\"highlight\">10</style>% de dégâts pour chaque Cercueil sur soi (<style=\"highlight\">100</style>% max)\n[WhenUse] Inflige +<style=\"highlight\">20</style>% de dégâts pour chaque [NightPathfinding] sur soi (<style=\"highlight\">60</style>% max)\n[WhenUse] Gagne <style=\"highlight\">2</style> de [Coffin]\n[EndSkill] Si l’attaque de cette Capacité tue la cible, gagne <style=\"highlight\">3</style> de [Coffin]\n[EndSkill] À moins de 0 PSM, regagne 10 PSM. Lorsque à moins de 0 PSM, plus la valeur de PSM de cette unité est éloignée de 0 et plus elle regagne de PSM  (regagne <style=\"highlight\">2</style> PSM supplémentaires pour chaque PSM manquant ; <style=\"highlight\">50</style> max)\n[EndBattle] Perd [NightPathfinding]",
+          "desc": "[WhenUse] Perd 15 PSM\n[WhenUse] +1 de Puissance de Base pour chaque 5 [Sinking] sur la cible (<style=\"highlight\">4</style> max)\n[WhenUse] Plus la valeur des PSM de cette unité est éloignée de 45, plus elle inflige des dégâts (+0.3% de dégâts par PSM manquant, 21% max)\nInflige +<style=\"highlight\">10</style>% de dégâts par [Coffin] sur soi (<style=\"highlight\">100</style>% max)\nInflige +<style=\"highlight\">20</style>% de dégâts par [NightPathfinding] sur soi (<style=\"highlight\">60</style>% max)\n[WhenUse] Gagne <style=\"highlight\">2</style> de [Coffin]\n[EndSkill] Si l’attaque de cette Capacité tue la cible, gagne <style=\"highlight\">3</style> de [Coffin]\n[EndSkill] À moins de 0 PSM, regagne 10 PSM. Lorsque à moins de 0 PSM, plus la valeur de PSM de cette unité est éloignée de 0 et plus elle regagne de PSM  (regagne <style=\"highlight\">2</style> PSM supplémentaires par PSM manquant ; <style=\"highlight\">50</style> max)\n[EndBattle] Perd [NightPathfinding]",
           "coinlist": [
             {
               "coindescs": [
@@ -965,7 +965,7 @@
         {
           "level": 3,
           "name": "Lamente-toi, Pleure et Désespère",
-          "desc": "[WhenUse] Perd 15 PSM\n[WhenUse] +1 de Puissance de Base pour chaque 5 [Sinking] sur la cible (2 max)\n[WhenUse] Plus la valeur des PSM de cette unité est éloignée de 45, plus elle inflige des dégâts (+0.3% de dégâts pour chaque PSM manquant, 21% max)\n[WhenUse] Inflige +7% de dégâts pour chaque Cercueil sur soi (70% max)\n[WhenUse] Inflige +10% de dégâts pour chaque [NightPathfinding] sur soi (30% max)\n[WhenUse] Gagne 1 [Coffin]\n[EndSkill] Si l’attaque de cette Capacité tue la cible, gagne 2 [Coffin]\n[EndSkill] À moins de 0 PSM, regagne 10 PSM. Lorsque à moins de 0 PSM, plus la valeur de PSM de cette unité est éloignée de 0 et plus elle regagne de PSM  (regagne 1 PSM supplémentaire pour chaque PSM manquant ; 25 max)\n[EndBattle] Perd [NightPathfinding]",
+          "desc": "[WhenUse] Perd 15 PSM\n[WhenUse] +1 de Puissance de Base pour chaque 5 [Sinking] sur la cible (2 max)\n[WhenUse] Plus la valeur des PSM de cette unité est éloignée de 45, plus elle inflige des dégâts (+0.3% de dégâts par PSM manquant, 21% max)\nInflige +7% de dégâts par [Coffin] sur soi (70% max)\nInflige +10% de dégâts par [NightPathfinding] sur soi (30% max)\n[WhenUse] Gagne 1 [Coffin]\n[EndSkill] Si l’attaque de cette Capacité tue la cible, gagne 2 [Coffin]\n[EndSkill] À moins de 0 PSM, regagne 10 PSM. Lorsque à moins de 0 PSM, plus la valeur de PSM de cette unité est éloignée de 0 et plus elle regagne de PSM  (regagne 1 PSM supplémentaire par PSM manquant ; 25 max)\n[EndBattle] Perd [NightPathfinding]",
           "coinlist": [
             {
               "coindescs": [
@@ -995,7 +995,7 @@
         {
           "level": 4,
           "name": "Lamente-toi, Pleure et Désespère",
-          "desc": "[WhenUse] Perd 15 PSM\n[WhenUse] +1 de Puissance de Base pour chaque 5 [Sinking] sur la cible (<style=\"highlight\">4</style> max)\n[WhenUse] Plus la valeur des PSM de cette unité est éloignée de 45, plus elle inflige des dégâts (+0.3% de dégâts pour chaque PSM manquant, 21% max)\n[WhenUse] Inflige +<style=\"highlight\">10</style>% de dégâts pour chaque Cercueil sur soi (<style=\"highlight\">100</style>% max)\n[WhenUse] Inflige +<style=\"highlight\">20</style>% de dégâts pour chaque [NightPathfinding] sur soi (<style=\"highlight\">60</style>% max)\n[WhenUse] Gagne <style=\"highlight\">2</style> de [Coffin]\n[EndSkill] Si l’attaque de cette Capacité tue la cible, gagne <style=\"highlight\">3</style> de [Coffin]\n[EndSkill] À moins de 0 PSM, regagne 10 PSM. Lorsque à moins de 0 PSM, plus la valeur de PSM de cette unité est éloignée de 0 et plus elle regagne de PSM  (regagne <style=\"highlight\">2</style> PSM supplémentaires pour chaque PSM manquant ; <style=\"highlight\">50</style> max)\n[EndBattle] Perd [NightPathfinding]",
+          "desc": "[WhenUse] Perd 15 PSM\n[WhenUse] +1 de Puissance de Base pour chaque 5 [Sinking] sur la cible (<style=\"highlight\">4</style> max)\n[WhenUse] Plus la valeur des PSM de cette unité est éloignée de 45, plus elle inflige des dégâts (+0.3% de dégâts par PSM manquant, 21% max)\nInflige +<style=\"highlight\">10</style>% de dégâts par [Coffin] sur soi (<style=\"highlight\">100</style>% max)\nInflige +<style=\"highlight\">20</style>% de dégâts par [NightPathfinding] sur soi (<style=\"highlight\">60</style>% max)\n[WhenUse] Gagne <style=\"highlight\">2</style> de [Coffin]\n[EndSkill] Si l’attaque de cette Capacité tue la cible, gagne <style=\"highlight\">3</style> de [Coffin]\n[EndSkill] À moins de 0 PSM, regagne 10 PSM. Lorsque à moins de 0 PSM, plus la valeur de PSM de cette unité est éloignée de 0 et plus elle regagne de PSM  (regagne <style=\"highlight\">2</style> PSM supplémentaires par PSM manquant ; <style=\"highlight\">50</style> max)\n[EndBattle] Perd [NightPathfinding]",
           "coinlist": [
             {
               "coindescs": [
