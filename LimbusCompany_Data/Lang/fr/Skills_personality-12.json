@@ -1665,6 +1665,452 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1121301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Frapper la Faille",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [HurtNightStiletto]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Frapper la Faille",
+          "desc": "[WhenUse] Si la cible a 6 ([Laceration] + [Vibration]), +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [HurtNightStiletto]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Frapper la Faille",
+          "desc": "<style=\"highlight\">[WhenUse] Gagne 1 [Agility] au prochain tour (une fois par tour)</style>\n[WhenUse] +1 de Puissance de Pièce <style=\"highlight\">tous les</style> 6 ([Laceration] + [Vibration]) sur la cible <style=\"highlight\">(2 max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [HurtNightStiletto]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Stiletto Doppio",
+          "desc": "[WinDuel] Déclenche un [Vibration Explosion] ; puis, réduit le Compte de [Vibration] de la cible de 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [HurtNightStiletto]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Stiletto Doppio",
+          "desc": "[WhenUse] Si la cible a 6 ([Laceration] + [Vibration]), +1 de Puissance de Pièce\n[WinDuel] Déclenche un [Vibration Explosion] ; puis, réduit le Compte de [Vibration] de la cible de 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [HurtNightStiletto]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si l’ennemi (Noyau) a 20% de PV ou moins, utilise “Mercé”",
+                  "summary": "[OnSucceedAttack] Utilise “Mercé”"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Stiletto Doppio",
+          "desc": "[WhenUse] +1 de Puissance de Pièce <style=\"highlight\">tous les</style> 6 ([Laceration] + [Vibration]) sur la cible <style=\"highlight\">(2 max)</style>\n[WinDuel] <style=\"highlight\">Inflige 1 [Vibration]</style> et déclenche un [Vibration Explosion] ; puis, réduit le Compte de [Vibration] de la cible de 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [HurtNightStiletto]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si l’ennemi (Noyau) a 20% de PV ou moins, ou <style=\"highlight\">si la cible a [HorrHurtNightStiletto]</style>, utilise “Mercé”",
+                  "summary": "[OnSucceedAttack] Utilise “Mercé”"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121303,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Exécution",
+          "desc": "[BeforeUse] Si la cible a [CriHurtNightStiletto], active “Le Poinçon de la Nuit” à la place (une fois par tour)\n[WhenUse] Si la cible a 6 ([Laceration] + [Vibration]), +1 de Puissance de Pièce\n[WinDuel] Déclenche un [Vibration Explosion] ; puis, réduit le Compte de [Vibration] de la cible de 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [HurtNightStiletto]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationBleeding]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [Vibration Explosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible est Déséquilibrée, a [HorrHurtNightStiletto] ou si l’ennemi (Noyau) a 20% de PV ou moins, utilise “Mercé”",
+                  "summary": "[OnSucceedAttack] Utilise “Mercé”"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Exécution",
+          "desc": "[BeforeUse] Si la cible a [CriHurtNightStiletto], active “Le Poinçon de la Nuit” à la place (une fois par tour)\n[WhenUse] +1 de Puissance de Pièce <style=\"highlight\">tous les</style> 6 ([Laceration] + [Vibration]) sur la cible <style=\"highlight\">(2 max)</style>\n[WinDuel] <style=\"highlight\">Inflige 2 [Vibration]</style> et déclenche un [Vibration Explosion] ; puis, réduit le Compte de [Vibration] de la cible de 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> [Vibration] et <style=\"highlight\">+1 de Compte de [Vibration]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [HurtNightStiletto]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationBleeding]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [Vibration Explosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible est Déséquilibrée, a [HorrHurtNightStiletto] ou si l’ennemi (Noyau) a 20% de PV ou moins, utilise “Mercé”",
+                  "summary": "[OnSucceedAttack] Utilise “Mercé”"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Situation Désespérée",
+          "desc": "[CanDuelGuard]\n[StartBattle] Gagne 1 [Agility] au prochain tour (une fois par tour)\n[WhenUse] Si la cible a 6 ([Laceration] + [Vibration]), +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Situation Désespérée",
+          "desc": "[CanDuelGuard]\n<style=\"highlight\">[StartBattle] Pour ce tour, augmente le nombre de fois où “Mercé” peut être utilisée par l’effet de “Exécuteur de la Purge de la Famiglie” à 2 fois par tour</style>\n[StartBattle] Gagne 1 [Agility] au prochain tour (une fois par tour)\n[WhenUse] +1 de Puissance de Pièce <style=\"highlight\">tous les</style> 6 ([Laceration] + [Vibration]) sur la cible <style=\"highlight\">(2 max)</style>\n[WinDuel] <style=\"highlight\"> Inflige 2 [Vibration]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121305,
+      "levelList": [
+        {
+          "level": 2,
+          "name": "Mercé",
+          "desc": "[CantDuel]\nCette Capacité ne déclenche pas de Capacités Offensives et ne peut pax gagner de ressources E.G.O.\n+1 de Puissance de Pièce tous les 20% de PV manquants sur l’ennemi (Noyau) (2 max)\nSi l’ennemi (Noyau) a 20% de PV ou moins, inflige +80% de dégâts",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [HurtNightStiletto]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Mercé",
+          "desc": "[CantDuel]\nCette Capacité ne déclenche pas de Capacités Offensives et ne peut pax gagner de ressources E.G.O.\n+1 de Puissance de Pièce tous les 20% de PV manquants sur l’ennemi (Noyau) (<style=\"highlight\">4</style> max)\n<style=\"highlight\">Inflige +1% de dégâts tous les 1% de PV manquants l’ennemi (Noyau)</style>\n- Si l’ennemi (Noyau) a 20% de PV ou moins, <style=\"highlight\">inflige +120% de dégâts à la place</style>\n<style=\"highlight\">[WhenUse] Gagne 1 [Agility] au prochain tour (une fois par tour)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [HurtNightStiletto]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121306,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Le Poinçon de la Nuit",
+          "desc": "Inflige +10% de dégâts par ([Agility] sur soi + [Binding] sur la cible) (40% max)\nInflige +50% de dégâts si l’ennemi (Noyau) a 20% de PV ou moins\n[WhenUse] +1 de Puissance de Pièce tous les 4 ([Laceration] + [Vibration]) sur la cible (2 max)\n[WinDuel][VibrationExplosion]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Vibration] et +1 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationBleeding]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [Vibration Explosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [Binding], déclenche un [Vibration Explosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Convertit la [CriHurtNightStiletto] de la cible en [HorrHurtNightStiletto] au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Le Poinçon de la Nuit",
+          "desc": "Inflige +<style=\"highlight\">15</style>% de dégâts par ([Agility] sur soi + [Binding] sur la cible) (<style=\"highlight\">60</style>% max)\n<style=\"highlight\">Si la cible a Bouclier, inflige +30% de dégâts (en Affrontements Ciblés, le Noyau ou les Parties)</style>\n<style=\"highlight\">Inflige +1% de dégâts tous les 1% de PV manquants l’ennemi (Noyau)</style>\n- Si l’ennemi (Noyau) a 20% de PV ou moins, <style=\"highlight\">inflige +100% de dégâts à la place</style>\n<style=\"highlight\">[WhenUse] Inflige 5 [DefenseDown]</style>\n[WhenUse] +1 de Puissance de Pièce tous les 4 ([Laceration] + [Vibration]) sur la cible (<style=\"highlight\">3</style> max)\n[WinDuel] <style=\"highlight\">Inflige 4 [Vibration]</style> et déclenche un [VibrationExplosion]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Laceration] et <style=\"highlight\">+1 de Compte de [Laceration]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Vibration] et +2 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationBleeding]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [Vibration Explosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [Binding], déclenche un [Vibration Explosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Convertit la [CriHurtNightStiletto] de la cible en [HorrHurtNightStiletto] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

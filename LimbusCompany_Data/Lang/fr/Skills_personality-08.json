@@ -1620,6 +1620,358 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1081301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tsuru-giri [鶴斬り]",
+          "desc": "[WhenUse] Si l’autre Capacité sur le même Emplacement de Capacité est une Capacité différente, [Discard] cette Capacité",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Tsuru-giri [鶴斬り]",
+          "desc": "[WhenUse] Si l’autre Capacité sur le même Emplacement de Capacité est une Capacité différente, [Discard] cette Capacité\n<style=\"highlight\">[WhenUse] Si la cible a 6 ([Vibration] + [Sinking]) ou plus, +1 de Puissance de Pièce</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Inflige +1 de Compte de [Sinking]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Inflige +1 de Compte de [Vibration]</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Tsuru-giri [鶴斬り]",
+          "desc": "[WhenUse] Si l’autre Capacité sur le même Emplacement de Capacité est une Capacité différente, [Discard] cette Capacité\n<style=\"highlight\">[WhenUse] +1 de Puissance de Pièce tous les 6 ([Vibration] + [Sinking]) sur la cible (2 max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige +1 de Compte de [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige +1 de Compte de [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Détournement Susuki",
+          "desc": "[WhenUse] Si l’autre Capacité sur le même Emplacement de Capacité est une Capacité différente, [Discard] cette Capacité",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                }
+              ]
+            },
+            {}
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Détournement Susuki",
+          "desc": "[WhenUse] Si l’autre Capacité sur le même Emplacement de Capacité est une Capacité différente, [Discard] cette Capacité\n<style=\"highlight\">[WhenUse] Si la cible a 6 ([Vibration] + [Sinking]) ou plus, +1 de Puissance de Pièce</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Inflige 1 [Sinking]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Inflige 1 [Vibration]</style>"
+                }
+              ]
+            },
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Détournement Susuki",
+          "desc": "[WhenUse] Si l’autre Capacité sur le même Emplacement de Capacité est une Capacité différente, [Discard] cette Capacité\n<style=\"highlight\">[WhenUse] +1 de Puissance de Pièce tous les 6 ([Vibration] + [Sinking]) sur la cible (2 max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 1 [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Regagne 5 PSM</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081303,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Sakura-sen [桜閃]",
+          "desc": "Inflige +5% de dégâts par Intensité de [HanafudaCombo] sur soi\n[WhenUse] Si l’autre Capacité sur le même Emplacement de Capacité est une Capacité différente, [Discard] cette Capacité\n[WhenUse] Si la cible a 6 ([Vibration] + [Sinking]) ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige +1 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige +1 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible n’est pas en état de [Switch_Vibration], déclenche une [Switch_Vibration] en [VibrationCollapse]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Sakura-sen [桜閃]",
+          "desc": "Inflige +<style=\"highlight\">10</style>% de dégâts par Intensité de [HanafudaCombo] sur soi\n[WhenUse] Si l’autre Capacité sur le même Emplacement de Capacité est une Capacité différente, [Discard] cette Capacité\n<style=\"highlight\">[WhenUse] +1 de Puissance de Pièce tous les 6 ([Vibration] + [Sinking]) sur la cible (3 max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige +1 de Compte de [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige +1 de Compte de [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">Si la cible est en état de [Switch_Vibration] ou d’[FusionVibration], cette Pièce inflige +48% de dégâts</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible n’est pas en état de [Switch_Vibration], déclenche une [Switch_Vibration] en [VibrationCollapse]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Mélanger les Mains - Paquet Floral",
+          "desc": "[DuelCounter]\n[StartBattle] [Discard] 2 Capacités du rang inférieur dans tous les Emplacements de Capacité de cette unité (une fois par tour)\n[StartBattle] Si cette Capacité a été équipée sur l’Emplacement de Capacité le plus à gauche de cette unité, convertit la Série de la Main de cette unité en une Série aléatoire correspondant à l’une des Capacités Offensives de Base de cette unité au prochain tour. (Une fois par tour ; exclut la Série déjà dans la Main de cette unité)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Mélanger les Mains - Paquet Floral",
+          "desc": "[DuelCounter]\n[StartBattle] [Discard] 2 Capacités du rang inférieur dans tous les Emplacements de Capacité de cette unité (une fois par tour)\n[StartBattle] Si cette Capacité a été équipée sur l’Emplacement de Capacité le plus à gauche de cette unité, convertit la Série de la Main de cette unité en une Série aléatoire correspondant à l’une des Capacités Offensives de Base de cette unité au prochain tour. (Une fois par tour ; exclut la Série déjà dans la Main de cette unité)\n<style=\"highlight\">[StartBattle] 50% de chances de gagner 1 d’Intensité de [HanafudaCombo] (une fois par tour)</style>\n<style=\"highlight\">[WhenUse] +1 de Puissance de Pièce toutes les 2 d’Intensité de [HanafudaCombo] sur soi (2 max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Kōzan [光斬]",
+          "desc": "[CantDuel]\nCette Capacité ne déclenche pas de Capacités Défensives et les effets externes ne peuvent pas pousser cette Capacité à être Réutilisée\n\n[WhenUse] À moins de 3 d’Intensité de [HanafudaCombo], annule la Capacité et gagne 2 [Enhancement] au prochain tour\n[WhenUse] À 3 d’Intensité de [HanafudaCombo] ou plus, gagne les effets suivants selon l’Intensité :\n- Par Intensité : cette Capacité inflige +10% de dégâts\n- À 4 Intensité ou plus : +1 de Puissance de Base\n- À 5 Intensité : En Touche avec la dernière Réutilisation de Pièce, déclenche un [VibrationExplosion] 2 fois ; puis, réduit le Compte de [Vibration] de la cible de 1\n[EndSkillAll] Perd tout [HanafudaCombo] sur soi\n[EndSkillAll] Au prochain tour, convertit la Série dans la Main de cette Unité en une Série aléatoire qui correspond à l’une des Capacités Offensives de Base de cette unité (une fois par tour)\n[EndSkillAll] Gagne de l’Intensité de [HanafudaCombo] au prochain tour égal au # de Pièces qui n’ont pas été utilisées",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Réutilise cette Pièce (Intensité de [HanafudaCombo] - 1) fois (4 fois max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Kōzan [光斬]",
+          "desc": "[CantDuel]\nCette Capacité ne déclenche pas de Capacités Défensives et les effets externes ne peuvent pas pousser cette Capacité à être Réutilisée\n\n[WhenUse] À moins de 3 d’Intensité de [HanafudaCombo], annule la Capacité et gagne 2 [Enhancement] au prochain tour\n[WhenUse] À 3 d’Intensité de [HanafudaCombo] ou plus, gagne les effets suivants selon l’Intensité :\n- Par Intensité : cette Capacité inflige +10% de dégâts\n- À 4 Intensité ou plus : +1 de Puissance de Base\n- À 5 Intensité : En Touche avec la dernière Réutilisation de Pièce, déclenche un [VibrationExplosion] 2 fois ; puis, réduit le Compte de [Vibration] de la cible de 1\n[EndSkillAll] Perd tout [HanafudaCombo] sur soi\n[EndSkillAll] Au prochain tour, convertit la Série dans la Main de cette Unité en une Série aléatoire qui correspond à l’une des Capacités Offensives de Base de cette unité (une fois par tour)\n[EndSkillAll] Gagne de l’Intensité de [HanafudaCombo] au prochain tour égal au # de Pièces qui n’ont pas été utilisées<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Réutilise cette Pièce (Intensité de [HanafudaCombo] - 1) fois (4 fois max)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Inflige 1 [DefenseDown]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

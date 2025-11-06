@@ -2450,6 +2450,52 @@
       "id": 1051321,
       "name": "Faire Déborder le Calice",
       "desc": "Pour ce tour, multiplie la quantité de [BloodDinner] généré par 1.5 (2 fois par Affrontement ; arrondi à l’inférieur)"
+    },
+    {
+      "id": 1081301,
+      "name": "Truquer le Paquet",
+      "desc": "En Touche Face, regagne 5 PSM (une fois par tour)\nInflige +10% de dégâts aux cibles qui sont en état de Moral Bas ou en Panique",
+      "summary": "Regagne des PSM\nInflige plus de dégâts aux cibles en Moral Bas ou en Panique"
+    },
+    {
+      "id": 1081302,
+      "name": "Koi-Koi [こいこい]",
+      "desc": "Début du Tour : si cette unité n’a pas [HanafudaCombo], gagne 0 d’Intensité de [HanafudaCombo] et 3 de Compte de [HanafudaCombo]\n\nDébut du Tour : si cette unité n’a pas de Série en Main, gagne une Série aléatoire ([HanafudaOne], [HanafudaTwo] ou [HanafudaThree]) qui correspond à une Capacité Offensive de Base dans l’Emplacement de Capacité le plus à gauche de cette unité\n\nDébut du Combat : lorsque cette unité utilise une Capacité Offensive de Base ou une Capacité E.G.O. équipée sur son Emplacement de Capacité le plus à gauche, active les effets suivants (une fois par tour) :\n- Au prochain tour, convertit la Main sur soi en une correspondant à l’Affinité de la Capacité utilisée\n- Si la Capacité était “Sakura-sen” ou une Capacité E.G.O., gagne 1 d’Intensité [HanafudaCombo]\n- Si l’Affinité de la Capacité correspond à l’Affinité de la description de la Main actuelle (et donc, une “formation de Main”), active les effets suivants :\n  · Gagne 1 d’Intensité de [HanafudaCombo]\n  · Si cette unité a formé une Main au dernier tour et ce tour en succession, gagne 1 d’Intensité [HanafudaCombo]\n  · En Touche avec cette Capacité : déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1\n  · 25% de chances de gagner 1 Ressource E.G.O. correspondant à l’Affinité de la Capacité\n- À la fin de la Capacité : à 5 d’Intensité de [HanafudaCombo], ou à 0 de Compte de [HanafudaCombo], utilise “Kōzan”",
+      "summary": "En formant une Main, gagne [HanafudaCombo]. Déclenche du Sursaut de Tremblement."
+    },
+    {
+      "id": 1081321,
+      "name": "Relais",
+      "desc": "Début du Combat : lorsque 1 allié avec le moins de PSM utilise une Capacité Offensive de Base pour faire une Touche Pile, il regagne 5 PSM (2 fois par tour ; exclut les alliés à -40 PSM ou moins)",
+      "summary": "Regagne des PSM"
+    },
+    {
+      "id": 1121302,
+      "name": "Clémence Indolore",
+      "desc": "Sauf si Réutilisée par des effets externes, la Capacité “Mercé” du Capitano des Poinçons Nocturnes Gregor peut être utilisé jusqu’à 2 fois par tour",
+      "summary": "Utilise “Mercé”",
+      "undefined": "-"
+    },
+    {
+      "id": 1121301,
+      "name": "Exécuteur de la Purge de la Famiglie",
+      "desc": "Lorsque cette unité tue un ennemi ou brise une Partie, gagne 1 [PenetrateResultUp] au prochain tour (une fois par tour)\n\nEn utilisant une Capacité Offensive de Base, si la Vitesse de cette unité est plus rapide que celle de la cible, inflige [Disarming] à la cible toutes les 2 de différence de Vitesse (1 max par tour)\n\nAprès qu’un allié a attaqué en utilisant des Capacités Offensives de Base, si l’ennemi (Noyau) a 20% de PV ou moins, utilise “Mercé” sur la cible (une fois par tour)",
+      "summary": "Gagne [PenetrateResultUp]\nInflige [Disarming]\nUtilise “Mercé”",
+      "undefined": "-"
+    },
+    {
+      "id": 1121311,
+      "name": "Exécuteur de la Purge de la Famiglie",
+      "desc": "Lorsque cette unité tue un ennemi ou brise une Partie, gagne 2 [PenetrateResultUp] au prochain tour (une fois par tour)\n\nEn utilisant une Capacité Offensive de Base, si la Vitesse de cette unité est plus rapide que celle de la cible, inflige [Disarming] à la cible toutes les 2 de différence de Vitesse (2 max par tour)\n\nAprès qu’un allié a attaqué en utilisant des Capacités Offensives de Base, si l’ennemi (Noyau) a 20% de PV ou moins, utilise “Mercé” sur la cible (une fois par tour)\n- S’il n’y a que 1 allié en vie après une attaque, cette Passive s’active également lorsque la cible est Déséquilibrée",
+      "summary": "Gagne [PenetrateResultUp]\nInflige [Disarming]\nUtilise “Mercé”",
+      "undefined": "-"
+    },
+    {
+      "id": 1121321,
+      "name": "Viser la Faille",
+      "desc": "1 allié avec la plus haute Vitesse : en utilisant une Capacité Offensive de Base, si la Vitesse de cette unité est plus rapide que celle de la cible, inflige [Disarming] à la cible toutes les 3 de différence de Vitesse (2 max par tour)",
+      "summary": "Inflige [Disarming]",
+      "undefined": "-"
     }
   ]
 }
