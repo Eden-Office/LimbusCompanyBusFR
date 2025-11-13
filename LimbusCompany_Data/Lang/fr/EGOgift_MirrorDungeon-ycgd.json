@@ -74,7 +74,7 @@
       {
         "id": 2032,
         "name": "Sublimité",
-        "desc": "Début du Tour : s’active lorsqu’il y a 3 Identités du Clan Kurokumo ou plus.\n\nDébut du Tour : tous les alliés gagnent 2 Bonus de Puissance Tranchante et infligent +35% de dégâts Tranchants.\n\nDébut du Tour : lorsqu’une Identité du Clan Kurokumo inflige des dégâts pour la première fois, inflige 4 d’Intensité de [Laceration] supplémentaire et +4 de Compte de [Laceration]. (Une fois par tour)",
+        "desc": "Début du Tour : s’active lorsqu’il y a 3 Identités du Clan Kurokumo ou plus. (Ne compte que les Identités sur le terrain)\n\nDébut du Tour : tous les alliés gagnent 2 Bonus de Puissance Tranchante et infligent +35% de dégâts Tranchants.\n\nDébut du Tour : lorsqu’une Identité du Clan Kurokumo inflige des dégâts pour la première fois, inflige 4 d’Intensité de [Laceration] supplémentaire et +4 de Compte de [Laceration]. (Une fois par tour)",
         "simpleDesc": [
           {
             "abilityID": 2032,
@@ -82,14 +82,14 @@
           },
           {
             "abilityID": 20321,
-            "simpleDesc": "Inflige 4 d’Intensité de [Laceration] supplémentaire et +4 de Compte de [Laceration]"
+            "simpleDesc": "Inflige 4 d’Intensité de Saignement supplémentaire et +4 de Compte de Saignement"
           }
         ]
       },
       {
         "id": 2033,
         "name": "Inflexible",
-        "desc": "Début du Tour : s’active lorsqu’il y a 3 Identités de la Lignée de la Lame ou plus.\n\nDébut du Tour : tous les alliés gagnent 2 Bonus de Puissance Tranchante et infligent +35% de dégâts Tranchants.\n\nDébut du Tour : lorsqu’une Identité de la Lignée de la Lame touche critiquement, inflige des dégâts d’Orgueil supplémentaires égaux à la puissance de [Breath] sur soi.",
+        "desc": "Début du Tour : s’active lorsqu’il y a 3 Identités de la Lignée de la Lame ou plus. (Ne compte que les Identités sur le terrain)\n\nDébut du Tour : tous les alliés gagnent 2 Bonus de Puissance Tranchante et infligent +35% de dégâts Tranchants.\n\nDébut du Tour : lorsqu’une Identité de la Lignée de la Lame touche critiquement, inflige des dégâts d’Orgueil supplémentaires égaux à l’Intensité de [Breath] sur soi.",
         "simpleDesc": [
           {
             "abilityID": 2033,
@@ -97,14 +97,14 @@
           },
           {
             "abilityID": 20331,
-            "simpleDesc": "Inflige des dégâts d’Orgueil supplémentaires égaux à la puissance de [Breath] sur soi"
+            "simpleDesc": "Inflige des dégâts d’Orgueil supplémentaires égaux à l’Intensité de Calme sur soi"
           }
         ]
       },
       {
         "id": 2034,
         "name": "Chapeau de Bambou en Loques",
-        "desc": "Début du Tour : s’active lorsqu’il y a 3 Identités de la Lignée de la Lame ou plus.\n\nTous les alliés infligent +50% de dégâts Tranchants.\n\nLes alliés de la Lignée de la Lame avec [Breath] ont un taux de Critique fixé à 100%.",
+        "desc": "Début du Tour : s’active lorsqu’il y a 3 Identités de la Lignée de la Lame ou plus. (Ne compte que les Identités sur le terrain)\n\nTous les alliés infligent +50% de dégâts Tranchants.\n\nIdentités de la Lignée de la Lame : si l’allié a [Breath], le taux de Critique est fixé à 100%.\n\nIdentités de la Lignée de la Lame : infligent x1.5 dégâts supplémentaires en Critique",
         "simpleDesc": [
           {
             "abilityID": 2034,
@@ -113,13 +113,17 @@
           {
             "abilityID": 20341,
             "simpleDesc": "Taux de Critique fixé à 100%"
+          },
+          {
+            "abilityID": 20342,
+            "simpleDesc": "Inflige 1.5 fois plus de dégâts en Critique"
           }
         ]
       },
       {
         "id": 2035,
         "name": "Vieille Robe Dopo",
-        "desc": "Début du Tour : s’active lorsqu’il y a 3 Identités de la Lignée de la Lame ou plus.\n\nTous les alliés infligent +50% de dégâts Tranchants.\n\nLes alliés de la Lignée de la Lame avec [Breath] ont un taux de Critique fixé à 100%.",
+        "desc": "Début du Tour : s’active lorsqu’il y a 3 Identités de la Lignée de la Lame ou plus. (Ne compte que les Identités sur le terrain)\n\nTous les alliés infligent +50% de dégâts Tranchants.\n\nIdentités de la Lignée de la Lame : Capacité 1 gagne +1 de Puissance de Pièce. Capacité 1 Monopièce gagne +3 de Puissance de Pièce.\n\n[Mentor de la Lignée de la Lame Meursault Uniquement] -12 de Puissance de Duel Finale de la Capacité “Offrir Ma Chair” ; la Capacité “Pour Réclamer Leurs Os” inflige +50% de dégâts.",
         "simpleDesc": [
           {
             "abilityID": 2035,

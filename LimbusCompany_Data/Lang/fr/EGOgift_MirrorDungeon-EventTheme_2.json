@@ -830,6 +830,59 @@
           "simpleDesc": "Soigne des PV"
         }
       ]
+    },
+    {
+      "id": 2080,
+      "name": "Pommeau Usé",
+      "desc": "Début du Tour : tous les alliés gagnent 1 [ScarletResultUp].\n\nLes Identités de la Lignée de la Lame ou du Clan Kurokumo gagnent 2 [ScarletResultUp] et 1 [SlashResultUp] à la place.",
+      "simpleDesc": [
+        {
+          "abilityID": 2080,
+          "simpleDesc": "Gagne du Bonus de Puissance de Luxure"
+        },
+        {
+          "abilityID": 20801,
+          "simpleDesc": "Gagne du Bonus de Puissance de Luxure et du Bonus de Puissance Tranchante"
+        }
+      ]
+    },
+    {
+      "id": 2081,
+      "name": "Splendeur",
+      "desc": "Début du Tour : s’active lorsqu’il y a 3 Identités du Clan Kurokumo ou plus. (Ne compte que les Identités sur le terrain)\n\nTous les alliés gagnent 2 [ScarletResultUp] et 1 [SlashResultUp] au Début du Tour.\n\nCapacités Offensives de Base des Identités du Clan Kurokumo : gagnent +(4 / # de Pièce ; 1 min.) de Puissance de Pièce, inflige 1 d’Intensité et de Compte de [Laceration] supplémentaire et inflige +(80 / # de Pièce)% de dégâts\n\nNullifie le premier Seuil de Déséquilibre des Identités du Clan Kurokumo ; à moins de 50% de PV, gagne 2 [Protection] au Début du Tour. Les Identités ayant subi des dégâts d’ennemis ce tour gagnent 2 [Agility] au prochain tour.",
+      "simpleDesc": [
+        {
+          "abilityID": 2081,
+          "simpleDesc": "Gagne du Bonus de Puissance de Luxure et du Bonus de Puissance Tranchante"
+        },
+        {
+          "abilityID": 20811,
+          "simpleDesc": "Gagne de la Puissance de Pièce, inflige plus de Saignement et de Compte de Saignement et inflige plus de dégâts"
+        },
+        {
+          "abilityID": 20812,
+          "simpleDesc": "Nullifie le premier Seuil de Déséquilibre ; gagne de la Protection sous certains PV ; gagne de l'Accélération après avoir subi des dégâts"
+        }
+      ]
+    },
+    {
+      "id": 2082,
+      "name": "Cultivation",
+      "desc": "Début du Tour : s’active lorsqu’il y a 3 Identités de la Lignée de la Lame ou plus. (Ne compte que les Identités sur le terrain)\n\nDébut du Tour : tous les alliés gagnent 2 [SlashResultUp] et infligent +35% de dégâts.\n\nDébut du Tour : lorsqu’une Identité de la Lignée de la Lame touche critiquement, inflige des dégâts d’Orgueil supplémentaires égaux à (Intensité de [Breath] / 2) sur soi.\n\nSi une Identité de la Lignée de la Lame a 30 d’Intensité de [Breath] ou plus à la Fin du Tour, consomme 10 d’Intensité de [Breath] et gagne 2 [SlashDamageUp] au prochain tour",
+      "simpleDesc": [
+        {
+          "abilityID": 2082,
+          "simpleDesc": "Gagne du Bonus de Puissance Tranchante et inflige plus de dégâts"
+        },
+        {
+          "abilityID": 20821,
+          "simpleDesc": "Inflige (Intensité de [Breath] / 2) de dégâts d'Orgueil supplémentaires."
+        },
+        {
+          "abilityID": 20822,
+          "simpleDesc": "Gagne du Bonus de DGT Tranchant"
+        }
+      ]
     }
   ]
 }

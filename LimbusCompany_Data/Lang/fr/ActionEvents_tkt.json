@@ -93,15 +93,73 @@
       ]
     },
     {
-      "id": 10516,
-      "name": "Before Entry",
+      "id": 910901,
+      "name": "Timekilling Time Dungeon Renewal Starting Point",
       "subDesc": "",
-      "desc": "Vous entrez dans le Donjon des Songes. Il ressemble à une rue de la T Corp.\n\nPar-delà la foule de passants occupés, vous remarquez un distributeur automatique brillant.\n\nAvec les rues complètement dénuées de couleur…\n\n… le distributeur automatique semble résonner bien plus avec votre cœur.",
+      "desc": "Nous entrons dans le Donjon des Songes. Il ressemble à une rue de la T Corp.\n\nPar-delà la foule de passants occupés, nous remarquons un distributeur automatique brillant.\n\nAvec les rues complètement dénuées de couleur…\n\n… le distributeur automatique semble résonner bien plus avec notre cœur.\n\nEn regardant les alentours, les autres passants ne semblent rien remarquer d’inhabituel.\n\nNous voyons des rangées de bouton sur le distributeur.\n\nQue devrions-nous faire ?",
       "options": [
         {
-          "message": "Suivre la lumière.",
+          "message": "Appuyer sur l’un des boutons de la rangée supérieure.",
+          "messageDesc": "Gagnez un Don E.G.O. de Tremblement",
           "result": [
-            "Nous sommes à *ça* de découvrir la vérité sur l’Heure de Tuer le Temps.\n\nNous ne savons pas exactement comment se terminera cette affaire…\n\n… mais nous avons décidé de suivre la lueur de notre phare."
+            "Nous ramassons le Don E.G.O. tombé de la machine dans un bruit sourd.\n\nNous sommes à <i>ça</i> de découvrir la vérité sur l’Heure de Tuer le Temps.\n\nNous ne savons pas exactement comment se terminera cette affaire…\n\n… mais nous avons décidé de suivre la lueur de notre phare."
+          ]
+        },
+        {
+          "message": "Appuyer sur l’un des boutons de la rangée centrale.",
+          "messageDesc": "Gagnez un Don E.G.O. de Tremblement",
+          "result": [
+            "Nous ramassons le Don E.G.O. tombé de la machine dans un bruit sourd.\n\nNous sommes à <i>ça</i> de découvrir la vérité sur l’Heure de Tuer le Temps.\n\nNous ne savons pas exactement comment se terminera cette affaire…\n\n… mais nous avons décidé de suivre la lueur de notre phare."
+          ]
+        },
+        {
+          "message": "Appuyer sur l’un des boutons de la rangée inférieure.",
+          "messageDesc": "Gagnez un Don E.G.O. sans Mot-Clé",
+          "result": [
+            "Nous ramassons le Don E.G.O. tombé de la machine dans un bruit sourd.\n\nNous sommes à <i>ça</i> de découvrir la vérité sur l’Heure de Tuer le Temps.\n\nNous ne savons pas exactement comment se terminera cette affaire…\n\n… mais nous avons décidé de suivre la lueur de notre phare."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 910902,
+      "name": "Timekilling Time Dungeon Renewal Fusion",
+      "subDesc": "",
+      "desc": "Nous sommes arrivés à un point de repos familier.\n\nLa porte en verre est verrouillée, une fiche y est attachée.\n\n“Nous sommes fermés aujourd’hui suite à diverses raisons. Nous nous excusons du désagrément.”\n\n“Cependant, notre appareil de fusion est toujours disponible à l’emploi. Les clients nécessitant un service de fusion sont invités à utiliser l’appareil à côté de l’entrée.”\n\nQue devrions-nous faire ?",
+      "options": [
+        {
+          "message": "Essayer d’insérer le Boîtier de Montre en Argent et les Aiguilles d’Horloge Gravées.",
+          "messageDesc": "",
+          "result": [
+            "Après un tremblement interminable, un Don E.G.O. tomba de l’appareil."
+          ]
+        },
+        {
+          "message": "Essayer d’insérer le Boîtier de Montre en Argent et les Aiguilles d’Horloge Rouillées.",
+          "messageDesc": "",
+          "result": [
+            "Après un tremblement interminable, un Don E.G.O. tomba de l’appareil."
+          ]
+        },
+        {
+          "message": "Essayer d’insérer le Boîtier de Montre Décoloré et les Aiguilles d’Horloge Gravées.",
+          "messageDesc": "",
+          "result": [
+            "Après un tremblement interminable, un Don E.G.O. tomba de l’appareil."
+          ]
+        },
+        {
+          "message": "Essayer d’insérer le Boîtier de Montre Décoloré et les Aiguilles d’Horloge Rouillées.",
+          "messageDesc": "",
+          "result": [
+            "Après un tremblement interminable, un Don E.G.O. tomba de l’appareil."
+          ]
+        },
+        {
+          "message": "Il n’y a rien qui semble bon à insérer dans l’appareil.",
+          "messageDesc": "",
+          "result": [
+            "Nous n’avons rien d’adapté à insérer dans l’appareil.\n\nIl n’y avait pas d’autre choix que de reprendre la route."
           ]
         }
       ]
