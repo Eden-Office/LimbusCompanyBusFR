@@ -1907,7 +1907,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "CCA Overcharge",
+          "name": "Surchage AAC",
           "desc": "[CanDuelGuard]\n[StartBattle] À moins de 15 de Compte de [Charge], gagne les effets suivants :\n- Gagne [WOverCharge] au prochain tour (1 max par tour)\n- Fin du Tour : retire le premier Seuil de Déséquilibre de cette unité (une fois par Affrontement)",
           "coinlist": [
             {
@@ -1921,13 +1921,463 @@
         },
         {
           "level": 4,
-          "name": "CCA Overcharge",
+          "name": "Surchage AAC",
           "desc": "[CanDuelGuard]\n[StartBattle] À moins de 15 de Compte de [Charge], gagne les effets suivants :\n- Gagne [WOverCharge] au prochain tour (1 max par tour)\n- Fin du Tour : retire le premier Seuil de Déséquilibre de cette unité (une fois par Affrontement)\n<style=\"highlight\">- Fin du Tour : ajoute 1 Déchirer l’Espace - Surrégime AAC à la liste des Capacités pour le prochain tour à venir (une fois par tour)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Picorez-les",
+          "desc": "[StartDuel] Applique 1 [Combustion] et +1 de Compte de [Combustion] à la cible et soi-même",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Picorez-les",
+          "desc": "<style=\"highlight\">[WhenUse] Si la cible a 6 ([Combustion] + [Burst]) ou plus, +1 de Puissance de Pièce</style>\n[StartDuel] Applique 1 [Combustion] et +1 de Compte de [Combustion] à la cible et soi-même",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Picorez-les",
+          "desc": "[WhenUse] Si la cible a 6 ([Combustion] + [Burst]) ou plus, +1 de Puissance de Pièce\n<style=\"highlight\">[WhenUse] +1 de Puissance de Duel toutes les 10 [Combustion] sur soi (2 max)</style>\n[StartDuel] Applique 1 [Combustion] et +1 de Compte de [Combustion] à la cible et soi-même",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Inflige +1 de Compte de [Burst]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Serres Mutilatrices",
+          "desc": "[StartDuel] Applique 1 [Combustion] et +1 de Compte de [Combustion] à la cible et soi-même",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 3 [Combustion] et +1 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Si cette unité a [ChickenStance], ou si cette unité a moins de 50% de PV, Réutilise cette Pièce (une fois par Capacité)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Serres Mutilatrices",
+          "desc": "<style=\"highlight\">[WhenUse] Si la cible a 6 ([Combustion] + [Burst]) ou plus, +1 de Puissance de Pièce</style>\n[StartDuel] Applique 1 [Combustion] et +1 de Compte de [Combustion] à la cible et soi-même",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 3 [Combustion] et +1 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Si cette unité a [ChickenStance], ou si cette unité a moins de 50% de PV, Réutilise cette Pièce (une fois par Capacité)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Serres Mutilatrices",
+          "desc": "[WhenUse] Si la cible a 6 ([Combustion] + [Burst]) ou plus, +1 de Puissance de Pièce\n<style=\"highlight\">[WhenUse] +1 de Puissance de Duel toutes les 10 [Combustion] sur soi (2 max)</style>\n[StartDuel] Applique 1 [Combustion] et +1 de Compte de [Combustion] à la cible et soi-même",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Inflige +1 de Compte de [Combustion]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Inflige +1 de Compte de [Burst]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 3 [Combustion] et +1 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige (([Combustion] sur soi * 2)% des dégâts finaux de cette Pièce) dégâts de Colère (20% max)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Si cette unité a [ChickenStance], ou si cette unité a moins de 50% de PV, Réutilise cette Pièce (une fois par Capacité)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071403,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Massacre d’Embrasesang [血炎亂舞]",
+          "desc": "[WideAreaRampage]\n[StartBattle] Si cette unité a [ChickenStance], ou si cette unité a moins de 50% de PV, convertit toutes les Pièces en [SuperCoin]s\n[BeforeUse] À 20 [ChickenFightlust], active “Lames Déchaînées du Coq Sous le Paradis Ensanglanté” à la place\n[WhenUse] Gagne 3 [ChickenStance]\n[EndSkill] Gagne +2 de Compte de [Combustion]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Applique 2 [Combustion] à la cible et soi-même"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] À 50% de PV ou plus, subit des dégâts de [Combustion] égaux à l’Intensité de [Combustion] sur soi"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Applique 2 [Combustion] à la cible et soi-même"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] À 50% de PV ou plus, subit des dégâts de [Combustion] égaux à l’Intensité de [Combustion] sur soi"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Applique 2 [Combustion] à la cible et soi-même"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] À 50% de PV ou plus, subit des dégâts de [Combustion] égaux à l’Intensité de [Combustion] sur soi"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Massacre d’Embrasesang [血炎亂舞]",
+          "desc": "[WideAreaRampage]\n<style=\"highlight\">Inflige +1.5% de dégâts par [Combustion] sur soi (30% max)</style>\n[StartBattle] Si cette unité a [ChickenStance], ou si cette unité a moins de 50% de PV, convertit toutes les Pièces en [SuperCoin]s\n[BeforeUse] À 20 [ChickenFightlust], active “Lames Déchaînées du Coq Sous le Paradis Ensanglanté” à la place\n[WhenUse] Gagne 3 [ChickenStance]\n<style=\"highlight\">[WhenUse] +1 de Puissance de Pièce toutes les 6 ([Combustion] + [Burst]) sur la cible principale (2 max)\n[WhenUse] +1 de Puissance de Duel tous les 20% de PV manquants sur soi (3 max)</style>\n[EndSkill] Gagne +2 de Compte de [Combustion]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Applique 2 [Combustion] à la cible et soi-même"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] À 50% de PV ou plus, subit des dégâts de [Combustion] égaux à l’Intensité de [Combustion] sur soi"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Applique 2 [Combustion] à la cible et soi-même"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] À 50% de PV ou plus, subit des dégâts de [Combustion] égaux à l’Intensité de [Combustion] sur soi"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Applique 2 [Combustion] à la cible et soi-même"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] À 50% de PV ou plus, subit des dégâts de [Combustion] égaux à l’Intensité de [Combustion] sur soi"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Burst]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige (([Combustion] sur soi + [Combustion] sur la cible principale)% des dégâts finaux de cette Pièce) dégâts de Gourmandise à toutes les cibles (20% max)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Plus d’Bouffe pour Nous",
+          "desc": "[DuelCounter]\n[WhenUse] Gagne 3 [ChickenStance] au prochain tour\n[WhenUse] Si cette unité a [ChickenStance], +1 de Puissance de Pièce\n[StartDuel] Gagne +3 de Compte de [Combustion] (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Plus d’Bouffe pour Nous",
+          "desc": "[DuelCounter]\n[WhenUse] Gagne 3 [ChickenStance] au prochain tour\n<style=\"highlight\">[WhenUse] Si la cible a 10 ([Combustion] + [Burst]) ou plus, +1 de Puissance de Base</style>\n[WhenUse] Si cette unité a [ChickenStance], +1 de Puissance de Pièce\n<style=\"highlight\">[WhenUse] Cette Capacité inflige +1% de dégâts tous les 3% de PV cumulés que cette unité a perdu durant cet Affrontement (30% max)</style>\n[StartDuel] Gagne +3 de Compte de [Combustion] (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071405,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Lames Déchaînées du Coq Sous le Paradis Ensanglanté [血天下鷄舞亂刀]",
+          "desc": "[WideAreaRampage]\n[WhenUse] Gagne 3 [ChickenStance]\n[WinDuel] Gagne 10 [Combustion]\n[EndSkill] Consomme tout [ChickenFightlust]\n[EndSkill] À plus de 20 [Combustion], consomme jusqu’à 25 [Combustion] en excès et regagne ([Combustion] consommée * 2)% de PV",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cette unité a 20 [Combustion] ou plus, ou si cette unité a moins de 50% de PV, Réutilise cette Pièce (une fois par Capacité)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Lames Déchaînées du Coq Sous le Paradis Ensanglanté [血天下鷄舞亂刀]",
+          "desc": "[WideAreaRampage]\n<style=\"highlight\">Inflige +3% de dégâts par [Combustion] sur soi (60% max)\nInflige +1% de dégâts tous les 2% (pourcentage de PV manquants sur la cible + pourcentage de PV manquants sur soi) (50% max)</style>\n[WhenUse] Gagne 3 [ChickenStance]\n<style=\"highlight\">[WhenUse] +1 de Puissance de Pièce toutes les 6 ([Combustion] + [Burst]) sur la cible principale (2 max)\n[WhenUse] +1 de Puissance de Duel tous les 20% de PV manquants sur soi (3 max)</style>\n[WinDuel] Gagne 10 [Combustion]\n[EndSkill] Consomme tout [ChickenFightlust]\n[EndSkill] À plus de 20 [Combustion], consomme jusqu’à 25 [Combustion] en excès et regagne ([Combustion] consommée * 2)% de PV",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cette unité a 20 [Combustion] ou plus, ou si cette unité a moins de 50% de PV, Réutilise cette Pièce (une fois par Capacité)"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige (20% des dégâts finaux de cette Pièce) dégâts de Colère à toutes les cibles\n- Si c’est la Pièce finale, regagne autant de PV que de dégâts infligés par l’effet ci-dessus</style>"
                 }
               ]
             }

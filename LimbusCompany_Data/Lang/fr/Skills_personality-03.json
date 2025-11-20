@@ -2320,6 +2320,330 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1031301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Percée",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Percée",
+          "desc": "<style=\"highlight\">Si la cible a 6 ([Burst] + [Sinking]) ou plus, +1 de Puissance de Pièce</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Percée",
+          "desc": "<style=\"highlight\">Si la cible a [CrushMarks], inflige +25% de dégâts</style>\n<style=\"highlight\">+1 de Puissance de Pièce toutes les 6 ([Burst] + [Sinking]) sur la cible (2 max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Profitez de cet Élan, Fracassez le Mur",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Profitez de cet Élan, Fracassez le Mur",
+          "desc": "<style=\"highlight\">Si la cible a 6 ([Burst] + [Sinking]) ou plus, +1 de Puissance de Pièce\n[StartBattle] Si cette unité a [GrownHorns], convertit la dernière Pièce de cette Capacité en [SuperCoin]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige des dégâts Tranchants égaux à 5% des dégâts finaux de cette Pièce par Instance de [GrownHorns] sur cette unité (15% max)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Profitez de cet Élan, Fracassez le Mur",
+          "desc": "<style=\"highlight\">+1 de Puissance de Pièce toutes les 6 ([Burst] + [Sinking]) sur la cible (2 max)</style>\n[StartBattle] Si cette unité a [GrownHorns], convertit la dernière Pièce de cette Capacité en [SuperCoin] ; <style=\"highlight\">la dernière Pièce inflige +5% de dégâts par Instance de [GrownHorns] sur cette unité (15% max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts Tranchants égaux à <style=\"highlight\">10%</style> des dégâts finaux de cette Pièce par Instance de [GrownHorns] sur cette unité (<style=\"highlight\">30%</style> max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031303,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Cornes Écrasantes [破碎角]",
+          "desc": "Si la cible a 6 ([Burst] + [Sinking]) ou plus, +1 de Puissance de Pièce\n[StartBattle] Si cette unité a [GrownHorns], convertit toutes les Pièces de cette Capacité en [SuperCoin]\n[WhenUse] Gagne 3 [GrownHorns]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "- Si la cible à l’un des effets de changement de Type de Panique, +5% de dégâts par Instance (15% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige (25% des dégâts finaux de cette Pièce) dégâts Tranchants"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [CrushMarks] au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Cornes Écrasantes [破碎角]",
+          "desc": "<style=\"highlight\">+1 de Puissance de Pièce toutes les 6 ([Burst] + [Sinking]) sur la cible (2 max)</style>\n[StartBattle] Si cette unité a [GrownHorns], convertit toutes les Pièces de cette Capacité en [SuperCoin] et <style=\"highlight\">inflige +10% de dégâts par Instance de [GrownHorns] sur cette unité (30% max)</style>\n[WhenUse] Gagne 3 [GrownHorns]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">+2</style> de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">+2</style> de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "- Si la cible à l’un des effets de changement de Type de Panique, <style=\"highlight\">+10%</style> de dégâts par Instance (<style=\"highlight\">30%</style> max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige (25% des dégâts finaux de cette Pièce) dégâts Tranchants\n<style=\"highlight\">- Si la cible a [CrushMarks], renforce cet effet et inflige (50% des dégâts finaux de cette Pièce) dégâts Tranchants à la place"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [CrushMarks] au prochain tour\n<style=\"highlight\">- Si la cible à l’un des effets de changement de Type de Panique, inflige +3 de Compte de [Sinking] (une fois par tour)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "J’escraserai tout ce qui se drece sur nostre chemin !",
+          "desc": "[DuelCounter] \n[WhenUse] Gain 3 [GrownHorns] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "J’escraserai tout ce qui se drece sur nostre chemin !",
+          "desc": "[DuelCounter]\n<style=\"highlight\">Final Power +1 for every 3 ([Burst] + [Sinking]) on target (max 3)</style>\n[WhenUse] Gain 3 [GrownHorns] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -41,26 +41,26 @@
     {
       "id": 9160,
       "name": "Sac de Sang Déchiré",
-      "desc": "En Duel Gagné allié : active le [Laceration] ennemi une fois (3 fois par tour)",
+      "desc": "En Duel Gagné allié : active le [Laceration] ennemi une fois et réduit le Compte de [Laceration] de 1 (3 fois par tour)",
       "simpleDesc": [
         {
           "abilityID": 9160,
-          "simpleDesc": "Active Saignement une fois"
+          "simpleDesc": "Active Saignement une fois (réduit le Compte de Saignement de 1)"
         }
       ]
     },
     {
       "id": 9162,
       "name": "Choc Hémorragique",
-      "desc": "Début du Tour : ce Don s’active durant tout l’Affrontement lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent du [Laceration] ou un “Saignement Unique”. (Exclut les Capacités E.G.O. ; exclut les Unités de Renfort)\n\nEn Duel Gagné allié : active le [Laceration] ennemi une fois. (une fois par tour pour chaque allié)\n\nLes ennemis peuvent être Déséquilibrés par Dégâts de [Laceration] ; si un ennemi est Déséquilibré à cause de dégâts de [Laceration] au milieu d’un Duel, active [Laceration] (# de Pièces ennemies restantes) fois\n\nSi tous les ennemis ont [Laceration], ils perdent 2 Niveaux Défensifs. À la Fin du Tour, inflige (# d’activations de [Laceration] * 2) [DefenseDown] au prochain tour (20 max)\n\nEn infligeant de l’Intensité de [Laceration] ou un “Saignement Unique” avec des effets de Capacité, inflige 3 d’Intensité de [Laceration] et +1 de Compte de [Laceration] sur la cible",
+      "desc": "Début du Tour : ce Don s’active durant tout l’Affrontement lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent du [Laceration] ou un “Saignement Unique”. (Exclut les Capacités E.G.O. ; exclut les Unités de Renfort)\n\nEn Duel Gagné allié : active le [Laceration] ennemi une fois et réduit le Compte de [Laceration] de 1 (une fois par tour pour chaque allié)\n\nLes ennemis peuvent être Déséquilibrés par Dégâts de [Laceration] ; si un ennemi est Déséquilibré à cause de dégâts de [Laceration] au milieu d’un Duel, active [Laceration] (# de Pièces ennemies restantes) fois et réduit le Compte de [Laceration] de (# d’activation de [Laceration])\n\nSi tous les ennemis ont [Laceration], ils perdent 2 Niveaux Défensifs. À la Fin du Tour, inflige (# d’activations de [Laceration] * 2) [DefenseDown] au prochain tour (20 max)\n\nEn infligeant de l’Intensité de [Laceration] ou un “Saignement Unique” avec des effets de Capacité, inflige 3 d’Intensité de [Laceration] et +1 de Compte de [Laceration] sur la cible",
       "simpleDesc": [
         {
           "abilityID": 9162,
-          "simpleDesc": "En Duel Gagné, active Saignement sur la cible une fois"
+          "simpleDesc": "En Duel Gagné, active Saignement sur la cible une fois (réduit le Compte de Saignement de 1)"
         },
         {
           "abilityID": 91621,
-          "simpleDesc": "Après un Duel, active le [Laceration] ennemi (# de Pièces restantes sur soi) fois"
+          "simpleDesc": "Après un Duel, active le [Laceration] ennemi (# de Pièces restantes sur soi) fois et réduit le Compte de [Laceration] de (# d’activation de [Laceration])"
         },
         {
           "abilityID": 91622,
