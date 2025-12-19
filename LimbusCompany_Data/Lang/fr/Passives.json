@@ -785,7 +785,7 @@
     {
       "id": 1010521,
       "name": "Nettoyer les Dégâts",
-      "desc": "Lorsque 1 allié avec le moins de PV Max déclenche un Sursaut de Tremblement sur un ennemi, inflige 1 Malus de Niveau Défensif par 4 de Seuil de Déséquilibre augmenté (3 Max par 1 ennemi à chaque tour)"
+      "desc": "Lorsque 1 allié avec le moins de PV Max déclenche un Sursaut de Tremblement sur un ennemi, inflige 1 Malus de Niveau Défensif au prochain tour par 4 de Seuil de Déséquilibre augmenté (3 Max par 1 ennemi à chaque tour)"
     },
     {
       "id": 1110501,
@@ -1530,7 +1530,7 @@
     {
       "id": 1111001,
       "name": "Surcharge / Ordre de Nettoyage",
-      "desc": "Gagne 1 [Charge] chaque fois que cette unité consomme 10 de Compte de [Charge] cumulé dans cet Affrontement\nFin du Tour : applique 1 [ParryingResultUp] au prochain tour à ([Charge]) employés de la W Corp., incluant cette unité, par ordre inverse de Déploiement (max : 5 alliés)"
+      "desc": "Gagne 1 [Charge] chaque fois que cette unité consomme 10 de Compte de [Charge] cumulés dans cet Affrontement\nFin du Tour : applique 1 [ParryingResultUp] au prochain tour à ([Charge]) employés de la W Corp., incluant cette unité, par ordre inverse de Déploiement (max : 5 alliés)"
     },
     {
       "id": 1111021,
@@ -1540,13 +1540,13 @@
     {
       "id": 1021001,
       "name": "Démantèlement de l’électrocourant",
-      "desc": "Gagne 1 [Charge] chaque fois que cette unité consomme 10 de Compte de [Charge] cumulé cet Affrontement\nÀ 2 [Charge] ou plus, inflige +([Charge] * 3)% de dégâts (15% max)\n\nEn Tuant, cette unité et 1 allié avec le moins de Compte de [Charge] gagnent du Compte de [Charge] égal à la [Charge] (3 max, priorise les alliés qui consomment ou gagnent de la [Charge])",
+      "desc": "Gagne 1 [Charge] chaque fois que cette unité consomme 10 de Compte de [Charge] cumulés cet Affrontement\nÀ 2 [Charge] ou plus, inflige +([Charge] * 3)% de dégâts (15% max)\n\nEn Tuant, cette unité et 1 allié avec le moins de Compte de [Charge] gagnent du Compte de [Charge] égal à la [Charge] (3 max, priorise les alliés qui consomment ou gagnent de la [Charge])",
       "summary": "Gagne [Charge] à chaque consommation de 10 de Compte de [Charge]\nÀ 2 [Charge] ou plus, inflige plus de dégâts\nEn Tuant, cette unité et 1 allié gagnent du Compte de [Charge]"
     },
     {
       "id": 1021011,
       "name": "Démantèlement de l’électrocourant",
-      "desc": "Gagne 1 [Charge] chaque fois que cette unité consomme 10 de Compte de [Charge] cumulé cet Affrontement\nÀ 2 [Charge] ou plus, inflige +([Charge] * 3)% de dégâts (15% max)\n<style=\"highlight\">- Si la cible est à moins de 50% e PV, inflige +([Charge] * 5)% de dégâts augmentés supplémentaires (25% max)</style>\n\nEn Tuant, cette unité et <style=\"highlight\">2 alliés</style> avec le moins de Compte de [Charge] gagnent du Compte de [Charge] égal à <style=\"highlight\">([Charge] + 2)</style> (<style=\"highlight\">5</style> max, priorise les alliés qui consomment ou gagnent de la [Charge])",
+      "desc": "Gagne 1 [Charge] chaque fois que cette unité consomme 10 de Compte de [Charge] cumulés cet Affrontement\nÀ 2 [Charge] ou plus, inflige +([Charge] * 3)% de dégâts (15% max)\n<style=\"highlight\">- Si la cible est à moins de 50% e PV, inflige +([Charge] * 5)% de dégâts augmentés supplémentaires (25% max)</style>\n\nEn Tuant, cette unité et <style=\"highlight\">2 alliés</style> avec le moins de Compte de [Charge] gagnent du Compte de [Charge] égal à <style=\"highlight\">([Charge] + 2)</style> (<style=\"highlight\">5</style> max, priorise les alliés qui consomment ou gagnent de la [Charge])",
       "summary": "Gagne [Charge] à chaque consommation de 10 de Compte de [Charge]\nÀ 2 [Charge] ou plus, inflige plus de dégâts\nEn Tuant, cette unité et 2 alliés gagnent du Compte de [Charge]"
     },
     {
@@ -1562,13 +1562,13 @@
     {
       "id": 1070901,
       "name": "Modèle de Charge L37",
-      "desc": "Gagne 1 [Charge] chaque fois que cette unité consomme 10 de Compte de [Charge] cumulé cet Affrontement\n\nFin du Tour : à 2 [Charge] ou plus, gagne 1 [Agility] au prochain tour",
+      "desc": "Gagne 1 [Charge] chaque fois que cette unité consomme 10 de Compte de [Charge] cumulés cet Affrontement\n\nFin du Tour : à 2 [Charge] ou plus, gagne 1 [Agility] au prochain tour",
       "summary": "Gagne [Charge] à chaque consommation de 10 de Compte de [Charge]"
     },
     {
       "id": 1070911,
       "name": "Modèle de Charge L37",
-      "desc": "Gagne 1 [Charge] chaque fois que cette unité consomme 10 de Compte de [Charge] cumulé cet Affrontement\nFin du Tour : à 2 [Charge] ou plus, gagne 1 [Agility] au prochain tour\n<style=\"highlight\">Fin du Tour : à 3 [Charge] ou plus, gagne 1 [Agility] supplémentaire et 1 [ParryingResultUp] au prochain tour</style>",
+      "desc": "Gagne 1 [Charge] chaque fois que cette unité consomme 10 de Compte de [Charge] cumulés cet Affrontement\nFin du Tour : à 2 [Charge] ou plus, gagne 1 [Agility] au prochain tour\n<style=\"highlight\">Fin du Tour : à 3 [Charge] ou plus, gagne 1 [Agility] supplémentaire et 1 [ParryingResultUp] au prochain tour</style>",
       "summary": "Gagne [Charge] à chaque consommation de 10 de Compte de [Charge]"
     },
     {
@@ -2230,7 +2230,7 @@
     {
       "id": 1031202,
       "name": "Au Nom de l’Amour et de la Haine - ! ALERTE : SEUIL DE SYNC AVEC L’ÉQUIPEMENT E.G.O. SURPASSÉ !",
-      "desc": "Gagne 1 [ThePowerOfLoveAndHate] chaque fois que cette unité consomme 10 de Compte d’[ThePowerOfLoveAndHate] cumulé dans cet Affrontement\n\nDébut de l’Affrontement : si cette unité ne possède pas [HystericGauge], gagne [HystericGauge]\n\nDébut de l’Affrontement : si cette unité ne possède pas [ThePowerOfLoveAndHate], gagne [ThePowerOfLoveAndHate]\n\nDébut du Tour :\n- À 0 PSM ou plus, gagne [MagicalGirlAppear] et perd [NoVillain]\n- À moins de 0 PSM, gagne [NoVillain] et perd [MagicalGirlAppear]\n\nLes PSM de cette unité ne peuvent pas tomber en-dessous de -40 suite aux effets de perd de PSM des Capacités Offensives de Base de cette unité",
+      "desc": "Gagne 1 [ThePowerOfLoveAndHate] chaque fois que cette unité consomme 10 de Compte d’[ThePowerOfLoveAndHate] cumulés dans cet Affrontement\n\nDébut de l’Affrontement : si cette unité ne possède pas [HystericGauge], gagne [HystericGauge]\n\nDébut de l’Affrontement : si cette unité ne possède pas [ThePowerOfLoveAndHate], gagne [ThePowerOfLoveAndHate]\n\nDébut du Tour :\n- À 0 PSM ou plus, gagne [MagicalGirlAppear] et perd [NoVillain]\n- À moins de 0 PSM, gagne [NoVillain] et perd [MagicalGirlAppear]\n\nLes PSM de cette unité ne peuvent pas tomber en-dessous de -40 suite aux effets de perd de PSM des Capacités Offensives de Base de cette unité",
       "summary": ""
     },
     {
@@ -2411,7 +2411,7 @@
     {
       "id": 1071301,
       "name": "Charge Défensive",
-      "desc": "- Gagne 1 [Charge] chaque fois que cette unité consomme 10 de Compte de [Charge] cumulé dans cet Affrontement\n- Début du Tour : gagne autant de [DefenseUp] que d’Intensité de [Charge] sur soi (6 max)"
+      "desc": "- Gagne 1 [Charge] chaque fois que cette unité consomme 10 de Compte de [Charge] cumulés dans cet Affrontement\n- Début du Tour : gagne autant de [DefenseUp] que d’Intensité de [Charge] sur soi (6 max)"
     },
     {
       "id": 1071311,
@@ -2561,6 +2561,23 @@
       "id": 1041321,
       "name": "Vagabonde",
       "desc": "Début du Combat : l’allié le plus tôt dans l’ordre de Déploiement gagne 1 Bouclier par [Breath] sur soi (10 max)"
+    },
+    {
+      "id": 1091401,
+      "name": "Ramures Joyeuses",
+      "desc": "Gagne 1 [Charge] chaque fois que cette unité consomme 10 de Compte de [Charge] cumulés dans cet Affrontement\n\nEn utilisant une Capacité Offensive de Base qui inflige de l’Intensité de [Sinking], si la cible principale n’a pas de [Sinking], cette unité gagne 5 [Sinking] et double la quantité d’Intensité de [Sinking] qu’applique la Capacité (une fois par tour ; en Affrontement Ciblé, la Partie)",
+      "summary": "Si l’ennemi n’a pas de [Sinking], gagne de la [Sinking] et inflige plus d’Intensité de [Sinking]"
+    },
+    {
+      "id": 1091411,
+      "name": "Ramures Joyeuses",
+      "desc": "Gagne 1 [Charge] chaque fois que cette unité consomme 10 de Compte de [Charge] cumulés dans cet Affrontement\n\nEn utilisant une Capacité Offensive de Base qui inflige de l’Intensité de [Sinking], si la cible principale n’a pas de [Sinking], cette unité gagne 5 [Sinking] et double la quantité d’Intensité de [Sinking] qu’applique la Capacité (une fois par tour ; en Affrontement Ciblé, la Partie)\n\n<style=\"highlight\">À moins de 35% de PV, les Capacités Offensives de Base gagnent +1 de Puissance Finale</style>",
+      "summary": "Si l’ennemi n’a pas de [Sinking], gagne de la [Sinking] et inflige plus d’Intensité de [Sinking]\nÀ moins de 35% de PV, +1 de Puissance Finale"
+    },
+    {
+      "id": 1091421,
+      "name": "Cantique des Camarades Mourants",
+      "desc": "1 allié avec les PSM les plus bas : les Capacités qui consomment de la [Charge] ou une Charge[TabExplain] et ont des effets qui infligent de la [Sinking] aux ennemis infligent +10% de dégâts (exclut les Capacités E.G.O.)"
     }
   ]
 }
