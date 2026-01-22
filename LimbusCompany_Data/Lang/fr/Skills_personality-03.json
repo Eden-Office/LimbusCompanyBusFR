@@ -2604,7 +2604,7 @@
         {
           "level": 1,
           "name": "J’escraserai tout ce qui se drece sur nostre chemin !",
-          "desc": "[DuelCounter] \n[WhenUse] Gain 3 [GrownHorns] au prochain tour",
+          "desc": "[DuelCounter] \n[WhenUse] Gagne 3 [GrownHorns] au prochain tour",
           "coinlist": [
             {
               "coindescs": [
@@ -2625,12 +2625,600 @@
         {
           "level": 4,
           "name": "J’escraserai tout ce qui se drece sur nostre chemin !",
-          "desc": "[DuelCounter]\n<style=\"highlight\">Final Power +1 for every 3 ([Burst] + [Sinking]) on target (max 3)</style>\n[WhenUse] Gain 3 [GrownHorns] au prochain tour",
+          "desc": "[DuelCounter]\n<style=\"highlight\">+1 de Puissance Finale tous les 3 ([Burst] + [Sinking]) sur la cible (3 max)</style>\n[WhenUse] Gagne 3 [GrownHorns] au prochain tour",
           "coinlist": [
             {
               "coindescs": [
                 {
                   "desc": "[OnSucceedAttack] Inflige 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Écraseur de Crâne",
+          "desc": "Si cette Capacité est marquée par la [IndexPrescriptTargetMarkToEnemy], inflige +10% de dégâts\n[WhenUse] Gagne +1 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Breath]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Écraseur de Crâne",
+          "desc": "Si cette Capacité est marquée par la [IndexPrescriptTargetMarkToEnemy], inflige +10% de dégâts\n<style=\"highlight\">À 6 ([Breath] sur soi + [Sinking] sur la cible) ou plus, +1 de Puissance de Pièce</style>\n[WhenUse] Gagne +<style=\"highlight\">2</style> de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Breath]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Écraseur de Crâne",
+          "desc": "Si cette Capacité est marquée par la [IndexPrescriptTargetMarkToEnemy], <style=\"highlight\">+1 de Puissance Finale</style> et inflige <style=\"highlight\">+15%</style> de dégâts\n<style=\"highlight\">+1 de Puissance de Pièce tous les 6 ([Breath] sur soi + [Sinking] sur la cible) (2 max)</style>\n[WhenUse] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Breath]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Gagne +1 de Compte de [Breath]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "T-taisez-Vous",
+          "desc": "Si cette Capacité est marquée par la [IndexPrescriptTargetMarkToEnemy], +1 de Puissance de Duel\n[WhenUse] Gagne 3 [Breath]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Breath]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "T-taisez-Vous",
+          "desc": "Si cette Capacité est marquée par la [IndexPrescriptTargetMarkToEnemy], +1 de Puissance de Duel\n<style=\"highlight\">À 6 ([Breath] sur soi + [Sinking] sur la cible) ou plus, +1 de Puissance de Pièce</style>\n[WhenUse] Gagne 3 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 1 [Sinking]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Breath]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "T-taisez-Vous",
+          "desc": "Si cette Capacité est marquée par la [IndexPrescriptTargetMarkToEnemy], <style=\"highlight\">+1 de Puissance Finale</style>\n<style=\"highlight\">+1 de Puissance de Pièce tous les 6 ([Breath] sur soi + [Sinking] sur la cible) (2 max)</style>\n[WhenUse] Gagne 3 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Breath]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Inflige +1 de Compte de [Sinking]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031403,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "L-la Prescription Doit estre Complétée Sous Peu…",
+          "desc": "Si cette Capacité est marquée par la [IndexPrescriptTargetMarkToEnemy], inflige +20% de dégâts en Touche Critique\n+1 de Puissance Finale tous les 4 ([Breath] sur soi + [Sinking] sur la cible) (2 max)\n[StartBattle] À 2 niveaux de [UnlockBuff_Base], convertit toutes les Pièces de cette Capacité en [SuperCoin]s\n[WhenUse] Gagne +3 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +20% de dégâts par niveau de [UnlockBuff_Base] (60% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking] et +1 de Compte de [Sinking]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "L-la Prescription Doit estre Complétée Sous Peu…",
+          "desc": "Si cette Capacité est marquée par la [IndexPrescriptTargetMarkToEnemy], <style=\"highlight\">+1 de Puissance de Pièce et</style> inflige +<style=\"highlight\">40</style>% de dégâts en Touche Critique\n+1 de Puissance Finale tous les 4 ([Breath] sur soi + [Sinking] sur la cible) (<style=\"highlight\">4</style> max)\n[StartBattle] À 2 niveaux de [UnlockBuff_Base], convertit toutes les Pièces de cette Capacité en [SuperCoin]s <style=\"highlight\">et inflige +20% de dégâts par niveau de [UnlockBuff_Base] (60% max)</style>\n[WhenUse] Gagne +3 de Compte de [Breath]\n<style=\"highlight\">- Gagne autant de [Breath] que de niveau de [UnlockBuff_Base] actuel",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [Breath]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige <style=\"highlight\">+40%</style> de dégâts par niveau de [UnlockBuff_Base] (<style=\"highlight\">120%</style> max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking] et +1 de Compte de [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 1 [Sinking] <style=\"highlight\">zr +1 de Compte de [Sinking]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tissu Accordé et Tissé par la Prescription",
+          "desc": "+1 de Puissance Finale par niveau de [UnlockBuff_Base] (3 max)\n[StartBattle] Gagne du Bouclier égal à 10% des PV max (une fois par tour)\n- Réduit le Bouclier gagné de 1% tous les 5 [KarmaOfIndexAlly] ; à 50 [KarmaOfIndexAlly] ou plus, ne gagne pas de Bouclier\n[WhenUse] Gagne +2 de Compte de [Breath]\n[EndBattle] Si cette unité n’a pas [UnlockBuff_Base], gagne [UnlockBuffAlly_1] (une fois par tour)\n- Change l’Instance de [BlessingOfIndexPrescriptAlly] à 3\n- Gagne 5 [KarmaOfIndexAlly] au prochain Début de Tour par [BlessingOfIndexPrescriptAlly] gagné",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Breath]"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Tissu Accordé et Tissé par la Prescription",
+          "desc": "+1 de Puissance Finale <style=\"highlight\">et inflige +15% de dégâts</style> par niveau de [UnlockBuff_Base] (3 max ; <style=\"highlight\">45% max</style>)\n[StartBattle] Gagne du Bouclier égal à <style=\"highlight\">15</style>% des PV max (une fois par tour)\n- Réduit le Bouclier gagné de <style=\"highlight\">1.5</style>% tous les 5 [KarmaOfIndexAlly] ; à 50 [KarmaOfIndexAlly] ou plus, ne gagne pas de Bouclier\n[WhenUse] Gagne +2 de Compte de [Breath]\n[EndBattle] Si cette unité n’a pas [UnlockBuff_Base], gagne [UnlockBuffAlly_1] (une fois par tour)\n- Change l’Instance de [BlessingOfIndexPrescriptAlly] à 3\n- Gagne 5 [KarmaOfIndexAlly] au prochain Début de Tour par [BlessingOfIndexPrescriptAlly] gagné",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Breath]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 1 [Sinking]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031405,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Puissent Ces Mains estre le Mandataire par Lesquelles…",
+          "desc": "Si cette Capacité est marquée par la [IndexPrescriptTargetMarkToEnemy], inflige +10% de dégâts\n[WhenUse] Gagne +1 de Compte de [Breath]\n[EndSkill] Perd 3 PSM (2 fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Puissent Ces Mains estre le Mandataire par Lesquelles…",
+          "desc": "Si cette Capacité est marquée par la [IndexPrescriptTargetMarkToEnemy], inflige +10% de dégâts\n<style=\"highlight\">À 6 ([Breath] sur soi + [Sinking] sur la cible) ou plus, +1 de Puissance de Pièce</style>\n[WhenUse] Gagne +<style=\"highlight\">2</style> de Compte de [Breath]\n[EndSkill] Perd 3 PSM (2 fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Puissent Ces Mains estre le Mandataire par Lesquelles…",
+          "desc": "Si cette Capacité est marquée par la [IndexPrescriptTargetMarkToEnemy], inflige +<style=\"highlight\">15</style>% de dégâts\n<style=\"highlight\">+1 de Puissance de Pièce tous les 6 ([Breath] sur soi + [Sinking] sur la cible) (2 max)</style>\n[WhenUse] Gagne +2 de Compte de [Breath]\n[EndSkill] Perd 3 PSM (2 fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Gagne +1 de Compte de [Breath]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031406,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Procuration : Graver",
+          "desc": "Si cette Capacité est marquée par la [IndexPrescriptTargetMarkToEnemy], inflige +5% de dégâts\n[WhenUse] Gagne 3 [Breath]\n[EndSkill] Perd 6 PSM (2 fois par tour)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Breath]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Procuration : Graver",
+          "desc": "Si cette Capacité est marquée par la [IndexPrescriptTargetMarkToEnemy], inflige +5% de dégâts\n<style=\"highlight\">À 6 ([Breath] sur soi + [Sinking] sur la cible) ou plus, +1 de Puissance de Pièce</style>\n[WhenUse] Gagne 3 [Breath]\n[EndSkill] Perd 6 PSM (2 fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 2 [Sinking]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Breath]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Procuration : Graver",
+          "desc": "Si cette Capacité est marquée par la [IndexPrescriptTargetMarkToEnemy], inflige +<style=\"highlight\">10</style>% de dégâts\n<style=\"highlight\">+1 de Puissance de Pièce tous les 6 ([Breath] sur soi + [Sinking] sur la cible) (2 max)</style>\n[WhenUse] Gagne 3 [Breath]\n[EndSkill] Perd 6 PSM (2 fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Breath]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Inflige +1 de Compte de [Sinking]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031407,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Procuration : Annihiler",
+          "desc": "Si cette Capacité est marquée par la [IndexPrescriptTargetMarkToEnemy], inflige +15% de dégâts\nÀ 6 ([Breath] sur soi + [Sinking] sur la cible) ou plus, +1 de Puissance de Pièce\n[WhenUse] Gagne +3 de Compte de [Breath]\n[EndSkill] Perd 15 PSM (2 fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Cette Pièce inflige +20% de dégâts par niveau de [UnlockBuff_Base] (60% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Procuration : Annihiler",
+          "desc": "Si cette Capacité est marquée par la [IndexPrescriptTargetMarkToEnemy], inflige +<style=\"highlight\">25</style>% de dégâts\n<style=\"highlight\">+1 de Puissance de Pièce tous les 6 ([Breath] sur soi + [Sinking] sur la cible) (2 max)</style>\n[WhenUse] Gagne +3 de Compte de [Breath]\n<style=\"highlight\">- Gagne autant de [Breath] que de niveaux de [UnlockBuff_Base] actuels</style>\n[EndSkill] Perd 15 PSM (2 fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "Cette Pièce gagne <style=\"highlight\">+1 de Puissance</style> et inflige +<style=\"highlight\">40</style>% de dégâts par niveau de [UnlockBuff_Base] <style=\"highlight\">(3 max ; 120% max)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige +<style=\"highlight\">2</style> de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031408,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Déverrouillage Compulsif",
+          "desc": "[DuelCounter]\n[WhenUse] Gagne 3 [Breath]\n[EndBattle] À moins de 3 niveaux de [UnlockBuff_Base], active les effets suivants (une fois par tour) :\n- Si cette unité a [UnlockBuff_Base], augmente son niveau de 1\n- À moins de 6/9 [BlessingOfIndexPrescriptAlly], change son Instance à 6/9\n- Gagne 5 [KarmaOfIndexAlly] au prochain Début de Tour par [BlessingOfIndexPrescriptAlly] gagné",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Déverrouillage Compulsif",
+          "desc": "[DuelCounter]\n<style=\"highlight\">+1 de Puissance Finale par niveau de [UnlockBuff_Base] (3 max)</style>\n[WhenUse] Gagne 3 [Breath]\n[EndBattle] À moins de 3 niveaux de [UnlockBuff_Base], active les effets suivants (une fois par tour) :\n- Si cette unité a [UnlockBuff_Base], augmente son niveau de 1\n- À moins de 6/9 [BlessingOfIndexPrescriptAlly], change son Instance à 6/9\n- Gagne 5 [KarmaOfIndexAlly] au prochain Début de Tour par [BlessingOfIndexPrescriptAlly] gagné",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]<style=\"highlight\"></style>"
                 }
               ]
             },

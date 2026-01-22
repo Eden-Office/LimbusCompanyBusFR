@@ -1,0 +1,375 @@
+{
+  "dataList": [
+    {
+      "id": "IndexPrescriptTargetToPersonality",
+      "name": "La Cible de la Prescription - L’Index",
+      "desc": "-2 de Puissance de Capacité face et subit +20% de dégâts des ennemis de l’Index",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BlessingOfIndexPrescriptEnemy",
+      "name": "Grâce de la Prescription",
+      "desc": "- +1 Niveau Offensif toutes les 3 Instances\n- Instance max : 9",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "IndexPrescript_Base_2nd",
+      "name": "Prescription",
+      "desc": "Reçoit Prescription : [Appareil] selon certaines conditions",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Les Prescriptions sont livrées par tous les moyens, leur médium déterminé avec une finalité semblable à une prophétie divine. Ceux qui les reçoivent n’ont aucun pouvoir sur la manière dont elles arrivent."
+    },
+    {
+      "id": "IndexPrescriptStudent_0",
+      "name": "Prescription : [Appareil] I",
+      "desc": "Attaquez et touchez une Cible de la Prescription.\n\n- Début du Tour : gagne cet effet lorsque cette unité n’a pas de Déverrouillage\n- Le maximum de Grâce de la Prescription cumulable avec cette Prescription est limité à 3",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Les Prescriptions sont livrées par tous les moyens, leur médium déterminé avec une finalité semblable à une prophétie divine. Ceux qui les reçoivent n’ont aucun pouvoir sur la manière dont elles arrivent."
+    },
+    {
+      "id": "IndexPrescriptStudent_1",
+      "name": "Prescription : [Appareil] II",
+      "desc": "Touchez une Cible de la Prescription avec la Capacité équipée dans le premier Emplacement ou éliminez une cible aléatoire.\n\n- Début du Tour : gagne cet effet si cette unité a Déverrouillage - I\n- Le maximum de Grâce de la Prescription cumulable avec cette Prescription est limité à 6",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Les Prescriptions sont livrées par tous les moyens, leur médium déterminé avec une finalité semblable à une prophétie divine. Ceux qui les reçoivent n’ont aucun pouvoir sur la manière dont elles arrivent."
+    },
+    {
+      "id": "IndexPrescriptStudent_2",
+      "name": "Prescription : [Appareil] III",
+      "desc": "Déséquilibrez ou éliminez une cible aléatoire.\n\n- Début du Tour : gagne cet effet si cette unité a Déverrouillage - II\n- Le maximum de Grâce de la Prescription cumulable avec cette Prescription est limité à 9",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Les Prescriptions sont livrées par tous les moyens, leur médium déterminé avec une finalité semblable à une prophétie divine. Ceux qui les reçoivent n’ont aucun pouvoir sur la manière dont elles arrivent."
+    },
+    {
+      "id": "IndexPrescriptStudent_3",
+      "name": "Prescription : [Appareil] IV",
+      "desc": "Éliminez tous les obstacles avant que la prochaine Prescription n’arrive.\n\n- Début du Tour : gagne cet effet si cette unité a Déverrouillage - III",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Les Prescriptions sont livrées par tous les moyens, leur médium déterminé avec une finalité semblable à une prophétie divine. Ceux qui les reçoivent n’ont aucun pouvoir sur la manière dont elles arrivent."
+    },
+    {
+      "id": "UnlockBuff_1",
+      "name": "Déverrouillage - I",
+      "desc": "- +1 Niveau Offensif, +1 Niveau Défensif\n- Fin du Combat : regagne 15 PSM",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "UnlockBuff_2",
+      "name": "Déverrouillage - II",
+      "desc": "- +2 Niveaux Offensifs, +2 Niveaux Défensifs\n- Fin du Combat : regagne 30 PSM",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "UnlockBuff_3",
+      "name": "Déverrouillage - III",
+      "desc": "- +3 Niveaux Offensifs, +3 Niveaux Défensifs\n- Fin du Combat : regagne 45 PSM",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "KarmaOfIndexStudent",
+      "name": "Conséquence Karmique",
+      "desc": "- Début du Tour :\n· Gagne 1 Malus de Niveau Défensif toutes les 10 Instances\n· Gagne 1 Vulnérabilité toutes les 20 Instances\n- Instance max : 100",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Recevoir la Prescription et l’exécuter. Son exécution est gravée comme karma, tirée dans un cycle incessant qui revient à la main de son exécuteur."
+    },
+    {
+      "id": "Blandishment_Enemy",
+      "name": "Foi Incontestable",
+      "desc": "- +1 de Vitesse Min & Max\n- +3 Niveaux Offensifs, +3 Niveaux Défensifs\n- Gagne +1 d’Intensité de Calme supplémentaires avec les Capacités",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Ce… Ce n’est pas évident ? Chaque mot qu’accorde le beeper est incontestablement… i-incontestable.”"
+    },
+    {
+      "id": "Blandishment_Shin_Enemy",
+      "name": "Shin (心) - Sora",
+      "desc": "- +1 de Vitesse Min & Max\n- +2 Niveaux Offensifs, +2 Niveaux Défensifs\n- Gagne +1 d’Intensité et de Compte de Calme supplémentaires avec les Capacités\n- Inflige +(pourcentage de PV manquants + 25)% de dégâts (100% max)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "PressureOfPrescript",
+      "name": "Imputabilité",
+      "desc": "- Inflige +25% de dégâts par Instance (50% max)\n- En état d’E.G.O. Fleuri::Procuration :\n· À 1 Instance, +1 de Puissance Finale\n· À 2 Instances, +3 de Puissance Finale à la place\n- Instance max : 2",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Q-que devrais-je faire ? Ce qui est incontestable doit être exécuté incontestablement…”"
+    },
+    {
+      "id": "PressureOfPrescript_2nd",
+      "name": "Imputabilité Extrême",
+      "desc": "- Inflige +50% de dégâts par Instance (100% max)\n- En état d’E.G.O. Fleuri::Procuration :\n· À 1 Instance, +2 de Puissance Finale\n· À 2 Instances, +1 de Puissance de Pièce Positive et +3 de Puissance Finale à la place\n- Instance max : 2\n- En utilisant certaines Capacités, compte comme Imputabilité et est consommé",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BlindFaith_LowMorale",
+      "name": "Risque de Non-Conformité à la Prescription",
+      "desc": "- Moral Bas\n- Inflige +20% de dégâts aux cibles qui ont La Cible de la Prescription\n- Subit +10% de dégâts de cibles qui n’ont pas La Cible de la Prescription",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BlindFaith_Panic",
+      "name": "Risque de Non-Conformité à la Prescription",
+      "desc": "- Panique\n- Inflige +30% de dégâts aux cibles qui ont La Cible de la Prescription\n- Subit +20% de dégâts de cibles qui n’ont pas La Cible de la Prescription",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "YellowHarpoon",
+      "name": "Le Harpon Jaune",
+      "desc": "- Début du Tour : gagne 4 Accélération et 8 Calme\n- Fin du Tour : gagne +3 de Compte de Calme si un ennemi a Harpon Niché",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "YellowHarpoonSin",
+      "name": "Shin(心) - Le Harpon Jaune",
+      "desc": "- +3 Niveaux Offensifs de Base, +3 Niveaux Défensifs de Base\n- Regagne 3 PSM en attaquant une cible ayant attaqué cette unité au dernier tour\n- À 0 PSM ou plus, gagne (PSM / 10) de Puissance Finale (arrondi à l’inférieur)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BeeSting",
+      "name": "Harpon Niché [Piqûre d’Abeille]",
+      "desc": "- +0.2 de Faiblesse Tranchante, +0.2 de Faiblesse de Paresse\n- Fin du Tour : gagne 2 Ralentissement au prochain tour\n- En Touche : gagne 1 d’Intensité de Saignement\n- Lorsque attaqué par Vespa, gagne 2 Bourdonnement de Gungnir\n- Active le Saignement de cette unité une fois lorsque cet effet est retiré",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "ArtifactBeeSting",
+      "name": "Harpon Niché [Piqûre de Guêpe]",
+      "desc": "- +1 de Faiblesse Tranchante, +1 de Faiblesse de Paresse\n- Fin du Tour : gagne 4 Ralentissement au prochain tour\n- En Touche : gagne 3 d’Intensité de Saignement\n- Lorsque attaqué par Vespa, gagne 3 Bourdonnement de Gungnir\n- Active le Saignement de cette unité 2 fois lorsque cet effet est retiré",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "HornetPoison",
+      "name": "Bourdonnement de Gungnir",
+      "desc": "- Lorsque attaqué par Vespa, subit des dégâts fixes égaux à l’Intensité de cet effet\n- Réduit le Compte de 1 à la Fin du Tour (Interagit de la même manière que le Tremblement normal avec les effets qui augmentent le Compte de Tremblement)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "<color=#fde55d>Ceux empalés par ce harpon sont pulvérisés tandis que des frappes successives amplifient sa force de vibration.</color>"
+    },
+    {
+      "id": "CriticalDmgUpVespa",
+      "name": "Art de la Lame Éclair Abeillée - Hwando",
+      "desc": "Inflige +10% de dégâts en Touche Critique par Instance ce tour",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "<color=#fde55d>Un style de combat à l’épée provenant de l’Est, idéal pour ceux qui emploient des mouvements de bondissements instantanés comparables à de la téléportation.\n\nLe garçon brave l’augmentation menaçant sa vie avec une détermination acharnée, et sa survie prouva sa valeur.</color>"
+    },
+    {
+      "id": "Vespa_LowMorale",
+      "name": "Vexation",
+      "desc": "- Moral Bas\n- Gagne 1 Bonus de Puissance Perçante et 1 Malus d’Efficacité de Soin de PSM",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Vespa_Panic",
+      "name": "Vexation",
+      "desc": "- Panique\n- Gagne 2 Bonus de Puissance Perçante, 1 Bonus de DGT Perçant et 2 Malus d’Efficacité de Soin de PSM",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "ScarBygoneDays_LowMorale",
+      "name": "Affection et Rancune",
+      "desc": "Inflige +10% de dégâts et subit +10% de dégâts de Ryōshū",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "ScarBygoneDays_Panic",
+      "name": "Affection et Rancune",
+      "desc": "Inflige +20% de dégâts et subit +20% de dégâts de Ryōshū",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "PhantomIncision",
+      "name": "Traînée de Lame [Image Résiduelle]",
+      "desc": "- Instance max : 99\n- Début du Tour : gagne 1 Vulnérabilité toutes les 10 Instances (5 max)",
+      "summary": " ",
+      "undefined": "-"
+    },
+    {
+      "id": "PhantomIncisionTotal",
+      "name": "Lame de l’Étoile Dihui",
+      "desc": "- Somme totale des Instances de Traînée de Lame [Image Résiduelle] de cet Affrontement",
+      "summary": " ",
+      "undefined": "-"
+    },
+    {
+      "id": "LvDownLittleFingerBoss",
+      "name": "Regard Silencieux",
+      "desc": "UNUSED BUFF",
+      "summary": " ",
+      "undefined": "-"
+    },
+    {
+      "id": "TimeGapAb",
+      "name": "Disjonction",
+      "desc": "- Début du Tour : la Partie gagne du Bouclier égal à l’Instance\n- Une réduction du Bouclier réduit également l’Instance",
+      "summary": " ",
+      "undefined": "-"
+    },
+    {
+      "id": "TimeEntangleFour",
+      "name": "Quadruple Enchevêtrement d’Images Résiduelles",
+      "desc": "Niveau 4 d’Enchevêtrement d’Images Résiduelles\n- -2 de Vitesse Min & Max pour cette unité\n- En Touche, active les effets suivants :\n  · Inflige 1 Poison\n  · Inflige 2 Saignement\n  · Inflige 1 Ralentissement au prochain tour\n  · Inflige 2 Brûlure",
+      "summary": "Niveau 4 d’Enchevêtrement d’Images Résiduelles",
+      "undefined": "-"
+    },
+    {
+      "id": "TimeEntangleThree",
+      "name": "Triple Enchevêtrement d’Images Résiduelles",
+      "desc": "Niveau 3 d’Enchevêtrement d’Images Résiduelles\n- En Touche, active les effets suivants :\n  · Inflige 2 Saignement\n  · Inflige 1 Ralentissement au prochain tour\n  · Inflige 2 Brûlure",
+      "summary": "Niveau 3 d’Enchevêtrement d’Images Résiduelles",
+      "undefined": "-"
+    },
+    {
+      "id": "TimeEntangleTwo",
+      "name": "Double Enchevêtrement d’Images Résiduelles",
+      "desc": "Niveau 2 d’Enchevêtrement d’Images Résiduelles\n- En Touche, active les effets suivants :\n  · Inflige 1 Ralentissement au prochain tour\n  · Inflige 2 Brûlure",
+      "summary": "Niveau 2 d’Enchevêtrement d’Images Résiduelles",
+      "undefined": "-"
+    },
+    {
+      "id": "TimeEntangleOne",
+      "name": "Simple Enchevêtrement d’Images Résiduelles",
+      "desc": "Niveau 1 d’Enchevêtrement d’Images Résiduelles\n- En Touche, active les effets suivants :\n  · Inflige 2 Brûlure",
+      "summary": "Niveau 1 d’Enchevêtrement d’Images Résiduelles",
+      "undefined": "-"
+    },
+    {
+      "id": "LittleFingerBoss_Shin",
+      "name": "Shin (心) - Étoile Dihui",
+      "desc": "- Instance max : 3\n- Début du Tour : applique les effets suivants\n· Gagne 5 d’Intensité de Calme et +1 de Compte de Calme par Instance\n· Gagne 1 Bonus de DGT Tranchants tous les 15% de PV manquants sur soi (5 max)",
+      "summary": " ",
+      "undefined": "-"
+    },
+    {
+      "id": "RyoshuParrySoji",
+      "name": "Mémoire et Réminiscence Déformées et Désordonnées",
+      "desc": "- +1 Emplacement de Capacité\n- Inflige et subit +20% de dégâts du Garde-père de l’Auriculaire ; En Duel Gagné, inflige 5 dégâts de PSM au Garde-Père de l’Auriculaire\n- En subissant des dégâts qui Déséquilibrent cette unité, ne devient pas Déséquilibré et retire le Seuil de Déséquilibre correspondant ; puis, gagne 1 Bonus de Puissance Offensive au prochain tour (une fois par tour)\n- Pour cet Affrontement : après avoir utilisé une Capacité, gagne 1 ressource E.G.O. de l’Affinité de la Capacité et 1 ressource E.G.O. de la ressource E.G.O. la moins possédée (2 fois par tour)\n- Ne peut pas Battre en Retraite",
+      "summary": "Si des alliés sont en vie, les PV ne tombent pas en-dessous de 1",
+      "undefined": "-"
+    },
+    {
+      "id": "RyoshuStartA1C9P2",
+      "name": "Souvenir Mutilé",
+      "desc": "- +1 Emplacement de Capacité\n- Inflige +10% de dégâts aux ennemis de La Maison d’Araignées\n- Lorsque Déséquilibrée, se remet immédiatement de Déséquilibre au début du prochain tour et gagne 1 Bonus de Puissance Offensive (une fois par Affrontement)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Ryoshu_IndexFightBuff",
+      "name": "Souvenir et Réminiscence Mutilés",
+      "desc": "- +1 Emplacement de Capacité\n- Inflige +10% de dégâts aux ennemis de La Maison d’Araignées\n- En subissant des dégâts qui Déséquilibrent cette unité, ne devient pas Déséquilibré et retire le Seuil de Déséquilibre correspondant ; puis, gagne 1 Bonus de Puissance Offensive au prochain tour (une fois par tour)\n- Pour cet Affrontement : après avoir utilisé une Capacité, gagne 1 ressource E.G.O. de l’Affinité de la Capacité et 1 ressource E.G.O. de la ressource E.G.O. la moins possédée (2 fois par tour)\n- Ne peut pas Battre en Retraite",
+      "summary": "Effet Exclusif de Ryōshū",
+      "undefined": "-"
+    },
+    {
+      "id": "Malkuth_Imperfect",
+      "name": "Règne de Malkuth - Manifestation Imparfaite",
+      "desc": "<i><color=#d3a562>Une vision imparfaite du pouvoir qui régnera sur le Royaume</color></i>",
+      "summary": " ",
+      "undefined": "-"
+    },
+    {
+      "id": "TimeEntangleDesc",
+      "name": "Enchevêtrement d’Images Résiduelles",
+      "desc": "Les Images Résiduelles sont Enchevêtrées\nLe Niveau de l’effet change avec la progression du combat",
+      "summary": " ",
+      "undefined": "-"
+    },
+    {
+      "id": "IndexPrescriptDon_0",
+      "name": "Prescription : [Appareil] I",
+      "desc": "Utilisez une Capacité marquée par la Marque de la Prescription ou touchez une cible avec une Capacité marquée.\n\n- Début du Tour : gagne cet effet lorsque cette unité n’a pas de Déverrouillage\n- Le maximum de Grâce de la Prescription cumulable avec cette Prescription est limité à 3",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Les Prescriptions sont livrées par tous les moyens, leur médium déterminé avec une finalité semblable à une prophétie divine. Ceux qui les reçoivent n’ont aucun pouvoir sur la manière dont elles arrivent."
+    },
+    {
+      "id": "IndexPrescriptDon_1",
+      "name": "Prescription : [Appareil] II",
+      "desc": "Touchez une cible avec une Capacité marquée par la Marque de la Prescription.\n\n- Début du Tour : gagne cet effet si cette unité a Déverrouillage - I\n- Le maximum de Grâce de la Prescription cumulable avec cette Prescription est limité à 6",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Les Prescriptions sont livrées par tous les moyens, leur médium déterminé avec une finalité semblable à une prophétie divine. Ceux qui les reçoivent n’ont aucun pouvoir sur la manière dont elles arrivent."
+    },
+    {
+      "id": "IndexPrescriptDon_2",
+      "name": "Prescription : [Appareil] III",
+      "desc": "Touchez une cible avec une Capacité d’Éveil E.G.O., ou, en état d’E.G.O. Fleuri::Procuration, une “Capacité 3” marquée par la Marque de la Prescription.\n\n- Début du Tour : gagne cet effet si cette unité a Déverrouillage - II\n- Le maximum de Grâce de la Prescription cumulable avec cette Prescription est limité à 9",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Les Prescriptions sont livrées par tous les moyens, leur médium déterminé avec une finalité semblable à une prophétie divine. Ceux qui les reçoivent n’ont aucun pouvoir sur la manière dont elles arrivent."
+    },
+    {
+      "id": "IndexPrescriptDon_3",
+      "name": "Prescription : [Appareil] IV",
+      "desc": "Éliminez tous les ennemis avant que la prochaine Prescription n’arrive.\n\n- Début du Tour : gagne cet effet si cette unité a Déverrouillage - III",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Les Prescriptions sont livrées par tous les moyens, leur médium déterminé avec une finalité semblable à une prophétie divine. Ceux qui les reçoivent n’ont aucun pouvoir sur la manière dont elles arrivent."
+    },
+    {
+      "id": "UnlockBuff_Base",
+      "name": "Déverrouillage",
+      "desc": "- Gagne cet effet lorsque au-dessus d’une certaine Instance de Grâce de la Prescription\n- Le niveau de l’effet augmente selon l’Instance de Grâce de la Prescription\n- Max : Niveau 3",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "UnlockBuffAlly_1",
+      "name": "Déverrouillage - I",
+      "desc": "- +1 Niveau Défensif\n- Fin du Combat : regagne 5 PSM",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "UnlockBuffAlly_2",
+      "name": "Déverrouillage - II",
+      "desc": "- +2 Niveaux Défensifs\n- Fin du Combat : regagne 10 PSM",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "UnlockBuffAlly_3",
+      "name": "Déverrouillage - III",
+      "desc": "- +3 Niveaux Défensifs\n- Fin du Combat : regagne 15 PSM",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Blandishment",
+      "name": "Foi Incontestable",
+      "desc": "- +1 de Vitesse Min & Max\n- +2 Niveaux Offensifs, +2 Niveaux Défensifs\n- Gagne 1 d’Intensité de Calme supplémentaire avec des Capacités de Base\n- Les PSM de cette unité ne peuvent pas descendre en-dessous de -15 suite à des effets de perte de PSM sur les Capacités Offensives de Base de cette unité\n- Instance max : 1",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Blandishment_Shin",
+      "name": "Shin (心) - Procuration",
+      "desc": "- +2 de Vitesse Min & max\n- +1 Niveau Offensif, +1 Niveau Défensif\n- Gagne 1 d’Intensité et de Compte de Calme supplémentaire avec des Capacités de Base\n- Inflige +(pourcentage de PV manquants / 2)% de dégâts avec des Capacités de Base (40% max)\n- Instance max : 1",
+      "summary": "",
+      "undefined": "-"
+    }
+  ]
+}

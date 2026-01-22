@@ -432,7 +432,7 @@
     {
       "id": 2070811,
       "name": "Cloche Brisée",
-      "desc": "Inflige de la [Vulnerable] ce tour aux ennemis touchés par un [VibrationExplosion] d’effets de Capacité, de Pièce ou de Passive.\n- Ne se cumule pas aux Dons E.G.O. qui infligent de la [Vulnerable] en déclenchant un Sursaut de Tremblement. (Si ces Dons E.G.O. ont été améliorés, soustrait la valeur de cet effet à la valeur finale avant de l’infliger.)",
+      "desc": "Inflige de la [Vulnerable] ce tour aux ennemis touchés par un [VibrationExplosion] d’effets de Capacité, de Pièce ou Passif.\n- Ne se cumule pas aux Dons E.G.O. qui infligent de la [Vulnerable] en déclenchant un Sursaut de Tremblement. (Si ces Dons E.G.O. ont été améliorés, soustrait la valeur de cet effet à la valeur finale avant de l’infliger.)",
       "summary": "Inflige 1 [Vulnerable] en déclenchant un [VibrationExplosion]"
     },
     {
@@ -468,7 +468,7 @@
     {
       "id": 2030811,
       "name": "Talisman Affaiblissant",
-      "desc": "En Touche avec les Capacités de cette unité : si la cible a 15 [Burst] ou plus ou que cette unité a infligé une Touche Critique, inflige 1 [DefenseDown] (6 max)\n- Lorsque cette Passive s’active, son effet ne se cumule pas les effets du Don E.G.O. “Vieille Poupée de Bois”."
+      "desc": "En Touche avec les Capacités de cette unité : si la cible a 15 [Burst] ou plus ou que cette unité a infligé une Touche Critique, inflige 1 [DefenseDown] (6 max)\n- Lorsque ce Passif s’active, son effet ne se cumule pas les effets du Don E.G.O. “Vieille Poupée de Bois”."
     },
     {
       "id": 2080911,
@@ -516,6 +516,29 @@
       "id": 2120911,
       "name": "Vagabond",
       "desc": "Gagne [MlynarWaiting] en remplissant une des conditions suivantes :\n- Gagne 1 tous les 3 dégâts de PV subis\n- Gagne 1 tous les 5 dégâts de PV de Bouclier subis\n- Gagne 10 par allié Déséquilibré lorsque d’autres alliés se font Déséquilibrer\n- Gagne 20 par allié mort lorsque d’autres alliés sont tués\n\nDébut du Tour : si cette unité est Déséquilibrée suite à des dégâts, et si cette unité a 40 [MlynarWaiting] ou plus, fixe toutes les valeurs de Résistance de cette unité à 2 pour ce tour et se remet de Déséquilibre (une fois par Affrontement ; sauf s’il s’agit d’un Déséquilibre forcé)"
+    },
+    {
+      "id": 2110911,
+      "name": "Gage du Perdant : Vaudou",
+      "desc": "En Duel Gagné, inflige 4 dégâts d’Envie à la cible\n- À moins de 33% de PV, ou si la cible a moins de 33% de PV, inflige 1 [ResultReduction] au prochain tour (une fois par tour)\n- Cet effet Passif n’inflige pas de [ResultReduction] au même tour où le Don E.G.O. <noparse>Poupée Vaudou</noparse> est activé",
+      "summary": "Duel Gagné : Inflige des dégâts d’Envie\nSi les conditions sont remplies, inflige [ResultReduction] au prochain tour"
+    },
+    {
+      "id": 2070911,
+      "name": "Câblage de Circuit",
+      "desc": "En Touche avec des Capacités qui appliquent de l’Intensité de [Combustion] ou une “Brûlure Unique[TabExplain]”, ou En Touche avec des Capacités d’Envie : inflige de l’Intensité de [Combustion] supplémentaire à la cible égale à la moitié du total de Pièces de la Capacité (arrondi au supérieur ; 3 fois par tour max)"
+    },
+    {
+      "id": 2010811,
+      "name": "Tisseciel",
+      "desc": "Si la cible a [ThreeMirrorpartYiSang], inflige +1 d’Intensité de [Combustion] et de [Sinking] avec les Capacités Offensives de Base de cette unité (jusqu’à 8 d’Intensité supplémentaire au total par tour)\nPour chaque ennemi tué par des dégâts de [Combustion], gagne un “Bonus de DGT” d’un Type d’Attaque aléatoire au prochain tour (3 par tour ; chaque instance est aléatoire)",
+      "summary": "Inflige plus d’Intensité de [Combustion] et [Sinking] aux ennemis avec [ThreeMirrorpartYiSang]\nPour chaque ennemi tué par des dégâts de [Combustion], gagne du Bonus de DGT d’un Type d’Attaque aléatoire"
+    },
+    {
+      "id": 2040911,
+      "name": "Sanzu [三途]",
+      "desc": "Après avoir utilisé une Capacité Offensive, si l’ennemi est Déséquilibré ou vaincu, gagne 1 [CriticalDamageUp] au prochain tour (3 fois par tour)",
+      "summary": ""
     }
   ]
 }

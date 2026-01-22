@@ -1,0 +1,364 @@
+{
+  "dataList": [
+    {
+      "id": 9103601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Perforer",
+          "desc": "",
+          "coinlist": [
+              {
+                  "coindescs": [
+                      {
+                          "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Laceration]"
+                      }
+                  ]
+              }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Arrachage de Chair",
+          "desc": "Si la cible a 5 [Laceration] ou plus, +1 de Puissance de Base",
+          "coinlist": [
+              {
+                  "coindescs": [
+                      {
+                          "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]\nSi la cible a 3 types d’effets négatifs ou plus, inflige +1 de Compte de [Laceration] supplémentaire"
+                      },
+                      {
+                          "desc": "[OnSucceedAttackHead] Inflige 2 [DefenseDown] au prochain tour"
+                      }
+                  ]
+              },
+              {
+                  "coindescs": [
+                      {
+                          "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]\nSi la cible a 3 types d’effets négatifs ou plus, inflige +1 de Compte de [Laceration] supplémentaire"
+                      },
+                      {
+                          "desc": "[OnSucceedAttackHead] Inflige 2 [DefenseDown] au prochain tour"
+                      }
+                  ]
+              }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Œuvre d’Art : Libération d’Os Dépendante du Rythme Cardiaque",
+          "desc": "+1 de Puissance de Base tous les 20% de PV manquant au Noyau de cette unité (4 max)\n+1 de Puissance de Pièce tous les 3 [Laceration] sur la cible (2 max)\n[WinDuel] Inflige +2 de Compte de [Vibration]\n[DefeatDuel] Gagne 1 [Paralysis] au prochain tour",
+          "coinlist": [
+              {
+                  "coindescs": [
+                      {
+                          "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Laceration]"
+                      },
+                      {
+                          "desc": "[OnSucceedAttack] Inflige 3 [Vibration]"
+                      }
+                  ]
+              },
+              {
+                  "coindescs": [
+                      {
+                          "desc": "[OnSucceedAttack] Inflige 5 [Laceration]"
+                      }
+                  ]
+              },
+              {
+                  "coindescs": [
+                      {
+                          "desc": "[SuperCoin]"
+                      },
+                      {
+                          "desc": "[OnStartCoin] Perd 30% des PV de Noyau actuels de cette unité (ne peut pas être Déséquilibré par cet effet ; arrondi à l’inférieur)"
+                      },
+                      {
+                          "desc": "[OnSucceedAttack] Gagne 5 [Laceration]"
+                      },
+                      {
+                          "desc": "[OnSucceedAttack] Inflige 5 [Laceration]"
+                      },
+                      {
+                          "desc": "[UnBrokenCoinOnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationBleeding]"
+                      },
+                      {
+                          "desc": "[UnBrokenCoinOnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                      }
+                  ]
+              }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Contraction Musculaire",
+          "desc": "[CanDuelGuard]\n[StartBattle] Gagne 1 [MuscleContraction] au prochain tour. Lorsque touché, gagne 1 [MuscleContraction] supplémentaire (une fois par tour)",
+          "coinlist": [
+              {
+                  "coindescs": [
+                      {
+                          "desc": ""
+                      }
+                  ]
+              }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Injection",
+          "desc": "",
+          "coinlist": [
+              {
+                  "coindescs": [
+                      {
+                          "desc": "[OnSucceedAttack] Inflige 4 [Laceration]"
+                      }
+                  ]
+              }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Déchirure Vasculaire",
+          "desc": "Si la cible a 5 [Laceration] ou plus, +1 de Puissance de Base\nSi la cible a 3 types d’effets négatifs ou plus, inflige +30% de dégâts",
+          "coinlist": [
+              {
+                  "coindescs": [
+                      {
+                          "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                      }
+                  ]
+              },
+              {
+                  "coindescs": [
+                      {
+                          "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                      }
+                  ]
+              }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Œuvre d’Art : Libération d’Os Dépendante du Rythme Cardiaque",
+          "desc": "+1 de Puissance de Base tous les 20% de PV manquant au Noyau de cette unité (4 max)\n+1 de Puissance de Pièce tous les 3 [Laceration] sur la cible (2 max)\n[WinDuel] Inflige +2 de Compte de [Vibration]\n[DefeatDuel] Gagne 1 [Paralysis] au prochain tour",
+          "coinlist": [
+              {
+                  "coindescs": [
+                      {
+                          "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Laceration]"
+                      },
+                      {
+                          "desc": "[OnSucceedAttack] Inflige 3 [Vibration]"
+                      }
+                  ]
+              },
+              {
+                  "coindescs": [
+                      {
+                          "desc": "[OnSucceedAttack] Inflige 5 [Laceration]"
+                      }
+                  ]
+              },
+              {
+                  "coindescs": [
+                      {
+                          "desc": "[SuperCoin]"
+                      },
+                      {
+                          "desc": "[OnStartCoin] Perd 30% des PV de Noyau actuels de cette unité (ne peut pas être Déséquilibré par cet effet ; arrondi à l’inférieur)"
+                      },
+                      {
+                          "desc": "[OnSucceedAttack] Gagne 5 [Laceration]"
+                      },
+                      {
+                          "desc": "[OnSucceedAttack] Inflige 5 [Laceration]"
+                      },
+                      {
+                          "desc": "[UnBrokenCoinOnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationBleeding]"
+                      },
+                      {
+                          "desc": "[UnBrokenCoinOnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                      }
+                  ]
+              }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Contraction Musculaire",
+          "desc": "[CanDuelGuard]\n[StartBattle] Gagne 1 [MuscleContraction] au prochain tour. Lorsque touché, gagne 1 [MuscleContraction] supplémentaire (une fois par tour)",
+          "coinlist": [
+              {
+                  "coindescs": [
+                      {
+                          "desc": ""
+                      }
+                  ]
+              }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Muscles Attachés",
+          "desc": "",
+          "coinlist": [
+              {
+                  "coindescs": [
+                      {
+                          "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Laceration]"
+                      },
+                      {
+                          "desc": "[OnSucceedAttackHead] Inflige 1 [Desire] au prochain tour"
+                      }
+                  ]
+              }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Arracher et Déchirer",
+          "desc": "Si la cible a 5 [Laceration] ou plus, +1 de Puissance de Base",
+          "coinlist": [
+              {
+                  "coindescs": [
+                      {
+                          "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]\nSi la cible a 3 types d’effets négatifs ou plus, inflige +1 de Compte de [Laceration] supplémentaire"
+                      },
+                      {
+                          "desc": "[OnSucceedAttackHead] Inflige 1 [Desire] au prochain tour"
+                      }
+                  ]
+              },
+              {
+                  "coindescs": [
+                      {
+                          "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]\nSi la cible a 3 types d’effets négatifs ou plus, inflige +1 de Compte de [Laceration] supplémentaire"
+                      },
+                      {
+                          "desc": "[OnSucceedAttackHead] Inflige 1 [Desire] au prochain tour"
+                      }
+                  ]
+              }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Œuvre d’Art Ornée de Désir",
+          "desc": "+1 de Puissance de Base tous les 20% de PV manquant au Noyau de cette unité (4 max)\n+1 de Puissance de Pièce tous les 3 [Laceration] sur la cible (2 max)\n[WinDuel] Inflige +2 de Compte de [Vibration]\n[DefeatDuel] Gagne 1 [Paralysis] au prochain tour",
+          "coinlist": [
+              {
+                  "coindescs": [
+                      {
+                          "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Laceration]"
+                      },
+                      {
+                          "desc": "[OnSucceedAttack] Inflige 3 [Vibration]"
+                      }
+                  ]
+              },
+              {
+                  "coindescs": [
+                      {
+                          "desc": "[OnSucceedAttack] Inflige 5 [Laceration]"
+                      }
+                  ]
+              },
+              {
+                  "coindescs": [
+                      {
+                          "desc": "[SuperCoin]"
+                      },
+                      {
+                          "desc": "[OnStartCoin] Perd 30% des PV de Noyau actuels de cette unité (ne peut pas être Déséquilibré par cet effet ; arrondi à l’inférieur)"
+                      },
+                      {
+                          "desc": "[OnSucceedAttack] Gagne 5 [Laceration]"
+                      },
+                      {
+                          "desc": "[OnSucceedAttack] Inflige 2 [Desire] au prochain tour"
+                      },
+                      {
+                          "desc": "[UnBrokenCoinOnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationBleeding]"
+                      },
+                      {
+                          "desc": "[UnBrokenCoinOnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                      }
+                  ]
+              }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103805,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Rubans Resserrants",
+          "desc": "[CanDuelGuard]\nLorsque touché, inflige 1 [PinkRibbon_Ishmael] à l’attaquant (une fois par Capacité)\n[StartBattle] Gagne 1 [MuscleContraction] au prochain tour. Lorsque touché, gagne 1 [MuscleContraction] supplémentaire (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

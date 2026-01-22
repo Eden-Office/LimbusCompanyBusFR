@@ -1,0 +1,4077 @@
+{
+  "dataList": [
+    {
+      "id": 131401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Colpi di Taglio",
+          "desc": "À 6 [Breath] ou plus, +1 de Puissance de Pièce\nSi la cible a 6 [Vibration] ou plus, +1 de Puissance de Duel",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion] et +2 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration] et +2 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts de Colère égaux à la [Combustion] de la cible"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Colpo di Punta",
+          "desc": "À 6 [Breath] ou plus, +1 de Puissance de Pièce\n[WhenUse] +1 de Puissance de Base tous les 4 ([Combustion] + [Vibration]) sur la cible (2 max)\n[WhenUse] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense [AccelBullet]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion] et +2 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration] et +2 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense [AccelBullet]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion] et +2 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration] et +2 de Compte de [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sezionatura di Coniglio",
+          "desc": "À 6 [Breath] ou plus, +1 de Puissance de Pièce\n[WhenUse] +1 de Puissance de Base tous les 4 ([Combustion] + [Vibration]) sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Combustion] et +3 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Vibration] et +3 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationIgnition]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts de Colère égaux à la [Combustion] de la cible"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sezionatura di Cervo",
+          "desc": "À 6 [Breath] ou plus, +1 de Puissance de Pièce\n+1 de Puissance de Pièce tous les 4 ([Combustion] + [Vibration]) sur la cible (2 max)\n[WhenUse] À 0 PSM ou plus, génère 1 Mang (望)\n- +4 de Puissance de Base\n[WhenUse] Gagne +3 de Compte de [Breath]\n[WinDuel] Gagne 5 [Breath]\n[EndSkill] Si cette Capacité a généré du Mang, perd 10 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Vibration] et +3 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationIgnition]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] deux fois ; puis, réduit le Compte de [Vibration] de la cible de 2"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131405,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Je me Ferai un Plaisir de Te Faire un Trou",
+          "desc": "À 6 [Breath] ou plus, +1 de Puissance de Pièce\n+1 de Puissance de Pièce tous les 4 ([Combustion] + [Vibration]) sur la cible (2 max)\n[WhenUse] Gagne +3 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense [AccelBullet]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion] et +2 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration] et +2 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense [AccelBullet]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion] et +2 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration] et +2 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts de Colère égaux à la [Combustion] de la cible"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de 1"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131406,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sezionatura di Elefante",
+          "desc": "À 6 [Breath] ou plus, +1 de Puissance de Pièce\n+1 de Puissance de Pièce tous les 4 ([Combustion] + [Vibration]) sur la cible (2 max)\n[WhenUse] Gagne +3 de Compte de [Breath]\n[DefeatDuel] Inflige -50% de dégâts et ne touche pas Critiquement.\nLes dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Dépense [AccelBullet]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Dépense [AccelBullet]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +4 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +4 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Dépense [AccelBullet]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationIgnition]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts de Colère égaux à la [Combustion] de la cible"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] deux fois ; puis, réduit le Compte de [Vibration] de la cible de 2"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Déclenche un [VibrationExplosion] deux fois ; puis, réduit le Compte de [Vibration] de la cible de 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131407,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Élimination",
+          "desc": "[CantChangeTarget]\nNe peut pas être Déséquilibrée avant d’utiliser cette Capacité\n<color=#ff6000><mark color=#ff000040><b><u>+1 de Puissance de Base et inflige +10% de dégâts par Instance d’[FutureEyeOn]</color></mark></b></u>\n[WhenUse] Si la cible a 50% de PV ou moins, inflige +100% de dégâts\n[WhenUse] À 0 PSM ou plus, génère 1 Mang (望)\n- +4 de Puissance de Base\n[WhenUse] Gagne +3 de Compte de [Breath]\n[WinDuel] Gagne 5 [Breath]\n[DefeatDuel] Inflige -50% de dégâts et ne touche pas Critiquement.\nLes dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible\n[EnemyKill] Inflige [TeachersPrey] à un Pécheur aléatoire au prochain tour\n[EndSkill] [FullReload] (une fois par tour)\n[EndSkill] Si cette Capacité a généré du Mang, perd 10 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +6 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +6 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationIgnition]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Dépense toutes [AccelBullet]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Déclenche un [VibrationExplosion] 3 fois ; puis, réduit le Compte de [Vibration] de la cible de 3"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Déclenche un [VibrationExplosion] deux fois ; puis, réduit le Compte de [Vibration] de la cible de 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131408,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Précognition",
+          "desc": "Après avoir réussi à esquiver toutes les Pièces d’une Capacité, utilise “Sezionatura di Coniglio” en Attaque à Sens Unique contre l’attaquant\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>+1 de Puissance de Base toutes les 2 Instances d’[FutureEyeOn]</u></b></mark></color>\n[WhenUse] [FullReload] (une fois par tour)\n[OnSucceedEvade] Gagne 3 [Breath] (2 fois par tour)\n[OnSucceedEvade] Regagne 2 PSM (5 fois par tour)\n[OnDefeatEvade] Perd 5 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130606,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Je Protégerai.",
+          "desc": "[CanDuelGuard]\n[SupportProtect] Capacité exclusive\nSubit -20% de dégâts par Instance de [SupportProtect]\n[WhenUse] Soigne les alliés de 8 PSM\n[DefeatDuel] Gagne 1 [Vulnerable] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Installation Artistique n°3 : Cage Thoracique Improvisée",
+          "desc": "[CantDuel] [CantChangeTarget]\nPriorise l’ennemi avec le plus haut niveau\nCette Capacité ne déclenche pas de Capacités Défensives\n[WhenUse] +1 de Puissance de Pièce tous les 8 [Laceration] sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts de PSM au lieu de dégâts de PV"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Regagne 15 PSM"
+                },
+                {
+                  "desc": "[OnSucceedAttack]\n<color=#ff6000><mark=#ff000040><b><u>Déséquilibre la cible et change la cible en [LivingSpecimenTheRings] au prochain tour</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Disséquer",
+          "desc": "[WhenUse] Si la cible a 6 [Laceration] ou plus, +1 de Puissance de Pièce\n[DefeatDuel] Inflige -80% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 4 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vulnerable] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Protection] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Rassemblage d’Ingrédient - Objet Baigné de Sang",
+          "desc": "Priorise Théâtre du Corpus\n[WhenUse] Si la cible a 6 [Laceration] ou plus, +1 de Puissance de Pièce\n[DefeatDuel] Inflige -80% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [ResultReduction] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [ResultEnhancement] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Mélodie de Tibia - Dissection de l’Indisséqué par la Disséquée",
+          "desc": "Durant le tour où cette unité a équipé cette Capacité, gagne 1 [PlusCoinValueDown] et 1 [ResultReduction] <color=#ff6000><mark=#ff000040><b><u>lorsque touchée par des Capacités Offensives</u></b></mark></color> (une fois par Capacité ; 3 fois par tour max)\nNe peut pas être Déséquilibré avant d’utiliser cette Capacité\nEn Tuant avec cette Capacité : regagne 15 PSM par cible tuée\n[StartBattle] Gagne 4 [Protection]\n[WhenUse] Inflige +3% de dégâts tous les 6 ([Laceration] sur la cible principale + [Laceration] des sous-cibles) (30% max)\n[DefeatDuel] Inflige -60% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible\n[EndSkill] [MineTheRings] expire",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 5 dégâts de PSM"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Regagne 5 PSM (une fois par Capacité)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [Vulnerable] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Protection] au prochain tour (une fois par Capacité)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [AttackDmgDown] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [AttackDmgUp] au prochain tour (une fois par Capacité)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Oh, Que Nous Aimons la Chair et le Sang",
+          "desc": "Priorise Apprentie de l’Annulaire - Albina\n[DefeatDuel] Gagne <color=#ff6000><mark=#ff000040><b><u>4 [AttackDmgDown]</u></b></mark></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Cette Pièce n’inflige pas de dégâts de PV"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "- Si la cible est un allié, applique 6 [AttackUp] au lieu de l’effet ci-dessus"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133106,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Conserver l’Exposition",
+          "desc": "[StartBattle] <color=#ff6000><mark=#ff000040><b><u>Gagne 2 [SupportProtect]</u></b></mark></color>\n[WhenUse] L’attaquant ne perd pas de Compte de [Laceration] avant la Fin de l’Attaque",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133107,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "S’il Vous Plaît. Le Vandalisme est Interdit.",
+          "desc": "[DuelCounter]\n[SupportProtect] Capacité exclusive\nNe peut pas être Déséquilibré avant d’utiliser cette Capacité\n[WhenUse] Gagne 1 [Protection]\n[WhenUse] Si la cible a 6 [Laceration] ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vulnerable] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Protection] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [ResultReduction] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [ResultEnhancement] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133108,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Heure de Fermeture - Installation Artistique n°1 : Votre Chair et Vos Os comme Sièges de la Gallerie",
+          "desc": "[CantDuel]\nPriorise l’ennemi avec le plus haut niveau\nCette Capacité ne déclenche pas de Capacités Défensives\n[WhenUse] +1 de Puissance de Pièce tous les 8 [Laceration] sur la cible (2 max)\n[EndSkill] Termine ce tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] À moins de 60% de PV, inflige des dégâts de PSM au lieu de dégâts de PV"
+                },
+                {
+                  "desc": "[OnSucceedAttack]\n<color=#ff6000><mark=#ff000040><b><u>Déséquilibre la cible et change la cible en [LivingSpecimenTheRings] au prochain tour</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Charcuter - Côtes",
+          "desc": "[WhenUse] Si la cible a 6 [Laceration] ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vulnerable] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Protection] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Écrasement Rotatif",
+          "desc": "[WhenUse] Si la cible a 6 [Laceration] ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Agility] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Déchirure de Tendon",
+          "desc": "[WhenUse] +1 de Puissance de Pièce tous les 4 [Laceration] sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 6 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [ResultReduction] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [ResultEnhancement] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "C’est L’heure de Manger, Fascia",
+          "desc": "[DefeatDuel] Inflige -80% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 10 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 dégâts de PSM"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Regagne 10 PSM"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [HumanFleshTheRings]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Libération de la Chair Réprimée",
+          "desc": "Durant le tour où cette unité a équipé cette Capacité, gagne 1 [PlusCoinValueDown] et 1 [ResultReduction] <color=#ff6000><mark=#ff000040><b><u>lorsque touchée par des Capacités Offensives</u></b></mark></color> (une fois par Capacité ; 3 fois par tour max)\nNe peut pas être Déséquilibrée avant d’utiliser cette Capacité\nEn Tuant avec cette Capacité : regagne 15 PSM par cible tuée\n[StartBattle] Gagne 4 [Protection]\n[WhenUse] Inflige +3% de dégâts tous les 6 ([Laceration] sur la cible principale + [Laceration] des sous-cibles) (30% max)\n[DefeatDuel] Inflige -60% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible\n[EndSkill] [BoneBladeTheRings] expire",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 5 dégâts de PSM"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Regagne 5 PSM (une fois par Capacité)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [Vulnerable] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Protection] au prochain tour (une fois par Capacité)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [AttackDmgDown] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [AttackDmgUp] au prochain tour (une fois par Capacité)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133606,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "L’Exposition Commence",
+          "desc": "[StartBattle] <color=#ff6000><mark=#ff000040><b><u> Gagne 1 [SupportProtect]</u></b></mark></color>\n[StartBattle] Gagne 1 [Agility] au prochain tour",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133607,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vous Là-bas. Le Vandalisme est Interdit.",
+          "desc": "[DuelCounter]\n[SupportProtect] Capacité exclusive\nNe peut pas être Déséquilibrée avant d’utiliser cette Capacité\n[WhenUse] Gagne 1 [Protection]\n[WhenUse] Si la cible a 6 [Laceration] ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vulnerable] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Protection] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [ResultReduction] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [ResultEnhancement] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Piétiner",
+          "desc": "Si la cible a 4 [Laceration] ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Si cette unité a [ReinforcedTattooSpider], inflige 2 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Botter",
+          "desc": "Si la cible a 4 [Laceration] ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Augmente le Seuil de Déséquilibre de 5"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Augmente le Seuil de Déséquilibre de 5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tampon de Vengance",
+          "desc": "+1 de Puissance de Base tous les 3 [Laceration] sur la cible (3 max)\n[EndSkill] Consomme tout [ResentmentSpider] sur soi et gagne 1 [DaughterEducationSpider]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Si cette unité a [ReinforcedTattooSpider], inflige 2 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Laisse Pas un Truc Comme Ça T’Briser !",
+          "desc": "[WhenUse] Si cette unité a [ReinforcedTattooSpider], inflige 5 dégâts Contondants supplémentaire En Touche de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Binding]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 10 dégâts Contondants supplémentaires"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Violation des Règles",
+          "desc": "Lorsque touché, Réutilise cette Capacité une fois par [ReinforcedTattooSpider] sur soi (1 fois max)\n[WhenUse] Si cette unité a [ReinforcedTattooSpider], En Touche de Pièce, inflige +1 de Compte de [Laceration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Diminue le Seuil de Déséquilibre de l’utilisateur de 10"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132706,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vais Déballer une Couche d’Emballage !",
+          "desc": "[CantChangeTarget]\n[WhenUse] Si cette unité a [ReinforcedTattooSpider], inflige 10 dégâts Contondants supplémentaires En Touche de Pièce\n[EndSkill] [MiddleFatherSwordOne] devient [MiddleFatherSwordTwo]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 10 dégâts Contondants supplémentaires"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 10 dégâts Contondants supplémentaires"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 10 dégâts Contondants supplémentaires"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132707,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Piétiner",
+          "desc": "Si la cible a 4 [Laceration] ou plus, +1 de Puissance de Pièce\n[WhenUse] Si cette unité a [ReinforcedTattooSpider], inflige 1 [Laceration] En Touche de Pièce\n[DefeatDuel] Gagne 1 [ParryingResultUp] au prochain tour (2 fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Si cette unité a [ReinforcedTattooSpider], inflige 2 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132708,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Botter",
+          "desc": "Si la cible a 4 [Laceration] ou plus, +1 de Puissance de Pièce\n[WhenUse] Si cette unité a [ReinforcedTattooSpider], inflige 1 [Laceration] En Touche de Pièce\n[DefeatDuel] Gagne 1 [VioletDamageUp] au prochain tour (2 fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Augmente le Seuil de Déséquilibre de 10"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Augmente le Seuil de Déséquilibre de 10"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132709,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tampon de Vengance",
+          "desc": "+1 de Puissance de Base tous les 3 [Laceration] sur la cible (3 max)\n[WhenUse] Si cette unité a [ReinforcedTattooSpider], inflige 1 [Laceration] En Touche de Pièce\n[EndSkill] Consomme tout [ResentmentSpider] sur soi et gagne 1 [DaughterEducationSpider]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Si cette unité a [ReinforcedTattooSpider], inflige 2 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132710,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "T’Sens la Chaleur ?!",
+          "desc": "[WhenUse] Si cette unité a [ReinforcedTattooSpider], inflige 10 dégâts Contondants supplémentaires En Touche de Pièce\n[BeforeAttack] À 50% de PV ou moins, inflige +40% de dégâts",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Binding]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 15 dégâts Contondants supplémentaires"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 3 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Violation des Règles",
+          "desc": "Lorsque touché, <color=#ff6000><mark=#ff000040><b><u>Réutilise cette Capacité une fois par [ReinforcedTattooSpider] sur soi</u></b></mark></color> (1 fois max)\n[WhenUse] Si cette unité a [ReinforcedTattooSpider], En Touche de Pièce, inflige +1 de Compte de [Laceration]\n[BeforeAttack] À 50% de PV ou moins, inflige +40% de dégâts",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Diminue le Seuil de Déséquilibre de l’utilisateur de 10"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132712,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Dirait Que J’Dois Aussi Déballer la Deuxième Couche.",
+          "desc": "[CantChangeTarget]\n[WhenUse] Si cette unité a [ReinforcedTattooSpider], inflige 10 dégâts Contondants supplémentaires En Touche de Pièce\n[EndSkill] [MiddleFatherSwordTwo] devient [MiddleFatherSwordThree]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 10 dégâts Contondants supplémentaires"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 10 dégâts Contondants supplémentaires"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 10 dégâts Contondants supplémentaires"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Vulnerable]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "L’heure de S’échauffer !",
+          "desc": "Si la cible a 5 [Laceration] ou plus, +2 de Puissance de Base\n[DefeatDuel] Les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 dégâts Contondants supplémentaires"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 dégâts Contondants supplémentaires"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 3 dégâts Contondants supplémentaires"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Si cette unité a [ReinforcedTattooSpiderDaughter], inflige 2 [Binding]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Bottage de Cul Trop Stylé",
+          "desc": "Si la cible a 5 [Laceration] ou plus, +2 de Puissance de Base\n[WhenUse] Si cette unité a [ReinforcedTattooSpiderDaughter], inflige 2 [Laceration] En Touche de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 dégâts Contondants supplémentaires"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Augmente le Seuil de Déséquilibre de 5"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 dégâts Contondants supplémentaires"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Augmente le Seuil de Déséquilibre de 5"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 4 [GotACompliment] ou plus, Réutilise cette Pièce 3 fois"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Éviscération de Fixer !",
+          "desc": "Capacité de Lame Thermique.\nLorsqu’en état de [HeatingWireOnSpider], cette Capacité active ses effets de Lame Thermique\nSi la cible a 4 [Laceration] ou plus, +1 de Puissance de Pièce\n[WhenUse] Si cette unité a [ReinforcedTattooSpiderDaughter], inflige +1 de Compte de [Laceration] En Touche de Pièce\n[EndSkill] À 2 [GotACompliment] ou plus, gagne 1 [VioletDamageUp] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Derviche Croisé !",
+          "desc": "Capacité de Lame Thermique.\nLorsqu’en état de [HeatingWireOnSpider], cette Capacité active ses effets de Lame Thermique\nSi la cible a 4 [Laceration] ou plus, +1 de Puissance de Pièce\n[WhenUse] Si cette unité a [ReinforcedTattooSpiderDaughter], inflige +1 de Compte de [Laceration] En Touche de Pièce\n[DefeatDuel] Les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 5 dégâts Contondants supplémentaires"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Si cette unité a [ReinforcedTattooSpiderDaughter], inflige 2 [Binding]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132805,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Écrasement ~ Destructeur Violet !",
+          "desc": "Capacité de Lame Thermique.\nLorsqu’en état de [HeatingWireOnSpider], cette Capacité active ses effets de Lame Thermique\n[WhenUse] Si cette unité a [ReinforcedTattooSpiderDaughter], inflige +1 de Compte de [Laceration] En Touche de Pièce\n[WhenUse] À 40% de PV ou moins, inflige +60% de dégâts\n[WhenUse] À 5 [GotACompliment] ou plus, 50% de chances d’infliger 1 [Paralysis] En Touche de Pièce\n[DefeatDuel] Les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible\n[EndSkill] Consomme tout [ResentmentSpiderDaughter] sur soi et gagne 1 [GotACompliment]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 5 dégâts Contondants supplémentaires"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Augmente le Seuil de Déséquilibre de 5"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132806,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Je Vais Vous le Faire Payer… !",
+          "desc": "Capacité de Lame Thermique.\nLorsqu’en état de [HeatingWireOnSpider], cette Capacité active ses effets de Lame Thermique\nLorsque Touchée, <color=#ff6000><mark=#ff000040><b><u>Réutilise cette Capacité une fois par [ReinforcedTattooSpiderDaughter] sur soi</u></b></mark></color> (2 fois max)\n[WhenUse] Si cette unité a [ReinforcedTattooSpiderDaughter], inflige 1 [Laceration] En Touche de Pièce\n[WhenUse] À 40% de PV ou moins, inflige +40% de dégâts",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Diminue le Seuil de Déséquilibre de l’utilisateur de 10"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Piétiner !",
+          "desc": "Si la cible a 4 [Laceration] ou plus, +1 de Puissance de Pièce\n[WhenUse] Si cette unité a [ReinforcedTattooSpider], inflige 1 [Laceration] En Touche de Pièce\n[DefeatDuel] Gagne 1 [SkillPowerUp] au prochain tour (2 fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Si cette unité a [ReinforcedTattooSpider], inflige 2 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Botter !",
+          "desc": "Si la cible a 4 [Laceration] ou plus, +1 de Puissance de Pièce\n[WhenUse] Si cette unité a [ReinforcedTattooSpider], inflige 1 [Laceration] En Touche de Pièce\n[DefeatDuel] Gagne 1 [VioletDamageUp] au prochain tour (2 fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Augmente le Seuil de Déséquilibre de 15"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Augmente le Seuil de Déséquilibre de 15"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tampon d’Annihilation Totale et Absolue !",
+          "desc": "+1 de Puissance de Base tous les 3 [Laceration] sur la cible (3 max)\n[WhenUse] Si cette unité a [ReinforcedTattooSpider], inflige 1 [Laceration] En Touche de Pièce\n[EndSkill] Consomme tout [ResentmentSpider] sur soi et gagne 1 [DaughterEducationSpider]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 5 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +3 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Si cette unité a [ReinforcedTattooSpider], inflige 2 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "L’Heure de Fondre et de Mourir",
+          "desc": "[WhenUse] Si cette unité a [ReinforcedTattooSpider], inflige 10 dégâts Tranchants supplémentaires En Touche de Pièce\n[BeforeAttack] À 50% de PV ou moins, inflige +40% de dégâts",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Binding]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 15 dégâts Tranchants supplémentaires"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Combustion]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 3 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Violation des Règles !",
+          "desc": "Lorsque touché, <color=#ff6000><mark=#ff000040><b><u>Réutilise cette Capacité une fois par [ReinforcedTattooSpider] sur soi</u></b></mark></color> (1 fois max)\n[WhenUse] Si cette unité a [ReinforcedTattooSpider], En Touche de Pièce, inflige +1 de Compte de [Laceration]\n[BeforeAttack] À 50% de PV ou moins, inflige +40% de dégâts",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Diminue le Seuil de Déséquilibre de l’utilisateur de 10"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134106,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lævateinn - Fait un Moment que Je N’ai Pas Déballé Tout ce Truc !",
+          "desc": "[CantChangeTarget]\n[WhenUse] Si cette unité a [ReinforcedTattooSpider], inflige 10 dégâts Tranchants supplémentaires En Touche de Pièce\n[EndSkill] [MiddleFatherSwordThree] devient [MiddleFatherSwordFour]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 10 dégâts Tranchants supplémentaires"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 10 dégâts Tranchants supplémentaires"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 10 dégâts Tranchants supplémentaires"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 10 [Vulnerable]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134107,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "J’Vais T’éventrer Comme un Poisson",
+          "desc": "[BeforeUse] Perd 10 PSM\n[DefeatDuel] Les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible\n[DefeatDuel] Gagne 1 [SkillPowerUp] au prochain tour (2 fois par tour)\n[BeforeAttack] Gagne (# de Pièces de cette Capacité * 2) [Combustion]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Augmente le Seuil de Déséquilibre de 10"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Si cette unité a [ReinforcedTattooSpider], inflige 2 [Paralysis]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 10 [Combustion] et +2 de Compte de [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134108,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Poignardage Ventral [Lævateinn]",
+          "desc": "[BeforeUse] Perd 10 PSM\n[DefeatDuel] Les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible\n[BeforeAttack] À moins de 50% de PV, inflige +40% de dégâts\n[BeforeAttack] Gagne (# de Pièces de cette Capacité * 2) [Combustion]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 10 dégâts Contondants supplémentaires"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 10 dégâts Contondants supplémentaires"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 10 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +4 de Compte de [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 10 [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134109,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "… Annihilation Totale et Absolue [Lævateinn]",
+          "desc": "[BeforeUse] Perd 10 PSM\n[DefeatDuel] Les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible\n[BeforeAttack] À moins de 50% de PV, inflige +60% de dégâts\n[BeforeAttack] Gagne (# de Pièces de cette Capacité * 2) [Combustion]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 10 dégâts Tranchants supplémentaires"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 10 [Combustion]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 10 dégâts Tranchants supplémentaires"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 10 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 10 dégâts Perçants supplémentaires"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 10 dégâts Contondants supplémentaires"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Si cette unité a [ReinforcedTattooSpider], inflige 5 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134110,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Violation des Règles !!",
+          "desc": "Lorsque Touché, Réutilise cette Capacité une fois par [ReinforcedTattooSpider] sur soi (1 fois max)\n[BeforeUse] Perd 10 PSM\n[BeforeAttack] À 50% de PV ou moins, inflige +40% de dégâts\n[BeforeAttack] Gagne (# de Pièces de cette Capacité * 2) [Combustion]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 10 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Le Poing de l’Empereur",
+          "desc": "Inflige +20% de dégâts par type d’effet négatif sur la cible (100% max)\nInflige +10% de dégâts toutes les 2 [OffenseBug] sur la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 d’Intensité et +2 de Compte d’un statut aléatoire choisi parmi [Combustion], [Laceration], [Vibration], [Burst] et [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 d’Intensité et +2 de Compte d’un statut aléatoire choisi parmi [Combustion], [Laceration], [Vibration], [Burst] et [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Le Poing et le Fouet de l’Empereur",
+          "desc": "Inflige +20% de dégâts par type d’effet négatif sur la cible (100% max)\nInflige +10% de dégâts toutes les 2 [OffenseBug] sur la cible\n[DefeatDuel] Inflige -80% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 d’Intensité et +3 de Compte d’un statut aléatoire choisi parmi [Combustion], [Laceration], [Vibration], [Burst] et [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 d’Intensité et +3 de Compte d’un statut aléatoire choisi parmi [Combustion], [Laceration], [Vibration], [Burst] et [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gagne 5 [Breath] et +3 de Compte de [Breath]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Le Dévorement de l’Empereur",
+          "desc": "[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>+10 de Puissance de Base par [SuperCoin] sur la Capacité</color></mark></b></u> affrontée en Duel",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[ExtractCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Absorbe tous les effets positifs de la cible"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark color=#ff000040><b><u>Réduit de moitié l’Instance de [OffenseBug] sur la cible</color></mark></b></u> (arrondi à l’inférieur)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Absorbe tous les effets négatifs de la cible\n- Après avoir activé les effets ci-dessus, si cette unité n’a pas de [DefenseBug], gagne 2 [ResultReduction] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "La Flagellation de l’Empereur",
+          "desc": "Inflige +20% de dégâts par type d’effet négatif sur la cible (100% max)\nInflige +10% de dégâts toutes les 2 [OffenseBug] sur la cible\n[WhenUse] Gagne +10 de Compte de [Charge]\n[StartDuel] Perd 5 de Compte de [Charge]\n[DefeatDuel] Inflige -80% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 d’Intensité et +3 de Compte d’un statut aléatoire choisi parmi [Combustion], [Laceration], [Vibration], [Burst] et [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Consomme tout le Compte de [Charge] sur soi et inflige +(Compte de [Charge] consommé * 20)% de dégâts"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Marche des Cafards",
+          "desc": "Inflige +10% de dégâts toutes les 2 [OffenseBug] sur la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [OffenseBug]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [OffenseBug]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [OffenseBug]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133906,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Le Tremblement de l’Empereur",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche une [Switch_Vibration] en un type de [Vibration] aléatoire"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133907,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "L’Excision de l’Empereur",
+          "desc": "Inflige +20% de dégâts par type d’effet négatif sur la cible (100% max)\nInflige +10% de dégâts toutes les 2 [OffenseBug] sur la cible\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>+20 de Puissance de Base par [SuperCoin] sur la Capacité</color></mark></b></u> affrontée en Duel\n[DefeatDuel] Inflige -80% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[ExtractCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 d’Intensité et +3 de Compte d’un statut aléatoire choisi parmi [Combustion], [Laceration], [Vibration], [Burst] et [Sinking]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 5 [AttackDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[ExtractCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 d’Intensité et +3 de Compte d’un statut aléatoire choisi parmi [Combustion], [Laceration], [Vibration], [Burst] et [Sinking]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 5 [DefenseDown]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133908,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Le Festin de l’Empereur",
+          "desc": "Inflige +20% de dégâts par type d’effet négatif sur la cible (100% max)\nInflige +10% de dégâts toutes les 2 [OffenseBug] sur la cible\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>+20 de Puissance de Base par [SuperCoin] sur la Capacité</color></mark></b></u> affrontée en Duel\n[DefeatDuel] Inflige -80% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[ExtractCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Retire le Bouclier de la cible"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 3 [Paralysis]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[ExtractCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Le Noyau et la Partie regagnent tous deux 25% de leurs PV max respectifs"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133909,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "“Fils, n’oublie pas de viser le cœur.”",
+          "desc": "[CantChangeTarget]\n[WhenUse] Gagne 10 [Breath] et +4 de Compte de [Breath]\n[WinDuel] Gagne 10 [Breath]\n[DefeatDuel] Inflige -80% de dégâts et ne touche pas Critiquement\nLes dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible\n[DefeatDuel] Gagne 5 [Vulnerable] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 d’Intensité et +2 de Compte d’un statut aléatoire choisi parmi [Combustion], [Laceration], [Vibration], [Burst] et [Sinking]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige des dégâts d’Orgueil égaux à 25% des PV max de la cible"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 d’Intensité et +2 de Compte d’un statut aléatoire choisi parmi [Combustion], [Laceration], [Vibration], [Burst] et [Sinking]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige des dégâts d’Orgueil égaux à 25% des PV max de la cible"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 d’Intensité et +2 de Compte d’un statut aléatoire choisi parmi [Combustion], [Laceration], [Vibration], [Burst] et [Sinking]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige des dégâts d’Orgueil égaux à 25% des PV max de la cible"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 d’Intensité et +2 de Compte d’un statut aléatoire choisi parmi [Combustion], [Laceration], [Vibration], [Burst] et [Sinking]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige des dégâts d’Orgueil égaux à 25% des PV max de la cible"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133910,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Le Bouclier de l’Empereur",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Pour ce tour, subit -50% de dégâts des Capacités Offensives de l’unité ciblée</u></b></mark></color>\n[WinDuel] Inflige 3 [Binding] au prochain tour\n[DefeatDuel] La cible regagne 15 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Disséquer",
+          "desc": "[WhenUse] Si la cible a 6 [Laceration] ou plus, +1 de Puissance de Pièce\n[DefeatDuel] Les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 4 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vulnerable] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Protection] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Rassemblage d’Ingrédient - Objet Baigné de Sang",
+          "desc": "[WhenUse] Si la cible a 6 [Laceration] ou plus, +1 de Puissance de Pièce\n[DefeatDuel] Les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [ResultReduction] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [ResultEnhancement] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Mélodie de Tibia - Dissection de l’Indisséqué par la Disséquée",
+          "desc": "[CantChangeTarget]\nDurant le tour où cette unité a équipé cette Capacité, gagne 1 [PlusCoinValueDown] et 1 [ResultReduction] <color=#ff6000><mark=#ff000040><b><u>lorsque touchée par des Capacités Offensives</u></b></mark></color> (une fois par Capacité ; 3 fois par tour max)\nNe peut pas être Déséquilibré avant d’utiliser cette Capacité\nEn Tuant avec cette Capacité : regagne 15 PSM par cible tuée\n[StartBattle] Gagne 4 [Protection]\n[WhenUse] Inflige +3% de dégâts tous les 6 ([Laceration] sur la cible principale + [Laceration] des sous-cibles) (30% max)\n[DefeatDuel] Inflige -60% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible\n[DefeatDuel] [MineTheRings] expire\n[EndSkill] [MineTheRings] expire",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 5 dégâts de PSM"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Regagne 5 PSM (une fois par Capacité)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [Vulnerable] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Protection] au prochain tour (une fois par Capacité)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [AttackDmgDown] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [AttackDmgUp] au prochain tour (une fois par Capacité)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134508,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Heure de Fermeture - Installation Artistique n°1 : Votre Chair et Vos Os comme Sièges de la Gallerie",
+          "desc": "[CantDuel]\nPriorise l’ennemi avec le plus haut niveau\nCette Capacité ne déclenche pas de Capacités Défensives\n[WhenUse] +1 de Puissance de Pièce tous les 8 [Laceration] sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] À moins de 60% de PV, inflige des dégâts de PSM au lieu de dégâts de PV"
+                },
+                {
+                  "desc": "[OnSucceedAttack]\n<color=#ff6000><mark=#ff000040><b><u>Déséquilibre la cible et change la cible en [LivingSpecimenTheRings]</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Libération de la Chair Réprimée",
+          "desc": "[CantChangeTarget]\nDurant le tour où cette unité a équipé cette Capacité, gagne 1 [PlusCoinValueDown] et 1 [ResultReduction] <color=#ff6000><mark=#ff000040><b><u>lorsque touchée par des Capacités Offensives</u></b></mark></color> (une fois par Capacité ; 3 fois par tour max)\nNe peut pas être Déséquilibrée avant d’utiliser cette Capacité\nEn Tuant avec cette Capacité : regagne 15 PSM par cible tuée\n[StartBattle] Gagne 4 [Protection]\n[WhenUse] Inflige +3% de dégâts tous les 6 ([Laceration] sur la cible principale + [Laceration] des sous-cibles) (30% max)\n[DefeatDuel] Inflige -60% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible\n[DefeatDuel] [BoneBladeTheRings] expire\n[EndSkill] [BoneBladeTheRings] expire",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 5 dégâts de PSM"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Regagne 5 PSM (une fois par Capacité)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [Vulnerable] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Protection] au prochain tour (une fois par Capacité)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [AttackDmgDown] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [AttackDmgUp] au prochain tour (une fois par Capacité)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132210,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ultime Déchirure Spatiale - Tranchage de Ficelle [空間斬 - 絕緣]",
+          "desc": "Peut affronter en Duel cette Capacité qu’importe la Vitesse ; cette unité ne peut pas être Déséquilibrée avant la fin de cette Capacité\n[WhenUse] À 20 PSM ou plus, génère 3 Mang. +10 de Puissance Finale\n[EndSkill] Si cette Capacité a généré du Mang, perd 20 PSM\n[WinDuel] Gagne 2 [SlashDamageUp]\n[DefeatDuel] Inflige -80% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Inflige +100% de dégâts en Touche Critique"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Consomme toutes [PhantomIncision] sur la cible</u></b></mark></color> et inflige ([PhantomIncision] consommées)% dégâts de PV contre chaque cible, respectivement"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132211,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Adversaire Destiné",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Seules les cibles avec le buff correspondant</u></b></mark></color> parmi [SojiAbiBuffOne], [SojiAbiBuffTwo] et [SojiAbiBuffThree] peuvent affronter en Duel cette Capacité\nCette Capacité ne déclenche pas la Capacité Défensive de la cible\n\n[DefeatDuel] Gagne 1 [Vulnerable]\n[DefeatDuel] Retire [SojiAbiBuffOne], [SojiAbiBuffTwo], [SojiAbiBuffThree] de la cible\n\n[OnDirectAttack] +10 de Puissance Finale",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132212,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tu As Échoué à Empêcher le Futur - Entaille à Traînée de Cicatrice [殘痕斬]",
+          "desc": "Peut affronter en Duel cette Capacité qu’importe la Vitesse ; ne peut pas être Déséquilibrée avant la fin de cette Capacité\n[StartBattle] Gagne 1 [AttackDmgDown] par ennemi ayant équipé une Capacité Défensive ce tour (5 max)\n[DefeatDuel] Inflige -80% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a <color=#ff6000><mark=#ff000040><b><u>[SojiAbiBuffOne], [SojiAbiBuffTwo] ou [SojiAbiBuffThree],</u></b></mark></color> inflige (Puissance Finale de cette Pièce * 5) dégâts d’Orgueil à la cible"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132213,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Entailles Jumelles - Résidu [二連 - 殘]",
+          "desc": "[DefeatDuel] Inflige -80% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttackHead] Réutilise cette Pièce (une fois par Capacité)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132214,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Meurtre Inévitable [必然殺]",
+          "desc": "[EndSkill] Réutilise cette Capacité si la cible est vaincue ou Déséquilibrée (3 fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132215,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "132215",
+          "desc": "UNUSED SKILL",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Puissent Ces Mains être le Mandataire…",
+          "desc": "+1 de Puissance Finale tous les 6 ([Breath] sur soi + [Sinking] sur la cible) (2 max)\n[WhenUse] Gagne +2 de Compte de [Breath]\n[EndSkill] Perd 3 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Éventrer, Éviscérer…",
+          "desc": "+1 de Puissance Finale tous les 6 ([Breath] sur soi + [Sinking] sur la cible) (2 max)\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>Si cette unité a [PressureOfPrescript], ou si la cible a [IndexPrescriptTargetToPersonality]</u></b></mark></color>, convertit la Pièce finale en [SuperCoin]\n[DefeatDuel] Inflige -50% de dégâts ; En Touche, ne Déséquilibre pas la cible ; En Touche, n’active pas la [Sinking] de la cible\n[WhenUse] Gagne 2 [Breath]\n[EndSkill] Perd 3 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +2 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Procuration : Graver",
+          "desc": "+1 de Puissance de Pièce tous les 6 ([Breath] sur soi + [Sinking] sur la cible) (2 max)\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>Si cette unité a [PressureOfPrescript], ou si la cible a [IndexPrescriptTargetToPersonality]</u></b></mark></color>, convertit toutes les Pièces de cette Capacité en [SuperCoin]s\n[WhenUse]<color=#ff6000><mark=#ff000040><b><u>Si la cible a [IndexPrescriptTargetToPersonality], inflige +50% de dégâts</u></b></mark></color>\n[WhenUse] Gagne 3 [Breath] et +3 de Compte de [Breath]\n[DefeatDuel] Inflige -80% de dégâts ; En Touche, ne Déséquilibre pas la cible ; En Touche, n’active pas la [Sinking] de la cible\n[EndSkill] Perd 6 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 3 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +3 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Procuration : Annihiler",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Peut affronter en Duel cette Capacité qu’importe la Vitesse</u></b></mark></color>\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Si la cible a [IndexPrescriptTargetToPersonality], +100% de dégâts</u></b></mark></color>\n[DefeatDuel] Gagne 3 [ResultReduction] et 4 [Paralysis]\n[DefeatDuel] Inflige -90% de dégâts ; En Touche, ne Déséquilibre pas la cible ; En Touche, n’active pas la [Sinking] de la cible\n[EndSkill] Perd 15 PSM\n[EndSkill] Consomme toutes [PressureOfPrescript]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Procuration : Annihilation - Mang de Désir Immanent [本望]",
+          "desc": "[WhenUse] <color=#ff6000><mark=#ff000040><b><u>À 0 PSM ou plus, génère 1 Mang</u></b></mark></color>\n- <color=#ff6000><mark=#ff000040><b><u>Inflige +20% de dégâts, +2 de Puissance Finale, +2 de Puissance de Pièce</u></b></mark></color>\n[EndSkill] Perd 15 PSM\n[EndSkill] Si cette Capacité a généré du 1 Mang, perd 20 PSM\n[EndSkill] Consomme toutes [PressureOfPrescript]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133706,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tout entendre. Tout espérer. Avec ces Mains, tout sera…",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Cible Ryōshū et ne peut pas changer de cible</u></b></mark></color>\n[WhenUse]<color=#ff6000><mark=#ff000040><b><u>Génère 1 Mang</u></b></mark></color>\n- <color=#ff6000><mark=#ff000040><b><u>Inflige +20% de dégâts, +2 de Puissance Finale, +2 de Puissance de Pièce</u></b></mark></color>\n[EndSkill] Perd 15 PSM\n[EndSkill] Si cette Capacité a généré du 1 Mang, perd 20 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Garde [守]",
+          "desc": "[CanDuelGuard]\n[StartBattle] Gagne +4 de Compte de [Breath]\n- Si l’Emplacement de Capacité utilisant cette Capacité est une cible principale d’une Capacité Offensive, gagne 2 de Compte de [Breath] de moins avec cet effet\n\n[WinDuel] Gagne +1 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Contre [反]",
+          "desc": "[DuelCounter]\n[DefeatDuel] Perd 1 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Breath]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Coupure Anonyme [無名閃]",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +50% de dégâts en Touche Critique"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chaîne de Coups [連鎖斬]",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [SlashTakeDamageUp] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133805,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Coups Jumeaux [二擊]",
+          "desc": "[WinDuel] Gagne 1 [DicipleLittleFinger]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [Breath]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133806,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Coups Triplés [三擊]",
+          "desc": "[WinDuel] Gagne 1 [DicipleLittleFinger]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +30% de dégâts en Touche Critique"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133807,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pourfendeur d’Étoile Filante [落星一殺]",
+          "desc": "Peut affronter en Duel cette Capacité qu’importe la Vitesse\nInflige +1% de dégâts tous les [DicipleLittleFinger] sur soi\n[WhenUse] +1 de Puissance de Pièce tous les 10 [DicipleLittleFinger] sur soi\n[DefeatDuel] Inflige -80% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Inflige +50% de dégâts en Touche Critique"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige des dégâts Tranchants égaux aux dégâts finaux de cette Pièce"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133808,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Déchirure Spatiale - Entaille Azurée [空間斬 - 靑]",
+          "desc": "Inflige +1% de dégâts tous les [DicipleLittleFinger] sur soi\n[WhenUse] +1 de Puissance de Pièce tous les 10 [DicipleLittleFinger] sur soi",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Faire Chuter avec le Poids, Renverser le Corps",
+          "desc": "+1 de Puissance Finale par niveau de [UnlockBuff_Base] (2 max)\nLes effets suivants s’activent selon le Type d’Attaque de l’arme\n- Les armes Contondantes infligent +20% de dégâts\n- Les armes non-Contondantes infligent -10% de dégâts\n[WhenUse] Gagne +1 de Compte de [Breath]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [Breath]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Mettre le Bout à la Verticale, Insérer Jusqu’à la Mèche",
+          "desc": "+1 de Puissance Finale par niveau de [UnlockBuff_Base] (2 max)\nLes effets suivants s’activent selon le Type d’Attaque de l’arme\n- Les armes Perçantes infligent +20% de dégâts\n- Les armes non-Perçantes infligent -10% de dégâts\n[WhenUse] Gagne +1 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Breath]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Mettre la Lame sur son Côté, Couper Comme une Respiration Tranchée",
+          "desc": "+1 de Puissance Finale par niveau de [UnlockBuff_Base] (2 max)\nLes effets suivants s’activent selon le Type d’Attaque de l’arme\n- Les armes Tranchantes infligent +20% de dégâts\n- Les armes non-Tranchantes infligent -10% de dégâts\n[WhenUse] Gagne +1 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Breath]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Basculer Jusqu’à Tomber, Lui Faire Rencontrer le Sol",
+          "desc": "+1 de Puissance Finale par niveau de [UnlockBuff_Base] (2 max)\nLes effets suivants s’activent selon le Type d’Attaque de l’arme\n- Les armes Contondantes infligent +30% de dégâts\n- Les armes non-Contondantes infligent -15% de dégâts\n[StartBattle] Gagne les effets suivants (les effets se cumulent)\n- À [UnlockBuff_Rien2], convertit la Pièce finale en [SuperCoin]\n- À [UnlockBuff_Rien3], en Duel Gagné avec cette Capacité, diminue le Seuil de Déséquilibre de l’utilisateur de 10\n[WhenUse] Gagne 2 [Breath]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Breath]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Viser en Direction d’un Point, Le Laisser Résonner à l’Intérieur",
+          "desc": "+1 de Puissance Finale par niveau de [UnlockBuff_Base] (2 max)\nLes effets suivants s’activent selon le Type d’Attaque de l’arme\n- Les armes Perçantes infligent +30% de dégâts\n- Les armes non-Perçantes infligent -15% de dégâts\n[StartBattle] Gagne les effets suivants (les effets se cumulent)\n- À [UnlockBuff_Rien2], convertit la Pièce finale en [SuperCoin]\n- À [UnlockBuff_Rien3], en Duel Gagné avec cette Capacité, inflige 1 [ResultReduction] au prochain tour\n[WhenUse] Gagne 2 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Breath]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134706,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Graver Légèrement en Oblique, Éplucher ce qu’il Reste",
+          "desc": "+1 de Puissance Finale par niveau de [UnlockBuff_Base] (2 max)\nLes effets suivants s’activent selon le Type d’Attaque de l’arme\n- Les armes Tranchantes infligent +30% de dégâts\n- Les armes non-Tranchantes infligent -15% de dégâts\n[StartBattle] Gagne les effets suivants (les effets se cumulent)\n- À [UnlockBuff_Rien2], convertit la Pièce finale en [SuperCoin]\n- À [UnlockBuff_Rien3], en Duel Gagné avec cette Capacité, gagne 1 [ResultEnhancement] au prochain tour\n[WhenUse] Gagne 2 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Breath]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134707,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Détruire le Son, Complètement Écraser la Pensée",
+          "desc": "Peut affronter en Duel cette Capacité qu’importe la Vitesse\nLes effets suivants s’activent selon le Type d’Attaque de l’arme\n- Les armes Contondantes infligent +50% de dégâts\n- Les armes non-Contondantes infligent -25% de dégâts\n[StartBattle] Gagne les effets suivants (les effets se cumulent)\n- À [UnlockBuff_Rien2], convertit les 3ème et 4ème Pièces en [SuperCoin]s\n- À [UnlockBuff_Rien3], en Duel Gagné avec cette Capacité, augmente le Seuil de Déséquilibre de la cible de 15\n[WhenUse] Gagne 2 [Breath] et +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +2 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gagne 2 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gagne +2 de Compte de [Breath]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134708,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Poignarder le Cœur du Silence, Pénétrer le Souvenir",
+          "desc": "Peut affronter en Duel cette Capacité qu’importe la Vitesse\nLes effets suivants s’activent selon le Type d’Attaque de l’arme\n- Les armes Perçantes infligent +50% de dégâts\n- Les armes non-Perçantes infligent -25% de dégâts\n[StartBattle] Gagne les effets suivants (les effets se cumulent)\n- À [UnlockBuff_Rien2], convertit les 3ème et 4ème Pièces en [SuperCoin]s\n- À [UnlockBuff_Rien3], en Duel Gagné avec cette Capacité, gagne 1 [AttackDmgUp] au prochain tour\n[WhenUse] Gagne 2 [Breath] et +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gagne 2 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +2 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gagne +2 de Compte de [Breath]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134709,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Avec un Secret Tempéré, Couper la Posture",
+          "desc": "Peut affronter en Duel cette Capacité qu’importe la Vitesse\nLes effets suivants s’activent selon le Type d’Attaque de l’arme\n- Les armes Tranchantes infligent +50% de dégâts\n- Les armes non-Tranchantes infligent -25% de dégâts\n[StartBattle] Gagne les effets suivants (les effets se cumulent)\n- À [UnlockBuff_Rien2], convertit la Pièce finale en [SuperCoin]\n- À [UnlockBuff_Rien3], en Duel Gagné avec cette Capacité, +2 de Puissance Finale\n[WhenUse] Gagne 2 [Breath] et +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gagne 2 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gagne +2 de Compte de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +2 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134710,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Remplir Trois Fois Ce Qui est Voulu",
+          "desc": "[DuelCounter]\n\n[BeforeUse] S’active en tant qu’une des 9 Capacités Offensives, choisie aléatoirement\n- Priorise les Capacités qui n’ont pas encore été utilisées",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Réplique-Furioso",
+          "desc": "[WideAreaRampage]\n<color=#ff6000><mark=#ff000040><b><u>Cette Capacité ne déclenche pas la Capacité Défensive de la cible</u></b></mark></color>\nPeut affronter en Duel cette Capacité qu’importe la Vitesse\n[WhenUse]\n- Gagne 3 [Breath] et +3 de Compte de [Breath]\n- +5 de Puissance de Duel (<color=#ff6000><mark=#ff000040><b><u>La Puissance de Duel gagnée est réduite de 1 toutes les 10 [KarmaOfIndexRien] sur soi, jusqu’à 0</u></b></mark></color>)\n[WhenUse] À 0 PSM ou plus, génère 1 Mang\n- Inflige +40% de dégâts ; +4 de Puissance Finale\n\n[WinDuel]\n- Gagne 3 [Breath] et +3 de Compte de [Breath]\n- Après l’Attaque : inflige 3 [Laceration], 1 [Binding] et 1 [Vulnerable] au prochain tour à toutes les cibles touchées par cette unité\n[DefeatDuel]\n- Gagne 4 [AttackDmgDown] et 9 [Paralysis]\n- Les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible ; En Touche, n’active pas la [Sinking] de la cible\n[EndSkill] Si cette Capacité a généré du Mang, perd 20 PSM\n[EndSkill] Termine ce tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Réutilise cette Pièce (7 fois max)</u></b></mark></color>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Faire Chuter avec le Poids, Renverser le Corps",
+          "desc": "Les armes Contondantes apparaissent plus fréquemment\n- À 75 [KarmaOfIndexRien_2Phase] ou plus, les armes Contondantes apparaissent moins fréquemment\n- À 150 [KarmaOfIndexRien_2Phase] ou plus, les armes Contondantes apparaissent encore moins fréquemment\nLes effets suivants s’activent selon le Type d’Attaque de l’arme\n- Les armes Contondantes infligent +30% de dégâts\n- Les armes non-Contondantes infligent -15% de dégâts\n[WhenUse] Gagne 1 [Breath] et +1 de Compte de [Breath]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [Breath]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Mettre le Bout à la Verticale, Insérer Jusqu’à la Mèche",
+          "desc": "Les armes Perçantes apparaissent plus fréquemment\n- À 75 [KarmaOfIndexRien_2Phase] ou plus, les armes Perçantes apparaissent moins fréquemment\n- À 150 [KarmaOfIndexRien_2Phase] ou plus, les armes Perçantes apparaissent encore moins fréquemment\nLes effets suivants s’activent selon le Type d’Attaque de l’arme\n- Les armes Perçantes infligent +30% de dégâts\n- Les armes non-Perçantes infligent -15% de dégâts\n[WhenUse] Gagne 1 [Breath] et +1 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Breath]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Mettre la Lame sur son Côté, Couper Comme une Respiration Tranchée",
+          "desc": "Les armes Tranchantes apparaissent plus fréquemment\n- À 75 [KarmaOfIndexRien_2Phase] ou plus, les armes Tranchantes apparaissent moins fréquemment\n- À 150 [KarmaOfIndexRien_2Phase] ou plus, les armes Tranchantes apparaissent encore moins fréquemment\nLes effets suivants s’activent selon le Type d’Attaque de l’arme\n- Les armes Tranchantes infligent +30% de dégâts\n- Les armes non-Tranchantes infligent -15% de dégâts\n[WhenUse] Gagne 1 [Breath] et +1 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Breath]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Basculer Jusqu’à Tomber, Lui Faire Rencontrer le Sol",
+          "desc": "Les armes Contondantes apparaissent plus fréquemment\n- À 75 [KarmaOfIndexRien_2Phase] ou plus, les armes Contondantes apparaissent moins fréquemment\n- À 150 [KarmaOfIndexRien_2Phase] ou plus, les armes Contondantes apparaissent encore moins fréquemment\nLes effets suivants s’activent selon le Type d’Attaque de l’arme\n- Les armes Contondantes infligent +40% de dégâts\n- Les armes non-Contondantes infligent -20% de dégâts\n[WhenUse] Gagne 2 [Breath] et +1 de Compte de [Breath]\n[WinDuel] Diminue le Seuil de Déséquilibre de l’utilisateur de 15\n- À 75 [KarmaOfIndexRien_2Phase] ou plus, cet effet ne s’active pas",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Breath]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134805,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Viser en Direction d’un Point, Le Laisser Résonner à l’Intérieur",
+          "desc": "Les armes Perçantes apparaissent plus fréquemment\n- À 75 [KarmaOfIndexRien_2Phase] ou plus, les armes Perçantes apparaissent moins fréquemment\n- À 150 [KarmaOfIndexRien_2Phase] ou plus, les armes Perçantes apparaissent encore moins fréquemment\nLes effets suivants s’activent selon le Type d’Attaque de l’arme\n- Les armes Perçantes infligent +40% de dégâts\n- Les armes non-Perçantes infligent -20% de dégâts\n[WhenUse] Gagne 2 [Breath] et +1 de Compte de [Breath]\n[WinDuel] Inflige 2 [ResultReduction] au prochain tour\n- À 75 [KarmaOfIndexRien_2Phase] ou plus, cet effet ne s’active pas",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Breath]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134806,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Graver Légèrement en Oblique, Éplucher ce qu’il Reste",
+          "desc": "Les armes Tranchantes apparaissent plus fréquemment\n- À 75 [KarmaOfIndexRien_2Phase] ou plus, les armes Tranchantes apparaissent moins fréquemment\n- À 150 [KarmaOfIndexRien_2Phase] ou plus, les armes Tranchantes apparaissent encore moins fréquemment\n+1 de Puissance Finale par niveau de [UnlockBuff_Base] (3 max)\nLes effets suivants s’activent selon le Type d’Attaque de l’arme\n- Les armes Perçantes infligent +40% de dégâts\n- Les armes non-Perçantes infligent -20% de dégâts\n[WhenUse] Gagne 2 [Breath] et +1 de Compte de [Breath]\n[WinDuel] Gagne 2 [ResultEnhancement] au prochain tour\n- À 75 [KarmaOfIndexRien_2Phase] ou plus, cet effet ne s’active pas",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Breath]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134807,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Détruire le Son, Complètement Écraser la Pensée",
+          "desc": "Peut affronter en Duel cette Capacité qu’importe la Vitesse\nSi cette unité a [BlackNightmare]:\n- Convertit toutes les Pièces en [SuperCoin]s\n- <color=#ff6000><mark=#ff000040><b><u>En affrontant en Duel une Capacité non-Contondante ou une unité qui n’est pas Ryōshū</u></b></mark></color>, +2 de Puissance de Pièce et inflige +50% de dégâts\n- En Duel Perdu contre une Capacité Contondante ou Ryōshū :\n  - -2 de Puissance de Pièce et inflige -50% de dégâts\n  - Les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible ; En Touche, n’active pas la [Sinking] de la cible\n\nLes armes Contondantes apparaissent plus fréquemment\n- À 75 [KarmaOfIndexRien_2Phase] ou plus, les armes Contondantes apparaissent moins fréquemment\n- À 150 [KarmaOfIndexRien_2Phase] ou plus, les armes Contondantes apparaissent encore moins fréquemment\nLes effets suivants s’activent selon le Type d’Attaque de l’arme\n- Les armes Contondantes infligent +60% de dégâts\n- Les armes non-Contondantes infligent -30% de dégâts\n[WhenUse] Gagne 3 [Breath] et +2 de Compte de [Breath]\n[WinDuel] Augmente le Seuil de Déséquilibre de la cible de 25\n- À 150 [KarmaOfIndexRien_2Phase] ou plus, cet effet ne s’active pas",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 3 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +2 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gagne 2 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gagne +2 de Compte de [Breath]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134808,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Poignarder le Cœur de Silence, Pénétrer le Souvenir",
+          "desc": "Peut affronter en Duel cette Capacité qu’importe la Vitesse\nSi cette unité a [BlackNightmare]:\n- Convertit toutes les Pièces en [SuperCoin]s\n- <color=#ff6000><mark=#ff000040><b><u>En affrontant en Duel une Capacité non-Perçante ou une unité qui n’est pas Ryōshū</u></b></mark></color>, +2 de Puissance de Pièce et inflige +50% de dégâts\n- En Duel Perdu contre une Capacité Perçante ou Ryōshū :\n  - -2 de Puissance de Pièce et inflige -50% de dégâts\n  - Les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible ; En Touche, n’active pas la [Sinking] de la cible\n\nLes armes Perçantes apparaissent plus fréquemment\n- À 75 [KarmaOfIndexRien_2Phase] ou plus, les armes Perçantes apparaissent moins fréquemment\n- À 150 [KarmaOfIndexRien_2Phase] ou plus, les armes Perçantes apparaissent encore moins fréquemment\nLes effets suivants s’activent selon le Type d’Attaque de l’arme\n- Les armes Perçantes infligent +60% de dégâts\n- Les armes non-Perçantes infligent -30% de dégâts\n[WhenUse] Gagne 3 [Breath] et +2 de Compte de [Breath]\n[WinDuel] Gagne 2 [AttackDmgUp] au prochain tour\n- À 150 [KarmaOfIndexRien_2Phase] ou plus, cet effet ne s’active pas",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 3 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gagne 3 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +2 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gagne +2 de Compte de [Breath]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134809,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Avec un Secret Tempéré, Trancher la Posture",
+          "desc": "Peut affronter en Duel cette Capacité qu’importe la Vitesse\nSi cette unité a [BlackNightmare]:\n- Convertit toutes les Pièces en [SuperCoin]s\n- <color=#ff6000><mark=#ff000040><b><u>En affrontant en Duel une Capacité non-Tranchante ou une unité qui n’est pas Ryōshū</u></b></mark></color>, +2 de Puissance de Pièce et inflige +50% de dégâts\n- En Duel Perdu contre une Capacité Tranchante ou Ryōshū :\n  - -2 de Puissance de Pièce et inflige -50% de dégâts\n  - Les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible ; En Touche, n’active pas la [Sinking] de la cible\n\nLes armes Tranchantes apparaissent plus fréquemment\n- À 75 [KarmaOfIndexRien_2Phase] ou plus, les armes Tranchantes apparaissent moins fréquemment\n- À 150 [KarmaOfIndexRien_2Phase] ou plus, les armes Tranchantes apparaissent encore moins fréquemment\nLes effets suivants s’activent selon le Type d’Attaque de l’arme\n- Les armes Tranchantes infligent +60% de dégâts\n- Les armes non-Tranchantes infligent -30% de dégâts\n[WhenUse] Gagne 3 [Breath] et +2 de Compte de [Breath]\n[WinDuel] +3 de Puissance Finale\n- À 150 [KarmaOfIndexRien_2Phase] ou plus, cet effet ne s’active pas",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gagne 3 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gagne +3 de Compte de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +2 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134810,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "T’en Souviens-Tu, Ma Chérie ? Toi Seule Peut Affronter Cette Attaque.",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Seule Ryōshū peut affronter en Duel cette Capacité</u></b></mark></color>\n- Ryōshū peut affronter en Duel cette Capacité qu’importe la Vitesse\nEn Attaque à Sens Unique, +2 de Puissance de Pièce et inflige +50% de dégâts\n\n[DefeatDuel]\n- -2 de Puissance de Pièce et inflige -50% de dégâts\n- Les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible ; En Touche, n’active pas la [Sinking] de la cible\n\n[EndBattle] <color=#ff6000><mark=#ff000040><b><u>Si cette unité a perdu le Duel, gagne 1 [BurningWoundRien]</u></b></mark></color>\n- Si les 3 Capacités avec des effets en rapport avec [BlackNightmare] ont perdu le Duel ce tour, gagne 2 [BurningWoundRien] à la place",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 3 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +2 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Furioso [Crescendo]",
+          "desc": "[WideAreaRampage]\n<color=#ff6000><mark=#ff000040><b><u>Cette Capacité ne déclenche pas la Capacité Défensive de la cible</u></b></mark></color>\nPeut affronter en Duel cette Capacité qu’importe la Vitesse\n[WhenUse]\n- Gagne 6 [Breath] et +6 de Compte de [Breath]\n- +10 de Puissance de Duel (<color=#ff6000><mark=#ff000040><b><u>La Puissance de Duel gagnée est réduite de 1 tous les 20 [KarmaOfIndexRien_2Phase] sur soi</u></b></mark></color>)\n[WhenUse] À 0 PSM ou plus, génère 2 Mangs\n- Inflige +70% de dégâts ; +6 de Puissance Finale\n\n[WinDuel]\n- Après l’Attaque : inflige 4 [Laceration], 2 [Binding] et 2 [Vulnerable] au prochain tour à toutes les cibles touchées par cette unité\n[DefeatDuel]\n- Gagne 6 [AttackDmgDown] et 9 [Paralysis]\n- Les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible ; En Touche, n’active pas la [Sinking] de la cible\n[EndSkill] Si cette Capacité a généré du Mang, perd 25 PSM\n[EndSkill] Termine ce tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Réutilise cette Pièce (7 fois max)</u></b></mark></color>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134812,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Furioso [Lacrimosa-Crescendo]",
+          "desc": "[WideAreaRampage]\n<color=#ff6000><mark=#ff000040><b><u>Cette Capacité ne déclenche pas la Capacité Défensive de la cible</u></b></mark></color>\nPeut affronter en Duel cette Capacité qu’importe la Vitesse\n<color=#ff6000><mark=#ff000040><b><u>- En affrontant en Duel l’E.G.O. de base de Ryōshū, -20 de Puissance de Duel</u></b></mark></color>\n\n[WhenUse]\n- Gagne 9 [Breath] et +9 de Compte de [Breath]\n- +15 de Puissance de Duel (La Puissance de Duel gagnée est réduite de 1 tous les 20 [KarmaOfIndexRien_2Phase] sur soi)\n[WhenUse] À 0 PSM ou plus, génère 3 Mangs\n- Inflige +100% de dégâts ; +12 de Puissance Finale\n\n[WinDuel]\n- Après l’Attaque : inflige 5 [Laceration], 3 [Binding] et 3 [Vulnerable] au prochain tour à toutes les cibles touchées par cette unité\n[DefeatDuel]\n- Gagne 8 [AttackDmgDown] et 9 [Paralysis]\n- Les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible ; En Touche, n’active pas la [Sinking] de la cible\n[EndSkill] Si cette Capacité a généré du Mang, perd 30 PSM\n[EndSkill] Termine ce tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Réutilise cette Pièce (7 fois max)</u></b></mark></color>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132216,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Rancœur [怨望]",
+          "desc": "[StartBattle] Si l’Emplacement de Capacité utilisant cette Capacité est une cible principale d’une Capacité Offensive, perd 10 d’Intensité de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132217,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Futilité [非望]",
+          "desc": "[StartBattle] Si l’Emplacement de Capacité utilisant cette Capacité est une cible principale d’une Capacité Offensive, perd 5 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132218,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Consternation [落望]",
+          "desc": "[DefeatDuel] Perd 5 PSM\n<color=#ff6000><mark=#ff000040><b><u>[DefeatDuel] Gagne 3 [Reduction]</u></b></mark></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Vulnerable]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132219,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Je T’en Veux Tant. Mais…",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>[DefeatDuel] Gagne 2 [Vulnerable]</u></b></mark></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Vulnerable]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

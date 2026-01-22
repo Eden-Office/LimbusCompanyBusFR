@@ -2114,6 +2114,285 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1021401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Infailliblement, Comme le Demande la Prescription",
+          "desc": "Si cette Capacité est marquée par la [IndexPrescriptTargetMarkToEnemy], inflige +10% de dégâts\n[WhenUse] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Infailliblement, Comme le Demande la Prescription",
+          "desc": "Si cette Capacité est marquée par la [IndexPrescriptTargetMarkToEnemy], inflige +10% de dégâts\n<style=\"highlight\">À 6 ([Breath] sur soi + [Sinking] sur la cible) ou plus, +1 de Puissance de Pièce</style>\n[WhenUse] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Breath]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Infailliblement, Comme le Demande la Prescription",
+          "desc": "Si cette Capacité est marquée par la [IndexPrescriptTargetMarkToEnemy], <style=\"highlight\">+1 de Puissance de Duel</style> et inflige <style=\"highlight\">+20%</style> de dégâts\n<style=\"highlight\">+1 de Puissance de Pièce tous les 6 ([Breath] sur soi + [Sinking] sur la cible) (2 max)</style>\n[WhenUse] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Breath]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Inflige 1 [Sinking]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "S’Engager à la Prescription, S’Engager Encore",
+          "desc": "Si cette Capacité est marquée par la [IndexPrescriptTargetMarkToEnemy], +1 de Puissance de Duel\n[WhenUse] Gagne 3 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Breath]"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "S’Engager à la Prescription, S’Engager Encore",
+          "desc": "Si cette Capacité est marquée par la [IndexPrescriptTargetMarkToEnemy], +1 de Puissance de Duel\n<style=\"highlight\">À 6 ([Breath] sur soi + [Sinking] sur la cible) ou plus, +1 de Puissance de Pièce</style>\n[WhenUse] Gagne 3 [Breath] et <style=\"highlight\">+1 de Compte de [Breath]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Breath]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 1 [Sinking]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "S’Engager à la Prescription, S’Engager Encore",
+          "desc": "Si cette Capacité est marquée par la [IndexPrescriptTargetMarkToEnemy], <style=\"highlight\">+1 de Puissance Finale</style>\n<style=\"highlight\">+1 de Puissance de Pièce tous les 6 ([Breath] sur soi + [Sinking] sur la cible) (2 max)</style>\n[WhenUse] Gagne 3 [Breath] et <style=\"highlight\">+2</style> de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne <style=\"highlight\">2</style> [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Inflige +2 de Compte de [Sinking]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021403,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Comme le Demande la Prescription, Vous serez Éliminé.",
+          "desc": "Si cette Capacité est marquée par la [IndexPrescriptTargetMarkToEnemy], inflige +20% de dégâts en Touche Critique\nÀ 6 ([Breath] sur soi + [Sinking] sur la cible) ou plus, +1 de Puissance de Pièce\n[StartBattle] À 6 [BlessingOfIndexPrescriptAlly] ou plus, convertit toutes les Pièces de cette Capacité en [SuperCoin]s\n[WhenUse] Gagne +3 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +2.5% de dégâts par [BlessingOfIndexPrescriptAlly] (20% max)\n- À 9 [BlessingOfIndexPrescriptAlly], inflige +30% de dégâts à la place"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige +2 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Comme le Demande la Prescription, Vous serez Éliminé.",
+          "desc": "Si cette Capacité est marquée par la [IndexPrescriptTargetMarkToEnemy], <style=\"highlight\">+1 de Puissance Finale</style> et inflige <style=\"highlight\">+30%</style> de dégâts en Touche Critique\n<style=\"highlight\">+1 de Puissance de Pièce tous les 6 ([Breath] sur soi + [Sinking] sur la cible) (2 max)</style>\n[StartBattle] À 6 [BlessingOfIndexPrescriptAlly] ou plus, convertit toutes les Pièces de cette Capacité en [SuperCoin]s et <style=\"highlight\">inflige +30% de dégâts</style>\n[WhenUse] Gagne +3 de Compte de [Breath]\n<style=\"highlight\">- Gagne ([BlessingOfIndexPrescriptAlly]/3) de [Breath] (arrondi à l’inférieur)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Breath]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige <style=\"highlight\">+5%</style> de dégâts par [BlessingOfIndexPrescriptAlly] (<style=\"highlight\">40%</style> max)\n- À 9 [BlessingOfIndexPrescriptAlly], inflige <style=\"highlight\">+60%</style> de dégâts à la place"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige <style=\"highlight\">+3</style> de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tissu Accordé et Tissé par la Prescription",
+          "desc": "+1 de Puissance Finale tous les 3 [BlessingOfIndexPrescriptAlly] (3 max)\n[StartBattle] Gagne du Bouclier égal à 10% des PV max (une fois par tour)\n- Réduit le Bouclier gagné de 1% tous les 5 [KarmaOfIndexAlly] ; à 50 [KarmaOfIndexAlly] ou plus, ne gagne pas de Bouclier\n[WhenUse] Gagne 2 [Breath]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Tissu Accordé et Tissé par la Prescription",
+          "desc": "+1 de Puissance Finale et <style=\"highlight\">inflige +10% de dégâts</style> tous les 3 [BlessingOfIndexPrescriptAlly] (3 et <style=\"highlight\">30%</style> max, respectivement)\n[StartBattle] Gagne du Bouclier égal à <style=\"highlight\">15%</style> des PV max (une fois par tour)\n- Réduit le Bouclier gagné de <style=\"highlight\">1.5%</style> tous les 5 [KarmaOfIndexAlly] ; à 50 [KarmaOfIndexAlly] ou plus, ne gagne pas de Bouclier\n[WhenUse] Gagne 2 [Breath]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

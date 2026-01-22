@@ -1,0 +1,1323 @@
+{
+  "dataList": [
+    {
+      "id": 130601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "La Spada di Palermo",
+          "desc": "Si la cible a 6 [Vibration] ou plus, +1 de Puissance de Duel",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Colpi Sottani",
+          "desc": "+1 de Puissance de Base tous les 4 ([Combustion] + [Vibration]) sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion] et +2 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration] et +2 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion] et +2 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Il Cacciatore",
+          "desc": "+1 de Puissance de Pièce tous les 4 ([Combustion] + [Vibration]) sur la cible (2 max)\n\n[WhenUse] Si la cible a [DuelEdge], convertit toutes les Pièces de cette Capacité en [SuperCoin]s",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration] et +2 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche une [FusionVibration] en [VibrationIgnition]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne 2 [Agility] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sezionatura di Cervo",
+          "desc": "[CantChangeTarget]\nNe peut pas être Déséquilibré avant d’utiliser cette Capacité\n\nPour <color=#ff6000><mark color=#ff000040><b><u>chaque Capacité Offensive de cette unité ayant perdu un Duel ce tour</color></mark></b></u>, -2 de Puissance Finale et -1 de Poids d’Atq\n(Poids d’Atq min : 1)\n\n[DefeatDuel] Inflige -90% de dégâts ; les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible\n[DefeatDuel] Perd 15 PSM ; au prochain tour, gagne 6 Malus de Niveau Offensif",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion] et +2 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration] et +2 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion] et +2 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration] et +2 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Déclenche une [FusionVibration] en [VibrationIgnition]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Déclenche un [VibrationExplosion] deux fois ; puis, réduit le Compte de [Vibration] de la cible de 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Déclenche un [VibrationExplosion] deux fois ; puis, réduit le Compte de [Vibration] de la cible de 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Mesure de Portée de la Lame",
+          "desc": "[DuelCounter]\nSi la cible a 2 [DuelEdge] ou plus, inflige +30% de dégâts\n\n[WinDuel] Inflige 1 [DuelEdge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration] et +2 de Compte de [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fruit Inutile",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Amenez-Moi Blanche-Neige.",
+          "desc": "[WhenUse] À 5 ([Laceration] + [Burst]) ou plus sur la cible, +5 de Puissance de Base\n[WhenUse] Si cette unité a [HowDareYouApple], gagne +2 de Poids d’Atq",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 10 dégâts de PSM"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tant d’Insolence !",
+          "desc": "[WhenUse] +2 de Puissance de Pièce tous les 4 ([Laceration] + [Burst]) sur la cible (4 max)\n[WhenUse] Si cette unité a [HowDareYouApple], gagne +2 de Poids d’Atq\n[DefeatDuel] Gagne les effets suivants :\n- Gagne 2 [Paralysis]\n- Inflige -80% de dégâts\n- Cette Capacité ne peut pas Déséquilibrer la cible\n- N’active pas la [Burst] de la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 dégâts de PSM"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 dégâts de PSM"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Juste un Peu Plus…",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Méfiance",
+          "desc": "[WhenUse] +2 de Puissance de Pièce tous les 3 ([Laceration] + [Burst]) sur la cible (4 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130706,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tige Pâle",
+          "desc": "[WhenUse] +3 de Puissance Finale tous les 4 ([Laceration] + [Burst]) sur la cible (6 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130707,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tige Épineuse",
+          "desc": "[WhenUse] +3 de Puissance Finale tous les 4 ([Laceration] + [Burst]) sur la cible (6 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130708,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Douleur Partagée",
+          "desc": "[WhenUse] +3 de Puissance Finale tous les 4 ([Laceration] + [Burst]) sur la cible (6 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 3 [Vulnerable] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130709,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Racine à Pointe",
+          "desc": "[DefeatDuel] Gagne les effets suivants :\n- Gagne 1 [Paralysis]\n- Inflige -80% de dégâts\n- Cette Capacité ne peut pas Déséquilibrer la cible\n- N’active pas la [Burst] de la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +5 de Compte de [Laceration] au prochain tour"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige (somme d’intensité de tous les effets négatifs sur la cible) [Laceration] ou [Burst] (30 max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Racines Envieuses",
+          "desc": "Cette Capacité n’inflige pas de dégâts\n[WhenUse] Consomme tout [HowDareYouApple] sur soi et Réutilise ses Pièces par [HowDareYouApple] consommé (4 max)\n[DefeatDuel] Cette Capacité n’active pas la [Burst] sur la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration] et +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst] et +2 de Compte de [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130712,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Racines Enracinantes",
+          "desc": "[WhenUse] +1 de Puissance de Duel tous les 4 ([Laceration] + [Burst]) sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130713,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fruit Inutile",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Charcuter - Côtes",
+          "desc": "[WhenUse] Si la cible a 6 [Laceration] ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vulnerable] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Protection] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Écrasement Rotatif",
+          "desc": "[WhenUse] Si la cible a 6 [Laceration] ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Agility] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Déchirure de Tendon",
+          "desc": "[WhenUse] +1 de Puissance de Pièce tous les 4 [Laceration] sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 6 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [ResultReduction] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [ResultEnhancement] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fascia a Faim",
+          "desc": "[DefeatDuel] Inflige -80% de dégâts ; les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 10 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 5 dégâts de PSM"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Regagne 5 PSM"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [HumanFleshTheRings]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chair Réprimée",
+          "desc": "Durant le tour où cette unité a cette Capacité équipée, gagne les effets suivants :\n- <color=#ff6000><mark=#ff000040><b><u>Lorsque touché par des Capacités Offensives</u></b></mark></color> avant d’utiliser cette Capacité, gagne 1 [UnsteadyTheRings] (une fois par Capacité ennemie ; inclut les Capacités E.G.O.)\n- Ne déclenche pas les effets du Passif “Vierge de Fer[TabExplain] - Piques”\n- Cette unité ne peut pas être Déséquilibrée avant d’utiliser cette Capacité\n\nEn Tuant avec cette Capacité : regagne 15 PSM\n[WhenUse] +1 de Puissance de Pièce tous les 4 [Laceration] sur la cible (4 max)\n[WhenUse] Inflige +10% de dégâts tous les 2 [Laceration] sur la cible (100% max)\n[DefeatDuel] Les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible\n[EndSkill] Perd [BoneBladeTheRings]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 5 dégâts de PSM"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Regagne 5 PSM"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [Vulnerable] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Protection] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [AttackDmgDown] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [AttackDmgUp] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [Binding] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Agility] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131906,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Agencements d’Exposition",
+          "desc": "[StartBattle] Lorsque touché par des Capacités Offensives, inflige +1 de Compte de [Laceration] à l’attaquant (inclut les Capacités E.G.O.)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131907,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Rideau de Fer",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Multiplie les dégâts du Passif “Vierge de Fer[TabExplain] - Piques” par 20</u></b></mark></color> (cet effet ne peut pas être désactivé en redirigeant cette Capacité)\n[StartBattle] Lorsque touché par des Capacités Offensives, inflige +1 de Compte de [Laceration] à l’attaquant (inclut les Capacités E.G.O.)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Évitement [回]",
+          "desc": "[StartBattle] Gagne 8 [Breath]\n- Si l’Emplacement de Capacité utilisant cette Capacité est une cible principale d’une Capacité Offensive, gagne 4 d’Intensité de [Breath] de moins avec cet effet\n\n[OnSucceedEvade] Gagne 1 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Garde [守]",
+          "desc": "[CanDuelGuard]\n[StartBattle] Gagne +4 de Compte de [Breath]\n- Si l’Emplacement de Capacité utilisant cette Capacité est une cible principale d’une Capacité Offensive, gagne 2 de Compte de [Breath] de moins avec cet effet\n\n[WinDuel] Gagne +1 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Contre [反]",
+          "desc": "[DuelCounter]\n[DefeatDuel] Perd 1 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Breath]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Coupure Anonyme [無名閃]",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +50% de dégâts en Touche Critique"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131805,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chaîne de Coups [連鎖斬]",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [SlashTakeDamageUp] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131807,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pourfendeur d’Étoile Filante [落星一殺]",
+          "desc": "Cette Capacité peut être affrontée en Duel qu’importe la Vitesse\nInflige +1% de dégâts par [DicipleLittleFinger] sur soi\n[WhenUse] +1 de Puissance de Pièce tous les 10 [DicipleLittleFinger] sur soi\n[DefeatDuel] Inflige -80% de dégâts ; les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Inflige +50% de dégâts en Touche Critique"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige des dégâts Tranchants égaux aux dégâts finaux de cette Pièce"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131808,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Posture de Retraite [收勢]",
+          "desc": "[StartBattle] Gagne 10 * (Compte de [DicipleLittleFinger] sur soi) PV de Bouclier",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131809,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Coups Jumeaux [二擊]",
+          "desc": "[WinDuel] Gagne 1 [DicipleLittleFinger]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [Breath]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131810,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Coups Triplés [三擊]",
+          "desc": "[WinDuel] Gagne 1 [DicipleLittleFinger]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +30% de dégâts en Touche Critique"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Appât Accroché",
+          "desc": "[CantDuel]\nPriorise les Pécheurs avec [FairyCharm]\nLe Poids d’Atq de cette Capacité = le nombre de Pécheurs avec [FairyCharm]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Le Noyau et le Corps regagnent 15 PV"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Racines Enfouies",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Racines en Expansion",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tiges Empiétantes",
+          "desc": "[DefeatDuel] Inflige -80% de dégâts ; les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]\n[OnSucceedAttack] Inflige +5% de dégâts par [Burst] sur la cible (100% max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130805,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Abysse Découverte",
+          "desc": "Si la cible a 5 [Burst] ou plus, inflige +100% de dégâts\n[DefeatDuel] Inflige -80% de dégâts ; les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130806,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Conscience Charmée",
+          "desc": "Attaquer Féelanterne inflige 0 dégât",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130807,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Appât Accroché",
+          "desc": "[CantDuel]\nNe peut pas être Déséquilibré avant d’utiliser cette Capacité\nPriorise les Pécheurs avec [FairyCharm]\nLe Poids d’Atq de cette Capacité = le nombre de Pécheurs avec [FairyCharm]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst] et +3 de Compte de [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration] et +3 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Le Noyau et le Corps regagnent 30 PV"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Coupe Dimensionnelle",
+          "desc": "[WhenUse] Gagne +3 de Compte de [Charge]\n[DefeatDuel] Consomme 2 de Compte de [Charge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Coupes Dimensionnelles Consécutives",
+          "desc": "[WhenUse] Gagne +3 de Compte de [Charge]\n[DefeatDuel] Consomme 2 de Compte de [Charge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [DimensionRift]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [DimensionRift]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Évacuation de Sous-Produits",
+          "desc": "[WhenUse] Gagne +4 de Compte de [Charge]\n[DefeatDuel] Consomme 2 de Compte de [Charge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Déchirer l’Espace",
+          "desc": "À 10 de Compte de [Charge] ou plus, consomme 10 de Compte de [Charge] pour gagner +5 de Puissance de Duel et infliger +100% de dégâts\nÀ moins de 10 de Compte de [Charge], consomme 100 PV de Noyau. Inflige +80% de dégâts\nLes PV de cette unité ne peuvent pas tomber à 0 suite à l’effet de cette Capacité\n[DefeatDuel] Gagne les effets suivants :\n- Gagne 2 [Paralysis]\n- Inflige -80% de dégâts\n- Cette Capacité ne peut pas Déséquilibrer la cible\n- N’active pas la [Burst] de la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne +2 de Compte de [Charge]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 3 [DimensionRift]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Gagne +2 de Compte de [Charge]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 3 [DimensionRift]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Châtiment Préparé",
+          "desc": "[WhenUse] Gagne +1 de Compte de [Charge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130906,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Régurgitation de Sous-Produits",
+          "desc": "[WhenUse] Si la cible principale a [DimensionRift], inflige +10% de dégâts\n[DefeatDuel] Consomme 2 de Compte de [Charge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 5 [DimensionRift]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130907,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Déchirure Spatiale à Haute Vitesse",
+          "desc": "Cette Capacité peut être affrontée en Duel qu’importe la Vitesse ; ne peut pas être Déséquilibré avant d’utiliser cette Capacité\n[DefeatDuel]\n- Gagne 2 [ResultReduction] et 1 [Paralysis]\n- Inflige -90% de dégâts ; les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible\nGagne +1 de Puissance de Duel par effet de Dimension sur soi\nInflige +10% de dégâts par effet de Dimension sur soi",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 3 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130908,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Opportunité Décelée",
+          "desc": "[WhenUse] Si la cible a [DimensionRift], inflige +20% de dégâts",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [DimensionRift]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130909,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Attaque de Faille",
+          "desc": "[WhenUse] Si la cible a [DimensionRift], inflige +10% de dégâts",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [DimensionRift]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Bond Dimensionnel",
+          "desc": "Si cette “Faille Dimensionnelle” persiste, inflige +10% de dégâts",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Bond Dimensionnel",
+          "desc": "Si cette “Faille Dimensionnelle” persiste, +20% de PV max",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Bond Dimensionnel",
+          "desc": "Si cette “Faille Dimensionnelle” persiste, gagne 1 de Vitesse",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Bond Dimensionnel",
+          "desc": "Si cette “Faille Dimensionnelle” persiste, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

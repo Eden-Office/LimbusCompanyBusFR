@@ -1,0 +1,508 @@
+{
+  "dataList": [
+    {
+      "id": 133303,
+      "name": "Vierge de Fer - Défibrillation",
+      "desc": "Lorsque Déséquilibrée, se remet de Déséquilibre et termine ce tour (une fois par Affrontement)"
+    },
+    {
+      "id": 133101,
+      "name": "Tout Mon Corpus a été Donné à Tibia",
+      "desc": "Subit -30% de dégâts de PV et de PSM de [Combustion], [Burst] et [Sinking] ; -30% de Seuil de Déséquilibre augmenté par [Vibration]\nSubit -50% de dégâts de [Laceration]\n\nDébut du Tour : si cette unité est Déséquilibrée, se remet de Déséquilibre. Après cela, gagne 2 [CrimsonTakeDamageUp] et devient incapable d’utiliser “Installation Artistique n°3 : Cage Thoracique Improvisée” jusqu’au prochain tour (une fois par Affrontement)\n\nFin du Tour : gagne 1 [DefenseDown] au prochain tour toutes les 4 [Combustion] sur soi (15 max)"
+    },
+    {
+      "id": 133102,
+      "name": "Art Corpus-centrique",
+      "desc": "Lorsque cette unité entre dans l’Affrontement, gagne 30 PSM\n\nEn Touche avec des Capacités Offensives : si cette unité inflige un effet néfatif et gagne simultanément un effet bénéfique, regagne 4 PSM à la Fin de l’Attaque\n- Si cette unité est à PSM max en soignant des PSM avec l’effet ci-dessus, gagne 1 [ResultEnhancement] au prochain tour (une fois par tour)",
+      "flavor": "Une forme d’art qui sculpte et expose des œuvres d’art se servant d’os et de muscles comme matériaux. Chaque acte de création incorpore même le plus petit fragment d’os dans l’arme minutieusement fabriquée par l’artiste."
+    },
+    {
+      "id": 133103,
+      "name": "L’Esthétisme de Récolter et Tailler les Ingrédients Sur Place",
+      "desc": "Après avoir utilisé une Capacité, gagne 30 [HumanBoneTheRings] et 1 [HumanBloodTheRings] par cible blessée par la Capacité de cette unité"
+    },
+    {
+      "id": 133104,
+      "name": "Magnum Opus : Tibia",
+      "desc": "Fin du Tour : à 206 [HumanBoneTheRings] et 5 [HumanBloodTheRings], réduit l’Instance de chaque effet de ces nombres respectifs et gagne 1 [MineTheRings]\n\nDébut du Tour : si cette unité a [MineTheRings], utilise une attaque puissante ce tour\n\n<color=#ff6000><mark=#ff000040><b><u>Lorsque touché par une Capacité Offensive avant d’utiliser l’attaque puissante, gagne 1 [PlusCoinValueDown] et 1 [ResultReduction]</u></b></mark></color> (une fois par Capacité ; 3 fois par tour max)",
+      "flavor": "Tibia, l’œuvre de la vie de l’artiste, complétée en brisant son propre corpus et en y versant son sang jusqu’à la dernière goutte, au sens le plus littéral."
+    },
+    {
+      "id": 133105,
+      "name": "Œuvre d’Art Satisfaisant les Sens",
+      "desc": "Lorsque [MineTheRings] expire, les unités suivantes regagnent 30 PSM et gagnent 2 [AttackUp] et 2 [DefenseUp] au prochain tour:\n- Garde-père de l’Annulaire - Callisto\n- Apprentie de l’Annulaire - Albina\n- Théâtre du Corpus[TabExplain]"
+    },
+    {
+      "id": 133106,
+      "name": "Permettez-Moi de Brièvement Profiter de l’Exposition de mon Élève",
+      "desc": "Si cette unité a [SupportProtect], <color=#ff6000><mark=#ff000040><b><u>perd 1 [SupportProtect] en Début de Duel</u></b></mark></color> (une fois par Capacité)"
+    },
+    {
+      "id": 133107,
+      "name": "Transcender le Corpus",
+      "desc": "À moins de 50% de PV, se remet de Déséquilibre et termine ce tour\n- Après l’activation de cet effet, équipe “Heure de Fermeture - Installation Artistique n°1 : Votre Chair et Vos Os comme Sièges de la Gallerie” sur le dernier Emplacement de Capacité de cette unité au début du prochain tour."
+    },
+    {
+      "id": 133109,
+      "name": "S’il Vous Plaît, Arrêtez de Courir et Asseyez-Vous",
+      "desc": "Fin du Tour : inflige [RedemptionTheRings] au Pécheur et à l’Unité d’Assistance avec la plus haute Vitesse"
+    },
+    {
+      "id": 133201,
+      "name": "Servitude",
+      "desc": "Applique les effets suivants à l’unité reliée au Théâtre du Corpus :\n- Devient “immobilisée”\n- Les buffs, PV et PSM de cette unité ne peuvent pas être changés"
+    },
+    {
+      "id": 133202,
+      "name": "Récolte d’Ingrédient",
+      "desc": "Si le Théâtre du Corpus est détruit par le Garde-père de l’Annulaire, l’unité reliée devient indisponible pour le reste de l’Affrontement"
+    },
+    {
+      "id": 133203,
+      "name": "S’échapper de l’Art",
+      "desc": "Si le Théâtre du Corpus est détruit par des unités autres que le Garde-père de l’Annulaire, active les effets suivants :\n- L’unité reliée revient au combat au prochain tour ; si l’unité a moins de 10 PSM, fait monter les PSM à 10\n- Le Garde-père de l’Annulaire et l’Apprentie de l’Annulaire perdent 10 PSM\n- Gagne 2 Ressources E.G.O. de toutes les Affinités"
+    },
+    {
+      "id": 133204,
+      "name": "Matière Inflammable",
+      "desc": "Subit 2 fois plus de dégâts de [Combustion]"
+    },
+    {
+      "id": 133601,
+      "name": "Le Pouls et le Rythme du Corpus Devenu Ingrédient",
+      "desc": "Subit -30% de dégâts de PV et de PSM de [Combustion], [Burst] et [Sinking] ; -30% de Seuil de Déséquilibre augmenté par [Vibration]\nSubit -50% de dégâts de [Laceration]\n\nFin du Tour : gagne 1 [DefenseDown] au prochain tour toutes les 4 [Combustion] sur soi (15 max)",
+      "flavor": "Fascia est faite de la chair et du sang d’Albina.\nDésormais, Albina n’a que le cerveau, tandis qu’il ne manque à Fascia que le cerveau.\nMatière à réflexion : laquelle d’entre elles possède le vrai corpus ?"
+    },
+    {
+      "id": 133602,
+      "name": "Corporisme",
+      "desc": "En Touche avec des Capacités Offensives : si cette unité inflige un effet négatif et gagne un effet positif simultanément, regagne 4 PSM\n- Si cette unité est à PSM max en soignant des PSM avec l’effet ci-dessus, gagne 1 [Agility] au prochain tour (2 fois par tour)"
+    },
+    {
+      "id": 133603,
+      "name": "Fascia, Ma Précieuse Œuvre d’Art",
+      "desc": "Fin du Tour : à 2 [HumanFleshTheRings], retire [HumanFleshTheRings] et gagne [BoneBladeTheRings] au prochain tour\n\nDébut du Tour : si cette unité a [BoneBladeTheRings], utilise une attaque puissante ce tour\n\n<color=#ff6000><mark=#ff000040><b><u>Lorsque touchée par une Capacité Offensive avant d’utiliser l’attaque puissante, gagne 1 [PlusCoinValueDown] et 1 [ResultReduction]</u></b></mark></color> (une fois par Capacité ; 3 fois par tour max)"
+    },
+    {
+      "id": 133604,
+      "name": "Les Visiteurs Doivent Respecter les Règles de la Gallerie",
+      "desc": "Si cette unité a [SupportProtect], <color=#ff6000><mark=#ff000040><b><u>perd 1 [SupportProtect] en Début de Duel</u></b></mark></color> (une fois par Capacité)"
+    },
+    {
+      "id": 133606,
+      "name": "Grâce à cette Œuvre d’Art, Je Ferai mes Preuves au Maestro",
+      "desc": "À moins de 20 PSM lorsque le Garde-père de l’Annulaire entre dans l’Affrontement, fait monter les PSM à 20"
+    },
+    {
+      "id": 132701,
+      "name": "Tatouages des Vengeances [<s>Aîné</s>]",
+      "desc": "Subit -30% de dégâts de [Combustion], [Laceration], [Vibration] et [Burst] (arrondi à l’inférieur)\n-50% de quantité de Seuil de Déséquilibre augmenté (arrondi à l’inférieur)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 132702,
+      "name": "Le Livre des Vengeances",
+      "desc": "Début de l’Affrontement : inflige [VengeanceBookSpider] à tous les Pécheurs et aux unités de la LCD\n\nSi cette unité est touchée par plus de 3 Capacités ce tour, gagne 1 [ReinforcedTattooSpider] au prochain tour par Capacité en excès qui touche",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 132703,
+      "name": "L’Éducation de Ma Fille",
+      "desc": "En Duel Gagné, gagne 1 [DaughterEducationSpider]\n\nEn Touche avec une Capacité, gagne 1 [DaughterEducationSpider] (une fois par Capacité ; cet effet ne s’active pas pour les Pièces Fissurées)\n\nEn Duel Gagné avec la première Capacité utilisée dans un tour, gagne 1 [DaughterEducationSpider] supplémentaire et la Capacité gagne +1 de Puissance de Pièce",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 132704,
+      "name": "Rancœur",
+      "desc": "Lorsque touché par 2 Capacités, gagne 1 [ResentmentSpider] et perd 1 [DaughterEducationSpider] (le nombre de coups subis est toujours surveillé)\n\nÀ Instance max de [ResentmentSpider], utilise une attaque puissante\n\nFin du Tour : à moins de 80% / 60% / 40% de PV, maximise les Instances de [ResentmentSpider] de cette unité",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 132706,
+      "name": "???",
+      "desc": "???",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 134101,
+      "name": "Tatouages des Vengeances Puissance Max… Descelle Lævateinn !",
+      "desc": "Lorsque [MiddleFatherSwordFour] est descellé, cette unité gagne [MiddleFatherGuts]\n\nCible l’unité avec [MosesRedBreathCharge]",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 132801,
+      "name": "Je Fais Ça Bien, Papa ?!",
+      "desc": "Commence l’Affrontement avec [HeatingWireOffSpider]\n\nDébut du Tour : à 3 [GotACompliment] ou plus, gagne [HeatingWireOnSpider] pour ce tour et inflige aussi de la [Combustion] avec les Capacités qui infligent du [Laceration]\n\nFin du Tour : à moins de 3 [GotACompliment], convertit la [HeatingWireOnSpider] de cette unité en [HeatingWireOffSpider]",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“J’aime mon papa parce qu’il me complimente toujours et m’achète des bandes dessinées.”"
+    },
+    {
+      "id": 132802,
+      "name": "Tatouages Stylés du Majeur",
+      "desc": "Si cette unité est touchée par plus de 2 Capacités, gagne 1 [ReinforcedTattooSpiderDaughter] au prochain tour par Capacité en excès qui touche",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Est-ce que les grandes Sœurs et Frères du Majeur m’accepteront comme leur famille un jour, pour que je puisse continuer à vivre avec eux ?”"
+    },
+    {
+      "id": 132803,
+      "name": "Les Louanges sont Le Vent de sa Voile",
+      "desc": "En Duel Gagné, gagne 1 [GotACompliment]\n\nEn Touche avec une Capacité, gagne 1 [GotACompliment] (une fois par Capacité ; cet effet ne s’active pas pour les Pièces Fissurées)\n\nEn Duel Gagné avec la première Capacité utilisée dans un tour, gagne 1 [GotACompliment] supplémentaire et la Capacité gagne +1 de Puissance de Pièce",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 132804,
+      "name": "J’suis quasi sûre que le Majeur n’oublie jamais",
+      "desc": "Lorsque touché par 2 Capacités, gagne 1 [ResentmentSpiderDaughter] et perd 1 [GotACompliment] (le nombre de coups subis est toujours surveillé)\n\nÀ Instance max de [ResentmentSpiderDaughter], utilise une attaque puissante\n\nFin du Tour : à moins de 80% / 60% / 40% de PV, maximise les Instances de [ResentmentSpiderDaughter] de cette unité",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 134201,
+      "name": "Je Fais Ça Bien, Papa ?!",
+      "desc": "Commence l’Affrontement avec [HeatingWireOffSpider]\n\nDébut du Tour : à 3 [GotACompliment] ou plus, gagne [HeatingWireOnSpider] pour ce tour et inflige aussi de la [Combustion] avec les Capacités qui infligent du [Laceration]\n\nFin du Tour : à moins de 3 [GotACompliment], convertit la [HeatingWireOnSpider] de cette unité en [HeatingWireOffSpider]",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 134202,
+      "name": "Whoa… Ça a l’air grave dangereux !",
+      "desc": "Si le Garde-père du Majeur a [MiddleFatherSwordFour], n’entre pas en état de [HeatingWireOffSpider]\n\nCible l’unité avec [MosesRedBreathCharge]",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "La combinaison de ses instincts bestiaux et de son expérience du combat lui criait une chose à l’unisson :\nQuelle que soit cette chose rouge, si elle ne peut pas empêcher cette attaque d’être lancée, elle <i>va</i> tuer."
+    },
+    {
+      "id": 132601,
+      "name": "Combat Éprouvant",
+      "desc": "Commence le combat avec 20% de PV manquants\nPour les 3 premiers tours de l’Affrontement, gagne 2 [ResultReduction]",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Affronter un Fixer Coloré en combat est sans aucun doute une expérience qui fera monter ses capacités au niveau suivant.\nEnfin, s’il survit à ce combat."
+    },
+    {
+      "id": 132602,
+      "name": "Posture Croulante",
+      "desc": "Gagne les effets suivants selon l’Instance de [DuelEdge] de la cible\n- Pour chaque Instance, inflige +10% de dégâts et subit -10% de dégâts des cibles avec [DuelEdge]\n- À 3 Instances ou plus, dans un Duel contre des cibles avec [DuelEdge], gagne +1 de Puissance de Duel\n- À 5 Instances ou plus, dans un Duel contre des cibles avec [DuelEdge], gagne +1 de Puissance de Base\n- À 7 Instances ou plus, dans un Duel contre des cibles avec [DuelEdge], gagne +1 de Puissance de Pièce\n- À 10 Instances ou plus, dans un Duel contre des cibles avec [DuelEdge], gagne +1 de Puissance Finale",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 132603,
+      "name": "Lutte Désespérée",
+      "desc": "Après que le Garde-père du Pouce entre sur le terrain, désactive le Passif “Marque du Chasseur” et gagne les effets suivants à la place :\n- À moins de 30 PSM, fait monter les PSM jusqu’à 30\n- Début du Tour : gagne 3 [SupportProtect]\n<color=#ff6000><mark=#ff000040><b><u>- Peut affronter en Duel qu’importe la Vitesse\n- Priorise d’affronter en Duel Vergilius</u></b></mark></color>\n- Lorsque le Garde-père du Pouce gagne un Duel et utilise une Attaque contre la cible, enchaîne avec “Colpi Sottani” en Attaque à Sens Unique contre la même cible (2 fois par tour)",
+      "summary": "",
+      "undefined": "",
+      "flavor": "“Peut-être puis-je la tuer maintenant. Peut-être que c’est ma chance.”\n\nUne fois encore, la même réflexion vient saisir Lucio alors qu’il se penche par-dessus sa maîtresse, endormie.\nMais cette impulsion demeure une pensée inexprimée, puisqu’il possède une peur née de l’expérience et une gratitude d’avoir été délivré des Ruelles.\nNéanmoins, sa rancœur est trop profonde. Lucio se fait la promesse, même alors qu’il jure une fidélité absolue sans la moindre trace de mensonge :\n“Une fois ce combat derrière nous, je la tuerai. Je lui arracherai son autre œil et la poignarderai et la trancherai, encore et encore, jusqu’à ce qu’elle ne puisse plus bouger.”\nPour la première fois, le feu brûle dans les yeux du garçon dont le corps est couvert de bleus."
+    },
+    {
+      "id": 132604,
+      "name": "Marque du Chasseur",
+      "desc": "Choisi aléatoirement un ennemi, réduit sa Vitesse à 1 et le cible avec toutes les Capacités de cette unité\nS’active tous les 4 tours après la première activation",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 132606,
+      "name": "Duello Disperato",
+      "desc": "Après un Duel, inflige 1 [DuelEdge] à la cible que cette unité a affronté en Duel\nDans un Duel contre des cibles avec [DuelEdge], regagne 2 PSM par Instance de [DuelEdge] sur la cible (10 max)"
+    },
+    {
+      "id": 131401,
+      "name": "L’Œil de Précognition",
+      "desc": "Lorsque cette unité entre dans l’Affrontement, gagne 30 [FutureEyeOn]\nÀ 0 Instance d’[FutureEyeOn], convertit [FutureEyeOn] en [FutureEyeOff]",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Cette Relique, connue comme l’Œil d’Odin, n’est qu’un tiers de la Relique entière qui fut brisée en trois morceaux."
+    },
+    {
+      "id": 131402,
+      "name": "Futur en Accélération",
+      "desc": "Dans un Duel, <color=#ff6000><mark=#ff000040><b><u>gagne 1 [LookingFuture] à chaque Clash</u></b></mark></color>\nPeut gagner jusqu’à (Instance d’[FutureEyeOn] au Début du Tour / 3) [LookingFuture] par tour\nTant que cette unité a [FutureEyeOn], <color=#ff6000><mark=#ff000040><b><u>se faire attaquer par des Attaques à Sens Unique ou perdre un Duel active la Capacité “Précognition”</u></b></mark></color>",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Plus nous nous affrontons, plus ma lame devient chaude… et accélère pour nous amener au futur que j’ai présagé.”"
+    },
+    {
+      "id": 131408,
+      "name": "Saturé",
+      "desc": "Les suivants font perdre des Instances d’[FutureEyeOn] à cette unité :\n- Si cette unité échoue à gagner [LookingFuture], perd 1 [FutureEyeOn] à chaque Clash\n- Lorsque cette unité est attaquée par une Attaque à Sens Unique, perd 1 [FutureEyeOn]\n- En Duel Perdu, perd 3 [FutureEyeOn]",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“L’œil est en train de chauffer, sa cavité commence à faire mal et ma vision devient rouge.”"
+    },
+    {
+      "id": 131405,
+      "name": "La Spada di Palermo",
+      "desc": "Inflige +15% de dégâts contre les Boucliers par [Combustion] sur la cible principale (300% max)\nÀ l’Usage de Capacité, si la Capacité Offensive de la cible est Tranchante ou Perçante, +1 de Puissance de Duel\nSi les effets de Capacité de cette unité ont déclenché un [VibrationExplosion], gagne 2 [AttackDmgUp] au prochain tour (3 fois par tour)\nSi cette unité touche Critiquement avec ses effets de Capacité, regagne 5 PSM",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 131404,
+      "name": "La Honte de la Famiglia Bognatelli",
+      "desc": "Subit -30% de dégâts de PV et de PSM de [Combustion], [Laceration], [Burst], [Sinking] ; -30% de Seuil de Déséquilibre augmenté par [Vibration]\nÀ 1 [AccelBullet] ou plus, les Capacités qui dépensent une [AccelBullet] infligent +30% de dégâts et infligent +150% de dégâts contre les Boucliers\nGagne 4 [Breath] par [AccelBullet] dépensée\nEn lançant une Pièce qui dépense une [AccelBullet], n’annule pas l’attaque même si cette unité n’a pas de Cartouche d’Accélération",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Tu étais l’héritière du style Palermitain et une détentrice de notre héritage familial, tu avais tous les privilèges que l’on puisse espérer avoir. Comment oses-tu t’humilier ainsi ?”\n“Nous te laisserons garder la Relique et l’épée, puisqu’elles ont été souillées par ta puanteur déshonorable.”\n“Se voir promu au poste d’une Sottocapo, d’une Sous-cheffe… pour finir par se faire évincer en simplement 3 jours. Personne d’autre que toi n’a subi une telle humiliation, Valencina.”\n“Tu es la honte de notre famille. La Famiglia Bognatelli te retire son amour.”"
+    },
+    {
+      "id": 131409,
+      "name": "Shin (心) - Valencina",
+      "desc": "Lorsque touchée, ou lorsque “Apprenti du Pouce - Lucio” est vaincu, gagne [ObsessionAndGreed] au prochain tour",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“*Soupir* D’accord. Alors, tu dis qu’on peut regagner Ticket en y allant et défonçant l’endroit, selon le plan de ce fanatique… Est-ce que ça va vraiment nous ramener Ticket ?”"
+    },
+    {
+      "id": 131406,
+      "name": "Lucio, sale petite merde inutile !",
+      "desc": "Lorsque “Apprenti du Pouce - Lucio” est vaincu, active le Passif “L’Heure de Chasser”",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 131410,
+      "name": "L’Heure de Chasser",
+      "desc": "Début du Tour : si cette unité est Déséquilibrée, se remet de Déséquilibre\n\nChoisi un Pécheur aléatoire et inflige [TeachersPrey]\n- S’active tous les 4 tours après la première activation\n- Si cette unité tue la cible avec la Capacité “Élimination”, l’active encore au prochain tour",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Le Style Palermitain a beaucoup en commun avec l’origine de la technique de l’épée, La Famiglia Bognatelli.\nLa Famiglia et le style de l’épée sont tous deux renommés pour se concentrer sans relâche sur une unique proie durant une chasse, conclue par un Coup de Grâce pouvant aussi bien être appelé une dissection. Ces exécutions ne sont pas effectuées dans l’ombre, mais sont à la place fièrement affichées à la vue de tous.\nLe style de l’épée spectaculaire et formidable a accordé à la Famiglia beaucoup d’honneur et de prestige, lui sécurisant éventuellement une place parmi les Sette Famiglie des Ruelles.\nValencina, une maîtresse du Style Palermitain, s’en servait pour chasser et exécuter plusieurs officiers et prétendus soldats aguerris durant la Guerre Enfumée, devenant un véritable “Héros de Guerre”.\nIroniquement, personne n’aurait pu imaginer que sa chute la ferait couler aussi profondément que volait sa renommée."
+    },
+    {
+      "id": 134501,
+      "name": "Tout Mon Corpus a été Donné à Tibia",
+      "desc": "Subit -30% de dégâts de PV et de PSM de [Combustion], [Burst] et [Sinking] ; -30% de Seuil de Déséquilibre augmenté par [Vibration]\nSubit -50% de dégâts de [Laceration]\n\nDébut du Tour : si cette unité est Déséquilibrée, se remet de Déséquilibre. Après cela, gagne 2 [CrimsonTakeDamageUp] (une fois par Affrontement)\n\nFin du Tour : gagne 1 [DefenseDown] au prochain tour toutes les 4 [Combustion] sur soi (15 max)",
+      "flavor": "Bientôt, la pièce maîtresse sera complétée, la raison d’être de la Maison d’Araignées.\nLes Rameaux d’Or sont… des objets intéressants, il est vrai, mais le fait est qu’ils ne sont pas essentiels à la perfection de la pièce maîtresse.\nJe doute qu’il ait été réellement nécessaire de les prendre au risque de faire de Limbus Company un ennemi… Bien que je doive admettre que ces pas de danse négligés ont, en fin de compte, permis de créer un final des plus acceptables.\nDans tous les cas, cette série de circonstances dans laquelle nous nous trouvons était le désir de Rien, ou plus exactement, le plaisir du soi-disant dieu en lequel il croit.\nCependant, l’on pourrait se demander… Est-ce une bénédiction ou une malédiction d’être si irrésistiblement <i>aimé</i> par une telle chose référée comme un “dieu” ? Fuhuhu…"
+    },
+    {
+      "id": 134502,
+      "name": "Corporisme",
+      "desc": "En Touche avec des Capacités Offensives : si cette unité inflige un effet négatif et gagne un effet positif simultanément, regagne 4 PSM à la Fin de l’Attaque\n- Si cette unité est à PSM max en soignant des PSM avec l’effet ci-dessus, gagne 1 [ResultEnhancement] au prochain tour (une fois par tour)"
+    },
+    {
+      "id": 134506,
+      "name": "Permettez-Moi de Brièvement Profiter de l’Exposition de mon Élève",
+      "desc": "Si cette unité a [SupportProtect], <color=#ff6000><mark=#ff000040><b><u>perd 1 [SupportProtect] en Début de Duel</u></b></mark></color> (une fois par Capacité)"
+    },
+    {
+      "id": 134509,
+      "name": "Un Corpus Sain est Synonyme d’un Ingrédient Sain",
+      "desc": "Cette unité inflige +150% de dégâts au Pécheur et à l’Unité d’Assistance avec le plus haut niveau et priorise de les attaquer",
+      "flavor": "“Mais une fois qu’un certain niveau de maîtrise a été atteint, il vaut mieux viser le corpus le plus robuste parmi tes ingrédients.”\n“Tu vois, un corpus sain peut prodiguer d’amples pièces de muscles et d’os, pouvant enrichir la portée et l‘échelle de l’œuvre d’art.”\n“Quelles perspectives excitantes, n’est-ce pas Albina ?”"
+    },
+    {
+      "id": 134510,
+      "name": "Magnum Opus : Tibia",
+      "desc": "Fin du Tour : à 206 [HumanBoneTheRings] et 5 [HumanBloodTheRings], réduit l’Instance de chaque effet de ces nombres respectifs et gagne 1 [MineTheRings]\n\nDébut du Tour : si cette unité a [MineTheRings], utilise une attaque puissante ce tour\n\n<color=#ff6000><mark=#ff000040><b><u>Lorsque touché par une Capacité Offensive avant d’utiliser l’attaque puissante, gagne 1 [PlusCoinValueDown] et 1 [ResultReduction]</u></b></mark></color> (une fois par Capacité ; 3 fois par tour max)",
+      "flavor": "Tibia, l’œuvre de la vie de l’artiste, complétée en brisant son propre corpus et en y versant son sang jusqu’à la dernière goutte, au sens le plus littéral."
+    },
+    {
+      "id": 134604,
+      "name": "Les Visiteurs Doivent Respecter les Règles de la Gallerie",
+      "desc": "Si cette unité a [SupportProtect], <color=#ff6000><mark=#ff000040><b><u>perd 1 [SupportProtect] en Début de Duel</u></b></mark></color> (une fois par Capacité)"
+    },
+    {
+      "id": 134605,
+      "name": "Sélection d’Ingrédient",
+      "desc": "Ce personnage priorise d’attaquer le Pécheur et l’Unité d’Assistance avec le plus bas niveau",
+      "flavor": "“Je récolterai d’abord les muscles et les os du plus faible.”\n“Les ingrédients pourraient ne pas faire l’affaire, mais je serai capable d’en récolter de meilleurs à force de fabriquer et d’afficher d’autres œuvres d’art.”\n“Quelle perspective excitante, n’est-ce pas Fascia ?”"
+    },
+    {
+      "id": 132218,
+      "name": "132218",
+      "desc": "(미사용 패시브)",
+      "flavor": ""
+    },
+    {
+      "id": 132214,
+      "name": "Image Résiduelle du Futur",
+      "desc": "Tous les quelques tours, utilise la Capacité “Adversaire Destiné”\n<color=#ff6000><mark=#ff000040><b><u>Seule la cible de l’attaque de cette unité peut affronter en Duel l’Emplacement de Capacité correspondant</u></b></mark></color>\n\nSi la Capacité “Adversaire Destiné” de cette unité perd un Duel, subit 36 ~ 60 dégâts fixes\n\nFin du Combat : <color=#ff6000><mark=#ff000040><b><u>si toutes les Capacités “Adversaire Destiné” utilisées par cette unité ce tour ont perdu un Duel</u></b></mark></color>, gagne 1 [Vulnerable] au prochain tour"
+    },
+    {
+      "id": 132217,
+      "name": "132217",
+      "desc": "(미사용 패시브)"
+    },
+    {
+      "id": 132219,
+      "name": "Blessure de Lame de l’Étoile Tiansha [天殺星傷]",
+      "desc": "Début de l’Affrontement : gagne [LvDownLittleFingerBossTwo] et 4 [TimeEntangleUnstable]"
+    },
+    {
+      "id": 132222,
+      "name": "De l’Aube au Crépuscule",
+      "desc": "Début du Tour : à 0 PSM ou plus, gagne 1 [SojiAbiAgeFuture]\nGagne 1 [SojiAbiAgeFuture] tous les 2 PSM supérieurs à 0\n\nDébut du Tour : à moins de 0 SP, gagne 1 [SojiAbiAgePast]\nGagne 1 [SojiAbiAgePast] tous les 2 PSM inférieurs à 0",
+      "flavor": "Le passé, le présent, le futur. La myriade d’instants converge ensemble, rendant inutile le discernement du temps. Des soi jeunes et âgés sont tirés dans le moment présent depuis tous les points du continuum temporel."
+    },
+    {
+      "id": 132223,
+      "name": "Effondrement Spatio-temporel d’Image Résiduelle",
+      "desc": "Fin du Tour : gagne 1 [TimeEntangleUnstable] tous les 5 PSM de différence entre les PSM actuels de cette unité et les PSM qu’elle avait au Début du Tour (5 par tour max)\n\nTous les 100 dégâts subis cumulés, perd 1 [TimeEntangleUnstable] (inclut les dégâts de Bouclier)",
+      "flavor": "“Les images résiduelles qui m’ont longtemps enveloppé dans leurs plis sont retirées, couches par couches… et je suis laissée seule dans la perte et la libération.”"
+    },
+    {
+      "id": 133701,
+      "name": "Volonté de la Prescription",
+      "desc": "Début de l’Affrontement : gagne du Bouclier égal à 20% des PV max (demeure à travers cet Affrontement)\n\nDébut du Tour :\n- Gagne une [IndexPrescript_Base_2nd] selon le niveau de [UnlockBuff_Base] sur soi\n- Inflige [IndexPrescriptTargetToPersonality] à un ennemi aléatoire et priorise d’attaquer cet ennemi (exclut un certain comportement)\n\nInflige +2.5% de dégâts à la [IndexPrescriptTargetToPersonality] par [BlessingOfIndexPrescriptEnemy] (20% max)\n- À 9 [BlessingOfIndexPrescriptEnemy], inflige +30% de dégâts à toutes les cibles à la place",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 133702,
+      "name": "Réaliser la Prescription",
+      "desc": "Fin du Tour : si la [IndexPrescript_Base_2nd] a été exécutée ce tour, regagne 15 PSM et gagne (niveau de [UnlockBuff_Base] + 1) [BlessingOfIndexPrescriptEnemy] (une fois par tour)\n\nFin du Tour : si la [IndexPrescript_Base_2nd] n’a pas été exécutée ce tour, gagne 1 [PressureOfPrescript] et 10 [KarmaOfIndexStudent]\n- Si le niveau de [UnlockBuff_Base] de cette unité est inférieur à 2, gagne 1 [BlessingOfIndexPrescriptEnemy]\n- À 9 [BlessingOfIndexPrescriptEnemy], ne gagne pas de [KarmaOfIndexStudent]\n\n- Gagne autant de [EsteemNeeds] que d’[PressureOfPrescript] gagné chaque fois que cette unité gagne [PressureOfPrescript]",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 133703,
+      "name": "Déverrouillage",
+      "desc": "Fin du Tour : à 6/9 [BlessingOfIndexPrescriptEnemy] ou à 80%/60% de PV ou moins,\n- Gagne [UnlockBuff_2]/[UnlockBuff_3]\n- Fait monter les PSM à 45\n- Consomme tout [PressureOfPrescript] et se remet de Déséquilibre\n\nSi [UnlockBuff_Base] a été gagné selon les conditions de PV ci-dessus,\n- Gagne (somme de PSM soignés / 15) [KarmaOfIndexStudent]\n- Fait monter [BlessingOfIndexPrescriptEnemy] à 6/9 si cette unité avait moins de 6/9 [BlessingOfIndexPrescriptEnemy] ; gagne 1 [DefenseDown] et 2 [KarmaOfIndexStudent] au prochain tour par [BlessingOfIndexPrescriptEnemy] gagnées\n\n+10 de Vitesse Min & Max au tour où cette unité utilise son attaque puissante",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 133704,
+      "name": "E.G.O. Fleuri::Procuration",
+      "desc": "Pour cet Affrontement, maintient l’état d’E.G.O. Fleuri[TabExplain]::Procuration\n- Début de l’Affrontement : gagne [UnlockBuff_1] et 3 [BlessingOfIndexPrescriptEnemy]\n- Gagne [Blandishment_Enemy] et un différent ensemble de valeurs de Résistance lorsque dans cet état\n- Les PSM ne descendent pas en-dessous de 0",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 133705,
+      "name": "Concentration",
+      "desc": "À [UnlockBuff_3], applique les effets suivants :\n- [Blandishment_Shin_Enemy], gagne du Bouclier égal à 50% des PV max (dure le reste de cet Affrontement)\n- Intensifie [PressureOfPrescript] en [PressureOfPrescript_2nd] et maximise ses Instances\n- Début du Tour : gagne 1 [PressureOfPrescript_2nd]",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 133801,
+      "name": "La Lame Orthodoxe [整劍]",
+      "desc": "Début de l’Affrontement : gagne 50 [DicipleLittleFinger]"
+    },
+    {
+      "id": 133802,
+      "name": "Entraînement pour Hériter du Nom d’une Étoile",
+      "desc": "Après la Fin de la Capacité Offensive, inflige (# de Pièces Tranchantes ayant touché Critiquement * 10) dégâts Tranchants contre chaque cible (ne peut pas être Déséquilibré suite à ces dégâts)"
+    },
+    {
+      "id": 133803,
+      "name": "Concentration Unique de l’Esprit",
+      "desc": "L’Intensité de [Breath] de cette unité est plafonnée à 25\nToute Intensité de [Breath] au-dessus de 25 sera converti en [DicipleLittleFinger]\n\nGagne autant de [Fugacious] que de [DicipleLittleFinger] perdu chaque fois que cette unité perd une Instance de [DicipleLittleFinger]"
+    },
+    {
+      "id": 133804,
+      "name": "Tranquilité [靜念]",
+      "desc": "Si cette unité a [DicipleLittleFinger], gagne les effets suivants :\n- Les PSM ne descendent pas en-dessous de 0 ; s’ils étaient en-dessous de 0, se remet à 0 PSM\n- Convertit tout dégâts de PSM subis en dégâts de Peine (à l’exception des changements de PSM suite aux “Facteurs de base d’augmentation/de diminution de Santé Mentale”)"
+    },
+    {
+      "id": 133805,
+      "name": "Grâce",
+      "desc": "Dans un Duel contre des cibles qui ne sont pas Ryōshū, -2 de Puissance de Duel\nSubit -20% de dégâts de cibles autres que Ryōshū"
+    },
+    {
+      "id": 133901,
+      "name": "Les Sujets de l’Empereur",
+      "desc": "Début du Tour : gagne 50 [DefenseBug] (gagne 3 [DefenseBug] de moins à chaque tour qui suit ; 20 de réduction max)\n- Si cette unité a [Combustion], [Laceration], [Vibration], [Burst] ou [Sinking], <color=#ff6000><mark=#ff000040><b><u>réduit leur Instensité d’une valeur aléatoire ; puis, perd autant d’Instances de [DefenseBug] que de valeur aléatoire</u></b></mark></color>\n- Si les effets ci-dessus sont à 1 d’Intensité mais à 2 de Compte ou plus, réduit leur Compte à la place\n\n<color=#ff6000><mark=#ff000040><b><u>Si tous les [DefenseBug] ont été perdu</u></b></mark></color> durant la phase de combat, gagne les effets suivants au prochain tour :\n- Gagne 10 [DefenseDown] au lieu de gagner des [DefenseBug]\n- Génère 2 ressources E.G.O. de chacune des 3 Affinités les moins possédées\n- Fin du Tour : retire tous les effets négatifs de cette unité et recommence à gagner des [DefenseBug]",
+      "flavor": "Ils rampent méconus d’entre les lignes qui forment la rencontre de là où se rejoignent les murs."
+    },
+    {
+      "id": 133902,
+      "name": "Le Manteau de l’Empereur",
+      "desc": "Début du Tour : gagne ([DefenseBug] * 40) Bouclier",
+      "flavor": "La Légion de Cafards ne se déplace que pour son Empereur."
+    },
+    {
+      "id": 133903,
+      "name": "La Légion de l’Empereur",
+      "desc": "- En Duel Gagné, inflige 3 [OffenseBug] à la cible\n- En Touche avec une Capacité, inflige 1 [OffenseBug] à la cible",
+      "flavor": "Arrachez, suintez, dégoulinez, gravez, déchirez, dévorez."
+    },
+    {
+      "id": 133904,
+      "name": "Le Sang de l’Empereur",
+      "desc": "Subit -50% de dégâts de PV et de PSM de [Combustion], [Laceration], [Burst] et [Sinking] ; -50% de Seuil de Déséquilibre augmenté par [Vibration]\nNe peut pas être Déséquilibré suite à ce dégât\nDébut du Tour : gagne 2 [ResultReduction] tous les 25% de PV manquants sur le Noyau",
+      "flavor": "“Deviens insensible et endurci à toutes choses.”"
+    },
+    {
+      "id": 133905,
+      "name": "Le Cadeau Déballé",
+      "desc": "La valeur de PSM de cette unité ne peut pas affecter l’issue de ses jets de Pièces, qui est fixée à 50-50\n\n<color=#ff6000><mark=#ff000040><b><u>En Duel Gagné contre des Pécheurs,</u></b></mark></color> perd 5 PSM et inflige -40% de dégâts contre eux\n\n<color=#ff6000><mark=#ff000040><b><u>Lorsqu’en état de Moral Bas ou de Panique</u></b></mark></color>, gagne [ParryingResultDown] et [ResultReduction]\nEn se remettant de Panique, gagne 2 [ResultReduction]",
+      "flavor": "“N’y a-t-il vraiment plus d’emballages en dessous ?”"
+    },
+    {
+      "id": 133906,
+      "name": "La Colère de l’Empereur",
+      "desc": "À 50% de PV, ou lorsque Déséquilibré, se remet de Déséquilibre et retire tous les effets négatifs sur cette unité et gagne un nouveau comportement\nPuis, gagne les effets suivants :\n- Remet les PSM à 0\n- Gagne 50 [DefenseBug]\n- Double la quantité de [OffenseBug] infligés par le Passif “La Légion de l’Empereur”"
+    },
+    {
+      "id": 134701,
+      "name": "Rien, Garde-père de l’Index",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>Subit -50% de dégâts d’Attaques à Sens Unique</u></b></mark></color>\nSubit -50% de dégâts de [Vibration], [Burst] et [Sinking]\nEn soignant des PSM avec [UnlockBuff_Base], si les PSM de cette unité sont inférieurs à 0, fait monter les PSM à 0\n\nDébut de l’Affrontement : gagne [BurningWoundRien_Mask]\n\nÀ 55% de PV, gagne un nouveau comportement\n- Retire tous les effets autres que ceux exclusifs à cette unité\n- Remet les Instances de [StackRienSpecialSkill] à 0",
+      "flavor": "J’ai attendu “le moment”, comme me l’a dit la Prescription.\nMême après que ma fille chérie soit partie, j’ai attendu.\n\nEt après un temps, je fus contacté par Limbus Company et vis que la Porte de Service était ouverte.\nC’est alors que l’appareil sonna et me fit savoir qu’il était enfin temps que je ramène ma fille à la maison."
+    },
+    {
+      "id": 134702,
+      "name": "Appareil d’Oracle [Caducée]",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>Une arme aléatoire est assignée à chaque Pièce. Chaque arme a un effet unique.</u></b></mark></color>\n- [RienWeapon01Hatchet]\n- [RienWeapon02Stiletto]\n- [RienWeapon03Greatsword]\n- [RienWeapon04Rapier]\n- [RienWeapon05Sledgehammer]\n- [RienWeapon06Ultragreatsword]\n- [RienWeapon07Lance]\n- [RienWeapon08Chain]\n- [RienWeapon09Scythe]\n\nEn utilisant une Capacité Offensive, gagne 1 [StackRienSpecialSkill] (9 max)\n- Peut être gagné une fois par Capacité ; ne gagne pas d’Instance de la même Capacité deux fois\n\n<color=#ff6000><mark=#ff000040><b><u>Début du Tour : à 9 Instances de [StackRienSpecialSkill], utilise une Capacité puissante</u></b></mark></color>\n- Après avoir utilisé la Capacité puissante pour la première fois, gagne [Shin_Rien]\n- Réinitialise le plafond par Capacité de [StackRienSpecialSkill]\n- +25 de Vitesse Min & Max\n- Fin du Tour : gagne 1 [Vulnerable] et 2 [ResultReduction] au prochain tour\n\nDébut du Tour 5 : à moins de 9 [StackRienSpecialSkill], met ses Instances à 9 ; puis, gagne (Instances gagnées * 5) [KarmaOfIndexRien]\n- Puis, active cet effet tous les 4 tours",
+      "flavor": "Une fiole de ce qui semble être un métal liquide capable de changer sa forme et sa masse, dont les propriétés sont presque comme celles des Singularités, bruisse à l’intérieur de l’Appareil.\nLa forme prise par le fluide est contingente de la Prescription que reçoit l’Appareil. Les armes qu’il produit dépendent de l’information concernant la cible et de la limite de temps donnée pour mener à bien l’assassinat.\nUn jour, alors qu’il avait reçu une dague trop petite pour la tâche, il décida d’attendre qu’il produise une arme différente. Cependant, malgré l’échéance en approche, il refusa de lui prodiguer une arme correcte ; il n’avait pas d’autres choix que de tuer sa cible avec une fourchette."
+    },
+    {
+      "id": 134703,
+      "name": "Volonté de la Prescription",
+      "desc": "Début du Tour :\n- Gagne une [IndexPrescript_Base_2nd] selon le niveau de [UnlockBuff_Base] sur soi\n- Applique [IndexPrescriptTargetToPersonality] à un Pécheur aléatoire qui n’est pas Ryōshū et priorise de les attaquer\n<color=#ff6000><mark=#ff000040><b><u>- En utilisant une Capacité contre la [IndexPrescriptTargetToPersonality], convertit toutes les Pièces de cette Capacité en [SuperCoin]s</u></b></mark></color>\n· Si la [IndexPrescriptTargetToPersonality] est tuée, ou si cette unité ne peut plus attaquer cette cible, <color=#ff6000><mark=#ff000040><b><u>utilise les Capacités restantes contre un Pécheur aléatoire qui n’est pas Ryōshū (priorise les cibles avec le moins de PV actuels)</u></b></mark></color>\n· Lorsque tous les autres Pécheurs sont tués, l’applique à Ryōshū\n\nInflige +2.5% de dégâts contre la [IndexPrescriptTargetToPersonality] par [BlessingOfIndexPrescriptEnemy] (20% max)\n- À 9 [BlessingOfIndexPrescriptEnemy], inflige +30% de dégâts à toutes les cibles",
+      "flavor": "Souhaitez-vous que je fonde une famille ?\n\n“Ce doit être le destin qui nous a réunis. Penser que je rencontrerai un jour un mari comme toi…”"
+    },
+    {
+      "id": 134704,
+      "name": "Réaliser la Prescription",
+      "desc": "Fin du Tour : si la [IndexPrescript_Base_2nd] a été exécutée ce tour, regagne 10 PSM et gagne 3 [BlessingOfIndexPrescriptEnemy] (une fois par tour)\n\n<color=#ff6000><mark=#ff000040><b><u>Fin du Tour : si la [IndexPrescript_Base_2nd] n’a pas été exécutée ce tour, gagne 8 [KarmaOfIndexRien] et le Pécheur qui avait [IndexPrescriptTargetToPersonality] gagne 1 [ParryingResultUp] au prochain tour</u></b></mark></color>\n- Si cette unité n’a pas [UnlockBuff_Base], gagne 1 [BlessingOfIndexPrescriptEnemy] à la Fin du Tour\n- À 9 [BlessingOfIndexPrescriptEnemy], ne gagne pas de [KarmaOfIndexRien]",
+      "flavor": "Souhaitez-vous que je perde ma famille ?\n\n“Ma douce, je dois faire un rapide voyage dans le nord aujourd’hui.”\n“Ah, d’ailleurs, mon grand. J’attends un paquet cet après-midi, alors veux-tu bien être un ange et le ramasser pour moi, mon chéri ?”"
+    },
+    {
+      "id": 134705,
+      "name": "Déverrouillage",
+      "desc": "Fin du Tour : à 3/6/9 [BlessingOfIndexPrescriptEnemy] ou à 95%/85%/75% de PV ou moins, gagne [UnlockBuff_Rien1]/[UnlockBuff_Rien2]/[UnlockBuff_Rien3]\n\nFin du Tour 1 : lorsqu’en-dessous du niveau 1 de [UnlockBuff_Base], gagne [UnlockBuff_Rien1]\nFin du Tour 4 : lorsqu’en-dessous du niveau 2 de [UnlockBuff_Base], gagne [UnlockBuff_Rien2]\n\nLorsque [UnlockBuff_Base] est activé suite à des conditions de PV ou de Tour :\n- À moins de 3/6/9 Instances de [BlessingOfIndexPrescriptEnemy], les fait monter à 3/6/9\nGagne 10 [KarmaOfIndexRien] au prochain Début de Tour par Instances gagnées",
+      "flavor": "“Suivre les Prescriptions revient à déverrouiller ce qui est verrouillé.”"
+    },
+    {
+      "id": 134801,
+      "name": "Rien, le Père [Imitation]",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>Subit -75% de dégâts d’Attaques à Sens Unique</u></b></mark></color>\nSubit -75% de dégâts de [Vibration], [Burst] et [Sinking]\nEn soignant des PSM avec [UnlockBuff_Base], si les PSM de cette unité sont inférieurs à 15, fait monter les PSM à 15\n\nLorsque cette unité entre dans une nouvelle phase à 55% de PV, gagne les effets suivants :\n- Retire tous les effets autres que ceux exclusifs à cette unité\n- Remet les Instances de [StackRienSpecialSkill] à 0\n- Gagne [IndexPrescript_RienSecondPhase]\n- Convertit [BurningWoundRien_Mask] en [BurningWoundRien]\n- Convertit [KarmaOfIndexRien] en [KarmaOfIndexRien_2Phase] ; puis, gagne 10 Instances de cet effet\n- Si cette unité n’a pas [Shin_Rien], gagne immédiatement cet effet\n\nÀ 25% de PV ou moins, gagne un nouveau comportement et améliore grandement une certaine Capacité",
+      "flavor": "Autrefois, il entretenait une suspicion qu’il se faisait modeler en une imitation de quelqu’un ; il douta de la Volonté et manqua de la défier, puisqu’il ignorait qui il était censé imiter. Ce n’est qu’une fois qu’il était trop tard qu’il comprit son intention et vint à accepter la volonté de la Prescription.\nCe n’est qu’alors que fut complété le faux père."
+    },
+    {
+      "id": 134802,
+      "name": "Appareil d’Oracle [Caducée] - Déverrouillage Total",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>Une arme aléatoire est assignée à chaque Pièce. Chaque arme a un effet unique.</u></b></mark></color>\n- [RienWeapon01Hatchet2phase]\n- [RienWeapon02Stiletto2phase]\n- [RienWeapon03Greatsword2phase]\n- [RienWeapon04Rapier2phase]\n- [RienWeapon05Sledgehammer2phase]\n- [RienWeapon06Ultragreatsword2phase]\n- [RienWeapon07Lance2phase]\n- [RienWeapon08Chain2phase]\n- [RienWeapon09Scythe2phase]\n\nEn utilisant une Capacité Offensive, gagne 1 [StackRienSpecialSkill] (9 max)\n- Peut être gagné une fois par Capacité ; ne gagne pas d’Instance de la même Capacité deux fois\n- Ne gagne pas d’Instance d’une Capacité utilisée uniquement dans un comportement spécial\n\nDébut du Tour : à 9 Instances de [StackRienSpecialSkill], utilise une Capacité puissante\n- Réinitialise le plafond par Capacité de [StackRienSpecialSkill]\n- +25 de Vitesse Min & Max\n- Fin du Tour : gagne 2 [Vulnerable] et 3 [ResultReduction] au prochain tour\n\nActivant le suivant à partir du tour du changement de phase\n- Tous les 4 tours, à moins de 9 [StackRienSpecialSkill], fait monter ses Instances à 9 ; puis, gagne (Instances gagnées * 5) [KarmaOfIndexRien_2Phase]",
+      "flavor": "Une arme inégalée et une malédiction accordée par Hermès, un dieu de la Cité dont les Prescriptions sont distribuées par ondes radio."
+    },
+    {
+      "id": 134803,
+      "name": "Volonté de la Prescription",
+      "desc": "Début du Tour :\n- Applique [IndexPrescriptTargetToPersonality] à un Pécheur aléatoire qui n’est pas Ryōshū et priorise de les attaquer\n<color=#ff6000><mark=#ff000040><b><u>- En utilisant une Capacité contre la [IndexPrescriptTargetToPersonality], convertit toutes les Pièces de cette Capacité en [SuperCoin]s</u></b></mark></color>\n· Si la [IndexPrescriptTargetToPersonality] est tuée, ou si cette unité ne peut plus attaquer cette cible, <color=#ff6000><mark=#ff000040><b><u>utilise les Capacités restantes contre un Pécheur aléatoire qui n’est pas Ryōshū (priorise les cibles avec le moins de PV actuels, sauf si elles ont 1 PV)</u></b></mark></color>\n· Lorsque tous les autres Pécheurs sont tués, l’applique à Ryōshū\n- Gagne autant de [Protection] que de [BlessingOfIndexPrescriptEnemy] (9 max)\n<color=#ff6000><mark=#ff000040><b><u>· Perd 1 Instance tous les 20 [KarmaOfIndexRien_2Phase]</u></b></mark></color>\n\nInflige +5% de dégâts contre la [IndexPrescriptTargetToPersonality] par [BlessingOfIndexPrescriptEnemy] (40% max)\n- À 9 [BlessingOfIndexPrescriptEnemy], inflige +50% de dégâts à toutes les cibles\n\nÀ partir du premier tour après le changement de phase, active les effets suivants :\n- Gagne [BlackNightmare] tous les 2 tours.\n- En gagnant [BlackNightmare], si cette unité a moins de 9 Instances de [StackRienSpecialSkill], active un comportement unique",
+      "flavor": "J’ai élevé une famille.\n\n“Tu n’es pas censé être ici.”\n“Mon travail est encore en cours et j’aimerai les graver en paix afin qu’ils puissent atteindre la beauté la plus exquise que je puisse sculpter.”\n“… Ne me dis pas que tu es ici pour défier la Prescription ?”"
+    },
+    {
+      "id": 134804,
+      "name": "Réaliser la Prescription",
+      "desc": "Fin du Tour : si la [IndexPrescript_Base_2nd] a été exécutée ce tour, regagne 15 PSM et gagne 1 [BlessingOfIndexPrescriptEnemy] (une fois par tour)\n\n<color=#ff6000><mark=#ff000040><b><u>Fin du Tour : si la [IndexPrescript_Base_2nd] n’a pas été exécutée ce tour, gagne 10 [KarmaOfIndexRien_2Phase], perd 1 [BlessingOfIndexPrescriptEnemy] et le Pécheur qui avait [IndexPrescriptTargetToPersonality] gagne 2 [ParryingResultUp] au prochain tour</u></b></mark></color>\n- Si cette unité a utilisé une Capacité puissante ce tour, gagne 15 [KarmaOfIndexRien_2Phase] et perd 3 [BlessingOfIndexPrescriptEnemy] à la place",
+      "flavor": "J’ai… perdu ma famille.\n\n“Ne pars pas…”\n“Ne pars pas… Pas… comme ça… Papa… S’il te plaît… Aide-nous…”"
+    },
+    {
+      "id": 132224,
+      "name": "Le Combat Final",
+      "desc": "Dans cet Affrontement, lorsque cette unité subit des dégâts amenant ses PV à 0, nullifie ces dégâts et applique les effets suivants (une fois par Affrontement):\n- Regagne tous ses PV et retire tous les effets négatifs de cette unité\n- Pour cet Affrontement, gagne 1 [Vulnerable] et fixe [TimeEntangleUnstable] à 1. Subit (# de tous actuels * 10) dégâts fixes à la fin de chaque tour\n- Après cela, termine le tour et le comportement d’attaque devient renforcé",
+      "flavor": "“Tu as été faite pour tout oublier, et moi pour tout me souvenir.”"
+    }
+  ]
+}

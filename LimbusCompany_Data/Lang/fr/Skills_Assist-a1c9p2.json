@@ -1,0 +1,170 @@
+{
+  "dataList": [
+    {
+      "id": 40000601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Obstruction",
+          "desc": "Inflige +50% de dégâts par type d’effet négatif sur la cible (100% max)\n[WhenUse] +1 de Puissance de Base tous les 2 ([Laceration] + [Vibration]) sur la cible (5 max)\n[WhenUse] Gagne +3 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Double Fente Enchaînées",
+          "desc": "Inflige +50% de dégâts par type d’effet négatif sur la cible (100% max)\n[WhenUse] +1 de Puissance de Base tous les 2 ([Laceration] + [Vibration]) sur la cible (5 max)\n[WhenUse] Gagne +3 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lancé de Harpon",
+          "desc": "Inflige +50% de dégâts par type d’effet négatif sur la cible (200% max)\n[WhenUse] Gagne 2 [CriticalDmgUpVespa] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [BeeSting]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Augmente le Seuil de Déséquilibre de 80% des dégâts infligés"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Empalement de Harpon - Le Voici.",
+          "desc": "[CantChangeTarget]\nInflige +50% de dégâts par type d’effet négatif sur la cible (300% max)\n[WhenUse] Gagne 5 [CriticalDmgUpVespa] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [ArtifactBeeSting]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déséquilibre la cible"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Rappel de Harpon",
+          "desc": "[CantDuel]\nInflige +50% de dégâts par type d’effet négatif sur la cible (200% max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Retire le Harpon Niché sur la cible"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000606,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Contre-attaque.",
+          "desc": "[DuelCounter]\nInflige +50% de dégâts par type d’effet négatif sur la cible (100% max)\n[StartBattle] <color=#ff6000><mark color=#ff000040><b><u>Gagne 1 [SupportProtect]</color></mark></b></u>\n[WhenUse] Gagne 2 [ResultEnhancement] et 2 [AttackDmgUp] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000607,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Assist. Défensive",
+          "desc": "[CanDuelGuard]\n[SupportProtect] Capacité exclusive",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

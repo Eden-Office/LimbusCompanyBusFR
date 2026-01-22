@@ -1796,7 +1796,7 @@
     {
       "id": "MeleeCover",
       "name": "Soutien de Mêlée",
-      "desc": "- Si l’unité A applique cet effet à l’unité B : l’unité B effectue une Attaque à Sens-Unique avec la Capacité “Soutien de Mêlée” contre le même ennemi ayant attaqué l’unité A. S’active à la Fin de Capacité de l’unité A.\n- La Capacité utilisée suite à l’effet “Soutien de Mêlée” n’affecte pas la liste de Capacités à venir de l’unité B."
+      "desc": "- Si l’unité A applique cet effet à l’unité B : l’unité B effectue une Attaque à Sens Unique avec la Capacité “Soutien de Mêlée” contre le même ennemi ayant attaqué l’unité A. S’active à la Fin de Capacité de l’unité A.\n- La Capacité utilisée suite à l’effet “Soutien de Mêlée” n’affecte pas la liste de Capacités à venir de l’unité B."
     },
     {
       "id": "RequestedTarget",
@@ -1923,8 +1923,8 @@
     },
     {
       "id": "ActivatedEgoPassive",
-      "name": "Passives E.G.O.",
-      "desc": "Passives E.G.O. activées",
+      "name": "Passifs E.G.O.",
+      "desc": "Passifs E.G.O. activés",
       "summary": "",
       "undefined": "-"
     },
@@ -1952,7 +1952,7 @@
     {
       "id": "SupportProtect",
       "name": "Défense de Secours",
-      "desc": "- Instance Max : 3\n- Lorsqu’un allié s’apprête à subir une Attaque à Sens-Unique ennemie, consomme 1 Instance pour rediriger le ciblage de l’ennemi vers soi ; puis, utilise la Capacité unique qui s’active pour Défense de Secours\n- Lorsqu’il y a plusieurs alliés avec des Instances de Défense de Secours, l’allié avec le plus d’Instance a la plus haute priorité d’activation\n- Ne s’active pas pour les alliés qui ont des Capacités Défensives équipées\n- Expire à la Fin du Tour",
+      "desc": "- Instance Max : 3\n- Lorsqu’un allié s’apprête à subir une Attaque à Sens Unique ennemie, consomme 1 Instance pour rediriger le ciblage de l’ennemi vers soi ; puis, utilise la Capacité unique qui s’active pour Défense de Secours\n- Lorsqu’il y a plusieurs alliés avec des Instances de Défense de Secours, l’allié avec le plus d’Instance a la plus haute priorité d’activation\n- Ne s’active pas pour les alliés qui ont des Capacités Défensives équipées\n- Expire à la Fin du Tour",
       "summary": "",
       "undefined": "-"
     },
@@ -2071,27 +2071,27 @@
     {
       "id": "BulletPropellantAlly",
       "name": "Cartouche de Marque du Tigre",
-      "desc": "- Munition Unique\n- À 8 (somme cumulée de Cartouches de Marque du Tigre et de Cartouches de Marque du Tigre Sauvage dépensées) ou plus, gagne Esprit Implacable - Shin [剛氣-心] au lieu d’Esprit Implacable [剛氣] grâce à la Passive de cette unité\n- Capacité Max : 12",
+      "desc": "- Munition Unique\n- À 8 (somme cumulée de Cartouches de Marque du Tigre et de Cartouches de Marque du Tigre Sauvage dépensées) ou plus, gagne Shin (心) - Étoile Tiantui [天退星] au lieu d’Étoile Tiantui [天退星] grâce au Passif de cette unité\n- Capacité Max : 12",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BulletPropellantSpecialAlly",
       "name": "Cartouche de Marque du Tigre Sauvage",
-      "desc": "- Munition Unique\n- À 8 (somme cumulée de Cartouches de Marque du Tigre et de Cartouches de Marque du Tigre Sauvage dépensées) ou plus, gagne Esprit Implacable - Shin [剛氣-心] au lieu d’Esprit Implacable [剛氣] grâce à la Passive de cette unité\n- S’active de la même manière que Cartouche de Marque du Tigre\n- Capacité Max : 8",
+      "desc": "- Munition Unique\n- À 8 (somme cumulée de Cartouches de Marque du Tigre et de Cartouches de Marque du Tigre Sauvage dépensées) ou plus, gagne Shin (心) - Étoile Tiantui [天退星] au lieu d’Étoile Tiantui [天退星] grâce au Passif de cette unité\n- S’active de la même manière que Cartouche de Marque du Tigre\n- Capacité Max : 8",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "IrritationAlly",
-      "name": "Esprit Implacable [剛氣]",
-      "desc": "- +1 de Vitesse Min & Max\n- Si la Vitesse de cette unité dépasse celle de la cible de 3 ou plus, inflige +(différence de Vitesse * 2.5)% de dégâts (20% max)\n- Inflige +1 d’Intensité et de Compte de Tremblement avec les Capacités de cette unité\n- Si cette unité a dépensé 8 (somme de Cartouche de Marque du Tigre et de Cartouche de Marque du Tigre Sauvage) ou plus : à la Fin du Tour, convertit ce buff en Esprit Implacable - Shin [剛氣-心] au prochain tour\n- Instance max : 1",
+      "name": "Étoile Tiantui [天退星]",
+      "desc": "- +1 de Vitesse Min & Max\n- Si la Vitesse de cette unité dépasse celle de la cible de 3 ou plus, inflige +(différence de Vitesse * 2.5)% de dégâts (20% max)\n- Inflige +1 d’Intensité et de Compte de Tremblement avec les Capacités de cette unité\n- Si cette unité a dépensé 8 (somme de Cartouche de Marque du Tigre et de Cartouche de Marque du Tigre Sauvage) ou plus : à la Fin du Tour, convertit ce buff en Shin (心) - Étoile Tiantui [天退星] au prochain tour\n- Instance max : 1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "HugeIrritationAlly",
-      "name": "Esprit Implacable - Shin [剛氣-心]",
+      "name": "Shin (心) - Étoile Tiantui [天退星]",
       "desc": "- +3 de Vitesse Min & Max\n- Si la Vitesse de cette unité dépasse celle de la cible de 3 ou plus, inflige +(différence de Vitesse * 5)% de dégâts (40% max)\n- Inflige +2 d’Intensité et de Compte de Tremblement avec les Capacités de cette unité\n- Instance max : 1",
       "summary": "",
       "undefined": "-"
@@ -2148,7 +2148,7 @@
     {
       "id": "HeishouCombo",
       "name": "Ordre Prestigieux",
-      "desc": "- Si l’unité A applique cet effet à l’unité B : l’unité B enchaîne avec une Attaque à Sens-Unique avec sa Capacité 3 de Base contre le même ennemi qu’a attaqué l’unité A avec sa Capacité. S’active à la Fin de l’Attaque de l’unité A. (Ne s’active pas en Capacités Renforcées)\n- La Capacité utilisée comme Attaque d’Assistance n’affecte pas la liste des Capacités à venir de l’unité B.\n- Ne s’active pas si la Capacité 3 de l’allié affecté n’est pas débloquée.",
+      "desc": "- Si l’unité A applique cet effet à l’unité B : l’unité B enchaîne avec une Attaque à Sens Unique avec sa Capacité 3 de Base contre le même ennemi qu’a attaqué l’unité A avec sa Capacité. S’active à la Fin de l’Attaque de l’unité A. (Ne s’active pas en Capacités Renforcées)\n- La Capacité utilisée comme Attaque d’Assistance n’affecte pas la liste des Capacités à venir de l’unité B.\n- Ne s’active pas si la Capacité 3 de l’allié affecté n’est pas débloquée.",
       "summary": "",
       "undefined": "-"
     },
@@ -2162,14 +2162,14 @@
     {
       "id": "HeishouAttack",
       "name": "Votre Volonté Guide Ma Lame.",
-      "desc": "- Si l’unité A applique cet effet à l’unité B : l’unité B enchaîne avec une Attaque à Sens-Unique avec sa Capacité 1 contre le même ennemi qu’a attaqué l’unité A avec sa Capacité. S’active à la Fin de l’Attaque de l’unité A.\n- La Capacité utilisée comme Attaque d’Assistance n’affecte pas la liste des Capacités à venir de l’unité B.",
+      "desc": "- Si l’unité A applique cet effet à l’unité B : l’unité B enchaîne avec une Attaque à Sens Unique avec sa Capacité 1 contre le même ennemi qu’a attaqué l’unité A avec sa Capacité. S’active à la Fin de l’Attaque de l’unité A.\n- La Capacité utilisée comme Attaque d’Assistance n’affecte pas la liste des Capacités à venir de l’unité B.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "HeishouSupportProtect",
       "name": "Garde-Seigneur",
-      "desc": "- Défense d’Assistance Unique\n- Instance Max : 1\n- Lorsque Le Seigneur d’Hongyuan Hong Lu s’apprête à subit une Attaque à Sens-Unique d’un ennemi, consomme 1 Instance pour rediriger le ciblage de cet ennemi vers soi ; puis, copie et utilise la Capacité “Garde-Seigneur” du Seigneur d’Hongyuan Hong Lu\n- Lorsqu’il y a plusieurs alliés avec des Instances de Défense d’Assistance, l’allié avec le plus d’Instance a la plus haute priorité d’activation\n- Cet effet compte comme une Défense d’Assistance et compte dans le calcul d’Instances de Défense d’Assistance\n- Expire à la Fin du Tour",
+      "desc": "- Défense d’Assistance Unique\n- Instance Max : 1\n- Lorsque Le Seigneur d’Hongyuan Hong Lu s’apprête à subit une Attaque à Sens Unique d’un ennemi, consomme 1 Instance pour rediriger le ciblage de cet ennemi vers soi ; puis, copie et utilise la Capacité “Garde-Seigneur” du Seigneur d’Hongyuan Hong Lu\n- Lorsqu’il y a plusieurs alliés avec des Instances de Défense d’Assistance, l’allié avec le plus d’Instance a la plus haute priorité d’activation\n- Cet effet compte comme une Défense d’Assistance et compte dans le calcul d’Instances de Défense d’Assistance\n- Expire à la Fin du Tour",
       "summary": "",
       "undefined": "-"
     },
@@ -2183,7 +2183,7 @@
     {
       "id": "HeishouComboCountHonglu",
       "name": "Contamination de Bolus Heishou [黑獣丸染]",
-      "desc": "- Instance Max : 11\n- Renforce Le Seigneur d’Hongyuan selon le Heishou avec lequel il a activé un combo\n- Les effets de Contamination de Bolus Heishou peuvent se cumuler entre eux\n\n· Heishou - Adepte Mao Faust : subit -5% de dégâts de Capacités\n· Heishou - Mao Ryōshū : si la Vitesse de cette unité est plus rapide que celle de la cible, inflige +5% de dégâts\n· Heishou - Mao Outis : inflige +1 de Compte de Déchirure En Touche avec des Attaques à Sens-Unique (une fois par tour)\n· Heishou - Si Rodion : inflige 1 Déchirure en Touche Critique (3 fois par tour)\n· Heishou - Si Gregor : gagne +1 de Compte de Calme en infligeant des dégâts de Déchirure (une fois par tour)",
+      "desc": "- Instance Max : 11\n- Renforce Le Seigneur d’Hongyuan selon le Heishou avec lequel il a activé un combo\n- Les effets de Contamination de Bolus Heishou peuvent se cumuler entre eux\n\n· Heishou - Adepte Mao Faust : subit -5% de dégâts de Capacités\n· Heishou - Mao Ryōshū : si la Vitesse de cette unité est plus rapide que celle de la cible, inflige +5% de dégâts\n· Heishou - Mao Outis : inflige +1 de Compte de Déchirure En Touche avec des Attaques à Sens Unique (une fois par tour)\n· Heishou - Si Rodion : inflige 1 Déchirure en Touche Critique (3 fois par tour)\n· Heishou - Si Gregor : gagne +1 de Compte de Calme en infligeant des dégâts de Déchirure (une fois par tour)",
       "summary": "",
       "undefined": "-"
     },
@@ -2389,21 +2389,21 @@
     {
       "id": "HanafudaOne",
       "name": "Main - Série de la Grue et du Pin",
-      "desc": "- +2 de Puissance de Base de la Capacité 1\n- Lorsque cette unité équipe et utilise une Capacité Offensive de Base ou une Capacité E.G.O. de <color=#ff0000>Colère</color> sur son Emplacement de Capacité le plus à gauche, active les effets de “formation de Main” de la Passive “Koi-Koi”",
+      "desc": "- +2 de Puissance de Base de la Capacité 1\n- Lorsque cette unité équipe et utilise une Capacité Offensive de Base ou une Capacité E.G.O. de <color=#ff0000>Colère</color> sur son Emplacement de Capacité le plus à gauche, active les effets de “formation de Main” du Passif “Koi-Koi”",
       "summary": "Gagne de la Puissance de Base",
       "undefined": "-"
     },
     {
       "id": "HanafudaTwo",
       "name": "Main - Série du Susuki",
-      "desc": "- +1 de Puissance de Base de la Capacité 2\n- Lorsque cette unité équipe et utilise une Capacité Offensive de Base ou une Capacité E.G.O. de <color=#fbc82b>Paresse</color> sur son Emplacement de Capacité le plus à gauche, active les effets de “formation de Main” de la Passive “Koi-Koi”",
+      "desc": "- +1 de Puissance de Base de la Capacité 2\n- Lorsque cette unité équipe et utilise une Capacité Offensive de Base ou une Capacité E.G.O. de <color=#fbc82b>Paresse</color> sur son Emplacement de Capacité le plus à gauche, active les effets de “formation de Main” du Passif “Koi-Koi”",
       "summary": "Gagne de la Puissance de Base",
       "undefined": "-"
     },
     {
       "id": "HanafudaThree",
       "name": "Main - Série du Sakura Bleu",
-      "desc": "- +1 de Puissance de Base de la Capacité 3\n- Lorsque cette unité équipe et utilise une Capacité Offensive de Base ou une Capacité E.G.O. de <color=#15c3ee>Peine</color> sur son Emplacement de Capacité le plus à gauche, active les effets de “formation de Main” de la Passive “Koi-Koi”",
+      "desc": "- +1 de Puissance de Base de la Capacité 3\n- Lorsque cette unité équipe et utilise une Capacité Offensive de Base ou une Capacité E.G.O. de <color=#15c3ee>Peine</color> sur son Emplacement de Capacité le plus à gauche, active les effets de “formation de Main” du Passif “Koi-Koi”",
       "summary": "Gagne de la Puissance de Base",
       "undefined": "-"
     },
@@ -2461,6 +2461,75 @@
       "name": "Posture de la Protectrice",
       "desc": "- Instance max : 2\n- Subit (Instance * 10)% de dégâts en moins\n- Début du Tour : gagne autant de Bouclier que de Calme sur soi (20 max)\n- Fin du Tour : gagne 3 d’Intensité de Calme et +1 de Compte de Calme ; l’Emplacement de Capacité le plus à gauche de cette unité gagne +5 d’Aggro au prochain tour\n- Fin du Tour : perd 1 Instance",
       "summary": "Take less damage",
+      "undefined": "-"
+    },
+    {
+      "id": "TheUdjatOutis",
+      "name": "L’Oudjat [Avant-Garde]",
+      "desc": "- Instance max : 2\n- +3 de Vitesse Min & Max\n- Début du Combat : gagne 1 Protection\n- Gagne les effets suivants durant la Phase de Combat (une fois par Capacité, 3 fois par tour)\n· Lorsque cette unité est la cible principale d’une Capacité Offensive à Sens Unique, réduit de moitié les chances que la première Pièce de la Capacité fasse Pile\n· Début du Duel : au premier Clash, réduit de moitié les chances que la cible fasse Pile avec toutes ses Pièces\n· Aux deux effets précédents, si la cible utilise des Pièces Négatives, réduit de moitié leurs chances de faire Face à la place\n- Fin du Tour : diminue de 1 Instance",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BlueSand",
+      "name": "Sable Bleu",
+      "desc": "- En Duel Perdu, gagne +1 de Compte de Lourdeur (3 fois par tour)\n- Unités avec PSM : change leur Type de Panique en “Sable Bleu”\n- Unités sans PSM : -1 de Vitesse Min & Max\n- Fin du Tour : diminue de 1 Instance\n- Cet effet ne se cumule pas ; l’infliger remplacera la valeur actuelle par la valeur infligée\n- Applique la condition “Unités sans PSM” à certains ennemis qui ont des PSM mais ne pouvant changer de Type de Panique\n\n※ Effets de Panique de Sable Bleu\n- Moral Bas : -1 de Puissance de Duel, -1 de Vitesse Min & Max\n- Panique : -2 de Puissance de Duel, -1 de Vitesse Min & Max",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "SheutFracture",
+      "name": "Fracture Sheut",
+      "desc": "- Instance max : 10\n- Lourdeur Unique\n- Inflige +1% de dégâts supplémentaires avec des Capacités de Paresse et de Peine par Instance\n- À Instance max, gagne 1 Vulnérabilité de Peine (une fois par tour), subit des dégâts de Peine égaux à l’Intensité de Lourdeur sur soi (perd 1 de Compte de Lourdeur) puis expire\n- Si l’unité avec cet effet meurt, transfère la moitié de ses Instances à son allié avec le plus de PSM (arrondi à l’inférieur)\n- Début du Tour : s’il n’y a aucune Identité de la LCA sur le terrain, expire",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "LCA_Bullet",
+      "name": "Munition de Fracture LCA",
+      "desc": "- Capacité max : 16\n- Munition Unique\n- Dépensée par certaines Capacités\n- Certaines attaques s’annulent si elles manquent de Munitions",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "NiddleEGO",
+      "name": "Aiguille",
+      "desc": "- Saignement Unique\n- En subissant des dégâts d’Envie, gagne +1 de Compte de Saignement et réduit l’Instance de cet effet de 1\n- Fin du Tour : gagne 1 Saignement et réduit l’Instance de cet effet de 1",
+      "summary": "Gagne du Compte de Saignement",
+      "undefined": "-"
+    },
+    {
+      "id": "IDMicroChip",
+      "name": "Micropuce de Reg. des Résidents",
+      "desc": "- Instance max : 2\n- Subit +10% de dégâts de Capacités de Colère et d’Envie\n- En Duel Perdu, gagne 1 Brûlure (3 fois par tour)\n- Fin du Tour : perd 1 Instance",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "ExtractCoin",
+      "name": "Pièce d’Excision",
+      "desc": "- Cette Pièce peut détruire les Pièces Incassables lors d’un Duel.\n- Cette pièce ne se casse pas en Duel Perdu.\n- Si une Capacité Offensive a cette Pièce, attaque avec cette Pièce après avoir été touché.\n- En Duel Perdu, fixe la Puissance de Pièce de la Pièce non cassée à 1",
+      "summary": ""
+    },
+    {
+      "id": "ReinforcedTattooIshmael",
+      "name": "Les Tatouages d’Augmentation Stylés du Majeur",
+      "desc": "- Instance max : 10\n- +1 de Puissance Finale pour les Capacités de Base toutes les 5 Instances (2 max)\n- Les Capacités d’Envie et les Capacités Contondantes infligent +5% de dégâts par Instance (50% max)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "ResentmentIshmael",
+      "name": "Le Majeur - Rancune",
+      "desc": "- Instance max : 15\n- Si la cible a Marque de Vengeance, inflige +20% de dégâts",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "HeatingWireIshmael",
+      "name": "Lames Thermiques",
+      "desc": "- Instance max : 2\n- Si la cible touche par des Capacités de Base a Brûlure, regagne 3 PSM (2 fois par tour)\n- Inflige de la Brûlure en infligeant du Saignement avec certaines Pièces de Capacité\n- Fin du Tour : perd 1 Instance",
+      "summary": "",
       "undefined": "-"
     }
   ]

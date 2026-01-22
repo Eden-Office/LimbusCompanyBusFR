@@ -2094,6 +2094,309 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1111401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Maniement de Khopesh",
+          "desc": "[WhenUse] Gagne +3 d’[Aggro] à cet Emplacement de Capacité au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Maniement de Khopesh",
+          "desc": "[WhenUse] Gagne +3 d’[Aggro] à cet Emplacement de Capacité au prochain tour\n<style=\"highlight\">[WhenUse] +1 de Puissance de Pièce tous les 6 ([Sinking] + [Vibration]) sur la cible (2 max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Maniement de Khopesh",
+          "desc": "[WhenUse] Gagne +3 d’[Aggro] à cet Emplacement de Capacité au prochain tour\n[WhenUse] +1 de Puissance de Pièce tous les 6 ([Sinking] + [Vibration]) sur la cible (2 max)\n<style=\"highlight\">[WhenUse] Si cette unité a [TheUdjatOutis], +1 de Puissance de Duel\n[WinDuel] Inflige 2 [SheutFracture]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Protection] au prochain tour (une fois par tour)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Incision Chimérique",
+          "desc": "[WhenUse] Gagne +5 d’[Aggro] à cet Emplacement de Capacité au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Incision Chimérique",
+          "desc": "[WhenUse] Gagne +5 d’[Aggro] à cet Emplacement de Capacité au prochain tour\n<style=\"highlight\">[WhenUse] +1 de Puissance de Pièce tous les 6 ([Sinking] + [Vibration]) sur la cible (2 max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Incision Chimérique",
+          "desc": "[WhenUse] Gagne +5 d’[Aggro] à cet Emplacement de Capacité au prochain tour\n[WhenUse] +1 de Puissance de Pièce tous les 6 ([Sinking] + [Vibration]) sur la cible (2 max)\n<style=\"highlight\">[WhenUse] Si cette unité a [TheUdjatOutis], +2 de Puissance de Duel et inflige +30% de dégâts\n[WinDuel] Inflige 2 [SheutFracture]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Gagne 1 [Protection] au prochain tour (une fois par tour)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111403,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "L’Avant-garde S’assurera que Cela Soit Fait",
+          "desc": "[WhenUse] Gagne +8 d’[Aggro] à cet Emplacement de Capacité au prochain tour\n[WhenUse] +1 de Puissance de Base par [LCA_Bullet] sur le point d’être dépensées par cette Capacité\n[EndSkill] Gagne 2 [Protection] au prochain tour (une fois par tour)\n[EndSkill] À 2 [LCA_Bullet] ou moins, [FullReload] (5 fois par Affrontement)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 2 [LCA_Bullet]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [BlueSand] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [AzureResistDown] (une fois par tour)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 2 [LCA_Bullet]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "L’Avant-garde S’assurera que Cela Soit Fait",
+          "desc": "<style=\"highlight\">Si cette unité a [TheUdjatOutis], inflige +50% de dégâts</style>\n[WhenUse] Gagne +8 d’[Aggro] à cet Emplacement de Capacité au prochain tour\n[WhenUse] À 6 ([Sinking] + [Vibration]) ou plus sur la cible, +1 de Puissance de Pièce\n[WhenUse] +1 de Puissance de Base par [LCA_Bullet] sur le point d’être dépensées par cette Capacité\n[EndSkill] Gagne 2 [Protection] au prochain tour (une fois par tour)\n[EndSkill] À 2 [LCA_Bullet] ou moins, [FullReload] (5 fois par Affrontement)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 2 [LCA_Bullet]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">Inflige +([LCA_Bullet] dépensées * 30)% de dégâts</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [BlueSand] au prochain tour<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [AzureResistDown] (une fois par tour)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 2 [LCA_Bullet]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">Inflige +([LCA_Bullet] dépensées * 30)% de dégâts</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Si la cible a des PSM, déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1\nSi la cible a moins de 0 PSM, inflige 1 [AzureTakeDamageUp] (une fois par tour)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sang-Froid",
+          "desc": "Lorsque touché alors que cette unité a du Bouclier, inflige 3 [Sinking] à l’attaquant (3 fois par tour)\n[WhenUse] Pour chaque [Protection] sur soi, gagne du Bouclier égal à 5% des PV max de cette unité (15% max ; une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Sang-Froid",
+          "desc": "Lorsque touché alors que cette unité a du Bouclier, inflige 3 [Sinking] à l’attaquant (3 fois par tour)\n<style=\"highlight\">[WhenUse] Si cette unité a [TheUdjatOutis], gagne 1 [Protection] (une fois par tour)</style>\n[WhenUse] Pour chaque [Protection] sur soi, gagne du Bouclier égal à 5% des PV max de cette unité (15% max ; une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

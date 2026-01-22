@@ -1,0 +1,1014 @@
+{
+  "dataList": [
+    {
+      "id": "MosesWhiteBreathMental",
+      "name": "Respiration Blanche - Sauvegarder l’Esprit",
+      "desc": "- La quantité de PSM soignés suite aux “Facteurs de Base d’Augmentation de Santé Mentale (PSM)” augmente de 5\n- La quantité de PSM perdus suite aux “Facteurs de Base d’Augmentation de Santé Mentale (PSM)” diminue de 5\n- Fin du Tour : perd 1 Instance",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MosesRedBreathBody",
+      "name": "Respiration Rouge - Renforcer le Corps",
+      "desc": "- Gagne +(PSM/10) Niveaux Offensifs et Niveaux Défensifs (arrondi à l’inférieur)\n- Fin du Tour : perd 1 Instance",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MosesRedBreathShield",
+      "name": "Respiration Rouge - Protéger",
+      "desc": "- Début du Tour : gagne 30 Bouclier pour ce tour",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MosesPurpleBreathBind",
+      "name": "Respiration Violette - Hystérie",
+      "desc": "- Instance max : 4\n- Fin du Tour : perd autant de PV et de PSM que d’Instances\n- Fin du Tour : Moïse perd autant de PV et PSM que d’Instances\n- Gagne 2 Vulnérabilité, 3 Ralentissement et 3 Malus de Pièce Positive au prochain tour\n- Perd 1 Instance lorsque cet effet est déclenché",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MosesRedBreathCharge",
+      "name": "Respiration Profonde - Rouge",
+      "desc": "- Instance max : 3\n- <color=#ff6000><mark color=#ff000040><b><u>Fin du Tour : à Instance max, utilise une Capacité puissante</color></mark></b></u>\n- Consommé en utilisant une certaine Capacité\n- Devient immunisée à la Panique sous cet effet\n- Subit +(Instance * 20)% de dégâts et perd autant de Niveaux Défensifs que d’Instances\n- Fin du Tour : subit 10 dégâts de PV et 20 dégâts de PSM",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Enfonce-toi plus profondément et laisse les images remonter à la surface à chaque respiration."
+    },
+    {
+      "id": "MosesRedBreathAttack",
+      "name": "Respiration Rouge - Repousser les Limites du Corps",
+      "desc": "- Gagne 5 Niveaux Offensifs\n+5 de Puissance de Duel des Capacités de Base",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MosesSin",
+      "name": "Shin (心) - Moïse",
+      "desc": "- +3 Niveaux Défensifs, +2 de Puissance Défensive\n- Si cette unité a perdu des PSM suite aux effets de perte de PSM de ses Capacités, gagne (PSM perdus / 5) Protection au prochain tour",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MosesWarPTSD",
+      "name": "Souvenirs de ce Jour",
+      "desc": "- -?? Niveaux Offensifs de Base\n- -?? Niveaux Défensifs de Base\n- Début du Tour : gagne 5 Accélération",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MosesMiddle_LowMorale",
+      "name": "Corps Brisé et Irréparable",
+      "desc": "- Moral Bas\n- Début du Tour : gagne 1 Vulnérabilité et applique +2 Bonus de Puissance Défensive à Ezra et Vespa",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MosesMiddle_Panic",
+      "name": "Corps Brisé et Irréparable",
+      "desc": "- Panique\n- Gagne 1 Vulnérabilité et utilise “Stabiliser la Respiration”",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "EzraMiddle_LowMorale",
+      "name": "Insécurité : Masque",
+      "desc": "- Moral Bas\n- Perd 1 de Puissance Offensive\n- +2 Niveaux Défensifs",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "EzraMiddle_Panic",
+      "name": "Insécurité : Masque",
+      "desc": "- Panique\n- Perd 1 de Puissance Offensive\n- +3 Niveaux Défensifs",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "DimensionalBagEzraA",
+      "name": "Sac Dimensionnel - Atelier Allas",
+      "desc": "Tire la prochaine arme d’Atelier du Sac Dimensionnel\n- Arme d’Atelier actuelle : Gants de l’Atelier Allas\n- Prochaine arme d’Atelier : Marteau de l’Atelier Nester",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Tout ce qui vient de cet Atelier balance un coup d’accélération, genre bang ! C’est super frappant et satisfaisant !”"
+    },
+    {
+      "id": "DimensionalBagEzraB",
+      "name": "Sac Dimensionnel - Atelier Nester",
+      "desc": "Tire la prochaine arme d’Atelier du Sac Dimensionnel\n- Arme d’Atelier actuelle : Marteau de l’Atelier Nester\n- Prochaine arme d’Atelier : Marteau Perforateur de l’Atelier Screw",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“D’accord, donc… Appuie sur le bouton <i>au moment</i> où ça frappe et bam ! La vibration devient folle et maximise la zone d’impact. C’est trop drôle une fois que t’as le coup de main !”"
+    },
+    {
+      "id": "DimensionalBagEzraC",
+      "name": "Sac Dimensionnel - Atelier Screw",
+      "desc": "Tire la prochaine arme d’Atelier du Sac Dimensionnel\n- Arme d’Atelier actuelle : Marteau Perforateur de l’Atelier Screw\n- Prochaine arme d’Atelier : Gantelets de l’Atelier Namir",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Sérieusement, faut faire gaffe avec les bébés de cet Atelier. Une glissade et tu finis par te zapper tout seul !”"
+    },
+    {
+      "id": "DimensionalBagEzraD",
+      "name": "Sac Dimensionnel - Atelier Namir",
+      "desc": "Tire la prochaine arme d’Atelier du Sac Dimensionnel\n- Arme d’Atelier actuelle : Gantelets de l’Atelier Namir\n- Prochaine arme d’Atelier : Gants de l’Atelier Allas",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Alors celle-là, elle a la Singularité de la G Corp. fourrée dedans : la Sphère ! Voilà comment ça marche : tu flottes vers le haut, tu appuies sur le bouton en plein vol et tu t'écrases avec le poids de la gravité. Mets un bon coup avec et ce sera… brutal.”"
+    },
+    {
+      "id": "DimensionalBagEzraE",
+      "name": "Sac Dimensionnel - Atelier YuRia",
+      "desc": "- Arme d’Atelier actuelle : Golden Retriever Spécial Fait Main de l’Atelier YuRia - Hache Exclusive",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Oh, YuRia ? Ouais, elle est partie complètement solo et son Atelier, c’est en train d’exploser.”\n\n“D’ailleurs, je me souviens encore de quand elle s’est retransformée de petite poupée en une humaine… Haha, c’était un sacré coup de théâtre.”"
+    },
+    {
+      "id": "MiddleFingerEzraSin",
+      "name": "Shin (心) - Ezra",
+      "desc": "- +2 Niveaux Défensifs de Base\n- +1 de Puissance Offensive, +2 de Puissance Défensive\n- Rend 4 PSM supplémentaires à Ezra par Instance de “Respiration Profonde - Rouge” sur Moïse, Ezra et Vespa (12 max)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "VengeanceBookSpider",
+      "name": "Le Livre des Vengeances",
+      "desc": "Lorsque le Garde-Père du Majeur - Matthias ou l’Apprentie du Majeur - Kira utilisent une Capacité pour toucher une cible qui a cet effet, ils regagne 7 PSM (une fois par Capacité)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Enfoirés… Préparez-vous à une annihilation totale et absolue.”"
+    },
+    {
+      "id": "ResentmentSpider",
+      "name": "Le Majeur - Rancune",
+      "desc": "- Instance max : 10\n- Réduit en utilisant certaines Capacités\n- Pour chaque Instance, +1 Niveau Offensif, -2 Niveaux Défensifs et les Capacités de Riposte infligent +5% de dégâts\n- À Instance max, subit +20% de dégâts",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Le Majeur n’oublie jamais."
+    },
+    {
+      "id": "ResentmentSpiderDaughter",
+      "name": "Le Majeur - Rancune",
+      "desc": "- Instance max : 10\n- Réduit en utilisant certaines Capacités\n- Pour chaque Instance, +1 Niveau Offensif, -2 Niveaux Défensifs et les Capacités de Riposte infligent +5% de dégâts\n- À Instance max, subit +20% de dégâts",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "GotACompliment",
+      "name": "J’ai Été Complimentée !",
+      "desc": "- Instance max : 10\n- Réduit de 1 lorsque cette unité est touchée par 2 Capacités\n- +1 de Puissance de Base toutes les 2 Instances\n- Les Capacités Tranchantes et Contondantes infligent +8% de dégâts par Instance",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "DaughterEducationSpider",
+      "name": "Mate-Moi Ça, Gamine !",
+      "desc": "- Instance max : 10\n- Réduit de 1 lorsque cette unité est touchée par 2 Capacités\n- +1 de Puissance de Base toutes les 2 Instances\n- Les Capacités Tranchantes et Contondantes infligent +5% de dégâts par Instance",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "ReinforcedTattooSpider",
+      "name": "Le Majeur - Tatouages des Vengeances [<s>Aîné</s>]",
+      "desc": "- Instance max : 2\n- Expire à la Fin du Tour\n- Inflige +10% de dégâts Contondants ou d’Envie",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Un Aîné dont le prestige fut assuré par sa loyauté ; un idiot ayant abandonné précisément cela pour une épée."
+    },
+    {
+      "id": "ReinforcedTattooSpiderDaughter",
+      "name": "Les Tatouages d’Augmentation Stylés du Majeur",
+      "desc": "- Instance max : 3\n- Expire à la Fin du Tour\n- Inflige +10% de dégâts Contondants ou d’Envie",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "HeatingWireOnSpider",
+      "name": "Lame Thermique ON",
+      "desc": "En Touche avec des Pièces de Capacité de Lame Thermique : inflige de l’Intensité et du Compte de Brûlure supplémentaires égaux à l’Intensité et au Compte de Saignement infligés",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Elle a pas aussi bien que celle de papa, mais je peux aussi trancher et crépiter en même temps !\nMais contrairement à celle de papa, je dois la laisser refroidir de temps en temps…"
+    },
+    {
+      "id": "HeatingWireOffSpider",
+      "name": "Lame Thermique OFF",
+      "desc": "Les effets additionnels des Capacités de Lame Thermique ne s’activent pas",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Les câbles thermiques de l’épée sont désactivés."
+    },
+    {
+      "id": "MiddleFatherGuts",
+      "name": "Endurance Ridicule",
+      "desc": "- Réduit tous les dégâts reçus à 1 (inclut les dégâts de Mot-Clé)\n- En Duel Gagné, regagne (compte de Clash * 5) PSM supplémentaires (15 max)\n- Fin du Tour : si cette unité a perdu des PSM ce tour suite à ses effets de Capacité, gagne 3 Bonus de Dégâts au prochain tour",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“J’ai pas besoin de petites roues de merde comme ce “Shin (心)”. Je dois juste tirer autant de puissance que possible de ces tatouages et serrer les dents et j’écraserai vos jolis petits tours sans problème.”"
+    },
+    {
+      "id": "MiddleFingerDaddy_LowMorale",
+      "name": "Carnage Déchaîné",
+      "desc": "- Moral Bas\nDébut du Tour : gagne 2 Bonus de Puissance Offensive et 4 Malus de Niveau Défensif ; gagne 1 Bonus de Dégâts tous les 30 dégâts de PV subis au dernier tour (5 max)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MiddleFingerDaddy_Panic",
+      "name": "Carnage Déchaîné",
+      "desc": "- Panique\nDébut du Tour : gagne 3 Bonus de Puissance Offensive et 5 Malus de Niveau Défensif ; gagne 1 Bonus de Dégâts tous les 25 dégâts de PV subis au dernier tour (5 max)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MiddleFingerDaughter_LowMorale",
+      "name": "Ferveur",
+      "desc": "- Moral Bas\nDébut du Tour : gagne 2 Malus de Niveau Défensif ; gagne 1 Bonus de Dégâts tous les 30 dégâts de PV subis au dernier tour (5 max)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MiddleFingerDaughter_Panic",
+      "name": "Ferveur",
+      "desc": "- Panique\nDébut du Tour : gagne 1 Bonus de Puissance Offensive et 3 Malus de Niveau Défensif ; gagne 1 Bonus de Dégâts tous les 25 dégâts de PV subis au dernier tour (5 max)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "HumanBoneTheRings",
+      "name": "Ingrédient Corpus (Os)",
+      "desc": "- Instance max : 206\n- Charge Unique (Intensité fixe)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "HumanBloodTheRings",
+      "name": "Ingrédient Corpus (Sang)",
+      "desc": "- Instance max : 5\n- Charge Unique (Intensité fixe)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "LivingSpecimenTheRings",
+      "name": "Théâtre du Corpus",
+      "desc": "- Entre dans un état “immobilisé” où les effets, PV et PSM de cette unité ne peuvent être changés. Forme un Théâtre du Corpus connecté à cette unité",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MineTheRings",
+      "name": "Œuvre d’Art : Tibia",
+      "desc": "- Début du Tour : gagne 4 Bonus de Puissance et 2 Bonus de Puissance Tranchante\n- En infligeant du Saignement avec des Capacités Offensives, inflige 2 d’Intensité de Saignement supplémentaire",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "ObservationTheRings",
+      "name": "Observer le Tableau",
+      "desc": "- -20 Niveaux Offensifs de Base\n- -20 Niveaux Défensifs de Base\n- Début du Tour : gagne 7 Protection si l’Apprentie de l’Annulaire n’est pas battue en retraite de cet Affrontement",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“L’appréciation d’œuvres d’art dans une galerie nécessite une contemplation sans précipitation. Veuillez garder à l’esprit que l’impatience ternit l’appréciation de l’art.”"
+    },
+    {
+      "id": "RedemptionTheRings",
+      "name": "Blessure Effusive d’Ingrédient",
+      "desc": "Gagne 2 Malus de Niveau Offensif en utilisant une Capacité (3 fois par tour max)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "SpecimenTheRings",
+      "name": "L’Exposition est Complète !",
+      "desc": "Perd l’Affrontement lorsque tous les Pécheurs et les Unités d’Assistance tombent sous l’effet de Théâtre du Corpus",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Cet emplacement précis et délicat où tous les éléments de chair et de muscles sont arrangés à la perfection."
+    },
+    {
+      "id": "KAmpouleA1C94TH",
+      "name": "Ampoule d’Urgence de la K Corp.",
+      "desc": "Si au moins un allié autre que cette unité est en vie, active les effets suivants en subissant des dégâts qui auraient dû réduire les PV de cette unité à 0 :\n- Si Déséquilibré, se remet de Déséquilibre\n- Regagne tous ses PV\n- Tous les alliés perdent 1 Ampoule d’Urgence de la K Corp.\n- Cet effet s’active avant les effets “X ne réduit pas les PV en dessous de 1” des Passifs d’Identités & d’E.G.O.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "LanternHohenheimBigBird",
+      "name": "Lampe",
+      "desc": "- Instance max : 20\n- Gagne 1 Ralentissement toutes les 2 Instances au prochain tour (10 max)\n- Fin du Tour : gagne +(Instance / # d’Emplacements de cette unité) d’Aggro à chaque Emplacement de Capacité de cette unité au prochain tour",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "DelusionHohenheimBigBird",
+      "name": "Ébloui",
+      "desc": "- Début du Tour : si cette unité n’est pas Déséquilibrée, la Capacité Offensive équipée dans le dernier Emplacement de Capacité de cette unité priorise Hohenheim et ne peut pas être redirigé\n- Cet effet expire à la fin du tour où il s’est activé",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "LvUpHohenheimBigBird",
+      "name": "Boost de Syntonisation E.G.O.",
+      "desc": "- +15 Niveaux Offensifs de Base\n- +15 Niveaux Défensifs de Base",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "LvUpHohenheimBigBird_Over",
+      "name": "Surchage de Syntonisation E.G.O.",
+      "desc": "- +15 Niveaux Offensifs de Base\n- +15 Niveaux Défensifs de Base\n- Fin du Tour : fait monter les Instances de Lampe à 20 ; perd 2 PV et 1 PSM par Instance gagnée (cet effet ne réduit pas les PV de cette unité en-dessosu de 1)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Suraspirer le pouvoir de l’E.G.O. Extrait"
+    },
+    {
+      "id": "HohenheimBigBird_LowMorale",
+      "name": "Vague de Somnolence",
+      "desc": "- Moral Bas\n- Gagne 1 Lampe de moins avec les Capacités",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "HohenheimBigBird_Panic",
+      "name": "Vague de Somnolence",
+      "desc": "- Panique\n- N’agit pas pendant ce tour",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "LvUpFireFly",
+      "name": "Boost de Syntonisation E.G.O.",
+      "desc": "- +10 Niveaux Offensifs de Base\n- +10 Niveaux Défensifs de Base",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "LvUpFireFly_Over",
+      "name": "Surchage de Syntonisation E.G.O.",
+      "desc": "- +10 Niveaux Offensifs de Base\n- +10 Niveaux Défensifs de Base\n- Fin du Tour : gagne 4 Brûlure et perd 5 PSM",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Suraspirer le pouvoir de l’E.G.O. Extrait"
+    },
+    {
+      "id": "LCEFireFly_LowMorale",
+      "name": "Érosion Dégradée",
+      "desc": "- Moral Bas\n- Début du Tour : gagne 1 Vulnérabilité",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "LCEFireFly_Panic",
+      "name": "Érosion Dégradée",
+      "desc": "- Panique\n- Début du Tour : gagne 1 Vulnérabilité et 5 Brûlure",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Cubism_LowMorale",
+      "name": "Art Démodé",
+      "desc": "- Moral Bas\n- Début du Tour : perd 5 PV et gagne 1 Bonus de Niveau Offensif",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Cubism_Panic",
+      "name": "Art Démodé",
+      "desc": "- Panique\n- Début du Tour : perd 5 PV et gagne 1 Bonus de Niveau Offensif",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "FutureEyeOn",
+      "name": "Œil de Précognition",
+      "desc": "- Instance max : 30\n- +2 de Puissance de Duel\n- Début du Tour : gagne 10 Instances\n- Début du Tour : regagne (Instance / 4) PSM",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“L’œil ne possède pas de pouvoir surnaturel qui montre à son utilisateur un avenir prédestiné. Il s’apparente davantage à un dispositif de calcul qui analyse tout ce qu’il voit et donne le scénario le plus probable dans les instants à venir.”"
+    },
+    {
+      "id": "FutureEyeOff",
+      "name": "Œil de Précognition - Surchauffe",
+      "desc": "- Instance max : 30\n- Les Capacités Offensives infligent -20% de dégâts\n- Convertit toutes les Pièces des Capacités qui dépensent des Cartouches d’Accélération en Pièces Incassables\n- Début du Tour : gagne 10 Instances\n- À 30 Instances, se convertit en “Œil de Précognition”",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "LookingFuture",
+      "name": "Futur en Accélération",
+      "desc": "- Instance max : 10\n- +1 de Puissance de Duel par Instance\n- +1 de Puissance de Pièce toutes les 5 Instances\n- Expire à la Fin de la Capacité",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Le Style Palermitain est connu pour accélérer plus un duel dure."
+    },
+    {
+      "id": "ObsessionAndGreed",
+      "name": "Shin (心) - Valencina",
+      "desc": "- +3 Niveaux Défensifs par instance de Duel Perdu au dernier tour (6 max)\n- Inflige +3% de dégâts par Intensité de Calme sur soi (15% max)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "AccelBullet",
+      "name": "Cartouche d’Accélération",
+      "desc": "- Capacité max : 10\n- Munition Unique\n- Dépensée par certaines Capacités",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "TeachersPrey",
+      "name": "Cible de Jeu",
+      "desc": "Fixe la Vitesse de cette unité à 1 ; toutes les Capacités Offensives de “Garde-père du Pouce - Valencina” ciblent cette unité",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Les proies marquées par la Famiglia Bognatelli seront chassées sans faute."
+    },
+    {
+      "id": "AaCfPcBiv2",
+      "iconId": "AaCfPcBi",
+      "name": "Superthermogenèse",
+      "desc": "Fin du Tour : subit des dégâts fixes égaux à (Instance * 0.5)% des PV max, puis l’effet expire",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "VergiliusSin",
+      "name": "Shin (心) - Le Regard Rouge",
+      "desc": "Inflige +50% de dégâts de Colère",
+      "summary": "Inflige plus de dégâts",
+      "undefined": "-"
+    },
+    {
+      "id": "BloodBranch",
+      "name": "Sang Aveuglant [盲血]",
+      "desc": "Gagne 1 Ralentissement au prochain tour par Instance\nFin du Tour : subit (Intensité de Saignement * Instance) dégâts de PV\nDébut du Combat : gagne 3 Saignement par Instance, puis expire",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Si le sang peut être confiné dans un regard, il peut aussi être accumulé et condensé pour le percer. Il peut également, bien sûr, être utilisé pour aveugler. D’accord ?”"
+    },
+    {
+      "id": "Gebura_Reinforcement",
+      "name": "Lame de Gebura",
+      "desc": "- Convertit toutes les Pièces de Capacité en Pièces Incassables\n- Inflige +100% de dégâts\n- Les Capacités à Pièces Positives gagnent +1 de Puissance de Pièce ; les Capacités à Pièces Négatives gagnent +1 de Puissance Finale\n- Pour ce tour, cette unité ne peut pas être Déséquilibrée par la moindre source de dégâts\n- À moins de 10 PV, fait monter les PV à 10\n- Pour ce tour, les PV de cette unité ne descendent pas en-dessous de 10\n- Pour ce tour, toutes les Touches de Pièces de Capacités Offensives de Base et de Capacités de Riposte soignent de 10% des dégâts infligés (soin max de chaque Capacité : 100)\n- Expire à la Fin du Tour",
+      "summary": "Lame de Gebura activée",
+      "undefined": "-"
+    },
+    {
+      "id": "ThreeMirrorpartYiSang",
+      "name": "Monde Brisé",
+      "desc": "- Instance max : 1\n- Expire à la Fin du Tour\n- Subit 1.2 fois plus de dégâts de Brûlure (arrondi à l’inférieur ; exclut les Brûlures Uniques)\n- Subit +10% de dégâts de Capacités de Colère et de Peine de Yi Sang",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "RyoshuEGOPF",
+      "name": "Vie Entremêlée [羅生]",
+      "desc": "Instance max : 999\n- Gagne 1 Instance par dégâts de PV infligés par les Capacités de Ryōshū\n- Deal +1% damage with Base Skills for every 33 Stack (max 10%)",
+      "summary": " ",
+      "undefined": "-",
+      "flavor": "“Déformée et entremêlée outre mesure, attachée et tissée en un cocon. Fil. Vie. Monde.”"
+    },
+    {
+      "id": "OffenseBug",
+      "name": "Nuisible Blessant [Cafards]",
+      "desc": "- Instance max : 50\n- Perd 1% de PV max par Instance\n- Début du Combat : subit (Instance * 12) dégâts fixes\n- Chaque fois que cette unité perd des Instances de cet effet, gagne autant de ressources E.G.O. d’Affinités aléatoires que d’Instances perdues (15 max)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Cette créature est inégalée parmi celles méprisées comme des vermines.”"
+    },
+    {
+      "id": "DefenseBug",
+      "name": "Nuisible Protecteur [Cafards]",
+      "desc": "- Instance max : 50\n- Chaque fois que cette unité subit de l’Intensité ou du Compte (de Bûlure, de Saignement, de Tremblement, de Déchirure ou de Lourdeur), au lieu de gagner ces effets, perd la même quantité d’Instance de cet effet à la place\n- Expire à la Fin du Tour",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Ils sont sinistres et entêtés, sans parler d’être tenaces.”"
+    },
+    {
+      "id": "LvDownLittleFingerBossTwo",
+      "name": "Blessure de Lame de l’Étoile Tiansha [天殺星傷]",
+      "desc": "- -15 Niveaux Offensifs de Base\n- -15 Niveaux Défensifs de Base",
+      "summary": "- Perd du Niveau Offensif & Défensif de Base",
+      "undefined": "-",
+      "flavor": "Une coupure de la Lame - Arayashiki de l’Étoile Tiansha laisse une blessure semblant brûler avec un feu impitoyable.\nCette marque de brûlure ne peut jamais s’effacer, puisque le porteur a tranché à travers l’existence de son adversaire au prix de la sienne."
+    },
+    {
+      "id": "SojiAbiAgePast",
+      "name": "Flux Rétrograde - Amertume",
+      "desc": "- Instance max : 20\n- Inflige et subit +2% de dégâts par Instance",
+      "summary": "Inflige et subit plus de dégâts",
+      "undefined": "-",
+      "flavor": "“Le souvenir d’avoir été oubliée et abandonnée par toi refuse de partir… comme un nœud de fil qui refuse de se défaire.”"
+    },
+    {
+      "id": "SojiAbiAgeFuture",
+      "name": "Flux Antérograde - Compassion",
+      "desc": "- Instance max : 20\n- Inflige et subit -2% de dégâts par Instance",
+      "summary": "Inflige et subit moins de dégâts",
+      "undefined": "-",
+      "flavor": "“Peut-être que c’était le passage du temps et les années pesant sur moi qui m’ont conduit à croire que je pouvais enfin te comprendre et t’accepter.”"
+    },
+    {
+      "id": "TimeEntangleUnstable",
+      "name": "Paroxysme - Enchevêtrement d’Images Résiduelles",
+      "desc": "- Instance max : 10\n- En Touche, active les effets suivants selon l’Instance :\n  · Inflige (dégâts finaux de la Pièce / 10) dégâts Tranchants (s’active (# d’Instances) fois)\n  · 2 ou plus : inflige 1 Brûlure\n  · 3 ou plus : inflige 1 Saignement\n  · 4 ou plus : inflige 1 Ralentissement au prochain tour\n  · 5 ou plus : inflige 1 Poison",
+      "summary": "Applique des effets additionnels aux attaques de cette unité selon l’Instance",
+      "undefined": "-"
+    },
+    {
+      "id": "WillAwakenSinclair",
+      "name": "Shin (心) - Un Certain Sinclair",
+      "desc": "- +3 de Vitesse Min & Max\n- Inflige +20% de dégâts en Attaque à Sens Unique\n- Gagne 2 d’Intensité de Calme supplémentaires et +1 de Compte de Calme supplémentaire avec les Capacités\n- À 20 PSM ou plus, +10% de chance de faire Pile avec des Pièces Positives\n- Fin du Tour : gagne 1 Accélération au prochain tour tous les 10 PSM (4 max)\n- Fin du Tour : gagne 1 Bonus de Puissance au prochain tour tous les 20 PSM (2 max)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "SignAwakenSinclair",
+      "name": "Symbole - Manifestation du Futur",
+      "desc": "- En affrontant en Duel des cibles de plus haut niveau, +2 de Puissance de Duel\n- Fin du Tour : si Déséquilibré, se remet de Déséquilibre au prochain tour",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Abraxas"
+    },
+    {
+      "id": "LimitedAwakenSinclair",
+      "name": "Umbra Descellée",
+      "desc": "- Inflige +10% de dégâts avec les Capacités Offensives de Base\n- Début du Tour : gagne 1 Bonus de Pièce Positive",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Veteran_LowMorale",
+      "name": "De la Seconde Guerre Enfumée",
+      "desc": "- Moral Bas\n- Début du Tour : gagne 1 Vulnérabilité\n- +2 d’Efficacité de Soin de PSM",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Veteran_Panic",
+      "name": "De la Seconde Guerre Enfumée",
+      "desc": "- Panique\n- Début du Tour : gagne 2 Vulnérabilité et 2 Bonus de Puissance de Duel",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MiddleFatherSwordOne",
+      "name": "Épée Scellée",
+      "desc": "Débloque l’accès à certaines Capacités selon l’état de l’épée.",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Un trio d’adelphes très unis voyagea ensemble dans les profondeurs des Ruines."
+    },
+    {
+      "id": "MiddleFatherSwordTwo",
+      "name": "Premier Sceau Retiré",
+      "desc": "Débloque l’accès à certaines Capacités selon l’état de l’épée.",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Là-bas, ils trouvèrent une caverne étouffante où s’écoulait une rivière de lave, emportant des bâtiments dans ses courants.\nIls remontèrent la rivière jusqu’à la source de sa chaleur et trouvèrent une épée… ne pouvant difficilement être appelée une épée. Elle ressemblait plus à un bout de métal chauffé à blanc."
+    },
+    {
+      "id": "MiddleFatherSwordThree",
+      "name": "Second Sceau Retiré",
+      "desc": "Débloque l’accès à certaines Capacités selon l’état de l’épée.",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Étant le frère le plus âgé, je déclare que cette épée est à moi.”\nLa déclaration du plus vieux frère alluma la flamme inextinguible du désir et de l’envie du plus jeune frère.\n\nAlors, j’ai tué mon frère et ma sœur et je me suis approprié l’épée. Je n’ai laissé aucune preuve derrière moi.\nMais les regards me fixaient encore avec doute et lorsqu’ils m’ont jeté dans cet enfer, je suis tombé sans résister.\nMalgré tout, je n’ai pas perdu mon sourire.\nPuisque l’épée des légendes était à moi."
+    },
+    {
+      "id": "MiddleFatherSwordFour",
+      "name": "Lævateinn",
+      "desc": "Débloque l’accès à certaines Capacités selon l’état de l’épée.\nDébut du Tour : inflige 5 Brûlure et +2 de Compte de Brûlure à toutes les unités",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Ironiquement, la lame était par-delà les compétences de maniement de Matthias.\nBien sûr, il n’aurait pas pu tenir cette épée s’il n’en avait pas eu une aptitude. C’était simplement une Relique bien capricieuse.\nNéanmoins, la vérité était que son aptitude était bien loin d’être suffisante pour pouvoir utiliser cette arme à son plein potentiel.\nMais l’homme était indifférent.\nTout ce qui comptait était que cette même épée des légendes qu’il rêvait de brandir depuis son enfance était en sa possession, agitée selon sa volonté."
+    },
+    {
+      "id": "SojiAbiBuffOne",
+      "name": "Premier Corbeau de l’Aube (雞鳴)",
+      "desc": "Peut affronter en Duel l’Emplacement spécifique de l’ennemi",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "SojiAbiBuffTwo",
+      "name": "La Descente du Soleil (日入)",
+      "desc": "Peut affronter en Duel l’Emplacement spécifique de l’ennemi",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "SojiAbiBuffThree",
+      "name": "Lueur du Crépuscule (黃昏)",
+      "desc": "Peut affronter en Duel l’Emplacement spécifique de l’ennemi",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "RyoshuParrySojiTwo",
+      "name": "Souvenir Détranché",
+      "desc": "- Inflige et subit +20% de dégâts du Garde-père de l’Auriculaire ; En Duel Gagné, inflige 5 dégâts de PSM au Garde-père de l’Auriculaire\n- En subissant des dégâts devant Déséquilibrer cette unité, n’est pas Déséquilibrée et retirer le Seuil de Déséquilibre correspondant ; puis, gagne 1 Bonus de Puissance Offensive au prochain tour\n- Ne peut pas Battre en Retraite",
+      "summary": "Effet exclusif de Ryōshū",
+      "undefined": "-"
+    },
+    {
+      "id": "RyoshuParrySojiThree",
+      "name": "Temps Détranchable",
+      "desc": "- Inflige et subit +20% de dégâts du Garde-père de l’Auriculaire ; En Duel Gagné, inflige 5 dégâts de PSM au Garde-père de l’Auriculaire\n- En subissant des dégâts devant Déséquilibrer cette unité, n’est pas Déséquilibrée et retirer le Seuil de Déséquilibre correspondant ; puis, gagne 1 Bonus de Puissance Offensive au prochain tour\n- Pour cet Affrontement : après avoir utilisé une Capacité, gagne 1 Ressource E.G.O. de l’Affinité de la Capacité et 1 Ressource E.G.O. de la ressource E.G.O. la moins possédée (2 fois par tour)\n- Ne peut pas Battre en Retraite (alliés inclus)",
+      "summary": "Effet exclusif de Ryōshū",
+      "undefined": "-"
+    },
+    {
+      "id": "HeavenlyKillerStar",
+      "name": "Lame de l'Étoile Tiansha - Arayashiki [天殺星刀阿賴耶識]",
+      "desc": "- +6 de Vitesse Min & Max\n- +6 Niveaux Offensifs\n- Inflige 3 d’Intensité de Saignement supplémentaires avec les Capacités\n- Début du Tour : gagne 3 Bonus de Niveau Offensif par ennemi tué cet Affrontement (6 max)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Les cieux eux-mêmes ne sont pas épargnés : le ciel, la terre, l’homme et le soi. Cette étoile ne s’élève que pour celui percevant l’existence et le temps comme un tout pour les trancher entièrement.”"
+    },
+    {
+      "id": "CutoffRyoshu",
+      "name": "Trancher le Fil [切絲]",
+      "desc": "- Début du Tour :\n· Gagne 3 Saignement et +3 de Compte de Saignement\n· Subit (Instance / 3) dégâts Tranchants\n- Lorsque touché, subit (Instance / 5) dégâts Tranchants\n- Plus cet effet s’accumule…\n- Instance max : 100",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Que tout soit tranché : toi, moi, tout ce qui a été et tout ce qui sera.”\n\n“Une fois que ce sera fait… Je reprendrai Araya.”"
+    },
+    {
+      "id": "CutbondRyoshu",
+      "name": "Muga [無我]",
+      "desc": "- Début du Tour : gagne 1 Bonus de Niveau Offensif et 1 Bonus de Niveau Défensif toutes les 10 Instances\n- Plus cet effet s’accumule…\n- Instance max : 100",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Alors je dois me retenir d’utiliser la lame. Et une fois que je serai prête, je retournerai dans cette Maison.”"
+    },
+    {
+      "id": "EsteemNeeds",
+      "name": "Désir de Reconnaissance",
+      "desc": "- Pour chaque Instance, inflige et subit +5% de dégâts de Ryōshū (100% max)\n- +1 de Puissance Finale toutes les 5 Instances en attaquant Ryōshū comme cible principale (4 max)\n- À 10 Instances ou plus, perd 5 PSM en Duel Perdu\n- Instance max : 20",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Quand je serai rentrée, m-monsieur Rien me dira que j’ai fait du bon travail…”"
+    },
+    {
+      "id": "Fugacious",
+      "name": "Voie de la Lame",
+      "desc": "- Début du Tour :\n· Gagne 1 Bonus de Niveau Offensif et 1 Malus de Niveau Défensif toutes les 5 Instances\n· Gagne 1 Bonus de Dégâts et 1 Vulnérabilité toutes les 10 Instances\n- Instance max : 50",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Qu’importe si ce rêve est éphémère.\nBien que je puisse échouer à hériter du nom d’une Étoile dans cette vie, suivre la Voie de la Lame aiguisera et temperera mon épée."
+    },
+    {
+      "id": "ObsessedTeacher_LowMorale",
+      "name": "Honte de la Famille",
+      "desc": "- Début du Tour : gagne 1 Bonus de DGT Tranchants, 1 Bonus de Puissance de Duel et 1 Vulnérabilité\n- Ne peut pas gagner de Mang en utilisant de Capacités",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "ObsessedTeacher_Panic",
+      "name": "Honte de la Famille",
+      "desc": "- Début du Tour : gagne 2 Bonus de DGT Tranchants, 2 Bonus de Puissance de Duel et 2 Vulnérabilité\n- Ne peut pas gagner de Mang en utilisant de Capacités",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "AgainstMyWill_LowMorale",
+      "name": "“T-tuez… tuez-moi…”",
+      "desc": "Début du Tour : gagne 8 Malus de Puissance de Duel et 5 Malus de Puissance",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "AgainstMyWill_Panic",
+      "name": "“T-tuez… tuez-moi…”",
+      "desc": "Début du Tour : gagne 10 Malus de Puissance de Duel et 5 Malus de Puissance",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "IndexPrescriptRien_0",
+      "name": "Prescription : [Appareil] I",
+      "desc": "Attaquez et touchez une Cible de la Prescription avant la fin du premier tour.\n\n- Début du Tour : gagne cet effet lorsque cette unité n’a pas de Déverrouillage\n- Le maximum de Grâce de la Prescription cumulable avec cette Prescription est limité à 3",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "IndexPrescriptRien_1",
+      "name": "Prescription : [Appareil] II",
+      "desc": "Attaquez et touchez une Cible de la Prescription ; ou, avant la fin de ce tour, touchez avec 4 attaques ou plus. À compléter avant le 4ème tour.\n\n- Début du Tour : gagne cet effet si cette unité a Déverrouillage - 1\n- Le maximum de Grâce de la Prescription cumulable avec cette Prescription est limité à 6",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "IndexPrescriptRien_2",
+      "name": "Prescription : [Appareil] III",
+      "desc": "Utilisez une Capacité puissante qui utilise 9 types d’armes différentes.\n\n- Début du Tour : gagne cet effet si cette unité a Déverrouillage - II\n- Le maximum de Grâce de la Prescription cumulable avec cette Prescription est limité à 9",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "IndexPrescriptRien_3",
+      "name": "Prescription : [Appareil] IV",
+      "desc": "Éliminez tous les obstacles avant que la prochaine Prescription n’arrive.\n\n- Début du Tour : gagne cet effet si cette unité a Déverrouillage - III ",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "IndexPrescript_RienSecondPhase",
+      "name": "Prescription : [Appareil] - Avertissement",
+      "desc": "Priorisez l’élimination de la Cible de la Prescription.\n\n- Gagne cet effet à partir de la 2nde phase",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Le bip de l’Appareil s’accélère à chaque seconde que je laisse s’écouler sans exécuter une Prescription.”\n\n“Et à ses côtés, les intervalles de mon rythme cardiaque font de même.”"
+    },
+    {
+      "id": "UnlockBuff_Rien1",
+      "name": "Déverrouillage - I",
+      "desc": "- +1 Niveau Offensif, +1 Niveau Défensif\n- Fin du Combat : regagne 10 PSM",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "UnlockBuff_Rien2",
+      "name": "Déverrouillage - II",
+      "desc": "- +2 Niveaux Offensifs, +2 Niveaux Défensifs\n- Fin du Combat : regagne 20 PSM",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "UnlockBuff_Rien3",
+      "name": "Déverrouillage - III",
+      "desc": "- +3 Niveaux Offensifs, +3 Niveaux Défensifs\n- Fin du Combat : regagne 30 PSM",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "KarmaOfIndexRien",
+      "name": "Conséquence Karmique",
+      "desc": "- Début du Tour :\n· Gagne 1 Malus de Niveau Défensif toutes les 10 Instances\n· Gagne 1 Vulnérabilité toutes les 20 Instances\n· Gagne 1 Malus de Puissance de Duel toutes les 40 Instances\n- Instance max : 100",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "KarmaOfIndexRien_2Phase",
+      "name": "Conséquence Karmique [Fortuna]",
+      "desc": "- Début du Tour :\n· Gagne 1 Malus de Niveau Défensif toutes les 10 Instances\n· Gagne 1 Vulnérabilité toutes les 20 Instances\n· Gagne 1 Malus de Puissance de Duel toutes les 40 Instances\n- Instance max : 200",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "O Fortúna velut luna statu variabilis"
+    },
+    {
+      "id": "BurningWoundRien_Mask",
+      "name": "Masque de Rien",
+      "desc": "- -5 Niveaux Offensifs, -5 Niveaux Défensifs\n- Pour chaque Instance, subit +5% de dégâts de Capacités qui infligent de la Brûlure ou du Saignement (inclut l’Intensité, le Compte et les variations Unique)\n· Si la Capacité inflige de la Brûlure et du Saignement, subit +7.5% de dégâts par Instance à la place\n- Instance max : 1",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Je la garde couverte parce qu’elle fait mal à regarder.”"
+    },
+    {
+      "id": "BurningWoundRien",
+      "name": "Blessure Crépitante",
+      "desc": "- -5 Niveaux Offensifs, -5 Niveaux Défensifs\n- Début du Tour : gagne +1 de Compte de Brûlure et +1 de Compte de Saignement par Instance\n- Pour chaque Instance, subit +10% de dégâts de Capacités qui infligent de la Brûlure ou du Saignement (inclut l’Intensité, le Compte et les variations Unique)\n· Si la Capacité inflige de la Brûlure et du Saignement, subit +15% de dégâts par Instance à la place\n- Instance max : 5",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Lorsque à proximité de l’épée, la blessure se décicatrise et la chair qui avait refroidi se remet à brûler."
+    },
+    {
+      "id": "Shin_Rien",
+      "name": "Shin (心) - Rien",
+      "desc": "- Début du Tour : selon les PV manquants à cette unité…\n· Gagne 1 Bonus de Dégâts tous les 15% de PV manquants (5 max)\n· Gagne 1 Bonus de Puissance Offensive tous les 40% de PV manquants (2 max)\n- Gagne +1 d’Intensité et de Compte de Calme supplémentaires avec les Capacités de cette unité\n- Si les PSM de cette unité sont supérieurs à ceux de la cible, inflige +1% de dégâts tous les 2 PSM de différence (30% max)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "StackRienSpecialSkill",
+      "name": "Procuration [Hermes]",
+      "desc": "- Gagne 1 Instance en utilisant une Capacité Offensive (une fois par Capacité ; ne gagne pas d’Instance de la même Capacité deux fois)\n- Début du Tour : à 9 Instances, utilise une Capacité puissante\n- Consommé en utilisant une certaine Capacité",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Comme l’ordonne mon dieu.”"
+    },
+    {
+      "id": "RienWeapon01Hatchet",
+      "name": "En fractionnant les côtés avec une hachette…",
+      "desc": "- Inflige des dégâts Contondants\n- En Touche sans Fissure, gagne 2 Calme",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "RienWeapon01Hatchet2phase",
+      "name": "En fractionnant les côtés avec une hachette…",
+      "desc": "- Inflige des dégâts Contondants\n- En Touche sans Fissure, gagne 2 Calme et +2 de Compte de Calme",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Cela est à peine une arme, mais cela est mieux qu’une fourchette.”"
+    },
+    {
+      "id": "RienWeapon02Stiletto",
+      "name": "En pénétrant les poumons avec un stiletto…",
+      "desc": "- Inflige des dégâts Perçants\n- En Touche sans Fissure, inflige 2 Lourdeur",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "RienWeapon02Stiletto2phase",
+      "name": "En pénétrant les poumons avec un stiletto…",
+      "desc": "- Inflige des dégâts Perçants\n- En Touche sans Fissure, inflige 2 Lourdeur et +2 de Compte de Lourdeur",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Je ne peux m’empêcher de ressentir un terrible frisson me traverser le dos chaque fois que je reçois cette arme alors que la situation nécessite une coupe horizontale. Je trouve difficile de travailler avec cela.”"
+    },
+    {
+      "id": "RienWeapon03Greatsword",
+      "name": "En clivant à travers l’épaule et le crâne avec une épée bâtarde…",
+      "desc": "- Inflige des dégâts Tranchants\n- Cette Pièce inflige +5% de dégâts\n- En Touche sans Fissure, gagne 1 Bonus de Niveau Offensif au prochain tour (2 fois par tour)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "RienWeapon03Greatsword2phase",
+      "name": "En clivant à travers l’épaule et le crâne avec une épée bâtarde…",
+      "desc": "- Inflige des dégâts Tranchants\n- Cette Pièce inflige +7.5% de dégâts\n- En Touche sans Fissure, gagne 1 Bonus de Niveau Offensif jusqu’au prochain tour (2 fois par tour)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Cette épée est… passable, mais la qualité en tant que telle laisse beaucoup à désirer. Néanmoins, elle peut encore être une bonne arme tant que vos fondamentaux sont solides.”"
+    },
+    {
+      "id": "RienWeapon04Rapier",
+      "name": "En poinçonnant 10 trous ou plus dans le torse avec une rapière…",
+      "desc": "- Inflige des dégâts Perçants\n- Cette Pièce inflige +5% de dégâts\n- En Touche sans Fissure, inflige 1 Malus de Niveau Défensif au prochain tour (2 fois par tour)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "RienWeapon04Rapier2phase",
+      "name": "En poinçonnant 10 trous ou plus dans le torse avec une rapière…",
+      "desc": "- Inflige des dégâts Perçants\n- Cette Pièce inflige +7.5% de dégâts\n- En Touche sans Fissure, inflige 1 Malus de Niveau Défensif jusqu’au prochain tour (2 fois par tour)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Une arme plus longue et tranchante que le stiletto. J’apprécie également la rapière, puisqu’elle s’accorde très bien aux techniques plus dextres.”"
+    },
+    {
+      "id": "RienWeapon05Sledgehammer",
+      "name": "En affaissant l’arrière du crâne avec un marteau…",
+      "desc": "- Inflige des dégâts Contondants\n- Cette Pièce inflige +5% de dégâts\n- En Touche sans Fissure, augmente le Seuil de Déséquilibre de la cible de 3",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "RienWeapon05Sledgehammer2phase",
+      "name": "En affaissant l’arrière du crâne avec un marteau…",
+      "desc": "- Inflige des dégâts Contondants\n- Cette Pièce inflige +7.5% de dégâts\n- En Touche sans Fissure, augmente le Seuil de Déséquilibre de la cible de 5",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Simple, mais final. Ce n’est pas une demi-mesure comme la hachette, il <i>écrasera</i> tout ce qu’il frappe.”"
+    },
+    {
+      "id": "RienWeapon06Ultragreatsword",
+      "name": "En déchirant le corps avec une épée à deux mains…",
+      "desc": "- Inflige des dégâts Tranchants\n- Cette Pièce inflige +10% de dégâts\n- En Touche sans Fissure, inflige 1 Vulnérabilité Tranchante (2 fois par tour)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "RienWeapon06Ultragreatsword2phase",
+      "name": "En déchirant le corps avec une épée à deux mains…",
+      "desc": "- Inflige des dégâts Tranchants\n- Cette Pièce inflige +15% de dégâts\n- En Touche sans Fissure, inflige 1 Vulnérabilité Tranchante jusqu’au prochain tour (2 fois par tour)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Quand il s’agit de manier des lames dont la taille et le poids sont importants, comme celle-ci, il est crucial de trouver son centre de gravité.”\n“Et bien sûr, n’oublie pas de tirer parti de sa masse majeure.”\n“J’ai une fois sauté du toit d’un immeuble de 5 étages avec cette arme et suis tombé par-dessus la tête d’un Fixer de Grade 1, le tuant instantanément.”"
+    },
+    {
+      "id": "RienWeapon07Lance",
+      "name": "En perforant un trou de 20 centimètres avec une lance…",
+      "desc": "- Inflige des dégâts Perçants\n- Cette Pièce inflige +10% de dégâts\n- En Touche sans Fissure, inflige 1 Vulnérabilité Perçante (2 fois par tour)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "RienWeapon07Lance2phase",
+      "name": "En perforant un trou de 20 centimètres avec une lance…",
+      "desc": "- Inflige des dégâts Perçants\n- Cette Pièce inflige +15% de dégâts\n- En Touche sans Fissure, inflige 1 Vulnérabilité Perçante jusqu’au prochain tour (2 fois par tour)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Je considère cette arme comme un jackpot. Cette lance a également une propriété auto-propulsante, ce qui lui permet de traverser la cible ainsi que tout ce qui se tient entre nous, qu’il s’agisse d’un mur ou d’une personne.”"
+    },
+    {
+      "id": "RienWeapon08Chain",
+      "name": "En râpant la chair en dix mille morceaux avec un fouet…",
+      "desc": "- Inflige des dégâts Contondants\n- Cette Pièce inflige +10% de dégâts\n- En Touche sans Fissure, inflige 1 Vulnérabilité Contondante (2 fois par tour)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "RienWeapon08Chain2phase",
+      "name": "En râpant la chair en dix mille morceaux avec un fouet…",
+      "desc": "- Inflige des dégâts Contondants\n- Cette Pièce inflige +15% de dégâts\n- En Touche sans Fissure, inflige 1 Vulnérabilité Contondante jusqu’au prochain tour (2 fois par tour)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Bien que certaines personnes puissent comparer cette arme à perdre à la loterie… Je l’apprécie grandement.”\n“Lorsque ce fouet éclate, il ne les fait pas simplement saigner ; il râpe une couche de la chair de la cible, ainsi que sa volonté et son énergie.”\n“J’apprécie qu’il me permette d’observer le processus complet de comment quelqu’un est déconstruit à mesure de s’affaiblir. Oh et il peut aussi être utilisé pour étrangler en cas de besoin.”"
+    },
+    {
+      "id": "RienWeapon09Scythe",
+      "name": "En lacérant à travers l’espace-même avec une faux, comme une certaine personne…",
+      "desc": "- Inflige des dégâts Tranchants\n- Cette Pièce inflige +20% de dégâts\n- En Touche sans Fissure, elle touche avec un Critique garanti ; si la Résist. Tranchante de base de la cible est inférieure à 1, la considère comme “Normal” (1.0)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "RienWeapon09Scythe2phase",
+      "name": "En lacérant à travers l’espace-même avec une faux, comme une certaine personne…",
+      "desc": "- Inflige des dégâts Tranchants\n- Cette Pièce inflige +30% de dégâts\n- En Touche sans Fissure, elle touche avec un Critique garanti ; si la Résist. Tranchante de base de la cible est inférieure à 1.5, la considère comme “Faible” (1.5)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“La faux… Malgré tous mes efforts, je n’ai jamais réussi à comprendre comment utiliser cette arme avant d’avoir vu la Réverbération Bleue s’en servir.”\n“Même après l’avoir observé, la Prescription continua de me donner nulle autre arme que la faux pendant un temps. Éventuellement, elle a fini par devenir mon arme préférée, la plus familière et la plus affûtée.”\n“Cette arme est aussi celle qui coupe le mieux. Bien qu’il existe de nombreuses techniques permettant de couper à travers l’espace-même— Hm. Peut-être vaut-il mieux garder cette histoire pour une autre fois.”"
+    },
+    {
+      "id": "Ryoshu_RienBattle_1Phase",
+      "name": "Ketsuen [けつえん]",
+      "desc": "Les PV de Ryōshū ne peuvent pas descendre en-dessous de 1 tant qu’il y a 1 allié en vie ou plus dans cet Affrontement\n- +1 de Puissance de Duel ; En Touche, inflige +10% de dégâts\n- En Duel Gagné, gagne 1 ressource E.G.O. de chacune des 3 Affinités les moins possédées\n- En subissant des dégâts qui devraient Déséquilibrer cette unité, n’est pas Déséquilibrée et retire le Seuil de Déséquilibre correspondant ; et gagne 1 Bonus de Puissance Offensive au prochain tour (pas de limite d’activation)\n- Ne peut pas Battre en Retraite",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Le seul et unique fourreau de Ryōshū, créé pour contrôler la Lame de l’Étoile Tiansha - Arayashiki. Il s’agit de l’E.G.O. d’Araya, forgé dans la flamme éternelle."
+    },
+    {
+      "id": "Ryoshu_RienBattle_2Phase",
+      "name": "Renketsuen [れんけつえん]",
+      "desc": "Les PV de Ryōshū ne peuvent pas descendre en-dessous de 1 tant qu’il y a 1 allié en vie ou plus dans cet Affrontement\n- +2 de Puissance de Duel ; En Touche, inflige +25% de dégâts\n- Pour chaque Instance de Blessure Crépitante sur la cible :\n· +1 Niveau Offensif, +1 Niveau Défensif\n· Inflige +5% de dégâts En Touche (25% max) ; si cette unité a utilisé une Capacité E.G.O. de Base, inflige +50% de dégâts par Instance à la place (250% max)\n- En Duel Gagné, gagne 1 ressource E.G.O. de chacune des 3 Affinités les moins possédées\n- En subissant des dégâts qui devraient Déséquilibrer cette unité, n’est pas Déséquilibrée et retire le Seuil de Déséquilibre correspondant ; et gagne 1 Bonus de Puissance Offensive au prochain tour (pas de limite d’activation)\n- Ne peut pas Battre en Retraite",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Un E.G.O. à l’existence paradoxale, puisque son ego est faible.\nN’associez pas ce qui semble être une parfaite dévotion envers quelqu’un comme de l’altruisme absolu.\nIl faut posséder un égoïsme absolu pour faire passer l’importance d’une autre vie avant la sienne.\n\n“Je ne veux pas que maman m’oublie, mais… plus que tout, je ne veux pas la perdre.”\n“Alors, oublie-moi pour l’instant et prends soin de toi.”"
+    },
+    {
+      "id": "PainfulScar_Panic",
+      "name": "Imitation d’un Père",
+      "desc": "- Panique\n- Début du Tour : gagne 5 Brûlure, +3 de Compte de Brûlure, 5 Saignement et +3 de Compte de Saignement\n- Subit +20% de dégâts du Pécheur Ryōshū",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "PainfulScar_LowMorale",
+      "name": "Imitation d’un Père",
+      "desc": "- Moral Bas\n- Début du Tour : gagne 5 Brûlure et 5 Saignement\n- Subit +10% de dégâts du Pécheur Ryōshū",
+      "summary": "",
+      "undefined": "-"
+    },
+    { 
+      "id": "BlackNightmare",
+      "name": "Complaisance dans les Prescriptions",
+      "desc": "- Inflige +2 d’Intensité et de Compte de Lourdeur\n- Expire à la Fin du Tour ; puis, gagne (nombre de Capacités ayant perdu un Duel ce tour * 5) Conséquence Karmique",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "L’acceptation des Prescriptions est apparente dans son exécution d’elles ; pourtant, de l’autre côté de ce masque, on peut apercevoir un soupçon de rancœur envers elles.\nCependant, puisqu’il pouvait se complaire dans toutes les souffrances et tous les plaisirs du monde derrière le masque des “Prescriptions”, son véritable désir immanent est conclu par celui de la gratitude."
+    },
+    {
+      "id": "RyoshuParrySojiWe",
+      "name": "Fil Rouge",
+      "desc": "- +3 Emplacements de Capacité\n- Inflige +50% de dégâts au Garde-père de l’Auriculaire\n- Pour cet Affrontement : après avoir utilisé une Capacité, gagne 1 Ressource E.G.O. de l’Affinité de la Capacité et 1 Ressource E.G.O. de la ressource E.G.O. la moins possédée (2 fois par tour)\n- Ne peut pas Battre en Retraite",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Si cet unique fil est la seule chose qui nous connecte toi et moi, je m’y accrocherai avec toute mon âme.”"
+    },
+    {
+      "id": "RyoshuParrySojiThey",
+      "name": "Fil Rouge",
+      "desc": "- Convertit toutes les Pièces de Capacités en Pièces Incassables\n- +4 de Puissance Finale",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Échappons-nous autant que nous le souhaitons, ce fil entêté nous forcera toujours à nous recroiser. S’il refuse de céder, qu’importe ce que je fais…”"
+    },
+    {
+      "id": "CriticalDamageUp",
+      "name": "Bonus de DGT Critiques",
+      "desc": "Pour ce tour : inflige +10% de dégâts en Touche Critique par Instance",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "KAA1C9ActivateEffect",
+      "name": "Ampoule de la K Corp. Utilisée",
+      "desc": "Ampoule de la K Corp. utilisée",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "RyoshuParryIndexFingerWe",
+      "name": "Fil Rouge",
+      "desc": "",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "RyoshuParryIndexFingerThey",
+      "name": "Fil Rouge",
+      "desc": "",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    }
+  ]
+}
