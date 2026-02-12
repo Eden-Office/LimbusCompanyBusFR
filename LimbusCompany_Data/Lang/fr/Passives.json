@@ -1094,7 +1094,7 @@
     {
       "id": 1050811,
       "name": "Maniement de l’Épée Patriote",
-      "desc": "Dans cet Affrontement, lorsque cette unité subit des dégâts menant ses PV à 0, nullifie ces dégâts ; puis, les PV de cette unité ne peuvent pas tomber en dessous de 1 pour ce tour. (Une fois par Affrontement)\n\nLorsque cette unité gagne de l’Intensité/Compte de [Breath] avec ses propres Capacités ou effets de Pièce : donne 1 d’Intensité de [Breath] et +1 de Compte de [Breath] à 2 autres alliés de la Lignée de la Lame sans [Breath] ou avec le moins de [Breath]\n- S’il y a 6 alliés ou plus de la Lignée de la Lame participant à cet Affrontement, donne 2 d’Intensité de [Breath] et +2 de Compte de [Breath] à la place\n\nDébut du Combat : applique le buff [SwordPlayOfTheHomeland] à tous les autres alliés de la Lignée de la Lame"
+      "desc": "Dans cet Affrontement, lorsque cette unité subit des dégâts menant ses PV à 0, nullifie ces dégâts ; puis, les PV de cette unité ne peuvent pas tomber en dessous de 1 pour ce tour. (Une fois par Affrontement)\n\nLorsque cette unité gagne de l’Intensité/Compte de [Breath] avec ses propres Capacités ou effets de Pièce : donne 1 d’Intensité de [Breath] et +1 de Compte de [Breath] à 2 autres alliés de la Lignée de la Lame sans [Breath] ou avec le moins de [Breath]\n- S’il y a 6 alliés ou plus de la Lignée de la Lame participant à cet Affrontement, donne 2 d’Intensité de [Breath] et +2 de Compte de [Breath] à la place\n\n<style=\"highlight\">Début du Combat : applique le buff [SwordPlayOfTheHomeland] à tous les autres alliés de la Lignée de la Lame</style>"
     },
     {
       "id": 1050821,
@@ -2012,7 +2012,8 @@
     {
       "id": 1121101,
       "name": "Je suis le seul survivant…",
-      "desc": "Inflige +0.2% dégâts pour chaque [FirePunchFuel] et [FirePunchFuelOverheated] que cette unité a consommé dans cet Affrontement (40% max)\n- Si la cible principale est un <Démon de Sang>, une <Poche de Sang> ou a 30 ([Combustion] + Compte de [Combustion]) ou plus, inflige +0.3% dégâts à la place (60% max)\n\nÀ 1 [FirePunchFuel] ou [FirePunchFuelOverheated] ou plus, si cette unité Déséquilibre ou vainc des ennemis avec [Combustion], inflige +2 de Compte de [Combustion] à 2 ennemis aléatoires sans [Combustion] ou avec le moins de Compte de [Combustion] (une fois par tour)\n- Pour les Affrontements Ciblés, sur les Parties"
+      "desc": "Inflige +0.2% dégâts pour chaque [FirePunchFuel] et [FirePunchFuelOverheated] que cette unité a consommé dans cet Affrontement (40% max)\n- Si la cible principale est un <Démon de Sang>, une <Poche de Sang> ou a 30 ([Combustion] + Compte de [Combustion]) ou plus, inflige +0.3% dégâts à la place (60% max)\n\nÀ 1 [FirePunchFuel] ou [FirePunchFuelOverheated] ou plus, si cette unité Déséquilibre ou vainc des ennemis avec [Combustion], inflige +2 de Compte de [Combustion] à 2 ennemis aléatoires sans [Combustion] ou avec le moins de Compte de [Combustion] (une fois par tour)\n- Pour les Affrontements Ciblés, sur les Parties",
+      "summary": "Inflige plus de dégâts selon [FirePunchFuel] et [FirePunchFuelOverheated] consommé\nInflige du Compte de [Combustion] à 2 ennemis aléatoires (une fois par tour)"
     },
     {
       "id": 1121121,
@@ -2624,7 +2625,8 @@
     {
       "id": 1021421,
       "name": "Comme l’Ordonne la Prescription…",
-      "desc": "Les effets s’appliquent à l’Identité avec l’ordre de Déploiement le plus tôt\n- Priorise les Identités de l’Index\n\nDébut du Combat : si la Capacité la plus à gauche de cette unité sur le Tableau de Bord et d’autres alliés ciblent le même Emplacement ennemi, cette Capacité inflige +5% de dégâts par allié ciblant le même Emplacement, en excluant cette unité (15% max, s’applique lorsque cette unité et les alliés utilisent tous deux des Capacités Offensive de Base à l’Emplacement ennemi de la cible principale)"
+      "desc": "Les effets s’appliquent à l’Identité avec l’ordre de Déploiement le plus tôt\n- Priorise les Identités de l’Index\n\nDébut du Combat : si la Capacité la plus à gauche de cette unité sur le Tableau de Bord et d’autres alliés ciblent le même Emplacement ennemi, cette Capacité inflige +5% de dégâts par allié ciblant le même Emplacement, en excluant cette unité (15% max, s’applique lorsque cette unité et les alliés utilisent tous deux des Capacités Offensive de Base à l’Emplacement ennemi de la cible principale)",
+      "summary": "Inflige plus de dégâts selon le nombre d’autres unités ayant ciblé l’emplacement"
     },
     {
       "id": 1031402,
@@ -2674,6 +2676,46 @@
       "name": "Hé, T’Aimes Les Fixers Toi Aussi ?",
       "desc": "+1 de Puissance de Duel aux Capacités Offensives de Base de la 1ère Identité Déployée (une fois par tour)\nSi le Tableau de Bord a une Réson.-A d’Envie, la 1ère Identité Déployée inflige +10% de dégâts avec les Capacités de Base",
       "summary": "+1 de Puissance de Duel pour les Capacités Offensives de Base\nSi le Tableau de Bord a une Réson.-A d’Envie, inflige +10% de dégâts avec les Capacités de Base"
+    },
+    {
+      "id": 1121402,
+      "name": "Lampe Éblouissante",
+      "desc": "Début du Tour : gagne 1 [LanternGregBigBird]\n\nLes effets externes ne peuvent pas changer les Vitesses Min. & Max. de cette unité\n\nEn chaînant des Capacités, cette unité peut rediriger le ciblage des Capacités Offensives vers elle-même qu’importe la Vitesse (Affrontements Ciblés uniquement)\n\nEn gagnant de l’[Agility], gagne 1 [ParryingResultUp] à la place (une fois par tour)\n- Une fois l’effet ci-dessus activé, ne peut pas gagner d’[Agility] pour le reste du tour"
+    },
+    {
+      "id": 1121403,
+      "name": "Manuel de Maîtrise d’Équipement E.G.O.",
+      "desc": "Début du Tour : gagne 1 [DefenseUp] par allié portant un Équipement E.G.O. (3 max)\n\nLorsqu’un allié meurt, gagne 2 [PenetrateDamageUp] au prochain tour (une fois par tour)"
+    },
+    {
+      "id": 1121401,
+      "name": "Yeux Aussi Brillants Qu’une Lampe",
+      "desc": "Début du Combat : gagne 1 [LanternGregBigBird]\n\nDébut du Combat : si un ennemi a [DelusionGregBigBird], regagne 3 PSM\n\nFin du Tour : applique [ObedienceGregBigBird] au prochain tour à l’allié le plus tôt dans l’ordre de Déploiement parmi ceux ne remplissant pas les conditions suivants :\n- Est cette unité\n- Est un allié avec [ObedienceGregBigBird]\n- Est un allié ne pouvant regagner des PSM suite à des conditions de Panique ou d’Érosion"
+    },
+    {
+      "id": 1121411,
+      "name": "Yeux Aussi Brillants Qu’une Lampe",
+      "desc": "Début du Combat : gagne 1 [LanternGregBigBird] <style=\"highlight\">toutes les 2 Réson. de Peine (3 max)</style>\n\nDébut du Combat : si un ennemi a [DelusionGregBigBird], regagne <style=\"highlight\">5</style> PSM\n\nFin du Tour : applique [ObedienceGregBigBird] au prochain tour à l’allié le plus tôt dans l’ordre de Déploiement parmi ceux ne remplissant pas les conditions suivants :\n- Est cette unité\n- Est un allié avec [ObedienceGregBigBird]\n- Est un allié ne pouvant regagner des PSM suite à des conditions de Panique ou d’Érosion"
+    },
+    {
+      "id": 1121421,
+      "name": "Y Avaient-Ils D’autres Vies à Sauver ?",
+      "desc": "Fin du Tour : applique les effets suivants à l’allié avec l’ordre de Déploiement le plus tôt parmi ceux avec des effets négatifs\n- Gagne +4 d’[Aggro] à l’Emplacement le plus à gauche au prochain tour\n- Gagne 1 [HitDamageUp] au prochain tour"
+    },
+    {
+      "id": 1101501,
+      "name": "La Lame Orthodoxe [整劍]",
+      "desc": "Début du Combat : gagne ((Réson. d’Orgueil / 2) + 1) [Breath] (4 max, arrondi à l’inférieur)\n\nFin du Combat : à 20 [Breath] ou plus, gagne +1 de Compte de [Breath]"
+    },
+    {
+      "id": 1101502,
+      "name": "Concentration Unique de l’Esprit",
+      "desc": "Fin du Tour : toute Intensité de [Breath] en excès supérieure à 25 sera convertie en [LittleFingerID] (15 max)\n\nDébut du Combat : si cette unité n’a pas équipé de Capacités Offensives (inclut les Capacités E.G.O.) ce tour, regagne 5 PSM et gagne 1 [SlashResultUp] au prochain tour"
+    },
+    {
+      "id": 1101521,
+      "name": "Tranquilité [靜念]",
+      "desc": "L’allié avec la Vitesse la plus rapide regagne 5 PSM et gagne 5 de Bouclier en commençant le combat avec une Capacité Défensive équipée"
     }
   ]
 }

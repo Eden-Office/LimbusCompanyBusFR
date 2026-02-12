@@ -703,8 +703,6 @@
       "name": "Regard",
       "desc": "Subit +20% de dégâts de capacités Perçantes et Contondantes pendant un tour.\nL’allié qui parvient à vaincre l’unité marquée regagne 10 PSM ; si l’allié est un “Fanatique de la N Corp.”, applique aussi 1 Fanatique au tour suivant."
     },
-
-
     {
       "id": "HitResultUp",
       "name": "Bonus de Puissance Contondante",
@@ -1833,22 +1831,26 @@
     {
       "id": "BlackCloud",
       "name": "Nuage Noir",
-      "desc": "Instance max : 1\nConverti toutes les Pièces des Capacités Offensives de Base de cette unité utilisées ce tour en [Pièces Incassables], empêche les dégâts de Déséquilibrer cette unité jusqu’à la Fin de la Capacité et inflige +1 d’effets de Saignement supplémentaire\nEn Duel Perdu : gagne +3 de Puissance Finale\nFin du Tour : cet effet expire"
+      "desc": "Instance max : 1\nConverti toutes les Pièces des Capacités Offensives de Base de cette unité utilisées ce tour en Pièces Incassables, empêche les dégâts de Déséquilibrer cette unité jusqu’à la Fin de la Capacité et inflige +1 d’effets de Saignement supplémentaire\nEn Duel Perdu : gagne +3 de Puissance Finale\nFin du Tour : cet effet expire",
+      "summary": "Convertit la Capacité Offensive en Pièce Incassable et gagne un nouvel effet"
     },
     {
       "id": "BlackCloudBlade",
       "name": "Lame du Nuage Noir",
-      "desc": "Instance max : 1\nGagne 1 de Puissance Tranchante\nInflige 1 Saignement En Touche avec des Capacités Tranchantes"
+      "desc": "Instance max : 1\nGagne 1 de Puissance Tranchante\nInflige 1 Saignement En Touche avec des Capacités Tranchantes",
+      "summary": "Renforce les Capacités Tranchantes"
     },
     {
       "id": "EngageToBattle",
       "name": "Prêt au Combat",
-      "desc": "Valeur max : 1\nIntensité et Compte de Saignement infligé avec les effets de Pièce ou de Capacité de cette unité : +1\nGagne 1 Bonus de Puissance Tranchante et 3 Bonus de DGT Tranchant pour la durée de cet Affrontement"
+      "desc": "Valeur max : 1\nIntensité et Compte de Saignement infligé avec les effets de Pièce ou de Capacité de cette unité : +1\nGagne 1 Bonus de Puissance Tranchante et 3 Bonus de DGT Tranchant pour la durée de cet Affrontement",
+      "summary": "Renforce les Capacités Tranchantes et inflige plus de Saignement"
     },
     {
       "id": "CloudWall",
       "name": "Mur de Nuages",
-      "desc": "Instance max : 1\n+1 de Puissance Finale de Capacité Défensive\nCet effet expire à la Fin du Tour ou après l’attaque suivante : “Règles des Ruelles”"
+      "desc": "Instance max : 1\n+1 de Puissance Finale de Capacité Défensive\nCet effet expire à la Fin du Tour ou après l’attaque suivante : “Règles des Ruelles”",
+      "summary": "Renforce les Capacités Défensives"
     },
     {
       "id": "ScarletResultUp",
@@ -2361,7 +2363,7 @@
     {
       "id": "FocusOnActing",
       "name": "Prestation Concentrée",
-      "desc": "- Instance max : 3\n- Uniquement aux Identités de <La Manchaland> ; inclut les Capacités Renforcées\n- Capacité 1 et Capacité 2 gagnent +1 de Puissance Finale ; infligent +5% de dégâts par Instance (15% max)\n- Capacité 3 gagne +2 de Puissance Finale ; inflige +10% de dégâts par Instance (30% max)\n- Après avoir attaqué avec Capacité 3, ou au Début du Tour, si cette unité n’a pas Armure de Sang Durci, perd 1 Instance",
+      "desc": "- Instance max : 3\n- Uniquement aux Identités de <La Manchaland> ; inclut les Capacités Renforcées\n- Capacité 1 et Capacité 2 gagnent +1 de Puissance Finale ; infligent +5% de dégâts par Instance (15% max)\n- Capacité 3 gagne +2 de Puissance Finale ; inflige +10% de dégâts par Instance (30% max)\n- Perd 1 Instance lorsque :\n  1) Après avoir attaqué avec la Capacité 3\n  2) Si cette unité n’a pas Armure de Sang Durci au Début du Tour",
       "summary": "En Touche, inflige plus de dégâts",
       "undefined": "-"
     },
@@ -2513,7 +2515,7 @@
     },
     {
       "id": "ReinforcedTattooIshmael",
-      "name": "Les Tatouages d’Augmentation Stylés du Majeur",
+      "name": "Les Tatouages d’Augmentation Stylisés du Majeur",
       "desc": "- Instance max : 10\n- +1 de Puissance Finale pour les Capacités de Base toutes les 5 Instances (2 max)\n- Les Capacités d’Envie et les Capacités Contondantes infligent +5% de dégâts par Instance (50% max)",
       "summary": "",
       "undefined": "-"
@@ -2529,6 +2531,62 @@
       "id": "HeatingWireIshmael",
       "name": "Lames Thermiques",
       "desc": "- Instance max : 2\n- Si la cible touche par des Capacités de Base a Brûlure, regagne 3 PSM (2 fois par tour)\n- Inflige de la Brûlure en infligeant du Saignement avec certaines Pièces de Capacité\n- Fin du Tour : perd 1 Instance",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "LanternGregBigBird",
+      "name": "Lampe",
+      "desc": "- Instance max : 8\n- Fin du Tour : gagne 1 Ralentissement au prochain tour toutes les 2 Instances (4 max)\n- Fin du Tour : à Instance Max, s’il y a des ennemis sur le terrain, consomme toutes les Instances pour activer les effets suivants au prochain tour :\n• Gagne +10 d’Aggro sur l’Emplacement le plus à gauche\n• Inflige 3 Éblouis à l’ennemi (Noyau) avec le plus de PV actuels",
+      "summary": "Gagne du Ralentissement au prochain tour",
+      "undefined": "-"
+    },
+    {
+      "id": "ObedienceGregBigBird",
+      "name": "Gardiens de la Forêt",
+      "desc": "Avant l’Attaque, active les effets suivants :\n- Les Capacités à Pièces Positives rendent 4 PSM (si déjà à PSM max, gagne 2 Bonus de Niveau Offensif au prochain tour)\n- Les Capacités à Pièces Négatives font perdre 8 PSM (cet effet ne peut pas réduire les PSM de l’unité en dessous de -40)\n- Perd cet effet",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "DelusionGregBigBird",
+      "name": "Ébloui",
+      "desc": "- Tous les 1 (Lourdeur + Brûlure), subit +0.5% de dégâts de Capacités Offensives de Base (10% max)\n- Unités avec PSM : change leur Type de Panique en “Ébloui”\n- Unités sans PSM : -2 Niveaux Défensifs\n- Fin du Tour : perd 1 Instance\n- Cet effet ne se cumule pas ; l’infliger remplacera la valeur actuelle par la valeur infligée\n- Applique la condition “Unités sans PSM” à certains ennemis qui ont des PSM mais ne pouvant changer de Type de Panique\n\n※ Effets de Panique d’Ébloui\n- Moral Bas : gagne 1 Ralentissement et 2 Malus de Niveau Offensif au prochain tour\n- Panique : gagne 1 Ralentissement et 4 Malus de Niveau Offensif au prochain tour",
+      "summary": "Tous les 1 (Lourdeur + Brûlure), subit +0.5% de dégâts de Capacités Offensives de Base (10% max)\nUnités avec PSM : change leur Type de Panique en “Ébloui”\nUnités sans PSM : -2 Niveaux Défensifs",
+      "undefined": "-"
+    },
+    {
+      "id": "DelusionGregBigBird_Main",
+      "name": "Ébloui",
+      "desc": "- Tous les 1 (Lourdeur + Brûlure), subit +0.5% de dégâts de Capacités Offensives de Base (10% max)\n- Unités avec PSM : change leur Type de Panique en “Ébloui”\n- Fin du Tour : perd 1 Instance",
+      "summary": "Tous les 1 (Lourdeur + Brûlure), subit +0.5% de dégâts de Capacités Offensives de Base (10% max)\nChange le Type de Panique en “Ébloui”",
+      "undefined": "-"
+    },
+    {
+      "id": "DelusionGregBigBird_Sub",
+      "name": "Ébloui",
+      "desc": "- Tous les 1 (Lourdeur + Brûlure), subit +0.5% de dégâts de Capacités Offensives de Base (10% max)\n- Unités sans PSM : -2 Niveaux Défensifs\n- Fin du Tour : perd 1 Instance",
+      "summary": "Tous les 1 (Lourdeur + Brûlure), subit +0.5% de dégâts de Capacités Offensives de Base (10% max)\n-2 Niveaux Défensifs",
+      "undefined": "-"
+    },
+    {
+      "id": "DelusionGregBigBird_LowMorale",
+      "name": "Ébloui",
+      "desc": "- Moral Bas\n- Fin du Tour : gagne 1 Ralentissement et 2 Malus de Niveau Offensif au prochain tour",
+      "summary": "Fin du Tour : gagne 1 Ralentissement et 2 Malus de Niveau Offensif au prochain tour",
+      "undefined": "-"
+    },
+    {
+      "id": "DelusionGregBigBird_Panic",
+      "name": "Ébloui",
+      "desc": "- Panique\n- Fin du Tour : gagne 1 Ralentissement et 4 Malus de Niveau Offensif au prochain tour",
+      "summary": "Fin du Tour : gagne 1 Ralentissement et 4 Malus de Niveau Offensif au prochain tour",
+      "undefined": "-"
+    },
+    {
+      "id": "LittleFingerID",
+      "name": "Lame Lunaire Azurée",
+      "desc": "- Instance max : 20\n- Début du Tour : gagne 2 de Bouclier par Instance\n- Inflige +1% de dégâts en Touche Critique par Instance",
       "summary": "",
       "undefined": "-"
     }

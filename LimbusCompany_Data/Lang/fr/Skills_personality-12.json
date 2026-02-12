@@ -2111,6 +2111,315 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1121401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Regard Intense : Portée Totale",
+          "desc": "[WhenUse] Gagne 1 [Binding] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Regard Intense : Portée Totale",
+          "desc": "Si une des conditions suivantes est remplie, +1 de Puissance de Pièce\n- Si la Vitesse de cette unité est de 1 ou moins\n- Si la cible a [DelusionGregBigBird]\n[WhenUse] Gagne 1 [Binding] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Regard Intense : Portée Totale",
+          "desc": "Si une des conditions suivantes est remplie, +1 de Puissance de Pièce\n<style=\"highlight\">- Si la Vitesse de la cible est supérieure à celle de cette unité de 3 ou plus</style>\n- Si la Vitesse de cette unité est de 1 ou moins\n- Si la cible a [DelusionGregBigBird]\n<style=\"highlight\">[WhenUse] Si la cible a 6 ([Sinking] + [Combustion]) ou plus, +1 de Puissance de Pièce</style>\n[WhenUse] Gagne 1 [Binding] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Détruire le Visible avec l’Invisible",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige (30% des dégâts finaux de cette Pièce) dégâts Contondants"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige (30% des dégâts finaux de cette Pièce) dégâts Contondants"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Détruire le Visible avec l’Invisible",
+          "desc": "Si une des conditions suivantes est remplie, +2 de Puissance de Duel\n- Si la Vitesse de cette unité est de 1 ou moins\n- Si la cible a [DelusionGregBigBird]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige (30% des dégâts finaux de cette Pièce) dégâts Contondants"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige (30% des dégâts finaux de cette Pièce) dégâts Contondants"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Détruire le Visible avec l’Invisible",
+          "desc": "Si une des conditions suivantes est remplie, +2 de Puissance de Duel\n<style=\"highlight\">- Si la Vitesse de la cible est supérieure à celle de cette unité de 3 ou plus</style>\n- Si la Vitesse de cette unité est de 1 ou moins\n- Si la cible a [DelusionGregBigBird]\n<style=\"highlight\">[WhenUse] Si la cible a 6 ([Sinking] + [Combustion]) ou plus, +1 de Puissance de Pièce</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige (30% des dégâts finaux de cette Pièce) dégâts Contondants"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige (30% des dégâts finaux de cette Pièce) dégâts Contondants"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121403,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Salut pour ceux Enchantés par la Lampe",
+          "desc": "Si une des conditions suivantes est remplie, +1 de Puissance de Pièce et inflige +20% de dégâts\n- Si la Vitesse de cette unité est de 1 ou moins\n- Si la cible a [DelusionGregBigBird]\n[WhenUse] Si la cible a [DelusionGregBigBird], convertit toutes les Pièces de cette Capacité en [SuperCoin]s et gagne +3 de Puissance de Duel",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Si la cible (Noyau) a 25% de PV ou moins, ou si la cible a [DelusionGregBigBird], inflige +60% de dégâts",
+                  "summary": "Inflige +60% de dégâts"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [DelusionGregBigBird], inflige des dégâts de Peine égaux à 60% des dégâts finaux de cette Pièce",
+                  "summary": "[OnSucceedAttack] Inflige (60% des dégâts finaux de cette Pièce) dégâts de Peine"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Salut pour ceux Enchantés par la Lampe",
+          "desc": "Si une des conditions suivantes est remplie, +1 de Puissance de Pièce et inflige +40% de dégâts\n<style=\"highlight\">- Si la Vitesse de la cible est supérieure à celle de cette unité de 3 ou plus</style>\n- Si la Vitesse de cette unité est de 1 ou moins\n- Si la cible a [DelusionGregBigBird]\n<style=\"highlight\">[WhenUse] Si la cible a 6 ([Sinking] + [Combustion]) ou plus, +1 de Puissance de Pièce</style>\n[WhenUse] Si la cible a [DelusionGregBigBird], convertit toutes les Pièces de cette Capacité en [SuperCoin]s et gagne +3 de Puissance de Duel\n<style=\"highlight\">[EndSkill] Si la cible est vaincue, ou si elle a 3 [DelusionGregBigBird], gagne 1 [PlusCoinValueUp] au prochain tour (une fois par tour)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige +1 de Compte de [Combustion]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +<style=\"highlight\">3</style> de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Si la cible (Noyau) a 25% de PV ou moins, ou si la cible a [DelusionGregBigBird], inflige +60% de dégâts",
+                  "summary": "Inflige +60% de dégâts"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [DelusionGregBigBird], inflige des dégâts de Peine égaux à 80% des dégâts finaux de cette Pièce",
+                  "summary": "[OnSucceedAttack] Inflige (80% des dégâts finaux de cette Pièce) dégâts de Peine"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "La Mèche de Plumes Brûlées",
+          "desc": "[CanDuelGuard]\n[StartBattle] Gagne jusqu’à 8 Instances de [LanternGregBigBird] ; pour chaque Instance gagnée, subit des dégâts de PV égaux à 1% des PV max (cet effet ne réduit pas les PV de cette unité en dessous de 1)\n[EndBattle] Applique 1 [Agility] au prochain tour à ([Binding] sur soi / 3) autres alliés avec la Vitesse la plus lente (une fois par tour ; arrondi à l’inférieur)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "La Mèche de Plumes Brûlées",
+          "desc": "[CanDuelGuard]\n[StartBattle] Gagne jusqu’à 8 Instances de [LanternGregBigBird] ; pour chaque Instance gagnée, subit des dégâts de PV égaux à 1% des PV max (cet effet ne réduit pas les PV de cette unité en dessous de 1)\n[EndBattle] Applique 1 [Agility] au prochain tour à ([Binding] sur soi / 2) autres alliés avec la Vitesse la plus lente (une fois par tour ; arrondi à l’inférieur)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

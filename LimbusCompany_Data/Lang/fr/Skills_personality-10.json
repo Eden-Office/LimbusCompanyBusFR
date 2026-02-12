@@ -1747,7 +1747,7 @@
         {
           "level": 4,
           "name": "Garde Ferreuse",
-          "desc": "Inflict <style=\"highlight\">2</style> [Vibration] à l’Attaquant lorsque touché tant que cette unité a encore du Bouclier (<style=\"highlight\">4</style> fois par tour)",
+          "desc": "Inflige <style=\"highlight\">2</style> [Vibration] à l’Attaquant lorsque touché tant que cette unité a encore du Bouclier (<style=\"highlight\">4</style> fois par tour)",
           "coinlist": [
             {}
           ]
@@ -2086,6 +2086,301 @@
               "coindescs": [
                 {
                   "desc": "[OnSucceedAttack] Inflige 1 [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chaîne de Coups [連擊]",
+          "desc": "[WhenUse] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Chaîne de Coups [連擊]",
+          "desc": "[WhenUse] Gagne <style=\"highlight\">+3</style> de Compte de [Breath]\n<style=\"highlight\">[WhenUse] À 6 [Breath] ou plus, +1 de Puissance de Pièce</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne <style=\"highlight\">2</style> [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [Breath]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Gagne 1 [Agility] au prochain tour (une fois par tour)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Chaîne de Coups [連擊]",
+          "desc": "[WhenUse] Gagne +3 de Compte de [Breath]\n<style=\"highlight\">[WhenUse] +1 de Puissance de Pièce tous les 6 [Breath] sur soi (2 max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [Breath]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [Breath]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Agility] au prochain tour (une fois par tour)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttackHead] Gagne 1 [Agility] au prochain tour (une fois par tour)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tranche Anonyme [無名斬]",
+          "desc": "[WideAreaRampage]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 3 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +10% de dégâts en Touche Critique"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Tranche Anonyme [無名斬]",
+          "desc": "[WideAreaRampage]\n<style=\"highlight\">[WhenUse] À 6 [Breath] ou plus, +1 de Puissance de Base</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 3 [Breath]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Breath]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +10% de dégâts en Touche Critique<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttackHead] Réutilise cette Pièce (une fois par Capacité)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Tranche Anonyme [無名斬]",
+          "desc": "[WideAreaRampage]\n<style=\"highlight\">[WhenUse] +1 de Puissance de Base tous les 6 [Breath] sur soi (2 max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 3 [Breath]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Breath]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +10% de dégâts en Touche Critique<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Gagne +1 de Compte de [Breath]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttackHead] Réutilise cette Pièce (une fois par Capacité)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[ReUseOnSucceedAttackHead] À 10 [LittleFingerID] ou plus, Réutilise cette Pièce (une fois par Capacité)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101503,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Pourfendeur d’Étoile Filante [落星一殺]",
+          "desc": "Inflige +30% de dégâts par Poids d’Atq en excès supérieur au # de cibles actuelles (en Affrontements Ciblés, la Partie)\n[WhenUse] À 20 [LittleFingerID], convertit toutes les Pièces de cette Capacité en [SuperCoin]s\n[WhenUse] +1 de Puissance de Pièce tous les 4 [Breath] sur soi (3 max)\n[WhenUse] +1 de Puissance de Base tous les 4 [LittleFingerID] sur soi (3 max)\n[WhenUse] Gagne 5 [Breath]\n\n[BeforeAttack] +1 de Poids d’Atq tous les 10 [LittleFingerID] sur soi (2 max)\n[EndSkill] Consomme 7 [LittleFingerID] par Poids d’Atq gagné suite à l’effet de cette Capacité",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +50% de dégâts en Touche Critique"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttackHead] Inflige (25% des dégâts finaux de cette Pièce)  dégâts Tranchants"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Pourfendeur d’Étoile Filante [落星一殺]",
+          "desc": "Inflige <style=\"highlight\">+50%</style> de dégâts par Poids d’Atq en excès supérieur au # de cibles actuelles (en Affrontements Ciblés, la Partie)\n[WhenUse] À 20 [LittleFingerID], convertit toutes les Pièces de cette Capacité en [SuperCoin]s\n[WhenUse] +1 de Puissance de Pièce tous les 4 [Breath] sur soi (<style=\"highlight\">5</style> max)\n[WhenUse] +1 de Puissance de Base tous les 4 [LittleFingerID] sur soi (<style=\"highlight\">5</style> max)\n[WhenUse] Gagne <style=\"highlight\">7</style> [Breath]\n\n[BeforeAttack] +1 de Poids d’Atq tous les 10 [LittleFingerID] sur soi (2 max)\n[EndSkill] Consomme <style=\"highlight\">5</style> [LittleFingerID] par Poids d’Atq gagné suite à l’effet de cette Capacité",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Infige <style=\"highlight\">+70%</style> de dégâts en Touche Critique"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">5</style> [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttackHead] Inflige (25% des dégâts finaux de cette Pièce)  dégâts Tranchants<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Garde [守]",
+          "desc": "[CanDuelGuard]\nDébut du Tour : à 25 [Breath] ou plus, change cette Capacité en “Évitement”\n\n[StartBattle] Gagne 6 [Breath] (une fois par tour)\n[StartBattle] Gagne +1 de Compte de [Breath] (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Garde [守]",
+          "desc": "[CanDuelGuard]\nDébut du Tour : à 25 [Breath] ou plus, change cette Capacité en “Évitement”\n\n[StartBattle] Gagne 8 [Breath] (une fois par tour)\n[StartBattle] Gagne <style=\"highlight\">+2</style> de Compte de [Breath] (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Évitement [回]",
+          "desc": "[StartBattle] Gagne du Bouclier égal à l’Instance de [LittleFingerID] (une fois par tour)\n[StartBattle] Gagne +4 de Compte de [Breath] (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Évitement [回]",
+          "desc": "[StartBattle] Gagne du Bouclier égal à l’Instance de [LittleFingerID] (une fois par tour)\n[StartBattle] Gagne +4 de Compte de [Breath] (une fois par tour)\n<style=\"highlight\">[OnSucceedEvade] Gagne 1 [CriticalDamageUp] au prochain tour (2 fois par tour max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
                 }
               ]
             }
