@@ -812,7 +812,7 @@
     {
       "id": 9034,
       "name": "Circuit Logique de Repérage",
-      "desc": "En touchant un ennemi avec une Capacité d’Affinité d’Envie ou une Capacité qui inflige de l’Intensité de [Combustion] ou une “Brûlure Unique”, inflige de l’Intensité de [Combustion] supplémentaire égale à la moitié du total de Pièce de la Capacité. (Arrondi au supérieur)\n\n[Non Cumulable] Lorsque le Passif E.G.O. 「Câblage de Circuit」 de Reg. d’Emménagement Heathcliff s’active, cet effet ne s’active pas",
+      "desc": "En touchant un ennemi avec une Capacité d’Affinité d’Envie ou une Capacité qui inflige de l’Intensité de [Combustion] ou une “Brûlure Unique”, inflige de l’Intensité de [Combustion] supplémentaire égale à la moitié du total de Pièce de la Capacité. (Arrondi au supérieur)\n- [Non Cumulable] Lorsque le Passif E.G.O. 「Câblage de Circuit」 de Reg. d’Emménagement Heathcliff s’active, cet effet ne s’active pas\n\nEn Touche, si la cible a 99 d’Intensité de [Combustion], inflige 1 [IDMicroChip] (une fois par ennemi, 3 fois par tour)",
       "simpleDesc": [
         {
           "abilityID": 9034,
@@ -1769,11 +1769,11 @@
     {
       "id": 9065,
       "name": "Sens Artistique",
-      "desc": "Inflige +35% de dégâts contre les ennemis souffrant d’effets de statut négatifs (Moral Bas, Panique) venant de perte de PSM.\n\nLorsqu’un effet de [Sinking] s’applique à un ennemi sans Santé Mentale, l’Affinité des dégâts est changée en ce qui est le plus efficace.",
+      "desc": "Inflige +35% de dégâts contre les ennemis souffrant d’effets de statut négatifs (Moral Bas, Panique) venant de perte de PSM.\n\nSi la Capacité inflige de l’Intensité ou du Compte de [Sinking] (inclut “Lourdeur Unique”), inflige +10% de dégâts en plus de l’augmentation ci-dessus.\n\nLorsqu’un effet de [Sinking] s’applique à un ennemi sans Santé Mentale, l’Affinité des dégâts est changée en ce qui est le plus efficace.",
       "simpleDesc": [
         {
           "abilityID": 9065,
-          "simpleDesc": "Inflige +35% de dégâts"
+          "simpleDesc": "Inflige plus de dégâts"
         },
         {
           "abilityID": 90651,
@@ -1784,11 +1784,11 @@
     {
       "id": 19065,
       "name": "Sens Artistique+",
-      "desc": "<style=\"upgradeHighlight\">Inflige +40% de dégâts contre les ennemis avec 0 PSM ou moins.</style>\n\nLorsqu’un effet de [Sinking] s’applique à un ennemi sans Santé Mentale, l’Affinité des dégâts est changée en ce qui est le plus efficace.",
+      "desc": "<style=\"upgradeHighlight\">Inflige +40% de dégâts contre les ennemis avec moins de 0 PSM.</style>\n\nSi la Capacité inflige de l’Intensité ou du Compte de [Sinking] (inclut “Lourdeur Unique”), inflige +<style=\"upgradeHighlight\">10</style>% de dégâts en plus de l’augmentation ci-dessus.\n\nLorsqu’un effet de [Sinking] s’applique à un ennemi sans Santé Mentale, l’Affinité des dégâts est changée en ce qui est le plus efficace.",
       "simpleDesc": [
         {
           "abilityID": 19065,
-          "simpleDesc": "Inflige +40% de dégâts"
+          "simpleDesc": "Inflige plus de dégâts"
         },
         {
           "abilityID": 90651,
@@ -1799,11 +1799,11 @@
     {
       "id": 29065,
       "name": "Sens Artistique++",
-      "desc": "<style=\"upgradeHighlight\">Inflige +50% de dégâts contre les ennemis sans Santé Mentale ou avec 0 PSM ou moins.</style>\n\nLorsqu’un effet de [Sinking] s’applique à un ennemi sans Santé Mentale, l’Affinité des dégâts est changée en ce qui est le plus efficace.",
+      "desc": "<style=\"upgradeHighlight\">Inflige +50% de dégâts contre les ennemis sans PSM ou avec moins de 0 PSM.</style>\n\nSi la Capacité inflige de l’Intensité ou du Compte de [Sinking] (inclut “Lourdeur Unique”), inflige +<style=\"upgradeHighlight\">10</style>% de dégâts en plus de l’augmentation ci-dessus.\n\nLorsqu’un effet de [Sinking] s’applique à un ennemi sans Santé Mentale, l’Affinité des dégâts est changée en ce qui est le plus efficace.",
       "simpleDesc": [
         {
           "abilityID": 29065,
-          "simpleDesc": "Inflige +50% de dégâts"
+          "simpleDesc": "Inflige plus de dégâts"
         },
         {
           "abilityID": 90651,
@@ -2350,7 +2350,7 @@
     {
       "id": 9088,
       "name": "Apaise le Mort",
-      "desc": "Début du Tour : ce Don s’active durant tout l’Affrontement lorsque 5 Identités ou plus ont des Capacités Offensives qui infligent de l’Intensité de [Combustion], Compte, ou “Brûlure Unique”. (Exclut les Capacités E.G.O. ; exclut les Unités de Renfort)\n\nInflige 3 de Compte de [Combustion] à tous les ennemis et inflige aléatoirement un total de 15 d’Intensité de [Combustion] entre tous les ennemis (ou toutes les parties d’Anomalie ; une fois par vague)\n\nAux Capacités qui infligent de l’Intensité de [Combustion], Compte, ou effets de “Brûlure Unique” : +1 de Puissance Finale, +1 de Puissance de Pièce, +1 d’Intensité de [Combustion] infligée, +1 de Compte de [Combustion] infligé.\n\nEn gagnant un Duel avec une Capacité qui inflige de la Puissance, du Compte ou de la “Brûlure Unique”, inflige (# de Pièces restantes + 1) d’Intensité de [Combustion] à la cible ennemie.",
+      "desc": "Début du Tour : ce Don s’active durant tout l’Affrontement lorsque 5 Identités ou plus ont des Capacités Offensives qui infligent de l’Intensité de [Combustion], Compte, ou “Brûlure Unique”. (Exclut les Capacités E.G.O. ; exclut les Unités de Renfort)\n\nInflige 3 de Compte de [Combustion] à tous les ennemis et inflige aléatoirement un total de 15 d’Intensité de [Combustion] entre tous les ennemis (ou toutes les parties d’Anomalie ; une fois par vague)\n\nCapacités à Pièce Positive qui infligent de l’Intensité de [Combustion], Compte, ou effets de “Brûlure Unique” : +1 de Puissance Finale, +1 de Puissance de Pièce, +1 d’Intensité de [Combustion] infligée, +1 de Compte de [Combustion] infligé.\n- Capacités Offensives de Base à Pièce Négative : au lieu de gagner de la Puissance de Pièce, gagne +(4 / # de Pièces) de Puissance de Base (1 min ; arrondi à l’inférieur)\n\nEn gagnant un Duel avec une Capacité qui inflige de la Puissance, du Compte ou de la “Brûlure Unique”, inflige (# de Pièces restantes + 1) d’Intensité de [Combustion] à la cible ennemie.",
       "simpleDesc": [
         {
           "abilityID": 9088,
@@ -2358,7 +2358,7 @@
         },
         {
           "abilityID": 90881,
-          "simpleDesc": "+1 de Puissance Finale de Capacité, +1 de Puissance de Pièce, +1 d’Intensité de [Combustion] infligé, +1 de Compte de [Combustion] infligé."
+          "simpleDesc": "+1 de Puissance Finale de Capacité, gagne de la Puissance de Pièce/Base, +1 d’Intensité de [Combustion] infligé, +1 de Compte de [Combustion] infligé."
         },
         {
           "abilityID": 90882,
@@ -2414,7 +2414,7 @@
     {
       "id": 9090,
       "name": "Brume Sanglante",
-      "desc": "Début du Tour : ce Don s’active durant tout l’Affrontement lorsque 5 Identités ou plus ont des Capacités Offensives qui infligent de l’Intensité de [Laceration], Compte, ou “Saignement Unique”. (Exclut les Capacités E.G.O. ; exclut les Unités de Renfort)\n\nLes alliés infligent le double d’Intensité et de Compte de [Laceration] avec les effets de Capacité aux ennemis.\n\nL’allié le plus haut dans l’ordre de Déploiement avec des Capacités qui infligent de l’Intensité de [Laceration], Compte, ou effets de “Saignement Unique” : +2 de Puissance de Pièce, +100% de dégâts infligés. Si l’enemi ataqué ou affronté en Duel par cet allié meurt, inflige l’Intensité de [Laceration] restante de l’ennemi aléatoirement entre tous les ennemis. (En Affrontement Ciblé, les Parties)\n\n+1 de Puissance de Pièce à toutes les Capacités qui infligent de l’Intensité ou du Compte de [Laceration] ou un “Saignement Unique”.",
+      "desc": "Début du Tour : ce Don s’active durant tout l’Affrontement lorsque 5 Identités ou plus ont des Capacités Offensives qui infligent de l’Intensité de [Laceration], Compte, ou “Saignement Unique”. (Exclut les Capacités E.G.O. ; exclut les Unités de Renfort)\n\nLes alliés infligent le double d’Intensité et de Compte de [Laceration] avec les effets de Capacité aux ennemis.\n\nL’allié avec l’ordre de Déploiement le plus tôt : les Capacités à Pièce Positive qui infligent de l’Intensité de [Laceration], Compte, ou effets de “Saignement Unique” : +2 de Puissance de Pièce et inflige +100% de dégâts.\n- Capacités Offensives de Base à Pièce Négative : au lieu de gagner de la Puissance de Pièce, gagne +(8 / # de Pièces) de Puissance de Base (1 min ; arrondi à l’inférieur)\nSi l’enemi ataqué ou affronté en Duel par cet allié meurt, inflige l’Intensité de [Laceration] restante de l’ennemi vaincu aléatoirement entre tous les ennemis. (En Affrontement Ciblé, les Parties)\n\nCapacités à Pièce Positive qui infligent de l’Intensité de [Laceration], Compte, ou “Saignement Unique” : +1 de Puissance de Pièce, inflige +30% de dégâts\nCapacités à Pièce Négative : au lieu de gagner de la Puissance de Pièce, gagne +(4 / # de Pièces) de Puissance de Base (1 min ; arrondi à l’inférieur)",
       "simpleDesc": [
         {
           "abilityID": 9090,
@@ -2422,11 +2422,11 @@
         },
         {
           "abilityID": 90901,
-          "simpleDesc": "+2 de Puissance de Pièce de Capacité et inflige +100% de dégâts"
+          "simpleDesc": "Les Capacités gagnent de la Puissance de Pièce/Base et infligent +100% de dégâts"
         },
         {
           "abilityID": 90902,
-          "simpleDesc": "Capacités qui infligent de l’Intensité ou du Compte de [Laceration] ou un “Saignement Unique” gagnent +1 de Puissance de Pièce."
+          "simpleDesc": "Capacités qui infligent de l’Intensité ou du Compte de [Laceration] ou un “Saignement Unique” gagnent de la Puissance de Pièce/Base et infligent +30% de dégâts."
         },
         {
           "abilityID": 90903,
@@ -2642,7 +2642,7 @@
     {
       "id": 9098,
       "name": "Sachet Porte-Bonheur",
-      "desc": "Début du Tour : ce Don s’active durant tout l’Affrontement lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent ou gagnent de l’Intensité ou du Compte de [Breath]. (Exclut les Capacités E.G.O. ; exclut les Unités de Renfort)\n\nDébut du Combat : si un allié aléatoire avec [Breath] Touche Critiquement un ennemi avec une Capacité, tous les alliés gagnent 7 d’Intensité de [Breath] et +7 de Compte de [Breath] au prochain Début du Tour. (Une fois par tour)\n\nCapacité 3 des Identités avec des Capacités qui appliquent ou gagnent de l’Intensité de [Breath] (Exclut les Capacités E.G.O.) : +3 de Puissance Finale, +(12/# de Pièces) de Puissance de Pièce, +(50/# de Pièces)% de dégâts infligés.\n\nDébut du Combat : un allié aléatoire gagne 3 d’Intensité de [Breath]. (Priorise les Identités qui appliquent ou gagnent de l’Intensité ou du Compte de [Breath] avec leurs Capacités Offensives) Priorise les alliés avec des Capacités Offensives d’Affinité de Peine ; ils gagnent 3 d’Intensité de [Breath] et +2 de Compte de [Breath]",
+      "desc": "Début du Tour : ce Don s’active durant tout l’Affrontement lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent ou gagnent de l’Intensité ou du Compte de [Breath]. (Exclut les Capacités E.G.O. ; exclut les Unités de Renfort)\n\nDébut du Combat : si un allié aléatoire avec [Breath] Touche Critiquement un ennemi avec une Capacité, tous les alliés gagnent 7 d’Intensité de [Breath] et +7 de Compte de [Breath] au prochain Début du Tour. (Une fois par tour)\n\nCapacité 3 des Identités avec des Capacités qui appliquent ou gagnent de l’Intensité de [Breath] (Exclut les Capacités E.G.O.) : +3 de Puissance Finale, +(12 / # de Pièces) de Puissance de Pièce Positive, +(50 /# de Pièces)% de dégâts infligés.\nCapacités à Pièce Négative : au lieu de gagner de la Puissance de Pièce, gagne +(12 / # de Pièces) de Puissance Finale (1 min ; arrondi à l’inférieur)\n\nDébut du Combat : un allié aléatoire gagne 3 d’Intensité de [Breath]. (Priorise les Identités qui appliquent ou gagnent de l’Intensité ou du Compte de [Breath] avec leurs Capacités Offensives) Priorise les alliés avec des Capacités Offensives d’Affinité de Peine ; ils gagnent 3 d’Intensité de [Breath] et +2 de Compte de [Breath]",
       "simpleDesc": [
         {
           "abilityID": 9098,
@@ -2650,7 +2650,7 @@
         },
         {
           "abilityID": 90981,
-          "simpleDesc": "Capacité 3 : +3 de Puissance Finale, +(12/# de Pièces) de Puissance de Pièce, +(50/# de Pièces)% de dégâts infligés"
+          "simpleDesc": "+3 de Puissance Finale, gagne de la Puissance de Pièce/Finale et inflige +(50 / # de Pièces)% de dégâts"
         },
         {
           "abilityID": 90982,
@@ -2787,40 +2787,40 @@
     {
       "id": 9103,
       "name": "Douleur de la Rage Étouffée",
-      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées #1 et #2]\n\nEn infligeant de la [Combustion] ou une “Brûlure Unique” avec un effet de Capacité à un ennemi qui a [Combustion] ou une “Brûlure Unique”, gagne 1 [Agility] au prochain tour. (2 fois par Capacité, 2 fois par tour)\n\nSi l’unité affectée a déjà [Agility], gagne 1 [Agility] et 2 [AttackUp] à la place. (une fois par Capacité, 2 fois par tour)",
+      "desc": "En infligeant de l’Intensité ou du Compte de [Combustion] ou une “Brûlure Unique” avec un effet de Capacité à un ennemi qui a [Combustion] ou une “Brûlure Unique”, gagne 1 [Agility] au prochain tour. (une fois par Capacité, 2 fois par tour)\n\nSi l’unité affectée a déjà [Agility], gagne 1 [Agility] et 2 [AttackUp] à la place.",
       "simpleDesc": [
         {
           "abilityID": 9103,
-          "simpleDesc": "En infligeant de la [Combustion] ou une “Brûlure Unique” avec un effet de Capacité, gagne 1 [Agility] au prochain tour."
+          "simpleDesc": "En infligeant de l’Intensité ou du Compte de [Combustion] ou une “Brûlure Unique” avec un effet de Capacité, gagne 1 [Agility] au prochain tour."
         }
       ]
     },
     {
       "id": 19103,
       "name": "Douleur de la Rage Étouffée+",
-      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées #1, #2 <style=\"upgradeHighlight\">et #3</style>]\n\nEn infligeant de la [Combustion] ou une “Brûlure Unique” avec un effet de Capacité à un ennemi qui a [Combustion] ou une “Brûlure Unique”, gagne 1 [Agility] au prochain tour. (2 fois par Capacité, 2 fois par tour)\n\nSi l’unité affectée a déjà [Agility], gagne <style=\"upgradeHighlight\">2 [Agility]</style> et 2 [AttackUp] à la place. (une fois par Capacité, 2 fois par tour)",
+      "desc": "En infligeant de l’Intensité ou du Compte de [Combustion] ou une “Brûlure Unique” avec un effet de Capacité à un ennemi qui a [Combustion] ou une “Brûlure Unique”, gagne 1 [Agility] au prochain tour. (une fois par Capacité, 3 fois par tour)\n\nSi l’unité affectée a déjà [Agility], gagne <style=\"upgradeHighlight\">2 [Agility]</style> et 2 [AttackUp] à la place.",
       "simpleDesc": [
         {
           "abilityID": 19103,
-          "simpleDesc": "En infligeant de la [Combustion] ou une “Brûlure Unique” avec un effet de Capacité, gagne 1 [Agility] au prochain tour."
+          "simpleDesc": "En infligeant de l’Intensité ou du Compte de [Combustion] ou une “Brûlure Unique” avec un effet de Capacité, gagne 1 [Agility] au prochain tour."
         }
       ]
     },
     {
       "id": 29103,
       "name": "Douleur de la Rage Étouffée++",
-      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées #1, #2 et #3]\n\nEn infligeant de la [Combustion] ou une “Brûlure Unique” avec un effet de Capacité à un ennemi qui a [Combustion] ou une “Brûlure Unique”, gagne 1 [Agility] au prochain tour. (2 fois par Capacité, 2 fois par tour)\n\nSi l’unité affectée a déjà [Agility], gagne 2 [Agility], 2 [AttackUp] et <style=\"upgradeHighlight\">2 [AttackDmgUp]</style> à la place. (une fois par Capacité, 2 fois par tour)",
+      "desc": "En infligeant de l’Intensité ou du Compte de [Combustion] ou une “Brûlure Unique” avec un effet de Capacité à un ennemi qui a [Combustion] ou une “Brûlure Unique”, gagne 1 [Agility] au prochain tour. (une fois par Capacité, 3 fois par tour)\n\nSi l’unité affectée a déjà [Agility], gagne 2 [Agility], 2 [AttackUp] et <style=\"upgradeHighlight\">2 [AttackDmgUp]</style> à la place.",
       "simpleDesc": [
         {
           "abilityID": 29103,
-          "simpleDesc": "En infligeant de la [Combustion] ou une “Brûlure Unique” avec un effet de Capacité à un ennemi qui a [Combustion] ou une “Brûlure Unique”, gagne 1 [Agility] au prochain tour."
+          "simpleDesc": "En infligeant de l’Intensité ou du Compte de [Combustion] ou une “Brûlure Unique” avec un effet de Capacité à un ennemi qui a [Combustion] ou une “Brûlure Unique”, gagne 1 [Agility] au prochain tour."
         }
       ]
     },
     {
       "id": 9104,
       "name": "Fleur Ardente",
-      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées #1 et #2]\n\nLorsqu’un allié attaque un ennemi, si la cible a (Intensité de [Combustion] sur soi)% de PV ou moins (pour les Anomalies, PV de Noyau), inflige +50% de dégâts avec les Capacités Offensives qui infligent de l’Intensité ou du Compte de [Combustion] ou une “Brûlure Unique”.",
+      "desc": "À 3 de Réson. de Colère ou plus, les Capacités qui infligent de l’Intensité ou du Compte de [Combustion] ou une “Brûlure Unique” gagnent +1 de Puissance de Duel\n- À 3 de Réson.-A de Colère ou plus, ou à 6 de Réson. de Colère ou plus, gagne +2 de Puissance de Duel à la place\n\n[Les effets s’appliquent uniquement aux Identités Déployées #1 et #2]\n\nLorsqu’un allié attaque un ennemi, si la cible a (Intensité de [Combustion] sur soi)% de PV ou moins (pour les Anomalies, PV de Noyau), inflige +50% de dégâts avec les Capacités Offensives qui infligent de l’Intensité ou du Compte de [Combustion] ou une “Brûlure Unique”.",
       "simpleDesc": [
         {
           "abilityID": 9104,
@@ -2945,7 +2945,7 @@
     {
       "id": 9109,
       "name": "Répit",
-      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées #1 et #2]\n\nS’active en Gagnant un Duel avec une Capacité qui inflige de l’Intensité ou du Compte de [Laceration] ou un “Saignement Unique”\n\nInflige +(# de Pièces restantes/2) de Compte de [Laceration] à la cible et gagne du [AttackUp] égal à cette valeur au prochain tour\n\nPour les Capacités avec 2 Pièces ou moins, utilise (# de Pièces restantes+3) pour calculer à la place",
+      "desc": "S’active en Gagnant un Duel avec une Capacité qui inflige de l’Intensité ou du Compte de [Laceration] ou un “Saignement Unique”\n\nInflige +(# de Pièces restantes/2) de Compte de [Laceration] à la cible et gagne du [AttackUp] égal à cette valeur au prochain tour\n\nPour les Capacités avec 2 Pièces ou moins, utilise (# de Pièces restantes+3) pour calculer à la place",
       "simpleDesc": [
         {
           "abilityID": 9109,
@@ -3653,15 +3653,15 @@
     {
       "id": 9135,
       "name": "Générateur Mimétique",
-      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées #1 et #2]\n\nS’active lorsque l’unité a 10 (Compte de [Charge] + “Charge Unique”) ou plus au Début du Tour.\n\n+1 de Puissance de Pièce pour la Capacité 3 qui gagne ou consomme du Compte de [Charge] ou de la “Charge Unique”.\n\nSi cette Capacité a moins de 5 de Puissance de Base, inflige +25% de dégâts ; si elle a 5 de Puissance de Base ou plus, gagne +1 de Puissance de Pièce supplémentaire.",
+      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées #1 et #2]\n\nS’active lorsque l’unité a 10 (Compte de [Charge] + “Charge Unique”) ou plus au Début du Tour.\n\n+1 de Puissance de Pièce Positive pour la Capacité 3 qui gagne ou consomme du Compte de [Charge] ou de la “Charge Unique”.\n- Capacités à Pièce Négative : au lieu de gagner de la Puissance de Pièce Positive, gagne +(4 / # de Pièces) de Puissance de Base (1 min ; arrondi à l’inférieur)\n\nSi cette Capacité a moins de 5 de Puissance de Base, inflige +25% de dégâts ; si elle a 5 de Puissance de Base ou plus, gagne +1 de Puissance de Pièce Positive supplémentaire.\n- Capacités à Pièce Négative : au lieu de gagner de la Puissance de Pièce Positive, gagne +(4 / # de Pièces) de Puissance de Base (1 min ; arrondi à l’inférieur)",
       "simpleDesc": [
         {
           "abilityID": 9135,
-          "simpleDesc": "+1 de Puissance de Pièce pour la Capacité 3 qui consomme du Compte de [Charge] ou de la “Charge Unique”"
+          "simpleDesc": "Capacité 3 qui consomme du Compte de [Charge] ou de la “Charge Unique” gagne de la Puissance de Pièce/Base"
         },
         {
           "abilityID": 91351,
-          "simpleDesc": "Inflige +25% de dégâts ou gagne +1 de Puissance de Pièce supplémentaire"
+          "simpleDesc": "Inflige +25% de dégâts ou gagne de la Puissance de Pièce/Base supplémentaire"
         }
       ]
     },
@@ -3936,41 +3936,29 @@
       "simpleDesc": [
         {
           "abilityID": 9144,
-          "simpleDesc": "Gagne 1 [Agility] et 1 [PenetrateDamageUp] au prochain tour"
-        },
-        {
-          "abilityID": 91441,
-          "simpleDesc": "Gagne 1 [Agility] supplémentaire au prochain tour"
+          "simpleDesc": "Gagne de l’[Agility] et du [PenetrateDamageUp] au prochain tour"
         }
       ]
     },
     {
       "id": 19144,
       "name": "Autrefois, Une Bénédiction+",
-      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées <style=\"upgradeHighlight\">#5</style> et #6]\n\nEn touchant un ennemi avec une Capacité Perçante, gagne 1 [Agility] et 1 [PenetrateDamageUp] au prochain tour. (une fois par tour)\n\nEn vainquant un ennemi avec cette Capacité, gagne 1 [Agility] supplémentaire et <style=\"upgradeHighlight\">1 [PenetrateDamageUp] supplémentaire</style> au prochain tour. (une fois par tour)",
+      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées <style=\"upgradeHighlight\">#5</style> et #6]\n\nEn touchant un ennemi avec une Capacité Perçante, gagne 1 [Agility] et 1 [PenetrateDamageUp] au prochain tour (une fois par tour pour chaque Identité).\n\nEn vainquant un ennemi avec cette Capacité, gagne 1 [Agility] supplémentaire et <style=\"upgradeHighlight\">1 [PenetrateDamageUp] supplémentaire</style> au prochain tour (une fois par tour pour chaque Identité).",
       "simpleDesc": [
         {
           "abilityID": 19144,
-          "simpleDesc": "Gagne 1 [Agility] et 1 [PenetrateDamageUp] au prochain tour"
-        },
-        {
-          "abilityID": 191441,
-          "simpleDesc": "Gagne 1 [Agility] et 1 [PenetrateDamageUp] au prochain tour"
+          "simpleDesc": "Gagne de l’[Agility] et du [PenetrateDamageUp] au prochain tour"
         }
       ]
     },
     {
       "id": 29144,
       "name": "Autrefois, Une Bénédiction++",
-      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées #5 et #6]\n\nEn touchant un ennemi avec une Capacité Perçante, gagne 1 [Agility] et 1 [PenetrateDamageUp] au prochain tour. (<style=\"upgradeHighlight\">2 fois</style> par tour)\n\nEn vainquant un ennemi avec cette Capacité, gagne 1 [Agility] supplémentaire et <style=\"upgradeHighlight\">2</style> de [PenetrateDamageUp] supplémentaires au prochain tour. (une fois par tour)",
+      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées #5 et #6]\n\nEn touchant un ennemi avec une Capacité Perçante, gagne 1 [Agility] et 1 [PenetrateDamageUp] au prochain tour (<style=\"upgradeHighlight\">2</style> fois par tour pour chaque Identité).\n\nEn vainquant un ennemi avec cette Capacité, gagne 1 [Agility] supplémentaire et <style=\"upgradeHighlight\">2</style> de [PenetrateDamageUp] supplémentaires au prochain tour (une fois par tour pour chaque Identité).",
       "simpleDesc": [
         {
           "abilityID": 29144,
-          "simpleDesc": "Gagne 1 [Agility] et 1 [PenetrateDamageUp] au prochain tour"
-        },
-        {
-          "abilityID": 291441,
-          "simpleDesc": "Gagne 1 [Agility] et 2 [PenetrateDamageUp] au prochain tour"
+          "simpleDesc": "Gagne de l’[Agility] et du [PenetrateDamageUp] au prochain tour"
         }
       ]
     },
@@ -4412,11 +4400,11 @@
     {
       "id": 9161,
       "name": "Dévouement",
-      "desc": "Début du Tour : ce Don s’active durant tout l’Affrontement lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent de l’Intensité ou du Compte de [Laceration] ou de “Saignement Unique”. (Exclut les Capacités E.G.O. ; exclut les Unités de Renfort)\n\nPour 1 allié le plus rapide avec des Capacités qui infligent de l’Intensité ou du Compte de [Laceration] ou de “Saignement Unique” : +1 de Puissance de Pièce, +50% de dégâts infligés\n\n+1 de Puissance Finale à toutes les Capacités qui infligent de l’Intensité ou du Compte de [Laceration] ou de “Saignement Unique”.",
+      "desc": "Début du Tour : ce Don s’active durant tout l’Affrontement lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent de l’Intensité ou du Compte de [Laceration] ou de “Saignement Unique”. (Exclut les Capacités E.G.O. ; exclut les Unités de Renfort)\n\nPour 1 allié le plus rapide : Capacités à Pièce Positive qui infligent de l’Intensité ou du Compte de [Laceration] ou de “Saignement Unique” : +1 de Puissance de Pièce, +50% de dégâts infligés\n- Capacités à Pièce Négative : au lieu de gagner de la Puissance de Pièce, gagne +(4 / # de Pièces) de Puissance de Base (1 min ; arrondi à l’inférieur)\n\n+1 de Puissance Finale à toutes les Capacités qui infligent de l’Intensité ou du Compte de [Laceration] ou de “Saignement Unique”.",
       "simpleDesc": [
         {
           "abilityID": 9161,
-          "simpleDesc": "+1 de Puissance de Pièce, inflige +50% de dégâts"
+          "simpleDesc": "Gagne de la Puissance de Pièce/Base et inflige +50% de dégâts"
         },
         {
           "abilityID": 91611,
@@ -4472,7 +4460,7 @@
     {
       "id": 9177,
       "name": "Rappel d’un Certain Jour",
-      "desc": "Capacité 3 de toutes les Identités qui gagnent de l’Intensité ou du Compte de [Breath] grâce à des Capacités (à l’exception de Capacités E.G.O.) : +2 de Puissance Finale",
+      "desc": "Capacité 3 de toutes les Identités qui gagnent de l’Intensité ou du Compte de [Breath] grâce à des Capacités (exclut les Capacités E.G.O.) : +2 de Puissance Finale",
       "simpleDesc": [
         {
           "abilityID": 9177,
@@ -4483,11 +4471,11 @@
     {
       "id": 9179,
       "name": "Réminiscence",
-      "desc": "Début du Tour : ce Don s’active durant tout l’Affrontement lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent ou gagnent de l’Intensité ou du Compte de [Breath]. (Exclut les Capacités E.G.O. ; exclut les Unités de Renfort)\nCapacité 3 des Identités avec des Capacités (à l’exception de Capacités E.G.O.) qui gagnent de l’Intensité ou du Compte de [Breath] : +1 de Puissance de Pièce\n\nDébut du Combat : un allié aléatoire gagne 3 d’Intensité de [Breath]. (priorise les Identités qui gagnent de l’Intensité ou du Compte de [Breath] avec leurs Capacités Offensives) Priorise les alliés avec des Capacités Offensives d’Affinité de Peine ; ils gagnent 3 d’Intensité de [Breath] et +2 de Compte de [Breath] à la place.",
+      "desc": "Début du Tour : ce Don s’active durant tout l’Affrontement lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent ou gagnent de l’Intensité ou du Compte de [Breath]. (Exclut les Capacités E.G.O. ; exclut les Unités de Renfort)\nCapacité 3 des Identités avec des Capacités (exclut les Capacités E.G.O.) qui gagnent de l’Intensité ou du Compte de [Breath] : +1 de Puissance de Pièce Positive\n- Capacités à Pièce Négative : au lieu de gagner de la Puissance de Pièce Positive, gagne +(4 / # de Pièces) de Puissance de Base (1 min ; arrondi à l’inférieur)\n\nDébut du Combat : un allié aléatoire gagne 3 d’Intensité de [Breath]. (priorise les Identités qui gagnent de l’Intensité ou du Compte de [Breath] avec leurs Capacités Offensives) Priorise les alliés avec des Capacités Offensives d’Affinité de Peine ; ils gagnent 3 d’Intensité de [Breath] et +2 de Compte de [Breath] à la place.",
       "simpleDesc": [
         {
           "abilityID": 9179,
-          "simpleDesc": "+1 de Puissance de Pièce"
+          "simpleDesc": "Gagne de la Puissance de Pièce/Base"
         },
         {
           "abilityID": 91791,
@@ -4572,7 +4560,7 @@
     {
       "id": 9190,
       "name": "Guide de Plan d’Essai",
-      "desc": "-30% de Coût de Remplacement de Capacité dans les Boutiques",
+      "desc": "-30% de Coût de Remplacement de Capacité dans les Boutiques (exclut les frais de Recherche de Capacité)",
       "simpleDesc": [
         {
           "abilityID": 29190,

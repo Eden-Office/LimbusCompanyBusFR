@@ -87,15 +87,15 @@
     {
       "id": 9205,
       "name": "Flasque WB",
-      "desc": "S’active lorsqu’un allié avec des Capacités Offensives qui infligent du [Laceration] ou du “Saignement Unique” meurt (une fois par vague ; exclut les Capacités E.G.O. ; si plus d’un allié meurt en même temps, utilise l’allié avec le plus haut niveau parmi eux)\n- Tous les alliés regagnent (9% des PV max de l’Identité morte) PV et augmente le [BloodDinner] de (niveau de l’Identité morte + 9)\n- Tous les alliés gagnent (niveau de l’Identité morte / 9) [AttackUp] au prochain tour (6 max ; arrondi à l’inférieur)",
+      "desc": "En tuant un ennemi, augmente le [BloodDinner] de (PV max de l’ennemi tué / 10) (50 max)\nFin du Tour : si un allié a été vaincu ce tour, tous les alliés gagnent 2 [Enhancement] au prochain tour",
       "simpleDesc": [
         {
           "abilityID": 9205,
-          "simpleDesc": "Soigne des PV et augmente le Festin Sanglant"
+          "simpleDesc": "Augmente le Festin Sanglant"
         },
         {
           "abilityID": 92051,
-          "simpleDesc": "Gagne du Bonus de Niveau Offensif"
+          "simpleDesc": "Gagne du Bonus de Puissance Offensive"
         }
       ]
     },

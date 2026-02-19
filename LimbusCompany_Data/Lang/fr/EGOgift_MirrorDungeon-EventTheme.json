@@ -264,7 +264,7 @@
     {
       "id": 9720,
       "name": "Vieille Robe Dopo",
-      "desc": "Début du Tour : s’active lorsqu’il y a 3 Identités de la Lignée de la Lame ou plus (ne compte que les Identités sur le terrain).\n\nTous les alliés infligent +50% de dégâts Tranchants.\n\nIdentités de la Lignée de la Lame : Capacité 1 gagne +1 de Puissance de Pièce. Capacité 1 Monopièce gagne +3 de Puissance de Pièce.\n\n[Mentor de la Lignée de la Lame Meursault Seulement] -12 de Puissance Finale de Duel pour la Capacité “Offrir Ma Chair” ; la Capacité “Pour Réclamer Leurs Os” inflige +50% de dégâts.",
+      "desc": "Début du Tour : s’active lorsqu’il y a 3 Identités de la Lignée de la Lame ou plus (ne compte que les Identités sur le terrain).\n\nTous les alliés infligent +50% de dégâts Tranchants.\n\nIdentités de la Lignée de la Lame : Capacité 1 gagne +1 de Puissance de Pièce. Capacité 1 Monopièce gagne +3 de Puissance de Pièce.\n\n[Mentor de la Lignée de la Lame Meursault Seulement] -24 de Puissance Finale de Duel pour la Capacité “Offrir Ma Chair” ; la Capacité “Pour Réclamer Leurs Os” inflige +50% de dégâts.",
       "simpleDesc": [
         {
           "abilityID": 9720,
@@ -276,7 +276,7 @@
         },
         {
           "abilityID": 97202,
-          "simpleDesc": "-12 de Puissance Finale de Duel pour la Capacité “Offrir Ma Chair” ; la Capacité “Pour Réclamer Leurs Os” inflige +50% de dégâts"
+          "simpleDesc": "-24 de Puissance Finale de Duel pour la Capacité “Offrir Ma Chair” ; la Capacité “Pour Réclamer Leurs Os” inflige +50% de dégâts"
         }
       ]
     },
@@ -392,11 +392,11 @@
     {
       "id": 9728,
       "name": "Montre de Poche : Type L",
-      "desc": "Début du Tour : ce Don s’active durant tout l’Affrontement lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent de l’Intensité ou du Compte de [Vibration] ou du “Tremblement Unique”. (Exclut les Capacités E.G.O. ; exclut les Unités de Renfort)\n\nAux Capacités 3 des alliés qui infligent de l’Intensité ou du Compte de [Vibration] ou un “Tremblement Unique” : +2 de Puissance de Pièce et +25% de dégâts.\n\nLorsqu’un allié qui inflige de l’Intensité ou du Compte de [Vibration] ou un “Tremblement Unique” déclenche une [Switch_Vibration] ou une [FusionVibration] sur un ennemi avec des Capacités Offensives (inclut les Capacités E.G.O.) : multiplie par 1.5 la Puissance et le Compte de [Vibration] (seulement en les Convertissant en d’autres types de “Tremblement”) et inflige 5 [DefenseDown] au prochain tour. (une fois par tour)\n\nDébut du tour : inflige (12 - Vitesse actuelle) d’Intensité de [Vibration] (6 min.) à 3 ennemis les plus lents. (Une fois par vague)",
+      "desc": "Début du Tour : ce Don s’active durant tout l’Affrontement lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent de l’Intensité ou du Compte de [Vibration] ou du “Tremblement Unique”. (Exclut les Capacités E.G.O. ; exclut les Unités de Renfort)\n\nAux Capacités 3 des alliés qui infligent de l’Intensité ou du Compte de [Vibration] ou un “Tremblement Unique” : +2 de Puissance de Pièce Positive et +25% de dégâts.\n- Capacités à Pièce Négative : au lieu de gagner de la Puissance de Pièce Positive, gagne +(8/# de Pièces) de Puissance de Base (1 min ; arrondi à l’inférieur)\n\nLorsqu’un allié qui inflige de l’Intensité ou du Compte de [Vibration] ou un “Tremblement Unique” déclenche une [Switch_Vibration] ou une [FusionVibration] sur un ennemi avec des Capacités Offensives (inclut les Capacités E.G.O.) : multiplie par 1.5 la Puissance et le Compte de [Vibration] (seulement en les Convertissant en d’autres types de “Tremblement”) et inflige 5 [DefenseDown] au prochain tour. (une fois par tour)\n\nDébut du tour : inflige (12 - Vitesse actuelle) d’Intensité de [Vibration] (6 min.) à 3 ennemis les plus lents. (Une fois par vague)",
       "simpleDesc": [
         {
           "abilityID": 9728,
-          "simpleDesc": "Capacité 3 gagne +2 de Puissance de Pièce et inflige +25% de dégâts"
+          "simpleDesc": "Capacité 3 gagne de la Puissance de Pièce/Base et inflige +25% de dégâts"
         },
         {
           "abilityID": 97281,
@@ -411,11 +411,11 @@
     {
       "id": 9729,
       "name": "Montre de Poche : Type E",
-      "desc": "Début du Tour : ce Don s’active durant tout l’Affrontement lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent de l’Intensité ou du Compte de [Vibration] ou du “Tremblement Unique”. (Exclut les Capacités E.G.O. ; exclut les Unités de Renfort)\n\nAux Capacités 3 des alliés qui infligent de l’Intensité ou du Compte de [Vibration] ou un “Tremblement Unique” : +2 de Puissance de Pièce et +25% de dégâts.\n\nLorsqu’un allié qui inflige de l’Intensité ou du Compte de [Vibration] ou un “Tremblement Unique” inflige des dégâts à un ennemi plus lent avec 2 de différence de Vitesse ou plus : inflige +(Intensité de [Vibration] sur la cible, 25 max)% de dégâts et inflige 2 [DefenseDown] chaque fois qu’un allié inflige des dégâts (6 max)\n\nDébut du Tour : inflige (12 - Vitesse actuelle) d’Intensité de [Vibration] (6 min.) et (12 - Vitesse actuelle)/2 de Compte de [Vibration] à 1 ennemi le plus rapide. (arrondi au supérieur ; pour les Anomalies, une Partie ; une fois par vague)",
+      "desc": "Début du Tour : ce Don s’active durant tout l’Affrontement lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent de l’Intensité ou du Compte de [Vibration] ou du “Tremblement Unique”. (Exclut les Capacités E.G.O. ; exclut les Unités de Renfort)\n\nAux Capacités 3 des alliés qui infligent de l’Intensité ou du Compte de [Vibration] ou un “Tremblement Unique” : +2 de Puissance de Pièce Positive et +25% de dégâts.\n- Capacités à Pièce Négative : au lieu de gagner de la Puissance de Pièce Positive, gagne +(8/# de Pièces) de Puissance de Base (1 min ; arrondi à l’inférieur)\n\nLorsqu’un allié qui inflige de l’Intensité ou du Compte de [Vibration] ou un “Tremblement Unique” inflige des dégâts à un ennemi plus lent avec 2 de différence de Vitesse ou plus : inflige +(Intensité de [Vibration] sur la cible, 25 max)% de dégâts et inflige 2 [DefenseDown] chaque fois qu’un allié inflige des dégâts (6 max)\n\nDébut du Tour : inflige (12 - Vitesse actuelle) d’Intensité de [Vibration] (6 min.) et (12 - Vitesse actuelle)/2 de Compte de [Vibration] à 1 ennemi le plus rapide. (arrondi au supérieur ; pour les Anomalies, une Partie ; une fois par vague)",
       "simpleDesc": [
         {
           "abilityID": 9729,
-          "simpleDesc": "Capacité 3 gagne +2 de Puissance de Pièce et inflige +25% de dégâts"
+          "simpleDesc": "Capacité 3 gagne de la Puissance de Pièce/Base et inflige +25% de dégâts"
         },
         {
           "abilityID": 97291,
@@ -430,11 +430,11 @@
     {
       "id": 9730,
       "name": "Montre de Poche : Type Y",
-      "desc": "Début du Tour : ce Don s’active durant tout l’Affrontement lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent de l’Intensité ou du Compte de [Vibration] ou du “Tremblement Unique”. (Exclut les Capacités E.G.O. ; exclut les Unités de Renfort)\n\nAux Capacités 3 des alliés qui infligent de l’Intensité ou du Compte de [Vibration] ou un “Tremblement Unique” : +2 de Puissance de Pièce et +25% de dégâts.\n\nIdentités Yurodivy : Capacité 3 gagne +2 de Puissance de Pièce et inflige +(25 + (somme de la Puissance et du Compte de [Vibration] de la cible))% de dégâts à la place. (100% max)\n\nIdentités Yurodivy : gagne +3 de Compte de [Vibration] au Début du Tour.",
+      "desc": "Début du Tour : ce Don s’active durant tout l’Affrontement lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent de l’Intensité ou du Compte de [Vibration] ou du “Tremblement Unique”. (Exclut les Capacités E.G.O. ; exclut les Unités de Renfort)\n\nAux Capacités 3 des alliés qui infligent de l’Intensité ou du Compte de [Vibration] ou un “Tremblement Unique” : +2 de Puissance de Pièce Positive et +25% de dégâts.\n- Capacités à Pièce Négative : au lieu de gagner de la Puissance de Pièce Positive, gagne +(8/# de Pièces) de Puissance de Base (1 min ; arrondi à l’inférieur)\n\nIdentités Yurodivy : Capacité 3 gagne +2 de Puissance de Pièce et inflige +(25 + (somme de la Puissance et du Compte de [Vibration] de la cible))% de dégâts à la place. (100% max)\n\nIdentités Yurodivy : gagne +3 de Compte de [Vibration] au Début du Tour.",
       "simpleDesc": [
         {
           "abilityID": 9730,
-          "simpleDesc": "Capacité 3 gagne +2 de Puissance de Pièce et inflige +25% de dégâts"
+          "simpleDesc": "Capacité 3 gagne de la Puissance de Pièce/Base et inflige +25% de dégâts"
         },
         {
           "abilityID": 97301,
@@ -449,11 +449,11 @@
     {
       "id": 9731,
       "name": "Montre de Poche : Type P",
-      "desc": "Début du Tour : ce Don s’active durant tout l’Affrontement lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent de l’Intensité ou du Compte de [Vibration] ou du “Tremblement Unique”. (Exclut les Capacités E.G.O. ; exclut les Unités de Renfort)\n\nAux Capacités 3 des alliés qui infligent de l’Intensité ou du Compte de [Vibration] ou un “Tremblement Unique” : +2 de Puissance de Pièce et +25% de dégâts.\n\nLorsqu’un allié qui inflige de l’Intensité ou du Compte de [Vibration] ou un “Tremblement Unique” affronte en Duel un ennemi plus rapide avec 2 de différence de Vitesse ou plus : +2 de Puissance de Duel et inflige +(Intensité de [Vibration] de la cible)% de dégâts. (50% max)\n\nDébut du Tour : du plus lent au plus rapide, les 3 alliés les plus lents gagnent 5 [AttackUp], 3 [AttackUp] et 2 [AttackUp] respectivement.",
+      "desc": "Début du Tour : ce Don s’active durant tout l’Affrontement lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent de l’Intensité ou du Compte de [Vibration] ou du “Tremblement Unique”. (Exclut les Capacités E.G.O. ; exclut les Unités de Renfort)\n\nAux Capacités 3 des alliés qui infligent de l’Intensité ou du Compte de [Vibration] ou un “Tremblement Unique” : +2 de Puissance de Pièce Positive et +25% de dégâts.\n- Capacités à Pièce Négative : au lieu de gagner de la Puissance de Pièce Positive, gagne +(8/# de Pièces) de Puissance de Base (1 min ; arrondi à l’inférieur)\n\nLorsqu’un allié qui inflige de l’Intensité ou du Compte de [Vibration] ou un “Tremblement Unique” affronte en Duel un ennemi plus rapide avec 2 de différence de Vitesse ou plus : +2 de Puissance de Duel et inflige +(Intensité de [Vibration] de la cible)% de dégâts. (50% max)\n\nDébut du Tour : du plus lent au plus rapide, les 3 alliés les plus lents gagnent 5 [AttackUp], 3 [AttackUp] et 2 [AttackUp] respectivement.",
       "simpleDesc": [
         {
           "abilityID": 9731,
-          "simpleDesc": "Capacité 3 gagne +2 de Puissance de Pièce et inflige +25% de dégâts"
+          "simpleDesc": "Capacité 3 gagne de la Puissance de Pièce/Base et inflige +25% de dégâts"
         },
         {
           "abilityID": 97311,

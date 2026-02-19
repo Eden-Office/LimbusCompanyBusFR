@@ -1,0 +1,29 @@
+{
+  "dataList": [
+    {
+      "id": 131911,
+      "name": "Vierge de Fer - Défibrillation",
+      "desc": "En arrivant, regagne 30 PSM"
+    },
+    {
+      "id": 135201,
+      "name": "Marque du Chasseur",
+      "desc": "Tous les 3 tours, choisi un ennemi aléatoire, réduit sa Vitesse à 1 et le cible avec toutes les Capacités de cette unité\n(Si cet effet n’a pas pu s’activer suite à un Déséquilibre, l’active au prochain tour)"
+    },
+    {
+      "id": 135501,
+      "name": "Réaliser la Prescription",
+      "desc": "Fin du Tour : si une [IndexPrescript_Base_2nd] a été exécutée ce tour, regagne 15 PSM et gagne (niveau de [UnlockBuff_Base] + 1) [BlessingOfIndexPrescriptEnemy] (une fois par tour)\n\nFin du Tour : si une [IndexPrescript_Base_2nd] n’a pas été exécutée ce tour, gagne 1 [PressureOfPrescript] et 5 [KarmaOfIndexStudent]\n- Si cette unité n’a pas [UnlockBuff_Base], gagne 1 [BlessingOfIndexPrescriptEnemy] à la Fin du Tour\n- À 9 [BlessingOfIndexPrescriptEnemy], ne gagne pas de [KarmaOfIndexStudent]\n- Si cette unité est sous l’effet de E.G.O. Fleuri[TabExplain]::Procuration, double la [KarmaOfIndexStudent] que gagne cette unité"
+    },
+    {
+      "id": 135503,
+      "name": "Déverrouillage",
+      "desc": "Fin du Tour : à 3/6/9 [BlessingOfIndexPrescriptEnemy] ou à 90%/70%/50% de PV ou moins,\n- Gagne [UnlockBuff_1]/[UnlockBuff_2]/[UnlockBuff_3]\n- Regagne 45 PSM\n- Consomme toute [PressureOfPrescript] et se remet de Déséquilibre\n- Gagne 1 [BlessingOfIndexPrescriptEnemy] au tour après que [UnlockBuff_Base] a été gagné pour la première fois\n\nSi [UnlockBuff_Base] a été gagné selon les conditions de PV ci-dessus,\n- Gagne (somme des PSM soignés / 15) [KarmaOfIndexStudent]\n- Augmente la [BlessingOfIndexPrescriptEnemy] à 3/6/9 si cette unité avait moins de 3/6/9 [BlessingOfIndexPrescriptEnemy] ; gagne 1 [DefenseDown] et 2 [KarmaOfIndexStudent] au prochain tour par Instance de [BlessingOfIndexPrescriptEnemy] gagnée\n\n+10 de Vitesse Min & Max au tour où cette unité utilise son attaque puissante"
+    },
+    {
+      "id": 135505,
+      "name": "Concentration",
+      "desc": "À [UnlockBuff_3], applique les effets suivants :\n- [BlandishmentShinEnemyDelete], gagne du Bouclier égal à 50% des PV max (dure le reste de cet Affrontement)\n- Intensifie [PressureOfPrescript] en [PressureOfPrescript_2nd] et maximise ses Instances\n- Début du Tour : gagne 1 [PressureOfPrescript_2nd]"
+    }
+  ]
+}

@@ -915,7 +915,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 20% de chances de Réutiliser la Pièce une fois. +20% de chances supplémentaires de Réutiliser la Pièce pour chaque type d’effets négatifs sur la cible"
+                  "desc": "[OnSucceedAttack] 20% de chance de Réutiliser la Pièce une fois. +20% de chance supplémentaires de Réutiliser la Pièce pour chaque type d’effets négatifs sur la cible"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
@@ -935,7 +935,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 20% de chances de Réutiliser la Pièce une fois. +20% de chances supplémentaires de Réutiliser la Pièce pour chaque type d’effets négatifs sur la cible"
+                  "desc": "[OnSucceedAttack] 20% de chance de Réutiliser la Pièce une fois. +20% de chance supplémentaires de Réutiliser la Pièce pour chaque type d’effets négatifs sur la cible"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
@@ -955,7 +955,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 40% de chances de Réutiliser la Pièce. +20% de chances supplémentaires de Réutiliser la Pièce pour chaque type d’effets négatifs sur la cible (2 fois max par Capacité)"
+                  "desc": "[OnSucceedAttack] 40% de chance de Réutiliser la Pièce. +20% de chance supplémentaires de Réutiliser la Pièce pour chaque type d’effets négatifs sur la cible (2 fois max par Capacité)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
@@ -2647,6 +2647,299 @@
                 },
                 {
                   "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "“Enveloppez 330 fois dans de Longues Bandes de Sang Gelé”",
+          "desc": "(75 - ([KarmaOfIndexAlly] / 2))% de chance de produire une arme Contondante\n- Les Pièces utilisant des armes Contondantes infligent +10% de dégâts\nSi cette Capacité est marquée par la [IndexPrescriptTargetMarkToEnemy], inflige +15% de dégâts\n[WhenUse] Convertit (niveau de [UnlockBuff_Base] - 1) Pièces en [SuperCoin]s, en commençant par la Pièce finale\n[WhenUse] Gagne +1 de Compte de [Breath]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [Breath]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "“Enveloppez 330 fois dans de Longues Bandes de Sang Gelé”",
+          "desc": "(75 - ([KarmaOfIndexAlly] / 2))% de chance de produire une arme Contondante\n- Les Pièces utilisant des armes Contondantes infligent +10% de dégâts\nSi cette Capacité est marquée par la [IndexPrescriptTargetMarkToEnemy], inflige +15% de dégâts\n<style=\"highlight\">À 6 ([Breath] sur soi + [Sinking] sur la cible) ou plus, +1 de Puissance de Pièce</style>\n[WhenUse] Convertit (niveau de [UnlockBuff_Base] - 1) Pièces en [SuperCoin]s, en commençant par la Pièce finale\n[WhenUse] Gagne +<style=\"highlight\">2</style> de Compte de [Breath]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [Breath]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "“Enveloppez 330 fois dans de Longues Bandes de Sang Gelé”",
+          "desc": "(75 - ([KarmaOfIndexAlly] / 2))% de chance de produire une arme Contondante\n- Les Pièces utilisant des armes Contondantes infligent <style=\"highlight\">+15%</style> de dégâts\nSi cette Capacité est marquée par la [IndexPrescriptTargetMarkToEnemy], <style=\"highlight\">+1 de Puissance de Duel</style> et inflige <style=\"highlight\">+20%</style> de dégâts\n<style=\"highlight\">+1 de Puissance de Pièce tous les 6 ([Breath] sur soi + [Sinking] sur la cible) (2 max)</style>\n[WhenUse] Convertit (niveau de [UnlockBuff_Base] - 1) Pièces en [SuperCoin]s, en commençant par la Pièce finale\n[WhenUse] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [Breath]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige <style=\"highlight\">2</style> [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "“Réjouissez-vous avec un Applaudissement Insonore, Empalez avec un Chagrin Muet”",
+          "desc": "(75 - ([KarmaOfIndexAlly] / 2))% de chance de produire une arme Perçante\n- Les Pièces utilisant des armes Perçantes infligent +10% de dégâts\nSi cette Capacité est marquée par la [IndexPrescriptTargetMarkToEnemy], +1 de Puissance de Duel\n[WhenUse] Convertit (niveau de [UnlockBuff_Base]) Pièces en [SuperCoin]s, en commençant par la Pièce finale\n[WhenUse] Gagne 3 [Breath]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Breath]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "“Réjouissez-vous avec un Applaudissement Insonore, Empalez avec un Chagrin Muet”",
+          "desc": "(75 - ([KarmaOfIndexAlly] / 2))% de chance de produire une arme Perçante\n- Les Pièces utilisant des armes Perçantes infligent +10% de dégâts\nSi cette Capacité est marquée par la [IndexPrescriptTargetMarkToEnemy], +1 de Puissance de Duel\n<style=\"highlight\">À 6 ([Breath] sur soi + [Sinking] sur la cible) ou plus, +1 de Puissance de Pièce</style>\n[WhenUse] Convertit (niveau de [UnlockBuff_Base]) Pièces en [SuperCoin]s, en commençant par la Pièce finale\n[WhenUse] Gagne 3 [Breath]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Breath]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +1 de Compte de [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "“Réjouissez-vous avec un Applaudissement Insonore, Empalez avec un Chagrin Muet”",
+          "desc": "(75 - ([KarmaOfIndexAlly] / 2))% de chance de produire une arme Perçante\n- Les Pièces utilisant des armes Perçantes infligent <style=\"highlight\">+15%</style> de dégâts\nSi cette Capacité est marquée par la [IndexPrescriptTargetMarkToEnemy], <style=\"highlight\">+1 de Puissance Finale</style>\n<style=\"highlight\">+1 de Puissance de Pièce tous les 6 ([Breath] sur soi + [Sinking] sur la cible) (2 max)</style>\n[WhenUse] Convertit (niveau de [UnlockBuff_Base]) Pièces en [SuperCoin]s, en commençant par la Pièce finale\n[WhenUse] Gagne 3 [Breath]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +<style=\"highlight\">2</style> de Compte de [Breath]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +1 de Compte de [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011503,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "“Levez et Riez la Lame, Pleurez la Cascade Telle la Fragrance des Feuilles Tombées”",
+          "desc": "Début du Tour : à 9 [StackYisangSpecialSkill], change cette Capacité en “Furioso-Replica” (une fois par tour)\n- Priorise la Capacité sur la rangée inférieure de l’Emplacement le plus à gauche\n- [BeforeUse] À moins de 9 [StackYisangSpecialSkill], utilisée en Capacité 3\n(75 - ([KarmaOfIndexAlly] / 2))% de chance de produire une arme Tranchante\n- Les Pièces utilisant des armes Tranchantes infligent +12.5% de dégâts\nSi cette Capacité est marquée par la [IndexPrescriptTargetMarkToEnemy], inflige +10% de dégâts\nÀ 6 ([Breath] sur soi + [Sinking] sur la cible) ou plus, +1 de Puissance de Pièce\n[WhenUse] Convertit (niveau de [UnlockBuff_Base]) Pièces en [SuperCoin]s, en commençant par la Pièce finale\n[WhenUse] Gagne +3 de Compte de [Breath]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +10% de dégâts par niveau de [UnlockBuff_Base] (30% max)"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Gagne +1 de Compte de [Breath]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +2 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "“Levez et Riez la Lame, Pleurez la Cascade Telle la Fragrance des Feuilles Tombées”",
+          "desc": "Début du Tour : à 9 [StackYisangSpecialSkill], change cette Capacité en “Furioso-Replica” (une fois par tour)\n- Priorise la Capacité sur la rangée inférieure de l’Emplacement le plus à gauche\n- [BeforeUse] À moins de 9 [StackYisangSpecialSkill], utilisée en Capacité 3\n(75 - ([KarmaOfIndexAlly] / 2))% de chance de produire une arme Tranchante\n- Les Pièces utilisant des armes Tranchantes infligent <style=\"highlight\">+25%</style> de dégâts\nSi cette Capacité est marquée par la [IndexPrescriptTargetMarkToEnemy], inflige <style=\"highlight\">+20%</style> de dégâts\n<style=\"highlight\">+1 de Puissance de Pièce tous les 6 ([Breath] sur soi + [Sinking] sur la cible) (2 max)</style>\n[WhenUse] Convertit (niveau de [UnlockBuff_Base] <style=\"highlight\">+ 1</style>) Pièces en [SuperCoin]s, en commençant par la Pièce finale\n[WhenUse] Gagne +3 de Compte de [Breath]\n<style=\"highlight\">- Gagne (niveau de [UnlockBuff_Base]) de [Breath] supplémentaire</style>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne <style=\"highlight\">3</style> [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige <style=\"highlight\">+20%</style> de dégâts par niveau de [UnlockBuff_Base] (<style=\"highlight\">60%</style> max)"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Gagne +1 de Compte de [Breath]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige <style=\"highlight\">+3</style> de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Par Lubie Imprévisible",
+          "desc": "[StartBattle] Gagne +2 de Compte de [Breath] (une fois par tour)\n[OnSucceedEvade] Gagne 1 [Breath] (2 fois par tour)\n[EndBattle] En-dessous de [UnlockBuffAlly_2], active les effets suivants (une fois par Affrontement) :\n- Gagne [UnlockBuffAlly_2]\n- Si l’Instance de [BlessingOfIndexPrescriptAlly] est inférieure à 6, monte l’Instance à 6\n- Gagne 5 [KarmaOfIndexAlly] au début du prochain tour par [BlessingOfIndexPrescriptAlly] gagné avec l’effet ci-dessus",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Par Lubie Imprévisible",
+          "desc": "<style=\"highlight\">At [UnlockBuffAlly_3], Coin Power +2</style>\n[StartBattle] Gagne +2 de Compte de [Breath] (une fois par tour)\n[OnSucceedEvade] Gagne <style=\"highlight\">2</style> [Breath] (2 fois par tour)\n[EndBattle] En-dessous de [UnlockBuffAlly_2], active les effets suivants (une fois par Affrontement) :\n- Gagne [UnlockBuffAlly_2]\n- Si l’Instance de [BlessingOfIndexPrescriptAlly] est inférieure à 6, monte l’Instance à 6\n- Gagne 5 [KarmaOfIndexAlly] au début du prochain tour par [BlessingOfIndexPrescriptAlly] gagné avec l’effet ci-dessus",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011505,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Furioso-Replica",
+          "desc": "[WideAreaRampage]\nSeule 1 copie de cette Capacité peut exister sur le Tableau de Bord\nSi cette Capacité est marquée par la [IndexPrescriptTargetMarkToEnemy], inflige +10% de dégâts\nLa Puissance de Pièce de cette Capacité ne change pas ; à la place, pour chaque augmentation nette de Puissance de Pièce, +5 de Puissance Finale (cette Capacité n’est pas affectée par [Paralysis])\nÀ 6 ([Breath] sur soi + [Sinking] sur la cible principale) ou plus, +1 de Puissance Finale\n[StartBattle]\n- Convertit toutes les Pièces de cette Capacité en [SuperCoin]s\n- Inflige 1 [Sinking] ou gagne 1 [Breath] à chaque touche de cette Capacité\n- Ne gagne pas de [StackYisangSpecialSkill] pour ce tour\n[WhenUse]\n- +3 de Puissance de Duel\n- Gagne 3 [Breath] et +3 de Compte de [Breath]\n[EndSkill]\n- Inflige 5 [Combustion], 3 [Binding] et 3 [Vulnerable] au prochain tour à toutes les cibles touchées par cette unité\n- Consomme toute [StackYisangSpecialSkill]",
+          "coinlist": [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "L’arme assignée à cette Pièce est fixée à Faux"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +3 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Furioso-Replica",
+          "desc": "[WideAreaRampage]\nSeule 1 copie de cette Capacité peut exister sur le Tableau de Bord\nSi cette Capacité est marquée par la [IndexPrescriptTargetMarkToEnemy], inflige +10% de dégâts\nLa Puissance de Pièce de cette Capacité ne change pas ; à la place, pour chaque augmentation nette de Puissance de Pièce, +5 de Puissance Finale <style=\"highlight\">et inflige +25% de dégâts</style> (cette Capacité n’est pas affectée par [Paralysis])\n<style=\"highlight\">+1 de Puissance Finale tous les 6 ([Breath] sur soi + [Sinking] sur la cible principale) (2 max)</style>\n[StartBattle]\n- Convertit toutes les Pièces de cette Capacité en [SuperCoin]s\n- Inflige 1 [Sinking] ou gagne 1 [Breath] à chaque touche de cette Capacité\n- Ne gagne pas de [StackYisangSpecialSkill] pour ce tour\n[WhenUse]\n- +3 de Puissance de Duel\n- Gagne 3 [Breath] et +3 de Compte de [Breath]\n[EndSkill]\n- Inflige 5 [Combustion], 3 [Binding] et 3 [Vulnerable] au prochain tour à toutes les cibles touchées par cette unité\n- Consomme toute [StackYisangSpecialSkill]",
+          "coinlist": [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "L’arme assignée à cette Pièce est fixée à Faux<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">Inflige +90% de dégâts en Touche Critique</style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +3 de Compte de [Sinking]<style=\"highlight\"></style>"
                 }
               ]
             }

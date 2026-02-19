@@ -1,0 +1,74 @@
+{
+  "dataList": [
+    {
+      "id": 9209,
+      "name": "Pour Vous Qui Aimez la Cité",
+      "desc": "Si un allié est à moins de 30% de PV lorsque touché, cet allié regagne 80% de PV et les autres alliés regagnent 40% de PV au prochain tour (une fois par Affrontement)\n- Tout soin en excès par-delà le max de PV est appliqué en Bouclier\n- Si un allié a soigné 50 PV ou plus avec l’effet ci-dessus, gagne 3 [AttackUp] et 3 [DefenseDown]",
+      "simpleDesc": [
+        {
+          "abilityID": 9209,
+          "simpleDesc": "Regagne des PV"
+        }
+      ]
+    },
+    {
+      "id": 9210,
+      "name": "Attendrisseur de Viande",
+      "desc": "[Les effets s’appliquent uniquement à l’Identité Déployée #4]\n\nSi cette unité a 2 Capacités Offensives Contondantes ou plus, gagne 1 [ParryingResultUp] au Début du Tour",
+      "simpleDesc": [
+        {
+          "abilityID": 9210,
+          "simpleDesc": "Gagne [ParryingResultUp]"
+        }
+      ]
+    },
+    {
+      "id": 19210,
+      "name": "Attendrisseur de Viande+",
+      "desc": "[Les effets s’appliquent uniquement à l’Identité Déployée #4]\n\nSi cette unité a 2 Capacités Offensives Contondantes ou plus, gagne <style=\"upgradeHighlight\">2</style> [ParryingResultUp] au Début du Tour",
+      "simpleDesc": [
+        {
+          "abilityID": 19210,
+          "simpleDesc": "Gagne [ParryingResultUp]"
+        }
+      ]
+    },
+    {
+      "id": 29210,
+      "name": "Attendrisseur de Viande++",
+      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées #4 et <style=\"upgradeHighlight\">#5</style>]\n\nSi cette unité a 2 Capacités Offensives Contondantes ou plus, gagne 2 [ParryingResultUp] au Début du Tour",
+      "simpleDesc": [
+        {
+          "abilityID": 29210,
+          "simpleDesc": "Gagne [ParryingResultUp]"
+        }
+      ]
+    },
+    {
+      "id": 9220,
+      "name": "Magazine de Fixer Volé",
+      "desc": "Début du Tour : gagne 1 [HitResultUp]\n\nDébut du Combat : gagne 1 [HitDamageUp] si une Réson.-A d’Envie est activée\n\nDébut de l’Affrontement : s’il y a 4 Identités du Majeur ou plus sur le champ de bataille, applique [RetaliationBook] à un ennemi aléatoire",
+      "simpleDesc": [
+        {
+          "abilityID": 9220,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9221,
+      "name": "Arme Thermique",
+      "desc": "En Touche avec une Capacité d’Envie ou de Riposte, inflige +1 de Compte de [Laceration] ou +1 de Compte de [Combustion] (3 fois par tour)\n\nLorsque le Compte de [Laceration] d’un ennemi tombe en-dessous de 1 durant le combat, réduit son Compte de [Combustion] à la place si cet ennemi a 2 de Compte de [Combustion] ou plus (3 fois par tour)",
+      "simpleDesc": [
+        {
+          "abilityID": 9221,
+          "simpleDesc": "Inflige du Compte de Saignement et de Brûlure"
+        },
+        {
+          "abilityID": 92211,
+          "simpleDesc": "Réduit le Compte de Brûlure"
+        }
+      ]
+    }
+  ]
+}

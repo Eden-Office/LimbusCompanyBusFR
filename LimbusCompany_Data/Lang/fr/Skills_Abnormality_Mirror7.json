@@ -1,0 +1,63 @@
+{
+  "dataList": [
+    {
+      "id": 136401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tête Frétillante",
+          "desc": "Priorise les cibles avec le moins de PV\nSi la cible a [Paralysis], inflige +50% de dégâts\n<color=#ff6000><mark color=#ff000040><b><u>Si la cible a utilisé une Capacité Défensive, inflige -200% de dégâts</color></mark></b></u>\n+1 de Puissance de Base par [SelfCharge]\n[WhenUse] Perd 1 [SelfCharge]\n[DefeatDuel] Perd 1 [SelfCharge]\n[EndSkill] Si c’était une Attaque à Sens Unique, perd 1 [SelfCharge]\n- Si la cible attaquée par cette Capacité a utilisé une Capacité Défensive, perd 1 [SelfCharge] supplémentaire",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 136402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Queue Frétillante",
+          "desc": "Priorise les cibles avec le moins de PV\nSi la cible a [Paralysis], inflige +50% de dégâts\n<color=#ff6000><mark color=#ff000040><b><u>Si la cible a utilisé une Capacité Défensive, inflige -200% de dégâts</color></mark></b></u>\n+1 de Puissance de Base par [SelfCharge]\n[WhenUse] Perd 1 [SelfCharge]\n[DefeatDuel] Perd 1 [SelfCharge]\n[EndSkill] Si c’était une Attaque à Sens Unique, perd 1 [SelfCharge]\n- Si la cible attaquée par cette Capacité a utilisé une Capacité Défensive, perd 1 [SelfCharge] supplémentaire",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

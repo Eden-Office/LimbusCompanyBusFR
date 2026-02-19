@@ -2589,6 +2589,158 @@
       "desc": "- Instance max : 20\n- Début du Tour : gagne 2 de Bouclier par Instance\n- Inflige +1% de dégâts en Touche Critique par Instance",
       "summary": "",
       "undefined": "-"
+    },
+    {
+      "id": "IndexPrescriptYi_0",
+      "name": "Prescription : [Appareil] I",
+      "desc": "Utilisez une Capacité marquée par la Marque de la Prescription ou touchez une cible avec une Capacité marquée.\n\n- Début du Tour : gagne cet effet lorsque cette unité n’a pas de Déverrouillage\n- Le maximum de Grâce de la Prescription cumulable avec cette Prescription est limité à 3",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Les Prescriptions sont livrées par tous les moyens, leur médium déterminé avec une finalité semblable à une prophétie divine. Ceux qui les reçoivent n’ont aucun pouvoir sur la manière dont elles arrivent."
+    },
+    {
+      "id": "IndexPrescriptYi_1",
+      "name": "Prescription : [Appareil] II",
+      "desc": "Touchez une cible avec une Capacité marquée par la Marque de la Prescription.\n\n- Début du Tour : gagne cet effet si cette unité a Déverrouillage - I\n- Le maximum de Grâce de la Prescription cumulable avec cette Prescription est limité à 6",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Les Prescriptions sont livrées par tous les moyens, leur médium déterminé avec une finalité semblable à une prophétie divine. Ceux qui les reçoivent n’ont aucun pouvoir sur la manière dont elles arrivent."
+    },
+    {
+      "id": "IndexPrescriptYi_2",
+      "name": "Prescription : [Appareil] III",
+      "desc": "Obtenez Procuration [Hermes]. Répétez cette Prescription jusqu’à ce que Procuration [Hermes] atteigne 9 Instances.\n\n- Début du Tour : gagne cet effet si cette unité a Déverrouillage - II\n- Le maximum de Grâce de la Prescription cumulable avec cette Prescription est limité à 9",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Les Prescriptions sont livrées par tous les moyens, leur médium déterminé avec une finalité semblable à une prophétie divine. Ceux qui les reçoivent n’ont aucun pouvoir sur la manière dont elles arrivent."
+    },
+    {
+      "id": "IndexPrescriptYi_3",
+      "name": "Prescription : [Appareil] IV",
+      "desc": "Éliminez tous les ennemis avant que la prochaine Prescription n’arrive.\n\n- Début du Tour : gagne cet effet si cette unité a Déverrouillage - III",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Les Prescriptions sont livrées par tous les moyens, leur médium déterminé avec une finalité semblable à une prophétie divine. Ceux qui les reçoivent n’ont aucun pouvoir sur la manière dont elles arrivent."
+    },
+    {
+      "id": "StackYisangSpecialSkill",
+      "name": "Procuration [Hermes]",
+      "desc": "- Début du Tour : à 9 Instances, une Capacité puissante devient disponible\n- Peut être gagné jusqu’à (niveau de Déverrouillage + 2) Instances par tour\n- Instance max : 9\n· En-dessous de Déverrouillage - II, l’Instance maximum de cet effet est limité à 8",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "Shin_IndexFingerYisang",
+      "name": "Shin (心) - Destin",
+      "desc": "- +1 de Vitesse Min & Max\n- Gagne +1 d’Intensité et de Compte de Calme supplémentaire avec les Capacités de Base\n- Si les PSM de cette unité sont supérieurs à ceux de la cible, inflige +1% de dégâts tous les 3 PSM de différence (15% max ; les unités sans PSM sont considérées comme étant à 0 PSM)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "BurningWoundYisangMask",
+      "name": "Masque Enveloppeur de Blessure",
+      "desc": "- +2 Niveaux Offensifs, -2 Niveaux Défensifs\n- Subit -10% de dégâts d’Attaques à Sens Unique\n",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "BurningWoundYisang",
+      "name": "Blessure Crépitante",
+      "desc": "- +3 Niveaux Offensifs, -3 Niveaux Défensifs\n- Subit -25% de dégâts d’Attaques à Sens Unique\n- Début du Tour : gagne 1 Brûlure et 1 Saignement\n- Inflige +15% de dégâts avec les Pièces Incassables des Capacités Offensives de Base",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "BlackNightmareYisang",
+      "name": "Complaisance dans les Prescriptions",
+      "desc": "- +5 de Vitesse Min & Max\n- Applique les effets suivants à “Furioso-Replica” :\n· En Touche, inflige +1 d’Intensité de Lourdeur supplémentaire et gagne +1 d’Intensité de Calme supplémentaire\n· En Touche, inflige +3 de Compte de Lourdeur (une fois par cible)\n· Inflige +30% de dégâts\n- Expire à la Fin du Tour",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "YisangWeapon01Hatchet",
+      "name": "En fractionnant les côtés avec une hachette…",
+      "desc": "- Cette Pièce inflige des dégâts Contondants\n- En Touche sans Fissure, gagne 2 Calmes",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "YisangWeapon02Stiletto",
+      "name": "En pénétrant les poumons avec un stiletto…",
+      "desc": "- Cette Pièce inflige des dégâts Perçants\n- En Touche sans Fissure, inflige 2 Lourdeurs",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "YisangWeapon03Greatsword",
+      "name": "En clivant à travers l’épaule et le crâne avec une épée bâtarde…",
+      "desc": "- Cette Pièce inflige des dégâts Tranchants\n- Cette Pièce inflige +5% de dégâts\n- En Touche sans Fissure, gagne 1 Bonus de Niveau Offensif au prochain tour (2 fois par tour)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "YisangWeapon04Rapier",
+      "name": "En poinçonnant 10 trous ou plus dans le torse avec une rapière…",
+      "desc": "- Cette Pièce inflige des dégâts Perçants\n- Cette Pièce inflige +5% de dégâts\n- En Touche sans Fissure, inflige 1 Malus de Niveau Défensif au prochain tour (2 fois par tour)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "YisangWeapon05Sledgehammer",
+      "name": "En affaissant l’arrière du crâne avec un marteau…",
+      "desc": "- Cette Pièce inflige des dégâts Contondants\n- Cette Pièce inflige +5% de dégâts\n- En Touche sans Fissure, augmente le Seuil de Déséquilibre de la cible de 3",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "YisangWeapon06Ultragreatsword",
+      "name": "En déchirant le corps avec une épée à deux mains…",
+      "desc": "- Cette Pièce inflige des dégâts Tranchants\n- Cette Pièce inflige +15% de dégâts\n- En Touche sans Fissure, inflige 1 Vulnérabilité Tranchante jusqu’au prochain tour (2 fois par tour)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "YisangWeapon07Lance",
+      "name": "En perforant un trou de 20 centimètres avec une lance…",
+      "desc": "- Cette Pièce inflige des dégâts Perçants\n- Cette Pièce inflige +15% de dégâts\n- En Touche sans Fissure, inflige 1 Vulnérabilité Perçante jusqu’au prochain tour (2 fois par tour)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "YisangWeapon08Chain",
+      "name": "En râpant la chair en dix mille morceaux avec un fouet…",
+      "desc": "- Cette Pièce inflige des dégâts Contondants\n- Cette Pièce inflige +15% de dégâts\n- En Touche sans Fissure, inflige 1 Vulnérabilité Contondante jusqu’au prochain tour (2 fois par tour)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "YisangWeapon09Scythe",
+      "name": "En lacérant à travers l’espace-même avec une faux, comme une certaine personne…",
+      "desc": "- Cette Pièce inflige des dégâts Tranchants\n- Cette Pièce inflige +30% de dégâts\n- En Touche sans Fissure, elle touche avec un Critique garanti",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "SatisfyingEsteemNeeds",
+      "name": "Désir de Reconnaissance Assouvi",
+      "desc": "- Inflige +7.5% de dégâts avec les Capacités marquées par la Marque de la Prescription\n- Inflige +7.5% de dégâts aux Cibles de la Prescription",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
     }
   ]
 }

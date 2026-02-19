@@ -2654,7 +2654,7 @@
     {
       "id": 1031421,
       "name": "Ceci, alsi, est la Grâce du Grant Beeper Enchanté !",
-      "desc": "Début du Combat : l’allié avec les PSM les plus bas regagne 15 PSM\n- Cet effet priorise les Identités à Pièces Positives\n- Si l’unité affevtée est de la faction de l’Index, elle gagne également 1 [AttackDmgUp]\n- Cet effet ne s’applique pas aux unités sous effets empêchant la récupération de PSM, comme l’Érosion[TabExplain] E.G.O., la Panique, etc…"
+      "desc": "Début du Combat : l’allié avec les PSM les plus bas regagne 15 PSM\n- Cet effet priorise les Identités à Pièces Positives\n- Si l’unité affectée est de la faction de l’Index, elle gagne également 1 [AttackDmgUp]\n- Cet effet ne s’applique pas aux unités sous effets empêchant la récupération de PSM, comme l’Érosion[TabExplain] E.G.O., la Panique, etc…"
     },
     {
       "id": 1081401,
@@ -2716,6 +2716,54 @@
       "id": 1101521,
       "name": "Tranquilité [靜念]",
       "desc": "L’allié avec la Vitesse la plus rapide regagne 5 PSM et gagne 5 de Bouclier en commençant le combat avec une Capacité Défensive équipée"
+    },
+    {
+      "id": 1011502,
+      "name": "Prescription Livrée sur un Appareil",
+      "desc": "Début du Tour :\n- Gagne [IndexPrescriptYi_0] / [IndexPrescriptYi_1] / [IndexPrescriptYi_2] / [IndexPrescriptYi_3] selon le niveau de [UnlockBuff_Base] sur soi\n- Inflige [IndexPrescriptTargetToEnemy] à un ennemi aléatoire (en Affrontement Ciblé, une Partie)\n- Applique [IndexPrescriptTargetMarkToEnemy] à des Capacités Offensives de Base sur le Tableau de Bord de cette unité (1 par Emplacement, 2 Capacités max)\n· À [UnlockBuffAlly_2] ou plus, l’effet ci-dessus priorise la Capacité 3 (priorise la Capacité renforcée)\n- Tous les effets ci-dessus et vérification d’exécution de [IndexPrescript_Base_2nd] ne se déclenchent pas lorsque cette unité est Déséquilibrée, Immobilisée[TabExplain], en Panique ou en Érosion[TabExplain] E.G.O.",
+      "summary": "En exécutant une Prescription, regagne des PSM et gagne Grâce de la Prescription\nEn échouant une Prescription, gagne de la Conséquence Karmique"
+    },
+    {
+      "id": 1011503,
+      "name": "Mandataire de l’Oracle / Déverrouillage",
+      "desc": "Fin du Tour : si une [IndexPrescript_Base_2nd] a été exécutée ce tour lorsqu’en-dessous de [UnlockBuffAlly_2], regagne 4 PSM et gagne 1 [BlessingOfIndexPrescriptAlly] (une fois par tour)\n- En exécutant une [IndexPrescript_Base_2nd], si la cible principale a [IndexPrescriptTargetToEnemy], regagne 8 PSM et gagne 3 [BlessingOfIndexPrescriptAlly] à la place\n\nFin du Tour : si cette unité est à [UnlockBuffAlly_2] et qu’une [IndexPrescriptYi_2] a été exécutée ce tour, regagne 4 PSM (une fois par tour)\n- En exécutant une [IndexPrescript_Base_2nd], si [StackYisangSpecialSkill] a atteint 9 Instances, regagne 8 PSM et gagne 3 [BlessingOfIndexPrescriptAlly]\n\nFin du Tour : si une [IndexPrescript_Base_2nd] n’a pas été exécutée ce tour, gagne 5 [KarmaOfIndexAlly]\n- À [UnlockBuffAlly_3], ne gagne pas de [KarmaOfIndexAlly]\n- Si cette unité a tenté d’exécuter une [IndexPrescript_Base_2nd] au Début du Combat, mais n’a pas pu cibler l’ennemi durant la phase de combat, ne gagne pas de [KarmaOfIndexAlly] à la Fin du Tour (s’applique en-dessous de [UnlockBuffAlly_2])\n\nFin du Tour : à 3/6/9 [BlessingOfIndexPrescriptAlly], gagne [UnlockBuffAlly_1]/[UnlockBuffAlly_2]/[UnlockBuffAlly_3]\nDébut du Tour : à [UnlockBuffAlly_3], gagne [Shin_IndexFingerYisang]",
+      "summary": ""
+    },
+    {
+      "id": 1011504,
+      "name": "Garde-père de l’Index",
+      "desc": "En entrant pour la première fois dans l’Affrontement, gagne [BurningWoundYisangMask]\n- Fin du Tour : si cette unité a été Déséquilibrée pour la première fois cet Affrontement alors qu’elle est sous cet effet, se remet de Déséquilibre (exclut les Déséquilibres forcés) et convertit [BurningWoundYisangMask] en [BurningWoundYisang]\n\nApplique [SatisfyingEsteemNeeds] à Mandataire de l’Index - E.G.O. Fleuri::Procuration Don Quichotte lorsque les deux unités sont sur le terrain",
+      "summary": ""
+    },
+    {
+      "id": 1011505,
+      "name": "Appareil de l’Oracle [Caducée]",
+      "desc": "Une arme aléatoire est assignées à chaque Pièce des Capacités Offensives de Base. Chaque arme a un effet unique.\n- [YisangWeapon01Hatchet]\n- [YisangWeapon02Stiletto]\n- [YisangWeapon03Greatsword]\n- [YisangWeapon04Rapier]\n- [YisangWeapon05Sledgehammer]\n- [YisangWeapon06Ultragreatsword]\n- [YisangWeapon07Lance]\n- [YisangWeapon08Chain]\n- [YisangWeapon09Scythe]\n\nGagne 1 [StackYisangSpecialSkill] en utilisant des Capacités avec [IndexPrescriptTargetMarkToEnemy]",
+      "summary": "Une arme aléatoire est assignée\nGagne un effet spécial en utilisant “Furioso-Replica”"
+    },
+    {
+      "id": 1011506,
+      "name": "Appareil de l’Oracle [Caducée]",
+      "desc": "Une arme aléatoire est assignées à chaque Pièce des Capacités Offensives de Base. Chaque arme a un effet unique.\n- [YisangWeapon01Hatchet]\n- [YisangWeapon02Stiletto]\n- [YisangWeapon03Greatsword]\n- [YisangWeapon04Rapier]\n- [YisangWeapon05Sledgehammer]\n- [YisangWeapon06Ultragreatsword]\n- [YisangWeapon07Lance]\n- [YisangWeapon08Chain]\n- [YisangWeapon09Scythe]\n\nGagne 1 [StackYisangSpecialSkill] en utilisant des Capacités avec [IndexPrescriptTargetMarkToEnemy]\n\n<style=\"highlight\">Convertit [BurningWoundYisangMask] en [BurningWoundYisang] à la fin du tour où cette unité a utilisé “Furioso-Replica” pour la première fois cet Affrontement\n\nDébut du Tour : si cette unité a [BurningWoundYisang] et a “Furioso-Replica” sur le Tableau de Bord, gagne [BlackNightmareYisang]</style>",
+      "summary": "Une arme aléatoire est assignée\nGagne un effet spécial en utilisant “Furioso-Replica”"
+    },
+    {
+      "id": 1011501,
+      "name": "Imitation d’une Vie",
+      "desc": "Inflige +2% de dégâts avec les Capacités marquées par la [IndexPrescriptTargetMarkToEnemy] par [BlessingOfIndexPrescriptAlly] sur soi (16% max)\n- À 9 [BlessingOfIndexPrescriptAlly], inflige +20% de dégâts avec les Capacités de Base à la place\n\nEn Touche avec les [SuperCoin]s des Capacités Offensives de Base, gagne 1 [StackYisangSpecialSkill]\n- Fin de l’Attaque : gagne (# de [SuperCoin]s restantes) [StackYisangSpecialSkill]",
+      "summary": "Inflige plus de dégâts avec les Capacités marquées par la Marque de la Prescription selon la Grâce de la Prescription sur soi\nEn Touche : regagne des PSM\nGagne de la [StackYisangSpecialSkill] lorsque certaines conditions sont remplies"
+    },
+    {
+      "id": 1011511,
+      "name": "Imitation d’une Vie",
+      "desc": "Inflige +2% de dégâts avec les Capacités marquées par la [IndexPrescriptTargetMarkToEnemy] par [BlessingOfIndexPrescriptAlly] sur soi (16% max)\n- À 9 [BlessingOfIndexPrescriptAlly], inflige +20% de dégâts avec les Capacités de Base à la place\n\nEn Touche avec les [SuperCoin]s des Capacités Offensives de Base, gagne 1 [StackYisangSpecialSkill]\n- Fin de l’Attaque : gagne (# de [SuperCoin]s restantes) [StackYisangSpecialSkill]\n<style=\"highlight\">- Fin de l’Attaque “Furioso-Replica” : gagne (# de [SuperCoin]s restantes de cette Capacité / 2) [StackYisangSpecialSkill] au prochain tour (arrondi à l’inférieur)</style>\n\n<style=\"highlight\">Si [StackYisangSpecialSkill] a atteint 9 Instances ce tour à la Fin du Tour, et si cette unité n’a pas de Capacité 3 sur le Tableau de Bord au début du prochain tour, convertit une Capacité de Base en Capacité 3 (priorise la Capacité sur la rangée inférieure de l’Emplacement le plus à gauche)</style>",
+      "summary": "Inflige plus de dégâts avec les Capacités marquées par la Marque de la Prescription selon la Grâce de la Prescription sur soi\nEn Touche : regagne des PSM\nGagne de la [StackYisangSpecialSkill] lorsque certaines conditions sont remplies"
+    },
+    {
+      "id": 1011521,
+      "name": "Grâce de Dieu",
+      "desc": "Inflige +5% de dégâts avec les Capacités Offensives Tranchantes, Perçantes et Contondantes de Base qui sont utilisées pour la première fois par les alliés à chaque tour (une fois par type pour l’ensemble des alliés)\n- Les Identités de l’Index infligent +10% de dégâts à la place\n- L’application de cet effet est déterminé Avant l’Attaque",
+      "summary": "Inflige plus de dégâts avec les Capacités Offensives Tranchantes, Perçantes et Contondantes de Base qui sont utilisées pour la première fois ce tour"
     }
   ]
 }

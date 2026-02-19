@@ -18,7 +18,7 @@
     {
       "id": 9404,
       "name": "Asticots Contenus",
-      "desc": "En utilisant une Capacité d’Affinité de Gourmandise (à l’exception des Capacités E.G.O.) contre un ennemi, inflige 2 [Muckworm] à la cible.\n\nSi cette Capacité applique de l’Intensité ou du Compte de [Laceration] ou un “Saignement Unique”, inflige 3 [Muckworm] à la place.",
+      "desc": "En Touche avec une Capacité Offensive de Luxure ou de Gourmandise (à l’exception des Capacités E.G.O.) contre un ennemi, inflige 2 [Muckworm] à la cible.\n\nSi cette Capacité applique de l’Intensité ou du Compte de [Laceration] ou un “Saignement Unique”, inflige 3 [Muckworm] à la place.",
       "simpleDesc": [
         {
           "abilityID": 9404,
@@ -104,7 +104,7 @@
     {
       "id": 9414,
       "name": "Crinière Rouge Sang",
-      "desc": "Les effets s’appliquent à toutes les Identités avec des Capacités Offensives d’Affinité de Luxure ou de Colère.\n\nFin du Tour : si cette unité n’a pas subi de dégâts de Capacités Offensives ennemies ce tour, gagne 2 [Agility] et 2 [Endurance].\n\nFin du Tour : si cette unité a subi des dégâts de Capacités Offensives ennemies ce tour, gagne 2 [Binding] et +2 de Puissance de Duel au prochain tour.",
+      "desc": "Les effets s’appliquent à toutes les Identités avec des Capacités Offensives de Luxure ou de Colère.\n\nFin du Tour : si cette unité n’a pas subi de dégâts de Capacités Offensives ennemies ce tour, gagne 2 [Agility] et 2 [Endurance].\n\nFin du Tour : si cette unité a subi des dégâts de Capacités Offensives ennemies ce tour, gagne 2 [Binding] et +2 de Puissance de Duel au prochain tour.",
       "simpleDesc": [
         {
           "abilityID": 9414,
@@ -134,7 +134,7 @@
     {
       "id": 9416,
       "name": "Chasteté",
-      "desc": "Si l’allié gagne un Duel avec une Capacité qui inflige de l’Intensité ou du Compte de [Laceration] ou un “Saignement Unique”, inflige 2~3 [NailPersonality].\n\nLes Identités “Fanatiques de la N Corp.” infligent +25% de dégâts contre des cibles avec [Laceration] et gagnent 1 Fanatique au Début du Tour.\nSi les PSM de cet allié sont au max, gagne également 3 [AttackDmgUp].\n\nLes Identités “Fanatiques de la N Corp.” gagnent +1 de Puissance Finale, +1 de Puissance de Pièce Positive, -1 de Puissance de Pièce Négative et leurs Capacités Offensives infligent +1 [NailPersonality] supplémentaire.",
+      "desc": "Si l’allié gagne un Duel avec une Capacité qui inflige de l’Intensité ou du Compte de [Laceration] ou un “Saignement Unique”, inflige 2~3 [NailPersonality].\n\nLes Identités “Fanatiques de la N Corp.” infligent +25% de dégâts aux ennemis et gagnent 1 Fanatique au Début du Tour. Si les PSM de cet allié sont au max, ou si une Réson. de Luxure de 3 ou plus a été formée au dernière tour, cet allié gagne 3 [AttackDmgUp] supplémentaires.\n\nLes Identités “Fanatiques de la N Corp.” gagnent +2 de Puissance Finale, +1 de Puissance de Pièce Positive, -1 de Puissance de Pièce Négative et leurs Capacités Offensives infligent +1 [NailPersonality] supplémentaire.\n\nLes Identités “Fanatiques de la N Corp.” infligent +50% de dégâts contre les ennemis <Amalgame Mécanique> avec des Capacités Offensives",
       "simpleDesc": [
         {
           "abilityID": 9416,
@@ -142,11 +142,15 @@
         },
         {
           "abilityID": 94161,
-          "simpleDesc": "Inflige +25% de dégâts aux ennemis avec Saignement et gagne 1 Fanatique. À PSM max, gagne 3 Bonus de Dégâts"
+          "simpleDesc": "Inflige +25% de dégâts et gagne 1 Fanatique. Si les conditions sont remplies, gagne 3 [AttackDmgUp]"
         },
         {
           "abilityID": 94162,
-          "simpleDesc": "+1 de Puissance Finale, +1 de Puissance de Pièce Positive, -1 de Puissance de Pièce Négative, Capacités Offensives infliges +1 Clous supplémentaire"
+          "simpleDesc": "+1 de Puissance Finale, +1 de Puissance de Pièce Positive, -1 de Puissance de Pièce Négative, Capacités Offensives infligent +1 [NailPersonality] supplémentaire"
+        },
+        {
+          "abilityID": 94163,
+          "simpleDesc": "Capacités de Base infligent +50% de dégâts"
         }
       ]
     },
