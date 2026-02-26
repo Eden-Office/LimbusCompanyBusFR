@@ -1039,7 +1039,7 @@
     {
       "id": 1060821,
       "name": "Illumination",
-      "desc": "Après l’Attaque : si la cible est dans un état déséquilibré ou vaincu par une attaque d’un allié avec le moins de PSM, l’allié se soigne de 7 PSM."
+      "desc": "Fin de l’Attaque : si la cible est dans un état déséquilibré ou vaincu par une attaque d’un allié avec le moins de PSM, l’allié se soigne de 7 PSM."
     },
     {
       "id": 1010801,
@@ -1063,8 +1063,8 @@
     },
     {
       "id": 1080801,
-      "name": "Capitaine du Pequod",
-      "desc": "Après l’Attaque : si l’ennemi est vaincu après l’attaque de cette unité,\n- gagne [HeatedGasHarpoon] au prochain tour.\n- 1 autre allié avec le moins de PSM se soigne de 7 PSM.\n- Si l’allié est du Pequod, se soigne de 5 PSM supplémentaires."
+      "name": "Capitaine du Péquod",
+      "desc": "Fin de l’Attaque : si l’ennemi est vaincu après l’attaque de cette unité,\n- gagne [HeatedGasHarpoon] au prochain tour.\n- 1 autre allié avec le moins de PSM se soigne de 7 PSM.\n- Si l’allié est du Péquod, se soigne de 5 PSM supplémentaires."
     },
     {
       "id": 1080802,
@@ -1073,8 +1073,8 @@
     },
     {
       "id": 1080811,
-      "name": "Capitaine du Pequod",
-      "desc": "- Après l’Attaque : si l’ennemi est vaincu après l’attaque de cette unité,\n<style=\"highlight\">- gagne 4 Calme, +2 de Compte de Calme. Puis, gagne [OverHeatedGasHarpoon] au prochain tour.</style>\n<style=\"highlight\">- 2 autres alliés avec le moins de PSM se soignent de 7 PSM et gagnent 4 Calme.</style>\n- Si les alliés sont du Pequod, se soignent de 5 PSM supplémentaires. <style=\"highlight\">Puis, une fois par tour, applique 1 Bonus de Puissance Perçante au prochain tour.</style>"
+      "name": "Capitaine du Péquod",
+      "desc": "- Fin de l’Attaque : si l’ennemi est vaincu après l’attaque de cette unité,\n<style=\"highlight\">- gagne 4 Calme, +2 de Compte de Calme. Puis, gagne [OverHeatedGasHarpoon] au prochain tour.</style>\n<style=\"highlight\">- 2 autres alliés avec le moins de PSM se soignent de 7 PSM et gagnent 4 Calme.</style>\n- Si les alliés sont du Péquod, se soignent de 5 PSM supplémentaires. <style=\"highlight\">Puis, une fois par tour, applique 1 Bonus de Puissance Perçante au prochain tour.</style>"
     },
     {
       "id": 1080821,
@@ -1084,7 +1084,7 @@
     {
       "id": 1080831,
       "name": "Ordres du Capitaine",
-      "desc": "Après l’Attaque : 1 allié avec le plus de PSM gagne 2 Calme et <style=\"highlight\">+2 de Compte de Calme</style> lorsque la cible est vaincue après l’attaque de cette unité (2 fois par tour)"
+      "desc": "Fin de l’Attaque : 1 allié avec le plus de PSM gagne 2 Calme et <style=\"highlight\">+2 de Compte de Calme</style> lorsque la cible est vaincue après l’attaque de cette unité (2 fois par tour)"
     },
     {
       "id": 1050801,
@@ -1326,7 +1326,7 @@
     {
       "id": 999903,
       "name": "Larmes Sanglantes",
-      "desc": "En Utilisation de Capacité : subit 3% des PV Max en dégâts fixes (ces dégâts ne peuvent pas tuer cette unité).\nAprès l’Attaque : se soigne de 15% des PV Max pour chaque unité tuée",
+      "desc": "En Utilisation de Capacité : subit 3% des PV Max en dégâts fixes (ces dégâts ne peuvent pas tuer cette unité).\nFin de l’Attaque : se soigne de 15% des PV Max pour chaque unité tuée",
       "summary": ""
     },
     {
@@ -1644,7 +1644,7 @@
     {
       "id": 1011011,
       "name": "Tirer.JeVaisTirer.",
-      "desc": "Après l’Attaque : si cette unité a tué la cible avec ses Capacités, [ReloadLament]\nLorsque cette unité gagne [BulletLament], gagne 2 [Agility] au prochain tour (une fois par tour)",
+      "desc": "Fin de l’Attaque : si cette unité a tué la cible avec ses Capacités, [ReloadLament]\nLorsque cette unité gagne [BulletLament], gagne 2 [Agility] au prochain tour (une fois par tour)",
       "summary": "Lorsque cette unité gagne des Munitions, gagne de la Vitesse au prochain tour. Recharge En Tuant."
     },
     {
@@ -1759,8 +1759,8 @@
     {
       "id": 1111121,
       "name": "Arts du Sang Durci de Don Quichotte 8 : Ciseaux",
-      "desc": "1 allié avec la plus haute Vitesse : si l’ennemi est tué Après Attaque, regagne 10 PV (2 fois par tour)\n1 allié avec la plus haute Vitesse : si l’ennemi est tué Après Attaque, inflige +1 de Compte de [Laceration] en infligeant de l’Intensité de [Laceration] avec des effets de Capacité ou de Pièce pour le prochain tour (3 fois par tour)",
-      "summary": "Si l’ennemi est mort Après Attaque, regagne des PV"
+      "desc": "1 allié avec la plus haute Vitesse : si l’ennemi est tué à la Fin de l’Attaque, regagne 10 PV (2 fois par tour)\n1 allié avec la plus haute Vitesse : si l’ennemi est tué à la Fin de l’Attaque, inflige +1 de Compte de [Laceration] en infligeant de l’Intensité de [Laceration] avec des effets de Capacité ou de Pièce pour le prochain tour (3 fois par tour)",
+      "summary": "Fin de l’Attaque : si l’ennemi est mort, regagne des PV"
     },
     {
       "id": 1121001,
@@ -1858,7 +1858,7 @@
     {
       "id": 1031004,
       "name": "Armadura de Sangre",
-      "desc": "Après l’Attaque : si l’ennemi est vaincu, augmente le [BloodDinner] de 10% des PV max de la cible (100 par tour ; en Affrontements Ciblés, si la Partie est brisée)\nGagne 1 [AttackDmgUp] au prochain tour pour chaque 15% de PV manquant à la Fin du Tour (3 max)\nSi un allié est sur le point de mourir suite à des dégâts de [Laceration], l’empêche d’être vaincu par les dégâts de [Laceration] pour le tour (une fois par Affrontement pour chaque Identité)"
+      "desc": "Fin de l’Attaque : si l’ennemi est vaincu, augmente le [BloodDinner] de 10% des PV max de la cible (100 par tour ; en Affrontements Ciblés, si la Partie est brisée)\nGagne 1 [AttackDmgUp] au prochain tour pour chaque 15% de PV manquant à la Fin du Tour (3 max)\nSi un allié est sur le point de mourir suite à des dégâts de [Laceration], l’empêche d’être vaincu par les dégâts de [Laceration] pour le tour (une fois par Affrontement pour chaque Identité)"
     },
     {
       "id": 1031021,
@@ -2068,12 +2068,12 @@
     {
       "id": 1101201,
       "name": "Le Majeur N’oublie Jamais",
-      "desc": "Lorsque touché par un ennemi, inflige 3 [VendettaMark] à l’attaquant (ou Partie) (une fois par tour)\n\nLorsqu’un autre allié est touché par un ennemi, inflige 2 [VendettaMark] à l’attaquant (ou Partie) (une fois par tour par Identité)\n\nAprès avoir attaqué avec des Capacités Offensives de Base ou des Capacités de Riposte, consomme toutes [VendettaMark] de la cible\n- Chaque fois que la cible consomme [VendettaMark], gagne autant de [VengeanceBookSinclair] que de quantité consommée"
+      "desc": "Lorsque touché par un ennemi, inflige 3 [VendettaMark] à l’attaquant (ou Partie) (une fois par tour)\n\nLorsqu’un autre allié est touché par un ennemi, inflige 2 [VendettaMark] à l’attaquant (ou Partie) (une fois par tour par Identité)\n\nFin de l’Attaque avec des Capacités Offensives de Base ou des Capacités de Riposte : consomme toutes [VendettaMark] de la cible\n- Chaque fois que la cible consomme [VendettaMark], gagne autant de [VengeanceBookSinclair] que de quantité consommée"
     },
     {
       "id": 1101211,
       "name": "Le Majeur N’oublie Jamais",
-      "desc": "Lorsque touché par un ennemi, inflige <style=\"highlight\">5</style> [VendettaMark] à l’attaquant (ou Partie) (une fois par tour)\n\nLorsqu’un autre allié est touché par un ennemi, inflige 2 [VendettaMark] à l’attaquant (ou Partie) (une fois par tour par Identité)\n<style=\"highlight\">- Si cet allié est du Majeur, inflige 3 [VendettaMark] supplémentaires</style>\n\nAprès avoir attaqué avec des Capacités Offensives de Base ou des Capacités de Riposte, consomme toutes [VendettaMark] de la cible\n- Chaque fois que la cible consomme [VendettaMark], gagne autant de [VengeanceBookSinclair] que de quantité consommée"
+      "desc": "Lorsque touché par un ennemi, inflige <style=\"highlight\">5</style> [VendettaMark] à l’attaquant (ou Partie) (une fois par tour)\n\nLorsqu’un autre allié est touché par un ennemi, inflige 2 [VendettaMark] à l’attaquant (ou Partie) (une fois par tour par Identité)\n<style=\"highlight\">- Si cet allié est du Majeur, inflige 3 [VendettaMark] supplémentaires</style>\n\nFin de l’Attaque avec des Capacités Offensives de Base ou des Capacités de Riposte : consomme toutes [VendettaMark] de la cible\n- Chaque fois que la cible consomme [VendettaMark], gagne autant de [VengeanceBookSinclair] que de quantité consommée"
     },
     {
       "id": 1101221,
@@ -2186,7 +2186,7 @@
     {
       "id": 1051202,
       "name": "Chachihu [揷翅虎]",
-      "desc": "Toujours actif : commence les Affrontements avec 12 [BulletPropellantAlly]\n\nEn lançant une Pièce qui consomme [BulletPropellantAlly] ou [BulletPropellantSpecialAlly] : bien que ne pas avoir ces “Munitions Uniques” n’annule pas les attaques de cette unité, les effets En Touche “inflige [Combustion]” et “inflige du Compte de [Combustion]” de la Pièce ne s’activent pas\n\nSi cette unité a équipé une Capacité Défensive pour la première fois dans cet Affrontement, a dépensé toutes ses [BulletPropellantAlly] ou est Déséquilibrée : à la fin de ce tour, recharge 8 [BulletPropellantSpecialAlly] et gagne 1 [IrritationAlly] (une fois par Affrontement)\n- Si cet effet s’active alors que cette unité est Déséquilibrée, se remet de Déséquilibre (à moins qu’il s’agisse d’un Déséquilibre forcé)\n- Retire toutes [BulletPropellantAlly] si cette unité a des [BulletPropellantAlly] restantes\n- À 8 (somme de [BulletPropellantAlly] et de [BulletPropellantSpecialAlly] dépensées) ou plus, convertit [IrritationAlly] en [HugeIrritationAlly]\n\nLorsque cette unit utilise une Capacité Offensive de Base qui dépense la dernière Cartouche de [BulletPropellantSpecialAlly]…\n- Gagne +2 de Poids d’Atq avant d’attaquer\n- Gagne 1 [BeastEyesAlly] au prochain tour",
+      "desc": "Toujours actif : commence les Affrontements avec 12 [BulletPropellantAlly]\n\nEn lançant une Pièce qui consomme [BulletPropellantAlly] ou [BulletPropellantSpecialAlly] : bien que ne pas avoir ces “Munitions Uniques” n’annule pas les attaques de cette unité, les effets En Touche “inflige [Combustion]” et “inflige du Compte de [Combustion]” de la Pièce ne s’activent pas\n\nSi cette unité a équipé une Capacité Défensive pour la première fois dans cet Affrontement, a dépensé toutes ses [BulletPropellantAlly] ou est Déséquilibrée : à la fin de ce tour, recharge 8 [BulletPropellantSpecialAlly] et gagne 1 [IrritationAlly] (une fois par Affrontement)\n- Si cet effet s’active alors que cette unité est Déséquilibrée, se remet de Déséquilibre (exclut les Déséquilibres forcés)\n- Retire toutes [BulletPropellantAlly] si cette unité a des [BulletPropellantAlly] restantes\n- À 8 (somme de [BulletPropellantAlly] et de [BulletPropellantSpecialAlly] dépensées) ou plus, convertit [IrritationAlly] en [HugeIrritationAlly]\n\nLorsque cette unit utilise une Capacité Offensive de Base qui dépense la dernière Cartouche de [BulletPropellantSpecialAlly]…\n- Gagne +2 de Poids d’Atq avant d’attaquer\n- Gagne 1 [BeastEyesAlly] au prochain tour",
       "summary": ""
     },
     {
@@ -2226,7 +2226,7 @@
     {
       "id": 1011321,
       "name": "Désigner la Cible",
-      "desc": "Lorsque l’allié avec la Vitesse la plus lente attaqué un allié : Après l’Attaque, gagne 1 [AttackDmgUp] au prochain tour (2 fois par tour)\n- Si l’allié attaqué est tué par cette attaque, gagne 1 [AttackDmgUp] pour tout l’Affrontement à la place (2 max par Niveau par Identité)\n- Peut donner uniquement jusqu’à 2 [AttackDmgUp] avec l’effet ci-dessus."
+      "desc": "Lorsque l’allié avec la Vitesse la plus lente attaqué un allié, Fin de l’Attaque : gagne 1 [AttackDmgUp] au prochain tour (2 fois par tour)\n- Si l’allié attaqué est tué par cette attaque, gagne 1 [AttackDmgUp] pour tout l’Affrontement à la place (2 max par Niveau par Identité)\n- Peut donner uniquement jusqu’à 2 [AttackDmgUp] avec l’effet ci-dessus."
     },
     {
       "id": 1031202,
@@ -2314,7 +2314,7 @@
     {
       "id": 1061301,
       "name": "Acceptez le Sang Terni et Exsanguinez les Autres Pour la Cause.",
-      "desc": "Début du Combat : si cette unité n’a pas équipé de Capacité Défensive et s’apprête à subir une Attaque à Sens Unique, applique 1 [HeishouSupportProtect] à (plus haute Réson./ 3) alliés de Meute Heishou aléatoires avec le moins d’Instances de [SupportProtect]. (2 alliés max ; une fois par Identité ; exclut les Identités avec des Capacités qui gagnent [SupportProtect])\n\nDans cet Affrontement, lorsque cette unité subit des dégâts amenant ses PV à 0, nullifie ces dégâts ; puis, les PV de cette unité ne peuvent pas tomber en-dessous de 1 pour ce tour et gagne 1 [CondensedBlood] (une fois par Affrontement)\n\nLes Capacités de cette unité infligent +3% de dégâts par [CondensedBlood] sur soi\n\nEn activant la Capacité E.G.O. “Larmes[TabExplain] du Sang Terni[TabExplain] - La Fin”, nullifie l’effet de mort et ses effets Après Attaque ; à la place, regagne 60% de PV. À partir du prochain tour, gagne 1 [AttackDmgUp] à chaque Début de Tour (une fois par Affrontement)",
+      "desc": "Début du Combat : si cette unité n’a pas équipé de Capacité Défensive et s’apprête à subir une Attaque à Sens Unique, applique 1 [HeishouSupportProtect] à (plus haute Réson./ 3) alliés de Meute Heishou aléatoires avec le moins d’Instances de [SupportProtect]. (2 alliés max ; une fois par Identité ; exclut les Identités avec des Capacités qui gagnent [SupportProtect])\n\nDans cet Affrontement, lorsque cette unité subit des dégâts amenant ses PV à 0, nullifie ces dégâts ; puis, les PV de cette unité ne peuvent pas tomber en-dessous de 1 pour ce tour et gagne 1 [CondensedBlood] (une fois par Affrontement)\n\nLes Capacités de cette unité infligent +3% de dégâts par [CondensedBlood] sur soi\n\nEn activant la Capacité E.G.O. “Larmes[TabExplain] du Sang Terni[TabExplain] - La Fin”, nullifie l’effet de mort et ses effets de Fin d’Attaque ; à la place, regagne 60% de PV. À partir du prochain tour, gagne 1 [AttackDmgUp] à chaque Début de Tour (une fois par Affrontement)",
       "summary": "En subissant des dégâts amenant les PV de cette unité à 0, nullifie la mort et gagne [CondensedBlood]\nEn activant “Larmes[TabExplain] du Sang Terni[TabExplain]”, nullifie la mort, regagne des PV et gagne du [AttackDmgUp]"
     },
     {
@@ -2444,7 +2444,7 @@
     {
       "id": 1051303,
       "name": "Responsabilité d’un Ancien Prince",
-      "desc": "Début du Tour : les effets suivants s’activent pour les Identités de La Manchaland avec le max d’Instance d’[BloodArmorMeursault]\n· Gagne 1 [FocusOnActing]\n· Lorsque Déséquilibré suite à des dégâts, se remet de Déséquilibre ; puis, consomme toute l’[BloodArmorMeursault] sur soi (une fois par Niveau par Identité ; sauf si Déséquilibre forcé)\n\nSi La Princesse de La Manchaland Rodion est sur le terrain, elle et le Prince de La Manchaland Meursault infligent tous les deux +15% de dégâts avec leur Capacité 3 (inclut les Capacités Renforcées)",
+      "desc": "Début du Tour : les effets suivants s’activent pour les Identités de La Manchaland avec le max d’Instance d’[BloodArmorMeursault]\n· Gagne 1 [FocusOnActing]\n· Lorsque Déséquilibré suite à des dégâts, se remet de Déséquilibre ; puis, consomme toute l’[BloodArmorMeursault] sur soi (une fois par Niveau par Identité ; exclut les Déséquilibres forcés)\n\nSi La Princesse de La Manchaland Rodion est sur le terrain, elle et le Prince de La Manchaland Meursault infligent tous les deux +15% de dégâts avec leur Capacité 3 (inclut les Capacités Renforcées)",
       "summary": "Meursault & Rodion infligent +15% de dégâts avec leur Capacité 3"
     },
     {

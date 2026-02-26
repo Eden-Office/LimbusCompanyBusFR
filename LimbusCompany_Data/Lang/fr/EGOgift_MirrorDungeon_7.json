@@ -45,6 +45,193 @@
       ]
     },
     {
+      "id": 9207,
+      "name": "Chance & Choix",
+      "desc": "Une chance aléatoire pour l’Emplacement de Capacité E.G.O. le plus à gauche d’infliger -50% de dégâts ou +150% de dégâts (une fois par tour)",
+      "simpleDesc": [
+        {
+          "abilityID": 9207,
+          "simpleDesc": "Les Capacités E.G.O. infligent plus (ou moins) de dégâts"
+        }
+      ]
+    },
+    {
+      "id": 9208,
+      "name": "Destin Entremêlé",
+      "desc": "Début du Combat : à 7 de Réson.-A ou plus, tous les alliés gagnent +5 de Puissance Finale pour ce tour (une fois par Affrontement)",
+      "simpleDesc": [
+        {
+          "abilityID": 9208,
+          "simpleDesc": "Gagne de la Puissance Finale"
+        }
+      ]
+    },
+    {
+      "id": 9211,
+      "name": "Nuage Pluvieux",
+      "desc": "Début du Tour : à 30 de somme totale d’Intensité et de Compte de [Sinking] sur tous les ennemis, applique les effets suivants :\n\n- Capacités qui infligent de l’Intensité ou du Compte de [Sinking] : +1 de Puissance Finale (inclut “Lourdeur Unique” ; exclut les Capacités E.G.O.)\n\n- Lorsque 6 Identités ou plus ont des Capacités Offensives qui infligent de l’Intensité ou du Compte de [Sinking] ou de “Lourdeur Unique”, les Capacités qui infligent de l’Intensité ou du Compte de [Sinking] infligent également +20% de dégâts (inclut “Lourdeur Unique” et les Unités de Renfort ; exclut les Capacités E.G.O.)\n · Si la cible est à -45 PSM, inflige +10% de dégâts supplémentaires\n\n- Lorsque 10 Identités ou plus ont des Capacités Offensives qui infligent de l’Intensité ou du Compte de [Sinking] ou de “Lourdeur Unique”, les Capacités à Pièce Positive qui infligent de l’Intensité ou du Compte de [Sinking] gagnent également +1 de Puissance de Pièce (inclut “Lourdeur Unique” et les Unités de Renfort ; exclut les Capacités E.G.O.)\n · Capacités Offensives à Pièce Négative : au lieu de gagner de la Puissance de Pièce, gagne +(4 / # de Pièces) de Puissance de Base (1 min ; arrondi à l’inférieur)",
+      "simpleDesc": [
+        {
+          "abilityID": 9211,
+          "simpleDesc": "Les Capacités de Lourdeur gagnent de la Puissance Finale"
+        },
+        {
+          "abilityID": 92111,
+          "simpleDesc": "Les Capacités de Lourdeur infligent plus de dégâts"
+        },
+        {
+          "abilityID": 92112,
+          "simpleDesc": "Les Capacités de Lourdeur gagnent de la Puissance de Pièce/Base"
+        }
+      ]
+    },
+    {
+      "id": 9212,
+      "name": "La Fin de tous les Maux",
+      "desc": "S’active lorsqu’il y a 3 Identités ou plus de la faction du Péquod (inclut les unités de Renfort)\n\nEn Touche avec une Capacité Offensive contre des ennemis avec [Laceration] : 50% de chance de gagner 3 [Breath] ou +2 de Compte de [Breath] (3 fois par tour pour chaque personnage)\n\nEn Critique : 80% de chance de ne pas consommer de Compte de [Breath] (une fois par tour pour chaque personnage ; inclut les Capacités E.G.O. et de Riposte)\nEn Touche Critique Pile avec une Capacité de Base : inflige +1 de l’effet négatif de cette Pièce (une fois par tour pour chaque personnage ; inclut les Capacités de Riposte et exclut les Capacités E.G.O.)\n\nSi l’Identité Déployée #1 tue un ennemi, les Identités de la faction du Péquod gagnent 1 [PenetrateResultUp], 1 [Protection] et 1 [CriticalDamageUp] à chaque tour pour le reste de cet Affrontement (3 fois max par Affrontement)\n\nSi une Identité de la faction du Péquod attaque un ennemi et touche, rend 7 PSM à l’Identité de la faction du Péquod le plus tôt dans l’ordre de Déploiement (une fois par Capacité)\nLorsqu’un allié tue un ennemi, rend 15 PSM à l’Identité de la faction du Péquod le plus tôt dans l’ordre de Déploiement si cette Identité a perdu des PSM",
+      "simpleDesc": [
+        {
+          "abilityID": 9212,
+          "simpleDesc": "Gagne du Calme"
+        },
+        {
+          "abilityID": 92121,
+          "simpleDesc": "En Critique : chance de ne pas perdre de Compte de Calme. Augmente la quantité d’effet négatif infligé"
+        },
+        {
+          "abilityID": 92122,
+          "simpleDesc": "Gagne de l’Accélération, du Bonus de Niveau Offensif et du Bonus de Dégâts"
+        },
+        {
+          "abilityID": 92123,
+          "simpleDesc": "Rend des PSM"
+        }
+      ]
+    },
+    {
+      "id": 9213,
+      "name": "Grande Roue Miniature",
+      "desc": "Tous les alliés Démon de Sang : +1 de Puissance de Base aux Capacités de Base, inflige +([BloodDinner_Accumulation] / 10)% de dégâts de Capacité\n\nFin du Tour : parmi les alliés avec [Laceration], 2 alliés avec le moins de PV regagnent 5% de PV et gagnent 10 [SwirlingBloodPersonality] au prochain Début de Tour\n\nEn Tuant un ennemi, augmente le [BloodDinner] de (PV max du Noyau ennemi / 10) (50 max)\n\nFin du Tour : si un allié est mort ce tour, tous les alliés gagnent 2 [Enhancement] au prochain tour\n\nDans les Affrontements où des ennemis de renfort apparaissent : lorsqu’un nouvel ennemi apparaît, lui inflige 5 [Laceration] et +3 de Compte de [Laceration] au Début du Combat.\nS’il y a un <Démon de Sang> parmi les alliés : lorsqu’un nouvel ennemi entre dans le combat, active le [Laceration] de tous les ennemis deux fois et réduit leur Compte de [Laceration] de 2",
+      "simpleDesc": [
+        {
+          "abilityID": 9213,
+          "simpleDesc": "Gagne de la Puissance de Pièce pour les Capacités de Base"
+        },
+        {
+          "abilityID": 92131,
+          "simpleDesc": "Regagne des PV et gagne [SwirlingBloodPersonality]"
+        },
+        {
+          "abilityID": 92132,
+          "simpleDesc": "Gagne du Bonus de Puissance Offensive"
+        },
+        {
+          "abilityID": 92133,
+          "simpleDesc": "Inflige de l’Intensité et du Compte de Saignement"
+        }
+      ]
+    },
+    {
+      "id": 9214,
+      "name": "Marteau Brûlant",
+      "desc": "Si l’ennemi a [VibrationIgnition], applique les effets suivants :\n- En Touche de Capacité de Base, inflige 1 [Combustion] (3 fois par Capacité)\n- En Touhe de Capacité de Base, si l’ennemi a 15 [VibrationIgnition] ou plus, inflige +1 de Compte de [Combustion] (2 fois par Capacité)\n- Toutes les 3 [Combustion], +1% d’augmentation du Seuil de Déséquilibre lors d’un [VibrationExplosion] (15% max)",
+      "simpleDesc": [
+        {
+          "abilityID": 9214,
+          "simpleDesc": "Inflige Brûlure"
+        },
+        {
+          "abilityID": 92141,
+          "simpleDesc": "Les Sursauts de Tremblement augmentent davantage le seuil de Déséquilibre"
+        }
+      ]
+    },
+    {
+      "id": 9215,
+      "name": "Cravate Rouge",
+      "desc": "Capacité 3 qui inflige de l’Intensité ou du Compte de [Combustion] ou de “Brûlure Unique” : +2 de Puissance de Duel et inflige +30% de dégâts",
+      "simpleDesc": [
+        {
+          "abilityID": 9215,
+          "simpleDesc": "Gagne de la Puissance de Duel et inflige plus de dégâts"
+        }
+      ]
+    },
+    {
+      "id": 9216,
+      "name": "Uniforme - Assoc. Liu",
+      "desc": "Début du Tour : ce Don s’active pour tout l’Affrontement lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent de l’Intensité ou du Compte de [Combustion] ou de “Brûlure Unique”. (exclut les Capacités E.G.O. ; exclut les Unités de Renfort)\n\nIdentités de l’Association Liu : les Capacités Offensives de Base gagnent +2 de Puissance de Pièce Positive (Les Capacités Offensives à Pièce Négative gagnent +(8 / # de Pièces) de Puissance de Base (1 min ; arrondi à l’inférieur))\n\nLes Capacités autres que la Capacité 3 (inclut les Capacités E.G.O.) qui infligent de l’Intensité ou du Compte de [Combustion] ou de “Brûlure Unique” infligent +20% de dégâts\n\nCapacité 3 qui inflige de l’Intensité ou du Compte de [Combustion] ou de “Brûlure Unique” gagne +1 de Puissance de Pièce Positive (Les Capacités Offensives à Pièce Négative gagnent +(4 / # de Pièces) de Puissance de Base (1 min ; arrondi à l’inférieur)) et inflige +30% de dégâts\n- Les Identités d’une même faction infligent +5% de dégâts par Identité de la même faction dans l’Équipe (20% max ; inclut les Unités de Renfort)\n\nFin du Tour : 2 alliés avec le moins de PSM regagnent 8 PSM\n- Si les alliés affectés sont à 0 PSM ou moins, regagnent 5 PSM supplémentaires",
+      "simpleDesc": [
+        {
+          "abilityID": 9216,
+          "simpleDesc": "Gagne de la Puissance de Capacité et inflige plus de dégâts"
+        }
+      ]
+    },
+    {
+      "id": 9217,
+      "name": "Appareil de Quelqu’un",
+      "desc": "Fin de l’Attaque : si la [IndexPrescriptTargetToEnemy] est tuée, l’Identité ayant attaqué et tué la [IndexPrescriptTargetToEnemy] gagne 1 [AzureResultUp] au prochain tour ; inflige +3 de Compte de [Sinking] à 1 ennemi aléatoire en vie (une fois par tour)\n- Si l’unité ayant tué la [IndexPrescriptTargetToEnemy] est la faction de l’Index, gagne 1 [Enhancement] à la place du [AzureResultUp] au prochain tour (une fois par tour)\n\nFin du Tour : les unités de la faction de l’Index subissent (Instance de [KarmaOfIndexAlly] sur soi)% de dégâts de PV.\n(Ne peut pas être Déséquilibré suite à cet effet ; ces dégâts ne peuvent pas réduire les PV des alliés en dessosu de 20% de PV)\nPuis, les Identités ayant subi des dégâts suite à l’effet ci-dessus gagnent (Instance de [KarmaOfIndexAlly] sur soi / 5) [ResultEnhancement] au prochain tour (2 max)",
+      "simpleDesc": [
+        {
+          "abilityID": 9217,
+          "simpleDesc": "Gagne du Bonus de Puissance de Peine. Les Identités de l’Index gagnent du Bonus de Puissance à la place"
+        },
+        {
+          "abilityID": 92171,
+          "simpleDesc": "Les Identités de l’Index subissent des dégâts et gagnent du Bonus de Puissance au prochain tour"
+        }
+      ]
+    },
+    {
+      "id": 9218,
+      "name": "Providence de la Prescription",
+      "desc": "Les Identités qui ont infligé de la [Sinking], du Compte de [Sinking] ou une “Lourdeur Unique”, gagnent 3 [Breath] ou +2 de Compte de [Breath] au Début du Tour (une fois par tour par Identité)\n\nDurant l’Affrontement, si une Identité a gagné 3 fois du [Breath] suite à l’effet ci-dessus, à partir du prochain tour, ce Pécheur inflige +30% de dégâts en Touche Critique",
+      "simpleDesc": [
+        {
+          "abilityID": 9218,
+          "simpleDesc": "Gagne de l’Intensité et du Compte de Calme"
+        },
+        {
+          "abilityID": 92181,
+          "simpleDesc": "Inflige plus de dégâts en Touche Critique"
+        }
+      ]
+    },
+    {
+      "id": 9219,
+      "name": "Omni-outil",
+      "desc": "Lorsque des Capacités du même Type d’Attaque touchent un ennemi 12 fois, l’ennemi gagne +0.1 de Faiblesse à ce Type d’Attaque (3 fois par Affrontement par ennemi/Partie d’Anomalie ; cet effet ne peut pas monter la valeur de Faiblesse au-dessus de 2.0)",
+      "simpleDesc": [
+        {
+          "abilityID": 9219,
+          "simpleDesc": "La cible devient plus vulnérable à un Type d’Attaque"
+        }
+      ]
+    },
+    {
+      "id": 19219,
+      "name": "Omni-outil+",
+      "desc": "Lorsque des Capacités du même Type d’Attaque touchent un ennemi 9 fois, l’ennemi gagne +0.1 de Faiblesse à ce Type d’Attaque (3 fois par Affrontement par ennemi/Partie d’Anomalie ; cet effet ne peut pas monter la valeur de Faiblesse au-dessus de 2.0)",
+      "simpleDesc": [
+        {
+          "abilityID": 19219,
+          "simpleDesc": "La cible devient plus vulnérable à un Type d’Attaque"
+        }
+      ]
+    },
+    {
+      "id": 29219,
+      "name": "Omni-outil++",
+      "desc": "Lorsque des Capacités du même Type d’Attaque touchent un ennemi 6 fois, l’ennemi gagne +0.1 de Faiblesse à ce Type d’Attaque (3 fois par Affrontement par ennemi/Partie d’Anomalie ; cet effet ne peut pas monter la valeur de Faiblesse au-dessus de 2.0)",
+      "simpleDesc": [
+        {
+          "abilityID": 29219,
+          "simpleDesc": "La cible devient plus vulnérable à un Type d’Attaque"
+        }
+      ]
+    },
+    {
       "id": 9220,
       "name": "Magazine de Fixer Volé",
       "desc": "Début du Tour : gagne 1 [HitResultUp]\n\nDébut du Combat : gagne 1 [HitDamageUp] si une Réson.-A d’Envie est activée\n\nDébut de l’Affrontement : s’il y a 4 Identités du Majeur ou plus sur le champ de bataille, applique [RetaliationBook] à un ennemi aléatoire",
@@ -67,6 +254,165 @@
         {
           "abilityID": 92211,
           "simpleDesc": "Réduit le Compte de Brûlure"
+        }
+      ]
+    },
+    {
+      "id": 9222,
+      "name": "Toile d’un Blanc Pur",
+      "desc": "En Touche avec des Capacités Offensives à Pièce Positive contre un ennemi avec 15 [Laceration] ou plus, regagne 3 PSM (une fois par tour pour chaque Identité)\n- Si cette Identité ou cible a 3 types d’effets négatifs ou plus, regagne 6 PSM à la place",
+      "simpleDesc": [
+        {
+          "abilityID": 9222,
+          "simpleDesc": "Regagne des PSM"
+        }
+      ]
+    },
+    {
+      "id": 9223,
+      "name": "Œuvre d’Art Banale",
+      "desc": "Les Identités de la faction de l’Annulaire gagnent [Inspire]\n\nSi l’Identité de la faction de l’Annulaire avec [Inspire] touche un ennemi avec des Capacités Tranchantes ou de Luxure, inflige [ObjectOfExploration] à cet ennemi au prochain tour\n- Si l’ennemi a déjà [ObjectOfExploration], remplace [ObjectOfExploration] par [PaintingMaterial]\n\nSi l’Identité de la faction de l’Annulaire avec [Inspire] tue un ennemi ayant [PaintingMaterial], cette Identité gagne 1 [PlusCoinValueUp] au prochain tour (une fois par tour)",
+      "simpleDesc": [
+        {
+          "abilityID": 9223,
+          "simpleDesc": "Inflige [ObjectOfExploration]"
+        },
+        {
+          "abilityID": 92231,
+          "simpleDesc": "Gagne [PlusCoinValueUp]"
+        }
+      ]
+    },
+    {
+      "id": 9224,
+      "name": "Œuvre d’Art Exquise",
+      "desc": "Les Identités de la faction de l’Annulaire gagnent [Inspire]\n\nSi l’Identité de la faction de l’Annulaire avec [Inspire] touche un ennemi, inflige [ObjectOfExploration] à cet ennemi\n- Si l’ennemi a déjà [ObjectOfExploration], remplace [ObjectOfExploration] par [PaintingMaterial]\n\nSi l’Identité de la faction de l’Annulaire avec [Inspire] tue un ennemi ayant [PaintingMaterial], cette Identité perd [Inspire] et gagne [GreatAesthetics]",
+      "simpleDesc": [
+        {
+          "abilityID": 9224,
+          "simpleDesc": "Gagne [Inspire]"
+        },
+        {
+          "abilityID": 92241,
+          "simpleDesc": "Inflige [ObjectOfExploration]"
+        },
+        {
+          "abilityID": 92242,
+          "simpleDesc": "Gagne [GreatAesthetics]"
+        }
+      ]
+    },
+    {
+      "id": 9225,
+      "name": "Le Fil de l’Araignée",
+      "desc": "Les alliés qui utilisent une Capacité Défensive infligent +10% de dégâts avec leur Capacité 3 au prochain tour (une fois par tour)",
+      "simpleDesc": [
+        {
+          "abilityID": 9225,
+          "simpleDesc": "Capacité 3 inflige plus de dégâts"
+        }
+      ]
+    },
+    {
+      "id": 19225,
+      "name": "Le Fil de l’Araignée+",
+      "desc": "Les alliés qui utilisent une Capacité Défensive infligent +15% de dégâts avec leur Capacité 3 au prochain tour (une fois par tour)",
+      "simpleDesc": [
+        {
+          "abilityID": 19225,
+          "simpleDesc": "Capacité 3 inflige plus de dégâts"
+        }
+      ]
+    },
+    {
+      "id": 29225,
+      "name": "Le Fil de l’Araignée++",
+      "desc": "Les alliés qui utilisent une Capacité Défensive infligent +20% de dégâts avec leur Capacité 3 au prochain tour (une fois par tour)",
+      "simpleDesc": [
+        {
+          "abilityID": 29225,
+          "simpleDesc": "Capacité 3 inflige plus de dégâts"
+        }
+      ]
+    },
+    {
+      "id": 9226,
+      "name": "Lame Azurée de Quelqu’un",
+      "desc": "Début du Combat : les alliés avec Bouclier gagnent 1 [CriticalDamageUp]\nEn Critique avec une Capacité alliée, cet allié gagne ([Breath] / 5) de Bouclier au prochain tour (15 max)",
+      "simpleDesc": [
+        {
+          "abilityID": 9226,
+          "simpleDesc": "Gagne [CriticalDamageUp]"
+        },
+        {
+          "abilityID": 92261,
+          "simpleDesc": "Gagne du Bouclier"
+        }
+      ]
+    },
+    {
+      "id": 9227,
+      "name": "Hwando Funeste",
+      "desc": "Ce Don E.G.O. se transforme après 6 Affrontements gagnés\n{0}\n\nPour tous les alliés : subit +20% de dégâts, -1 de Puissance de Duel",
+      "simpleDesc": [
+        {
+          "abilityID": 9227,
+          "simpleDesc": "Subit plus de dégâts et perd de la Puissance de Duel"
+        }
+      ]
+    },
+    {
+      "id": 9228,
+      "name": "Un avec la Lame",
+      "desc": "Tous les alliés infligent +25% de dégâts",
+      "simpleDesc": [
+        {
+          "abilityID": 9228,
+          "simpleDesc": "Inflige plus de dégâts"
+        }
+      ]
+    },
+    {
+      "id": 9229,
+      "name": "Gantelet Terni",
+      "desc": "Ce Don E.G.O. se transforme après 6 Affrontements gagnés\n{0}\n\n-5 de Vitesse Min & Max pour tous les alliés (cet effet ne peut pas réduire la Vitesse en dessous de 1)",
+      "simpleDesc": [
+        {
+          "abilityID": 9229,
+          "simpleDesc": "Réduit la Vitesse"
+        }
+      ]
+    },
+    {
+      "id": 9230,
+      "name": "Heure en Or",
+      "desc": "+3 de Vitesse Min & Max pour tous les alliés\n+2 de Puissance Finale en utilisant des Capacités contre des ennemis plus lents avec une différence de Vitesse de 4 ou plus\nEn Touche contre un ennemi, inflige 1 Ralentissement au prochain tour (4 fois par tour)",
+      "simpleDesc": [
+        {
+          "abilityID": 9230,
+          "simpleDesc": "Gagne de la Vitesse et de la Puissance Finale"
+        }
+      ]
+    },
+    {
+      "id": 9231,
+      "name": "Enregistrements de Ce Jour",
+      "desc": "Ce Don E.G.O. se transforme après 6 Affrontements gagnés\n{0}\n\nDébut du Tour : Un allié aléatoire qui n’est pas Déséquilibré entre en état de Déséquilibre forcé",
+      "simpleDesc": [
+        {
+          "abilityID": 9231,
+          "simpleDesc": "Devient Déséquilibré"
+        }
+      ]
+    },
+    {
+      "id": 9232,
+      "name": "Potentialités",
+      "desc": "Lorsque Déséquilibré suite à des dégâts, se remet de Déséquilibre ; puis, gagne du Bouclier égal à 50% des PV max et retire 1 effet négatif retirable sur soi (exclut les Déséquilibres forcés, 2 fois par Affrontement)\n\nGagne 20 [Breath] au début du prochain tour après avoir activé l’effet ci-dessus (une fois par tour)",
+      "simpleDesc": [
+        {
+          "abilityID": 9232,
+          "simpleDesc": "Se remet de Déséquilibre ; retire un effet négatif"
         }
       ]
     }

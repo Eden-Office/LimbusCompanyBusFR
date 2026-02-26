@@ -1709,12 +1709,12 @@
     },
     {
       "id": "HeatedGasHarpoon",
-      "name": "Harpon à Gaz Chauffé",
+      "name": "ManipulHarpon Chauffé",
       "desc": "Ce Tour : inflige 1 Brûlure en Touche Pile"
     },
     {
       "id": "OverHeatedGasHarpoon",
-      "name": "Harpon à Gaz Surchauffé",
+      "name": "ManipulHarpon Surchauffé",
       "desc": "Ce Tour : inflige 1 Brûlure en Touche"
     },
     {
@@ -2118,7 +2118,7 @@
     {
       "id": "Retreat",
       "name": "Mode de Repos Stratégique",
-      "desc": "- Fin du Tour : se remet de Déséquilibre et Bat en Retraite de l’Affrontement (sauf s’il s’agit d’un Déséquilibre forcé ; ne compte pas comme une mort)\n· En Combats Chaînés, donne les Emplacements de cette unité à une unité Substituée et se place à la dernière place de l’ordre de Déploiement des unités de Renfort (s’échappe entièrement de l’Affrontement s’il n’y a aucune Unité de Renfort restante avec qui changer de place au prochain tour. En revenant au combat, revient dans l’ordre de sa retraite.)\n· En revenant au combat, revient avec la même quantité de PV et de PSM qu’avait cette unité en battant en retraite et élimine tous les effets sur soi pour certains (si cette unité avait moins de 0 PSM en battant en retraite, remet à 0 les PSM à la place)",
+      "desc": "- Fin du Tour : se remet de Déséquilibre et Bat en Retraite de l’Affrontement (exclut les Déséquilibres forcés ; ne compte pas comme une mort)\n· En Combats Chaînés, donne les Emplacements de cette unité à une unité Substituée et se place à la dernière place de l’ordre de Déploiement des unités de Renfort (s’échappe entièrement de l’Affrontement s’il n’y a aucune Unité de Renfort restante avec qui changer de place au prochain tour. En revenant au combat, revient dans l’ordre de sa retraite.)\n· En revenant au combat, revient avec la même quantité de PV et de PSM qu’avait cette unité en battant en retraite et élimine tous les effets sur soi pour certains (si cette unité avait moins de 0 PSM en battant en retraite, remet à 0 les PSM à la place)",
       "summary": "",
       "undefined": "-"
     },
@@ -2314,7 +2314,7 @@
     {
       "id": "FreishutzOutisEgoBullet_7th",
       "name": "La Septième Balle Magique",
-      "desc": "- Inflige +200% de dégâts\n- Inflige +2.5% de dégâts tous les 1% de PV manquant sur la cible (200% max)\n- Avant l’Attaque : pour cette attaque, si la Rés. aux Dégâts Perçants de la cible ou sur soi est inférieure à 2.0, la rend “Fatale” (x2.0)\n- Après l’Attaque : tue cette unité"
+      "desc": "- Inflige +200% de dégâts\n- Inflige +2.5% de dégâts tous les 1% de PV manquant sur la cible (200% max)\n- Avant l’Attaque : pour cette attaque, si la Rés. aux Dégâts Perçants de la cible ou sur soi est inférieure à 2.0, la rend “Fatale” (x2.0)\n- Fin de l’Attaque : tue cette unité"
     },
     {
       "id": "FreishutzOutisEgoBulletCnt",
@@ -2339,7 +2339,7 @@
     {
       "id": "Retreat_FullStop",
       "name": "Mission de Surveillance",
-      "desc": "- Fin du Tour : se remet de Déséquilibre et Bat en Retraite de l’Affrontement (sauf s’il s’agit d’un Déséquilibre forcé ; ne compte pas comme une mort)\n· En Combats Chaînés, donne les Emplacements de cette unité à une unité Substituée et se place à la dernière place de l’ordre de Déploiement des unités de Renfort (s’échappe entièrement de l’Affrontement s’il n’y a aucune Unité de Renfort restante avec qui changer de place au prochain tour. En revenant au combat, revient dans l’ordre de sa retraite.)\n· En revenant au combat, revient avec la même quantité de PV et de PSM qu’avait cette unité en battant en retraite et élimine tous les effets sur soi pour certains (si cette unité avait moins de 0 PSM en battant en retraite, remet à 0 les PSM à la place)"
+      "desc": "- Fin du Tour : se remet de Déséquilibre et Bat en Retraite de l’Affrontement (exclut les Déséquilibres forcés ; ne compte pas comme une mort)\n· En Combats Chaînés, donne les Emplacements de cette unité à une unité Substituée et se place à la dernière place de l’ordre de Déploiement des unités de Renfort (s’échappe entièrement de l’Affrontement s’il n’y a aucune Unité de Renfort restante avec qui changer de place au prochain tour. En revenant au combat, revient dans l’ordre de sa retraite.)\n· En revenant au combat, revient avec la même quantité de PV et de PSM qu’avait cette unité en battant en retraite et élimine tous les effets sur soi pour certains (si cette unité avait moins de 0 PSM en battant en retraite, remet à 0 les PSM à la place)"
     },
     {
       "id": "LogicAtelierAM",
@@ -2404,7 +2404,7 @@
     {
       "id": "CloudWall",
       "name": "Mur de Nuages",
-      "desc": "Instance max : 1\n+1 de Puissance Finale de Capacité Défensive\nCet effet expire à la Fin du Tour ou après l’attaque suivante : “Règles des Ruelles”",
+      "desc": "Instance max : 1\n+1 de Puissance Finale de Capacité Défensive\nCet effet expire à la Fin du Tour ou à la Fin de l’Attaque suivante : “Règles des Ruelles”",
       "summary": "Renforce les Capacités Défensives"
     },
     {
@@ -2602,7 +2602,7 @@
     {
       "id": "RetreatForCommon",
       "name": "Repli du Champ de Bataille",
-      "desc": "- Fin du Tour : se remet de Déséquilibre et Bat en Retraite de l’Affrontement (sauf s’il s’agit d’un Déséquilibre forcé ; ne compte pas comme une mort)\n· En Combats Chaînés, donne les Emplacements de cette unité à une unité Substituée et se place à la dernière place de l’ordre de Déploiement des unités de Renfort (s’échappe entièrement de l’Affrontement s’il n’y a aucune Unité de Renfort restante avec qui changer de place au prochain tour. En revenant au combat, revient dans l’ordre de sa retraite.)\n· En revenant au combat, revient avec la même quantité de PV et de PSM qu’avait cette unité en battant en retraite et élimine tous les effets sur soi à l’exception de certains (si cette unité avait moins de 0 PSM en battant en retraite, remet à 0 les PSM à la place)",
+      "desc": "- Fin du Tour : se remet de Déséquilibre et Bat en Retraite de l’Affrontement (exclut les Déséquilibres forcés ; ne compte pas comme une mort)\n· En Combats Chaînés, donne les Emplacements de cette unité à une unité Substituée et se place à la dernière place de l’ordre de Déploiement des unités de Renfort (s’échappe entièrement de l’Affrontement s’il n’y a aucune Unité de Renfort restante avec qui changer de place au prochain tour. En revenant au combat, revient dans l’ordre de sa retraite.)\n· En revenant au combat, revient avec la même quantité de PV et de PSM qu’avait cette unité en battant en retraite et élimine tous les effets sur soi à l’exception de certains (si cette unité avait moins de 0 PSM en battant en retraite, remet à 0 les PSM à la place)",
       "summary": "",
       "undefined": "-"
     },
@@ -2841,7 +2841,7 @@
     {
       "id": "CommonExit",
       "name": "Fuite du Champ de Bataille",
-      "desc": "- Fin du Tour : se remet de Déséquilibre et s’échappe de l’Affrontement (sauf s’il s’agit d’un Déséquilibre forcé ; ne compte pas comme une mort)",
+      "desc": "- Fin du Tour : se remet de Déséquilibre et s’échappe de l’Affrontement (exclut les Déséquilibres forcés ; ne compte pas comme une mort)",
       "summary": ""
     },
     {
@@ -2907,13 +2907,13 @@
     {
       "id": "BloodArmorMeursault",
       "name": "Armure de Sang Durci",
-      "desc": "- Instance max : 5\n- Si cette unité n’est pas à PV max : après que sa Capacité attaque, regagne 10% des dégâts infligés en PV (une fois par tour ; 40 de soin max)\n- Après l’Attaque : si cette unité a infligé des dégâts de PV, perd 1 Instance (une fois par tour)\n• Si une Réson. de Luxure a été activée, réduit de moitié la quantité de PV soignés mais ne perd pas d’Instance d’Armure de Sang Durci",
+      "desc": "- Instance max : 5\n- Si cette unité n’est pas à PV max : après que sa Capacité attaque, regagne 10% des dégâts infligés en PV (une fois par tour ; 40 de soin max)\n- Fin de l’Attaque : si cette unité a infligé des dégâts de PV, perd 1 Instance (une fois par tour)\n• Si une Réson. de Luxure a été activée, réduit de moitié la quantité de PV soignés mais ne perd pas d’Instance d’Armure de Sang Durci",
       "undefined": "-"
     },
     {
       "id": "FocusOnActing",
       "name": "Prestation Concentrée",
-      "desc": "- Instance max : 3\n- Uniquement aux Identités de <La Manchaland> ; inclut les Capacités Renforcées\n- Capacité 1 et Capacité 2 gagnent +1 de Puissance Finale ; infligent +5% de dégâts par Instance (15% max)\n- Capacité 3 gagne +2 de Puissance Finale ; inflige +10% de dégâts par Instance (30% max)\n- Perd 1 Instance lorsque :\n  1) Après avoir attaqué avec la Capacité 3\n  2) Si cette unité n’a pas Armure de Sang Durci au Début du Tour",
+      "desc": "- Instance max : 3\n- Uniquement aux Identités de <La Manchaland> ; inclut les Capacités Renforcées\n- Capacité 1 et Capacité 2 gagnent +1 de Puissance Finale ; infligent +5% de dégâts par Instance (15% max)\n- Capacité 3 gagne +2 de Puissance Finale ; inflige +10% de dégâts par Instance (30% max)\n- Perd 1 Instance lorsque :\n  1) À la Fin de l’Attaque de la Capacité 3\n  2) Si cette unité n’a pas Armure de Sang Durci au Début du Tour",
       "summary": "En Touche, inflige plus de dégâts",
       "undefined": "-"
     },
