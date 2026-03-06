@@ -1,0 +1,219 @@
+{
+  "dataList": [
+    {
+      "id": 9233,
+      "name": "Radio Bidirectionnelle Grésillante",
+      "desc": "À l’Usage d’une Capacité qui gagne ou dépense des [Bullet] : gagne 1 [Agility] et 2 [AttackUp] au prochain tour (une fois par tour par Identité)\n- Pour les Capacités qui infligent de l’Intensité ou du Compte de [Sinking] ou de “Lourdeur Unique”, inflige +(20 / # de Pièces)% de dégâts",
+      "simpleDesc": [
+        {
+          "abilityID": 9233,
+          "simpleDesc": "Gagne [Agility] et [AttackUp] au prochain tour"
+        },
+        {
+          "abilityID": 92331,
+          "simpleDesc": "Inflige plus de dégâts"
+        }
+      ]
+    },
+    {
+      "id": 9234,
+      "name": "Collier en forme de Bec",
+      "desc": "À l’Usage d’une Capacité qui gagne ou dépense des [Bullet] : gagne 1 [Agility] et 1 [Enhancement] au prochain tour (une fois par tour par Identité)\n- Pour les Capacités qui infligent de l’Intensité ou du Compte de [Laceration] ou de “Saignement Unique”, inflige +(20 / # de Pièces)% de dégâts",
+      "simpleDesc": [
+        {
+          "abilityID": 9234,
+          "simpleDesc": "Gagne [Agility] et [Enhancement] au prochain tour"
+        },
+        {
+          "abilityID": 92341,
+          "simpleDesc": "Inflige plus de dégâts"
+        }
+      ]
+    },
+    {
+      "id": 9235,
+      "name": "Desperado",
+      "desc": "Les effets de ce Don E.G.O. sont renforcés selon le nombre d’Identité dans la Configuration d’Équipe qui gagnent ou dépensent des [Bullet] (exclut les Capacités E.G.O. ; compte toutes les unités dans l’Équipe)\n\n- À 2 ou plus…\nÀ l’Usage d’une Capacité qui gagne ou dépense des [Bullet] : gagne 2 [Agility] et 4 [AttackUp] au prochain tour (une fois par Identité par tour)\n\n- À 5 ou plus…\nCapacité qui gagne ou dépense des [Bullet] : +1 de Puissance de Duel, inflige +10% de dégâts\nCapacité qui gagne ou dépense des [Bullet] : inflige +(100 / # de Pièces)% de dégâts\nSi une unité affectée est à court de [Bullet], gagne 4 [Bullet] au prochain Début de Tour (une fois par Identité par Affrontement)\n\n- À 8 ou plus…\nDébut du Tour : applique 1 [DesperadoBuff] aux Identités qui gagnent ou dépensent des [Bullet]\n• Si l’unité affectée n’a pas dépensée de [Bullet] au dernier tour, applique 1 [DesperadoBuff] supplémentaire\nFin du Combat : inflige (somme totale de [DesperadoBuff] sur tous les alliés * 3) dégâts Perçants à 1 ennemi aléatoire (30 max)\n• Puis, répète l’effet ci-dessus (nombre d’Identités dans l’Équipe qui gagne ou dépense des [Bullet] - 1) fois",
+      "simpleDesc": [
+        {
+          "abilityID": 9235,
+          "simpleDesc": "Gagne [Agility] et [AttackUp] au prochain tour"
+        },
+        {
+          "abilityID": 92351,
+          "simpleDesc": "Gagne de la Puissance de Duel et inflige plus de dégâts"
+        },
+        {
+          "abilityID": 92352,
+          "simpleDesc": "Inflige plus de dégâts"
+        },
+        {
+          "abilityID": 92353,
+          "simpleDesc": "Gagne [Bullet]"
+        },
+        {
+          "abilityID": 92354,
+          "simpleDesc": "Inflige [DesperadoBuff]. Inflige du [DesperadoBuff] supplémentaire lorsque les conditions sont remplies"
+        },
+        {
+          "abilityID": 92355,
+          "simpleDesc": "Inflige des dégâts Perçants à 1 ennemi aléatoire"
+        }
+      ]
+    },
+    {
+      "id": 9236,
+      "name": "Harmoniques",
+      "desc": "Lorsqu’un allié ou un ennemi meurt durant un tour, toutes les unités gagnent 1 [Vulnerable] au prochain tour (une fois par Vague)\n- En Duel Gagné allié au même tour où toutes les unités ont gagné [Vulnerable] suite à l’effet ci-dessus, tous les alliés perdent 1 [Vulnerable] et inflige 4 [Laceration] et +2 de Compte de [Laceration] à tous les ennemis (une fois par tour)",
+      "simpleDesc": [
+        {
+          "abilityID": 9236,
+          "simpleDesc": "Gagne [Vulnerable] au prochain tour"
+        },
+        {
+          "abilityID": 92361,
+          "simpleDesc": "Réduit l’Instance de [Vulnerable] de tous les alliés et inflige du [Laceration] et du Compte de [Laceration] à tous les ennemis"
+        }
+      ]
+    },
+    {
+      "id": 19236,
+      "name": "Harmoniques+",
+      "desc": "Lorsqu’un allié ou un ennemi meurt durant un tour, toutes les unités gagnent <style=\"upgradeHighlight\">2</style> [Vulnerable] au prochain tour (une fois par Vague)\n- En Duel Gagné allié au même tour où toutes les unités ont gagné [Vulnerable] suite à l’effet ci-dessus, tous les alliés perdent 1 [Vulnerable] et inflige 4 [Laceration] et +2 de Compte de [Laceration] à tous les ennemis (<style=\"upgradeHighlight\">2</style> fois par tour)",
+      "simpleDesc": [
+        {
+          "abilityID": 19236,
+          "simpleDesc": "Gagne [Vulnerable] au prochain tour"
+        },
+        {
+          "abilityID": 192361,
+          "simpleDesc": "Réduit l’Instance de [Vulnerable] de tous les alliés et inflige du [Laceration] et du Compte de [Laceration] à tous les ennemis"
+        }
+      ]
+    },
+    {
+      "id": 29236,
+      "name": "Harmoniques++",
+      "desc": "Lorsqu’un allié ou un ennemi meurt durant un tour, toutes les unités gagnent <style=\"upgradeHighlight\">3</style> [Vulnerable] au prochain tour (une fois par Vague)\n- En Duel Gagné allié au même tour où toutes les unités ont gagné [Vulnerable] suite à l’effet ci-dessus, tous les alliés perdent 1 [Vulnerable] et inflige 4 [Laceration] et +2 de Compte de [Laceration] à tous les ennemis (<style=\"upgradeHighlight\">3</style> fois par tour)",
+      "simpleDesc": [
+        {
+          "abilityID": 29236,
+          "simpleDesc": "Gagne [Vulnerable] au prochain tour"
+        },
+        {
+          "abilityID": 292361,
+          "simpleDesc": "Réduit l’Instance de [Vulnerable] de tous les alliés et inflige du [Laceration] et du Compte de [Laceration] à tous les ennemis"
+        }
+      ]
+    },
+    {
+      "id": 9237,
+      "name": "Contrebasse Ambulante",
+      "desc": "[Les effets s’appliquent uniquement à l’Identité Déployée #3]\n\nDébut du Tour : gagne 1 [TensionUp]\n\nEn Touche, 25% de chance d’appliquer 1 [TensionUp] à soi-même et à 1 allié aléatoire\n- Si c’était une Capacité qui inflige du [Laceration] ou de la [Combustion] (inclut l’Intensité, le Compte et les variants Uniques), augmente les chances à 50%",
+      "simpleDesc": [
+        {
+          "abilityID": 9237,
+          "simpleDesc": "Gagne [TensionUp]"
+        },
+        {
+          "abilityID": 92371,
+          "simpleDesc": "Applique [TensionUp] à soi-même et 1 allié aléatoire"
+        }
+      ]
+    },
+    {
+      "id": 19237,
+      "name": "Contrebasse Ambulante+",
+      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées #3 et #<style=\"upgradeHighlight\">4</style>]\n\nDébut du Tour : gagne 1 [TensionUp]\n\nEn Touche, 25% de chance d’appliquer 1 [TensionUp] à soi-même et à 1 allié aléatoire\n- Si c’était une Capacité qui inflige du [Laceration] ou de la [Combustion] (inclut l’Intensité, le Compte et les variants Uniques), augmente les chances à <style=\"upgradeHighlight\">75</style>%",
+      "simpleDesc": [
+        {
+          "abilityID": 19237,
+          "simpleDesc": "Gagne [TensionUp]"
+        },
+        {
+          "abilityID": 192371,
+          "simpleDesc": "Applique [TensionUp] à soi-même et 1 allié aléatoire"
+        }
+      ]
+    },
+    {
+      "id": 29237,
+      "name": "Contrebasse Ambulante++",
+      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées #3 et #4]\n\nDébut du Tour : gagne 1 [TensionUp]\n\nEn Touche, 25% de chance d’appliquer 1 [TensionUp] à soi-même et à <style=\"upgradeHighlight\">2</style> alliés aléatoires\n- Si c’était une Capacité qui inflige du [Laceration] ou de la [Combustion] (inclut l’Intensité, le Compte et les variants Uniques), augmente les chances à <style=\"upgradeHighlight\">100</style>%",
+      "simpleDesc": [
+        {
+          "abilityID": 29237,
+          "simpleDesc": "Gagne [TensionUp]"
+        },
+        {
+          "abilityID": 292371,
+          "simpleDesc": "Applique [TensionUp] à soi-même et 2 alliés aléatoires"
+        }
+      ]
+    },
+    {
+      "id": 9238,
+      "name": "Pétales Roses",
+      "desc": "En Touche par un allié avec une Capacité qui inflige de l’Intensité ou du Compte de [Sinking] ou de “Lourdeur Unique”, inflige 1 [PinkPetals]\n- Inflige 1 [PinkPetals] supplémentaire toutes les 5 [Sinking] sur l’ennemi (4 max)",
+      "simpleDesc": [
+        {
+          "abilityID": 9238,
+          "simpleDesc": "Inflige [PinkPetals]"
+        }
+      ]
+    },
+    {
+      "id": 9239,
+      "name": "Bouquet Rose",
+      "desc": "En Touche avec une Capacité Perçante contre un ennemi : gagne 1 [Agility] et 1 [PenetrateDamageUp] au prochain tour (2 fois par tour par Identité)\n- En Tuant un ennemi avec cette Capacité : gagne 1 [Agility] supplémentaire et 2 [PenetrateDamageUp] supplémentaires au prochain tour (une fois par tour par Identité)\n\nEn Touche par un allié avec une Capacité qui inflige de l’Intensité ou du Compte de [Sinking] ou de “Lourdeur Unique”, inflige 2 [PinkPetals]\n- Inflige 1 [PinkPetals] supplémentaire toutes les 5 [Sinking] sur l’ennemi (4 max)\n- Si l’ennemi a 10 Instances de [PinkPetals] ou plus, inflige 2 [Vibration] En Touche (3 fois par tour)\n\nFin du Tour : inflige 2 [Binding] et 3 [DefenseDown] au prochain tour aux ennemis (pour les Anomalies, aux Parties) avec 5 ([Sinking] + [Vibration]) ou plus\n- Si la cible a 10 ([Sinking] + [Vibration]) ou plus, inflige 2 [Binding], 1 [Paralysis] et 4 [DefenseDown] à la place\n\nFin du Tour : si tous les ennemis ont des Instances de [PinkPetals] restantes, tous les alliés gagnent 1 [Enhancement] au prochain tour",
+      "simpleDesc": [
+        {
+          "abilityID": 9239,
+          "simpleDesc": "Gagne [Agility] et [PenetrateDamageUp] au prochain tour"
+        },
+        {
+          "abilityID": 92391,
+          "simpleDesc": "Gagne 1 [Agility] et 2 [PenetrateDamageUp] au prochain tour"
+        },
+        {
+          "abilityID": 92392,
+          "simpleDesc": "Inflige [PinkPetals]. Inflige [Vibration] lorsque les conditions sont remplies"
+        },
+        {
+          "abilityID": 92393,
+          "simpleDesc": "Inflige [Binding] et [DefenseDown] au prochain tour. Inflige [Binding], [Paralysis], et [DefenseDown] lorsque les conditions sont remplies"
+        },
+        {
+          "abilityID": 92394,
+          "simpleDesc": "Tous les alliés gagnent [Enhancement] au prochain tour"
+        }
+      ]
+    },
+    {
+      "id": 9240,
+      "name": "Parfum de Gelée Royale",
+      "desc": "[Les effets s’appliquent uniquement à l’Identité Déployée #6]\n\nDébut de l’Affrontement : gagne [QueenBeepheromone]\n\nSubit -15% de dégâts d’ennemis avec [Combustion]\n\nFin du Tour : inflige [QueenBeeMark] au prochain tour à l’ennemi (en Affrontement Ciblé, à la Partie) ayant infligé le plus de dégâts à cette unité\n- Si les alliés n’ont pas subi de dégâts d’ennemis, inflige [QueenBeeMark] au prochain tour à 1 ennemi aléatoire (en Affrontement Ciblé, une Partie)",
+      "simpleDesc": [
+        {
+          "abilityID": 9240,
+          "simpleDesc": "Gagne [QueenBeepheromone]"
+        },
+        {
+          "abilityID": 92401,
+          "simpleDesc": "Inflige [QueenBeeMark]"
+        }
+      ]
+    },
+    {
+      "id": 9241,
+      "name": "Café Encore Chaud",
+      "desc": "[Les effets s’appliquent uniquement à l’Identité Déployée #1]\n\nFin du Tour après avoir utilisé une Capacité Offensive : regagne 5 PSM\n- Puis, si l’unité affectée est à PV max et est une Identité de Lobotomy Corp., gagne 1 [PlusCoinValueUp] au prochain tour",
+      "simpleDesc": [
+        {
+          "abilityID": 9241,
+          "simpleDesc": "Regagne des PSM ; gagne [PlusCoinValueUp] au prochain tour si les conditions sont remplies"
+        }
+      ]
+    }
+  ]
+}

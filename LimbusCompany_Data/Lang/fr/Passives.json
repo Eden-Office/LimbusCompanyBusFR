@@ -2764,6 +2764,51 @@
       "name": "Grâce de Dieu",
       "desc": "Inflige +5% de dégâts avec les Capacités Offensives Tranchantes, Perçantes et Contondantes de Base qui sont utilisées pour la première fois par les alliés à chaque tour (une fois par type pour l’ensemble des alliés)\n- Les Identités de l’Index infligent +10% de dégâts à la place\n- L’application de cet effet est déterminé Avant l’Attaque",
       "summary": "Inflige plus de dégâts avec les Capacités Offensives Tranchantes, Perçantes et Contondantes de Base qui sont utilisées pour la première fois ce tour"
+    },
+    {
+      "id": 1051401,
+      "name": "Diffusion de Spore",
+      "desc": "En Tuant des cibles avec [MeursaultBeeSpore], inflige deux fois plus de [MeursaultBeeSpore] au prochain tour"
+    },
+    {
+      "id": 1051411,
+      "name": "Diffusion de Spore",
+      "desc": "En Tuant des cibles avec [MeursaultBeeSpore], gagne les effets suivants :\n- Inflige deux fois plus de [MeursaultBeeSpore] au prochain tour\n<style=\"highlight\">- En Tuant avec une Capacité Offensive de Base, gagne (Cartouche de <noparse>Spore</noparse> utilisée par la Capacité / 2) Cartouches de <noparse>Spore</noparse> (arrondi au supérieur ; une fois par Capacité)</style>"
+    },
+    {
+      "id": 1051402,
+      "name": "Altération E.G.O. / Cartouche de Spore",
+      "desc": "Toujours Actif : commence l’Affrontement avec 10 [MeursaultSporeBulletLong] et 6 [MeursaultSporeBulletShort]\n\nEn Touche avec des Pièces qui dépensent des Cartouches de <noparse>Spore</noparse> :\n- Si une [MeursaultSporeBulletLong] a été dépensée was spent, inflige 2 [MeursaultBeeSpore]\n- Si une [MeursaultSporeBulletShort] a été dépensée, inflige 3 [MeursaultBeeSpore]\n- Cela compte comme “infliger des effets négatifs avec la Capacité”\n\nAvant l’Usage de Pièce d’une Pièce qui dépense une [MeursaultSporeBulletShort], si cette unité n’a pas de [MeursaultSporeBulletShort], consomme 2 PSM et 2 [MeursaultSporeBulletLong] pour gagner 1 [MeursaultSporeBulletShort]\n\nSi cette unité tombe à court de Cartouche de <noparse>Spore</noparse> en plein milieu de Capacité, annule toutes les Pièces à venir et [MeursaultSporeBulletReloading]\n\nLorsque des cibles avec [MeursaultBeeSpore] sont tuées, gagne 1 [MeursaultWorkerBee]",
+      "flavor": "“L’analyse de l’équipe de recherche (c’est nous) a confirmé que même les équipements qui étaient issus d’extractions stables et raffinées peuvent traverser de légères mutations selon l’utilisateur.\nNon, je n’attribuerai pas cela à de l’incomplétude. Au contraire, de tels changements peuvent même être un processus de ces équipements atteignant leur propre complétion, comme un véritable E.G.O.\nAppelons ce phénomène “Altération” pour le moment.”"
+    },
+    {
+      "id": 1051421,
+      "name": "Abeille Ouvrière",
+      "desc": "Fin de Capacité Offensive Perçante Alliée de Base : cet allié regagne des PV égaux à 10% des dégâts de PV infligés avec l’attaque (2 fois par Affrontement)\n- Pour ce tour, si toutes les Capacités Offensives de Base équipées sur des Emplacements de Capacités sont des Capacités Perçantes, tous les alliés regagnent 10 PSM à la Fin du Tour"
+    },
+    {
+      "id": 1041401,
+      "name": "Fleur qui ne Fane Pas",
+      "desc": "Gagne 1 [AlriuneEGOWe] si l’ennemi subit des dégâts de [Sinking]\nGagne autant de [AlriuneEGOWe] que de [AlriuneEGOThey] infligé chaque fois que des ennemis gagnent [AlriuneEGOThey]\nGagne 2 [AlriuneEGOWe] chaque fois qu’un Sursaut de Tremblement est déclenché qu’importe l’unité",
+      "summary": "Gagne [AlriuneEGOWe]"
+    },
+    {
+      "id": 1041402,
+      "name": "Un Vide qui ne Peut Être Comblé",
+      "desc": "Toujours Actif : commence l’Affrontement avec 6 [BulletGodok]\n\nÀ 1 [BulletGodok] ou plus, si l’ennemi a moins de -40 PSM ou est Déséquilibré à la Fin de l’Attaque de cette unité ou d’un allié, utilise “Bang. Bang.” en Attaque à Sens Unique (une fois par tour)\n\nFin de l’Attaque : à 0 [BulletGodok], utilise “Histoires qui ne Cessent Jamais” en Attaque à Sens Unique contre la cible et consomme 10 PSM pour [FullReload]",
+      "summary": "Déclenche la Capacité 1-1 et [FullReload]"
+    },
+    {
+      "id": 1041411,
+      "name": "Fleur qui ne Fane Pas",
+      "desc": "Gagne 1 [AlriuneEGOWe] si l’ennemi subit des dégâts de [Sinking]\nGagne autant de [AlriuneEGOWe] que de [AlriuneEGOThey] infligé chaque fois que des ennemis gagnent [AlriuneEGOThey]\nGagne 2 [AlriuneEGOWe] chaque fois qu’un Sursaut de Tremblement est déclenché qu’importe l’unité\n\nFin de la Capacité Offensive : à 30 [AlriuneEGOWe] ou plus, utilise “Fin Magnifique” contre la cible avec le plus d’Instances de [AlriuneEGOThey]\n\nInflige +([AlriuneEGOThey] sur la cible)% de dégâts contre les cibles Déséquilibrées\n\nSi cette unité a perdu 10% de PV ou plus ce tour, regagne 3% de PV et 10 PSM (une fois par tour)",
+      "summary": " "
+    },
+    {
+      "id": 1041421,
+      "name": "Genèse du Printemps",
+      "desc": "Lorsque l’allié avec la plus haute Vitesse touche un ennemi avec une Capacité qui inflige de l’Intensité ou du Compte de [Sinking] ou de “Lourdeur Unique”, inflige 2 [Vibration] et déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1 (une fois par tour)",
+      "summary": "Inflige du [Vibration], déclenche un [VibrationExplosion]"
     }
   ]
 }

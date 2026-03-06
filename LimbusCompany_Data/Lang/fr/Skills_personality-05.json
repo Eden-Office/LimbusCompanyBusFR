@@ -2028,6 +2028,362 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1051401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tir de Sommation",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [MeursaultSporeBulletLong]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [MeursaultSporeBulletLong]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Tir de Sommation",
+          "desc": "<style=\"highlight\">[BeforeUse] Au max de [MeursaultSporeBulletLong], inflige 1 [PenetrateTakeDamageUp] En Touche (une fois par tour)\n[WhenUse] Si la cible a 6 ([Combustion] + [Laceration]) ou plus, +1 de Puissance de Pièce</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [MeursaultSporeBulletLong]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [MeursaultSporeBulletLong]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Tir de Sommation",
+          "desc": "<style=\"highlight\">Inflige +10% de dégâts tous les 5 [MeursaultBeeSpore] sur la cible (30% max)</style>\n[BeforeUse] Au max de [MeursaultSporeBulletLong], inflige 1 [PenetrateTakeDamageUp] En Touche (une fois par tour)\n[WhenUse] <style=\"highlight\">+1 de Puissance de Pièce tous les 6 ([Combustion] + [Laceration]) sur la cible (2 max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [MeursaultSporeBulletLong]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [MeursaultSporeBulletLong]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1051402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Altération E.G.O. - Chevrotine",
+          "desc": "Inflige -50% de dégâts aux sous-cibles",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [MeursaultSporeBulletShort]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [MeursaultSporeBulletShort]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [MeursaultSporeBulletShort]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Altération E.G.O. - Chevrotine",
+          "desc": "Inflige -50% de dégâts aux sous-cibles\n<style=\"highlight\">Inflige +7% de dégâts tous les 5 [MeursaultBeeSpore] sur la cible (21% max)\n[WhenUse] Si la cible principale a 6 ([Combustion] + [Laceration]) ou plus, +1 de Puissance de Pièce</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [MeursaultSporeBulletShort]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [MeursaultSporeBulletShort]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +<style=\"highlight\">2</style> de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [MeursaultSporeBulletShort]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Altération E.G.O. - Chevrotine",
+          "desc": "Inflige -50% de dégâts aux sous-cibles\nInflige +<style=\"highlight\">15</style>% de dégâts tous les 5 [MeursaultBeeSpore] sur la cible (<style=\"highlight\">45</style>% max)\n[WhenUse] Si la cible principale a 6 ([Combustion] + [Laceration]) ou plus, +1 de Puissance de Pièce\n<style=\"highlight\">[WhenUse] Si cette unité a [MeursaultWorkerBee], +1 de Puissance de Duel\n[WhenUse] Convertit autant de Pièces que d’Instances de [MeursaultWorkerBee] en [SuperCoin]s, en commençant par la dernière Pièce\n[EndSkill] À 1 [MeursaultSporeBulletLong] ou moins, [MeursaultSporeBulletReloading]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [MeursaultSporeBulletShort]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [MeursaultSporeBulletShort]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [MeursaultSporeBulletShort]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige +1 de Compte de [Combustion]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1051403,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Essai sur le Terrain - Étincelle de Poussière",
+          "desc": "Inflige +5% de dégâts tous les 5 [MeursaultBeeSpore] sur la cible (15% max)\n[WhenUse] +1 de Puissance de Pièce tous les 6 ([Combustion] + [Laceration]) sur la cible principale (2 max)\n[EndSkill] [MeursaultSporeBulletReloading]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Cette Pièce ne touche qu’une seule Cible (priorise la cible principale)"
+                },
+                {
+                  "desc": "Dépense 1 [MeursaultSporeBulletLong]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Cette Pièce ne touche qu’une seule Cible (priorise la cible principale)"
+                },
+                {
+                  "desc": "Dépense 1 [MeursaultSporeBulletLong]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Cette Pièce ne touche qu’une seule Cible (priorise la cible principale)"
+                },
+                {
+                  "desc": "Dépense 1 [MeursaultSporeBulletLong]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Dépense 1 [MeursaultSporeBulletShort]"
+                },
+                {
+                  "desc": "Inflige -50% de dégâts aux sous-cibles"
+                },
+                {
+                  "desc": "\n[UnBrokenCoinOnSucceedAttack] Si le [MeursaultBeeSpore] de la cible est au max, active les effets suivants :\n- Inflige (Intensité de [Combustion] * Instance de [MeursaultBeeSpore] / 10) dégâts de Colère (arrondi à l’inférieur)\n  - Infliger des dégâts de Colère avec cet effet compte comme activer de la [Combustion]\n- La cible perd 1 de Compte de [Combustion]\n- Le [MeursaultBeeSpore] de la cible expire<style=\"highlight\"></style>\n",
+                  "summary": "Inflige des dégâts de Colère, réduit le Compte de [Combustion] de la cible de 1, le [MeursaultBeeSpore] de la cible expire"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion] et +1 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Essai sur le Terrain - Étincelle de Poussière",
+          "desc": "<style=\"highlight\">Inflige +50% de dégâts par Poids d’Atq en excès par-delà le # actuel de cibles (en Affrontements Ciblés, les Parties)</style>\nInflige +<style=\"highlight\">10</style>% de dégâts tous les 5 [MeursaultBeeSpore] sur la cible (<style=\"highlight\">30</style>% max)\n<style=\"highlight\">[BeforeUse] À 2 [MeursaultSporeBulletLong] ou moins, consomme 6 PSM pour gagner 3 [MeursaultSporeBulletLong]</style>\n[WhenUse] +1 de Puissance de Pièce tous les 6 ([Combustion] + [Laceration]) sur la cible principale (<style=\"highlight\">3 max)\n[WhenUse] Si cette unité a [MeursaultWorkerBee], +1 de Puissance de Duel\n[WhenUse] Convertit autant de Pièces que d’Instances de [MeursaultWorkerBee] en [SuperCoin]s, en commençant par la 3ème Pièce\n[WhenUse] À 3 [MeursaultWorkerBee], gagne +1 de Poids d’Atq</style>\n[EndSkill] [MeursaultSporeBulletReloading]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Cette Pièce ne touche qu’une seule Cible (priorise la cible principale)"
+                },
+                {
+                  "desc": "Dépense 1 [MeursaultSporeBulletLong]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Cette Pièce ne touche qu’une seule Cible (priorise la cible principale)"
+                },
+                {
+                  "desc": "Dépense 1 [MeursaultSporeBulletLong]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Cette Pièce ne touche qu’une seule Cible (priorise la cible principale)"
+                },
+                {
+                  "desc": "Dépense 1 [MeursaultSporeBulletLong]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Dépense 1 [MeursaultSporeBulletShort]"
+                },
+                {
+                  "desc": "Inflige -50% de dégâts aux sous-cibles"
+                },
+                {
+                  "desc": "<style=\"highlight\">Cette Pièce inflige +5% de dégâts tous les [MeursaultWorkerBee] sur soi (15% max)</style>"
+                },
+                {
+                  "desc": "\n[UnBrokenCoinOnSucceedAttack] Si le [MeursaultBeeSpore] de la cible est au max, active les effets suivants :\n- Inflige (Intensité de [Combustion] * Instance de [MeursaultBeeSpore] / 10) dégâts de Colère (arrondi à l’inférieur)\n  - Infliger des dégâts de Colère avec cet effet compte comme activer de la [Combustion]\n- La cible perd 1 de Compte de [Combustion]\n- Le [MeursaultBeeSpore] de la cible expire<style=\"highlight\"></style>\n"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion] et +<style=\"highlight\">2</style> de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1051404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Germination de Spore",
+          "desc": "[StartBattle][MeursaultSporeBulletReloading] (une fois par tour)\n[OnSucceedEvade] Regagne 10 PV (une fois par tour)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Germination de Spore",
+          "desc": "[StartBattle] [MeursaultSporeBulletReloading] (une fois par tour)\n<style=\"highlight\">[WhenUseEvade] +1 de Puissance de Pièce tous les 6 ([Combustion] + [Laceration]) sur l’attaquant (3 max)</style>\n[OnSucceedEvade] Regagne 10 PV (une fois par tour)\n<style=\"highlight\">- Si cette unité a [MeursaultWorkerBee], regagne 5 PV supplémentaires par Instance</style>",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
     }
   ]
 }
