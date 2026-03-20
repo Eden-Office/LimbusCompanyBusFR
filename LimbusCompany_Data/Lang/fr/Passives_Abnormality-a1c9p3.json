@@ -503,6 +503,61 @@
       "name": "Le Combat Final",
       "desc": "Dans cet Affrontement, lorsque cette unité subit des dégâts amenant ses PV à 0, nullifie ces dégâts et applique les effets suivants (une fois par Affrontement):\n- Regagne tous ses PV et retire tous les effets négatifs de cette unité\n- Pour cet Affrontement, gagne 1 [Vulnerable] et fixe [TimeEntangleUnstable] à 1. Subit (# de tous actuels * 10) dégâts fixes à la fin de chaque tour\n- Après cela, termine le tour et le comportement d’attaque devient renforcé",
       "flavor": "“Tu as été faite pour tout oublier, et moi pour tout me souvenir.”"
+    },
+    {
+      "id": 137801,
+      "name": "Observation",
+      "desc": "Début de l’Affrontement : applique 1 [ObservedPerson] à tous les ennemis ; puis, gagne de l’Intensité et du Compte de [Breath] égal au nombre d’unités avec [ObservedPerson]\n\nDébut du Tour : applique 1 [ObservedPerson] aux cibles sans [ObservedPerson]\n\nPour chaque 10 [ObservedPerson] sur la cible, inflige +1 d’Intensité et de Compte de [Vibration] supplémentaire avec les Capacités de cette unité (3 max)"
+    },
+    {
+      "id": 137802,
+      "name": "Adaptation",
+      "desc": "Gagne 1 d’Intensité de [Breath] chaque fois que cette unité inflige des dégâts avec des effets de Capacité Offensive (15 par tour)\n- Si la cible a 15 [ObservedPerson] ou plus, gagne 1 d’Intensité de [Breath] supplémentaire à chaque touche\n\nGagne +1 de Compte de [Breath] chaque fois que cette unité subit des dégâts d’effets de Capacités Offensives de Pécheurs (15 par tour)\n- Si la cible a 15 [ObservedPerson] ou plus, gagne +1 de Compte de [Breath] supplémentaire à chaque touche reçue\n\n<color=#ff6000><mark=#ff000040><b><u>Début du Tour : inflige 3 [ResultReduction] et 5 [ObservedPerson] au Pécheur ayant infligé le plus de dégâts à cette unité au tour précédent\n- Si la cible a 30 [ObservedPerson], inflige 5 [ResultReduction] à la place</u></b></mark></color>"
+    },
+    {
+      "id": 137803,
+      "name": "Mécanisme de Défense",
+      "desc": "Début du Tour : <color=#ff6000><mark=#ff000040><b><u>gagne du Bouclier égal à 30% des PV manquant (les PV de Bouclier ne peuvent pas excéder 25% des PV max)</u></b></mark></color>\n- Si cette unité a [Combustion], perd (Compte de [Combustion] * 1.5)% de PV de Bouclier\n- Le Bouclier subit +100% de dégâts d’effets de [Burst]\n\nFin du Tour : si le Bouclier gagné grâce à cet effet est détruit, pour le reste de cet Affrontement, gagne 1 [DefenseDown] au Début du Tour pour chaque instance où le Bouclier a été détruit (5 max)"
+    },
+    {
+      "id": 137804,
+      "name": "Biais de Confirmation",
+      "desc": "Fin du Tour : <color=#ff6000><mark=#ff000040><b><u>siphonne 10 PSM aux Pécheurs</u></b></mark></color> (3 Pécheurs max par ordre décroissant de PSM ; ne s’applique pas cumulativement sur la même cible)\n(Ne s’active pas si Hohenheim est Paniqué)\n\n<color=#ff6000><mark=#ff000040><b><u>Les PSM de cette unité ne tombent pas en dessous de 15</u></b></mark></color>"
+    },
+    {
+      "id": 137805,
+      "name": "Établissement d’Hypothèse",
+      "desc": "Au Tour 3 : gagne un nouveau comportement et se prépare à utiliser une Capacité puissante.\nAprès la fin du Tour 3 : l’effet ci-dessus s’active lorsque cette unité a 30 de Compte de [Breath] ou plus à la Fin du Tour\n\nSi cette unité n’a pas subi de dégâts de PV durant la période de préparation de la Capacité puissante, améliore grandement la Capacité (ne compte pas les dégâts subis par les PV de Bouclier)"
+    },
+    {
+      "id": 137806,
+      "name": "Mésadaptation",
+      "desc": "Lorsque affaibli suite à un Événement de Choix, ce Passif remplace 「Adaptation」\n\nGagne 1 d’Intensité de [Breath] chaque fois que cette unité inflige des dégâts avec des effets de Capacité Offensive (15 par tour)\n- Si la cible a 15 [ObservedPerson] ou plus, gagne 1 d’Intensité de [Breath] supplémentaire à chaque touche ; cependant, réduit le [ObservedPerson] de la cible de 3\n\nGagne +1 de Compte de [Breath] chaque fois que cette unité subit des dégâts d’effets de Capacités Offensives de Pécheurs (15 par tour)\n- Si la cible a 15 [ObservedPerson] ou plus, gagne +1 de Compte de [Breath] supplémentaire à chaque touche reçue ; cependant, réduit le [ObservedPerson] de la cible de 3\n\nLes dégâts de Touche Critique n’augmentent et ne diminuent pas"
+    },
+    {
+      "id": 137807,
+      "name": "Mécanisme de Défense Inadéquat",
+      "desc": "Lorsque affaibli suite à un Événement de Choix, ce Passif remplace 「Mécanisme de Défense」\n\nDébut du Tour : gagne du Bouclier égal à 15% des PV manquant (PV de Bouclier ne peuvent pas excéder 5% des PV max)\n- Si cette unité a [Combustion], perd (Compte de [Combustion] * 2)% de PV de Bouclier\n- Le Bouclier subit +150% de dégâts d’effets de [Burst]\n\nFin du Tour : si le Bouclier gagné grâce à cet effet est détruit, pour le reste de cet Affrontement, gagne 2 [DefenseDown] au Début du Tour pour chaque instance où le Bouclier a été détruit (10 max)"
+    },
+    {
+      "id": 137808,
+      "name": "Doute de Soi",
+      "desc": "Lorsque affaibli suite à un Événement de Choix, ce Passif remplace 「Biais de Confirmation」\n\nDébut du Tour : <color=#ff6000><mark=#ff000040><b><u>gagne 3 [Vulnerable]</u></b></mark></color> et perd 15 PSM\nFin du Tour : siphonne 5 PSM aux cibles avec plus de PSM que cette unité (3 cibles max ; par ordre décroissant de PSM ; ne se cumule pas sur la même cible)\n(Ne s’active pas si Hohenheim est Paniqué)"
+    },
+    {
+      "id": 137809,
+      "name": "Adaptation",
+      "desc": "Gagne 1 d’Intensité de [Breath] chaque fois que cette unité inflige des dégâts avec des effets de Capacité Offensive (15 par tour)\n- Si la cible a 15 [ObservedPerson] ou plus, gagne 1 d’Intensité de [Breath] supplémentaire à chaque touche\n\nGagne +1 de Compte de [Breath] chaque fois que cette unité subit des dégâts d’effets de Capacités Offensives de Pécheurs (15 par tour)\n- Si la cible a 15 [ObservedPerson] ou plus, gagne +1 de Compte de [Breath] supplémentaire à chaque touche reçue\n\n<color=#ff6000><mark=#ff000040><b><u>Début du Tour : inflige 3 [ResultReduction] et 5 [ObservedPerson] au Pécheur ayant infligé le plus de dégâts à cette unité au tour précédent\n- Si la cible a 30 [ObservedPerson], inflige 5 [ResultReduction] à la place</u></b></mark></color>"
+    },
+    {
+      "id": 137810,
+      "name": "Mécanisme de Défense",
+      "desc": "Début du Tour : <color=#ff6000><mark=#ff000040><b><u>gagne du Bouclier égal à 30% des PV manquant (les PV de Bouclier ne peuvent pas excéder 25% des PV max)</u></b></mark></color>\n- Si cette unité a [Combustion], perd (Compte de [Combustion] * 1.5)% de PV de Bouclier\n- Le Bouclier subit +100% de dégâts d’effets de [Burst]\n\nFin du Tour : si le Bouclier gagné grâce à cet effet est détruit, pour le reste de cet Affrontement, gagne 1 [DefenseDown] au Début du Tour pour chaque instance où le Bouclier a été détruit (5 max)"
+    },
+    {
+      "id": 137811,
+      "name": "Mésadaptation",
+      "desc": "Lorsque affaibli suite à un Événement de Choix, ce Passif remplace 「Adaptation」\n\nGagne 1 d’Intensité de [Breath] chaque fois que cette unité inflige des dégâts avec des effets de Capacité Offensive (15 par tour)\n- Si la cible a 15 [ObservedPerson] ou plus, gagne 1 d’Intensité de [Breath] supplémentaire à chaque touche ; cependant, réduit le [ObservedPerson] de la cible de 3\n\nGagne +1 de Compte de [Breath] chaque fois que cette unité subit des dégâts d’effets de Capacités Offensives de Pécheurs (15 par tour)\n- Si la cible a 15 [ObservedPerson] ou plus, gagne +1 de Compte de [Breath] supplémentaire à chaque touche reçue ; cependant, réduit le [ObservedPerson] de la cible de 3\n\nLes dégâts de Touche Critique n’augmentent et ne diminuent pas"
     }
   ]
 }

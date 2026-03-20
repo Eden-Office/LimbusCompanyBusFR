@@ -78,7 +78,7 @@
     {
       "id": 107904,
       "name": "Désir de Sang",
-      "desc": "Début du Combat : gagne [Bloodthirst]"
+      "desc": "Début de l’Affrontement : gagne [Bloodthirst]"
     },
     {
       "id": 107905,
@@ -98,12 +98,12 @@
     {
       "id": 108203,
       "name": "Mécanisme de Défense",
-      "desc": "Début du Tour : gagne du Bouclier égal à 30% des PV manquant (les PV de Bouclier ne peuvent pas excéder 15% des PV max)\n- Si cette unité a [Combustion], perd (Compte de [Combustion] * 1.5)% de PV de Bouclier\n- Le Bouclier subit +30% de dégâts d’effets de [Burst] et ne perd pas de Compte de [Burst] lorsque en-dessous de 3 de Compte de [Burst]\n\nFin du Tour : si le Bouclier gagné grâce à cet effet est détruit, pour le reste de cet Affrontement, gagne 1 [DefenseDown] pour chaque instance où le Bouclier a été détruit (5 max)"
+      "desc": "Début du Tour : gagne du Bouclier égal à 30% des PV manquant (les PV de Bouclier ne peuvent pas excéder 15% des PV max)\n- Si cette unité a [Combustion], perd (Compte de [Combustion] * 1.5)% de PV de Bouclier\n- Le Bouclier subit +100% de dégâts d’effets de [Burst]\n\nFin du Tour : si le Bouclier gagné grâce à cet effet est détruit, pour le reste de cet Affrontement, gagne 1 [DefenseDown] au Début du Tour pour chaque instance où le Bouclier a été détruit (5 max)"
     },
     {
       "id": 108204,
       "name": "Biais de Confirmation",
-      "desc": "Fin du Tour : siphonne 10 PSM aux cibles avec plus de PSM que cette unité (3 max ; par ordre décroissant de PSM ; ne se cumule pas sur la même cible)\n(Ne s’active pas si Hohenheim est Paniqué)"
+      "desc": "Fin du Tour : siphonne 10 PSM aux cibles avec plus de PSM que cette unité (3 cibles max par ordre décroissant de PSM ; ne s’applique pas cumulativement sur la même cible)\n(Ne s’active pas si Hohenheim est Paniqué)"
     },
     {
       "id": 108205,
@@ -113,17 +113,17 @@
     {
       "id": 108206,
       "name": "Mésadaptation",
-      "desc": "Lorsque affaibli suite à un Événement de Choix, ce Passif remplace 「Adaptation」\n\nGagne 1 d’Intensité de [Breath] chaque fois que cette unité inflige des dégâts avec des effets de Capacité Offensive (15 par tour)\n- Si la cible a 15 [ObservedPerson] ou plus, gagne 1 d’Intensité de [Breath] supplémentaire à chaque touche ; cependant, réduit le [ObservedPerson] de la cible de 3\n\nGagne +1 de Compte de [Breath] chaque fois que cette unité subit des dégâts d’effets de Capacités Offensives ennemies (15 par tour)\n- Si la cible a 15 [ObservedPerson] ou plus, gagne +1 de Compte de [Breath] supplémentaire à chaque touche reçue ; cependant, réduit le [ObservedPerson] de la cible de 3"
+      "desc": "Lorsque affaibli suite à un Événement de Choix, ce Passif remplace 「Adaptation」\n\nGagne 1 d’Intensité de [Breath] chaque fois que cette unité inflige des dégâts avec des effets de Capacité Offensive (15 par tour)\n- Si la cible a 15 [ObservedPerson] ou plus, gagne 1 d’Intensité de [Breath] supplémentaire à chaque touche ; cependant, réduit le [ObservedPerson] de la cible de 3\n\nGagne +1 de Compte de [Breath] chaque fois que cette unité subit des dégâts d’effets de Capacités Offensives ennemies (15 par tour)\n- Si la cible a 15 [ObservedPerson] ou plus, gagne +1 de Compte de [Breath] supplémentaire à chaque touche reçue ; cependant, réduit le [ObservedPerson] de la cible de 3\n\nLes dégâts de Touche Critique n’augmentent et ne diminuent pas"
     },
     {
       "id": 108207,
       "name": "Mécanisme de Défense Inadéquat",
-      "desc": "Lorsque affaibli suite à un Événement de Choix, ce Passif remplace 「Mécanisme de Défense」\n\nDébut du Tour : gagne du Bouclier égal à 15% des PV manquant (PV de Bouclier ne peuvent pas excéder 5% des PV max)\n- Si cette unité a [Combustion], perd (Compte de [Combustion] * 2)% de PV de Bouclier\n- Le Bouclier subit +60% de dégâts d’effets de [Burst] et ne perd pas de Compte de [Burst] lorsque en-dessous de 3 de Compte de [Burst]\n\nFin du Tour : si le Bouclier gagné grâce à cet effet est détruit, pour le reste de cet Affrontement, gagne 2 [DefenseDown] pour chaque instance où le Bouclier a été détruit (10 max)"
+      "desc": "Lorsque affaibli suite à un Événement de Choix, ce Passif remplace 「Mécanisme de Défense」\n\nDébut du Tour : gagne du Bouclier égal à 15% des PV manquant (PV de Bouclier ne peuvent pas excéder 5% des PV max)\n- Si cette unité a [Combustion], perd (Compte de [Combustion] * 2)% de PV de Bouclier\n- Le Bouclier subit +150% de dégâts d’effets de [Burst]\n\nFin du Tour : si le Bouclier gagné grâce à cet effet est détruit, pour le reste de cet Affrontement, gagne 2 [DefenseDown] au Début du Tour pour chaque instance où le Bouclier a été détruit (10 max)"
     },
     {
       "id": 108208,
       "name": "Doute de Soi",
-      "desc": "Lorsque affaibli suite à un Événement de Choix, ce Passif remplace 「Biais de Confirmation」\n\nDébut du Tour : perd 15 PSM\nFin du Tour : siphonne 5 PSM aux cibles avec plus de PSM que cette unité (3 max ; par ordre décroissant de PSM ; ne se cumule pas sur la même cible)\n(Ne s’active pas si Hohenheim est Paniqué)"
+      "desc": "Lorsque affaibli suite à un Événement de Choix, ce Passif remplace 「Biais de Confirmation」\n\nDébut du Tour : perd 15 PSM\nFin du Tour : siphonne 5 PSM aux cibles avec plus de PSM que cette unité (3 cibles max ; par ordre décroissant de PSM ; ne se cumule pas sur la même cible)\n(Ne s’active pas si Hohenheim est Paniqué)"
     },
     {
       "id": 108209,
@@ -133,12 +133,17 @@
     {
       "id": 108210,
       "name": "Mécanisme de Défense",
-      "desc": "Début du Tour : gagne du Bouclier égal à 30% des PV manquant (les PV de Bouclier ne peuvent pas excéder 15% des PV max)\n- Si cette unité a [Combustion], perd (Compte de [Combustion] * 1.5)% de PV de Bouclier\n- Le Bouclier subit +100% de dégâts d’effets de [Burst]\n\nFin du Tour : si le Bouclier gagné grâce à cet effet est détruit, pour le reste de cet Affrontement, gagne 1 [DefenseDown] pour chaque instance où le Bouclier a été détruit (5 max)"
+      "desc": "Début du Tour : gagne du Bouclier égal à 30% des PV manquant (les PV de Bouclier ne peuvent pas excéder 15% des PV max)\n- Si cette unité a [Combustion], perd (Compte de [Combustion] * 1.5)% de PV de Bouclier\n- Le Bouclier subit +100% de dégâts d’effets de [Burst]\n\nFin du Tour : si le Bouclier gagné grâce à cet effet est détruit, pour le reste de cet Affrontement, gagne 1 [DefenseDown] au Début du Tour pour chaque instance où le Bouclier a été détruit (5 max)"
     },
     {
       "id": 108211,
       "name": "Mésadaptation",
-      "desc": "Lorsque affaibli suite à un Événement de Choix, ce Passif remplace 「Adaptation」\n\nGagne 1 d’Intensité de [Breath] chaque fois que cette unité inflige des dégâts avec des effets de Capacité Offensive (15 par tour)\n- Si la cible a 15 [ObservedPerson] ou plus, gagne 1 d’Intensité de [Breath] supplémentaire à chaque touche ; cependant, réduit le [ObservedPerson] de la cible de 3\n\nGagne +1 de Compte de [Breath] chaque fois que cette unité subit des dégâts d’effets de Capacités Offensives ennemies (15 par tour)\n- Si la cible a 15 [ObservedPerson] ou plus, gagne +1 de Compte de [Breath] supplémentaire à chaque touche reçue ; cependant, réduit le [ObservedPerson] de la cible de 3"
+      "desc": "Lorsque affaibli suite à un Événement de Choix, ce Passif remplace 「Adaptation」\n\nGagne 1 d’Intensité de [Breath] chaque fois que cette unité inflige des dégâts avec des effets de Capacité Offensive (15 par tour)\n- Si la cible a 15 [ObservedPerson] ou plus, gagne 1 d’Intensité de [Breath] supplémentaire à chaque touche ; cependant, réduit le [ObservedPerson] de la cible de 3\n\nGagne +1 de Compte de [Breath] chaque fois que cette unité subit des dégâts d’effets de Capacités Offensives ennemies (15 par tour)\n- Si la cible a 15 [ObservedPerson] ou plus, gagne +1 de Compte de [Breath] supplémentaire à chaque touche reçue ; cependant, réduit le [ObservedPerson] de la cible de 3\n\nLes dégâts de Touche Critique n’augmentent et ne diminuent pas"
+    },
+    {
+      "id": 138904,
+      "name": "Désir de Sang",
+      "desc": "Début de l’Affrontement : gagne [BloodthirstHard]\n\n<color=#ff6000><mark=#ff000040><b><u>Début de l’Affrontement : inflige 3 [Laceration] et +3 de Compte de [Laceration] à tous les Pécheurs\n- Pour les Pécheurs qui Substituent, cet effet ce déclenche au tour où ce Pécheur entre sur le terrain\nDébut du Tour : inflige +3 de Compte de [Laceration] aux Pécheurs sans [Laceration]</u></b></mark></color>\n\n<color=#ff6000><mark=#ff000040><b><u>Début du Combat :\n- À 0 PSM ou plus, cette unité inflige 2 d’Intensité et de Compte de [Laceration] supplémentaires\n- À moins de 0 PSM, convertit les Pièces de toutes les Capacités en [SuperCoin]s et inflige +50% de dégâts</u></b></mark></color>"
     }
   ]
 }

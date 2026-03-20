@@ -2809,6 +2809,36 @@
       "name": "Genèse du Printemps",
       "desc": "Lorsque l’allié avec la plus haute Vitesse touche un ennemi avec une Capacité qui inflige de l’Intensité ou du Compte de [Sinking] ou de “Lourdeur Unique”, inflige 2 [Vibration] et déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1 (une fois par tour)",
       "summary": "Inflige du [Vibration], déclenche un [VibrationExplosion]"
+    },
+    {
+      "id": 1121502,
+      "name": "Persévérance Immortelle",
+      "desc": "Gagne 1 [Charge] chaque fois que cette unité consomme 10 de Compte de [Charge] cumulé durant cet Affrontement\nToute [ChargeForceField] gagnée par cette unité est convertie en [HighVoltageExoshell]\n\nÀ 3 [Charge] ou plus sur soi, +1 de Vitesse Min & Max\n\nDans cet Affrontement, lorsque cette unité subit des dégâts amenant ses PV à 0, gagne (5 + [Charge sur soi * 3) [SelfChargeAlly] (20 max, une fois par Affrontement)"
+    },
+    {
+      "id": 1121503,
+      "name": "Support de Décharge Alternative",
+      "desc": "Début du Tour : s’il y a 3 alliés ou plus portant un Équipement E.G.O., cette unité incluse, tous les alliés concernés gagnent 1 [AttackUp]\n\nSi cette unité a 12 de Compte de [Charge] ou moins en consommant du Compte de [Charge] suite à l’effet passif E.G.O. de DDEA Gregor :\nEn Touche Pile, au lieu de consommer 2 de Compte de [Charge], cette unité consomme 4 de Bouclier ou PV pour activer l’effet Passif E.G.O.\n- Cet effet ne se déclenche que lorsque cette unité est à 25% de PV ou plus"
+    },
+    {
+      "id": 1121501,
+      "name": "Prenez les Devants. Je Vous Fournirai un Soutien.",
+      "desc": "Début du Combat : gagne +5 de Compte de [Charge] (une fois par Affrontement)\n\nFin du Combat : à plus de 12 de Compte de [Charge], consomme jusqu’à 8 de Compte de [Charge] en excès et applique +(moitié du Compte de [Charge] consommé suite à cet effet) de Compte de [Charge] à un allié (1 min, arrondi à l’inférieur)\n- Cet effet priorise l’allié avec le bas Compte de [Charge] parmi les alliés avec des ordres de Déploiement plus tôt que cette unité\n- S’il n’y a pas d’alliés plus tôt que cette unité dans l’ordre de Déploiement sur le terrain, ou si cette unité a 3 [Charge] ou plus, désactive cet effet\n\nÀ 3 de Réson. de Peine ou d’Envie ou plus, applique +2 de Compte de [Charge] au prochain tour aux alliés avec un ordre de Déploiement plus tôt que cette unité\n- S’applique à (plus haute Réson. entre Peine et Envie - 2) alliés, par ordre de Déploiement (3 alliés max)\n- À 3 [Charge] ou plus, applique +4 de Compte de [Charge] aux alliés à la place\n- S’il n’y a pas d’alliés avec un ordre de Déploiement plus tôt que cette unité sur le terrain, gagne +4 de Compte de [Charge] à la place"
+    },
+    {
+      "id": 1121511,
+      "name": "Prenez les Devants. Je Vous Fournirai un Soutien.",
+      "desc": "Début du Combat : gagne +<style=\"highlight\">10</style> de Compte de [Charge] (une fois par Affrontement)\n\nFin du Combat : à plus de 12 de Compte de [Charge], consomme jusqu’à 8 de Compte de [Charge] en excès et applique +(moitié du Compte de [Charge] consommé suite à cet effet) de Compte de [Charge] à un allié <style=\"highlight\">(arrondi au supérieur)</style>\n- Cet effet priorise l’allié avec le bas Compte de [Charge] parmi les alliés avec des ordres de Déploiement plus tôt que cette unité\n- S’il n’y a pas d’alliés plus tôt que cette unité dans l’ordre de Déploiement sur le terrain, ou si cette unité a 3 [Charge] ou plus, désactive cet effet\n\nÀ <style=\"highlight\">2</style> de Réson. de Peine ou d’Envie ou plus, applique +2 de Compte de [Charge] au prochain tour aux alliés avec un ordre de Déploiement plus tôt que cette unité\n- S’applique à (plus haute Réson. entre Peine et Envie - <style=\"highlight\">1</style>) alliés, par ordre de Déploiement (3 alliés max)\n- À 3 [Charge] ou plus, applique +4 de Compte de [Charge] aux alliés à la place\n- S’il n’y a pas d’alliés avec un ordre de Déploiement plus tôt que cette unité sur le terrain, gagne +4 de Compte de [Charge] à la place"
+    },
+    {
+      "id": 1121521,
+      "name": "Défibrillation",
+      "desc": "Fin du Tour : 2 alliés avec les ordres de Déploiement les plus tôt regagnent chacun (somme du Compte de [Charge] et de “Charge Unique” consommé par chacune de leurs Capacités Offensives ce tour, respectivement) PV (10 max)"
+    },
+    {
+      "id": 1121531,
+      "name": "Défibrillation",
+      "desc": "Fin du Tour : <style=\"highlight\">3</style> alliés avec les ordres de Déploiement les plus tôt regagnent chacun (somme du Compte de [Charge] et de “Charge Unique” consommé par chacune de leurs Capacités Offensives ce tour, respectivement) PV (10 max)"
     }
   ]
 }

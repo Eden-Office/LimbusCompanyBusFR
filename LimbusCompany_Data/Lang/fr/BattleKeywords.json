@@ -2854,6 +2854,34 @@
       "desc": "- Subit +10% de dégâts de Capacités de Peine\n- Change le Type de Panique en “Solitude”\n\n- Fin du Tour : perd 1 Instance\n- Cet effet ne se cumule pas ; l’infliger remplacera la valeur actuelle par la valeur infligée",
       "summary": "",
       "undefined": "-"
+    },
+    {
+      "id": "SelfChargeAlly",
+      "name": "Auto-charge",
+      "desc": "- +2 de Puissance Finale\n- Gagne du Compte de Charge égal à l’Instance perdue\n- Perd de l’Instance en :\n· Fin d’Attaque de Capacités qui touchent cette unité (perd 1 Instance)\n· Fin d’Attaque (perd 3 Instances)\n· Fin du Tour (perd 5 Instances)\n- Instance max : 20\n- Les PV de cette unité ne peuvent pas tomber en dessous de 1 tant que cet effet n’a pas expiré",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "HighVoltageExoshell",
+      "name": "Exosquelette à Haute Tension",
+      "desc": "- Gagne (Instance * 5) de Bouclier\n- Si cette unité perd (Instance * 5) de Bouclier, perd 1 Instance\n- Fin du Tour : gagne du Compte de Charge égal à l’Instance ; l’Exosquelette à Haute Tension et le Bouclier gagnés par cet effet expirent\n- Instance max : 20",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "ChargedSting",
+      "name": "Piqûre Chargée",
+      "desc": "- Par Instance, subit +4% de dégâts de Capacités qui gagnent ou consomment du Compte de Charge (inclut les “Charge Unique”) (20% max)\n· Pour les Capacités d’Envie, renforce cet effet et subit +8% de dégâts par Instance à la place (40% max)\n- Instance max : 5\n- Perd 1 Instance à la Fin de l’Attaque ou du Tour après avoir été touché par des Capacités qui remplissent les conditions d’enclenchement d’effet ci-dessus (exclut les Capacités Offensives de Base qui infligent Piqûre Chargée)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "FaustFlameMothEmber",
+      "name": "Braises",
+      "desc": "- Intensité max : 3\n- Compte max : 6\n- Si cette unité a Brûlure, perd 1 de Compte de Braises lorsque touchée par une Capacité qui inflige de l’Intensité ou du Compte de Brûlure ou de “Brûlure Unique” (inclut les Capacités E.G.O.)\n\n- Si cette unité n’a pas Brûlure, remet le Compte de Braises à 6 lorsque touché (indépendant des Capacités qui infligent Brûlure)\n\n- À 0 de Compte de Braises, active les effets suivants :\n· Active la Brûlure sur soi une fois et perd 1 de Compte de Brûlure\n· Perd 1 d’Intensité de Braises\n· Si cette unité a 1 d’Intensité de Braises restantes ou plus, remet le Compte de Braises à 6",
+      "summary": "",
+      "undefined": "-"
     }
   ]
 }

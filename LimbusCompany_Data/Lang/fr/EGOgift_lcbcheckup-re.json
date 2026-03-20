@@ -1,0 +1,106 @@
+{
+  "dataList": [
+    {
+      "id": 9243,
+      "name": "Essai d’Extraction : E.F.A.",
+      "desc": "Inflige +10% de dégâts avec les Capacités Offensives qui infligent de l’Intensité ou du Compte de [Combustion] ou de “Brûlure Unique”\n- Si la Capacité applique du Compte de [Combustion] sur soi, +1 de Puissance de Duel\n- Inflige +1% de dégâts tous les 2% de PV manquants sur soi (15% max)",
+      "simpleDesc": [
+        {
+          "abilityID": 9243,
+          "simpleDesc": "Capacités Offensives infligent plus de dégâts, gagne de la Puissance de Duel lorsque les conditions sont remplies"
+        }
+      ]
+    },
+    {
+      "id": 9244,
+      "name": "Essai d’Extraction : Lanterne",
+      "desc": "Inflige +10% de dégâts avec les Capacités Offensives qui infligent de l’Intensité ou du Compte de [Burst]\n- À 20% de PV manquants sur soi ou plus, +1 de Puissance de Duel\n- Inflige +1% de dégâts avec les Capacités Offensives toutes les 1 (somme d’[Aggro] sur tous les Emplacements de Capacité sur soi) (15% max)",
+      "simpleDesc": [
+        {
+          "abilityID": 9244,
+          "simpleDesc": "Capacités Offensives infligent plus de dégâts, gagne de la Puissance de Duel lorsque les conditions sont remplies"
+        }
+      ]
+    },
+    {
+      "id": 9245,
+      "name": "Extraction Modifiée : DDEA AEDD",
+      "desc": "Si cette unité a gagné du Compte de [Charge] ou une “Charge Unique” dépassant la limite maximale de ce tour, gagne 1 [AttackUp] au prochain tour toutes les 2 Instances en surplus (2 par tour par Identité)\n- Les Identités avec des Capacités de Base qui gagnent ou consomment du Compte de [Charge] ou une “Charge Unique” : 6 max par tour par Identité à la place\n- Si cette unité a [HighVoltageExoshell], gagne aussi 1 d’Intensité de [Charge] (une fois par Affrontement)",
+      "simpleDesc": [
+        {
+          "abilityID": 9245,
+          "simpleDesc": "Gagne [AttackUp] selon le surplus de Compte de [Charge], gagne [Charge] lorsque les conditions sont remplies"
+        }
+      ]
+    },
+    {
+      "id": 9246,
+      "name": "Carte d’Employé Tombée de Quelqu’un",
+      "desc": "Identités de Limbus Company :\n- Début du Tour : gagne (# d’Identités de Limbus Company participant au combat / 3) [ParryingResultUp] (2 max ; arrondi à l’inférieur)\n\nIdentités de la LCE :\n- Inflige +(# d’Identités en combat portant des Équipements E.G.O. * 10)% de dégâts (30% max)\n- Lors d’une Mort Alliée de la même faction : gagne 1 ressource E.G.O. de chaque Affinité ; gagne 1 [PlusCoinValueUp] et 1 [MinusCoinValueUp] au Début du Tour pour le reste de cet Affrontement (2 fois par Affrontement par Identité)",
+      "simpleDesc": [
+        {
+          "abilityID": 9246,
+          "simpleDesc": "Gagne [ParryingResultUp] selon le nombre d’Identités de Limbus Company participant au combat"
+        },
+        {
+          "abilityID": 92461,
+          "simpleDesc": "Inflige plus de dégâts selon le nombre d’Identités portant des Équipements E.G.O. participant au combat"
+        },
+        {
+          "abilityID": 92462,
+          "simpleDesc": "Lors d’une Mort Alliée de la même faction : gagne des ressources E.G.O. ; gagne [PlusCoinValueUp] et [MinusCoinValueUp] au Début du Tour pour cet Affrontement, à partir du prochain tour"
+        }
+      ]
+    },
+    {
+      "id": 9248,
+      "name": "Lindera Benzoin, Lunettes et Lettre Envoyée",
+      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées #1, #2 et #3]\n\nEn gagnant un Duel avec une Capacité Offensive qui inflige de l’Intensité ou du Compte de [Burst], inflige 5 d’Intensité de [Burst] et +3 de Compte [Burst] à la cible (une fois par tour par Identité)\n\nEn affrontant en Duel un ennemi avec une Vitesse inférieure, gagne +1 de Puissance Finale et inflige +25% de dégâts\n\nEn gagnant un Duel contre un ennemi ayant [AttackUp], gagne 3 [AttackUp] au prochain tour et inflige 3 [AttackDown] à l’ennemi ayant perdu le Duel (3 fois par tour par Identité)\n\nChaque fois qu’une Capacité 1, Capacité 2 ou Capacité 3 est utilisée, active l’effet suivant (une fois par rang de Capacité) :\n- L’unité ayant utilisé cette Capacité gagne 1 [Agility] et 1 [SkillPowerUp] au Début du Tour pour cet Affrontement (peut se cumuler jusqu’à 3 fois)",
+      "simpleDesc": [
+        {
+          "abilityID": 9248,
+          "simpleDesc": "En Duel Gagné : inflige [Burst] à la cible"
+        },
+        {
+          "abilityID": 92481,
+          "simpleDesc": "En affrontant en Duel un ennemi avec une Vitesse inférieure, gagne de la Puissance Finale et inflige plus de dégâts"
+        },
+        {
+          "abilityID": 92482,
+          "simpleDesc": "Gagne [AttackUp] sur soi et inflige [AttackDown] à l’ennemi lorsque les conditions sont remplies"
+        },
+        {
+          "abilityID": 92483,
+          "simpleDesc": "Gagne [Agility] et [SkillPowerUp] au Début du Tour lorsque les conditions sont remplies"
+        }
+      ]
+    },
+    {
+      "id": 9249,
+      "name": "Un Beau Petit Violon",
+      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées #5 et #6]\n\nSe soigne de 10% des dégâts de PV infligés avec une Capacité (20 max par Capacité)\n\nEn Duel Gagné : gagne 1 [AttackUp] et 1 [TakeHpHealIncrease] (2 fois par tour par Identité)\n\nÀ l’Usage de Capacité : gagne 1 [AttackUp] et 1 [TakeHpHealIncrease] (2 fois par tour par Identité)\n\nInflige +10% de dégâts avec les Capacités Offensives\n\nInflige +(# de Clash * 6)% de dégâts avec la Capacité ayant gagné le Duel (30% max)",
+      "simpleDesc": [
+        {
+          "abilityID": 9249,
+          "simpleDesc": "Regagne des PV selon les dégâts infligés avec une Capacité"
+        },
+        {
+          "abilityID": 92491,
+          "simpleDesc": "Gagne [AttackUp] et [TakeHpHealIncrease] en Duel Gagné"
+        },
+        {
+          "abilityID": 92492,
+          "simpleDesc": "Gagne [AttackUp] et [TakeHpHealIncrease] à l’Usage de Capacité"
+        },
+        {
+          "abilityID": 92493,
+          "simpleDesc": "Inflige plus de dégâts avec les Capacités Contondantes"
+        },
+        {
+          "abilityID": 92494,
+          "simpleDesc": "Inflige plus de dégâts avec les Capacités qui gagnent les Duels"
+        }
+      ]
+    }
+  ]
+}

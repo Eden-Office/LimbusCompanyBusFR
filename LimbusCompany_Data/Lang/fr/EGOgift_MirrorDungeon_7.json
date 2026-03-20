@@ -88,7 +88,7 @@
     {
       "id": 9212,
       "name": "La Fin de tous les Maux",
-      "desc": "S’active lorsqu’il y a 3 Identités ou plus de la faction du Péquod (inclut les unités de Renfort)\n\nEn Touche avec une Capacité Offensive contre des ennemis avec [Laceration] : 50% de chance de gagner 3 [Breath] ou +2 de Compte de [Breath] (3 fois par tour pour chaque personnage)\n\nEn Critique : 80% de chance de ne pas consommer de Compte de [Breath] (une fois par tour pour chaque personnage ; inclut les Capacités E.G.O. et de Riposte)\nEn Touche Critique Pile avec une Capacité de Base : inflige +1 de l’effet négatif de cette Pièce (une fois par tour pour chaque personnage ; inclut les Capacités de Riposte et exclut les Capacités E.G.O.)\n\nSi l’Identité Déployée #1 tue un ennemi, les Identités de la faction du Péquod gagnent 1 [PenetrateResultUp], 1 [Protection] et 1 [CriticalDamageUp] à chaque tour pour le reste de cet Affrontement (3 fois max par Affrontement)\n\nSi une Identité de la faction du Péquod attaque un ennemi et touche, rend 7 PSM à l’Identité de la faction du Péquod le plus tôt dans l’ordre de Déploiement (une fois par Capacité)\nLorsqu’un allié tue un ennemi, rend 15 PSM à l’Identité de la faction du Péquod le plus tôt dans l’ordre de Déploiement si cette Identité a perdu des PSM",
+      "desc": "S’active lorsqu’il y a 3 Identités ou plus de la faction du Péquod (inclut les unités de Renfort)\n\nEn Touche avec une Capacité Offensive contre des ennemis avec [Laceration] ou du “Saignement Unique” : gagne 3 [Breath] ou +2 de Compte de [Breath] (3 fois par tour par Identité)\n\nEn Critique : 80% de chance de gagner 1 [PenetrateResultUp] au prochain tour (une fois par tour par Identité ; inclut les Capacités E.G.O. et de Riposte)\n- Les Identités de la faction du Péquod gagnent aussi 1 [PlusCoinValueUp] au prochain tour (une fois par tour par Identité)\n\nEn Touche Critique Pile avec une Capacité de Base : inflige +1 de l’effet négatif de cette Pièce (une fois par tour par Identité ; inclut les Capacités de Riposte et exclut les Capacités E.G.O.)\n\nLors d’une mort ennemie ou alliée, les Identités de la faction du Péquod gagnent 1 [PenetrateResultUp], 1 [Protection] et 1 [CriticalDamageUp] à chaque tour pour le reste de cet Affrontement (3 fois max par Affrontement)\n\nSi une Identité de la faction du Péquod attaque un ennemi et touche, rend 7 PSM à l’Identité de la faction du Péquod le plus tôt dans l’ordre de Déploiement (une fois par Capacité)\nLorsqu’un allié tue un ennemi, rend 15 PSM à l’Identité de la faction du Péquod le plus tôt dans l’ordre de Déploiement si cette Identité a perdu des PSM",
       "simpleDesc": [
         {
           "abilityID": 9212,
@@ -96,11 +96,11 @@
         },
         {
           "abilityID": 92121,
-          "simpleDesc": "En Critique : chance de ne pas perdre de Compte de Calme. Augmente la quantité d’effet négatif infligé"
+          "simpleDesc": "En Critique : chance de gagner [PenetrateResultUp] au prochain tour ; gagne [PlusCoinValueUp] et augmente la quantité d’effet négatif infligée lorsque les conditions sont remplies"
         },
         {
           "abilityID": 92122,
-          "simpleDesc": "Gagne de l’Accélération, du Bonus de Niveau Offensif et du Bonus de Dégâts"
+          "simpleDesc": "Gagne [PenetrateResultUp], [Protection] et [CriticalDamageUp]"
         },
         {
           "abilityID": 92123,

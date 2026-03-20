@@ -12,7 +12,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Converti 2 Brûlure de la cible en 1 Malus de Niveau Défensif (10 max)"
+                  "desc": "[OnSucceedAttack] Converti 2 [Combustion] de la cible en 1 Malus de Niveau Défensif (10 max)"
                 }
               ]
             }
@@ -27,10 +27,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflige 3 Brûlure"
+                  "desc": "[OnSucceedAttackHead] Inflige 3 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Converti 2 Brûlure de la cible en 1 Malus de Niveau Défensif (10 max)"
+                  "desc": "[OnSucceedAttack] Converti 2 [Combustion] de la cible en 1 Malus de Niveau Défensif (10 max)"
                 }
               ]
             }
@@ -45,10 +45,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 Brûlure"
+                  "desc": "[OnSucceedAttack] Inflige 3 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Converti 2 Brûlure de la cible en 1 Malus de Niveau Défensif (10 max)"
+                  "desc": "[OnSucceedAttack] Converti 2 [Combustion] de la cible en 1 Malus de Niveau Défensif (10 max)"
                 }
               ]
             }
@@ -68,10 +68,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Inflige 4 Brûlure"
+                  "desc": "[OnSucceedAttackTail] Inflige 4 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Converti 2 Brûlure de la cible en 1 Malus de Niveau Défensif (10 max)"
+                  "desc": "[OnSucceedAttack] Converti 2 [Combustion] de la cible en 1 Malus de Niveau Défensif (10 max)"
                 }
               ]
             }
@@ -89,10 +89,10 @@
                   "desc": "[OnSucceedAttackTail] Inflige 2 Ralentissement au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 Brûlure"
+                  "desc": "[OnSucceedAttack] Inflige 4 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Converti 2 Brûlure de la cible en 1 Malus de Niveau Défensif (10 max)"
+                  "desc": "[OnSucceedAttack] Converti 2 [Combustion] de la cible en 1 Malus de Niveau Défensif (10 max)"
                 }
               ]
             }
@@ -110,10 +110,10 @@
                   "desc": "[OnSucceedAttackTail] Inflige 2 Ralentissement au prochain tour"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 4 Brûlure"
+                  "desc": "[OnSucceedAttack] Inflige 4 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Converti 2 Brûlure de la cible en 1 Malus de Niveau Défensif (10 max)"
+                  "desc": "[OnSucceedAttack] Converti 2 [Combustion] de la cible en 1 Malus de Niveau Défensif (10 max)"
                 }
               ]
             }
@@ -847,6 +847,187 @@
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2021011,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Étoile de Floraison Ardente",
+          "abName": "Mite de Floraison Ardente",
+          "desc": "[BeforeAttack] +1 de Puissance Finale tous les 10 ([Combustion] sur toutes les cibles + [Combustion] sur soi) (2 max)\n[EndSkill] Gagne 10 [Combustion] et +1 de Compte de [Combustion]\n[EndSkill] À 15 [Combustion] sur soi ou plus, gagne 1 [CrimsonDamageUp] au prochain tour (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] À 15 [Combustion] sur soi ou plus, inflige 1 [FaustFlameMothEmber] à toutes les cibles (une fois par tour ; en Affrontement Ciblé, les Parties)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Étoile de Floraison Ardente",
+          "abName": "Mite de Floraison Ardente",
+          "desc": "[BeforeAttack] +1 de Puissance Finale tous les 10 ([Combustion] sur toutes les cibles + [Combustion] sur soi) (2 max)\n[EndSkill] Gagne 10 [Combustion] et +1 de Compte de [Combustion]\n[EndSkill] À 15 [Combustion] sur soi ou plus, gagne 1 [CrimsonDamageUp] au prochain tour (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige (Réson. de Colère / 2) [Combustion] (3 max ; arrondi à l’inférieur)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] À 15 [Combustion] sur soi ou plus, inflige 1 [FaustFlameMothEmber] à toutes les cibles (une fois par tour ; en Affrontement Ciblé, les Parties)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Étoile de Floraison Ardente",
+          "abName": "Mite de Floraison Ardente",
+          "desc": "[BeforeAttack] +1 de Puissance Finale tous les 10 ([Combustion] sur toutes les cibles + [Combustion] sur soi) (2 max)\n[EndSkill] Gagne 10 [Combustion] et +1 de Compte de [Combustion]\n[EndSkill] À 15 [Combustion] sur soi ou plus, gagne 1 [CrimsonDamageUp] au prochain tour (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige (Réson. de Colère / 2) [Combustion] (3 max ; arrondi à l’inférieur)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige (Réson. de Colère / 3) de Compte de [Combustion] (2 max ; arrondi à l’inférieur)</style>"
+                },
+                {
+                  "desc": "[EndCoin] À 15 [Combustion] sur soi ou plus, inflige 1 [FaustFlameMothEmber] à toutes les cibles (une fois par tour ; en Affrontement Ciblé, les Parties)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2021021,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Étoile de Floraison Ardente",
+          "abName": "Mite de Floraison Ardente",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[BeforeAttack] +1 de Puissance Finale tous les 10 ([Combustion] sur toutes les cibles + [Combustion] sur soi) (2 max)\n[EndSkill] Gagne 10 [Combustion] et +1 de Compte de [Combustion]\n[EndSkill] À 25 [Combustion] sur soi ou plus, gagne 2 [CrimsonDamageUp] au prochain tour (une fois par tour)\n[EndSkill] S’il manque à cette unité 50% de PV ou plus, regagne 5 PSM toutes les 10 [Combustion] sur soi (10 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Inflige aléatoirement 3 [FaustFlameMothEmber] entre les cibles (une fois par tour, exclut les cibles avec le maximum d’Intensité de [FaustFlameMothEmber]. En Affrontement Ciblé, les Parties)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Étoile de Floraison Ardente",
+          "abName": "Mite de Floraison Ardente",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[BeforeAttack] +1 de Puissance Finale tous les 10 ([Combustion] sur toutes les cibles + [Combustion] sur soi) (2 max)\n[EndSkill] Gagne 10 [Combustion] et +1 de Compte de [Combustion]\n[EndSkill] À 25 [Combustion] sur soi ou plus, gagne 2 [CrimsonDamageUp] au prochain tour (une fois par tour)\n[EndSkill] S’il manque à cette unité 50% de PV ou plus, regagne 5 PSM toutes les 10 [Combustion] sur soi (10 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige (Réson. de Colère / 2) [Combustion] (3 max ; arrondi à l’inférieur)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Inflige aléatoirement 3 [FaustFlameMothEmber] entre les cibles (une fois par tour, exclut les cibles avec le maximum d’Intensité de [FaustFlameMothEmber]. En Affrontement Ciblé, les Parties)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Étoile de Floraison Ardente",
+          "abName": "Mite de Floraison Ardente",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[BeforeAttack] +1 de Puissance Finale tous les 10 ([Combustion] sur toutes les cibles + [Combustion] sur soi) (2 max)\n[EndSkill] Gagne 10 [Combustion] et +1 de Compte de [Combustion]\n[EndSkill] À 25 [Combustion] sur soi ou plus, gagne 2 [CrimsonDamageUp] au prochain tour (une fois par tour)\n[EndSkill] S’il manque à cette unité 50% de PV ou plus, regagne 5 PSM toutes les 10 [Combustion] sur soi (<style=\"highlight\">15 max</style>)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige (Réson. de Colère / 3) de Compte de [Combustion] (2 max ; arrondi à l’inférieur)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige (Réson. de Colère / 2) [Combustion] (3 max ; arrondi à l’inférieur)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Inflige aléatoirement <style=\"highlight\">6</style> [FaustFlameMothEmber] entre les cibles (une fois par tour, exclut les cibles avec le maximum d’Intensité de [FaustFlameMothEmber]. En Affrontement Ciblé, les Parties)"
                 }
               ]
             }

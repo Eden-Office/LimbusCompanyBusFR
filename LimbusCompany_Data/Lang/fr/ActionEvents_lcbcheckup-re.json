@@ -1,0 +1,186 @@
+{
+  "dataList": [
+    {
+      "id": 971100,
+      "name": "Ardor Blossom Moth Containment Breach",
+      "desc": "Peut-être que la gestion de sécurité de l’unité de confinement est devenue laxiste.\nLa Mite de Floraison Ardente erre langoureusement le long du corridor, laissant dans son sillage un cluster de braises et des flammes rouges.\n\nRapidement, le système d’annonce du complexe explose d’alertes sur une brèche de confinement. Les chercheurs accourent dans le couloir, se bousculent pour y répondre.\n\nDevrions-nous intervenir et aider les chercheurs à réprimer l’Anomalie, ou les laisser faire et nous en aller ?",
+      "options": [
+        {
+          "message": "Intervenir et aider à la répression.",
+          "messageDesc": "Contrôle Avantage Colère. Réussissez pour gagner un Don E.G.O. de Brûlure.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Laisser la répression aux chercheurs.",
+          "messageDesc": "Aucun effet particulier",
+          "result": [
+            "Ils sont armés jusqu’aux dents d’équipements E.G.O. Réprimer l’Anomalie ne devrait pas leur poser de problème.\n\nAccélérons la cadence et mettons-nous en chemin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 971101,
+      "name": "Faelantern Containment Breach",
+      "desc": "Une teinte turquoise fluorescente et brillante danse et ricoche quelque part dans le couloir.\n\nUne impulsion inexplicable de s’approcher de la lumière nous envahit.\n\nCependant, en voyant les chercheurs accourir comme s’ils étaient attirés par un appât irrésistible, il devient clair que c’est l’œuvre d’une Anomalie.\n\nDevrions-nous repousser les chercheurs et aider à réprimer l’Anomalie, ou nous éloigner du piège que cela puisse être et continuer ?",
+      "options": [
+        {
+          "message": "Intervenir et aider à la répression.",
+          "messageDesc": "Contrôle Avantage Gourmandise. Réussissez pour gagner un Don E.G.O. de Déchirure.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Éviter le piège.",
+          "messageDesc": "Aucun effet particulier",
+          "result": [
+            "Une Anomalie qui attire ses proies avec de la lumière… Cela ne peut être que la Féelanterne.\n\nNous ferions un pari dangereux si nous essayions de l’affronter sans réellement savoir où elle se trouve.\n\nIl vaut mieux quitter cet endroit et garder notre force de combat intacte.\n\n… Dépêchons-nous et avançons."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 971102,
+      "name": "Shock Centipede",
+      "desc": "Nous pouvons voir le Centipède de Choc derrière la vitre de l’unité de confinement.\n\n“Ah, nous sommes en train d’étudier comment le Centipède de Choc devient ‘immortel’ quelques minutes avant d’être réprimé.”\n\n“Vous comprenez, le document de recherche de notre équipe porte sur la découverte de potentielles sources d’énergie permettant des équipements de recharge hautement efficaces.”\n\n“J’espère que vous connaissez le nom du Don E.G.O. extrait de cette Anomalie ?”\n\n… C’était quoi déjà ?",
+      "options": [
+        {
+          "message": "Défibrilateur Non Plafonné",
+          "messageDesc": "Choisissez la bonne réponse pour gagner un Don E.G.O. de Charge",
+          "result": [
+            "“Correct ! En plus de sécuriser toutes les surcharges temporaires, il existe également quasi aucune perte de sortie ! Cela est bien un phénomène des plus remarquables…”\n\nLe chercheur discuta joyeusement avant de sortir quelque chose de l’armoire derrière lui.\n\n“Nous avons récemment implémenté un nouveau mécanisme de calibration d’Extractions, il a produit un Don E.G.O. à la forme bien inhabituelle.”\n\n“Peut-être voudriez-vous l’essayer ? Oh, nous apprécierions aussi avoir des retours sur son efficacité…”"
+          ]
+        },
+        {
+          "message": "Batterie Non Standard",
+          "messageDesc": "Choisissez la bonne réponse pour gagner un Don E.G.O. de Charge",
+          "result": [
+            "“……”\n\n“Je pensais que vous vous en rappeliez. Je veux dire, vous l’avez très souvent utilisé…”\n\n“Vous avez sûrement besoin de plus de sessions d’observation.”\n\nAprès un long soupir déçu et étiré, le chercheur s’éloigna de nous."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 971103,
+      "name": "Post-choice Development",
+      "desc": "“Voyons voir ce que ça dit… ‘Entrée Interdite’… ?”\n\nNous venions de passer le long d’un mur gravé de lettres chaotiques et paniquées lorsqu’une autre porte nous apparut.\n\nLa porte était couverte d’entailles, comme si quelque chose de massif l’avait percutée à répétition avec une force brutale.\n\n“Au point où ça en est… vous pensez pas qu’on pourrait juste forcer l’ouverture ?”\n\n“Non, le courant circule encore en elle. Il serait plus prudent de l’ouvrir selon les méthodes légitimes et de ne point inviter les conséquences d’une manipulation grossière.”\n\nUn lecteur de carte est attaché à côté de la porte cabossée.\n\nQue devrions-nous faire ?",
+      "options": [
+        {
+          "message": "Ouvrir la porte avec la Carte d’Autorisation d’Intervention.\n<size=75%><color=#a16a3b>Choix débloqué avec le Don E.G.O. “Carte d’Autorisation d’Intervention”</color></size>",
+          "messageDesc": "Choisissez pour obtenir un Don E.G.O. sans Mot-Clé",
+          "result": [
+            "Le crissement métallique de forcer l’ouverture de la porte mutilée nous gratta les oreilles, mais éventuellement, les efforts ont fini par payer.\n\nCe qui nous accueillait était une salle couverte de sang, débordant de morceaux et de traces d’une lutte désespérée.\n\n“… Cela semble être une carte d’ID d’employé.”\n\nJ’ai regardé de plus près la petite carte plastifiée que le Pécheur avait ramassée.\n\nLe sang avait séché sur la carte avec tant d’épaisseur que je n’arrivais pas à voir le visage ou le nom écrit dessus.\n\n… Peut-être qu’il vaudrait mieux la conserver pour le moment."
+          ]
+        },
+        {
+          "message": "Forcer l’ouverture de la porte.",
+          "messageDesc": "Contrôle Avantage Colère & Envie. Réussissez pour obtenir un Don E.G.O. sans Mot-Clé.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "S’en aller",
+          "messageDesc": "Aucun effet particulier",
+          "result": [
+            "Il y a des traces de quelqu’un, ou de <i>quelque chose</i>, forçant son passage dans l’endroit explicitement indiqué par “Entrée Interdite”.\n\nL’ouverture est bien trop petite pour qu’une personne puisse rentrer dedans, mais un petit chien ou un oiseau aurait facilement pu s’y glisser.\n\nEt si ce qui était entré dans cette ouverture était une Anomalie…\n\nAlors ce qui attend à l’intérieur n’est sûrement pas un paysage que l’on voudrait voir ou imaginer.\n\nS’en aller devrait être le choix le plus sûr pour l’heure."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10711,
+      "name": "Ardor Blossom Moth Containment Breach",
+      "desc": "Peut-être que la gestion de sécurité de l’unité de confinement est devenue laxiste.\nLa Mite de Floraison Ardente erre langoureusement le long du corridor, laissant dans son sillage un cluster de braises et des flammes rouges.\n\nRapidement, le système d’annonce du complexe explose d’alertes sur une brèche de confinement. Les chercheurs accourent dans le couloir, se bousculent pour y répondre.\n\nDevrions-nous intervenir et aider les chercheurs à réprimer l’Anomalie, ou les laisser faire et nous en aller ?",
+      "options": [
+        {
+          "message": "Intervenir et aider à la répression.",
+          "messageDesc": "Contrôle Avantage Colère. Réussissez pour gagner un Don E.G.O. de Brûlure.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Laisser la répression aux chercheurs.",
+          "messageDesc": "Aucun effet particulier",
+          "result": [
+            "Ils sont armés jusqu’aux dents d’équipements E.G.O. Réprimer l’Anomalie ne devrait pas leur poser de problème.\n\nAccélérons la cadence et mettons-nous en chemin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10712,
+      "name": "Faelantern Containment Breach",
+      "desc": "Une teinte turquoise fluorescente et brillante danse et ricoche quelque part dans le couloir.\n\nUne impulsion inexplicable de s’approcher de la lumière nous envahit.\n\nCependant, en voyant les chercheurs accourir comme s’ils étaient attirés par un appât irrésistible, il devient clair que c’est l’œuvre d’une Anomalie.\n\nDevrions-nous repousser les chercheurs et aider à réprimer l’Anomalie, ou nous éloigner du piège que cela puisse être et continuer ?",
+      "options": [
+        {
+          "message": "Intervenir et aider à la répression.",
+          "messageDesc": "Contrôle Avantage Gourmandise. Réussissez pour gagner un Don E.G.O. de Déchirure.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Éviter le piège.",
+          "messageDesc": "Aucun effet particulier",
+          "result": [
+            "Une Anomalie qui attire ses proies avec de la lumière… Cela ne peut être que la Féelanterne.\n\nNous ferions un pari dangereux si nous essayions de l’affronter sans réellement savoir où elle se trouve.\n\nIl vaut mieux quitter cet endroit et garder notre force de combat intacte.\n\n… Dépêchons-nous et avançons."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10713,
+      "name": "Shock Centipede",
+      "desc": "Nous pouvons voir le Centipède de Choc derrière la vitre de l’unité de confinement.\n\n“Ah, nous sommes en train d’étudier comment le Centipède de Choc devient ‘immortel’ quelques minutes avant d’être réprimé.”\n\n“Vous comprenez, le document de recherche de notre équipe porte sur la découverte de potentielles sources d’énergie permettant des équipements de recharge hautement efficaces.”\n\n“J’espère que vous connaissez le nom du Don E.G.O. extrait de cette Anomalie ?”\n\n… C’était quoi déjà ?",
+      "options": [
+        {
+          "message": "Défibrilateur Non Plafonné",
+          "messageDesc": "Choisissez la bonne réponse pour gagner un Don E.G.O. de Charge",
+          "result": [
+            "“Correct ! En plus de sécuriser toutes les surcharges temporaires, il existe également quasi aucune perte de sortie ! Cela est bien un phénomène des plus remarquables…”\n\nLe chercheur discuta joyeusement avant de sortir quelque chose de l’armoire derrière lui.\n\n“Nous avons récemment implémenté un nouveau mécanisme de calibration d’Extractions, il a produit un Don E.G.O. à la forme bien inhabituelle.”\n\n“Peut-être voudriez-vous l’essayer ? Oh, nous apprécierions aussi avoir des retours sur son efficacité…”"
+          ]
+        },
+        {
+          "message": "Batterie Non Standard",
+          "messageDesc": "Choisissez la bonne réponse pour gagner un Don E.G.O. de Charge",
+          "result": [
+            "“……”\n\n“Je pensais que vous vous en rappeliez. Je veux dire, vous l’avez très souvent utilisé…”\n\n“Vous avez sûrement besoin de plus de sessions d’observation.”\n\nAprès un long soupir déçu et étiré, le chercheur s’éloigna de nous."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10714,
+      "name": "Post-choice Development",
+      "desc": "“Voyons voir ce que ça dit… ‘Entrée Interdite’… ?”\n\nNous venions de passer le long d’un mur gravé de lettres chaotiques et paniquées lorsqu’une autre porte nous apparut.\n\nLa porte était couverte d’entailles, comme si quelque chose de massif l’avait percutée à répétition avec une force brutale.\n\n“Au point où ça en est… vous pensez pas qu’on pourrait juste forcer l’ouverture ?”\n\n“Non, le courant circule encore en elle. Il serait plus prudent de l’ouvrir selon les méthodes légitimes et de ne point inviter les conséquences d’une manipulation grossière.”\n\nUn lecteur de carte est attaché à côté de la porte cabossée.\n\nQue devrions-nous faire ?",
+      "options": [
+        {
+          "message": "Ouvrir la porte avec la Carte d’Autorisation d’Intervention.\n<size=75%><color=#a16a3b>Choix débloqué avec le Don E.G.O. “Carte d’Autorisation d’Intervention”</color></size>",
+          "messageDesc": "Choisissez pour obtenir un Don E.G.O. sans Mot-Clé",
+          "result": [
+            "Le crissement métallique de forcer l’ouverture de la porte mutilée nous gratta les oreilles, mais éventuellement, les efforts ont fini par payer.\n\nCe qui nous accueillait était une salle couverte de sang, débordant de morceaux et de traces d’une lutte désespérée.\n\n“… Cela semble être une carte d’ID d’employé.”\n\nJ’ai regardé de plus près la petite carte plastifiée que le Pécheur avait ramassée.\n\nLe sang avait séché sur la carte avec tant d’épaisseur que je n’arrivais pas à voir le visage ou le nom écrit dessus.\n\n… Peut-être qu’il vaudrait mieux la conserver pour le moment."
+          ]
+        },
+        {
+          "message": "Forcer l’ouverture de la porte.",
+          "messageDesc": "Contrôle Avantage Colère & Envie. Réussissez pour obtenir un Don E.G.O. sans Mot-Clé.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "S’en aller",
+          "messageDesc": "Aucun effet particulier",
+          "result": [
+            "Il y a des traces de quelqu’un, ou de <i>quelque chose</i>, forçant son passage dans l’endroit explicitement indiqué par “Entrée Interdite”.\n\nL’ouverture est bien trop petite pour qu’une personne puisse rentrer dedans, mais un petit chien ou un oiseau aurait facilement pu s’y glisser.\n\nEt si ce qui était entré dans cette ouverture était une Anomalie…\n\nAlors ce qui attend à l’intérieur n’est sûrement pas un paysage que l’on voudrait voir ou imaginer.\n\nS’en aller devrait être le choix le plus sûr pour l’heure."
+          ]
+        }
+      ]
+    }
+  ]
+}

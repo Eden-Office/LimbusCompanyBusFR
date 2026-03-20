@@ -486,7 +486,7 @@
                   "desc": "[WinDuelAttack] Inflige +3 de Compte de [Vibration]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                  "desc": "[CriticalOnSucceedAttack] Déclenche un [VibrationExplosion]. Lorsqu’un [VibrationExplosion] est déclenché sur la cible, réduit le Compte de [Vibration] de la cible de 1"
                 }
               ]
             }
@@ -500,7 +500,7 @@
         {
           "level": 1,
           "name": "Réalisation d’Analyse",
-          "desc": "[WhenUse] À 10 d’Intensité de [Breath] ou plus, consomme de l’Intensité de [Breath] pour gagner +2 de Puissance Finale pour chaque 3 d’Intensité de [Breath] consommées (4 max)",
+          "desc": "[WhenUse] À 10 d’Intensité de [Breath] ou plus, consomme de l’Intensité de [Breath] pour gagner +2 de Puissance Finale pour chaque 3 d’Intensité de [Breath] consommées (4 max). Consomme 3 [Breath] supplémentaires par Puissance Finale gagnée suite à cet effet",
           "coinlist": [
             {
               "coindescs": [
@@ -508,13 +508,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a 5 de Compte de [Vibration] ou plus, déclenche [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                  "desc": "[OnSucceedAttack] Si la cible a 5 de Compte de [Vibration] ou plus, déclenche [VibrationExplosion]. Lorsqu’un [VibrationExplosion] est déclenché sur la cible, réduit le Compte de [Vibration] de la cible de 1"
                 },
                 {
                   "desc": "[WinDuelAttack] Inflige 5 d’Intensité de [Vibration] et +3 de Compte de [Vibration]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Déclenche un [VibrationExplosion] deux fois ; puis, réduit le Compte de [Vibration] de la cible de 2"
+                  "desc": "[CriticalOnSucceedAttack] Déclenche un [VibrationExplosion] deux fois. Lorsqu’un [VibrationExplosion] est déclenché sur la cible, réduit le Compte de [Vibration] de la cible de 1 (nullifie 1 instance de réduction de Compte de [Vibration] si cette unité a gagné le Duel)"
                 }
               ]
             }
@@ -542,7 +542,7 @@
                   "desc": "Si l’utilisateur a subi des dégâts au dernier tour, ne Critique pas ; à la place, inflige -80% de dégâts"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Déclenche un [VibrationExplosion] trois fois ; puis, réduit le Compte de [Vibration] de la cible de 3"
+                  "desc": "[CriticalOnSucceedAttack] Déclenche un [VibrationExplosion] trois fois. Lorsqu’un [VibrationExplosion] est déclenché sur la cible, réduit le Compte de [Vibration] de la cible de 3 (9 de réduction de Compte de [Vibration] max)"
                 }
               ]
             }
@@ -559,6 +559,124 @@
           "desc": "[WhenUse] +1 de Puissance Finale pour chaque Intensité de [Breath] sur soi (5 max)\n[WhenUse] Gagne 4 d’Intensité de [Breath]\n- Si cette unité a un Bouclier, gagne également +2 de Compte de [Breath]",
           "coinlist": [
             {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 137801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Compression",
+          "desc": "[WhenUse] +1 de Puissance Finale toutes les 5 d’Intensité de [Breath] sur soi (3 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 d’Intensité de [Vibration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 3 d’Intensité de [Vibration] et +2 de Compte de [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 137802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Démontage",
+          "desc": "[WhenUse] +1 de Puissance Finale tous les 3 d’Intensité de [Breath] sur soi (5 max)\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] Si la cible a 20 [ObservedPerson] ou plus, convertit toutes les Pièces de cette Capacité en [SuperCoin]s</u></b></mark></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 d’Intensité de [Vibration]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Inflige +3 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 137803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Réalisation d’Analyse",
+          "desc": "[WhenUse] À 10 d’Intensité de [Breath] ou plus, consomme de l’Intensité de [Breath] pour gagner +2 de Puissance Finale toutes les 3 d’Intensité de [Breath] consommées (4 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 5 de Compte de [Vibration] ou plus, déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[WinDuelAttack] Inflige 5 d’Intensité de [Vibration] et +3 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Déclenche un [VibrationExplosion] deux fois ; puis, réduit le Compte de [Vibration] de la cible de 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 137804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Délenchement de la Séquence d’Extinction",
+          "desc": "[WhenUse] Consomme la moitié de l’Intensité et du Compte de [Breath] sur soi\n- Gagne (somme d’Intensité et de Compte de [Breath] consommé / 2) de Puissance Finale (20 max)\n- Inflige +(somme d’Intensité et de Compte de [Breath] consommé * 2)% de dégâts (50% max)\n- +(somme d’Intensité et de Compte de [Breath] consommé * 4)% de dégâts en Touche Critique (100% max)\n[DefeatDuel] Réduit le Compte de [Breath] restant de moitié",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Si l’utilisateur n’a pas subi de dégâts au dernier tour, garantit un Critique"
+                },
+                {
+                  "desc": "Si l’utilisateur a subi des dégâts au dernier tour, ne Critique pas ; à la place, inflige -80% de dégâts"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Déclenche un [VibrationExplosion] trois fois ; puis, réduit le Compte de [Vibration] de la cible de 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 137805,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Réflexion",
+          "desc": "[CanDuelGuard]\n[WhenUse] +1 de Puissance Finale tous les 3 d’Intensité de [Breath] sur soi (5 max)\n[WhenUse] Gagne 4 d’Intensité de [Breath]\n- Si cette unité a Bouclier, gagne également +2 de Compte de [Breath]",
+          "coindescs": [
+            {
+              "desc": "[SuperCoin]"
+            }
           ]
         }
       ]
