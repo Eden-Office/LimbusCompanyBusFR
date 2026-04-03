@@ -2839,6 +2839,65 @@
       "id": 1121531,
       "name": "Défibrillation",
       "desc": "Fin du Tour : <style=\"highlight\">3</style> alliés avec les ordres de Déploiement les plus tôt regagnent chacun (somme du Compte de [Charge] et de “Charge Unique” consommé par chacune de leurs Capacités Offensives ce tour, respectivement) PV (10 max)"
+    },
+    {
+      "id": 1061404,
+      "name": "Magnum Opus : Tibia",
+      "desc": "En entrant dans l’Affrontement pour la première fois, gagne +(# d’alliés de l’Annulaire sur le terrain * 2) de Compte d’[ChargeBodyArt] (10 max)\n\nFin de Capacité : si la Capacité a infligé des dégâts de PV ou de Bouclier, gagne +5 de Compte d’[ChargeBodyArt]\n- Si la cible est tuée, gagne +3 de Compte d’[ChargeBodyArt] supplémentaire\n\nGagne 1 [ChargeBodyArt] chaque fois que cette unité consomme 10 de Compte d’[ChargeBodyArt] cumulé durant cet Affrontement\n- Si l’effet ci-dessus amène l’Intensité de [ChargeBodyArt] de cette unité à 2 ou plus, gagne [TibiaPersonality]\n\nLes Capacités Offensives de Base et Capacité de Riposte Affrontable comptent comme des Capacités qui gagnent du Compte de [Charge]",
+      "summary": "Gagne [ChargeBodyArt]"
+    },
+    {
+      "id": 1061405,
+      "name": "Transcender le Corpus",
+      "desc": "En entrant dans l’Affrontement pour la première fois, gagne 21 [GoldenOpportunity]\n\nLorsque des Identités alliées de la faction de l’Annulaire utilisent une Capacité, perd 1 [GoldenOpportunity] (une fois par tour par Identité)\n\nFin du Tour : si cette unité n’a pas [GoldenOpportunity], remplace une de ses Capacités de Base par “Heure de Fermeture - Installation Artistique n°1 : Votre Chair et Vos Os comme Sièges de la Gallerie” au prochain Début de Tour (une fois par Affrontement ; priorise la Capacité de la rangée inférieure de l’Emplacement le plus à gauche du Tableau de Bord)\n- Si la Capacité remplacée devient inaccessible après avoir été remplacée par une Capacité différente, active une nouvelle fois l’effet ci-dessus\n\nFin du Tour : si cette unité a été Déséquilibrée pour la première fois dans cet Affrontement, se remet de Déséquilibre (exclut les Déséquilibres forcés)",
+      "summary": "Se remet de Déséquilibre"
+    },
+    {
+      "id": 1061401,
+      "name": "Critique d’un Maestro",
+      "desc": "Avant que La Maison d’Araignées : Apprentie de l’Annulaire Faust utilise sa Capacité 3 (exclut les Capacités E.G.O.), La Maison d’Araignées : Garde-père de l’Annulaire Hong Lu utilise “Oh, Que Nous Aimons la Chair et le Sang” sur Faust (une fois par tour)\n\nEn Touche, si la Capacité Offensive a infligé un effet négatif, regagne 4 PSM à la Fin de l’Attaque (3 fois par tour)",
+      "summary": "Regagne des PSM"
+    },
+    {
+      "id": 1061411,
+      "name": "Critique d’un Maestro",
+      "desc": "Avant que La Maison d’Araignées : Apprentie de l’Annulaire Faust utilise sa Capacité 3 (exclut les Capacités E.G.O.), La Maison d’Araignées : Garde-père de l’Annulaire Hong Lu utilise “Oh, Que Nous Aimons la Chair et le Sang” sur Faust (une fois par tour)\n\nEn Touche, si la Capacité Offensive a infligé un effet négatif, regagne 4 PSM à la Fin de l’Attaque (3 fois par tour)\n- Si cette unité est à PSM max, gagne 1 [SlashDamageUp] au prochain tour lorsque cette unité regagne des PSM avec cet effet (une fois par tour)",
+      "summary": "Regagne des PSM\nGagne du [SlashDamageUp] au prochain tour si les conditions sont remplies"
+    },
+    {
+      "id": 1061421,
+      "name": "S’il Vous Plaît, Arrêtez de Courir et Asseyez-Vous",
+      "desc": "Fin du Tour : inflige 2 [AttackDown] et +1 de Compte de [Laceration] au prochain tour à 1 ennemi avec la Vitesse la plus rapide (en Affrontement Ciblé, une Partie)"
+    },
+    {
+      "id": 1021504,
+      "name": "Fascia, Ma Précieuse Œuvre d’Art",
+      "desc": "En entrant dans l’Affrontement pour la première fois, gagne +(# d’alliés de l’Annulaire sur le terrain * 2) de Compte d’[ChargeBodyArt] (10 max)\n\nFin de Capacité : si la Capacité a infligé des dégâts de PV ou de Bouclier, gagne +5 de Compte d’[ChargeBodyArt]\n- Si la cible est tuée, gagne +3 de Compte d’[ChargeBodyArt] supplémentaire\n\nGagne 1 [ChargeBodyArt] chaque fois que cette unité consomme 10 de Compte d’[ChargeBodyArt] cumulé durant cet Affrontement\n- Si l’effet ci-dessus amène l’Intensité de [ChargeBodyArt] de cette unité à 2 ou plus, gagne [FasciaPersonality]\n\nLes Capacités Offensives de Base et Capacité de Riposte Affrontable comptent comme des Capacités qui gagnent du Compte de [Charge]",
+      "summary": "Gagne [ChargeBodyArt]"
+    },
+    {
+      "id": 1021503,
+      "name": "Armure de Protection et de Répression",
+      "desc": "En entrant dans l’Affrontement pour la première fois, gagne [IronMaidenPersonality]\n\nFin du Tour : si cette unité a [FasciaPersonality], cette unité perd [IronMaidenPersonality] et gagne [SilverOpportunity] (une fois par Affrontement)\n- Lorsque Déséquilibrée, se remet de Déséquilibre (exclut les Déséquilibres forcés)",
+      "summary": "Retire [IronMaidenPersonality]"
+    },
+    {
+      "id": 1021501,
+      "name": "Inspirée par la Critique",
+      "desc": "Double la quantité de Vitesse, de Puissance de Duel et d’augmentation de dégâts gagnée avec [MelodyBodyArt]\n\nEn Touche, si la Capacité Offensive a infligé un effet négatif, regagne 4 PSM à la Fin de l’Attaque (2 fois par tour)",
+      "summary": "Regagne des PSM"
+    },
+    {
+      "id": 1021511,
+      "name": "Inspirée par la Critique",
+      "desc": "Double la quantité de Vitesse, de Puissance de Duel et d’augmentation de dégâts gagnée avec [MelodyBodyArt]\n\nEn Touche, si la Capacité Offensive a infligé un effet négatif, regagne 4 PSM à la Fin de l’Attaque (2 fois par tour)\n- Si cette unité est à PSM max, gagne 1 [SlashDamageUp] au prochain tour lorsque cette unité regagne des PSM avec cet effet (une fois par tour)",
+      "summary": "Regagne des PSM\nGagne du [SlashDamageUp] au prochain tour si les conditions sont remplies"
+    },
+    {
+      "id": 1021521,
+      "name": "Vierge de Fer - Piques",
+      "desc": "Lorsque touché, les alliés ayant équipé une Capacité Défensive sur leurs Emplacements ce tour infligent 4 [Laceration] à l’attaquant (2 fois par tour)\n- Si l’attaque a déjà [Laceration], inflige +2 de Compte de [Laceration] à la place",
+      "summary": "Lorsque touché, inflige [Laceration] à l’attaquant"
     }
   ]
 }

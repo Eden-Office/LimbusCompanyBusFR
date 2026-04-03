@@ -2539,7 +2539,7 @@
     {
       "id": "CentipedePoison",
       "name": "Venin de Centipède",
-      "desc": "- Instance Max : 20\n- Fin du Tour : gagne (Instance / 4) Malus de Niveau Défensif au prochain tour (arrondi à l’inférieur)\n- Fin du Tour : subit des dégâts de Gourmandise égaux à l’Instance et réduit de moitié l’Instance (arrondi à l’inférieur)\nÀ la mort, transfère à l’allié de cette unité (en Affrontement Ciblé, une Partie différente) avec aucun ou le moins d’Instances de Venin de Centipède",
+      "desc": "- Instance Max : 20\n- Fin du Tour : gagne (Instance / 4) Malus de Niveau Défensif au prochain tour (arrondi à l’inférieur)\n- Fin du Tour : subit des dégâts de Gourmandise égaux à l’Instance et réduit de moitié l’Instance (arrondi à l’inférieur)\nÀ la mort, transfère à l’allié de cette unité (en Affrontement Ciblé, une Partie différente) ayant aucun ou le moins d’Instances de Venin de Centipède",
       "summary": "",
       "undefined": "-"
     },
@@ -2560,7 +2560,7 @@
     {
       "id": "YesdragonSelf",
       "name": "Épine de Sépulture Florale [埋花針]",
-      "desc": "Instance max : 20\n- Gagne 1 Instance à la Fin du Tour ou lorsque touché\n- Gagne 1 Niveau Offensif toutes les 5 Instances\n- Si l’unité avec cet effet meurt, inflige des dégâts de Gourmandise égaux à l’Instance et inflige 5 Déchirure\n- Expire en Mourrant ou en Battant en Retraite",
+      "desc": "Instance max : 20\n- Gagne 1 Instance à la Fin du Tour ou lorsque touché\n- Gagne 1 Niveau Offensif toutes les 5 Instances\n- Si l’unité ayant cet effet meurt, inflige des dégâts de Gourmandise égaux à l’Instance et inflige 5 Déchirure\n- Expire en Mourrant ou en Battant en Retraite",
       "summary": "",
       "undefined": "-"
     },
@@ -3487,6 +3487,69 @@
       "name": "Braises",
       "desc": "- Intensité max : 3\n- Compte max : 6\n- Si cette unité a Brûlure, perd 1 de Compte de Braises lorsque touchée par une Capacité qui inflige de l’Intensité ou du Compte de Brûlure ou de “Brûlure Unique” (inclut les Capacités E.G.O.)\n\n- Si cette unité n’a pas Brûlure, remet le Compte de Braises à 6 lorsque touché (indépendant des Capacités qui infligent Brûlure)\n\n- À 0 de Compte de Braises, active les effets suivants :\n· Active la Brûlure sur soi une fois et perd 1 de Compte de Brûlure\n· Perd 1 d’Intensité de Braises\n· Si cette unité a 1 d’Intensité de Braises restantes ou plus, remet le Compte de Braises à 6",
       "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "ChargeBodyArt",
+      "name": "Ingrédient Corpus",
+      "desc": "- Compte max : 20\n- Charge Unique\n- Interagit de la même manière qu’une Charge normale face aux effets qui augmentent ou réduisent l’Intensité et le Compte de Charge\n- Fin du Tour : perd 1 Compte\n\n<color=#1aece7>Compte cumulé consommé : {2}</color>",
+      "summary": "Consommé ou gagné en utilisant certaines Capacités",
+      "undefined": "-"
+    },
+    {
+      "id": "TibiaPersonality",
+      "name": "Œuvre d’Art : Tibia",
+      "desc": "Applique les effets suivants aux Capacités Offensives de Base et Capacités de Riposte Affrontables de cette unité selon l’Intensité d’Ingrédient Corpus :\n- 1 ou plus : +1 de Puissance de Base\n- 2 ou plus, si l’ennemi a du Saignement ou un “Saignement Unique”, inflige +10% de dégâts\n- 3 ou plus : inflige +1 d’Intensité et de Compte de Saignement\n- 4 ou plus : +1 de Puissance de Base\n- 5 ou plus : +1 de Puissance de Base",
+      "summary": "Gagne différents effets selon l’Intensité d’Ingrédient Corpus",
+      "undefined": "-"
+    },
+    {
+      "id": "MelodyBodyArt",
+      "name": "Mélodie d’Exaltation de Frissons Somatiques",
+      "desc": "- +1 de Vitesse Min & Max\n- Les Capacités Offensives de Base gagnent +1 de Puissance de Duel et infligent +10% de dégâts",
+      "summary": "- Gagne de la Vitesse Min & Max\n- Les Capacités Offensives de Base gagnent de la Puissance de Duel et infligent plus de dégâts",
+      "undefined": "-"
+    },
+    {
+      "id": "MelodyBodyArtChebello",
+      "name": "Mélodie d’Exaltation de Frissons Somatiques [Renforcée]",
+      "desc": "- +2 de Vitesse Min & Max\n- Les Capacités Offensives de Base gagnent +2 de Puissance de Duel et infligent +20% de dégâts",
+      "summary": "- Gagne de la Vitesse Min & Max\n- Les Capacités Offensives de Base gagnent de la Puissance de Duel et infligent plus de dégâts",
+      "undefined": "-"
+    },
+    {
+      "id": "LivingSpecimenPersonality",
+      "name": "Théâtre du Corpus",
+      "desc": "- Instance de Base : 3\n- Lorsque cette unité gagne du Saignement suite à des Capacités Offensives ennemies, gagne aléatoirement 1 des effets suivants au prochain tour et perd 1 Instance de cet effet (une fois par Capacité)\n  · 3 Intensité de Saignement\n  · 1 Ralentissement\n  · 1 Malus de Puissance Défensive",
+      "summary": "Gagne aléatoirement 1 des suivants : Intensité de Saignement, Ralentissement ou Malus de Puissance Défensive",
+      "undefined": "-"
+    },
+    {
+      "id": "GoldenOpportunity",
+      "name": "Observer le Tableau",
+      "desc": "- Si La Maison d’Araignées : L’Apprentie de l’Annulaire Faust est sur le terrain, gagne 2 Protections au Début du Tour\n- Fin du Tour : perd 2 Instances",
+      "summary": "Gagne de la Protection lorsque les conditions sont remplies",
+      "undefined": "-"
+    },
+    {
+      "id": "IronMaidenPersonality",
+      "name": "Vierge de Fer",
+      "desc": "- Gagne +4 d’Aggro à l’Emplacement le plus à gauche\n- Début du Tour : gagne 1 Protection, 5 Bonus de Niveau Défensif et des PV de Bouclier égaux à 5% des PV actuels de cette unité\n- Lorsque touchée par la dernière Pièce d’un attaquant, inflige des dégâts Perçants égaux à 20% des dégâts de cette Pièce et inflige +2 de Compte de Saignement (une fois par Capacité max, 3 fois par tour. Dégâts max par tour : 60)",
+      "summary": "- Gagne de l’Aggro à l’Emplacement le plus à gauche\n- Gagne de la Protection, du Bonus de Niveau Défensif et du Bouclier\n- Lorsque les conditions sont remplies, inflige des dégâts Perçants et du Compte de Saignement à l’attaquant",
+      "undefined": "-"
+    },
+    {
+      "id": "SilverOpportunity",
+      "name": "Le Soi Délié - État de Flux",
+      "desc": "- +2 de Vitesse Min & Max\n- Gagne un nouvel ensemble de Capacités de Base\n- Inflige +20% de dégâts avec les Capacités Offensives de Base aux ennemis dont la Vitesse est plus lente que cette unité",
+      "summary": "Gagne de la Vitesse Min & Max\nGagne un nouvel ensemble de Capacités de Base\nLorsque les conditions sont remplies, inflige plus de dégâts",
+      "undefined": "-"
+    },
+    {
+      "id": "FasciaPersonality",
+      "name": "Œuvre d’Art : Fascia",
+      "desc": "Applique les effets suivants aux Capacités Offensives de Base et Capacités de Riposte Affrontables de cette unité selon l’Intensité d’Ingrédient Corpus :\n- 1 ou plus : +1 de Puissance de Base\n- 2 ou plus, si l’ennemi a du Saignement ou un “Saignement Unique”, inflige +10% de dégâts\n- 3 ou plus : inflige +1 d’Intensité et de Compte de Saignement\n- 4 ou plus : +1 de Puissance de Base",
+      "summary": "Gagne différents effets selon l’Intensité d’Ingrédient Corpus",
       "undefined": "-"
     }
   ]

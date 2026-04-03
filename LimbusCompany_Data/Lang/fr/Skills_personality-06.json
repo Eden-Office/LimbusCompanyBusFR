@@ -2446,6 +2446,594 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1061401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Disséquer",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [DefenseDown] au prochain tour (une fois par tour)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [DefenseUp] au prochain tour (une fois par tour)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Disséquer",
+          "desc": "Inflige +5% de dégâts par type d’effet négatif sur la cible (20% max)\n[WhenUse] +1 de Puissance Finale tous les 4 [Laceration] sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [DefenseDown] au prochain tour (une fois par tour)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [DefenseUp] au prochain tour (une fois par tour)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Disséquer",
+          "desc": "Inflige +<style=\"highlight\">10</style>% de dégâts par type d’effet négatif sur la cible (<style=\"highlight\">30</style>% max)\n[WhenUse] +1 de Puissance Finale tous les 4 [Laceration] sur la cible (<style=\"highlight\">3</style> max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [DefenseDown] au prochain tour (une fois par tour)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [DefenseUp] au prochain tour (une fois par tour)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Rassemblage d’Ingrédient - Objet Baigné de Sang",
+          "desc": "[WhenUse] À 10 de Compte d’[ChargeBodyArt] ou plus, consomme 5 de Compte d’[ChargeBodyArt] pour gagner les effets suivants :\n- +1 de Puissance de Duel\n- Convertit la Pièce finale de cette Capacité en [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour (une fois par tour)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Agility] au prochain tour (une fois par tour)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +4 de Compte d’[ChargeBodyArt]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 5 types d’effets négatifs ou plus, utilise la Capacité “Installation Artistique n°3 : Cage Thoracique Improvisée” contre la cible (une fois par tour)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Rassemblage d’Ingrédient - Objet Baigné de Sang",
+          "desc": "<style=\"highlight\">Inflige +5% de dégâts par type d’effet négatif sur la cible (20% max)</style>\n<style=\"highlight\">[WhenUse] +1 de Puissance Finale tous les 4 [Laceration] sur la cible (2 max)</style>\n[WhenUse] À 10 de Compte d’[ChargeBodyArt] ou plus, consomme 5 de Compte d’[ChargeBodyArt] pour gagner les effets suivants :\n- +1 de Puissance de Duel\n- Convertit la Pièce finale de cette Capacité en [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour (une fois par tour)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Agility] au prochain tour (une fois par tour)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +4 de Compte d’[ChargeBodyArt]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 5 types d’effets négatifs ou plus, utilise la Capacité “Installation Artistique n°3 : Cage Thoracique Improvisée” contre la cible (une fois par tour)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Rassemblage d’Ingrédient - Objet Baigné de Sang",
+          "desc": "Inflige +<style=\"highlight\">10</style>% de dégâts par type d’effet négatif sur la cible (<style=\"highlight\">30</style>% max)\n[WhenUse] +1 de Puissance Finale tous les 4 [Laceration] sur la cible (<style=\"highlight\">4</style> max)\n[WhenUse] À 10 de Compte d’[ChargeBodyArt] ou plus, consomme 5 de Compte d’[ChargeBodyArt] pour gagner les effets suivants :\n- +1 de Puissance de Duel\n- Convertit la Pièce finale de cette Capacité en [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour (une fois par tour)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Agility] au prochain tour (une fois par tour)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +4 de Compte d’[ChargeBodyArt]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 5 types d’effets négatifs ou plus, utilise la Capacité “Installation Artistique n°3 : Cage Thoracique Improvisée” contre la cible (une fois par tour)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061403,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Mélodie de Tibia - Dissection de l’Indisséqué par la Disséquée",
+          "desc": "[WhenUse] Inflige +30% de dégâts par Poids d’Atq en excès par rapport au # de cibles (en Affrontement Ciblé, de Parties)\n[WhenUse] +1 de Puissance Finale tous les 4 [Laceration] sur la cible principale (2 max)\n[WhenUse] À 10 de Compte d’[ChargeBodyArt] ou plus, consomme jusqu’à 20 de Compte d’[ChargeBodyArt] et gagne les effets suivants :\n- +2 de Puissance Finale\n- Inflige +1% de dégâts par Compte d’[ChargeBodyArt] consommé\n- À 3/5 [ChargeBodyArt] ou plus, gagne +1/+2 de Poids d’Atq\n- Convertit toutes les Pièces de cette Capacité en [SuperCoin]s",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour (une fois par tour)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Agility] au prochain tour (une fois par tour)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [AttackDmgDown] au prochain tour (une fois par tour)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [SlashDamageUp] au prochain tour (une fois par tour)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +5% de dégâts par type d’effet négatif sur la cible (30% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Mélodie de Tibia - Dissection de l’Indisséqué par la Disséquée",
+          "desc": "[WhenUse] Inflige +30% de dégâts par Poids d’Atq en excès par rapport au # de cibles (en Affrontement Ciblé, de Parties)\n[WhenUse] +1 de Puissance Finale tous les 4 [Laceration] sur la cible principale (<style=\"highlight\">3</style> max)\n[WhenUse] À 10 de Compte d’[ChargeBodyArt] ou plus, consomme jusqu’à 20 de Compte d’[ChargeBodyArt] et gagne les effets suivants :\n- +2 de Puissance Finale\n- Inflige +1% de dégâts par Compte d’[ChargeBodyArt] consommé\n- À 3/5 [ChargeBodyArt] ou plus, gagne +1/+2 de Poids d’Atq\n- Convertit toutes les Pièces de cette Capacité en [SuperCoin]s",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour (une fois par tour)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Agility] au prochain tour (une fois par tour)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [AttackDmgDown] au prochain tour (une fois par tour)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [SlashDamageUp] au prochain tour (une fois par tour)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +5% de dégâts par type d’effet négatif sur la cible (30% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Conserver l’Exposition",
+          "desc": "[StartBattle] Gagne 1 [SupportProtect] (une fois par tour)\n[OnSucceedEvade] Inflige 1 [Binding] au prochain tour à l’attaquant (une fois par tour)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Conserver l’Exposition",
+          "desc": "[StartBattle] Gagne 1 [SupportProtect] (une fois par tour)\n[OnSucceedEvade] Inflige 1 [Binding] au prochain tour à l’attaquant (une fois par tour)\n[OnSucceedEvade] Gagne 1 [Agility] au prochain tour (une fois par tour)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061405,
+      "levelList": [
+        {
+          "level": 2,
+          "name": "Oh, Que Nous Aimons la Chair et le Sang",
+          "desc": "[CantIdentify]\n[CantDuel]\nCette Capacité a les propriétés suivantes :\n- Ne déclenche pas les Capacités Défensives\n- Les effets externes ne peuvent pas pousser cette Capacité à être Réutilisée\n- Son attaque ne touche pas\n[WhenUse] Applique 4 [AttackUp] à la cible",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Oh, Que Nous Aimons la Chair et le Sang",
+          "desc": "[CantIdentify]\n[CantDuel]\nCette Capacité a les propriétés suivantes :\n- Ne déclenche pas les Capacités Défensives\n- Les effets externes ne peuvent pas pousser cette Capacité à être Réutilisée\n- Son attaque ne touche pas\n[WhenUse] Applique 6 [AttackUp] à la cible",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061406,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Heure de Fermeture - Installation Artistique n°1 : Votre Chair et Vos Os comme Sièges de la Gallerie",
+          "desc": "[WhenUse] Inflige +30% de dégâts par Poids d’Atq en excès par rapport au # de cibles (en Affrontement Ciblé, de Parties)\n- En attaquant 1 seule cible, inflige +100% de dégâts supplémentaires\n[WhenUse] À 10 de Compte d’[ChargeBodyArt] ou plus, consomme jusqu’à 20 de Compte d’[ChargeBodyArt] et gagne les effets suivants :\n- +2 de Puissance Finale\n- Inflige +1% de dégâts par Compte d’[ChargeBodyArt] consommé\n- À 3/5 [ChargeBodyArt] ou plus, gagne +1/+2 de Poids d’Atq\n[EndSkill] Pour toutes les Identités de la faction de l’Annulaire, soigne 10 PSM et applique [MelodyBodyArt]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour (une fois par tour)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Agility] au prochain tour (une fois par tour)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [AttackDmgDown] au prochain tour (une fois par tour)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [SlashDamageUp] au prochain tour (une fois par tour)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Inflige +5% de dégâts par type d’effet négatif sur la cible (30% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [LivingSpecimenPersonality]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Heure de Fermeture - Installation Artistique n°1 : Votre Chair et Vos Os comme Sièges de la Gallerie",
+          "desc": "[WhenUse] Inflige +30% de dégâts par Poids d’Atq en excès par rapport au # de cibles (en Affrontement Ciblé, de Parties)\n- En attaquant 1 seule cible, inflige +100% de dégâts supplémentaires\n[WhenUse] À 10 de Compte d’[ChargeBodyArt] ou plus, consomme jusqu’à 20 de Compte d’[ChargeBodyArt] et gagne les effets suivants :\n- +2 de Puissance Finale\n- Inflige +1% de dégâts par Compte d’[ChargeBodyArt] consommé\n- À 3/5 [ChargeBodyArt] ou plus, gagne +1/+2 de Poids d’Atq\n[EndSkill] Pour toutes les Identités de la faction de l’Annulaire, soigne 10 PSM et applique [MelodyBodyArt]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour (une fois par tour)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Agility] au prochain tour (une fois par tour)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [AttackDmgDown] au prochain tour (une fois par tour)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [SlashDamageUp] au prochain tour (une fois par tour)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Inflige +5% de dégâts par type d’effet négatif sur la cible (30% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [LivingSpecimenPersonality]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061407,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Je vous en Prie. Le Vandalisme est Prohibé.",
+          "desc": "[DuelCounter]\nCapacité exclusive de [SupportProtect]\nInflige +5% de dégâts par type d’effet négatif sur la cible (20% max)\n[WhenUse] Si la cible a 6 [Laceration] ou plus, +1 de Puissance de Pièce\n[WhenUse] À 10 de Compte d’[ChargeBodyArt] ou plus, consomme 5 de Compte d’[ChargeBodyArt] pour gagner les effets suivants :\n- +1 de Puissance de Duel\n- Convertit la Pièce finale de cette Capacité en [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Je vous en Prie. Le Vandalisme est Prohibé.",
+          "desc": "[DuelCounter]\nCapacité exclusive de [SupportProtect]\nInflige +<style=\"highlight\">10</style>% de dégâts par type d’effet négatif sur la cible (<style=\"highlight\">30</style>% max)\n[WhenUse] <style=\"highlight\">+1 de Puissance de Pièce tous les 6 [Laceration] sur la cible (2 max)</style>\n[WhenUse] À 10 de Compte d’[ChargeBodyArt] ou plus, consomme 5 de Compte d’[ChargeBodyArt] pour gagner les effets suivants :\n- +1 de Puissance de Duel\n- Convertit la Pièce finale de cette Capacité en [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061408,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Installation Artistique n°3 : Cage Thoracique Improvisée",
+          "desc": "[CantDuel]\nCette Capacité ne déclenche pas de Capacité Défensive\n[WhenUse] Consomme 4 de Compte d’[ChargeBodyArt]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 dégâts de PSM"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Regagne 5 PSM"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [LivingSpecimenPersonality]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Installation Artistique n°3 : Cage Thoracique Improvisée",
+          "desc": "[CantDuel]\nCette Capacité ne déclenche pas de Capacité Défensive\n[WhenUse] Consomme 4 de Compte d’[ChargeBodyArt]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +5% de dégâts par type d’effet négatif sur la cible (20% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 dégâts de PSM<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Regagne 5 PSM<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [LivingSpecimenPersonality]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Installation Artistique n°3 : Cage Thoracique Improvisée",
+          "desc": "[CantDuel]\nCette Capacité ne déclenche pas de Capacité Défensive\n[WhenUse] Consomme 4 de Compte d’[ChargeBodyArt]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +<style=\"highlight\">10</style>% de dégâts par type d’effet négatif sur la cible (<style=\"highlight\">50</style>% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 dégâts de PSM<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Regagne 5 PSM<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [LivingSpecimenPersonality]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
