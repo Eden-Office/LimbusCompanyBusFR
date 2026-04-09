@@ -55,6 +55,77 @@
       "desc": "- Tous les alliés gagnent ((Étage actuel - 4) * 10)% de PV max (60% max)\n- Tous les alliés gagnent +(Étage actuel - 4) Niveaux Offensifs (5 max)",
       "summary": "",
       "undefined": "-"
+    },
+    {
+      "id": "LookingFutureMirror",
+      "name": "Aperçu de Précognition",
+      "desc": "- Instance max : 5\n\n- +2 de Puissance de Duel par Instance\n- Toutes les 2 Instances :\n  - Capacités à Pièce Positive gagnent +1 de Puissance de Pièce\n  - Capacités à Pièce Négative gagnent +2 de Puissance Finale\n- Expire à la Fin de la Capacité",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MiddleFatherGutsMirror",
+      "name": "Endurance Ridicule",
+      "desc": "- Subit -(50 + pourcentage de PV manquants)% dégâts de Capacités (arrondi à l’inférieur)\n\n- En Duel Gagné, regagne (Compte de Clash * 5) PSM supplémentaires (15 max)\n\n- Fin du Tour : si cette unité a perdu des PSM ce tour suite à ses effets de Capacité, gagne 3 Bonus de Dégâts au prochain tour",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“J’ai pas besoin de petites roues de merde comme ce “Shin (心)”. Je dois juste tirer autant de puissance que possible de ces tatouages et serrer les dents et j’écraserai vos jolis petits tours sans problème.”"
+    },
+    {
+      "id": "FutureEyeOnMirror",
+      "name": "Œil de Précognition",
+      "desc": "- Instance max : 30\n- +2 de Puissance de Duel\n- Début du Tour : gagne 5 Instances",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“L’œil ne possède pas de pouvoir surnaturel qui montre à son utilisateur un avenir prédestiné. Il s’apparente davantage à un dispositif de calcul qui analyse tout ce qu’il voit et donne le scénario le plus probable dans les instants à venir.”"
+    },
+    {
+      "id": "FutureEyeOffMirror",
+      "name": "Œil de Précognition - Surchauffe",
+      "desc": "- Instance max : 30\n- Les Capacités Offensives infligent -20% de dégâts\n- Convertit toutes les Pièces des Capacités qui dépensent des Cartouches d’Accélération en Pièces Incassables\n- Début du Tour : gagne 10 Instances\n- À 30 Instances, se convertit en “Œil de Précognition”",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "TeachersPreyMirror",
+      "name": "Le Gibier",
+      "desc": "Fixe la Vitesse de cette unité à 1 ; devient la cible principale de la Capacité Offensive “Élimination” utilisée par “Garde-père du Pouce - Valencina”",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Les proies marquées par la Famiglia Bognatelli seront chassées sans faute."
+    },
+    {
+      "id": "ObservationTheRingsHidden",
+      "name": "Observer le Tableau",
+      "desc": "- -20 Niveaux Offensifs de Base\n- -20 Niveaux Défensifs de Base\n- Début du Tour : subit -70% de dégâts finaux si l’Apprentie de l’Annulaire n’a pas battu en retraite de cet Affrontement (arrondi à l’inférieur ; aucune valeur min.)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“L’appréciation d’œuvres d’art dans une galerie nécessite une contemplation sans précipitation. Veuillez garder à l’esprit que l’impatience ternit l’appréciation de l’art.”"
+    },
+    {
+      "id": "MD7Limit101",
+      "name": "Redistribution de Force",
+      "desc": "Lorsqu’un ennemi est tué, il applique 3 Bonus de Niveau Offensif à tous ses alliés au prochain Début de Tour (3 fois par tour ; le début d’une nouvelle vague compte aussi comme un Début de Tour)"
+    },
+    {
+      "id": "MD7Limit111",
+      "name": "Enivrement Psychologique",
+      "desc": "Début du Tour : tous les ennemis regagnent 20 PSM"
+    },
+    {
+      "id": "MD7Limit121",
+      "name": "Génération de Bouclier",
+      "desc": "Applique 3000 de Bouclier à tous les ennemis\n(En Affrontement Ciblé, s’applique uniquement au Noyau ; le Bouclier gagné par cet effet n’expire pas à la Fin du Tour)"
+    },
+    {
+      "id": "MD7Limit131",
+      "name": "Prolifération de Fracture",
+      "desc": "Les Capacités ennemies infligent x2 de Brûlure, de Saignement, de Tremblement, de Déchirure et de Lourdeur"
+    },
+    {
+      "id": "MD7Limit141",
+      "name": "Affliction de Statuts",
+      "desc": "Début du Tour : inflige 5 d’Intensité d’un statut aléatoire choisi parmi Brûlure, Saignement, Tremblement, Déchirure et Lourdeur à tous les alliés (Identités)"
     }
   ]
 }

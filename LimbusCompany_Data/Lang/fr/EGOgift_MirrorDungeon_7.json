@@ -212,7 +212,7 @@
     {
       "id": 19219,
       "name": "Omni-outil+",
-      "desc": "Lorsque des Capacités du même Type d’Attaque touchent un ennemi 9 fois, l’ennemi gagne +0.1 de Faiblesse à ce Type d’Attaque (3 fois par Affrontement par ennemi/Partie d’Anomalie ; cet effet ne peut pas monter la valeur de Faiblesse au-dessus de 2.0)",
+      "desc": "Lorsque des Capacités du même Type d’Attaque touchent un ennemi <style=\"upgradeHighlight\">9 fois</style>, l’ennemi gagne +0.1 de Faiblesse à ce Type d’Attaque (3 fois par Affrontement par ennemi/Partie d’Anomalie ; cet effet ne peut pas monter la valeur de Faiblesse au-dessus de 2.0)",
       "simpleDesc": [
         {
           "abilityID": 19219,
@@ -223,7 +223,7 @@
     {
       "id": 29219,
       "name": "Omni-outil++",
-      "desc": "Lorsque des Capacités du même Type d’Attaque touchent un ennemi 6 fois, l’ennemi gagne +0.1 de Faiblesse à ce Type d’Attaque (3 fois par Affrontement par ennemi/Partie d’Anomalie ; cet effet ne peut pas monter la valeur de Faiblesse au-dessus de 2.0)",
+      "desc": "Lorsque des Capacités du même Type d’Attaque touchent un ennemi <style=\"upgradeHighlight\">6 fois</style>, l’ennemi gagne +0.1 de Faiblesse à ce Type d’Attaque (3 fois par Affrontement par ennemi/Partie d’Anomalie ; cet effet ne peut pas monter la valeur de Faiblesse au-dessus de 2.0)",
       "simpleDesc": [
         {
           "abilityID": 29219,
@@ -316,7 +316,7 @@
     {
       "id": 19225,
       "name": "Le Fil de l’Araignée+",
-      "desc": "Les alliés qui utilisent une Capacité Défensive infligent +15% de dégâts avec leur Capacité 3 au prochain tour (une fois par tour)",
+      "desc": "Les alliés qui utilisent une Capacité Défensive infligent <style=\"upgradeHighlight\">+15%</style> de dégâts avec leur Capacité 3 au prochain tour (une fois par tour)",
       "simpleDesc": [
         {
           "abilityID": 19225,
@@ -327,7 +327,7 @@
     {
       "id": 29225,
       "name": "Le Fil de l’Araignée++",
-      "desc": "Les alliés qui utilisent une Capacité Défensive infligent +20% de dégâts avec leur Capacité 3 au prochain tour (une fois par tour)",
+      "desc": "Les alliés qui utilisent une Capacité Défensive infligent <style=\"upgradeHighlight\">+20%</style> de dégâts avec leur Capacité 3 au prochain tour (une fois par tour)",
       "simpleDesc": [
         {
           "abilityID": 29225,
@@ -429,6 +429,53 @@
           "abilityID": 92421,
           "simpleDesc": "Gagne [Enhancement]"
         }
+      ]
+    },
+    {
+      "id": 9256,
+      "name": "Œil de Précognition Imparfait",
+      "desc": "Alliés avec Capacités à Pièces Positives : gagne +(8 / # de Pièces) de Puissance de Pièce (gagne au moins 1 de Puissance de Pièce, inclut les Capacités E.G.O. ; arrondi à l’inférieur)\n\nAlliés avec Capacités à Pièces Négatives : gagne +(8 / # de Pièces) de Puissance Finale (gagne au moins 1 de Puissance Finale, inclut les Capacités E.G.O. ; arrondi à l’inférieur)\n\n[Les effets s’appliquent uniquement à l’Identité Déployée #1]\n- Dans un Duel, gagne 1 [LookingFutureMirror] à chaque Clash. Inflige 2 [Vibration] et [Combustion] à la cible (10 fois par Capacité)\n- En Duel Gagné, déclenche une [Switch_Vibration] en [VibrationIgnition] et déclenche un [VibrationExplosion] sur la cible principale. La cible perd 1 de Compte de [Vibration]\n- En Touche avec une Capacité, si la cible est Déséquilibréen inflige +30% de dégâts\n- En Critique, déclenche un [VibrationExplosion]. La cible perd 1 de Compte de [Vibration] (2 fois par Capacité)",
+      "simpleDesc": [
+        {}
+      ]
+    },
+    {
+      "id": 9257,
+      "name": "L’Oracle Abandonné",
+      "desc": "Alliés avec Capacités à Pièces Positives : gagne +(8 / # de Pièces) de Puissance de Pièce (gagne au moins 1 de Puissance de Pièce, inclut les Capacités E.G.O. ; arrondi à l’inférieur)\n\nAlliés avec Capacités à Pièces Négatives : gagne +(8 / # de Pièces) de Puissance Finale (gagne au moins 1 de Puissance Finale, inclut les Capacités E.G.O. ; arrondi à l’inférieur)\n\nDans un Duel, gagne +1 de Puissance de Duel tous les 30 ([Sinking] de la cible + [Breath] sur soi) (5 max)\n\nInflige +25% de dégâts avec des [SuperCoin]s\nSubit -25% de dégâts de [SuperCoin]s\n\n[Effet Exclusif à la faction de l’Index]\n- En entrant dans l’Affrontement pour la première fois, gagne 6 [BlessingOfIndexPrescriptAlly]\n· Si l’unité est une Identité qui peut gagner [UnlockBuff_Base], gagne également [UnlockBuffAlly_2]\n- Inflige +50% de dégâts à la [IndexPrescriptTargetToEnemy]",
+      "simpleDesc": [
+        {
+          "abilityID": 98270,
+          "simpleDesc": "Les alliés gagnent une importante quantité de Puissance de Pièce ou de Puissance Finale"
+        },
+        {
+          "abilityID": 9257,
+          "simpleDesc": "Gagne de la Puissance de Duel selon la somme de Lourdeur sur la cible et de Calme sur soi"
+        },
+        {
+          "abilityID": 92571,
+          "simpleDesc": "Inflige +25% de dégâts avec des Pièces Incassables"
+        },
+        {
+          "abilityID": 92572,
+          "simpleDesc": "Inflige +50% de dégâts contre la Cible de la Prescription"
+        }
+      ]
+    },
+    {
+      "id": 9258,
+      "name": "Le Livre des Vengeances : Annexe",
+      "desc": "Alliés avec Capacités à Pièces Positives : gagne +(8 / # de Pièces) de Puissance de Pièce (gagne au moins 1 de Puissance de Pièce, inclut les Capacités E.G.O. ; arrondi à l’inférieur)\n\nAlliés avec Capacités à Pièces Négatives : gagne +(8 / # de Pièces) de Puissance Finale (gagne au moins 1 de Puissance Finale, inclut les Capacités E.G.O. ; arrondi à l’inférieur)\n\nDébut de l’Affrontement : tous les alliés gagnent 50 de Bouclier par unité alliée de la faction du Majeur sur le terrain (exclut les unités de Renfort ; ne Bouclier gagné par cet effet n’expire pas à la Fin du Tour)\n\nFin d’Attaque de Capacités Contondantes ou d’Envie de Base d’unités alliées à la faction du Majeur : regagne 10% des dégâts infligés en PV\n- Si cet effet est déclenché par une Capacité de Riposte, regagne 20% des dégâts infligés par la Capacité à la place\n- Le soin de PV en excès est converti en Bouclier (le Bouclier gagné par cet effet n’expire pas à la Fin du Tour)\n\nDébut du Combat : les unités alliées de la faction du Majeur gagnent du Niveau Offensif ce tour selon le nombre de Capacités Défensives équipées (12 Niveaux Offensifs max)\n- Si 6 Capacités Défensives ou plus sont équipées, inflige +30% de dégâts avec les Capacités d’Envie de Base\n- Inflige +10% de dégâts supplémentaires par Capacité Défensive équipée au-dessus de 6 (60% max)",
+      "simpleDesc": [
+        {}
+      ]
+    },
+    {
+      "id": 9259,
+      "name": "Bague d’un Maestro Changée en Œuvre",
+      "desc": "Alliés avec Capacités à Pièces Positives : gagne +(8 / # de Pièces) de Puissance de Pièce (gagne au moins 1 de Puissance de Pièce, inclut les Capacités E.G.O. ; arrondi à l’inférieur)\n\nAlliés avec Capacités à Pièces Négatives : gagne +(8 / # de Pièces) de Puissance Finale (gagne au moins 1 de Puissance Finale, inclut les Capacités E.G.O. ; arrondi à l’inférieur)\n\nLorsque des Identités de la faction de l’Annulaire utilisent des Capacités Offensives de Base, applique les effets suivants selon le nombre de type d’effet négatif sur la cible :\n- 2 ou plus : +2 de Puissance de Duel\n- 4 ou plus : inflige +15% de dégâts\n- 6 ou plus : inflige +1 d’Intensité et de Compte d’effet négatif supplémentaire via effets de Pièce\n- 7 ou plus : +2 de Puissance de Base\n- 8 ou plus : inflige +35% de dégâts",
+      "simpleDesc": [
+        {}
       ]
     }
   ]
