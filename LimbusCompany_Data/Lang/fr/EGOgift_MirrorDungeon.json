@@ -290,7 +290,7 @@
     {
       "id": 9012,
       "name": "Expression du Jour",
-      "desc": "Après avoir vaincu un ennemi en utilisant une Capacité d’Affinité de Paresse ou Contondante, augmente de 2 la Puissance de Capacité Contondante de cette unité jusqu’à la fin du prochain tour.",
+      "desc": "Si un ennemi est tué à la Fin d’une Attaque d’une Capacité Contondante ou de Paresse : pendant 2 tours, à partir du prochain tour, augmente de 2 la Puissance des Capacités Contondantes de l’unité ayant utilisé la Capacité",
       "simpleDesc": [
         {
           "abilityID": 9012,
@@ -346,7 +346,7 @@
     {
       "id": 9014,
       "name": "Pièce Commémorative Rouillée",
-      "desc": "Si la première Capacité Offensive Monopièce qu’un allié utilisé pendant la phase de combat ne vainc aucun ennemi, utilisé la Pièce une fois de plus.\n\nAprès avoir vaincu un ennemi en utilisant une Capacité Monopièce ou de Paresse, l’allié gagne +1 de Puissance de Capacité au prochain tour.",
+      "desc": "Si la première Capacité Offensive Monopièce qu’un allié utilise pendant la phase de combat ne vainc aucun ennemi, utilisé la Pièce une fois de plus.\n\nAprès avoir vaincu un ennemi en utilisant une Capacité Monopièce ou de Paresse, l’allié gagne +1 de Puissance de Capacité au prochain tour.",
       "simpleDesc": [
         {
           "abilityID": 9014,
@@ -510,7 +510,7 @@
     {
       "id": 9020,
       "name": "Gossypium Blanc",
-      "desc": "Début du Tour : s’il y a des ennemis Déséquilibrés, les ré-équilibre. Puis, leur inflige (8 + NV de Déséquilibre * 4) d’Intensité de [Laceration] et (8 + NV de Déséquilibre * 4)/2 [AttackDown]. (S’active une fois par ennemi par Affrontement. Ne s’active pas contre certains ennemis qui ne peuvent pas se remettre d’un Déséquilibre)",
+      "desc": "Début du Tour : s’il y a des ennemis Déséquilibrés, les ré-équilibre. Puis, leur inflige (8 + NV de Déséquilibre * 4) d’Intensité de [Laceration] et (8 + NV de Déséquilibre * 4)/2 [AttackDown] ce tour et au prochain tour. (S’active une fois par ennemi par Affrontement. Ne s’active pas contre certains ennemis qui ne peuvent pas se remettre d’un Déséquilibre)",
       "simpleDesc": [
         {
           "abilityID": 9020,
@@ -521,7 +521,7 @@
     {
       "id": 19020,
       "name": "Gossypium Blanc+",
-      "desc": "Début du Tour : s’il y a des ennemis Déséquilibrés, les ré-équilibre. Puis, inflige <style=\"upgradeHighlight\">(10 + NV de Déséquilibre * 5) d’Intensité de [Laceration]</style> et <style=\"upgradeHighlight\">(10 + NV de Déséquilibre * 5)</style> de [AttackDown]. (S’active une fois par ennemi par Affrontement. Ne s’active pas contre certains ennemis qui ne peuvent pas se remettre d’un Déséquilibre)",
+      "desc": "Début du Tour : s’il y a des ennemis Déséquilibrés, les ré-équilibre. Puis, inflige <style=\"upgradeHighlight\">(10 + NV de Déséquilibre * 5) d’Intensité de [Laceration]</style> et <style=\"upgradeHighlight\">(10 + NV de Déséquilibre * 5)</style> de [AttackDown] ce tour et au prochain tour. (S’active une fois par ennemi par Affrontement. Ne s’active pas contre certains ennemis qui ne peuvent pas se remettre d’un Déséquilibre)",
       "simpleDesc": [
         {
           "abilityID": 19020,
@@ -532,7 +532,7 @@
     {
       "id": 29020,
       "name": "Gossypium Blanc++",
-      "desc": "Début du Tour : s’il y a des ennemis Déséquilibrés, les ré-équilibre. Puis, inflige <style=\"upgradeHighlight\">(12 + NV de Déséquilibre * 6) d’Intensité de [Laceration]</style> et <style=\"upgradeHighlight\">(12 + NV de Déséquilibre * 6)</style> de [AttackDown] et <style=\"upgradeHighlight\">[DefenseDown]</style> sur eux. (S’active une fois par ennemi par Affrontement. Ne s’active pas contre certains ennemis qui ne peuvent pas se remettre d’un Déséquilibre)",
+      "desc": "Début du Tour : s’il y a des ennemis Déséquilibrés, les ré-équilibre. Puis, leur inflige <style=\"upgradeHighlight\">(12 + NV de Déséquilibre * 6) d’Intensité de [Laceration]</style> et <style=\"upgradeHighlight\">(12 + NV de Déséquilibre * 6)</style> de [AttackDown] et <style=\"upgradeHighlight\">[DefenseDown]</style> ce tour et au prochain tour. (S’active une fois par ennemi par Affrontement. Ne s’active pas contre certains ennemis qui ne peuvent pas se remettre d’un Déséquilibre)",
       "simpleDesc": [
         {
           "abilityID": 29020,
@@ -726,7 +726,7 @@
     {
       "id": 9030,
       "name": "Crânes Recueillis",
-      "desc": "Après avoir vaincu un ennemi en utilisant une Capacité d’Affinité d’Orgueil ou de dégâts Perçants, augmente de 2 la Puissance Perçante de l’unité pour les 2 prochains tours.",
+      "desc": "Si un ennemi est tué à la Fin d’une Attaque d’une Capacité Perçante ou d’Orgueil : pendant 2 tours, à partir du prochain tour, augmente de 2 la Puissance des Capacités Perçantes de l’unité ayant utilisé la Capacité",
       "simpleDesc": [
         {
           "abilityID": 9030,
@@ -782,7 +782,7 @@
     {
       "id": 9032,
       "name": "Mouton Rêveur Électrique",
-      "desc": "Après avoir vaincu un ennemi en utilisant une Capacité d’Affinité d’Envie ou de dégâts Tranchants, augmente de 2 la Puissance de Capacité Tranchante de l’unité pour les 2 prochains tours.\n\nEn activant une Résonance Absolue d’Envie, tous les alliés gagnent 2 [AttackUp] et 2 [DefenseUp] au Début du Combat.",
+      "desc": "Si un ennemi est tué à la Fin d’une Attaque d’une Capacité Tranchante ou d’Envie : pendant 2 tours, à partir du prochain tour, augmente de 2 la Puissance des Capacités Tranchantes de l’unité ayant utilisé la Capacité\n\nEn activant une Réson.-A d’Envie, tous les alliés gagnent 2 [AttackUp] et 2 [DefenseUp] au Début du Combat.",
       "simpleDesc": [
         {
           "abilityID": 9032,
@@ -3608,7 +3608,7 @@
     {
       "id": 9134,
       "name": "Lampe Torche de Patrouille",
-      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées #1 et #2]\n\nDébut du Tour : si l’Identité affectée a une Capacité qui gagne ou consomme du Compte de [Charge] ou de la “Charge Unique”, la Capacité 1 de l’Identité gagne +1 de Puissance de Duel et inflige +10% de dégâts tant que cette unité a [ChargeForceField].\n\nFin du Tour : si l’unité affectée n’a pas [ChargeForceField], applique 2 [ChargeForceField] au prochain tour.",
+      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées #1 et #2]\n\nDébut du Tour : l’Identité affectée gagne 2 [ChargeForceField]\n\nSi l’Identité affectée a une Capacité qui gagne ou consomme du Compte de [Charge] ou de la “Charge Unique”, la Capacité 1 de l’Identité gagne +1 de Puissance de Duel et inflige +10% de dégâts tant que cette unité a [ChargeForceField]",
       "simpleDesc": [
         {
           "abilityID": 9134,
@@ -3623,7 +3623,7 @@
     {
       "id": 19134,
       "name": "Lampe Torche de Patrouille+",
-      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées #1, #2 et <style=\"upgradeHighlight\">#3</style>]\n\nDébut du Tour : si l’Identité affectée a une Capacité qui gagne ou consomme du Compte de [Charge] ou de la “Charge Unique”, la Capacité 1 de l’Identité gagne +1 de Puissance de Duel et inflige <style=\"upgradeHighlight\">+15</style>% de dégâts tant que cette unité a [ChargeForceField].\n\nFin du Tour : si l’unité affectée n’a pas [ChargeForceField], applique <style=\"upgradeHighlight\">3</style> de [ChargeForceField] au prochain tour.",
+      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées #1, #2 <style=\"upgradeHighlight\">et #3</style>]\n\nDébut du Tour : l’Identité affectée gagne <style=\"upgradeHighlight\">3</style> [ChargeForceField]\n\nSi l’Identité affectée a une Capacité qui gagne ou consomme du Compte de [Charge] ou de la “Charge Unique”, la Capacité 1 de l’Identité gagne +1 de Puissance de Duel et inflige +<style=\"upgradeHighlight\">15</style>% de dégâts tant que cette unité a [ChargeForceField]",
       "simpleDesc": [
         {
           "abilityID": 19134,
@@ -3638,7 +3638,7 @@
     {
       "id": 29134,
       "name": "Lampe Torche de Patrouille++",
-      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées #1, #2 et #3]\n\nDébut du Tour : si l’Identité affectée a une Capacité qui gagne ou consomme du Compte de [Charge] ou de la “Charge Unique”, la Capacité 1 de l’Identité gagne +1 de Puissance de Duel et inflige <style=\"upgradeHighlight\">+25</style>% de dégâts tant que cette unité a [ChargeForceField].\n\nFin du Tour : si l’unité affectée n’a pas [ChargeForceField], applique <style=\"upgradeHighlight\">4</style> de [ChargeForceField] au prochain tour.",
+      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées #1, #2 et #3]\n\nDébut du Tour : l’Identité affectée gagne <style=\"upgradeHighlight\">4</style> [ChargeForceField]\n\nSi l’Identité affectée a une Capacité qui gagne ou consomme du Compte de [Charge] ou de la “Charge Unique”, la Capacité 1 de l’Identité gagne +1 de Puissance de Duel et inflige +<style=\"upgradeHighlight\">25</style>% de dégâts tant que cette unité a [ChargeForceField]",
       "simpleDesc": [
         {
           "abilityID": 29134,

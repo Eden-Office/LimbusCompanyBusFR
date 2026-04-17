@@ -1,0 +1,149 @@
+{
+  "dataList": [
+    {
+      "id": "BearClawWound",
+      "name": "Couleur Mutilée [Rouge]",
+      "desc": "- Instance max : 9\n- Lorsque touché, gagne 1 d’Intensité de Saignement toutes les 3 Instances (une fois par tour)\n- Fin du Tour : gagne 1 Malus de Niveau Défensif au prochain tour toutes les 4 Instances (2 max)\n- Fin du Tour : perd 1 Instance",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Certains disent que la peinture de l’Annulaire est faite du même matériau de base que les Tatouages d’Augmentation : ils sont tous deux des pigments quasi indélébiles nécessitant des efforts considérables pour être effacés, encore moins à décolorer.”"
+    },
+    {
+      "id": "EagleClawWound",
+      "name": "Couleur Mutilée [Bleu]",
+      "desc": "- Instance max : 9\n- Lorsque touché, gagne 1 d’Intensité de Lourdeur toutes les 3 Instances (une fois par tour)\n- Fin du Tour : à 5 Instances ou plus, perd 5 PSM\n- Fin du Tour : perd 1 Instance",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Si le Majeur utilise ses tatouages pour se renforcer, est-ce que cela fait des tatouages de l’Annulaire des marques qui, une fois appliquées de force, affaiblissent leurs ennemis ?”"
+    },
+    {
+      "id": "BoldBrushstrokes",
+      "name": "Touche Hardie",
+      "desc": "- Tant que cette unité a cet effet, double la quantité de dégâts de PV et de PSM que subit cette unité avec du Saignement et de la Lourdeur\n- Fin du Tour : perd 1 Instance\n- Instance max : 1",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Les griffes lupines, les griffes de lynx… et même celles de tortues, si minuscules et néanmoins si minutieusement arrangées… Quel regard audacieux.”"
+    },
+    {
+      "id": "IntenseColors",
+      "name": "Palette Vibrante",
+      "desc": "- Subit +(Instance * 5)% de dégâts d’unités de la faction de l’Annulaire\n· Si l’attaquant est de la faction de l’École du Fauvisme de l’Annulaire, subit +(Instance * 10)% de dégâts à la place\n- Début du Combat :gagne (Instance + 1) de Saignement, de Lourdeur, de Compte de Saignement et de Compte de Lourdeur\n- Fin du Combat : cet effet expire. Réduit de moitié les Instances de Couleur Mutilée [Rouge] et de Couleur Mutilée [Bleu] de cette unité (arrondi à l’inférieur)\n- Instance max : 4",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "FaubismWolfMask",
+      "name": "Le Fauvisme - Masque de Loup",
+      "desc": "- +1 de Vitesse Min & Max\n- Inflige +1 d’Intensité de Saignement et de Lourdeur supplémentaire avec les Capacités\n- Avant de toucher, si la cible n’a pas de Lourdeur, inflige +2 de Compte de Lourdeur (une fois par Pécheur par tour)\n- Avant d’être Touché, si la cible n’a pas de Saignement, inflige +2 de Compte de Saignement (une fois par Pécheur par tour)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“On pourrait se demander : qu’est-ce qui peut bien distinguer les Fauves de factions telles que les Heishous, les Meutes de la R Corp. et autres qui incorporent les bêtes dans leurs identités ?”\n\n“Un questionnement logique, cela ne fait aucun doute ; à cela je réponds que nous nous distinguons par la transcendance de la bestialité dans le revêtement artistique, tandis que les Heishous l’ont bêtement immergée dans leur anatomie, au mépris de leurs qualités esthétiques.”"
+    },
+    {
+      "id": "FaubismWolfMaskBlooded",
+      "name": "Le Fauvisme - Masque de Loup Ensanglanté",
+      "desc": "- Inflige +20% de dégâts ; convertit toutes les Pièces en Pièces Incassables\n- +1 de Vitesse Min & Max\n- Inflige +1 des effets négatifs suivants avec les Capacités\n· Intensité et Compte de Saignement\n· Intensité et Compte de Lourdeur\n- Avant de toucher, si la cible n’a pas de Lourdeur, inflige +2 de Compte de Lourdeur (3 fois par Pécheur par tour)\n- Avant d’être Touché, si la cible n’a pas de Saignement, inflige +2 de Compte de Saignement (3 fois par Pécheur par tour)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Il ne suffit pas d’enfiler un masque bestial pour s’éveiller au pouvoir de la féralité intérieure.\nL’intérieur de chaque couvre-chef porté par ces artistes est doublé par une couche d’aiguilles imbibées de peinture du Fauviste, qui est injectée dans le corps lors de l’équipement.\n\nAinsi est la peinture de l’Annulaire, et ces artistes, qu’importe leur École, sont tous destinés à s’en servir."
+    },
+    {
+      "id": "PanicChangeLock",
+      "name": "Panique Fixe",
+      "desc": "Le Type de Panique de cette unité ne change pas lorsque infligée d’un effet qui change le Type de Panique. À la place, cette unité subit un effet qui est infligé aux cibles sans PSM.",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "Fauvism_Lowmorale",
+      "name": "Inspiration Atténuée",
+      "desc": "- Si la cible a Couleur Mutilée, inflige +10% de dégâts\n- Gagne 1 Vulnérabilité",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Fauvism_Panic",
+      "name": "Inspiration Atténuée",
+      "desc": "- Si la cible a Couleur Mutilée, inflige +20% de dégâts\n- Gagne 2 Vulnérabilités",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "FauvismDocent_Lowmorale",
+      "name": "Coloriage Impulsif",
+      "desc": "- Moral Bas\n- Inflige +2.5% de dégâts par type d’effet négatif sur la cible (15% max)\n- Gagne 1 Vulnérabilité",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "FauvismDocent_Panic",
+      "name": "Coloriage Impulsif",
+      "desc": "- Panique\n- Inflige +5% de dégâts par type d’effet négatif sur la cible (30% max)\n- Gagne 2 Vulnérabilités",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "IndexPrescriptEnemy_0",
+      "name": "Prescription : [Feuille de Papier] I",
+      "desc": "Attaquez et touchez un Pécheur.\n\n- Début du Tour : à 0~2 Grâce de la Prescription, gagne cet effet\n- Le maximum de Grâce de la Prescription cumulable avec cette Prescription est limité à 3",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Les Prescriptions sont livrées par tous les moyens, leur médium déterminé avec une finalité semblable à une prophétie divine. Ceux qui les reçoivent n'ont aucun pouvoir sur la manière dont elles arrivent."
+    },
+    {
+      "id": "IndexPrescriptEnemy_1",
+      "name": "Prescription : [Feuille de Papier] II",
+      "desc": "Attaquez et touchez une Cible de la Prescription.\n\n- Début du Tour : à 3~5 Grâce de la Prescription, gagne cet effet\n- Le maximum de Grâce de la Prescription cumulable avec cette Prescription est limité à 6",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Les Prescriptions sont livrées par tous les moyens, leur médium déterminé avec une finalité semblable à une prophétie divine. Ceux qui les reçoivent n'ont aucun pouvoir sur la manière dont elles arrivent."
+    },
+    {
+      "id": "IndexPrescriptEnemy_2",
+      "name": "Prescription : [Feuille de Papier] III",
+      "desc": "Déséquilibrez ou éliminez un Pécheur aléatoire, de vos propres mains ou de celles d’un allié.\n\n- Début du Tour : à 6~8 Grâce de la Prescription, gagne cet effet\n- Le maximum de Grâce de la Prescription cumulable avec cette Prescription est limité à 9",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Les Prescriptions sont livrées par tous les moyens, leur médium déterminé avec une finalité semblable à une prophétie divine. Ceux qui les reçoivent n'ont aucun pouvoir sur la manière dont elles arrivent."
+    },
+    {
+      "id": "IndexPrescriptEnemy_3",
+      "name": "Prescription : [Feuille de Papier] IV",
+      "desc": "Éliminez tous les ennemis avant que la prochaine Prescription n'arrive.\n\n- Début du Tour : à 9 Grâce de la Prescription, gagne cet effet",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Les Prescriptions sont livrées par tous les moyens, leur médium déterminé avec une finalité semblable à une prophétie divine. Ceux qui les reçoivent n'ont aucun pouvoir sur la manière dont elles arrivent."
+    },
+    {
+      "id": "KarmaOfIndexEnemy",
+      "name": "Conséquence Karmique",
+      "desc": "- Début du Tour :\n· Gagne 1 Malus de Niveau Défensif toutes les 10 Instances\n· Gagne 1 Vulnérabilité toutes les 20 Instances\n- Instance max : 100",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Recevoir la Prescription et l’exécuter. Son exécution est gravée comme karma, tirée dans un cycle incessant qui revient à la main de son exécuteur."
+    },
+    {
+      "id": "ResentmentSpiderDaughterTwo",
+      "name": "<s>Le Majeur</s> - Rancune",
+      "desc": "- Instance max : 10\n- Réduit en utilisant certaines Capacités\n- Pour chaque Instance, +1 Niveau Offensif, -2 Niveaux Défensifs et les Capacités de Riposte infligent +5% de dégâts\n- À Instance max, subit +20% de dégâts",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "ReinforcedTattooSpiderDaughterTwo",
+      "name": "Tatouages d’Augmentation <s>à la Façon du Majeur</s>",
+      "desc": "- Instance max : 3\n- Inflige +10% de dégâts Contondants ou d’Envie",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "HeatingWireOnSpiderTwo",
+      "name": "Lame Thermique ON",
+      "desc": "En Touche avec des Pièces de Capacité de Lame Thermique : inflige de l’Intensité et du Compte de Brûlure supplémentaires égaux à l’Intensité et au Compte de Saignement infligés",
+      "summary": "",
+      "undefined": "-"
+    }
+  ]
+}

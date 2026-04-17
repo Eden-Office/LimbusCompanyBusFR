@@ -2384,6 +2384,295 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1051501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Portrait Esquissé",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Portrait Esquissé",
+          "desc": "<style=\"highlight\">[WhenUse] +1 de Puissance de Pièce toutes les 6 ([Laceration] + [Sinking]) sur la cible (2 max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Portrait Esquissé",
+          "desc": "<style=\"highlight\">Inflige +5% de dégâts par type d’effet négatif sur la cible (15% max)</style>\n[WhenUse] +1 de Puissance de Pièce toutes les 6 ([Laceration] + [Sinking]) sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige +1 de Compte de [Sinking]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1051502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Traits Viscéraux",
+          "desc": "[WhenUse] Si la cible n’a pas [BearClawWoundAlly], +1 de Puissance de Duel",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Traits Viscéraux",
+          "desc": "[WhenUse] Si la cible n’a pas [BearClawWoundAlly], +1 de Puissance de Duel\n<style=\"highlight\">[WhenUse] +1 de Puissance de Pièce toutes les 6 ([Laceration] + [Sinking]) sur la cible (2 max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Traits Viscéraux",
+          "desc": "<style=\"highlight\">Inflige +5% de dégâts par type d’effet négatif sur la cible (20% max)</style>\n[WhenUse] Si la cible n’a pas [BearClawWoundAlly], +1 de Puissance de Duel\n[WhenUse] +1 de Puissance de Pièce toutes les 6 ([Laceration] + [Sinking]) sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 1 [Sinking]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 1 [Sinking]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1051503,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Le Fauvisme - Révéler la Proposition",
+          "desc": "Inflige +10% de dégâts for every type of negative effect on target (60% max)\n[WhenUse] À moins de 50% de PV, ou si la cible a 5 Couleur Mutilée ou plus, utilise la Pièce 3 une nouvelle fois et convertit toutes les Pièces de cette Capacité en [SuperCoin]s",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Le Fauvisme - Révéler la Proposition",
+          "desc": "Inflige +10% de dégâts for every type of negative effect on target (60% max)\n<style=\"highlight\">[WhenUse] +1 de Puissance Finale toutes les 4 ([Laceration] + [Sinking]) sur la cible (4 max)</style>\n[WhenUse] À moins de 50% de PV, ou si la cible a 5 Couleur Mutilée ou plus, utilise la Pièce 3 une nouvelle fois et convertit toutes les Pièces de cette Capacité en [SuperCoin]s\n<style=\"highlight\">- En Touche avec la Pièce supplémentaire : inflige aléatoirement (Couleur Mutilée sur la cible / 3) Intensité de [Laceration] ou de [Sinking] (3 max chacun ; arrondi à l’inférieur)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 1 [BearClawWoundAlly]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1051504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Préparations de Coloration",
+          "desc": "[DuelCounter]\nSi cette unité a [FaubismMaskMeursault], +2 de Puissance de Base",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Préparations de Coloration",
+          "desc": "[DuelCounter]\nSi cette unité a [FaubismMaskMeursault], +2 de Puissance de Base\n<style=\"highlight\">[WhenUse] Si la cible a 6 ([Laceration] + [Sinking]) ou plus, +1 de Puissance de Pièce</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

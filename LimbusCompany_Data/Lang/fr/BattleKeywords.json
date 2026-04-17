@@ -2515,7 +2515,7 @@
     },
     {
       "id": "ReinforcedTattooIshmael",
-      "name": "Les Tatouages d’Augmentation Stylisés du Majeur",
+      "name": "Tatouages d’Augmentation à la Façon du Majeur",
       "desc": "- Instance max : 10\n- +1 de Puissance Finale pour les Capacités de Base toutes les 5 Instances (2 max)\n- Les Capacités d’Envie et les Capacités Contondantes infligent +5% de dégâts par Instance (50% max)",
       "summary": "",
       "undefined": "-"
@@ -2944,6 +2944,69 @@
       "name": "Œuvre d’Art : Fascia",
       "desc": "Applique les effets suivants aux Capacités Offensives de Base et Capacités de Riposte Affrontables de cette unité selon l’Intensité d’Ingrédient Corpus :\n- 1 ou plus : +1 de Puissance de Base\n- 2 ou plus, si l’ennemi a du Saignement ou un “Saignement Unique”, inflige +10% de dégâts\n- 3 ou plus : inflige +1 d’Intensité et de Compte de Saignement\n- 4 ou plus : +1 de Puissance de Base",
       "summary": "Gagne différents effets selon l’Intensité d’Ingrédient Corpus",
+      "undefined": "-"
+    },
+    {
+      "id": "FaubismMaskMeursault",
+      "name": "Le Fauvisme - Masque de Chien",
+      "desc": "- Inflige +5% de dégâts toutes les 3 Couleurs Mutilées sur la cible (15% max)\n- Inflige +1 d’Intensité de Saignement et de Lourdeur avec les Capacités de Base\n- Avant de toucher avec une Capacité de Base, si la cible n’a pas de Saignement, inflige +2 de Compte de Saignement à la cible (une fois par tour)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "TestWaitingMeursault",
+      "name": "Imperfections Examinées",
+      "desc": "- Inflige +10% de dégâts\n- Lors de Réutilisation d’une Pièce dans la Capacité “Critique” de Cicérone Fauviste de l’Annulaire Rodion, regagne 3 PSM (une fois par tour)\n- Début du Tour : si Cicérone Fauviste de l’Annulaire Rodion n’a pas Réflexion, cet effet expire",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "FaubismWolfMaskRodion",
+      "name": "Le Fauvisme - Masque de Loup",
+      "desc": "- +1 de Vitesse Min & Max\n- Inflige +1 d’Intensité de Saignement et de Lourdeur avec les Capacités de Base\n- En Touche, si la cible a 3 Couleur Mutilée [Bleu] ou plus, inflige +1 de Compte de Lourdeur (une fois par tour)\n- En Touche, si la cible a 3 Couleur Mutilée [Rouge] ou plus, inflige +1 de Compte de Saignement (une fois par tour)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BoldBrushstrokesRodion",
+      "name": "Touche Hardie",
+      "desc": "- Instance max : 2\n- Subit +10% de dégâts de PV et de PSM d’effets de Saignement et de Lourdeur par Instance (20% max, arrondi à l’inférieur)\n- Fin du Tour : perd 1 Instance",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "IntenseColorsRodion",
+      "name": "Palette Vibrante",
+      "desc": "- Instance max : 4\n- Subit +(Instance * 2.5)% de dégâts des Identités de la faction de l’Annulaire\n· Si l’attaquant est dans la faction de l’Annulaire et de l’École du Fauvisme, subit +(Instance * 5)% de dégâts à la place\n- Début du Combat : gagne aléatoirement 1 de Saignement, 1 de Lourdeur, 1 de Compte de Saignement ou 1 de Compte de Lourdeur (Instance) fois\n- Fin du Combat : cet effet expire. Réduit de moitié les Instances de Couleur Mutilée [Rouge] et de Couleur Mutilée [Bleu] de cette unité (arrondi à l’inférieur)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "ThankyouDocentRodion",
+      "name": "L’Hommage",
+      "desc": "- Instance max : 3\n- Début du Tour : gagne aléatoirement 1 Bonus de Niveau Offensif ou 1 Bonus de Niveau Défensif par Instance (3 fois max)\n- Fin du Tour : cet effet expire",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "TestWaitDocentRodion",
+      "name": "Réflexion",
+      "desc": "- Instance max : 2\n- Ne peut pas utiliser “Critique” durant le tour où cette unité a cet effet\n- Début du Tour : regagne 5 PSM\n- Fin du Tour : perd 1 Instance\n- Lorsque cet effet expire, gagne L’Hommage au prochain tour égal au nombre d’Identités Étudiante de l’Annulaire sur le terrain",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BearClawWoundAlly",
+      "name": "Couleur Mutilée [Rouge]",
+      "desc": "- Instance max : 9\n- Lorsque touché, gagne 1 d’Intensité de Saignement toutes les 3 Instances (une fois par tour)\n- Fin du Tour : gagne 1 Malus de Niveau Défensif au prochain tour toutes les 4 Instances (2 max)\n- Fin du Tour : perd 1 Instance",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "EagleClawWoundAlly",
+      "name": "Couleur Mutilée [Bleu]",
+      "desc": "- Instance max : 9\n- Lorsque touché, gagne 1 d’Intensité de Lourdeur toutes les 3 Instances (une fois par tour)\n- Fin du Tour : à 5 Instances ou plus, perd 5 PSM\n- Fin du Tour : perd 1 Instance",
+      "summary": "",
       "undefined": "-"
     }
   ]
