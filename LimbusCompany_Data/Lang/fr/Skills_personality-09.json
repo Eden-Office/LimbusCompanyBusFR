@@ -274,7 +274,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a 6 de Compte de [Combustion] ou plus, applique 3 [Combustion] à 2 cibles sans [Combustion] ou avec le moins de Compte de [Combustion]."
+                  "desc": "[OnSucceedAttack] Si la cible a 6 de Compte de [Combustion] ou plus, applique 3 [Combustion] à 2 cibles n’ayant pas de [Combustion] ou ayant le moins de Compte de [Combustion]."
                 }
               ]
             }
@@ -305,7 +305,7 @@
                   "desc": "[OnSucceedAttackHead] Inflige +1 de Compte de [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a 6 de Compte de [Combustion] ou plus, applique 3 [Combustion] à 2 cibles sans [Combustion] ou avec le moins de Compte de [Combustion]"
+                  "desc": "[OnSucceedAttack] Si la cible a 6 de Compte de [Combustion] ou plus, applique 3 [Combustion] à 2 cibles n’ayant pas de [Combustion] ou ayant le moins de Compte de [Combustion]"
                 }
               ]
             }
@@ -336,7 +336,7 @@
                   "desc": "[OnSucceedAttackHead] Inflige +1 de Compte de [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Si la cible a 6 de Compte de [Combustion] ou plus, applique 3 [Combustion] à 2 cibles sans [Combustion] ou avec le moins de Compte de [Combustion]."
+                  "desc": "[OnSucceedAttack] Si la cible a 6 de Compte de [Combustion] ou plus, applique 3 [Combustion] à 2 cibles n’ayant pas de [Combustion] ou ayant le moins de Compte de [Combustion]."
                 }
               ]
             }
@@ -974,7 +974,7 @@
         {
           "level": 1,
           "name": "Allez-vous-en…",
-          "desc": "[StartBattle] À soi et 1 allié avec le plus de PV max : consomme jusqu’à 20 [BloodDinner] et applique 1 d’[BloomingThornsRodionFirst] pour chaque 10 [BloodDinner] que cette unité a consommé (2 fois par tour)\n- Priorise les alliés <Démon de Sang>\n- Si l’allié affecté est un <Démon de Sang>, cette unité applique 1 d’[BloomingThornsRodionFirst] supplémentaire\n- Si cette unité n’a pas consommé de [BloodDinner], gagne 5 [Laceration]",
+          "desc": "[StartBattle] À soi et 1 allié ayant le plus de PV max : consomme jusqu’à 20 [BloodDinner] et applique 1 d’[BloomingThornsRodionFirst] pour chaque 10 [BloodDinner] que cette unité a consommé (2 fois par tour)\n- Priorise les alliés <Démon de Sang>\n- Si l’allié affecté est un <Démon de Sang>, cette unité applique 1 d’[BloomingThornsRodionFirst] supplémentaire\n- Si cette unité n’a pas consommé de [BloodDinner], gagne 5 [Laceration]",
           "coinlist": [
             {},
             {
@@ -992,7 +992,7 @@
         {
           "level": 2,
           "name": "Allez-vous-en…",
-          "desc": "[StartBattle] À soi et 1 allié avec le plus de PV max : consomme jusqu’à 20 [BloodDinner] et applique 1 d’[BloomingThornsRodionFirst] pour chaque 10 [BloodDinner] que cette unité a consommé (2 fois par tour)\n- Priorise les alliés <Démon de Sang>\n- Si l’allié affecté est un <Démon de Sang>, cette unité applique 1 d’[BloomingThornsRodionFirst] supplémentaire\n- Si cette unité n’a pas consommé de [BloodDinner], gagne 5 [Laceration]\n<style=\"highlight\">[WhenUse] Si la cible a 6 [Laceration] ou plus, +1 de Puissance de Pièce</style>",
+          "desc": "[StartBattle] À soi et 1 allié ayant le plus de PV max : consomme jusqu’à 20 [BloodDinner] et applique 1 d’[BloomingThornsRodionFirst] pour chaque 10 [BloodDinner] que cette unité a consommé (2 fois par tour)\n- Priorise les alliés <Démon de Sang>\n- Si l’allié affecté est un <Démon de Sang>, cette unité applique 1 d’[BloomingThornsRodionFirst] supplémentaire\n- Si cette unité n’a pas consommé de [BloodDinner], gagne 5 [Laceration]\n<style=\"highlight\">[WhenUse] Si la cible a 6 [Laceration] ou plus, +1 de Puissance de Pièce</style>",
           "coinlist": [
             {},
             {
@@ -1010,7 +1010,7 @@
         {
           "level": 4,
           "name": "Allez-vous-en…",
-          "desc": "[StartBattle] À soi et 1 allié avec le plus de PV max : consomme jusqu’à 20 [BloodDinner] et applique 1 d’[BloomingThornsRodionFirst] pour chaque 10 [BloodDinner] que cette unité a consommé (2 fois par tour)\n- Priorise les alliés <Démon de Sang>\n- Si l’allié affecté est un <Démon de Sang>, cette unité applique 1 d’[BloomingThornsRodionFirst] supplémentaire\n- Si cette unité n’a pas consommé de [BloodDinner], gagne 5 [Laceration]\n<style=\"highlight\">[WhenUse] +1 de Puissance de Pièce pour chaque 6 [Laceration] sur la cible (2 max)</style>",
+          "desc": "[StartBattle] À soi et 1 allié ayant le plus de PV max : consomme jusqu’à 20 [BloodDinner] et applique 1 d’[BloomingThornsRodionFirst] pour chaque 10 [BloodDinner] que cette unité a consommé (2 fois par tour)\n- Priorise les alliés <Démon de Sang>\n- Si l’allié affecté est un <Démon de Sang>, cette unité applique 1 d’[BloomingThornsRodionFirst] supplémentaire\n- Si cette unité n’a pas consommé de [BloodDinner], gagne 5 [Laceration]\n<style=\"highlight\">[WhenUse] +1 de Puissance de Pièce pour chaque 6 [Laceration] sur la cible (2 max)</style>",
           "coinlist": [
             {},
             {
@@ -1033,7 +1033,7 @@
         {
           "level": 1,
           "name": "En Chute Brumeuse Finement Broyée",
-          "desc": "[StartBattle] À soi et 1 allié avec le moins de PV max : applique 1 [Enhancement], consomme jusqu’à 30 [BloodDinner] et applique 1 d’[BloomingThornsRodionFirst] pour chaque 10 [BloodDinner] que cette unité a consommé (2 fois par tour)\n- Priorise les alliés <Démon de Sang>\n- Si l’allié affecté est un <Démon de Sang>, cette unité applique 1 [Enhancement] et 2 d’[BloomingThornsRodionFirst] supplémentaires\n- Si cette unité n’a pas consommé de [BloodDinner], gagne 5 [Laceration]",
+          "desc": "[StartBattle] À soi et 1 allié ayant les PV max les plus bas : applique 1 [Enhancement], consomme jusqu’à 30 [BloodDinner] et applique 1 d’[BloomingThornsRodionFirst] pour chaque 10 [BloodDinner] que cette unité a consommé (2 fois par tour)\n- Priorise les alliés <Démon de Sang>\n- Si l’allié affecté est un <Démon de Sang>, cette unité applique 1 [Enhancement] et 2 d’[BloomingThornsRodionFirst] supplémentaires\n- Si cette unité n’a pas consommé de [BloodDinner], gagne 5 [Laceration]",
           "coinlist": [
             {
               "coindescs": [
@@ -1061,7 +1061,7 @@
         {
           "level": 2,
           "name": "En Chute Brumeuse Finement Broyée",
-          "desc": "[StartBattle] À soi et 1 allié avec le moins de PV max : applique 1 [Enhancement], consomme jusqu’à 30 [BloodDinner] et applique 1 d’[BloomingThornsRodionFirst] pour chaque 10 [BloodDinner] que cette unité a consommé (2 fois par tour)\n- Priorise les alliés <Démon de Sang>\n- Si l’allié affecté est un <Démon de Sang>, cette unité applique 1 [Enhancement] et 2 d’[BloomingThornsRodionFirst] supplémentaires\n- Si cette unité n’a pas consommé de [BloodDinner], gagne 5 [Laceration]\n<style=\"highlight\">[WhenUse] Si la cible a 6 [Laceration] ou plus, +1 de Puissance de Pièce</style>",
+          "desc": "[StartBattle] À soi et 1 allié ayant les PV max les plus bas : applique 1 [Enhancement], consomme jusqu’à 30 [BloodDinner] et applique 1 d’[BloomingThornsRodionFirst] pour chaque 10 [BloodDinner] que cette unité a consommé (2 fois par tour)\n- Priorise les alliés <Démon de Sang>\n- Si l’allié affecté est un <Démon de Sang>, cette unité applique 1 [Enhancement] et 2 d’[BloomingThornsRodionFirst] supplémentaires\n- Si cette unité n’a pas consommé de [BloodDinner], gagne 5 [Laceration]\n<style=\"highlight\">[WhenUse] Si la cible a 6 [Laceration] ou plus, +1 de Puissance de Pièce</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1089,7 +1089,7 @@
         {
           "level": 4,
           "name": "En Chute Brumeuse Finement Broyée",
-          "desc": "[StartBattle] À soi et 1 allié avec le moins de PV max : applique 1 [Enhancement], consomme jusqu’à 30 [BloodDinner] et applique 1 d’[BloomingThornsRodionFirst] pour chaque 10 [BloodDinner] que cette unité a consommé (2 fois par tour)\n- Priorise les alliés <Démon de Sang>\n- Si l’allié affecté est un <Démon de Sang>, cette unité applique 1 [Enhancement] et 2 d’[BloomingThornsRodionFirst] supplémentaires\n- Si cette unité n’a pas consommé de [BloodDinner], gagne 5 [Laceration]\n<style=\"highlight\">[WhenUse] +1 de Puissance de Pièce pour chaque 6 [Laceration] sur la cible (2 max)</style>",
+          "desc": "[StartBattle] À soi et 1 allié ayant les PV max les plus bas : applique 1 [Enhancement], consomme jusqu’à 30 [BloodDinner] et applique 1 d’[BloomingThornsRodionFirst] pour chaque 10 [BloodDinner] que cette unité a consommé (2 fois par tour)\n- Priorise les alliés <Démon de Sang>\n- Si l’allié affecté est un <Démon de Sang>, cette unité applique 1 [Enhancement] et 2 d’[BloomingThornsRodionFirst] supplémentaires\n- Si cette unité n’a pas consommé de [BloodDinner], gagne 5 [Laceration]\n<style=\"highlight\">[WhenUse] +1 de Puissance de Pièce pour chaque 6 [Laceration] sur la cible (2 max)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1201,7 +1201,7 @@
         {
           "level": 1,
           "name": "Arts du Sang Durci de Don Quichotte 15 : Parasol",
-          "desc": "[DuelCounter]\n[WhenUse] Réduit de 3 le Compte de [Laceration] de 2 autres alliés avec la plus haute valeur de (Intensité * Compte de [Laceration]), et augmente [BloodDinner] de (Intensité de [Laceration] pré-réduit * Compte réduit)\n  - Si cet effet réduit le Compte de [Laceration] à 0, [Laceration] expire\n[WinDuel] Gagne 4 d’[BloomingThornsRodionFirst]",
+          "desc": "[DuelCounter]\n[WhenUse] Réduit de 3 le Compte de [Laceration] de 2 autres alliés ayant la plus haute valeur de (Intensité * Compte de [Laceration]), et augmente [BloodDinner] de (Intensité de [Laceration] pré-réduit * Compte réduit)\n  - Si cet effet réduit le Compte de [Laceration] à 0, [Laceration] expire\n[WinDuel] Gagne 4 d’[BloomingThornsRodionFirst]",
           "coinlist": [
             {
               "coindescs": [
@@ -1222,7 +1222,7 @@
         {
           "level": 4,
           "name": "Arts du Sang Durci de Don Quichotte 15 : Parasol",
-          "desc": "[DuelCounter]\n[WhenUse] Réduit de 3 le Compte de [Laceration] de 2 autres alliés avec la plus haute valeur de (Intensité * Compte de [Laceration]), et augmente [BloodDinner] de (Intensité de [Laceration] pré-réduit * Compte réduit)\n  - Si cet effet réduit le Compte de [Laceration] à 0, [Laceration] expire\n<style=\"highlight\">  - Si l’allié affecté est un <Démon de Sang>, réduit son Compte de [Laceration] de 2 de plus</style>\n[WinDuel] Gagne 4 [BloomingThornsRodionFirst]",
+          "desc": "[DuelCounter]\n[WhenUse] Réduit de 3 le Compte de [Laceration] de 2 autres alliés ayant la plus haute valeur de (Intensité * Compte de [Laceration]), et augmente [BloodDinner] de (Intensité de [Laceration] pré-réduit * Compte réduit)\n  - Si cet effet réduit le Compte de [Laceration] à 0, [Laceration] expire\n<style=\"highlight\">  - Si l’allié affecté est un <Démon de Sang>, réduit son Compte de [Laceration] de 2 de plus</style>\n[WinDuel] Gagne 4 [BloomingThornsRodionFirst]",
           "coinlist": [
             {
               "coindescs": [

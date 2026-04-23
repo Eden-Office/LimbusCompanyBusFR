@@ -1092,7 +1092,7 @@
         {
           "level": 2,
           "name": "Bond Chargé",
-          "desc": "[WhenUse] Consomme 6 de Compte de [Charge] sur soi pour gagner +1 de Puissance de Base\n- Si cette unité a consommé du Compte de [Charge], applique ([Charge] + 1) [ChargeForceField] à soi et 2 autres alliés avec le moins de Compte de [Charge]. (7 [ChargeForceField] Max par allié. S’active une fois par tour max)\n[WhenUse] Gagne +2 de Compte de [Charge]",
+          "desc": "[WhenUse] Consomme 6 de Compte de [Charge] sur soi pour gagner +1 de Puissance de Base\n- Si cette unité a consommé du Compte de [Charge], applique ([Charge] + 1) [ChargeForceField] à soi et 2 autres alliés ayant le moins de Compte de [Charge]. (7 [ChargeForceField] Max par allié. S’active une fois par tour max)\n[WhenUse] Gagne +2 de Compte de [Charge]",
           "coinlist": [
             {
               "coindescs": [
@@ -1119,7 +1119,7 @@
         {
           "level": 4,
           "name": "Bond Chargé",
-          "desc": "[WhenUse] Consomme 6 de Compte de [Charge] sur soi pour gagner +1 de Puissance de Pièce\n- Si cette unité a consommé du Compte de [Charge], applique ([Charge] + <style=\"highlight\">2</style>) [ChargeForceField] à soi et 2 autres alliés avec le moins de Compte de [Charge]. (<style=\"highlight\">8</style> [ChargeForceField] Max par allié. S’active <style=\"highlight\">2 fois</style> par tour max)\n[WhenUse] Gagne +2 de Compte de [Charge]",
+          "desc": "[WhenUse] Consomme 6 de Compte de [Charge] sur soi pour gagner +1 de Puissance de Pièce\n- Si cette unité a consommé du Compte de [Charge], applique ([Charge] + <style=\"highlight\">2</style>) [ChargeForceField] à soi et 2 autres alliés ayant le moins de Compte de [Charge]. (<style=\"highlight\">8</style> [ChargeForceField] Max par allié. S’active <style=\"highlight\">2 fois</style> par tour max)\n[WhenUse] Gagne +2 de Compte de [Charge]",
           "coinlist": [
             {
               "coindescs": [
@@ -1151,7 +1151,7 @@
         {
           "level": 3,
           "name": "Déchirer la Dimension",
-          "desc": "[StartBattle] À soi et (plus haute Réson.) alliés avec [Charge] : applique [ChargeLoad] égal à la [Charge] sur soi\n(5 autres alliés Max)\n[WhenUse] À 2 [Charge] ou plus et 7~14 de Compte de [Charge], consomme tout le Compte de [Charge] pour gagner +1 de Puissance de Pièce\n[WhenUse] Consomme 15 de Compte de [Charge] pour gagner +1 de Puissance de Pièce",
+          "desc": "[StartBattle] À soi et (plus haute Réson.) alliés ayant [Charge] : applique [ChargeLoad] égal à la [Charge] sur soi\n(5 autres alliés Max)\n[WhenUse] À 2 [Charge] ou plus et 7~14 de Compte de [Charge], consomme tout le Compte de [Charge] pour gagner +1 de Puissance de Pièce\n[WhenUse] Consomme 15 de Compte de [Charge] pour gagner +1 de Puissance de Pièce",
           "coinlist": [
             {},
             {
@@ -1183,7 +1183,7 @@
         {
           "level": 4,
           "name": "Déchirer la Dimension",
-          "desc": "[StartBattle] À soi et (plus haute Réson.) alliés avec [Charge] : applique [ChargeLoad] égal à la [Charge] sur soi\n(5 autres alliés Max)\n[WhenUse] À 2 [Charge] ou plus et 7~14 de Compte de [Charge], consomme tout le Compte de [Charge] pour gagner +2 de Puissance de Pièce\n[WhenUse] Consomme 15 de Compte de [Charge] pour gagner +2 de Puissance de Pièce",
+          "desc": "[StartBattle] À soi et (plus haute Réson.) alliés ayant [Charge] : applique [ChargeLoad] égal à la [Charge] sur soi\n(5 autres alliés Max)\n[WhenUse] À 2 [Charge] ou plus et 7~14 de Compte de [Charge], consomme tout le Compte de [Charge] pour gagner +2 de Puissance de Pièce\n[WhenUse] Consomme 15 de Compte de [Charge] pour gagner +2 de Puissance de Pièce",
           "coinlist": [
             {
               "coindescs": [
@@ -2357,7 +2357,7 @@
                   "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Si la cible a des PSM, déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1\nSi la cible a moins de 0 PSM, inflige 1 [AzureTakeDamageUp] (une fois par tour)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Si la cible est une Unité à PSM, déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1\nSi la cible a moins de 0 PSM, inflige 1 [AzureTakeDamageUp] (une fois par tour)</style>"
                 }
               ]
             }

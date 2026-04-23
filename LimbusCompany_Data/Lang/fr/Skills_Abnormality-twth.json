@@ -338,6 +338,130 @@
           ]
         }
       ]
+    },
+    {
+      "id": 500604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Critique",
+          "desc": "[CantChangeTarget]\n[WhenUse]\n- +2 de Puissance de Duel <color=#ff6000><mark=#ff000040><b><u>par type d’effet négatif</u></b></mark></color> sur la cible (12 max)\n- Inflige +12.5% de dégâts <color=#ff6000><mark=#ff000040><b><u>par Étudiant Fauviste de l’Annulaire alliés</u></b></mark></color> sur le terrain (50% max)\n- <color=#ff6000><mark=#ff000040><b><u>Si la cible a [IntenseColors], </u></b></mark></color>+6 de Puissance de Duel et inflige +200% de dégâts\n· <color=#ff6000><mark=#ff000040><b><u>Si la cible a équipé des Capacités Défensives</u></b></mark></color> en ayant [IntenseColors], +6 de Puissance de Duel et inflige -90% de dégâts à la place. Les dégâts de cette Capacité ne déséquilibrent pas la cible ; En Touche, ne déclenche pas les effets de [Sinking] sur la cible\n[DefeatDuel]\n- Les dégâts de cette Capacité ne déséquilibrent pas la cible\n- En Touche, ne déclenche pas les effets de [Sinking] sur la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Réutilise cette Pièce (2 fois max)\n- En Touche après avoir perdu un Duel, Réutilise cette Pièce (une fois max à la place)\n- Ne se déclenche pas si la cible a équipé des Capacités Défensives"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration] et +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking] et +2 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Le Frisson de l’Inspiration",
+          "desc": "Peut affronter en Duel cette Capacité qu’importe la Vitesse\n[WhenUse] +1 de Puissance Finale et inflige +10% de dégâts <color=#ff6000><mark=#ff000040><b><u>par type d’effet négatif</u></b></mark></color> sur la cible principale (6 et 60% max respectivement)\n[WinDuel]\n- Inflige +10% de dégâts <color=#ff6000><mark=#ff000040><b><u>par type d’effet négatif</u></b></mark></color> sur chaque cible (60% max contre chaque cible)\n[DefeatDuel]\n- Inflige -75% de dégâts\n- Inflige 2/3 Instances de [BearClawWound] et de [EagleClawWound] de moins avec l’effet de cette Capacité (arrondi au supérieur)\n- Les dégâts de cette Capacité ne déséquilibrent pas la cible\n- En Touche, ne déclenche pas les effets de [Sinking] sur la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 3 [Laceration] et +3 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 3 [Sinking] et +3 de Compte de [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Inflige 9 [BearClawWound]</u></b></mark></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Inflige 9 [EagleClawWound]</u></b></mark></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Inflige 1 [BoldBrushstrokes]</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fait Jaillir le Pourpre Palpitant sous Ta Peau.",
+          "desc": "[WideAreaRampage]\nPriorise les cibles ayant [IntenseColors]\nCette Capacité ne déclenche pas de Capacités Défensives (exclut les Gardes Affrontables)\nPeut affronter en Duel cette Capacité qu’importe la Vitesse\n[WhenUse]\n- +1 de Puissance Finale <color=#ff6000><mark=#ff000040><b><u>par type d’effet négatif</u></b></mark></color> sur la cible principale (6 max)\n- <color=#ff6000><mark=#ff000040><b><u>Si la cible principale a [IntenseColors],</u></b></mark></color> +6 de Puissance de Duel\n- <color=#ff6000><mark=#ff000040><b><u>Si la cible a [IntenseColors],</u></b></mark></color> inflige +200% de dégâts (contre chaque cible séparément)\n· <color=#ff6000><mark=#ff000040><b><u>Si la cible a équipé des Capacités Défensives</u></b></mark></color> en ayant [IntenseColors], inflige -90% de dégâts à la place\n[WinDuel]\n- Inflige +10% de dégâts <color=#ff6000><mark=#ff000040><b><u>par type d’effet négatif sur la cible</u></b></mark></color> (60% max, contre chaque cible séparément)\n[DefeatDuel]\n- Gagne 5 [AttackDmgDown] et 5 [Paralysis]\n- Les dégâts de cette Capacité ne déséquilibrent pas la cible\n- En Touche, ne déclenche pas les effets de [Sinking] sur la cible\n[EndSkill] End this turn",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +3 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 3 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +3 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "<color=#ff6000><mark=#ff000040><b><u>Cette Pièce touche toutes les cibles</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
