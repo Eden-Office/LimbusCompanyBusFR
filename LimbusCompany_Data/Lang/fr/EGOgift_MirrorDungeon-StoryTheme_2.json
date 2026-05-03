@@ -228,11 +228,15 @@
     {
       "id": 9440,
       "name": "Masque de la Parade",
-      "desc": "En Affrontements où des ennemis de renfort apparaissent : lorsqu’un nouvel ennemi entre dans la bataille, lui inflige 3 [Laceration] et +2 de Compte de [Laceration].\n\nS’il y a un <Démon de Sang> parmi les alliés : lorsqu’un nouvel ennemi entre dans la bataille, active le [Laceration] de tous les ennemis et réduit leur Compte de [Laceration] de 1",
+      "desc": "Capacités de Base de tous les alliés Démons de Sang gagnent +1 de Puissance de Pièce\n\nEn Affrontements où des ennemis de renfort apparaissent : lorsqu’un nouvel ennemi entre dans la bataille, lui inflige 3 [Laceration] et +3 de Compte de [Laceration].\n\nS’il y a un <Démon de Sang> parmi les alliés : lorsqu’un nouvel ennemi entre dans la bataille, active le [Laceration] de tous les ennemis et réduit leur Compte de [Laceration] de 1",
       "simpleDesc": [
         {
+          "abilityID": 94402,
+          "simpleDesc": "+1 de Puissance de Pièce de Capacité de Base"
+        },
+        {
           "abilityID": 9440,
-          "simpleDesc": "Inflige 3 de Saignement et +2 de Compte de Saignement aux ennemis de renfort entrant dans la bataille"
+          "simpleDesc": "Inflige 3 de Saignement et +3 de Compte de Saignement aux ennemis de renfort entrant dans la bataille"
         },
         {
           "abilityID": 94401,
@@ -243,8 +247,12 @@
     {
       "id": 19440,
       "name": "Masque de la Parade+",
-      "desc": "En Affrontements où des ennemis de renfort apparaissent : lorsqu’un nouvel ennemi entre dans la bataille, lui inflige <style=\"upgradeHighlight\">5</style> [Laceration] et +<style=\"upgradeHighlight\">3</style> de Compte de [Laceration].\n\nS’il y a un <Démon de Sang> parmi les alliés : lorsqu’un nouvel ennemi entre dans la bataille, active le [Laceration] de tous les ennemis et réduit leur Compte de [Laceration] de 1",
+      "desc": "Capacités de Base de tous les alliés Démons de Sang gagnent +1 de Puissance de Pièce\n\nEn Affrontements où des ennemis de renfort apparaissent : lorsqu’un nouvel ennemi entre dans la bataille, lui inflige <style=\"upgradeHighlight\">5</style> [Laceration] et +3 de Compte de [Laceration].\n\nS’il y a un <Démon de Sang> parmi les alliés : lorsqu’un nouvel ennemi entre dans la bataille, active le [Laceration] de tous les ennemis et réduit leur Compte de [Laceration] de 1",
       "simpleDesc": [
+        {
+          "abilityID": 94402,
+          "simpleDesc": "+1 de Puissance de Pièce de Capacité de Base"
+        },
         {
           "abilityID": 194405,
           "simpleDesc": "Inflige 5 de Saignement et +3 de Compte de Saignement aux ennemis de renfort entrant dans la bataille"

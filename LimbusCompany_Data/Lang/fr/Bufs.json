@@ -289,7 +289,7 @@
     {
       "id": "Sinking",
       "name": "Lourdeur",
-      "desc": "Chacune des {1} prochaines touches subies par cette unité, subit {0} dégâts fixes de PSM. (Les unités sans Santé Mentale subissent des dégâts de Peine.)",
+      "desc": "Chacune des {1} prochaines touches subies par cette unité, subit {0} dégâts fixes de PSM. (Les Unités sans-PSM subissent des dégâts de Peine.)",
       "summary": "{0} DGT de Lourdeur"
     },
     {
@@ -1320,7 +1320,7 @@
     {
       "id": "SinkingSurge",
       "name": "Déluge de Lourdeur",
-      "desc": "Inflige des dégâts de PSM égaux à (Compte de Lourdeur * Intensité de Lourdeur), puis retire toute Lourdeur.\nSi les PSM de la cible sont à -45 ou moins, les dégâts de PSM en excès seront infligés en tant que dégâts de Peine\n(Les unités sans Santé Mentale prennent tout sous forme de dégâts de Peine)"
+      "desc": "Inflige des dégâts de PSM égaux à (Compte de Lourdeur * Intensité de Lourdeur), puis retire toute Lourdeur.\nSi les PSM de la cible sont à -45 ou moins, les dégâts de PSM en excès seront infligés en tant que dégâts de Peine\n(Les Unités sans-PSM prennent tout sous forme de dégâts de Peine)"
     },
     {
       "id": "Blue",
@@ -1850,7 +1850,7 @@
     {
       "id": "EchoOfMansion",
       "name": "Échos du Manoir",
-      "desc": "- 50% de chance de gagner +1 de Compte de Lourdeur en gagnant de l’Intensité ou du Compte de Lourdeur d’effets de Capacité ou de Pièce\n- Unités à PSM : change le Type de Panique en Échos du Manoir. Lorsque cette unité panique, inflige 2 Échos du Manoir à 2 autres alliés aléatoires de cette unité au prochain tour\n- Unités à Non-PSM : -10% de chance de faire Pile\n- Réduit de 1 à la Fin du Tour",
+      "desc": "- 50% de chance de gagner +1 de Compte de Lourdeur en gagnant de l’Intensité ou du Compte de Lourdeur d’effets de Capacité ou de Pièce\n- Unités à PSM : change le Type de Panique en Échos du Manoir. Lorsque cette unité panique, inflige 2 Échos du Manoir à 2 autres alliés aléatoires de cette unité au prochain tour\n- Unités sans-PSM : -10% de chance de faire Pile\n- Réduit de 1 à la Fin du Tour",
       "summary": ""
     },
     {
@@ -2072,7 +2072,7 @@
     {
       "id": "WanderingFootsteps",
       "name": "Ruine Imminente",
-      "desc": "- Unités à PSM : change leur Type de Panique en “Ruine”.\n(Ruine : lorsque cette unité entre en état de Moral Bas, gagne 3 Lourdeur à chaque Fin du Tour et perd 1 de Puissance de Duel. Lorsque cette unité Panique, gagne 5 Lourdeur et 3 de Compte de Lourdeur à chaque Fin du Tour et perd 2 de Puissance de Duel)\n- Unités à Non-PSM : -10% de chance de faire Pile\n- Réduit de 1 à la Fin du Tour\n- Cet effet ne se cumule pas ; l’infliger remplacera la valeur actuelle par la valeur infligée.\n※ Applique la condition “Unités à Non-PSM” à certains ennemis ayant des PSM mais ne pouvant pas changer leurs Types de Panique.",
+      "desc": "- Unités à PSM : change leur Type de Panique en “Ruine”.\n(Ruine : lorsque cette unité entre en état de Moral Bas, gagne 3 Lourdeur à chaque Fin du Tour et perd 1 de Puissance de Duel. Lorsque cette unité Panique, gagne 5 Lourdeur et 3 de Compte de Lourdeur à chaque Fin du Tour et perd 2 de Puissance de Duel)\n- Unités sans-PSM : -10% de chance de faire Pile\n- Réduit de 1 à la Fin du Tour\n- Cet effet ne se cumule pas ; l’infliger remplacera la valeur actuelle par la valeur infligée.\n※ Applique la condition “Unités sans-PSM” à certains ennemis ayant des PSM mais ne pouvant pas changer leurs Types de Panique.",
       "summary": ""
     },
     {
@@ -2686,7 +2686,7 @@
     {
       "id": "WaveSinking",
       "name": "Reflux",
-      "desc": "- Instance max : 3\nLorsque touché, gagne autant d’Intensité de Lourdeur que d’Instance\n\nFin du Tour : si cette unité a -30 PSM ou moins, active les effets suivants (pour les unités sans PSM, s’active à 60 d’Intensité de Lourdeur ou plus)\n- Subit (Intensité de Lourdeur sur soi * Instance) dégâts de Peine\n- Inflige 1 Reflux à 2 autres cibles avec le moins de PV (pour les Anomalies, les Parties) ; puis, inflige (Intensité de Lourdeur * Instance) dégâts de Peine aux deux cibles, respectivement\nSi l’unité avec Reflux meurt, transfère ses Instances de Reflux à son allié avec le plus d’Instances de Reflux",
+      "desc": "- Instance max : 3\nLorsque touché, gagne autant d’Intensité de Lourdeur que d’Instance\n\nFin du Tour : si cette unité a -30 PSM ou moins, active les effets suivants (pour les Unités sans-PSM, s’active à 60 d’Intensité de Lourdeur ou plus)\n- Subit (Intensité de Lourdeur sur soi * Instance) dégâts de Peine\n- Inflige 1 Reflux à 2 autres cibles avec le moins de PV (pour les Anomalies, les Parties) ; puis, inflige (Intensité de Lourdeur * Instance) dégâts de Peine aux deux cibles, respectivement\nSi l’unité avec Reflux meurt, transfère ses Instances de Reflux à son allié avec le plus d’Instances de Reflux",
       "summary": "",
       "undefined": "-"
     },
@@ -2997,8 +2997,8 @@
     {
       "id": "CrushMarks",
       "name": "Marque de Fracas",
-      "desc": "- Subit +10% de dégâts de Capacités de Gourmandise et de Peine\n- Unités à PSM : change leur Type de Panique en “Marque de Fracas”\n- Unités à Non-PSM : -1 de Puissance de Duel\n- Fin du Tour : perd 1 Instance\n- Cet effet ne se cumule pas ; l’infliger remplacera la valeur actuelle par la valeur infligée\n- Applique la condition “Unités à Non-PSM” à certains ennemis qui ont des PSM mais ne pouvant changer de Type de Panique\n\n※ Effets de Type de Panique de Marque de Fracas\n- Moral Bas : -1 de Puissance de Duel, -2 Niveaux Défensif sur soi\n- Panique : -2 de Puissance de Duel, -3 Niveaux Défensifs sur soi",
-      "summary": "Subit +10% de dégâts de Capacités de Gourmandise et de Peine\n- Unités à PSM : change leur Type de Panique en “Marque de Fracas”\n- Unités à Non-PSM : -1 de Puissance de Duel",
+      "desc": "- Subit +10% de dégâts de Capacités de Gourmandise et de Peine\n- Unités à PSM : change leur Type de Panique en “Marque de Fracas”\n- Unités sans-PSM : -1 de Puissance de Duel\n- Fin du Tour : perd 1 Instance\n- Cet effet ne se cumule pas ; l’infliger remplacera la valeur actuelle par la valeur infligée\n- Applique la condition “Unités sans-PSM” à certains ennemis qui ont des PSM mais ne pouvant changer de Type de Panique\n\n※ Effets de Type de Panique de Marque de Fracas\n- Moral Bas : -1 de Puissance de Duel, -2 Niveaux Défensif sur soi\n- Panique : -2 de Puissance de Duel, -3 Niveaux Défensifs sur soi",
+      "summary": "Subit +10% de dégâts de Capacités de Gourmandise et de Peine\n- Unités à PSM : change leur Type de Panique en “Marque de Fracas”\n- Unités sans-PSM : -1 de Puissance de Duel",
       "undefined": "-"
     },
     {
@@ -3011,7 +3011,7 @@
     {
       "id": "CrushMarks_Sub",
       "name": "Marque de Fracas",
-      "desc": "- Subit +10% de dégâts de Capacités de Gourmandise et de Peine\n- Unités à Non-PSM : -1 de Puissance de Duel\n- Fin du Tour : perd 1 Instance",
+      "desc": "- Subit +10% de dégâts de Capacités de Gourmandise et de Peine\n- Unités sans-PSM : -1 de Puissance de Duel\n- Fin du Tour : perd 1 Instance",
       "summary": "Subit +10% de dégâts de Capacités de Gourmandise et de Peine\n- -1 de Puissance de Duel",
       "undefined": "-"
     },
@@ -3053,7 +3053,7 @@
     {
       "id": "BlueSand",
       "name": "Sable Bleu",
-      "desc": "- En Duel Perdu, gagne +1 de Compte de Lourdeur (3 fois par tour)\n- Unités à PSM : change leur Type de Panique en “Sable Bleu”\n- Unités à Non-PSM : -1 de Vitesse Min & Max\n- Fin du Tour : diminue de 1 Instance\n- Cet effet ne se cumule pas ; l’infliger remplacera la valeur actuelle par la valeur infligée\n- Applique la condition “Unités à Non-PSM” à certains ennemis qui ont des PSM mais ne pouvant changer de Type de Panique\n\n※ Effets de Panique de Sable Bleu\n- Moral Bas : -1 de Puissance de Duel, -1 de Vitesse Min & Max\n- Panique : -2 de Puissance de Duel, -1 de Vitesse Min & Max",
+      "desc": "- En Duel Perdu, gagne +1 de Compte de Lourdeur (3 fois par tour)\n- Unités à PSM : change leur Type de Panique en “Sable Bleu”\n- Unités sans-PSM : -1 de Vitesse Min & Max\n- Fin du Tour : diminue de 1 Instance\n- Cet effet ne se cumule pas ; l’infliger remplacera la valeur actuelle par la valeur infligée\n- Applique la condition “Unités sans-PSM” à certains ennemis qui ont des PSM mais ne pouvant changer de Type de Panique\n\n※ Effets de Panique de Sable Bleu\n- Moral Bas : -1 de Puissance de Duel, -1 de Vitesse Min & Max\n- Panique : -2 de Puissance de Duel, -1 de Vitesse Min & Max",
       "summary": "",
       "undefined": "-"
     },
@@ -3067,8 +3067,8 @@
     {
       "id": "BlueSand_Sub",
       "name": "Sable Bleu",
-      "desc": "- En Duel Perdu, gagne +1 de Compte de Lourdeur (3 fois par tour)\n- Unités à Non-PSM : -1 de Vitesse Min & Max\n- Fin du Tour : diminue de 1 Instance",
-      "summary": "En Duel Perdu, gagne +1 de Compte de Lourdeur (3 fois par tour)\n- Unités à Non-PSM : -1 de Vitesse Min & Max",
+      "desc": "- En Duel Perdu, gagne +1 de Compte de Lourdeur (3 fois par tour)\n- Unités sans-PSM : -1 de Vitesse Min & Max\n- Fin du Tour : diminue de 1 Instance",
+      "summary": "En Duel Perdu, gagne +1 de Compte de Lourdeur (3 fois par tour)\n- Unités sans-PSM : -1 de Vitesse Min & Max",
       "undefined": "-"
     },
     {
@@ -3157,8 +3157,8 @@
     {
       "id": "DelusionGregBigBird",
       "name": "Ébloui",
-      "desc": "- Tous les 1 (Lourdeur + Brûlure), subit +0.5% de dégâts de Capacités Offensives de Base (10% max)\n- Unités à PSM : change leur Type de Panique en “Ébloui”\n- Unités à Non-PSM : -2 Niveaux Défensifs\n- Fin du Tour : perd 1 Instance\n- Cet effet ne se cumule pas ; l’infliger remplacera la valeur actuelle par la valeur infligée\n- Applique la condition “Unités à Non-PSM” à certains ennemis qui ont des PSM mais ne pouvant changer de Type de Panique\n\n※ Effets de Panique d’Ébloui\n- Moral Bas : gagne 1 Ralentissement et 2 Malus de Niveau Offensif au prochain tour\n- Panique : gagne 1 Ralentissement et 4 Malus de Niveau Offensif au prochain tour",
-      "summary": "Tous les 1 (Lourdeur + Brûlure), subit +0.5% de dégâts de Capacités Offensives de Base (10% max)\nUnités à PSM : change leur Type de Panique en “Ébloui”\nUnités à Non-PSM : -2 Niveaux Défensifs",
+      "desc": "- Tous les 1 (Lourdeur + Brûlure), subit +0.5% de dégâts de Capacités Offensives de Base (10% max)\n- Unités à PSM : change leur Type de Panique en “Ébloui”\n- Unités sans-PSM : -2 Niveaux Défensifs\n- Fin du Tour : perd 1 Instance\n- Cet effet ne se cumule pas ; l’infliger remplacera la valeur actuelle par la valeur infligée\n- Applique la condition “Unités sans-PSM” à certains ennemis qui ont des PSM mais ne pouvant changer de Type de Panique\n\n※ Effets de Panique d’Ébloui\n- Moral Bas : gagne 1 Ralentissement et 2 Malus de Niveau Offensif au prochain tour\n- Panique : gagne 1 Ralentissement et 4 Malus de Niveau Offensif au prochain tour",
+      "summary": "Tous les 1 (Lourdeur + Brûlure), subit +0.5% de dégâts de Capacités Offensives de Base (10% max)\nUnités à PSM : change leur Type de Panique en “Ébloui”\nUnités sans-PSM : -2 Niveaux Défensifs",
       "undefined": "-"
     },
     {
@@ -3171,7 +3171,7 @@
     {
       "id": "DelusionGregBigBird_Sub",
       "name": "Ébloui",
-      "desc": "- Tous les 1 (Lourdeur + Brûlure), subit +0.5% de dégâts de Capacités Offensives de Base (10% max)\n- Unités à Non-PSM : -2 Niveaux Défensifs\n- Fin du Tour : perd 1 Instance",
+      "desc": "- Tous les 1 (Lourdeur + Brûlure), subit +0.5% de dégâts de Capacités Offensives de Base (10% max)\n- Unités sans-PSM : -2 Niveaux Défensifs\n- Fin du Tour : perd 1 Instance",
       "summary": "Tous les 1 (Lourdeur + Brûlure), subit +0.5% de dégâts de Capacités Offensives de Base (10% max)\n-2 Niveaux Défensifs",
       "undefined": "-"
     },
@@ -3239,7 +3239,7 @@
     {
       "id": "Shin_IndexFingerYisang",
       "name": "Shin (心) - Destin",
-      "desc": "- +1 de Vitesse Min & Max\n- Gagne +1 d’Intensité et de Compte de Calme supplémentaire avec les Capacités de Base\n- Si les PSM de cette unité sont supérieurs à ceux de la cible, inflige +1% de dégâts tous les 3 PSM de différence (15% max ; les unités sans PSM sont considérées comme étant à 0 PSM)",
+      "desc": "- +1 de Vitesse Min & Max\n- Gagne +1 d’Intensité et de Compte de Calme supplémentaire avec les Capacités de Base\n- Si les PSM de cette unité sont supérieurs à ceux de la cible, inflige +1% de dégâts tous les 3 PSM de différence (15% max ; les Unités sans-PSM sont considérées comme étant à 0 PSM)",
       "summary": "",
       "undefined": "-",
       "flavor": ""
@@ -3429,7 +3429,7 @@
     {
       "id": "GodokPanicType",
       "name": "Solitude",
-      "desc": "- Subit +10% de dégâts de Capacités de Peine\n- Unités à PSM : change leur Type de Panique en “Solitude”\n- Unités à Non-PSM : gagne +2 de Compte de Lourdeur à la Fin du Tour\n\n- Fin du Tour : perd 1 Instance\n- Cet effet ne se cumule pas ; l’infliger remplacera la valeur actuelle par la valeur infligée\n- Applique la condition “Unités à Non-PSM” à certains ennemis qui ont des PSM mais ne pouvant changer de Type de Panique\n\n※ Effet de Panique de Solitude :\n- Moral Bas : gagne +2 de Compte de Lourdeur à la Fin du Tour\n- Panique : gagne +3 de Compte de Lourdeur à la Fin du Tour",
+      "desc": "- Subit +10% de dégâts de Capacités de Peine\n- Unités à PSM : change leur Type de Panique en “Solitude”\n- Unités sans-PSM : gagne +2 de Compte de Lourdeur à la Fin du Tour\n\n- Fin du Tour : perd 1 Instance\n- Cet effet ne se cumule pas ; l’infliger remplacera la valeur actuelle par la valeur infligée\n- Applique la condition “Unités sans-PSM” à certains ennemis qui ont des PSM mais ne pouvant changer de Type de Panique\n\n※ Effet de Panique de Solitude :\n- Moral Bas : gagne +2 de Compte de Lourdeur à la Fin du Tour\n- Panique : gagne +3 de Compte de Lourdeur à la Fin du Tour",
       "summary": "",
       "undefined": "-"
     },
@@ -3616,55 +3616,28 @@
       "undefined": "-"
     },
     {
-      "id": "FavorBuffTwth1stPhaseForUI",
-      "name": "Teinte de Reflet [Rouge]",
-      "desc": "- Les Capacités Offensives d’Identités qui sont des <color=#f8c200>Capacités de Luxure</color> ou des <color=#f8c200>Capacités qui infligent du Saignement ou du “Saignement Unique”</color> infligent +25% de dégâts (pour les Capacités E.G.O., infligent +100% de dégâts à la place)\n- Les ennemis subissent x1.5 dégâts de <color=#f8c200>Saignement</color> (arrondi à l’inférieur)\n- En <color=#f8c200>Réson.-A</color>, gagne 1 ressource E.G.O. aléatoire la moins possédée et 1 ressource E.G.O. de l’Affinité utilisée pour la Réson.-A (2 fois par tour)"
+      "id": "VengeanceBookHeathcliff",
+      "name": "Livre des Vengeances [Heathcliff]",
+      "desc": "- Instance max : 30\n- +1 Niveau Offensif et Défensif toutes les 5 Instances",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
     },
     {
-      "id": "FavorBuffTwth2ndPhaseForUI",
-      "name": "Teinte de Reflet [Bleu]",
-      "desc": "- Les Capacités Offensives d’Identités qui sont des <color=#f8c200>Capacités de Peine</color> ou des <color=#f8c200>Capacités qui infligent de la Lourdeur ou de la “Lourdeur Unique”</color> infligent +25% de dégâts (pour les Capacités E.G.O., infligent +100% de dégâts à la place)\n- Début du Tour : les ennemis en <color=#f8c200>Panique</color> gagnent 3 Vulnérabilités\n- <color=#f8c200>Les Identités de faction des Doigts</color> infligent +15% de dégâts et subissent -15% de dégâts d’ennemis"
+      "id": "MiddleFingerTattooID",
+      "name": "Tatouage de Vengeance",
+      "desc": "- Instance max : 20\n- Les Capacités de Base infligent +1% de dégâts par Instance",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
     },
     {
-      "id": "FavorBuffTwthHardForUI",
-      "name": "Tribulation",
-      "desc": "- +25% de <color=#ff0000>PV max</color>\n- Les Capacités infligent +1 <color=#ff0000>d’Intensité de Saignement, d’Intensité de Lourdeur, de Couleur Mutilée [Rouge] et de Couleur Mutilée [Bleu]</color> supplémentaire\n- Si la cible a <color=#ff0000>Palette Vibrante</color>, +2 de Puissance de Duel et +1 de Puissance de Base\n- [Effet exclusif de Phase 2] Début du Tour : si cette unité va utiliser “Fait Jaillir le Pourpre Palpitant sous Ta Peau” pendant ce tour, <color=#ff0000>regagne 10 PSM</color> par Pécheur ayant <color=#ff0000>Palette Vibrante</color> (30 PSM max)"
-    },
-    {
-      "id": "FavorBuffTwth",
-      "name": "Teinte de Reflet [Rouge]",
-      "desc": "- Les Capacités Offensives d’Identités qui sont des Capacités de Luxure ou des Capacités qui infligent du Saignement ou du “Saignement Unique” infligent +25% de dégâts (pour les Capacités E.G.O., infligent +100% de dégâts à la place)\n- En Réson.-A, gagne 1 ressource E.G.O. aléatoire la moins possédée et 1 ressource E.G.O. de l’Affinité utilisée pour la Réson.-A (2 fois par tour)",
-      "summary": "Les Capacités de Saignement, de “Saignement Unique” et de Luxure infligent plus de dégâts"
-    },
-    {
-      "id": "FavorBuffTwthEnemy",
-      "name": "Teinte de Reflet [Rouge]",
-      "desc": "- Subit x1.5 dégâts de Saignement (arrondi à l’inférieur)",
-      "summary": "Subit plus de dégâts de Saignement"
-    },
-    {
-      "id": "FavorBuffTwthTwo",
-      "name": "Teinte de Reflet [Bleu]",
-      "desc": "- Les Capacités Offensives d’Identités qui sont des Capacités de Peine ou des Capacités qui infligent de la Lourdeur ou de la “Lourdeur Unique” infligent +25% de dégâts (pour les Capacités E.G.O., infligent +100% de dégâts à la place)\n- Les Identités de faction des Doigts infligent +15% de dégâts et subissent -15% de dégâts d’ennemis",
-      "summary": "Les Capacités de Lourdeur, de “Lourdeur Unique” et de Peine infligent plus de dégâts"
-    },
-    {
-      "id": "FavorBuffTwthEnemyTwo",
-      "name": "Teinte de Reflet [Bleu]",
-      "desc": "- Début du Tour : lorsque Paniqué, gagne 3 Vulnérabilités",
-      "summary": "Lorsque Paniqué, gagne de la Vulnérabilité"
-    },
-    {
-      "id": "FavorBuffTwthHard",
-      "name": "Tribulation",
-      "desc": "- +25% de PV max\n- Les Capacités infligent +1 d’Intensité de Saignement, d’Intensité de Lourdeur, de Couleur Mutilée [Rouge] et de Couleur Mutilée [Bleu]\n- Si la cible a Palette Vibrante, +2 de Puissance de Duel et +1 de Puissance de Base",
-      "summary": "Inflige plus d’Intensité de Saignement, d’Intensité de Lourdeur et de Couleur Mutilée\nSi la cible a Palette Vibrante, gagne de la Puissance de Duel et de Base"
-    },
-    {
-      "id": "FavorBuffTwthHardTwo",
-      "name": "Tribulation",
-      "desc": "- +25% de PV max\n- Les Capacités infligent +1 d’Intensité de Saignement, d’Intensité de Lourdeur, de Couleur Mutilée [Rouge] et de Couleur Mutilée [Bleu]\n- Si la cible a Palette Vibrante, +2 de Puissance de Duel et +1 de Puissance de Base\n- [Effet exclusif de Phase 2] Début du Tour : si cette unité va utiliser “Fait Jaillir le Pourpre Palpitant sous Ta Peau” pendant ce tour, regagne 10 PSM par Pécheur ayant Palette Vibrante (30 PSM max)",
-      "summary": "Inflige plus d’Intensité de Saignement, d’Intensité de Lourdeur et de Couleur Mutilée\nSi la cible a Palette Vibrante, gagne de la Puissance de Duel et de Base"
+      "id": "ScarletMothRodion",
+      "name": "Phalène Écarlate",
+      "desc": "- Instance max : 3\n- Fin du Tour : regagne (Instance)% de PV (PV soignés minimum : 1)\n- Fin du Tour : regagne des PSM égaux à l’Instance\n- Fin du Tour : perd 1 Instance",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
     }
   ]
 }

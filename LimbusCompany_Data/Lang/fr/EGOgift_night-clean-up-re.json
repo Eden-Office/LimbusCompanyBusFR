@@ -1,0 +1,96 @@
+{
+  "dataList": [
+    {
+      "id": 9269,
+      "name": "Boombox des Entrées Dramatiques",
+      "desc": "En Touche avec des Capacités Contondantes : se soigne de 5% des dégâts infligés par l’allié ayant utilisé la Capacité\n\nEn Touche avec des Capacités de Riposte : regagne 5 PSM (2 fois par tour par Identité)",
+      "simpleDesc": [
+        {
+          "abilityID": 9269,
+          "simpleDesc": "Regagne des PV selon les dégâts infligés"
+        },
+        {
+          "abilityID": 92691,
+          "simpleDesc": "Regagne des PSM"
+        }
+      ]
+    },
+    {
+      "id": 9270,
+      "name": "ET VOICI : Le C.M.",
+      "desc": "Lorsqu’un allié est touché, applique 3 [AttackUp] à l’allié et inflige +4 de Compte de [Laceration] à l’attaquant (une fois par Capacité)\n\nLes Capacités de Base utilisées par les Identités de la faction du Majeur gagnent +1 de Puissance de Base et infligent +(30 / # de Pièces)% de dégâts\n- Début du Tour : s’il y a 3 Identités de la faction du Majeur ou plus sur le terrain, gagne +1 de Puissance de Base et inflige +(60 / # de Pièces)% de dégâts à la place\n- S’il y a 5 Identités de la faction du Majeur ou plus sur le terrain, gagne +2 de Puissance de Base et inflige +(90 / # de Pièces)% de dégâts à la place\n\nEn Touche avec des Capacités Contondantes : se soigne de 10% des dégâts infligés par l’allié ayant utilisé la Capacité\n\nEn Touche avec des Capacités de Riposte : regagne 5 PSM (2 fois par tour par Identité)\n\nFin du Tour : si l’allié ayant équipé une Capacité de Riposte au Début du Combat n’a pas pu utiliser de Capacité de Riposte ce tour, cet allié gagne 1 [PlusCoinValueUp] et 1 [MinusCoinValueDown] au prochain tour",
+      "simpleDesc": [
+        {
+          "abilityID": 9270,
+          "simpleDesc": "L’attaquant gagne du Compte de [Laceration], l’attaqué gagne du [AttackUp]"
+        },
+        {
+          "abilityID": 92701,
+          "simpleDesc": "Gagne de la Puissance de Base et inflige plus de dégâts"
+        },
+        {
+          "abilityID": 92702,
+          "simpleDesc": "Regagne des PV selon les dégâts infligés"
+        },
+        {
+          "abilityID": 92703,
+          "simpleDesc": "Regagne des PSM"
+        },
+        {
+          "abilityID": 92704,
+          "simpleDesc": "Gagne du [PlusCoinValueUp] et du [MinusCoinValueDown] au prochain tour"
+        }
+      ]
+    },
+    {
+      "id": 9271,
+      "name": "Bolus Heishou - Mao",
+      "desc": "Lorsqu’une Identité Meute Heishou - Branche Mao entre dans l’Affrontement pour la première fois, fixe sa Vitesse min à 10 pendant un tour (à 10 de Vitesse min ou plus, cet effet ne s’active pas)\n\nSi un allié a [LegStrength], les Capacités de Base de l’allié gagnent +1 d Puissance de Duel et infligent +10% de dégâts",
+      "simpleDesc": [
+        {
+          "abilityID": 9271,
+          "simpleDesc": "Fixe la valeur de Vitesse minimale"
+        },
+        {
+          "abilityID": 92711,
+          "simpleDesc": "Gagne de la Puissance de Duel et inflige plus de dégâts"
+        }
+      ]
+    },
+    {
+      "id": 9272,
+      "name": "Rôdant dans l’Ombre",
+      "desc": "Lorsqu’une Identité Meute Heishou - Branche Mao entre dans l’Affrontement pour la première fois, fixe sa Vitesse min à 10 pendant 3 tours (à 10 de Vitesse min ou plus, cet effet ne s’active pas)\n\nLes Capacités de Base gagnent +1 de Puissance de Duel et infligent +10% de dégâts par Instance de [LegStrength]\n\nEn infligeant [BurstAgility], l’inflige aussi à 2 ennemis n’ayant pas [BurstAgility] (une fois par tour ; en Affrontement Ciblé, les Parties)\n\nSi la Vitesse d’un allié est plus rapide que celle de sa cible, les Capacités alliées infligent (différence de Vitesse / 3) [Burst] ou Compte de [Burst] supplémentaires (3 max)\n\nFin du Tour : les alliés Meute Heishou - Branche Mao gagnent 2 [Agility] au prochain tour\nSi la Vitesse d’un allié est plus rapide que celle de sa cible, ou lorsqu’un allié utilise une Attaque à Sens Unique, cet allié inflige +10% de dégâts Tranchants par (différence de Vitesse / 3) (30% max)\nSi la Vitesse d’un allié est plus rapide que celle de sa cible, subit -10% de dégâts par (différence de Vitesse / 3) (30% max)",
+      "simpleDesc": [
+        {
+          "abilityID": 9272,
+          "simpleDesc": "Fixe la valeur de Vitesse minimale"
+        },
+        {
+          "abilityID": 92721,
+          "simpleDesc": "Gagne de la Puissance de Duel et inflige plus de dégâts"
+        },
+        {
+          "abilityID": 92722,
+          "simpleDesc": "Inflige du [BurstAgility] supplémentaire"
+        },
+        {
+          "abilityID": 92723,
+          "simpleDesc": "Les Capacités infligent +1 [Burst] ou Compte de [Burst] supplémentaire"
+        },
+        {
+          "abilityID": 92724,
+          "simpleDesc": "Fin du Tour : gagne [Agility] au prochain tour"
+        },
+        {
+          "abilityID": 92725,
+          "simpleDesc": "Inflige plus de dégâts Tranchants"
+        },
+        {
+          "abilityID": 92726,
+          "simpleDesc": "Subit moins de dégâts"
+        }
+      ]
+    }
+  ]
+}

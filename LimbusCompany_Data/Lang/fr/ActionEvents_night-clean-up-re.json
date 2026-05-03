@@ -1,0 +1,53 @@
+{
+  "dataList": [
+    {
+      "id": 971108,
+      "name": "Post-Heishou Choice Development",
+      "desc": "Leurs missions étant finies, les Heishous distribuent les Bolus Mao qu’ils ont reçus du Heishou-Xianren.\n\n“Et vous, qui êtes-vous ? Je ne vous ai jamais vu avant…”\n\n“Peut-être sont-ils les Lièvres nouvellement initiés ?”\n\n“… Identifiez-vous.”",
+      "options": [
+        {
+          "message": "Leur montrer l’Enjambée de Lièvre et leur dire que vous êtes nouveau.\n<size=75%><color=#a16a3b>Choix débloqué avec le Don E.G.O. “Enjambée de Lièvre”</color></size>",
+          "messageDesc": "Choisissez pour gagner un Don E.G.O. de Déchirure",
+          "result": [
+            "Une fois qu’ils ont vu l’Enjambée de Lièvre, les Heishous se retirèrent, laissant un Bolus Mao au Pécheur."
+          ]
+        },
+        {
+          "message": "Leur dire que vous êtes un Lièvre revenant d’une mission ailleurs.",
+          "messageDesc": "Lance un contrôle Avantage Gourmandise & Orgueil pour gagner un Don E.G.O. de Déchirure.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Dire que vous ne faites que passer.",
+          "messageDesc": "Aucun effet particulier",
+          "result": [
+            "Nous avons quitté les Heishous avec nonchalance et en sommes sortis indemnes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 971109,
+      "name": "Oddly Familiar Boombox",
+      "desc": "Nous voyons un groupe de voyous du Majeur bloquer le chemin, ils portent tous le même attirail que nous avions vu au Grand Lac.\n\nSe diriger vers eux risque de lancer un combat.\n\nEn regardant les alentours, nous voyons une boombox solitaire, assez éloignée d’eux.\n\nEst-ce la source de la musique broyante qui joue dans le fond chaque fois que ces voyous se montrent ?\n\nPeut-être que la déplacer ailleurs pourrait attirer les voyous loin de la route grâce à sa musique.",
+      "options": [
+        {
+          "message": "Prendre la Boombox.",
+          "messageDesc": "Contrôle Avantage Gourmandise. Réussissez pour gagner un Don E.G.O. Contondant.",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Prendre une route différente.",
+          "messageDesc": "Aucun effet particulier",
+          "result": [
+            "Il n’y a aucune raison pour nous de risquer un combat en prenant cette route.\n\nNous avons prudemment fait demi-tour pour emprunter un autre chemin."
+          ]
+        }
+      ]
+    }
+  ]
+}

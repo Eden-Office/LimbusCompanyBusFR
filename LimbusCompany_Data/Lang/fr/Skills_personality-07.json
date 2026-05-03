@@ -2384,6 +2384,349 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1071501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Coup de Pied",
+          "desc": "[WhenUse] Gagne +3 d’[Aggro] à cet Emplacement au prochain tour",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Coup de Pied",
+          "desc": "<style=\"highlight\">Si la cible a 6 ([Combustion] + [Laceration]) ou plus, +1 de Puissance de Pièce</style>\n[WhenUse] Gagne +3 d’[Aggro] à cet Emplacement au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Réduit le Seuil d’Équilibre de l’utilisateur de 5</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Coup de Pied",
+          "desc": "Si la cible a 6 ([Combustion] + [Laceration]) ou plus, +1 de Puissance de Pièce\n<style=\"highlight\">[WhenUse] Si la cible a [RetaliationBook], +1 de Puissance Finale</style>\n[WhenUse] Gagne +3 d’[Aggro] à cet Emplacement au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Réduit le Seuil d’Équilibre de l’utilisateur de 5<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">- Si la cible a [RetaliationBook], regagne 3 PSM</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Surveillez Vos Arrières !",
+          "desc": "[StartBattle] Applique 2 [AttackUp] aux alliés adjacents à cette unité sur le Tableau de Bord\n[StartBattle] Cette Capacité gagne (plus haute Réson. / 2) Niveaux Offensifs (3 max, arrondi à l’inférieur)\n[WhenUse] Gagne +5 d’[Aggro] à cet Emplacement au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Paralysis]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Surveillez Vos Arrières !",
+          "desc": "<style=\"highlight\">Si la cible a 6 ([Combustion] + [Laceration]) ou plus, +1 de Puissance de Pièce</style>\n[StartBattle] Applique 2 [AttackUp] aux alliés adjacents à cette unité sur le Tableau de Bord\n[StartBattle] Cette Capacité gagne (plus haute Réson. / 2) Niveaux Offensifs (3 max, arrondi à l’inférieur)\n[WhenUse] Gagne +5 d’[Aggro] à cet Emplacement au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Paralysis]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Surveillez Vos Arrières !",
+          "desc": "Si la cible a 6 ([Combustion] + [Laceration]) ou plus, +1 de Puissance de Pièce\n[StartBattle] Applique 2 [AttackUp] aux alliés adjacents à cette unité sur le Tableau de Bord\n[StartBattle] Cette Capacité gagne (plus haute Réson. / 2) Niveaux Offensifs (3 max, arrondi à l’inférieur)\n<style=\"highlight\">[WhenUse] Si la cible a [RetaliationBook], +2 de Puissance Finale</style>\n[WhenUse] Gagne +5 d’[Aggro] à cet Emplacement au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Paralysis]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071503,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "MES COUPONS DE COIFFUUUUUUUURE !!!",
+          "desc": "+1 de Puissance Finale tous les 4 ([Combustion] + [Laceration]) sur la cible principale (3 max)\n[StartBattle] Cette Capacité gagne (plus haute Réson.) Niveaux Offensifs (6 max)\n[WhenUse] À 6 de Réson.-A d’Envie ou plus, +1 de Poids d’Atq\n[WhenUse] Inflige +30% de dégâts par Poids d’Atq en excès par rapport au # de cibles actuelles (en Affrontements Ciblés, de Parties)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "MES COUPONS DE COIFFUUUUUUUURE !!!",
+          "desc": "+1 de Puissance Finale tous les 4 ([Combustion] + [Laceration]) sur la cible principale (3 max)\n+1 de Puissance Finale toutes les 2 Réson. d’Envie (3 max)\n[StartBattle] Cette Capacité gagne (plus haute Réson.) Niveaux Offensifs (6 max)\n<style=\"highlight\">[WhenUse] Si la cible principale a [RetaliationBook], +2 de Puissance Finale</style>\n[WhenUse] À 6 de Réson.-A d’Envie ou plus, +1 de Poids d’Atq\n<style=\"highlight\">[WhenUse] À 20 [VengeanceBookHeathcliff], gagne +1 de Poids d’Atq</style>\n[WhenUse] Inflige +<style=\"highlight\">60</style>% de dégâts par Poids d’Atq en excès par rapport au # de cibles actuelles (en Affrontements Ciblés, de Parties)\n<style=\"highlight\">[EnemyKill] Pour chaque ennemi tué en utilisant cette Capacité, gagne 2 [MiddleFingerTattooID] (6 par tour max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige (Réson. d’Envie * 5)% des dégâts finaux de cette Pièce en dégâts Contondants supplémentaires (30% max)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vengeance",
+          "desc": "[StartBattle] Gagne 25% des PV manquants en Bouclier (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Vengeance",
+          "desc": "<style=\"highlight\">[StartBattle] À 6 de somme de Réson.-A d’Envie ou plus, utilise la Capacité “MES COUPONS DE COIFFUUUUUUUURE !!!” comme Riposte (S’active sur l’Emplacement de Capacité le plus à gauche. S’active 2 fois par tour)\n[StartBattle] Rend (Réson. d’Envie + 3) PSM à 3 des alliés de la faction du Majeur ayant le moins de PSM (inclut cette unité ; une fois par tour, 10 PSM max ; exclut les alliés à -40 PSM ou moins)</style>\n[StartBattle] Gagne 25% des PV manquants en Bouclier (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071505,
+      "levelList": [
+        {
+          "level": 4,
+          "name": "ANNIHILATION TOTALE ET ABSOLUE !!!",
+          "desc": "Les effets externes ne peuvent pas forcer cette Capacité à être Réutilisée\nInflige +1% de dégâts par 1% de PV manquants sur soi (30% max)\n+1 de Puissance Finale tous les 4 ([Combustion] + [Laceration]) sur la cible principale (5 max)\n[StartBattle] Cette Capacité gagne (plus haute Réson.) Niveaux Offensifs (6 max)\n[WhenUse] Si la cible principale a [RetaliationBook], +3 de Puissance Finale\n[WhenUse] À 20 [VengeanceBookHeathcliff], gagne +1 de Poids d’Atq\n[WhenUse] Inflige +60% de dégâts par Poids d’Atq en excès par rapport au # de cibles actuelles (en Affrontements Ciblés, de Parties)\n[EnemyKill] Pour chaque ennemi tué en utilisant cette Capacité, gagne une ressource E.G.O. d’une Affinité aléatoire la moins possédée (4 max)\n[EndSkill] Consomme 15 [MiddleFingerTattooID] sur soi",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Si la cible est Déséquilibrée, inflige +20% de dégâts"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige (Réson. d’Envie * 7)% des dégâts finaux de cette Pièce en dégâts Contondants supplémentaires (42% max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,867 @@
+{
+  "dataList": [
+    {
+      "id": 7104701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Raid",
+          "desc": "[WhenUse] Si la cible a 3 [Vibration] ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7104702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Neutraliser la Cible",
+          "desc": "[WhenUse] Si la cible a 3 [Vibration] ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Vibration]"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7104703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Activation de Balle de PV",
+          "desc": "[WhenUse] Regagne 20 PV",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7104704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Mise au Sol",
+          "desc": "[WhenUse] Si la cible a 4 [Vibration] ou plus, +2 de Puissance de Base",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7104801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Activation de Balle de PV",
+          "desc": "[WhenUse] Regagne 20 PV",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7104802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Abri",
+          "desc": "[WinDuel] Applique 1 [ResultEnhancement] à 2 alliés aléatoires au prochain tour",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7104803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Couverture",
+          "desc": "[WhenUse] Applique 2 [Protection] à 2 autres alliés aléatoires au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vulnerable]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7104901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ne Pas Entrer",
+          "desc": "[WhenUse] Si la cible a 4 [Burst] ou plus, +2 de Puissance de Base",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7104902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Soumettre",
+          "desc": "[WhenUse] +1 de Puissance de Pièce toutes les 3 [Burst] sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7104903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Entrée Interdite",
+          "desc": "[WhenUse] +1 de Puissance de Pièce toutes les 3 [Burst] sur la cible (2 max)\n[DefeatDuel] Regagne 10 PV",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige ([Burst] * Compte de [Burst]) dégâts de PV, puis consomme toute la [Burst] de la cible"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7105001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Individus Suspicieux",
+          "desc": "[WhenUse] Si la cible a 3 [Burst] ou plus, +2 de Puissance de Base",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7105002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Maîtriser",
+          "desc": "[WhenUse] Si la cible a 3 [Burst] ou plus, +2 de Puissance de Base",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7105003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Défense d’Entrer",
+          "desc": "Priorise les cibles ayant le plus de [Burst]\n[WhenUse] Si la cible a [Burst], +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Si la Pièce 1 fait Pile, inflige +10% de dégâts"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Si la Pièce 2 fait Pile, inflige +10% de dégâts"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Si les Pièces 2 & 3 font Pile, inflige +30% de dégâts"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige ([Burst] * Compte de [Burst]) dégâts de PV, puis consomme toute la [Burst] de la cible"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7105101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Kii",
+          "desc": "[WhenUse] +2 de Puissance de Duel par type d’effet négatif sur la cible (6 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +5 de Compte de [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7105102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Kiih",
+          "desc": "[WhenUse] +2 de Puissance de Duel par type d’effet négatif sur la cible (6 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7105103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Garde",
+          "desc": "[StartBattle] Pour ce tour, gagne (PV manquant sur soi / 10) de Bouclier",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7105201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Kiih",
+          "desc": "[WhenUse] +2 de Puissance de Duel par type d’effet négatif sur la cible (6 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 6 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7105202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Kiieeh",
+          "desc": "[WhenUse] +2 de Puissance de Duel par type d’effet négatif sur la cible (6 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7105203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Garde",
+          "desc": "[StartBattle] Pour ce tour, gagne (PV manquant sur soi / 10) de Bouclier",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7105301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Kigik !",
+          "desc": "[WhenUse] +2 de Puissance de Duel par type d’effet négatif sur la cible (6 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7105302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Kieek !",
+          "desc": "[WhenUse] +2 de Puissance de Duel par type d’effet négatif sur la cible (6 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [DefenseDown] et +5 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7105303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Garde",
+          "desc": "[StartBattle] Pour ce tour, gagne (PV manquant sur soi / 10) de Bouclier",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7105401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Kigigiik",
+          "desc": "Si cette unité n’a pas subi de dégâts au tour précédent, +1 de Puissance de Pièce\n[WhenUse] +2 de Puissance de Duel par type d’effet négatif sur la cible (6 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7105402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Kigigiik",
+          "desc": "[WhenUse] +2 de Puissance de Duel par type d’effet négatif sur la cible (6 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] et 2 [DefenseDown] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7105403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Kieegikhik",
+          "desc": "[WhenUse] +2 de Puissance de Duel par type d’effet négatif sur la cible (6 max)\n[WhenUse] Gagne 2 [Protection]\n[WinDuel] Inflige 5 [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "- Si un [VibrationExplosion] est déclenché, inflige 10 d’Intensité d’un effet de statut aléatoire choisi parmi [Laceration], [Vibration] et [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7105404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Garde",
+          "desc": "[StartBattle] Pour ce tour, gagne (PV manquant sur soi / 10) de Bouclier",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7105501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Raid",
+          "desc": "[WhenUse] +2 de Puissance de Duel par type d’effet négatif sur la cible (6 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7105502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Neutraliser la Cible",
+          "desc": "[WhenUse] +2 de Puissance de Duel par type d’effet négatif sur la cible (6 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 10 [Sinking] ou plus, inflige 5 [Sinking] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7105503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Activation de Balle de PV",
+          "desc": "[WhenUse] Regagne 5% des PV manquants (une fois par tour ; 150 max)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7105601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Abri",
+          "desc": "[WhenUse] +2 de Puissance de Duel par type d’effet négatif sur la cible (6 max)\n[WhenUse] Applique 2 [Protection] à 2 alliés aléatoires au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +5 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7105602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Blocus",
+          "desc": "[WhenUse] +2 de Puissance de Duel par type d’effet négatif sur la cible (6 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7105603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Couverture",
+          "desc": "[WhenUse] +2 de Puissance de Duel par type d’effet négatif sur la cible (6 max)\n[WinDuel] Applique 1 [AmberDamageUp] et 1 [ShamrockDamageUp] à un autre allié aléatoire au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7105701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ne Pas Entrer",
+          "desc": "[WhenUse] +2 de Puissance de Duel par type d’effet négatif sur la cible (6 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7105702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Soumettre",
+          "desc": "[WhenUse] +2 de Puissance de Duel par type d’effet négatif sur la cible (6 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +5 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7105703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Entrée Interdite",
+          "desc": "[WhenUse] +2 de Puissance de Duel par type d’effet négatif sur la cible (6 max)\n[DefeatDuel] Regagne 5% des PV manquants (une fois par tour ; 100 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +5 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts de Peine égaux à l’Intensité de [Sinking] de la cible et réduit le Compte de [Sinking] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7105801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Individus Suspicieux",
+          "desc": "[WhenUse] +2 de Puissance de Duel par type d’effet négatif sur la cible (6 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +5 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7105802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Maîtriser",
+          "desc": "[WhenUse] +2 de Puissance de Duel par type d’effet négatif sur la cible (6 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +5 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7105803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Défense d’Entrer",
+          "desc": "Cible l’unité ayant le plus de [Sinking]\n[WhenUse] Si la cible a [Sinking], +2 de Puissance de Base\n[WhenUse] +2 de Puissance de Duel par type d’effet négatif sur la cible (6 max)\n[DefeatDuel] Regagne 5% des PV manquants (une fois par tour ; 100 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Si la Pièce 1 fait Pile, inflige +10% de dégâts"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Si la Pièce 2 fait Pile, inflige +10% de dégâts"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Si les Pièces 2 & 3 font Pile, inflige +30% de dégâts"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts de Peine égaux à (Intensité de [Sinking] * Compte de [Sinking]) sur la cible et réduit le Compte de [Sinking] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

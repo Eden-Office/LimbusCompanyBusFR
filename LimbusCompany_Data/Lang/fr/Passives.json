@@ -1596,7 +1596,7 @@
     {
       "id": 1071021,
       "name": "Lamentation Éternelle",
-      "desc": "1 allié ayant les plus hauts PSM inflige +5% de dégâts aux cibles ayant moins de 0 PSM\nSi la cible a moins de 0 PSM : plus les PSM de la cible sont éloignés de 0 et plus les dégâts sont amplifiés (+0.5% de dégâts par PSM, 20% max)\nSi la cible n’a pas de PSM, cet allié inflige +1 d’Intensité et de Compte de [Sinking] supplémentaire en utilisant les Effets de Capacité et de Pièce de leurs Capacités Offensives (2 fois par tour)",
+      "desc": "1 allié ayant les plus hauts PSM inflige +5% de dégâts aux cibles ayant moins de 0 PSM\nSi la cible a moins de 0 PSM : plus les PSM de la cible sont éloignés de 0 et plus les dégâts sont amplifiés (+0.5% de dégâts par PSM, 20% max)\nPour les cibles qui sont des Unités sans-PSM, cet allié inflige +1 d’Intensité et de Compte de [Sinking] supplémentaire en utilisant les Effets de Capacité et de Pièce de leurs Capacités Offensives (2 fois par tour)",
       "summary": "Inflige plus de dégâts aux cibles avec moins de 0 PSM"
     },
     {
@@ -1614,7 +1614,7 @@
     {
       "id": 1041011,
       "name": "Tête d’Araignée/Crânepoil",
-      "desc": "En frappant un ennemi avec une Pièce qui gagne [RedEyeFirst] :\n- Inflige +([RedEyeFirst]/2)% de dégâts\n<style=\"highlight\">- Si la Vitesse de cette unité est supérieure de 3 ou plus à celle de la cible, inflige +([RedEyeFirst]/2)% de dégâts</style>\n- Si la cible a [Laceration], gagne 1 [RedEyeFirst] (3 fois par tour)\n\nEn frappant un ennemi avec une Pièce qui gagne [PenanceFirst] :\n- Inflige +([PenanceFirst]/2)% de dégâts\n<style=\"highlight\">- Si les PSM de la cible sont inférieurs à ceux de cette unité, inflige +([PenanceFirst]/2)% de dégâts (cibles sans PSM : leur PSM compte comme 0)</style>\n- À 20 PSM ou plus, gagne 1 [PenanceFirst] (3 fois par tour)\n\n<style=\"highlight\">Lorsque touché par un ennemi, gagne 1 [PenanceFirst] (3 max)</style>",
+      "desc": "En frappant un ennemi avec une Pièce qui gagne [RedEyeFirst] :\n- Inflige +([RedEyeFirst]/2)% de dégâts\n<style=\"highlight\">- Si la Vitesse de cette unité est supérieure de 3 ou plus à celle de la cible, inflige +([RedEyeFirst]/2)% de dégâts</style>\n- Si la cible a [Laceration], gagne 1 [RedEyeFirst] (3 fois par tour)\n\nEn frappant un ennemi avec une Pièce qui gagne [PenanceFirst] :\n- Inflige +([PenanceFirst]/2)% de dégâts\n<style=\"highlight\">- Si les PSM de la cible sont inférieurs à ceux de cette unité, inflige +([PenanceFirst]/2)% de dégâts (pour les cibles qui sont des Unités sans-PSM, leur PSM compte comme 0)</style>\n- À 20 PSM ou plus, gagne 1 [PenanceFirst] (3 fois par tour)\n\n<style=\"highlight\">Lorsque touché par un ennemi, gagne 1 [PenanceFirst] (3 max)</style>",
       "summary": "Pièces qui gagnant Yeux Rouges infligent plus de dégâts ; si la cible a Saignement, gagne 1 Yeux Rouges\nPièces qui gagnant Pénitence infligent plus de dégâts ; à 20 PSM ou plus, gagne 1 Pénitence\nLorsque touché par un ennemi, gagne 1 Pénitence (3 max)"
     },
     {
@@ -1705,7 +1705,7 @@
     {
       "id": 1051101,
       "name": "Diffusion de Duel",
-      "desc": "Gagne 1 [Agility] au prochain tour pour chaque 3 d’Intensité de [Breath] sur soi à la Fin du Tour (2 max)\nEn Touche en utilisant des Capacités Offensives de Base : inflige [ConcentratedAttackMeursault] au prochain tour (une fois par Capacité)",
+      "desc": "Gagne 1 [Agility] au prochain tour pour chaque 3 d’Intensité de [Breath] sur soi à la Fin du Tour (2 max)\nEn Touche en utilisant des Capacités de Base : inflige [ConcentratedAttackMeursault] au prochain tour (une fois par Capacité)",
       "summary": "Fin du Tour : gagne de la [Agility] selon le Compte de [Breath] sur soi. En Touche avec une Capacité de Base, inflige [ConcentratedAttackMeursault] au prochain tour"
     },
     {
@@ -2933,6 +2933,31 @@
       "id": 1091521,
       "name": "Tout Doucement, Ne Le Casse Pas…",
       "desc": "Applique les effets suivants à l’Identité avec l’ordre de Déploiement le plus tôt :\n- Si la Réson. de Luxure est impaire, inflige +1 d’Intensité de [Laceration] supplémentaire\n- Si la Réson. de Luxure est paire, inflige +1 d’Intensité de [Sinking] supplémentaire\n- Si cette Identité est de la faction de l’Annulaire, elle gagne 1 [AttackUp] ou 1 [DefenseUp] au Début du Combat"
+    },
+    {
+      "id": 1071502,
+      "name": "Le Livre des Vengeances",
+      "desc": "Lorsque cette unité ou le moindre allié de la faction du Majeur est touché par un ennemi, inflige 1 [VendettaMark] à cet ennemi et gagne 1 [VengeanceBookHeathcliff] (une fois par Capacité)\nMort Alliée : gagne 3 [VengeanceBookHeathcliff]"
+    },
+    {
+      "id": 1071512,
+      "name": "Le Livre des Vengeances",
+      "desc": "Lorsque cette unité ou le moindre allié de la faction du Majeur est touché par un ennemi, inflige 1 [VendettaMark] à cet ennemi et gagne 1 [VengeanceBookHeathcliff] (une fois par Capacité)\nMort Alliée : gagne 3 [VengeanceBookHeathcliff]\n\n<style=\"highlight\">Début du Tour : à 15 [MiddleFingerTattooID] ou plus, applique les effets suivants :\n- Remplace une Capacité de Base par “ANNIHILATION TOTALE ET ABSOLUE !!!” (priorise la Capacité sur l’Emplacement le plus à gauche de la rangée inférieure du Tableau de Bord)\n· Si la Capacité remplacée devient inaccessible suite au remplacement d’une Capacité différente, active encore l’effet ci-dessus\n- Change la musique de combat jusqu’à la Fin du Tour (exclut certains Affrontements)\n\nDébut du Combat au Tour où cette unité a Substitué ou est Revenue sur le terrain : utilise “MES COUPONS DE COIFFUUUUUUUURE !!!” sur une cible aléatoire\n- Fin de l’Attaque de cette Capacité : applique 1 [AttackUp] et 1 [DefenseUp] à tous les alliés de la faction du Majeur</style>"
+    },
+    {
+      "id": 1071503,
+      "name": "Résonance de Tatouage de Vengeance",
+      "desc": "Début du Combat : les alliés de la faction du Majeur ayant équipé des Capacités Défensives subissent -20% de dégâts d’Attaques à Sens Unique pour ce tour\n\nDébut du Combat : à 4 de Réson. d’Envie ou plus, les alliés de la faction du Majeur adjacents à cette unité sur le Tableau de Bord ne peuvent pas être Déséquilibrés par des dégâts tant qu’ils ont des Capacités de Riposte utilisables équipées sur leurs Emplacements (exclut les Déséquilibres Forcés)\n- À 6 de Réson. d’Envie ou plus, cet effet s’applique à tous les alliés de la faction du Majeur"
+    },
+    {
+      "id": 1071501,
+      "name": "Le Cadet",
+      "desc": "Début du Combat : gagne 1 [MiddleFingerTattooID] par Réson. d’Envie (7 max)\n\nSi un ennemi a attaqué le moindre allié de la faction du Majeur, cette unité incluse, utilise “Coup de Pied” sur cet ennemi en Attaque à Sens Unique à la Fin de l’Attaque de la Capacité de cet ennemi (une fois par tour)"
+    },
+    {
+      "id": 1071521,
+      "name": "Chaînes de Loyauté",
+      "desc": "Si le moindre allié de la faction du Majeur est tué durant le combat de ce tour, tous les alliés de la faction du Majeur gagnent 1 [Enhancement] ce tour et au prochain tour (une fois par tour)"
     }
   ]
 }

@@ -38,7 +38,7 @@
     {
       "id": 2030211,
       "name": "Vague de Dépression",
-      "desc": "La cible de la Capacité la plus à droite du Tableau de Bord perd (2 * Réson.-A de Peine) PSM à la Fin de l’Attaque de la Capacité (les cibles qui n’ont pas de PSM subissent des dégâts de Peine à la place)"
+      "desc": "La cible de la Capacité la plus à droite du Tableau de Bord perd (2 * Réson.-A de Peine) PSM à la Fin de l’Attaque de la Capacité (les cibles qui sont des Unités sans-PSM subissent des dégâts de Peine à la place)"
     },
     {
       "id": 2040111,
@@ -148,7 +148,7 @@
     {
       "id": 2120211,
       "name": "Asticots",
-      "desc": "En Touche, a (Réson.-A de Gourmandise * 8)% de chances d’infliger 5 [MuckWorm]"
+      "desc": "En Touche, a (Réson.-A de Gourmandise * 8)% de chances d’infliger 5 [Muckworm]"
     },
     {
       "id": 2120311,
@@ -278,7 +278,7 @@
     {
       "id": 2100511,
       "name": "Prophétie de la Ruine",
-      "desc": "En Touche Pile avec une Capacité d’Affinité Luxure, diminue de 4 les PSM de cette unité et de la cible\n(Ne fonctionne pas sur les cibles sans Santé Mentale)\nGagne 5 ressources E.G.O. de Luxure en Tuant avec une Capacité d’Affinité Luxure"
+      "desc": "En Touche Pile avec une Capacité d’Affinité Luxure, diminue de 4 les PSM de cette unité et de la cible\n(Ne fonctionne pas sur les cibles qui sont des Unités sans-PSM)\nGagne 5 ressources E.G.O. de Luxure en Tuant avec une Capacité d’Affinité Luxure"
     },
     {
       "id": 2090511,
@@ -549,6 +549,11 @@
       "id": 2021011,
       "name": "Braises Animées",
       "desc": "Cet effet se déclenche immédiatement après avoir utilisé cette Capacité E.G.O.\n\nToutes les 10 [Combustion] sur soi, augmente l’Intensité de [Combustion] infligée aux ennemis avec les effets de Capacité Offensive de Base et les effets de Pièce de cette unité de 1 (2 max, exclut les “Brûlures Uniques”)\n\nLorsque cette unité utilise la Capacité “Syntonie Max E.F.A 【Érosion Dégradée】”, cette unité ne meurt pas à la Fin de l’Attaque de la Capacité ; à la place, regagne 40% de PV et gagne 2 [HitDamageUp] et 1 [CrimsonDamageUp] au prochain tour (une fois par Affrontement)"
+    },
+    {
+      "id": 2090911,
+      "name": "Ce Qui Distingue les Phalènes des Papillons",
+      "desc": "Si la Capacité Offensive la plus à gauche de cette unité sur le Tableau de Bord est une Capacité de Colère ou de Luxure, à la Fin de l’Attaque, inflige 30% des dégâts infligés contre la cible principale avec cette Capacité en dégâts de l’Affinité correspondante à un ennemi aléatoire (30 dégâts max ; en Affrontements Ciblés, une Partie)\n\nSi cette unité a infligé le maximum possible de dégâts avec l’effet ci-dessus, gagne 1 Bonus de DGT de l’Affinité correspondante au prochain tour et empêche l’effet ci-dessus de se déclencher pour les 2 prochains tours"
     }
   ]
 }

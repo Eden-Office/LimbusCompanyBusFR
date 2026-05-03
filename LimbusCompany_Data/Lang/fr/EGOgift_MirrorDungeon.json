@@ -1769,7 +1769,7 @@
     {
       "id": 9065,
       "name": "Sens Artistique",
-      "desc": "Inflige +35% de dégâts contre les ennemis souffrant d’effets de statut négatifs (Moral Bas, Panique) venant de perte de PSM.\n\nSi la Capacité inflige de l’Intensité ou du Compte de [Sinking] (inclut “Lourdeur Unique”), inflige +10% de dégâts en plus de l’augmentation ci-dessus.\n\nLorsqu’un effet de [Sinking] s’applique à un ennemi sans Santé Mentale, l’Affinité des dégâts est changée en ce qui est le plus efficace.",
+      "desc": "Inflige +35% de dégâts contre les ennemis souffrant d’effets de statut négatifs (Moral Bas, Panique) venant de perte de PSM.\n\nSi la Capacité inflige de l’Intensité ou du Compte de [Sinking] (inclut “Lourdeur Unique”), inflige +10% de dégâts en plus de l’augmentation ci-dessus.\n\nLorsqu’un effet de [Sinking] s’applique à un ennemi qui est une Unité sans-PSM, l’Affinité des dégâts est changée en ce qui est le plus efficace.",
       "simpleDesc": [
         {
           "abilityID": 9065,
@@ -1784,7 +1784,7 @@
     {
       "id": 19065,
       "name": "Sens Artistique+",
-      "desc": "<style=\"upgradeHighlight\">Inflige +40% de dégâts contre les ennemis avec moins de 0 PSM.</style>\n\nSi la Capacité inflige de l’Intensité ou du Compte de [Sinking] (inclut “Lourdeur Unique”), inflige +10% de dégâts en plus de l’augmentation ci-dessus.\n\nLorsqu’un effet de [Sinking] s’applique à un ennemi sans Santé Mentale, l’Affinité des dégâts est changée en ce qui est le plus efficace.",
+      "desc": "<style=\"upgradeHighlight\">Inflige +40% de dégâts contre les ennemis avec moins de 0 PSM.</style>\n\nSi la Capacité inflige de l’Intensité ou du Compte de [Sinking] (inclut “Lourdeur Unique”), inflige +10% de dégâts en plus de l’augmentation ci-dessus.\n\nLorsqu’un effet de [Sinking] s’applique à un ennemi qui est une Unité sans-PSM, l’Affinité des dégâts est changée en ce qui est le plus efficace.",
       "simpleDesc": [
         {
           "abilityID": 19065,
@@ -1799,7 +1799,7 @@
     {
       "id": 29065,
       "name": "Sens Artistique++",
-      "desc": "<style=\"upgradeHighlight\">Inflige +50% de dégâts contre les ennemis sans PSM ou avec moins de 0 PSM.</style>\n\nSi la Capacité inflige de l’Intensité ou du Compte de [Sinking] (inclut “Lourdeur Unique”), inflige +10% de dégâts en plus de l’augmentation ci-dessus.\n\nLorsqu’un effet de [Sinking] s’applique à un ennemi sans Santé Mentale, l’Affinité des dégâts est changée en ce qui est le plus efficace.",
+      "desc": "<style=\"upgradeHighlight\">Inflige +50% de dégâts contre les ennemis qui sont des Unités sans-PSM ou avec moins de 0 PSM.</style>\n\nSi la Capacité inflige de l’Intensité ou du Compte de [Sinking] (inclut “Lourdeur Unique”), inflige +10% de dégâts en plus de l’augmentation ci-dessus.\n\nLorsqu’un effet de [Sinking] s’applique à un ennemi qui est une Unité sans-PSM, l’Affinité des dégâts est changée en ce qui est le plus efficace.",
       "simpleDesc": [
         {
           "abilityID": 29065,
@@ -2280,22 +2280,26 @@
     {
       "id": 9084,
       "name": "Ancienne Effigie",
-      "desc": "Début du Tour : sélectionne l’un des alliés les plus rapides et lui applique 5 [Agility] au prochain tour.\n\nProchain Début du Tour : sélectionne l’un des autres alliés les plus rapides (alliés sans l’effet d’Ancienne Effigie) et applique sur lui à nouveau l’effet du Don. (L’effet expire si aucun autre allié ne peut être sélectionné)",
+      "desc": "Début du Tour : sélectionne l’un des alliés les plus rapides et lui applique 5 [Agility] au prochain tour.\n\nProchain Début du Tour : sélectionne l’un des autres alliés les plus rapides (alliés sans l’effet d’Ancienne Effigie) et applique sur lui à nouveau l’effet du Don. (L’effet expire si aucun autre allié ne peut être sélectionné)\n\nÀ 10 de Vitesse ou plus, l’allié gagne (différence de Vitesse avec la cible / 2) Niveaux Offensifs (5 max ; arrondi à l’inférieur)",
       "simpleDesc": [
         {
           "abilityID": 9084,
           "simpleDesc": "Gagne 5 [Agility]"
+        },
+        {
+          "abilityID": 90841,
+          "simpleDesc": "Gagne (différence de Vitesse avec la cible / 2) Niveaux Offensifs"
         }
       ]
     },
     {
       "id": 9085,
       "name": "Accord de Non-Divulgation",
-      "desc": "Début du Tour : un allié aléatoire inflige +10% de dégâts (en vigueur jusqu’à ce que l’effet d’Accord de Non-Divulgation expire).\n\nL’allié inflige +10% de dégâts supplémentaires chaque fois qu’il touche avec une Capacité et inflige des dégâts de PV à un ennemi (+40% de dégâts Max). Si l’allié subit des dégâts, l’effet du Don expire. Au prochain Début du Tour, applique le même effet de Don à un autre allié aléatoire. (L’effet expire si aucun autre allié ne peut être sélectionné)",
+      "desc": "Début du Tour : un allié aléatoire inflige +10% de dégâts et gagne du Bouclier égal à 49% des PV max (en vigueur jusqu’à ce que l’effet d’Accord de Non-Divulgation expire).\n\nL’allié inflige +10% de dégâts supplémentaires chaque fois qu’il touche avec une Capacité et inflige des dégâts de PV à un ennemi (+40% de dégâts max)\n\nSi l’allié subit des dégâts, l’effet du Don expire. Au prochain Début du Tour, applique le même effet de Don à un autre allié aléatoire. (le bonus de dégâts accumulé est conservé ; l’effet expire si aucun autre allié ne peut être sélectionné)",
       "simpleDesc": [
         {
           "abilityID": 9085,
-          "simpleDesc": "Inflige +10% de dégâts"
+          "simpleDesc": "Inflige +10% de dégâts ; gagne du Bouclier égal à 49% de PV max"
         }
       ]
     },
@@ -2522,7 +2526,7 @@
     {
       "id": 9094,
       "name": "Transe Fascinante",
-      "desc": "Début du Tour : ce Don s’active durant tout l’Affrontement lorsque 5 Identités ou plus ont des Capacités Offensives qui infligent de l’Intensité ou du Compte de [Burst]. (Exclut les Capacités E.G.O. ; exclut les Unités de Renfort)\n\nEn touchant un ennemi avec une Capacité, inflige 5 d’Intensité de [Burst].\n\nLorsque le Compte de [Burst] d’un ennemi tombe en-dessous de 1, consomme 10 d’Intensité de [Burst] au lieu du Compte de [Burst]. (Cet effet prend fin lorsque l’Intensité de [Burst] tombe en-dessous de 10)\n\nSi la cible a moins de 3 de Compte de [Burst], inflige +1 de Compte supplémentaire en infligeant du Compte de [Burst]. (3 fois par Affrontement)",
+      "desc": "Début du Tour : ce Don s’active durant tout l’Affrontement lorsque 5 Identités ou plus ont des Capacités Offensives qui infligent de l’Intensité ou du Compte de [Burst]. (Exclut les Capacités E.G.O. ; exclut les Unités de Renfort)\n\nEn touchant un ennemi avec une Capacité, inflige 5 d’Intensité de [Burst]\n- Capacités qui infligent de l’Intensité ou du Compte de [Burst] : inflige 3 d’Intensité de [Burst] et +1 de Compte de [Burst] supplémentaire (une fois par Capacité)\n\nLorsque le Compte de [Burst] d’un ennemi tombe en dessous de 1, consomme 10 d’Intensité de [Burst] au lieu du Compte de [Burst]. (Cet effet prend fin lorsque l’Intensité de [Burst] tombe en dessous de 10)\n\nSi la cible a moins de 3 de Compte de [Burst], inflige +1 de Compte supplémentaire en infligeant du Compte de [Burst]. (3 fois par Affrontement)",
       "simpleDesc": [
         {
           "abilityID": 9094,
@@ -2574,7 +2578,7 @@
     {
       "id": 9096,
       "name": "Partition Noire",
-      "desc": "Début du Tour : ce Don s’active durant tout l’Affrontement lorsque 5 Identités ou plus ont des Capacités Offensives qui infligent de l’Intensité ou du Compte de [Sinking] ou une “Lourdeur Unique”. (Exclut les Capacités E.G.O. ; exclut les Unités de Renfort)\n\nEn Touche contre un ennemi avec une Capacité : inflige 5 d’Intensité de [Sinking].\n\nDébut du Tour : les ennemis ou Parties avec [Sinking] regagnent (Compte de [Sinking] que chaque ennemi a perdu En Touche au dernier tour / 2) de Compte de [Sinking].\n\nEn Touche avec une Capacité Offensive de Base : inflige (Intensité de [Sinking] sur la cible / 10) dégâts de Peine (1 dégât min)\n\nEn Touche avec une Capacité Offensive : si les PSM de la cible sont inférieurs à 0, la Capacité inflige plus de dégâts par PSM en-dessous de 0 (+1% de dégât par PSM)\n- Si la cible est Paniquée, inflige +50% de dégâts à la place\n- Si la cible n’a pas de PSM, inflige +1% de dégât toutes les 2 d’Intensité de [Sinking] sur la cible. Si la cible a 90 d’Intensité de [Sinking] ou plus, inflige +50% de dégâts à la place",
+      "desc": "Début du Tour : ce Don s’active durant tout l’Affrontement lorsque 5 Identités ou plus ont des Capacités Offensives qui infligent de l’Intensité ou du Compte de [Sinking] ou une “Lourdeur Unique”. (Exclut les Capacités E.G.O. ; exclut les Unités de Renfort)\n\nEn Touche contre un ennemi avec une Capacité : inflige 5 d’Intensité de [Sinking].\n\nDébut du Tour : les ennemis ou Parties avec [Sinking] regagnent (Compte de [Sinking] que chaque ennemi a perdu En Touche au dernier tour / 2) de Compte de [Sinking].\n\nEn Touche avec une Capacité Offensive de Base : inflige (Intensité de [Sinking] sur la cible / 10) dégâts de Peine (1 dégât min)\n\nEn Touche avec une Capacité Offensive : si les PSM de la cible sont inférieurs à 0, la Capacité inflige plus de dégâts par PSM en dessous de 0 (+1% de dégât par PSM)\n- Si la cible est Paniquée, inflige +50% de dégâts à la place\n- Pour les cibles qui sont des Unités sans-PSM : inflige +1% de dégât toutes les 2 d’Intensité de [Sinking] sur la cible. Si la cible a 90 d’Intensité de [Sinking] ou plus, inflige +50% de dégâts à la place",
       "simpleDesc": [
         {
           "abilityID": 9096,
@@ -2754,7 +2758,7 @@
     {
       "id": 9102,
       "name": "Polarisation",
-      "desc": "Si l’allié a 30 PSM de plus que la cible, inflige +7.5% de dégâts avec les Capacités qui infligent de l’Intensité ou du Compte de [Combustion] ou une “Brûlure Unique”. (Pour les ennemis sans PSM, leur PSM comptent pour 0)",
+      "desc": "Si l’allié a 30 PSM de plus que la cible, inflige +7.5% de dégâts avec les Capacités qui infligent de l’Intensité ou du Compte de [Combustion] ou une “Brûlure Unique”. (Pour les ennemis qui sont des Unités sans-PSM, leurs PSM comptent pour 0)",
       "simpleDesc": [
         {
           "abilityID": 9102,
@@ -2765,7 +2769,7 @@
     {
       "id": 19102,
       "name": "Polarisation+",
-      "desc": "Si l’allié a <style=\"upgradeHighlight\">25</style> PSM de plus que la cible, inflige <style=\"upgradeHighlight\">+12.5%</style> de dégâts avec les Capacités qui infligent de l’Intensité ou du Compte de [Combustion] ou une “Brûlure Unique”. (Pour les ennemis sans PSM, leur PSM comptent pour 0)",
+      "desc": "Si l’allié a <style=\"upgradeHighlight\">25</style> PSM de plus que la cible, inflige <style=\"upgradeHighlight\">+12.5%</style> de dégâts avec les Capacités qui infligent de l’Intensité ou du Compte de [Combustion] ou une “Brûlure Unique”. (Pour les ennemis qui sont des Unités sans-PSM, leurs PSM comptent pour 0)",
       "simpleDesc": [
         {
           "abilityID": 19102,
@@ -2776,7 +2780,7 @@
     {
       "id": 29102,
       "name": "Polarisation++",
-      "desc": "Si l’allié a <style=\"upgradeHighlight\">15</style> PSM de plus que la cible, inflige <style=\"upgradeHighlight\">+20%</style> de dégâts avec les Capacités qui infligent de l’Intensité ou du Compte de [Combustion] ou une “Brûlure Unique”. (Pour les ennemis sans PSM, leur PSM comptent pour 0)",
+      "desc": "Si l’allié a <style=\"upgradeHighlight\">15</style> PSM de plus que la cible, inflige <style=\"upgradeHighlight\">+20%</style> de dégâts avec les Capacités qui infligent de l’Intensité ou du Compte de [Combustion] ou une “Brûlure Unique”. (Pour les ennemis qui sont des Unités sans-PSM, leurs PSM comptent pour 0)",
       "simpleDesc": [
         {
           "abilityID": 29102,
@@ -4075,11 +4079,7 @@
         },
         {
           "abilityID": 91471,
-          "simpleDesc": "Duel Gagné : inflige +(2.5(# de Duels + # de Pièces restantes))% de dégâts. (35% max)"
-        },
-        {
-          "abilityID": 91472,
-          "simpleDesc": "Gagne 4 [PenetrateDamageUp] au prochain tour"
+          "simpleDesc": "Capacités Offensives Perçantes infligent plus de dégâts ; inflige plus de dégâts selon la différence de Vitesse"
         }
       ]
     },
@@ -4161,11 +4161,11 @@
     {
       "id": 29149,
       "name": "Pansement Compressif++",
-      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées #5 et #6]\n\nEn touchant un ennemi avec une Capacité Contondante, inflige <style=\"upgradeHighlight\">3~7</style> dégâts Contondants supplémentaires.\n\nCapacité Offensive d’Affinité de Peine : se soigne également de <style=\"upgradeHighlight\">6</style> PV supplémentaires.",
+      "desc": "[Les effets s’appliquent uniquement aux Identités Déployées #5 et #6]\n\nEn touchant un ennemi avec une Capacité Contondante, inflige <style=\"upgradeHighlight\">5~7</style> dégâts Contondants supplémentaires\n\nCapacités Offensives de Peine : se soigne également de <style=\"upgradeHighlight\">6</style> PV supplémentaires.",
       "simpleDesc": [
         {
           "abilityID": 29149,
-          "simpleDesc": "Inflige 3~7 dégâts Contondants supplémentaires"
+          "simpleDesc": "Inflige 5~7 dégâts Contondants supplémentaires"
         },
         {
           "abilityID": 291491,
@@ -4430,7 +4430,7 @@
     {
       "id": 9169,
       "name": "Menottes en Corde Épineuse",
-      "desc": "Début du Tour : ce Don s’active durant tout l’Affrontement lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent de l’Intensité ou du Compte de [Burst]. (Exclut les Capacités E.G.O. ; exclut les Unités de Renfort)\n\nLorsque le Compte de [Burst] d’un ennemi tombe en-dessous de 1 durant le combat, consomme 20 d’Intensité de [Burst] au lieu de Compte de [Burst] à la place (cependant, à moins de 20 d’Intensité de [Burst], cet effet cesse)\n\nEn Touche, lorsque la cible a 1 de Compte de [Burst] en combat, inflige +1 de Compte de [Burst] supplémentaire (2 fois par Affrontement)",
+      "desc": "Début du Tour : ce Don s’active durant tout l’Affrontement lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent de l’Intensité ou du Compte de [Burst]. (Exclut les Capacités E.G.O. ; exclut les Unités de Renfort)\n\nLorsque le Compte de [Burst] d’un ennemi tombe en dessous de 1 durant le combat, consomme 20 d’Intensité de [Burst] au lieu de Compte de [Burst] à la place (cependant, à moins de 20 d’Intensité de [Burst], cet effet cesse)\n\nEn Touche, lorsque la cible a 1 de Compte de [Burst] en combat, inflige +1 de Compte de [Burst] supplémentaire (2 fois par Affrontement)",
       "simpleDesc": [
         {
           "abilityID": 9169,
@@ -4445,7 +4445,7 @@
     {
       "id": 9174,
       "name": "Os Emmêlés",
-      "desc": "Début du Tour : ce Don s’active durant tout l’Affrontement lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent de l’Intensité ou du Compte de [Sinking] ou de “Lourdeur Unique”. (Exclut les Capacités E.G.O. ; exclut les Unités de Renfort)\n\nDébut du Tour : les ennemis avec [Sinking](pour les Anomalies, toutes leurs Parties) regagnent (Compte de [Sinking] perdu En Touche au dernier tour / 3) de Compte de [Sinking].\n\nSi la Capacité Offensive de Base touche une cible avec moins de 0 PSM (pour les ennemis sans PSM, s’ils ont 1.5 de Résist. de Peine ou plus), inflige (Intensité de [Sinking] / 10) dégâts d’Affinité de Peine (1 min, 10 fois par tour pour cet effet)",
+      "desc": "Début du Tour : ce Don s’active durant tout l’Affrontement lorsque 5 Identités ou plus ont des Capacités Offensives qui appliquent de l’Intensité ou du Compte de [Sinking] ou de “Lourdeur Unique”. (Exclut les Capacités E.G.O. ; exclut les Unités de Renfort)\n\nDébut du Tour : les ennemis avec [Sinking](pour les Anomalies, toutes leurs Parties) regagnent (Compte de [Sinking] perdu En Touche au dernier tour / 3) de Compte de [Sinking].\n\nSi la Capacité Offensive de Base touche une cible avec moins de 0 PSM (pour les ennemis qui sont des Unités sans-PSM, s’ils ont 1.5 de Résist. de Peine ou plus), inflige (Intensité de [Sinking] / 10) dégâts d’Affinité de Peine (1 min, 10 fois par tour pour cet effet)",
       "simpleDesc": [
         {
           "abilityID": 9174,

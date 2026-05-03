@@ -724,6 +724,193 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2090911,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vers le Crépuscule",
+          "abName": "Voyageur Crépusculaire",
+          "desc": "[EndSkill] Rend 5% de PV à 2 alliés ayant les plus petits pourcentages de PV actuels et applique 2 [ScarletMothRodion] à ces alliés (minimum de PV soignés : 1)\n- Soigne (Réson. de Luxure - 1) alliés supplémentaires (2 alliés max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Vers le Crépuscule",
+          "abName": "Voyageur Crépusculaire",
+          "desc": "<style=\"highlight\">[WhenUse] +1 de Puissance de Duel tous les 6 ([Combustion] + [Laceration]) sur toutes les cibles (2 max)</style>\n[EndSkill] Rend <style=\"highlight\">8%</style> de PV à 2 alliés ayant les plus petits pourcentages de PV actuels et applique 2 [ScarletMothRodion] à ces alliés (minimum de PV soignés : 1)\n- Soigne (Réson. de Luxure - 1) alliés supplémentaires (2 alliés max)\n<style=\"highlight\">- Si l’allié soigné a une Capacité de Luxure équipée, rend également 3 PSM à cet allié</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Vers le Crépuscule",
+          "abName": "Voyageur Crépusculaire",
+          "desc": "[WhenUse] +1 de Puissance de Duel tous les 6 ([Combustion] + [Laceration]) sur toutes les cibles (2 max)\n[EndSkill] Rend <style=\"highlight\">10%</style> de PV à 2 alliés ayant les plus petits pourcentages de PV actuels et applique 2 [ScarletMothRodion] à ces alliés (minimum de PV soignés : 1)\n- Soigne (Réson. de Luxure - 1) alliés supplémentaires (2 alliés max)\n- Si l’allié soigné a une Capacité de Luxure équipée, rend également <style=\"highlight\">6</style> PSM à cet allié",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[EndCoin] Inflige 1 [CrimsonTakeDamageUp] et 1 [ScarletTakeDamageUp] au prochain tour aux cibles touchées</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090921,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vers le Crépuscule",
+          "abName": "Voyageur Crépusculaire",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[BeforeAttack] Inflige +5% de dégâts tous les 4 ([Combustion] + [Laceration]) sur toutes les cibles (15% max)\n[BeforeAttack] -6 de Puissance de Base par Pièce Fissurée (-12 max)\n[EndSkill] Applique 1 [ScarletMothRodion] 3 fois entre des alliés aléatoires",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[EndCoin] Inflige 1 [CrimsonTakeDamageUp] au prochain tour aux cibles touchées (une fois par tour)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[EndCoin] Inflige 1 [ScarletTakeDamageUp] au prochain tour aux cibles touchées (une fois par tour)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Vers le Crépuscule",
+          "abName": "Voyageur Crépusculaire",
+          "desc": "[CantIdentify]\nCible aléatoirement\n[BeforeAttack] Inflige +5% de dégâts tous les 4 ([Combustion] + [Laceration]) sur toutes les cibles (15% max)\n<style=\"highlight\">- S’il y a une Réson.-A de Colère ou de Luxure, inflige +10% de dégâts supplémentaires</style>\n[BeforeAttack] -6 de Puissance de Base par Pièce Fissurée (-12 max)\n[EndSkill] Applique 1 [ScarletMothRodion] <style=\"highlight\">4</style> fois entre des alliés aléatoires",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[EndCoin] Inflige 1 [CrimsonTakeDamageUp] au prochain tour aux cibles touchées (une fois par tour)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[EndCoin] Inflige 1 [ScarletTakeDamageUp] au prochain tour aux cibles touchées (une fois par tour)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Vers le Crépuscule",
+          "abName": "Voyageur Crépusculaire",
+          "desc": "[CantIdentify]\nCible aléatoirement\n<style=\"highlight\">[BeforeAttack] Inflige +10% de dégâts tous les 4 ([Combustion] + [Laceration]) sur toutes les cibles (30% max)</style>\n- S’il y a une Réson.-A de Colère ou de Luxure, inflige <style=\"highlight\">+20%</style> de dégâts supplémentaires\n<style=\"highlight\">[BeforeAttack] -5 de Puissance de Base par Pièce Fissurée (-10 max)</style>\n[EndSkill] Applique 1 [ScarletMothRodion] <style=\"highlight\">5</style> fois entre des alliés aléatoires",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +<style=\"highlight\">2</style> de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[EndCoin] Inflige 1 [CrimsonTakeDamageUp] au prochain tour aux cibles touchées (une fois par tour)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +<style=\"highlight\">2</style> de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[EndCoin] Inflige 1 [ScarletTakeDamageUp] au prochain tour aux cibles touchées (une fois par tour)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
