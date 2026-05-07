@@ -50,6 +50,75 @@
       "name": "Tribulation",
       "desc": "- +25% de PV max\n- Les Capacités infligent +1 d’Intensité de Saignement, d’Intensité de Lourdeur, de Couleur Mutilée [Rouge] et de Couleur Mutilée [Bleu]\n- Si la cible a Palette Vibrante, +2 de Puissance de Duel et +1 de Puissance de Base\n- [Effet exclusif de Phase 2] Début du Tour : si cette unité va utiliser “Fait Jaillir le Pourpre Palpitant sous Ta Peau” pendant ce tour, regagne 10 PSM par Pécheur ayant Palette Vibrante (30 PSM max)",
       "summary": "Inflige plus d’Intensité de Saignement, d’Intensité de Lourdeur et de Couleur Mutilée\nSi la cible a Palette Vibrante, gagne de la Puissance de Duel et de Base"
+    },
+    {
+      "id": "FavorBuff5001FirstPhaseForUI",
+      "name": "Teinte de Reflet [Le Majeur]",
+      "desc": "- Début de l’Affrontement : si 4 Identités de la <color=#f8c200>faction du Majeur</color> ou plus sont sur le terrain, active les effets suivants :\n · Les premier et deuxième <color=#f8c200>comportements</color> de Ricardo <color=#f8c200>changent</color>\n · <color=#f8c200>Gagne 2 Ressources E.G.O. de toutes les Affinités</color>\n- Les effets de Capacité de Ricardo <color=#f8c200>n’infligent pas de Paralysie</color> aux Identités ayant des <color=#f8c200>Capacités Défensives équipées</color>\n- Les Capacités Offensives d’Identités qui sont des Capacités d’<color=#f8c200>Envie</color> ou des Capacités qui infligent du <color=#f8c200>Saignement ou du “Saignement Unique”</color> infligent +30% de dégâts (pour les Capacités E.G.O., infligent +100% de dégâts à la place)\n- Début du Combat : en <color=#f8c200>Réson.-A</color>, gagne <color=#f8c200>1 ressource E.G.O. la moins possédée 4 fois</color>"
+    },
+    {
+      "id": "FavorBuff5001SecondPhaseForUI",
+      "name": "Teinte de Reflet [Embuscade]",
+      "desc": "- Les Capacités Offensives d’Identités qui sont des Capacités de <color=#f8c200>Gourmandise</color> ou des Capacités qui infligent de la <color=#f8c200>Déchirure</color> infligent +25% de dégâts (pour les Capacités E.G.O., infligent +100% de dégâts à la place)\n- Les Identités de la <color=#f8c200>H Corp.</color> infligent +15% de dégâts et subissent -30% de dégâts\n- Début du Combat : en <color=#f8c200>Réson.-A</color>, gagne <color=#f8c200>1 ressource E.G.O. la moins possédée 4 fois</color>\n- Si la Vitesse de l’attaquant est plus rapide que celle de Ricardo lorsqu’il est <color=#f8c200>Déséquilibré</color>, Ricardo subit <color=#f8c200>+(différence de Vitesse * 2)% de dégâts</color> (20% max)"
+    },
+    {
+      "id": "FavorBuff5001HardForUI",
+      "name": "Tribulation",
+      "desc": "- +25% de <color=#ff0000>PV max</color>\n- Les Capacités infligent +20% de dégâts\n- [Effet Exclusif de Phase 2]\n · Les PSM de Ricardo et de ses Adelphes ne descendent pas en dessous de 0\n · Début du Tour : inflige 2 “Écrit dans le Livre” à tous les ennemis ayant attaqué Ricardo au tour précédent"
+    },
+    {
+      "id": "FavorBuff5001AllyFirst",
+      "name": "Teinte de Reflet [Le Majeur]",
+      "desc": "- Début de l’Affrontement : si 4 Identités de la <color=#f8c200>faction du Majeur</color> ou plus sont sur le terrain, gagne 2 Ressources E.G.O. de toutes les Affinités\n- Les Capacités Offensives d’Identités qui sont des Capacités d’<color=#f8c200>Envie</color> ou des Capacités qui infligent du <color=#f8c200>Saignement ou du “Saignement Unique”</color> infligent +30% de dégâts (pour les Capacités E.G.O., infligent +100% de dégâts à la place)\n- Début du Combat : en <color=#f8c200>Réson.-A</color>, gagne <color=#f8c200>1 ressource E.G.O. la moins possédée 4 fois</color>",
+      "summary": "Les Capacités de Saignement infligent plus de dégâts"
+    },
+    {
+      "id": "FavorBuff5001EnemyFirst",
+      "name": "Teinte de Reflet [Le Majeur]",
+      "desc": "- Début de l’Affrontement : si 4 Identités de la <color=#f8c200>faction du Majeur</color> ou plus sont sur le terrain, les premier et deuxième <color=#f8c200>comportements</color> de Ricardo <color=#f8c200>changent</color>\n- Les effets de Capacité de Ricardo <color=#f8c200>n’infligent pas de Paralysie</color> aux Identités ayant des <color=#f8c200>Capacités Défensives équipées</color>",
+      "summary": "N’inflige pas de Paralysie aux Identités ayant équipé des Capacités Défensives"
+    },
+    {
+      "id": "FavorBuff5001AllyTwo",
+      "name": "Teinte de Reflet [Embuscade]",
+      "desc": "- Les Capacités Offensives d’Identités qui sont des Capacités de <color=#f8c200>Gourmandise</color> ou des Capacités qui infligent de la <color=#f8c200>Déchirure</color> infligent +25% de dégâts (pour les Capacités E.G.O., infligent +100% de dégâts à la place)\n- Les Identités de la <color=#f8c200>H Corp.</color> infligent +15% de dégâts et subissent -30% de dégâts\n- Début du Combat : en <color=#f8c200>Réson.-A</color>, gagne <color=#f8c200>1 ressource E.G.O. la moins possédée 4 fois</color>",
+      "summary": "Les Capacités de Gourmandise infligent plus de dégâts"
+    },
+    {
+      "id": "FavorBuff5001EnemySecond",
+      "name": "Teinte de Reflet [Embuscade]",
+      "desc": "- Si la Vitesse de l’attaquant est plus rapide que celle de Ricardo lorsqu’il est <color=#f8c200>Déséquilibré</color>, Ricardo subit <color=#f8c200>+(différence de Vitesse * 2)% de dégâts</color> (20% max)",
+      "summary": "Subit plus de dégâts selon la différence de Vitesse"
+    },
+    {
+      "id": "FavorBuff5001Hard",
+      "name": "Tribulation",
+      "desc": "- +25% de <color=#ff0000>PV max</color>\n- Les Capacités infligent +20% de dégâts",
+      "summary": "Tribulation de Difficulté Difficile"
+    },
+    {
+      "id": "FavorBuff5001HardTwo",
+      "name": "Tribulation",
+      "desc": "- +25% de <color=#ff0000>PV max</color>\n- Les Capacités infligent +20% de dégâts\n- [Effet Exclusif de Phase 2]\n · Les PSM de Ricardo et de ses Adelphes ne descendent pas en dessous de 0\n · Début du Tour : inflige 2 “Écrit dans le Livre” à tous les ennemis ayant attaqué Ricardo au tour précédent",
+      "summary": "Tribulation de Difficulté Difficile"
+    },
+    {
+      "id": "RicardoBookRaid",
+      "name": "Écrit dans le Livre",
+      "desc": "Instance max : 30\nSubit +3% de dégâts par Instance",
+      "summary": ""
+    },
+    {
+      "id": "RicardoTattooRaid",
+      "name": "Tatouage de Vengeance",
+      "desc": "Instance max : 300\nLes Capacités gagnent +1 Niveau Offensif toutes les 10 Instances",
+      "summary": ""
+    },
+    {
+      "id": "RicardoJokeRaid",
+      "name": "Test du Cadet",
+      "desc": "Fin du Tour : perd 1 Instance\nTant que cet effet est actif, double les dégâts subis de Capacités et double la quantité de seuil de Déséquilibre augmentée par les Sursauts de Tremblement",
+      "summary": ""
     }
   ]
 }

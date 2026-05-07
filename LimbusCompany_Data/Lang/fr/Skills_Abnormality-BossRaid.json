@@ -1,0 +1,385 @@
+{
+    "dataList": [
+        {
+            "id": 500101,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Coup de Poing",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 3 dégâts Contondants supplémentaires"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 3 dégâts Contondants supplémentaires"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 3 [Paralysis]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 500102,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Coup de Pied",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 5 dégâts Contondants supplémentaires"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 5 dégâts Contondants supplémentaires"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 3 [Paralysis] au prochain tour"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 500103,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Vengeance",
+                    "coinlist": [
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] La cible perd 5 PSM"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 500104,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Surveillez Vos Arrières !",
+                    "desc": "Si la cible a moins de 0 PSM, +3 de Puissance de Pièce",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Regagne 10 PSM"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 2 [Binding] et 2 [Reduction] au prochain tour"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] La cible perd 20 PSM"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 500105,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Rassemblement",
+                    "desc": "[StartBattle] Invoque 2 alliés au prochain tour",
+                    "coinlist": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 500106,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Rendez ça Mémorable",
+                    "desc": "",
+                    "coinlist": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 500107,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "MES COUPONS DE COIFFUUUUUUUURE !!!",
+                    "desc": "[DefeatDuel] Inflige -30% de dégâts finaux et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] Augmente le Seuil de Déséquilibre de 30"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [Paralysis] au prochain tour"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Réduit le [RicardoBookRaid] sur la cible de 5"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 500108,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Souffrance Promise",
+                    "desc": "Priorise les cibles ayant le plus d’Instances de [RicardoBookRaid]\n[WhenUse] Si la cible a <color=#ff6000><mark=#ff000040><b><u>3 [RicardoBookRaid] ou plus,</u></b></mark></color> convertit toutes les Pièces de cette Capacité en [SuperCoin]s",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 1 [Vulnerable] ce tour et au prochain tour"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige 1 [Vulnerable] ce tour et au prochain tour"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige ([RicardoBookRaid] sur la cible * 3) dégâts Contondants supplémentaires"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Réduit le [RicardoBookRaid] sur la cible de 3"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 500109,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Assez Joué",
+                    "desc": "[StartBattle] Regagne 20 PSM\n[EndBattle] Gagne 5 [Enhancement] au prochain tour",
+                    "coinlist": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 500110,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "ANNIHILATION TOTALE ET ABSOLUE !!!",
+                    "desc": "[DefeatDuel] Inflige -30% de dégâts finaux et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] Inflige des dégâts égaux à 3% des PV max de la cible par [RicardoBookRaid] sur la cible"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Réduit le [RicardoBookRaid] sur la cible de 10"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 500111,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Ah, T’Étais Un de la Mif",
+                    "desc": "[StartBattle] Toutes les unités de la faction du Majeur gagnent 10 PSM",
+                    "coinlist": [
+                        {},
+                        {},
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 500112,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "TU M’AS PIÉGÉ, HEIN ??!!",
+                    "desc": "[StartBattle] Perd 20 PSM\n[StartBattle] Gagne 6 [AttackUp]\n[StartBattle] Gagne 4 [Vulnerable]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 500113,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Jurer Vengeance",
+                    "desc": "[EndBattle] Gagne 3 [AttackUp] au prochain tour\n- Si l’Emplacement de cette Capacité <color=#ff6000><mark=#ff000040><b><u>est une cible principale d’une Capacité Offensive</u></b></mark></color>, gagne 1 Instance de [AttackUp] en moins avec cet effet",
+                    "coinlist": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 500114,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "ANNIHILATION IMMÉDIATE, TOTALE ET ABSOLUE !",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige des dégâts égaux à 1% des PV max de la cible par [RicardoBookRaid] sur la cible"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige des dégâts égaux à 1% des PV max de la cible par [RicardoBookRaid] sur la cible"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Inflige des dégâts égaux à 1% des PV max de la cible par [RicardoBookRaid] sur la cible"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 500115,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Plus De Tests",
+                    "desc": "[WhenUse] Gagne 3 [HitDamageUp] au prochain tour\n[WhenUse] Si la cible principale a <color=#ff6000><mark=#ff000040><b><u>5 [RicardoBookRaid] ou plus</u></b></mark></color>, convertit toutes les Pièces de cette Capacité en [SuperCoin]s",
+                    "coinlist": [
+                        {},
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 500116,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Miséricorde du Cadet",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Réduit le [RicardoBookRaid] sur la cible de 10</u></b></mark></color>"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Déséquilibre la cible</u></b></mark></color>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 500301,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Saisir sa Chance",
+                    "desc": "[BeforeHit] Gagne 5 de Bouclier par [MiddleFingerBook] sur la cible (une fois par tour ; 50 max)\n[WhenUse] Si la cible a 5 [MiddleFingerBook] ou plus, +3 de Puissance de Base ; inflige 4 [DefenseDown]",
+                    "coinlist": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 500401,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Punition Multiple",
+                    "desc": "",
+                    "coinlist": [
+                        {}
+                    ]
+                }
+            ]
+        }
+    ]
+}
