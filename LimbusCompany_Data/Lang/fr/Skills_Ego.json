@@ -864,6 +864,24 @@
               ]
             }
           ]
+        },
+        {
+          "level": 5,
+          "name": "Flamme de la 4ème Allumette",
+          "abName": "Fille Brûlée",
+          "desc": "+2 de Puissance de Capacité contre les unités ayant [Combustion]\n<style=\"highlight\">[BeforeAttack]</style> Inflige +5% de dégâts par <style=\"highlight\">somme totale de [Combustion] sur toutes les cibles</style> (100% max)\n[EnemyKill] Gagne 2 [Enhancement] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige (([Combustion] sur la cible * 2)% des dégâts finaux de cette Pièce) dégâts de Colère (20% max)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -908,6 +926,27 @@
           "coinlist": [
             {
               "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "name": "Flamme de la 4ème Allumette",
+          "abName": "Fille Brûlée",
+          "desc": "[CantIdentify]\nCible aléatoirement\n+4 de Puissance de Capacité contre les unités ayant [Combustion]\n<style=\"highlight\">[BeforeAttack]</style> Inflige +5% de dégâts par <style=\"highlight\">somme totale de [Combustion] sur toutes les cibles</style> (100% max)\n<style=\"highlight\">[DefeatDuel] -16 de Puissance de Base</style>\n[EnemyKill] Gagne 3 [Enhancement] au prochain tour\n[EnemyKillFail] Gagne 3 [Enhancement] et 10 [Combustion] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[SuperCoin]</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige (([Combustion] sur la cible * 3)% des dégâts finaux de cette Pièce) dégâts de Colère (30% max)</style>"
+                },
                 {
                   "desc": "[OnSucceedAttack] Inflige 4 [Combustion]<style=\"highlight\"></style>"
                 }

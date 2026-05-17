@@ -2958,6 +2958,39 @@
       "id": 1071521,
       "name": "Chaînes de Loyauté",
       "desc": "Si le moindre allié de la faction du Majeur est tué durant le combat de ce tour, tous les alliés de la faction du Majeur gagnent 1 [Enhancement] ce tour et au prochain tour (une fois par tour)"
+    },
+    {
+      "id": 1041502,
+      "name": "Saikai [再会]",
+      "desc": "En entrant dans l’Affrontement pour la première fois, gagne 0 [SojiRyoshuEchoPast] et 0 [SojiRyoshuEntangle]\n\nEn entrant dans l’Affrontement pour la première fois, toutes les 3 Identités de la Maison d’Araignées dans la Composition (inclut cette unité), augmente le plafond d’Instance Min & Max d’[SojiRyoshuEchoPast] de 1 (3 max)\n\nSi la moindre Identité alliée de la Maison d’Araignées est sur le terrain, transfère les dégâts de PV reçus à l’Identité de la Maison d’Araignée ayant le moins de pourcentage de PV actuel\n\nLorsque cette unité subit des dégâts devant amener ses PV à 0, les PV de cette unité ne descendent pas en dessous de 1 pour ce tour (une fois par Affrontement)\n\nApplique les effets suivants selon la mort alliée de la Maison d’Araignées :\n- Gagne 1 [SojiRyoshuEchoPast]\n- Pour cet Affrontement, gagne des effets supplémentaires selon quelle Identité alliée de la Maison d’Araignées a été vaincue\n · La Maison d’Araignées : Le Garde-père de l’Index Yi Sang : À l’Usage de Capacités Offensives de Base, convertit la Pièce finale en [SuperCoin]. Inflige +10% de dégâts avec les [SuperCoin]s des Capacités Offensives de Base\n · Mandataire de l’Index - E.G.O. Fleuri::Procuration Don Quichotte : À l’Usage de Capacités Offensives de Base, gagne 2 [Breath]. En Critique de Capacités Offensives de Base, inflige 1 [Sinking]\n · La Maison d’Araignées : L’Apprentie du Majeur Ishmaël : +2 Niveaux Défensifs. Inflige +1 d’Intensité de [Combustion] supplémentaire avec les Capacités de Base\n · La Maison d’Araignées : Le Garde-père de l’Annulaire Hong Lu : gagne [MelodyBodyArt]\n · La Maison d’Araignées : L’Apprentie de l’Annulaire Faust : gagne du Bouclier égal à 10% de PV à chaque Début de Tour\n · La Maison d’Araignées : L’Apprenti de l’Auriculaire Sinclair : gagne +1 de Compte de [Breath] et 1 [CriticalDamageUp] à chaque Début de Tour\n\nS’il ne reste plus aucune Identités pouvant Substituer ou Revenir, la Lame de la Maison d’Araignées Ryōshū gagne +1 Emplacement de Capacité tous les 3 alliés de la Maison d’Araignées vaincus (3 fois max)\n- Cet effet ne peut pas augmenter le nombre d’Emplacements de Capacité par-delà le plafond maximal d’Emplacement de Capacité de cet Affrontement\n- Lors de certains contenus du jeu, cet effet peut s’activer qu’importe la restriction d’augmentation d’Emplacement de Capacité du contenu\n\nCette Identité ne compte que comme une Identité qui applique de la [Combustion], du [Laceration] et du [Breath]\n\nLorsque les conditions sont remplies, change la musique de combat pour le reste de l’Affrontement (exclut certains Affrontements)",
+      "summary": "Transfère les dégâts subis aux Identités de la Maison d’Araignées",
+      "flavor": "“Les choses que je crains de revoir reviennent toujours. Les choses que je brûle de revoir ne reviennent jamais.”\n“Voilà pourquoi je dois endurcir mon cœur glacé lors de réunions.”"
+    },
+    {
+      "id": 1041503,
+      "name": "Étoile Dihui [地慧星]",
+      "desc": "À 50 [PhantomIncisionTotalID] ou plus, active “Déchirure Spatiale - Connexion de Fil” contre un ennemi aléatoire à la toute fin de ce tour (une fois par Affrontement)\n- Après avoir utilisé “Déchirure Spatiale - Connexion de Fil” suite à cet effet, applique les effets suivants sur soi :\n· Ne peut pas Battre en Retraite de cet Affrontement\n· Fin du Tour : à 50 [PhantomIncisionTotalID] ou plus, remplace une Capacité de Base avec “Déchirure Spatiale - Résidu” au prochain Début de Tour (priorise la Capacité sur l’Emplacement inférieur le plus à gauche du Tableau de Bord)",
+      "summary": "",
+      "flavor": "“La Lame de l’Étoile Dihui et la Lame de l’Étoile Tiansha. Si non pas une seule mais <i>deux</i> lames forgées d’étoile sont venues à demeurer dans tes mains, alors je suis incité à songer, quel nom d’Étoile pourrait être idéal pour te représenter ?”\n“Ton Garde-père, lui aussi, t’a sûrement transmis le récit contant l’existence d’Étoiles qui, au terminus de convoitise démesurée, furent laissées brisées et dépouillées. Ainsi, je te le suggère, parmi ces deux lames, n’en appointe qu’une comme étant tienne.”"
+    },
+    {
+      "id": 1041504,
+      "name": "Effondrement Spatio-temporel d’Image Résiduelle",
+      "desc": "Début du Tour : inflige [SojiRyoshuEchoFuture] à un ennemi aléatoire (en Affrontements Ciblés, le Noyau)\n- Inflige [SojiRyoshuEchoFuture] à 1 ennemi aléatoire supplémentaire toutes les 3 Identités alliées de la Maison d’Araignées (3 max)\n- Début du Combat : si un ennemi ayant [SojiRyoshuEchoFuture] est la cible principale des Capacités Offensives de Base de cette unité, utilise “Meurtre Inévitable” comme Attaque à Sens Unique avant d’utiliser cette Capacité Offensive de Base (une fois par tour)\n- À l’Usage de Capacité Offensive de Base contre une cible ayant [SojiRyoshuEchoFuture],\n · Convertit toutes les Pièces de cette Capacité en [SuperCoin]s et gagne +1 de Puissance Finale\n · Gagne 1 [SojiRyoshuEchoPast] (une fois par tour)",
+      "summary": "",
+      "flavor": "“Être effilée sans cessation, faire face à chaque brin effiloché du futur et continuer encore et encore à trancher en chacun de ces futurs…”\n“Supporter tant de fragmentation sans se perdre… Ça, c’est une putain de résilience.”"
+    },
+    {
+      "id": 1041501,
+      "name": "Réverbération d’Image Résiduelle",
+      "desc": "Inflige +1% de dégâts en Touche Critique avec des Capacités Offensives de Base par [Breath] en excès par-delà 20 [Breath] sur soi (10% max)\nEn Critique de Capacités Offensives de Base, inflige 1 [PhantomIncisionID]\n\nLe Passif E.G.O. Grand Trichiliocosme Ryōshū peut être activé en utilisant des Capacités Offensives ciblant les alliés",
+      "summary": "Inflige plus de dégâts en Touche Critique, inflige [PhantomIncisionID] En Critique"
+    },
+    {
+      "id": 1041521,
+      "name": "La Tutelle du Maître [師事]",
+      "desc": "Lorsque l’allié avec l’ordre de Déploiement le plus tôt utilise une Capacité de Base, cet allié gagne 2 d’Intensité de [Breath] (3 fois par tour)",
+      "summary": ""
     }
   ]
 }

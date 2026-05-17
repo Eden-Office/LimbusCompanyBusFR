@@ -465,7 +465,7 @@
     {
       "id": 9258,
       "name": "Le Livre des Vengeances : Annexe",
-      "desc": "Alliés avec Capacités à Pièces Positives : gagne +(8 / # de Pièces) de Puissance de Pièce (gagne au moins 1 de Puissance de Pièce, inclut les Capacités E.G.O. ; arrondi à l’inférieur)\n\nAlliés avec Capacités à Pièces Négatives : gagne +(8 / # de Pièces) de Puissance Finale (gagne au moins 1 de Puissance Finale, inclut les Capacités E.G.O. ; arrondi à l’inférieur)\n\nDébut de l’Affrontement : tous les alliés gagnent 50 de Bouclier par unité alliée de la faction du Majeur sur le terrain (exclut les unités de Renfort ; ne Bouclier gagné par cet effet n’expire pas à la Fin du Tour)\n\nFin d’Attaque de Capacités Contondantes ou d’Envie de Base d’unités alliées à la faction du Majeur : regagne 10% des dégâts infligés en PV\n- Si cet effet est déclenché par une Capacité de Riposte, regagne 20% des dégâts infligés par la Capacité à la place\n- Le soin de PV en excès est converti en Bouclier (le Bouclier gagné par cet effet n’expire pas à la Fin du Tour)\n\nDébut du Combat : les unités alliées de la faction du Majeur gagnent du Niveau Offensif ce tour selon le nombre de Capacités Défensives équipées (12 Niveaux Offensifs max)\n- Si 6 Capacités Défensives ou plus sont équipées, inflige +30% de dégâts avec les Capacités d’Envie de Base\n- Inflige +10% de dégâts supplémentaires par Capacité Défensive équipée au-dessus de 6 (60% max)",
+      "desc": "Alliés avec Capacités à Pièces Positives : gagne +(8 / # de Pièces) de Puissance de Pièce (gagne au moins 1 de Puissance de Pièce, inclut les Capacités E.G.O. ; arrondi à l’inférieur)\n\nAlliés avec Capacités à Pièces Négatives : gagne +(8 / # de Pièces) de Puissance Finale (gagne au moins 1 de Puissance Finale, inclut les Capacités E.G.O. ; arrondi à l’inférieur)\n\nDébut de l’Affrontement : tous les alliés gagnent 50 de Bouclier par unité alliée de la faction du Majeur sur le terrain (exclut les unités de Renfort ; le Bouclier gagné par cet effet n’expire pas à la Fin du Tour)\n\nFin d’Attaque de Capacités Contondantes ou d’Envie de Base d’unités alliées à la faction du Majeur : regagne 10% des dégâts infligés en PV\n- Si cet effet est déclenché par une Capacité de Riposte, regagne 20% des dégâts infligés par la Capacité à la place\n- Le soin de PV en excès est converti en Bouclier (le Bouclier gagné par cet effet n’expire pas à la Fin du Tour)\n\nDébut du Combat : les unités alliées de la faction du Majeur gagnent du Niveau Offensif ce tour selon le nombre de Capacités Défensives équipées (12 Niveaux Offensifs max)\n- Si 6 Capacités Défensives ou plus sont équipées, inflige +30% de dégâts avec les Capacités d’Envie de Base\n- Inflige +10% de dégâts supplémentaires par Capacité Défensive équipée au-dessus de 6 (60% max)",
       "simpleDesc": [
         {}
       ]
@@ -524,6 +524,29 @@
       "desc": "En Duel Gagné en utilisant une Capacité de Base qui inflige de l’Intensité ou du Compte de [Vibration] ou de “Tremblement Unique” contre un ennemi, déclenche une [FusionVibration] en un “Tremblement Unique” aléatoire parmi les suivants (une fois par tour) :\n- [VibrationIgnition]\n- [VibrationBleeding]\n- [VibrationEcho]\n- [VibrationCollapse]\n- [VibrationChainPersonality]",
       "simpleDesc": [
         {}
+      ]
+    },
+    {
+      "id": 9273,
+      "name": "Toile d’Araignée Entremêlée de Rouge",
+      "desc": "Tous les alliés gagnent 1 Niveau Offensif et 1 Niveau Défensif par allié vaincu (10 max)\n\nSi la Lame de la Maison d’Araignées Ryōshū est dans la composition d’Équipe, toute Identité vaincue hors la Lame de la Maison d’Araignées Ryōshū ne sera pas réaniméee après avoir complété un Affrontement (nœuds de boss final d’Étage et nœuds Secrets)\n\n[Les effets s’appliquent uniquement à l’Identité Déployée #1]\n\nDébut du Tour : s’il n’y a aucun allié survivant à part cette unité, gagne [RedButterfly]\n\n[Les effets s’appliquent uniquement à la Lame de la Maison d’Araignées Ryōshū]\n\nEn entrant pour la première fois dans l’Affrontement, pour chaque Identité alliée de La Maison d’Araignées qui a été vaincue, gagne 5 [PhantomIncisionTotalID]\nTous les 2 alliés vaincus de La Maison d’Araignées, +1 de Puissance Finale, +1 de Puissance de Pièce et inflige +10% de dégâts (3 et 30% max, respectivement)\nS’il n’y a aucun allié en vie à part la Lame de la Maison d’Araignées Ryōshū, gagne un modificateur de +12 à tous les contrôles de Capacité lors d’Événement de Choix",
+      "simpleDesc": [
+        {
+          "abilityID": 9273,
+          "simpleDesc": "Gagne du Niveau Offensif et Défensif"
+        },
+        {
+          "abilityID": 92731,
+          "simpleDesc": "Gagne [RedButterfly]"
+        },
+        {
+          "abilityID": 92732,
+          "simpleDesc": "Gagne [PhantomIncisionTotalID]"
+        },
+        {
+          "abilityID": 92733,
+          "simpleDesc": "Gagne de la Puissance Finale & de Pièce et inflige plus de dégâts"
+        }
       ]
     }
   ]
