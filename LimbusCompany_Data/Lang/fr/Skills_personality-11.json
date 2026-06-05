@@ -265,7 +265,7 @@
         {
           "level": 2,
           "name": "Marche",
-          "desc": "[WhenUse] Gagne 2 [Agility] au prochain tour\n[WhenUse] Cet emplacement gagne 1 d’Aggro au prochain tour",
+          "desc": "[WhenUse] Gagne 2 [Agility] au prochain tour\n[WhenUse] Cet emplacement gagne 1 d’[Aggro] au prochain tour",
           "coinlist": [
             {
               "coindescs": [
@@ -286,7 +286,7 @@
         {
           "level": 4,
           "name": "Marche",
-          "desc": "[WhenUse] Gagne 2 [Agility] au prochain tour\n[WhenUse] Cet Emplacement de Capacité gagne 3 d’Aggro au prochain tour",
+          "desc": "[WhenUse] Gagne 2 [Agility] au prochain tour\n[WhenUse] Cet emplacement gagne 3 d’[Aggro] au prochain tour",
           "coinlist": [
             {
               "coindescs": [
@@ -333,7 +333,7 @@
         {
           "level": 2,
           "name": "Punition",
-          "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible, +1 de Puissance de Pièce\n[WhenUse] Gagne +2 de Compte de [Breath]\n[WhenUse] Cet Emplacement de Capacité gagne 2 d’Aggro au prochain tour",
+          "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible, +1 de Puissance de Pièce\n[WhenUse] Gagne +2 de Compte de [Breath]\n[WhenUse] Cet Emplacement de Capacité gagne 2 d’[Aggro] au prochain tour",
           "coinlist": [
             {
               "coindescs": [
@@ -354,7 +354,7 @@
         {
           "level": 4,
           "name": "Punition",
-          "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible, +2 de Puissance de Pièce\n[WhenUse] Gagne +2 de Compte de [Breath]\n[WhenUse] Cet Emplacement de Capacité gagne 4 d’Aggro au prochain tour",
+          "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible, +2 de Puissance de Pièce\n[WhenUse] Gagne +2 de Compte de [Breath]\n[WhenUse] Cet Emplacement de Capacité gagne 4 d’[Aggro] au prochain tour",
           "coinlist": [
             {
               "coindescs": [
@@ -2045,7 +2045,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] Consomme tout le Compte de [Vibration] sur soi\n- +1 de Puissance de Pièce tous les <style=\"highlight\">4</style> de Compte de [Vibration] consommés (max 5)\n- Inflige +<style=\"highlight\">2</style>% de dégâts tous les 1 de Compte de [Vibration] consommés (100% max)"
+                  "desc": "[OnStartCoin] Consomme tout le Compte de [Vibration] sur soi\n- +1 de Puissance de Pièce tous les <style=\"highlight\">4</style> de Compte de [Vibration] consommés (5 max)\n- Inflige +<style=\"highlight\">2</style>% de dégâts tous les 1 de Compte de [Vibration] consommés (100% max)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
@@ -2391,6 +2391,818 @@
               "coindescs": [
                 {
                   "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Piétiner",
+          "desc": "[WhenUse] Regagne 5 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Piétiner",
+          "desc": "<style=\"highlight\">+1 de Puissance de Pièce tous les 6 ([Combustion] + [Laceration]) sur la cible (2 max)</style>\n[WhenUse] Regagne 5 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +<style=\"highlight\">2</style> de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Piétiner",
+          "desc": "+1 de Puissance de Pièce tous les 6 ([Combustion] + [Laceration]) sur la cible (2 max)\n<style=\"highlight\">[BeforeUse] Si cette unité a [MiddleFatherSwordFourOutis], s’active en “Je Vais T’éventrer Comme un Poisson”</style>\n[WhenUse] Regagne 5 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Si cette unité a [ReinforcedTattooSpiderOutis], inflige 1 [Binding] au prochain tour (une fois par tour)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Piétiner",
+          "desc": "+1 de Puissance de Pièce tous les 6 ([Combustion] + [Laceration]) sur la cible (2 max)\n[BeforeUse] Si cette unité a [MiddleFatherSwordFourOutis], s’active en “Je Vais T’éventrer Comme un Poisson”\n<style=\"highlight\">[WhenUse] Si cette unité a [ReinforcedTattooSpiderOutis], convertit la Pièce 2 en [SuperCoin]</style>\n[WhenUse] Regagne 5 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Augmente le Seuil de Déséquilibre de 5</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cette unité a [ReinforcedTattooSpiderOutis], inflige 1 [Binding] au prochain tour (une fois par tour)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Laisse Pas un Truc Comme Ça Te Briser !",
+          "desc": "[WhenUse] Cette Capacité gagne (plus haute Réson. / 2) Niveaux Offensifs (3 max, arrondi à l’inférieur)\n[WhenUse] Si l’épée de cette unité est au niveau [MiddleFatherSwordTwoOutis], inflige autant de [Combustion] que la quantité de base de [Laceration] qu’inflige la Capacité En Touche de Pièce\n[WhenUse] Gagne +5 d’[Aggro] sur cet Emplacement de Capacité au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Laisse Pas un Truc Comme Ça Te Briser !",
+          "desc": "<style=\"highlight\">+1 de Puissance de Pièce tous les 6 ([Combustion] + [Laceration]) sur la cible (2 max)</style>\n[WhenUse] Cette Capacité gagne (plus haute Réson. / 2) Niveaux Offensifs (3 max, arrondi à l’inférieur)\n[WhenUse] Si l’épée de cette unité est au niveau [MiddleFatherSwordTwoOutis], inflige autant de [Combustion] que la quantité de base de [Laceration] qu’inflige la Capacité En Touche de Pièce\n[WhenUse] Gagne +5 d’[Aggro] sur cet Emplacement de Capacité au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 1 [Binding] au prochain tour (une fois par tour)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Laisse Pas un Truc Comme Ça Te Briser !",
+          "desc": "+1 de Puissance de Pièce tous les 6 ([Combustion] + [Laceration]) sur la cible (2 max)\n<style=\"highlight\">[BeforeUse] Si cette unité a [MiddleFatherSwordFourOutis], s’active en “Poignardage Ventral”</style>\n[WhenUse] Cette Capacité gagne (plus haute Réson. / 2) Niveaux Offensifs (3 max, arrondi à l’inférieur)\n[WhenUse] Si l’épée de cette unité est au niveau [MiddleFatherSwordTwoOutis] <style=\"highlight\">ou [MiddleFatherSwordThreeOutis]</style>, inflige autant de [Combustion] que la quantité de base de [Laceration] qu’inflige la Capacité En Touche de Pièce\n[WhenUse] Gagne +5 d’[Aggro] sur cet Emplacement de Capacité au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour (une fois par tour)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Si cette unité a [ReinforcedTattooSpiderOutis], inflige (([Combustion] sur la cible + [Laceration] sur la cible)% des dégâts finaux de cette Pièce) dégâts Contondants (20% max)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Laisse Pas un Truc Comme Ça Te Briser !",
+          "desc": "+1 de Puissance de Pièce tous les 6 ([Combustion] + [Laceration]) sur la cible (2 max)\n[BeforeUse] Si cette unité a [MiddleFatherSwordFourOutis], s’active en “Poignardage Ventral”\n[WhenUse] Cette Capacité gagne (plus haute Réson. / 2) Niveaux Offensifs (3 max, arrondi à l’inférieur)\n<style=\"highlight\">[WhenUse] Convertit autant de Pièces de cette Capacité que de [ReinforcedTattooSpiderOutis] sur cette unité en [SuperCoin]s, en partant de la Pièce 3</style>\n[WhenUse] Si l’épée de cette unité est au niveau [MiddleFatherSwordTwoOutis] ou [MiddleFatherSwordThreeOutis], inflige autant de [Combustion] que la quantité de base de [Laceration] qu’inflige la Capacité En Touche de Pièce\n[WhenUse] Gagne +5 d’[Aggro] sur cet Emplacement de Capacité au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour (une fois par tour)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 1 [Paralysis] au prochain tour (une fois par tour)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cette unité a [ReinforcedTattooSpiderOutis], inflige (([Combustion] sur la cible + [Laceration] sur la cible)% des dégâts finaux de cette Pièce) dégâts Contondants (20% max)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111503,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Piétinement de Vengeance",
+          "desc": "+1 de Puissance Finale tous les 4 ([Combustion] + [Laceration]) sur la cible (3 max)\n[BeforeUse] Si cette unité a [MiddleFatherSwordFourOutis], s’active en “Annihilation Totale et Absolue”\n[WhenUse] Cette Capacité gagne (plus haute Réson.) Niveaux Offensifs (6 max)\n[WhenUse] +1 de Puissance Finale par [ReinforcedTattooSpiderOutis] sur soi (3 max)\n[WhenUse] Si l’épée de cette unité est au niveau [MiddleFatherSwordTwoOutis] ou [MiddleFatherSwordThreeOutis], inflige autant de [Combustion] que la quantité de base de [Laceration] qu’inflige la Capacité En Touche de Pièce\n[EndSkill] Consomme tout [ResentmentSpiderOutis] sur soi",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Piétinement de Vengeance",
+          "desc": "+1 de Puissance Finale tous les 4 ([Combustion] + [Laceration]) sur la cible (3 max)\n<style=\"highlight\">À 6 de Réson.-A d’Envie ou plus, +1 de Puissance de Pièce</style>\n[BeforeUse] Si cette unité a [MiddleFatherSwordFourOutis], s’active en “Annihilation Totale et Absolue”\n[WhenUse] Cette Capacité gagne (plus haute Réson.) Niveaux Offensifs (6 max)\n[WhenUse] +1 de Puissance Finale par [ReinforcedTattooSpiderOutis] sur soi (3 max)\n<style=\"highlight\">[WhenUse] Convertit autant de Pièces de cette Capacité que de [ReinforcedTattooSpiderOutis] sur cette unité en [SuperCoin]s, en partant de la Pièce 3</style>\n[WhenUse] Si l’épée de cette unité est au niveau [MiddleFatherSwordTwoOutis] ou [MiddleFatherSwordThreeOutis], inflige autant de [Combustion] que la quantité de base de [Laceration] qu’inflige la Capacité En Touche de Pièce\n[EndSkill] Consomme tout [ResentmentSpiderOutis] sur soi\n<style=\"highlight\">[EndSkill] Si cette Capacité a été activée en Capacité de Riposte, gagne 1 [HitDamageUp] au prochain tour (une fois par tour)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Violation des Règles",
+          "desc": "[StartBattle] Gagne 15% des PV manquants en Bouclier (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Baisse le Seuil de Déséquilibre de l’utilisateur de 5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Violation des Règles",
+          "desc": "<style=\"highlight\">[StartBattle] À 6 de somme de Réson.-A d’Envie ou plus, utilise “Piétinement de Vengeance” ou “Annihilation Totale et Absolue” en Riposte (s’active depuis l’Emplacement de Capacité le plus à gauche ; s’active 2 fois par tour)</style>\n[StartBattle] Gagne <style=\"highlight\">30%</style> des PV manquants en Bouclier (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Baisse le Seuil de Déséquilibre de l’utilisateur de <style=\"highlight\">10</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111505,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Je Vais T’éventrer Comme un Poisson",
+          "desc": "Capacité Exclusive de [MiddleFatherSwordFourOutis]\n+1 de Puissance de Pièce tous les 6 ([Combustion] + [Laceration]) sur la cible (2 max)\n[WhenUse] Cette Capacité gagne (plus haute Réson. / 2) Niveaux Offensifs (3 max, arrondi à l’inférieur)\n[BeforeAttack] Gagne autant de [Combustion] que de Pièces sur cette Capacité\n[EndSkill] Perd 5 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Augmente le Seuil de Déséquilibre de 5"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Combustion] et +2 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cette unité a [ReinforcedTattooSpiderOutis], inflige 1 [Binding] au prochain tour (une fois par tour)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Je Vais T’éventrer Comme un Poisson",
+          "desc": "Capacité Exclusive de [MiddleFatherSwordFourOutis]\n+1 de Puissance de Pièce tous les 6 ([Combustion] + [Laceration]) sur la cible (2 max)\n[WhenUse] Cette Capacité gagne (plus haute Réson. / 2) Niveaux Offensifs (3 max, arrondi à l’inférieur)\n<style=\"highlight\">[WhenUse] Si cette unité a [ReinforcedTattooSpiderOutis], inflige 1 [Laceration] En Touche de Pièce</style>\n[BeforeAttack] Gagne autant de [Combustion] que de Pièces sur cette Capacité\n[EndSkill] Perd 5 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Augmente le Seuil de Déséquilibre de <style=\"highlight\">10</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Combustion] et +2 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cette unité a [ReinforcedTattooSpiderOutis], inflige 1 [Binding] <style=\"highlight\">et 1 [Paralysis]</style> au prochain tour (une fois par tour)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111506,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Poignardage Ventral [Lævateinn]",
+          "desc": "Capacité Exclusive de [MiddleFatherSwordFourOutis]\nSi la cible a 4 ([Combustion] + [Laceration]) ou plus, +1 de Puissance Finale\n[WhenUse] Cette Capacité gagne (plus haute Réson. / 2) Niveaux Offensifs (3 max, arrondi à l’inférieur)\n[WhenUse] Gagne +5 d’[Aggro] sur cet Emplacement de Capacité au prochain tour\n[BeforeAttack] Gagne autant de [Combustion] que de Pièces sur cette Capacité\n[EndSkill] Perd 5 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour (une fois par tour)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Poignardage Ventral [Lævateinn]",
+          "desc": "Capacité Exclusive de [MiddleFatherSwordFourOutis]\nSi la cible a 4 ([Combustion] + [Laceration]) ou plus, +1 de Puissance Finale\n[WhenUse] Cette Capacité gagne (plus haute Réson. / 2) Niveaux Offensifs (3 max, arrondi à l’inférieur)\n[WhenUse] Gagne +5 d’[Aggro] sur cet Emplacement de Capacité au prochain tour\n[BeforeAttack] Gagne autant de [Combustion] que de Pièces sur cette Capacité\n[EndSkill] Perd 5 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">4</style> [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">4</style> [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] <style=\"highlight\">et 1 [Paralysis]</style> au prochain tour (une fois par tour)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111507,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Annihilation Totale et Absolue [Lævateinn]",
+          "desc": "Capacité Exclusive de [MiddleFatherSwordFourOutis]\n+1 de Puissance Finale tous les 4 ([Combustion] + [Laceration]) sur la cible (3 max)\nInflige +1% de dégâts par ([Combustion] + [Laceration]) sur la cible (20% max)\n[WhenUse] Cette Capacité gagne (plus haute Réson.) Niveaux Offensifs (6 max)\n[WhenUse] Si cette unité a [ReinforcedTattooSpiderOutis], +1 de Puissance de Pièce\n[BeforeAttack] Gagne autant de [Combustion] que de Pièces sur cette Capacité\n[EndSkill] Perd 5 PSM\n[EndSkill] Consomme tout [ResentmentSpiderOutis] sur soi",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige (([Combustion] sur la cible + [Laceration] sur la cible)% des dégâts finaux de cette Pièce) dégâts Perçants (25% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige (([Combustion] sur la cible + [Laceration] sur la cible)% des dégâts finaux de cette Pièce) dégâts Contondants (25% max)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Annihilation Totale et Absolue [Lævateinn]",
+          "desc": "Capacité Exclusive de [MiddleFatherSwordFourOutis]\n+1 de Puissance Finale tous les 4 ([Combustion] + [Laceration]) sur la cible (3 max)\nInflige +1% de dégâts par ([Combustion] + [Laceration]) sur la cible (<style=\"highlight\">40%</style> max)\n[WhenUse] Cette Capacité gagne (plus haute Réson.) Niveaux Offensifs (6 max)\n[WhenUse] Si cette unité a [ReinforcedTattooSpiderOutis], +1 de Puissance de Pièce\n<style=\"highlight\">[WhenUse] Si cette unité a [ReinforcedTattooSpiderOutis], inflige 1 d’Intensité de [Laceration] En Touche de Pièce</style>\n[BeforeAttack] Gagne autant de [Combustion] que de Pièces sur cette Capacité\n[EndSkill] Perd 5 PSM\n[EndSkill] Consomme tout [ResentmentSpiderOutis] sur soi\n<style=\"highlight\">[EndSkill] Si cette Capacité a été activée en Capacité de Riposte, gagne 1 [HitDamageUp] au prochain tour (une fois par tour)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">4</style> [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Laceration]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige (([Combustion] sur la cible + [Laceration] sur la cible)% des dégâts finaux de cette Pièce) dégâts Tranchants (50% max)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige (([Combustion] sur la cible + [Laceration] sur la cible)% des dégâts finaux de cette Pièce) dégâts Tranchants (50% max)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige (([Combustion] sur la cible + [Laceration] sur la cible)% des dégâts finaux de cette Pièce) dégâts Perçants (25% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige (([Combustion] sur la cible + [Laceration] sur la cible)% des dégâts finaux de cette Pièce) dégâts Contondants (25% max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111508,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "L’heure de Déballer !",
+          "desc": "Les effets externes ne peuvent pas forcer cette Capacité à être Réutilisée\n[EndSkill] Retire un sceau de l’épée",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Augmente le Seuil de Déséquilibre de 10"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [VioletTakeDamageUp] au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "L’heure de Déballer !",
+          "desc": "Les effets externes ne peuvent pas forcer cette Capacité à être Réutilisée\n<style=\"highlight\">[WhenUse] Si cette unité a [ReinforcedTattooSpiderOutis], inflige (25% des dégâts finaux de chaque Pièce) dégâts Tranchants En Touche de Pièce</style>\n[EndSkill] Retire un sceau de l’épée",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Augmente le Seuil de Déséquilibre de 10"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [VioletTakeDamageUp] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111509,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Brave Fille. Ton Sacrifice pour la Famille Ne Sera Pas Oublié.",
+          "desc": "Capacité Exclusive de [MiddleFatherSwordFourOutis]\n[CantDuel]\n[CantChangeTarget]\nLes effets externes ne peuvent pas forcer cette Capacité à être Réutilisée et cette Capacité ne déclenche pas les Capacités Défensives\n+1 de Puissance Finale tous les 4 ([Combustion] + [Laceration]) sur la cible principale (3 max)\n[WhenUse] +1 de Puissance Finale et inflige +10% de dégâts par [ReinforcedTattooSpiderOutis] sur soi (3 max, 100% max)\n[WhenUse] Si La Maison d’Araignées : L’Apprentie du Majeur Ishmaël est parmi les cibles, inflige +100% de dégâts\n[EndSkill] Consomme tout [ResentmentSpiderOutis] sur soi et gagne 5 [ResentmentSpiderOutis]\n[EndSkill] Si un allié ciblé est tué, gagne 10 [ResentmentSpiderOutis]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Si la Rés. Contondantes de la cible est inférieure à “Normale” (1.0), la traite comme si elle était “Normale” (1.0)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Combustion] et +2 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration] et +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige (100% des dégâts finaux de cette Pièce) dégâts Contondants"
                 }
               ]
             }

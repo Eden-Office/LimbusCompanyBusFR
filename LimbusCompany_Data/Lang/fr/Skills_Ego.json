@@ -112,6 +112,24 @@
               ]
             }
           ]
+        },
+        {
+          "level": 5,
+          "name": "Flamme de la 4ème Allumette",
+          "abName": "Fille Brûlée",
+          "desc": "<style=\"highlight\">[BeforeAttack] Applique les effets suivants :\n- +1 de Puissance Finale toutes les 6 [Combustion] sur toutes les cibles (4 max)\n- Inflige +1% de dégâts par [Combustion] sur toutes les cibles (30% max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflige 6 [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -161,6 +179,27 @@
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Inflige 6 [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "name": "Flamme de la 4ème Allumette",
+          "abName": "Fille Brûlée",
+          "desc": "[CantIdentify]\nCible aléatoirement\n<style=\"highlight\">[BeforeAttack] Applique les effets suivants :\n- +1 de Puissance Finale toutes les 6 [Combustion] sur toutes les cibles (6 max)\n- Inflige +1.5% de dégâts par [Combustion] sur toutes les cibles (45% max)\n[DefeatDuel] -12 de Puissance de Base\n[EndSkill] Gagne [MatchesPersonality] au prochain tour (une fois par tour)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[SuperCoin]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[UnBrokenCoinOnSucceedAttack]</style> Inflige 6 [Combustion]"
                 }
               ]
             }

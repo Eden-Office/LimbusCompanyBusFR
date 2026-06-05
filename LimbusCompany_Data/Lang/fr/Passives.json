@@ -3,7 +3,7 @@
     {
       "id": 1010101,
       "name": "Relais d’Information",
-      "desc": "Applique 1 Bonus de Dégâts à 2 alliés situés après cette unité sur le Tableau de Bord"
+      "desc": "Applique 1 [AttackDmgUp] à 2 alliés situés après cette unité sur le Tableau de Bord"
     },
     {
       "id": 1010201,
@@ -13,22 +13,22 @@
     {
       "id": 1010301,
       "name": "Calmé",
-      "desc": "En gagnant un duel, gagne +1 de Compte de Calme"
+      "desc": "En Duel Gagné, gagne +1 de Compte de [Breath]"
     },
     {
       "id": 1020101,
       "name": "Œil Analytique",
-      "desc": "Inflige +10% de dégâts aux unités ayant des effets de statut négatifs"
+      "desc": "Inflige +10% de dégâts aux cibles ayant des effets de statut négatifs"
     },
     {
       "id": 1020201,
       "name": "Autochargeur",
-      "desc": "Gagne +1 de Compte de Charge après une attaque"
+      "desc": "Gagne +1 de Compte de [Charge] à la Fin de l’Attaque"
     },
     {
       "id": 1020301,
       "name": "Résolution",
-      "desc": "Au début du tour, si à 4 de Compte de Calme ou plus, gagne 2 Accélération"
+      "desc": "Au prochain Début de Tour, si à 4 de Compte de [Breath] ou plus, gagne 2 [Agility]"
     },
     {
       "id": 1030101,
@@ -38,7 +38,7 @@
     {
       "id": 1030201,
       "name": "Recharge Rapide",
-      "desc": "Au début de la phase de combat, gagne (Réson. de Peine / 3) de Compte de Charge"
+      "desc": "Début du Combat : gagne (Réson. de Peine / 3) de Compte de [Charge]"
     },
     {
       "id": 1030301,
@@ -63,17 +63,17 @@
     {
       "id": 1050101,
       "name": "Vaillance",
-      "desc": "À moins de 50% de PV, gagne 1 Protection au début de la phase de combat"
+      "desc": "À moins de 50% de PV, gagne 1 [Protection] au début de la phase de combat"
     },
     {
       "id": 1050201,
       "name": "Grande Montagne",
-      "desc": "Lorsque attaqué, inflige 1 Brûlure à un ennemi aléatoire.\n(Jusqu’à 4 fois)"
+      "desc": "Lorsque attaqué, inflige 1 [Combustion] à un ennemi aléatoire\n(Jusqu’à 4 fois)"
     },
     {
       "id": 1050301,
       "name": "Esprit Durable",
-      "desc": "Lorsque attaqué, gagne +1 de Compte de Charge.\n(Jusqu’à 6 fois)"
+      "desc": "Lorsque attaqué, gagne +1 de Compte de [Charge]\n(Jusqu’à 6 fois)"
     },
     {
       "id": 1060101,
@@ -83,7 +83,7 @@
     {
       "id": 1060201,
       "name": "Hēiyúndào",
-      "desc": "La dernière Pièce de la dernière capacité dans la chaîne inflige 3 Saignement"
+      "desc": "La dernière Pièce de la dernière capacité dans la chaîne inflige 3 [Laceration]"
     },
     {
       "id": 1060301,
@@ -93,7 +93,7 @@
     {
       "id": 1070101,
       "name": "Ressentiment",
-      "desc": "Inflige +10% de dégâts aux cibles ayant plus de PV Max"
+      "desc": "Inflige +10% de dégâts aux cibles ayant plus de PV max"
     },
     {
       "id": 1070201,
@@ -103,7 +103,7 @@
     {
       "id": 1070301,
       "name": "Impatient de Brouter",
-      "desc": "Gagne (Réson. de Colère) de Compte de Charge au prochain tour.\nÀ 5 de Compte de Charge ou plus, gagne 1 Accélération et de Bonus de Puissance Offensive"
+      "desc": "Gagne (Réson. de Colère) de Compte de [Charge] au prochain tour\nÀ 5 de Compte de [Charge] ou plus, gagne 1 [Agility] et [Enhancement]"
     },
     {
       "id": 1080101,
@@ -113,22 +113,22 @@
     {
       "id": 1080201,
       "name": "Concentration d’Onde Cérébrale",
-      "desc": "Au début de la phase de combat, perd 15 PSM.\nGagne (Rés. de Peine/3) de Bonus de Puissance Offensive au prochain tour"
+      "desc": "Début du Combat : perd 15 PSM\nGagne (Rés. de Peine/3) [Enhancement] au prochain tour"
     },
     {
       "id": 1080301,
       "name": "Marcher sur la Ligne de la Mort",
-      "desc": "À moins de 50% de PV, gagne 1 Calme supplémentaire de Capacités"
+      "desc": "À moins de 50% de PV, gagne 1 [Breath] supplémentaire de Capacités"
     },
     {
       "id": 1080401,
       "name": "Œil pour les Faiblesses",
-      "desc": "Les attaques infligent 1 Tremblement en duel gagné"
+      "desc": "Les attaques infligent 1 [Vibration] en duel gagné"
     },
     {
       "id": 1090101,
       "name": "Mal Scindé",
-      "desc": "En touche, a 50% de chance d’infliger 1 Saignement"
+      "desc": "En touche, a 50% de chance d’infliger 1 [Laceration]"
     },
     {
       "id": 1090201,
@@ -143,7 +143,7 @@
     {
       "id": 1100101,
       "name": "Audace",
-      "desc": "Lorsqu’un allié est vaincu, gagne 1 Bonus de Puissance Offensive au prochain tour"
+      "desc": "Lorsqu’un allié est vaincu, gagne 1 [Enhancement] au prochain tour"
     },
     {
       "id": 1100201,
@@ -153,7 +153,7 @@
     {
       "id": 1100301,
       "name": "Votre Bouclier",
-      "desc": "Au début de la phase de combat, applique 2 Bonus de Puissance Défensive et 1 Protection aux alliés adjacents à cette unité sur le Tableau de Bord"
+      "desc": "Début du Combat : applique 2 [Endurance] et 1 [Protection] aux alliés adjacents à cette unité sur le Tableau de Bord"
     },
     {
       "id": 1100401,
@@ -173,7 +173,7 @@
     {
       "id": 1110301,
       "name": "Remonter le Moral",
-      "desc": "Au prochain tour, applique 2 Accélération à soi et aux alliés qui sont adjacents à cette unité sur le Tableau de Bord ce tour"
+      "desc": "Au prochain tour, applique 2 [Agility] à soi et aux alliés qui sont adjacents à cette unité sur le Tableau de Bord ce tour"
     },
     {
       "id": 1120101,
@@ -183,47 +183,47 @@
     {
       "id": 1120201,
       "name": "Allumage",
-      "desc": "La 3ème Pièces et celles subséquentes d’une Capacité infligent 1 Brûlure en touche"
+      "desc": "La 3ème Pièces et celles subséquentes d’une Capacité infligent 1 [Combustion] en touche"
     },
     {
       "id": 1120301,
       "name": "Rations d’Urgence",
-      "desc": "À moins de 25% de PV, regagne 5% de ses PV Max en gagnant un duel"
+      "desc": "À moins de 25% de PV, regagne 5% de ses PV max en gagnant un duel"
     },
     {
       "id": 1010121,
       "name": "Neutralisation d’Information",
-      "desc": "À la fin du tour, rend 10 PSM à 1 allié avec le moins de PSM s’il a perdu des PSM"
+      "desc": "Fin du Tour : si 1 allié ayant les PSM les plus bas a perdu des PSM ce tour, rend 10 PSM à cet allié"
     },
     {
       "id": 1010221,
       "name": "Œil Observationnel",
-      "desc": "1 allié avec le plus de PV Max gagne +1 de Puissance de duel dans un duel"
+      "desc": "1 allié ayant le plus de PV max gagne +1 de Puissance de Duel dans un Duel"
     },
     {
       "id": 1010321,
       "name": "Accorder",
-      "desc": "1 allié avec le plus de PSM gagne +1 de Compte de Calme de capacités"
+      "desc": "1 allié ayant le plus de PSM gagne +1 de Compte de [Breath] avec les effets de Capacité"
     },
     {
       "id": 1020121,
       "name": "Observation Attentive",
-      "desc": "1 allié ayant le plus de PV Max a 25% de chance d’infliger 2 Malus de Niveau Offensif en utilisant ses attaques"
+      "desc": "1 allié ayant le plus de PV max a 25% de chance d’infliger 2 [AttackDown] En Touche"
     },
     {
       "id": 1020221,
       "name": "Communication Radio",
-      "desc": "1 allié avec le moins de PV Max gagne +1 de Compte de Charge"
+      "desc": "1 allié ayant le moins de PV max gagne +1 de Compte de [Charge]"
     },
     {
       "id": 1020321,
       "name": "Soutien",
-      "desc": "1 allié avec le moins de PV Max gagne +2 de Puissance finale de capacité défensive"
+      "desc": "1 allié ayant le moins de PV max gagne +2 de Puissance Finale pour ses Capacités Défensives"
     },
     {
       "id": 1030121,
       "name": "Support",
-      "desc": "1 allié avec le plus de PSM inflige +10% de dégâts Perçants"
+      "desc": "1 allié ayant le plus de PSM inflige +10% de dégâts Perçants"
     },
     {
       "id": 1030221,
@@ -238,57 +238,57 @@
     {
       "id": 1040121,
       "name": "Agitation",
-      "desc": "1 allié avec le moins de PV Max inflige et subit +20% de dégâts"
+      "desc": "1 allié ayant le moins de PV max inflige et subit +20% de dégâts"
     },
     {
       "id": 1040221,
       "name": "Brise-Glace",
-      "desc": "1 allié ayant le moins de PV Max inflige +1 de Déchirure"
+      "desc": "1 allié ayant le moins de PV max inflige +1 de [Burst]"
     },
     {
       "id": 1040321,
       "name": "Muscle aux Commandes",
-      "desc": "1 allié avec la plus haute Vitesse inflige +1 de Saignement"
+      "desc": "1 allié avec la plus haute Vitesse inflige +1 de [Laceration]"
     },
     {
       "id": 1050121,
       "name": "Renforts",
-      "desc": "1 allié avec le plus de PV Max subit -10% de dégâts de capacités offensives"
+      "desc": "1 allié ayant le plus de PV max subit -10% de dégâts de capacités offensives"
     },
     {
       "id": 1050221,
       "name": "Point de Friction",
-      "desc": "1 allié avec la plus basse Vitesse inflige +1 de Brûlure"
+      "desc": "1 allié avec la plus basse Vitesse inflige +1 de [Combustion]"
     },
     {
       "id": 1050321,
       "name": "Taciturne",
-      "desc": "1 allié avec la plus basse Vitesse inflige +1 de Déchirure"
+      "desc": "1 allié avec la plus basse Vitesse inflige +1 de [Burst]"
     },
     {
       "id": 1060121,
       "name": "Blagues Frivoles",
-      "desc": "Au début de la phase de combat, l’allié avec le moins de PSM regagne 6 PSM"
+      "desc": "Début du Combat : l’allié ayant les PSM les plus bas regagne 6 PSM"
     },
     {
       "id": 1060221,
       "name": "Vengeance Syndiquée",
-      "desc": "1 allié avec la plus haute Vitesse inflige +1 de Saignement"
+      "desc": "1 allié avec la plus haute Vitesse inflige +1 de [Laceration]"
     },
     {
       "id": 1060321,
       "name": "Pari",
-      "desc": "1 allié avec le plus de PSM inflige +20% de dégâts avec des Pièces Pile"
+      "desc": "1 allié ayant le plus de PSM inflige +20% de dégâts avec des Pièces Pile"
     },
     {
       "id": 1070121,
       "name": "Conduit par la Rancune",
-      "desc": "1 allié ayant le moins de PV Max inflige +10% de dégâts Contondants"
+      "desc": "1 allié ayant le moins de PV max inflige +10% de dégâts Contondants"
     },
     {
       "id": 1070221,
       "name": "Autonégligence",
-      "desc": "1 allié avec le moins de PV inflige et subit +20% de dégâts"
+      "desc": "1 allié ayant le moins de PV inflige et subit +20% de dégâts"
     },
     {
       "id": 1070321,
@@ -298,17 +298,17 @@
     {
       "id": 1080121,
       "name": "Détermination de Survivre",
-      "desc": "1 allié avec le moins de PV et moins de 50% des PV Max gagne 1 Puissance de Duel dans un duel"
+      "desc": "1 allié ayant le moins de PV et moins de 50% des PV max gagne 1 Puissance de Duel dans un duel"
     },
     {
       "id": 1080221,
       "name": "Ténacité",
-      "desc": "1 allié avec le moins de PSM inflige +10% de dégâts Contondants"
+      "desc": "1 allié ayant les PSM les plus bas inflige +10% de dégâts Contondants"
     },
     {
       "id": 1080321,
       "name": "Conflit",
-      "desc": "1 allié avec le moins de PV gagne +2 de Puissance finale de capacité de contre"
+      "desc": "1 allié ayant le moins de PV gagne +2 de Puissance finale de capacité de contre"
     },
     {
       "id": 1080421,
@@ -318,7 +318,7 @@
     {
       "id": 1090121,
       "name": "Parieur",
-      "desc": "1 allié avec le plus de PV inflige +20% de dégâts avec des Pièces Pile"
+      "desc": "1 allié ayant le plus de PV inflige +20% de dégâts avec des Pièces Pile"
     },
     {
       "id": 1090221,
@@ -328,12 +328,12 @@
     {
       "id": 1090321,
       "name": "Rupture",
-      "desc": "1 allié avec le plus de PV inflige +20% de dégâts aux ennemis ayant utilisé des capacités défensives ce tour"
+      "desc": "1 allié ayant le plus de PV inflige +20% de dégâts aux ennemis ayant utilisé des capacités défensives ce tour"
     },
     {
       "id": 1100121,
       "name": "Rancune",
-      "desc": "1 allié avec le moins de PSM gagne 1 Bonus de Puissance Offensive le tour après qu’un allié a été vaincu"
+      "desc": "1 allié ayant les PSM les plus bas gagne 1 [Enhancement] le tour après qu’un allié a été vaincu"
     },
     {
       "id": 1100221,
@@ -343,32 +343,32 @@
     {
       "id": 1100321,
       "name": "Entêtement",
-      "desc": "1 allié avec le moins de PV subit -10% de dégâts"
+      "desc": "1 allié ayant le moins de PV subit -10% de dégâts"
     },
     {
       "id": 1100421,
       "name": "Jugar con Enemigos",
-      "desc": "1 allié avec le plus de PSM inflige +10% de dégâts aux ennemis avec moins de PSM"
+      "desc": "1 allié ayant le plus de PSM inflige +10% de dégâts aux ennemis avec moins de PSM"
     },
     {
       "id": 1110121,
       "name": "Mentalité Militaire",
-      "desc": "1 allié avec le plus de PV inflige +30% de dégâts aux ennemis avec moins de 0 PSM"
+      "desc": "1 allié ayant le plus de PV inflige +30% de dégâts aux ennemis avec moins de 0 PSM"
     },
     {
       "id": 1110221,
       "name": "Double Frappe",
-      "desc": "1 allié avec le plus de PSM inflige +30% de dégâts aux ennemis avec moins de 25% de PV"
+      "desc": "1 allié ayant le plus de PSM inflige +30% de dégâts aux ennemis avec moins de 25% de PV"
     },
     {
       "id": 1110321,
       "name": "Bravoure",
-      "desc": "1 allié avec le plus de PV gagne aléatoirement 1 Bonus de Puissance Offensive, 1 Bonus de Puissance Défensive ou 1 Protection au début de la phase de combat"
+      "desc": "1 allié ayant le plus de PV gagne aléatoirement 1 [Enhancement], 1 [Endurance] ou 1 [Protection] au début de la phase de combat"
     },
     {
       "id": 1120121,
       "name": "Code Génétique G-0",
-      "desc": "Au début de la phase de combat, l’allié avec le moins de PV regagne 5 PV"
+      "desc": "Début du Combat : l’allié ayant le moins de PV regagne 5 PV"
     },
     {
       "id": 1120221,
@@ -378,7 +378,7 @@
     {
       "id": 1120321,
       "name": "Code Génétique G-3",
-      "desc": "L’allié avec le moins de PV regagne 5 PV après avoir gagné un duel"
+      "desc": "L’allié ayant le moins de PV regagne 5 PV après avoir gagné un duel"
     },
     {
       "id": 1000101,
@@ -453,37 +453,37 @@
     {
       "id": 1050401,
       "name": "Marteau Obsédé",
-      "desc": "Lorsqu’en dessous de 50% de PV, retire 1 effet de statut négatif et gagne 1 Fanatique, 1 Bonus de Puissance Offensive et 3 Protection au début de la phase de combat"
+      "desc": "Lorsqu’en dessous de 50% de PV, retire 1 effet de statut négatif et gagne 1 Fanatique, 1 [Enhancement] et 3 [Protection] au début de la phase de combat"
     },
     {
       "id": 1090401,
       "name": "Joie de l’Exécution",
-      "desc": "Après qu’un ennemi est vaincu, gagne 1 Accélération et 1 Bonus de Dégâts au prochain tour.\nSi cette unité a vaincu un ennemi, gagne aussi 1 Fanatique (Une fois par tour.)"
+      "desc": "Après qu’un ennemi est vaincu, gagne 1 [Agility] et 1 [AttackDmgUp] au prochain tour\nSi cette unité a vaincu un ennemi, gagne aussi 1 [AssemblePersonality] (une fois par tour)"
     },
     {
       "id": 1050421,
       "name": "Plus Grand Honneur",
-      "desc": "Applique 1 Bonus de Puissance Offensive et 1 Protection à l’allié avec le moins de PV en dessous de 50%.\nSi l’allié est un 'Fanatique de la N Corp.', applique également 1 Fanatique"
+      "desc": "Applique 1 [Enhancement] et 1 [Protection] à l’allié ayant le moins de PV en dessous de 50%\nSi l’allié est un “Fanatique de la N Corp.”, applique également 1 [AssemblePersonality]"
     },
     {
       "id": 1090421,
       "name": "Foi Naissante",
-      "desc": "Après qu’un ennemi est vaincu, applique 1 Accélération et 1 Bonus de Dégâts au prochain tour à l’allié avec le plus de PSM (Une fois par tour.)"
+      "desc": "Après qu’un ennemi est vaincu, applique 1 [Agility] et 1 [AttackDmgUp] au prochain tour à l’allié ayant le plus de PSM (une fois par tour)"
     },
     {
       "id": 1020401,
       "name": "Sifflements",
-      "desc": "Au début de la phase de combat, soigne de 15 PSM 2 alliés ayant le moins de PSM.\nSi l’allié est un 'Fanatique de la N Corp.', applique également 1 Fanatique"
+      "desc": "Début du Combat : rend 15 PSM à 2 alliés ayant les PSM les plus bas\nSi l’allié est un “Fanatique de la N Corp.”, applique également 1 [AssemblePersonality]"
     },
     {
       "id": 1020421,
       "name": "Murmures",
-      "desc": "Au début de la phase de combat, soigne de 15 PSM un allié ayant le moins de PSM.\nSi l’allié est un 'Fanatique de la N Corp.', applique également 1 Fanatique"
+      "desc": "Début du Combat : rend 15 PSM à un allié ayant les PSM les plus bas\nSi l’allié est un “Fanatique de la N Corp.”, applique également 1 [AssemblePersonality]"
     },
     {
       "id": 1070401,
       "name": "Merde…",
-      "desc": "Lorsqu’un allié est vaincu, perd 10 PSM et gagne 1 Bonus de Puissance Contondante au prochain tour"
+      "desc": "Lorsqu’un allié est vaincu, perd 10 PSM et gagne 1 [HitResultUp] au prochain tour"
     },
     {
       "id": 1070421,
@@ -503,22 +503,22 @@
     {
       "id": 1060401,
       "name": "Embrasement ~",
-      "desc": "À 30 PSM ou plus, inflige +1 de Compte de Brûlure avec les effets de Capacité/Pièce Offensive"
+      "desc": "À 30 PSM ou plus, inflige +1 de Compte de [Combustion] avec les effets de Capacité/Pièce Offensive"
     },
     {
       "id": 1060421,
       "name": "Doux, N’est-Ce Pas ?",
-      "desc": "1 allié avec le plus de PSM inflige +1 de Compte de Brûlure avec les effets de leurs Capacités/Pièces Offensives"
+      "desc": "1 allié ayant le plus de PSM inflige +1 de Compte de [Combustion] avec les effets de leurs Capacités/Pièces Offensives"
     },
     {
       "id": 1040401,
       "name": "Concocter",
-      "desc": "Après avoir vaincu un ennemi, soigne de 15 PV l’allié avec le moins de PV (Une fois par tour.)\nSi cette unité a un Appétit, le dépense pour augmenter le soin selon son Compte"
+      "desc": "Après avoir vaincu un ennemi, soigne de 15 PV l’allié ayant le moins de PV (une fois par tour)\nSi cette unité a un Appétit, le dépense pour augmenter le soin selon son Compte"
     },
     {
       "id": 1040421,
       "name": "Goût Artistique",
-      "desc": "Lorsqu’un ennemi est vaincu, l’allié avec le moins de PV regagne 15 PV (Une fois par tour.)"
+      "desc": "Lorsqu’un ennemi est vaincu, l’allié ayant le moins de PV regagne 15 PV (une fois par tour)"
     },
     {
       "id": 1120401,
@@ -528,7 +528,7 @@
     {
       "id": 1120421,
       "name": "Aide Culinaire",
-      "desc": "Au début de la phase de combat, l’allié avec le moins de PV regagne 5 PV.\nAugmente de 5 le soin du Passif “Concocter” de Chef de Cuisine du B.R. Ryōshū"
+      "desc": "Début du Combat : l’allié ayant le moins de PV regagne 5 PV\nAugmente de 5 le soin du Passif “Concocter” de Chef de Cuisine du B.R. Ryōshū"
     },
     {
       "id": 1100501,
@@ -538,22 +538,22 @@
     {
       "id": 1100521,
       "name": "Accaparement",
-      "desc": "1 allié avec le moins de PSM inflige +10% de dégâts Contondants.\nSi cet allié a moins de 0 PSM, augmente davantage ses dégâts Contondants selon la négativité de ses PSM (10% Max)"
+      "desc": "1 allié ayant les PSM les plus bas inflige +10% de dégâts Contondants\nSi cet allié a moins de 0 PSM, augmente davantage ses dégâts Contondants selon la négativité de ses PSM (10% Max)"
     },
     {
       "id": 1030401,
       "name": "Tu Martèleras !",
-      "desc": "Si la cible a Clous, inflige +1 de Compte de Tremblement.\nSi cette unité est Fanatique, inflige +1 de Clous"
+      "desc": "Si la cible a Clous, inflige +1 de Compte de [Vibration]\nSi cette unité est Fanatique, inflige +1 de Clous"
     },
     {
       "id": 1030421,
       "name": "Marteau de Fanatisme",
-      "desc": "1 allié Fanatique ayant le moins de PSM inflige +10% de dégâts"
+      "desc": "1 allié Fanatique ayant les PSM les plus bas inflige +10% de dégâts"
     },
     {
       "id": 1090501,
       "name": "Voilà Pour Finir Tôt ~",
-      "desc": "En [VibrationExplosion], dépense 3 de Compte de Charge pour augmenter de +40% le Seuil de Déséquilibre.\nAprès avoir déclenché un [VibrationExplosion], gagne 1 Accélération et 1 Bonus de DGT Contondant au prochain tour"
+      "desc": "En [VibrationExplosion], dépense 3 de Compte de [Charge] pour augmenter de +40% le Seuil de Déséquilibre\nAprès avoir déclenché un [VibrationExplosion], gagne 1 [Agility] et 1 [HitDamageUp] au prochain tour"
     },
     {
       "id": 1090521,
@@ -563,32 +563,32 @@
     {
       "id": 1050501,
       "name": "Fatigue Chronique",
-      "desc": "Dans un Duel, l’adversaire a -1 de Puissance de Duel s’il possède 5 Tremblement ou plus.\nEn revenant de Déséquilibre, se soigne de 5% des PV Max"
+      "desc": "Dans un Duel, l’adversaire a -1 de Puissance de Duel s’il possède 5 [Vibration] ou plus\nEn revenant de Déséquilibre, se soigne de 5% des PV max"
     },
     {
       "id": 1050521,
       "name": "Proposition de Départ",
-      "desc": "1 allié avec la plus haute Vitesse diminue de 1 la Puissance de Duel d’adversaires ayant Tremblement"
+      "desc": "1 allié avec la plus haute Vitesse diminue de 1 la Puissance de Duel d’adversaires ayant [Vibration]"
     },
     {
       "id": 1070501,
       "name": "Pluie de Larmes",
-      "desc": "Au début de la phase de combat, dépense 1 de Compte de Lourdeur et perd autant de PSM que de quantité actuelle de Lourdeur.\nAvant d’être touché par une attaque, gagne autant de Protection que de Lourdeur sur cette unité (Jusqu’à 5 Protection peuvent être gagnés par tour)\nLorsque touché, gagne 1 Bonus de DGT Contondant au prochain tour (3 par tour)"
+      "desc": "Début du Combat : dépense 1 de Compte de [Sinking] et perd autant de PSM que de quantité actuelle de [Sinking]\nAvant d’être touché par une attaque, gagne autant de [Protection] que de [Sinking] sur cette unité (Jusqu’à 5 [Protection] peuvent être gagnés par tour)\nLorsque touché, gagne 1 [HitDamageUp] au prochain tour (3 par tour)"
     },
     {
       "id": 1070521,
       "name": "Parapluie en Lambeaux",
-      "desc": "1 allié avec le moins de PSM perd 10 PSM lorsque touché par une attaque et gagne 1 Bonus de DGT Contondant au prochain tour (Une fois par tour)"
+      "desc": "1 allié ayant les PSM les plus bas perd 10 PSM lorsque touché par une attaque et gagne 1 [HitDamageUp] au prochain tour (Une fois par tour)"
     },
     {
       "id": 1120501,
       "name": "Lame de Scie Allumée",
-      "desc": "Inflige +1 de Déchirure aux cibles ayant [Vibration]"
+      "desc": "Inflige +1 de [Burst] aux cibles ayant [Vibration]"
     },
     {
       "id": 1120521,
       "name": "Entretien de Lame de Scie",
-      "desc": "1 allié avec la plus basse Vitesse inflige +1 de Déchirure aux cibles ayant [Vibration]"
+      "desc": "1 allié avec la plus basse Vitesse inflige +1 de [Burst] aux cibles ayant [Vibration]"
     },
     {
       "id": 1010401,
@@ -598,27 +598,27 @@
     {
       "id": 1010421,
       "name": "Brise Printanière Âcre",
-      "desc": "1 allié avec le moins de PSM inflige +10% de dégâts en attaquant 2 cibles ou plus en même temps"
+      "desc": "1 allié ayant les PSM les plus bas inflige +10% de dégâts en attaquant 2 cibles ou plus en même temps"
     },
     {
       "id": 1080501,
       "name": "Fluide Bourratif",
-      "desc": "Si cette unité échoue à infliger des dégâts de PV avec des capacités offensives durant un tour, gagne un Bouclier égal à 5% des PV Max au prochain tour (30 Max)"
+      "desc": "Si cette unité échoue à infliger des dégâts de PV avec des capacités offensives durant un tour, gagne un Bouclier égal à 5% des PV max au prochain tour (30 Max)"
     },
     {
       "id": 1080521,
       "name": "Substance Gluante Érosive",
-      "desc": "Lorsque 1 allié avec la plus haute Vitesse déclenche un Sursaut de Tremblement, il inflige 2 Déchirure"
+      "desc": "Lorsque 1 allié avec la plus haute Vitesse déclenche un [VibrationExplosion], il inflige 2 [Burst]"
     },
     {
       "id": 1060501,
       "name": "Activation d’Ampoule de Régénération",
-      "desc": "Lorsque touché, si à moins de 20% de PV, se soigne de 90% de ses PV Max et gagne 1 Ampoule de la K Corp.\nAprès que ce Passif soit activé, gagne 1 Vulnérabilité à chaque tour pour le reste du combat (Une fois par combat)"
+      "desc": "Lorsque touché, si à moins de 20% de PV, se soigne de 90% de ses PV max et gagne 1 [KCorpSerum]\nAprès que ce Passif soit activé, gagne 1 Vulnérabilité à chaque tour pour le reste du combat (Une fois par combat)"
     },
     {
       "id": 1060521,
       "name": "Ampoule Haut de Gamme",
-      "desc": "Au début de la phase de combat, donne 2 Ampoule de la K Corp. à 1 allié avec le plus bas pourcentage de PV"
+      "desc": "Début du Combat : donne 2 [KCorpSerum] à 1 allié ayant le plus bas pourcentage de PV"
     },
     {
       "id": 1100601,
@@ -628,37 +628,37 @@
     {
       "id": 1100621,
       "name": "Talisman de Souhait",
-      "desc": "1 allié avec le plus de PV actuels inflige +1 d’Intensité de Déchirure supplémentaire avec ses Capacités Offensives et de Riposte"
+      "desc": "1 allié ayant le plus de PV actuels inflige +1 d’Intensité de [Burst] supplémentaire avec ses Capacités Offensives et de Riposte"
     },
     {
       "id": 1080601,
       "name": "Brasier Intense",
-      "desc": "Inflige +10% de dégâts Contondants pour chaque 3 de Compte de Brûlure sur la cible (30% Max)"
+      "desc": "Inflige +10% de dégâts Contondants pour chaque 3 de Compte de [Combustion] sur la cible (30% Max)"
     },
     {
       "id": 1080621,
       "name": "Brasier Intense",
-      "desc": "1 allié avec la plus basse Vitesse inflige +5% de dégâts Contondants pour chaque 3 de Compte de Brûlure sur la cible (15% Max)"
+      "desc": "1 allié avec la plus basse Vitesse inflige +5% de dégâts Contondants pour chaque 3 de Compte de [Combustion] sur la cible (15% Max)"
     },
     {
       "id": 1050601,
       "name": "Activation de la Pressurisation rrR-#4 de la Combinaison",
-      "desc": "À la fin du tour, +2 de Vitesse Max (6 Max) pour chaque 5 de Compte de Charge au prochain tour"
+      "desc": "À la fin du tour, +2 de Vitesse Max (6 Max) pour chaque 5 de Compte de [Charge] au prochain tour"
     },
     {
       "id": 1050621,
       "name": "Entraînement aux Manœuvres ",
-      "desc": "À la fin du tour, 1 allié ayant le plus de Compte de Charge gagne +1 de Vitesse Max (3 Max) pour chaque 5 de Compte de Charge au prochain tour"
+      "desc": "À la fin du tour, 1 allié ayant le plus de Compte de [Charge] gagne +1 de Vitesse Max (3 Max) pour chaque 5 de Compte de [Charge] au prochain tour"
     },
     {
       "id": 1090601,
       "name": "Respiration Défensive",
-      "desc": "Au début de la phase de combat, gagne 2 de Bouclier pour chaque 1 de Compte de Calme (20 Max)"
+      "desc": "Début du Combat : gagne 2 de Bouclier pour chaque 1 de Compte de [Breath] (20 Max)"
     },
     {
       "id": 1090621,
       "name": "Protection Désignée",
-      "desc": "Au début de la phase de combat, 1 allié avec le plus bas pourcentage de PV gagne 1 de Bouclier pour chaque 1 de Compte de Calme au prochain tour (10 Max)"
+      "desc": "Début du Combat : 1 allié ayant le plus bas pourcentage de PV gagne 1 de Bouclier pour chaque 1 de Compte de [Breath] au prochain tour (10 Max)"
     },
     {
       "id": 1030501,
@@ -673,283 +673,283 @@
     {
       "id": 1080701,
       "name": "Écrasement de Crabes",
-      "desc": "En Touche contre une cible ayant [Vibration], inflige +1 de Compte de Lourdeur"
+      "desc": "En Touche contre une cible ayant [Vibration], inflige +1 de Compte de [Sinking]"
     },
     {
       "id": 1080721,
       "name": "Chauffeuse de Crabe",
-      "desc": "Lorsqu’un allié ayant le moins de PV Max touche avec une Pièce Pile, il inflige +1 de Compte de Lourdeur en infligeant du Compte de Tremblement à leur cible avec les effets de Pièce"
+      "desc": "Lorsqu’un allié ayant le moins de PV max touche avec une Pièce Pile, il inflige +1 de Compte de [Sinking] en infligeant du Compte de [Vibration] à leur cible avec les effets de Pièce"
     },
     {
       "id": 1100701,
       "name": "Puissance de Sortir Instable",
-      "desc": "En touche avec des Pièces Pile avec 10 de Compte de Tremblement ou plus sur soi, inflige +1 de Tremblement et de Compte de Tremblement avec les effets de Pièce"
+      "desc": "En touche avec des Pièces Pile avec 10 de Compte de [Vibration] ou plus sur soi, inflige +1 de [Vibration] et de Compte de [Vibration] avec les effets de Pièce"
     },
     {
       "id": 1100721,
       "name": "Puissance de Sortir Modifiée",
-      "desc": "1 allié ayant le plus de PV Max inflige +1 de Tremblement avec les effets de ses Capacités/Pièces Offensives"
+      "desc": "1 allié ayant le plus de PV max inflige +1 de [Vibration] avec les effets de ses Capacités/Pièces Offensives"
     },
     {
       "id": 1120601,
       "name": "Bouclier de Combat",
-      "desc": "Si ciblé par 2 attaques ou plus au début de la phase de combat, gagne 2 Bonus de Niveau Défensif.\nSi à 50% de PV ou moins au début de la phase de combat, gagne 3 Bonus de Niveau Défensif"
+      "desc": "Si ciblé par 2 attaques ou plus au début de la phase de combat, gagne 2 [DefenseUp]\nSi à 50% de PV ou moins au début de la phase de combat, gagne 3 [DefenseUp]"
     },
     {
       "id": 1120621,
       "name": "Votre Bouclier",
-      "desc": "Si 1 allié avec le plus de PV Max est ciblé par 2 attaques ou plus, gagne 3 Bonus de Niveau Défensif"
+      "desc": "Si 1 allié ayant le plus de PV max est ciblé par 2 attaques ou plus, gagne 3 [DefenseUp]"
     },
     {
       "id": 1020501,
       "name": "Protection du Territoire",
-      "desc": "Au début de la phase de combat, applique 2 Bonus de Niveau Défensif aux 2 alliés adjacents à cette unité sur le Tableau de Bord"
+      "desc": "Début du Combat : applique 2 [DefenseUp] aux 2 alliés adjacents à cette unité sur le Tableau de Bord"
     },
     {
       "id": 1020511,
       "name": "Protection du Territoire",
-      "desc": "Au début de la phase de combat, applique 2 Bonus de Niveau Défensif aux 2 alliés adjacents à cette unité sur le Tableau de Bord.\nSi les PV des Alliés sont inférieurs à 50%, applique 2 Bonus de Niveau Défensif supplémentaire"
+      "desc": "Début du Combat : applique 2 [DefenseUp] aux 2 alliés adjacents à cette unité sur le Tableau de Bord\nSi les alliés ont moins de 50% PV, applique 2 [DefenseUp] supplémentaire"
     },
     {
       "id": 1020521,
-      "name": "Demande de Protection Reçue",
-      "desc": "Au début de la phase de combat, applique 2 Bonus de Niveau Défensif à l’allié avec le plus bas pourcentage de PV\nSi les PV de la cible sont inférieurs à 50%, applique 2 Bonus de Niveau Défensif supplémentaire"
+      "name": "Demande de [Protection] Reçue",
+      "desc": "Début du Combat : applique 2 [DefenseUp] à l’allié ayant le plus bas pourcentage de PV\nSi l’allié a moins de 50% de PV, applique 2 [DefenseUp] supplémentaire"
     },
     {
       "id": 1040501,
       "name": "Lame Dimensionnelle Démoniaque",
-      "desc": "En vainquant un ennemi, gagne +2 de Compte de Charge (3 fois par tour)"
+      "desc": "En vainquant un ennemi, gagne +2 de Compte de [Charge] (3 fois par tour)"
     },
     {
       "id": 1040521,
       "name": "Fil Dimensionnel Réfracteur - Type : Lame Mk7",
-      "desc": "Lorsqu’un allié avec le moins de PV Max vainc un ennemi, il gagne +2 de Compte de Charge (Une fois par tour)"
+      "desc": "Lorsqu’un allié ayant le moins de PV max vainc un ennemi, il gagne +2 de Compte de [Charge] (Une fois par tour)"
     },
     {
       "id": 1060601,
       "name": "Maîtrise du Nettoyage",
-      "desc": "Si a 5 de Compte de Charge ou plus au début de la phase de combat, gagne 2 Accélération au prochain tour"
+      "desc": "Si a 5 de Compte de [Charge] ou plus au début de la phase de combat, gagne 2 [Agility] au prochain tour"
     },
     {
       "id": 1060621,
       "name": "Manuel de Nettoyage des Trains",
-      "desc": "Un allié avec la Vitesse la plus basse gagne 2 Accélération au prochain tour si à 5 de Compte de Charge ou plus au début de la phase de combat"
+      "desc": "Un allié avec la Vitesse la plus basse gagne 2 [Agility] au prochain tour si à 5 de Compte de [Charge] ou plus au début de la phase de combat"
     },
     {
       "id": 1070601,
       "name": "Compréhension Instinctive",
-      "desc": "En attaquant une cible avec un type de dégât auquel elle est “Fatal” (Résistance > x1.5), inflige +1 de Déchirure supplémentaire avec les effets de Capacité",
-      "summary": "En attaquant une cible avec un type de dégât auquel elle est Fatal, inflige +1 de Déchirure supplémentaire"
+      "desc": "En attaquant une cible avec un type de dégât auquel elle est “Fatal” (Résistance > x1.5), inflige +1 de [Burst] supplémentaire avec les effets de Capacité",
+      "summary": "En attaquant une cible avec un type de dégât auquel elle est Fatal, inflige +1 de [Burst] supplémentaire"
     },
     {
       "id": 1070611,
       "name": "Compréhension Instinctive",
-      "desc": "En attaquant une cible avec un type de dégât auquel elle est “Fatal” (Résistance > x1.5), inflige +1 de Déchirure supplémentaire avec les effets de Capacité\n<style=\"highlight\">Si 4 unités survivantes ou plus, incluant cette unité, sont des Fixers de l’Association Seven, +1 de Déchirure supplémentaire</style>",
-      "summary": "En attaquant une cible avec un type de dégât auquel elle est Fatal, inflige +1 de Déchirure supplémentaire\nAvec 4 alliés Fixers de l’Association Seven ou plus, +1 de Déchirure supplémentaire"
+      "desc": "En attaquant une cible avec un type de dégât auquel elle est “Fatal” (Résistance > x1.5), inflige +1 de [Burst] supplémentaire avec les effets de Capacité\n<style=\"highlight\">Si 4 unités survivantes ou plus, incluant cette unité, sont des Fixers de l’Association Seven, +1 de [Burst] supplémentaire</style>",
+      "summary": "En attaquant une cible avec un type de dégât auquel elle est Fatal, inflige +1 de [Burst] supplémentaire\nAvec 4 alliés Fixers de l’Association Seven ou plus, +1 de [Burst] supplémentaire"
     },
     {
       "id": 1070621,
       "name": "Faire Le Lien",
-      "desc": "1 allié ayant le plus de PV Max inflige +1 de Déchirure supplémentaire avec les effets de Capacités en attaquant une cible avec un type de dégât auquel elle est “Fatal” (Résistance > x1.5)",
-      "summary": "1 allié ayant le plus de PV Max inflige +1 de Déchirure supplémentaire en attaquant une cible avec un type de dégât auquel elle est Fatal"
+      "desc": "1 allié ayant le plus de PV max inflige +1 de [Burst] supplémentaire avec les effets de Capacités en attaquant une cible avec un type de dégât auquel elle est “Fatal” (Résistance > x1.5)",
+      "summary": "1 allié ayant le plus de PV max inflige +1 de [Burst] supplémentaire en attaquant une cible avec un type de dégât auquel elle est Fatal"
     },
     {
       "id": 1070631,
       "name": "Faire Le Lien",
-      "desc": "1 allié ayant le plus de PV Max inflige +1 de Déchirure supplémentaire avec les effets de Capacités en attaquant une cible avec un type de dégât auquel elle est “Fatal” (Résistance > x1.5)\n<style=\"highlight\">Si l’allié est un Fixer de l’Association Seven, +1 de Déchirure supplémentaire</style>",
-      "summary": "1 allié ayant le plus de PV Max inflige +1 de Déchirure supplémentaire en attaquant une cible avec un type de dégât auquel elle est Fatal\nSi l’allié est un Fixer de l’Association Seven, +1 de Déchirure supplémentaire"
+      "desc": "1 allié ayant le plus de PV max inflige +1 de [Burst] supplémentaire avec les effets de Capacités en attaquant une cible avec un type de dégât auquel elle est “Fatal” (Résistance > x1.5)\n<style=\"highlight\">Si l’allié est un Fixer de l’Association Seven, +1 de [Burst] supplémentaire</style>",
+      "summary": "1 allié ayant le plus de PV max inflige +1 de [Burst] supplémentaire en attaquant une cible avec un type de dégât auquel elle est Fatal\nSi l’allié est un Fixer de l’Association Seven, +1 de [Burst] supplémentaire"
     },
     {
       "id": 1020601,
-      "name": "Avant Que Le Thé Refroidisse...",
-      "desc": "En attaquant une cible avec un type de dégât auquel elle est “Faible” ou “Fatal” (Résistance > x1), gagne 1 [Breath] pour chaque [Burst] sur la cible avant l’attaque (20 max par tour)",
-      "summary": "En attaquant une cible avec un type de dégât auquel elle est Faible ou Fatal, gagne 1 Calme pour chaque Déchirure sur la cible avant l’attaque"
+      "name": "Avant que le Thé ne Refroidisse...",
+      "desc": "En attaquant une cible avec un type de dégât auquel elle est “Faible” ou “Fatal” (Résistance > x1), gagne 1 [Breath] par [Burst] sur la cible avant l’attaque (20 max par tour)",
+      "summary": "En attaquant une cible avec un type de dégât auquel elle est Faible ou Fatal, gagne 1 Calme par [Burst] sur la cible avant l’attaque"
     },
     {
       "id": 1020621,
       "name": "Heure du Thé de l’Association Seven",
-      "desc": "1 allié avec la plus haute Vitesse inflige plus de dégâts selon la <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Déchirure</color></link></u> sur la cible en attaquant avec un type de dégât auquel elle est “Fatal”(Résistance > x1.5)\n+1.5% par 1 de Déchirure (15% Max)",
-      "summary": "1 allié avec la plus haute Vitesse inflige plus de dégâts selon la Déchirure sur la cible en attaquant avec un type de dégât auquel elle est Fatal"
+      "desc": "1 allié avec la plus haute Vitesse inflige +1.5% de dégâts par [Burst] sur la cible en attaquant avec un type de dégât auquel elle est “Fatal”(Résistance > x1.5) (15% max)",
+      "summary": "1 allié avec la plus haute Vitesse inflige plus de dégâts selon la [Burst] sur la cible en attaquant avec un type de dégât auquel elle est Fatal"
     },
     {
       "id": 1020631,
       "name": "Heure du Thé de l’Association Seven",
-      "desc": "1 allié avec la plus haute Vitesse inflige plus de dégâts selon la <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Déchirure</color></link></u> sur la cible en attaquant avec un type de dégât auquel elle est <style=\"highlight\">“Faible” ou “Fatal”(Résistance > x1)</style>\n(+1.5% par 1 de Déchirure ; 15% Max)\n<style=\"highlight\">Si l’allié est un Fixer de l’Association Seven, inflige plus de dégâts augmentés\n(+0.5% par 1 de Déchirure ; 5% Max)</style>",
-      "summary": "1 allié avec la plus haute Vitesse inflige plus de dégâts selon la Déchirure sur la cible en attaquant avec un type de dégât auquel elle est Faible ou Fatal\nSi l’allié est un Fixer de l’Association Seven, inflige plus de dégâts augmentés"
+      "desc": "1 allié avec la plus haute Vitesse inflige +1.5% de dégâts par [Burst] sur la cible en attaquant avec un type de dégât auquel elle est <style=\"highlight\">“Faible” ou “Fatal”(Résistance > x1)</style> (15% max)\n\n<style=\"highlight\">Si l’allié est un Fixer de l’Association Seven, inflige des dégâts supplémentaires (+0.5% par [Burst] ; 5% max)</style>",
+      "summary": "1 allié avec la plus haute Vitesse inflige plus de dégâts selon la [Burst] sur la cible en attaquant avec un type de dégât auquel elle est Faible ou Fatal\nSi l’allié est un Fixer de l’Association Seven, inflige des dégâts supplémentaires"
     },
     {
       "id": 1010501,
       "name": "Dans De Telles Situations...",
-      "desc": "En déclenchant un Sursaut de Tremblement sur un ennemi, inflige 1 Malus de Niveau Défensif par 4 de Seuil de Déséquilibre augmenté (5 Max par 1 ennemi à chaque tour)"
+      "desc": "En déclenchant un [VibrationExplosion] sur un ennemi, inflige 1 [DefenseDown] tous les 4 de Seuil de Déséquilibre augmenté (5 [DefenseDown] max par ennemi par tour)"
     },
     {
       "id": 1010521,
       "name": "Nettoyer les Dégâts",
-      "desc": "Lorsque 1 allié avec le moins de PV Max déclenche un Sursaut de Tremblement sur un ennemi, inflige 1 Malus de Niveau Défensif au prochain tour par 4 de Seuil de Déséquilibre augmenté (3 Max par 1 ennemi à chaque tour)"
+      "desc": "1 allié ayant le moins de PV max : tous les 4 de Seuil de Déséquilibre augmenté en déclenchant un [VibrationExplosion] sur un ennemi, inflige 1 [DefenseDown] au prochain tour (3 [DefenseDown] max par ennemi par tour)"
     },
     {
       "id": 1110501,
       "name": "Vantardise d’Ébriété",
-      "desc": "En déclenchant un Sursaut de Tremblement sur un ennemi, inflige 30% du Seuil de Déséquilibre augmenté en dégâts de Paresse (20 Max ; arrondi à l’inférieur)"
+      "desc": "En déclenchant un [VibrationExplosion] sur un ennemi, inflige 30% du Seuil de Déséquilibre augmenté en dégâts de Paresse (20 Max ; arrondi à l’inférieur)"
     },
     {
       "id": 1110521,
       "name": "La  Carotte & le Bâton",
-      "desc": "1 allié ayant le plus de Compte de Tremblement gagne +1 de Compte de Tremblement supplémentaire avec les effets de Capacité"
+      "desc": "1 allié ayant le plus de Compte de [Vibration] gagne +1 de Compte de [Vibration] supplémentaire avec les effets de Capacité"
     },
     {
       "id": 1090701,
       "name": "Illumination Incandescente",
-      "desc": "Gagne du <sprite name=\"HitDamageUp\"><color=#f8c200><u><link=\"HitDamageUp\">Bonus de DGT Contondant</link></u></color> au prochain tour selon les dégâts subis par cette unité ce tour.\n(Dégâts de Bouclier inclus dans le calcul. Plafonne en subissant des dégâts égaux à 25% des PV Max au début du tour. Bonus de DGT Contondant Max gagné par cet effet : 5)\nSi cette unité a 3 d’[KnowledgeExplored] à la fin du tour, retire 1 effet négatif appliqué à soi"
+      "desc": "Gagne du [HitDamageUp] au prochain tour selon les dégâts subis par cette unité ce tour\n(Dégâts de Bouclier inclus dans le calcul. Plafonne en subissant des dégâts égaux à 25% des PV max au début du tour. [HitDamageUp] Max gagné par cet effet : 5)\nSi cette unité a 3 d’[KnowledgeExplored] à la fin du tour, retire 1 effet négatif appliqué à soi"
     },
     {
       "id": 1090721,
       "name": "Missionnaire de la Connaissance",
-      "desc": "1 allié avec le plus de PV Max gagne du <sprite name=\"HitDamageUp\"><color=#f8c200><u><link=\"HitDamageUp\">Bonus de DGT Contondant</link></u></color> au prochain tour selon les dégâts qu’il a subi ce tour.\n(Dégâts de Bouclier inclus dans le calcul. Plafonne en subissant des dégâts égaux à 15% des PV Max au début du tour. Bonus de DGT Contondant Max gagné par cet effet : 3)"
+      "desc": "1 allié ayant le plus de PV max gagne du [HitDamageUp] au prochain tour selon les dégâts qu’il a subi ce tour\n(Dégâts de Bouclier inclus dans le calcul. Plafonne en subissant des dégâts égaux à 15% des PV max au début du tour. [HitDamageUp] Max gagné par cet effet : 3)"
     },
     {
       "id": 1060701,
       "name": "Crochet",
-      "desc": "En vainquant un ennemi, gagne 1 Bonus de Puissance Offensive au prochain tour (Une fois par tour)"
+      "desc": "En vainquant un ennemi, gagne 1 [Enhancement] au prochain tour (Une fois par tour)"
     },
     {
       "id": 1060721,
       "name": "Équipement Bionique Produit en Masse",
-      "desc": "Lorsque 1 allié ayant la plus haute Vitesse vainc un ennemi subissant du <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Saignement</color></link></u>, gagne 1 Bonus de Puissance Offensive au prochain tour (Une fois par tour)"
+      "desc": "Lorsque 1 allié ayant la plus haute Vitesse vainc un ennemi subissant du [Laceration], gagne 1 [Enhancement] au prochain tour (Une fois par tour)"
     },
     {
       "id": 1020701,
       "name": "Regret Forcé",
-      "desc": "- Dans un Duel, la cible a -1 de Puissance de Duel si elle possède 3 types d’effets négatifs ou plus\n- Lorsque cette unité est vivante, les ennemis subissant un [VibrationExplosion] gagnent 2 Malus de Niveau Défensif (Une fois par ennemi par tour)\n- Corruption Mentale : si à moins de -25 PSM à la Fin du Tour, gagne 2 Ralentissement et 1 Bonus de Puissance Contondante au prochain tour"
+      "desc": "- Dans un Duel, si la cible a 3 types d’effet négatif ou plus, -1 de Puissance de Duel pour la cible\n- Lorsque cette unité est vivante, les ennemis subissant un [VibrationExplosion] gagnent 2 [DefenseDown] (une fois par ennemi par tour)\n- Corruption Mentale : si à moins de -25 PSM à la Fin du Tour, gagne 2 [Binding] et 1 [HitResultUp] au prochain tour"
     },
     {
       "id": 1020711,
       "name": "Regret Forcé",
-      "desc": "- Dans un Duel, la cible a -1 de Puissance de Duel pour chaque 3 types d’effets négatifs qu’elle possède (-2 de Puissance de Duel Max)\n- Lorsque cette unité est vivante, les ennemis subissant un [VibrationExplosion] gagnent 2 Malus de Niveau Défensif (3 fois par ennemi par tour)\n- Corruption Mentale : si à moins de -25 PSM à la Fin du Tour, gagne 2 Ralentissement et 1 Bonus de Puissance Contondante au prochain tour"
+      "desc": "- Dans un Duel, si la cible a 3 types d’effet négatif ou plus, -1 de Puissance de Duel pour la cible (-2 de Puissance de Duel max)\n- Lorsque cette unité est vivante, les ennemis subissant un [VibrationExplosion] gagnent 2 [DefenseDown] (3 fois par ennemi par tour)\n- Corruption Mentale : si à moins de -25 PSM à la Fin du Tour, gagne 2 [Binding] et 1 [HitResultUp] au prochain tour"
     },
     {
       "id": 1020721,
       "name": "Travail de Répression",
-      "desc": "Dans un Duel, la cible de l’allié le plus lent a -1 de Puissance de Duel si elle possède 3 types d’effets négatifs ou plus"
+      "desc": "Dans un Duel, si la cible de l’allié ayant la Vitesse la plus lente a 3 types d’effet négatif ou plus, -1 de Puissance de Duel pour la cible"
     },
     {
       "id": 1010601,
       "name": "Pensées Vidées",
-      "desc": "- À la Fin du Tour, gagne 1 Accélération tous les 5 de Compte de Charge sur soi au prochain tour (2 max)\n- Si la Capacité de cette unité a consommé du Compte de Charge, applique 3 Barrière de Charge à 1 allié ayant le moins de pourcentage de PV"
+      "desc": "- Fin du Tour : gagne 1 [Agility] au prochain tour tous les 5 de Compte de [Charge] sur soi (2 max)\n- Si la Capacité de cette unité a consommé du Compte de [Charge], applique 3 [ChargeForceField] à 1 allié ayant le moins de pourcentage de PV actuel"
     },
     {
       "id": 1010611,
       "name": "Pensées Vidées",
-      "desc": "- À la Fin du Tour, gagne 1 Accélération tous les 5 de Compte de Charge sur soi au prochain tour (3 max)\n- Si la Capacité de cette unité a consommé du Compte de Charge, applique 3 Barrière de Charge à 1 allié ayant le moins de pourcentage de PV"
+      "desc": "- Fin du Tour : gagne 1 [Agility] au prochain tour tous les 5 de Compte de [Charge] sur soi (3 max)\n- Si la Capacité de cette unité a consommé du Compte de [Charge], applique 3 [ChargeForceField] à 1 allié ayant le moins de pourcentage de PV actuel"
     },
     {
       "id": 1010621,
       "name": "Nettoyage Démonstratif",
-      "desc": "1 allié ayant le plus haut Compte de Charge inflige des dégâts supplémentaires contre les cibles ayant <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Déchirure</color></link></u> selon la Déchirure sur la cible (+1.5% par Déchirure. +15% de dégâts max)"
+      "desc": "1 allié ayant le plus haut Compte de [Charge] inflige des dégâts supplémentaires contre les cibles ayant [Burst] selon la [Burst] sur la cible (+1.5% par [Burst]. +15% de dégâts max)"
     },
     {
       "id": 1120701,
       "name": "Les Balles C’est Cher",
-      "desc": "- En Touche Pile contre une cible ayant <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Saignement</color></link></u>, gagne <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Enrichissement Injuste</color></link></u> (4 Max)\n- Si cette unité Touche Critiquement lorsque à court de [Bullet], dépense tout <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Enrichissement Injuste</color></link></u> et inflige (5 * <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Enrichissement Injuste</color></link></u> consommé)% des dégâts infligés en dégâts supplémentaires"
+      "desc": "- En Touche Pile contre une cible ayant [Laceration], gagne [Unjust_Enrichment] (4 Max)\n- Si cette unité Touche Critiquement lorsque à court de [Bullet], dépense tout [Unjust_Enrichment] et inflige (5 * [Unjust_Enrichment] consommé)% des dégâts infligés en dégâts supplémentaires"
     },
     {
       "id": 1120702,
       "name": "Les Balles C’est Cher",
-      "desc": "<style=\"highlight\">- Toujours Active : commence les combats avec 7 Munition</style>\n- En Touche Pile contre une cible ayant <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Saignement</color></link></u>, gagne <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Enrichissement Injuste</color></link></u> (4 Max)\n<style=\"highlight\">- Si une Pièce qui utilise une Munition touche, consomme tout <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Enrichissement Injuste</color></link></u> et inflige (25 * <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Enrichissement Injuste</color></link></u> consommé)% des dégâts infligés en dégâts supplémentaires.</style>\n- Si cette unité Touche Critiquement lorsque à court de [Bullet], consomme tout <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Enrichissement Injuste</color></link></u> et inflige (5 * <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Enrichissement Injuste</color></link></u> consommé)% des dégâts infligés en dégâts supplémentaires"
+      "desc": "<style=\"highlight\">- Toujours Active : commence les combats avec 7 Munition</style>\n- En Touche Pile contre une cible ayant [Laceration], gagne [Unjust_Enrichment] (4 Max)\n<style=\"highlight\">- Si une Pièce qui utilise une Munition touche, consomme tout [Unjust_Enrichment] et inflige (25 * [Unjust_Enrichment] consommé)% des dégâts infligés en dégâts supplémentaires.</style>\n- Si cette unité Touche Critiquement lorsque à court de [Bullet], consomme tout [Unjust_Enrichment] et inflige (5 * [Unjust_Enrichment] consommé)% des dégâts infligés en dégâts supplémentaires"
     },
     {
       "id": 1120721,
       "name": "Nouveau Trou pour Respirer",
-      "desc": "Si 1 allié ayant le plus de <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Calme</color></link></u> vainc un ennemi, gagne 1 Bonus de DGT Perçant au prochain tour (Une fois par tour)"
+      "desc": "Si 1 allié ayant le plus de [Breath] vainc un ennemi, gagne 1 [PenetrateDamageUp] au prochain tour (Une fois par tour)"
     },
     {
       "id": 1040601,
       "name": "Une P.C.",
-      "desc": "Si cette unité a 7 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Calme</color></link></u> ou plus à la Fin du Tour, se soigne de 8 PSM"
+      "desc": "Si cette unité a 7 [Breath] ou plus à la Fin du Tour, se soigne de 8 PSM"
     },
     {
       "id": 1040602,
       "name": "Une P.C.",
-      "desc": "<style=\"highlight\">- Toujours Actif : commence les combats avec 7 Munition</style>\n- Si cette unité a 7 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Calme</color></link></u> ou plus à la Fin du Tour, se soigne de 8 PSM"
+      "desc": "<style=\"highlight\">- Toujours Actif : commence les combats avec 7 Munition</style>\n- Si cette unité a 7 [Breath] ou plus à la Fin du Tour, se soigne de 8 PSM"
     },
     {
       "id": 1040611,
       "name": "Une P.C.",
-      "desc": "- Toujours Actif : commence les combats avec 7 Munition\n- Si cette unité a 7 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Calme</color></link></u> ou plus à la Fin du Tour, se soigne de 8 PSM.\n<style=\"highlight\">- Si cette unité a déjà le max de PSM en remplissant la condition ci-dessus, gagne 1 Calme au prochain tour</style>"
+      "desc": "- Toujours Actif : commence les combats avec 7 Munition\n- Si cette unité a 7 [Breath] ou plus à la Fin du Tour, se soigne de 8 PSM\n<style=\"highlight\">- Si cette unité a déjà le max de PSM en remplissant la condition ci-dessus, gagne 1 Calme au prochain tour</style>"
     },
     {
       "id": 1040621,
       "name": "La Cigarette Porte-Bonheur",
-      "desc": "Si 1 allié avec le moins de Munition utilise sa dernière Munition avec une Pièce, inflige 50% des dégâts infligés par cette attaque de Pièce contre chaque cible en dégâts supplémentaires sur chaque cible individuelle (Arrondi au supérieur)"
+      "desc": "Si 1 allié ayant le moins de Munition utilise sa dernière Munition avec une Pièce, inflige 50% des dégâts infligés par cette attaque de Pièce contre chaque cible en dégâts supplémentaires sur chaque cible individuelle (Arrondi au supérieur)"
     },
     {
       "id": 1040631,
       "name": "La Cigarette Porte-Bonheur",
-      "desc": "<style=\"highlight\">- Si 1 allié avec le moins de [Bullet] utilise une Capacité qui dépense une [Bullet], gagne 3 Calme (une fois par tour ; ne s’applique pas aux alliés sans Munition)</style>\n- Si 1 allié avec le moins de Munition utilise sa dernière Munition avec une Pièce, inflige 50% des dégâts infligés par cette attaque de Pièce contre chaque cible en dégâts supplémentaires sur chaque cible individuelle (Arrondi au supérieur)"
+      "desc": "<style=\"highlight\">- Si 1 allié ayant le moins de [Bullet] utilise une Capacité qui dépense une [Bullet], gagne 3 Calme (une fois par tour ; ne s’applique pas aux alliés sans Munition)</style>\n- Si 1 allié ayant le moins de Munition utilise sa dernière Munition avec une Pièce, inflige 50% des dégâts infligés par cette attaque de Pièce contre chaque cible en dégâts supplémentaires sur chaque cible individuelle (Arrondi au supérieur)"
     },
     {
       "id": 1030601,
       "name": "Tatouage de Vengeance",
-      "desc": "- Gagne 1 Bonus de DGT d’Envie chaque fois que les ennemis frappent un allié (incluant cette unité) 3 fois (5 Max)\n- Applique <sprite name=\"RetaliationBook\"><color=#e30000><u><link=\"RetaliationBook\">Marque de Vengeance</color></link></u> à l’unité ayant infligé le plus de dégâts de Capacité à un allié.\n- Si la cible principale a Marque de Vengeance, +1 de Puissance Finale"
+      "desc": "- Gagne 1 [VioletDamageUp] chaque fois que les ennemis frappent un allié (incluant cette unité) 3 fois (5 Max)\n- Applique [RetaliationBook] à l’unité ayant infligé le plus de dégâts de Capacité à un allié\n- Si la cible principale a Marque de Vengeance, +1 de Puissance Finale"
     },
     {
       "id": 1030611,
       "name": "Tatouage de Vengeance",
-      "desc": "- Gagne 1 Bonus de DGT d’Envie chaque fois que les ennemis frappent un allié (incluant cette unité) 3 fois (5 Max)\n- Applique <sprite name=\"RetaliationBook\"><color=#e30000><u><link=\"RetaliationBook\">Marque de Vengeance</color></link></u> à l’unité ayant infligé le plus de dégâts de Capacité à un allié.\n- Si la cible principale a Marque de Vengeance, +1 de Puissance de Pièce"
+      "desc": "- Gagne 1 [VioletDamageUp] chaque fois que les ennemis frappent un allié (incluant cette unité) 3 fois (5 Max)\n- Applique [RetaliationBook] à l’unité ayant infligé le plus de dégâts de Capacité à un allié\n- Si la cible principale a Marque de Vengeance, +1 de Puissance de Pièce"
     },
     {
       "id": 1030621,
       "name": "Favoritisme",
-      "desc": "1 allié avec le moins de PV Max gagne 1 Bonus de DGT Contondant au prochain tour chaque fois que les ennemis frappent un allié (n’incluant pas cette unité) 6 fois (2 Max)"
+      "desc": "1 allié ayant le moins de PV max gagne 1 [HitDamageUp] au prochain tour chaque fois que les ennemis frappent un allié (n’incluant pas cette unité) 6 fois (2 Max)"
     },
     {
       "id": 1050701,
       "name": "Loyauté",
-      "desc": "- Applique <sprite name=\"RetaliationBook\"><color=#e30000><u><link=\"RetaliationBook\">Marque de Vengeance</color></link></u> à l’unité ayant infligé le plus de dégâts de Capacité à un allié.\n- Si la cible principale a Marque de Vengeance, +1 de Puissance Finale\n- S’il y a un autre allié survivant du Majeur, se soigne de 6 PSM à chaque Fin du Tour"
+      "desc": "- Applique [RetaliationBook] à l’unité ayant infligé le plus de dégâts de Capacité à un allié\n- Si la cible principale a Marque de Vengeance, +1 de Puissance Finale\n- S’il y a un autre allié survivant du Majeur, se soigne de 6 PSM à chaque Fin du Tour"
     },
     {
       "id": 1050711,
       "name": "Loyauté",
-      "desc": "- Applique <sprite name=\"RetaliationBook\"><color=#e30000><u><link=\"RetaliationBook\">Marque de Vengeance</color></link></u> à l’unité ayant infligé le plus de dégâts de Capacité à un allié.\n- Si la cible principale a Marque de Vengeance, +1 de Puissance Finale\n- S’il y a un autre allié survivant du Majeur, cette unité et l’allié survivant du Majeur se soignent de 6 PSM à chaque Fin du Tour"
+      "desc": "- Applique [RetaliationBook] à l’unité ayant infligé le plus de dégâts de Capacité à un allié\n- Si la cible principale a Marque de Vengeance, +1 de Puissance Finale\n- S’il y a un autre allié survivant du Majeur, cette unité et l’allié survivant du Majeur se soignent de 6 PSM à chaque Fin du Tour"
     },
     {
       "id": 1050721,
       "name": "Une Famille",
-      "desc": "L’allié avec le moins de PSM se soigne de 10 PSM à la Fin du Tour s’il y a un autre allié de la même Faction"
+      "desc": "L’allié ayant les PSM les plus bas se soigne de 10 PSM à la Fin du Tour s’il y a un autre allié de la même Faction"
     },
     {
       "id": 1070701,
       "name": "Tatouages Mutilés",
-      "desc": "Gagne 1 [AttackUp] et 1 [DefenseUp] au prochain tour chaque fois qu’un allié (incluant cette unité) est attaqué (6 Max)\nInflige plus de dégâts avec moins de PV.\n- Inflige +0.4% de dégâts pour chaque 1% de PV manquant",
+      "desc": "Gagne 1 [AttackUp] et 1 [DefenseUp] au prochain tour chaque fois qu’un allié (incluant cette unité) est attaqué (6 Max)\nInflige plus de dégâts avec moins de PV\n- Inflige +0.4% de dégâts pour chaque 1% de PV manquant",
       "summary": "Gagne 1 [AttackUp] et 1 [DefenseUp] à chaque fois que cette unité est attaquée. Inflige plus de dégâts avec moins de PV"
     },
     {
       "id": 1070711,
       "name": "Tatouages Mutilés",
-      "desc": "Gagne 1 [AttackUp] et 1 [DefenseUp] au prochain tour chaque fois qu’un allié (incluant cette unité) est attaqué. Gagne 2 de chaque à la place si l’allié est du Pequod (9 Max)\nInflige plus de dégâts avec moins de PV.\n- Inflige +1% de dégâts pour chaque 1% de PV manquant",
+      "desc": "Gagne 1 [AttackUp] et 1 [DefenseUp] au prochain tour chaque fois qu’un allié (incluant cette unité) est attaqué. Gagne 2 de chaque à la place si l’allié est du Pequod (9 Max)\nInflige plus de dégâts avec moins de PV\n- Inflige +1% de dégâts pour chaque 1% de PV manquant",
       "summary": "Gagne 1 [AttackUp] et 1 [DefenseUp] à chaque fois que cette unité est attaquée. Inflige plus de dégâts avec moins de PV"
     },
     {
       "id": 1070721,
       "name": "Désespoir",
-      "desc": "1 allié avec le plus de PV max inflige plus de Dégâts Perçants avec moins de PV\n- Inflige +0.15% de dégâts pour chaque 1% de PV manquant (15% Max)",
-      "summary": "1 allié avec le plus de PV max inflige plus de Dégâts Perçants avec moins de PV"
+      "desc": "1 allié ayant le plus de PV max inflige plus de Dégâts Perçants avec moins de PV\n- Inflige +0.15% de dégâts pour chaque 1% de PV manquant (15% Max)",
+      "summary": "1 allié ayant le plus de PV max inflige plus de Dégâts Perçants avec moins de PV"
     },
     {
       "id": 1070731,
       "name": "Désespoir",
-      "desc": "1 allié avec le plus de PV max inflige plus de Dégâts Perçants avec moins de PV\n- Inflige +0.3% de dégâts pour chaque 1% de PV manquant (30% Max)",
-      "summary": "1 allié avec le plus de PV max inflige plus de Dégâts Perçants avec moins de PV"
+      "desc": "1 allié ayant le plus de PV max inflige plus de Dégâts Perçants avec moins de PV\n- Inflige +0.3% de dégâts pour chaque 1% de PV manquant (30% Max)",
+      "summary": "1 allié ayant le plus de PV max inflige plus de Dégâts Perçants avec moins de PV"
     },
     {
       "id": 1010701,
       "name": "Harpon du Second Capitaine",
-      "desc": "En Critique, inflige 2 d’Intensité de Saignement supplémentaire en utilisant une Capacité (6 fois par tour)"
+      "desc": "En Critique, cette unité inflige +2 d’Intensité de [Laceration] supplémentaire avec ses Capacités (6 fois par tour)"
     },
     {
       "id": 1010721,
       "name": "Perspicacité du Second Capitaine",
-      "desc": "En Critique, 1 allié ayant le plus de [Breath] inflige 2 d’Intensité de Saignement supplémentaire en utilisant une Capacité (6 fois par tour)"
+      "desc": "En Critique, 1 allié ayant le plus de [Breath] inflige 2 d’Intensité de [Laceration] supplémentaire avec ses Capacités (6 fois par tour)"
     },
     {
       "id": 1110601,
@@ -999,12 +999,12 @@
     {
       "id": 1110721,
       "name": "Demande",
-      "desc": "1 allié avec le plus de PSM inflige +10% de dégâts avec des Capacités E.G.O"
+      "desc": "1 allié ayant le plus de PSM inflige +10% de dégâts avec des Capacités E.G.O"
     },
     {
       "id": 1110731,
       "name": "Demande",
-      "desc": "1 allié avec le plus de PSM inflige +10% de dégâts avec des Capacités E.G.O.\nSi la Capacité E.G.O. consomme 7 ressources E.G.O. ou plus, inflige +5% de dégât supplémentaire"
+      "desc": "1 allié ayant le plus de PSM inflige +10% de dégâts avec des Capacités E.G.O.\nSi la Capacité E.G.O. consomme 7 ressources E.G.O. ou plus, inflige +5% de dégât supplémentaire"
     },
     {
       "id": 1030701,
@@ -1019,12 +1019,12 @@
     {
       "id": 1030721,
       "name": "Illumilanterne",
-      "desc": "L’allié avec le plus d’[Aggro] d’Emplacement de Capacité se soigne de 2 PV chaque fois qu’il frappe un ennemi qui cible cette unité (ne s’applique pas aux unités sans [Aggro])"
+      "desc": "L’allié ayant le plus d’[Aggro] d’Emplacement de Capacité se soigne de 2 PV chaque fois qu’il frappe un ennemi qui cible cette unité (ne s’applique pas aux unités sans [Aggro])"
     },
     {
       "id": 1030731,
       "name": "Illumilanterne",
-      "desc": "L’allié avec le plus d’[Aggro] d’Emplacement de Capacité se soigne de 4 PV chaque fois qu’il frappe un ennemi qui cible cette unité (ne s’applique pas aux unités sans [Aggro])"
+      "desc": "L’allié ayant le plus d’[Aggro] d’Emplacement de Capacité se soigne de 4 PV chaque fois qu’il frappe un ennemi qui cible cette unité (ne s’applique pas aux unités sans [Aggro])"
     },
     {
       "id": 1060801,
@@ -1039,32 +1039,32 @@
     {
       "id": 1060821,
       "name": "Illumination",
-      "desc": "Fin de l’Attaque : si la cible est dans un état déséquilibré ou vaincu par une attaque d’un allié avec le moins de PSM, l’allié se soigne de 7 PSM"
+      "desc": "Fin de l’Attaque : si la cible est dans un état déséquilibré ou vaincu par une attaque d’un allié ayant les PSM les plus bas, l’allié se soigne de 7 PSM"
     },
     {
       "id": 1010801,
       "name": "Connaissance Lourde",
-      "desc": "Lorsque attaqué, inflige 1 Lourdeur à l’attaquant (4 fois max)"
+      "desc": "Lorsque touché, inflige 1 [Sinking] à l’attaquant (4 fois max)"
     },
     {
       "id": 1010811,
       "name": "Connaissance Lourde",
-      "desc": "Lorsque attaqué, inflige 1 Lourdeur à l’attaquant. Lorsque attaqué alors que Protégé, inflige 1 Lourdeur supplémentaire à l’attaquant (4 fois max)"
+      "desc": "Lorsque touché, inflige 1 [Sinking] à l’attaquant. Lorsque touché avec un Bouclier, inflige 1 [Sinking] supplémentaire à l’attaquant (4 fois max)"
     },
     {
       "id": 1010821,
       "name": "Connaissance Révisée",
-      "desc": "Lorsque 1 allié avec la plus haute Vitesse Défausse une Capacité, gagne (3 * rang de la Capacité Défaussée)% des PV Max en Bouclier (Une fois par tour)"
+      "desc": "Lorsque 1 allié avec la plus haute Vitesse Défausse une Capacité, gagne (3 * rang de la Capacité Défaussée)% des PV max en Bouclier (une fois par tour)"
     },
     {
       "id": 1010831,
       "name": "Connaissance Révisée",
-      "desc": "Lorsque 1 allié avec la plus haute Vitesse Défausse une Capacité, gagne (5 * rang de la Capacité Défaussée)% des PV Max en Bouclier (2 fois par tour)"
+      "desc": "Lorsque 1 allié avec la plus haute Vitesse Défausse une Capacité, gagne (5 * rang de la Capacité Défaussée)% des PV max en Bouclier (2 fois par tour)"
     },
     {
       "id": 1080801,
       "name": "Capitaine du Péquod",
-      "desc": "Fin de l’Attaque : si l’ennemi est vaincu après l’attaque de cette unité,\n- gagne [HeatedGasHarpoon] au prochain tour.\n- 1 autre allié avec le moins de PSM se soigne de 7 PSM.\n- Si l’allié est du Péquod, se soigne de 5 PSM supplémentaires"
+      "desc": "Fin de l’Attaque : si l’ennemi est vaincu après l’attaque de cette unité,\n- gagne [HeatedGasHarpoon] au prochain tour\n- 1 autre allié ayant les PSM les plus bas se soigne de 7 PSM\n- Si l’allié est du Péquod, se soigne de 5 PSM supplémentaires"
     },
     {
       "id": 1080802,
@@ -1074,17 +1074,17 @@
     {
       "id": 1080811,
       "name": "Capitaine du Péquod",
-      "desc": "- Fin de l’Attaque : si l’ennemi est vaincu après l’attaque de cette unité,\n<style=\"highlight\">- gagne 4 Calme, +2 de Compte de Calme. Puis, gagne [OverHeatedGasHarpoon] au prochain tour.</style>\n<style=\"highlight\">- 2 autres alliés avec le moins de PSM se soignent de 7 PSM et gagnent 4 Calme.</style>\n- Si les alliés sont du Péquod, se soignent de 5 PSM supplémentaires. <style=\"highlight\">Puis, une fois par tour, applique 1 Bonus de Puissance Perçante au prochain tour.</style>"
+      "desc": "- Fin de l’Attaque : si l’ennemi est vaincu après l’attaque de cette unité,\n<style=\"highlight\">- gagne 4 Calme, +2 de Compte de [Breath]. Puis, gagne [OverHeatedGasHarpoon] au prochain tour.</style>\n<style=\"highlight\">- 2 autres alliés ayant les PSM les plus bas se soignent de 7 PSM et gagnent 4 Calme.</style>\n- Si les alliés sont du Péquod, se soignent de 5 PSM supplémentaires. <style=\"highlight\">Puis, une fois par tour, applique 1 [PenetrateResultUp] au prochain tour.</style>"
     },
     {
       "id": 1080821,
       "name": "Ordres du Capitaine",
-      "desc": "1 allié avec le plus de PSM gagne 2 Calme lorsque la cible est vaincue après l’attaque de cette unité (2 fois par tour)"
+      "desc": "1 allié ayant le plus de PSM gagne 2 Calme lorsque la cible est vaincue après l’attaque de cette unité (2 fois par tour)"
     },
     {
       "id": 1080831,
       "name": "Ordres du Capitaine",
-      "desc": "Fin de l’Attaque : 1 allié avec le plus de PSM gagne 2 Calme et <style=\"highlight\">+2 de Compte de Calme</style> lorsque la cible est vaincue après l’attaque de cette unité (2 fois par tour)"
+      "desc": "Fin de l’Attaque : 1 allié ayant le plus de PSM gagne 2 Calme et <style=\"highlight\">+2 de Compte de [Breath]</style> lorsque la cible est vaincue après l’attaque de cette unité (2 fois par tour)"
     },
     {
       "id": 1050801,
@@ -1104,17 +1104,17 @@
     {
       "id": 1020801,
       "name": "Fleurs de Prunier Sanguines",
-      "desc": "En Critique : inflige 1 [RedApricotBlossom] (3 fois max)"
+      "desc": "En Critique, inflige 1 [RedApricotBlossom] (3 fois max)"
     },
     {
       "id": 1020811,
       "name": "Fleurs de Prunier Sanguines",
-      "desc": "En Critique : inflige 1 [RedApricotBlossom]. Si la cible a 10 [RedApricotBlossom], inflige 1 Malus de Niveau Défensif à la place (6 fois max)"
+      "desc": "En Critique, inflige 1 [RedApricotBlossom]\nSi la cible a 10 [RedApricotBlossom], inflige 1 [DefenseDown] à la place (6 fois max)"
     },
     {
       "id": 1020821,
       "name": "Pointe de Lame Persistante",
-      "desc": "Lorsque l’allié déployé en premier dans la configuration d’équipe de pré-combat touche Critiquement avec une Capacité Tranchante, inflige 1 Malus de Niveau Défensif (3 fois max par 1 ennemi par tour)"
+      "desc": "Lorsque l’allié ayant l’ordre de Déploiement le plus tôt touche Critiquement avec une Capacité Tranchante, inflige 1 [DefenseDown] (3 fois max par ennemi par tour)"
     },
     {
       "id": 1030801,
@@ -1144,34 +1144,34 @@
     {
       "id": 1120821,
       "name": "Style du Nuage Noir",
-      "desc": "Lorsque 1 allié avec la plus basse Vitesse touche un ennemi ayant 10 [Laceration] ou plus, inflige 1 Malus de Niveau Offensif au prochain tour (3 fois par tour)"
+      "desc": "Lorsque 1 allié avec la plus basse Vitesse touche un ennemi ayant 10 [Laceration] ou plus, inflige 1 [AttackDown] au prochain tour (3 fois par tour)"
     },
     {
       "id": 1120831,
       "name": "Style du Nuage Noir",
-      "desc": "Lorsque 1 allié avec la plus basse Vitesse touche un ennemi ayant 7 [Laceration] ou plus, inflige 1 Malus de Niveau Offensif au prochain tour (3 fois par tour)"
+      "desc": "Lorsque 1 allié avec la plus basse Vitesse touche un ennemi ayant 7 [Laceration] ou plus, inflige 1 [AttackDown] au prochain tour (3 fois par tour)"
     },
     {
       "id": 1050802,
       "name": "In Memoriam",
-      "desc": "Lorsque 3 alliés ou plus de la Lignée de la Lame sont vaincus :\n- En gagnant de l’Intensité/Compte de Calme en utilisant ses propres Capacités ou effets de Pièce : gagne 1 de chaque supplémentaire\n- Lorsque 5 alliés ou plus de la Lignée de la Lame sont vaincus, gagne 2 de chaque supplémentaire à la place\n- Début du Combat : s’applique [SwordPlayOfTheHomeland]"
+      "desc": "Lorsque 3 alliés ou plus de la Lignée de la Lame sont vaincus :\n- En gagnant de l’Intensité/Compte de [Breath] en utilisant ses propres Capacités ou effets de Pièce : gagne 1 de chaque supplémentaire\n- Lorsque 5 alliés ou plus de la Lignée de la Lame sont vaincus, gagne 2 de chaque supplémentaire à la place\n- Début du Combat : s’applique [SwordPlayOfTheHomeland]"
     },
     {
       "id": 1090801,
       "name": "Passion Brûlante",
       "desc": "Inflige +5% de dégâts pour chaque 6 d’Intensité de [Combustion] sur la cible (15% Max)\nDébut du Combat : si tous les ennemis ont 6 d’Intensité de [Combustion] ou plus, applique 1 [CrimsonDamageUp] à (plus haute Réson.-A de Colère) alliés par ordre de Déploiement\n- En Affrontement Ciblé, la condition ci-dessus s’active lorsque toutes les Parties ennemies ont 6 d’Intensité de [Combustion] ou plus",
-      "summary": "Inflige +5% de dégâts pour chaque 6 d’Intensité de [Combustion] sur la cible (15% Max)\nSous certaines conditions de Brûlure et de Réson.-A, applique un buff aux alliés"
+      "summary": "Inflige +5% de dégâts pour chaque 6 d’Intensité de [Combustion] sur la cible (15% Max)\nSous certaines conditions de [Combustion] et de Réson.-A, applique un buff aux alliés"
     },
     {
       "id": 1090811,
       "name": "Passion Brûlante",
-      "desc": "Inflige +10% de dégâts pour chaque 6 d’Intensité de [Combustion] sur la cible (30% Max)\nDébut du Combat : si tous les ennemis ont 6 d’Intensité de [Combustion] ou plus, applique 1 [CrimsonDamageUp] à (plus haute Réson.-A de Colère) alliés par ordre de Déploiement\n- En Affrontement Ciblé, la condition ci-dessus s’active lorsque toutes les Parties ennemies ont 6 d’Intensité de [Combustion] ou plus\n- Si l’allié est un Fixer de l’Association Liu, applique 1 Bonus de Puissance Offensive",
-      "summary": "Inflige +10% de dégâts pour chaque 6 d’Intensité de [Combustion] sur la cible (30% Max)\nSous certaines conditions de Brûlure et de Réson.-A, applique un buff aux alliés"
+      "desc": "Inflige +10% de dégâts pour chaque 6 d’Intensité de [Combustion] sur la cible (30% Max)\nDébut du Combat : si tous les ennemis ont 6 d’Intensité de [Combustion] ou plus, applique 1 [CrimsonDamageUp] à (plus haute Réson.-A de Colère) alliés par ordre de Déploiement\n- En Affrontement Ciblé, la condition ci-dessus s’active lorsque toutes les Parties ennemies ont 6 d’Intensité de [Combustion] ou plus\n- Si l’allié est un Fixer de l’Association Liu, applique 1 [Enhancement]",
+      "summary": "Inflige +10% de dégâts pour chaque 6 d’Intensité de [Combustion] sur la cible (30% Max)\nSous certaines conditions de [Combustion] et de Réson.-A, applique un buff aux alliés"
     },
     {
       "id": 1090821,
       "name": "Encouragement Chaleureux",
-      "desc": "1 allié avec le moins de PSM inflige +5% de dégâts Perçants pour chaque 6 d’Intensité de [Combustion] sur la cible En Touche (15% Max)"
+      "desc": "1 allié ayant les PSM les plus bas inflige +5% de dégâts Perçants pour chaque 6 d’Intensité de [Combustion] sur la cible En Touche (15% Max)"
     },
     {
       "id": 1040701,
@@ -1278,13 +1278,13 @@
     {
       "id": 1020921,
       "name": "Entraînement Anticipé",
-      "desc": "Lorsque 1 allié ayant le moins de PSM touche un ennemi ayant 5 [Sinking] ou plus, l’allié se soigne de 2 PSM En Touche (4 fois par tour)",
+      "desc": "Lorsque 1 allié ayant les PSM les plus bas touche un ennemi ayant 5 [Sinking] ou plus, l’allié se soigne de 2 PSM En Touche (4 fois par tour)",
       "summary": "Soin de PSM Conditionnel"
     },
     {
       "id": 1020931,
       "name": "Entraînement Anticipé",
-      "desc": "Lorsque 1 allié ayant le moins de PSM touche un ennemi ayant 5 [Sinking] ou plus, l’allié se soigne de 3 PSM En Touche (4 fois par tour)",
+      "desc": "Lorsque 1 allié ayant les PSM les plus bas touche un ennemi ayant 5 [Sinking] ou plus, l’allié se soigne de 3 PSM En Touche (4 fois par tour)",
       "summary": "Soin de PSM Conditionnel"
     },
     {
@@ -1302,13 +1302,13 @@
     {
       "id": 1120921,
       "name": "Souffrance",
-      "desc": "Début du Combat : 1 allié avec le moins de PSM perd 7 PSM, puis gagne 1 [AzureDamageUp]",
+      "desc": "Début du Combat : 1 allié ayant les PSM les plus bas perd 7 PSM, puis gagne 1 [AzureDamageUp]",
       "summary": ""
     },
     {
       "id": 1120931,
       "name": "Souffrance",
-      "desc": "Début du Combat : 1 allié avec le moins de PSM perd 5 PSM, puis gagne 1 [AzureDamageUp]",
+      "desc": "Début du Combat : 1 allié ayant les PSM les plus bas perd 5 PSM, puis gagne 1 [AzureDamageUp]",
       "summary": ""
     },
     {
@@ -1326,13 +1326,13 @@
     {
       "id": 999903,
       "name": "Larmes Sanglantes",
-      "desc": "En Utilisation de Capacité : subit 3% des PV Max en dégâts fixes (ces dégâts ne peuvent pas tuer cette unité).\nFin de l’Attaque : se soigne de 15% des PV Max pour chaque unité tuée",
+      "desc": "En Utilisation de Capacité : subit 3% des PV max en dégâts fixes (ces dégâts ne peuvent pas tuer cette unité)\nFin de l’Attaque : se soigne de 15% des PV max pour chaque unité tuée",
       "summary": ""
     },
     {
       "id": 999904,
       "name": "Barrière de Sang",
-      "desc": "Tous les alliés, incluant cette unité, gagnent du Bouclier à chaque tour.\nTous les alliés, incluant cette unité, ne tombent pas en dessous de 1 PV pour cet Affrontement",
+      "desc": "Tous les alliés, incluant cette unité, gagnent du Bouclier à chaque tour\nTous les alliés, incluant cette unité, ne tombent pas en dessous de 1 PV pour cet Affrontement",
       "summary": ""
     },
     {
@@ -1410,7 +1410,7 @@
     {
       "id": 1100902,
       "name": "Coquille d’Ego Instable",
-      "desc": "Début du Tour : à 40 PSM ou plus, consomme 20 PSM pour entrer dans un état E.G.O. Volatile::Penne de Cire (Cet effet 'Début du Tour' ne s’active pas à répétition)\nSi 2 alliés ou plus sont vaincus en un seul tour, et si les PSM de cette unité ne sont pas à -45 à la Fin du Tour, remet les PSM à 10 ; puis, entre dans un état E.G.O. Volatile::Penne de Cire (Si les deux conditions sont remplies en même temps, la condition résultant en le plus de PSM s’active)\n\nSi cette unité est Déséquilibrée suite à des dégâts ou une augmentation de Seuil de Déséquilibre en entrant dans l’état E.G.O. Volatile, se remet de Déséquilibre. Si le Déséquilibre ne peut pas être retiré naturellement, cette unité n’entre pas dans l’état E.G.O. Volatile.\n\nGagne [UnstableFeeling] lorsque dans l’état E.G.O. Volatile.\n\nFin du Tour : à 0 PSM ou moins, quitte l’état E.G.O. Volatile::Penne de Cire",
+      "desc": "Début du Tour : à 40 PSM ou plus, consomme 20 PSM pour entrer dans un état E.G.O. Volatile::Penne de Cire (Cet effet 'Début du Tour' ne s’active pas à répétition)\nSi 2 alliés ou plus sont vaincus en un seul tour, et si les PSM de cette unité ne sont pas à -45 à la Fin du Tour, remet les PSM à 10 ; puis, entre dans un état E.G.O. Volatile::Penne de Cire (Si les deux conditions sont remplies en même temps, la condition résultant en le plus de PSM s’active)\n\nSi cette unité est Déséquilibrée suite à des dégâts ou une augmentation de Seuil de Déséquilibre en entrant dans l’état E.G.O. Volatile, se remet de Déséquilibre. Si le Déséquilibre ne peut pas être retiré naturellement, cette unité n’entre pas dans l’état E.G.O. Volatile\n\nGagne [UnstableFeeling] lorsque dans l’état E.G.O. Volatile\n\nFin du Tour : à 0 PSM ou moins, quitte l’état E.G.O. Volatile::Penne de Cire",
       "summary": " "
     },
     {
@@ -1422,49 +1422,49 @@
     {
       "id": 1010901,
       "name": "Évaluation de la Tâche",
-      "desc": "En Touche, si la cible a 6 [Laceration] ou plus, se soigne de 2 PSM.\nSe soigne de 1 PSM supplémentaire pour chaque type d’effets négatifs sur la cible (3 max)\nSi les PSM de cette unité sont au max, gagne 1 [AttackUp] au prochain tour lorsque cette unité se soigne des PSM avec cet effet.\n(Ce Passif s’active 4 fois max par tour)",
+      "desc": "En Touche, si la cible a 6 [Laceration] ou plus, se soigne de 2 PSM\nSe soigne de 1 PSM supplémentaire par type d’effets négatifs sur la cible (3 max)\nSi les PSM de cette unité sont au max, gagne 1 [AttackUp] au prochain tour lorsque cette unité se soigne des PSM avec cet effet\n(Ce Passif s’active 4 fois max par tour)",
       "summary": "Soin Conditionnel de PSM en Touche. À PSM max, gagne 1 [AttackUp] au prochain tour"
     },
     {
       "id": 1010911,
       "name": "Évaluation de la Tâche",
-      "desc": "En Touche, si la cible a <style=\"highlight\">4</style>+ de [Laceration], se soigne de 2 PSM.\nSe soigne de 1 PSM supplémentaire pour chaque type d’effets négatifs sur la cible (3 max)\nSi les PSM de cette unité sont au max, gagne <style=\"highlight\">2</style> de [AttackUp] au prochain tour lorsque cette unité se soigne des PSM avec cet effet.\n(Ce Passif s’active 4 fois max par tour)",
+      "desc": "En Touche, si la cible a <style=\"highlight\">4</style>+ de [Laceration], se soigne de 2 PSM\nSe soigne de 1 PSM supplémentaire par type d’effets négatifs sur la cible (3 max)\nSi les PSM de cette unité sont au max, gagne <style=\"highlight\">2</style> de [AttackUp] au prochain tour lorsque cette unité se soigne des PSM avec cet effet\n(Ce Passif s’active 4 fois max par tour)",
       "summary": "Soin Conditionnel de PSM en Touche. À PSM max, gagne 2 [AttackUp] au prochain tour"
     },
     {
       "id": 1010921,
       "name": "Pratiques sur l’Esthétisme",
-      "desc": "1 allié ayant le moins de PSM se soigne de 2 PSM En Touche pour chaque type d’effets négatifs sur la cible (6 max)\n(Ce Passif s’active 2 fois max par tour)",
+      "desc": "1 allié ayant les PSM les plus bas se soigne de 2 PSM En Touche par d’effets négatifs sur la cible (6 max)\n(Ce Passif s’active 2 fois max par tour)",
       "summary": "En Touche, soigne de PSM selon le nombre de types d’effets négatifs sur la cible"
     },
     {
       "id": 1010931,
       "name": "Pratiques sur l’Esthétisme",
-      "desc": "1 allié ayant le moins de PSM se soigne de 2 PSM En Touche pour chaque type d’effets négatifs sur la cible (6 max)\n<style=\"highlight\">Si la cible a [Laceration], se soigne de 3 PSM supplémentaires.</style>\n(Ce Passif s’active 2 fois max par tour)",
+      "desc": "1 allié ayant les PSM les plus bas se soigne de 2 PSM En Touche par type d’effets négatifs sur la cible (6 max)\n<style=\"highlight\">Si la cible a [Laceration], se soigne de 3 PSM supplémentaires.</style>\n(Ce Passif s’active 2 fois max par tour)",
       "summary": "En Touche, soigne de PSM selon le nombre de types d’effets négatifs sur la cible"
     },
     {
       "id": 1110901,
       "name": "Multitude de Points",
-      "desc": "Début du Combat : inflige 2 d’Intensité de 1 des effets suivants à 1 ennemi ayant le moins de type d’effets négatifs : [Combustion], [Laceration], [Vibration], [Burst] ou [Sinking]. Effet choisi aléatoirement.\n(En Affrontement Ciblé, une Partie)",
+      "desc": "Début du Combat : inflige 2 d’Intensité de 1 des effets suivants à 1 ennemi ayant le moins de type d’effets négatifs : [Combustion], [Laceration], [Vibration], [Burst] ou [Sinking]. Effet choisi aléatoirement\n(En Affrontement Ciblé, une Partie)",
       "summary": "Début du Combat : inflige 2 d’Intensité d’un effet de statut aléatoire à un ennemi"
     },
     {
       "id": 1110911,
       "name": "Multitude de Points",
-      "desc": "Début du Combat : inflige 2 d’Intensité de 1 des effets suivants à <style=\"highlight\">2</style> ennemis ayant le moins de type d’effets négatifs : [Combustion], [Laceration], [Vibration], [Burst] ou [Sinking]. Effet choisi aléatoirement.\n(En Affrontement Ciblé, des Parties)",
+      "desc": "Début du Combat : inflige 2 d’Intensité de 1 des effets suivants à <style=\"highlight\">2</style> ennemis ayant le moins de type d’effets négatifs : [Combustion], [Laceration], [Vibration], [Burst] ou [Sinking]. Effet choisi aléatoirement\n(En Affrontement Ciblé, des Parties)",
       "summary": "Début du Combat : inflige 2 d’Intensité d’un effet de statut aléatoire à 2 ennemis"
     },
     {
       "id": 1110921,
       "name": "Ébauche",
-      "desc": "1 allié ayant le moins de PSM se soigne de 4 PSM en vainquant un ennemi ayant [Laceration].\nSe soigne de 1 PSM supplémentaire pour chaque type d’effets négatifs sur la cible (4 max. Une fois par tour)",
+      "desc": "1 allié ayant les PSM les plus bas se soigne de 4 PSM en vainquant un ennemi ayant [Laceration]\nSe soigne de 1 PSM supplémentaire pour chaque type d’effets négatifs sur la cible (4 max. Une fois par tour)",
       "summary": "Soin de PSM sur soi En Tuant des cibles ayant [Laceration]"
     },
     {
       "id": 1110931,
       "name": "Ébauche",
-      "desc": "1 allié ayant le moins de PSM se soigne de 4 PSM en vainquant un ennemi ayant [Laceration].\nSe soigne de 1 PSM supplémentaire pour chaque type d’effets négatifs sur la cible (4 max. 3 fois par tour)",
+      "desc": "1 allié ayant les PSM les plus bas se soigne de 4 PSM en vainquant un ennemi ayant [Laceration]\nSe soigne de 1 PSM supplémentaire pour chaque type d’effets négatifs sur la cible (4 max. 3 fois par tour)",
       "summary": "Soin de PSM sur soi En Tuant des cibles ayant [Laceration]"
     },
     {
@@ -1480,12 +1480,12 @@
     {
       "id": 1040901,
       "name": "R.D.P.",
-      "desc": "- Lorsqu’un autre allié Déséquilibre un ennemi avec une attaque : attaque l’ennemi Déséquilibré avec une Capacité 1 (une fois par Tour)\n- Si plusieurs ennemis sont Déséquilibrés en même temps, cible l’ennemi avec le moins de PV (pour les Anomalies, cible l’Anomalie avec le moins de PV ; puis, cible la Partie avec le moins de PV).\n- En utilisant une Capacité 1 avec cet effet, cette unité gagne +1 de Compte de [Vibration] supplémentaire de ses effets de Pièce et déclenche un [VibrationExplosion] En Touche avec la dernière Pièce"
+      "desc": "- Lorsqu’un autre allié Déséquilibre un ennemi avec une attaque : attaque l’ennemi Déséquilibré avec une Capacité 1 (une fois par Tour)\n- Si plusieurs ennemis sont Déséquilibrés en même temps, cible l’ennemi avec le moins de PV (pour les Anomalies, cible l’Anomalie avec le moins de PV ; puis, cible la Partie avec le moins de PV)\n- En utilisant une Capacité 1 avec cet effet, cette unité gagne +1 de Compte de [Vibration] supplémentaire de ses effets de Pièce et déclenche un [VibrationExplosion] En Touche avec la dernière Pièce"
     },
     {
       "id": 1040921,
       "name": "La R.E.",
-      "desc": "L’allié Déployé #1 gagne +1 de Compte de Tremblement de ses effets de Capacité ou de Pièce (2 fois par tour)"
+      "desc": "L’allié Déployé #1 gagne +1 de Compte de [Vibration] de ses effets de Capacité ou de Pièce (2 fois par tour)"
     },
     {
       "id": 1060901,
@@ -1495,7 +1495,7 @@
     {
       "id": 1060921,
       "name": "Dans les Chaussures du Coupable",
-      "desc": "Lorsque l’Identité Déployée #1 déclenche un Sursaut de Tremblement avec des effets de Capacité ou de Pièce, 25% de chances de déclencher un Sursaut de Tremblement supplémentaire (une fois par tour)"
+      "desc": "Lorsque l’Identité Déployée #1 déclenche un [VibrationExplosion] avec des effets de Capacité ou de Pièce, 25% de chances de déclencher un [VibrationExplosion] supplémentaire (une fois par tour)"
     },
     {
       "id": 1030901,
@@ -1520,12 +1520,12 @@
     {
       "id": 1051001,
       "name": "Salle d’Étude",
-      "desc": "Chaque fois qu’un autre allié Défausse une Capacité, applique 1 [KnowledgeTraining] à l’allié et à soi (une fois par Capacité, 3 fois par tour)\nFin du Tour : au prochain tour, gagne du Bonus de DGT Perçant et du Bonus de DGT Contondant égaux au nombre de Capacités Défaussées d’autres alliés (3 max)"
+      "desc": "Chaque fois qu’un autre allié Défausse une Capacité, applique 1 [KnowledgeTraining] à l’allié et à soi (une fois par Capacité, 3 fois par tour)\nFin du Tour : au prochain tour, gagne du [PenetrateDamageUp] et du [HitDamageUp] égaux au nombre de Capacités Défaussées d’autres alliés (3 max)"
     },
     {
       "id": 1051021,
       "name": "Éducation Assidue",
-      "desc": "Lorsque 1 allié avec les plus hauts PV Max Défausse une Capacité, gagne (5 * rang de la Capacité Défaussée)% des PV Max en Bouclier (une fois par tour)\nSi l’unité possède [KnowledgeExplored], multiplie la valeur du Bouclier ci-dessus par 1.5"
+      "desc": "Lorsque 1 allié ayant les plus hauts PV max Défausse une Capacité, gagne (5 * rang de la Capacité Défaussée)% des PV max en Bouclier (une fois par tour)\nSi l’unité possède [KnowledgeExplored], multiplie la valeur du Bouclier ci-dessus par 1.5"
     },
     {
       "id": 1111001,
@@ -1535,29 +1535,29 @@
     {
       "id": 1111021,
       "name": "Réfraction",
-      "desc": "1 allié avec le plus de Compte de [Charge] au Début du Tour : inflige +10% de dégâts avec les Capacités qui ont consommé 7 de Compte de [Charge] ou plus (une fois par tour)"
+      "desc": "1 allié ayant le plus de Compte de [Charge] au Début du Tour : inflige +10% de dégâts avec les Capacités qui ont consommé 7 de Compte de [Charge] ou plus (une fois par tour)"
     },
     {
       "id": 1021001,
       "name": "Démantèlement de l’électrocourant",
-      "desc": "Gagne 1 [Charge] chaque fois que cette unité consomme 10 de Compte de [Charge] cumulés cet Affrontement\nÀ 2 [Charge] ou plus, inflige +([Charge] * 3)% de dégâts (15% max)\n\nEn Tuant, cette unité et 1 allié ayant le moins de Compte de [Charge] gagnent du Compte de [Charge] égal à la [Charge] (3 max, priorise les alliés qui consomment ou gagnent de la [Charge])",
+      "desc": "Gagne 1 [Charge] chaque fois que cette unité consomme 10 de Compte de [Charge] cumulés cet Affrontement\nÀ 2 [Charge] ou plus, inflige +([Charge] * 3)% de dégâts (15% max)\n\nEn Tuant, cette unité et 1 allié ayant le Compte de [Charge] le plus bas gagnent du Compte de [Charge] égal à la [Charge] (3 max, priorise les alliés qui consomment ou gagnent de la [Charge])",
       "summary": "Gagne [Charge] à chaque consommation de 10 de Compte de [Charge]\nÀ 2 [Charge] ou plus, inflige plus de dégâts\nEn Tuant, cette unité et 1 allié gagnent du Compte de [Charge]"
     },
     {
       "id": 1021011,
       "name": "Démantèlement de l’électrocourant",
-      "desc": "Gagne 1 [Charge] chaque fois que cette unité consomme 10 de Compte de [Charge] cumulés cet Affrontement\nÀ 2 [Charge] ou plus, inflige +([Charge] * 3)% de dégâts (15% max)\n<style=\"highlight\">- Si la cible est à moins de 50% e PV, inflige +([Charge] * 5)% de dégâts augmentés supplémentaires (25% max)</style>\n\nEn Tuant, cette unité et <style=\"highlight\">2 alliés</style> ayant le moins de Compte de [Charge] gagnent du Compte de [Charge] égal à <style=\"highlight\">([Charge] + 2)</style> (<style=\"highlight\">5</style> max, priorise les alliés qui consomment ou gagnent de la [Charge])",
+      "desc": "Gagne 1 [Charge] chaque fois que cette unité consomme 10 de Compte de [Charge] cumulés cet Affrontement\nÀ 2 [Charge] ou plus, inflige +([Charge] * 3)% de dégâts (15% max)\n<style=\"highlight\">- Si la cible est à moins de 50% e PV, inflige +([Charge] * 5)% de dégâts supplémentaires (25% max)</style>\n\nEn Tuant, cette unité et <style=\"highlight\">2 alliés</style> ayant le Compte de [Charge] le plus bas gagnent du Compte de [Charge] égal à <style=\"highlight\">([Charge] + 2)</style> (<style=\"highlight\">5</style> max, priorise les alliés qui consomment ou gagnent de la [Charge])",
       "summary": "Gagne [Charge] à chaque consommation de 10 de Compte de [Charge]\nÀ 2 [Charge] ou plus, inflige plus de dégâts\nEn Tuant, cette unité et 2 alliés gagnent du Compte de [Charge]"
     },
     {
       "id": 1021021,
       "name": "Courant de Démantèlement Auxiliaire",
-      "desc": "Lorsque 1 allié ayant le moins de Compte de [Charge] tue un ennemi, l’allié gagne +2 de Compte de [Charge] (une fois par tour, priorise les alliés qui consomment ou gagnent de la [Charge])"
+      "desc": "Lorsque 1 allié ayant le Compte de [Charge] le plus bas tue un ennemi, l’allié gagne +2 de Compte de [Charge] (une fois par tour, priorise les alliés qui consomment ou gagnent de la [Charge])"
     },
     {
       "id": 1021031,
       "name": "Courant de Démantèlement Auxiliaire",
-      "desc": "Lorsque 1 allié ayant le moins de Compte de [Charge] tue un ennemi, l’allié gagne +3 de Compte de [Charge] (une fois par tour, priorise les alliés qui consomment ou gagnent de la [Charge])"
+      "desc": "Lorsque 1 allié ayant le Compte de [Charge] le plus bas tue un ennemi, l’allié gagne +3 de Compte de [Charge] (une fois par tour, priorise les alliés qui consomment ou gagnent de la [Charge])"
     },
     {
       "id": 1070901,
@@ -1579,7 +1579,7 @@
     {
       "id": 1071002,
       "name": "Dullahan",
-      "desc": "- Début du Tour : si cette unité a [NightPathfinding], monte [NightPathfinding].\n- Perd 5 PSM chaque fois que cette unité monte [NightPathfinding]\n- Si 3 alliés ou plus ont été vaincu dans cet Affrontement, gagne [NightPathfinding] au prochain tour (une fois par Affrontement)\n- Si cette unité devient Déséquilibrée suite à des dégâts ou un Seuil de Déséquilibre augmenté en montant [NightPathfinding], se remet de Déséquilibre. Si le Déséquilibre est quelque chose dont on ne peut pas se remettre naturellement, cette unité ne monte pas [NightPathfinding].\n\n- Gagne 1 Cercueil en tuant la cible"
+      "desc": "- Début du Tour : si cette unité a [NightPathfinding], monte [NightPathfinding]\n- Perd 5 PSM chaque fois que cette unité monte [NightPathfinding]\n- Si 3 alliés ou plus ont été vaincu dans cet Affrontement, gagne [NightPathfinding] au prochain tour (une fois par Affrontement)\n- Si cette unité devient Déséquilibrée suite à des dégâts ou un Seuil de Déséquilibre augmenté en montant [NightPathfinding], se remet de Déséquilibre. Si le Déséquilibre est quelque chose dont on ne peut pas se remettre naturellement, cette unité ne monte pas [NightPathfinding]\n\n- Gagne 1 Cercueil en tuant la cible"
     },
     {
       "id": 1071001,
@@ -1607,51 +1607,51 @@
     },
     {
       "id": 1041001,
-      "name": "Tête d’Araignée/Crânepoil",
+      "name": "Tête d’Araignée/Face de Crâne",
       "desc": "En frappant un ennemi avec une Pièce qui gagne [RedEyeFirst] :\n- Inflige +([RedEyeFirst]/2)% de dégâts\n- Si la cible a [Laceration], gagne 1 [RedEyeFirst] (3 fois par tour)\n\nEn frappant un ennemi avec une Pièce qui gagne [PenanceFirst] :\n- Inflige +([PenanceFirst]/2)% de dégâts\n- À 20 PSM ou plus, gagne 1 [PenanceFirst] (3 fois par tour)",
-      "summary": "Pièces qui gagnant Yeux Rouges infligent plus de dégâts ; si la cible a Saignement, gagne 1 Yeux Rouges\nPièces qui gagnant Pénitence infligent plus de dégâts ; à 20 PSM ou plus, gagne 1 Pénitence"
+      "summary": "Pièces qui gagnant Yeux Rouges infligent plus de dégâts ; si la cible a [Laceration], gagne 1 Yeux Rouges\nPièces qui gagnant Pénitence infligent plus de dégâts ; à 20 PSM ou plus, gagne 1 Pénitence"
     },
     {
       "id": 1041011,
-      "name": "Tête d’Araignée/Crânepoil",
+      "name": "Tête d’Araignée/Face de Crâne",
       "desc": "En frappant un ennemi avec une Pièce qui gagne [RedEyeFirst] :\n- Inflige +([RedEyeFirst]/2)% de dégâts\n<style=\"highlight\">- Si la Vitesse de cette unité est supérieure de 3 ou plus à celle de la cible, inflige +([RedEyeFirst]/2)% de dégâts</style>\n- Si la cible a [Laceration], gagne 1 [RedEyeFirst] (3 fois par tour)\n\nEn frappant un ennemi avec une Pièce qui gagne [PenanceFirst] :\n- Inflige +([PenanceFirst]/2)% de dégâts\n<style=\"highlight\">- Si les PSM de la cible sont inférieurs à ceux de cette unité, inflige +([PenanceFirst]/2)% de dégâts (pour les cibles qui sont des Unités sans-PSM, leur PSM compte comme 0)</style>\n- À 20 PSM ou plus, gagne 1 [PenanceFirst] (3 fois par tour)\n\n<style=\"highlight\">Lorsque touché par un ennemi, gagne 1 [PenanceFirst] (3 max)</style>",
-      "summary": "Pièces qui gagnant Yeux Rouges infligent plus de dégâts ; si la cible a Saignement, gagne 1 Yeux Rouges\nPièces qui gagnant Pénitence infligent plus de dégâts ; à 20 PSM ou plus, gagne 1 Pénitence\nLorsque touché par un ennemi, gagne 1 Pénitence (3 max)"
+      "summary": "Pièces qui gagnant Yeux Rouges infligent plus de dégâts ; si la cible a [Laceration], gagne 1 Yeux Rouges\nPièces qui gagnant Pénitence infligent plus de dégâts ; à 20 PSM ou plus, gagne 1 Pénitence\nLorsque touché par un ennemi, gagne 1 Pénitence (3 max)"
     },
     {
       "id": 1041002,
       "name": "Assimilation E.G.O.",
       "desc": "En gagnant du Compte de [Charge], obtient [RedEyeFirst] ou [PenanceFirst] à la place\n- [RedEyeFirst] et [PenanceFirst] ne sont pas affectés par l’Intensité de [Charge]",
-      "summary": "En gagnant du Compte de Charge, gagne Yeux Rouges ou Pénitence à la place"
+      "summary": "En gagnant du Compte de [Charge], gagne Yeux Rouges ou Pénitence à la place"
     },
     {
       "id": 1041021,
       "name": "Manger et Dormir",
-      "desc": "Début du Combat :\n- 1 allié avec le moins de pourcentage de PV regagne 3 PV\n- 1 allié avec le moins de PSM regagne 3 PSM",
-      "summary": "Rend des PV à l’allié avec le moins de pourcentage de PV et des PSM à l’allié avec le moins de PSM"
+      "desc": "Début du Combat :\n- 1 allié ayant le moins de pourcentage de PV regagne 3 PV\n- 1 allié ayant les PSM les plus bas regagne 3 PSM",
+      "summary": "Rend des PV à l’allié ayant le moins de pourcentage de PV et des PSM à l’allié ayant les PSM les plus bas"
     },
     {
       "id": 1011001,
       "name": "Tirer.JeVaisTirer.",
       "desc": "Lorsque cette unité gagne [BulletLament], gagne 2 [Agility] au prochain tour (une fois par tour)",
-      "summary": "Lorsque cette unité gagne des Munitions, gagne de la Vitesse au prochain tour"
+      "summary": "Lorsque cette unité gagne des [Bullet]s, gagne de la Vitesse au prochain tour"
     },
     {
       "id": 1011002,
       "name": "JeVoisLePapillonMourant",
-      "desc": "Commence les affrontements avec 10 de chaque [BulletLament]\n\nEn consommant [BulletLament], choisit aléatoirement entre Les Vivants (Intensité) et Les Défunts (Compte) pour chaque valeur de [BulletLament].\n\nEn infligeant [SinkingWhite], inflige la même quantité de Les Vivants et Les Défunts que consommée. Exemple ci-dessous :\n- Si cette unité a consommé X Vivants, inflige X Vivants\n- Si cette unité a consommé Y Défunts, inflige Y Défunts\n\nSi cette unité tombe à court de [BulletLament] au milieu d’une Capacité, annule toutes les Pièces à venir et [ReloadLament]\n\nEn [ReloadLament]ant, ou en gagnant [BulletLament], gagne Les Vivants ou Les Défunts en fonction des PSM actuels de cette unité\n- À 0 PSM ou plus : 30% de chances de gagner Les Vivants ; 70% de chances de gagner Les Défunts.\n- À moins de 0 PSM : 70% de chances de gagner Les Vivants ; 30% de chances de gagner Les Défunts.\n- Les probabilités sont calculées séparément pour chaque munition consommée",
+      "desc": "Commence les affrontements avec 10 de chaque [BulletLament]\n\nEn dépensant [BulletLament], choisit aléatoirement entre Les Vivants (Intensité) et Les Défunts (Compte) pour chaque valeur de [BulletLament]\n\nEn infligeant [SinkingWhite], inflige la même quantité de Les Vivants et Les Défunts que dépensée. Exemple ci-dessous :\n- Si cette unité a dépensé X Vivants, inflige X Vivants\n- Si cette unité a dépensé Y Défunts, inflige Y Défunts\n\nSi cette unité tombe à court de [BulletLament] au milieu d’une Capacité, annule toutes les Pièces à venir et [ReloadLament]\n\nEn [ReloadLament]ant, ou en gagnant [BulletLament], gagne Les Vivants ou Les Défunts en fonction des PSM actuels de cette unité\n- À 0 PSM ou plus : 30% de chances de gagner Les Vivants ; 70% de chances de gagner Les Défunts\n- À moins de 0 PSM : 70% de chances de gagner Les Vivants ; 30% de chances de gagner Les Défunts\n- Les probabilités sont calculées séparément pour chaque munition dépensée",
       "summary": "Recharge si cette unité tombe à court de Munition au milieu d’une Capacité"
     },
     {
       "id": 1011011,
       "name": "Tirer.JeVaisTirer.",
       "desc": "Fin de l’Attaque : si cette unité a tué la cible avec ses Capacités, [ReloadLament]\nLorsque cette unité gagne [BulletLament], gagne 2 [Agility] au prochain tour (une fois par tour)",
-      "summary": "Lorsque cette unité gagne des Munitions, gagne de la Vitesse au prochain tour. Recharge En Tuant"
+      "summary": "Lorsque cette unité gagne des [Bullet]s, gagne [Agility]. En Tuant, Recharge"
     },
     {
       "id": 1011021,
       "name": "Main du Salut",
       "desc": "Lorsqu’un allié touche avec une Capacité, consomme 2 [Sinking] sur la cible pour lui infliger 1 [SinkingWhite] (3 fois par tour)",
-      "summary": "Convertie la Lourdeur de la cible en Papillon"
+      "summary": "Convertie la [Sinking] de la cible en Papillon"
     },
     {
       "id": 1091001,
@@ -1700,7 +1700,7 @@
     {
       "id": 1101021,
       "name": "Protection de la Cible du Contrat",
-      "desc": "Fin du Tour : applique 1 [Agility] et 3 [DefenseUp] à 1 allié avec le moins de pourcentage de PV au prochain tour"
+      "desc": "Fin du Tour : applique 1 [Agility] et 3 [DefenseUp] à 1 allié ayant le moins de pourcentage de PV au prochain tour"
     },
     {
       "id": 1051101,
@@ -1747,13 +1747,13 @@
     {
       "id": 1111111,
       "name": "MAUVAIS COSTUME !!!",
-      "desc": "Dans un Duel avec [LineCuttingPersonality], +1 de Puissance de Duel.\nEn Touche, inflige +1.5% de dégâts pour chaque 10 [BloodDinner_Accumulation] pour soi-même (30% max)\nEn Touche, inflige +0.5% de dégâts pour chaque [Laceration] sur la cible (10% max)",
+      "desc": "Dans un Duel avec [LineCuttingPersonality], +1 de Puissance de Duel\nEn Touche, inflige +1.5% de dégâts pour chaque 10 [BloodDinner_Accumulation] pour soi-même (30% max)\nEn Touche, inflige +0.5% de dégâts pour chaque [Laceration] sur la cible (10% max)",
       "summary": "Dans un Duel contre Cible de Couture, +1 de Puissance de Duel"
     },
     {
       "id": 1111102,
       "name": "Festin Sanglant",
-      "desc": "Si cette unité est sur le terrain, ou est l’une des unités qui peut apparaître sur ce Niveau, augmente la valeur de [BloodDinner] par la quantité de dégâts de [Laceration] reçu collectivement par chaque unité.\nLorsque cette unité arrivera sur le terrain, le sang ensommeillé et baignant le champ de bataille s’élèvera au-dessus de la surface",
+      "desc": "Si cette unité est sur le terrain, ou est l’une des unités qui peut apparaître sur ce Niveau, augmente la valeur de [BloodDinner] par la quantité de dégâts de [Laceration] reçu collectivement par chaque unité\nLorsque cette unité arrivera sur le terrain, le sang ensommeillé et baignant le champ de bataille s’élèvera au-dessus de la surface",
       "summary": ""
     },
     {
@@ -1765,31 +1765,31 @@
     {
       "id": 1121001,
       "name": "Dévouement Autodestructeur",
-      "desc": "Fin du Tour : rend ((10 - [WornHeartGreg])/2) PSM à l’allié avec le moins de PSM (exclut : soi-même ou les alliés en Panique ou Érodés ; arrondi à l’inférieur)\nDans cet Affrontement, lorsque cette unité subit des dégâts baissant ses PV à 0, nullifie les dégâts ; puis, les PV de cette unité ne peuvent pas descendre en-dessous de 1 pendant le tour (une fois par Affrontement)",
+      "desc": "Fin du Tour : rend ((10 - [WornHeartGreg])/2) PSM à l’allié ayant les PSM les plus bas (exclut : soi-même ou les alliés en Panique ou Érodés ; arrondi à l’inférieur)\nDans cet Affrontement, lorsque cette unité subit des dégâts baissant ses PV à 0, nullifie les dégâts ; puis, les PV de cette unité ne peuvent pas descendre en-dessous de 1 pendant le tour (une fois par Affrontement)",
       "summary": ""
     },
     {
       "id": 1121002,
       "name": "Festin Sanglant",
-      "desc": "Si cette unité est sur le terrain, ou est l’une des unités qui peut apparaître sur ce Niveau, augmente la valeur de [BloodDinner] par la quantité de dégâts de [Laceration] reçu collectivement par chaque unité.\nLorsque cette unité arrivera sur le terrain, le sang ensommeillé et baignant le champ de bataille s’élèvera au-dessus de la surface",
+      "desc": "Si cette unité est sur le terrain, ou est l’une des unités qui peut apparaître sur ce Niveau, augmente la valeur de [BloodDinner] par la quantité de dégâts de [Laceration] reçu collectivement par chaque unité\nLorsque cette unité arrivera sur le terrain, le sang ensommeillé et baignant le champ de bataille s’élèvera au-dessus de la surface",
       "summary": ""
     },
     {
       "id": 1121011,
       "name": "Dévouement Autodestructeur",
-      "desc": "Fin du Tour : rend (10 - [WornHeartGreg]) PSM à l’allié avec le moins de PSM (exclut : soi-même ou les alliés en Panique ou Érodés)\nDans cet Affrontement, lorsque cette unité subit des dégâts baissant ses PV à 0, nullifie les dégâts ; puis, les PV de cette unité ne peuvent pas descendre en-dessous de 1 pendant le tour (une fois par Affrontement)",
+      "desc": "Fin du Tour : rend (10 - [WornHeartGreg]) PSM à l’allié ayant les PSM les plus bas (exclut : soi-même ou les alliés en Panique ou Érodés)\nDans cet Affrontement, lorsque cette unité subit des dégâts baissant ses PV à 0, nullifie les dégâts ; puis, les PV de cette unité ne peuvent pas descendre en-dessous de 1 pendant le tour (une fois par Affrontement)",
       "summary": ""
     },
     {
       "id": 1121021,
       "name": "Arts du Sang Durci de Don Quichotte 6 : Fouet",
-      "desc": "1 allié avec le plus bas pourcentage de PV regagne 3 PV En Touche (3 fois par tour)",
+      "desc": "1 allié ayant le plus bas pourcentage de PV regagne 3 PV En Touche (3 fois par tour)",
       "summary": ""
     },
     {
       "id": 1121031,
       "name": "Arts du Sang Durci de Don Quichotte 6 : Fouet",
-      "desc": "1 allié avec le plus bas pourcentage de PV regagne 3 PV En Touche (3 fois par tour)\n- Si la cible touchée par cet allié avait du [Laceration], regagne 3 PV supplémentaires",
+      "desc": "1 allié ayant le plus bas pourcentage de PV regagne 3 PV En Touche (3 fois par tour)\n- Si la cible touchée par cet allié avait du [Laceration], regagne 3 PV supplémentaires",
       "summary": ""
     },
     {
@@ -1801,7 +1801,7 @@
     {
       "id": 1091102,
       "name": "Festin Sanglant",
-      "desc": "Si cette unité est sur le terrain, ou est l’une des unités qui peut apparaître sur ce Niveau, augmente la valeur de [BloodDinner] par la quantité de dégâts de [Laceration] reçu collectivement par chaque unité.\nLorsque cette unité arrivera sur le terrain, le sang ensommeillé et baignant le champ de bataille s’élèvera au-dessus de la surface",
+      "desc": "Si cette unité est sur le terrain, ou est l’une des unités qui peut apparaître sur ce Niveau, augmente la valeur de [BloodDinner] par la quantité de dégâts de [Laceration] reçu collectivement par chaque unité\nLorsque cette unité arrivera sur le terrain, le sang ensommeillé et baignant le champ de bataille s’élèvera au-dessus de la surface",
       "summary": ""
     },
     {
@@ -1813,13 +1813,13 @@
     {
       "id": 1091121,
       "name": "“Fleuri de Sang…”",
-      "desc": "À 1 allié ayant la plus haute Intensité de [Laceration] à la Fin du Tour : réduit l’Intensité de [Laceration] de l’allié de 6 max et applique (Intensité de Saignement retirée / 2) [BloomingThornsRodionFirst] (arrondi à l’inférieur)",
+      "desc": "À 1 allié ayant la plus haute Intensité de [Laceration] à la Fin du Tour : réduit l’Intensité de [Laceration] de l’allié de 6 max et applique (Intensité de [Laceration] retirée / 2) [BloomingThornsRodionFirst] (arrondi à l’inférieur)",
       "summary": ""
     },
     {
       "id": 1101101,
       "name": "Un instant, s’il vous plaît…",
-      "desc": "Début du Tour : à 6 de Vitesse ou plus, ou si cette unité a [Agility], gagne ([DevyatDimensionalSackSinclair])% des PV Max de cette unité en Bouclier (20% max)",
+      "desc": "Début du Tour : à 6 de Vitesse ou plus, ou si cette unité a [Agility], gagne ([DevyatDimensionalSackSinclair])% des PV max de cette unité en Bouclier (20% max)",
       "summary": ""
     },
     {
@@ -1831,7 +1831,7 @@
     {
       "id": 1101111,
       "name": "Un instant, s’il vous plaît…",
-      "desc": "Début du Tour : à 6 de Vitesse ou plus, ou si cette unité a [Agility], gagne ([DevyatDimensionalSackSinclair])% des PV Max de cette unité en Bouclier (20% max)\nEn Battant en Retraite, applique 1 [ParryingResultUp] à 2 alliés au prochain tour (priorise les unités Substituées en premier, puis par ordre de Déploiement)\n- Dure 1 tour supplémentaire pour chaque 15 [DevyatDimensionalSackSinclair] (2 tours de plus max)",
+      "desc": "Début du Tour : à 6 de Vitesse ou plus, ou si cette unité a [Agility], gagne ([DevyatDimensionalSackSinclair])% des PV max de cette unité en Bouclier (20% max)\nEn Battant en Retraite, applique 1 [ParryingResultUp] à 2 alliés au prochain tour (priorise les unités Substituées en premier, puis par ordre de Déploiement)\n- Dure 1 tour supplémentaire pour chaque 15 [DevyatDimensionalSackSinclair] (2 tours de plus max)",
       "summary": ""
     },
     {
@@ -1843,12 +1843,12 @@
     {
       "id": 1031001,
       "name": "Festin Sanglant",
-      "desc": "Si cette unité est sur le terrain, ou est l’une des unités qui peut apparaître sur ce Niveau, augmente la valeur de [BloodDinner] par la quantité de dégâts de [Laceration] reçu collectivement par chaque unité.\nLorsque cette unité arrivera sur le terrain, le sang ensommeillé et baignant le champ de bataille s’élèvera au-dessus de la surface.\n\nEn consommant du [BloodDinner], s’il y a des Parents de <La Manchaland> de la même génération que cette unité, cette unité est prioritaire.\n\nEn utilisant 'Arts Variants du Sang Durci[TabExplain] de Sancho 6 - Fouet', les PV ne peuvent pas tomber en-dessous de 1 suite à des dégâts de [Laceration]"
+      "desc": "Si cette unité est sur le terrain, ou est l’une des unités qui peut apparaître sur ce Niveau, augmente la valeur de [BloodDinner] par la quantité de dégâts de [Laceration] reçu collectivement par chaque unité\nLorsque cette unité arrivera sur le terrain, le sang ensommeillé et baignant le champ de bataille s’élèvera au-dessus de la surface\n\nEn consommant du [BloodDinner], s’il y a des Parents de <La Manchaland> de la même génération que cette unité, cette unité est prioritaire\n\nEn utilisant 'Arts Variants du Sang Durci[TabExplain] de Sancho 6 - Fouet', les PV ne peuvent pas tomber en-dessous de 1 suite à des dégâts de [Laceration]"
     },
     {
       "id": 1031002,
       "name": "Arts Variants du Sang Durci de Sancho",
-      "desc": "Début du Tour : à 15 [BloodArmorPersonalityFirst] ou plus, si chacune des unités suivantes est soit vaincue, soit participante à l’Affrontement, renforce l’Emplacement le plus à gauche de cette unité.\nLe Prêtre de La Manchaland] Gregor : renforce la Capacité 1\nLa Barbière de La Manchaland Outis : renforce la Capacité 2\nCette Unité : renforce la Capacité 3\nLa Princesse de La Manchaland Rodion : renforce la Capacité Défensive\n\nLorsque d’autres unités parmis les alliés subissent des dégâts de [Laceration] ou consomment du [BloodDinner], gagne 2 [BloodArmorPersonalityFirst] sur soi (3 fois par tour)"
+      "desc": "Début du Tour : à 15 [BloodArmorPersonalityFirst] ou plus, si chacune des unités suivantes est soit vaincue, soit participante à l’Affrontement, renforce l’Emplacement le plus à gauche de cette unité\nLe Prêtre de La Manchaland] Gregor : renforce la Capacité 1\nLa Barbière de La Manchaland Outis : renforce la Capacité 2\nCette Unité : renforce la Capacité 3\nLa Princesse de La Manchaland Rodion : renforce la Capacité Défensive\n\nLorsque d’autres unités parmis les alliés subissent des dégâts de [Laceration] ou consomment du [BloodDinner], gagne 2 [BloodArmorPersonalityFirst] sur soi (3 fois par tour)"
     },
     {
       "id": 1031003,
@@ -1863,7 +1863,7 @@
     {
       "id": 1031021,
       "name": "“Nourissez votre faim réprimée, ma Famille”",
-      "desc": "Début du Combat : 1 allié avec le moins de PV gagne 1 [AttackDmgUp] pour chaque 20% de PV manquant (3 max)\n- Si cet allié est un <Démon de Sang>, gagne 1 [AttackDmgUp] pour chaque 15% de PV manquant à la place (3 max)"
+      "desc": "Début du Combat : 1 allié ayant le moins de PV gagne 1 [AttackDmgUp] pour chaque 20% de PV manquant (3 max)\n- Si cet allié est un <Démon de Sang>, gagne 1 [AttackDmgUp] pour chaque 15% de PV manquant à la place (3 max)"
     },
     {
       "id": 1061101,
@@ -1908,22 +1908,22 @@
     {
       "id": 1071121,
       "name": "Guetteur",
-      "desc": "1 allié ayant le moins de [Bullet] gagne +2 de Compte de [Breath] en utilisant une Capacité qui consomme une [Bullet].\n- Si cet allié est une Identité du Bureau du Point Final, ou si elle possède moins de 5 de Compte de [Breath], gagne +4 de Compte de [Breath] à la place (une fois par tour ; ne s’applique pas aux unités sans [Bullet])"
+      "desc": "1 allié ayant le moins de [Bullet] gagne +2 de Compte de [Breath] en utilisant une Capacité qui consomme une [Bullet]\n- Si cet allié est une Identité du Bureau du Point Final, ou si elle possède moins de 5 de Compte de [Breath], gagne +4 de Compte de [Breath] à la place (une fois par tour ; ne s’applique pas aux unités sans [Bullet])"
     },
     {
       "id": 1011101,
       "name": "Cela est reflété par leur apparence, ressemblant davantage à l’Anomalie source que les E.G.O. de l’ancienne L Corp.",
-      "desc": "À la mort, inflige 4 [Burst] et +2 de Compte de [Burst] à la cible ayant attaqué cette unité en dernier ; puis, gagne 2 ressources E.G.O. pour les 4 ressources E.G.O. les moins possédées.\n- Si personne n’a attaqué cette unité, ou si un allié a tué cette unité, inflige 4 [Burst] et +2 de Compte de [Burst] à l’ennemi ayant le moins de Compte de [Burst]"
+      "desc": "À la mort, inflige 4 [Burst] et +2 de Compte de [Burst] à la cible ayant attaqué cette unité en dernier ; puis, gagne 2 ressources E.G.O. pour les 4 Affinités les moins possédées\n- Si personne n’a attaqué cette unité, ou si un allié a tué cette unité, inflige 4 [Burst] et +2 de Compte de [Burst] à l’ennemi ayant le moins de Compte de [Burst]"
     },
     {
       "id": 1011111,
       "name": "Cela est reflété par leur apparence, ressemblant davantage à l’Anomalie source que les E.G.O. de l’ancienne L Corp.",
-      "desc": "À la mort, inflige <style=\"highlight\">5</style> [Burst] et +<style=\"highlight\">3</style> de Compte de [Burst] à la cible ayant attaqué cette unité en dernier ; puis, gagne 2 ressources E.G.O. pour les 4 ressources E.G.O. les moins possédées.\n- Si personne n’a attaqué cette unité, ou si un allié a tué cette unité, inflige 5 [Burst] et +3 de Compte de [Burst] à l’ennemi ayant le moins de Compte de [Burst]\n- Si cette unité est dans un état d’[GlowingLantern], inflige le double d’Intensité de [Burst] avec cet effet"
+      "desc": "À la mort, inflige <style=\"highlight\">5</style> [Burst] et +<style=\"highlight\">3</style> de Compte de [Burst] à la cible ayant attaqué cette unité en dernier ; puis, gagne 2 ressources E.G.O. pour les 4 Affinités les moins possédées\n- Si personne n’a attaqué cette unité, ou si un allié a tué cette unité, inflige 5 [Burst] et +3 de Compte de [Burst] à l’ennemi ayant le moins de Compte de [Burst]\n- Si cette unité est dans un état d’[GlowingLantern], inflige le double d’Intensité de [Burst] avec cet effet"
     },
     {
       "id": 1011121,
       "name": "La désintégration E.G.O. n’est pas différente de la désintégration de compost",
-      "desc": "Lorsque 1 allié ayant le moins de PV est tué, gagne 2 ressources E.G.O. pour les 2 ressources E.G.O. les moins possédées"
+      "desc": "Lorsque 1 allié ayant le moins de PV actuel est tué, gagne 2 ressources E.G.O. pour les 2 Affinités les moins possédées"
     },
     {
       "id": 1021101,
@@ -1933,12 +1933,12 @@
     {
       "id": 1021111,
       "name": "Mite de Flammes",
-      "desc": "Début du Combat : à 80% de PV manquant ou plus, et à moins de 30 [Combustion], gagne jusqu’à 30 [Combustion] (une fois par Affrontement)\n\nFin du Tour : gagne 1 [AttackUp] au prochain tour pour chaque 6 de [Combustion] sur soi (5 max)\n\nÀ la mort, active les effets suivants :\n- Inflige 2 [Combustion] à tous les ennemis ; inflige la Brûlure sur soi entre tous les ennemis (3 max par ennemi)\n- Gagne 2 ressources E.G.O. pour les 2 ressources E.G.O. les moins possédées\n\nSi cette unité est morte suite à la Capacité Syntonie Max E.F.A 【Érosion Dégradée】, améliore l’effet :\n- Inflige 3 [Combustion] à tous les ennemis ; inflige la [Combustion] sur soi entre tous les ennemis (5 max par ennemi)\n- Gagne 2 ressources E.G.O. pour les 2 ressources E.G.O. les moins possédées\n- Si cette unité avait 30 Brûlure ou plus, applique 3 [AttackUp] à 1 allié qui la Remplace"
+      "desc": "Début du Combat : à 80% de PV manquant ou plus, et à moins de 30 [Combustion], gagne jusqu’à 30 [Combustion] (une fois par Affrontement)\n\nFin du Tour : gagne 1 [AttackUp] au prochain tour pour chaque 6 de [Combustion] sur soi (5 max)\n\nÀ la mort, active les effets suivants :\n- Inflige 2 [Combustion] à tous les ennemis et inflige la [Combustion] de cette unité entre tous les ennemis (3 max par ennemi)\n- Gagne 2 ressources E.G.O. pour les 2 Affinités les moins possédées\n\nSi cette unité est morte suite à la Capacité Syntonie Max E.F.A 【Érosion Dégradée】, améliore l’effet :\n- Inflige 3 [Combustion] à tous les ennemis et inflige la [Combustion] de cette unité entre tous les ennemis (5 max par ennemi)\n- Gagne 2 ressources E.G.O. pour les 2 Affinités les moins possédées\n- Si cette unité avait 30 [Combustion] ou plus, applique 3 [AttackUp] à 1 allié qui la Substitue"
     },
     {
       "id": 1021121,
       "name": "Chaleur Résiduelle",
-      "desc": "Lorsque 1 allié ayant le moins de PSM inflige de la [Combustion] avec un effet En Touche de Capacité Offensive de Base, inflige 2 [Combustion] supplémentaires (3 fois max)\n- Si la cible que l’allié attaque a 30 Brûlure ou plus, inflige +1 de Compte de Brûlure à la place (3 fois max)"
+      "desc": "Lorsque 1 allié ayant les PSM les plus bas inflige de la [Combustion] avec un effet En Touche de Capacité de Base, inflige 2 [Combustion] supplémentaires (3 fois max)\n- Si la cible que l’allié attaque a 30 [Combustion] ou plus, inflige +1 de Compte de [Combustion] à la place (3 fois max)"
     },
     {
       "id": 1071201,
@@ -1987,22 +1987,22 @@
     {
       "id": 1011201,
       "name": "Ardeur Intérieure",
-      "desc": "Fin du Tour : soigne 1 allié avec le moins de PSM de (5 + plus haute Réson.) PSM (10 max) (exclut : soi-même et les alliés Paniqués ou Érodés par E.G.O.)\n- Si cet allié a des Capacités de Base qui infligent de l’Intensité ou du Compte de [Combustion], leur fait regagner 5 PSM supplémentaires"
+      "desc": "Fin du Tour : soigne 1 allié ayant les PSM les plus bas de (5 + plus haute Réson.) PSM (10 max) (exclut : soi-même et les alliés Paniqués ou Érodés par E.G.O.)\n- Si cet allié a des Capacités de Base qui infligent de l’Intensité ou du Compte de [Combustion], leur fait regagner 5 PSM supplémentaires"
     },
     {
       "id": 1011211,
       "name": "Ardeur Intérieure",
-      "desc": "Fin du Tour : soigne 1 allié avec le moins de PSM de (5 + plus haute Réson.) PSM (10 max) (exclut : soi-même et les alliés Paniqués ou Érodés par E.G.O.)\n- Si cet allié a des Capacités de Base qui infligent de l’Intensité ou du Compte de [Combustion], leur fait regagner 5 PSM supplémentaires\n- À 4 de Réson. de Colère ou plus, soigne 1 allié supplémentaire"
+      "desc": "Fin du Tour : soigne 1 allié ayant les PSM les plus bas de (5 + plus haute Réson.) PSM (10 max) (exclut : soi-même et les alliés Paniqués ou Érodés par E.G.O.)\n- Si cet allié a des Capacités de Base qui infligent de l’Intensité ou du Compte de [Combustion], leur fait regagner 5 PSM supplémentaires\n- À 4 de Réson. de Colère ou plus, soigne 1 allié supplémentaire"
     },
     {
       "id": 1011221,
       "name": "Formation Défensive Liu",
-      "desc": "Pour 2 alliés avec le moins de PSM : s’ils ont perdu des PSM durant ce tour, regagnent 5 PSM à la Fin du Tour"
+      "desc": "Pour 2 alliés ayant les PSM les plus bas : s’ils ont perdu des PSM durant ce tour, regagnent 5 PSM à la Fin du Tour"
     },
     {
       "id": 1011231,
       "name": "Formation Défensive Liu",
-      "desc": "Pour 2 alliés avec le moins de PSM : s’ils ont perdu des PSM durant ce tour, regagnent 5 PSM à la Fin du Tour\n- Si ces alliés ont des Capacités de Base qui infligent de l’Intensité ou du Compte de [Combustion], regagnent 5~10 PSM à la place"
+      "desc": "Pour 2 alliés ayant les PSM les plus bas : s’ils ont perdu des PSM durant ce tour, regagnent 5 PSM à la Fin du Tour\n- Si ces alliés ont des Capacités de Base qui infligent de l’Intensité ou du Compte de [Combustion], regagnent 5~10 PSM à la place"
     },
     {
       "id": 1121102,
@@ -2078,12 +2078,12 @@
     {
       "id": 1101221,
       "name": "On Surveille Tes Arrières",
-      "desc": "Début du Combat : 1 allié avec le moins de pourcentage de PV actuel gagne 2 [DefenseUp]"
+      "desc": "Début du Combat : 1 allié ayant le moins de pourcentage de PV actuel gagne 2 [DefenseUp]"
     },
     {
       "id": 1101231,
       "name": "On Surveille Tes Arrières",
-      "desc": "Début du Combat : 1 allié avec le moins de pourcentage de PV actuel gagne 2 [DefenseUp]\n<style=\"highlight\">- Si cet allié est du Majeur, gagne également 2 [AttackUp]</style>"
+      "desc": "Début du Combat : 1 allié ayant le moins de pourcentage de PV actuel gagne 2 [DefenseUp]\n<style=\"highlight\">- Si cet allié est du Majeur, gagne également 2 [AttackUp]</style>"
     },
     {
       "id": 1061201,
@@ -2150,7 +2150,7 @@
     {
       "id": 1081202,
       "name": "Manœuvre de Lancement [始動]",
-      "desc": "En Battant en Retraite : applique 1 Bonus de Niveau Offensif au prochain tour aux alliés par ordre de Déploiement\n- Nombre d’alliés affectés = Instance de [StartXichun] sur soi\n- Si l’allié affecté est une unité “Famille Jia”, applique 2 Bonus de Niveau Offensif au prochain tour à la place\n- N’affecte pas les alliés qui Reviennent ou Substituent au prochain tour\n\nLors du tour où cette unité a Substitué ou est Revenue sur le terrain, gagne [WaitingXichun] ; puis, au Début du Combat, utilise “Coup Carmin - Lanceur【始】” sur une cible aléatoire en guise de toute première Capacité dans l’ordre de Capacité",
+      "desc": "En Battant en Retraite : applique 1 [AttackUp] au prochain tour aux alliés par ordre de Déploiement\n- Nombre d’alliés affectés = Instance de [StartXichun] sur soi\n- Si l’allié affecté est une unité “Famille Jia”, applique 2 [AttackUp] au prochain tour à la place\n- N’affecte pas les alliés qui Reviennent ou Substituent au prochain tour\n\nLors du tour où cette unité a Substitué ou est Revenue sur le terrain, gagne [WaitingXichun] ; puis, au Début du Combat, utilise “Coup Carmin - Lanceur【始】” sur une cible aléatoire en guise de toute première Capacité dans l’ordre de Capacité",
       "summary": "Lors du tour où cette unité entre dans le combat via Substitution ou Retour : au Début du Combat, comme première Capacité dans l’ordre de Capacité, utilise “Coup Carmin - Lanceur【始】” sur une cible aléatoire"
     },
     {
@@ -2162,13 +2162,13 @@
     {
       "id": 1101301,
       "name": "Tribut de Munition",
-      "desc": "Lorsque l’Identité alliée la plus tôt dans l’ordre de Déploiement parmi ceux utilisant des [Bullet]s finit son attaque, et si son compte actuel de [Bullet] est inférieur à la moitié (arrondi au supérieur), dépense autant de [FireBulletPropellant] sur soi que de compte de [Bullet] total dépensé par l’unité affectée et l’approvisionne d’autant de [Bullet] que de [FireBulletPropellant] que vient de dépenser cette unité (Peut dépenser jusqu’à 3 munitions) (une fois par Affrontement)\n\n- Si l’Identité receveuse de [Bullet] est une Identité du Pouce d’un plus haut rang, l’approvisionne de 1 [Bullet] supplémentaire\n- Si l’Identité receveuse de [Bullet] a des valeurs séparées pour l’Intensité et le Compte, elles seront approvisionnées aléatoirement.\n- Si l’Intensité et le Compte sont au max, approvisionne celui qui n’est pas au max",
+      "desc": "Lorsque l’Identité alliée la plus tôt dans l’ordre de Déploiement parmi ceux utilisant des [Bullet]s finit son attaque, et si son compte actuel de [Bullet] est inférieur à la moitié (arrondi au supérieur), dépense autant de [FireBulletPropellant] sur soi que de compte de [Bullet] total dépensé par l’unité affectée et l’approvisionne d’autant de [Bullet] que de [FireBulletPropellant] que vient de dépenser cette unité (Peut dépenser jusqu’à 3 munitions) (une fois par Affrontement)\n\n- Si l’Identité receveuse de [Bullet] est une Identité du Pouce d’un plus haut rang, l’approvisionne de 1 [Bullet] supplémentaire\n- Si l’Identité receveuse de [Bullet] a des valeurs séparées pour l’Intensité et le Compte, elles seront approvisionnées aléatoirement\n- Si l’Intensité et le Compte sont au max, approvisionne celui qui n’est pas au max",
       "summary": ""
     },
     {
       "id": 1101311,
       "name": "Tribut de Munition",
-      "desc": "Lorsque l’Identité alliée la plus tôt dans l’ordre de Déploiement parmi ceux utilisant des [Bullet]s finit son attaque, et si son compte actuel de [Bullet] est inférieur à la moitié (arrondi au supérieur), dépense autant de [FireBulletPropellant] sur soi que de compte de [Bullet] total dépensé par l’unité affectée et l’approvisionne d’autant de [Bullet] que de [FireBulletPropellant] que vient de dépenser cette unité <style=\"highlight\">(Peut dépenser jusqu’à 5 munitions)</style> (une fois par Affrontement)\n\n- Si l’Identité receveuse de [Bullet] est une Identité du Pouce d’un plus haut rang, l’approvisionne de 1 [Bullet] supplémentaire\n- Si l’Identité receveuse de [Bullet] a des valeurs séparées pour l’Intensité et le Compte, elles seront approvisionnées aléatoirement.\n- Si l’Intensité et le Compte sont au max, approvisionne celui qui n’est pas au max",
+      "desc": "Lorsque l’Identité alliée la plus tôt dans l’ordre de Déploiement parmi ceux utilisant des [Bullet]s finit son attaque, et si son compte actuel de [Bullet] est inférieur à la moitié (arrondi au supérieur), dépense autant de [FireBulletPropellant] sur soi que de compte de [Bullet] total dépensé par l’unité affectée et l’approvisionne d’autant de [Bullet] que de [FireBulletPropellant] que vient de dépenser cette unité <style=\"highlight\">(Peut dépenser jusqu’à 5 munitions)</style> (une fois par Affrontement)\n\n- Si l’Identité receveuse de [Bullet] est une Identité du Pouce d’un plus haut rang, l’approvisionne de 1 [Bullet] supplémentaire\n- Si l’Identité receveuse de [Bullet] a des valeurs séparées pour l’Intensité et le Compte, elles seront approvisionnées aléatoirement\n- Si l’Intensité et le Compte sont au max, approvisionne celui qui n’est pas au max",
       "summary": ""
     },
     {
@@ -2204,19 +2204,19 @@
     {
       "id": 1051221,
       "name": "Bond du Tigre Sauvage",
-      "desc": "Lorsque 1 allié avec la Vitesse la plus rapide utilise une Capacité qui dépense une [Bullet], ou si sa Vitesse dépasse celle de la cible de 3 ou plus, inflige (différence de Vitesse * 2)% de dégâts supplémentaires (10% max).\n(Cet effet ne s’active pas si l’unité affectée manque complètement de [Bullet]. Cependant, elle s’activera si elle possède le buff [Bullet], même s’il lui reste 0 cartouches)",
+      "desc": "Lorsque 1 allié avec la Vitesse la plus rapide utilise une Capacité qui dépense une [Bullet], ou si sa Vitesse dépasse celle de la cible de 3 ou plus, inflige (différence de Vitesse * 2)% de dégâts supplémentaires (10% max)\n(Cet effet ne s’active pas si l’unité affectée manque complètement de [Bullet]. Cependant, elle s’activera si elle possède le buff [Bullet], même s’il lui reste 0 cartouches)",
       "summary": ""
     },
     {
       "id": 1051231,
       "name": "Bond du Tigre Sauvage",
-      "desc": "Lorsque 1 allié avec la Vitesse la plus rapide utilise une Capacité qui dépense une [Bullet], ou si sa Vitesse dépasse celle de la cible de 3 ou plus, inflige (différence de Vitesse * <style=\"highlight\">3</style>)% de dégâts supplémentaires (<style=\"highlight\">15%</style> max).\n(Cet effet ne s’active pas si l’unité affectée manque complètement de [Bullet]. Cependant, elle s’activera si elle possède le buff [Bullet], même s’il lui reste 0 cartouches)",
+      "desc": "Lorsque 1 allié avec la Vitesse la plus rapide utilise une Capacité qui dépense une [Bullet], ou si sa Vitesse dépasse celle de la cible de 3 ou plus, inflige (différence de Vitesse * <style=\"highlight\">3</style>)% de dégâts supplémentaires (<style=\"highlight\">15%</style> max)\n(Cet effet ne s’active pas si l’unité affectée manque complètement de [Bullet]. Cependant, elle s’activera si elle possède le buff [Bullet], même s’il lui reste 0 cartouches)",
       "summary": ""
     },
     {
       "id": 1011301,
       "name": "Balle Cruelle",
-      "desc": "Si cette unité a tué une unité alliée avec son attaque, gagne [FellBulletPersonality] au prochain tour (inclut les “Érosion E.G.O.” et les attaques contre les alliés de cette unité)\nSi cette unité utilise son E.G.O. “Balle Cruelle” et consomme des [BoseProjektil] : a prochain tour, gagne autant de [BoseProjektil] que de quantité consommée à la fin du dernier tour"
+      "desc": "Si cette unité a tué une unité alliée en utilisant son attaque, gagne [FellBulletPersonality] au prochain tour (inclut les utilisations d’“Érosion E.G.O.” et d’attaques contre les alliés de cette unité)\nSi cette unité utilise son E.G.O. “Balle Cruelle” et consomme des [BoseProjektil] : a prochain tour, gagne autant de [BoseProjektil] que de quantité consommée à la fin du dernier tour"
     },
     {
       "id": 1011302,
@@ -2249,7 +2249,7 @@
     {
       "id": 1031221,
       "name": "Aide au Chargement de Pouvoir Magique",
-      "desc": "Si, parmi les alliés qui gagnent du Compte de [Charge] en utilisant leurs Capacités Offensives de Base, 1 allié ayant le moins de Compte de [Charge] utilise une Capacité Offensive de Base qui gagne du Compte de [Charge], cet allié gagne +2 de Compte de [Charge] (2 fois par tour)\n- À 0 PSM ou plus : rend ([Charge] de la cible * 2) PV (10 max ; soigne jusqu’à 20 PV par tour)\n- À moins de 0 PSM : rend ([Charge] de la cible) PSM (5 max ; soigne jusqu’à 10 PSM par tour)",
+      "desc": "Si, parmi les alliés qui gagnent du Compte de [Charge] en utilisant leurs Capacités Offensives de Base, 1 allié ayant le Compte de [Charge] le plus bas utilise une Capacité Offensive de Base qui gagne du Compte de [Charge], cet allié gagne +2 de Compte de [Charge] (2 fois par tour)\n- À 0 PSM ou plus : rend ([Charge] de la cible * 2) PV (10 max ; soigne jusqu’à 20 PV par tour)\n- À moins de 0 PSM : rend ([Charge] de la cible) PSM (5 max ; soigne jusqu’à 10 PSM par tour)",
       "summary": "Gagne du Compte de [Charge]\n- Selon les PSM de cette unité, rend des PV ou des PSM selon la [Charge]"
     },
     {
@@ -2326,7 +2326,7 @@
     {
       "id": 1101402,
       "name": "Gallinacé",
-      "desc": "En activant [HeishouCombo], Le Seigneur d’Hongyuan Hong Lu obtient comme effet [HeishouComboCountHonglu] l’effet suivant :\n- En utilisant une Capacité qui inflige de l’Intensité ou du Compte de [Burst], inflige 1 [Combustion] (3 fois par tour)\n\nNe peut pas être Déséquilibré ou descendre en-dessous de 1 PV suite à des dégâts de [Combustion].\n\nGagne 3 [ChickenStance] durant le même tour où cette unité Substitue ou Revient au combat"
+      "desc": "En activant [HeishouCombo], Le Seigneur d’Hongyuan Hong Lu obtient comme effet [HeishouComboCountHonglu] l’effet suivant :\n- En utilisant une Capacité qui inflige de l’Intensité ou du Compte de [Burst], inflige 1 [Combustion] (3 fois par tour)\n\nNe peut pas être Déséquilibré ou descendre en-dessous de 1 PV suite à des dégâts de [Combustion]\n\nGagne 3 [ChickenStance] durant le même tour où cette unité Substitue ou Revient au combat"
     },
     {
       "id": 1101401,
@@ -2341,17 +2341,17 @@
     {
       "id": 1011401,
       "name": "Chevaucheur Obsidienne des Vents [黑風馬脚]",
-      "desc": "Gagne 1 [BreakthroughHorse] en remplissant une des conditions suivantes :\n- Début d’Attaque : lorsque la Vitesse de cette unité dépasse celle de la cible de 2 ou plus\n- Lorsque cette unité déclenche un [VibrationExplosion] deux fois avec ses Capacités (inclut les Capacités E.G.O.)\n- Lorsque cette unité gagne un Duel en ayant [LegStrengthHorseYisang]\n※ Seuls 3 [BreakthroughHorse] peuvent être gagnés par tour ; ne peux pas gagner de [BreakthroughHorse] avec la Capacité “Décapiteur Croissant du Chevaucheur Obsidienne des Vents”"
+      "desc": "Gagne 1 [BreakthroughHorse] en remplissant une des conditions suivantes :\n- Début d’Attaque : lorsque la Vitesse de cette unité dépasse celle de la cible de 2 ou plus\n- Lorsque cette unité déclenche un [VibrationExplosion] deux fois en utilisant ses Capacités (inclut les Capacités E.G.O.)\n- Lorsque cette unité gagne un Duel en ayant [LegStrengthHorseYisang]\n※ Seuls 3 [BreakthroughHorse] peuvent être gagnés par tour ; ne peux pas gagner de [BreakthroughHorse] en utilisant la Capacité “Décapiteur Croissant du Chevaucheur Obsidienne des Vents”"
     },
     {
       "id": 1011411,
       "name": "Chevaucheur Obsidienne des Vents [黑風馬脚]",
-      "desc": "Gagne 1 [BreakthroughHorse] en remplissant une des conditions suivantes :\n- Début d’Attaque : lorsque la Vitesse de cette unité dépasse celle de la cible de 2 ou plus\n- Lorsque cette unité déclenche un [VibrationExplosion] deux fois avec ses Capacités (inclut les Capacités E.G.O.)\n- Lorsque cette unité gagne un Duel en ayant [LegStrengthHorseYisang]\n※ Seuls 3 [BreakthroughHorse] peuvent être gagnés par tour ; ne peux pas gagner de [BreakthroughHorse] avec la Capacité “Décapiteur Croissant du Chevaucheur Obsidienne des Vents”\n\n<style=\"highlight\">Lorsque cette unité a Bouclier, gagne (PV de Bouclier / 10) Niveaux Défensifs (5 max ; arrondi à l’inférieur)</style>"
+      "desc": "Gagne 1 [BreakthroughHorse] en remplissant une des conditions suivantes :\n- Début d’Attaque : lorsque la Vitesse de cette unité dépasse celle de la cible de 2 ou plus\n- Lorsque cette unité déclenche un [VibrationExplosion] deux fois en utilisant ses Capacités (inclut les Capacités E.G.O.)\n- Lorsque cette unité gagne un Duel en ayant [LegStrengthHorseYisang]\n※ Seuls 3 [BreakthroughHorse] peuvent être gagnés par tour ; ne peux pas gagner de [BreakthroughHorse] en utilisant la Capacité “Décapiteur Croissant du Chevaucheur Obsidienne des Vents”\n\n<style=\"highlight\">Lorsque cette unité a Bouclier, gagne (PV de Bouclier / 10) Niveaux Défensifs (5 max ; arrondi à l’inférieur)</style>"
     },
     {
       "id": 1011402,
       "name": "Loyauté de Chien du Destrier [狗馬之心]",
-      "desc": "En activant [HeishouCombo], Le Seigneur d’Hongyuan Hong Lu obtient comme effet [HeishouComboCountHonglu] l’effet suivant :\n- En Touche avec la Pièce Finale d’une Capacité de Base, déclenche un [VibrationExplosion] une fois (une fois par tour)\n\nSi Candidate Hiérarque Familial Ishmaël est une unité participant Activement, active le suivant :\n- Lorsque Candidate Hiérarque Familial Ishmaël inflige de la [Burst] ou du Compte de [Burst] avec ses effets de Capacité, cette unité gagne 3 d’Intensité de [Breath] (2 fois par tour ; exclut les Capacités E.G.O.)\n- Début du Tour : applique 1 [Enhancement] à Candidate Hiérarque Familial Ishmaël. Si Ishmaël a 10 d’Intensité de [Breath] ou plus, applique 1 [Enhancement] supplémentaire\n- Après que cette unité a utilisé la Capacité “Décapiteur Croissant du Chevaucheur Obsidienne des Vents”, Candidate Hiérarque Familial Ishmaël utilise “Printemps Carmin” comme Attaque d’Assistance[TabExplain] (une fois par tour)"
+      "desc": "En activant [HeishouCombo], Le Seigneur d’Hongyuan Hong Lu obtient comme effet [HeishouComboCountHonglu] l’effet suivant :\n- En Touche en utilisant la Pièce Finale d’une Capacité de Base, déclenche un [VibrationExplosion] une fois (une fois par tour)\n\nSi Candidate Hiérarque Familial Ishmaël est sur le terrain, active le suivant :\n- Lorsque Candidate Hiérarque Familial Ishmaël inflige de la [Burst] ou du Compte de [Burst] en utilisant ses effets de Capacité, cette unité gagne 3 d’Intensité de [Breath] (2 fois par tour ; exclut les Capacités E.G.O.)\n- Début du Tour : applique 1 [Enhancement] à Candidate Hiérarque Familial Ishmaël. Si Ishmaël a 10 d’Intensité de [Breath] ou plus, applique 1 [Enhancement] supplémentaire\n- Après que cette unité a utilisé la Capacité “Décapiteur Croissant du Chevaucheur Obsidienne des Vents”, Candidate Hiérarque Familial Ishmaël utilise “Printemps Carmin” comme Attaque d’Assistance[TabExplain] (une fois par tour)"
     },
     {
       "id": 1011403,
@@ -2360,8 +2360,8 @@
     },
     {
       "id": 1011421,
-      "name": "Exosquelette d’obsidienne brisera et protégera ma chair",
-      "desc": "Applique l’effet suivant à 1 allié avec le plus de PV max\n- Début du Combat : gagne (différence de Vitesse de l’unité affectée entre ce tour et le précédent * 2) Niveau(x) Défensif(s) (5 max ; si l’unité affectée ne participait pas Activement au dernier tour, utilise sa valeur de Vitesse de base minimum pour calculer)\n- Début du Combat : si l’unité affectée est à moins de 50% de PV et si la différence de Vitesse entre ce tour et le précédent est de 3 ou plus, regagne 50 PV (une fois par Affrontement)"
+      "name": "Exosquelette d’Obsidienne Brisera et Protégera Ma Chair",
+      "desc": "Applique l’effet suivant à 1 allié ayant le plus de PV max\n- Début du Combat : gagne (différence de Vitesse de l’unité affectée entre ce tour et le précédent * 2) Niveau(x) Défensif(s) (5 max ; si l’unité affectée ne participait pas Activement au dernier tour, utilise sa valeur de Vitesse de base minimum pour calculer)\n- Début du Combat : si l’unité affectée est à moins de 50% de PV et si la différence de Vitesse entre ce tour et le précédent est de 3 ou plus, regagne 50 PV (une fois par Affrontement)"
     },
     {
       "id": 1041201,
@@ -2402,7 +2402,7 @@
     {
       "id": 1021302,
       "name": "Tirer - Archerie",
-      "desc": "Si cette unité est en état de [SnipingArrowMode], convertit la Capacité Offensive de Base la plus à gauche du Tableau de Bord en “Lueur de l’Arc”, puis l’utilise au Début du Combat\n- Si, à Instance max de [AimForTheGoal], la Capacité 3 de cette unité n’est ni sur le Tableau de Bord, ni dans la liste des Capacités à venir lorsque cet effet s’active, la Capacité Défensive équipée sur l’Emplacement de Capacité le plus à gauche compte comme une Capacité 3 et sera utilisée pour activer “Lueur de l’Arc”\n\nGagne les effets suivants selon quelle Capacité Offensive de Base a été convertie (l’Affinité de Péché est conservée sur la Capacité convertie)\n- Capacité 1 : +1 de Puissance de Base, inflige +11% de dégâts\n- Capacité 2 : +1 de Puissance de Base, +1 de Puissance de Pièce, inflige +22% de dégâts\n- Capacité 3 : +4 de Puissance de Base, +4 de Puissance de Pièce, inflige +44% de dégâts\n\n※ Si une Capacité E.G.O. a été équipée au Début du Combat, retire [SnipingArrowMode] et cette unité n’utilise pas “Lueur de l’Arc”"
+      "desc": "Si cette unité est en état de [SnipingArrowMode], remplace la Capacité Offensive de Base la plus à gauche du Tableau de Bord par “Lueur de l’Arc”, puis l’utilise au Début du Combat\n- Si, à Instance max de [AimForTheGoal], la Capacité 3 de cette unité n’est ni sur le Tableau de Bord, ni dans la liste des Capacités à venir lorsque cet effet s’active, la Capacité Défensive équipée sur l’Emplacement de Capacité le plus à gauche compte comme une Capacité 3 et sera utilisée pour activer “Lueur de l’Arc”\n\nGagne les effets suivants selon quelle Capacité Offensive de Base a été remplacée (l’Affinité de Péché est conservée sur la Capacité remplacée)\n- Capacité 1 : +1 de Puissance de Base, inflige +11% de dégâts\n- Capacité 2 : +1 de Puissance de Base, +1 de Puissance de Pièce, inflige +22% de dégâts\n- Capacité 3 : +4 de Puissance de Base, +4 de Puissance de Pièce, inflige +44% de dégâts\n\n※ Si une Capacité E.G.O. a été équipée au Début du Combat, retire [SnipingArrowMode] et cette unité n’utilise pas “Lueur de l’Arc”"
     },
     {
       "id": 1021321,
@@ -2439,7 +2439,7 @@
     {
       "id": 1051302,
       "name": "Festin Sanglant",
-      "desc": "Si cette unité est sur le terrain, ou est l’une des unités qui peut apparaître sur ce Niveau, augmente la valeur de [BloodDinner] par la quantité de dégâts de [Laceration] reçu collectivement par chaque unité.\nLorsque cette unité arrivera sur le terrain, le sang ensommeillé et baignant le champ de bataille s’élèvera au-dessus de la surface"
+      "desc": "Si cette unité est sur le terrain, ou est l’une des unités qui peut apparaître sur ce Niveau, augmente la valeur de [BloodDinner] par la quantité de dégâts de [Laceration] reçu collectivement par chaque unité\nLorsque cette unité arrivera sur le terrain, le sang ensommeillé et baignant le champ de bataille s’élèvera au-dessus de la surface"
     },
     {
       "id": 1051303,
@@ -2467,7 +2467,7 @@
     {
       "id": 1081321,
       "name": "Relais",
-      "desc": "Début du Combat : lorsque 1 allié ayant le moins de PSM utilise une Capacité Offensive de Base pour faire une Touche Pile, il regagne 5 PSM (2 fois par tour ; exclut les alliés à -40 PSM ou moins)",
+      "desc": "Début du Combat : lorsque 1 allié ayant les PSM les plus bas utilise une Capacité Offensive de Base pour faire une Touche Pile, il regagne 5 PSM (2 fois par tour ; exclut les alliés à -40 PSM ou moins)",
       "summary": "Regagne des PSM"
     },
     {
@@ -2487,7 +2487,7 @@
     {
       "id": 1121311,
       "name": "Exécuteur de la Purge de la Famiglie",
-      "desc": "Lorsque cette unité tue un ennemi ou brise une Partie, gagne 2 [PenetrateResultUp] au prochain tour (une fois par tour)\n\nEn utilisant une Capacité Offensive de Base, si la Vitesse de cette unité est plus rapide que celle de la cible, inflige [Disarming] à la cible toutes les 2 de différence de Vitesse (2 max par tour)\n\nAprès qu’un allié a attaqué en utilisant des Capacités Offensives de Base, si l’ennemi (Noyau) a 20% de PV ou moins, utilise “Mercé” sur la cible (une fois par tour)\n- S’il n’y a que 1 allié en vie après une attaque, ce Passif s’active également lorsque la cible est Déséquilibrée",
+      "desc": "Lorsque cette unité tue un ennemi ou brise une Partie, gagne 2 [PenetrateResultUp] au prochain tour (une fois par tour)\n\nEn utilisant une Capacité Offensive de Base, si la Vitesse de cette unité est plus rapide que celle de la cible, inflige [Disarming] à la cible toutes les 2 de différence de Vitesse (2 max par tour)\n\nAprès qu’un allié a attaqué en utilisant des Capacités Offensives de Base, si l’ennemi (Noyau) a 20% de PV ou moins, utilise “Mercé” sur la cible (une fois par tour)\n- S’il n’y a que 1 allié en vie à la Fin de l’Attaque, ce Passif s’active également lorsque la cible est Déséquilibrée",
       "summary": "Gagne [PenetrateResultUp]\nInflige [Disarming]\nUtilise “Mercé”",
       "undefined": "-"
     },
@@ -2501,25 +2501,25 @@
     {
       "id": 1071402,
       "name": "Gallinacé",
-      "desc": "En activant [HeishouCombo], Le Seigneur d’Hongyuan Hong Lu obtient comme effet [HeishouComboCountHonglu] l’effet suivant :\n- En Touche avec une Capacité Offensive de Base de cette unité : inflige 5% des dégâts de Gourmandise infligés en dégâts de Colère\n\nNe peut pas être Déséquilibré ou tomber en-dessous de 1 PV suite à des dégâts de [Combustion].\n\nGagne 3 [ChickenStance] et +3 de Compte [Combustion] au même tour où il Substitue ou Revient",
+      "desc": "En activant [HeishouCombo], Le Seigneur d’Hongyuan Hong Lu obtient comme effet [HeishouComboCountHonglu] l’effet suivant :\n- En Touche avec une Capacité Offensive de Base de cette unité : inflige 5% des dégâts de Gourmandise infligés en dégâts de Colère\n\nNe peut pas être Déséquilibré ou tomber en-dessous de 1 PV suite à des dégâts de [Combustion]\n\nGagne 3 [ChickenStance] et +3 de Compte [Combustion] au même tour où il Substitue ou Revient",
       "summary": ""
     },
     {
       "id": 1071401,
       "name": "Tempête Sanglante de Lames",
-      "desc": "Début du Combat : gagne 1 Bonus de Niveau Offensif et 1 Bonus de Niveau Défensif tous les 20% de PV manquants sur soi (3 max)\n\nGagne du [ChickenFightlust] en remplissant l’une des conditions suivantes : (10 par tour)\n- Gagne 3 en Début de Duel\n- Gagne 1 lorsque cette unité touche avec une Capacité Offensive de Base ou lorsque cette unité subit des dégâts de [Combustion]\nÀ moins de 50% de PV, gagne 1 [ChickenFightlust] supplémentaire\n- Gagne 5 En Tuant",
+      "desc": "Début du Combat : gagne 1 [AttackUp] et 1 [DefenseUp] tous les 20% de PV manquants sur soi (3 max)\n\nGagne du [ChickenFightlust] en remplissant l’une des conditions suivantes : (10 par tour)\n- Gagne 3 en Début de Duel\n- Gagne 1 lorsque cette unité touche avec une Capacité Offensive de Base ou lorsque cette unité subit des dégâts de [Combustion]\nÀ moins de 50% de PV, gagne 1 [ChickenFightlust] supplémentaire\n- Gagne 5 En Tuant",
       "summary": "Gagne du [ChickenFightlust]"
     },
     {
       "id": 1071403,
       "name": "Refus de la Mort du Coq Enflammé [炎鳥不死戰]",
-      "desc": "Dans cet Affrontement, lorsque cette unité subit des dégâts amenant ses PV à 0, nullifie ces dégâts ; puis, les PV de cette unité ne peuvent pas tomber en-dessous de 1 pour ce tour.\nPuis, au prochain Début de Tour, regagne (20 + [Combustion] sur soi)% de PV et retire toute [Combustion] sur soi (49% max ; une fois par Affrontement)",
+      "desc": "Dans cet Affrontement, lorsque cette unité subit des dégâts amenant ses PV à 0, nullifie ces dégâts ; puis, les PV de cette unité ne peuvent pas tomber en-dessous de 1 pour ce tour\nPuis, au prochain Début de Tour, regagne (20 + [Combustion] sur soi)% de PV et retire toute [Combustion] sur soi (49% max ; une fois par Affrontement)",
       "summary": "Refuse la mort"
     },
     {
       "id": 1071421,
       "name": "Mis Dos à une Rivière",
-      "desc": "Fin du Tour : si un allié avec le moins de pourcentage de PV actuel a moins de 50% de PV, cette unité gagne 1 [ParryingResultUp] au prochain tour",
+      "desc": "Fin du Tour : si un allié ayant le moins de pourcentage de PV actuel a moins de 50% de PV, cette unité gagne 1 [ParryingResultUp] au prochain tour",
       "summary": ""
     },
     {
@@ -2549,7 +2549,7 @@
     {
       "id": 1041301,
       "name": "Guerrier Loyal",
-      "desc": "Si un allié est tué par une attaque ennemie, ou si les PV de l’allié attaqué sont inférieurs à 25% après l’attaque : après cette attaque, la Lame Vagabonde de Hongyuan Ryōshū utilise “Frappe d’Assistance” en Attaque à Sens Unique contre cet ennemi (une fois par Affrontement)\n- Le Seigneur de Hongyuan Hong Lu peut activer cet effet 1 fois supplémentaire après sa limite d’usage\n\nSi “Hé, Recule” est activé grâce au Passif “J.A.A.M.E.L.C.S.”, la Capacité inflige +30% de dégâts en Touche Critique et rend 2~4 PSM à 1 autre allié avec le moins de PSM (une fois par tour ; exclut les alliés à -40 PSM ou moins)",
+      "desc": "Si un allié est tué par une attaque ennemie, ou si les PV de l’allié attaqué sont inférieurs à 25% après l’attaque : après cette attaque, la Lame Vagabonde de Hongyuan Ryōshū utilise “Frappe d’Assistance” en Attaque à Sens Unique contre cet ennemi (une fois par Affrontement)\n- Le Seigneur de Hongyuan Hong Lu peut activer cet effet 1 fois supplémentaire après sa limite d’usage\n\nSi “Hé, Recule” est activé grâce au Passif “J.A.A.M.E.L.C.S.”, la Capacité inflige +30% de dégâts en Touche Critique et rend 2~4 PSM à 1 autre allié ayant les PSM les plus bas (une fois par tour ; exclut les alliés à -40 PSM ou moins)",
       "summary": "Lorsqu’un allié est touché par une attaque fatale, utilise la Capacité 3 contre l’attaquant. Améliore la Capacité 1 utilisée par le Passif toujours actif"
     },
     {
@@ -2578,7 +2578,7 @@
     {
       "id": 1091421,
       "name": "Cantique des Camarades Mourants",
-      "desc": "1 allié avec les PSM les plus bas : les Capacités qui consomment de la [Charge] ou une Charge[TabExplain] et ont des effets qui infligent de la [Sinking] aux ennemis infligent +10% de dégâts (exclut les Capacités E.G.O.)"
+      "desc": "1 allié ayant les PSM les plus bas : les Capacités qui consomment de la [Charge] ou une Charge[TabExplain] et ont des effets qui infligent de la [Sinking] aux ennemis infligent +10% de dégâts (exclut les Capacités E.G.O.)"
     },
     {
       "id": 1111401,
@@ -2601,7 +2601,7 @@
     {
       "id": 1111421,
       "name": "Œil d’Aigle",
-      "desc": "Début du Combat : applique 1 [Protection] au prochain tour à 1 allié avec le moins de pourcentage de PV",
+      "desc": "Début du Combat : applique 1 [Protection] au prochain tour à 1 allié ayant le moins de pourcentage de PV",
       "summary": "Gagne de la Protection"
     },
     {
@@ -2619,13 +2619,13 @@
     {
       "id": 1021401,
       "name": "Lame du Prosélyte",
-      "desc": "Inflige +2% de dégâts avec les Capacités marquées de la [IndexPrescriptTargetMarkToEnemy] par [BlessingOfIndexPrescriptAlly] sur soi (16% max)\n- À 9 [BlessingOfIndexPrescriptAlly], inflige +20% de dégâts avec les Capacités Offensives de Base à la place\n\nEn Touche avec une Capacité de Base contre une cible avec [IndexPrescriptTargetToEnemy], gagne 1 [Breath] et inflige 1 [Sinking] (une fois par tour)\n- Augmente le nombre de fois où cet effet peut s’activer par tour de 1 tous les 3 [BlessingOfIndexPrescriptAlly] (2 max)\n\n- À 9 [BlessingOfIndexPrescriptAlly], les Capacités de Base infligent +1 d’Intensité de [Sinking] et cette unité gagne +1 d’Intensité de [Breath] supplémentaire",
-      "summary": "Les Capacités marquées par la Marque de la Prescription infligent plus de dégâts selon les Instances de Grâce de la Prescription\nEn Touche, gagne du Calme et inflige de la Lourdeur"
+      "desc": "Inflige +2% de dégâts avec les Capacités marquées de la [IndexPrescriptTargetMarkToEnemy] par [BlessingOfIndexPrescriptAlly] sur soi (16% max)\n- À 9 [BlessingOfIndexPrescriptAlly], inflige +20% de dégâts avec les Capacités Offensives de Base à la place\n\nEn Touche avec une Capacité de Base contre une cible ayant [IndexPrescriptTargetToEnemy], gagne 1 [Breath] et inflige 1 [Sinking] (une fois par tour)\n- Augmente le nombre de fois où cet effet peut s’activer par tour de 1 tous les 3 [BlessingOfIndexPrescriptAlly] (2 max)\n\n- À 9 [BlessingOfIndexPrescriptAlly], les Capacités de Base infligent +1 d’Intensité de [Sinking] et cette unité gagne +1 d’Intensité de [Breath] supplémentaire",
+      "summary": "Les Capacités marquées par la Marque de la Prescription infligent plus de dégâts selon les Instances de Grâce de la Prescription\nEn Touche, gagne du Calme et inflige de la [Sinking]"
     },
     {
       "id": 1021421,
       "name": "Comme l’Ordonne la Prescription…",
-      "desc": "Les effets s’appliquent à l’Identité avec l’ordre de Déploiement le plus tôt\n- Priorise les Identités de l’Index\n\nDébut du Combat : si la Capacité la plus à gauche de cette unité sur le Tableau de Bord et d’autres alliés ciblent le même Emplacement ennemi, cette Capacité inflige +5% de dégâts par allié ciblant le même Emplacement, en excluant cette unité (15% max, s’applique lorsque cette unité et les alliés utilisent tous deux des Capacités Offensive de Base à l’Emplacement ennemi de la cible principale)",
+      "desc": "Les effets s’appliquent à l’Identité avec l’ordre de Déploiement le plus tôt\n- Priorise les Identités de la faction de l’Index\n\nDébut du Combat : si la Capacité la plus à gauche de cette unité sur le Tableau de Bord et d’autres alliés ciblent le même Emplacement ennemi, cette Capacité inflige +5% de dégâts par allié ciblant le même Emplacement, en excluant cette unité (15% max, s’applique lorsque cette unité et les alliés utilisent tous deux des Capacités Offensive de Base à l’Emplacement ennemi de la cible principale)",
       "summary": "Inflige plus de dégâts selon le nombre d’autres unités ayant ciblé l’emplacement"
     },
     {
@@ -2643,7 +2643,7 @@
     {
       "id": 1031404,
       "name": "Déverrouillage / E.G.O. Fleuri::Procuration",
-      "desc": "Fin du Tour : à 3/6/9 [BlessingOfIndexPrescriptAlly], gagne [UnlockBuffAlly_1]/[UnlockBuffAlly_2]/[UnlockBuffAlly_3].\n\nSi cette unité a gagné [UnlockBuffAlly_1], consomme 15 PSM pour entrer en état d’E.G.O. <noparse>Fleuri</noparse>::Procuration :\n- Avant de consommer des PSM pour entrer dans cet état, regagne assez de PSM pour en avoir 25 et gagne (PSM regagnés / 5) [KarmaOfIndexAlly] (arrondi au supérieur)\n- Au Début du Tour après les vérifications ci-dessus, si cette unité a [UnlockBuff_Base] et a 25 PSM ou plus, consomme 15 PSM pour entrer dans cet état\n\n- Si cette unité se fait Déséquilibrer en entrant en état d’E.G.O. <noparse>Fleuri</noparse>::Procuration, se remet de Déséquilibre (si le Déséquilibre de cette unité ne peut pas être naturellement guérissable, n’entre pas en état d’E.G.O. <noparse>Fleuri</noparse>::Procuration)\n- Gagne [Blandishment] lorsque en état d’E.G.O. <noparse>Fleuri</noparse>::Procuration\n\nDébut du Tour : à 0 PSM ou moins, cette unité quitte l’état d’E.G.O. <noparse>Fleuri</noparse>::Procuration"
+      "desc": "Fin du Tour : à 3/6/9 [BlessingOfIndexPrescriptAlly], gagne [UnlockBuffAlly_1]/[UnlockBuffAlly_2]/[UnlockBuffAlly_3]\n\nSi cette unité a gagné [UnlockBuffAlly_1], consomme 15 PSM pour entrer en état d’E.G.O. <noparse>Fleuri</noparse>::Procuration :\n- Avant de consommer des PSM pour entrer dans cet état, regagne assez de PSM pour en avoir 25 et gagne (PSM regagnés / 5) [KarmaOfIndexAlly] (arrondi au supérieur)\n- Au Début du Tour après les vérifications ci-dessus, si cette unité a [UnlockBuff_Base] et a 25 PSM ou plus, consomme 15 PSM pour entrer dans cet état\n\n- Si cette unité se fait Déséquilibrer en entrant en état d’E.G.O. <noparse>Fleuri</noparse>::Procuration, se remet de Déséquilibre (si le Déséquilibre de cette unité ne peut pas être naturellement guérissable, n’entre pas en état d’E.G.O. <noparse>Fleuri</noparse>::Procuration)\n- Gagne [Blandishment] lorsque en état d’E.G.O. <noparse>Fleuri</noparse>::Procuration\n\nDébut du Tour : à 0 PSM ou moins, cette unité quitte l’état d’E.G.O. <noparse>Fleuri</noparse>::Procuration"
     },
     {
       "id": 1031401,
@@ -2669,7 +2669,7 @@
     {
       "id": 1081402,
       "name": "Arme Thermique",
-      "desc": "Cette unité est considérée comme une Identité qui inflige de la [Combustion] et du [Laceration].\nSi cette unité a [HeatingWireIshmael], les Capacités qui infligent du [Laceration] sont considérées comme des Capacités qui infligent de la [Combustion] et du [Laceration]"
+      "desc": "Cette unité est considérée comme une Identité qui inflige de la [Combustion] et du [Laceration]\nSi cette unité a [HeatingWireIshmael], les Capacités qui infligent du [Laceration] sont considérées comme des Capacités qui infligent de la [Combustion] et du [Laceration]"
     },
     {
       "id": 1081421,
@@ -2726,7 +2726,7 @@
     {
       "id": 1011503,
       "name": "Mandataire de l’Oracle / Déverrouillage",
-      "desc": "Fin du Tour : si une [IndexPrescript_Base_2nd] a été exécutée ce tour lorsqu’en-dessous de [UnlockBuffAlly_2], regagne 4 PSM et gagne 1 [BlessingOfIndexPrescriptAlly] (une fois par tour)\n- En exécutant une [IndexPrescript_Base_2nd], si la cible principale a [IndexPrescriptTargetToEnemy], regagne 8 PSM et gagne 3 [BlessingOfIndexPrescriptAlly] à la place\n\nFin du Tour : si cette unité est à [UnlockBuffAlly_2] et qu’une [IndexPrescriptYi_2] a été exécutée ce tour, regagne 4 PSM (une fois par tour)\n- En exécutant une [IndexPrescript_Base_2nd], si [StackYisangSpecialSkill] a atteint 9 Instances, regagne 8 PSM et gagne 3 [BlessingOfIndexPrescriptAlly]\n\nFin du Tour : si une [IndexPrescript_Base_2nd] n’a pas été exécutée ce tour, gagne 5 [KarmaOfIndexAlly]\n- À [UnlockBuffAlly_3], ne gagne pas de [KarmaOfIndexAlly]\n- Si cette unité a tenté d’exécuter une [IndexPrescript_Base_2nd] au Début du Combat, mais n’a pas pu cibler l’ennemi durant la phase de combat, ne gagne pas de [KarmaOfIndexAlly] à la Fin du Tour (s’applique en-dessous de [UnlockBuffAlly_2])\n\nFin du Tour : à 3/6/9 [BlessingOfIndexPrescriptAlly], gagne [UnlockBuffAlly_1]/[UnlockBuffAlly_2]/[UnlockBuffAlly_3]\nDébut du Tour : à [UnlockBuffAlly_3], gagne [Shin_IndexFingerYisang]",
+      "desc": "Fin du Tour : si une [IndexPrescript_Base_2nd] a été exécutée ce tour lorsqu’en-dessous de [UnlockBuffAlly_2], regagne 4 PSM et gagne 1 [BlessingOfIndexPrescriptAlly] (une fois par tour)\n- En exécutant une [IndexPrescript_Base_2nd], si la cible principale a [IndexPrescriptTargetToEnemy], regagne 8 PSM et gagne 3 [BlessingOfIndexPrescriptAlly] à la place\n\nFin du Tour : si cette unité est à [UnlockBuffAlly_2] et qu’une [IndexPrescriptYi_2] a été exécutée ce tour, regagne 4 PSM (une fois par tour)\n- En exécutant une [IndexPrescript_Base_2nd], si [StackYisangSpecialSkill] a atteint 9 Instances, regagne 8 PSM et gagne 3 [BlessingOfIndexPrescriptAlly] à la place\n\nFin du Tour : si une [IndexPrescript_Base_2nd] n’a pas été exécutée ce tour, gagne 5 [KarmaOfIndexAlly]\n- À [UnlockBuffAlly_3], ne gagne pas de [KarmaOfIndexAlly]\n- Si cette unité a tenté d’exécuter une [IndexPrescript_Base_2nd] au Début du Combat, mais n’a pas pu cibler l’ennemi durant la phase de combat, ne gagne pas de [KarmaOfIndexAlly] à la Fin du Tour (s’applique en-dessous de [UnlockBuffAlly_2])\n\nFin du Tour : à 3/6/9 [BlessingOfIndexPrescriptAlly], gagne [UnlockBuffAlly_1]/[UnlockBuffAlly_2]/[UnlockBuffAlly_3]\nDébut du Tour : à [UnlockBuffAlly_3], gagne [Shin_IndexFingerYisang]",
       "summary": ""
     },
     {
@@ -2784,12 +2784,12 @@
     {
       "id": 1051421,
       "name": "Abeille Ouvrière",
-      "desc": "Fin de Capacité Offensive Perçante Alliée de Base : cet allié regagne des PV égaux à 10% des dégâts de PV infligés en utilisant l’attaque (2 fois par Affrontement)\n- Pour ce tour, si toutes les Capacités Offensives de Base équipées sur des Emplacements de Capacités sont des Capacités Perçantes, tous les alliés regagnent 10 PSM à la Fin du Tour"
+      "desc": "Applique les effets suivants pour ce tour (2 fois par Affrontement)\n-Fin de l’Attaque d’une Capacité Offensive de Base Perçante Alliée : cet allié regagne des PV égaux à 10% des dégâts de PV infligés en utilisant l’attaque\n- Si toutes les Capacités Offensives de Base équipées sur des Emplacements de Capacités sont des Capacités Perçantes, tous les alliés regagnent 10 PSM à la Fin du Tour"
     },
     {
       "id": 1041401,
       "name": "Fleur qui ne Fane Pas",
-      "desc": "Gagne 1 [AlriuneEGOWe] si l’ennemi subit des dégâts de [Sinking]\nGagne autant de [AlriuneEGOWe] que de [AlriuneEGOThey] infligé chaque fois que des ennemis gagnent [AlriuneEGOThey]\nGagne 2 [AlriuneEGOWe] chaque fois qu’un Sursaut de Tremblement est déclenché qu’importe l’unité",
+      "desc": "Gagne 1 [AlriuneEGOWe] si l’ennemi subit des dégâts de [Sinking]\nGagne autant de [AlriuneEGOWe] que de [AlriuneEGOThey] infligé chaque fois que des ennemis gagnent [AlriuneEGOThey]\nGagne 2 [AlriuneEGOWe] chaque fois qu’un [VibrationExplosion] est déclenché qu’importe l’unité",
       "summary": "Gagne [AlriuneEGOWe]"
     },
     {
@@ -2801,7 +2801,7 @@
     {
       "id": 1041411,
       "name": "Fleur qui ne Fane Pas",
-      "desc": "Gagne 1 [AlriuneEGOWe] si l’ennemi subit des dégâts de [Sinking]\nGagne autant de [AlriuneEGOWe] que de [AlriuneEGOThey] infligé chaque fois que des ennemis gagnent [AlriuneEGOThey]\nGagne 2 [AlriuneEGOWe] chaque fois qu’un Sursaut de Tremblement est déclenché qu’importe l’unité\n\nFin de la Capacité Offensive : à 30 [AlriuneEGOWe] ou plus, utilise “Fin Magnifique” contre la cible ayant le plus d’Instances de [AlriuneEGOThey]\n\nInflige +([AlriuneEGOThey] sur la cible)% de dégâts contre les cibles Déséquilibrées\n\nSi cette unité a perdu 10% de PV ou plus ce tour, regagne 3% de PV et 10 PSM (une fois par tour)",
+      "desc": "Gagne 1 [AlriuneEGOWe] si l’ennemi subit des dégâts de [Sinking]\nGagne autant de [AlriuneEGOWe] que de [AlriuneEGOThey] infligé chaque fois que des ennemis gagnent [AlriuneEGOThey]\nGagne 2 [AlriuneEGOWe] chaque fois qu’un [VibrationExplosion] est déclenché qu’importe l’unité\n\nFin de la Capacité Offensive : à 30 [AlriuneEGOWe] ou plus, utilise “Fin Magnifique” contre la cible ayant le plus d’Instances de [AlriuneEGOThey]\n\nInflige +([AlriuneEGOThey] sur la cible)% de dégâts contre les cibles Déséquilibrées\n\nSi cette unité a perdu 10% de PV ou plus ce tour, regagne 3% de PV et 10 PSM (une fois par tour)",
       "summary": "Gagne [AlriuneEGOWe]"
     },
     {
@@ -2833,12 +2833,12 @@
     {
       "id": 1121521,
       "name": "Défibrillation",
-      "desc": "Fin du Tour : 2 alliés avec les ordres de Déploiement les plus tôt regagnent chacun (somme du Compte de [Charge] et de “Charge Unique” consommé par chacune de leurs Capacités Offensives ce tour, respectivement) PV (10 max)"
+      "desc": "Fin du Tour : 2 alliés ayant les ordres de Déploiement les plus tôt regagnent chacun (somme du Compte de [Charge] et de “Charge Unique” consommé par chacune de leurs Capacités Offensives ce tour, respectivement) PV (10 max)"
     },
     {
       "id": 1121531,
       "name": "Défibrillation",
-      "desc": "Fin du Tour : <style=\"highlight\">3</style> alliés avec les ordres de Déploiement les plus tôt regagnent chacun (somme du Compte de [Charge] et de “Charge Unique” consommé par chacune de leurs Capacités Offensives ce tour, respectivement) PV (10 max)"
+      "desc": "Fin du Tour : <style=\"highlight\">3</style> alliés ayant les ordres de Déploiement les plus tôt regagnent chacun (somme du Compte de [Charge] et de “Charge Unique” consommé par chacune de leurs Capacités Offensives ce tour, respectivement) PV (10 max)"
     },
     {
       "id": 1061404,
@@ -2872,7 +2872,7 @@
     {
       "id": 1021504,
       "name": "Fascia, Ma Précieuse Œuvre d’Art",
-      "desc": "En entrant dans l’Affrontement pour la première fois, gagne +(# d’alliés de l’Annulaire sur le terrain * 2) de Compte d’[ChargeBodyArt] (10 max)\n\nFin de Capacité : si la Capacité a infligé des dégâts de PV ou de Bouclier, gagne +5 de Compte d’[ChargeBodyArt]\n- Si la cible est tuée, gagne +3 de Compte d’[ChargeBodyArt] supplémentaire\n\nGagne 1 [ChargeBodyArt] chaque fois que cette unité consomme 10 de Compte d’[ChargeBodyArt] cumulé durant cet Affrontement\n- Si l’effet ci-dessus amène l’Intensité de [ChargeBodyArt] de cette unité à 2 ou plus, gagne [FasciaPersonality]\n\nLes Capacités Offensives de Base et Capacité de Riposte Affrontable comptent comme des Capacités qui gagnent du Compte de [Charge]",
+      "desc": "En entrant dans l’Affrontement pour la première fois, gagne +(# d’alliés de la faction de l’Annulaire sur le terrain * 2) de Compte d’[ChargeBodyArt] (10 max)\n\nFin de Capacité : si la Capacité a infligé des dégâts de PV ou de Bouclier, gagne +5 de Compte d’[ChargeBodyArt]\n- Si la cible est tuée, gagne +3 de Compte d’[ChargeBodyArt] supplémentaire\n\nGagne 1 [ChargeBodyArt] chaque fois que cette unité consomme 10 de Compte d’[ChargeBodyArt] cumulé durant cet Affrontement\n- Si l’effet ci-dessus amène l’Intensité de [ChargeBodyArt] de cette unité à 2 ou plus, gagne [FasciaPersonality]\n\nLes Capacités Offensives de Base et Capacité de Riposte Affrontable comptent comme des Capacités qui gagnent du Compte de [Charge]",
       "summary": "Gagne [ChargeBodyArt]"
     },
     {
@@ -2969,7 +2969,7 @@
     {
       "id": 1041503,
       "name": "Étoile Dihui [地慧星]",
-      "desc": "À 50 [PhantomIncisionTotalID] ou plus, active “Déchirure Spatiale - Connexion de Fil” contre un ennemi aléatoire à la toute fin de ce tour (une fois par Affrontement)\n- Après avoir utilisé “Déchirure Spatiale - Connexion de Fil” suite à cet effet, applique les effets suivants sur soi :\n· Ne peut pas Battre en Retraite de cet Affrontement\n· Fin du Tour : à 50 [PhantomIncisionTotalID] ou plus, remplace une Capacité de Base avec “Déchirure Spatiale - Résidu” au prochain Début de Tour (priorise la Capacité sur l’Emplacement inférieur le plus à gauche du Tableau de Bord)",
+      "desc": "À 50 [PhantomIncisionTotalID] ou plus, active “Déchirure[TabExplain] Spatiale - Connexion de Fil” contre un ennemi aléatoire à la toute fin de ce tour (une fois par Affrontement)\n- Après avoir utilisé “Déchirure[TabExplain] Spatiale - Connexion de Fil” suite à cet effet, applique les effets suivants sur soi :\n· Ne peut pas Battre en Retraite de cet Affrontement\n· Fin du Tour : à 50 [PhantomIncisionTotalID] ou plus, remplace une Capacité de Base avec “Déchirure[TabExplain] Spatiale - Résidu” au prochain Début de Tour (priorise la Capacité sur l’Emplacement inférieur le plus à gauche du Tableau de Bord)",
       "summary": "",
       "flavor": "“La Lame de l’Étoile Dihui et la Lame de l’Étoile Tiansha. Si non pas une seule mais <i>deux</i> lames forgées d’étoile sont venues à demeurer dans tes mains, alors je suis incité à songer, quel nom d’Étoile pourrait être idéal pour te représenter ?”\n“Ton Garde-père, lui aussi, t’a sûrement transmis le récit contant l’existence d’Étoiles qui, au terminus de convoitise démesurée, furent laissées brisées et dépouillées. Ainsi, je te le suggère, parmi ces deux lames, n’en appointe qu’une comme étant tienne.”"
     },
@@ -2991,6 +2991,54 @@
       "name": "La Tutelle du Maître [師事]",
       "desc": "Lorsque l’allié avec l’ordre de Déploiement le plus tôt utilise une Capacité de Base, cet allié gagne 2 d’Intensité de [Breath] (3 fois par tour)",
       "summary": ""
+    },
+    {
+      "id": 1111501,
+      "name": "Livre des Vengeances - Clause Spéciale de la Maison d’Araignées",
+      "desc": "Fin du Tour :\n- Applique [RetaliationBook] à l’unité ayant infligé le plus de dégâts de Capacité à un allié\n- Applique [RetaliationBookSpiderOutis] à l’unité ayant infligé le plus de dégâts de Capacité à cette unité\n\nDébut du Combat : gagne 1 [ResentmentSpiderOutis] par Réson. d’Envie (7 max)\n\nSi les conditions suivantes sont remplies durant la Phase de Combat, gagne 2 [ResentmentSpiderOutis]\n- Lorsque cette unité est touchée par la Capacité d’une autre unité (2 fois par tour)\n- Lorsque La Maison d’Araignées : L’Apprentie du Majeur Ishmaël est touchée par la Capacité d’une autre unité (une fois par tour)\n\nSi les conditions suivantes sont remplies durant la Phase de Combat, gagne 1 [ResentmentSpiderOutis] (cette unité et La Maison d’Araignées : L’Apprentie du Majeur Ishmaël se faisant toucher ne compte pour les conditions suivantes)\n- Lorsqu’un allié du Majeur est touché par la Capacité d’une autre unité (une fois par tour par Identité)\n- Lorsqu’un allié de la Maison d’Araignées est touché par la Capacité d’une autre unité (une fois par tour par Identité)\n\nLorsque cette unité gagne [ResentmentSpiderOutis], si la cible a [RetaliationBook], gagne une Instance supplémentaire de [ResentmentSpiderOutis]\n\nGagne 1 [ReinforcedTattooSpiderOutis] chaque fois que cette unité consomme 5 [ResentmentSpiderOutis]\n\n【Les effets ne s’appliquent qu’à La Maison d’Araignées : L’Apprentie du Majeur Ishmaël】\nLorsque La Maison d’Araignées : Le Garde-père du Majeur Outis est touchée par la Capacité d’une autre unité, Ishmaël gagne 2 [ResentmentIshmael] (une fois par tour)"
+    },
+    {
+      "id": 1111502,
+      "name": "Odeur de Sang et de Flamme",
+      "desc": "Cette unité est considérée comme une Identité qui inflige de la [Combustion] et du [Laceration]\nSi l’épée de cette unité a [MiddleFatherSwordTwoOutis] ou [MiddleFatherSwordThreeOutis], les Capacités qui infligent du [Laceration] sont considérées comme des Capacités qui infligent de la [Combustion] et du [Laceration]"
+    },
+    {
+      "id": 1111503,
+      "name": "Épée Scéllée [Lævateinn]",
+      "desc": "En entrant dans l’Affrontement pour la première fois, gagne [MiddleFatherSwordOneOutis]\n\nÀ moins de 80% de PV, utilise “L’heure de Déballer !” en Attaque à Sens Unique à la Fin de la Capacité, convertissant [MiddleFatherSwordOneOutis] en [MiddleFatherSwordTwoOutis]",
+      "flavor": "“Enterrées dans les confins les plus profonds de la Cité se trouvent les Ruines. Plongez par-delà une certaine profondeur et vous ne serez plus dans la Cité. Ceci est un fragment d’une épée autrefois brandie par l’un des guetteurs de la fin qui peuplaient les Ruines, attendant l’apocalypse à venir. Seul un fragment, mais en son sein repose son immense pouvoir inviolé et pur.\n… Alors, comme vous me l’aviez dit. Oui, mes grands Adelphes. Cette épée légendaire est effectivement très stylée.”"
+    },
+    {
+      "id": 1111513,
+      "name": "Épée Scéllée [Lævateinn]",
+      "desc": "En entrant dans l’Affrontement pour la première fois, gagne [MiddleFatherSwordOneOutis]\n\n<style=\"highlight\">Lorsque chaque Sceau est retiré de l’épée, gagne de la [CountSkillMidOutis] correspondant au niveau de descellement\n- [MiddleFatherSwordOneOutis] : gagne 1 [CountSkillMidOutis]\n- [MiddleFatherSwordTwoOutis] : gagne 2 [CountSkillMidOutis]\n- [MiddleFatherSwordThreeOutis] : gagne 2 [CountSkillMidOutis]\n\nLorsque les conditions suivantes sont remplies, perd 1 [CountSkillMidOutis] (une fois par tour)\n- En utilisant la Capacité “Piétinement de Vengeance”, perd 1 Instance (inclut l’activation de “Piétinement de Vengeance” par Riposte)\n- À 6 de somme de Réson.-A d’Envie ou plus, perd 1 Instance à la Fin du Tour\n\nÀ 0 Instance de [CountSkillMidOutis], utilise “L’heure de Déballer !” en Attaque à Sens Unique à la Fin de la Capacité\n- Fin du Tour : à 0 Instance de [CountSkillMidOutis], et si cette unité n’a pas pu utiliser “L’heure de Déballer !” durant ce tour, utilise “L’heure de Déballer !” au Début du Combat du prochain tour\n- Tant que l’épée de cette unité a [MiddleFatherSwordOneOutis], à moins de 80% de PV, utilise “L’heure de Déballer !”, qu’importe les Instances de [CountSkillMidOutis]\n\nÀ 50% de PV ou moins, gagne 3 [MiddleFatherGutsOutis] (une fois par Affrontement)\n\nLorsque Déséquilibrée pour la première fois dans cet Affrontement, se remet de Déséquilibre à la Fin du Tour et gagne 15 [ResentmentSpiderOutis] (exclut les Déséquilibres forcés)\n\nDébut du Tour : à 15 [ResentmentSpiderOutis], remplace une Capacité de Base sur le Tableau de Bord de cette unité par “Piétinement de Vengeance” ou “Annihilation Totale et Absolue” (3 fois par Affrontement)\n- S’applique uniquement à la Capacité sur l’Emplacement inférieur le plus à gauche sur le Tableau de Bord\n- Cet effet ne s’active pas si “Piétinement de Vengeance” ou “Annihilation Totale et Absolue” est déjà sur l’Emplacement affecté</style>",
+      "flavor": "“Enterrées dans les confins les plus profonds de la Cité se trouvent les Ruines. Plongez par-delà une certaine profondeur et vous ne serez plus dans la Cité. Ceci est un fragment d’une épée autrefois brandie par l’un des guetteurs de la fin qui peuplaient les Ruines, attendant l’apocalypse à venir. Seul un fragment, mais en son sein repose son immense pouvoir inviolé et pur.\n… Alors, comme vous me l’aviez dit. Oui, mes grands Adelphes. Cette épée légendaire est effectivement très stylée.”"
+    },
+    {
+      "id": 1111504,
+      "name": "Éducation Parentale",
+      "desc": "Si La Maison d’Araignées : L’Apprentie du Majeur Ishmaël est sur le terrain aux côtés de cette unité, active les effets suivants :\n- En Duel Gagné, gagne 1 [DaughterEducationSpiderOutis] (une fois par tour ; si c’était la première Capacité utilisée durant ce tour par cette unité, gagne 1 [DaughterEducationSpiderOutis] supplémentaire)\n- En Touche en utilisant une Capacité, gagne 1 [DaughterEducationSpiderOutis] (une fois par tour ; ne gagne pas de [DaughterEducationSpiderOutis] avec des Pièces Fissurées)\n\n【Les effets ne s’appliquent qu’à La Maison d’Araignées : L’Apprentie du Majeur Ishmaël】\n- Lorsque Ishmaël gagne un Duel, Ishmaël gagne 1 [GotAComplimentIshmael] (une fois par tour ; si c’était la première Capacité utilisée durant ce tour par Ishmaël, Ishmaël gagne 1 [GotAComplimentIshmael] supplémentaire)\n- En Touche en utilisant une Capacité d’Ishmaël, Ishmaël gagne 1 [GotAComplimentIshmael] (une fois par tour ; ne gagne pas de [GotAComplimentIshmael] avec des Pièces Fissurées ; si la Capacité ayant touché était la Capacité 3 activée comme Riposte, gagne 1 [GotAComplimentIshmael] supplémentaire)"
+    },
+    {
+      "id": 1111505,
+      "name": "Saikai [再会] - Le Majeur",
+      "desc": "Si cette unité est vaincue au Début de l’Affrontement, ou si cette unité est vaincue durant l’Affrontement, la Lame de la Maison d’Araignées Ryōshū gagne les effets suivants :\n- Gagne 1 [SojiRyoshuEchoPast]\n- Subit -20% de dégâts\n- Lorsque touchée, gagne 1 [AttackUp] (2 fois par tour)"
+    },
+    {
+      "id": 1111506,
+      "name": "Merci… Gamine.",
+      "desc": "Lorsque cette unité a [MiddleFatherSwordFourOutis] : lorsqu’un allié ayant moins de 20% de PV perd un Duel contre un ennemi, utilise la Capacité “Brave Fille. Ton Sacrifice pour la Famille Ne Sera Pas Oublié.” ciblant cet ennemi comme cible principale et cet allié comme sous-cible (une fois par Affrontement)\n- La Maison d’Araignées : L’Apprentie du Majeur Ishmaël a une condition à 30% de PV au lieu de 20%\n\nSi cette Capacité a tué un allié du Majeur, gagne 1 [VioletDamageUp] au prochain tour\n- Si cette Capacité a tué La Maison d’Araignées : L’Apprentie du Majeur Ishmaël, gagne [MidFamilyOutis] au prochain tour à la place"
+    },
+    {
+      "id": 1111521,
+      "name": "Quelqu’un Cherche la Famille ?",
+      "desc": "Début du Combat : applique 1 [AttackDmgUp] et 1 [Protection] aux alliés ayant équipé des Capacités de Riposte (2 fois par Affrontement ; exclut les Ripostes Affrontables)\n- Si l’allié affecté est du Majeur, applique 2 [VioletDamageUp] et 2 [Protection] à la place"
+    },
+    {
+      "id": 1111507,
+      "name": "Sealed Sword [Lævateinn]",
+      "desc": "En entrant dans l’Affrontement pour la première fois, gagne [MiddleFatherSwordOneOutis]\n\n<style=\"highlight\">Début du Tour : à 0 [CountSkillMidOutis], gagne de la [CountSkillMidOutis] correspondant au niveau de descellement\n- [MiddleFatherSwordOneOutis] : gagne 1 [CountSkillMidOutis]\n- [MiddleFatherSwordTwoOutis] : gagne 2 [CountSkillMidOutis]\n- [MiddleFatherSwordThreeOutis] : gagne 2 [CountSkillMidOutis]\n\nLorsque les conditions suivantes sont remplies, perd 1 [CountSkillMidOutis] (une fois par tour)\n- En utilisant la Capacité “Piétinement de Vengeance”, perd 1 Instance (inclut l’activation de “Piétinement de Vengeance” par Riposte)\n- À 6 de somme de Réson.-A d’Envie ou plus, perd 1 Instance à la Fin du Tour\n\nÀ 0 Instance de [CountSkillMidOutis], utilise “L’heure de Déballer !” en Attaque à Sens Unique à la Fin de la Capacité\n- Fin du Tour : à 0 Instance de [CountSkillMidOutis], et si cette unité n’a pas pu utiliser “L’heure de Déballer !” durant ce tour, utilise “L’heure de Déballer !” au Début du Combat du prochain tour\n- Tant que l’épée de cette unité a [MiddleFatherSwordOneOutis], à moins de 80% de PV, utilise “L’heure de Déballer !”, qu’importe les Instances de [CountSkillMidOutis]\n\nÀ 50% de PV ou moins, gagne 3 [MiddleFatherGutsOutis] (une fois par Affrontement)\n\nLorsque Déséquilibrée pour la première fois dans cet Affrontement, se remet de Déséquilibre à la Fin du Tour et gagne 15 [ResentmentSpiderOutis] (exclut les Déséquilibres forcés)\n\nDébut du Tour : à 15 [ResentmentSpiderOutis], remplace une Capacité de Base sur le Tableau de Bord de cette unité par “Piétinement de Vengeance” ou “Annihilation Totale et Absolue” (3 fois par Affrontement)\n- S’applique uniquement à la Capacité sur l’Emplacement inférieur le plus à gauche sur le Tableau de Bord\n- Cet effet ne s’active pas si “Piétinement de Vengeance” ou “Annihilation Totale et Absolue” est déjà sur l’Emplacement affecté</style>",
+      "flavor": "“Enterrées dans les confins les plus profonds de la Cité se trouvent les Ruines. Plongez par-delà une certaine profondeur et vous ne serez plus dans la Cité. Ceci est un fragment d’une épée autrefois brandie par l’un des guetteurs de la fin qui peuplaient les Ruines, attendant l’apocalypse à venir. Seul un fragment, mais en son sein repose son immense pouvoir inviolé et pur.\n… Alors, comme vous me l’aviez dit. Oui, mes grands Adelphes. Cette épée légendaire est effectivement très stylée.”"
     }
   ]
 }
