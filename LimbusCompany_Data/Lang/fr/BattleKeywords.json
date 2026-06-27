@@ -3188,6 +3188,146 @@
       "summary": "",
       "undefined": "-",
       "flavor": ""
+    },
+    {
+      "id": "ScratchesHurtID",
+      "name": "Blessure d’Avulsion",
+      "desc": "- Instance max : 3\n- Début du Tour : gagne 2 Saignements\n- Fin du Tour : gagne 1 Ralentissement au prochain tour\n- Fin du Tour : perd 1 Instance",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "TiedRopeHonglu",
+      "name": "Ligoté [Hong Lu]",
+      "desc": "- Instance de Base : 3\n- -2 de Vitesse Min & Max\n- Subit +10% de dégâts d’Orgueil\n- Expire lorsque l’infligeur Bat en Retraite, est tué ou l’inflige à une cible différente. Remplacé lorsque Ligoté par une autre unité\n- Fin du Tour : perd 1 Instance si l’infligeur n’a pas touché cette unité pendant ce tour",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "TiedWithRopeID",
+      "name": "Arrangements de Transport de Prisonnier",
+      "desc": "- Instance de Base : 1\n- Lors d’un Duel contre des ennemis ayant Ligoté [Hong Lu], +1 de Puissance de Duel\n- En Touche contre des ennemis ayant Ligoté [Hong Lu], inflige 1 Saignement et gagne 1 Calme (2 Capacités par tour)\n- S’il n’y a pas de cible Ligotée, expire",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "AengduNewArmIshmael",
+      "name": "Bras Dokkaebi",
+      "desc": "- Subit -15% de dégâts\n- À l’Usage de Capacité, gagne 1 Accélération au prochain tour (2 fois par tour)\n- Fin du Combat : cet effet expire et gagne +2 de Compte de Calme",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BladelineagePride",
+      "name": "Allure d’un Salsu",
+      "desc": "- Instance max : 3\n- Gagne un Niveau Offensif par Instance\n- En Touche Offensive avec des Capacités Tranchantes, gagne 1 Calme (2 fois par tour)\n- Perd 1 Instance lorsqu’une Identité alliée de la Lignée de la Lame est vaincue",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "WindBladeIshmael",
+      "name": "Atelier Mook - Ye [銳] Dégainelame de Type II / Force de Poussée : Feu Dokkaebi",
+      "desc": "- Instance max : 20\n- Peut gagner jusqu’à 10 Instances par tour\n- Les Capacités Offensives Tranchantes de Base infligent +1% de dégâts par Instance (10% max)\n- Les Capacités Défensives perdent 1 de Puissance de Duel toutes les 2 Instances (5 max)\n- Fin du Tour : gagne 1 Accélération au prochain tour toutes les 5 Instances (3 max)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "AlcoholKimPersonal",
+      "name": "Verre pour Ceux qui sont Tombés",
+      "desc": "- Instance max : 4\n- Début du Tour : gagne 1 Calme par Instance\n· Mentor de la Lignée de la Lame Meursault gagne 2 Calme par Instance à la place\n- Les Capacités de Base infligent +(Calme sur soi * 1.5)% de dégâts en Touche Critique (15% max)\n- Les Capacités de Base qui gagnent du Calme et du Compte de Calme gagnent +1 de Puissance de Duel\n- Fin du Tour : perd 1 Instance",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "GrudgePersonal",
+      "name": "Rancœur Grandissante",
+      "desc": "- Instance max : 999\n- “Pour Réclamer Leurs Os” gagne (Instance / 100) de Puissance Finale (6 max ; arrondi à l’inférieur)\n- En Touche avec les Pièces Finales de “Offrir Ma Chair” ou de “Pour Réclamer Leurs Os”, inflige +(Instance / 10)% de dégats ; puis, cet effet expire",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "GhostKimPersonal",
+      "name": "Rancœur",
+      "desc": "- +2 de Vitesse Min & Max\n- En Touche, regagne des PV égaux à 10% des dégâts infligés par la Capacité (peut soigner jusqu’à 50% des PV max de cette unité par Capacité)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "RootSoupKimPersonal",
+      "name": "Fourreau Rancunier",
+      "desc": "- Lorsqu’un allié, cette unité incluse, subit des dégâts de PV, gagne autant de Rancœur Grandissante que de dégâts subis\n- Le Passif In Memoriam ignore désormais les conditions et s’active au potentiel maximal\n- En activant une Réson. d’Orgueil, applique Épée Patriote - La Véritable Essence à tous les alliés de la Lignée de la Lame autre que cette unité\n\n- À l’Usage de “Offrir Ma Chair”, jusqu’à la Fin de la Capacité :\n· Les PV de cette unité ne descendent pas en dessous de 10 (une fois par tour)\n· Perd (Calme sur soi / 2) de Puissance de Duel (arrondi à l’inférieur)\n- À l’Usage de “Pour Réclamer Leurs Os”, gagne 4 Calmes\n\n※ Effets de Épée Patriote - La Véritable Essence :\n- Les Capacités Offensives de Base gagnent +(# d’alliés de la Lignée de la Lame sur le terrain / 3) de Puissance Finale (2 max, arrondi à l’inférieur)\n- Si cette unité est un Salsu de la Lignée de la Lame, les Capacités de Base gagnent +1 de Puissance Finale et infligent +(120 / # de Pièces)% de dégâts\n- Fin du Tour : gagne 1 Accélération au prochain tour et cet effet expire",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "RootSoupKimSatgat",
+      "name": "Épée Patriote - La Véritable Essence",
+      "desc": "- Les Capacités Offensives de Base gagnent +(# d’alliés de la Lignée de la Lame sur le terrain / 3) de Puissance Finale (2 max, arrondi à l’inférieur)\n- Si cette unité est un Salsu de la Lignée de la Lame, les Capacités de Base gagnent +1 de Puissance Finale et infligent +(120 / # de Pièces)% de dégâts\n- Fin du Tour : gagne 1 Accélération au prochain tour et cet effet expire",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BongukGiftEnhance",
+      "name": "Épée Patriote - Frappant",
+      "desc": "- Instance max : 1\n- +1 de Puissance de Pièce Positive, inflige +15% de dégâts en Touche Critique\n- Expire à la Fin du Tour",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "DuelEdgeAlly",
+      "name": "Le Duel S’Envenime",
+      "desc": "- Affecte les effets de Capacités et de Passifs de La Maison d’Araignées : Apprenti du Pouce Heathcliff\n- Peut gagner jusqu’à 3 Instances par tour\n- Instance max : 5",
+      "summary": "Affecte les effets de Capacités et de Passifs de La Maison d’Araignées : Apprenti du Pouce Heathcliff"
+    },
+    {
+      "id": "SeveredTendonAlly",
+      "name": "Tendon Sectionné",
+      "desc": "- -1 de Puissance de Base\n- Expire à la Fin du Tour\n- Instance max : 1",
+      "summary": "-1 de Puissance de Base"
+    },
+    {
+      "id": "EvolvingManual",
+      "name": "Manuel en Maturation",
+      "desc": "- Les Capacités de Base infligent +(10 + (Instance * 5))% de dégâts\n- Peut gagner jusqu’à 2 Instances par tour\n- Instance max : 3",
+      "summary": "Capacités de Base inflige plus de dégâts"
+    },
+    {
+      "id": "ObsessionAndGreedRodion",
+      "name": "Shin (心) - Déshonneur",
+      "desc": "- +1 de Vitesse min & max\n- Les Capacités de Base infligent +1 d’Intensité et de Compte de Tremblement et de Brûlure\n- Inflige +3% de dégâts toutes les 3 d’Intensité de Calme sur soi (15% max)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "FutureEyeOnRodion",
+      "name": "Œil de Précognition",
+      "desc": "- Instance max : 30\n- Peut perdre jusqu’à 10 Instances par tour",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "FutureEyeOffRodion",
+      "name": "Œil de Précognition - Surchauffe",
+      "desc": "- Instance max : 30\n- +3 Niveaux Offensifs, -3 Niveaux Défensifs\n- Début du Tour : gagne 10 Instances\n- À 30 Instances, se convertit en “Œil de Précognition”",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "LookingFutureRodion",
+      "name": "Futur en Accélération",
+      "desc": "- Instance max : 5\n- Les Capacités de Base infligent +3% de dégâts par Instance (15% max)\n- +1 de Puissance de Duel pour les Capacités de Base toutes les 2 Instances\n- À 5 Instances, +1 de Puissance de Pièce pour les Capacités de Base\n- Expire à la Fin de la Capacité",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "TeachersPreyRodion",
+      "name": "Le Gibier",
+      "desc": "- Subit +15% de dégâts des Capacités de Base utilisées par La Maison d’Araignées : Garde-père du Pouce Rodion",
+      "summary": "",
+      "undefined": "-"
     }
   ]
 }

@@ -566,6 +566,12 @@
       "name": "Braise",
       "desc": "<style=\"highlight\">À l’Usage d’une Capacité de Colère ou d’une Capacité qui inflige de l’Intensité ou du Compte de [Combustion] : à 6 de somme totale de [Combustion] sur toutes les cibles ou plus, +1 de Puissance de Duel</style>\n\nEn Duel Gagné, inflige (<style=\"highlight\">Reson.</style> de Colère <style=\"highlight\">* 2</style>) [Combustion] <style=\"highlight\">à la cible principale</style> (<style=\"highlight\">8 max</style> par Capacité)",
       "summary": "Gagne de la Puissance de Duel\nLorsque les conditions sont remplies, inflige [Combustion]"
+    },
+    {
+      "id": 2050911,
+      "name": "Perles de Liqueur à la Pointe de Lame",
+      "desc": "[AlwaysUseEGOPassive2050911]\n\nEn Touche avec une Capacité de Base, inflige 2 [Laceration] à la cible (une fois par Capacité)\n\nCette Identité compte comme une Identité qui applique du [Laceration] et du [Breath]\n- Les Capacités de Base de cette Identité comptent comme des Capacités qui infligent du [Laceration] et du [Breath]\n\n[WhenUseEGOPassive]\n\nLorsqu’un allié est vaincu, gagne 1 [AlcoholKimPersonal] au prochain tour\n- Si l’allié vaincu est de la Lignée de la Lame, gagne 2 [AlcoholKimPersonal] à la place\n\nDébut du Tour : si cette unité a [AlcoholKimPersonal], entre en état de [GhostKimPersonal]\n- Mentor de la Lignée de la Lame Meursault gagne aussi [RootSoupKimPersonal] lorsque l’effet ci-dessus s’active\n\nDébut du Tour : si cette unité n’a pas [AlcoholKimPersonal], les effets suivants expirent - [GhostKimPersonal], [GrudgePersonal] et [RootSoupKimPersonal]\n\nLorsque cette unité a [AlcoholKimPersonal] : lorsque cette unité prend des dégâts amenant ses PV à 0, regagne (Instance de [AlcoholKimPersonal] * 25)% de PV ; puis, [AlcoholKimPersonal] expire (une fois par Affrontement ; cet effet s’active après les Passifs d’Identité avec des effets similaires)\n- Lorsque Déséquilibré, se remet de Déséquilibre (exclut les Déséquilibres forcés)",
+      "summary": "Gagne [AlcoholKimPersonal]"
     }
   ]
 }

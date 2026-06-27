@@ -1,0 +1,220 @@
+{
+  "dataList": [
+    {
+      "id": "ScratchesHurt",
+      "name": "Blessure d’Avulsion",
+      "desc": "- Instance max : 3\n- Début du Tour : gagne 2 Saignements par Instance\n• À Instance max, gagne +1 de Compte de Saignement\n- Fin du Tour : gagne autant de Ralentissement que d’Instance au prochain tour\n• À Instance max, gagne également 1 Malus de Puissance Offensive au prochain tour\n- Fin du Tour : si cette unité n’a pas subi de Touche Critique ce tour, perd 1 Instance",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "TiedRope",
+      "name": "Ligoté",
+      "desc": "- Instance de Base : 3\n- Fixe la Vitesse de cette unité à 1\n- Fixe la Puissance de Pièce des Capacités de Base de cette unité à 0\n- Fin du Tour : perd 1 Instance\n- Si le buff “Arrangements de Transport de Prisonnier” de l’infligeur expire, cet effet expire aussi",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Regardez combien les ignobles chassent les autres ignobles pour se servir à ceux au pouvoir."
+    },
+    {
+      "id": "TiedWithRope",
+      "name": "Arrangements de Transport de Prisonnier",
+      "desc": "- Instance de Base : 1\n- Currently Trussing {0}\n- Fixe la Vitesse de cette unité à 1\n- Si l’effet Ligoté qu’a infligé cette unité à la cible expire, ou si cette unité est vaincue ou Déséquilibrée, perd cet effet\n- Si la cible à laquelle cette unité a infligé “Ligoté” est vaincue ce tour, perd l’effet “Arrangements de Transport de Prisonnier”",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "RegretSCorp",
+      "name": "Souvenir Déchireur d’Esprit",
+      "desc": "- Instance max : 1\n- Fin du Tour : gagne 1 Ralentissement au prochain tour\n- Fin du Tour : gagne (compte de tour actuel / 4) Bonus de Puissance de Duel (arrondi à l’inférieur, 3 max)\n- Expire à la Fin du Tour",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "TakePicture",
+      "name": "Rassemblement d’Information",
+      "desc": "- En utilisant une Capacité d’un rang identique à la Capacité photographiée, -5 de Puissance de Duel\n(※ Les Capacités Défensives et Capacités E.G.O. sont comptées séparément)\n({0})\n- Expire à la Fin du Tour",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "LensmanNail",
+      "name": "Clou Immobilisant",
+      "desc": "- Instance max : 10\n- Début du Tour : gagne 1 Malus de Niveau Offensif tous les 2 Ralentissements (3 max)\n- Début du Tour : gagne autant de Saignement que d’Instance\n- En Sursaut de Tremblement, gagne du Compte de Saignement égal à l’Instance (une fois par tour)\n- Fin du Tour : gagne autant de Ralentissement que d’Instance au prochain tour (6 max), puis perd 1 Instance",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "PhotoTransition",
+      "name": "Transition Mémorielle",
+      "desc": "- Instance de Base : 3\n- Fin du Tour : perd 1 Instance. Si cette unité a 0 Instance de cet effet au Début du Tour, certaines unités et effets se transforment\n(lorsque Déséquilibré, se remet de Déséquilibre)\n\n- Une fois l’effet ci-dessus activé, remet l’Instance de Transition Mémorielle à son Instance de Base",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "AengduNewArm",
+      "name": "Bras Dokkaebi",
+      "desc": "- +4 Niveaux Offensifs de Base\n- +4 Niveaux Défensifs de Base\n- Subit -20% de dégâts\n- À l’Usage de Capacité, gagne 1 Accélération au prochain tour (2 fois par tour)\n- Fin du Combat : gagne +2 de Compte de Calme",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“… Bras Dokkaebi ? Seriez-vous, par hasard, en train d’évoquer les Dokkaebis apparaissent souventefois dans les vieux récits ? Hmm…”\n“J’ai peine à y croire, néanmoins, après tout ce dont j’ai pu témoigner tandis que je me reposais sur l’hospitalité de Limbus Company, l’existence des Dokkarbis du folklore pourrait être raisonnable.”\n“Maintenant que j’y songe… Je me rappelle avoir entendu un nom appelé ‘Unité Dokkaebi’…”"
+    },
+    {
+      "id": "WindBlade",
+      "name": "Atelier Mook - Ye [銳] Dégainelame de Type II / Force de Poussée : Feu Dokkaebi",
+      "desc": "- Instance max : 20\n- Inflige +1% de dégâts Tranchants par Instance (10% max)\n- Les Capacités Défensives perdent 1 de Puissance de Duel toutes les 2 Instances (5 max)\n- Fin du Tour : gagne 1 Accélération au prochain tour toutes les 5 Instances (3 max)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Hm ? T’aimes ce modèle ? Ooh, la nouvelle sait reconnaître la qualité ! Excusez-moi ! ~ On peut essayer ce modèle ? Oh, allez, relax ! J’connais le topo : “Tu le casses, tu l’achètes”. Merci ! Hehe… Tu vois ? J’t’avais dit que je suis une habituée ici ~ Okay, donc, l’épée et le fourreau sont vendus ensemble, alors attrape les tous les deux et ressens le poids. Qu’est-ce que t’en dis ? C’est pas aussi lourd que ça en a l’air, hein ?”\n“Oho…”\n“En fait, il y a cette particule ? Poudre ? Ce truc dans le fourreau qui est breveté par l’Atelier Mook ! Chaque fois que tu rengaines et dégaines l’épée, pendant un bref instant, sa lame ressort plus aiguisée et légère ! Et ce modèle que tu tiens se concentre sur <i>l’affûtage</i> ! Du coup, c’est genre, *Ding !* et voilà, t’as un buff sympa sur ton arme !”\n“D’ailleurs, je crois que c’est une des modèles de la série Ye [銳], la gamme classique de l’Atelier Mook. Mate-moi cette finition, c’est… Attends, quoi ?! Hé, c’est le modèle Ye [銳] de ‘Type II’ qui a fini hors production ! Tu sais quoi, ce genre de truc est vraiment pas facile à trouver, on a de la chance d’en avoir trouvé une ici !”\n“S’il s’agit d’une telle rareté, Dame Ezra, peut-être devriez-vous être celle la brandissant…”\n“Hnngh… Non, ça ira… Je veux dire, ça se voit qu’elle est faite pour toi ! Et elle fonctionnera du tonnerre avec tous ces boosters sur tes nouveaux bras prothétiques. Il faudra un temps d’adaptation, mais tu seras une sacrée guerrière une fois que t’y sera habituée ! Bref, considère-la comme un cadeau de ma part, tu fais officiellement partie des nôtres maintenant. Officiellement notre nouvelle ! Fini les IDs temporaires.”\n“En ce cas… Je l’accepte avec gratitude.”\n“D’ailleurs… Tu te souviens de quand je parlais de la ‘gamme classique’ ? Elle est super durable, mais il y <i>a</i> des parties délicates qu’il faut faire gaffe à ne pas casser— En fait, tu sais quoi, casse-les si c’est nécessaire. Juste…”\n“Juste, ne meurs pas.”\n“… Je prendrai vos paroles à cœur.”"
+    },
+    {
+      "id": "Collage_LowMorale",
+      "name": "Souvenirs Mélangés",
+      "desc": "- Début du Tour : gagne 1~3 Bonus de Niveau Offensif et 1~3 Malus de Niveau Défensif",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Collage_Panic",
+      "name": "Souvenirs Mélangés",
+      "desc": "- Début du Tour : gagne 1~5 Bonus de Niveau Offensif et 1~5 Malus de Niveau Défensif",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Lensman_LowMorale",
+      "name": "Obsession d’Information",
+      "desc": "- Dans un Duel contre des cibles ayant Rassemblement d’Information, +1 de Puissance de Base et inflige +10% de dégâts\n- Début du Tour : gagne 1 Vulnérabilité",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Lensman_Panic",
+      "name": "Obsession d’Information",
+      "desc": "- Dans un Duel contre des cibles ayant Rassemblement d’Information, +1 de Puissance de Base et inflige +20% de dégâts\n- Début du Tour : gagne 2 Vulnérabilités",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Aengdu_Lowmorale",
+      "name": "Rancœur",
+      "desc": "- Début du Tour : gagne 1 Bonus de Puissance Offensive et 1 Malus de Puissance Défensive\n- Fin du Tour : gagne 2 Accélérations au prochain tour",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Aengdu_Panic",
+      "name": "Rancœur",
+      "desc": "- Début du Tour : gagne 2 Bonus de Puissance Offensive et 2 Malus de Puissance Défensive\n- Fin du Tour : gagne 2 Accélérations au prochain tour",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BrandedKimSatgat",
+      "name": "Marque - No [奴]",
+      "desc": "- -?? Niveaux Offensifs de Base\n- -?? Niveaux Défensifs de Base",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "DimensionalBagEzraETwo",
+      "name": "Sac Dimensionnel - Atelier YuRia",
+      "desc": "Tire la prochaine arme d’Atelier du Sac Dimensionnel\n- Arme d’Atelier actuelle : Hache de l’Atelier YuRia\n- Prochaine arme d’Atelier : Gants de l’Atelier Allas",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "RestingKimSatgat_LowMorale",
+      "name": "Regret Profondément Enraciné",
+      "desc": "- Moral Bas\n- Début du Tour : gagne 2 Malus de Dégâts et regagne 40 PV",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "RestingKimSatgat_Panic",
+      "name": "Regret Profondément Enraciné",
+      "desc": "- Panique\n- Début du Tour : gagne 3 Malus de Dégâts et regagne 60 PV",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "ChoiSwordsmanship",
+      "name": "Maniement de l’Épée Patriote [Sal]",
+      "desc": "- Instance min 1 ; Instance max 9\n- À l’Usage de Capacité, à Instance min ou max, convertit toutes les Pièces utilisées par cette unité en <color=#ff6000><mark color=#ff000040><b><u>Pièces Incassables</color></mark></b></u>\n- <color=#ff6000><mark color=#ff000040><b><u>La Puissance de Base et Puissance de Pièce des Capacités changent selon l’Instance</color></mark></b></u>\n· 1~2 Instances : -6 de Puissance de Base, +4 de Puissance de Pièce\n· 3~4 Instances : -3 de Puissance de Base, +2 de Puissance de Pièce\n· 5 Instances : aucun effet\n· 6~7 Instances : +4 de Puissance de Base, -2 de Puissance de Pièce\n· 8~9 Instances : +8 de Puissance de Base, -3 de Puissance de Pièce",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "ChoiSwordsmanshipOne",
+      "name": "Posture de Combat Patriote - Chasse à l’Ours",
+      "desc": "Assume une Posture de Combat Patriote différente après {0} tours\nUtilise un comportement fait de Capacités <color=#ff6000><mark color=#ff000040><b><u>monopièces</color></mark></b></u>\n\nIm Gyeong-eop gagne l’avantage avec une <color=#ff6000><mark color=#ff000040><b><u>plus haute</color></mark></b></u> Instance de Maniement de l’Épée Patriote [Sal]",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Les montagnes du District 19 de la S Corp. sont la demeure de toutes sortes de bêtes.\nParmi elles, l’ours, en particulier, se vante d’une puissance et d’une force semblables à des rochers tombant du flanc d’une falaise. Accorder du terrain à la charge de la créature est déconseillé, il faut viser à l’abattre à la première lacération de la lame."
+    },
+    {
+      "id": "ChoiSwordsmanshipMany",
+      "name": "Posture de Combat Patriote - Chasse au Tigre",
+      "desc": "Assume une Posture de Combat Patriote différente après {0} tours\nUtilise un comportement fait de Capacités <color=#ff6000><mark color=#ff000040><b><u>multipièces</color></mark></b></u>\n\nIm Gyeong-eop gagne l’avantage avec une <color=#ff6000><mark color=#ff000040><b><u>plus basse</color></mark></b></u> Instance de Maniement de l’Épée Patriote [Sal]",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Les tigres sont rusés et féroces.\nOn ne peut espérer trancher la chair d’un tigre en une unique attaque. Seule une rafale impitoyable de lacérations peut submerger la créature jusqu’à enfin l’abattre.\nÉchouer à faire cela et le tigre échappera à la mort ou vaincra son adversaire pour devenir un jour un Sangun, un Seigneur de la Montagne.\nQue ces êtres accorderont une fortune favorable à l’Homme ou reviendront en calamité maléfique est impossible à savoir."
+    },
+    {
+      "id": "ChoiSwordsmanshipShield",
+      "name": "Brigandine Dujeong [Sal]",
+      "desc": "- Instance max : 5\n- En gagnant cet effet, gagne du Bouclier égal à 10% des PV max de cette unité par Instance (1 min, arrondi à l’inférieur ; le Bouclier gagné suite à cet effet n’expire pas à la Fin du Tour)\n- Début du Combat : gagne 1 Malus de Niveau Défensif toutes les 2 Instances (arrondi au supérieur)\n- Inflige +(Instance * 2.5)% de dégâts Tranchants\n- <color=#ff6000><mark color=#ff000040><b><u>Perd 1 Instance en subissant des dégâts de Bouclier égaux à 10% des PV max de cette unité</color></mark></b></u> (Dégâts de Bouclier restants avec la perde d’Instance : {0})",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "PhotoTransitionChoi",
+      "name": "Transition Mémorielle",
+      "desc": "- Instance de Base : 3\n- Fin du Tour : perd 1 Instance\n- <color=#ff6000><mark color=#ff000040><b><u>Début du Tour : à 0 Instance, Bat en Retraite et transitionne vers un emplacement différent</color></mark></b></u>\n- En Revenant sur le terrain, selon la Posture de Combat Patriote actuelle, gagne ou perd (# de tours passés en Retraite) Instances de Maniement de l’Épée Patriote [Sal]\n· Lorsqu’en Posture de Combat - Chasse à l’Ours : gagne de l’Instance\n· Lorsqu’en Posture de Combat - Chasse au Tigre : perd de l’Instance",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "PhotoTransitionChoiCamera",
+      "name": "Transition Mémorielle",
+      "desc": "- Instance de Base : 3\n- Fin du Tour : perd 1 Instance\n- <color=#ff6000><mark color=#ff000040><b><u>Début du Tour : à 0 Instance, retire cette unité et transitionne vers un emplacement différent</color></mark></b></u>\n- En Revenant sur le terrain, selon la Posture de Combat Patriote actuelle d’Im Gyeong-eop, Im Gyeong-eop gagne ou perd (# de tours passés en Retraite) Instances de Maniement de l’Épée Patriote [Sal] (Actuellement à {0} tours)\n· Lorsqu’en Posture de Combat - Chasse à l’Ours : gagne de l’Instance\n· Lorsqu’en Posture de Combat - Chasse au Tigre : perd de l’Instance",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "ChoiSword_LowMorale",
+      "name": "Souvenirs Développés",
+      "desc": "- Moral Bas\n- Gagne 1 Vulnérabilité, inflige +10% de dégâts et inflige +15% de dégâts en Touche Critique",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "ChoiSword_Panic",
+      "name": "Souvenirs Développés",
+      "desc": "- Panique\n- Gagne 2 Vulnérabilités, inflige +10% de dégâts, inflige +30% de dégâts en Touche Critique et double les effets infligés par les Pièces de la Capacité “Arc Patriote [Sal] - Décocheflèche”",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "DimensionalBagEzraDTwo",
+      "name": "Sac Dimensionnel - Atelier Namir",
+      "desc": "Tire la prochaine arme d’Atelier du Sac Dimensionnel\n- Arme d’Atelier actuelle : Gantelets de l’Atelier Namir\n- Prochaine arme d’Atelier : Hache de l’Atelier YuRia",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Alors celle-là, elle a la Singularité de la G Corp. fourrée dedans : la Sphère ! Voilà comment ça marche : tu flottes vers le haut, tu appuies sur le bouton en plein vol et tu t’écrases avec le poids de la gravité. Mets un bon coup avec et ce sera… brutal.”"
+    },
+    {
+      "id": "SlaveHunersPower",
+      "name": "Ordre de Transport de Prisonnier",
+      "desc": "- +5 Niveaux Offensifs de Base\n- +5 Niveaux Défensifs de Base",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "LensmanPower",
+      "name": "Ordre d’Enquête",
+      "desc": "- +5 Niveaux Offensifs de Base\n- +5 Niveaux Défensifs de Base",
+      "summary": "",
+      "undefined": "-"
+    }
+  ]
+}

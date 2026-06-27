@@ -3034,6 +3034,361 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1061501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Attaches Ohra Restreignantes",
+          "desc": "[WhenUse] Gagne +3 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 3 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [TiedRopeHonglu], inflige 1 [TiedRopeHonglu]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Attaches Ohra Restreignantes",
+          "desc": "[WhenUse] À 6 ([Breath] sur soi + [Laceration] sur la cible) ou plus, +1 de Puissance de Pièce\n[WhenUse] Gagne +3 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 4 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [TiedRopeHonglu], inflige 1 [TiedRopeHonglu]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Attaches Ohra Restreignantes",
+          "desc": "[WhenUse] +1 de Puissance de Pièce tous les 6 ([Breath] sur soi + [Laceration] sur la cible) (2 max)\n[WhenUse] Si la cible a [TiedRopeHonglu], +1 de Puissance Finale\n[WhenUse] Gagne +3 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 4 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [TiedRopeHonglu], inflige 1 [TiedRopeHonglu]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tranche Avulsive",
+          "desc": "[WhenUse] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 2 [TiedRopeHonglu] ou plus, consomme 1 [TiedRopeHonglu] sur la cible pour Réutiliser cette Pièce (une fois par Capacité)"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 1 [ScratchesHurtID]"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Gagne 2 [Agility] au prochain tour"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Active le [Laceration] sur la cible. La cible perd 1 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Tranche Avulsive",
+          "desc": "[WhenUse] À 6 ([Breath] sur soi + [Laceration] sur la cible) ou plus, +1 de Puissance de Pièce\n[WhenUse] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 2 [TiedRopeHonglu] ou plus, consomme 1 [TiedRopeHonglu] sur la cible pour Réutiliser cette Pièce (une fois par Capacité)"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 1 [ScratchesHurtID]"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Gagne 2 [Agility] au prochain tour"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Active le [Laceration] sur la cible. La cible perd 1 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Tranche Avulsive",
+          "desc": "[WhenUse] +1 de Puissance de Pièce tous les 6 ([Breath] sur soi + [Laceration] sur la cible) (2 max)\n[WhenUse] Si la cible a [TiedRopeHonglu], +1 de Puissance Finale\n[WhenUse] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 3 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 2 [TiedRopeHonglu] ou plus, consomme 1 [TiedRopeHonglu] sur la cible pour Réutiliser cette Pièce (une fois par Capacité)"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 1 [ScratchesHurtID]"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Gagne 2 [Agility] au prochain tour"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Active le [Laceration] sur la cible. La cible perd 1 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061503,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Recherche du Chasseur",
+          "desc": "[WhenUse] À 6 ([Breath] sur soi + [Laceration] sur la cible) ou plus, +1 de Puissance de Pièce\n[WhenUse] Si la cible a [TiedRopeHonglu], convertit toutes les Pièces de cette Capacité en [SuperCoin]s, gagne +1 de Puissance Finale et la Pièce finale applique les effets suivants En Touche :\n- Inflige +2 de Compte de [Laceration]\n- Inflige 1 [Reduction] au prochain tour\n[WhenUse] Gagne 5 [Breath]\n[WhenUse] Gagne +3 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible n’a pas [TiedRopeHonglu], inflige [TiedRopeHonglu]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [ScratchesHurtID]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 1 [ScratchesHurtID]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Recherche du Chasseur",
+          "desc": "[WhenUse] +1 de Puissance de Pièce tous les 6 ([Breath] sur soi + [Laceration] sur la cible) (2 max)\n[WhenUse] Si la cible a [ScratchesHurtID], inflige +20% de dégâts\n[WhenUse] Si la cible a [TiedRopeHonglu], convertit toutes les Pièces de cette Capacité en [SuperCoin]s, gagne +1 de Puissance Finale et la Pièce finale applique les effets suivants En Touche :\n- Inflige +2 de Compte de [Laceration]\n- Inflige 1 [Reduction] au prochain tour\n[WhenUse] Gagne 5 [Breath]\n[WhenUse] Gagne +3 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible n’a pas [TiedRopeHonglu], inflige [TiedRopeHonglu]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +50% de dégâts en Touche Critique"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [ScratchesHurtID]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 1 [ScratchesHurtID]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 1 [IndigoTakeDamageUp] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lancer l’Attache Ohra",
+          "desc": "[DuelCounter]\n[WhenUse] À 6 ([Breath] sur soi + [Laceration] sur la cible) ou plus, +2 de Puissance de Duel\n[WhenUse] Gagne 5 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [TiedRopeHonglu]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Lancer l’Attache Ohra",
+          "desc": "[DuelCounter]\n[WhenUse] À 6 ([Breath] sur soi + [Laceration] sur la cible) ou plus, +2 de Puissance de Duel\n[WhenUse] Gagne 5 [Breath]\n[WinDuel] Gagne +3 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige [TiedRopeHonglu]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

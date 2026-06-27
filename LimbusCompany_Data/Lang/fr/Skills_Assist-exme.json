@@ -1,0 +1,474 @@
+{
+  "dataList": [
+    {
+      "id": 40003801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Arts du Déchirement",
+          "desc": "[WhenUse] +1 de Puissance de Pièce tous les 6 ([Breath] sur soi + [Laceration] sur la cible) (2 max)\n[WhenUse] À 3 [Agility] ou plus, +2 de Puissance de Base\n[WhenUse] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 3 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40003802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Acupuncture",
+          "desc": "[WhenUse] +1 de Puissance de Pièce tous les 6 ([Breath] sur soi + [Laceration] sur la cible) (2 max)\n[WhenUse] À 3 [Agility] ou plus, +2 de Puissance de Base\n[WhenUse] Gagne +2 de Compte de [Breath]\n[WinDuel] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Gagne 2 [Agility] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40003803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Flamme Lumineuse Ricochante",
+          "desc": "Inflige +0.5% de dégâts tous les 1% de PV manquants sur soi (25% max)\nInflige +25% de dégâts en Touche Critique par [Agility] sur soi (150% max)\n[WhenUse] À 6 ([Breath] sur soi + [Laceration] sur la cible) ou plus, +1 de Puissance de Pièce (2 max)\n[WhenUse] À 5 [WindBlade] ou plus, se convertit en [SuperCoin]\n[WinDuel] Gagne 5 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +3 de Compte de [Breath]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Gagne 1 [WindBlade]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [Breath]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Gagne 1 [WindBlade]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Gagne 1 [WindBlade]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40003804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Équilibrer la Balance - Flamme Lumineuse Ricochante",
+          "desc": "[CantDuel]\nCette Capacité ne déclenche pas de Capacité Défensive\nInflige +0.5% de dégâts tous les 1% de PV manquants sur soi (25% max)\nInflige +20% de dégâts en Touche Critique tous les [Agility] on self (100% max)\n[EndSkill] Consomme tout [WindBlade] sur soi",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 5 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] À 5 [Agility] ou plus, Réutilise cette Pièce (une fois par Capacité)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40003805,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pour Réclamer Leurs Os",
+          "desc": "[CantDuel]\nCette Capacité ne déclenche pas de Capacité Défensive\nInflige +0.5% de dégâts tous les 1% de PV manquants sur soi (25% max)\nInflige +10% de dégâts en Touche Critique par [Agility] sur soi (50% max)\n[WhenUse] +1 de Puissance de Base tous les 4 ([Breath] sur soi + [Laceration] sur la cible) (4 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 3 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Paralysis] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40003806,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "J’Éclairerai la Voie",
+          "desc": "[CanDuelGuard]\n[StartBattle] Gagne 1 [SupportProtect]\n[WhenUse] Gagne 5 [Breath]\n[WinDuel] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40003807,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Observer les Pierres sur le Plateau",
+          "desc": "[CanDuelGuard]\nCapacité Exclusive de [SupportProtect]\n[WhenUse] Gagne 5 [Breath]\n[WhenUse] À plus de 25 [Breath], consomme 5 [Breath] pour gagner 3 [WindBlade]\n[WinDuel] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Dégainer l’Épée",
+          "desc": "[WhenUse] À 5 [Breath] ou plus, +1 de Puissance de Pièce\n[WhenUse] Gagne +2 de Compte de [Breath]\n[WinDuel] Gagne 3 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 3 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Acupuncture",
+          "desc": "[WhenUse] À 7 [Breath] ou plus, +1 de Puissance de Pièce\n[WhenUse] Gagne +3 de Compte de [Breath]\n[WinDuel] Gagne 2 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 4 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +20% de dégâts en Touche Critique"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +40% de dégâts en Touche Critique"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Renverser",
+          "desc": "[DuelCounter]\n[StartBattle] Gagne 2 [SlashDamageUp] ce tour et au prochain tour\n[WhenUse] À 8 [Breath] ou plus, +1 de Puissance de Pièce\n[WhenUse] Gagne +3 de Compte de [Breath]\n[WinDuel] Gagne 4 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 5 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +80% de dégâts en Touche Critique"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 8 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Offrir Ma Chair",
+          "desc": "Cible l’Emplacement de Capacité ayant la plus haute Puissance max\n[WhenUse] Jusqu’à la fin de cette Capacité :\n- Subit -2% de dégâts d’Attaques par [Breath] sur soi (-80% min)\n- -1 de Puissance de Duel par [Breath] sur soi (-30 min)\n- Ne peut pas être Déséquilibré en subissant des dégâts\n[WinDuel] Gagne 5 [Breath]\n[DefeatDuel] Utilise “Pour Réclamer Leurs Os” après avoir été touché\n[EndBattle] Ne peut pas utiliser “Offrir Ma Chair” avant le prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +150% de dégâts en Touche Critique"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [SlashResistDown] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [DefenseDown] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004005,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pour Réclamer Leurs Os",
+          "desc": "[WhenUse] À 10 [Breath] ou plus, +1 de Puissance de Pièce\n[WhenUse] Inflige +40% de dégâts par Poids d’Atq en excès par rapport au # de cibles actuelles (en Affrontements Ciblés, de Parties)\n[WhenUse] Gagne +4 de Compte de [Breath]\n[EndSkill] Consomme tout le [Breath] sur soi",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] +2 de Puissance de Pièce pour la Pièce finale (une fois par Pièce)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] +2 de Puissance de Pièce pour la Pièce finale (une fois par Pièce)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] +2 de Puissance de Pièce pour la Pièce finale (une fois par Pièce)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 10 [Laceration] et +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Paralysis] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40003901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Atelier YuRia - Mode Offensif Total, Mk. 17 !",
+          "desc": "Inflige +50% de dégâts par type d’effet négatif sur la cible (100% max)\n[WhenUse] Si la cible a 6 [Vibration] ou plus, +3 de Puissance de Base",
+          "flavor": "Golden Retriever Spécial Fait Main - Hache Exclusive.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Active le [Laceration] de la cible une fois. La cible perd 1 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40003902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Je Vais Vous Couvrir ! Mettez-Vous Derrière Moi !",
+          "desc": "[CanDuelGuard]\nCapacité Exclusive de [SupportProtect]\n[WinDuel] Rend 4 PSM à tous les alliés (inclut cette unité)\n- Rend 8 PSM aux Unités de la LCD à la place",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

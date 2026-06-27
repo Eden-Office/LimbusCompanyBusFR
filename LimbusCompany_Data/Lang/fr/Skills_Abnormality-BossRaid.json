@@ -1,385 +1,653 @@
 {
-    "dataList": [
+  "dataList": [
+    {
+      "id": 500101,
+      "levelList": [
         {
-            "id": 500101,
-            "levelList": [
+          "level": 1,
+          "name": "Coup de Poing",
+          "coinlist": [
+            {
+              "coindescs": [
                 {
-                    "level": 1,
-                    "name": "Coup de Poing",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflige 3 dégâts Contondants supplémentaires"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflige 3 dégâts Contondants supplémentaires"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflige 3 [Paralysis]"
-                                }
-                            ]
-                        }
-                    ]
+                  "desc": "[OnSucceedAttack] Inflige 3 dégâts Contondants supplémentaires"
                 }
-            ]
-        },
-        {
-            "id": 500102,
-            "levelList": [
+              ]
+            },
+            {
+              "coindescs": [
                 {
-                    "level": 1,
-                    "name": "Coup de Pied",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflige 5 dégâts Contondants supplémentaires"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflige 5 dégâts Contondants supplémentaires"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflige 3 [Paralysis] au prochain tour"
-                                }
-                            ]
-                        }
-                    ]
+                  "desc": "[OnSucceedAttack] Inflige 3 dégâts Contondants supplémentaires"
                 }
-            ]
-        },
-        {
-            "id": 500103,
-            "levelList": [
+              ]
+            },
+            {
+              "coindescs": [
                 {
-                    "level": 1,
-                    "name": "Vengeance",
-                    "coinlist": [
-                        {},
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] La cible perd 5 PSM"
-                                }
-                            ]
-                        }
-                    ]
+                  "desc": "[OnSucceedAttack] Inflige 3 [Paralysis]"
                 }
-            ]
-        },
-        {
-            "id": 500104,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Surveillez Vos Arrières !",
-                    "desc": "Si la cible a moins de 0 PSM, +3 de Puissance de Pièce",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Regagne 10 PSM"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] Inflige 2 [Binding] et 2 [Reduction] au prochain tour"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] La cible perd 20 PSM"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 500105,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Rassemblement",
-                    "desc": "[StartBattle] Invoque 2 alliés au prochain tour",
-                    "coinlist": [
-                        {}
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 500106,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Rendez ça Mémorable",
-                    "desc": "",
-                    "coinlist": [
-                        {}
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 500107,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "MES COUPONS DE COIFFUUUUUUUURE !!!",
-                    "desc": "[DefeatDuel] Inflige -30% de dégâts finaux et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[UnBrokenCoinOnSucceedAttack] Augmente le Seuil de Déséquilibre de 30"
-                                },
-                                {
-                                    "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [Paralysis] au prochain tour"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] Réduit le [RicardoBookRaid] sur la cible de 5"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 500108,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Souffrance Promise",
-                    "desc": "Priorise les cibles ayant le plus d’Instances de [RicardoBookRaid]\n[WhenUse] Si la cible a <color=#ff6000><mark=#ff000040><b><u>3 [RicardoBookRaid] ou plus,</u></b></mark></color> convertit toutes les Pièces de cette Capacité en [SuperCoin]s",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflige 1 [Vulnerable] ce tour et au prochain tour"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflige 1 [Vulnerable] ce tour et au prochain tour"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflige ([RicardoBookRaid] sur la cible * 3) dégâts Contondants supplémentaires"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] Réduit le [RicardoBookRaid] sur la cible de 3"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 500109,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Assez Joué",
-                    "desc": "[StartBattle] Regagne 20 PSM\n[EndBattle] Gagne 5 [Enhancement] au prochain tour",
-                    "coinlist": [
-                        {}
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 500110,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "ANNIHILATION TOTALE ET ABSOLUE !!!",
-                    "desc": "[DefeatDuel] Inflige -30% de dégâts finaux et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[SuperCoin]"
-                                },
-                                {
-                                    "desc": "[UnBrokenCoinOnSucceedAttack] Inflige des dégâts égaux à 3% des PV max de la cible par [RicardoBookRaid] sur la cible"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] Réduit le [RicardoBookRaid] sur la cible de 10"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 500111,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Ah, T’Étais Un de la Mif",
-                    "desc": "[StartBattle] Toutes les unités de la faction du Majeur gagnent 10 PSM",
-                    "coinlist": [
-                        {},
-                        {},
-                        {}
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 500112,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "TU M’AS PIÉGÉ, HEIN ??!!",
-                    "desc": "[StartBattle] Perd 20 PSM\n[StartBattle] Gagne 6 [AttackUp]\n[StartBattle] Gagne 4 [Vulnerable]",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[SuperCoin]"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 500113,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Jurer Vengeance",
-                    "desc": "[EndBattle] Gagne 3 [AttackUp] au prochain tour\n- Si l’Emplacement de cette Capacité <color=#ff6000><mark=#ff000040><b><u>est une cible principale d’une Capacité Offensive</u></b></mark></color>, gagne 1 Instance de [AttackUp] en moins avec cet effet",
-                    "coinlist": [
-                        {}
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 500114,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "ANNIHILATION IMMÉDIATE, TOTALE ET ABSOLUE !",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflige des dégâts égaux à 1% des PV max de la cible par [RicardoBookRaid] sur la cible"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflige des dégâts égaux à 1% des PV max de la cible par [RicardoBookRaid] sur la cible"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflige des dégâts égaux à 1% des PV max de la cible par [RicardoBookRaid] sur la cible"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 500115,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Plus De Tests",
-                    "desc": "[WhenUse] Gagne 3 [HitDamageUp] au prochain tour\n[WhenUse] Si la cible principale a <color=#ff6000><mark=#ff000040><b><u>5 [RicardoBookRaid] ou plus</u></b></mark></color>, convertit toutes les Pièces de cette Capacité en [SuperCoin]s",
-                    "coinlist": [
-                        {},
-                        {}
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 500116,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Miséricorde du Cadet",
-                    "desc": "",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[SuperCoin]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Réduit le [RicardoBookRaid] sur la cible de 10</u></b></mark></color>"
-                                },
-                                {
-                                    "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Déséquilibre la cible</u></b></mark></color>"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 500301,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Saisir sa Chance",
-                    "desc": "[BeforeHit] Gagne 5 de Bouclier par [MiddleFingerBook] sur la cible (une fois par tour ; 50 max)\n[WhenUse] Si la cible a 5 [MiddleFingerBook] ou plus, +3 de Puissance de Base ; inflige 4 [DefenseDown]",
-                    "coinlist": [
-                        {}
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 500401,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Punition Multiple",
-                    "desc": "",
-                    "coinlist": [
-                        {}
-                    ]
-                }
-            ]
+              ]
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "id": 500102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Coup de Pied",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 dégâts Contondants supplémentaires"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 dégâts Contondants supplémentaires"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Paralysis] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vengeance",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] La cible perd 5 PSM"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Surveillez Vos Arrières !",
+          "desc": "Si la cible a moins de 0 PSM, +3 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Regagne 10 PSM"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Binding] et 2 [Reduction] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] La cible perd 20 PSM"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Rassemblement",
+          "desc": "[StartBattle] Invoque 2 alliés au prochain tour",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500106,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Rendez ça Mémorable",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500107,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "MES COUPONS DE COIFFUUUUUUUURE !!!",
+          "desc": "[DefeatDuel] Inflige -30% de dégâts finaux et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Augmente le Seuil de Déséquilibre de 30"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [Paralysis] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Réduit le [RicardoBookRaid] sur la cible de 5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500108,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Souffrance Promise",
+          "desc": "Priorise les cibles ayant le plus d’Instances de [RicardoBookRaid]\n[WhenUse] Si la cible a <color=#ff6000><mark=#ff000040><b><u>3 [RicardoBookRaid] ou plus,</u></b></mark></color> convertit toutes les Pièces de cette Capacité en [SuperCoin]s",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vulnerable] ce tour et au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vulnerable] ce tour et au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige ([RicardoBookRaid] sur la cible * 3) dégâts Contondants supplémentaires"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Réduit le [RicardoBookRaid] sur la cible de 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500109,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Assez Joué",
+          "desc": "[StartBattle] Regagne 20 PSM\n[EndBattle] Gagne 5 [Enhancement] au prochain tour",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500110,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ANNIHILATION TOTALE ET ABSOLUE !!!",
+          "desc": "[DefeatDuel] Inflige -30% de dégâts finaux et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige des dégâts égaux à 3% des PV max de la cible par [RicardoBookRaid] sur la cible"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Réduit le [RicardoBookRaid] sur la cible de 10"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500111,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ah, T’Étais Un de la Mif",
+          "desc": "[StartBattle] Toutes les unités de la faction du Majeur gagnent 10 PSM",
+          "coinlist": [
+            {},
+            {},
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500112,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "TU M’AS PIÉGÉ, HEIN ??!!",
+          "desc": "[StartBattle] Perd 20 PSM\n[StartBattle] Gagne 6 [AttackUp]\n[StartBattle] Gagne 4 [Vulnerable]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500113,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Jurer Vengeance",
+          "desc": "[EndBattle] Gagne 3 [AttackUp] au prochain tour\n- Si l’Emplacement de cette Capacité <color=#ff6000><mark=#ff000040><b><u>est une cible principale d’une Capacité Offensive</u></b></mark></color>, gagne 1 Instance de [AttackUp] en moins avec cet effet",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500114,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ANNIHILATION IMMÉDIATE, TOTALE ET ABSOLUE !",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts égaux à 1% des PV max de la cible par [RicardoBookRaid] sur la cible"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts égaux à 1% des PV max de la cible par [RicardoBookRaid] sur la cible"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts égaux à 1% des PV max de la cible par [RicardoBookRaid] sur la cible"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500115,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Plus De Tests",
+          "desc": "[WhenUse] Gagne 3 [HitDamageUp] au prochain tour\n[WhenUse] Si la cible principale a <color=#ff6000><mark=#ff000040><b><u>5 [RicardoBookRaid] ou plus</u></b></mark></color>, convertit toutes les Pièces de cette Capacité en [SuperCoin]s",
+          "coinlist": [
+            {},
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500116,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Miséricorde du Cadet",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Réduit le [RicardoBookRaid] sur la cible de 10</u></b></mark></color>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Déséquilibre la cible</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Saisir sa Chance",
+          "desc": "[BeforeHit] Gagne 5 de Bouclier par [MiddleFingerBook] sur la cible (une fois par tour ; 50 max)\n[WhenUse] Si la cible a 5 [MiddleFingerBook] ou plus, +3 de Puissance de Base ; inflige 4 [DefenseDown]",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Punition Multiple",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 501203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Briseur d’Échine d’Ours",
+          "desc": "[WhenUse] À 8 [Breath] ou plus, inflige +40% de dégâts en Touche Critique\n[WhenUse] +1 de Puissance Finale tous les 4 [Laceration] sur la cible (2 max)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>À 7 [ChoiSwordsmanship] ou plus, convertit toutes les Pièces en [SuperCoin]s et inflige +100% de dégâts en Touche Critique</color></mark></b></u>\n[DefeatDuel]\n- Inflige -80% de dégâts\n- Ne touche pas Critiquement\n- Les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [SlashResistDown] ce tour et au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Laceration] et +3 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 501207,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Trancheur de Tigre",
+          "desc": "[WhenUse] À 8 [Breath] ou plus, inflige +40% de dégâts en Touche Critique\n[WhenUse] +1 de Puissance Finale tous les 4 [Laceration] sur la cible (2 max)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>À 3 [ChoiSwordsmanship] ou moins, convertit toutes les Pièces en [SuperCoin]s et inflige +100% de dégâts en Touche Critique</color></mark></b></u>\n[DefeatDuel]\n- Inflige -80% de dégâts\n- Ne touche pas Critiquement\n- Les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration] et +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration] et +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Binding] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [SlashResistDown] ce tour et au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 501209,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Épée Patriote [Sal] - Reprise de Posture",
+          "desc": "Non affecté par [ChoiSwordsmanship]\nSi la Capacité de la cible est une Capacité Exclusive de [SupportProtect], se convertit en [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Perd 3 [ChoiSwordsmanship]</color></mark></b></u>\n- Si la Capacité de la cible est une Capacité Exclusive de [SupportProtect], cet effet ne s’active pas\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>En Touche comme Attaque à Sens Unique, ou En Touche contre une cible ayant utilisé une Capacité Exclusive de [SupportProtect], gagne 2 [ChoiSwordsmanship]</color></mark></b></u>",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 501210,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Épée Patriote [Sal] - Affinelame",
+          "desc": "Non affecté par [ChoiSwordsmanship]\nSi la Capacité de la cible est une Capacité Exclusive de [SupportProtect], se convertit en [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Gagne 3 [ChoiSwordsmanship]</color></mark></b></u>\n- Si la Capacité de la cible est une Capacité Exclusive de [SupportProtect], cet effet ne s’active pas\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>En Touche comme Attaque à Sens Unique, ou En Touche contre une cible ayant utilisé une Capacité Exclusive de [SupportProtect], perd 2 [ChoiSwordsmanship]</color></mark></b></u>",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 501303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Briseur d’Échine d’Ours",
+          "desc": "[WhenUse] À 8 [Breath] ou plus, inflige +40% de dégâts en Touche Critique\n[WhenUse] +1 de Puissance Finale tous les 4 [Laceration] sur la cible (2 max)\n[WhenUse] À plus de 6 [ChoiSwordsmanship], gagne de la Puissance Finale par Instance de [ChoiSwordsmanship] en excès (3 max)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>À 7 [ChoiSwordsmanship] ou plus, convertit toutes les Pièces en [SuperCoin]s et inflige +100% de dégâts en Touche Critique</color></mark></b></u>\n[DefeatDuel]\n- Inflige -80% de dégâts\n- Ne touche pas Critiquement\n- Les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [SlashResistDown] ce tour et au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Laceration] et +3 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 501304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Même Les Sanguns Seront Fendus Par Cette Épée",
+          "desc": "Cible l’ennemi ayant le plus de [Laceration]\n[WhenUse] Ne peut pas être Déséquilibrée par des dégâts avant la fin de cette Capacité\n[WhenUse] +1 de Puissance Finale tous les 4 [Laceration] sur la cible (3 max)\n[WhenUse] À plus de 6 [ChoiSwordsmanship], gagne +2 de Puissance Finale par Instance de [ChoiSwordsmanship] en excès (6 max)\n[WinDuel] <color=#ff6000><mark color=#ff000040><b><u>Cette Capacité fait toujours Pile, touche Critiquement et ne consomme pas de Compte de [Breath]</color></mark></b></u>\n[BeforeAttack] Inflige +30% de dégâts en Touche Critique tous les 2 [ChoiSwordsmanship] sur soi (120% max)\n[DefeatDuel]\n- Inflige -80% de dégâts\n- Ne touche pas Critiquement\n- Les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige (([Breath] sur soi * 10)% des dégâts finaux de cette Pièce) dégâts Tranchants (100% max)"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige (([Laceration] sur soi * 10)% des dégâts finaux de cette Pièce) dégâts de Luxure (100% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Active le [Laceration] de la cible une fois. La cible perd 1 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 501307,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Trancheur de Tigre",
+          "desc": "[WhenUse] À 8 [Breath] ou plus, inflige +40% de dégâts en Touche Critique\n[WhenUse] +1 de Puissance Finale tous les 4 [Laceration] sur la cible (2 max)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>À 3 [ChoiSwordsmanship] ou moins, convertit toutes les Pièces en [SuperCoin]s et inflige +100% de dégâts en Touche Critique</color></mark></b></u>\n[DefeatDuel]\n- Inflige -80% de dégâts\n- Ne touche pas Critiquement\n- Les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration] et +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration] et +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Binding] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [SlashResistDown] ce tour et au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 501308,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Nulle Chair de Tigre ne Sera Épargnée",
+          "desc": "Cible l’ennemi ayant le plus de [Laceration]\n<color=#ff6000><mark color=#ff000040><b><u>Peut affronter en Duel cette Capacité qu’importe la Vitesse</color></mark></b></u>\n[WhenUse] Ne peut pas être Déséquilibrée par des dégâts avant la fin de cette Capacité\n[WhenUse] +1 de Puissance Finale tous les 4 [Laceration] sur la cible (3 max)\n[WinDuel] <color=#ff6000><mark color=#ff000040><b><u>Cette Capacité fait toujours Pile, touche Critiquement et ne consomme pas de Compte de [Breath]</color></mark></b></u>\n[BeforeAttack] Inflige +30% de dégâts en Touche Critique tous les 2 [Breath] sur soi (120% max)\n[DefeatDuel]\n- Inflige -80% de dégâts\n- Ne touche pas Critiquement\n- Les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Active le [Laceration] de la cible une fois. La cible perd 1 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Active le [Laceration] de la cible une fois. La cible perd 1 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Active le [Laceration] de la cible une fois. La cible perd 1 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible principale a 10 [Laceration] ou plus, inflige +8 de Compte de [Laceration] aux cibles touchées par cette Pièce"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +8 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 501309,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Épée Patriote [Sal] - Reprise de Posture",
+          "desc": "Non affecté par [ChoiSwordsmanship]\nSi la Capacité de la cible est une Capacité Exclusive de [SupportProtect], se convertit en [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Perd 3 [ChoiSwordsmanship]</color></mark></b></u>\n- Si la Capacité de la cible est une Capacité Exclusive de [SupportProtect], cet effet ne s’active pas\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>En Touche comme Attaque à Sens Unique, ou En Touche contre une cible ayant utilisé une Capacité Exclusive de [SupportProtect], gagne 2 [ChoiSwordsmanship]</color></mark></b></u>",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 501310,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Épée Patriote [Sal] - Affinelame",
+          "desc": "Non affecté par [ChoiSwordsmanship]\nSi la Capacité de la cible est une Capacité Exclusive de [SupportProtect], se convertit en [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Gagne 3 [ChoiSwordsmanship]</color></mark></b></u>\n- Si la Capacité de la cible est une Capacité Exclusive de [SupportProtect], cet effet ne s’active pas\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>En Touche comme Attaque à Sens Unique, ou En Touche contre une cible ayant utilisé une Capacité Exclusive de [SupportProtect], perd 2 [ChoiSwordsmanship]</color></mark></b></u>",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    }
+  ]
 }

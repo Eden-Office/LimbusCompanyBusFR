@@ -901,7 +901,7 @@
     {
       "id": 9037,
       "name": "Enfant dans une Fiole",
-      "desc": "Début d’Affrontement : gagne +1 ressource E.G.O. de chaque Affinité de Péché.",
+      "desc": "Début d’Affrontement : gagne +1 ressource E.G.O. de chaque Affinité de Péché\n\nEn gagnant un Affrontement, gagne 2 ressources E.G.O. pour les 2 Affinités les moins possédées",
       "simpleDesc": [
         {
           "abilityID": 9037,
@@ -2354,11 +2354,11 @@
     {
       "id": 9088,
       "name": "Apaise le Mort",
-      "desc": "Début du Tour : ce Don s’active durant tout l’Affrontement lorsque 5 Identités ou plus ont des Capacités Offensives qui infligent de l’Intensité de [Combustion], Compte, ou “Brûlure Unique”. (Exclut les Capacités E.G.O. ; exclut les Unités de Renfort)\n\nInflige 3 de Compte de [Combustion] à tous les ennemis et inflige aléatoirement un total de 15 d’Intensité de [Combustion] entre tous les ennemis (ou toutes les parties d’Anomalie ; une fois par vague)\n\nCapacités à Pièce Positive qui infligent de l’Intensité de [Combustion], Compte, ou effets de “Brûlure Unique” : +1 de Puissance Finale, +1 de Puissance de Pièce, +1 d’Intensité de [Combustion] infligée, +1 de Compte de [Combustion] infligé.\n- Capacités Offensives de Base à Pièce Négative : au lieu de gagner de la Puissance de Pièce, gagne +(4 / # de Pièces) de Puissance de Base (1 min ; arrondi à l’inférieur)\n\nEn gagnant un Duel avec une Capacité qui inflige de la Puissance, du Compte ou de la “Brûlure Unique”, inflige (# de Pièces restantes + 1) d’Intensité de [Combustion] à la cible ennemie.",
+      "desc": "Début du Tour : ce Don s’active durant tout l’Affrontement lorsque 5 Identités ou plus ont des Capacités Offensives qui infligent de l’Intensité de [Combustion], Compte, ou “Brûlure Unique” (exclut les Capacités E.G.O. ; exclut les Unités de Renfort)\n\nDébut du Tour : inflige +6 de Compte de [Combustion] à tous les ennemis et inflige aléatoirement un total de 15 d’Intensité de [Combustion] entre tous les ennemis (ou toutes les Parties d’Anomalie ; une fois par vague)\n\nCapacités à Pièce Positive qui infligent de l’Intensité de [Combustion], Compte, ou effets de “Brûlure Unique” : +1 de Puissance Finale, +1 de Puissance de Pièce, +1 d’Intensité de [Combustion] infligée, +1 de Compte de [Combustion] infligé\n- Capacités Offensives de Base à Pièce Négative : au lieu de gagner de la Puissance de Pièce, gagne +(4 / # de Pièces) de Puissance de Base (1 min ; arrondi à l’inférieur)\n\nEn gagnant un Duel avec une Capacité qui inflige de la Puissance, du Compte ou de la “Brûlure Unique”, inflige (# de Pièces restantes + 1) d’Intensité de [Combustion] à la cible ennemie.",
       "simpleDesc": [
         {
           "abilityID": 9088,
-          "simpleDesc": "Inflige +3 de Compte de [Combustion] ; inflige aléatoirement 15 d’Intensité de [Combustion] entre tous les ennemis"
+          "simpleDesc": "Inflige +6 de Compte de [Combustion] ; inflige aléatoirement 15 d’Intensité de [Combustion] entre tous les ennemis"
         },
         {
           "abilityID": 90881,
@@ -3828,7 +3828,7 @@
     {
       "id": 29140,
       "name": "Résolution++",
-      "desc": "Tous les alliés avec 2 Capacités Tranchantes ou plus : pour cet Affontement, gagne +1 de Puissance de Duel au premier tour et gagne 2 [Agility] <style=\"upgradeHighlight\">et +1 de Puissance Finale</style> à partir du deuxième tour.\n\nLes PV des Identités de l’Assoc. Shi sont plafonnés à <style=\"upgradeHighlight\">49</style>% des PV Max. En échange, subit <style=\"upgradeHighlight\">75</style>% de dégâts de moins et réduit de <style=\"upgradeHighlight\">75</style>% les soins reçus. (s’active immédiatement en entrant dans un Affrontement ; exclut les soins de Dons E.G.O.)\n\nLes Identités de l’Assoc. Shi gagnent 1 Bonus de Puissance Tranchante et <style=\"upgradeHighlight\">3</style> Bonus de DGT Tranchant à chaque Début de Tour.",
+      "desc": "Tous les alliés avec 2 Capacités Tranchantes ou plus : pour cet Affrontement, gagne +1 de Puissance de Duel au premier tour et gagne 2 [Agility] <style=\"upgradeHighlight\">et +1 de Puissance Finale</style> à partir du deuxième tour.\n\nLes PV des Identités de l’Assoc. Shi sont plafonnés à <style=\"upgradeHighlight\">49</style>% des PV Max. En échange, subit <style=\"upgradeHighlight\">75</style>% de dégâts de moins et réduit de <style=\"upgradeHighlight\">75</style>% les soins reçus. (s’active immédiatement en entrant dans un Affrontement ; exclut les soins de Dons E.G.O.)\n\nLes Identités de l’Assoc. Shi gagnent 1 Bonus de Puissance Tranchante et <style=\"upgradeHighlight\">3</style> Bonus de DGT Tranchant à chaque Début de Tour.",
       "simpleDesc": [
         {
           "abilityID": 29140,

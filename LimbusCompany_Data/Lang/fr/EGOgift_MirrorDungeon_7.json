@@ -489,7 +489,7 @@
     {
       "id": 9251,
       "name": "Sort Brûlant",
-      "desc": "En Duel Gagné contre des cibles ayant [Combustion], (20 + (Réson. de Colère * 10))% de chance d’activer [Combustion] une fois et de réduire le Compte de [Combustion] de la cible de 1 (4 fois par tour)\n- Si la cible a 90 d’Intensité de [Combustion] ou plus, l’effet ci-dessus a 100% de chance de s’activer (en Affrontements Ciblés, la Partie)",
+      "desc": "+30 d’Intensité de [Combustion] max\n\nEn Duel Gagné contre des cibles ayant [Combustion], active la [Combustion] de la cible une fois et réduit le Compte de [Combustion] de la cible de 1 (une fois par Identité)\n\nÀ l’Usage de Capacité contre des ennemis ayant [Combustion], cette Capacité gagne (Intensité de [Combustion] sur la cible principale / 10) Niveaux Offensifs (8 max)",
       "simpleDesc": [
         {}
       ]
@@ -546,6 +546,83 @@
         {
           "abilityID": 92733,
           "simpleDesc": "Gagne de la Puissance Finale & de Pièce et inflige plus de dégâts"
+        }
+      ]
+    },
+    {
+      "id": 9274,
+      "name": "Attache Ohra",
+      "desc": "En Critique contre un ennemi, inflige 1 [Binding] au prochain tour (2 fois par tour)\nEn Touche en utilisant une Capacité contre un ennemi ayant [Binding], gagne 1 [Breath] (2 fois par tour par Identité)\n\nDébut du Tour : tous les ennemis ayant du [Laceration] gagnent autant de [AttackDown] que de [Binding] sur eux (5 max)\n\nDébut du Tour : si tous les ennemis (en Affrontements Ciblés, toutes les Parties) ont [Binding], tous les alliés gagnent 3 [Breath]",
+      "simpleDesc": [
+        {
+          "abilityID": 9274,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9275,
+      "name": "Mallette du Service des Clous N Corp.",
+      "desc": "En touchant un ennemi avec une Capacité qui inflige de l’Intensité ou du Compte de [Laceration] ou de “Saignement Unique”, inflige 1 [NailPersonality] (une fois par Capacité)\nEn déclenchant un [VibrationExplosion] sur un ennemi ayant [NailPersonality], inflige 1 [Binding] au prochain tour (3 fois par tour)",
+      "simpleDesc": [
+        {
+          "abilityID": 9275,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9276,
+      "name": "Théière Baekja",
+      "desc": "Lorsqu’une Identité gagne [SupportProtect], cet allié gagne 2 [AttackDmgUp] et 2 [Protection]\n\n[Les effets s’appliquent uniquement à l’Identité Déployée #1]\nDébut du Tour : gagne 2 [Agility] au prochain tour\nLorsque la Vitesse d’une Identité est plus rapide que celle de l’ennemi, inflige +3% de dégâts par différence de Vitesse (30% max)",
+      "simpleDesc": [
+        {
+          "abilityID": 9276,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9277,
+      "name": "Canne-Épée d’Acore",
+      "desc": "Si un allié n’a pas été touché par un ennemi ce tour, cet allié gagne 1 [SlashDamageUp] au prochain tour\nLorsqu’un allié est touché par un ennemi, cet allié gagne 4 [Breath] et gagne 1 [CriticalDamageUp] ce tour et au prochain tour (une fois par tour par Identité)\n- Si l’allié affecté est une Identité de la Lignée de la Lame, gagne le double des effets de ce Don E.G.O.",
+      "simpleDesc": [
+        {
+          "abilityID": 9277,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9278,
+      "name": "Menottes de Bois Écrasées",
+      "desc": "En Touche contre un ennemi en utilisant une Capacité Tranchante, inflige 1 [DefenseDown] au prochain tour (2 fois par Capacité)\nSi un allié est plus rapide que l’ennemi, cet allié inflige +3% de dégâts avec ses Capacités Offensives de Base par Différence de Vitesse (12% max)\n- Si l’ennemi a [Binding], double l’augmentation de dégât ci-dessus et son plafond maximal",
+      "simpleDesc": [
+        {
+          "abilityID": 9278,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9279,
+      "name": "Garde d’Épée Sans Ornement",
+      "desc": "Les Capacités Tranchantes infligent +1% de dégâts par [Breath] (15% max)",
+      "simpleDesc": [
+        {
+          "abilityID": 9279,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9280,
+      "name": "Maniemet de l’Épée Patriote [本國劍譜]",
+      "desc": "Si un ennemi a 1.5 de Résist. Tranchante ou moins, +0.3 de Résist. Tranchante\nLes Capacités Tranchantes gagnent +2 Niveaux Offensifs\nEn attaquant des ennemis qui sont Faibles (au-dessus de 1.0 de Résist. ; les états Déséquilibrés ne comptent pas) au Tranchant, inflige +(5 + (Résist. au Tranchant de la cible * 10))% de dégâts (25% max)\n\nLes Capacités Tranchantes infligent +1.5% de dégâts par [Breath] (30% max)\n\nCompte 1 Identité n’appartenant pas à la Lignée de la Lame de la S Corp. avec l’ordre de Déploiement le plus tôt comme une Identité de la Lignée de la Lame et lui applique [BongukGiftEnhance] à chaque tour\n\nDébut du Tour : s’active lorsqu’il y a 3 Identités de la Lignée de la Lame ou plus (ne compte que les Identités sur le terrain au Début de l’Affrontement)\n- Début du Combat : applique 1 [BongukGiftEnhance] aux Identités alliées de la Lignée de la Lame ayant équipé des Capacités de Colère ou d’Orgueil",
+      "simpleDesc": [
+        {
+          "abilityID": 9280,
+          "simpleDesc": ""
         }
       ]
     }

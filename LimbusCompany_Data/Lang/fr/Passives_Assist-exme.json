@@ -1,0 +1,65 @@
+{
+  "dataList": [
+    {
+      "id": 40003801,
+      "name": "Prototype mk5 de Prothèse Customisée Spécialisée de Limbus Company - Bras Dokkaebi",
+      "desc": "Début de l’Affrontement : gagne [AengduNewArm]\n\nS’il y a un allié à moins de 50% de PV sur le terrain à l’exception de cette unité, gagne 1 [SupportProtect] (une fois par tour)",
+      "summary": "Gagne [SupportProtect]",
+      "flavor": "“En apparence, il ne semble pas différent des prothèses que l’on pourrait trouver dans d’autres Nids ou Ruelles… Mais apparemment, ce membre prothétique spécifique a été créé avec une technologie unique à Limbus Company. Je me demande de quoi il s’agit…”\n\n“Puisque le développement de ce prototype a été mené par le Secteur LCD, je suppose que cela doit avoir un rapport avec le pouvoir des Distorsions… Oh, je n’affirme pas avoir la moindre certitude concernant ce sujet— Je ne suis qu’en charge de le transporter, vous comprenez. Ce n’est vraiment qu’une simple supposition. Dans tous les cas, je doute qu’il s’agisse d’un membre prothétique classique conçu pour le renforcement corporel.”"
+    },
+    {
+      "id": 40003802,
+      "name": "Feu Démoniaque de Fendaison Vertébrale",
+      "desc": "Fin de Capacité : gagne 1 [WindBlade] tous les 3 [Breath] (5 max, 2 fois par tour)\n\nEn Fin de Capacité Offensive de Base : à 15 [WindBlade] ou plus, active “Équilibrer la Balance - Flamme Lumineuse Ricochante” contre l’ennemi (une fois par tour)\n\nEn Duel Perdu de Capacité Défensive, si cette unité a 3 [Agility] ou plus, cette unité ne peut pas être Déséquilibrée par des dégâts avant la fin de la Capacité Défensive et active “Pour Réclamer Leurs Os” contre l’ennemi après avoir été touchée (2 fois par tour, exclut les Déséquilibres forcés)",
+      "summary": "Active une Capacité supplémentaire lorsque les conditions sont remplies"
+    },
+    {
+      "id": 40003803,
+      "name": "Lame Rapide",
+      "desc": "En Critique, gagne 1 [Agility] au prochain tour (3 fois par Capacité, 2 fois par tour)",
+      "summary": "Gagne [Agility]"
+    },
+    {
+      "id": 40003804,
+      "name": "Vers Là Où Je Dois Retourner",
+      "desc": "Lorsque 3 alliés de la Lignée de la Lame ou plus sont vaincus :\n- En gagnant de l’Intensité/du Compte de [Breath] avec les propres effets de Capacité ou de Pièce de cette unité : gagne 1 de plus de chaque\n- Lorsque 5 alliés de la Lignée de la Lame ou plus sont vaincus, gagne 2 de plus de chaque\n- Début du Combat : applique [SwordPlayOfTheHomeland] sur soi-même",
+      "summary": ""
+    },
+    {
+      "id": 40004001,
+      "name": "Fugitif",
+      "desc": "En entrant dans l’Affrontement pour la première fois, gagne [BrandedKimSatgat]"
+    },
+    {
+      "id": 40004002,
+      "name": "Allure d’un Salsu",
+      "desc": "À 1 de Compte de [Breath], perd 10 PV au lieu de perdre du Compte de [Breath] (cet effet ne peut pas Déséquilibrer cette unité et ne fait pas descendre les PV de cette unité en dessous de 1)\n\nInflige +(Pourcentage de PV manquants sur soi / 2) dégâts en Touche Critique avec des Capacités de Base (50% max)"
+    },
+    {
+      "id": 40004003,
+      "name": "Maniement de l’Épée Patriote",
+      "desc": "Début du Combat : si une Réson. d’Orgueil a été activée,\n- Gagne (Réson. d’Orgueil * 2) [Breath] (8 max)\n- Applique 1 [SlashResultUp] et 1 [CriticalDamageUp] à tous les Pécheurs et Unités d’Assist à l’exception de cette unité (pour les cibles de la Lignée de la Lame, double cet effet)\n\nFin du Tour : gagne ([Breath] sur soi / 4) [Agility] au prochain tour (6 max, arrondi à l’inférieur)"
+    },
+    {
+      "id": 40004004,
+      "name": "Mentor de la Lignée de la Lame",
+      "desc": "En gagnant de l’Intensité/du Compte de [Breath] avec les propres effets de Capacité ou de Pièce de cette unité : applique 1 d’Intensité de [Breath] et 1 de Compte de [Breath] au Pécheur et 2 Unités d’Assist n’ayant pas de [Breath] ou ayant le moins d’Intensité de [Breath] (exclut cette unités)\n- Pour les alliés de la Lignée de la Lame, applique 3 d’Intensité de [Breath] et +2 de Compte de [Breath] à la place\n\nLorsqu’un Pécheur ou une Unité d’Assist de la Lignée de la Lame est vaincue, cette unité perd 10 PSM"
+    },
+    {
+      "id": 40004005,
+      "name": "Offrir Ma Chair pour Réclamer Leurs Os",
+      "desc": "Dans cet Affrontement, lorsque cette unité subit des dégâts amenant ses PV à 0, nullifie ces dégâts ; puis, les PV de cette unité ne peuvent pas descendre en dessous de 1 pour ce tour (une fois par Affrontement)\n\nFin du Tour : à 30 d’Intensité de [Breath] ou plus, fixe la Vitesse de cette unité à 20 au prochain tour et équipe “Offrir Ma Chair” sur l’Emplacement de Capacité le plus à gauche\n- Si “Offrir Ma Chair” devient inaccessible suite à un effet de Capacité, cet effet ne s’active pas"
+    },
+    {
+      "id": 40004006,
+      "name": "Destin Perdu",
+      "desc": "Perd cet Affrontement si cette unité est tuée",
+      "flavor": "L’un peut se perdre et s’aventurer sur le mauvais chemin, mais une défiance volontaire ou une déviation du flux est interdite par “ça”."
+    },
+    {
+      "id": 40003901,
+      "name": "Sac Dimensionnel [Ezra]",
+      "desc": "Début de l’Affrontement : gagne 1 [DimensionalBagEzraA]\n\nSi cette unité a utilisé l’arme d’Atelier actuelle plus d’une fois, change d’arme au prochain tour\n\nListe d’armes :\n- Gants de l’Atelier Allas\n- Marteau de l’Atelier Nester\n- Marteau Perforateur de l’Atelier Screw\n- Gantelets de l’Atelier Namir\n- Hache de l’Atelier YuRia"
+    }
+  ]
+}

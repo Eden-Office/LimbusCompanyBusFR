@@ -369,7 +369,7 @@
         {
           "level": 4,
           "name": "Condamnation à l’Exécution",
-          "desc": "+1 de Puissance de Pièce pour chaque 6 [Vibration] sur la cible (Max 2)",
+          "desc": "+1 de Puissance de Pièce pour chaque 6 [Vibration] sur la cible (2 max)",
           "coinlist": [
             {
               "coindescs": [
@@ -2721,6 +2721,421 @@
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige (Réson. d’Envie * 7)% des dégâts finaux de cette Pièce en dégâts Contondants supplémentaires (42% max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "La Spada di Palermo",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "La Spada di Palermo",
+          "desc": "<style=\"highlight\">[WhenUse] Si la cible a 6 ([Combustion] + [Vibration]) ou plus, +1 de Puissance de Pièce</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "La Spada di Palermo",
+          "desc": "[WhenUse] <style=\"highlight\">+1 de Puissance de Pièce tous les 6 ([Combustion] + [Vibration]) sur la cible (2 max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Colpi Sottani",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {}
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Colpi Sottani",
+          "desc": "<style=\"highlight\">[WhenUse] Si la cible a 6 ([Combustion] + [Vibration]) ou plus, +1 de Puissance de Pièce</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +<style=\"highlight\">2</style> de Compte de [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +<style=\"highlight\">2</style> de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Si cette unité a [EvolvingManual], ou si la cible a [DuelEdgeAlly], déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Colpi Sottani",
+          "desc": "[WhenUse] <style=\"highlight\">+1 de Puissance de Pièce tous les 6 ([Combustion] + [Vibration]) sur la cible (2 max)\n[WinDuel] Si la cible a [DuelEdgeAlly], inflige +1 de Compte de [Vibration]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2 [Combustion] et</style> +2 de Compte de [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2 [Vibration] et</style> +2 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si cette unité a [EvolvingManual], ou si la cible a [DuelEdgeAlly], déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071603,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Il Cacciatore",
+          "desc": "[BeforeUse] Si la cible a 5 [DuelEdgeAlly], active “Sezionatura di Cervo” à la place (une fois par tour)\n[WhenUse] Si la cible a 6 ([Combustion] + [Vibration]) ou plus, +1 de Puissance de Pièce\n[WhenUse] Gagne les effets suivants selon l’Instance de [DuelEdgeAlly] sur la cible :\n- 1 [DuelEdgeAlly] ou plus : inflige +1 d’Intensité de [Vibration] supplémentaire\n- 2 [DuelEdgeAlly] ou plus : inflige +1 de Compte de [Vibration] supplémentaire\n- 3 [DuelEdgeAlly] ou plus : inflige +1 d’Intensité de [Combustion] supplémentaire\n- 4 [DuelEdgeAlly] ou plus : inflige +1 de Compte de [Combustion] supplémentaire\n[WhenUse] Si cette unité a [EvolvingManual], ou si la cible a 3 [DuelEdgeAlly] ou plus, convertit toutes les Pièces de cette Capacité en [SuperCoin]s",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion] et +2 de Compte de [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration] et +2 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +10% de dégâts par [EvolvingManual] sur soi (30% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationIgnition]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cette unité a [EvolvingManual], ou si la cible a 3 [DuelEdgeAlly] ou plus, déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Il Cacciatore",
+          "desc": "[BeforeUse] Si la cible a 5 [DuelEdgeAlly], active “Sezionatura di Cervo” à la place (une fois par tour)\n[WhenUse] <style=\"highlight\">+1 de Puissance de Pièce tous les 6 ([Combustion] + [Vibration]) sur la cible (2 max)</style>\n[WhenUse] Gagne les effets suivants selon l’Instance de [DuelEdgeAlly] sur la cible :\n- <style=\"highlight\">Deal +6% damage for every Stack (30% max)</style>\n- 1 [DuelEdgeAlly] ou plus : inflige +1 d’Intensité de [Vibration] supplémentaire\n- 2 [DuelEdgeAlly] ou plus : inflige +1 de Compte de [Vibration] supplémentaire\n- 3 [DuelEdgeAlly] ou plus : inflige +1 d’Intensité de [Combustion] supplémentaire\n- 4 [DuelEdgeAlly] ou plus : inflige +1 de Compte de [Combustion] supplémentaire\n[WhenUse] Si cette unité a [EvolvingManual], ou si la cible a 3 [DuelEdgeAlly] ou plus, convertit toutes les Pièces de cette Capacité en [SuperCoin]s",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> [Combustion] et +2 de Compte de [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> [Vibration] et +2 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige <style=\"highlight\">+25%</style> de dégâts par [EvolvingManual] sur soi (<style=\"highlight\">75%</style> max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationIgnition]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cette unité a [EvolvingManual], ou si la cible a 3 [DuelEdgeAlly] ou plus, trigger [VibrationExplosion] <style=\"highlight\">2 times</style>; then, reduce target's de Compte de [Vibration] by <style=\"highlight\">2</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Mesure de Portée de la Lame",
+          "desc": "[DuelCounter]\nInflige +10% de dégâts par [DuelEdgeAlly] sur la cible (50% max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion] (2 fois par tour)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration] (2 fois par tour)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Mesure de Portée de la Lame",
+          "desc": "[DuelCounter]\nInflige +<style=\"highlight\">20</style>% de dégâts par [DuelEdgeAlly] sur la cible (<style=\"highlight\">100</style>% max)\n<style=\"highlight\">[WhenUse] +1 de Puissance Finale tous les 4 ([Combustion] + [Vibration]) sur la cible (2 max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion] (2 fois par tour)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration] (2 fois par tour)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Je Protégerai.",
+          "desc": "[CanDuelGuard]\nCapacité exclusive de [SupportProtect]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Je Protégerai.",
+          "desc": "[CanDuelGuard]\nCapacité exclusive de [SupportProtect]\n<style=\"highlight\">[WhenUse]\n- Gagne 2 [Protection] (une fois par tour)\n- Rend 5 PSM à l’unité protégée par la [SupportProtect]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071606,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Sezionatura di Cervo",
+          "desc": "[WhenUse]\n- Gagne +([EvolvingManual] - 1) de Poids d’Atq (2 max)\n- +1 de Puissance de Pièce tous les 6 ([Combustion] + [Vibration]) sur la cible principale (2 max)\n- En attaquant juste 1 cible, inflige +15% de dégâts (en Affrontements Ciblés, 1 Partie)\n- Inflige +15% de dégâts par Poids d’Atq en excès par rapport au # de cibles réelles (en Affrontements Ciblés, de Parties)\n\n[EndSkill]\n- Consomme tout [DuelEdgeAlly] sur la cible principale\n- Gagne 1 [EvolvingManual]. Si la cible principale est vaincue, gagne 2 [EvolvingManual] à la place",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Combustion] et +3 de Compte de [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Vibration] et +3 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnStartCoin] Cette Pièce gagne +1 de Puissance de Pièce par [EvolvingManual] (3 max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationIgnition]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] deux fois ; puis, réduit le Compte de [Vibration] de la cible de 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Sezionatura di Cervo",
+          "desc": "[WhenUse]\n- Gagne +([EvolvingManual] - 1) de Poids d’Atq (2 max)\n- +1 de Puissance de Pièce tous les 6 ([Combustion] + [Vibration]) sur la cible principale (<style=\"highlight\">3</style> max)\n- En attaquant juste 1 cible, inflige +<style=\"highlight\">25</style>% de dégâts (en Affrontements Ciblés, 1 Partie)\n- Inflige +<style=\"highlight\">25</style>% de dégâts par Poids d’Atq en excès par rapport au # de cibles réelles (en Affrontements Ciblés, de Parties)\n\n[EndSkill]\n- Consomme tout [DuelEdgeAlly] sur la cible principale\n- Gagne 1 [EvolvingManual]. Si la cible principale est vaincue, gagne 2 [EvolvingManual] à la place",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">4</style> [Combustion] et +3 de Compte de [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">4</style> [Vibration] et +3 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnStartCoin] Cette Pièce gagne +1 de Puissance de Pièce par [EvolvingManual] (3 max)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationIgnition]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] <style=\"highlight\">3 fois</style> ; puis, réduit le Compte de [Vibration] de la cible de <style=\"highlight\">3</style>"
                 }
               ]
             }
