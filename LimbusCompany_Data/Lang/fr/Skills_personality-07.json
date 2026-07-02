@@ -2922,7 +2922,7 @@
         {
           "level": 4,
           "name": "Il Cacciatore",
-          "desc": "[BeforeUse] Si la cible a 5 [DuelEdgeAlly], active “Sezionatura di Cervo” à la place (une fois par tour)\n[WhenUse] <style=\"highlight\">+1 de Puissance de Pièce tous les 6 ([Combustion] + [Vibration]) sur la cible (2 max)</style>\n[WhenUse] Gagne les effets suivants selon l’Instance de [DuelEdgeAlly] sur la cible :\n- <style=\"highlight\">Deal +6% damage for every Stack (30% max)</style>\n- 1 [DuelEdgeAlly] ou plus : inflige +1 d’Intensité de [Vibration] supplémentaire\n- 2 [DuelEdgeAlly] ou plus : inflige +1 de Compte de [Vibration] supplémentaire\n- 3 [DuelEdgeAlly] ou plus : inflige +1 d’Intensité de [Combustion] supplémentaire\n- 4 [DuelEdgeAlly] ou plus : inflige +1 de Compte de [Combustion] supplémentaire\n[WhenUse] Si cette unité a [EvolvingManual], ou si la cible a 3 [DuelEdgeAlly] ou plus, convertit toutes les Pièces de cette Capacité en [SuperCoin]s",
+          "desc": "[BeforeUse] Si la cible a 5 [DuelEdgeAlly], active “Sezionatura di Cervo” à la place (une fois par tour)\n[WhenUse] <style=\"highlight\">+1 de Puissance de Pièce tous les 6 ([Combustion] + [Vibration]) sur la cible (2 max)</style>\n[WhenUse] Gagne les effets suivants selon l’Instance de [DuelEdgeAlly] sur la cible :\n- <style=\"highlight\">Inflige +6% de dégâts par Instance (30% max)</style>\n- 1 [DuelEdgeAlly] ou plus : inflige +1 d’Intensité de [Vibration] supplémentaire\n- 2 [DuelEdgeAlly] ou plus : inflige +1 de Compte de [Vibration] supplémentaire\n- 3 [DuelEdgeAlly] ou plus : inflige +1 d’Intensité de [Combustion] supplémentaire\n- 4 [DuelEdgeAlly] ou plus : inflige +1 de Compte de [Combustion] supplémentaire\n[WhenUse] Si cette unité a [EvolvingManual], ou si la cible a 3 [DuelEdgeAlly] ou plus, convertit toutes les Pièces de cette Capacité en [SuperCoin]s",
           "coinlist": [
             {
               "coindescs": [
@@ -2950,7 +2950,7 @@
                   "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Si cette unité a [EvolvingManual], ou si la cible a 3 [DuelEdgeAlly] ou plus, trigger [VibrationExplosion] <style=\"highlight\">2 times</style>; then, reduce target's de Compte de [Vibration] by <style=\"highlight\">2</style>"
+                  "desc": "[OnSucceedAttack] Si cette unité a [EvolvingManual], ou si la cible a 3 [DuelEdgeAlly] ou plus, déclenche un [VibrationExplosion] <style=\"highlight\">2 fois</style> ; puis, réduit le Compte de [Vibration] de la cible de <style=\"highlight\">2</style>"
                 }
               ]
             }
