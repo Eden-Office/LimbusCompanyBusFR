@@ -2991,6 +2991,509 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1021601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Éclat d’Aurore",
+          "desc": "[WhenUse] +1 de Puissance de Duel tous les 10 [StigmaWorkshopCelloCaseOne] (2 max)\n[WhenUse] À 20 [StigmaWorkshopCelloCaseOne] ou plus, Réutilise la Pièce finale une fois",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Éclat d’Aurore",
+          "desc": "<style=\"highlight\">[WhenUse] +1 de Puissance Finale tous les 4 ([Combustion] + [Vibration]) sur la cible (2 max)</style>\n[WhenUse] +1 de Puissance de Duel tous les 10 [StigmaWorkshopCelloCaseOne] (2 max)\n[WhenUse] À 20 [StigmaWorkshopCelloCaseOne] ou plus, Réutilise la Pièce finale une fois",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Éclat d’Aurore",
+          "desc": "[WhenUse] +1 de Puissance Finale tous les 4 ([Combustion] + [Vibration]) sur la cible (<style=\"highlight\">3</style> max)\n<style=\"highlight\">[WhenUse] Gagne 4 [StigmaWorkshopCelloCaseOne]</style>\n[WhenUse] +1 de Puissance de Duel tous les 10 [StigmaWorkshopCelloCaseOne] (<style=\"highlight\">3</style> max)\n[WhenUse] À 20 [StigmaWorkshopCelloCaseOne] ou plus, Réutilise la Pièce finale une fois",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion] et <style=\"highlight\">+1 de Compte de [Combustion]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Taillade du Papillon",
+          "desc": "[WhenUse] Tous les 10 [StigmaWorkshopCelloCaseOne], gagne les effets suivants :\n- +1 de Puissance de Duel (2 max)\n- Réutilise la Pièce finale une fois (2 fois par Capacité)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Inflige 1 [Combustion]"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1 (une fois par Capacité)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Taillade du Papillon",
+          "desc": "<style=\"highlight\">[WhenUse] +1 de Puissance Finale tous les 4 ([Combustion] + [Vibration]) sur la cible (2 max)\n[WhenUse] Gagne 3 [StigmaWorkshopCelloCaseOne]</style>\n[WhenUse] Tous les 10 [StigmaWorkshopCelloCaseOne], gagne les effets suivants :\n- +1 de Puissance de Duel (2 max)\n- Réutilise la Pièce finale une fois (2 fois par Capacité)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] À 10 [StigmaWorkshopCelloCaseOne] ou plus, gagne les effets suivants :\n- Inflige +1 de Compte de [Combustion]\n- Inflige +1 de Compte de [Vibration]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Inflige 1 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1 (une fois par Capacité)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Taillade du Papillon",
+          "desc": "[WhenUse] +1 de Puissance Finale tous les 4 ([Combustion] + [Vibration]) sur la cible (<style=\"highlight\">3</style> max)\n[WhenUse] Gagne <style=\"highlight\">6</style> [StigmaWorkshopCelloCaseOne]\n[WhenUse] Tous les 10 [StigmaWorkshopCelloCaseOne], gagne les effets suivants :\n- +1 de Puissance de Duel (<style=\"highlight\">3</style> max)\n- Réutilise la Pièce finale une fois (2 fois par Capacité)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] <style=\"highlight\">Tous les 10 [StigmaWorkshopCelloCaseOne], gagne les effets suivants :\n- Inflige +1 de Compte de [Combustion] (2 max)\n- Inflige +1 de Compte de [Vibration] (2 max)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Inflige 1 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1 (une fois par Capacité)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021603,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Éjection",
+          "desc": "[BeforeUse] À 30 [StigmaWorkshopCelloCaseOne], active “Éjection - Zénith[TabExplain]” à la place (une fois par tour)\n[WhenUse] Si la cible a 6 ([Combustion] + [Vibration]) ou plus, +1 de Puissance de Pièce\n[WhenUse] Gagne 5 [StigmaWorkshopCelloCaseOne]\n[WhenUse] Tous les 10 [StigmaWorkshopCelloCaseOne], gagne les effets suivants :\n- +1 de Puissance de Duel (2 max)\n- Inflige +1 de Compte de [Combustion] (2 max)\n- Inflige +1 de Compte de [Vibration] (2 max)\n- Réutilise la Pièce finale une fois (2 fois par Capacité)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationIgnition]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1 (2 fois par Capacité)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Éjection",
+          "desc": "[BeforeUse] À 30 [StigmaWorkshopCelloCaseOne], active “Éjection - Zénith[TabExplain]” à la place (une fois par tour)\n[WhenUse] <style=\"highlight\">+1 de Puissance de Pièce tous les 6 ([Combustion] + [Vibration]) sur la cible (2 max)</style>\n[WhenUse] Gagne <style=\"highlight\">8</style> [StigmaWorkshopCelloCaseOne]\n[WhenUse] Tous les 10 [StigmaWorkshopCelloCaseOne], gagne les effets suivants :\n- +1 de Puissance de Duel (<style=\"highlight\">3</style> max)\n- Inflige +1 de Compte de [Combustion] (<style=\"highlight\">3</style> max)\n- Inflige +1 de Compte de [Vibration] (<style=\"highlight\">3</style> max)\n- Réutilise la Pièce finale une fois (2 fois par Capacité)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationIgnition]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1 (<style=\"highlight\">3</style> fois par Capacité)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Inflige 1 [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Stigmatisation",
+          "desc": "[DuelCounter]\n[WhenUse] À 5 [Combustion] ou plus, +1 de Puissance de Pièce\n[WhenUse] Perd 5 [Combustion] (une fois par tour)\n[WinDuel] Perd 3 [Combustion] (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion] (2 fois par tour)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration] (2 fois par tour)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Stigmatisation",
+          "desc": "[DuelCounter]\n<style=\"highlight\">[BeforeUse] À 30 [StigmaWorkshopCelloCaseOne], active “Démembrement au Zénith[TabExplain]” à la place (une fois par tour)\n- Si cette unité a [CaseOverheating], l’effet ci-dessus ne s’active pas\n[WhenUse] À 5 [Combustion] ou plus, +1 de Puissance de Pièce</style>\n[WhenUse] Perd 5 [Combustion] (une fois par tour)\n[WinDuel] Perd 3 [Combustion] (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion] (2 fois par tour)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration] (2 fois par tour)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Stigmatisation",
+          "desc": "[DuelCounter]\n<style=\"highlight\">[StartBattle] Gagne 6 [StigmaWorkshopCelloCaseOne] (une fois par Affrontement)</style>\n[BeforeUse] À 30 [StigmaWorkshopCelloCaseOne], active “Démembrement au Zénith[TabExplain]” à la place (une fois par tour)\n- Si cette unité a [CaseOverheating], l’effet ci-dessus ne s’active pas\n[WhenUse] <style=\"highlight\">+1 de Puissance de Pièce toutes les 5 [Combustion] sur soi (2 max)</style>\n[WhenUse] Perd 5 [Combustion] (une fois par tour)\n[WinDuel] Perd 3 [Combustion] (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion] (2 fois par tour)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration] (2 fois par tour)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021605,
+      "levelList": [
+        {
+          "level": 2,
+          "name": "Offensive Secondée",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration] (2 fois par tour)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion] (2 fois par tour)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Offensive Secondée",
+          "desc": "<style=\"highlight\">[WhenUse] Inflige +1% de dégâts par [StigmaWorkshopCelloCaseOne] sur soi (30% max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration] (2 fois par tour)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion] (2 fois par tour)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Offensive Secondée",
+          "desc": "<style=\"highlight\">[WhenUse] Gagne les effets suivants selon l’Instance de [StigmaWorkshopCelloCaseOne] :\n- Inflige +2% de dégâts par Instance (60% max)\n- +1 de Puissance Finale toutes les 10 Instances (3 max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration] (2 fois par tour)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion] (2 fois par tour)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021606,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Éjection - Zénith",
+          "desc": "[WideAreaRampage]\nActive les effets suivants sur la cible à chaque touche de cette Capacité :\n- Inflige 1 [Combustion] ou 1 [Vibration]\n- Si la cible n’a pas de [VibrationIgnition], déclenche une [Switch_Vibration] en [VibrationIgnition] (une fois par cible)\n[WhenUse]\n- +3 de Puissance de Duel\n- Si la cible principale a 6 ([Combustion] + [Vibration]) ou plus, +1 de Puissance de Pièce et +2 de Puissance de Duel\n- Inflige +2 de Compte de [Combustion] à toutes les cibles\n- Inflige +2 de Compte de [Vibration] à toutes les cibles\n[EndSkill]\n- Inflige 1 [ResultReduction] au prochain tour à toutes les cibles touchées (une fois par tour)\n- Gagne 1 [Firstlight]\n- Gagne 1 [CaseOverheating]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Réutilise cette Pièce (2 fois max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1 (2 fois par Capacité)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Éjection - Zénith",
+          "desc": "[WideAreaRampage]\n<style=\"highlight\">Inflige +([Combustion] sur soi + [Combustion] sur la cible)% de dégâts (20% max, compté par cible)</style>\nActive les effets suivants sur la cible à chaque touche de cette Capacité :\n- Inflige 1 [Combustion] ou 1 [Vibration]\n- Si la cible n’a pas de [VibrationIgnition], déclenche une [Switch_Vibration] en [VibrationIgnition] (une fois par cible)\n[WhenUse]\n- +3 de Puissance de Duel\n<style=\"highlight\">- +1 de Puissance de Pièce et +2 de Puissance de Duel tous les 6 ([Combustion] + [Vibration]) sur la cible principale (2 et 4 max respectivement)</style>\n- Inflige +<style=\"highlight\">3</style> de Compte de [Combustion] à toutes les cibles\n- Inflige +<style=\"highlight\">3</style> de Compte de [Vibration] à toutes les cibles\n[EndSkill]\n- Inflige 1 [ResultReduction] au prochain tour à toutes les cibles touchées (une fois par tour)\n- Gagne 1 [Firstlight]\n- Gagne 1 [CaseOverheating]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "Réutilise cette Pièce (2 fois max)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">Si cette unité a [Firstlight], inflige +(Intensité de [Combustion] sur la cible / 2)% de dégâts (20% max)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1 (<style=\"highlight\">3</style> fois par Capacité)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021607,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Démembrement au Zénith",
+          "desc": "[WideAreaRampage]\nInflige +(pourcentage de PV manquants sur soi / 2)% de dégâts (25% max)\nActive les effets suivants sur la cible à chaque touche de cette Capacité :\n- Inflige 1 [Combustion] ou 1 [Vibration]\n- Si la cible n’a pas [VibrationIgnition], déclenche une [Switch_Vibration] en [VibrationIgnition] (une fois par cible)\n[WhenUse]\n- +3 de Puissance de Duel\n- Si la cible principale a 6 ([Combustion] + [Vibration]) ou plus, +1 de Puissance de Pièce et +2 de Puissance de Duel\n- Inflige +2 de Compte de [Combustion] à toutes les cibles\n- Inflige +2 de Compte de [Vibration] à toutes les cibles\n[EndSkill]\n- Consomme jusqu’à 30 [Combustion] sur soi et regagne (5 + [Combustion] consommée)% de PV (35% max)\n- Consomme tous [StigmaWorkshopCelloCaseOne] sur soi\n- Gagne 3 [Firstlight]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Réutilise cette Pièce (2 fois max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1 (2 fois par Capacité)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Démembrement au Zénith",
+          "desc": "[WideAreaRampage]\nInflige +(<style=\"highlight\">pourcentage de PV manquants sur soi</style>)% de dégâts (<style=\"highlight\">50%</style> max)\n<style=\"highlight\">Inflige +(Intensité de [Combustion] sur la cible)% de dégâts (20% max, compté par cible)</style>\nActive les effets suivants sur la cible à chaque touche de cette Capacité :\n- Inflige 1 [Combustion] ou 1 [Vibration]\n- Si la cible n’a pas [VibrationIgnition], déclenche une [Switch_Vibration] en [VibrationIgnition] (une fois par cible)\n[WhenUse]\n- +3 de Puissance de Duel\n- <style=\"highlight\">+1 de Puissance de Pièce et +2 de Puissance de Duel tous les 6 ([Combustion] + [Vibration]) sur la cible principale (2 et 4 max respectivement)</style>\n- Inflige +<style=\"highlight\">3</style> de Compte de [Combustion] à toutes les cibles\n- Inflige +<style=\"highlight\">3</style> de Compte de [Vibration] à toutes les cibles\n[EndSkill]\n- Consomme jusqu’à 30 [Combustion] sur soi et regagne (<style=\"highlight\">20</style> + [Combustion] consommée)% de PV (<style=\"highlight\">50%</style> max)\n- Consomme tous [StigmaWorkshopCelloCaseOne] sur soi\n- Gagne 3 [Firstlight]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "Réutilise cette Pièce (2 fois max)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">Si cette unité a [Firstlight], inflige +(Intensité de [Combustion] sur la cible)% de dégâts (20% max)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1 (<style=\"highlight\">3</style> fois par Capacité)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

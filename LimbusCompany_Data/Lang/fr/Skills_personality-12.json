@@ -1968,7 +1968,7 @@
         {
           "level": 2,
           "name": "Mercé",
-          "desc": "[CantDuel]\nCette Capacité ne déclenche pas de Capacités Offensives et ne peut pax gagner de ressources E.G.O.\n+1 de Puissance de Pièce tous les 20% de PV manquants sur l’ennemi (Noyau) (2 max)\nSi l’ennemi (Noyau) a 20% de PV ou moins, inflige +80% de dégâts",
+          "desc": "[CantDuel]\nCette Capacité ne déclenche pas de Capacités Offensives et ne peut pas gagner de ressources E.G.O.\n+1 de Puissance de Pièce tous les 20% de PV manquants sur l’ennemi (Noyau) (2 max)\nSi l’ennemi (Noyau) a 20% de PV ou moins, inflige +80% de dégâts",
           "coinlist": [
             {
               "coindescs": [
@@ -1982,7 +1982,7 @@
         {
           "level": 4,
           "name": "Mercé",
-          "desc": "[CantDuel]\nCette Capacité ne déclenche pas de Capacités Offensives et ne peut pax gagner de ressources E.G.O.\n+1 de Puissance de Pièce tous les 20% de PV manquants sur l’ennemi (Noyau) (<style=\"highlight\">4</style> max)\n<style=\"highlight\">Inflige +1% de dégâts tous les 1% de PV manquants l’ennemi (Noyau)</style>\n- Si l’ennemi (Noyau) a 20% de PV ou moins, <style=\"highlight\">inflige +120% de dégâts à la place</style>\n<style=\"highlight\">[WhenUse] Gagne 1 [Agility] au prochain tour (une fois par tour)</style>",
+          "desc": "[CantDuel]\nCette Capacité ne déclenche pas de Capacités Offensives et ne peut pas gagner de ressources E.G.O.\n+1 de Puissance de Pièce tous les 20% de PV manquants sur l’ennemi (Noyau) (<style=\"highlight\">4</style> max)\n<style=\"highlight\">Inflige +1% de dégâts tous les 1% de PV manquants l’ennemi (Noyau)</style>\n- Si l’ennemi (Noyau) a 20% de PV ou moins, <style=\"highlight\">inflige +120% de dégâts à la place</style>\n<style=\"highlight\">[WhenUse] Gagne 1 [Agility] au prochain tour (une fois par tour)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2780,6 +2780,520 @@
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige ([Charge]) [ChargedSting] au prochain tour (<style=\"highlight\">5</style> max)\n- À 5 [Charge] ou plus, inflige <style=\"highlight\">5</style> [ChargedSting] ce tour et au prochain tour à la place (une fois par tour)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Éclat d’Aurore",
+          "desc": "[WhenUse] À 30 [StigmaWorkshopHandStep1] ou plus, cette Capacité gagne une Pièce 2 supplémentaire en [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Éclat d’Aurore",
+          "desc": "<style=\"highlight\">[WhenUse] +1 de Puissance Finale tous les 4 ([Combustion] + [Vibration]) sur la cible (3 max)</style>\n[WhenUse] À 30 [StigmaWorkshopHandStep1] ou plus, cette Capacité gagne une Pièce 2 supplémentaire en [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Éclat d’Aurore",
+          "desc": "[WhenUse] +1 de Puissance Finale tous les 4 ([Combustion] + [Vibration]) sur la cible (3 max)\n[WhenUse] À <style=\"highlight\">20</style> [StigmaWorkshopHandStep1] ou plus, cette Capacité gagne une Pièce 2 supplémentaire en [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lame du Couchant",
+          "desc": "[WhenUse] À 20 [StigmaWorkshopHandStep1] ou plus, cette Capacité gagne une Pièce 3 supplémentaire en [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Lame du Couchant",
+          "desc": "<style=\"highlight\">[WhenUse] +1 de Puissance Finale tous les 4 ([Combustion] + [Vibration]) sur la cible (4 max)</style>\n[WhenUse] À 20 [StigmaWorkshopHandStep1] ou plus, cette Capacité gagne une Pièce 3 supplémentaire en [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Lame du Couchant",
+          "desc": "[WhenUse] +1 de Puissance Finale tous les 4 ([Combustion] + [Vibration]) sur la cible (4 max)\n[WhenUse] À 20 [StigmaWorkshopHandStep1] ou plus, gagne les effets suivants :\n- Cette Capacité gagne une Pièce 3 supplémentaire en [SuperCoin]\n- <style=\"highlight\">En Touche en utilisant la Pièce supplémentaire, déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121603,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Fendeur d’Aurore",
+          "desc": "[StartBattle] Applique 2 [Protection] à 2 autres alliés aléatoires\n(priorise les alliés qui n’ont pas de [Protection] ; parmi eux, priorise les alliés du Bureau de l’Aube[TabExplain])\n[BeforeUse] À 30 [StigmaWorkshopHandStep1], active “Lever du Jour” à la place (une fois par tour)\n[WhenUse] À 20 [StigmaWorkshopHandStep1] ou plus, active les effets suivants :\n- +1 de Puissance Finale\n- Convertit toutes les Pièces de cette Capacité en [SuperCoin]s\n[EndSkill] Applique 1 [DawnLight] au prochain tour à tous les alliés\n- À 20 [StigmaWorkshopHandStep1] ou plus, applique 1 [DawnLight] supplémentaire",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationIgnition]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Fendeur d’Aurore",
+          "desc": "<style=\"highlight\"> Inflige +([Combustion] sur soi + [Combustion] sur la cible)% de dégâts (30% max)</style>\n[StartBattle] Applique 2 [Protection] à 2 autres alliés aléatoires\n(priorise les alliés qui n’ont pas de [Protection] ; parmi eux, priorise les alliés du Bureau de l’Aube[TabExplain])\n[BeforeUse] À 30 [StigmaWorkshopHandStep1], active “Lever du Jour” à la place (une fois par tour)\n<style=\"highlight\">[WhenUse] +1 de Puissance de Pièce tous les 6 ([Combustion] + [Vibration]) sur la cible (2 max)</style>\n[WhenUse] À 20 [StigmaWorkshopHandStep1] ou plus, active les effets suivants :\n- +1 de Puissance Finale\n- Convertit toutes les Pièces de cette Capacité en [SuperCoin]s\n<style=\"highlight\">- En Touche de Pièce finale, active la [Combustion] de la cible ; puis, réduit le Compte de [Combustion] de la cible de 1</style>\n[EndSkill] Applique 1 [DawnLight] au prochain tour à tous les alliés\n- À 20 [StigmaWorkshopHandStep1] ou plus, applique 1 [DawnLight] supplémentaire",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationIgnition]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Gardien",
+          "desc": "[DuelCounter]\n[StartBattle] Gagne 1 [SupportProtect] (une fois par tour)\n[WhenUse] Gagne 5 [StigmaWorkshopHandStep1] (une fois par tour)\n[WinDuel] Perd 2 de Compte de [Combustion] (une fois par tour)\n[EndSkillAll] Perd 5 d’Intensité de [Combustion] (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Gardien",
+          "desc": "[DuelCounter]\n[StartBattle] Gagne 1 [SupportProtect] (une fois par tour)\n<style=\"highlight\">[BeforeUse] À 30 [StigmaWorkshopHandStep1], active “Lever du Jour” à la place (une fois par tour)</style>\n[WhenUse] Gagne 5 [StigmaWorkshopHandStep1] (une fois par tour)\n[WinDuel] Perd 2 de Compte de [Combustion] (une fois par tour)\n[EndSkillAll] Perd 5 d’Intensité de [Combustion] (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Gardien",
+          "desc": "[DuelCounter]\n[StartBattle] Gagne 1 [SupportProtect] (une fois par tour)\n[BeforeUse] À 30 [StigmaWorkshopHandStep1], active “Lever du Jour” à la place (une fois par tour)\n[WhenUse] Gagne 5 [StigmaWorkshopHandStep1] (une fois par tour)\n<style=\"highlight\">[WhenUse] +1 de Puissance Finale tous les 4 ([Combustion] + [Vibration]) sur la cible (2 max)</style>\n[WinDuel] Perd 2 de Compte de [Combustion] (une fois par tour)\n[EndSkillAll] Perd 5 d’Intensité de [Combustion] (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121605,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Lever du Jour",
+          "desc": "Inflige +50% de dégâts par Poids d’Atq en excès par rapport au véritable # de cibles (en Affrontements Ciblés, de Parties)\n[WhenUse] Applique 2 [Protection] au prochain tour à 2 autres alliés aléatoires\n(priorise les alliés qui n’ont pas de [Protection] ; parmi eux, priorise les alliés du Bureau de l’Aube[TabExplain])\n[WhenUse] À 15 [Combustion] ou plus, +1 de Puissance de Pièce\n[EndSkill] Active les effets suivants :\n- Applique 3 [DawnLight] au prochain tour à tous les alliés\n- Consomme jusqu’à 15 [Combustion] sur soi et regagne (15 + [Combustion] consommée)% de PV\n- Consomme tous [StigmaWorkshopHandStep1] sur soi",
+          "flavor": "Sur l’un des innombrables champs de batailles violents de la Guerre Enfumée, cette technique exacte a fait fondre et a tranché la dernière paire d’ailes d’une certaine arme décisive ainsi que l’espace qu’elle occupait, annonçant la fin de l’aube.\n\n“Hah… Ç’a failli me tuer… !”\n“Madame, pensez-vous… pouvoir achever ce monstre ?”",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationIgnition]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Active la [Combustion] de la cible ; puis, réduit le Compte de [Combustion] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Lever du Jour",
+          "desc": "Inflige +<style=\"highlight\">75</style>% de dégâts par Poids d’Atq en excès par rapport au véritable # de cibles (en Affrontements Ciblés, de Parties)\n[WhenUse] Applique 2 [Protection] au prochain tour à 2 autres alliés aléatoires\n(priorise les alliés qui n’ont pas de [Protection] ; parmi eux, priorise les alliés du Bureau de l’Aube[TabExplain])\n[WhenUse] À 15 [Combustion] ou plus, +1 de Puissance de Pièce\n<style=\"highlight\">[WhenUse] +1 de Puissance de Pièce tous les 6 ([Combustion] + [Vibration]) sur la cible principale (2 max)</style>\n[EndSkill] Active les effets suivants :\n- Applique 3 [DawnLight] au prochain tour à tous les alliés\n- Consomme jusqu’à 15 [Combustion] sur soi et regagne (15 + [Combustion] consommée)% de PV\n- Consomme tous [StigmaWorkshopHandStep1] sur soi",
+          "flavor": "Sur l’un des innombrables champs de batailles violents de la Guerre Enfumée, cette technique exacte a fait fondre et a tranché la dernière paire d’ailes d’une certaine arme décisive ainsi que l’espace qu’elle occupait, annonçant la fin de l’aube.\n\n“Hah… Ç’a failli me tuer… !”\n“Madame, pensez-vous… pouvoir achever ce monstre ?”",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationIgnition]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Active la [Combustion] de la cible ; puis, réduit le Compte de [Combustion] de la cible de 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121606,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Mirage Thermique",
+          "desc": "[DuelCounter]\nCapacité exclusive de [SupportProtect]\n[WhenUse] Gagne 5 [StigmaWorkshopHandStep1] (une fois par tour)\n[WhenUse] Gagne 2 [Protection] (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Mirage Thermique",
+          "desc": "[DuelCounter]\nCapacité exclusive de [SupportProtect]\n[WhenUse] Gagne 5 [StigmaWorkshopHandStep1] (une fois par tour)\n[WhenUse] Gagne 2 [Protection] (une fois par tour)\n<style=\"highlight\">[WhenUse] +1 de Puissance de Pièce tous les 6 ([Combustion] + [Vibration]) sur la cible (2 max)\n[WhenUse] À 20 [StigmaWorkshopHandStep1] ou plus, ou si cette unité a utilisé la Capacité “Lever du Jour” durant ce tour, convertit toutes les Pièces de cette Capacité en [SuperCoin]s</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]"
                 }
               ]
             }
