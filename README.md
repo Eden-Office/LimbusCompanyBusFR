@@ -2,7 +2,7 @@
 
 <div align="center">
 <a href="https://github.com/Eden-Office/LimbusCompanyBusFR">
-   <img src="https://ibb.co/TD0qjY1S"
+   <img src="https://imgur.com/a/TqiuDly"
       width="200"
       height="200"/>
 </a>
