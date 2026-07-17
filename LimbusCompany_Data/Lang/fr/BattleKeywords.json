@@ -1957,8 +1957,8 @@
     },
     {
       "id": "SupportProtect",
-      "name": "Défense de Secours",
-      "desc": "- Instance Max : 3\n- Lorsqu’un allié s’apprête à subir une Attaque à Sens Unique ennemie, consomme 1 Instance pour rediriger le ciblage de l’ennemi vers soi ; puis, utilise la Capacité unique qui s’active pour Défense de Secours\n- Lorsqu’il y a plusieurs alliés ayant des Instances de Défense de Secours, l’allié ayant le plus d’Instance a la plus haute priorité d’activation\n- Ne s’active pas pour les alliés qui ont des Capacités Défensives équipées\n- Expire à la Fin du Tour",
+      "name": "Défense d’Assistance",
+      "desc": "- Instance Max : 3\n- Lorsqu’un allié s’apprête à subir une Attaque à Sens Unique ennemie, consomme 1 Instance pour rediriger le ciblage de l’ennemi vers soi ; puis, utilise la Capacité unique qui s’active pour Défense d’Assistance\n- Lorsqu’il y a plusieurs alliés ayant des Instances de Défense d’Assistance, l’allié ayant le plus d’Instance a la plus haute priorité d’activation\n- Ne s’active pas pour les alliés qui ont des Capacités Défensives équipées\n- Expire à la Fin du Tour",
       "summary": "",
       "undefined": "-"
     },
@@ -1978,7 +1978,7 @@
     },
     {
       "id": "SupportProtectTypo",
-      "name": "Défense de Secours",
+      "name": "Défense d’Assistance",
       "desc": "",
       "summary": "",
       "undefined": "-"
@@ -3364,7 +3364,7 @@
     {
       "id": "RunSinclair",
       "name": "Dispositif d’Évasion",
-      "desc": "- Lorsque cette unité subit des dégâts faisant descendre ses PV à 10, les PV de cette unité ne descendent pas en dessous de 10 pour ce tour\n- Fin du Tour : se remet de Déséquilibre et Bat en Retraite de l’Affrontement (exclut les Déséquilibres forcés ; ne compte pas comme une mort)\n  · En Combats Chaînés, donne les Emplacements de cette unité à une unité Substituée et se place à la dernière place de l’ordre de Déploiement des unités de Renfort (s’échappe entièrement de l’Affrontement s’il n’y a aucune Unité de Renfort restante avec qui changer de place au prochain tour. En revenant au combat, revient dans l’ordre de sa retraite.)\n  · En revenant au combat, revient avec la même quantité de PV et de PSM qu’avait cette unité en battant en retraite et élimine tous les effets sur soi à l’exception de certains (si cette unité avait moins de 0 PSM en battant en retraite, remet à 0 les PSM à la place)",
+      "desc": "- Lorsque cette unité subit des dégâts faisant descendre ses PV à 10, les PV de cette unité ne descendent pas en dessous de 10 pour ce tour\n- Fin du Tour après activation de l’effet ci-dessus : se remet de Déséquilibre et Bat en Retraite de l’Affrontement (exclut les Déséquilibres forcés ; ne compte pas comme une mort ; en Affrontements où Battre en Retraite est désactivé, l’effet de Retraite ne s’active pas et expire à la Fin du Tour)\n  · En Combats Chaînés, donne les Emplacements de cette unité à une unité Substituée et se place à la dernière place de l’ordre de Déploiement des unités de Renfort (s’échappe entièrement de l’Affrontement s’il n’y a aucune Unité de Renfort restante avec qui changer de place au prochain tour. En revenant au combat, revient dans l’ordre de sa retraite.)\n  · En revenant au combat, revient avec la même quantité de PV et de PSM qu’avait cette unité en battant en retraite et élimine tous les effets sur soi à l’exception de certains (si cette unité avait moins de 0 PSM en battant en retraite, remet à 0 les PSM à la place)",
       "summary": "",
       "undefined": "-",
       "flavor": "“… Vis.”"
@@ -3404,7 +3404,7 @@
     {
       "id": "DawnFaustDying",
       "name": "Solitude au Zénith",
-      "desc": "- +2 de Vitesse Min\n- À l’Usage de Capacité Offensive de Base : gagne +3 de Puissance de Base et inflige +(90 / # de Pièces)% de dégâts\n\n- Applique les effets suivants à “Lame du Couchant”\n· En Touche de Pièce finale : si la cible a 15 Brûlures ou plus, active la Brûlure de la cible ; puis, réduit le Compte de Brûlure de la cible de 1\n\n- Applique les effets suivants à “Coup Embrasé”\n· Inflige +150% de dégâts\n· À l’Usage : convertit toutes les Pièces en Pièces Incassables\n· En Touche contre un ennemi, active la Brûlure de la cible ; puis, réduit le Compte de Brûlure de la cible de 1\n· À l’Usage : consomme jusqu’à 100 Domaine Carbonisé et inflige +1% de dégâts par Domaine Carbonisé consommé (150% max)\n\n- Lorsque cette unité subit des dégâts amenant ses PV à 0 ce tour, les PV de cette unité ne peuvent pas descendre en dessous de 1 pour ce tour et se remet de Déséquilibre lorsque Déséquilibré suite à des dégâts (une fois par Affrontement)\n\n* Effets du Domaine Carbonisé\n- Stocke tous les dégâts de Brûlure infligés dans cette zone\n- Se réinitialise en changeant de zone\n- Cette valeur est partagée par tous les personnages",
+      "desc": "- +2 de Vitesse Min\n- À l’Usage de Capacité Offensive de Base : gagne +3 de Puissance de Base et inflige +(90 / # de Pièces)% de dégâts\n\n- Applique les effets suivants à “Lame du Couchant”\n· En Touche de Pièce finale : si la cible a 15 Brûlures ou plus, active la Brûlure de la cible ; puis, réduit le Compte de Brûlure de la cible de 1\n\n- Applique les effets suivants à “Coup Embrasé”\n· Inflige +150% de dégâts\n· À l’Usage : convertit toutes les Pièces en Pièces Incassables\n· En Touche contre un ennemi, active la Brûlure de la cible ; puis, réduit le Compte de Brûlure de la cible de 1\n· À l’Usage : consomme jusqu’à 100 Domaine Carbonisé et inflige +1.5% de dégâts par Domaine Carbonisé consommé (150% max)\n\n- Lorsque cette unité subit des dégâts amenant ses PV à 0 ce tour, les PV de cette unité ne peuvent pas descendre en dessous de 1 pour ce tour et se remet de Déséquilibre lorsque Déséquilibré suite à des dégâts (une fois par Affrontement)\n\n* Effets du Domaine Carbonisé\n- Stocke tous les dégâts de Brûlure infligés dans cette zone\n- Se réinitialise en changeant de zone\n- Cette valeur est partagée par tous les personnages",
       "summary": "Renforce les Capacités Offensives de Base",
       "undefined": "-",
       "flavor": "“Comprenez-vous ce que signifie la ‘solitude’, Sinclair ? La solitude, c’est être baigné par la lumière du soleil au zénith, seulement pour comprendre que ceux avec qui vous auriez pu partager un déjeuner vous ont quitté. Voilà comment je formulerais le concept de ‘solitude’, du moins, pour ma part. J’espère, Sinclair, que vous n’aurez jamais de raison de comprendre ce concept.”"

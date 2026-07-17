@@ -37,7 +37,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 Vulnérabilité de Colère au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 [CrimsonTakeDamageUp] au prochain tour"
                 },
                 {
                   "desc": "[OnSucceedAttack] Si la cible a [Combustion], inflige 4 Brûlure"
@@ -47,7 +47,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 Vulnérabilité de Colère au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 1 [CrimsonTakeDamageUp] au prochain tour"
                 },
                 {
                   "desc": "[OnSucceedAttack] Si la cible a [Combustion], inflige 4 Brûlure"
@@ -133,7 +133,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 1 Vulnérabilité de Colère"
+                  "desc": "[OnSucceedAttack] Inflige 1 [CrimsonTakeDamageUp]"
                 }
               ]
             }
@@ -965,7 +965,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 Malus de Niveau Offensif"
+                  "desc": "[OnSucceedAttack] Inflige 3 [AttackDown]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige 2 Ralentissement au prochain tour"
@@ -1635,7 +1635,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflige 6 Malus de Niveau Offensif"
+                  "desc": "[OnSucceedAttack] Inflige 6 [AttackDown]"
                 }
               ]
             },
@@ -1669,7 +1669,7 @@
         {
           "level": 1,
           "name": "Innocence Trouble",
-          "desc": "[DefeatDuel] Gagne 2 Malus de Puissance Défensive. Perd 10 PSM",
+          "desc": "[DefeatDuel] Gagne 2 [Disarming]. Perd 10 PSM",
           "coinlist": [
             {
               "coindescs": [
@@ -1770,7 +1770,7 @@
                   "desc": "[OnSucceedAttackHead] Inflige 1 Bruit Livide"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige 3 Malus de Niveau Offensif au prochain tour"
+                  "desc": "[OnSucceedAttack] Inflige 3 [AttackDown] au prochain tour"
                 }
               ]
             }

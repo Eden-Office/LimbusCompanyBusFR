@@ -1116,7 +1116,7 @@
         {
           "level": 2,
           "name": "Cérémonie pour les Défunts",
-          "desc": "Si la somme de la [Sinking] et des [SinkingWhite] de la cible est de 6 ou plus, +1 de Puissance de Pièce\n[WinDuel] Inflige +2 de Compte de [Sinking]",
+          "desc": "Si la cible a 6 ([Sinking] + les deux [SinkingWhite]) ou plus, +1 de Puissance de Pièce\n[WinDuel] Inflige +2 de Compte de [Sinking]",
           "coinlist": [
             {
               "coindescs": [
@@ -1143,7 +1143,7 @@
         {
           "level": 4,
           "name": "Cérémonie pour les Défunts",
-          "desc": "<style=\"highlight\">À 10 [BulletLament] ou plus, +1 de Puissance de Duel</style>\nSi la somme de la [Sinking] et des [SinkingWhite] de la cible est de 6 ou plus, +1 de Puissance de Pièce\n[WinDuel] Inflige +2 de Compte de [Sinking]",
+          "desc": "<style=\"highlight\">À 10 [BulletLament] ou plus, +1 de Puissance de Duel</style>\nSi la cible a 6 ([Sinking] + les deux [SinkingWhite]) ou plus, +1 de Puissance de Pièce\n[WinDuel] Inflige +2 de Compte de [Sinking]",
           "coinlist": [
             {
               "coindescs": [
@@ -1202,7 +1202,7 @@
         {
           "level": 2,
           "name": "Solennelle Lamentation pour les Vivants",
-          "desc": "Si la somme de la [Sinking] et des [SinkingWhite] de la cible est de 6 ou plus, +1 de Puissance de Pièce\n[WinDuel] Inflige +1 de Compte de [Sinking]\n[EndSkill] Gagne (plus haute Réson.) [BulletLament] (6 max)\n- Si cette Réson. était une Réson.-A, gagne (plus haute Réson. * 2) [BulletLament] (12 max)",
+          "desc": "Si la cible a 6 ([Sinking] + les deux [SinkingWhite]) ou plus, +1 de Puissance de Pièce\n[WinDuel] Inflige +1 de Compte de [Sinking]\n[EndSkill] Gagne (plus haute Réson.) [BulletLament] (6 max)\n- Si cette Réson. était une Réson.-A, gagne (plus haute Réson. * 2) [BulletLament] (12 max)",
           "coinlist": [
             {
               "coindescs": [
@@ -1229,7 +1229,7 @@
         {
           "level": 4,
           "name": "Solennelle Lamentation pour les Vivants",
-          "desc": "À 10 [BulletLament] ou plus, +1 de Puissance de Duel\n<style=\"highlight\">+1 de Puissance de Pièce pour chaque 6 de valeur</style> de la somme de la [Sinking] et des [SinkingWhite] de la cible <style=\"highlight\">(2 max)</style>\n[WinDuel] Inflige +1 de Compte de [Sinking]\n[EndSkill] Gagne (plus haute Réson.) [BulletLament] (6 max)\n- Si cette Réson. était une Réson.-A, gagne (plus haute Réson. * 2) [BulletLament] (12 max)\n<style=\"highlight\"> - Si cette Réson. était à 4 de Réson.-A ou plus, [ReloadLament] à la place</style>",
+          "desc": "À 10 [BulletLament] ou plus, +1 de Puissance de Duel\n<style=\"highlight\">+1 de Puissance de Pièce tous les 6</style> ([Sinking] + les deux [SinkingWhite]) sur la cible <style=\"highlight\">(2 max)</style>\n[WinDuel] Inflige +1 de Compte de [Sinking]\n[EndSkill] Gagne (plus haute Réson.) [BulletLament] (6 max)\n- Si cette Réson. était une Réson.-A, gagne (plus haute Réson. * 2) [BulletLament] (12 max)\n<style=\"highlight\"> - Si cette Réson. était à 4 de Réson.-A ou plus, [ReloadLament] à la place</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1308,7 +1308,7 @@
         {
           "level": 4,
           "name": "Adieu Maintenant, un Chagrin en Toi",
-          "desc": "+1 de Puissance de Base pour chaque <style=\"highlight\">5</style> de valeur de [BulletLament] <style=\"highlight\">(4 max)</style>\n+1 de Puissance de Pièce pour chaque 6 de valeur de la somme de la [Sinking] et des [SinkingWhite] de la cible (2 max)\n[WinDuel] Inflige +3 de Compte de [Sinking]\n[EndSkill] [ReloadLament]",
+          "desc": "+1 de Puissance de Base pour chaque <style=\"highlight\">5</style> de valeur de [BulletLament] <style=\"highlight\">(4 max)</style>\n+1 de Puissance de Pièce tous les 6 ([Sinking] + les deux [SinkingWhite]) sur la cible (2 max)\n[WinDuel] Inflige +3 de Compte de [Sinking]\n[EndSkill] [ReloadLament]",
           "coinlist": [
             {
               "coindescs": [
@@ -1374,7 +1374,7 @@
         {
           "level": 4,
           "name": "DuCercueilUnPapillonPrendSonEnvol",
-          "desc": "[StartBattle] [ReloadLament] (une fois par tour)\n[StartBattle] Gagne du Bouclier égal à (la somme des [SinkingWhite]s de la cible choisie)% de PV (20% max par tour)",
+          "desc": "[StartBattle] [ReloadLament] (une fois par tour)\n[StartBattle] Gagne du Bouclier égal à (somme des deux [SinkingWhite]s sur la cible choisie)% de PV (20% max par tour)",
           "coinlist": [
             {
               "coindescs": [
