@@ -256,7 +256,7 @@
         {
           "level": 1,
           "name": "6463",
-          "desc": "Inflige +10% de dégâts tous les 50 [AccumulatedPast]\n[WhenUse] +1 de Puissance de Base tous les 10 (Intensité + Compte de [Vibration]) sur la cible (3 max)\n[WhenUse] Si le [AccumulatedPast] de cette unité est un nombre impair, cette Capacité inflige +30% de dégâts",
+          "desc": "Inflige +10% de dégâts tous les 50 [AccumulatedPastMirror]\n[WhenUse] +1 de Puissance de Base tous les 10 (Intensité + Compte de [Vibration]) sur la cible (3 max)\n[WhenUse] Si le [AccumulatedPastMirror] de cette unité est un nombre impair, cette Capacité inflige +30% de dégâts",
           "coinlist": [
             {
               "coindescs": [
@@ -278,7 +278,7 @@
         {
           "level": 1,
           "name": "6753",
-          "desc": "Inflige +10% de dégâts tous les 50 [AccumulatedPast]\n[WhenUse] +1 de Puissance de Base tous les 10 (Intensité + Compte de [Vibration]) sur la cible (3 max)\n[WhenUse] Si le [AccumulatedPast] de cette unité est un nombre pair, gagne 3 [Protection] (une fois par tour)",
+          "desc": "Inflige +10% de dégâts tous les 50 [AccumulatedPastMirror]\n[WhenUse] +1 de Puissance de Base tous les 10 (Intensité + Compte de [Vibration]) sur la cible (3 max)\n[WhenUse] Si le [AccumulatedPastMirror] de cette unité est un nombre pair, gagne 3 [Protection] (une fois par tour)",
           "coinlist": [
             {
               "coindescs": [
@@ -318,7 +318,7 @@
                   "desc": "[OnSucceedAttack] Augmente le Seuil de Déséquilibre de 50% des dégâts infligés"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflige +1% de dégâts par [AccumulatedPast] (50% max)"
+                  "desc": "[OnSucceedAttack] Inflige +1% de dégâts par [AccumulatedPastMirror] (50% max)"
                 }
               ]
             }
@@ -398,10 +398,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "Inflige +1% de dégâts par [AccumulatedPast] (200% max)"
+                  "desc": "Inflige +1% de dégâts par [AccumulatedPastMirror] (200% max)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] tous les 50 [AccumulatedPast] ; puis, réduit le Compte de [Vibration] de la cible de 1 (5 fois max)"
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] tous les 50 [AccumulatedPastMirror] ; puis, réduit le Compte de [Vibration] de la cible de 1 (5 fois max)"
                 }
               ]
             }
@@ -2245,7 +2245,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Chair Étalée",
+          "name": "Chair Entachée",
           "desc": "",
           "coinlist": [
             {

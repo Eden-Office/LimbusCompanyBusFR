@@ -1015,8 +1015,8 @@
     {
       "id": "WrappedCurseTag",
       "name": "Talisman de Malédiction Enchevêtré",
-      "desc": "Inflige +{0}% de dégâts\nÀ 9 de Compte ou plus, gagne 2 Malus de Puissance Offensive au début du tour",
-      "summary": "Inflige +{0}% de dégâts ; à 9 de Compte ou plus, gagne 2 Malus de Puissance Offensive au début du tour"
+      "desc": "Inflige +{0}% de dégâts\nÀ 9 Instances ou plus, gagne 2 Malus de Puissance Offensive au début du tour",
+      "summary": "Inflige +{0}% de dégâts ; à 9 Instances ou plus, gagne 2 Malus de Puissance Offensive au début du tour"
     },
     {
       "id": "ReattachedCurseTag",
@@ -1046,7 +1046,7 @@
       "id": "Tipsiness",
       "name": "Pompette",
       "desc": "-{0} de Puissance de Duel (5 max)",
-      "summary": "Perd de la Puissance de Duel selon le Compte de l’effet"
+      "summary": "Perd autant de Puissance de Duel que d’Instance"
     },
     {
       "id": "Predation",
@@ -1099,14 +1099,14 @@
     {
       "id": "InterlockingTime",
       "name": "Temps Emboîté",
-      "desc": "Réduit les dégâts finaux de 30% et les stocke. À 3 de Compte, subit des dégâts fixes égaux à 1.5 fois les dégâts accumulés et gagne 3 Ralentissement au tour suivant.",
-      "summary": "Réduit les dégâts finaux de 30% et les stocke. À 3 de Compte, subit des dégâts fixes égaux à 1.5 fois les dégâts accumulés et gagne 3 Ralentissement au tour suivant."
+      "desc": "Réduit les dégâts finaux de 30% et les stocke. À 3 Instances, subit des dégâts fixes égaux à 1.5 fois les dégâts accumulés",
+      "summary": "Réduit les dégâts finaux de 30% et les stocke. À 3 Instances, subit des dégâts fixes égaux à 1.5 fois les dégâts accumulés"
     },
     {
       "id": "TimeRental",
       "name": "Temps Emprunté des Songes",
-      "desc": "Fin du Tour : gagne 3 de Vitesse et 2 Bonus de Dégâts ; s’il ne reste que 1 de Compte, gagne 4 Ralentissement et 1 Malus de Puissance Offensive au tour suivant",
-      "summary": "Fin du Tour : gagne 3 de Vitesse et 2 Bonus de Dégâts ; s’il ne reste que 1 de Compte, gagne 4 Ralentissement et 1 Malus de Puissance Offensive au tour suivant"
+      "desc": "Fin du Tour : gagne 3 de Vitesse et 2 Bonus de Dégâts ; s’il ne reste que 1 Instance, gagne 4 Ralentissement et 1 Malus de Puissance Offensive au tour suivant",
+      "summary": "Fin du Tour : gagne 3 de Vitesse et 2 Bonus de Dégâts ; s’il ne reste que 1 Instance, gagne 4 Ralentissement et 1 Malus de Puissance Offensive au tour suivant"
     },
     {
       "id": "Bull_FadedHeat",
@@ -2658,7 +2658,7 @@
     {
       "id": "RoseThorn",
       "name": "Épine Gourmande (貪食棘)",
-      "desc": "Instance max : 9\n\nFin du Tour : gagne du Compte de Saignement égal à la Réson. de Luxure, puis perd 1 Épine Gourmande (貪食棘). (Gain de Compte de Saignement max : 5)\n\nTant que cette unité a cet effet, si elle gagne de l’Intensité de Saignement supérieure à 99, augmente le Festin Sanglant de l’Intensité de Saignement en excès ; puis, gagne du Malus de Niveau Défensif au prochain tour égal à l’augmentation de Festin Sanglant (Gain de Malux de Niveau Défensif max : 5)",
+      "desc": "Instance max : 9\n\nFin du Tour : gagne du Compte de Saignement égal à la Réson. de Luxure, puis perd 1 Épine Gourmande (貪食棘). (Gain de Compte de Saignement max : 5)\n\nTant que cette unité a cet effet, si elle gagne de l’Intensité de Saignement supérieure à 99, augmente le Festin Sanglant de l’Intensité de Saignement en excès ; puis, gagne du Malus de Niveau Défensif au prochain tour égal à l’augmentation de Festin Sanglant (Gain de Malus de Niveau Défensif max : 5)",
       "summary": "",
       "undefined": "-"
     },
@@ -4053,6 +4053,18 @@
       "desc": "- Instance max : 1\n- Fin du Tour :\n· Gagne 3 Brûlures au prochain tour\n· Cet effet expire",
       "summary": "",
       "flavor": "“Cependant, gardez à l’esprit que l’utilité est toujours accompagnée de contrepartie. Une arme de cette structure vient avec des inconvénients que les armes standards de l’Atelier Stigma ne possèdent pas, des pénalités inévitables ne pouvant qu’être atténuées par des Singularités, le pinacle de la myriade d’innovations technologiques de la Cité.”\n\n“Il serait juste de proprement reconnaître les qualités extraordinaires des Singulari— Ahem. Cela était tangentiel au sujet. Revenons-en à notre sujet, Sinclair.”"
+    },
+    {
+      "id": "DriftingDimensionYisang",
+      "name": "Naufragé Dimensionnel",
+      "desc": "Instance max : 3\nAvant d’être Touché, gagne du Bouclier égal à (Instance)% de PV (3 fois par tour)",
+      "summary": ""
+    },
+    {
+      "id": "FourDimensionYisang",
+      "name": "Dimensions Quadricolores",
+      "desc": "- Instance max : 4\n- Gagne les effets suivants selon l’Instance :\n· 1 ou plus : +1 Niveau Offensif\n· 2 ou plus : +2 Niveaux Défensifs\n· 3 ou plus : gagne +1 de Compte de Déchirure avec les Capacités de cette unité\n· 4 ou plus : les Capacités de cette unité infligent +(Intensité de Charge * 4)% de dégâts (20% max)\n\n- Si cette unité gagne cet effet par-delà son plafond max, cette unité gagne l’Instance en surplus au prochain tour\n- Fin du Tour : perd 1 Instance",
+      "summary": ""
     }
   ]
 }

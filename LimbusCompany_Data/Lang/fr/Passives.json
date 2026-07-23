@@ -3213,6 +3213,27 @@
       "desc": "Début du Combat : s’il n’y a que 1 Identité en vie, unités de Renfort incluses, ladite Identité gagne 3 [AttackUp] et 3 [DefenseUp]",
       "summary": "Gagne 3 Bonus de Niveau Offensif et 3 Bonus de Niveau Défensif",
       "flavor": ""
+    },
+    {
+      "id": 1011601,
+      "name": "VélocitéEtCoordonnéesEtVélocité",
+      "desc": "Si la Vitesse de cette unité est plus rapide que celle de la cible, inflige +(différence de Vitesse * Intensité de [Charge] sur soi)% de dégâts (20% max)\n\nFin du Tour : gagne (Intensité de [Charge] sur soi / 2) [Agility] au prochain tour (2 max ; arrondi à l’inférieur)",
+      "summary": "",
+      "flavor": ""
+    },
+    {
+      "id": 1011602,
+      "name": "Allée Ouverte",
+      "desc": "Gagne 1 Intensité de [Charge] chaque fois que cette unité consomme 10 de Compte de [Charge] cumulé dans cet Affrontement\n\nLorsque la Capacité d’un autre allié touche un ennemi : à la Fin de l’Attaque, consomme 1 [DriftingDimensionYisang] pour activer “Tranche Dimensionnelle” contre ledit ennemi ; puis, gagne 1 [FourDimensionYisang]",
+      "summary": "",
+      "flavor": ""
+    },
+    {
+      "id": 1011621,
+      "name": "PuisseL’HommeDistancerMêmeLeRaiDeLumière",
+      "desc": "Lorsque 1 allié avec la Vitesse la plus rapide utilise une Capacité qui gagne ou consomme du Compte de [Charge], gagne 1 [Agility] au prochain tour (une fois par tour)",
+      "summary": "",
+      "flavor": ""
     }
   ]
 }

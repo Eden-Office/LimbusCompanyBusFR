@@ -3,7 +3,7 @@
     {
       "id": "AtkDamageMultiplier",
       "desc": "{0}% aux dégâts infligés",
-      "variation": "{1}% aux dégâts infligés de {0}"
+      "variation": "{1}% aux dégâts infligés avec l’Affinité {0}"
     },
     {
       "id": "AtkAndTakeAtkDamageMultiplier",
@@ -55,6 +55,10 @@
       "desc": "Se soigne de {0}% des Dégâts infligés"
     },
     {
+      "id": "RecoverSelfHpOnSucceedAttackByDmgRR2",
+      "desc": "Se soigne de {0}% des Dégâts infligés"
+    },
+    {
       "id": "RailEnemyBuffF",
       "desc": "{0} à la quantité de ressources E.G.O. consommés par les Pécheurs en utilisant des Capacités E.G.O."
     },
@@ -68,17 +72,17 @@
     },
     {
       "id": "GiveBuffOnRoundStartToAllAlly",
-      "desc": "Au début du tour, applique {1} {0} et +{2} de Compte de {0} à tous les alliés",
-      "variation": "Au début du tour, applique {1} {0} à tous les alliés.",
-      "variation2": "Au début du tour, applique +{1} de Compte de {0} à tous les alliés"
+      "desc": "Début du Tour : applique {1} {0} et +{2} de Compte de {0} à tous les alliés",
+      "variation": "Début du Tour : applique {1} {0} à tous les alliés",
+      "variation2": "Début du Tour : applique +{1} de Compte de {0} à tous les alliés"
     },
     {
       "id": "GiveBuffOnRoundStartToAllAllyExtra",
-      "desc": "Au début du tour, applique {1} {0} à tous les alliés et applique +{2} de Compte de {0} supplémentaire aux alliés avec {0}"
+      "desc": "Début du Tour : applique {1} {0} à tous les alliés et applique +{2} de Compte de {0} supplémentaire aux alliés avec {0}"
     },
     {
       "id": "GiveBuffOnRoundStartToAllEnemyExtra",
-      "desc": "Au début du tour, applique {1} {0} à tous les ennemis et applique +{2} de Compte de {0} supplémentaire à tous les ennemis avec {0}"
+      "desc": "Début du Tour : applique {1} {0} à tous les ennemis et applique +{2} de Compte de {0} supplémentaire à tous les ennemis avec {0}"
     },
     {
       "id": "LoseTurnOnRoundEnd",
@@ -86,7 +90,7 @@
     },
     {
       "id": "Vibration",
-      "desc": "Lorsque touché par des attaques provoquant un Sursaut de Tremblement, augmente de {0} le Seuil de Déséquilibre. Dure {1} tour(s)."
+      "desc": "Lorsque touché par des attaques provoquant un Sursaut de Tremblement, augmente de {0} le Seuil de Déséquilibre. Dure {1} tour(s)"
     },
     {
       "id": "DefAdderByStackCeilToInt",
@@ -98,11 +102,11 @@
     },
     {
       "id": "VibrationEcho",
-      "desc": "Lorsque touché par des attaques qui déclenchent un Sursaut de Tremblement, subit {0} dégâts de Paresse."
+      "desc": "Lorsque touché par des attaques qui déclenchent un Sursaut de Tremblement, subit {0} dégâts de Paresse"
     },
     {
       "id": "VibrationDistribution",
-      "desc": "- Fin du Tour : gagne ((somme du Compte de Tremblement - Distribution de tous les alliés) / (# d’alliés avec Tremblement - Distribution)) Bonus de Niveau Offensif au prochain tour (5 max)"
+      "desc": "Fin du Tour : gagne ((somme du Compte de Tremblement - Distribution de tous les alliés) / (# d’alliés avec Tremblement - Distribution)) Bonus de Niveau Offensif au prochain tour (5 max)"
     },
     {
       "id": "VibrationChain",
@@ -190,7 +194,7 @@
     },
     {
       "id": "MRR532",
-      "desc": "Après avoir utilisé un E.G.O. d’Éveil, consomme également 1 ressource E.G.O. de 3 Affinités de Péché aléatoires avec plus de 1 ressource E.G.O."
+      "desc": "Après avoir utilisé un E.G.O. d’Éveil, consomme également 1 Ressource E.G.O. de 3 Affinités de Péché aléatoires avec plus de 1 Ressource E.G.O."
     },
     {
       "id": "LacerationStackAndTurnAdder",
@@ -206,7 +210,7 @@
     },
     {
       "id": "MRR541",
-      "desc": "En ciblant principalement l’unité avec le moins de {1}, +{0} de Puissance Finale de Capacité"
+      "desc": "En ciblant principalement l’unité ayant le moins de {1}, +{0} de Puissance Finale de Capacité"
     },
     {
       "id": "MRR518P",
@@ -250,7 +254,7 @@
     },
     {
       "id": "GiveBuffOnBattleStartAR",
-      "desc": "Si une Réson. de {0} a été activée, tous les alliés gagnent {2} d’Intensité de {1} et +{3} de Compte de {1} au Début du Combat"
+      "desc": "Début du Combat : si une Réson. de {0} a été activée, tous les alliés gagnent {2} d’Intensité de {1} et +{3} de Compte de {1}"
     },
     {
       "id": "MRR511PMaxSpeedAdder",
@@ -274,7 +278,7 @@
     },
     {
       "id": "MRR514",
-      "desc": "Lorsque des ennemis de renfort entre dans le combat, leur inflige 5 Saignement et +3 de Compte de Saignement au Début du Combat. S’il y a un <Démon de Sang> parmi les alliés et lorsque les conditions ci-dessus sont remplies : active une fois le Saignement de tous les ennemis et réduit leurs Comptes de Saignement de 1"
+      "desc": "Lorsque des ennemis de Renfort entre dans le combat, leur inflige 5 Saignement et +3 de Compte de Saignement au Début du Combat. S’il y a un <Démon de Sang> parmi les alliés et lorsque les conditions ci-dessus sont remplies : active une fois le Saignement de tous les ennemis et réduit leurs Comptes de Saignement de 1"
     },
     {
       "id": "EnemyLevelTextOnly",
@@ -290,7 +294,7 @@
     },
     {
       "id": "MRR503",
-      "desc": "{0} alliés avec le moins de PSM regagnent {1} PSM à la Fin du Tour (exclut : les alliés qui sont Paniqués ou Érodés)"
+      "desc": "{0} alliés ayant les PSM les plus bas regagnent {1} PSM à la Fin du Tour (exclut les alliés qui sont Paniqués ou Érodés)"
     },
     {
       "id": "CriticalDamageBoostWithBuffUse",
@@ -314,7 +318,7 @@
     },
     {
       "id": "MRR552",
-      "desc": "À la mort, 1 allié avec le moins de PV actuels gagne {1} {0} au prochain tour"
+      "desc": "À la mort, 1 allié avec les PV actuels les plus bas gagne {1} {0} au prochain tour"
     },
     {
       "id": "MRR553",

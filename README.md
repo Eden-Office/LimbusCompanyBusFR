@@ -2,7 +2,7 @@
 
 <div align="center">
 <a href="https://github.com/Eden-Office/LimbusCompanyBusFR">
-   <img src="https://imgur.com/a/TqiuDly"
+   <img src="https://github.com/Eden-Office/LimbusCompanyBusFR/blob/main/EO_EdenButton.png?raw=true"
       width="200"
       height="200"/>
 </a>

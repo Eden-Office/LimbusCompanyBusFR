@@ -2946,6 +2946,342 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1011601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tranche Dimensionnelle",
+          "desc": "[WhenUse] Consomme 2 de Compte de [Charge] pour gagner +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +6 de Compte de [Charge] (une fois par Capacité)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Consomme 1 [DriftingDimensionYisang] pour Réutiliser cette Pièce (une fois par Capacité)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Tranche Dimensionnelle",
+          "desc": "[WhenUse] Consomme 2 de Compte de [Charge] pour gagner +1 de Puissance de Pièce<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +6 de Compte de [Charge] (une fois par Capacité)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Consomme 1 [DriftingDimensionYisang] pour Réutiliser cette Pièce (une fois par Capacité)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Tranche Dimensionnelle",
+          "desc": "<style=\"highlight\">[WhenUse] +1 de Puissance Finale tous les 6 (Compte de [Charge] sur soi + [Burst] et [DimensionRift] sur la cible) (3 max)</style>\n[WhenUse] Consomme 2 de Compte de [Charge] pour gagner +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +6 de Compte de [Charge] (une fois par Capacité)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Consomme 1 [DriftingDimensionYisang] pour Réutiliser cette Pièce (une fois par Capacité)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tranches Dimensionnelles Consécutives",
+          "desc": "[WhenUse] Consomme 5 de Compte de [Charge] pour gagner +2 de Puissance Finale",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +6 de Compte de [Charge]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [DimensionRift]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige ((Intensité de [Charge] sur soi * 4)% des dégâts finaux de cette Pièce) dégâts Tranchants (20% max)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Tranches Dimensionnelles Consécutives",
+          "desc": "[WhenUse] Consomme 5 de Compte de [Charge] pour gagner +2 de Puissance Finale\n<style=\"highlight\">[WhenUse] À 3 d’Intensité de [Charge] ou plus, +1 de Puissance de Pièce</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +6 de Compte de [Charge]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [DimensionRift]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige ((Intensité de [Charge] sur soi * 4)% des dégâts finaux de cette Pièce) dégâts Tranchants (20% max)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Tranches Dimensionnelles Consécutives",
+          "desc": "<style=\"highlight\">[WhenUse] +1 de Puissance Finale tous les 6 ([Burst] + [DimensionRift]) sur la cible (3 max)</style>\n[WhenUse] Consomme 5 de Compte de [Charge] pour gagner +2 de Puissance Finale\n[WhenUse] À 3 d’Intensité de [Charge] ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +6 de Compte de [Charge]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [DimensionRift]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige ((Intensité de [Charge] sur soi * 4)% des dégâts finaux de cette Pièce) dégâts Tranchants (20% max)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011603,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Déchirer l’Espace",
+          "desc": "[BeforeUse] À 15 de Compte de [Charge] ou plus, active “Rupture de Série Temporelle de Réfraction Quadridimensionnelle” à la place\n[WhenUse] À 7~14 de Compte de [Charge] :\n - Consomme tout le Compte de [Charge] et gagne +1 de Puissance de Pièce tous les 7 Comptes de [Charge] consommés (2 max)\n\n[WhenUse] Gagne 1 [DriftingDimensionYisang] et 1 [FourDimensionYisang]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Charge]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Charge]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [DimensionRift]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige ((Intensité de [Charge] sur soi * 4)% des dégâts finaux de cette Pièce) dégâts Tranchants (20% max)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Déchirer l’Espace",
+          "desc": "[BeforeUse] À 15 de Compte de [Charge] ou plus, active “Rupture de Série Temporelle de Réfraction Quadridimensionnelle” à la place\n[WhenUse] À 7~14 de Compte de [Charge] :\n - Consomme tout le Compte de [Charge] et gagne +1 de Puissance de Pièce tous les 7 Comptes de [Charge] consommés (2 max)\n\n<style=\"highlight\">[WhenUse] +1 de Puissance Finale tous les 6 ([Burst] + [DimensionRift]) sur la cible (4 max)</style>\n[WhenUse] Gagne 1 [DriftingDimensionYisang] et 1 [FourDimensionYisang]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Charge]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Charge]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [DimensionRift]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige ((Intensité de [Charge] sur soi * 4)% des dégâts finaux de cette Pièce) dégâts Tranchants (20% max)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pas de Côté",
+          "desc": "[StartBattle] Gagne 1 [DriftingDimensionYisang] et 1 [FourDimensionYisang] (une fois par tour)\n - À 3 d’Intensité de [Charge] ou plus, gagne 1 Instance supplémentaire des effets ci-dessus\n\n[StartBattle] À moins de 7 de Compte de [Charge], consomme (7 - Compte de [Charge] sur soi)% PV pour gagner jusqu’à 7 de Compte de [Charge] (les PV de cette unité ne peuvent pas tomber en dessous de 0 suite à cet effet ; arrondi à l’inférieur)\n\n[StartBattle] À plus de 15 de Compte de [Charge], consomme jusqu’à 10 de Compte de [Charge] en surplus et applique les effets suivants :\n - Regagne (Compte de [Charge] consommé)% de PV\n - Gagne (Compte de [Charge] consommé / 3) [Agility] au prochain tour (arrondi à l’inférieur)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Pas de Côté",
+          "desc": "<style=\"highlight\">[StartBattle] Gagne autant de [ChargeForceField] que d’Intensité de [Charge] sur soi (une fois par tour ; 5 max)</style>\n[StartBattle] Gagne 1 [DriftingDimensionYisang] et 1 [FourDimensionYisang] (une fois par tour)\n - À 3 d’Intensité de [Charge] ou plus, gagne 1 Instance supplémentaire des effets ci-dessus\n\n[StartBattle] À moins de 7 de Compte de [Charge], consomme (7 - Compte de [Charge] sur soi)% PV pour gagner jusqu’à 7 de Compte de [Charge] (les PV de cette unité ne peuvent pas tomber en dessous de 0 suite à cet effet ; arrondi à l’inférieur)\n\n[StartBattle] À plus de 15 de Compte de [Charge], consomme jusqu’à 10 de Compte de [Charge] en surplus et applique les effets suivants :\n - Regagne (Compte de [Charge] consommé)% de PV\n - Gagne (Compte de [Charge] consommé / 3) [Agility] au prochain tour (arrondi à l’inférieur)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011605,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Rupture de Série Temporelle de Réfraction Quadridimensionnelle",
+          "desc": "[WideAreaRampage]\n[WhenUse] +1 de Puissance Finale tous les 6 ([Burst] + [DimensionRift]) sur la cible principale (3 max)\n[WhenUse] Gagne 1 [DriftingDimensionYisang] et 1 [FourDimensionYisang]\n[WhenUse] Consomme 15 de Compte de [Charge] pour gagner +1 de Puissance Finale et +2 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [FourDimensionYisang]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5% des dégâts finaux de cette Pièce en dégâts Tranchants à toutes les cibles"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [FourDimensionYisang]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5% des dégâts finaux de cette Pièce en dégâts Tranchants à toutes les cibles"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [FourDimensionYisang]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5% des dégâts finaux de cette Pièce en dégâts Tranchants à toutes les cibles"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Charge]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [DimensionRift]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5% des dégâts finaux de cette Pièce en dégâts Tranchants à toutes les cibles"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 5 d’Intensité de [Charge] ou plus, Réutilise cette Pièce (une fois par Capacité)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
