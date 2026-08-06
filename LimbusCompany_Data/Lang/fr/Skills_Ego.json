@@ -3100,6 +3100,39 @@
               ]
             }
           ]
+        },
+        {
+          "level": 4,
+          "name": "Lifetime Stew",
+          "abName": "Basilisoupe",
+          "desc": "[BeforeAttack] Augmente les dégâts selon le nombre actuel de ressources de Luxure (Jusqu’à 50%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "name": "Lifetime Stew",
+          "abName": "Basilisoupe",
+          "desc": "<style=\"highlight\">+1 de Puissance Finale tous les 4 ([Combustion] + [Laceration]) sur la cible principale (3 max)\n[BeforeAttack] Applique 1 [ScarletResultUp] au prochain tour aux alliés selon leur Ordre de Déploiement toutes les 6 ressources E.G.O. de Luxure possédées (5 unités max)\n[BeforeAttack] Inflige +6% de dégâts par ressource E.G.O. de Luxure possédée (120% max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige +3 de Compte de [Laceration]</style>"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -3110,7 +3143,7 @@
           "level": 1,
           "name": "Ragoût à Vie",
           "abName": "Basilisoupe",
-          "desc": "[CantIdentify]\nCible l’unité avec le plus de PV\n\n[BeforeAttack] Augmente les dégâts selon le nombre actuel de ressources de Luxure (Jusqu’à 25%)\nPuis dépense des ressources de Luxure selon la (Réson. de Luxure) ; augmente davantage les dégâts de 5% par ressource dépensée",
+          "desc": "[CantIdentify]\nCible l’unité avec le plus de PV\n\n[BeforeAttack] Augmente les dégâts selon le nombre actuel de ressources de Luxure (Jusqu’à 25%)\nPuis, dépense (Réson. de Luxure) ressources de Luxure ; inflige +5% de dégâts supplémentaires par ressource dépensée",
           "coinlist": [
             {
               "coindescs": [
@@ -3125,12 +3158,48 @@
           "level": 3,
           "name": "Ragoût à Vie",
           "abName": "Basilisoupe",
-          "desc": "[CantIdentify]\nCible l’unité avec le plus de PV\n\n[BeforeAttack] Augmente les dégâts selon le nombre actuel de ressources de Luxure (Jusqu’à 50%)\nPuis dépense des ressources de Luxure selon la (Réson. de Luxure) ; augmente davantage les dégâts de 10% par ressource dépensée",
+          "desc": "[CantIdentify]\nCible l’unité avec le plus de PV\n\n[BeforeAttack] Augmente les dégâts selon le nombre actuel de ressources de Luxure (Jusqu’à 50%)\nPuis, dépense (Réson. de Luxure) ressources de Luxure ; inflige +10% de dégâts supplémentaires par ressource dépensée",
           "coinlist": [
             {
               "coindescs": [
                 {
                   "desc": "[OnSucceedAttack] Inflige +4 de Compte de [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Lifetime Stew",
+          "abName": "Basilisoupe",
+          "desc": "[CantIdentify]\nCible l’unité avec le plus de PV\n\n[BeforeAttack] Augmente les dégâts selon le nombre actuel de ressources de Luxure (Jusqu’à 50%)\nPuis, dépense (Réson. de Luxure) ressources de Luxure ; inflige +10% de dégâts supplémentaires par ressource dépensée",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +4 de Compte de [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "name": "Lifetime Stew",
+          "abName": "Basilisoupe",
+          "desc": "[CantIdentify]\nCible l’unité avec le plus de PV\n\n<style=\"highlight\">+1 de Puissance Finale tous les 4 ([Combustion] + [Laceration]) sur la cible principale (3 max)\n[BeforeAttack] Applique 1 [ScarletResultUp] et 1 [ScarletDamageUp] au prochain tour aux alliés selon leur Ordre de Déploiement toutes les 6 ressources E.G.O. de Luxure possédées (5 unités max)\n[BeforeAttack]\n- Inflige +5% de dégâts par ressource E.G.O. de Luxure possédée (100% max)\n- Puis, consomme (Réson. de Luxure * 2) ressources E.G.O. de Luxure (8 max)\n- Inflige +20% de dégâts par ressource E.G.O. de Luxure consommée (160% max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[SuperCoin]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +4 de Compte de [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige +4 de Compte de [Laceration]</style>"
                 }
               ]
             }
@@ -3172,6 +3241,51 @@
                 },
                 {
                   "desc": "[OnSucceedAttackTail] Inflige 7 [Combustion] ; si la cible est un allié, lui donne 2 [Agility] et 1 <sprite name=\"GainSinStockAdder\"><color=#f8c200><u><link=\"GainSinStockAdder\">Amp de Ressources E.G.O.</color></link></u> au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Lifetime Stew",
+          "abName": "Basilisoupe",
+          "desc": "[CantIdentify]\nCible l’unité avec le moins de PV\nSi la cible est un allié, inflige 0 dégât",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Si la cible est un allié, le soigne de 10% de PV max de l’utilisateur"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Inflige 7 [Combustion] ; si la cible est un allié, lui donne 2 [Agility] et 1 <sprite name=\"GainSinStockAdder\"><color=#f8c200><u><link=\"GainSinStockAdder\">Amp de Ressources E.G.O.</color></link></u> au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "name": "Lifetime Stew",
+          "abName": "Basilisoupe",
+          "desc": "[CantIdentify]\nCible l’unité avec le moins de PV\n<style=\"highlight\">Le nombre de ressource E.G.O. de Gourmandise nécessaire pour utiliser cette Capacité est réduit à 0\nSi la cible est un allié, cette Capacité inflige 0 dégât et ne déclenche pas de Capacités Défensives (inclut les Capacités Défensives Affrontables en Duel)\n[DefeatDuel] -8 de Puissance de Base\n[EndSkill] Si cette Capacité touche un allié, cette unité rend des PSM égaux au nombre d’alliés ciblés par cette Capacité\n[EndSkill] Soigne cette unité de (5 * nombre d’alliés ciblés par cette Capacité)% des PV max (5% min, 20% max)\n[EndSkill] Gagne 1 [GainSinStockAdder] et 2 [Agility] au prochain tour</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[SuperCoin]</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Si la cible est un allié,</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">- Soigne la cible de (5 * nombre d’alliés ciblés par cette Capacité)% des PV max de l’utilisateur (20% max)</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">- Gagne 1 [GainSinStockAdder] et 2 [Agility] au prochain tour</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Inflige 7 [Combustion]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3222,6 +3336,30 @@
               "coindescs": [
                 {
                   "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "name": "Lifetime Stew",
+          "abName": "Basilisoupe",
+          "desc": "[CantIdentify]\nCible l’unité avec le moins de PV\n<style=\"highlight\">Le nombre de ressource E.G.O. de Gourmandise nécessaire pour utiliser cette Capacité est réduit à 0\n[DefeatDuel] -12 de Puissance de Base\n[BeforeAttack] Inflige +15% de dégâts toutes les 4 (Intensité de [Combustion] sur toutes les cibles) (60% max)\n[BeforeAttack] Consomme jusqu’à 3 des ressources E.G.O. les plus possédées et inflige +10% de dégâts par ressource E.G.O. consommée (30% max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[SuperCoin]</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 2 [Combustion]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[UnBrokenCoinOnSucceedAttack] Si une ressource E.G.O. a été dépensée suite à l’effet de cette Capacité, inflige des dégâts de Luxure égaux à 50% des dégâts finaux de cette Pièce</style>"
                 }
               ]
             }
