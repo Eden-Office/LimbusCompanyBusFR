@@ -116,6 +116,66 @@
       "name": "Souvenirs en Dispersion",
       "desc": "À la mort, donne +1 ressource E.G.O. de l’Affinité la moins possédée",
       "summary": "Donne une ressource E.G.O. à la mort"
+    },
+    {
+      "id": 501911,
+      "name": "Reflépreuve",
+      "desc": "À 10 Clashs ou plus contre le même ennemi, gagne ou perd aléatoirement (Compte de Clash / 10) de Puissance de Duel pendant le Duel (10 max)\n\nPlafond d’Intensité max de [Combustion], de [Laceration], de [Vibration], de [Burst] et de [Sinking]: 30\nPlafond de Compte max des effets ci-dessus : 10\n\nDébut d’Affrontement de l’Équipe 1 :\n- Cette unité et tous les Pécheurs sur le terrain : met les PSM à 30 (pour les Identités à Pièces Négatives, -30)\n- Gagne +3 Ressources E.G.O. de toutes les Affinités\n\nEn activant les effets Passif de “Étoile Tiantui”,\nTermine le tour et entre en Phase 2 au prochain tour\n- Entrer dans la nouvelle phase ne réinitialise pas les effets sur cette unité\n\nDébut d’Affrontement des Équipes 2 & 3 :\nSelon le pourcentage de PV actuel de cette unité, les effets Passifs ci-dessous sont considérés comme activés dans l’ordre listé\n- Plus de 85% de PV : Tigermark Round[TabExplain] Reload[TabExplain]\n- 85% or lower: Recharge[TabExplain] de Cartouche de Marque du Tigre[TabExplain] ; Lei Heng\n- 66% ou moins : Recharge[TabExplain] de Cartouche de Marque du Tigre[TabExplain] ; Lei Heng ; Étoile Tiantui\n- 50% ou moins : Recharge[TabExplain] de Cartouche de Marque du Tigre[TabExplain] ; Lei Heng ; Étoile Tiantui ; Lei Heng, Étoile Tiantui de l’Auriculaire"
+    },
+    {
+      "id": 501901,
+      "name": "Officier du Pouce, Capo IIII",
+      "desc": "Subit -30% de dégâts de [Combustion], de [Laceration], de [Vibration], de [Burst] et de [Sinking]\n\nEn lançant des Pièces qui consomme une [BulletPropellant] : n’annule pas l’attaque de cette unité en n’ayant pas de [BulletPropellant], les effets de Pièce “inflige [Combustion]” et “inflige du Compte de [Combustion]” ne s’activent pas\n\nDans un Duel, inflige +(1 + (# de Clash / 3)) de Compte de [Vibration]\n(3 max ; 3 fois par tour contre la même cible)"
+    },
+    {
+      "id": 501902,
+      "name": "Dix Lames de l’Est",
+      "desc": "Au Début de l’Affrontement et au Début de Tour d’un nouveau comportement :\n- Gagne 1 [Bothersome]\n- Regagne 5 PSM tous les 10% de PV manquants sur soi (40 max)\n\nGagne les effets de [PanicChangeLock]\nFin du Tour : si cette unité est en Panique, remet les PSM à 45"
+    },
+    {
+      "id": 501903,
+      "name": "Proie Choisie",
+      "desc": "Début du Tour : <color=#ff6000><mark=#ff000040><b><u>inflige 1 [Prey_leiheng] au Pécheur ayant infligé le plus de dégâts à cette unité</u></b></mark></color> au dernier tour\n\nAprès que Lei Hent ait attaqué la cible ayant [Prey_leiheng] :\n- Si la cible est Déséquilibrée, tous les Pécheurs perdent 10 PSM et gagne 1 [ParryingResultDown] pour ce tour et le tour suivant (une fois par tour)\n- Si la cible est vaincue, active l’effet ci-dessus une nouvelle fois"
+    },
+    {
+      "id": 501904,
+      "name": "Lame de l’Étoile Tiantui [天退星刀]",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>En Touche, les Attaques à Sens Unique</u></b></mark></color> infligent +30% de dégâts et infligent 1 [Vulnerable] au prochain tour\n\nLes Pièces de Capacité ayant dépensées une [BulletPropellant] infligent +20% de dégâts En Touche et infligent 2 [DefenseDown] au prochain tour\n\n<color=#ff6000><mark=#ff000040><b><u>Les effets ci-dessus ne s’activent pas si la cible a équipé une Capacité Défensive</u></b></mark></color>"
+    },
+    {
+      "id": 501912,
+      "name": "Lame de l’Étoile Tiantui - Surchauffe",
+      "desc": "Si cette unité a utilisé une attaque puissante (“Tranchenœud” ou “Rafale Perfectionnée de Lames du Tueur de Tigre Sauvage”), gagne de la [Complacency] au prochain tour égale au nombre de fois que ces Capacités ont été utilisées (5 max)"
+    },
+    {
+      "id": 501910,
+      "name": "Chachihu [揷翅虎]",
+      "desc": "Début du Combat : <color=#ff6000><mark=#ff000040><b><u>selon la valeur de Vitesse de cette unité</u></b></mark></color>,\n- Regagne des PSM égaux à la valeur de Vitesse. À moins de 0 PSM, double la quantité soignée\n- Gagne (Valeur de Vitesse / 3) [SlashDamageUp] (5 max)\n\nDébut du Combat : <color=#ff6000><mark=#ff000040><b><u>si cette unité a 3 [Binding] ou plus, l’effet ci-dessus ne s’active pas ;</u></b></mark></color> gagne autant de [DefenseDown] que de [Binding] sur soi (9 max)"
+    },
+    {
+      "id": 501905,
+      "name": "Recharge de Cartouche de Marque du Tigre",
+      "desc": "À la fin du Tour 1, recharge [BulletPropellant] et gagne un nouveau comportement au prochain tour\n- Si cette unité est Déséquilibrée, se remet de Déséquilibre"
+    },
+    {
+      "id": 501906,
+      "name": "Lei Heng [雷橫]",
+      "desc": "Fin du Tour : à 85% de PV ou moins, ou à la fin du Tour 2, gagne un nouveau comportement au prochain tour\n- Utilise une attaque puissante (“Tranchenœud”), se répète tous les 3 tours. +10 de Vitesse Min & Max aux tours où cette unité utilise cette Capacité\n- Au début de ce tour, gagne 25 [BattleSense]\n- Si cette unité est Déséquilibrée, se remet de Déséquilibre"
+    },
+    {
+      "id": 501907,
+      "name": "Étoile Tiantui [天退星]",
+      "desc": "Si les PV de cette unité sont tombés à 66% ou moins durant le combat, entre dans une nouvelle phase au prochain tour et gagne un nouveau comportement\n- Lorsque ce tour commence, gagne 1 [Irritation]\n- Lorsque ce tour commence, gagne 18 [BulletPropellantSpecial] et recharge immédiatement\n· Si cette unité dépense toutes ses [BulletPropellantSpecial], convertit l’effet en [BulletPropellant] et invoque 2 unités “Soldato Strict du Pouce” au prochain tour et les fait fournir cette unité en [BulletPropellantSpecial]\n- Lorsque Déséquilibré, se remet de Déséquilibre"
+    },
+    {
+      "id": 501908,
+      "name": "Lei Heng, Étoile Tiantui de l’Auriculaire",
+      "desc": "Fin du Tour : à 50% de PV ou moins, gagne un nouveau comportement au prochain tour\n- Remplace l’attaque puissante “Tranchenœud” par “Rafale Perfectionnée de Lames du Tueur de Tigre Sauvage” ; +15 de Vitesse Min & Max durant les tours où cette unité utilise cette Capacité\n- Convertit [BattleSense] en [RestoredBattleSense]\n- Convertit [Irritation] en [HugeIrritation]\n- Si cette unité est Déséquilibrée, se remet de Déséquilibre"
+    },
+    {
+      "id": 502001,
+      "name": "Support de la Marque du Tigre Sauvage",
+      "desc": "Début du Tour : gagne 3 [Vulnerable]\nFin du Tour : fournit des [BulletPropellantSpecial] à Lei Heng\n\nSi cette unité est tuée, Lei Heng gagne 1 [Vulnerable] au prochain tour"
     }
   ]
 }

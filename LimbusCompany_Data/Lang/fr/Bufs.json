@@ -2434,7 +2434,7 @@
     {
       "id": "DianxueDonQuixote",
       "name": "Point Sensible - Don Quichotte",
-      "desc": "- Instance max : 3\n- L’unité ayant infligé ce Point Sensible gagne les effets suivants selon la Valeur de Point Sensible sur la cible (ou la Partie ciblée)\n· 1 de Valeur : gagne +1 de Puissance de Duel\n· 2 de Valeur : gagne +1 de Puissance de Base\n· 3 de Valeur : gagne +1 de Puissance de Duel et +1 de Puissance de Base\n- Expire si l’unité ayant infligé cet effet l’inflige à une cible différente (ou une Partie différente)\n- Remplacé lorsqu’une autre unité inflige Point Sensible",
+      "desc": "- Instance max : 3\n- L’unité ayant infligé ce Point Sensible gagne les effets suivants selon l’Instance de Point Sensible sur la cible (ou la Partie ciblée)\n· 1 Instance : gagne +1 de Puissance de Duel\n· 2 Instances : gagne +1 de Puissance de Base\n· 3 Instances : gagne +1 de Puissance de Duel et +1 de Puissance de Base\n- Expire si l’unité ayant infligé cet effet l’inflige à une cible différente (ou une Partie différente)\n- Remplacé lorsqu’une autre unité inflige Point Sensible (les Instances sont préservées)",
       "summary": "",
       "undefined": "-"
     },
@@ -4065,6 +4065,20 @@
       "name": "Dimensions Quadricolores",
       "desc": "- Instance max : 4\n- Gagne les effets suivants selon l’Instance :\n· 1 ou plus : +1 Niveau Offensif\n· 2 ou plus : +2 Niveaux Défensifs\n· 3 ou plus : gagne +1 de Compte de Déchirure avec les Capacités de cette unité\n· 4 ou plus : les Capacités de cette unité infligent +(Intensité de Charge * 4)% de dégâts (20% max)\n\n- Si cette unité gagne cet effet par-delà son plafond max, cette unité gagne l’Instance en surplus au prochain tour\n- Fin du Tour : perd 1 Instance",
       "summary": ""
+    },
+    {
+      "id": "DianxueHongLu",
+      "name": "Point Sensible - Hong Lu",
+      "desc": "- Instance max : 3\n- L’unité ayant infligé ce Point Sensible gagne les effets suivants selon l’Instance de Point Sensible sur la cible (ou la Partie ciblée)\n· 1 Instance : gagne +1 de Puissance de Duel\n· 2 Instances : gagne +1 de Puissance de Base\n· 3 Instances : gagne +1 de Puissance de Duel et +1 de Puissance de Base\n- Expire si l’unité ayant infligé cet effet l’inflige à une cible différente (ou une Partie différente)\n- Remplacé lorsqu’une autre unité inflige Point Sensible (les Instances sont préservées)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "DuelSousTemoinsEast",
+      "name": "Témoigné - Cinq de l’Est",
+      "desc": "- Instance max : 3\n- +(Instance) Niveaux Offensifs\n- À 2 Instances ou plus, les Capacités de Base gagnent +1 d’Intensité de Calme supplémentaire\n- À 3 Instances ou plus, les Capacités de Base gagnent +1 de Compte de Calme supplémentaire",
+      "summary": "",
+      "undefined": "-"
     }
   ]
 }

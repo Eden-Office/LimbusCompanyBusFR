@@ -3389,6 +3389,263 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1061601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fa Jin",
+          "desc": "[WhenUse] Si la cible n’a pas [DianxueHongLu], +1 de Puissance de Duel\n[WhenUse] Gagne +3 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 3 [DianxueHongLu] ou plus, Réutilise cette Pièce (une fois par Capacité)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Fa Jin",
+          "desc": "<style=\"highlight\">Si la Vitesse de cette unité dépasse celle de la cible de 2 ou plus, +1 de Puissance de Pièce</style>\n[WhenUse] Si la cible n’a pas [DianxueHongLu], +1 de Puissance de Duel\n[WhenUse] Gagne +3 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 3 [DianxueHongLu] ou plus, Réutilise cette Pièce (une fois par Capacité)"
+                },
+                {
+                  "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Inflige 1 [Combustion]</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Fa Jin",
+          "desc": "Si la Vitesse de cette unité dépasse celle de la cible de 2 ou plus, +1 de Puissance de Pièce\n<style=\"highlight\">[WhenUse] +1 de Puissance de Duel toutes les 6 ([Breath] sur soi + [Combustion] sur la cible) (2 max)</style>\n[WhenUse] Si la cible n’a pas [DianxueHongLu], +1 de Puissance de Duel\n[WhenUse] Gagne +3 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 3 [DianxueHongLu] ou plus, Réutilise cette Pièce (une fois par Capacité)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Inflige 1 [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Paume Embrasée Virescente",
+          "desc": "[WinDuel] Gagne 3 [Breath]\n- Gagne autant de Compte de [Breath] que de [DianxueHongLu] sur la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 2 [DianxueHongLu] ou plus, Réutilise cette Pièce (une fois par Capacité)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Paume Embrasée Virescente",
+          "desc": "<style=\"highlight\">Si la Vitesse de cette unité dépasse celle de la cible, gagne de la Puissance de Pièce selon la différence de Vitesse (+1 de Puissance de Pièce toutes les 2 différences de Vitesse ; 2 max)</style>\n[WinDuel] Gagne 3 [Breath]\n- Gagne autant de Compte de [Breath] que de [DianxueHongLu] sur la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +<style=\"highlight\">2</style> de Compte de [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige +1 de Compte de [Combustion]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 2 [DianxueHongLu] ou plus, Réutilise cette Pièce (une fois par Capacité)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Inflige autant de [DefenseDown] que de [DianxueHongLu] sur la cible (une fois par tour)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Paume Embrasée Virescente",
+          "desc": "Si la Vitesse de cette unité dépasse celle de la cible, gagne de la Puissance de Pièce selon la différence de Vitesse (+1 de Puissance de Pièce toutes les 2 différences de Vitesse ; 2 max)\n<style=\"highlight\">[WhenUse] À 6 ([Breath] sur soi + [Combustion] sur la cible) ou plus, +1 de Puissance Finale</style>\n[WinDuel] Gagne 3 [Breath]\n- Gagne autant de Compte de [Breath] que de [DianxueHongLu] sur la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Breath]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 2 [DianxueHongLu] ou plus, Réutilise cette Pièce (une fois par Capacité)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Inflige autant de [DefenseDown] que de [DianxueHongLu] sur la cible (une fois par tour)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061603,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Pourriez-vous Subir La Totalité de Mes Coups, Je Vous Prie ?",
+          "desc": "Si la Vitesse de cette unité dépasse celle de la cible de 2 ou plus, +1 de Puissance de Pièce\n[WinDuel] Gagne 3 [Breath]\n- Gagne autant de Compte de [Breath] que de [DianxueHongLu] sur la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +([Breath] sur soi + [Combustion] sur la cible)% de dégâts en Touche Critique (20% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 2 [DefenseDown] (2 fois par tour)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [DianxueHongLu], Réutilise cette Pièce (une fois par Capacité)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Inflige (([Combustion] sur la cible * 2)% des dégâts finaux de cette Pièce) dégâts de Colère (40% max)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Pourriez-vous Subir La Totalité de Mes Coups, Je Vous Prie ?",
+          "desc": "Si la Vitesse de cette unité dépasse celle de la cible de 2 ou plus, +1 de Puissance de Pièce\n<style=\"highlight\">[WhenUse] À 6 ([Breath] sur soi + [Combustion] sur la cible) ou plus, +1 de Puissance de Pièce</style>\n[WinDuel] Gagne <style=\"highlight\">5</style> [Breath]\n- Gagne autant de Compte de [Breath] que de [DianxueHongLu] sur la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +([Breath] sur soi + [Combustion] sur la cible)% de dégâts en Touche Critique (<style=\"highlight\">30</style>% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige 2 [DefenseDown] (2 fois par tour)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [DianxueHongLu], Réutilise cette Pièce (une fois par Capacité)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Inflige (([Combustion] sur la cible * 2)% des dégâts finaux de cette Pièce) dégâts de Colère (40% max)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Aussi Léger qu’une Touffe Nuageuse",
+          "desc": "Si la Vitesse de cette unité dépasse celle de l’attaquant de 2 ou plus, +1 de Puissance de Pièce\n[StartBattle] Gagne +2 de Compte de [Breath] (une fois par tour)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Aussi Léger qu’une Touffe Nuageuse",
+          "desc": "Si la Vitesse de cette unité dépasse celle de l’attaquant de 2 ou plus, +1 de Puissance de Pièce\n[StartBattle] Gagne +<style=\"highlight\">3</style> de Compte de [Breath] (une fois par tour)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
     }
   ]
 }

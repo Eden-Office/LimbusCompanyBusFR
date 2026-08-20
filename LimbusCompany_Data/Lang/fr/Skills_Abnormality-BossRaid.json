@@ -648,6 +648,377 @@
           ]
         }
       ]
+    },
+    {
+      "id": 501901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Double Entaille",
+          "desc": "+1 de Puissance Finale toutes les 4 ([Combustion] + [Vibration]) sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 501902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Triple Entaille",
+          "desc": "+1 de Puissance Finale toutes les 4 ([Combustion] + [Vibration]) sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration] et +2 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 501903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Double Entaille - Explosion [爆]",
+          "desc": "+1 de Puissance Finale toutes les 4 ([Combustion] + [Vibration]) sur la cible (4 max)\n[DefeatDuel] Perd 1 [BulletPropellant]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [BulletPropellant]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Combustion] et +2 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Vibration] et +2 de Compte de [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 501904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Triple Entaille - Explosion [爆]",
+          "desc": "+1 de Puissance Finale toutes les 4 ([Combustion] + [Vibration]) sur la cible (4 max)\n[DefeatDuel] Perd 1 [BulletPropellant]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [BulletPropellant]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Combustion] et +2 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration] et +2 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [BulletPropellant]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Combustion] et +2 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Déclenche un [VibrationExplosion] deux fois ; puis, réduit le Compte de [Vibration] de la cible de 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 501905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Éclatement d’Entailles Explosives [爆碎斬]",
+          "desc": "Priorise les cibles ayant [Prey_leiheng]\n<color=#ff6000><mark=#ff000040><b><u>Cette Capacité peut être affrontée en Duel qu’importe la Vitesse</u></b></mark></color>\n+1 de Puissance de Pièce toutes les 6 ([Combustion] + [Vibration]) sur la cible (3 max)\n[DefeatDuel] Perd 10 PSM",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Dépense 1 [BulletPropellant]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Vibration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 4 [Vibration] et +4 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Dépense 1 [BulletPropellant]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationIgnition]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Dépense 1 [BulletPropellant]"
+                },
+                {
+                  "desc": "<color=#ff6000><mark=#ff000040><b><u>Si cette unité a dépense une [BulletPropellant] suite à l’effet de cette Pièce, inflige +50% de dégâts</u></b></mark></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Combustion] et +3 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "<color=#ff6000><mark=#ff000040><b><u>[UnBrokenCoinOnSucceedAttack]</u></b></mark></color> Déclenche un [VibrationExplosion] deux fois ; puis, réduit le Compte de [Vibration] de la cible de 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 501906,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tranchenœud [快刀亂麻]",
+          "desc": "Priorise les cibles ayant [Prey_leiheng]\n<color=#ff6000><mark=#ff000040><b><u>Cette Capacité peut être affrontée en Duel qu’importe la Vitesse ; cette unité ne peut pas être Déséquilibrée avant d’avoir utilisé cette Capacité</u></b></mark></color>\n[WhenUse] Consomme toutes Instances de [BattleSense] sur soi. Si cette unité a consommé…\n- … 10 Instances ou plus, gagne +1 de Poids d’Atq toutes les 10 Instances consommées (2 max)\n- … 25 Instances, +1 de Puissance Finale toutes les 4 ([Combustion] + [Vibration] de la cible principale) (5 max)\n[DefeatDuel] Gagne 1 [Paralysis]\n[DefeatDuel] Inflige -80% de dégâts ; les dégâts de cette Capacité ne peuvent pas Déséquilibrer la cible ; <color=#ff6000><mark=#ff000040><b><u>inflige seulement la moitié de l’Intensité et du Compte de [Combustion] et de [Vibration] infligés par cette Capacité</u></b></mark></color> (sauf si augmentés par d’autres effets)\n[EndSkill] [FullReload] (une fois par tour)\n- Si cette unité a [BulletPropellantSpecial], [ReloadKeepAmmo] à la place (une fois par tour)\n[EndSkill] Termine ce tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Dépense toutes [BulletPropellant]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige de la [Combustion], du Compte de [Combustion], du [Vibration] et du Compte de [Vibration] égaux aux [BulletPropellant] dépensées"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationIgnition]"
+                },
+                {
+                  "desc": "<color=#ff6000><mark=#ff000040><b><u>[UnBrokenCoinOnSucceedAttack]</u></b></mark></color> Déclenche un [VibrationExplosion] 3 fois ; puis, réduit le Compte de [Vibration] de la cible de 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 501907,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Rafale Perfectionnée de Lames du Tueur de Tigre Sauvage [超絕猛虎殺擊亂斬]",
+          "desc": "Priorise les cibles ayant [Prey_leiheng]\n<color=#ff6000><mark=#ff000040><b><u>Cette Capacité peut être affrontée en Duel qu’importe la Vitesse ; cette unité ne peut pas être Déséquilibrée avant d’avoir utilisé cette Capacité</u></b></mark></color>\n[WhenUse] Consomme toutes Instances de [BattleSense] sur soi. Si cette unité a consommé…\n- … 10 Instances ou plus, gagne +1 de Poids d’Atq toutes les 10 Instances consommées (4 max)\n- … 25 Instances, +1 de Puissance Finale toutes les 4 ([Combustion] + [Vibration] de la cible principale) (6 max)\n- … 50 Instances, +1 de Puissance de Pièce et inflige +50% de dégâts\n[DefeatDuel] Gagne 6 [Paralysis]\n[DefeatDuel] Inflige -80% de dégâts ; les dégâts de cette Capacité ne peuvent pas Déséquilibrer la cible ; <color=#ff6000><mark=#ff000040><b><u>inflige seulement la moitié de l’Intensité et du Compte de [Combustion] et de [Vibration] infligés par cette Capacité</u></b></mark></color> (sauf si augmentés par d’autres effets)\n[EndSkill] [FullReload] (une fois par tour)\n- Si cette unité a [BulletPropellantSpecial], [ReloadKeepAmmo] à la place (une fois par tour)\n[EndSkill] Termine ce tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Dépense 1 [BulletPropellant]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 6 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Dépense 1 [BulletPropellant]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +6 de Compte de [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Dépense 1 [BulletPropellant]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 6 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Dépense 1 [BulletPropellant]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +6 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Dépense 1 [BulletPropellant]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationIgnition]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Dépense 1 [BulletPropellant]"
+                },
+                {
+                  "desc": "<color=#ff6000><mark=#ff000040><b><u>[UnBrokenCoinOnSucceedAttack]</u></b></mark></color> Déclenche un [VibrationExplosion] 5 fois ; puis, réduit le Compte de [Vibration] de la cible de 5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 501908,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Recharge de la Lame de l’Étoile Tiantui",
+          "desc": "[DuelCounter]\n[DefeatDuel] Perd 1 [BulletPropellant]\n[EndBattle] [FullReload] (une fois par tour)\n- Si cette unité a [BulletPropellantSpecial], [ReloadKeepAmmo] à la place (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Dépense 1 [BulletPropellant]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 502001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Support de la Marque du Tigre Sauvage",
+          "desc": "[EndBattle] Donne 6 [BulletPropellantSpecial] à Lei Heng\n[EndBattle] [DisengageCombat]",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
     }
   ]
 }

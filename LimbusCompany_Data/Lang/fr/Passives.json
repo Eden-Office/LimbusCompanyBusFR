@@ -1546,7 +1546,7 @@
     {
       "id": 1021011,
       "name": "Démantèlement de l’électrocourant",
-      "desc": "Gagne 1 [Charge] chaque fois que cette unité consomme 10 de Compte de [Charge] cumulés cet Affrontement\nÀ 2 [Charge] ou plus, inflige +([Charge] * 3)% de dégâts (15% max)\n<style=\"highlight\">- Si la cible est à moins de 50% e PV, inflige +([Charge] * 5)% de dégâts supplémentaires (25% max)</style>\n\nEn Tuant, cette unité et <style=\"highlight\">2 alliés</style> ayant le Compte de [Charge] le plus bas gagnent du Compte de [Charge] égal à <style=\"highlight\">([Charge] + 2)</style> (<style=\"highlight\">5</style> max, priorise les alliés qui consomment ou gagnent de la [Charge])",
+      "desc": "Gagne 1 [Charge] chaque fois que cette unité consomme 10 de Compte de [Charge] cumulés cet Affrontement\nÀ 2 [Charge] ou plus, inflige +([Charge] * 3)% de dégâts (15% max)\n<style=\"highlight\">- Si la cible est à moins de 50% de PV, inflige +([Charge] * 5)% de dégâts supplémentaires (25% max)</style>\n\nEn Tuant, cette unité et <style=\"highlight\">2 alliés</style> ayant le Compte de [Charge] le plus bas gagnent du Compte de [Charge] égal à <style=\"highlight\">([Charge] + 2)</style> (<style=\"highlight\">5</style> max, priorise les alliés qui consomment ou gagnent de la [Charge])",
       "summary": "Gagne [Charge] à chaque consommation de 10 de Compte de [Charge]\nÀ 2 [Charge] ou plus, inflige plus de dégâts\nEn Tuant, cette unité et 2 alliés gagnent du Compte de [Charge]"
     },
     {
@@ -2022,12 +2022,12 @@
     },
     {
       "id": 1031101,
-      "name": "Pyrojade Verdissante",
+      "name": "Pyrojade Virescente",
       "desc": "Fin du Tour : gagne 1 [Agility] au prochain tous les 5 d’Intensité de [Breath] sur soi (2 max)\n\nContre la cible (ou la Partie) touchée en dernier par une Capacité Offensive de Base, inflige [DianxueDonQuixote] au prochain tour (une fois par tour)\n\nInflige +(Intensité de [Combustion] sur la cible)% de dégâts en Touche Critique (15% max)"
     },
     {
       "id": 1031111,
-      "name": "Pyrojade Verdissante",
+      "name": "Pyrojade Virescente",
       "desc": "Fin du Tour : gagne 1 [Agility] au prochain tous les <style=\"highlight\">3</style> d’Intensité de [Breath] sur soi (2 max)\n\nContre la cible (ou la Partie) touchée en dernier par une Capacité Offensive de Base, inflige [DianxueDonQuixote] au prochain tour (une fois par tour)\n\nInflige +(Intensité de [Combustion] sur la cible)% de dégâts en Touche Critique (15% max)\n<style=\"highlight\">- Augmente le plafond max de 5% pour chaque 1 [DianxueDonQuixote] sur la cible</style>"
     },
     {
@@ -2392,12 +2392,12 @@
     {
       "id": 1021301,
       "name": "Shi-no-Yumi",
-      "desc": "À 4 Instances de [ArrowShiFau] : lorsque cette unité gagne de l’Intensité de [Breath] grâce à des effets de Capacités Offensives de Base, gagne +1 de Compte de [Breath] (2 fois par Affrontement ; le plafond par Affrontement se réinitialise lorsque [ArrowShiFau] tombe à 3)\nSi cette unité a utilisé la Capacité “Lueur de l’Arc” à 2 [AimForTheFoal] ou plus, gagne 1 [SlashDamageUp] au prochain tour"
+      "desc": "À 4 Instances de [ArrowShiFau] : lorsque cette unité gagne de l’Intensité de [Breath] grâce à des effets de Capacités Offensives de Base, gagne +1 de Compte de [Breath] (2 fois par Affrontement ; le plafond par Affrontement se réinitialise lorsque [ArrowShiFau] tombe à 3)\nSi cette unité a utilisé la Capacité “Lueur de l’Arc” à 2 [AimForTheGoal] ou plus, gagne 1 [SlashDamageUp] au prochain tour"
     },
     {
       "id": 1021311,
       "name": "Shi-no-Yumi",
-      "desc": "À 4 Instances de [ArrowShiFau] : lorsque cette unité gagne de l’Intensité de [Breath] grâce à des effets de Capacités Offensives de Base, gagne +1 de Compte de [Breath] (<style=\"highlight\">3</style> fois par Affrontement ; le plafond par Affrontement se réinitialise lorsque [ArrowShiFau] tombe à 3)\nSi cette unité a utilisé la Capacité “Lueur de l’Arc” à 2 [AimForTheFoal] ou plus, gagne <style=\"highlight\">2</style> [SlashDamageUp] au prochain tour"
+      "desc": "À 4 Instances de [ArrowShiFau] : lorsque cette unité gagne de l’Intensité de [Breath] grâce à des effets de Capacités Offensives de Base, gagne +1 de Compte de [Breath] (<style=\"highlight\">3</style> fois par Affrontement ; le plafond par Affrontement se réinitialise lorsque [ArrowShiFau] tombe à 3)\nSi cette unité a utilisé la Capacité “Lueur de l’Arc” à 2 [AimForTheGoal] ou plus, gagne <style=\"highlight\">2</style> [SlashDamageUp] au prochain tour"
     },
     {
       "id": 1021302,
@@ -3234,6 +3234,26 @@
       "desc": "Lorsque 1 allié avec la Vitesse la plus rapide utilise une Capacité qui gagne ou consomme du Compte de [Charge], gagne 1 [Agility] au prochain tour (une fois par tour)",
       "summary": "",
       "flavor": ""
+    },
+    {
+      "id": 1061601,
+      "name": "Pyrojade Virescente",
+      "desc": "En Duel Gagné, si la cible a Point Sensible, inflige 1 [DianxueHongLu] (une fois par tour)\n\nFin du Tour : gagne 1 [Agility] au prochain tour toutes les 5 d’Intensité de [Breath] sur soi (2 max)\n\nInflige +(Intensité de [Combustion] sur la cible)% de dégâts en Touche Critique (15% max)"
+    },
+    {
+      "id": 1061602,
+      "name": "Un Duel Témoigné",
+      "desc": "En entrant dans l’Affrontement pour la première fois, gagne autant de [DuelSousTemoinsEast] que d’Identités de “l’Association Cinq” en Unité de Renfort ou de Support (3 max, inclut les unités vaincues)\n\nContre la cible qu’une Capacité Offensive de Base a touché en dernier, inflige 1 [DianxueHongLu] au prochain tour (une fois par tour ; en Affrontements Ciblés, la Partie)"
+    },
+    {
+      "id": 1061611,
+      "name": "Pyrojade Virescente",
+      "desc": "En Duel Gagné, si la cible a Point Sensible, inflige 1 [DianxueHongLu] (une fois par tour)\n\nFin du Tour : gagne 1 [Agility] au prochain tour toutes les <style=\"highlight\">3</style> d’Intensité de [Breath] sur soi (2 max)\n\nInflige +(Intensité de [Combustion] sur la cible)% de dégâts en Touche Critique (15% max)\n<style=\"highlight\">- Augmente le plafond maximal de 5% par [DianxueHongLu] sur la cible</style>"
+    },
+    {
+      "id": 1061621,
+      "name": "Par la Fonte, J’Ouvrirai le Chemin",
+      "desc": "1 allié avec la Vitesse la plus rapide : En Duel Gagné contre des ennemis ayant [Combustion] ou une “Brûlure Unique”, inflige 1 [Binding] au prochain tour (une fois par tour)\n- Si la cible a 4 de Compte de [Combustion] ou moins, inflige également +1 de Compte de [Combustion] à ladite cible ce tour\n- Si la cible a 5 de Compte de [Combustion] ou plus, inflige également 3 [Combustion] à ladite cible ce tour"
     }
   ]
 }
