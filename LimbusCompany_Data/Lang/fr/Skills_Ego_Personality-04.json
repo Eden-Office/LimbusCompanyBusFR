@@ -56,6 +56,27 @@
               ]
             }
           ]
+        },
+        {
+          "level": 5,
+          "name": "Soda",
+          "abName": "Wellcheers",
+          "desc": "<style=\"highlight\">Si la cible a moins de 25% de PV, inflige +40% de dégâts\n[BeforeAttack] À 4 de plus haute Réson. ou plus, gagne +1 de Poids d’Atq\n\n[EndSkill] Applique 1 [GainSinStockAdder] au prochain tour à (2 + plus haute Réson.) alliés aléatoires, dont cette unité (7 max)\n[EndSkill] S’il y a des unités Déséquilibrées ou en Panique parmi les cibles, gagne 1 ressource E.G.O. de l’Affinité la moins possédée ; regagne 3 PSM</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 4 [Vibration]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 6 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[EnemyKill] Gagne 3 ressources E.G.O. d’une Affinité aléatoire actuellement possédée ; tous les alliés regagnent 3 PSM<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -111,6 +132,33 @@
                 },
                 {
                   "desc": "[EndSkill] Tous les alliés gagnent +1 d’Amp de Ressources E.G.O., applique 1 Accélération au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "name": "Soda",
+          "abName": "Wellcheers",
+          "desc": "[CantIdentify]\nCible aléatoirement\n\n<style=\"highlight\">Si la cible a moins de 25% de PV, inflige +40% de dégâts\n[DefeatDuel] -12 de Puissance de Base\n[BeforeAttack] À 4 de plus haute Réson. ou plus, gagne +1 de Poids d’Atq\n[EndSkill] S’il y a des unités Déséquilibrées ou en Panique parmi les cibles, gagne 1 ressource E.G.O. de l’Affinité la moins possédée ; regagne 3 PSM</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[SuperCoin]</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 4 [Vibration]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 6 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[EndSkill] Tous les alliés gagnent 1 [GainSinStockAdder], applique 1 [Agility] au prochain tour<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[EndSkillTail] Tous les alliés gagnent 1 [GainSinStockAdder] au prochain tour (une fois par tour)</style>"
                 }
               ]
             }

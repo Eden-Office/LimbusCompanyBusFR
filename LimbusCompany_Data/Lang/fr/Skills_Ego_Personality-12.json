@@ -879,6 +879,196 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2121011,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Reg. d’Emménagement",
+          "abName": "Kqe-1j-23",
+          "desc": "Gagne de la Puissance de Pièce selon les conditions suivantes (3 max) :\n- +1 de Puissance de Pièce toutes les 6 d’Intensité de [Combustion] sur la cible principale\n- Gagne de la Puissance de Pièce égale à (Intensité de [Charge] sur soi - 1)\n[BeforeAttack] Cette Capacité inflige +(Intensité de [Charge] sur soi - 1) d’Intensité de [Combustion] supplémentaire (2 max)\n[BeforeAttack] Gagne +(plus haute Réson. + 1) de Compte de [Charge] (7 max)\n[BeforeAttack] Consomme jusqu’à 15 de Compte de [Charge] et inflige +1% de dégâts par Compte de [Charge] consommé (15% max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [IDMicroChip] ou [Binding], inflige +2 de Compte de [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [IDMicroChip]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Reg. d’Emménagement",
+          "abName": "Kqe-1j-23",
+          "desc": "Gagne de la Puissance de Pièce selon les conditions suivantes (3 max) :\n- +1 de Puissance de Pièce toutes les 6 d’Intensité de [Combustion] sur la cible principale\n- Gagne de la Puissance de Pièce égale à (Intensité de [Charge] sur soi - 1)\n[BeforeAttack] Cette Capacité inflige +(Intensité de [Charge] sur soi - 1) d’Intensité de [Combustion] supplémentaire (2 max)\n[BeforeAttack] Gagne +(plus haute Réson. + 1) de Compte de [Charge] (7 max)\n<style=\"highlight\">- À 3 de Compte de [Charge] ou moins, gagne 3 de Compte de [Charge] supplémentaire</style>\n[BeforeAttack] Consomme jusqu’à 15 de Compte de [Charge] et inflige +<style=\"highlight\">2</style>% de dégâts par Compte de [Charge] consommé (<style=\"highlight\">30</style>% max)\n<style=\"highlight\">[EndSkill] Si l’effet Avant l’Attaque a consommé 15 de Compte de [Charge], gagne +5 de Compte de [Charge]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [IDMicroChip] ou [Binding], inflige +2 de Compte de [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Gagne +2 de Compte de [Charge]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [IDMicroChip]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Reg. d’Emménagement",
+          "abName": "Kqe-1j-23",
+          "desc": "Gagne de la Puissance de Pièce selon les conditions suivantes (3 max) :\n- +1 de Puissance de Pièce toutes les 6 d’Intensité de [Combustion] sur la cible principale\n- Gagne de la Puissance de Pièce égale à (Intensité de [Charge] sur soi - 1)\n[BeforeAttack] Cette Capacité inflige +(Intensité de [Charge] sur soi - 1) d’Intensité de [Combustion] supplémentaire (2 max)\n[BeforeAttack] Gagne +(plus haute Réson. + 1) de Compte de [Charge] (7 max)\n- À 3 de Compte de [Charge] ou moins, gagne 3 de Compte de [Charge] supplémentaire\n[BeforeAttack] Consomme jusqu’à 15 de Compte de [Charge] et inflige +<style=\"highlight\">3</style>% de dégâts par Compte de [Charge] consommé (<style=\"highlight\">45</style>% max)\n[EndSkill] Si l’effet Avant l’Attaque a consommé 15 de Compte de [Charge], gagne +5 de Compte de [Charge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a [IDMicroChip] ou [Binding], inflige +2 de Compte de [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Charge]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [IDMicroChip]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2121021,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Reg. d’Emménagement",
+          "abName": "Kqe-1j-23",
+          "desc": "[CantIdentify]\nCible aléatoirement\nGagne de la Puissance de Pièce selon les conditions suivantes (3 max) :\n- +1 de Puissance de Pièce toutes les 6 d’Intensité de [Combustion] sur la cible principale\n- Gagne de la Puissance de Pièce égale à (Intensité de [Charge] sur soi - 1)\n[BeforeAttack] Gagne +(plus haute Réson. + 3) de Compte de [Charge] (10 max)\n[BeforeAttack] Inflige +(Intensité + Compte de [Charge] - 1)% de dégâts (20% max)\n[EnemyKill] Gagne +4 de Compte de [Charge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [IDMicroChip]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Reg. d’Emménagement",
+          "abName": "Kqe-1j-23",
+          "desc": "[CantIdentify]\nCible aléatoirement\nGagne de la Puissance de Pièce selon les conditions suivantes (3 max) :\n- +1 de Puissance de Pièce toutes les 6 d’Intensité de [Combustion] sur la cible principale\n- Gagne de la Puissance de Pièce égale à (Intensité de [Charge] sur soi - 1)\n[BeforeAttack] Gagne +(plus haute Réson. + 3) de Compte de [Charge] (10 max)\n[BeforeAttack] Inflige +((Intensité + Compte de [Charge] - 1) * <style=\"highlight\">2</style>)% de dégâts (<style=\"highlight\">40</style>% max)\n[EnemyKill]\n- Gagne +4 de Compte de [Charge]\n<style=\"highlight\">- Gagne 1 [AttackDmgUp] au prochain tour (une fois par tour)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +<style=\"highlight\">2</style> de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [IDMicroChip]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnStartCoin] Consomme jusqu’à 8 de Compte de [Charge]</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Si cette Pièce a consommé du Compte de [Charge], inflige des dégâts d’Envie égaux à (Compte de [Charge] consommé * 5)% des dégâts finaux de cette Pièce (5% min, 40% max)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Reg. d’Emménagement",
+          "abName": "Kqe-1j-23",
+          "desc": "[CantIdentify]\nCible aléatoirement\nGagne de la Puissance de Pièce selon les conditions suivantes (3 max) :\n- +1 de Puissance de Pièce toutes les 6 d’Intensité de [Combustion] sur la cible principale\n- Gagne de la Puissance de Pièce égale à (Intensité de [Charge] sur soi - 1)\n[BeforeAttack] Gagne +(plus haute Réson. + 3) de Compte de [Charge] (10 max)\n[BeforeAttack] Inflige +((Intensité + Compte de [Charge] - 1) * <style=\"highlight\">3</style>)% de dégâts (<style=\"highlight\">60</style>% max)\n[EnemyKill]\n- Gagne +4 de Compte de [Charge]\n- Gagne 1 [AttackDmgUp] au prochain tour (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">+3</style> de Compte de [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [IDMicroChip]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] Consomme jusqu’à 8 de Compte de [Charge]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cette Pièce a consommé du Compte de [Charge], inflige des dégâts d’Envie égaux à (Compte de [Charge] consommé * 5)% des dégâts finaux de cette Pièce (5% min, 40% max)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

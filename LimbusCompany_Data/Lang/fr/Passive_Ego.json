@@ -243,6 +243,11 @@
       "desc": "En Touche, si la cible a 5 [Sinking] ou plus, inflige 1 [Disarming] (5 fois par tour)"
     },
     {
+      "id": 2040512,
+      "name": "Canette Ouverte",
+      "desc": "En Touche, si la cible a 5 [Sinking] ou plus, inflige 1 [Disarming] (5 fois par tour)\n\n<style=\"highlight\">En Touche contre un ennemi en état de Déséquilibre ou de Panique, gagne 1 [AttackUp] au prochain tour (3 fois par tour ; en Affrontement Ciblé, le Noyau)</style>"
+    },
+    {
       "id": 2060411,
       "name": "Mouettes Piaillantes Des Mers Lointaines",
       "desc": "Lorsqu’un ennemi est vaincu, l’allié ayant le moins de PSM en regagne 1\nChaque fois qu’un ennemi est vaincu, la quantité de PSM rendu augmente de 2 (9 max)\nLa quantité ci-dessus est réinitialisée au début d’une nouvelle vague"
@@ -265,7 +270,12 @@
     {
       "id": 2020511,
       "name": "Marque de Flamme",
-      "desc": "En Touche Pile avec une Capacité d’Affinité Luxure, inflige 1 [Combustion] à la cible (6 fois par tour)"
+      "desc": "En Touche Pile en utilisant une Capacité d’Affinité de Luxure, inflige 1 [Combustion] à la cible (6 fois par tour)"
+    },
+    {
+      "id": 2020512,
+      "name": "Marque de Flamme",
+      "desc": "En Touche Pile en utilisant une Capacité d’Affinité de <style=\"highlight\">Colère ou</style> de Luxure, inflige 1 [Combustion] (6 fois par tour)\n<style=\"highlight\">- Si la cible a le max d’Intensité de [Combustion], inflige 1 [DefenseDown] à la place\n\nÀ l’Usage d’une Capacité de Gourmandise de Base, gagne 1 ressource E.G.O. de Gourmandise (une fois par tour)</style>"
     },
     {
       "id": 2060511,
@@ -600,6 +610,11 @@
       "name": "Épuration de Ragoût",
       "desc": "En Touche Face, inflige 1 [Combustion] si la cible est un ennemi\n\n<style=\"highlight\">En utilisant des Capacités Offensives de Base qui infligent de l’Intensité ou du Compte de [Combustion] aux ennemis,\n\n- Pour les Capacités à Pièce Positive :\n· À moins de 40 PSM, regagne 4 PSM\n· À 40 PSM ou plus, inflige +10% de dégâts\n\n- Pour les Capacités à Pièce Négative :\n· À plus de -25 PSM, perd 4 PSM (cet effet ne peut pas réduire les PSM de cette unité en dessous de -40)\n· À -25 PSM ou moins, inflige +10% de dégâts</style>",
       "summary": "En Touche Face, inflige de la [Combustion] à la cible. Gagne ou perd des PSM ; ou inflige plus de dégâts"
+    },
+    {
+      "id": 2121011,
+      "name": "Traitement de Registre de Tranfert",
+      "desc": "À 3 de plus haute Réson. ou plus : En Touche en utilisant une Capacité, inflige 1 [Binding] au prochain tour à la cible principale (une fois par tour)\n\nÀ 3 d’Intensité de [Charge] ou plus, les Capacités de Base suivantes infligent +10% de dégâts :\n- Les Capacités de Base qui gagnent ou consomment du Compte de [Charge]\n- Les Capacités de Base qui infligent de l’Intensité ou du Compte de [Combustion] à l’ennemi"
     }
   ]
 }

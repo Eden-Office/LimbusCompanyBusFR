@@ -12,7 +12,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Converti 2 [Combustion] de la cible en 1 Malus de Niveau Défensif (10 max)"
+                  "desc": "[OnSucceedAttack] Convertit 2 [Combustion] de la cible en 1 Malus de Niveau Défensif (10 max)"
                 }
               ]
             }
@@ -30,7 +30,7 @@
                   "desc": "[OnSucceedAttackHead] Inflige 3 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Converti 2 [Combustion] de la cible en 1 Malus de Niveau Défensif (10 max)"
+                  "desc": "[OnSucceedAttack] Convertit 2 [Combustion] de la cible en 1 Malus de Niveau Défensif (10 max)"
                 }
               ]
             }
@@ -48,7 +48,28 @@
                   "desc": "[OnSucceedAttack] Inflige 3 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Converti 2 [Combustion] de la cible en 1 Malus de Niveau Défensif (10 max)"
+                  "desc": "[OnSucceedAttack] Convertit 2 [Combustion] de la cible en 1 Malus de Niveau Défensif (10 max)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "name": "9:2",
+          "abName": "Prophète Cutané",
+          "desc": "<style=\"highlight\">La quantité de ressource E.G.O. de Gourmandise nécessaire pour utiliser cette Capacité est réduite de 1</style>\n[BeforeAttack] À 4 de (<style=\"highlight\">plus haute Réson.</style>) ou plus, +1 de Poids d’Atq\nÀ 6 de (<style=\"highlight\">plus haute Réson.</style>) ou plus, +1 de Poids d’Atq supplémentaire\n\n<style=\"highlight\">[BeforeAttack] Inflige +5% de dégâts par ([Combustion] sur toutes les cibles + [Combustion] sur soi) (100% max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 5 [DefenseDown]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Convertit 2 [Combustion] de la cible en 1 [DefenseDown] (<style=\"highlight\">5 max ; cet effet ne peut pas faire descendre l’Intensité de [Combustion] de la cible en dessous de 1)\n- Si la cible a moins de 10 d’Intensité de [Combustion], cette unité peut utiliser de l’Intensité de [Combustion] en excès au-dessus de 30 sur soi pour l’effet ci-dessus</style>"
                 }
               ]
             }
@@ -71,7 +92,7 @@
                   "desc": "[OnSucceedAttackTail] Inflige 4 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Converti 2 [Combustion] de la cible en 1 Malus de Niveau Défensif (10 max)"
+                  "desc": "[OnSucceedAttack] Convertit 2 [Combustion] de la cible en 1 Malus de Niveau Défensif (10 max)"
                 }
               ]
             }
@@ -92,7 +113,7 @@
                   "desc": "[OnSucceedAttack] Inflige 4 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Converti 2 [Combustion] de la cible en 1 Malus de Niveau Défensif (10 max)"
+                  "desc": "[OnSucceedAttack] Convertit 2 [Combustion] de la cible en 1 Malus de Niveau Défensif (10 max)"
                 }
               ]
             }
@@ -113,7 +134,34 @@
                   "desc": "[OnSucceedAttack] Inflige 4 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Converti 2 [Combustion] de la cible en 1 Malus de Niveau Défensif (10 max)"
+                  "desc": "[OnSucceedAttack] Convertit 2 [Combustion] de la cible en 1 Malus de Niveau Défensif (10 max)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "name": "9:2",
+          "abName": "Prophète Cutané",
+          "desc": "[CantIdentify]\nCible aléatoirement\n<style=\"highlight\">La quantité de ressource E.G.O. de Gourmandise nécessaire pour utiliser cette Capacité est réduite de 1</style>\n[BeforeAttack] À 4 de (<style=\"highlight\">plus haute Réson.</style>) ou plus, +1 de Poids d’Atq\nÀ 6 de (<style=\"highlight\">plus haute Réson.</style>) ou plus, +1 de Poids d’Atq supplémentaire\n\n<style=\"highlight\">[BeforeAttack] Inflige +6% de dégâts par ([Combustion] sur toutes les cibles + [Combustion] sur soi) (120% max)\n[DefeatDuel] -10 de Puissance de Base</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[SuperCoin]</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Inflige 2 [Binding] au prochain tour"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 5 [DefenseDown]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Convertit 2 [Combustion] de la cible en 1 [DefenseDown] (<style=\"highlight\">5 max ; cet effet ne peut pas faire descendre l’Intensité de [Combustion] de la cible en dessous de 1)\n- Si la cible a moins de 10 d’Intensité de [Combustion], cette unité peut utiliser de l’Intensité de [Combustion] en excès au-dessus de 30 sur soi pour l’effet ci-dessus</style>"
                 }
               ]
             }
