@@ -1,0 +1,433 @@
+{
+  "dataList": [
+    {
+      "id": "GoldenHideWarderFirstPhase",
+      "name": "Pouls Battant",
+      "desc": "- Début du Tour : un Pécheur aléatoire gagne cet effet\n- +1 de Puissance de Duel, subit +25% de dégâts\n- Fin du Tour : cet effet expire",
+      "summary": "Gagne de la Puissance de Duel, subit moins de dégâts",
+      "flavor": "Le domaine de la vie. La volonté de changer et de naître."
+    },
+    {
+      "id": "GoldenFabricWarderFirstPhase",
+      "name": "Inertie",
+      "desc": "- Début du Tour : un Pécheur aléatoire gagne cet effet\n- +1 de Puissance Finale, inflige +15% de dégâts\n- Fin du Tour : cet effet expire",
+      "summary": "Gagne de la Puissance Finale, inflige plus de dégâts",
+      "flavor": "Le domaine de la mort. Le besoin de conservation et d’inertie."
+    },
+    {
+      "id": "MeursaultBuffWarderFirstPhase",
+      "name": "L’Étranger",
+      "desc": "Les PV de Meursault ne peuvent pas descendre en dessous de 1 tant qu’il y a 1 autre allié ou plus en vie dans cet Affrontement\n- En Affrontant en Duel le Gardien :\n · +1 de Puissance de Duel\n · Inflige +(Pourcentage de PV manquants sur soi / 2)% de dégâts (20% max)\n · En Duel Gagné, gagne 1 ressource E.G.O. pour chacune des 2 Affinités les moins possédées\n- En subissant des dégâts qui Déséquilibrent cette unité, ne devient pas Déséquilibré et retire le Seuil de Déséquilibre correspondant ; et gagne 1 Bonus de Puissance Offensive (aucun plafond d’activation)\n- Ne peut pas Battre en Retraite",
+      "summary": "Gagne de la Puissance de Duel et inflige plus de dégâts en Affrontant en Duel le Gardien\nNe peut pas être Déséquilibré, ne peut pas être vaincu lorsqu’il y a d’autres alliés en vie",
+      "flavor": "Étais-je un détaché, un élément étranger dans la grande surface et dans la Cité ?"
+    },
+    {
+      "id": "UnstableConnection",
+      "name": "Théophanie Précaire",
+      "desc": "- Instance max : 2\n- Début du Tour : gagne (Instance * 4) Malus de Puissance de Duel et Vulnérabilité\n- Fin du Tour : regagne ((45 - PSM actuels) / 2) PSM (arrondi à l’inférieur) ; puis, perd 1 Instance",
+      "summary": "Gagne du Malus de Puissance de Duel et de la Vulnérabilité au Début du Tour\nRegagne des PSM à la Fin du Tour",
+      "flavor": "“*Soupir* Ce n’est pas le bon moment pour avoir des problèmes de connexion…”"
+    },
+    {
+      "id": "Dominion",
+      "name": "Préservation du Système Sisyphe",
+      "desc": "- Instance max : 25\n- Inflige +(Instance)% de dégâts (25% max)\n- Subit -(Instance)% de dégâts (25% max)",
+      "summary": "Inflige plus de dégâts et en subit moins",
+      "flavor": "“Est-ce que c’est parce que vous venez d’un autre District ou quelque chose ? Comment faites-vous pour ne toujours pas le comprendre ? Si la Tour Sisyphe s’effondre, ces Malleus Maleficarum ou je ne sais ce qu’est leur nom vont— *soupir*”\n\n“Enfin, je suppose que les étrangers ne changent pas. Vous n’en avez rien à faire de ce qu’il se passe à la N Corp., ni d’où va le monde. Ugh… Laissez tomber. À présent, voyons jusqu’où vous êtes prêts à aller.”"
+    },
+    {
+      "id": "BlackStigmata",
+      "name": "Componction",
+      "desc": "- Unités à PSM : le Type de Panique devient “Componction”\n- Unités sans-PSM : subit +10% de dégâts des cibles avec une Vitesse supérieure à la sienne\n- Fin du Tour : perd 1 Instance\n- Cet effet ne se cumule pas ; l’infliger ne fait que remplacer sa valeur actuelle par la valeur infligée\n- Applique la condition “Unités sans-PSM” à certains ennemis ayant des PSM mais ne pouvant pas changer leur Type de Panique\n\n※ Effet de Panique de Componction :\n- Moral Bas : -1 de Vitesse Min & Max ; subit +10% de dégâts des cibles avec une Vitesse supérieure à celle de cette unité\n- Panique : -2 de Vitesse Min & Max ; subit +15% de dégâts des cibles avec une Vitesse supérieure à celle de cette unité",
+      "summary": "Perd de la Vitesse Min & Max\nSubit plus de dégâts des cibles avec une Vitesse supérieure à la sienne",
+      "flavor": "“Vous sentez vos péchés ramper sur votre dos.”"
+    },
+    {
+      "id": "BlackStigmata_Main",
+      "name": "Componction",
+      "desc": "- Unités à PSM : change le Type de Panique en “Componction”\n- Fin du Tour : perd 1 Instance",
+      "summary": "Change le Type de Panique “Componction”",
+      "flavor": "“Vous sentez vos péchés ramper sur votre dos.”"
+    },
+    {
+      "id": "BlackStigmata_Sub",
+      "name": "Componction",
+      "desc": "- Unités sans-PSM : subit +10% de dégâts des cibles avec une Vitesse supérieure à la sienne\n- Fin du Tour : perd 1 Instance",
+      "summary": "Subit plus de dégâts des cibles avec une Vitesse supérieure à la sienne",
+      "flavor": "“Vous sentez vos péchés ramper sur votre dos.”"
+    },
+    {
+      "id": "BlackStigmata_LowMorale",
+      "name": "Componction",
+      "desc": "- Moral Bas\n- -1 de Vitesse Min & Max ; subit +10% de dégâts des cibles avec une Vitesse supérieure à la sienne",
+      "summary": "Perd de la Vitesse Min & Max\nSubit plus de dégâts des cibles avec une Vitesse supérieure à la sienne",
+      "flavor": "“Vous sentez vos péchés ramper sur votre dos.”"
+    },
+    {
+      "id": "BlackStigmata_Panic",
+      "name": "Componction",
+      "desc": "- Panique\n- -2 de Vitesse Min & Max ; subit +15% de dégâts des cibles avec une Vitesse supérieure à la sienne",
+      "summary": "Perd de la Vitesse Min & Max\nSubit plus de dégâts des cibles avec une Vitesse supérieure à la sienne",
+      "flavor": "“Vous sentez vos péchés ramper sur votre dos.”"
+    },
+    {
+      "id": "GoldenHideWarderSecondPhase",
+      "name": "Pouls Battant",
+      "desc": "- Début du Tour : un Pécheur aléatoire gagne cet effet\n- En Duel Gagné, si le Pécheur ayant cet effet <color=#ff6000><mark=#ff000040><b><u>a gagné le Duel</u></b></mark></color> contre la Capacité <color=#ff6000><mark=#ff000040><b><u>“La Mort S’abatte sur le Condamné”</u></b></mark></color> du Gardien, gagne <color=#ff6000><mark=#ff000040><b><u>du Bouclier égal à 250% des PV max du Pécheur</u></b></mark></color> (le Bouclier gagné avec cet effet est retiré du Bouclier total du Pécheur à la Fin de l’Attaque “La Mort S’abatte sur le Condamné” du Gardien)\n- +2 de Puissance de Duel, subit +25% de dégâts\n- Fin du Tour : cet effet expire",
+      "summary": "Gagne de la Puissance de Duel et subit moins de dégâts\nEn Duel Gagné contre “La Mort S’abatte sur le Condamné”, gagne du Bouclier",
+      "flavor": "Le domaine de la vie. La volonté de changer et de naître."
+    },
+    {
+      "id": "GoldenFabricWarderSecondPhase",
+      "name": "Inertie",
+      "desc": "- Début du Tour : un Pécheur aléatoire gagne cet effet\n- +2 de Puissance Finale, inflige +25% de dégâts\n- Fin du Tour : cet effet expire",
+      "summary": "Gagne de la Puissance Finale, inflige plus de dégâts",
+      "flavor": "Le domaine de la mort. Le besoin de conservation et d’inertie."
+    },
+    {
+      "id": "MeursaultBuffWarderSecondPhase",
+      "name": "L’Étranger",
+      "desc": "- Les PV de Meursault ne peuvent pas descendre en dessous de 1 tant qu’il y a 1 autre allié ou plus en vie dans cet Affrontement\n- +1 de Vitesse Min & Max\n- En Affrontant en Duel le Gardien :\n · +2 de Puissance de Duel\n · Inflige +(Pourcentage de PV manquants sur soi / 2)% de dégâts (40% max)\n · En Duel Gagné, gagne 1 ressource E.G.O. pour chacune des 3 Affinités les moins possédées\n- En subissant des dégâts qui Déséquilibrent cette unité, ne devient pas Déséquilibré et retire le Seuil de Déséquilibre correspondant ; et gagne 2 Bonus de Puissance Offensive (aucun plafond d’activation)\n- Ne peut pas Battre en Retraite",
+      "summary": "Gagne de la Puissance de Duel et inflige plus de dégâts en Affrontant en Duel le Gardien\nNe peut pas être Déséquilibré, ne peut pas être vaincu lorsqu’il y a d’autres alliés en vie",
+      "flavor": "Étais-je un détaché, un élément étranger dans la grande surface et dans la Cité ?"
+    },
+    {
+      "id": "EncompassingVoiceSecondPhase",
+      "name": "Voix du Dieu d’Obsidienne",
+      "desc": "- Instance max : 100\n- Début du Tour : gagne 1 Bonus de Niveau Offensif toutes les 20 Instances (4 max)\n- Gagne de l’Instance égale au Compte de Préservation que cette unité consomme ou gagne suite à ses effets de Capacité (40 par tour max ; l’Instance de cet effet est gagné qu’importe le Compte max de Préservation)\n- Fin du Tour : gagne 10 Instances\n- À 100 Instances, convertit cet effet en “Divinité du Dieu d’Obsidienne” au prochain tour",
+      "summary": "Gagne du Niveau Offensif selon l’Instance\nÀ Instance max, converti en “Divinité du Dieu d’Obsidienne”",
+      "flavor": "Une voix prêchant le Règne de la Conservation.\nIl ne peut y avoir nul retour à la barbarie."
+    },
+    {
+      "id": "EncompassingVoiceThirdPhase",
+      "name": "Voix du Dieu d’Obsidienne",
+      "desc": "- Instance max : 100\n- Début du Tour : gagne 1 Bonus de Niveau Offensif toutes les 20 Instances (4 max)\n- Gagne de l’Instance égale au Compte de Préservation que cette unité consomme ou gagne suite à ses effets de Capacité (40 par tour max ; l’Instance de cet effet est gagné qu’importe le Compte max de Préservation)\n- Fin du Tour : gagne 10 Instances\n- À 100 Instances, convertit cet effet en “Divinité du Dieu d’Obsidienne” au prochain tour",
+      "summary": "Gagne du Niveau Offensif selon l’Instance\nÀ Instance max, converti en “Divinité du Dieu d’Obsidienne”",
+      "flavor": "Une voix prêchant le Règne de la Conservation.\nIl ne peut y avoir nul retour à la barbarie."
+    },
+    {
+      "id": "SpreadingVoiceSecondPhase",
+      "name": "Divinité du Dieu d’Obsidienne",
+      "desc": "- Instance max : 100\n- Début du Tour : gagne 1 Bonus de Niveau Offensif et 1 Bonus de Niveau Défensif toutes les 20 Instances (4 respectivement max)\n- Convertit toutes les Pièces de Capacité en Pièces Incassables\n- À 0 Instance, convertit cet effet en “Voix du Dieu d’Obsidienne” au prochain tour",
+      "summary": "Convertit toutes les Pièces de Capacité en Pièces Incassables\nGagne du Niveau Offensif et du Niveau Défensif selon l’Instance",
+      "flavor": "Le Dieu d’Obsidienne— Celui dont le domaine est la création et le temps eux-mêmes dans le Système Sisyphe."
+    },
+    {
+      "id": "SpreadingVoiceThirdPhase",
+      "name": "Divinité du Dieu d’Obsidienne",
+      "desc": "- Instance max : 100\n- Début du Tour : gagne 1 Bonus de Niveau Offensif et 1 Bonus de Niveau Défensif toutes les 20 Instances (4 respectivement max)\n- Convertit toutes les Pièces de Capacité en Pièces Incassables (excluding Excision Coins)\n- À 0 Instance, convertit cet effet en “Voix du Dieu d’Obsidienne” au prochain tour",
+      "summary": "Convertit toutes les Pièces de Capacité en Pièces Incassables (excluding Excision Coins)\nGagne du Niveau Offensif et du Niveau Défensif selon l’Instance",
+      "flavor": "Le Dieu d’Obsidienne— Celui dont le domaine est la création et le temps eux-mêmes dans le Système Sisyphe."
+    },
+    {
+      "id": "LeaderVoiceSecondPhase",
+      "name": "Gardien de la Peine Sisyphe",
+      "desc": "- Instance max : 5\n- +1 Niveau Offensif et +2 Niveaux Défensifs par Instance\n- À 3 Instances ou plus, inflige +1 “Clou [Châtiment]” et “Clou [Pénitence]” supplémentaire avec les Capacités",
+      "summary": "Gagne du Niveau Offensif et du Niveau Défensif selon l’Instance\nÀ 3 Instances ou plus, inflige plus de “Clou [Châtiment]” et de “Clou [Pénitence]”",
+      "flavor": "Le Gardien apparaît à ceux qui refusent d’agir comme voulu. Puisque c’est ainsi que le système fonctionne."
+    },
+    {
+      "id": "ConfessionSecondPhase",
+      "name": "Preuve de Confession",
+      "desc": "- Les effets suivants sont collectivement appelés “Preuve de Confession” :\n · Marteauclou [Condamnation]\n · Marteauclou [Jugement]\n · Clou [Châtiment]\n · Clou [Pénitence]",
+      "summary": "Réfère collectivement aux “Clous” et aux “Marteauclou” qu’inflige le Gardien",
+      "flavor": "Plantez altant de clous que vos pechiés l’imposent et provez vostre repentance."
+    },
+    {
+      "id": "LeaderVoiceThirdPhase",
+      "name": "Chapelain de la Peine Sisyphe",
+      "desc": "- Instance max : 5\n- +2 Niveaux Offensifs et +3 Niveaux Défensifs par Instance\n- À 3 Instances ou plus, inflige +1 “Clou [Console]” supplémentaire avec les Capacités",
+      "summary": "Gagne du Niveau Offensif et du Niveau Défensif selon l’Instance\nÀ 3 Instances ou plus, inflige plus de “Clou [Console]”",
+      "flavor": "Le Chapelain apparaît à ceux qui refusent d’agir comme voulu. Puisque c’est ainsi que le système fonctionne."
+    },
+    {
+      "id": "ConfessionThirdPhase",
+      "name": "〜",
+      "desc": "- Les effets suivants sont collectivement appelés “〜” :\n· Clou [Exception]\n· Clou [Point de Rupture]\n· Clou [Console]",
+      "summary": "Réfère collectivement aux “Clous” qu’inflige le Chapelin",
+      "flavor": "“Maintenant, j’en suis certain. Vous êtes tous des éléments étrangers qui ne devraient pas être autorisés dans ce système. Je suppose qu’il est temps que je lise enfin le manuel. Il n’y a rien que les lois et les règles ne prennent pas en compte.”"
+    },
+    {
+      "id": "ExecutionNailSecondPhase",
+      "name": "Marteauclou [Jugement]",
+      "desc": "- Instance max : 9\n- Si cet effet est déclenché par “Jugement… Sentence… Condamnation !”, <color=#ff6000><mark=#ff000040><b><u>subit des dégâts fixes égaux à (Instance * 5)% des PV max</u></b></mark></color> (10 min)\n · Début du Combat : si cette unité a équipé une Capacité Défensive, réduit de moitié les dégâts subis et cette unité ne peut pas être tuée ou Déséquilibrée par cet effet",
+      "summary": "Lorsque activé, subit des dégâts fixes\nLorsqu’une Capacité Défensive est équipée, réduit de moitié les dégâts subis et cette unité ne peut pas être tuée",
+      "flavor": "Car cela est un clou, mais n’est point un clou. Il s’agit d’un martel qui prononce le jugement."
+    },
+    {
+      "id": "RestrainingNailSecondPhase",
+      "name": "Marteauclou [Condamnation]",
+      "desc": "- Instance max : 9\n- Début du Tour : si cette unité a cet effet, devient <color=#ff6000><mark=#ff000040><b><u>Déséquilibrée</u></b></mark></color>\n · Fin du Tour : cet effet expire si déclenché pendant ce tour\n · Si cette unité a “Pouls Battant”, elle ne peut pas être Déséquilibrée via cet effet et cet effet expire à la Fin du Tour",
+      "summary": "Début du Tour : devient Déséquilibrée\nSi cette unité a “Pouls Battant”, ne devient pas Déséquilibrée",
+      "flavor": "Chasque clou que vous avez échoué à retirer sera tesmoin de vos pechiés ; et lorsque viendra le Jorn du Jugement, chasque clou laissé en vos s’enfonciera plus profondément dans vostre chair et vostre âme."
+    },
+    {
+      "id": "CeremonialNail",
+      "name": "Clou [Châtiment]",
+      "desc": "- Instance max : 9\n- Si cet effet est déclenché par “Jugement… Sentence… Condamnation !”, gagne de la Lourdeur égale à l’Instance",
+      "summary": "Lorsque activé, gagne de la Lourdeur",
+      "flavor": "Puisque le châtiment est le tourment de la conscience supporté par ceux qui transgressent les règles et les rites."
+    },
+    {
+      "id": "MarkingNail",
+      "name": "Clou [Pénitence]",
+      "desc": "- Instance max : 9\n- Si cet effet est déclenché par “Jugement… Sentence… Condamnation !”, augmente le Seuil de Déséquilibre de (Instance * 2)",
+      "summary": "Lorsque activé, augmente le Seuil de Déséquilibre",
+      "flavor": "Ceci est un clou enfoncé dans les cœurs des impénitents."
+    },
+    {
+      "id": "GoldenHideWarderThirdPhase",
+      "name": "Pouls Battant",
+      "desc": "- Début du Tour : un Pécheur aléatoire gagne cet effet\n- En Duel Gagné, si le Pécheur ayant cet effet <color=#ff6000><mark=#ff000040><b><u>a gagné le Duel</u></b></mark></color> contre la Capacité <color=#ff6000><mark=#ff000040><b><u>“Bannissement du Système”</u></b></mark></color> du Gardien, gagne <color=#ff6000><mark=#ff000040><b><u>du Bouclier égal à 250% des PV max du Pécheur</u></b></mark></color> (le Bouclier gagné avec cet effet est retiré du Bouclier total du Pécheur à la Fin de l’Attaque “Bannissement du Système” du Chapelain)\n- +3 Puissance de Duel, subit -50% de dégâts\n- En Touche, inflige 1 Malus de Niveau Offensif (9 max)\n- Fin du Tour : cet effet expire",
+      "summary": "Gagne de la Puissance de Duel et subit moins de dégâts\nEn Duel Gagné contre “Bannissement du Système”, gagne du Bouclier",
+      "flavor": "Le domaine de la vie. La volonté de changer et de naître."
+    },
+    {
+      "id": "GoldenFabricWarderThirdPhase",
+      "name": "Inertie",
+      "desc": "- Début du Tour : un Pécheur aléatoire gagne cet effet\n- +2 de Puissance Finale, inflige +25% de dégâts\n- En Touche, inflige 1 Malus de Niveau Défensif (9 max)\n- Fin du Tour : cet effet expire",
+      "summary": "Gagne de la Puissance Finale et inflige plus de dégâts\nEn Touche, inflige du Malus de Niveau Défensif",
+      "flavor": "Le domaine de la mort. Le besoin de conservation et d’inertie."
+    },
+    {
+      "id": "MeursaultBuffWarderThirdPhase",
+      "name": "L’Étranger",
+      "desc": "- Les PV de Meursault ne peuvent pas descendre en dessous de 1 tant qu’il y a 1 autre allié ou plus en vie dans cet Affrontement\n- +3 de Vitesse Min & Max\n- +3 de Puissance Finale et inflige +30% de dégâts\n- En Affrontant en Duel le Chapelain :\n · Inflige +(Pourcentage de PV manquants sur soi)% de dégâts (90% max)\n · En Duel Gagné, regagne 8 PSM\n · En Duel Gagné, gagne 1 ressource E.G.O. pour chacune des 5 Affinités les moins possédées\n- En subissant des dégâts qui Déséquilibrent cette unité, ne devient pas Déséquilibré et retire le Seuil de Déséquilibre correspondant ; et gagne 3 Bonus de Puissance Offensive (aucun plafond d’activation)\n- Ne peut pas Battre en Retraite",
+      "summary": "Gagne de la Puissance de Duel et inflige plus de dégâts en Affrontant en Duel le Chapelain\nNe peut pas être Déséquilibré, ne peut pas être vaincu lorsqu’il y a d’autres alliés en vie",
+      "flavor": "Étais-je un détaché, un élément étranger dans la grande surface et dans la Cité ?"
+    },
+    {
+      "id": "GoldenNail",
+      "name": "Clou [Console]",
+      "desc": "- Instance max : 9\n- Début du Combat : <color=#ff6000><mark=#ff000040><b><u>à 9 Instances, En Touche contre le Chapelain</u></b></mark></color>, le Pécheur ayant cet effet pour ce tour <color=#ff6000><mark=#ff000040><b><u>subit des dégâts fixes égaux à 2% des PV max</u></b></mark></color> (cet effet ne peut pas Déséquilibrer cette unité)\n- Si cet effet est déclenché par “Avez-vous sérieusement l’intention de détruire le Système Sisyphe ?”, gagne de la Lourdeur égale à l’Instance et augmente le Seuil de Déséquilibre de (Instance * 2)",
+      "summary": "Lorsque activé, gagne de la Lourdeur and raise Stagger Threshold\nAt max Stack, take fixed damage when hit",
+      "flavor": "“Voyons voir, le manuel pour ce clou… ‘Vous sentez vos péchés ramper sur votre dos…’ Mm, non, pas celui-là.”\n\n“Il devrait être dans le Tiroir 42 qui est juste là… Je sais que je l’ai mis… Ah, le voilà ! ‘Guide aux Commandes de Console du Système Sisyphe de l’Administrateur de Le Noir’.”"
+    },
+    {
+      "id": "VibrationFocusing",
+      "name": "Tremblement - Conservation",
+      "desc": "- En Sursaut de Tremblement, subit des Dégâts de Paresse égaux à (60 + somme d’Intensité de Charge ou de Charge Unique sur l’attaquant * 8)% d’Intensité de Tremblement et réduit le Compte de 1 (120% max) \n · Lorsque les Capacités et Passifs d’unités “Le Noir” déclenchent le Sursaut de Tremblement, l’effet ci-dessus ne réduit pas le Compte\n- Lorsque touché par des Capacités de Sursaut de Tremblement, augmente le Seuil de Déséquilibre de l’Intensité de cet effet\n- Fin du Tour : perd 1 de Compte\n(Interagit de la même manière que le Tremblement normal avec les effets qui augmentent ou réduisent l’Intensité/Compte de Tremblement)",
+      "summary": "En Sursaut de Tremblement, subit des Dégâts de Paresse\nLorsque touché par des Capacités qui déclenchent un Sursaut de Tremblement, augmente le Seuil de Déséquilibre"
+    },
+    {
+      "id": "ExecutionNailThirdPhase",
+      "name": "Clou [Point de Rupture]",
+      "desc": "- Instance max : 9\n- Si cet effet est déclenché par “Avez-vous sérieusement l’intention de détruire le Système Sisyphe ?”, <color=#ff6000><mark=#ff000040><b><u>subit des dégâts fixes égaux à (Instance * 10)% des PV max</u></b></mark></color> (10 min)\n · Début du Combat : si cette unité a équipé une Capacité Défensive, réduit de moitié les dégâts subis et cette unité ne peut pas être tuée ou Déséquilibrée par cet effet",
+      "summary": "Lorsque activé, subit des dégâts fixes\nLorsqu’une Capacité Défensive est équipée, réduit de moitié les dégâts subis et cette unité ne peut pas être tuée",
+      "flavor": "“Le manuel d’administration est assez clair. Une fois que cette commande vous cloue dans le système, vous ne pouvez rien faire.”"
+    },
+    {
+      "id": "RestrainingNailThirdPhase",
+      "name": "Clou [Exception]",
+      "desc": "- Instance max : 9\n- Début du Tour : si cette unité a cet effet, <color=#ff6000><mark=#ff000040><b><u>subit des dégâts fixes égaux à 50% des PV actuels</u></b></mark></color> et devient <color=#ff6000><mark=#ff000040><b><u>Déséquilibrée</u></b></mark></color>\n · Fin du Tour : cet effet expire si déclenché pendant ce tour\n · Si cette unité a “Pouls Battant”, elle ne peut pas être Déséquilibrée par cet effet, réduit les dégâts de moitié et cet effet expire à la Fin du Tour",
+      "summary": "Début du Tour : subit des dégâts fixes et devient Déséquilibrée\nSi cette unité a “Pouls Battant”, ne devient pas Déséquilibrée et ne subit que la moitié des dégâts",
+      "flavor": "“Même les exceptions ne peuvent pas s’empêcher d’être attachées à ce clou.”"
+    },
+    {
+      "id": "ConnectionError_LowMorale",
+      "name": "Erreur de Synchronisation",
+      "desc": "- Moral Bas\n- Subit +12.5% de dégâts\n- -1 de Vitesse Min & Max\n- Inflige -15% de dégâts avec les Capacités qui consomment de la Préservation",
+      "summary": "Perd de la Vitesse Min & Max, subit plus de dégâts\nLes Capacités qui consomment de la Préservation infligent moins de dégâts",
+      "undefined": "-"
+    },
+    {
+      "id": "ConnectionError_Panic",
+      "name": "Erreur de Synchronisation",
+      "desc": "- Panique\n- Subit +20% de dégâts\n- -2 de Vitesse Min & Max\n- Inflige -25% de dégâts avec les Capacités qui consomment de la Préservation",
+      "summary": "Perd de la Vitesse Min & Max, subit plus de dégâts\nLes Capacités qui consomment de la Préservation infligent moins de dégâts",
+      "undefined": "-"
+    },
+    {
+      "id": "JeanneDesign",
+      "name": "Cloué",
+      "desc": "- Instance max : 3\n- <color=#ff6000><mark color=#ff000040><b><u>Cette unité a 95% de chances de faire Pile</color></mark></b></u>\n- À 2 Instances, <color=#ff6000><mark color=#ff000040><b><u>-2 de Puissance de Duel pour les cibles</color></mark></b></u> Affrontant en Duel cette unité\n- À 3 Instances, consomme toutes les Instances et gagne <color=#ff6000><mark color=#ff000040><b><u>Rendez-vous</color></mark></b></u> au prochain tour\n- Fin du Tour : perd 1 Instance (ne perd pas d’Instance lors du tour où cet effet est gagné)\n- Ne peut pas gagner cet effet si cette unité a Rendez-vous",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "L’existence précède l’essence."
+    },
+    {
+      "id": "JeanneManager",
+      "name": "Rendez-vous",
+      "desc": "- <color=#ff6000><mark color=#ff000040><b><u>Cette unité a 100% de chances de faire Pile</color></mark></b></u>\n- Les cibles Affrontant en Duel ou attaquant cette unité ont <color=#ff6000><mark color=#ff000040><b><u>100% de chances de faire Face pour les Pièces Positives</color></mark></b></u>\n · Les Pièces Négatives de ces unités ont 100% de chances de faire Pile\n- Retire cet effet en équipant la Capacité “Concentration” ou si cette unité devient Déséquilibrée",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "J’ai conçu la grande surface. Et désormais, je suis une top model de son défilé, une actrice sur sa scène.\n\nEt toi, ma puce… tu serais le cinéma lui-même, n’est-ce pas ?"
+    },
+    {
+      "id": "JeannePartner",
+      "name": "Être-pour-autrui",
+      "desc": "- Les cibles qui gagnent cet effet perdent tous les effets négatifs\n- Fixe les PSM à 45\n · Pour les Identités à Pièces Négatives, fixe les PSM à -30\n- Ne peut pas être Déséquilibré\n- Retire cet effet lorsque Jeanne entre dans une nouvelle phase",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Comment supposes-tu paraître à mes yeux ? Le soi que tu vois et le toi que je vois doivent être complètement différents.\nMa puce… Tu as déjà été cloué sur place en moi."
+    },
+    {
+      "id": "JeannePartnerTwo",
+      "name": "Être-pour-soi",
+      "desc": "- Fixe les PSM à 45\n- Ne subit pas de dégâts\n- Retire cet effet lorsque Jeanne entre dans une nouvelle phase",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "La conscience est une chose effrayante, tu sais. Quelque part en elle, un vide est destiné à s’ouvrir.\n\nVeux-tu bien le remplir pour moi, ma puce ?"
+    },
+    {
+      "id": "JeannePathos",
+      "name": "Pathos - Désir d’être",
+      "desc": "- Instance max : 100\n- En Duel Gagné, gagne 3 Instances\n- En Duel Perdu, gagne 5 Instances\n- Gagne de l’Instance égale au compte de Clash\n- Fin du Tour : à Instance max, entre dans une nouvelle phase",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Je voulais maintenant fleurir de rouge… avec tout ce rouge passion, toute cette ferveur et tout ce pathos brûlant en moi."
+    },
+    {
+      "id": "JeanneLogos",
+      "name": "Logos - Manque d’être",
+      "desc": "- Instance max : 100\n- En Duel Gagné, gagne 5 Instances\n- Gagne de l’Instance égale au compte de Clash\n- +1 Niveau Offensif toutes les 10 Instances\n- +1 de Puissance de Duel toutes les 20 Instances",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Il y a quelque chose qui manque en toi, et en moi aussi. Nous pouvons nous compléter."
+    },
+    {
+      "id": "JeanneCheat",
+      "name": "Désespoir",
+      "desc": "- Cette unité a 100% de chances de faire Face (pour les Pièces Négatives, Pile)\n- Fin du Tour : perd 1 Instance",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "… Ma puce, est-ce que tu t’enfuis ? Du jugement, de cette lumière… ?"
+    },
+    {
+      "id": "JeanneBlueprint",
+      "name": "Délaissement",
+      "desc": "- Instance max : 5\n- +1 de Puissance de Duel par Instance\n- Subit +10% de dégâts de Capacités par Instance\n- Début du Tour : à 4 Instances ou plus, applique les effets suivants :\n · Retire tous les Seuils de Déséquilibre\n · Lorsque Déséquilibré, se remet de Déséquilibre\n · +1 de Poids d’Atq",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Au cœur de la liberté de désespérer qui ne promet rien, seul le Grand Magasin Sisyphe offre une bénédiction : d’être découpé à dessein et regard, et se faisant, se voir offrir la certitude et la continuité."
+    },
+    {
+      "id": "BoneNail",
+      "name": "L’Abject",
+      "desc": "- Instance max : 5\n- Perd 1 Vitesse par Instance\n- Subit +20% de dégâts de Saignement par Instance (arrondi à l’inférieur)\n- À l’Usage de Capacité Offensive de Base, gagne du Compte de Saignement égal à l’Instance",
+      "summary": "",
+      "flavor": "Un membre rejeté. Buffet l’a sorti, l’a craché, l’a déversé de l’intérieur.\n\nBien qu’il provienne d’un corps, une fois expulsé, il cesse d’appartenir au soi. Et même s’il venait à être inséré dans un autre, il n’appartiendra jamais non plus à ce corps."
+    },
+    {
+      "id": "BuffetDream",
+      "name": "Souvenirs de Pwie",
+      "desc": "- Instance max : 5\n- Pour chaque Instance,\n · -5 Niveaux Offensifs de Base\n · -5 Niveaux Défensifs de Base\n · -1 de Puissance de Duel\n- Début du Tour : regagne (8 * Instance) PSM",
+      "summary": "",
+      "flavor": ""
+    },
+    {
+      "id": "BuffetDream1",
+      "name": "Souvenirs de Pwie",
+      "desc": "- Instance max : 5\n- Pour chaque Instance,\n · -5 Niveaux Offensifs de Base\n · -5 Niveaux Défensifs de Base\n · -1 de Puissance de Duel\n- Début du Tour : regagne (8 * Instance) PSM",
+      "summary": "",
+      "flavor": "Les chaussures… m’ont rendu très heureux…"
+    },
+    {
+      "id": "BuffetDream2",
+      "name": "Souvenirs de Pwie",
+      "desc": "- Instance max : 5\n- Pour chaque Instance,\n · -5 Niveaux Offensifs de Base\n · -5 Niveaux Défensifs de Base\n · -1 de Puissance de Duel\n- Début du Tour : regagne (8 * Instance) PSM",
+      "summary": "",
+      "flavor": "Merci… d’avoir croisé mon regard…\n\nLes chaussures… m’ont rendu très heureux…"
+    },
+    {
+      "id": "BuffetDream3",
+      "name": "Souvenirs de Pwie",
+      "desc": "- Instance max : 5\n- Pour chaque Instance,\n · -5 Niveaux Offensifs de Base\n · -5 Niveaux Défensifs de Base\n · -1 de Puissance de Duel\n- Début du Tour : regagne (8 * Instance) PSM",
+      "summary": "",
+      "flavor": "Nous sommes allés à l’aventure… C’était chouette…\n\nMerci… d’avoir croisé mon regard…\n\nLes chaussures… m’ont rendu très heureux…"
+    },
+    {
+      "id": "BuffetDream4",
+      "name": "Souvenirs de Pwie",
+      "desc": "- Instance max : 5\n- Pour chaque Instance,\n · -5 Niveaux Offensifs de Base\n · -5 Niveaux Défensifs de Base\n · -1 de Puissance de Duel\n- Début du Tour : regagne (8 * Instance) PSM",
+      "summary": "",
+      "flavor": "J’avais faim… Je voulais faire mal à personne… Ça fait si mal…\n\nNous sommes allés à l’aventure… C’était chouette…\n\nMerci… d’avoir croisé mon regard…\n\nLes chaussures… m’ont rendu très heureux…"
+    },
+    {
+      "id": "BuffetDream5",
+      "name": "Souvenirs de Pwie",
+      "desc": "- Instance max : 5\n- Pour chaque Instance,\n · -5 Niveaux Offensifs de Base\n · -5 Niveaux Défensifs de Base\n · -1 de Puissance de Duel\n- Début du Tour : regagne (8 * Instance) PSM",
+      "summary": "",
+      "flavor": "Je ne pouvais pas m’arrêter… Vous m’avez manqué… J’étais tout seul, alors… Je voulais aller avec vous…\n\nJ’avais faim… Je voulais faire mal à personne… Ça fait si mal…\n\nNous sommes allés à l’aventure… C’était chouette…\n\nMerci… d’avoir croisé mon regard…\n\nLes chaussures… m’ont rendu très heureux…"
+    },
+    {
+      "id": "BuffetDreamEnd",
+      "name": "Je… suis “Pwie”.",
+      "desc": "- -30 Niveaux Offensifs de Base\n- -30 Niveaux Défensifs de Base\n- Subit +100% de dégâts",
+      "summary": "",
+      "flavor": "Souvenez-vous de moi comme “Pwie”, d’accord ?\nMerci… pour tout."
+    },
+    {
+      "id": "BuffetRevival",
+      "name": "Voix du Dieu Cramoisi",
+      "desc": "- Instance max : 3\n- Ne peut pas être vaincu\n- Fin du Tour : perd 1 Instance\n- Lorsque cet effet expire,\n · Reprends la forme “Personnel de Direction Le Rouge”\n · Regagne 5 PSM tous les 10 PV restants lorsque cette unité avait la forme “Chair Arrachée du Dieu Cramoisi” ; gagne +2 de Compte de Pulsation\n · Si cette unité a gagné 10 de Compte de Pulsation ou plus, consomme tout le Compte de Pulsation ; puis, gagne 1 Carnage Incontrôlable [Le Désir] au prochain tour toutes les 5 Instances consommées",
+      "summary": "",
+      "flavor": "Vivre, et vivre encore.\n\nFaire l’expérience, vivre, revient à l’esprit de ne pas se plonger dans le présent, mais déjà dans le futur.\n\nPuisque l’on a hâte de ce qui arrivera, on désire faire l’expérience. Et parce que l’on désire faire l’expérience, on choisi de continuer de vivre."
+    },
+    {
+      "id": "BuffetRouge",
+      "name": "Carnage Incontrôlable [Le Désir]",
+      "desc": "- Instance max : 3\n- +1 de Vitesse Min & Max\n- Subit -50% de dégâts de Saignement\n- Ne peut pas être vaincu par des dégâts de Saignement\n- Fin du Tour : perd 1 Instance",
+      "summary": "",
+      "flavor": "Je ne peux jamais être satisfait.\n\nBien que le désir ne soit pas réellement mien, je le confonds avec quelque chose m’appartenant.\n\nCeci est un désir né de toi— Un désir qui jaillit de toi, à cause de toi."
+    },
+    {
+      "id": "BuffetScruple",
+      "name": "Partagée avec Pwie",
+      "desc": "- +3 de Vitesse Min & Max\n- Début du Tour : regagne 15 PSM\n- Subit -75% de dégâts finaux de Le Dieu Cramoisi [Âge Adulte]",
+      "summary": "",
+      "flavor": "Nous avons partagé une expérience avec Pwie. Ensemble. Cela est sûr.\n\nL’hésitation commence à faire surface."
+    },
+    {
+      "id": "BuffetResolve",
+      "name": "Décision",
+      "desc": "- Instance max : 1\n- Inflige +30% de dégâts à Le Dieu Cramoisi [Âge Adulte]\n- Début du Tour : regagne 15 PSM",
+      "summary": "",
+      "flavor": "“En tant que Manager… Je dois choisir, pas vrai ?”\n\n“Correct, Manager.”\n\n“……”\n\n“……”\n\n“… J’ai pris ma décision.”"
+    },
+    {
+      "id": "MeursaultBuffetEnd",
+      "name": "Celui Qui Cloue",
+      "desc": "- +3 de Vitesse Min & Max\n- +3 de Puissance Finale\n- À l’Usage de Capacité, gagne 2 Ressources E.G.O. supplémentaires de l’Affinité de ladite Capacité (2 fois par tour)\n- Ne peut pas Battre en Retraite",
+      "summary": ""
+    },
+    {
+      "id": "GrandBuffet_LowMorale",
+      "name": "Le Désir",
+      "desc": "- Moral Bas\n- +3 Niveaux Offensifs\n- +3 Niveaux Défensifs",
+      "summary": ""
+    },
+    {
+      "id": "GrandBuffet_Panic",
+      "name": "Le Désir",
+      "desc": "- Panique\n- +5 Niveaux Offensifs\n- +5 Niveaux Défensifs",
+      "summary": ""
+    },
+    {
+      "id": "LaRougeSuperior_LowMorale",
+      "name": "Par-delà Le Tégument !",
+      "desc": "- Moral Bas\n- -2 Niveaux Défensifs\n- +2 Niveaux Offensifs",
+      "summary": ""
+    },
+    {
+      "id": "LaRougeSuperior_Panic",
+      "name": "Par-delà Le Tégument !",
+      "desc": "- Panique\n- -5 Niveaux Défensifs\n- +3 Niveaux Offensifs",
+      "summary": ""
+    },
+    {
+      "id": "Jeanne_LowMorale",
+      "name": "La Nausée",
+      "desc": "- Moral Bas\n- Inflige -10% de dégâts",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Jeanne_Panic",
+      "name": "La Nausée",
+      "desc": "- Panique\n- -1 de Puissance de Base\n- Inflige -10% de dégâts",
+      "summary": "",
+      "undefined": "-"
+    }
+  ]
+}

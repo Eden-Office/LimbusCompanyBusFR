@@ -1,0 +1,266 @@
+{
+  "dataList": [
+    {
+      "id": 146501,
+      "name": "Le Noir : Tissu",
+      "desc": "Début de l’Affrontement : gagne 5 [NoirBindArmor]\nDébut du Tour : gagne du Bouclier égal à (Instance de [NoirBindArmor])% des PV max de cette unité",
+      "flavor": "Le Worsted de Le Noir maintient le corps comme une armure, l’accentuant sous une ferme silhouette figée."
+    },
+    {
+      "id": 146502,
+      "name": "Conduire les Clients",
+      "desc": "Inflige +10% de dégâts et subit +10% de dégâts de cibles par [NoirNoComply] sur la cible\nInflige +200% de dégâts aux cibles ayant 3 [NoirNoComply]",
+      "flavor": "Le Noir sert ses précieux clients en stricte conformité avec le protocole de gestion du Siège Social."
+    },
+    {
+      "id": 146503,
+      "name": "Préservation",
+      "desc": "Gagne 1 [NoirBindArmor] tous les 3 de Compte de [ChargeNoir] consommés accumulés par cette unité dans cet Affrontement\nGagne 1 [ChargeNoir] tous les 10 de Compte de [ChargeNoir] consommés accumulés par cette unité dans cet Affrontement",
+      "flavor": "La force est compressée, rassemblée et fixée en place. Parfois, il faut plus de force pour empêcher le changement que pour le provoquer."
+    },
+    {
+      "id": 146603,
+      "name": "Action et Réaction Métabolique",
+      "desc": "En entrant dans l’Affrontement pour la première fois, gagne 10 de Compte de [ChargeRouge]\n\nGagne 1 [ChargeRouge] tous les 10 de Compte de [ChargeRouge] consommés accumulés par cette unité dans cet Affrontement"
+    },
+    {
+      "id": 149401,
+      "name": "Le Rouge : Veste",
+      "desc": "Fin du Tour : gagne ou perd jusqu’à 10 de Compte de [ChargeRouge]\n\nLorsque touché, si l’attaquant a utilisé des Capacités qui gagnent de la [Charge] transfère 1 de Compte de [ChargeRouge] en Compte de [Charge] à l’attaquant (une fois par Capacité de l’attaquant)\nGagne 1 [AttackUp] chaque fois que l’effet ci-dessus s’active\nDébut du Tour : consomme jusqu’à 5 de Compte de [ChargeRouge] en excès dépassant 15 sur soi pour regagner (Compte de [ChargeRouge] consommé)% de PV"
+    },
+    {
+      "id": 149402,
+      "name": "Jean en Myofibre",
+      "desc": "Les Capacités infligent +1% de dégâts par Intensité de [ChargeRouge] sur soi (10% max)\n\nÀ l’Usage de Capacité, si cette unité a moins de 50% de PV, ladite Capacité gagne +2 de Compte de [ChargeRouge] supplémentaire\nLes Capacités infligent +1% de dégâts par 1% de PV manquants sur soi"
+    },
+    {
+      "id": 149301,
+      "name": "Le Rouge : Veste",
+      "desc": "Fin du Tour : gagne ou perd jusqu’à 10 de Compte de [ChargeRouge]\n\nLorsque touché, si l’attaquant a utilisé des Capacités qui gagnent de la [Charge] transfère 1 de Compte de [ChargeRouge] en Compte de [Charge] à l’attaquant (une fois par Capacité de l’attaquant)\nGagne 1 [AttackUp] chaque fois que l’effet ci-dessus s’active"
+    },
+    {
+      "id": 149302,
+      "name": "Désespoir",
+      "desc": "Début du Tour : à 3 d’Intensité de [ChargeRouge] ou plus et à 10 de Compte de [ChargeRouge] ou plus, utilise la Capacité “Marketing Agressif”\n\nLes Capacités infligent +1% de dégâts par 1% de PV manquants sur soi"
+    },
+    {
+      "id": 149303,
+      "name": "Je l’entends… la Voix d’un autre dieu… !",
+      "desc": "Début de l’Affrontement : gagne [RisingMadnessRouge]\n- Début du Tour : lorsque les PV de cette unité tombent en dessous de 50% pour la première fois dans cet Affrontement, convertit [RisingMadnessRouge] en [RisingMadnessRouge2nd]\n\nEn Duel Perdu, gagne +2 de Compte de [ChargeRouge]",
+      "flavor": "Ils ont entendu la Voix chaleureuse, mais n’ont pas pu changer davantage. Avec l’esprit pris au piège dans la chair, le soi s’est clivé de lui-même et a sombré dans la folie."
+    },
+    {
+      "id": 146601,
+      "name": "Boutique du Rouge : Catalogue des Nouvelles Arrivées",
+      "desc": "Comportement de [RougeThreeNormal]\n\nRetire [RougeThreeCocoon] et [RougeThreeCocoonShield] sur soi et gagne [RougeThreeNormal]\n<color=#ff6000><mark=#ff000040><b><u>Lorsque touché, gagne 1 [RougeThreeNormal]\nFin du Tour : à 20 [RougeThreeNormal], entre en comportement de [RougeThreeCocoon] au prochain tour</u></b></mark></color>\n\nLorsqu’en état de [RougeThreeNormal] :\nSi cette unité subit des dégâts faisant tomber ses PV en dessosu de 10, nullifie ces dégâts, regagne 30% de PV et termine le tour. Puis, cette unité entre en état de [RougeThreeCocoon] et gagne 2 [Enhancement] pour le reste de cet Affrontement (une fois par Affrontement)"
+    },
+    {
+      "id": 146602,
+      "name": "Vers la Cabine d’Essayage",
+      "desc": "Comportement de [RougeThreeCocoon]\n\nRetire [RougeThreeNormal] sur soi. Gagne 1 [RougeThreeCocoon] et 500 [RougeThreeCocoonShield]\n\n<color=#ff6000><mark=#ff000040><b><u>Lorsque touché, gagne [RougeThreeCocoonHit]</u></b></mark></color>\nÀ 0 [RougeThreeCocoonShield] ou à 3 [RougeThreeCocoon], perd 20 PSM et termine le tour. Puis, entre en comportement de [RougeThreeNormal] au prochain tour et gagne 1 [AttackDmgUp] pour le reste de cet Affrontement (si cette unité est Déséquilibrée, se remet de Déséquilibre)"
+    },
+    {
+      "id": 147401,
+      "name": "Sous-Chef",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>En tuant une cible avec des Capacités Offensives, gagne 1 [SapsareeCooking]</u></b></mark></color>\n- À l’Usage de Capacité, gagne 1 [SapsareeCooking] supplémentaire tous les 3 effets de statut sur ladite cible (2 max)",
+      "flavor": "Elle porte peut-être le titre, mais le restaurant au 5E lui rirait au nez."
+    },
+    {
+      "id": 147402,
+      "name": "Je peux cuisiner des plats délicieux si bons, compris ?",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>Si cette unité a [SapsareeCooking], utilise la Capacité “Aah ! Je suis en pause-repas, compris ?” à la toute fin du tour</u></b></mark></color>\n(Ne s’active pas si toutes les autres cibles sont vaincues ou si cette unité est Déséquilibrée)\nFin du Tour : si cette unité n’a pas pu utiliser la Capacité “Aah ! Je suis en pause-repas, compris ?”, gagne 1 [SapsareeHungry]",
+      "flavor": "Le restaurant au 5E ne s’abaisserait pas à appeler cela de la “cuisine”."
+    },
+    {
+      "id": 147403,
+      "name": "Ambitions Culinaires",
+      "desc": "Utilise une Capacité de Gourmandise puissante tous les 4 tours\n(Si cet effet n’a pas pu être activé suite au Déséquilibre, l’active au prochain tour)\n- Fin du Tour : à 5 [SapsareeYammi] ou plus, utilise une Capacité de Gourmandise puissante au prochain tour\n\nFin du Tour : à 3 [SapsareeHungry] ou plus, utilise une Capacité de Colère puissante au prochain tour",
+      "flavor": "Il y a un monde de différences entre les arts culinaires et créer quelque chose de comestible. Quant à toi… eh bien, tu tombes solidement dans la dernière catégorie."
+    },
+    {
+      "id": 147404,
+      "name": "Miam les délices, compris ?",
+      "desc": "Début du Tour : regagne 3 PSM par [SapsareeYammi] sur soi",
+      "flavor": "Méritent-ils seulement de s’engager dans des discours gustatifs ? De grâce, ils vivent dans une Cafétéria."
+    },
+    {
+      "id": 147405,
+      "name": "S’envoler et fuir, compris ?",
+      "desc": "Termine l’Affrontement lorsque les PV de Sous-Chef tombent en dessous des 30%",
+      "flavor": "Pas prête à mourir pour ça."
+    },
+    {
+      "id": 147501,
+      "name": "Ingrédient de Cuisine Savoureux.",
+      "desc": "Si cette unité a 5 effets de statut ou plus, gagne 3 Niveaux Offensifs et 3 Niveaux Défensifs",
+      "flavor": "Ce n’est même pas un ingrédient de cuisine."
+    },
+    {
+      "id": 147502,
+      "name": "Attendrissement Enzymatique",
+      "desc": "Lorsque touché, gagne 1 Malus de Niveau Défensif et 1 Bonus de Niveau Défensif au prochain tour (3 par tour)",
+      "flavor": "Le portefeuille en cuir résistant peut être attendri, mais cela ne change rien de digne d’être mentionné."
+    },
+    {
+      "id": 147503,
+      "name": "Faim…",
+      "desc": "Fin du Tour : si Sous-Chef n’a pas pu utiliser la Capacité “Aah ! Je suis en pause-repas, compris ?”, gagne 1 [SapsareeHungry]",
+      "flavor": "C’est un <b>portefeuille</b> élevé comme du bétail pour être consommé. Et comme du bétail, il a faim d’être nourri."
+    },
+    {
+      "id": 148101,
+      "name": "Patchwork",
+      "desc": "Début de l’Affrontement : gagne 30 [UnresolvedFeelings]\nÀ 50% de PV ou moins, convertit une Capacité utilisée dans un certain comportement en une Capacité puissante",
+      "flavor": "Des restes de chutes de tissu, marqués autrement à la destruction, sont cousus ensemble et empilés sur plusieurs couches. Chaque couche est sans valeur par elle-même, mais son épaisseur demeure. Voilà pourquoi le Responsable de Rayon les rassemble."
+    },
+    {
+      "id": 148102,
+      "name": "Inspection Préventive",
+      "desc": "Début du Tour : active les effets ci-dessous\n<color=#ff6000><mark=#ff000040><b><u>- Si 1 Pécheur ou plus possède 10 [Wariness], gagne un Emplacement d’Attaque et équipe la Capacité “Annonce d’Avertissement” sur cet Emplacement</u></b></mark></color>\n- Applique 1 [Wariness] à tous les Pécheurs n’ayant pas [ReliefSense]\n- Gagne 1 [HorribleEat] par Identité ayant [HorribleTerror]\n\n<color=#ff6000><mark=#ff000040><b><u>Lorsque touché par la Capacité d’un Pécheur :</u></b></mark></color>\nÀ la Fin de l’Attaque de ladite Capacité, <color=#ff6000><mark=#ff000040><b><u>applique [Wariness]</u></b></mark></color> audit Pécheur autant de fois que cette unité a été touchée par cette Capacité",
+      "flavor": "Pour entendre la Voix, il faut ouvrir son cœur avant d’ouvrir ses oreilles."
+    },
+    {
+      "id": 148103,
+      "name": "Gratitude",
+      "desc": "Début du Tour : <color=#ff6000><mark=#ff000040><b><u>- Si 1 Pécheur ou plus possède 3 [ReliefSense], gagne un Emplacement d’Attaque et équipe la Capacité “Merci… d’avoir écouté…” sur cet Emplacement</u></b></mark></color>",
+      "flavor": "Trop de clients laissent les annonces rentrer par une oreille et sortir par l’autre… Merci d’avoir écouté…"
+    },
+    {
+      "id": 148104,
+      "name": "Expurger le Paniqué",
+      "desc": "Inflige +200% de dégâts aux cibles en Panique",
+      "flavor": "Faites s’effondrer l’esprit et le corps suivra rapidement. Il existe des méthodes qui accèlerent grandement cela."
+    },
+    {
+      "id": 149201,
+      "name": "Le Noir : Tissu",
+      "desc": "Début de l’Affrontement : gagne 5 [NoirBindArmor]\n\nDébut du Tour : gagne du Bouclier égal à (Instance de [NoirBindArmor] / 2)% des PV max de cette unité\n\nLorsque Déséquilibré, perd tout [NoirBindArmor]\nDébut du Tour : lorsque cette unité se remet de Déséquilibre, gagne 5 [NoirBindArmor]",
+      "flavor": "Le Worsted de Le Noir maintient le corps comme une armure, l’accentuant sous une ferme silhouette figée."
+    },
+    {
+      "id": 149202,
+      "name": "Préservation",
+      "desc": "Gagne 1 [NoirBindArmor] tous les 5 de Compte de [ChargeNoir] consommés accumulés par cette unité dans cet Affrontement\nGagne 1 [ChargeNoir] tous les 10 de Compte de [ChargeNoir] consommés accumulés par cette unité dans cet Affrontement",
+      "flavor": "La force est compressée, rassemblée et fixée en place. Parfois, il faut plus de force pour empêcher le changement que pour le provoquer."
+    },
+    {
+      "id": 149203,
+      "name": "Changer pour l’Inertie",
+      "desc": "Début du Tour : à 10 de Compte de [ChargeNoir] ou plus, utilise une Capacité puissante\n\nÀ l’Usage de Capacité, à 15 de Compte de [ChargeNoir] ou plus, consomme 3 de Compte de [ChargeNoir] pour infliger +20% de dégâts",
+      "flavor": "Cette nouvelle Voix me dit qu’elle m’aidera à changer… pour que je ne puisse jamais changer."
+    },
+    {
+      "id": 149204,
+      "name": "Je l’entends… la Voix d’un autre dieu… !",
+      "desc": "Début de l’Affrontement : gagne 2 [RisingMadnessNoir]\n- Début du Tour : lorsque les PV de cette unité tombent en dessous de 50% pour la première fois dans cet Affrontement, convertit [RisingMadnessNoir] en [RisingMadnessNoir2nd]\n\nEn Duel Perdu, gagne +2 de Compte de [ChargeNoir]",
+      "flavor": "Ils ont entendu la Voix chaleureuse, mais n’ont pas pu changer davantage. Avec l’esprit pris au piège dans la chair, le soi s’est clivé de lui-même et a sombré dans la folie."
+    },
+    {
+      "id": 148201,
+      "name": "Le Noir : Tissu",
+      "desc": "Début de l’Affrontement : gagne 3 [NoirBindArmor]\n\nDébut du Tour : gagne du Bouclier égal à (Instance de [NoirBindArmor])% des PV max de cette unité (sauf si Déséquilibré)",
+      "flavor": "Le Worsted de Le Noir maintient le corps comme une armure, l’accentuant sous une ferme silhouette figée."
+    },
+    {
+      "id": 148202,
+      "name": "Préservation",
+      "desc": "Gagne 1 [NoirBindArmor] tous les 3 de Compte de [ChargeNoir] consommés accumulés par cette unité dans cet Affrontement\nGagne 1 [ChargeNoir] tous les 10 de Compte de [ChargeNoir] consommés accumulés par cette unité dans cet Affrontement\n\nÀ 3 d’Intensité de [ChargeNoir] ou plus, +5 de Compte de [ChargeNoir] max",
+      "flavor": "La force est compressée, rassemblée et fixée en place. Parfois, il faut plus de force pour empêcher le changement que pour le provoquer."
+    },
+    {
+      "id": 148203,
+      "name": "Libérer le Condensé",
+      "desc": "Début du Tour : à 3 d’Intensité de [ChargeNoir] ou plus et à 10 de Compte de [ChargeNoir] ou plus, utilise une Capacité puissante",
+      "flavor": "La force condensée en un point pour imposer l’inertie finira par éclater au grand jour."
+    },
+    {
+      "id": 148204,
+      "name": "Paradoxe de Conservation-Conversion",
+      "desc": "Si cette unité a du Bouclier, gagne +1 de Compte de [ChargeNoir] lorsque touché par un Pécheur (une fois par Capacité, 3 fois par tour)\n- À 3/5 d’Intensité de [ChargeNoir] ou plus, gagne +2/+3 de Compte de [ChargeNoir] à la place\n\nFin du Tour : si cette unité a du Bouclier,\nGagne +1 de Compte de [ChargeNoir] et 1 [DefenseUp] au prochain tour par Intensité de [ChargeNoir] sur soi (3 chacun max)",
+      "flavor": "Convertit une force externe de changement en une force d’autoconservation. Néanmoins, ceci est un monde dans lequel, peu importe combien l’on rejette férocement le changement ou cherche l’inertie, quelque chose doit changer."
+    },
+    {
+      "id": 148301,
+      "name": "Le Noir : Tissu Gabardine",
+      "desc": "Début de l’Affrontement : gagne 30 [NoirSuit]\n\nDébut du Tour : gagne du Bouclier égal à ([NoirSuit] / 5)% des PV max de cette unité (sauf si Déséquilibré)",
+      "flavor": "La gabardine phare des Le Noir, conçue pour la formalité sans sacrifier la fermeté."
+    },
+    {
+      "id": 148302,
+      "name": "Préservation",
+      "desc": "Gagne 1 d’Intensité de [ChargeNoir] tous les 10 de Compte de [ChargeNoir] consommés accumulés par cette unité dans cet Affrontement\n\nÀ 3 d’Intensité de [ChargeNoir] ou plus, +5 de Compte de [ChargeNoir] max",
+      "flavor": "La force est compressée, rassemblée et fixée en place. Parfois, il faut plus de force pour empêcher le changement que pour le provoquer."
+    },
+    {
+      "id": 148303,
+      "name": "Impression",
+      "desc": "Début du Tour : si cette unité a [Realisation], active “Simple Coup de Pied” en “Simple Coup de Pied - Couture Multiple” à la place\n\nEn déclenchant un [VibrationExplosion], applique +20% de Seuil de Déséquilibre augmenté par [VibrationExplosion]\n- À 12 de Compte de [ChargeNoir] ou plus, en déclenchant un [VibrationExplosion], consomme 1 de Compte de [ChargeNoir] sur soi et applique à la place +40% de Seuil de Déséquilibre augmenté par [VibrationExplosion] (par cible)\n\nEn déclenchant un [VibrationExplosion], si la cible n’a pas de Seuil de Déséquilibre, inflige des dégâts fixes égaux à l’Instance de [DefenseUp] sur soi (20 max)",
+      "flavor": "Les Le Noir pensent qu’ils peuvent faire s’effondrer la valeur de leurs adversaires en les soumettant à de violents tremblements. Plus la cible vibre violemment, plus elle doit traverser de changements d’un instant à l’autre.\n\nLes techniques de combat des Le Noir ont été bâties sur cette conviction."
+    },
+    {
+      "id": 148304,
+      "name": "Paradoxe du Paradoxe de Conservation-Conversion",
+      "desc": "Si cette unité a du Bouclier, lorsque touché par un Pécheur,\n- Inflige 1 [Vibration] au Pécheur (une fois par Capacité)\n- Gagne +1 de Compte de [ChargeNoir] (une fois par Capacité, 3 fois par tour)\n  · À 3/5 d’Intensité de [ChargeNoir] ou plus, gagne +2/+3 de Compte de [ChargeNoir] à la place\n\nFin du Tour : si cette unité a du Bouclier,\nGagne +1 de Compte de [ChargeNoir] et 2 [DefenseUp] au prochain tour par Intensité de [ChargeNoir] sur soi (3 max, 6 max respectivement)",
+      "flavor": "Plus une existence lutte pour rester la même, plus il devient sûr pour elle de changer. Exister revient à toujours aller quelque part, et partout où il y a du mouvement, il y a du changement."
+    },
+    {
+      "id": 149601,
+      "name": "La Couture Commence",
+      "desc": "Début du Tour : inflige [NiddleExpected] à 2 ennemis aléatoires"
+    },
+    {
+      "id": 149602,
+      "name": "Fait Main",
+      "desc": "+1 de Puissance Finale de Capacité par Aiguividu sur le terrain",
+      "flavor": "Aucune couture à la main ne peut survivre avec seulement une paire de mains. Une multitude d’artisans entraînés est nécessaire pour y insuffler de la vie."
+    },
+    {
+      "id": 149603,
+      "name": "Flot Incessant et Inévitable de Réclamations Client",
+      "desc": "“Pleurs du Cocon” peut être entendu tous les “multiple de 3” tours\nEn entrant en Phase 2, “Pleurs du Cocon” continue d’être entendu tous les tours\n\nCette unité ne peut pas être immobilisée lors du tour où “Pleurs du Cocon” est entendu\n\nSi les PV de cette unité tombent sous son Seuil de Déséquilibre, gagne 2 [Vulnerable] au prochain tour",
+      "flavor": "Des voix suintent du cocon.\n\n“Tout ce qui est inférieur à 80 points à deux épaisseurs ? Même pas du tissu !”\n“Pourquoi les boutonnières sont pas horizontales ?”\n“Un tricot de jersey à la machine ? Sérieux ?”\n“Pourquoi la lisière est pas rouge ?”\n“Ça a même pas été traité contre le rétrécissement.”\n“Tout ce qui est en dessous du Super 150 est un chiffon, évidemment.”\n“Tu crois que l’échelle Super est juste une épaisseur de pelote ? Le diamètre et le titrage sont même pas la même chose. Tu le sais pas ?”\n“Tu finis l’ourlet avec un Union Special, hein ? Évidemment que tu fais ça !”\n“C’est du Rigide ? … Oh. Une lisière ?”\n“Attends… Le compte de points par pouce est trop régulier. T’as utilisé une machine, c’est ça ?”\n“C’est pas sur mesure si c’est pas fait main.”\n“… C’est même pas une boutonnière milanaise.”\n“La chemiserie doit être supérieure à 200 de compte.”\n“Ugh, je peux voir la couture sur l’extérieur.”\n“Là, je peux voir deux rangées de couture juste là. Rejeté.”\n“C’est quoi cette finition ?”\n“Triple épaisseur, minimum.”"
+    },
+    {
+      "id": 148401,
+      "name": "Le Prématuré Dieu Cramoisi",
+      "desc": "Fin du Tour : ne perd pas de Compte de [ChargeRouge]\n<color=#ff6000><mark=#ff000040><b><u>Dans un Duel, gagne +1 de Compte de [ChargeRouge] chaque fois que le [Laceration] de la cible est activé</u></b></mark></color>\nEn Tuant, gagne du Compte de [ChargeRouge] égal à (Intensité de [Laceration] + Compte de [Laceration]) sur la cible\nDébut du Tour : regagne 3 PSM par Compte de [ChargeRouge] sur soi",
+      "flavor": "Un dieu conçu par désir, mis au monde avant son heure. Même sa naissance fut incomplète."
+    },
+    {
+      "id": 148402,
+      "name": "Pulsation Rosée de Musculature",
+      "desc": "Début du Tour : <color=#ff6000><mark=#ff000040><b><u>à 15 de Compte de [ChargeRouge] ou plus, si cette unité n’a pas [Gourmandise], consomme tout le Compte de [ChargeRouge] sur soi et gagne [Gourmandise]</u></b></mark></color>\n\nGagne les effets suivants tant que cette unité a [Gourmandise]:\n- À l’Usage de Capacité, gagne +3 de Compte de [Laceration]\n- En Touche, gagne 1 [Laceration]\n- Lorsque touché sur une de ses Parties, gagne 1 [BuffetSick]\n- En Duel Perdu, gagne 3 [BuffetSick]\n- En Tuant, si la cible a 3 [BloodyMucus] ou plus, génère une “Chair Arrachée du Dieu Cramoisi” au prochain tour\n- Fin du Combat : regagne 3 PSM par ennemi ayant [BloodyMucus]\n\nFin du Tour : <color=#ff6000><mark=#ff000040><b><u>si cette unité a 30 [BuffetSick] ou plus</u></b></mark></color> lorsque [Gourmandise] expire, au prochain tour, affaiblit les comportements de cette unité et Déséquilibre les unités “Chair Arrachée du Dieu Cramoisi” sur le terrain\n\n※ L’Instance de [BloodyMucus] peut être réduit avec les moyens suivants : <color=#ff6000><mark=#ff000040><b>Usage de Capacité E.G.O. et Usage de Capacité Défensive</u></b></mark></color>\n※ “Chair Arrachée du Dieu Cramoisi” gagne [DeterioratingBody] égal au [BloodyMucus] de l’unité vaincue\n※ “Chair Arrachée du Dieu Cramoisi” ayant [DeterioratingBody] ne peut pas être vaincue\n※ Jusqu’à 3 “Chair Arrachée du Dieu Cramoisi” peuvent être générées sur le terrain",
+      "flavor": "Ses membres se débattent et tremblent frénétiquement, comme s’ils n’avaient jamais été les siens."
+    },
+    {
+      "id": 148403,
+      "name": "Disparité",
+      "desc": "Inflige +50% de dégâts aux cibles plus lentes",
+      "flavor": "Tout sur son passage se carapate à des vitesses disparates."
+    },
+    {
+      "id": 148404,
+      "name": "Instinct de Survie",
+      "desc": "Début du Tour : gagne 1 [SavePlacenta] et applique 5 [Protection] à la Partie Cordon de Vie\nSi cette unité a [Gourmandise], ou si elle est Déséquilibrée, ce Passif ne s’active pas",
+      "flavor": "La conscience n’a aucun contrôle sur la lutte du corps pour survivre et se protéger, ce qu’il fait sans même savoir où il commence et se termine."
+    },
+    {
+      "id": 148405,
+      "name": "Cordon de Vie Rompu",
+      "desc": "Fin du Tour : si la Partie Cordon de Vie Part est brisée, la Partie Corps gagne 3 [Vulnerable] au prochain tour",
+      "flavor": "Que sont ces choses flasques et balançantes accrochées à mon corps ? Est-ce c’est une partie de “moi” ? C’est si dur à dire."
+    },
+    {
+      "id": 148406,
+      "name": "Carnage d’une Naissance Violente et Traumatisante",
+      "desc": "Fin du Tour : si la Partie Cordon de Vie n’est pas brisée, et à moins de 50% de PV de Noyau, gagne [Gourmandise]\nPuis, ne perd pas d’Instance de [Gourmandise] avant que la Partie Cordon de Vie ne soit brisée",
+      "flavor": "Le corps est arraché à la chaleur et jeté dans le froid ; d’une tranquillité froide à un chaos ardent. Rien de cela n’est volontaire."
+    },
+    {
+      "id": 149701,
+      "name": "Pulsation Irréfléchie",
+      "desc": "- Lorsque généré, gagne de l’[DeterioratingBody] égal à l’Instance de [BloodyMucus] sur la cible qui a été vaincue pour générer cette unité\n\nVaincu lorsque [DeterioratingBody] expire",
+      "flavor": "Il vit, mais n’a cependant aucun cerveau. L’esprit peut-il s’élever de pulsation musculaire à la place ?"
+    }
+  ]
+}

@@ -1201,7 +1201,7 @@
         {
           "level": 1,
           "name": "Arts du Sang Durci de Don Quichotte 15 : Parasol",
-          "desc": "[DuelCounter]\n[WhenUse] Réduit de 3 le Compte de [Laceration] de 2 autres alliés ayant la plus haute valeur de (Intensité * Compte de [Laceration]), et augmente [BloodDinner] de (Intensité de [Laceration] pré-réduit * Compte réduit)\n  - Si cet effet réduit le Compte de [Laceration] à 0, [Laceration] expire\n[WinDuel] Gagne 4 d’[BloomingThornsRodionFirst]",
+          "desc": "[DuelCounter]\n[WhenUse] Réduit de 3 le Compte de [Laceration] de 2 autres alliés ayant la plus haute valeur de (Intensité * Compte de [Laceration]) et augmente [BloodDinner] de (Intensité de [Laceration] pré-réduit * Compte réduit)\n  - Si cet effet réduit le Compte de [Laceration] à 0, [Laceration] expire\n[WinDuel] Gagne 4 d’[BloomingThornsRodionFirst]",
           "coinlist": [
             {
               "coindescs": [
@@ -1222,7 +1222,7 @@
         {
           "level": 4,
           "name": "Arts du Sang Durci de Don Quichotte 15 : Parasol",
-          "desc": "[DuelCounter]\n[WhenUse] Réduit de 3 le Compte de [Laceration] de 2 autres alliés ayant la plus haute valeur de (Intensité * Compte de [Laceration]), et augmente [BloodDinner] de (Intensité de [Laceration] pré-réduit * Compte réduit)\n  - Si cet effet réduit le Compte de [Laceration] à 0, [Laceration] expire\n<style=\"highlight\">  - Si l’allié affecté est un <Démon de Sang>, réduit son Compte de [Laceration] de 2 de plus</style>\n[WinDuel] Gagne 4 [BloomingThornsRodionFirst]",
+          "desc": "[DuelCounter]\n[WhenUse] Réduit de 3 le Compte de [Laceration] de 2 autres alliés ayant la plus haute valeur de (Intensité * Compte de [Laceration]) et augmente [BloodDinner] de (Intensité de [Laceration] pré-réduit * Compte réduit)\n  - Si cet effet réduit le Compte de [Laceration] à 0, [Laceration] expire\n<style=\"highlight\">  - Si l’allié affecté est un <Démon de Sang>, réduit son Compte de [Laceration] de 2 de plus</style>\n[WinDuel] Gagne 4 [BloomingThornsRodionFirst]",
           "coinlist": [
             {
               "coindescs": [
@@ -3332,7 +3332,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 5 [Breath]"
+                  "desc": "[OnSucceedAttack] Gagne 5 [Breath]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
@@ -3366,7 +3366,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 5 [Breath]"
+                  "desc": "[OnSucceedAttack] Gagne 5 [Breath]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
@@ -3400,7 +3400,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 5 [Breath]"
+                  "desc": "[OnSucceedAttack] Gagne 5 [Breath]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflige 2 [Combustion]"
@@ -3591,6 +3591,296 @@
           "desc": "Après avoir réussi à esquiver toutes les Pièces d’une Capacité, utilise “Sezionatura di Coniglio” en Attaque à Sens Unique contre l’attaquant (une fois par tour)\n+1 de Puissance de Pièce toutes les 2 Instances d’[FutureEyeOnRodion] sur soi (4 max)\n+1 de Puissance de Base toutes les 2 Instances d’[FutureEyeOnRodion] sur soi au-dessus de 10 Instances (4 max)\n[WhenUse] Gagne +3 de Compte de [Breath] (une fois par tour)\n[OnSucceedEvade] Gagne 2 [Breath] (2 fois par tour)\n<style=\"highlight\">[OnSucceedEvade] Regagne 3 PSM (2 fois par tour)</style>\n[EndSkillAll] Perd 2 [FutureEyeOnRodion] sur soi",
           "coinlist": [
             {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Retouche",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[EndSkill] Si la cible est un allié, applique +3 de Compte de [Charge] et 1 [AttackUp]\n[EndSkill] Si la cible est un allié, active les effets suivants (une fois par tour) :\n- Applique du Bouclier égal à 5% des PV max de cette unité (1 min)\n- Applique 1 [NoirScissorShield]\n- Si la cible est une [PersonalityCharge], applique 1 [Enhancement]",
+          "coinlist": [
+            {
+              "coindescs": []
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Retouche",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[EndSkill] Si la cible est un allié, applique +<style=\"highlight\">4</style> de Compte de [Charge] et 1 [AttackUp]\n[EndSkill] Si la cible est un allié, active les effets suivants (une fois par tour) :\n- Applique du Bouclier égal à 5% des PV max de cette unité (1 min)\n- Applique 1 [NoirScissorShield]\n- Si la cible est une [PersonalityCharge], applique 1 [Enhancement]<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": []
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Retouche",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[EndSkill] Si la cible est un allié, applique +4 de Compte de [Charge] et 1 [AttackUp]\n[EndSkill] Si la cible est un allié, active les effets suivants <style=\"highlight\">(2 fois par tour)</style> :\n- Applique du Bouclier égal à <style=\"highlight\">10%</style> des PV max de cette unité (1 min)\n- Applique 1 [NoirScissorShield]\n- Si la cible est une [PersonalityCharge], applique 2 [Enhancement]",
+          "coinlist": [
+            {
+              "coindescs": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Piquer et Découper le Long du Tracé",
+          "desc": "[StartBattle] Applique les effets suivants à 1 autre allié avec l’Ordre de Déploiement le plus tôt (priorise les [PersonalityCharge] ; une fois par tour) :\n- Applique 2 [AttackUp]\n- Applique du Bouclier égal à 5% des PV max de cette unité (1 min)\n- Si ladite Identité est une [PersonalityCharge], applique 1 [AttackUp] supplémentaire et du Bouclier égal à 5% des PV max de cette unité\n\n[WhenUse] Si la cible a 6 d’Intensité de [Vibration] ou plus, +1 de Puissance de Pièce\n[WhenUse] Consomme 5 de Compte d’[ChargeKhakiAlly] pour gagner +2 de Puissance Finale",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +6 de Compte d’[ChargeKhakiAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Piquer et Découper le Long du Tracé",
+          "desc": "[StartBattle] Applique les effets suivants à <style=\"highlight\">cette unité et</style> 1 autre allié avec l’Ordre de Déploiement le plus tôt (priorise les [PersonalityCharge] ; une fois par tour) :\n- Applique 2 [AttackUp]\n- Applique du Bouclier égal à 5% des PV max de cette unité (1 min)\n- Si ladite Identité est une [PersonalityCharge], applique 1 [AttackUp] supplémentaire et du Bouclier égal à 5% des PV max de cette unité\n\n[WhenUse] Si la cible a 6 d’Intensité de [Vibration] ou plus, +1 de Puissance de Pièce\n[WhenUse] Consomme 5 de Compte d’[ChargeKhakiAlly] pour gagner +2 de Puissance Finale",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +6 de Compte d’[ChargeKhakiAlly]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Piquer et Découper le Long du Tracé",
+          "desc": "[StartBattle] Applique les effets suivants à cette unité, 1 autre allié avec l’Ordre de Déploiement le plus tôt (priorise les [PersonalityCharge]), <style=\"highlight\">et 1 allié avec le pourcentage de PV actuel le plus bas</style> (une fois par tour) :\n- Applique 2 [AttackUp]\n- Applique du Bouclier égal à 5% des PV max de cette unité (1 min)\n- Si ledit allié est une [PersonalityCharge], applique 1 [AttackUp] supplémentaire et du Bouclier égal à 5% des PV max de cette unité\n\n<style=\"highlight\">[WhenUse] +1 de Puissance de Pièce toutes les 6 d’Intensité de [Vibration] sur la cible (2 max)</style>\n[WhenUse] Consomme 5 de Compte d’[ChargeKhakiAlly] pour gagner +2 de Puissance Finale",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +6 de Compte d’[ChargeKhakiAlly]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [AmberResistDown] (une fois par tour)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091703,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Coupez dans le Biais",
+          "desc": "Inflige +15% de dégâts par [NoirScissorCut] sur soi (30% max)\n\n[StartBattle] Applique les effets suivants à 1 autre allié avec l’Ordre de Déploiement le plus tôt (prioritizes [PersonalityCharge]) et 1 allié avec le plus bas pourcentage de PV actuels (une fois par tour) :\n- Applique 1 [NoirScissorShield]\n- Applique du Bouclier égal à 5% des PV max de cette unité (1 min)\n\n[WhenUse] Si la cible a 6 d’Intensité de [Vibration] ou plus, +1 de Puissance de Pièce\n[WhenUse] +1 de Puissance Finale toutes les 3 d’Intensité d’[ChargeKhakiAlly] (2 max)\n[WhenUse] Consomme 5 de Compte d’[ChargeKhakiAlly] pour gagner +2 de Puissance Finale\n\n[EndSkill] Gagne +5 de Compte d’[ChargeKhakiAlly]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [NoirScissorAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [NoirScissorAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 5 de Compte d’[ChargeKhakiAlly] ou plus, consomme 5 de Compte d’[ChargeKhakiAlly] pour déclencher un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Coupez dans le Biais",
+          "desc": "Inflige <style=\"highlight\">+30%</style> de dégâts par [NoirScissorCut] sur soi <style=\"highlight\">(60% max)</style>\n\n[StartBattle] Applique les effets suivants à cette unité, 1 autre allié avec l’Ordre de Déploiement le plus tôt (priorise les [PersonalityCharge]) et 1 allié avec le plus bas pourcentage de PV actuels (une fois par tour) :\n- Applique 1 [NoirScissorShield]\n- Applique du Bouclier égal à <style=\"highlight\">10%</style> des PV max de cette unité (1 min)\n\n<style=\"highlight\">[WhenUse] +1 de Puissance de Pièce toutes les 6 d’Intensité de [Vibration] sur la cible (2 max)</style>\n[WhenUse] +1 de Puissance Finale toutes les 3 d’Intensité d’[ChargeKhakiAlly] (2 max)\n[WhenUse] Consomme 5 de Compte d’[ChargeKhakiAlly] pour gagner +2 de Puissance Finale\n\n[EndSkill] Gagne +5 de Compte d’[ChargeKhakiAlly]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [NoirScissorAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [NoirScissorAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 5 de Compte d’[ChargeKhakiAlly] ou plus, consomme 5 de Compte d’[ChargeKhakiAlly] pour déclencher un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Rognage",
+          "desc": "[DuelCounter]\n[StartBattle] Gagne +5 de Compte d’[ChargeKhakiAlly] (2 fois par tour)\n[StartBattle] Applique du Bouclier égal à 5% des PV max de cette unité à cette unité et 2 autres alliés avec le plus bas pourcentage de PV actuels (1 min, une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Rognage",
+          "desc": "[DuelCounter]\n[StartBattle] Gagne +5 de Compte d’[ChargeKhakiAlly] (2 fois par tour)\n[StartBattle] Applique du Bouclier égal à <style=\"highlight\">10%</style> des PV max de cette unité à cette unité et 2 autres alliés avec le plus bas pourcentage de PV actuels (1 min, une fois par tour)\n\n<style=\"highlight\">[WhenUse] +1 de Puissance de Duel tous les 5 de Compte d’[ChargeKhakiAlly] (4 max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Traçage",
+          "desc": "[CantDuel]\n[WhenUse] Gagne +3 de Compte d’[ChargeKhakiAlly]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] À 3 d’Intensité d’[ChargeKhakiAlly] ou plus, Réutilise cette Pièce (une fois par Capacité)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [NoirScissorAlly]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091706,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Découpe",
+          "desc": "[CantDuel]\n[WhenUse] +1 de Puissance Finale toutes les 3 d’Intensité d’[ChargeKhakiAlly] (2 max)\n[WhenUse] Gagne +5 de Compte d’[ChargeKhakiAlly]\n\n[EndSkill] Consomme 2 [NoirScissorAlly] sur la cible\n[EndSkill] Gagne 1 [NoirScissorCut]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
           ]
         }
       ]

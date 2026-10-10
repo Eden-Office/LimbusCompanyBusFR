@@ -1033,6 +1033,382 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2051011,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vide",
+          "abName": "L’Homme Évidé",
+          "desc": "Si la cible est vaincue avant la fin de cette Capacité, priorise une cible ayant le moins de PV (en Affrontement Ciblé, la Partie)\n\n+1 de Puissance de Duel tous les 4 (Intensité de [Breath] + Compte de [Charge]) sur soi (5 max)\n+2 de Puissance de Duel par [BulletHole] sur soi\n\n[BeforeAttack] Gagne +3 de Compte de [Breath] et +5 de Compte de [Charge]\n[BeforeAttack] Consomme (3 * (5 - [BulletHole] sur soi)) PSM pour gagner le max de [BulletHole]\n\n[EndSkill] Gagne 2 [BlackWingHole]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Cette Pièce ne touche que la cible principale"
+                },
+                {
+                  "desc": "Dépense 1 [BulletHole]"
+                },
+                {
+                  "desc": "Inflige +10% de dégâts en Touche Critique"
+                },
+                {
+                  "desc": "Si c’est la première Pièce :\n- Inflige +(Compte de [Charge] * 5)% de dégâts (100% max)\n- Inflige +(Intensité * Compte de [Breath])% de dégâts en Touche Critique (100% max)\n- Pour cette Pièce, change la Résist. Perçante de la cible en Fatale"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                },
+                {
+                  "desc": "[EndCoin] À 1 [BulletHole] ou plus, Réutilise cette Pièce (4 fois par Capacité)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Inflige +30% de dégâts en Touche Critique"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Vide",
+          "abName": "L’Homme Évidé",
+          "desc": "Si la cible est vaincue avant la fin de cette Capacité, priorise une cible ayant le moins de PV (en Affrontement Ciblé, la Partie)\n\n+1 de Puissance de Duel tous les 4 (Intensité de [Breath] + Compte de [Charge]) sur soi (<style=\"highlight\">7</style> max)\n+2 de Puissance de Duel par [BulletHole] sur soi\n\n[BeforeAttack] Gagne +3 de Compte de [Breath] et +5 de Compte de [Charge]\n[BeforeAttack] Consomme (3 * (5 - [BulletHole] sur soi)) PSM pour gagner le max de [BulletHole]\n\n[EndSkill] Gagne 2 [BlackWingHole]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "Cette Pièce ne touche que la cible principale<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "Dépense 1 [BulletHole]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "Inflige <style=\"highlight\">+15%</style> de dégâts en Touche Critique"
+                },
+                {
+                  "desc": "Si c’est la première Pièce :\n- Inflige +(Compte de [Charge] * 5)% de dégâts (100% max)\n- Inflige +(Intensité * Compte de [Breath])% de dégâts en Touche Critique (100% max)\n- Pour cette Pièce, change la Résist. Perçante de la cible en Fatale<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] +1 de Puissance de Pièce Finale</style>"
+                },
+                {
+                  "desc": "[EndCoin] À 1 [BulletHole] ou plus, Réutilise cette Pièce (4 fois par Capacité)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "Inflige <style=\"highlight\">+50%</style> de dégâts en Touche Critique"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnStartCoin] En attaquant seulement 1 cible, inflige +50% de dégâts (en Affrontement Ciblé, un Noyau)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Vide",
+          "abName": "L’Homme Évidé",
+          "desc": "Si la cible est vaincue avant la fin de cette Capacité, priorise une cible ayant le moins de PV (en Affrontement Ciblé, la Partie)\n\n+1 de Puissance de Duel tous les 4 (Intensité de [Breath] + Compte de [Charge]) sur soi (<style=\"highlight\">10</style> max)\n+2 de Puissance de Duel par [BulletHole] sur soi\n\n[BeforeAttack] Gagne +3 de Compte de [Breath] et +5 de Compte de [Charge]\n[BeforeAttack] Consomme (3 * (5 - [BulletHole] sur soi)) PSM pour gagner le max de [BulletHole]\n\n[EndSkill] Gagne 2 [BlackWingHole]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "Cette Pièce ne touche que la cible principale<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "Dépense 1 [BulletHole]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "Inflige <style=\"highlight\">+20%</style> de dégâts en Touche Critique"
+                },
+                {
+                  "desc": "Si c’est la première Pièce :\n- Inflige +(Compte de [Charge] * 5)% de dégâts (100% max)\n- Inflige +(Intensité * Compte de [Breath])% de dégâts en Touche Critique (100% max)\n- Pour cette Pièce, change la Résist. Perçante de la cible en Fatale<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 1 [PenetrateTakeDamageUp] (une fois par Capacité)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] +1 de Puissance de Pièce Finale<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[EndCoin] À 1 [BulletHole] ou plus, Réutilise cette Pièce (4 fois par Capacité)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "Inflige +50% de dégâts en Touche Critique<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnStartCoin] En attaquant seulement 1 cible, inflige +<style=\"highlight\">100</style>% de dégâts (en Affrontement Ciblé, un Noyau)"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnStartCoin] +1 de Puissance de Pièce tous les 4 de Compte de [Charge] (5 max)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2051021,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vide",
+          "abName": "L’Homme Évidé",
+          "desc": "[CantIdentify]\nCible aléatoirement\nCette Capacité ne déclenche pas de Capacités Défensives (inclut les Capacités Défensives Affrontables)\n+1 de Puissance de Duel tous les 4 (Intensité de [Breath] + Compte de [Charge]) sur soi (5 max)\n[BeforeAttack] Si cette unité n’a pas de [BulletHole], gagne 1 [BulletHole]\n[BeforeAttack] -2 de Puissance de Base par Pièce Fissurée (-4 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnStartCoin] Gagne 5 [BlackWingHole]"
+                },
+                {
+                  "desc": "[OnStartCoin] Gagne +5 de Compte de [Charge]"
+                },
+                {
+                  "desc": "[OnStartCoin] Gagne 5 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Cette Pièce a ([BulletHole] sur soi * 20)% de chances de faire Face, peu importe les PSM de cette unité"
+                },
+                {
+                  "desc": "[CoinHead]\n- Cette Pièce ne touche pas"
+                },
+                {
+                  "desc": "- [EndCoin] Gagne 5 [Breath]"
+                },
+                {
+                  "desc": "- [EndCoin] Gagne +3 de Compte de [Breath]"
+                },
+                {
+                  "desc": "- [EndCoin] Gagne 2 [BulletHole]"
+                },
+                {
+                  "desc": "- [EndCoin] Rembourse la moitié des Ressources E.G.O. consommées par cette Capacité (arrondi à l’inférieur)"
+                },
+                {
+                  "desc": "[CoinTail]\n- Inflige +(Compte de [Charge] * 3)% de dégâts (60% max)"
+                },
+                {
+                  "desc": "- Inflige +70% de dégâts en Touche Critique"
+                },
+                {
+                  "desc": "- [OnSucceedAttack] Inflige des dégâts Perçants égaux à 10% des dégâts finaux de cette Pièce"
+                },
+                {
+                  "desc": "- [EndCoin] Consomme toutes les [BulletHole] sur soi"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Vide",
+          "abName": "L’Homme Évidé",
+          "desc": "[CantIdentify]\nCible aléatoirement\nCette Capacité ne déclenche pas de Capacités Défensives (inclut les Capacités Défensives Affrontables)\n+1 de Puissance de Duel tous les 4 (Intensité de [Breath] + Compte de [Charge]) sur soi (<style=\"highlight\">7</style> max)\n\n<style=\"highlight\">[BeforeAttack] En attaquant seulement 1 cible, inflige +100% de dégâts (en Affrontement Ciblé, un Noyau)</style>\n[BeforeAttack] Si cette unité n’a pas de [BulletHole], gagne 1 [BulletHole]\n[BeforeAttack] -2 de Puissance de Base par Pièce Fissurée (-4 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnStartCoin] Gagne 5 [BlackWingHole]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnStartCoin] Gagne +5 de Compte de [Charge]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnStartCoin] Gagne 5 [Breath]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "Cette Pièce a ([BulletHole] sur soi * 20)% de chances de faire Face, peu importe les PSM de cette unité<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CoinHead]\n- Cette Pièce ne touche pas<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "- [EndCoin] Gagne 5 [Breath]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "- [EndCoin] Gagne +3 de Compte de [Breath]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "- [EndCoin] Gagne 2 [BulletHole]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "- [EndCoin] Rembourse la moitié des Ressources E.G.O. consommées par cette Capacité (arrondi à l’inférieur)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CoinTail]\n- Inflige +(Compte de [Charge] * <style=\"highlight\">4)% de dégâts (80% max)</style>"
+                },
+                {
+                  "desc": "- Inflige <style=\"highlight\">+100%</style> de dégâts en Touche Critique"
+                },
+                {
+                  "desc": "- [OnSucceedAttack] Inflige des dégâts Perçants égaux à <style=\"highlight\">15</style>% des dégâts finaux de cette Pièce"
+                },
+                {
+                  "desc": "- [EndCoin] Consomme toutes les [BulletHole] sur soi<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Vide",
+          "abName": "L’Homme Évidé",
+          "desc": "[CantIdentify]\nCible aléatoirement\nCette Capacité ne déclenche pas de Capacités Défensives (inclut les Capacités Défensives Affrontables)\n+1 de Puissance de Duel tous les 4 (Intensité de [Breath] + Compte de [Charge]) sur soi (<style=\"highlight\">10</style> max)\n\n[BeforeAttack] En attaquant seulement 1 cible, inflige +<style=\"highlight\">200</style>% de dégâts (en Affrontement Ciblé, un Noyau)\n<style=\"highlight\">[BeforeAttack] Gagne +([BulletHole] sur soi) de Puissance Finale</style>\n[BeforeAttack] Si cette unité n’a pas de [BulletHole], gagne 1 [BulletHole]\n[BeforeAttack] -2 de Puissance de Base par Pièce Fissurée (-4 max)\n<style=\"highlight\">[EnemyKill] Regagne 5 PSM</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnStartCoin] Gagne 5 [BlackWingHole]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnStartCoin] Gagne +5 de Compte de [Charge]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnStartCoin] Gagne 5 [Breath]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 1 [Binding] au prochain tour</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "Cette Pièce a ([BulletHole] sur soi * 20)% de chances de faire Face, peu importe les PSM de cette unité<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CoinHead]\n- Cette Pièce ne touche pas<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "- [EndCoin] Gagne 5 [Breath]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "- [EndCoin] Gagne +3 de Compte de [Breath]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">- [EndCoin] Retire 1 effet négatif aléatoire retirable appliqué sur soi</style>"
+                },
+                {
+                  "desc": "- [EndCoin] Gagne 2 [BulletHole]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "- [EndCoin] Rembourse la moitié des Ressources E.G.O. consommées par cette Capacité (arrondi à l’inférieur)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CoinTail]\n- Inflige +(Compte de [Charge] * <style=\"highlight\">5)% de dégâts (100% max)</style>"
+                },
+                {
+                  "desc": "- Inflige +<style=\"highlight\">130</style>% de dégâts en Touche Critique"
+                },
+                {
+                  "desc": "- [OnSucceedAttack] Inflige des dégâts Perçants égaux à <style=\"highlight\">20</style>% des dégâts finaux de cette Pièce"
+                },
+                {
+                  "desc": "<style=\"highlight\">- [EnemyKill] Regagne 5% de PV</style>"
+                },
+                {
+                  "desc": "- [EndCoin] Consomme toutes les [BulletHole] sur soi<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 5 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

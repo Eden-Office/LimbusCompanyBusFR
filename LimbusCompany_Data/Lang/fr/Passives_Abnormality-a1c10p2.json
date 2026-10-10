@@ -1,0 +1,256 @@
+﻿{
+  "dataList": [
+    {
+      "id": 150301,
+      "name": "Lamentation Incessante",
+      "desc": "Début de l’Affrontement : entre en état de Panique\n\nSi cette unité est en état de Panique, applique les effets suivants :\n- <color=#ff6000><mark color=#ff000040><b><u>Toutes les Attaques ciblent Pwie</color></mark></b></u>\n- À l’Usage de Capacité, si Pwie est la cible principale, gagne de la Puissance de Duel et de la Puissance de Base\n- Début de l’Affrontement : convertit toutes les Pièces en [SuperCoin]s",
+      "flavor": "Les enfants de la chose de jadis ne sont plus."
+    },
+    {
+      "id": 150302,
+      "name": "Fil Noir Enchevêtré",
+      "desc": "Les effets de Capacité, de Moral Bas et de Panique de cette unité infligent [TangleBlackYarn] à l’ennemi\n※ [TangleBlackYarn] peut être réduit en <color=#ff6000><mark color=#ff000040><b><u>utilisant des Capacités Défensives ou via certaines Capacités de cette unité</color></mark></b></u>\nLorsque touché, active les effets suivants :\n- Gagne 1 [SickBlackYarn]\n- Si la Capacité ayant touché cette unité est une <color=#ff6000><mark color=#ff000040><b><u>Capacité Tranchante</color></mark></b></u>, gagne 1 [SickBlackYarn] supplémentaire\n- Si la Capacité ayant touché cette unité a <color=#ff6000><mark color=#ff000040><b><u>5 de Poids d’Atq ou plus</color></mark></b></u>, gagne [HeavyBlackYarn] au prochain tour (une fois par tour)",
+      "flavor": "Le fil noir enroulé autour de son corps n’était pas là avant. Par pure coïncidence, lorsque l’ère précédente laissa place à la suivante, ces fils se sont bobinés autour du corps de la chose de jadis. Enveloppée de fil, elle a survécu jusqu’à l’Ère de la Grande Surface. À présent, ces fils noirs commencent à se défaire.\n\nAvant l’Ère de l’Aquarium, il y a eu l’Ère de la Place, l’Ère des Bunkers, l’Ère du Tribunal et bien d’autres. Leurs noms et apparences étaient certainement différents, mais l’essence qui dirigeait le fonctionnement du Système Sisyphe restait à jamais le même.\n\nÀ chaque nouvelle Ère qui passe, les gens se sont adaptés au monde transformé, supportant une ère après l’autre dans leur forme humaine.\n\nCe qui demeure enchevêtré dans les fils de l’Ère présente n’est pas simplement ce qui appartient aux deux Ères précédentes, mais à toutes les Ères qui se sont installées ici, couche par couche."
+    },
+    {
+      "id": 150303,
+      "name": "Vers les Eaux de Jadis",
+      "desc": "Si une Partie devient <color=#ff6000><mark color=#ff000040><b><u>Déséquilibrée</color></mark></b></u>, retire <color=#ff6000><mark color=#ff000040><b><u>1 Seuil de Déséquilibre des autres Parties et termine le tour</color></mark></b></u> ; puis, toutes les Parties gagnent [HideBlackYarn] au prochain tour\n\n<color=#ff6000><mark color=#ff000040><b><u>Si [HideBlackYarn] a expiré après avoir été touché</color></mark></b></u>,\n- Gagne 10 [SickBlackYarn]\n- Si [SickBlackYarn] a été gagné par-delà son plafond maximal, gagne 3 Vulnérabilité ce tour et au prochain tour\n\nFin du Tour : si [HideBlackYarn] a expiré,\n- Gagne (7 - Intensité restante) [SickBlackYarn]\n- Gagne 1 [AngryBlackYarn] au prochain tour",
+      "flavor": "Vers l’étreinte de la mer d’une ère d’antan, où elle nageait aussi naturellement et librement que possible."
+    },
+    {
+      "id": 150304,
+      "name": "Humidité Persistante",
+      "desc": "Subit moins de dégâts de PV et de PSM venant de [Combustion], de [Laceration], de [Vibration], de [Burst] et de [Sinking] ; -50% de Seuil de Déséquilibre augmenté par [Vibration]\n\nLe Type de Panique de cette unité ne change pas lorsqu’elle subi un effet qui change le Type de Panique\nFin du Tour : si cette unité est Paniquée, les PSM reviennent à 0",
+      "flavor": "L’Aquarium Sisyphe n’est plus, cependant ce corps retient encore une faible trace de l’eau de cette époque. Une humidité qui ne s’est pas encore changée en fil."
+    },
+    {
+      "id": 150101,
+      "name": "Une Poupée Moulée dans l’Argile",
+      "desc": "Début de l’Affrontement : regagne tous ses PV\n\nLe Noyau et la Partie ne subissent pas de dégâts de [Combustion] et de [Laceration]",
+      "flavor": "Cette peau de porcelaine provient de l’argile."
+    },
+    {
+      "id": 150102,
+      "name": "Fleur Éternelle",
+      "desc": "Début de l’Affrontement : gagne 1 [AlriunePetal]\n\nSi cette unité devient Déséquilibrée,\n- Gagne 2 [Vulnerable] au prochain tour\n- Rend 20 PSM aux Pécheurs et Unités d’Assistance\n- Début du Tour : si cette unité s’est remise de Déséquilibre, remet les [AlriunePetal] à 1\n\nDébut du Tour : si aucun ennemi possède [FlowerLaurelWreath], <color=#ff6000><mark color=#ff000040><b><u>équipe la Capacité “Couronne de Lauriers Fragrante”</color></mark></b></u>\n- Équipe ladite Capacité au prochain tour si cette unité a équipé “Portant l’espoir de redevenir poussière…” ce tour\n\n<color=#ff6000><mark color=#ff000040><b><u>Subit -50% de dégâts des Capacités utilisées par les ennemis n’ayant pas [FlowerLaurelWreath]</color></mark></b></u>\n<color=#ff6000><mark color=#ff000040><b><u>Subit +150% de dégâts d’ennemis ayant [FlowerLaurelWreath]</color></mark></b></u>",
+      "flavor": "Les fleurs fanent. Puis, elles fleurissent de nouveau."
+    },
+    {
+      "id": 150103,
+      "name": "L’Avènement du Printemps",
+      "desc": "Inflige 20 dégâts de PSM aux ennemis Déséquilibrés\n\nDébut du Tour : <color=#ff6000><mark color=#ff000040><b><u>s’il y a une cible en Panique ou en Érosion, utilise “… Elle retournera à la tombe avec tous ceux qui désirent vivre” sur ladite cible</color></mark></b></u> (2 fois par tour max, priorise les ennemis les plus lents par ordre ascendant de Vitesse, exclut les Unités d’Assistance)\n\nSi ladite Capacité a tué la cible, invoque 1 “Celui Ayant Émergé de la Terre” au prochain tour\n- Cet effet ne s’active pas lorsqu’il y a 4 “Celui Ayant Émergé de la Terre” sur le terrain",
+      "flavor": "Lorsque le printemps sera là, il fleurira."
+    },
+    {
+      "id": 150201,
+      "name": "De la Terre",
+      "desc": "Cette unité ne subit pas de dégâts de [Combustion] et de [Laceration]\n\n<color=#ff6000><mark color=#ff000040><b><u>+100% de Seuil de Déséquilibre augmenté par [Vibration]</color></mark></b></u>\n\n<color=#ff6000><mark color=#ff000040><b><u>Cette unité est vaincue lorsque Déséquilibrée</color></mark></b></u>",
+      "flavor": "Retourner à la terre."
+    },
+    {
+      "id": 151901,
+      "name": "PPM Ultra-Haute-Vitesse",
+      "desc": "<color=#ff6000><mark color=#ff000040><b><u>Si la Vitesse de la cible est inférieure à celle de cette unité, +3 de Puissance de Duel</color></mark></b></u>\n\n<color=#ff6000><mark color=#ff000040><b><u>Si cette unité a 11 de Compte d’[ChargeKhaki] ou plus à la fin du tour om cette unité a utilisé une Capacité qui consomme du Compte d’[ChargeKhaki]</color></mark></b></u>, utilise une Capacité puissante\n\nÀ 50% de PV ou moins, utilise une Capacité puissante (une fois par Affrontement)",
+      "summary": "Si la Vitesse de la cible est plus lente que celle de cette unité, gagne de la Puissance de Duel",
+      "flavor": "Grande Sœur peut atteindre les 10 000 PPM."
+    },
+    {
+      "id": 151902,
+      "name": "Point Cloué",
+      "desc": "Inflige +40% de dégâts aux cibles Déséquilibrées ou immobilisées",
+      "flavor": "Rien n’est plus facile que de coudre quelque chose qui ne peut pas bouger."
+    },
+    {
+      "id": 151903,
+      "name": "Point de Couleur",
+      "desc": "Si cette unité a [SpreadingDye], inflige 1 [StickyDye] aux cibles que la Capacité de cette unité touche\n\nApplique les effets suivants aux cibles ayant [ThreadDye] :\n- Les Capacités infligent +(Intensité de [ThreadDye]) d’Intensité et de Compte de [Laceration] supplémentaire\n- En infligeant [StickyDye] via l’effet ci-dessus, inflige 1 [StickyDye] à un ennemi aléatoire ayant [ThreadDye], exclut la cible le subissant déjà\n\nN’inflige pas [ThreadDye] aux cibles de Capacité ayant [Inactible]",
+      "flavor": "Occupe-toi de coudre le tissu, Grande Sœur. Je vais le teindre avec toi."
+    },
+    {
+      "id": 151904,
+      "name": "Ajustement du Régulateur de Compte de Point",
+      "desc": "Début de l’Affrontement : regagne le max de PV et 45 PSM\n\nGagne 1 [ChargeKhaki] tous les 10 de Compte d’[ChargeKhaki] cumulés consommés par cette unité dans cet Affrontement"
+    },
+    {
+      "id": 149501,
+      "name": "Altération",
+      "desc": "Début du Tour : <color=#ff6000><mark=#ff000040><b><u>inflige 1 [TailoringTarget] au Pécheur ayant infligé le plus de dégâts</u></b></mark></color> à cette unité au dernier tour et utilise la Capacité “Traçage”\n- Si le Pécheur [TailoringTarget] <color=#ff6000><mark=#ff000040><b><u>a 9 [ScissorsMark]</u></b></mark></color>, active <color=#ff6000><mark=#ff000040><b><u>“Surfile à la Chaîne”</u></b></mark></color> à la place de “Traçage”\n\nChaque fois que cette unité est touchée par un Pécheur,\n- Inflige 1 [ScissorsMark] audit Pécheur (5 par tour par Pécheur max)\n- Gagne +1 de Compte d’[ChargeKhaki] (5 par tour par Pécheur max)\n\n<color=#ff6000><mark=#ff000040><b><u>Gagne 3 [ResultEnhancement] chaque fois que cette unité est touchée par un Pécheur ayant [TailoringTarget] (9 par tour max)</u></b></mark></color>",
+      "flavor": "On dit qu’un habit n’est réellement fini qu’après avoir été altéré. À moins d’avoir été fait sur mesure, il doit être ajusté jusqu’à s’adapter au porteur.\n\nEt cela ne se limite pas qu’aux vêtements. Tout ce qui est pris de l’extérieur doit d’abord être altéré pour nous convenir avant de pouvoir être porté, que l’on puisse vivre dedans et conçu pour contenir le cœur."
+    },
+    {
+      "id": 149503,
+      "name": "Confection",
+      "desc": "Au Début de l’Affrontement ou au début du tour où cette unité s’est remise de Déséquilibren gagne 30 [FinishedFabric]\n\nApplique l’effet [PanicChangeLock]\nFin du Tour : si cette unité est en Panique, met les PSM à 30\n\nDébut du Tour :\n- <color=#ff6000><mark=#ff000040><b><u>Gagne du Bouclier égal à (Instance de [FinishedFabric])% de PV</u></b></mark></color> (30% max)\n- Regagne des PSM égaux à l’Instance de [FinishedFabric]",
+      "flavor": "Découper signifie façonner le tissu en un schéma. Découper donne à un habit sa forme, tandis que l’altération le rend portable.\n\nAinsi, pour un tissu, se découper est une forme d’altération. Une fois découpé, le tissu prend une forme qui reflète ses propres propriétés, devenant l’habit que voulait le découpeur."
+    },
+    {
+      "id": 149504,
+      "name": "Ciseaux Qui Ne Se Reposent Pas",
+      "desc": "Chaque fois qu’Annette l’Altérationniste est touchée par un Pécheur, <color=#ff6000><mark=#ff000040><b><u>augmente le Seuil de Déséquilibre de 0.8% des PV</u></b></mark></color>\n\n<color=#ff6000><mark=#ff000040><b><u>Si cette unité est Déséquilibrée, perd tout son Bouclier, [FinishedFabric] et [LargeTailoringShears] ; puis, gagne 3 [Vulnerable]</u></b></mark></color>\n\nDébut du Tour : à 60% de PV ou moins,\n- Gagne 1 [ResultEnhancement] et 1 [SlashDamageUp] tous les 20% de PV manquants (3 max respectivement)\n- Convertit la Pièce finale de “Rognage” et la Pièce 2 de “Découpage” en [SuperCoin]",
+      "flavor": "Un corps dont la véritable valeur fut façonnée par le travail d’altération continue de découper incessamment, conduit à altérer et à ajuster pour toujours.\n\nMême alors que le corps s’effondre, elle ne peut s’empêcher d’arrêter d’altérer et de découper. Elle est faite pour découper des choses, mais ne peut se découper de cet emprisonnement."
+    },
+    {
+      "id": 149505,
+      "name": "Inertie de la Dérive",
+      "desc": "Gagne 1 d’Intensité d’[ChargeKhaki] tous les 10 de Compte d’[ChargeKhaki] cumulés consommés par cette unité dans cet Affrontement\n\nÀ 3/5 d’Intensité d’[ChargeKhaki] ou plus, +5/+10 de plafond max de Compte d’[ChargeKhaki]",
+      "flavor": "Ils dérivent le long des valeurs façonnées par l’Ère de la Grande Surface, balayés vers l’avant par leur propre inertie ; et plus l’inertie grandit, moins ils deviennent capables de s’arrêter de dériver."
+    },
+    {
+      "id": 150601,
+      "name": "Conservation",
+      "desc": "Gagne 1 d’Intensité de [ChargeNoir] tous les 10 de Compte de [ChargeNoir] cumulés consommés par cette unité dans cet Affrontement\n+10 de plafond max de Compte de [ChargeNoir]"
+    },
+    {
+      "id": 150602,
+      "name": "Malleus Promissionis",
+      "desc": "En Touche, ou lorsque touché, gagne +1 de Compte de [ChargeNoir]",
+      "flavor": "Un marteau enfonce les clous. Ce marteau ne frappe rien d’autre que des clous. Tout ce qu’il frappe est un clou. Voilà ce qui a été convenu."
+    },
+    {
+      "id": 150603,
+      "name": "Conservation de Formation",
+      "desc": "Augmente le niveau des alliés “Le Noir”\n\nTous les alliés “Le Noir” subissent -5% de dégâts par allié “Le Noir” en vie sur le terrain\nÀ la mort d’un allié “Le Noir”, tous les alliés “Le Noir” gagnent 1 [NoirSquareCollapse] pour le reste de cet Affrontement (inclut les unités nouvellement invoquées)",
+      "flavor": "Chacun reste à son poste et effectue fidèlement le devoir qui lui a été accordé. Ensemble, ils forment une formation, et cette formation devient une image qui préserve l’ensemble. Remplissez fidèlement vostre charge, chascun à vos lieux apointiés."
+    },
+    {
+      "id": 150401,
+      "name": "Le Noir : Tissu",
+      "desc": "En entrant pour la première fois dans l’Affrontement, gagne 5 [NoirBindArmor]\n\nDébut du Tour : gagne du Bouclier égal à (Instance de [NoirBindArmor])% des PV max de cette unité\n\nLorsque Déséquilibré, perd tout [NoirBindArmor]\nDébut du Tour : lorsque cette unité se remet de Déséquilibre, gagne 5 [NoirBindArmor]",
+      "flavor": "Le Worsted de Le Noir maintient le corps comme une armure, l'accentuant sous une ferme silhouette figée."
+    },
+    {
+      "id": 150402,
+      "name": "Conservation",
+      "desc": "Applique les effets suivants selon le Compte de [ChargeNoir] cumulé consommé par cette unité dans cet Affrontement :\n- Gagne 1 [NoirBindArmor] tous les 3 de Compte de [ChargeNoir] cumulés consommés\n- Gagne 1 [ChargeNoir] tous les 10 de Compte de [ChargeNoir] cumulés consommés\n\nÀ 3 d’Intensité de [ChargeNoir] ou plus, +5 de Compte de [ChargeNoir] max",
+      "flavor": "La force est compressée, rassemblée et fixée en place. Parfois, il faut plus de force pour empêcher le changement que pour le provoquer."
+    },
+    {
+      "id": 150403,
+      "name": "Préservation de la Qualité",
+      "desc": "Lorsque touchée alors que cette unité a du Bouclier, gagne +1 de Compte de [ChargeNoir]\n\nÀ 10 de Compte de [ChargeNoir] ou plus, utilise une Capacité puissante",
+      "flavor": "La qualité de la marchandise doit être strictement régie et préservée."
+    },
+    {
+      "id": 150404,
+      "name": "Disparité de Densité de Tissu",
+      "desc": "À 3/5 d’Intensité de [ChargeNoir] ou plus, inflige +1/+2 d’Intensité de [Vibration] supplémentaire\n\nÀ l’Usage de Capacité, si le Niveau Défensif de cette unité est supérieur à celui de la cible, inflige +3% de dégâts par Niveau Défensif de différence (30% max)\n- Si le Niveau Défensif de cette unité est supérieur d’au moins 5 niveaux, +1 de Puissance de Base",
+      "flavor": "Les Le Noir écrasent tout ce qui est plus mou que leur propre tissu."
+    },
+    {
+      "id": 150501,
+      "name": "Le Noir : Tissu",
+      "desc": "En entrant pour la première fois dans l’Affrontement, gagne 5 [NoirBindArmor]\n\nDébut du Tour : gagne du Bouclier égal à (Instance de [NoirBindArmor])% des PV max de cette unité\n\nLorsque Déséquilibré, perd tout [NoirBindArmor]\nDébut du Tour : lorsque cette unité se remet de Déséquilibre, gagne 5 [NoirBindArmor]",
+      "flavor": "Le Worsted de Le Noir maintient le corps comme une armure, l'accentuant sous une ferme silhouette figée."
+    },
+    {
+      "id": 150502,
+      "name": "Conservation",
+      "desc": "Applique les effets suivants selon le Compte de [ChargeNoir] cumulé consommé par cette unité dans cet Affrontement :\n- Gagne 1 [NoirBindArmor] tous les 3 de Compte de [ChargeNoir] cumulés consommés\n- Gagne 1 [ChargeNoir] tous les 10 de Compte de [ChargeNoir] cumulés consommés\n\nÀ 3 d’Intensité de [ChargeNoir] ou plus, +5 de Compte de [ChargeNoir] max",
+      "flavor": "La force est compressée, rassemblée et fixée en place. Parfois, il faut plus de force pour empêcher le changement que pour le provoquer."
+    },
+    {
+      "id": 150503,
+      "name": "Preservation d’Inspection",
+      "desc": "À 10 de Compte de [ChargeNoir] ou plus, utilise une Capacité puissante",
+      "flavor": "La qualité doit passer l’inspection, et la préservation ne doit pas être compromise durant le processus."
+    },
+    {
+      "id": 150504,
+      "name": "Disparité de Densité de Tissu",
+      "desc": "À 3/5 d’Intensité de [ChargeNoir] ou plus, inflige +1/+2 d’Intensité de [Vibration] supplémentaire\n\nÀ l’Usage de Capacité Offensive, si le Niveau Défensif de cette unité est supérieur à celui de la cible, inflige +3% de dégâts par Niveau Défensif de différence (30% max)\n- Si le Niveau Défensif de cette unité est supérieur d’au moins 5 niveaux, +1 de Puissance de Base",
+      "flavor": "Les Le Noir écrasent tout ce qui est plus mou que leur propre tissu."
+    },
+    {
+      "id": 148801,
+      "name": "Moisson de Tégument Brute : Style du Péché Originel",
+      "desc": "Début du Tour : lorsqu’il y a 2 Prisonniers Tannés ou moins sur le terrain, gagne un Emplacement supplémentaire\nFin du Tour : gagne 1 [AttackDmgUp] au prochain tour par <color=#ff6000><mark=#ff000040><b><u>Prisonnier Tanné sur le terrain</u></b></mark></color>",
+      "flavor": "Le cuir du transgresseur est arrachée, et le péché qui s’y est incrusté est lavé, ne laissant derrière qu’un tégument à récolter."
+    },
+    {
+      "id": 148802,
+      "name": "Préparation de Retannage",
+      "desc": "Gagne un Emplacement supplémentaire lorsqu’il y a un allié, cette unité excluse, avec moins de 80% de PV sur le terrain",
+      "flavor": "Une fois que le péché s’infiltre dans le cuir, la Tannerie le récupère et le remet à nouveau au propre."
+    },
+    {
+      "id": 148803,
+      "name": "Tannerie du Péché Originel : Opération Complète",
+      "desc": "À moins de 50% de PV de Noyau, termine le tour et entre dans un nouveau comportement ; tous les alliés, cette unité incluse, gagnent [RestrictFailed] pour le reste de cet Affrontement",
+      "flavor": "La demande a explosé, tandis que les cuirs bruts sont devenues plus difficiles à trouver. Le cuir des pécheurs originels était autrefois le genre auquel personne ne jetait le moindre coup d’œil. Puis, une saison a tout changé : la demande a surgi, les prix ont décollé et ce qui n’était vendu pour trois fois rien ou simplement jeté est devenu un matériau convoité.\n\nÀ présent, même les imperfections sur sa surface sont habillées comme des caractères et vendues dans le cadre de son attrait."
+    },
+    {
+      "id": 148804,
+      "name": "Règles de la Tannerie",
+      "desc": "À partir du Tour 2, inflige aléatoirement les effets suivants à 3 ennemis aléatoires au début de chaque tour\n- [RestrictMob]\n- [RestrictBoss]\n- [RestrictTier1]\n- [RestrictDef]\n\nLorsqu’une Règle est brisée, inflige 1 [RestrictDenied]",
+      "flavor": "Ce qui différencie un morceau de viande d’un tégument est un régime strict de tannage, gouverné par des règles pointilleuses."
+    },
+    {
+      "id": 149101,
+      "name": "Prisonnier Tanné",
+      "desc": "À la Mort, le Superviseur perd 1 Niveau Défensif pour le reste de cet Affrontement"
+    },
+    {
+      "id": 150604,
+      "name": "Le Combat Continue",
+      "desc": "Commence cet Affrontement avec 80% de PV et 45 PSM"
+    },
+    {
+      "id": 151001,
+      "name": "La Couture Commence",
+      "desc": "Début du Tour : inflige [NiddleExpected] à 2 ennemis aléatoires"
+    },
+    {
+      "id": 151002,
+      "name": "Fait Main",
+      "desc": "+1 de Puissance Finale de Capacité for every Needlekin on the field",
+      "flavor": "Aucune couture à la main ne peut survivre avec seulement une paire de mains. Une multitude d’artisans entraînés est nécessaire pour y insuffler de la vie."
+    },
+    {
+      "id": 151003,
+      "name": "Flot Incessant et Inévitable de Réclamations Client",
+      "desc": "“Pleurs du Cocon” peut être entendu tous les “multiple de 3” tours\nnEn entrant en Phase 2, “Pleurs du Cocon” continue d’être entendu tous les tours\n\nCette unité ne peut pas être immobilisée lors du tour où “Pleurs du Cocon” est entendu\n\nSi les PV de cette unité tombent sous son Seuil de Déséquilibre, gagne 2 [Vulnerable] au prochain tour",
+      "flavor": "Des voix suintent du cocon.\n\n“Tout ce qui est inférieur à 80 points à deux épaisseurs ? Même pas du tissu !”\n“Pourquoi les boutonnières sont pas horizontales ?”\n“Un tricot de jersey à la machine ? Sérieux ?”\n“Pourquoi la lisière est pas rouge ?”\n“Ça a même pas été traité contre le rétrécissement.”\n“Tout ce qui est en dessous du Super 150 est un chiffon, évidemment.”\n“Tu crois que l’échelle Super est juste une épaisseur de pelote ? Le diamètre et le titrage sont même pas la même chose. Tu le sais pas ?”\n“Tu finis l’ourlet avec un Union Special, hein ? Évidemment que tu fais ça !”\n“C’est du Rigide ? … Oh. Une lisière ?”\n“Attends… Le compte de points par pouce est trop régulier. T’as utilisé une machine, c’est ça ?”\n“C’est pas sur mesure si c’est pas fait main.”\n“… C’est même pas une boutonnière milanaise.”\n“La chemiserie doit être supérieure à 200 de compte.”\n“Ugh, je peux voir la couture sur l’extérieur.”\n“Là, je peux voir deux rangées de couture juste là. Rejeté.”\n“C’est quoi cette finition ?”\n“Triple épaisseur, minimum.”"
+    },
+    {
+      "id": 149604,
+      "name": "Pluie d’Ensoleillement Piquant",
+      "desc": "Le niveau de cette unité est augmenté suite à l’influence du soleil\n\nDébut de l’Affrontement : gagne [GoldenLeatherEnhance]",
+      "flavor": "À ceux qui entendent la chaleur du soleil, son rayonnement résonne toujours plus brûlant, toujours plus éblouissant et toujours plus intense."
+    },
+    {
+      "id": 148805,
+      "name": "Le Combat Continue",
+      "desc": "Commence cet Affrontement avec 90% de PV et 45 PSM"
+    },
+    {
+      "id": 148305,
+      "name": "Pluie d’Ensoleillement Piquant",
+      "desc": "Le niveau de cette unité est augmenté suite à l’influence de la pluie d’ensoleillement piquant\n\nDébut de l’Affrontement : gagne 2 d’Intensité de [ChargeNoir] et +15 de Compte de [ChargeNoir]\n\nCommence l’Affrontement avec 30 PSM et 1000 de Bouclier persistant",
+      "flavor": "À ceux qui entendent la chaleur du soleil, son rayonnement résonne toujours plus brûlant, toujours plus éblouissant et toujours plus intense."
+    },
+    {
+      "id": 1590001,
+      "name": "Pluie d’Ensoleillement Piquant",
+      "desc": "Le niveau de cette unité est augmenté suite à l’influence du soleil",
+      "flavor": "À ceux qui entendent la chaleur du soleil, son rayonnement résonne toujours plus brûlant, toujours plus éblouissant et toujours plus intense."
+    },
+    {
+      "id": 149608,
+      "name": "Flot Incessant et Inévitable de Réclamations Client",
+      "desc": "“Pleurs du Cocon” peut être entendu tous les tours\nNe peut pas être immobilisé[TabExplain]"
+    },
+    {
+      "id": 151101,
+      "name": "Pluie d’Ensoleillement Piquant",
+      "desc": "Le niveau de cette unité est augmenté suite à l’influence de la pluie d’ensoleillement piquant\n\nDébut de l’Affrontement : gagne [SapsareeGold]",
+      "flavor": "À ceux qui entendent la chaleur du soleil, son rayonnement résonne toujours plus brûlant, toujours plus éblouissant et toujours plus intense."
+    },
+    {
+      "id": 151201,
+      "name": "Pluie d’Ensoleillement Piquant",
+      "desc": "Le niveau de cette unité est augmenté suite à l’influence de la pluie d’ensoleillement piquant\n\nDébut de l’Affrontement : regagne tous ses PV et gagne [GoldenManager]",
+      "flavor": "À ceux qui entendent la chaleur du soleil, son rayonnement résonne toujours plus brûlant, toujours plus éblouissant et toujours plus intense."
+    }
+  ]
+}

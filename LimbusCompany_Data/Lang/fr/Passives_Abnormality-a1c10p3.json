@@ -1,0 +1,314 @@
+{
+  "dataList": [
+    {
+      "id": 148511,
+      "name": "… Impossible !",
+      "desc": "Début de l’Affrontement : Meursault gagne [MeursaultBuffWarderFirstPhase]\n\nDébut du Tour : des Pécheurs aléatoires gagnent [GoldenHideWarderFirstPhase] et [GoldenFabricWarderFirstPhase]",
+      "flavor": "“Ce qui trahit l’inertie et le changement… n’est réservé à nul altre que Dieu… !!!”",
+      "summary": "Meursault gagne [MeursaultBuffWarderFirstPhase]\nDes Pécheurs aléatoires gagnent [GoldenHideWarderFirstPhase] et [GoldenFabricWarderFirstPhase] à chaque tour"
+    },
+    {
+      "id": 148501,
+      "name": "Vicarius Dei",
+      "desc": "Applique l’effet de [PanicChangeLock]\nFin du Tour : si cette unité est Paniquée, remet les PSM à 30\n\nDébut de l’Affrontement :\n- Commence avec 50% de PV\n- Gagne 2 [UnstableConnection]\n\nAu Tour 3, utilise une Capacité puissante\n- Durant ce tour, lorsque touché par un Pécheur, gagne 1 [ParryingResultDown] (une fois par Pécheur)\n\nLorsque les PV de cette unité tombent à 1 ou moins, ou à la fin du tour 3, entre dans une nouvelle Phase",
+      "flavor": "Le Pasteur du Dieu d’Obsidienne qui affecte la punition à ceux qui se sont égarés.",
+      "summary": "Utilise une Capacité puissante au Tour 3\nChange de phase à la fin du Tour 3"
+    },
+    {
+      "id": 148502,
+      "name": "Bougies Sacrées du Châtiment",
+      "desc": "Début du Tour : <color=#ff6000><mark=#ff000040><b><u>invoque 2 Bougies du Châtiment</u></b></mark></color>\n- Invoque <color=#ff6000><mark=#ff000040><b><u>+1 Bougie du Châtiment supplémentaire</u></b></mark></color> au Début du Tour à chaque nouveau tour\n- Jusqu’à 4 Bougies du Châtiment peuvent exister simultanément sur le terrain\n\nChaque fois qu’une Bougie du Châtiment est détruite, le Gardien gagne 1 [Vulnerable]\n\nÀ l’Usage de Capacité :\n- <color=#ff6000><mark=#ff000040><b><u>si la cible principale a 1 de Vitesse, convertit toutes les Pièces sur la Capacité de cette unité en [SuperCoin]s, gagne +2 de Puissance Finale et inflige +100% de dégâts</u></b></mark></color>\n- S’il n’y a plus de Bougie du Châtiment sur le terrain, -1 de Puissance de Duel",
+      "flavor": "La bougie qui frappe les pécheurs qui osent défier le destin alloué par la grande surface.",
+      "summary": "Invoque une Bougie du Châtiment à chaque tour, gagne [Vulnerable] quand une Bougie est détruite\nSi la cible principale a 1 de Vitesse, renforce la Capacité"
+    },
+    {
+      "id": 148503,
+      "name": "Les larmes imprègneront le tissu",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>Cette unité ne perd pas de PSM suite à des effets de [Sinking]</u></b></mark></color> ; à la place, lorsque des effets de [Sinking] se déclenchent, cette unité subit des dégâts de Peine égaux à l’Intensité de [Sinking]\n\nLorsque touché par un Pécheur, ledit Pécheur gagne +1 de Compte de [Sinking] (2 fois par tour par Pécheur)",
+      "summary": "Subit des dégâts de Peine de [Sinking] au lieu de perdre des PSM\nLorsque touché, l’attaquant gagne du Compte de [Sinking]"
+    },
+    {
+      "id": 148504,
+      "name": "Conservation Parfaite",
+      "desc": "Gagne 1 d’Intensité de [ChargeNoir] tous les 10 de Compte de [ChargeNoir] cumulés que cette unité a consommés dans cet Affrontement\n\nDébut du Tour : à moins de 3 d’Intensité de [ChargeNoir] et à moins de 10 de Compte de [ChargeNoir], gagne +5 de Compte de [ChargeNoir]\n\nL’effet “Fin du Tour : perd 1 de Compte” de [ChargeNoir] ne se déclenche pas",
+      "flavor": "Au sein du Système Sisyphe, la conservation elle-même est parfaitement préservée.",
+      "summary": "Gagne de l’Intensité de [ChargeNoir] en consommant du Compte de [ChargeNoir] cumulativement\nLe Compte de [ChargeNoir] n’est pas perdu à la Fin du Tour"
+    },
+    {
+      "id": 152001,
+      "name": "Attaches Châtiantes",
+      "desc": "Fin du Tour : inflige <color=#ff6000><mark=#ff000040><b><u>2 [Binding]</u></b></mark></color> au prochain tour à tous les Pécheurs\n- Cet effet ne se déclenche pas après un changement de Phase",
+      "flavor": "Que le Pécheur soit attaché.",
+      "summary": "Inflige [Binding] à tous les Pécheurs au prochain tour"
+    },
+    {
+      "id": 152002,
+      "name": "Péché Incendié",
+      "desc": "Lorsque cette unité est sous-ciblée par une Capacité de Pécheur, subit -50% de dégâts de ladite Capacité\n\nEn étant vaincu :\n- Donne 1 ressource E.G.O. de toutes les Affinités\n- Le dernier Pécheur ayant attaqué cette unité regagne 10 PSM\n  · Si ledit Pécheur a [Binding], regagne 10 PSM à la place\n  · Si le “dernier Pécheur” ayant attaqué cette unité ne peut pas être déterminé, les effet ci-dessus s’appliquent au Pécheur ayant les plus bas PSM",
+      "summary": "Subit moins de dégât lorsque sous-ciblé\nÀ la mort, donne des ressources E.G.O. ; soigne les PSM de l’attaquant"
+    },
+    {
+      "id": 148611,
+      "name": "… Impossible !",
+      "desc": "Début du Tour : des Pécheurs aléatoires gagnent [GoldenHideWarderSecondPhase] et [GoldenFabricWarderSecondPhase]",
+      "flavor": "“Ce qui trahit l’inertie et le changement… n’est réservé à nul altre que Dieu… !!!”",
+      "summary": "Des Pécheurs aléatoires gagnent [GoldenHideWarderSecondPhase] et [GoldenFabricWarderSecondPhase] à chaque tour"
+    },
+    {
+      "id": 148605,
+      "name": "Instruments de Confession",
+      "desc": "Lorsque le Gardien inflige [ConfessionSecondPhase] aux Pécheurs en utilisant ses effets de Capacité, applique les suivants :\n- Les effets suivants sont <color=#ff6000><mark=#ff000040><b><u>collectivement appelés [ConfessionSecondPhase] :</u></b></mark></color>\n  · [RestrainingNailSecondPhase]\n  · [ExecutionNailSecondPhase]\n  · [CeremonialNail]\n  · [MarkingNail]\n- Lorsque le Gardien inflige Clou[TabExplain] ou Marteauclou aux Pécheurs, <color=#ff6000><mark=#ff000040><b><u>seul l’effet qui est infligé en dernier demeure</u></b></mark></color> ; cependant, les Instances entre Clou[TabExplain] et Marteauclou s’accumulent\n- <color=#ff6000><mark=#ff000040><b><u>Marteauclou ne se convertit pas en Clou[TabExplain]</u></b></mark></color>\n\nEn Touche contre un Pécheur, <color=#ff6000><mark=#ff000040><b><u>inflige +3% de dégâts par [ConfessionSecondPhase] sur la cible</u></b></mark></color> (27% max, séparément pour chaque cible)\n\nDébut du Tour : <color=#ff6000><mark=#ff000040><b><u>si le Gardien a 50% de PV ou moins</u></b></mark></color>, toutes les Capacités infligent <color=#ff6000><mark=#ff000040><b><u>+1 [ConfessionSecondPhase] supplémentaire</u></b></mark></color>",
+      "summary": "Inflige plus de dégâts selon la [ConfessionSecondPhase] sur la cible\nÀ 50% de PV ou moins, inflige plus de [ConfessionSecondPhase]"
+    },
+    {
+      "id": 148601,
+      "name": "Comme Ordonné par la Règle de Conservation",
+      "desc": "Applique l’effet de [PanicChangeLock]\nFin du Tour : si cette unité est Paniquée, remet les PSM à 30\n\nPremier Début de Tour après l’arrivée :\n- Monte les PSM à 45\n- Gagne 0 [EncompassingVoiceSecondPhase] et 1 [LeaderVoiceSecondPhase]\n- L’Intensité et le Compte de [ChargeNoir] sont conservées depuis la Phase précédante",
+      "summary": "[PanicChangeLock]\nL’Intensité et le Compte de [ChargeNoir] sont conservées depuis la Phase précédante"
+    },
+    {
+      "id": 148602,
+      "name": "Dies Irae",
+      "desc": "Début du Tour : si cette unité a [SpreadingVoiceSecondPhase], gagne un nouveau comportement et <color=#ff6000><mark=#ff000040><b><u>utilise une Capacité puissante : “Jugement… Sentence… Condamnation !”</u></b></mark></color>\n- +20 de Vitesse Min & Max pour le tour\n- <color=#ff6000><mark=#ff000040><b><u>Si le Gardien perd le Duel en suivant ce comportement</u></b></mark></color>, gagne un comportement changé au prochain tour et <color=#ff6000><mark=#ff000040><b><u>utilise une Capacité puissante : “La Mort S’abatte sur le Condamné”</u></b></mark></color>\n\nChaque fois que [SpreadingVoiceSecondPhase] et [EncompassingVoiceSecondPhase] sont converties, <color=#ff6000><mark=#ff000040><b><u>regagne 45 PSM</u></b></mark></color> et <color=#ff6000><mark=#ff000040><b><u>gagne 1 [LeaderVoiceSecondPhase]</u></b></mark></color>\n\nÀ 50% de PV ou moins, termine le tour (exclut certaines Capacités) ; si Déséquilibrén se remet de Déséquilibre\nÀ 1 PV ou moins, entre dans une nouvelle Phase",
+      "flavor": "Ceux qui ont échoué à se repentir à travers la punition périront lors du Jour du Jugement.",
+      "summary": "Utilise une Capacité puissante si cette unité a [SpreadingVoiceSecondPhase]\nEn Duel Perdu avec ce comportement, utilise “La Mort S’abatte sur le Condamné” au prochain tour"
+    },
+    {
+      "id": 148603,
+      "name": "Les larmes imprègneront le tissu, le tissu se rapprocha de la gorge…",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>Cette unité ne perd pas de PSM suite à des effets de [Sinking]</u></b></mark></color> ; à la place, cette unité subit des dégâts de Peine égaux à l’Intensité de [Sinking]\n\nLorsque touché par un Pécheur, ledit Pécheur gagne +1 de Compte de [Sinking] (2 fois par tour par Pécheur)\n\nCette unité ne peut pas gagner au-dessus de 20 d’Intensité de [Breath] ; <color=#ff6000><mark=#ff000040><b><u>à la place, regagne des PSM égaux à l’Intensité de [Breath] gagnée en excès</u></b></mark></color>",
+      "summary": "Subit des dégâts de Peine de [Sinking] au lieu de perdre des PSM\nLorsque touché, l’attaquant gagne du Compte de [Sinking]"
+    },
+    {
+      "id": 148604,
+      "name": "Conservation Parfaite",
+      "desc": "Gagne 1 d’Intensité de [ChargeNoir] tous les 10 de Compte de [ChargeNoir] cumulés que cette unité a consommés dans cet Affrontement\n\nDébut du Tour : à moins de 5 d’Intensité de [ChargeNoir] et à moins de 10 de Compte de [ChargeNoir], gagne +5 de Compte de [ChargeNoir]\n\nL’effet “Fin du Tour : perd 1 de Compte” de [ChargeNoir] ne se déclenche pas\n\nÀ 5/10 d’Intensité de [ChargeNoir], +5/+10 de plafond max de Compte de [ChargeNoir]",
+      "flavor": "Au sein du Système Sisyphe, la conservation elle-même est parfaitement préservée.",
+      "summary": "Gagne de l’Intensité de [ChargeNoir] en consommant du Compte de [ChargeNoir] cumulativement\nLe Compte de [ChargeNoir] n’est pas perdu à la Fin du Tour"
+    },
+    {
+      "id": 148711,
+      "name": "Et merde. Comme vous avez pu trouver un bug pareil ?",
+      "desc": "Début du Tour : des Pécheurs aléatoires gagnent [GoldenHideWarderThirdPhase] et [GoldenFabricWarderThirdPhase]\n\n<color=#ff6000><mark=#ff000040><b><u>Lorsque “le Manager” effectue une certaine action, le Chapelain inflige des dégâts à un Pécheur aléatoire basé sur les PV max dudit Pécheur et lui inflige [GoldenNail]</u></b></mark></color>\n\n<color=#ff6000><mark=#ff000040><b><u>À moins de 50% de PV, le Chapelain manipule son statut à l’échelle du système</u></b></mark></color> pour <color=#ff6000><mark=#ff000040><b><u>soigner ses PV et ses PSM au maximum et se retirer tous ses effets négatifs</u></b></mark></color>",
+      "flavor": "“Aucun système n’est garanti sans le moindre bug, certes, mais un bug pareil… ? Tch. On dirait que je vais devoir appeler la maintenance.”",
+      "summary": "Des Pécheurs aléatoires gagnent [GoldenHideWarderThirdPhase] et [GoldenFabricWarderThirdPhase] à chaque tour\nEn tombant en dessous de 50% de PV, se soigne entièrement et retire les effets négatifs"
+    },
+    {
+      "id": 148705,
+      "name": "Outil de Maintenance du Système Sisyphe",
+      "desc": "Lorsque le Chapelain inflige [ConfessionThirdPhase] aux Pécheurs en utilisant ses effets de Capacité, applique les suivants :\n- Les effets suivants sont <color=#ff6000><mark=#ff000040><b><u>collectivement appelés [ConfessionThirdPhase]</u></b></mark></color> :\n  · [RestrainingNailThirdPhase]\n  · [ExecutionNailThirdPhase]\n  · [GoldenNail]\n- Lorsque le Chapelain inflige Clou[TabExplain] aux Pécheurs, <color=#ff6000><mark=#ff000040><b><u>seul l’effet qui est infligé en dernier demeure</u></b></mark></color> ; cependant, les Instances entre les effets s’accumulent\n<color=#ff6000><mark=#ff000040><b><u>- [RestrainingNailThirdPhase] et [ExecutionNailThirdPhase] ne se convertissent pas en [GoldenNail]</u></b></mark></color>\n\nEn Touche contre un Pécheur, <color=#ff6000><mark=#ff000040><b><u>inflige +5% de dégâts par [ConfessionThirdPhase]</u></b></mark></color> sur la cible (45% max, séparément pour chaque cible)\n\nDébut du Tour : <color=#ff6000><mark=#ff000040><b><u>si le Chapelain a 50% de PV ou moins</u></b></mark></color>, toutes les Capacités infligent <color=#ff6000><mark=#ff000040><b><u>+1 [ConfessionThirdPhase] supplémentaire</u></b></mark></color>",
+      "flavor": "“D’après le manuel… lorsque ça arrive, tout doit être réajusté. Tout a déjà été bien expliqué dans les réglages. Regardez, c’est écrit juste ici dans le manuel… Ah. Oui, c’est vrai. Vous ne pouvez pas le voir de là où vous êtes.”",
+      "summary": "Inflige plus de dégâts selon le [ConfessionThirdPhase] sur la cible\nÀ 50% de PV ou moins, inflige plus de [ConfessionThirdPhase]"
+    },
+    {
+      "id": 148701,
+      "name": "“Comme Ordonné par la Règle de Conservation”",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>À 10 Clash ou plus</u></b></mark></color>, ladite Capacité <color=#ff6000><mark=#ff000040><b><u>gagne de la Puissance de Duel égale au (Compte de Clash)</u></b></mark></color>\n\nPour la [Combustion], le [Laceration], le [Vibration], la [Burst] et la [Sinking] :\n- <color=#ff6000><mark=#ff000040><b><u>Plafond d’Intensité max : 50\n- Plafond de Compte max : 15</u></b></mark></color>\n- Subit -50% de dégâts des effets ci-dessus\n\nApplique l’effet de [PanicChangeLock] et <color=#ff6000><mark=#ff000040><b><u>les PSM de cette unité ne tombent pas en dessous de 0</u></b></mark></color>\n\nPremier Début de Tour après l’arrivée :\n- Monte les PSM à 45\n- Gagne 0 [EncompassingVoiceThirdPhase] et 1 [LeaderVoiceThirdPhase]\n- L’Intensité et le Compte de [ChargeNoir] sont conservées depuis la Phase précédante",
+      "summary": "À 10 de Compte de Clash ou plus, gagne de la Puissance de Duel\nSubit moins de dégâts de [Combustion], de [Laceration], de [Vibration], de [Burst] et de [Sinking]"
+    },
+    {
+      "id": 148702,
+      "name": "“Dies Irae”",
+      "desc": "Début du Tour : si cette unité a [SpreadingVoiceThirdPhase], gagne un nouveau comportement et utilise une <color=#ff6000><mark=#ff000040><b><u>Capacité puissante : “Avez-vous sérieusement l’intention de détruire le Système Sisyphe ?”</u></b></mark></color>\n- +20 de Vitesse Min & Max pour le tour\n- <color=#ff6000><mark=#ff000040><b><u>Si le Chapelain perd le Duel</u></b></mark></color> en suivant ce comportement, gagne un comportement changé au prochain tour et <color=#ff6000><mark=#ff000040><b><u>utilise une Capacité puissante : “Bannissement du Système”</u></b></mark></color>\n\nChaque fois que [SpreadingVoiceThirdPhase] et [EncompassingVoiceThirdPhase] sont converties, <color=#ff6000><mark=#ff000040><b><u>regagne 45 PSM</u></b></mark></color> et <color=#ff6000><mark=#ff000040><b><u>gagne 1 [LeaderVoiceThirdPhase]</u></b></mark></color>",
+      "flavor": "Si te faire punir n’était pas suffisant pour te faire réfléchir, alors je suppose qu’il est l’heure du jugement. Suffisamment pour te tuer, bien sûr.",
+      "summary": "Utilise une Capacité puissante si cette unité a [SpreadingVoiceThirdPhase]\nEn Duel Perdu avec ce comportement, utilise “Bannissement du Système” au prochain tour"
+    },
+    {
+      "id": 148703,
+      "name": "Les larmes imprègneront le tissu, le tissu se rapprocha de la gorge… je n’arrive même plus à me rappeler de la suite.",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>Cette unité ne perd pas de PSM suite à des effets de [Sinking]</u></b></mark></color> ; à la place, lorsque des effets de [Sinking] se déclenchent, cette unité subit des dégâts de Peine égaux à l’Intensité de [Sinking]\n\nLorsque touché par un Pécheur, ledit Pécheur gagne +1 de Compte de [Sinking] (2 fois par tour par Pécheur)\n\nCette unité ne peut pas gagner au-dessus de 20 d’Intensité de [Breath] ; <color=#ff6000><mark=#ff000040><b><u>à la place, regagne des PSM égaux à l’Intensité de [Breath] gagnée en excès</u></b></mark></color>\n\nEn déclenchant un [VibrationExplosion] sur les Pécheurs, <color=#ff6000><mark=#ff000040><b><u>si le Pécheur ciblé n’a pas de Seuil de Déséquilibre</u></b></mark></color>, <color=#ff6000><mark=#ff000040><b><u>inflige (Intensité de [Vibration] sur la cible / 2) dégâts de Paresse</u></b></mark></color> (sauf pour les cibles Déséquilibrées ; calculé séparément pour chaque cible)",
+      "flavor": "“Il serait peut-être que tu commences à ‘prier’, tu ne crois pas ?”",
+      "summary": "Lorsque touché, inflige du Compte de [Sinking] à l’attaquant\nEn [VibrationExplosion], inflige des dégâts de Paresse si la cible n’a pas de Seuil de Déséquilibre"
+    },
+    {
+      "id": 148704,
+      "name": "Conservation Parfaite",
+      "desc": "Gagne 1 d’Intensité de [ChargeNoir] tous les 10 de Compte de [ChargeNoir] cumulés que cette unité a consommés dans cet Affrontement\n\nDébut du Tour : à moins de 10 d’Intensité de [ChargeNoir] et à moins de 10 de Compte de [ChargeNoir], gagne +5 de Compte de [ChargeNoir]\n\nL’effet “Fin du Tour : perd 1 de Compte” de [ChargeNoir] ne se déclenche pas\n\nÀ 5/10 d’Intensité de [ChargeNoir], +5/+10 de plafond max de Compte de [ChargeNoir]",
+      "flavor": "Au sein du Système Sisyphe, la conservation elle-même est parfaitement préservée.",
+      "summary": "Gagne de l’Intensité de [ChargeNoir] en consommant du Compte de [ChargeNoir] cumulativement\nLe Compte de [ChargeNoir] n’est pas perdu à la Fin du Tour"
+    },
+    {
+      "id": 148706,
+      "name": "Allez. C’est l’heure de dépointer.",
+      "desc": "Fin du Tour : à plus de 10 d’Intensité de [ChargeNoir], consomme l’Intensité de [ChargeNoir] en excès et gagne (Intensité de [ChargeNoir] consommée) [Dominion]\n- Cet effet ne se déclenche pas à nouveau après que toute la [Dominion] ait été consommé par les effets de ce Passif\n\nLorsque les PV de cette unité tombent à <color=#ff6000><mark=#ff000040><b><u>33% ou moins pour la première fois dans cet Affrontement, gagne un nouveau comportement</u></b></mark></color>\n- Consomme toute la [Dominion] sur soi et <color=#ff6000><mark=#ff000040><b><u>gagne du Bouclier persistant égal à (25 + Instance de [Dominion])% des PV max de cette unité</u></b></mark></color>\n- Perd définitivement du Niveau Défensif égal à l’Instance de [Dominion] consommée",
+      "flavor": "“Dites ce que vous voulez, le Système Sisyphe est quelque chose dont la N Corp. a absolument besoin. Si ce système s’effondre… Nous retournerons à la barbarie.”\n\n“Alors, comme le dit le manuel, vous ne pouvez pas quitter cette grande surface. Sans exception.”",
+      "summary": "Convertit 10 d’Intensité de [ChargeNoir] en surplus en [Dominion]\nÀ 33% de PV ou moins, change le comportement et gagne du Bouclier"
+    },
+    {
+      "id": 152201,
+      "name": "Mauvaise Foi",
+      "desc": "Gagne 1 d’Intensité d’[ChargeKhaki] tous les 10 de Compte d’[ChargeKhaki] cumulés que cette unité a consommés dans cet Affrontement\n- L’effet “Fin du Tour : perd 1 de Compte” d’[ChargeKhaki] ne se déclenche pas\n\nFin du Tour : gagne de l’Intensité de [Breath] égale au Compte d’[ChargeKhaki] sur soi (10 max)\nFin du Tour : gagne du Compte de [Breath] égal à l’Intensité d’[ChargeKhaki] sur soi (5 max)\n\nSubit -60% de dégâts de [Combustion], de [Laceration], de [Vibration], de [Burst] et de [Sinking]\n- -60% d’augmentation de Seuil de Déséquilibre par [Vibration]\n\nÀ 10 Clash ou plus contre la même cible, gagne de la Puissance de Duel égale à (Compte de Clash / 10)",
+      "flavor": "Mauvaise foi.\n\nUn vol depuis le monde— Depuis un monde de crainte et d’anxiété. La fuite est recherchée encore et encore.\n\nOn s’échappe vers la scène en se clouant fermement sur place. Tel un acteur sur une scène, le rôle entièrement habité. Une immersion totale laisse place à la duperie, et la duperie à s’aveugler."
+    },
+    {
+      "id": 152202,
+      "name": "Te souviens-tu du rythme de la valse ?",
+      "desc": "À 4 Clash ou plus durant le même Duel :\n- À partir du 3ème Clash, le gagnant du 3ème Clash inflige +15% de dégâts tous les 4 Clash gagnés (3 fois max)\n- Si la Capacité ayant gagné le Duel a gagné le premier Clash, +1 de Puissance Finale",
+      "flavor": "C’était une expérience partagée, n’est-ce pas ?"
+    },
+    {
+      "id": 152203,
+      "name": "Sartre",
+      "desc": "<color=#ff6000><mark color=#ff000040><b><u>Invoque 3 “Schéma du Grand Magasin Sisyphe” tous les 3 tours</color></mark></b></u> et gagne du Bouclier égal aux PV max de cette unité\n- Pour ce tour, lorsque Déséquilibrée, se remet de Déséquilibre et ne peut pas être Déséquilibrée à nouveau pour le reste du tour\n\n<color=#ff6000><mark color=#ff000040><b><u>Après avoir tué un “Schéma du Grand Magasin Sisyphe” avec la Capacité “Concentration”, gagne [JeanneDesign]</color></mark></b></u>\n\n<color=#ff6000><mark color=#ff000040><b><u>À 3 [JeanneDesign], convertit [JeanneDesign] en [JeanneManager]</color></mark></b></u>\n<color=#ff6000><mark color=#ff000040><b><u>Si cette unité a échoué à tuer un seul “Schéma du Grand Magasin Sisyphe” avec sa Capacité “Concentration”</color></mark></b></u>, gagne 1 [Vulnerable] au prochain tour",
+      "flavor": "L’une des quatre Géants de la Tour Sisyphe.\n\nParmi eux, elle est l’architecte du Système Sisyphe— Une tailleuse, une conceptrice, l’exécutrice du rôle, ou un travail, ou quelque chose… qui bâtit le monde selon une perspective qui est la sienne.\n\nDécoupé à sa mesure, cloué sur place, cousu ensemble morceau par morceau— Ceci est un monde vestimentaire façonné afin qu’elle puisse le regarder sans être nauséeuse.\n\nVoilà ce qu’est le Grand Magasin Sisyphe."
+    },
+    {
+      "id": 152204,
+      "name": "Tu sais, je…",
+      "desc": "Commence cet Affrontement avec 45 PSM\n\nLorsque Meursault est vaincu, les Pécheurs perdent l’Affrontement\n\n<color=#ff6000><mark color=#ff000040><b><u>À 50% de PV ou moins</color></mark></b></u>, arrête de subir des dégâts et entre dans une nouvelle Phase\n- En entrant dans une nouvelle Phase, retire tous les effets négatifs retirables sur soi",
+      "flavor": "Je ne veux pas que tu retournes à l’extérieur.\n\nRejoins-moi sur la scène suivante, ma puce."
+    },
+    {
+      "id": 152301,
+      "name": "Te souviens-tu de l’expérience de la valse ?",
+      "desc": "Ne subit pas de dégâts durant cette Phase\n\nDébut du Tour (une fois par Affrontement) : \n- Jeanne gagne 1 [JeannePartnerTwo] et 1 [JeannePathos]\n- Meursault gagne 1 [JeannePartner] et 1 [JeanneLogos]\n\nLorsque attaquée par des Attaques à Sens Unique, ou en perdant un Duel, active la Capacité “Nous avions nos légères querelles, certes.”\n<color=#ff6000><mark color=#ff000040><b><u>Génère une Capacité unique dans l’Emplacement de Capacité supérieur de Meursault</color></mark></b></u>",
+      "flavor": "Cette valse dans tes souvenirs— Refaisons-en l’expérience."
+    },
+    {
+      "id": 152302,
+      "name": "La Nausée",
+      "desc": "Lorsque Meursault est vaincu, les Pécheurs perdent l’Affrontement\n\nFin de Capacité Actuelle : <color=#ff6000><mark color=#ff000040><b><u>à 100 [JeannePathos]</color></mark></b></u>, entre dans une nouvelle Phase\n- En entrant dans une nouvelle Phase, retire tous les effets négatifs retirables sur soi",
+      "flavor": "Tu te sens nauséeux ? Mais le climax approche."
+    },
+    {
+      "id": 152401,
+      "name": "L’enfer, c’est les autres",
+      "desc": "Lorsque les PV de Jeanne tombent à 10% ou moins…",
+      "flavor": "Nous vivons dans un enfer dans lequel nous sommes à jamais cloués sous le regard des autres. Alors… dis-moi tout ce que tu ressens, Meur. Tu peux toujours décider quoi en faire après, non ?"
+    },
+    {
+      "id": 152402,
+      "name": "Regard : Grand Magasin Sisyphe",
+      "desc": "Les PSM de cette unité sont fixés à 45 \n\nDébut du Tour : invoque “Schéma du Système Sisyphe - Le Rouge” et “Schéma du Système Sisyphe - Le Noir” jusqu’à en avoir 2 de chaque sur le terrain\n\n2ème tour après le changement de Phase : convertit 1 unité Schéma en “Jeanne Sartre, la Tailleuse Vestimentaire”\n- Priorise l’unité Schéma n’ayant pas de [Vulnerable]\n- Exclut les unités Schéma qui sont entrées en état “Jeanne Sartre, la Tailleuse Vestimentaire” lors du tour précédent\n- Si Déséquilibrée, se remet de Déséquilibre\n\nEn entrant en état “Jeanne Sartre, la Tailleuse Vestimentaire”, utilise la Capacité “Au moins, sur cette scène, tout est établi et fixé.”\n- Si la Capacité de Meursault gagne le Duel contre “Au moins, sur cette scène, tout est établi et fixé.”, ladite unité Schéma gagne 5 [Vulnerable] chaque tour à partir du prochain tour\n\nChaque fois que l’état “Jeanne Sartre, la Tailleuse Vestimentaire” est désactivé, 1 unité Schéma équipe la Capacité “Droits : Bannissement” de Jeanne au prochain tour\n- Le nombre d’unités Schéma qui équipent les Capacités de Jeanne augmente cumulativement de 1\n\nLorsqu’une unité Schéma est vaincue,\n- Jeanne perd 5% de PV\n- Toutes les autres unités Schéma gagne 1 [JeanneBlueprint]\n- 1 unité Schéma équipe la Capacité “Droits : Regard” de Jeanne à la place de “Droits : Bannissement” au prochain tour",
+      "flavor": "Pour Jeanne, la grande surface était le monde qu’elle pouvait percevoir le plus confortablement.\n\nElle a reçu le siège de bureau de la Géante de Le Kaki, un rôle qui était supposé rester neutre. Mais comme tu peux le voir par toi-même… Elle voulait fleurir de toutes ces couleurs brillantes plus que quiconque. Elle voulait brûler avec passion, Meur, pour se tenir sur cette scène et danser avec toi.\n\nC’est malheureux qu’elle n’ait pas pu se permettre de le faire. Il y avait trop de regards dont se soucier, trop d’attentes à satisfaire… jusqu’à ce que ces derniers finissent par s’enrouler autour d’elle comme des chaînes. Elle ne pouvait pas fleurir aussi vivement qu’elle le voulait. Même le souhait bourgeonnant a dû être caché.\n\nJe ne peux pas faire disparaître la nausée de Jeanne, mais je peux lui donner la chance d’être elle-même, de fleurir en étant elle-même sans s’inquiéter du regard de quiconque dans ce monde dans lequel elle fut jetée. Peut-être qu’en s’enfonçant profondément dans cette passion, elle parviendra à oublier la nausée pendant un temps.\n\nEt… Je ne pense pas que Jeanne soit la seule à en avoir besoin. Tout le monde dans la Cité en a besoin. Ils risquent de le refuser, mais je pense que tout le monde mérite la même chance."
+    },
+    {
+      "id": 152501,
+      "name": "Schéma d’Ensemble Vestimentaire",
+      "desc": "Durant l’Affrontement, <color=#ff6000><mark color=#ff000040><b><u>immédiatement avant de subir un coup pour la première fois</color></mark></b></u>, <color=#ff6000><mark color=#ff000040><b><u>utilise la Capacité “Schéma de la Grande Surface” équipée</color></mark></b></u> qu’importe comment les Capacités de cette unité sont Chaînées (une fois par tour)\n\nSubit -50% de dégâts de Capacités de Base\n\n<color=#ff6000><mark color=#ff000040><b><u>Subit +100% de dégâts de Capacités E.G.O.</color></mark></b></u>\n\nCette unité est vaincue lorsque touchée par la Capacité “Concentration” de “Jeanne Sartre, la Tailleuse Vestimentaire”",
+      "flavor": "Ceci est un schéma de la grande surface."
+    },
+    {
+      "id": 152502,
+      "name": "Schéma du Soi",
+      "desc": "Lorsque tué par la Capacité d’un Pécheur, donne 1 ressource E.G.O. de chacune des 5 Affinités E.G.O. avec les plus petites quantités de ressources (si 2 Affinités les moins possédées ou plus partagent la même quantité de ressource, elle est distribuée aléatoirement)",
+      "flavor": "Conception inconçue."
+    },
+    {
+      "id": 152601,
+      "name": "Motif : Grand Magasin Sisyphe",
+      "desc": "En Affrontant en Duel la même cible, +1 de Puissance de Duel tous les 10 Clash\n\nÀ partir du tour après que cette unité soit arrivée sur le terrain, 1 unité Schéma entre en <color=#ff6000><mark color=#ff000040><b><u>état “Jeanne Sartre, la Tailleuse Vestimentaire”</color></mark></b></u>\n- Priorise l’unité Schéma n’ayant pas de [Vulnerable]\n- Exclut l’unité Schéma qui est entrée en état “Jeanne Sartre, la Tailleuse Vestimentaire” lors du tour précédent\n- Si Déséquilibré, se remet de Déséquilibre\n\nEn entrant en état “Jeanne Sartre, la Tailleuse Vestimentaire”, utilise la <color=#ff6000><mark color=#ff000040><b><u>Capacité “Au moins, sur cette scène, tout est établi et fixé.”</color></mark></b></u>\n- <color=#ff6000><mark color=#ff000040><b><u>Si la Capacité de Meursault gagne le Duel</color></mark></b></u> contre “Au moins, sur cette scène, tout est établi et fixé.”, ladite unité Schéma <color=#ff6000><mark color=#ff000040><b><u>gagne 5 [Vulnerable] à chaque tour</color></mark></b></u> à partir du prochain tour\n\nLorsqu’une unité Schéma est vaincue,\n- <color=#ff6000><mark color=#ff000040><b><u>Jeanne perd 5% de PV</color></mark></b></u>\n- Toutes les autres unités Schéma gagnent 1 [JeanneBlueprint]"
+    },
+    {
+      "id": 152602,
+      "name": "Action et Réaction Métabolique",
+      "desc": "Gagne 1 d’Intensité de [ChargeRouge] tous les 10 de Compte de [ChargeRouge] cumulés que cette unité a consommés dans cet Affrontement\n\nLes effets de Capacité de cette unité ne peuvent pas faire tomber les PV de cette unité en dessosu de 1",
+      "flavor": "Consommer, réapprovisionner, vider, puis consommer encore.\nLes répétitions simples naissent du désir."
+    },
+    {
+      "id": 152701,
+      "name": "Conservation",
+      "desc": "Gagne 1 d’Intensité de [ChargeNoir] tous les 10 de Compte de [ChargeNoir] cumulés que cette unité a consommés dans cet Affrontement",
+      "flavor": "La force est compressée, rassemblée et fixée en place. Parfois, il faut plus de force pour empêcher le changement que pour le provoquer."
+    },
+    {
+      "id": 151701,
+      "name": "La Jouissance Autre",
+      "desc": "Fin du Tour : ne perd pas de Compte de [ChargeRouge]\nGagne +1 de Compte de [ChargeRouge] chaque fois que des dégâts de [Laceration] sont activés dans un Affrontement\nDébut du Tour : regagne 2 PSM par Compte de [ChargeRouge] sur soi",
+      "flavor": "Une palpitation ressentie à travers le corps entier, néanmoins hors de portée des mots. La totalité de chaque pulsation née de la nature même de soi.",
+      "summary": "Gagne du Compte de Pulsation"
+    },
+    {
+      "id": 151702,
+      "name": "L’Extimité",
+      "desc": "Commence l’Affrontement avec 50% de PV manquants\nDébut de l’Affrontement : applique [BuffetScruple] à tous les ennemis (inclut les Unités de Renfort)\n\nÀ l’Usage de Capacité, <color=#ff6000><mark=#ff000040><b><u>si la cible a [BuffetScruple]</u></b></mark></color>, perd 10 PSM",
+      "flavor": "… Vous êtes là, à l’extrémité de mon corps, et pourtant, vous êtes aussi enracinés dans la partie la plus profonde de moi.",
+      "summary": "Perd des PSM"
+    },
+    {
+      "id": 151703,
+      "name": "Le Moi",
+      "desc": "Lorsque le Pécheur ayant [BuffetScruple] gagne un Duel contre une certaine Capacité, <color=#ff6000><mark=#ff000040><b><u>Le Dieu Cramoisi gagne 1 [BuffetDream]</u></b></mark></color>\nLorsque Le Dieu Cramoisi atteint 5 Instances de [BuffetDream], il gagne un nouveau comportement ; gagner le Duel contre la Capacité de ce nouveau comportement fera gagner l’Affrontement\n\nAugmente le plafond max d’Intensité et de Compte de [Combustion], de [Laceration], de [Vibration], de [Burst] et de [Sinking] à 50 et 15, respectivement\n\nSubit -50% de dégâts de PV et de PSM provenant de [Combustion], de [Laceration], de [Vibration], de [Burst] et de [Sinking]\n- Panique fixe\n- Fin du Tour : si cette unité est Paniquée, les PSM montent à 0",
+      "flavor": "J’ai vu mon reflet dans l’eau. Mon corps, il a été… complété…"
+    },
+    {
+      "id": 151704,
+      "name": "Pouvoirs de la vie",
+      "desc": "Si un allié devient Déséquilibré suite à des dégâts, <color=#ff6000><mark=#ff000040><b><u>ré-Équilibre l’allié, puis utilise la Capacité “Le Manque-à-être” qui active <noparse>l’Attaque d’Assistance</noparse> dudit allié</u></b></mark></color> (une fois par tour)\n\nSi un allié est vaincu, invoque une Chair Arrachée du Dieu Cramoisi ayant 3 [BuffetRevival] au prochain Début de Tour",
+      "flavor": "La violence selon laquelle les choses sont mises au monde. Le Dieu des Le Rouge  possède l’autorité de la naissance.\n\nOù s’en va la conscience lorsque nous mourons ? Et avant que nous naissions, d’où émerge-t-elle ?\n\nLa renvoyer à cet endroit ou l’arracher de là-bas… Les deux sont des mécanismes de la même puissance violente."
+    },
+    {
+      "id": 151705,
+      "name": "La Jouissance phallique",
+      "desc": "Début du Tour : si cette unité n’a pas [BuffetRouge] et est à 15 de Compte de [ChargeRouge] ou plus, consomme tout le Compte de [ChargeRouge] et gagne jusqu’au max d’Instance de [BuffetRouge] ; puis, regagne 2 PSM par Compte de [ChargeRouge] consommé\n\nÀ l’Usage de Capacité, si cette unité n’a pas [BuffetRouge] et est à 10 de Compte de [ChargeRouge] ou plus, consomme 10 de Compte de [ChargeRouge] pour gagner +1 de Puissance de Pièce",
+      "flavor": "Il y a des conditions pour goûter aux plaisirs de la vie, et comme c’est le cas avec toutes les choses conditionnelles, ce plaisir charnel est destiné à échouer.\n\nLes limites et fins stipulées l’ont jugé ainsi.",
+      "summary": "Consomme du Compte de Pulsation pour gagner de la Puissance de Pièce"
+    },
+    {
+      "id": 151706,
+      "name": "La Moisson",
+      "desc": "Fin de l’Attaque : si la cible principale a <color=#ff6000><mark=#ff000040><b><u>5 [BoneNail] ou plus</u></b></mark></color>, utilise <color=#ff6000><mark=#ff000040><b><u>“La Demande”</u></b></mark></color> contre la cible principale",
+      "flavor": "Le membre saillant est plongé dans autrui, m’appelant depuis la périphérie.\n\nCette compulsion de revenir à mon lieu de naissance est-elle une impulsion de mort ou une impulsion de vie ?"
+    },
+    {
+      "id": 151707,
+      "name": "Le Besoin",
+      "desc": "Gagne 1 d’Intensité de [ChargeRouge] tous les 10 de Compte de [ChargeRouge] cumulés que cette unité a consommés dans cet Affrontement\n\nGagne tous les effets suivants selon l’Intensité de [ChargeRouge] sur soi :\n- 1 ou plus : inflige +(Intensité de [ChargeRouge] * 20)% de dégâts si la Vitesse de cette unité est plus rapide que celle de la cible\n- 2 ou plus : +1 de Puissance Finale de Capacité\n- 3 ou plus : les Capacités infligent +1 d’Intensité de [Laceration]\n- 4 ou plus : +1 de Puissance de Pièce de Capacité\n- 5 ou plus : ne perd pas d’Instance de [BuffetRouge] sur soi",
+      "flavor": "Le désir destiné et inévitable de ceux qui vivent, ceux qui sont mis au monde.\nUn besoin maudit, son inévitabilité tissée par le destin.",
+      "summary": "Renforce les Capacités selon l’Intensité de Pulsation"
+    },
+    {
+      "id": 151708,
+      "name": "L’Heure de Répondre",
+      "desc": "Si l’une des conditions suivantes est remplie, change de comportement :\n- <color=#ff6000><mark=#ff000040><b><u>[BuffetDream] est à 3 Instances</u></b></mark></color>\n- Les PV actuels tombent en dessous de 25% des PV max",
+      "flavor": "Continuez de m’apprendre des choses… Je veux venir avec vous…"
+    },
+    {
+      "id": 152101,
+      "name": "Le Vide Engendre la Satiété",
+      "desc": "Gagne 1 d’Intensité de [ChargeRouge] tous les 10 de Compte de [ChargeRouge] cumulés que cette unité a consommés dans cet Affrontement\n\nÀ l’Usage de Capacité, à 3 d’Intensité de [ChargeRouge] ou plus, +1 de Puissance de Pièce\n\nGagne 1 Niveau Offensif (3 max) et inflige +20% de dégâts (60% max) tous les 20% de PV manquants",
+      "summary": "Gagne de la Puissance de Pièce"
+    },
+    {
+      "id": 152102,
+      "name": "La Faucille Cherche la Lenteur",
+      "desc": "Priorise les cibles avec une Vitesse plus lente que soi\n\nÀ l’Usage de Capacité, si la Vitesse de cette unité est plus rapide que celle de la cible, gagne du Niveau Offensif égal à la différence de Vitesse\n\nDébut du Tour : à 3 d’Intensité de [ChargeRouge] ou plus, utilise une Capacité puissante",
+      "flavor": "Des prédateurs palpitants poursuivent la proie lente, cherchant à planter leurs crocs dans sa nuque. Leur fatalité est déterminée par l’écart de vitesse."
+    },
+    {
+      "id": 152103,
+      "name": "Pulsation Persistante Aux Côtés de l’Être Aimé",
+      "desc": "Lorsque Le Dieu Cramoisi est sur le terrain, cette unité ne perd pas de Compte de [ChargeRouge] à la Fin du Tour\n\nLorsque Déséquilibré après avoir été touché : lorsque cette unité se remet de Déséquilibre suite à la Capacité de Le Dieu Cramoisi, utilise “Avec des faucilles miennes, je réponds à votre appel !” en Attaque à Sens Unique contre l’attaquant",
+      "flavor": "Contre leurs souhaits, ni la respiration, ni le pouls battant dans leurs cœurs ne s’arrête."
+    },
+    {
+      "id": 152104,
+      "name": "Traces de Vie",
+      "desc": "En mourant, accorde 2 Ressources E.G.O. d’une Affinité aléatoire parmi les Affinités les moins possédées",
+      "flavor": "Des traces laissées derrière par ceux qui vivent, ceux qui ont vécu."
+    },
+    {
+      "id": 152105,
+      "name": "Bénédictions Sur la Chair",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>Si cette unité a [BuffetRouge]</u></b></mark></color>, applique les effets suivants :\n- Subit -50% de dégâts de Capacités\n- Début du Tour : remet les PSM au max et gagne 1 [ChargeRouge] ; gagne +5 de Compte de [ChargeRouge]",
+      "flavor": "Afin de recevoir cette divinité entière avec son corps."
+    },
+    {
+      "id": 151801,
+      "name": "Corps Forcé à Vivre Encore",
+      "desc": "Lorsque [BuffetRevival] expire, reprend la forme de Personnel de Direction Le Rouge ; regagne 5 PSM tous les 10 PV qui lui restaient lorsque cette unité avait la forme de Chair Arrachée du Dieu Cramoisi ; gagne +2 de Compte de [ChargeRouge]\n- Si cette unité a gagné 10 de Compte de [ChargeRouge] ou plus, consomme tout le Compte de [ChargeRouge] ; puis, gagne 1 [BuffetRouge] au prochain tour toutes les 5 Instances consommées"
+    },
+    {
+      "id": 151802,
+      "name": "Chair Collée contre le Sol",
+      "desc": "Les Pécheurs ne peuvent pas cibler cette unité"
+    },
+    {
+      "id": 151709,
+      "name": "La main qu’ils ne pouvaient ni repousser, ni tenir",
+      "desc": "Début du Tour : gagne 2 [Protection] par Personnel de Direction Le Rouge sur le terrain\n- Perd 2 [Protection] chaque fois qu’un Personnel de Direction Le Rouge est vaincu\n\n<color=#ff6000><mark=#ff000040><b><u>Si tous les Personnels de Direction Le Rouge sont vaincus</u></b></mark></color>, applique les effets suivants :\n- Gagne 2 [Vulnerable]\n- À l’Usage de Capacité, <color=#ff6000><mark=#ff000040><b><u>si la cible a [BuffetScruple], -1 de Puissance de Pièce</u></b></mark></color>",
+      "flavor": "Voulez-vous encore… me tenir la main ?",
+      "summary": "Perd de la Puissance de Pièce"
+    }
+  ]
+}

@@ -1,0 +1,402 @@
+{
+  "dataList": [
+    {
+      "id": "TangleBlackYarn",
+      "name": "Enchevêtrement",
+      "desc": "- Instance max : 30\n- Subit +1% de dégâts par Instance\n- -1 de Puissance de Base toutes les 10 Instances\n- Fin du Tour : gagne 1 Ralentissement au prochain tour toutes les 3 Instances (10 max)\n- <color=#ff6000><mark color=#ff000040><b><u>À l’Usage de Capacité Défensive,</color></mark></b></u> perd la moitié de l’Instance (arrondi au supérieur)",
+      "summary": "",
+      "flavor": "La grande surface est un monde de couture, lié ensemble par fil et aiguille. Même ce qui provient de la mer voit désormais son corps être changé en fil, l’eau noire s’enchevêtrant en une pelote noire."
+    },
+    {
+      "id": "SickBlackYarn",
+      "name": "Pointnoir Éclatant",
+      "desc": "- Instance max : 50\n- Subit +1% de dégâts par Instance\n- Début du Tour : gagne 1 Vulnérabilité toutes les 25 Instances",
+      "summary": "",
+      "flavor": "Chaque fois qu’une mèche s’échappe de la pelote noire, elle porte la senteur saumâtre des larmes… étrangement nostalgique malgré elle."
+    },
+    {
+      "id": "HeavyBlackYarn",
+      "name": "Fils Noirs Amassés",
+      "desc": "- Instance max : 5\n- Gagne du Poids d’Atq égal à l’Instance (par Partie)\n- Subit +10% de dégâts par Instance",
+      "summary": "",
+      "flavor": "Le noir est une image de la mort et du tas. Tout comme l’eau de mer noire s’alourdit avec ce qu’elle porte, le fil noir gagne du poids en s’amassant. Il rassemble tout en lui-même, se noue fermement, coule et s’arrête."
+    },
+    {
+      "id": "HideBlackYarn",
+      "name": "Bassin d’Eau Noire",
+      "desc": "- Intensité max : 6\n- Compte max : 2\n- <color=#ff6000><mark color=#ff000040><b><u>Lorsque touché, perd 1 d’Intensité</color></mark></b></u> (une fois par Capacité)\n- Fin du Tour : perd 1 de Compte\n- <color=#ff6000><mark color=#ff000040><b><u>Expire si l’Intensité ou le Compte atteint 0</color></mark></b></u>\n- Ne peut pas être Déséquilibré\n- En Attaque à Sens Unique, inflige +100% de dégâts\n- Subit -100% de dégâts",
+      "summary": "",
+      "flavor": "Ce n’est ni une mer, ni un aquarium désormais, seulement une mare stagnante. Cependant, le grand désir qui s’y est installé contient assez de chagrin pour momentanément cacher le corps."
+    },
+    {
+      "id": "AngryBlackYarn",
+      "name": "Instinct du Prédateur de Jadis",
+      "desc": "- Toutes les Parties gagnent +2 de Puissance de Duel par Partie ayant cet effet\n- Inflige +5% de dégâts toutes les 3 Instances d’Enchevêtrement sur la cible (50% max)\n- Expire à la Fin du Tour",
+      "summary": "",
+      "flavor": "Chaque aquarium possédait son prédateur, semblable à un Responsable de Rayon dans la grande surface. Le prédateur porte désormais la forme d’un poisson, mais dans un Système Sisyphe plus ancien, il n’y avait aucun être à la forme de poisson dans l’Aquarium. Les esprits de ceux qui y ont vécu étaient peut-être des poissons, mais leurs formes étaient humaines."
+    },
+    {
+      "id": "BlackYarn_LowMorale",
+      "name": "Dépossédé d’Enfant",
+      "desc": "- Moral Bas\n- À l’Usage de Capacité, si Pwie est la cible principale, +3 de Puissance de Duel, +2 de Puissance de Base\n- Lorsque touché, inflige 1 Enchevêtrement (3 fois par Capacité)",
+      "summary": ""
+    },
+    {
+      "id": "BlackYarn_Panic",
+      "name": "Dépossédé d’Enfant",
+      "desc": "- Panique\n- Toutes les Attaques ciblent Pwie\n- À l’Usage de Capacité, si Pwie est la cible principale, +6 de Puissance de Duel, +4 de Puissance de Base\n- Début de l’Affrontement : convertit toutes les Pièces de Capacité en Pièces Incassables\n- Lorsque touché, inflige 1 Enchevêtrement (6 fois par Capacité)",
+      "summary": ""
+    },
+    {
+      "id": "FlowerLaurelWreath",
+      "name": "Couronne de Lauriers de la Rédemption",
+      "desc": "- Retire tous les Seuils de Déséquilibre\n- +2 de Puissance de Duel\n- Subit -50% de dégâts de PSM venant de Lourdeur (arrondi à l’inférieur)\n- Fin du Tour : regagne 10 PSM et gagne 5 Accélération au prochain tour\n- <color=#ff6000><mark color=#ff000040><b><u>Duel Gagné : rend 5 PSM à tous les alliés, dont cette unité et les Unités d’Assistance</color></mark></b></u>",
+      "summary": "",
+      "flavor": "Puisse la confession de ses péchés fleurir sous la fragrance des fleurs."
+    },
+    {
+      "id": "AlriuneSillage",
+      "name": "Léger Arôme",
+      "desc": "- Instance max : 30\n- Fin du Tour : subit des dégâts de PSM égaux à l’Instance\n- Si cette unité a subi des dégâts de Lourdeur, gagne 1 Instance\n- En Sursaut de Tremblement, applique 1~2 Léger Arôme à 3 autres alliés aléatoires\n- À Instance max :\n · Gagne 2 Tremblements et déclenche un Sursaut de Tremblement sur soi\n · Subit des dégâts de Peine égaux à la Lourdeur sur soi\n · Léger Arôme expire\n · Ne peut pas en gagner pour le reste du tour\n- À la mort, applique aléatoirement la moitié de l’Instance de Léger Arôme de cette unité entre les alliés de cette unité (arrondi à l’inférieur)",
+      "summary": "",
+      "flavor": "La fragrance engendre l’aspiration. L’aspiration, en retour, devient un désir."
+    },
+    {
+      "id": "AlriunePetal",
+      "name": "Pétales",
+      "desc": "Instance max : 3\n- <color=#ff6000><mark color=#ff000040><b><u>À 3 Instances, utilise une Capacité puissante ce tour</color></mark></b></u>\n- Inflige +(Instance de Pétales sur soi * 10)% de dégâts aux cibles Déséquilibrées\n- Fin du Tour : gagne 1 Instance",
+      "summary": "",
+      "flavor": "Un pétale, deux pétales… et enfin trois."
+    },
+    {
+      "id": "ThreadDye",
+      "name": "Fil Teinté",
+      "desc": "- Instance max : 3\n- Ne peut pas gagner d’Accélération en ayant cet effet\n- Fin du Tour : retire l’Accélération qui sera appliquée au prochain tour\n- Fin du Tour : gagne du Ralentissement au prochain tour égal à l’Intensité et perd 1 Instance\n- <color=#ff6000><mark color=#ff000040><b><u>À Instance max, gagne Immobilisé ce tour et au prochain tour ; puis, cet effet expire</color></mark></b></u>",
+      "summary": "",
+      "flavor": "Comme les ongles, les fils vous serreront, la couleur de leurs attaches prédéterminées."
+    },
+    {
+      "id": "SpreadingDye",
+      "name": "Médium Brillant",
+      "desc": "- Si la cible a Ralentissement, inflige 1 d’Intensité et de Compte de Saignement supplémentaire\n- À l’Usage de Capacité, si la cible principale a Fil Teinté ou Colorant de Goudron, ladite Capacité gagne +1 de Puissance Finale et inflige +20% de dégâts",
+      "summary": "",
+      "flavor": "La majorité des teintures est censée avoir une couleur.\nMais cette teinture n’en a aucune.\n\nAppliquée avec des coups de pinceau rudes et irréguliers, elle révèle un spectre de couleur à travers rien d’autre que le reflet et la réfraction de la lumière pure."
+    },
+    {
+      "id": "StickyDye",
+      "name": "Colorant de Goudron",
+      "desc": "- Instance max : 1\n- -1 de Vitesse Min & Max (1 min)",
+      "summary": "",
+      "flavor": "La teinture se cramponne, rendant chaque pas plus difficile à faire."
+    },
+    {
+      "id": "ChargeKhaki",
+      "name": "Inertie de la Dérive",
+      "desc": "- Unique Charge\n- Compte max : 20\n- Interagit de la même manière qu’une Charge normale face aux effets qui augmentent ou réduisent l’Intensité et le Compte de Charge\n- Fin du Tour : perd 1 de Compte",
+      "summary": "",
+      "flavor": "Ceux qui se font porter par la marée comme des bouées ne peuvent peut-être pas changer le cours des choses, mais ils peuvent tout de même accroître la marée et y commettre leurs actions."
+    },
+    {
+      "id": "FinishedFabric",
+      "name": "Tissu Coupé",
+      "desc": "- Instance max : 30\n- Les Capacités qui gagnent ou consomment du Compte de Charge (inclut Charge Unique) infligent +(Instance)% de dégâts (30% max)\n- Fin du Tour : perd 5 Instances\n  · Si le Bouclier a été brisé ce tour, perd 10 Instances à la place",
+      "summary": "",
+      "flavor": "Les tissus ayant leurs propres fonctions ne peuvent avoir une utilité que lorsqu’ils sont proprement coupés."
+    },
+    {
+      "id": "LargeTailoringShears",
+      "name": "Ciseaux de Floraison",
+      "desc": "- Instance max : 3\n- Inflige +(5 + Instance * 5)% de dégâts contre les Pécheurs (20% max)\n- À l’Usage de Capacité contre des Pécheurs Cible d’Altération, gagne de la Puissance de Duel égale à l’Instance",
+      "summary": "",
+      "flavor": "Les ciseaux utilisés pour trancher les matériaux primordiaux produits en sous-sol sont plus grands et plus extraordinairement calmes. Ces ciseaux ont coupé et recoupé le tout premier vêtement qui fut tissé. Que des fleurs en jaillissent n’est que naturel, puisqu’ils ont toujours coupé des choses à la racine."
+    },
+    {
+      "id": "TailoringTarget",
+      "name": "Cible d’Altération",
+      "desc": "- +5 de Vitesse Min & Max\n- La première Capacité utilisée de ce tour gagne +3 de Puissance de Duel\n- Début de l’Affrontement : si cette unité a équipé une Capacité Défensive, subit -80% de dégâts venant d’Annette l’Altérationniste\n- Fin du Tour : perd 1 Instance",
+      "summary": "",
+      "flavor": "Plutôt que d’altérer les vêtements pour s’adapter à la personne, elle altère la personne pour s’adapter aux vêtements. Ici, les vêtements sont ce qui définit le porteur ; préserver l’habit et altérer la personne est la façon dont la valeur est protégée et le client est servi."
+    },
+    {
+      "id": "ScissorsMark",
+      "name": "Marque de Cisaillement",
+      "desc": "- Instance max : 9\n- Perd du Niveau Défensif égal à l’Instance",
+      "summary": "",
+      "flavor": "Une marque de coupure utilisée pour raccourcir le tissu et d’autres matériaux aux dimensions requises."
+    },
+    {
+      "id": "DamagedFabric",
+      "name": "Cisaillé",
+      "desc": "- Instance max : 30\n- Début du Tour : gagne 1 Malus de Soin de PV toutes les 6 Instances (5 max)\n- En affrontant en Duel “Traçage” ou “Surfile à la Chaîne”, perd de la Puissance de Duel égale à l’Instance",
+      "summary": "",
+      "flavor": "Une fois que le tissu a été découpé, retisser les chutes ensemble n’en fait que du patchwork. Il ne peut jamais redevenir un unique tissu à partir de ses fils d’origine."
+    },
+    {
+      "id": "ThirdTailor_LowMorale",
+      "name": "Mains Tremblantes",
+      "desc": "- Moral Bas\n- Subit +7.5% de dégâts\n- Chaque fois que cette unité est touchée, gagne +1 de Compte de Tremblement (une fois par Capacité, 5 par tour max)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Mes mains commencent à trembler, et même les ciseaux ne veulent pas rester stables… Je ne serai plus capable de couper les tracés…"
+    },
+    {
+      "id": "ThirdTailor_Panic",
+      "name": "Mains Tremblantes",
+      "desc": "- Panique\n- Subit +15% de dégâts\n- Chaque fois que cette unité est touchée, gagne 1 d’Intensité de Tremblement et +1 de Compte de Tremblement (une fois par Capacité, 5 par tour max)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Mes mains commencent à trembler, et même les ciseaux ne veulent pas rester stables… Je ne serai plus capable de couper les tracés…"
+    },
+    {
+      "id": "GoldenLeatherEnhance",
+      "name": "Pluie d’Ensoleillement Piquant [Roi des Broderies]",
+      "desc": "+1 de Puissance Finale de Capacité tous les 3 Clouguille sur la cible (3 max)",
+      "summary": "",
+      "flavor": "“Tu n’as plus à écouter. Tu n’as qu’à faire en sorte de ne plus les entendre. Fais simplement ce que tu veux. Ne te renie pas.”"
+    },
+    {
+      "id": "NoirShieldUp",
+      "name": "Bénédiction du Dieu d’Obsidienne",
+      "desc": "- Intensité max : 999\n- Compte de Base :  2\n- Ne peut pas être Déséquilibré\n- Début du Tour : la Partie gagne du Bouclier égal à l’Instance\n- Cet effet compte comme un effet de “Gestion de Bouclier”\n- Perd de l’Instance en perdant du Bouclier\n- Fin du Tour : perd 1 de Compte",
+      "summary": "",
+      "flavor": "Le Dieu d’Obsidienne. Le Géant d’Obsidienne. Le chapelain du Marteau. Le Dieu d’Obsidienne du Grand Magasin, dont le domaine est le pouvoir de la préservation, accorde sa bénédiction via contact direct. Le marteau est dur et sa teinte noire absorbe toutes choses et les fait s’arrêter… très similairement à la mort."
+    },
+    {
+      "id": "NoirShieldPiece",
+      "name": "Vengeance Apocalyptique",
+      "desc": "- Instance max : 2\n- Subit -10% de dégâts\n- À 2 Instances, -2 de Puissance Finale",
+      "summary": "",
+      "flavor": "Cela donne la sensation qu’un fragment d’une masse imaginaire fait pression sur le corps. Une imitation grossière de la punition d’un Géant. D’après l’alliance, s’élever à un lieu supérieur est similaire à supporter un lourd rocher et grimper en silence."
+    },
+    {
+      "id": "VibrationResonance",
+      "name": "Négation de Conversation",
+      "desc": "- Instance max : 2\n- Subit -90% de dégâts de Sursaut de Tremblement ; -90% de Seuil de Déséquilibre augmenté\n- Inflige +20% de dégâts\n- Fin du Tour : perd 1 Instance ",
+      "summary": "",
+      "flavor": "Une secousse placée à l’encontre de chaque mouvement cherchant la préservation fait s’effondrer la préservation elle-même, l’empêchant de prendre racine."
+    },
+    {
+      "id": "NoirField",
+      "name": "Sanctum de Conservation",
+      "desc": "- Instance max : 2\n- Début du Tour : gagne 1 Bonus de Puissance et 1 Bonus de Dégâts tous les 20% de PV manquants (3 max respectivement)\n- Début du Tour : toutes les Capacités alliées de “Le Noir” gagnent de la Puissance Finale égale à l’Instance\n\n- Début du Tour : à 1 Instance ou plus, applique les effets suivants à tous les alliés de “Le Noir”, dont cette unité :\n · +10 PSM\n · +2 de Puissance Offensive\n · +2 Niveaux Défensifs\n\n- Début du Tour : à 2 Instances ou plus, applique les effets suivants à tous les ennemis qui ne sont pas de “Le Noir” :\n · -1 de Vitesse Max\n · -6 Niveaux Offensifs\n · -2 Niveaux Défensifs",
+      "summary": "",
+      "flavor": "Un sanctuaire dans lequel la valeur de la conservation poursuivie par Le Noir est préservée. En son sein, les actions préservatrices des Le Noir sont retenues pour leur bénéfice. Il s’agit d’un royaume de conservation éternelle, un lieu qui attise le besoin de s’approche infiniement de la mort."
+    },
+    {
+      "id": "NoirSquareCollapse",
+      "name": "Effondrement de Formation",
+      "desc": "- Instance max : 10\n- Perd du Niveau Défensif égal à l’Instance",
+      "summary": "",
+      "flavor": "Lorsque la foi, la foi que chacun accomplira loyalement le rôle qui lui est assigné, commence à s’effondrer, le doute prend racine dans les fissures."
+    },
+    {
+      "id": "NoirNail",
+      "name": "Clou Promis",
+      "desc": "- Instance max : 3\n- Lorsqu’un Sursaut de Tremblement est déclenché sur cette unité,\n · Subit des dégâts de Paresse égaux à l’Intensité de Tremblement sur soi\n · Gagne 1 Vulnérabilité\n · Perd 1 Instance",
+      "summary": "",
+      "flavor": "Le marteau promis est tenu par une promesse d’enfoncer un clou. En conséquence, chaque fois que le marteau s’abat, un clou doit y exister… Même s’il n’y en a aucun."
+    },
+    {
+      "id": "BuffetField",
+      "name": "Le Vomissement",
+      "desc": "- Après être entré dans l’Affrontement, l’influence de Le Vomissement s’étend au Début du Tour tous les 2 tours\n· Niveau 1 : Pwie\n· Niveau 2 : tous les Pécheurs alliés\n· Niveau 3 : toutes les cibles",
+      "flavor": "Ce qui est dévoré pour la survie, pour la croissance, incorpore ce qui était à l’extérieur dans ce qui est mien. Puis, cela est expulsé de nouveau, et ce qui était mien devient une partie de l’extérieur.\n\nCela est cyclique, coûteux et consommatoire.",
+      "summary": ""
+    },
+    {
+      "id": "BuffetField_0",
+      "name": "Le Vomissement",
+      "desc": "- Après être entré dans l’Affrontement, l’influence de Le Vomissement s’étend au Début du Tour tous les 2 tours",
+      "flavor": "Ce qui est dévoré pour la survie, pour la croissance, incorpore ce qui était à l’extérieur dans ce qui est mien. Puis, cela est expulsé de nouveau, et ce qui était mien devient une partie de l’extérieur.\n\nCela est cyclique, coûteux et consommatoire.",
+      "summary": ""
+    },
+    {
+      "id": "BuffetField_1",
+      "name": "Le Vomissement",
+      "desc": "- Après être entré dans l’Affrontement, l’influence de Le Vomissement s’étend au Début du Tour tous les 2 tours",
+      "flavor": "Ce qui est dévoré pour la survie, pour la croissance, incorpore ce qui était à l’extérieur dans ce qui est mien. Puis, cela est expulsé de nouveau, et ce qui était mien devient une partie de l’extérieur.\n\nCela est cyclique, coûteux et consommatoire.",
+      "summary": ""
+    },
+    {
+      "id": "BuffetField_2",
+      "name": "Le Vomissement",
+      "desc": "- Après être entré dans l’Affrontement, l’influence de Le Vomissement s’étend au Début du Tour tous les 2 tours",
+      "flavor": "Ce qui est dévoré pour la survie, pour la croissance, incorpore ce qui était à l’extérieur dans ce qui est mien. Puis, cela est expulsé de nouveau, et ce qui était mien devient une partie de l’extérieur.\n\nCela est cyclique, coûteux et consommatoire.",
+      "summary": ""
+    },
+    {
+      "id": "GourmandiseAlly",
+      "name": "Carnage Incontrôlable",
+      "desc": "- +1 de Puissance de Base, convertit toutes les Pièces de toutes les Capacités en Pièces Incassables\n- Inflige +5% de dégâts tous les 3 Saignement sur soi (30% max) ; soigne +10% de PV supplémentaires à la cible (100% max, arrondi à l’inférieur)\n- Ne peut pas être Déséquilibré ; subit -90% de dégâts de Saignement (exclut les Déséquilibres forcés)\n- Fin du Tour : perd 1 Instance",
+      "summary": "Les Capacités sont renforcées"
+    },
+    {
+      "id": "BloodyMucusAlly",
+      "name": "Baptême [Cramoisi]",
+      "desc": "- Instance max : 3\n- À l’Usage de Capacité Offensive, gagne du Compte de Saignement égal à l’Instance (une fois par Capacité)\n- À l’Usage de Capacité Défensive, perd 1 Instance\n- Fin du Tour : perd 1 Instance",
+      "summary": ""
+    },
+    {
+      "id": "BuffetGold",
+      "name": "Révélation Dorée",
+      "desc": "- Vitesse max : 5\n- Subit +5% de dégâts par Instance\n- À Instance max, subit +10% de dégâts si cette unité a Saignement",
+      "summary": "",
+      "flavor": "La lumière dorée guide l’enfant vers ceux qu’elle doit ensuite blesser. Même sous cette directive, l’enfant pense que le jugement est entièrement le sien."
+    },
+    {
+      "id": "BuffetShoes",
+      "name": "Salomés Roses",
+      "desc": "- +3 de Vitesse Min & Max",
+      "summary": "",
+      "flavor": "Merci… pour les chaussures. Je peux aller n’importe où si je les mets ? J’veux… aller avec vous."
+    },
+    {
+      "id": "BuffetGoldenClothes",
+      "name": "Voile Doré",
+      "desc": "- +10 Niveaux Défensifs\n- Fin du Tour : si cette unité est Déséquilibrée, se remet de Déséquilibre et regagne 50% de PV (une fois par Affrontement)",
+      "summary": "",
+      "flavor": "L’enfant s’est vêtu des vêtements d’un adulte. Pas n’importe quels vêtements, mais un habit de cuir fait par la mort d’autrui. Et ainsi, l’enfant prend un pas de plus vers la vie d’adulte."
+    },
+    {
+      "id": "Buffet_LowMorale",
+      "name": "Douleur Inoubliée",
+      "desc": "- Moral Bas\n- Gagne 3 Protection",
+      "summary": ""
+    },
+    {
+      "id": "Buffet_Panic",
+      "name": "Douleur Inoubliée",
+      "desc": "- Panique\n- Gagne 5 Protection",
+      "summary": ""
+    },
+    {
+      "id": "RestrictMob",
+      "name": "Règle : Endommagement des Téguments Brutes Interdit",
+      "desc": "- Début de l’Affrontement : lorsqu’un Prisonnier Tanné est ciblé par une Capacité Offensive, cet effet expire et l’attaquant gagne 1 Violation des Règles de la Tannerie\n- Fin du Tour : cet effet expire",
+      "summary": ""
+    },
+    {
+      "id": "RestrictBoss",
+      "name": "Règle : Tannage Expéditif Interdit",
+      "desc": "- Début de l’Affrontement : lorsque le Superviseur est ciblé par une Capacité Offensive, cet effet expire et l’attaquant gagne 1 Violation des Règles de la Tannerie\n- Fin du Tour : cet effet expire",
+      "summary": ""
+    },
+    {
+      "id": "RestrictTier1",
+      "name": "Règle : Comportement Offensif Interdit",
+      "desc": "- Début de l’Affrontement : lorsqu’une Capacité Offensive est équipée, cet effet expire et gagne 1 Violation des Règles de la Tannerie (exclut les Capacités E.G.O.)\n- Fin du Tour : cet effet expire",
+      "summary": ""
+    },
+    {
+      "id": "RestrictDef",
+      "name": "Règle : Comportement Défensif Interdit",
+      "desc": "- Début de l’Affrontement : lorsqu’une Capacité Défensive est équipée, cet effet expire et gagne 1 Violation des Règles de la Tannerie\n- Fin du Tour : cet effet expire",
+      "summary": ""
+    },
+    {
+      "id": "RestrictDenied",
+      "name": "Violation des Règles de la Tannerie",
+      "desc": "- Instance max : 1\n- Subit +30% de dégâts venant du Superviseur\n- À la Fin de l’Attaque de cette unité, le Superviseur utilise la Capacité “Finition Polissante Punissante” sur cette unité ; puis, cet effet expire.",
+      "summary": "",
+      "flavor": "La cible est un transgresseur qui a violé les règles qui enchaînent le monde."
+    },
+    {
+      "id": "B3FreshMob",
+      "name": "Tégument Immaculé",
+      "desc": "- Instance max : 1\n- Début du Tour : gagne 20 de Bouclier\n- Fin du Tour : gagne 2 Protection\n- Expire à la Fin du Tour",
+      "summary": "",
+      "flavor": "Veuillez manipuler avec précaution. Si vous essayez un habit de cuir et le pliez trop, il se ridera… et cela diminue sa valeur."
+    },
+    {
+      "id": "RestrictFailed",
+      "name": "Effondrement des Règles",
+      "desc": "- +3 Niveaux Offensifs\n- -3 Niveaux Défensifs",
+      "summary": "",
+      "flavor": "Connaissez-vous la différence entre une règle et une loi ?"
+    },
+    {
+      "id": "targetDye_LowMorale",
+      "name": "Machine Enrayée",
+      "desc": "Les Capacités infligent -5% de dégâts aux cibles avec une Vitesse plus lente que celle de cette unité",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "targetDye_Panic",
+      "name": "Machine Enrayée",
+      "desc": "Les Capacités infligent -10% de dégâts aux cibles avec une Vitesse plus lente que celle de cette unité",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Est-ce que ce qui bouge plus vite que soi peut être réellement fixé sur place ?"
+    },
+    {
+      "id": "RouteBOneLeg",
+      "name": "원레그 B루트 강화",
+      "desc": "- +25 Niveaux Offensifs de Base\n- +25 Niveaux Défensifs de Base",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "SapsareeGold",
+      "name": "Pluie d’Ensoleillement Piquant [Sous-Chef]",
+      "desc": "- À l’Usage de Capacité, +1 de Puissance Finale par “Sauce Explosive Brûleuse de Langue” sur la cible (3 max)\n- Gagne 15 PSM en tuant un allié avec une Capacité de cette unité",
+      "summary": "",
+      "flavor": "“Sous-chef a un cœur chaud et chaleureux, compris ? Sous-chef est remplie de confiance en elle, compris ?!”"
+    },
+    {
+      "id": "GoldenManager",
+      "name": "Pluie d’Ensoleillement Piquant [Responsable de Rayon du 3E]",
+      "desc": "- Inflige +5% de dégâts par Prudence Protégée sur la cible (50% max)\n- +3 de Puissance de Base à l’Usage de Capacité contre une cible ayant 0 PSM ou moins",
+      "summary": "",
+      "flavor": "Le soleil brûle fortement, cependant le vêtement ne peut pas être jeté, et le cœur bat en retraite sous les couvertures… plus profondément sous les couvertures…"
+    },
+    {
+      "id": "SisyphusSapphire",
+      "name": "Saphir",
+      "desc": "- Les Capacités infligent 1 d’Intensité de Brûlure, de Saignement, de Tremblement, de Déchirure et de Lourdeur supplémentaire aux ennemis\n- Gagne +2 de Compte supplémentaire en gagnant du Compte de Charge et du Compte de Calme\n- Gagne +10 de Compte de Charge en gagnant cet effet (une fois par Affrontement)\n- +1 de Puissance de Duel\n- +1 de Puissance Finale",
+      "summary": ""
+    },
+    {
+      "id": "SisyphusOnyx",
+      "name": "Onyx",
+      "desc": "- Les Capacités infligent 1 d’Intensité de Brûlure, de Saignement, de Tremblement, de Déchirure et de Lourdeur supplémentaire aux ennemis\n- Gagne +2 de Compte supplémentaire en gagnant du Compte de Charge et du Compte de Calme\n- Gagne +10 de Compte de Charge en gagnant cet effet (une fois par Affrontement)\n- +2 de Puissance de Duel\n- +1 de Puissance Finale",
+      "summary": ""
+    },
+    {
+      "id": "SisyphusDiamond",
+      "name": "Diamant",
+      "desc": "- Les Capacités infligent 1 d’Intensité de Brûlure, de Saignement, de Tremblement, de Déchirure et de Lourdeur supplémentaire aux ennemis\n- Gagne +2 de Compte supplémentaire en gagnant du Compte de Charge et du Compte de Calme\n- Gagne +10 de Compte de Charge en gagnant cet effet (une fois par Affrontement)\n- +2 de Puissance de Duel\n- +1 de Puissance Finale\n- Inflige +10% de dégâts",
+      "summary": ""
+    },
+    {
+      "id": "OutOfControl_LowMorale",
+      "name": "Supervision Désactivée",
+      "desc": "- Moral Bas\n- +1 de Puissance Finale de Capacité\n- Début du Tour : applique 1 Malus de Puissance Offensive à tous les autres alliés",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "OutOfControl_Panic",
+      "name": "Supervision Désactivée",
+      "desc": "- Panique\n- +1 de Puissance Finale de Capacité\n- Début du Tour : applique 1 Malus de Puissance Offensive et 1 Malus de Dégâts à tous les autres alliés",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "LaNoirSuperior_LowMorale",
+      "name": "Vers la Première Carapace…",
+      "desc": "- Moral Bas\n- -2 Niveaux Offensifs\n- +2 Niveaux Défensifs",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "LaNoirSuperior_Panic",
+      "name": "Vers la Première Carapace…",
+      "desc": "- Panique\n- -3 Niveaux Offensifs\n- +4 Niveaux Défensifs",
+      "summary": "",
+      "undefined": "-"
+    }
+  ]
+}

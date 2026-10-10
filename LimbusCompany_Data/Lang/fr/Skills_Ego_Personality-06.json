@@ -1150,6 +1150,166 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2061011,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Répudiation",
+          "abName": "Résident de Métropolaris",
+          "desc": "[BeforeAttack] Gagne +1 de Compte de [Charge]\n[BeforeAttack] Consomme jusqu’à 6 de Compte de [Charge] sur soi ; puis, applique 5 [ChargeForceField] à soi et à (1 + (Compte de [Charge] consommé / 2)) autres alliés aléatoires (5 unités max ; arrondi à l’inférieur)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Charge]"
+                }
+              ]
+            },
+            {}
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Répudiation",
+          "abName": "Résident de Métropolaris",
+          "desc": "<style=\"highlight\">[WhenUse] Gagne de la Puissance de Duel égale à l’Intensité de [Charge] sur soi (2 max)</style>\n[BeforeAttack] Gagne +<style=\"highlight\">3</style> de Compte de [Charge]\n[BeforeAttack] Consomme jusqu’à <style=\"highlight\">8</style> de Compte de [Charge] sur soi ; puis, applique 5 [ChargeForceField] à soi et à (1 + (Compte de [Charge] consommé / 2)) autres alliés aléatoires (<style=\"highlight\">6</style> unités max ; arrondi à l’inférieur)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Charge]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 1 [PhotoElectricity]</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Répudiation",
+          "abName": "Résident de Métropolaris",
+          "desc": "[WhenUse] Gagne de la Puissance de Duel égale à l’Intensité de [Charge] sur soi (<style=\"highlight\">3</style> max)\n[BeforeAttack] Gagne +<style=\"highlight\">5</style> de Compte de [Charge]\n[BeforeAttack] Consomme jusqu’à <style=\"highlight\">10</style> de Compte de [Charge] sur soi ; puis, applique 5 [ChargeForceField] à soi et à (1 + (Compte de [Charge] consommé / 2)) autres alliés aléatoires (<style=\"highlight\">7</style> unités max ; arrondi à l’inférieur)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Charge]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [PhotoElectricity]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2061021,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Répudiation",
+          "abName": "Résident de Métropolaris",
+          "desc": "[CantIdentify]\nCible aléatoirement\nInflige +15% de dégâts aux cibles ayant du Bouclier\n[BeforeAttack] -6 de Puissance de Base par Pièce Fissurée (-12 max)\n[BeforeAttack] Gagne +3 de Compte de [Charge]\n[BeforeAttack] Consomme jusqu’à 6 de Compte de [Charge] ; puis, applique 7 [ChargeForceField] à soi et à (1 + (Compte de [Charge] consommé / 2)) autres alliés aléatoires (5 unités max ; arrondi à l’inférieur)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Charge]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnStartCoin] Consomme jusqu’à 10 de Compte de [Charge] ; puis, cette Pièce gagne de la Puissance Finale égale au Compte consommé"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Répudiation",
+          "abName": "Résident de Métropolaris",
+          "desc": "[CantIdentify]\nCible aléatoirement\nInflige +<style=\"highlight\">20</style>% de dégâts aux cibles ayant du Bouclier\n[BeforeAttack] -6 de Puissance de Base par Pièce Fissurée (-12 max)\n<style=\"highlight\">[BeforeAttack] Gagne de la Puissance Finale égale à l’Intensité de [Charge] sur soi (2 max)</style>\n[BeforeAttack] Gagne +<style=\"highlight\">4</style> de Compte de [Charge]\n[BeforeAttack] Consomme jusqu’à <style=\"highlight\">8</style> de Compte de [Charge] sur soi ; puis, applique 7 [ChargeForceField] à soi et à (1 + (Compte de [Charge] consommé / 2)) autres alliés aléatoires (<style=\"highlight\">6</style> unités max ; arrondi à l’inférieur)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Charge]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnStartCoin] Consomme jusqu’à 10 de Compte de [Charge] ; puis, cette Pièce gagne de la Puissance Finale égale au Compte consommé"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 1 [PhotoElectricity]</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Répudiation",
+          "abName": "Résident de Métropolaris",
+          "desc": "[CantIdentify]\nCible aléatoirement\nInflige +<style=\"highlight\">25</style>% de dégâts aux cibles ayant du Bouclier\n[BeforeAttack] -6 de Puissance de Base par Pièce Fissurée (-12 max)\n[BeforeAttack] Gagne de la Puissance Finale égale à l’Intensité de [Charge] sur soi (<style=\"highlight\">3</style> max)\n[BeforeAttack] Gagne +<style=\"highlight\">5</style> de Compte de [Charge]\n[BeforeAttack] Consomme jusqu’à <style=\"highlight\">10</style> de Compte de [Charge] sur soi ; puis, applique 7 [ChargeForceField] à soi et à (1 + (Compte de [Charge] consommé / 2)) autres alliés aléatoires (<style=\"highlight\">7</style> unités max ; arrondi à l’inférieur)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [Charge]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnStartCoin] Consomme jusqu’à 10 de Compte de [Charge] ; puis, cette Pièce gagne de la Puissance Finale égale au Compte consommé"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [PhotoElectricity]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

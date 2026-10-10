@@ -2772,6 +2772,331 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1081601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ahh… Vous Ne L’entendez Pas, Pas Vrai ?",
+          "desc": "[WhenUse] À 80% de PV ou plus, gagne +3 de Compte de [ChargeRougeAlly]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [ChargeRougeAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Ahh… Vous Ne L’entendez Pas, Pas Vrai ?",
+          "desc": "<style=\"highlight\">À 2 [ChargeRougeAlly] ou plus, +1 de Puissance de Pièce</style>\n[WhenUse] À 80% de PV ou plus, gagne +3 de Compte de [ChargeRougeAlly]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +<style=\"highlight\">3</style> de Compte de [ChargeRougeAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ahh… Vous Ne L’entendez Pas, Pas Vrai ?",
+          "desc": "À 2 [ChargeRougeAlly] ou plus, +1 de Puissance de Pièce\n[WhenUse] À 80% de PV ou plus, gagne +<style=\"highlight\">5</style> de Compte de [ChargeRougeAlly]\n<style=\"highlight\">[WhenUse] +1 de Puissance de Duel tous les 3 [Laceration] sur la cible (2 max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +3 de Compte de [ChargeRougeAlly]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Parfaitement, le Silence de la Voix Ne Signifie Pas Son Absence !",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [ChargeRougeAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Si cette unité a [RougeIshmaelEclose], Réutilise cette Pièce une fois (une fois par Capacité)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Regagne (Intensité de [ChargeRougeAlly] * 2)% de PV (10% max)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Parfaitement, le Silence de la Voix Ne Signifie Pas Son Absence !",
+          "desc": "<style=\"highlight\">+1 de Puissance Finale toutes les 2 [ChargeRougeAlly] (2 max)\n[WhenUse] À moins de 10 de Compte de [ChargeRougeAlly], consomme (3 * (10 - Compte de [ChargeRougeAlly] actuel))% de PV pour faire monter le Compte de [ChargeRougeAlly] à 10\n[WhenUse] Consomme 10 de Compte de [ChargeRougeAlly] pour gagner +1 de Puissance de Pièce\n[WhenUse] Si la cible a 6 [Laceration] ou plus, +1 de Puissance de Pièce\n[BeforeAttack] Si cette unité a [RougeIshmaelEclose], inflige +20% de dégâts\n- Si cette unité n’a pas [RougeIshmaelEclose], consomme 20% de PV sur soi pour activer l’effet ci-dessus</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +<style=\"highlight\">4</style> de Compte de [ChargeRougeAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Si cette unité a [RougeIshmaelEclose], Réutilise cette Pièce une fois (une fois par Capacité)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] À 3 [ChargeRougeAlly] ou plus, inflige 1 [ScarletTakeDamageUp] au prochain tour (une fois par tour)</style>"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Regagne (Intensité de [ChargeRougeAlly] * <style=\"highlight\">3</style>)% de PV (<style=\"highlight\">15</style>% max)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Parfaitement, le Silence de la Voix Ne Signifie Pas Son Absence !",
+          "desc": "+1 de Puissance Finale toutes les 2 [ChargeRougeAlly] (2 max)\n[WhenUse] À moins de 10 de Compte de [ChargeRougeAlly], consomme (3 * (10 - Compte de [ChargeRougeAlly] actuel))% de PV pour faire monter le Compte de [ChargeRougeAlly] à 10\n[WhenUse] Consomme 10 de Compte de [ChargeRougeAlly] pour gagner +1 de Puissance de Pièce\n[WhenUse] Si la cible a 6 [Laceration] ou plus, +1 de Puissance de Pièce\n[BeforeAttack] Si cette unité a [RougeIshmaelEclose], inflige +<style=\"highlight\">40</style>% de dégâts\n- Si cette unité n’a pas [RougeIshmaelEclose], consomme 20% de PV sur soi pour activer l’effet ci-dessus",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +4 de Compte de [ChargeRougeAlly]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Si cette unité a [RougeIshmaelEclose], Réutilise cette Pièce une fois (une fois par Capacité)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À <style=\"highlight\">2</style> [ChargeRougeAlly] ou plus, inflige 1 [ScarletTakeDamageUp] au prochain tour (une fois par tour)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Regagne (Intensité de [ChargeRougeAlly] * 3)% de PV (15% max)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081603,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "La Gratter, La Déchirer et La Clouer sur Place !",
+          "desc": "Inflige +5% de dégâts par [ChargeRougeAlly] (25% max)\n[StartBattle] À moins de 50% de PV, ou si cette unité a [RougeIshmaelEclose], convertit toutes les Pièces de cette Capacité en [SuperCoin]s\n[WhenUse] À moins de 15 de Compte de [ChargeRougeAlly], consomme (3 * (15 - Compte de [ChargeRougeAlly] actuel))% de PV pour faire monter le Compte de [ChargeRougeAlly] à 15\n[WhenUse] Consomme 15 [ChargeRougeAlly] pour gagner +3 de Puissance de Pièce\n[WhenUse] +1 de Puissance de Pièce tous les 6 [Laceration] sur la cible (2 max)\n[BeforeAttack] Si cette unité a [RougeIshmaelEclose], inflige +40% de dégâts\n- Si cette unité n’a pas [RougeIshmaelEclose], consomme 20% de PV sur soi pour activer l’effet ci-dessus",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Si cette unité a [RougeIshmaelEclose], Réutilise cette Pièce une fois (une fois par Capacité)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts de Luxure égaux à (Intensité de [ChargeRougeAlly] sur soi * 10)% des dégâts finaux de cette Pièce (30% max)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Regagne (Intensité de [ChargeRougeAlly] * 4)% de PV (20% max)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "La Gratter, La Déchirer et La Clouer sur Place !",
+          "desc": "Inflige +<style=\"highlight\">10</style>% de dégâts par [ChargeRougeAlly] sur soi (<style=\"highlight\">50</style>% max)\n[StartBattle] À moins de 50% de PV, ou si cette unité a [RougeIshmaelEclose], convertit toutes les Pièces de cette Capacité en [SuperCoin]s\n[WhenUse] À moins de 15 de Compte de [ChargeRougeAlly], consomme (3 * (15 - Compte de [ChargeRougeAlly] actuel))% de PV pour faire monter le Compte de [ChargeRougeAlly] à 15\n[WhenUse] Consomme 15 [ChargeRougeAlly] pour gagner +3 de Puissance de Pièce\n[WhenUse] +1 de Puissance de Pièce tous les 6 [Laceration] sur la cible (2 max)\n[BeforeAttack] Si cette unité a [RougeIshmaelEclose], inflige +40% de dégâts\n- Si cette unité n’a pas [RougeIshmaelEclose], consomme 20% de PV sur soi pour activer l’effet ci-dessus",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">4</style> [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Si cette unité a [RougeIshmaelEclose], Réutilise cette Pièce une fois (une fois par Capacité)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts de Luxure égaux à (Intensité de [ChargeRougeAlly] sur soi * 10)% des dégâts finaux de cette Pièce (30% max)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Regagne (Intensité de [ChargeRougeAlly] * 4)% de PV (20% max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Bien Sûr… Il y avait Finalement un Sens à ce Monde",
+          "desc": "[DuelCounter]\n[StartBattle] À 10% de PV ou moins, gagne 2 [RougeIshmaelCocoon] et entre en état de [RougeIshmaelCocoon] (une fois par Affrontement)\n[StartBattle] Si cette unité n’a pas [RougeIshmaelEclose], consomme 20% de PV sur soi et gagne +10 d’[Aggro] sur cet Emplacement de Capacité au prochain tour (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +4 de Compte de [ChargeRougeAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Bien Sûr… Il y avait Finalement un Sens à ce Monde",
+          "desc": "[DuelCounter]\n[StartBattle] À 10% de PV ou moins, gagne 2 [RougeIshmaelCocoon] et entre en état de [RougeIshmaelCocoon] (une fois par Affrontement)\n[StartBattle] Si cette unité n’a pas [RougeIshmaelEclose], consomme 20% de PV sur soi et gagne +10 d’[Aggro] sur cet Emplacement de Capacité au prochain tour (une fois par tour)\n<style=\"highlight\">[WhenUse] +1 de Puissance Finale toutes les 2 d’Intensité de [ChargeRougeAlly] (2 max)\n[WhenUse] Inflige +10% de dégâts tous les 4 [Laceration] sur la cible (40% max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +4 de Compte de [ChargeRougeAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Si cette unité a [RougeIshmaelEclose], regagne 10% de PV (une fois par tour)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Comme le Dit la Voix, Je me Retranche Volontier en Moi-même",
+          "desc": "Capacité exclusive de [RougeIshmaelCocoon]\n[CanDuelGuard]\n[StartBattle] À 10 de Compte de [ChargeRougeAlly] ou plus, consomme 10 de Compte de [ChargeRougeAlly] pour appliquer 1 [ResultEnhancement] au prochain tour à 2 alliés avec les ordres de Déploiement les plus tôts (une fois par tour)\n[StartBattle] Regagne 50% de PV (une fois par tour)\n[WinDuel] Gagne +5 de Compte de [ChargeRougeAlly] (4 fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Comme le Dit la Voix, Je me Retranche Volontier en Moi-même",
+          "desc": "Capacité exclusive de [RougeIshmaelCocoon]\n[CanDuelGuard]\n[StartBattle] À 10 de Compte de [ChargeRougeAlly] ou plus, consomme 10 de Compte de [ChargeRougeAlly] pour appliquer 1 [ResultEnhancement] au prochain tour à 2 alliés avec les ordres de Déploiement les plus tôts (une fois par tour)\n<style=\"highlight\">- Si l’allié affecté est une Identité Rouge, gagne +5 de Compte de [ChargeRougeAlly] au prochain tour et applique 1 [AttackDmgUp] supplémentaire audit allié</style>\n[StartBattle] Regagne <style=\"highlight\">100</style>% de PV (une fois par tour)\n<style=\"highlight\">[WinDuel] Retire 1 effet négatif retirable aléatoire appliqué à soi (une fois par tour)</style>\n[WinDuel] Gagne +5 de Compte de [ChargeRougeAlly] (4 fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

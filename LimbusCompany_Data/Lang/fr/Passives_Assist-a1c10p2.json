@@ -1,0 +1,67 @@
+{
+  "dataList": [
+    {
+      "id": 40004101,
+      "name": "Le Dieu Cramoisi Naissant",
+      "desc": "Lorsque cette unité gagne [Charge], gagne [ChargeRouge] à la place\n\nDébut de l’Affrontement : gagne 1 d’Intensité de [ChargeRouge]\n\nDébut du Tour : à 2 d’Intensité de [ChargeRouge] ou plus, gagne +(Intensité de [ChargeRouge] * 2) de Compte de [ChargeRouge]",
+      "summary": "Gain [ChargeRouge]",
+      "flavor": "Un jeune dieu, mais un dieu malgré tout."
+    },
+    {
+      "id": 40004102,
+      "name": "Nature Pulsatrice",
+      "desc": "Gagne +1 de Compte de [ChargeRouge] chaque fois que l’effet [Laceration] est activé dans un Affrontement",
+      "summary": "Gagne du Compte de [ChargeRouge]",
+      "flavor": "Pourquoi… le sang fait battre mon cœur avec tant d’excitation ?"
+    },
+    {
+      "id": 40004103,
+      "name": "L’Aventure",
+      "desc": "Gagne les effets suivants selon l’Intensité de [ChargeRouge] sur soi\n- 1 ou plus : pour chaque Compte de [ChargeRouge], inflige +2% de dégâts et rend +10% de PV à la cible (20% et 100% respectivement max ; arrondi à l’inférieur)\n- 2 ou plus : +1 de Puissance de Base toutes les 2 d’Intensité de [ChargeRouge] sur soi\n- 3 ou plus : Début du Tour : si cette unité n’a pas [GourmandiseAlly], et si cette unité a 15 de Compte de [ChargeRouge] ou plus, consomme tout le Compte de [ChargeRouge] et gagne 3 [GourmandiseAlly]\n- 4 ou plus : +1 Emplacement de Capacité\n- 5 ou plus : Début de l’Affrontement : gagne 3 [GourmandiseAlly] et inflige 3 [BloodyMucusAlly] à tous les ennemis",
+      "summary": "L’effet se renforce selon l’Intensité de [ChargeRouge] sur soi",
+      "flavor": "À chaque pas qu’il fait, trottinant derrière ses premiers gardiens, l’enfant découvre le monde, découvre la grande surface… et se découvre lui-même, puisque ses yeux étaient la partie la plus claire et la plus naturelle de son corps."
+    },
+    {
+      "id": 40004104,
+      "name": "Une Main Tendue",
+      "desc": "Lorsqu’un allié est Déséquilibré durant un Affrontement, utilise “Attrape Ma Main” sur ledit allié (2 fois par tour)"
+    },
+    {
+      "id": 40004105,
+      "name": "Corps Hors de Contrôle",
+      "desc": "Si cette unité a [GourmandiseAlly], gagne les effets suivants :\n- Regagne des PV égaux à 20% des dégâts infligés\n- À l’Usage de Capacité, gagne +3 de Compte de [Laceration]\n- En Touche avec une Capacité, gagne 1 [Laceration]",
+      "summary": "Gagne 1 [Laceration]",
+      "flavor": "Bien que les bras, les jambes et tout le reste de son corps paraissent étrangers pour l’enfant, le léger battement de son noyau commencera bientôt sa pulsation irrépressible."
+    },
+    {
+      "id": 40004107,
+      "name": "Clou de Couture de Cuir",
+      "desc": "Lorsque cette unité échoue à vaincre un ennemi en utilisant ses Capacités Offensives, utilise “J’y Mettrai un Terme Pour Toi…” sur ledit ennemi (une fois par tour)",
+      "flavor": "Ils ont dit que j’avais besoin d’un gros clou robuste pour percer du cuir et le coudre. Si ça n’a pas fonctionné, alors je dois juste réessayer… !"
+    },
+    {
+      "id": 40004108,
+      "name": "Destin Perdu",
+      "desc": "Perd cet Affrontement si cette unité est tuée",
+      "flavor": "L’on peut se perdre et s’aventurer sur le mauvais chemin, mais une défiance volontaire ou une déviation du courant est interdite par “ça”."
+    },
+    {
+      "id": 40004202,
+      "name": "Destin Perdu",
+      "desc": "Perd cet Affrontement si cette unité est tuée",
+      "flavor": "L’on peut se perdre et s’aventurer sur le mauvais chemin, mais une défiance volontaire ou une déviation du courant est interdite par “ça”."
+    },
+    {
+      "id": 40004203,
+      "name": "Le Visqueux-Abject",
+      "desc": "Cette unité subit des dégâts uniquement des Capacités cilant principale cette unité et ne subit aucun autre dégât\n\nEn entrant dans l’Affrontement pour la première fois, génère [BuffetField] sur le terrain\n\nDébut du Tour : les cibles dans [BuffetField] gagnent les effets suivants :\n- Alliés (inclut cette unité)\n  · Regagne 5% de PV\n  · Gagne +4 de Compte de [Charge]\n  · Gagne 1 [Protection]\n  · Si l’allié affecté est une unité “Le Rouge”, gagne 2 [Enhancement]\n  · Les Capacités E.G.O. infligent +50% de dégâts\n\n- Ennemis\n  · Gagne 3 [AttackDown]\n  · Gagne 3 [DefenseDown]\n  · Gagne 2 [BloodyMucusAlly]",
+      "flavor": "Dans un banquet infini, le Dieu Cramoisi consomme et consomme ; ce qui est dévoré est ensuite digéré et excrété sous forme de mucus autour de lui.\nCeci est l’issue de la consommation, là où la distinction entre soi et autrui se floute. Cette décharge phlegmatique fait-elle partie de moi ou est-elle celle d’un autre ? Dans cette frontière, tout ce qui est mien pulse, tandis que tout ce qui ne l’est pas se désintègre.\n\nPuisque j’ai peur de ce qui repose à l’extérieur de la périphérie."
+    },
+    {
+      "id": 40004204,
+      "name": "La Fin de l’Enfance",
+      "desc": "Début de l’Affrontement : gagne 5 d’Intensité de [ChargeRouge]\n\nFin du Tour : à 15 de Compte de [ChargeRouge] ou plus, équipe la Capacité “La Nausée”\nChaque Début de Tour : gagne +20 d’[Aggro]",
+      "flavor": "Qui détermine la fin de l’enfance ?\n\nL’enfant cramoisi a mûri à travers son aventure, façonné par ses expériences et esquisse son propre futur à la fin de ce voyage— Du moins, c’est ce qu’il pensait. Son enfance s’est arrêtée brusquement, tout comme l’aventure ; ce n’était jamais quelque chose qu’il aurait pu arrêter de sa propre volonté.\n\nLa fin de l’enfance est une intrusion soudaine et violente de la réalité venant du monde extérieur, relevant plus d’un avertissement violent que d’un rituel promis : “Tu n’es plus enfant.”"
+    }
+  ]
+}

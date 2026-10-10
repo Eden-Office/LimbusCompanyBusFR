@@ -1082,6 +1082,216 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2021111,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Le Trou",
+          "abName": "L’Homme Évidé",
+          "desc": "[CantDuel]\nLorsqu’utilisé pour la première fois dans un Affrontement, consomme 5 PSM , 2 Ressources E.G.O. de Peine, d’Orgueil et d’Envie de moins\nÀ 1 [BulletHole] ou plus, active “Boucher un trou” à la place\nCette Capacité ne touche pas d’ennemi, ne déclenche pas de Capacités Défensives et les effets externes ne peuvent pas pousser cette Capacité à être Réutilisée\n[EndSkill] Gagne 5 [BulletHole]\n[EndSkill] Gagne 5 d’Intensité de [Breath]\n[EndSkill] Gagne +3 de Compte de [Breath]\n[EndSkill] Gagne +5 de Compte de [Charge]\n[EndSkill] Gagne 4 [BlackWingHole]",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Le Trou",
+          "abName": "L’Homme Évidé",
+          "desc": "[CantDuel]\nLorsqu’utilisé pour la première fois dans un Affrontement, consomme 5 PSM , 2 Ressources E.G.O. de Peine, d’Orgueil et d’Envie de moins\nÀ 1 [BulletHole] ou plus, active “Boucher un trou” à la place\nCette Capacité ne touche pas d’ennemi, ne déclenche pas de Capacités Défensives et les effets externes ne peuvent pas pousser cette Capacité à être Réutilisée\n[EndSkill] Gagne 5 [BulletHole]\n[EndSkill] Gagne 5 d’Intensité de [Breath]\n[EndSkill] Gagne +3 de Compte de [Breath]\n[EndSkill] Gagne +5 de Compte de [Charge]\n[EndSkill] Gagne 4 [BlackWingHole]",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Le Trou",
+          "abName": "L’Homme Évidé",
+          "desc": "[CantDuel]\nLorsqu’utilisé pour la première fois dans un Affrontement, consomme 5 PSM , 2 Ressources E.G.O. de Peine, d’Orgueil et d’Envie de moins\nÀ 1 [BulletHole] ou plus, active “Boucher un trou” à la place\nCette Capacité ne touche pas d’ennemi, ne déclenche pas de Capacités Défensives et les effets externes ne peuvent pas pousser cette Capacité à être Réutilisée\n[EndSkill] Gagne 5 [BulletHole]\n[EndSkill] Gagne 5 d’Intensité de [Breath]\n[EndSkill] Gagne +3 de Compte de [Breath]\n[EndSkill] Gagne +5 de Compte de [Charge]\n[EndSkill] Gagne 4 [BlackWingHole]",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2021112,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Boucher un trou",
+          "abName": "L’Homme Évidé",
+          "desc": "Les effets externes ne peuvent pas pousser cette Capacité à être Réutilisée\n+1 de Puissance de Duel tous les 4 (Intensité de [Breath] + Compte de [Charge]) sur soi (5 max)\n+2 de Puissance de Duel par [BulletHole]\n[BeforeAttack] Dépense toutes les [BulletHole] et applique les effets suivants :\n- Gagne 2 d’Intensité de [Breath], +1 de Compte de [Breath] et +2 de Compte de [Charge] par [BulletHole] dépensée\n- Inflige +8% de dégâts par [BulletHole] dépensée\nSi cette Capacité a dépensé 5 [BulletHole], regagne 5 PSM\n[EndSkill] Gagne 1 [BulletHole]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Réutilise cette Pièce ([BulletHole] dépensées - 1) fois (4 fois max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Boucher un trou",
+          "abName": "L’Homme Évidé",
+          "desc": "Les effets externes ne peuvent pas pousser cette Capacité à être Réutilisée\n<style=\"highlight\">Inflige +5% de dégâts par Poids d’Atq en excès par rapport au # de cibles réelles (en Affrontement Ciblé, la Partie)</style>\n+1 de Puissance de Duel tous les 4 (Intensité de [Breath] + Compte de [Charge]) sur soi (<style=\"highlight\">7</style> max)\n+2 de Puissance de Duel par [BulletHole]\n<style=\"highlight\">[BeforeAttack] En attaquant seulement 1 cible, inflige +50% de dégâts (en Affrontement Ciblé, le Noyau et ses Parties connectées comptent comme une seule cible)</style>\n[BeforeAttack] Dépense toutes les [BulletHole] et applique les effets suivants :\n- Gagne 2 d’Intensité de [Breath], +1 de Compte de [Breath] et +2 de Compte de [Charge] par [BulletHole] dépensée\n- Inflige +8% de dégâts par [BulletHole] dépensée\nSi cette Capacité a dépensé 5 [BulletHole], regagne 5 PSM\n[EndSkill] Gagne 1 [BulletHole]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "(Réutilise cette Pièce ([BulletHole] dépensées - 1) fois (4 fois max)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Boucher un trou",
+          "abName": "L’Homme Évidé",
+          "desc": "Les effets externes ne peuvent pas pousser cette Capacité à être Réutilisée\nInflige <style=\"highlight\">+10%</style> de dégâts par Poids d’Atq en excès par rapport au # de cibles réelles (en Affrontement Ciblé, la Partie)\n+1 de Puissance de Duel tous les 4 (Intensité de [Breath] + Compte de [Charge]) sur soi (<style=\"highlight\">10</style> max)\n+2 de Puissance de Duel par [BulletHole]\n[BeforeAttack] En attaquant seulement 1 cible, inflige <style=\"highlight\">+100%</style> de dégâts (en Affrontement Ciblé, le Noyau et ses Parties connectées comptent comme une seule cible)</style>\n[BeforeAttack] Dépense toutes les [BulletHole] et applique les effets suivants :\n- Gagne 2 d’Intensité de [Breath], +1 de Compte de [Breath] et +2 de Compte de [Charge] par [BulletHole] dépensée\n- Inflige +8% de dégâts par [BulletHole] dépensée\n<style=\"highlight\">[EndSkill] Applique 5 d’Intensité de [Breath] et +2 de Compte de [Breath] à (2 + plus haute Réson.) alliés (7 unités max)</style>\nSi cette Capacité a dépensé 5 [BulletHole], regagne 5 PSM\n[EndSkill] Gagne 1 [BulletHole]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "(Réutilise cette Pièce ([BulletHole] dépensées - 1) fois (4 fois max)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2021121,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vide",
+          "abName": "L’Homme Évidé",
+          "desc": "[CantIdentify]\nCible aléatoirement\n+1 de Puissance de Duel tous les 4 (Intensité de [Breath] + Compte de [Charge]) sur soi (5 max)\n\n[BeforeAttack] Gagne +3 de Compte de [Breath] et +5 de Compte de [Charge]\n[BeforeAttack] Consomme jusqu’à 15 de Compte de [Charge] en excès au-dessus de 10 sur soi pour infliger +(Compte de [Charge] consommé * 2)% de dégâts\n[BeforeAttack] À [BulletHole] max, dépense toutes les [BulletHole] pour appliquer les effets suivants à tous les alliés au prochain tour :\n- 1 [AttackUp] \n- 1 [AttackDmgUp] (une fois par tour)\n- 1 [CriticalDamageUp] (une fois par tour)\n[BeforeAttack] -3 de Puissance de Base par Pièce Fissurée (-9 max)\n[EndSkill] Gagne 1 [BulletHole] et 2 [BlackWingHole]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Vide",
+          "abName": "L’Homme Évidé",
+          "desc": "[CantIdentify]\nCible aléatoirement\n+1 de Puissance de Duel tous les 4 (Intensité de [Breath] + Compte de [Charge]) sur soi (<style=\"highlight\">7</style> max)\n\n[BeforeAttack] Gagne +3 de Compte de [Breath] et +5 de Compte de [Charge]\n[BeforeAttack] Consomme jusqu’à 15 de Compte de [Charge] en excès au-dessus de 10 sur soi pour infliger +(Compte de [Charge] consommé * <style=\"highlight\">3</style>)% de dégâts\n[BeforeAttack] À [BulletHole] max, dépense toutes les [BulletHole] pour appliquer les effets suivants à tous les alliés au prochain tour :\n- 1 [AttackUp] \n- 1 [AttackDmgUp] (une fois par tour)\n- 1 [CriticalDamageUp] (une fois par tour)\n[BeforeAttack] -3 de Puissance de Base par Pièce Fissurée (-9 max)\n[EndSkill] Gagne 1 [BulletHole] et 2 [BlackWingHole]\n<style=\"highlight\">[EndSkill] Applique 5 d’Intensité de [Breath] et +2 de Compte de [Breath] à (2 + plus haute Réson.) alliés aléatoires (7 unités max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Vide",
+          "abName": "L’Homme Évidé",
+          "desc": "[CantIdentify]\nCible aléatoirement\n+1 de Puissance de Duel tous les 4 (Intensité de [Breath] + Compte de [Charge]) sur soi (max <style=\"highlight\">10</style>)\n\n[BeforeAttack] Gagne +3 de Compte de [Breath] et +5 de Compte de [Charge]\n[BeforeAttack] Consomme jusqu’à 15 de Compte de [Charge] en excès au-dessus de 10 sur soi pour infliger +(Compte de [Charge] consommé * <style=\"highlight\">5</style>)% de dégâts\n[BeforeAttack] À [BulletHole] max, dépense toutes les [BulletHole] pour appliquer les effets suivants à tous les alliés au prochain tour :\n- 1 [AttackUp] \n- 1 [AttackDmgUp] (une fois par tour)\n- 1 [CriticalDamageUp] (une fois par tour)\n[BeforeAttack] -3 de Puissance de Base par Pièce Fissurée (-9 max)\n[EndSkill] Gagne 1 [BulletHole] et 2 [BlackWingHole]\n[EndSkill] Applique 5 d’Intensité de [Breath], +2 de Compte de [Breath], <style=\"highlight\">et 2 [BlackWingHole]</style> à (2 + plus haute Réson.) alliés aléatoires (7 unités max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -615,6 +615,28 @@
       "id": 2121011,
       "name": "Traitement de Registre de Tranfert",
       "desc": "À 3 de plus haute Réson. ou plus : En Touche en utilisant une Capacité, inflige 1 [Binding] au prochain tour à la cible principale (une fois par tour)\n\nÀ 3 d’Intensité de [Charge] ou plus, les Capacités de Base suivantes infligent +10% de dégâts :\n- Les Capacités de Base qui gagnent ou consomment du Compte de [Charge]\n- Les Capacités de Base qui infligent de l’Intensité ou du Compte de [Combustion] à l’ennemi"
+    },
+    {
+      "id": 2061011,
+      "name": "La Cité Où Personne Ne Peut Blesser Autrui",
+      "desc": "+5 de Compte de [Charge] max\n\nLa Capacité 3 (exclut les Capacités E.G.O.) qui consomme du Compte de [Charge] ou de la [Charge] Unique inflige +10% de dégâts\n\nFin du Tour : si cette unité n’a pas été touchée ce tour, regagne 4 PSM\n- Si cette unité a 2 Capacités Offensives de Base à Pièce Négative ou plus, perd 4 PSM à la place (cet effet ne peut pas réduire les PSM de cette unité en dessous de -40)"
+    },
+    {
+      "id": 2091011,
+      "name": "Stéréognosie Schismatique",
+      "desc": "Lorsque cette unité gagne de l’Intensité ou du Compte de [Breath], gagne +1 de Compte de [Breath] (2 fois par tour)\n\nSi cette unité est une [PersonalityBreath] ou une [PersonalityVibration], les Capacités de Base ayant 1 de Poids d’Atq de base ou qui sont des [WideAreaRampage] infligent +10% de dégâts\n\nÀ la Fin de l’Attaque, si la cible est Déséquilibrée ou vaincue, infligé aléatoirement 1/3 de l’Intensité de [Vibration] de la cible à d’autres ennemis aléatoires au prochain tour (arrondi au supérieur ; en Affrontement Ciblé, des Parties)\n- Cet effet ne se cumule pas avec les effets du Don E.G.O. “Synesthésie Tactile Miroir”"
+    },
+    {
+      "id": 2021111,
+      "name": "Le Trou de Vidange",
+      "desc": "Si cette unité a 5 [BulletHole], ne consomme pas de Ressource E.G.O. en utilisant les Capacités de l’E.G.O. “Vide” (Éveil et Érosion)\n\nDébut du Tour : gagne 1 [BulletHole] et 1 [BlackWingHole]\n\nLorsqu’un allié vainc un ennemi, ledit allié regagne 5 PSM et gagne 1 [Enhancement] au prochain tour (une fois par tour)\n\n+5 de plafond max de Compte de [Charge]\n\nSi cette unité gagne du Compte de [Charge] par-delà son Plafond max de Compte de [Charge], cette unité gagne aléatoirement de l’Intensité ou du Compte de [Breath] égal au surplus de Compte de [Charge] gagné (6 de Compte de [Charge] converti par tour max)",
+      "flavor": "Ce n’est pas la pénétration qui creuse un vide ; c’est la vacuité.\nLe vide désire être rempli, mais à la place, les choses ne font que jaillir de son sein."
+    },
+    {
+      "id": 2051011,
+      "name": "L’Hémorragie interne",
+      "desc": "[AlwaysUseEGOPassive]\nSi cette unité a 5 [BulletHole], ne consomme pas de Ressources E.G.O. en utilisant les Capacités de l’E.G.O. “Vide” (Éveil et Érosion)\n\nDébut du Tour : gagne 1 [BulletHole]\n\n[WhenUseEGOPassive]\nDébut du Tour : gagne 1 [BlackWingHole]\n\nRegagne 5 PSM chaque fois que cette unité consomme ou perd 3 [Bullet] cumulées et gagne 1 [ResultEnhancement] au prochain tour (inclut les [Bullet] Uniques ; compte jusqu’à 9 [Bullet] par tour)",
+      "flavor": "Le regard d’un autre se cloue en moi, enfonçant un vide d’où jaillit la multitude.\nLa décharge est ensuite forgée en une balle qui poinçonne un vide en vous."
     }
   ]
 }

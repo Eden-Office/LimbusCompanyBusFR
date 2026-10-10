@@ -1,0 +1,2161 @@
+{
+  "dataList": [
+    {
+      "id": 148501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vous avez péché…",
+          "desc": "[WhenUse]\n- <color=#ff6000><mark=#ff000040><b><u>+1 de Puissance Finale par Bougie du Châtiment sur le terrain</u></b></mark></color> (4 max)\n- À 10 de Compte de [ChargeNoir] ou plus, +1 de Puissance de Duel\n[WhenUse] Gagne +3 de Compte de [ChargeNoir]\n[DefeatDuel] Les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Expiez vos pechiés.",
+          "desc": "[WhenUse]\n- <color=#ff6000><mark=#ff000040><b><u>+2 de Puissance Finale par Bougie du Châtiment sur le terrain</u></b></mark></color> (8 max)\n- À 15 de Compte de [ChargeNoir] ou plus, consomme 5 de Compte de [ChargeNoir] pour gagner +2 de Puissance Finale\n[WhenUse] Gagne +5 de Compte de [ChargeNoir]\n[DefeatDuel] Les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Inflige 1 [Binding]</u></b></mark></color> au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Condamnation",
+          "desc": "Peut Affronter en Duel cette Capacité qu’importe la Vitesse\n[BeforeAttack] <color=#ff6000><mark=#ff000040><b><u>Gagne +(# de Bougie du Châtiment sur le terrain) de Poids d’Atq (2 max)</u></b></mark></color>\n[WhenUse]\n- Si la cible principale <color=#ff6000><mark=#ff000040><b><u>a 1 de Vitesse</u></b></mark></color>, inflige +50% de dégâts\n- <color=#ff6000><mark=#ff000040><b><u>+2 de Puissance Finale par Bougie du Châtiment sur le terrain (8 max)</u></b></mark></color>\n- À 15 de Compte de [ChargeNoir] ou plus, consomme 10 de Compte de [ChargeNoir] pour gagner +1 de Puissance de Pièce\n[DefeatDuel] Gagne 3 [Paralysis], inflige -50% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking] et +1 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Sinking] et +2 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Inflige 2 [Binding]</u></b></mark></color> au prochain tour\n- <color=#ff6000><mark=#ff000040><b><u>Inflige 4 [Binding]</u></b></mark></color> à la place aux cibles principales",
+                  "summary": "Inflige 2 [Binding] au prochain tour ; 4 à la place à la cible principale"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 3 [Sinking] et +3 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vostre immoralité vos comprimera.",
+          "desc": "Peut Affronter en Duel cette Capacité qu’importe la Vitesse\n[BeforeAttack] Gagne +(# de Bougie du Châtiment sur le terrain) de Poids d’Atq (4 max)\n[WhenUse]\n- Si la cible principale <color=#ff6000><mark=#ff000040><b><u>a 1 de Vitesse</u></b></mark></color>, inflige +100% de dégâts\n- <color=#ff6000><mark=#ff000040><b><u>+2 de Puissance Finale par Bougie du Châtiment sur le terrain (8 max)</u></b></mark></color>\n- S’il n’y a pas de Bougie du Châtiment sur le terrain, -3 de Puissance de Duel\n- À 15 de Compte de [ChargeNoir] ou plus, consomme 10 de Compte de [ChargeNoir] pour gagner +1 de Puissance Finale et +1 de Puissance de Pièce\n[DefeatDuel] Gagne 4 [Paralysis], inflige -50% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "flavor": "“Les Mannequins chantent…”",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Inflige 1 [Binding]</u></b></mark></color> au prochain tour\n- <color=#ff6000><mark=#ff000040><b><u>Inflige 3 [Binding]</u></b></mark></color> à la place aux cibles principales",
+                  "summary": "Inflige 1 [Binding] au prochain tour ; 3 à la place à la cible principale"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +2 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Inflige 1 [Binding]</u></b></mark></color> au prochain tour\n- <color=#ff6000><mark=#ff000040><b><u>Inflige 3 [Binding]</u></b></mark></color> à la place aux cibles principales",
+                  "summary": "Inflige 1 [Binding] au prochain tour ; 3 à la place à la cible principale"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Sinking] et +2 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [BlackStigmata] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Châtiment Divin",
+          "desc": "Peut Affronter en Duel cette Capacité qu’importe la Vitesse\n[WhenUse]\n- Si la cible principale a <color=#ff6000><mark=#ff000040><b><u>1 de Vitesse</u></b></mark></color>, inflige +100% de dégâts\n- <color=#ff6000><mark=#ff000040><b><u>+2 de Puissance Finale par Bougie du Châtiment sur le terrain (8 max)</u></b></mark></color>\n- S’il n’y a pas de Bougie du Châtiment sur le terrain, -5 de Puissance de Duel\n- Si cette unité a du Compte de [ChargeNoir], consomme tout le Compte de [ChargeNoir] sur soi pour gagner +2 de Puissance de Pièce\n[DefeatDuel] Gagne 4 [Paralysis], inflige -50% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Clou de Pénitence",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Si le Gardien est à 50% de PV ou moins</u></b></mark></color>, convertit la <color=#ff6000><mark=#ff000040><b><u>première Pièce de cette Capacité en une [SuperCoin]</u></b></mark></color>\nSi la cible a <color=#ff6000><mark=#ff000040><b><u>9 [ConfessionSecondPhase], +2 de Puissance Finale</u></b></mark></color>\n[WhenUse] Gagne +4 de Compte de [ChargeNoir]\n[WhenUse] Gagne 1 [Breath] et +1 de Compte de [Breath]\n[DefeatDuel] Les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [MarkingNail]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [MarkingNail]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Clou de la Punition",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Si le Gardien est à 50% de PV ou moins</u></b></mark></color>, convertit la <color=#ff6000><mark=#ff000040><b><u>première Pièce de cette Capacité en une [SuperCoin]</u></b></mark></color>\nSi la cible a <color=#ff6000><mark=#ff000040><b><u>6/9 [ConfessionSecondPhase] ou plus, +2/+3 de Puissance Finale</u></b></mark></color>\n[WhenUse] Gagne +4 de Compte de [ChargeNoir]\n[WhenUse] Gagne 2 [Breath] et +2 de Compte de [Breath]\n[DefeatDuel] Les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [CeremonialNail]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [CeremonialNail]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +2 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Jugement",
+          "desc": "Peut Affronter en Duel cette Capacité qu’importe la Vitesse\nSi la cible principale a <color=#ff6000><mark=#ff000040><b><u>3/6/9 [ConfessionSecondPhase] ou plus, +2/+3/+5 de Puissance Finale</u></b></mark></color>\n[BeforeAttack] <color=#ff6000><mark=#ff000040><b><u>Si la cible principale a 5/9 [ConfessionSecondPhase] ou plus, gagne +1/+3 de Poids d’Atq</u></b></mark></color>\n[WhenUse] Si cette unité a du Compte de [ChargeNoir], consomme tout le Compte de [ChargeNoir] sur soi pour gagner +2 de Puissance de Pièce\n[DefeatDuel] Gagne 3 [Paralysis], inflige -50% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Cette Pièce <color=#ff6000><mark=#ff000040><b><u>ne touche que la cible principale</u></b></mark></color>"
+                },
+                {
+                  "desc": "Inflige +(Pourcentage de PV manquants sur soi)% de dégâts (100% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Inflige 4 [ExecutionNailSecondPhase]</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Expiez vos pechiés devant Dieu.",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Lorsque le Pécheur ayant [GoldenFabricWarderSecondPhase]</u></b></mark></color> attaque l’Emplacement équipé avec cette Capacité comme cible principale lors de la Phase de Chaînage, ladite Capacité utilisée par le Pécheur inflige +100% de dégâts (pour les Capacités E.G.O., +200% de dégâts)\n[EndBattle] À moins de 100 Instances de [EncompassingVoiceSecondPhase], gagne jusqu’à 100 Instances\n- Le Gardien perd des PSM égaux à l’Instance gagnée (45 max)",
+          "coinlist": [
+            {
+              "coindescs": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Repentez-vous.",
+          "desc": "Si la cible a <color=#ff6000><mark=#ff000040><b><u>9 [ConfessionSecondPhase], +2 de Puissance Finale</u></b></mark></color>\n[WhenUse] Consomme jusqu’à 15 [SpreadingVoiceSecondPhase]\n- +1 de Puissance Finale, inflige +15% de dégâts\n[WhenUse] Gagne +4 de Compte de [ChargeNoir]\n[DefeatDuel] Les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [MarkingNail]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [MarkingNail]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 3 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [MarkingNail]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148606,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Recevez vostre punition.",
+          "desc": "Si la cible a <color=#ff6000><mark=#ff000040><b><u>6/9 [ConfessionSecondPhase] ou plus, +2/+3 de Puissance Finale</u></b></mark></color>\n[WhenUse] Consomme jusqu’à 15 [SpreadingVoiceSecondPhase]\n- +2 de Puissance Finale, inflige +30% de dégâts\n[WhenUse] Gagne +4 de Compte de [ChargeNoir]\n[DefeatDuel] Les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [CeremonialNail]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +2 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [CeremonialNail]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +3 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [CeremonialNail]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148607,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Jugement… Sentence… Condamnation !",
+          "desc": "Peut Affronter en Duel cette Capacité qu’importe la Vitesse\nCette Capacité ne déclenche pas la Capacité Défensive de la cible\nNe peut pas être Déséquilibré avant d’utiliser cette Capacité\nSi la cible principale a <color=#ff6000><mark=#ff000040><b><u>3/6/9 [ConfessionSecondPhase] ou plus, +2/+3/+5 de Puissance Finale</u></b></mark></color>\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Si la cible principale a [GoldenFabricWarderSecondPhase] :</u></b></mark></color>\n<color=#ff6000><mark=#ff000040><b><u>- -5 de Puissance Finale, -5 de Puissance de Duel</u></b></mark></color>\n[WhenUse] Consomme jusqu’à 40 [SpreadingVoiceSecondPhase] pour :\n- Gagner +3 de Puissance Finale\n- Infliger +50% de dégâts\n[WhenUse] Inflige +(Instance de [SpreadingVoiceSecondPhase])% de dégâts ; à la Fin de l’Attaque, consomme toute [SpreadingVoiceSecondPhase] sur soi\n- <color=#ff6000><mark=#ff000040><b><u>En Duel Perdu, cet effet ne s’active pas</u></b></mark></color>\n[WhenUse] Si cette unité a du Compte de [ChargeNoir], consomme tout le Compte de [ChargeNoir] sur soi pour gagner +2 de Puissance de Pièce\n[DefeatDuel] Gagne 5 [Paralysis], inflige -75% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible\n[EndSkill]\n- Gagne 2 [Vulnerable] au prochain tour\n- Termine ce tour",
+          "coinlist": [
+            {
+              "coindescs": []
+            },
+            {
+              "coindescs": []
+            },
+            {
+              "coindescs": []
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Active les effets de [ConfessionSecondPhase] sur la cible, puis les consomme tous</u></b></mark></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "En <color=#ff6000><mark=#ff000040><b><u>Duel Perdu</u></b></mark></color>, cette Pièce <color=#ff6000><mark=#ff000040><b><u> ne touche que la cible principale</u></b></mark></color>\n<color=#ff6000><mark=#ff000040><b><u>- [DefeatDuelAttack] Inflige 9 [RestrainingNailSecondPhase]</u></b></mark></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] S’il s’agit de la cible principale, inflige 3 [BlackStigmata]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148608,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "La Mort S’abatte sur le Condamné",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>[CantChangeTarget]</u></b></mark></color>\n- <color=#ff6000><mark=#ff000040><b><u>Les Pécheurs ayant [GoldenHideWarderSecondPhase] peuvent Affronter en Duel cette Capacité</u></b></mark></color> qu’importe la Vitesse\nPriorise les Pécheurs ayant [RestrainingNailSecondPhase]\nNe déclenche pas la Capacité Défensive de la cible\nNe peut pas être Déséquilibré avant d’utiliser cette Capacité\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Si la cible a [GoldenHideWarderSecondPhase], -15 de Puissance de Duel</u></b></mark></color>\n[DefeatDuel] Gagne 5 [Vulnerable] au prochain tour\n[EndBattle] Consomme toute [SpreadingVoiceSecondPhase] sur soi",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Inflige des dégâts fixes égaux à 200% des PV max de la cible</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148609,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vous avez péché…",
+          "desc": "[WhenUse] Gagne +2 de Compte de [ChargeNoir]\n[WhenUse] Gagne 1 [Breath] et +2 de Compte de [Breath]\n[DefeatDuel] Les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148610,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Expiez vos pechiés.",
+          "desc": "[WhenUse] Gagne +2 de Compte de [ChargeNoir]\n[WhenUse] Gagne 2 [Breath] et +1 de Compte de [Breath]\n[DefeatDuel] Les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "*Soupir* Vous pouvez juste… vous laisser faire rembobiner ?",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Si la cible a 5 [ConfessionThirdPhase] ou plus, convertit la première Pièce de cette Capacité en [SuperCoin]</u></b></mark></color>\nSi la cible a <color=#ff6000><mark=#ff000040><b><u>9 [ConfessionThirdPhase], +2 de Puissance Finale</u></b></mark></color>\n[WhenUse] Gagne +3 de Compte de [ChargeNoir]\n[WhenUse] Gagne 2 [Breath] et +1 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Allez, laissez ce pauvre gars dépointer à l’heure pour une fois.",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Si la cible a 5 [ConfessionThirdPhase] ou plus, convertit la première Pièce de cette Capacité en [SuperCoin]</u></b></mark></color>\nSi la cible a <color=#ff6000><mark=#ff000040><b><u>6/9 [ConfessionThirdPhase] ou plus, +2/+3 de Puissance Finale</u></b></mark></color>\n[WhenUse] Gagne +5 de Compte de [ChargeNoir]\n[WhenUse] Gagne 2 [Breath] et +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [GoldenNail]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [GoldenNail]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +2 de Compte de [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "“Jugement.”",
+          "desc": "Peut Affronter en Duel cette Capacité qu’importe la Vitesse\nSi la cible principale a <color=#ff6000><mark=#ff000040><b><u>3/6/9 [ConfessionThirdPhase] ou plus, +2/+3/+5 de Puissance Finale</u></b></mark></color>\n[BeforeAttack] <color=#ff6000><mark=#ff000040><b><u>Si la cible principale a 5/9 [ConfessionThirdPhase] ou plus, gagne +1/+3 de Poids d’Atq</u></b></mark></color>\n[WhenUse] Si cette unité a du Compte de [ChargeNoir], consomme tout le Compte de [ChargeNoir] sur soi pour gagner +2 de Puissance de Pièce\n[DefeatDuel] Gagne 3 [Paralysis], inflige -75% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Cette Pièce <color=#ff6000><mark=#ff000040><b><u>ne touche que la cible principale</u></b></mark></color>"
+                },
+                {
+                  "desc": "Inflige +(Pourcentage de PV manquants sur soi)% de dégâts (100% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Inflige 4 [ExecutionNailThirdPhase]</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "“Expiez vos pechiés devant Dieu”… je crois ?",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Lorsque le Pécheur ayant [GoldenFabricWarderThirdPhase]</u></b></mark></color> attaque l’Emplacement équipé avec cette Capacité comme cible principale lors de la Phase de Chaînage, ladite Capacité utilisée par le Pécheur inflige +100% de dégâts (pour les Capacités E.G.O., +200% de dégâts)\n[EndBattle] À moins de 100 Instances de [EncompassingVoiceThirdPhase], gagne jusqu’à 100 Instances\n- Le Chapelain perd des PSM égaux à l’Instance gagnée (45 max)",
+          "coinlist": [
+            {
+              "coindescs": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "“Repentez-vous.”",
+          "desc": "Si la cible a <color=#ff6000><mark=#ff000040><b><u>9 [ConfessionThirdPhase], +2 de Puissance Finale</u></b></mark></color>\n[WhenUse] Consomme jusqu’à 15 [SpreadingVoiceThirdPhase]\n- +1 de Puissance Finale, inflige +15% de dégâts\n[WhenUse] Gagne +5 de Compte de [ChargeNoir]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [GoldenNail]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [GoldenNail]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [GoldenNail]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148706,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "“Recevez vostre punition.”",
+          "desc": "Si la cible a <color=#ff6000><mark=#ff000040><b><u>6/9 [ConfessionThirdPhase] ou plus, +2/+3 de Puissance Finale</u></b></mark></color>\n[WhenUse] Consomme jusqu’à 15 [SpreadingVoiceThirdPhase]\n- +2 de Puissance Finale, inflige +30% de dégâts\n[WhenUse] Gagne +6 de Compte de [ChargeNoir]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [GoldenNail]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +2 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [GoldenNail]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +3 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [GoldenNail]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148707,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Avez-vous sérieusement l’intention de détruire le Système Sisyphe ?",
+          "desc": "Peut Affronter en Duel cette Capacité qu’importe la Vitesse\nCette Capacité ne déclenche pas la Capacité Défensive de la cible\nNe peut pas être Déséquilibré avant d’utiliser cette Capacité\nInflige +5% de dégâts par [ConfessionThirdPhase] sur la cible (contre chaque cible séparément)\n<color=#ff6000><mark=#ff000040><b><u>Si la cible principale a 3/6/9 [ConfessionThirdPhase] ou plus, +2/+3/+5 de Puissance Finale</u></b></mark></color>\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Si la cible principale a [GoldenFabricWarderThirdPhase] :\n- -5 de Puissance Finale\n- -5 de Puissance de Duel</u></b></mark></color>\n- Toutes les cibles de cette Capacité <color=#ff6000><mark=#ff000040><b><u>gagnent du Bouclier égal à 50% de leurs PV max, respectivement</u></b></mark></color> ; le Bouclier gagné avec cet effet est retiré du total de Bouclier du Pécheur à la Fin de l’Attaque\n[WhenUse] Consomme jusqu’à 40 [SpreadingVoiceThirdPhase] pour :\n- Gagner +3 de Puissance Finale\n- Infliger +50% de dégâts\n[WhenUse] Inflige +(Instance de [SpreadingVoiceThirdPhase])% de dégâts ; à la Fin de l’Attaque, consomme toute [SpreadingVoiceThirdPhase] sur soi\n- <color=#ff6000><mark=#ff000040><b><u>En Duel Perdu, cet effet ne s’active pas</u></b></mark></color>\n[WhenUse] Si cette unité a du Compte de [ChargeNoir], consomme tout le Compte de [ChargeNoir] sur soi pour gagner +2 de Puissance de Pièce\n[DefeatDuel] Gagne 5 [Paralysis], inflige -90% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible\n[EndSkill]\n- Gagne 2 [Vulnerable] au prochain tour\n- Termine ce tour",
+          "coinlist": [
+            {
+              "coindescs": []
+            },
+            {
+              "coindescs": []
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Déclenche une [Switch_Vibration] en [VibrationFocusing]</u></b></mark></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Active les effets de [ConfessionThirdPhase] sur la cible, puis les consomme tous</u></b></mark></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "En <color=#ff6000><mark=#ff000040><b><u>Duel Perdu</u></b></mark></color>, cette Pièce <color=#ff6000><mark=#ff000040><b><u>ne touche que la cible principale</u></b></mark></color>\n<color=#ff6000><mark=#ff000040><b><u>- [DefeatDuelAttack] Inflige 9 [RestrainingNailThirdPhase]</u></b></mark></color>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Déclenche un [VibrationExplosion] 2 fois ; puis, réduit le Compte de [Vibration] de la cible de 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148708,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Bannissement du Système",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>[CantChangeTarget]</u></b></mark></color>\n- <color=#ff6000><mark=#ff000040><b><u>Les Pécheurs ayant [GoldenHideWarderThirdPhase] peuvent Affronter en Duel cette Capacité</u></b></mark></color> qu’importe la Vitesse\nPriorise les Pécheurs ayant [RestrainingNailThirdPhase]\nNe déclenche pas la Capacité Défensive de la cible\nNe peut pas être Déséquilibré avant d’utiliser cette Capacité\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Si la cible a [GoldenHideWarderThirdPhase], -15 de Puissance de Duel</u></b></mark></color>\n[DefeatDuel] Gagne 5 [Vulnerable] au prochain tour\n[EndBattle] Consomme toute [SpreadingVoiceThirdPhase] sur soi",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[ExtractCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Inflige des dégâts fixes égaux à 200% des PV max de la cible</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148709,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Shift + Suppr",
+          "desc": "Ne déclenche pas la Capacité Défensive de la cible\nPriorise les Pécheurs autres que Meursault\n<color=#ff6000><mark=#ff000040><b><u>Dans un Duel contre Meursault</u></b></mark></color>, -20 de Puissance de Duel\nNe peut pas être Déséquilibré avant d’utiliser cette Capacité\n[DefeatDuel] Gagne 10 [Vulnerable] ce tour et au prochain tour\n[EndSkill] Si le Chapelain a perdu le Duel, <color=#ff6000><mark=#ff000040><b><u>le Chapelain perd 50% de son Bouclier actuel</u></b></mark></color> (0 min)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[ExtractCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Inflige des dégâts fixes égaux à 50% des PV actuels de la cible</u></b></mark></color> (0 min)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[ExtractCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Inflige des dégâts fixes égaux à 50% des PV actuels de la cible</u></b></mark></color> (0 min)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[ExtractCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Inflige des dégâts fixes égaux à 200% des PV actuels de la cible</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Préparation des Clous Vestimentaires",
+          "desc": "[WhenUse] Gagne +3 de Compte d’[ChargeKhaki]\n[WhenUse] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Binding] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Patrons et Modèles",
+          "desc": "[WhenUse] Gagne +3 de Compte d’[ChargeKhaki]\n[WhenUse] Gagne +2 de Compte de [Breath]\n[DefeatDuel] Inflige -80% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [AttackDmgDown] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Perspective Fixe",
+          "desc": "[WhenUse] Consomme tout le Compte d’[ChargeKhaki] sur soi pour infliger +25% de dégâts tous les 3 de Compte d’[ChargeKhaki] consommés (50% max)\n[WhenUse] Gagne +3 de Compte d’[ChargeKhaki]\n[WhenUse] Gagne +2 de Compte de [Breath]\n[DefeatDuel] Inflige -80% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [PenetrateResistDown] ce tour et au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige des dégâts Perçants égaux à (<color=#ff6000><mark color=#ff000040><b><u>types d’effets négatifs sur la cible</color></mark></b></u> * 15)% des dégâts finaux de cette Pièce (45% max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Selon la Perspective",
+          "desc": "[WhenUse] +1 de Puissance Finale tous les 2 de Compte d’[ChargeKhaki] sur soi (5 max)\n[OnSucceedEvade] <color=#ff6000><mark color=#ff000040><b><u>Regagne 2% de PV</color></mark></b></u>",
+          "coinlist": [
+            {
+              "coindescs": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152205,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Concentration",
+          "desc": "[CantIdentify]\n[CantDuel] [CantChangeTarget]\nPriorise les alliés\nCette Capacité ne déclenche pas de Capacité Défensive",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible est un allié,"
+                },
+                {
+                  "desc": "- Tue la cible"
+                },
+                {
+                  "desc": "- <color=#ff6000><mark color=#ff000040><b><u>Gagne 1 [JeanneDesign]</color></mark></b></u>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Premier Pas",
+          "desc": "[BeforeUse] En Affrontant en Duel les Capacités de Meursault qui ne sont pas la <color=#ff6000><mark color=#ff000040><b><u>Capacité 1</color></mark></b></u>, remplace cette Capacité par “Il faut que tu respectes le motif.”\n[WinDuel] Termine cette Capacité et utilise “Ces instants où nous parlions ensemble au café” sur la cible",
+          "coinlist": [
+            {
+              "coindescs": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Deuxième Pas",
+          "desc": "[BeforeUse] En Affrontant en Duel les Capacités de Meursault qui ne sont pas la <color=#ff6000><mark color=#ff000040><b><u>Capacité 2</color></mark></b></u>, remplace cette Capacité par “Il faut que tu respectes le motif.”\n[WinDuel] Termine cette Capacité et utilise “Ces instants où nous parlions ensemble au café” sur la cible",
+          "coinlist": [
+            {
+              "coindescs": []
+            },
+            {
+              "coindescs": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Troisième Mouvement",
+          "desc": "[BeforeUse] En Affrontant en Duel les Capacités de Meursault qui ne sont pas la <color=#ff6000><mark color=#ff000040><b><u>Capacité 3 ou une Capacité E.G.O.</color></mark></b></u>, remplace cette Capacité par “Il faut que tu respectes le motif.”\n[WinDuel] Termine cette Capacité et utilise “Ces instants où nous parlions ensemble au café” sur la cible",
+          "coinlist": [
+            {
+              "coindescs": []
+            },
+            {
+              "coindescs": []
+            },
+            {
+              "coindescs": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Il faut que tu respectes le motif.",
+          "desc": "Cette Capacité touche toujours Critiquement\n[StartDuel] La cible a <color=#ff6000><mark color=#ff000040><b><u>100% de chances de faire Face</color></mark></b></u>\n- Les Pièces Négatives de la cible ont 100% de chances de faire Pile",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 3 [JeannePathos]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 3 [JeannePathos]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ces instants où nous parlions ensemble au café",
+          "desc": "[CantDuel]\nCette Capacité a les propriétés suivantes :\n- Ne déclenche pas les Capacités Défensives\n- Son attaque ne touche pas\n[WhenUse] Cette unité et la cible gagnent 5 [JeannePathos] et 5 [JeanneLogos]",
+          "coinlist": [
+            {
+              "coindescs": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152306,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Nous avions nos légères querelles, certes.",
+          "desc": "[OnSucceedEvade] Cette unité et la cible gagnent 4 [JeannePathos] et 4 [JeanneLogos]",
+          "coinlist": [
+            {
+              "coindescs": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Droits : Reconstruction",
+          "desc": "[CantChangeTarget]\nCette Capacité ne déclenche pas la Capacité Défensive de la cible\nCible principalement Meursault\n[StartDuel] Cette unité a 100% de chances de faire Pile",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] La cible meurt"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Droits : Bannissement",
+          "desc": "<color=#ff6000><mark color=#ff000040><b><u>[EndSkill] Inflige 1 [JeanneCheat] au prochain tour</color></mark></b></u>",
+          "flavor": "Meur. Si tu le souhaites, tu n’as plus à t’attacher avec ces chaînes. Tu as le droit de juger par toi-même. Tu devrais être autorisé à parler. Plus d’inquiétude quant au regard de quiconque, plus besoin d’être alourdi par les pensées d’autrui… <i>Sois</i> toi-même.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Si cette Pièce n'est pas Fissurée, inflige +20% de dégâts"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [Vulnerable]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Si cette Pièce n'est pas Fissurée, inflige +20% de dégâts"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [Vulnerable] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Au moins, sur cette scène, tout est établi et fixé.",
+          "desc": "[BeforeUse] En Affrontant en Duel des cibles <color=#ff6000><mark color=#ff000040><b><u>qui ne sont pas Meursault, ou si cette Capacité est utilisée en Attaque à Sens Unique,</color></mark></b></u> remplace cette Capacité par “Tu es sorti de ton rôle.”\n[DefeatDuel] Meursault gagne 10 [JeanneLogos]",
+          "coinlist": [
+            {
+              "coindescs": []
+            },
+            {
+              "coindescs": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tu es sorti de ton rôle.",
+          "desc": "Cette Capacité touche toujours Critiquement\n[StartDuel] La cible a <color=#ff6000><mark color=#ff000040><b><u>100% de chances de faire Face</color></mark></b></u>\n- Les Pièces Négatives de la cible ont 100% de chances de faire Pile\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>Regagne 50% de PV</color></mark></b></u>",
+          "flavor": "Meur, tu dois exécuter correctement cette astuce.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152405,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "La conception allait jusqu’à ce point.",
+          "desc": "[WhenUse] +1 de Puissance Finale tous les 2 de Compte de [Charge] Unique sur soi (5 max)",
+          "coinlist": [
+            {
+              "coindescs": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152406,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Droits : Regard",
+          "desc": "[WhenUse] +1 de Puissance Finale tous les 4 (Compte + Intensité) de [Charge] Unique sur soi (3 max)\n[WhenUse] Inflige +10% de dégâts tous les 2 types d’effets négatifs sur toutes les cibles (50% max ; les effets qui se recoupent entre les unités sont comptés séparément)\n<color=#ff6000><mark color=#ff000040><b><u>[WinDuel] Inflige 1 [JeanneCheat] au prochain tour</color></mark></b></u>\n[DefeatDuel] Inflige -80% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "flavor": "Tu devais comprendre la crainte que ressentait ta mère mieux que personne. Mais, Meur… simplement partager le même espace avec quelqu’un signifie devenir conscient de son regard. Tant que vous étiez ensemble, tu as dû supporter le regard de ta mère. Tu ne pouvais difficilement t’empêcher de la regarder en retour.\n\nEst-ce pour cela que tu te sens coupable ?\nJ’ai l’impression que tu essaies encore de changer ce qui est arrivé à ta mère en quelque chose qui était de ta faute.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Si la Pièce n’est pas Fissurée, inflige +50% de dégâts"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [AttackDmgDown] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Si la Pièce n’est pas Fissurée, inflige +50% de dégâts"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Binding] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Schéma de la Grande Surface",
+          "desc": "[WhenUse] Subit -90% de dégâts de Capacité (une fois par tour)",
+          "flavor": "Ce n’est pas un schéma de la grande surface.",
+          "coinlist": [
+            {
+              "coindescs": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Modèle : “Désir.”",
+          "desc": "[WhenUse] En dessous du Compte max de [ChargeRouge], consomme 5% de PV pour gagner 10 de Compte de [ChargeRouge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Modèle : “Revêtir.”",
+          "desc": "[WhenUse] En dessous du Compte max de [ChargeRouge], consomme 5% de PV pour gagner 10 de Compte de [ChargeRouge]\n[WhenUse] Consomme 5 de Compte de [ChargeRouge] pour gagner +2 de Puissance Finale",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Modèle : “Consommer.”",
+          "desc": "[WhenUse] Inflige +3% de dégâts tous les 2% de PV manquants sur soi (60% max)\n[WhenUse] Consomme tout le Compte de [ChargeRouge] sur soi pour gagner +1 de Puissance Finale tous les 2 de Compte de [ChargeRouge] consommés (3 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [ScarletTakeDamageUp]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts de Luxure égaux à (PV manquants sur soi)% des dégâts finaux de cette Pièce"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Modèle : “Racler et rassembler.”",
+          "desc": "[WhenUse] Regagne 25% de PV\n- À 2 [ChargeRouge] ou plus, regagne 50% de PV à la place",
+          "coinlist": [
+            {
+              "coindescs": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Confection : “Conserver.”",
+          "desc": "[WhenUse] Gagne +5 de Compte de [ChargeNoir]\n- Si la cible a [Vibration], gagne +5 de Compte de [ChargeNoir] supplémentaire",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Confection : “Témoigner en silence.”",
+          "desc": "[WhenUse] Gagne 5 de Compte de [ChargeNoir]\n- Si la cible a [Vibration], gagne +5 de Compte de [ChargeNoir] supplémentaire\n[WhenUse] +1 de Puissance Finale tous les 2 de Compte de [ChargeNoir] sur soi (2 max)\n[WhenUse] À 10 de Compte de [ChargeNoir] ou plus, inflige 5 d’Intensité de [Vibration] en Touche de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Confection : “Soyons tous épinglés.”",
+          "desc": "Inflige +4% de dégâts par [ChargeNoir] sur soi (20% max)\n[WhenUse] Consomme tout le Compte de [ChargeNoir] sur soi pour gagner +1 de Puissance Finale tous les 2 de Compte de [ChargeNoir] consommés (3 max)\n- Si cette unité a consommé 10 de Compte de [ChargeNoir] ou plus, inflige 5 d’Intensité de [Vibration] en Touche de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts de Paresse égaux à (Intensité de [Vibration] sur la cible)% des dégâts finaux de cette Pièce"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Confection : “Ariva le clou.”",
+          "desc": "[StartBattle] Ce tour et au prochain tour, gagne du Bouclier égal à 25% des PV max de cette unité (1 min)\n- À 2 [ChargeNoir] ou plus, gagne du Bouclier égal à 40% des PV max de cette unité à la place",
+          "coinlist": [
+            {
+              "coindescs": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 151701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Je m’expulse",
+          "desc": "[WhenUse] Si la cible principale a 6 [Laceration] ou plus, +1 de Puissance de Pièce\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] Si la cible principale n’a pas de [Laceration]</u></b></mark></color>, convertit toutes les Pièces de cette Capacité en [SuperCoin]s\n[DefeatDuel] Inflige -80% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "flavor": "Excréter.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 151702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Je me crache",
+          "desc": "[WhenUse] Si la cible a 6 [Laceration] ou plus, +2 de Puissance de Base\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Gagne +1 de Poids d’Atq toutes les 2 d’Intensité de [ChargeRouge] sur soi</u></b></mark></color> (2 max)",
+          "flavor": "Vomir.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [BoneNail]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 151703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Je m’abjecte",
+          "desc": "[WhenUse] +1 de Puissance de Pièce tous les 4 [Laceration] sur la cible principale (2 max)\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Gagne +1 de Poids d’Atq toutes les 2 d’Intensité de [ChargeRouge] sur soi</u></b></mark></color> (2 max)",
+          "flavor": "Et le jeter au monde.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [BoneNail]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a 3 [BoneNail] ou plus, inflige 2 [Vulnerable] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 151704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "La Pulsion",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\nCible le Personnel de Direction Le Rouge\n\n[WhenUse] À 10 de Compte de [ChargeRouge] ou plus, consomme jusqu’à 10 de Compte de [ChargeRouge] et gagne +2 de Poids d’Atq",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Applique +10 de Compte de [ChargeRouge]"
+                },
+                {
+                  "desc": "[EndCoin] Réduit les PV actuels de la cible de 50% ; <color=#ff6000><mark=#ff000040><b><u>puis, applique 5 [AttackUp]</u></b></mark></color>"
+                },
+                {
+                  "desc": "[EndCoin] <color=#ff6000><mark=#ff000040><b><u>Applique 3 [BuffetRouge]</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 151705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Le Manque-à-être",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Remet la cible de Déséquilibre"
+                },
+                {
+                  "desc": "[EndCoin] Rend autant de PV à la cible que de Puissance Finale sur cette Capacité"
+                },
+                {
+                  "desc": "[EndCoin] Applique 1 [BuffetRouge]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 151706,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "La Jouissance",
+          "desc": "Peut Affronter en Duel cette Capacité qu’importe la Vitesse\n\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Regagne 15 PSM et gagne +2 de Puissance de Duel par Personnel de Direction Le Rouge</u></b></mark></color> sur le terrain\n[WhenUse] Si <color=#ff6000><mark=#ff000040><b><u>tout le Personnel de Direction Le Rouge est vaincu</u></b></mark></color>, -3 de Puissance de Duel\n[DefeatDuel] \n- <color=#ff6000><mark=#ff000040><b><u>Gagne 1 [BuffetDream]</u></b></mark></color>\n- Inflige -80% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible\n[EndSkill] Convertit le [BuffetScruple] sur la cible principale en [BuffetResolve]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Active le [Laceration] sur la cible 3 fois. La cible perd 3 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 151707,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "La Demande",
+          "desc": "[CantDuel]\n[CantChangeTarget]\nCette Capacité ne déclenche pas de Capacité Défensive\n[WhenUse] Retire tout [BoneNail] sur la cible principale\n[WhenUse] +1 de Puissance de Pièce tous les 4 [Laceration] sur la cible principale (2 max)\n[EndSkill] Retire [BuffetScruple] de la cible principale",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Active le [Laceration] de la cible une fois. La cible perd 1 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 151708,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Le Nom-du-Père",
+          "desc": "[StartBattle] <color=#ff6000><mark=#ff000040><b><u>Si cette unité a [BuffetRouge]</u></b></mark></color>, convertit toutes les Pièces de cette Capacité en [SuperCoin]s\n[WhenUse] +1 de Puissance de Pièce tous les 4 [Laceration] sur la cible principale (2 max)\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Si la cible principale a [BuffetScruple], perd 2 de Poids d’Atq</u></b></mark></color>\n[DefeatDuel] Inflige -80% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible\n[EndSkill] Retire [BuffetScruple] de la cible principale",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [BoneNail]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [BoneNail]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [BoneNail]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [BoneNail]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 151709,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "La Castration",
+          "desc": "Peut Affronter en Duel cette Capacité qu’importe la Vitesse\nNe peut pas être Déséquilibré avant d’utiliser cette Capacité\n\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Si cette unité a moins de 5 [BuffetDream], convertit toutes les Pièces sur cette Capacité en [SuperCoin]</u></b></mark></color>\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Si la cible principale a [BuffetScruple]</u></b></mark></color>, -3 de Puissance de Pièce\n[WhenUse] +1 de Puissance Finale tous les 4 [Laceration] sur la cible principale (3 max)\n[DefeatDuel] Inflige -95% de dégâts, les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible <color=#ff6000><mark=#ff000040><b><u>et gagne 1 [BuffetDream]</u></b></mark></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Active le [Laceration] sur la cible une fois. La cible perd 1 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Active le [Laceration] sur la cible 2 fois. La cible perd 2 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 151710,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Le Trait Unaire",
+          "desc": "[DuelCounter]\n[WhenUse] Si la cible a 6 [Laceration] ou plus, +1 de Puissance de Pièce\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Gagne +1 de Poids d’Atq toutes les 5 de somme totale de [BoneNail] sur tous les ennemis</u></b></mark></color> (3 max)\n[DefeatDuel] Inflige -80% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "<color=#ff6000><mark=#ff000040><b><u>Consomme [BoneNail] sur tous les ennemis</u></b></mark></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts de Luxure égaux à (Instance de [BoneNail] consommée * 5)% des dégâts finaux de cette Pièce"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration] tous les 4 [BoneNail] consommés (3 max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 151711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Dégagé",
+          "desc": "[WhenUse] +1 de Puissance Finale tous les 4 [Laceration] sur la cible (2 max)\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] Si la cible n’a pas de [Laceration]</u></b></mark></color>, convertit toutes les Pièces de cette Capacité en [SuperCoin]s\n[DefeatDuel] Inflige -80% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [BoneNail]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [BoneNail]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 151712,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Le Point de Capiton",
+          "desc": "[WhenUse] +1 de Puissance Finale tous les 4 [Laceration] sur la cible (3 max)\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] Si la cible n’a pas de [Laceration]</u></b></mark></color>, convertit toutes les Pièces de cette Capacité en [SuperCoin]s\n[DefeatDuel] Inflige -80% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [BoneNail]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [BoneNail]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [BoneNail]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [BoneNail]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 151713,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "La Jouissance",
+          "desc": "Peut Affronter en Duel cette Capacité qu’importe la Vitesse\n\n[WhenUse] Si <color=#ff6000><mark=#ff000040><b><u>la cible principale a [BuffetScruple]</u></b></mark></color>, perd 20 PSM et -3 de Puissance de Pièce\n[DefeatDuel] \n- <color=#ff6000><mark=#ff000040><b><u>Gagne 1 [BuffetDream]</u></b></mark></color>\n- Inflige -80% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible\n[EndSkill] Convertit [BuffetScruple] sur la cible principale en [BuffetResolve]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Active le [Laceration] sur la cible 3 fois. La cible perd 3 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 151714,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "La Métaphore Paternelle",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\nCette Capacité est utilisée à la toute fin du tour\n[EndSkill] Regagne 25% de PV",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Réanime “Chair Arrachée du Dieu Cramoisi” en “Personnel de Direction Le Rouge” au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 151801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Emmenez-nous…",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Perd 1 [BuffetRevival]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Active le [Laceration] de la cible une fois. La cible perd 1 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 151802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Oh… Notre Voix Cramoisie…",
+          "desc": "Inflige +1 de Compte de [Laceration] à l’attaquant lorsque touché tant que cette unité a encore du Bouclier\n[StartBattle] Gagne du Bouclier égal à 25% des PV max de cette unité\n[EndBattle] Si cette unité a du Bouclier, perd 1 [BuffetRevival]",
+          "coinlist": [
+            {
+              "coindescs": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Avec des faucilles miennes, je réponds à votre appel !",
+          "desc": "[WhenUse] Gagne +6 de Compte de [ChargeRouge]\n[WhenUse] À 10 de Compte de [ChargeRouge] ou plus, consomme 5 de Compte de [ChargeRouge] pour gagner +2 de Puissance de Base",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [ChargeRouge]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Acceptez mon offrance de chair !",
+          "desc": "[WhenUse] Gagne +4 de Compte de [ChargeRouge]\n[WhenUse] Si la cible a 6 [Laceration] ou plus, +1 de Puissance de Pièce\n[WhenUse] À 10 de Compte de [ChargeRouge] ou plus, consomme 10 de Compte de [ChargeRouge] pour gagner +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [ChargeRouge]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [ChargeRouge]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Une offrande de mon étreinte !",
+          "desc": "[StartBattle] Si cette unité a moins de 50% de PV, convertit toutes les Pièces de cette Capacité en [SuperCoin]\n[WhenUse] Si la cible a 6 [Laceration] ou plus, +1 de Puissance de Pièce\n[WhenUse] À 10 de Compte de [ChargeRouge] ou plus, consomme 10 de Compte de [ChargeRouge] pour gagner +1 de Puissance de Pièce\n[DefeatDuel] Les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [ChargeRouge]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [ChargeRouge]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [ChargeRouge]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Nous dévorerons tout !",
+          "desc": "[StartBattle] Si cette unité a moins de 50% de PV, convertit toutes les Pièces de cette Capacité en [SuperCoin]\n[WhenUse] Si la cible a 6 [Laceration] ou plus, +1 de Puissance de Pièce\n[WhenUse] À 10 de Compte de [ChargeRouge] ou plus, consomme 10 de Compte de [ChargeRouge] pour gagner +1 de Puissance de Pièce\n[WinDuel] Gagne +10 de Compte de [ChargeRouge]\n[DefeatDuel] Inflige -80% de dégâts ; les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Consomme jusqu’à 5 de Compte de [ChargeRouge] pour infliger des dégâts Tranchants égaux à (Compte de [ChargeRouge] consommé * 3)% des dégâts finaux de cette Pièce (15% max)\n- Regagne (Compte de [ChargeRouge] consommé)% de PV"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Consomme jusqu’à 5 de Compte de [ChargeRouge] pour infliger des dégâts Tranchants égaux à (Compte de [ChargeRouge] consommé * 3)% des dégâts finaux de cette Pièce (15% max)\n- Regagne (Compte de [ChargeRouge] consommé)% de PV"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Consomme jusqu’à 5 de Compte de [ChargeRouge] pour infliger des dégâts Tranchants égaux à (Compte de [ChargeRouge] consommé * 3)% des dégâts finaux de cette Pièce (15% max)\n- Regagne (Compte de [ChargeRouge] consommé)% de PV"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Active le [Laceration] de la cible une fois. La cible perd 1 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Nous ne serons pas encore mis au repos !",
+          "desc": "[DuelCounter]\n[WhenUse] +1 de Puissance Finale tous les 5 de Compte de [ChargeRouge] sur soi (3 max)\n[WhenUse] Si la cible a 6 [Laceration] ou plus, +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +3 de Compte de [ChargeRouge]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [ChargeRouge]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152106,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Supplication Envers la Voix",
+          "desc": "[CantDuel]\n[CantChangeTarget]\nCible Le Dieu Cramoisi\n\nCette Capacité a les propriétés suivantes :\n- Ne déclenche pas les Capacités Défensives\n- Les effets externes ne peuvent pas pousser cette Capacité à être Réutilisée\n- Son attaque ne touche pas\n\n[EndCoin] La cible regagne 20 PSM",
+          "coinlist": [
+            {
+              "coindescs": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

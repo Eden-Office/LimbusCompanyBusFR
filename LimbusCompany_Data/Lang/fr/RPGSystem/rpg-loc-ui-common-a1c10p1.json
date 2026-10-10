@@ -1,0 +1,564 @@
+{
+  "dataList": [
+    {
+      "key": "ReturnToMainUiScene",
+      "text": "Revenir à la Fenêtre ?\n<color=#ff0000>Le récente progression peut être perdue.</color>\n\n※ Le jeu sauvegarde lors des points suivants : finission de quête / transition d’Étage ou de Zone.\nVeuillez vérifier votre dernier point de sauvegarde avant de quitter."
+    },
+    {
+      "key": "AskToMoveFloor",
+      "text": "Aller à l’Étage {0} ?"
+    },
+    {
+      "key": "MoveFloorUiDesc",
+      "text": "À quel Étage devrions-nous aller ?"
+    },
+    {
+      "key": "FloorMoveUnboughtConfirmDesc",
+      "text": "Vous n’avez pas encore acheté tous les objets disponibles à cet étage.\nAller quand même à un autre étage ?"
+    },
+    {
+      "key": "FloorMoveUnboughtDontShowAgain",
+      "text": "Ne plus me montrer ce message"
+    },
+    {
+      "key": "DialogueSkipConfirmDesc",
+      "text": "Sauter cette scène d’histoire ?"
+    },
+    {
+      "key": "DialogueSkipDontShowAgain",
+      "text": "Ne plus me montrer ce message"
+    },
+    {
+      "key": "AccumulatedExp",
+      "text": "Dépense Totale de Globe Oculaire"
+    },
+    {
+      "key": "RemainExpToNextLevel",
+      "text": "Avant le Prochain Tier"
+    },
+    {
+      "key": "ItemFilterAll",
+      "text": "Tout"
+    },
+    {
+      "key": "ItemFilterKeyItem",
+      "text": "Quête"
+    },
+    {
+      "key": "ItemFilterSurvival",
+      "text": "Survivabilité"
+    },
+    {
+      "key": "ItemFilterBasicAttack",
+      "text": "Attaque de Base"
+    },
+    {
+      "key": "ItemFilterAdditionalAttack",
+      "text": "Attaque Supplémentaire"
+    },
+    {
+      "key": "ItemFilterPrisonerEffect",
+      "text": "Effets de Pécheur"
+    },
+    {
+      "key": "ItemFilterEtc",
+      "text": "Autre"
+    },
+    {
+      "key": "Item_QuestMark",
+      "text": "Objet Clé"
+    },
+    {
+      "key": "Item_Suffix_Disabled",
+      "text": "{0} (inactif)"
+    },
+    {
+      "key": "rpg_quest_tag_dialogue",
+      "text": "Dialogue"
+    },
+    {
+      "key": "rpg_quest_tag_battle",
+      "text": "Combat"
+    },
+    {
+      "key": "rpg_quest_tag_hunt",
+      "text": "Éliminer"
+    },
+    {
+      "key": "rpg_quest_tag_gather",
+      "text": "Rassembler"
+    },
+    {
+      "key": "rpg_quest_tag_shop",
+      "text": "Boutique"
+    },
+    {
+      "key": "rpg_quest_tag_move",
+      "text": "Voyager"
+    },
+    {
+      "key": "Common_Ok",
+      "text": "Confirmer"
+    },
+    {
+      "key": "Quest_Tag_Progress",
+      "text": "Progression"
+    },
+    {
+      "key": "Quest_Tag_Reward",
+      "text": "Récompense"
+    },
+    {
+      "key": "Shop_Title",
+      "text": "Boutique"
+    },
+    {
+      "key": "Shop_Category_All",
+      "text": "Tout"
+    },
+    {
+      "key": "Shop_Category_Artifact",
+      "text": "Artefacts"
+    },
+    {
+      "key": "Shop_Category_Etc",
+      "text": "Autre"
+    },
+    {
+      "key": "Shop_Button_Buy",
+      "text": "Acheter"
+    },
+    {
+      "key": "Shop_SelectedItem_None",
+      "text": "Choisissez les objets à acheter."
+    },
+    {
+      "key": "Shop_Item_Stock",
+      "text": "Stock"
+    },
+    {
+      "key": "Shop_Item_Owned",
+      "text": "Possédé"
+    },
+    {
+      "key": "Shop_Item_NotForSale",
+      "text": "Non Achetable"
+    },
+    {
+      "key": "Shop_Empty_Item_List",
+      "text": "Aucun objet à afficher."
+    },
+    {
+      "key": "Log_ItemAcquired",
+      "text": "Objet Obtenu : {0} x{1}"
+    },
+    {
+      "key": "Log_ItemAcquiredKeyItem",
+      "text": "Objet Obtenu : <color=#{2}>{0} x{1}</color>"
+    },
+    {
+      "key": "Log_CurrencyEarned",
+      "text": "Obtenu : {0} globes oculaires"
+    },
+    {
+      "key": "Log_Purchased",
+      "text": "Acheté : {0} x{1} ({2} dépensés)"
+    },
+    {
+      "key": "Log_PurchasedKeyItem",
+      "text": "Acheté : <color=#{3}>{0} x{1}</color> ({2} dépensés)"
+    },
+    {
+      "key": "Log_NpcInteracted",
+      "text": "Conversation terminée."
+    },
+    {
+      "key": "Log_ProjectileRemoved",
+      "text": "Projectile Retiré : {0}"
+    },
+    {
+      "key": "Log_ChoiceSelected",
+      "text": "Choix Fait : {0}"
+    },
+    {
+      "key": "Log_QuestAcquired",
+      "text": "<color=#{1}>Quête Commencée : {0}</color>"
+    },
+    {
+      "key": "Log_QuestCompleted",
+      "text": "Quête Complétée : {0}"
+    },
+    {
+      "key": "Log_QuestGoalProgress",
+      "text": "Progression de Quête : {0}"
+    },
+    {
+      "key": "Log_BattleResultSync",
+      "text": "Issue du Combat Reflété : ({0}) : {1}/{2} PV, {3}/{4} PM"
+    },
+    {
+      "key": "Log_BattleDefeatHp",
+      "text": "Combat Perdu : {0} PV"
+    },
+    {
+      "key": "Log_CheatVitals",
+      "text": "Triche : {0}"
+    },
+    {
+      "key": "Log_EventEffectVitals",
+      "text": "Effet d’Event :{0}"
+    },
+    {
+      "key": "Log_RecruitFullRecover",
+      "text": "Allié Gagné ({0}) : Soin Complet des PV/PSM"
+    },
+    {
+      "key": "Log_VitalsNoChange",
+      "text": "Aucun Changement"
+    },
+    {
+      "key": "Log_NpcDefeated",
+      "text": "{0} Vaincu"
+    },
+    {
+      "key": "Log_PlayerDead",
+      "text": "Joueur Mort"
+    },
+    {
+      "key": "Log_BattleEntered",
+      "text": "Commencer le Combat"
+    },
+    {
+      "key": "Log_BattleWin",
+      "text": "Combat Gagné"
+    },
+    {
+      "key": "Log_BattleLose",
+      "text": "Combat Perdu"
+    },
+    {
+      "key": "Log_RestSpotHealed",
+      "text": "PV entièrement soignés"
+    },
+    {
+      "key": "Log_EscapeBlocked",
+      "text": "Vous ne pouvez pas quitter cette salle pour le moment."
+    },
+    {
+      "key": "Log_WardenAppeared",
+      "text": "Une sensation de présage lugubre s’installe."
+    },
+    {
+      "key": "Log_SuicideBlocked",
+      "text": "Ceci ne peut pas être la sortie."
+    },
+    {
+      "key": "ProgressPopup_Title",
+      "text": "Grand Magasin Sisyphe"
+    },
+    {
+      "key": "ProgressPopup_Suicide",
+      "text": "Retourner à\nla Source"
+    },
+    {
+      "key": "ProgressPopup_EnemyAttackIndication",
+      "text": "Afficher la portée précise d’attaque ennemie"
+    },
+    {
+      "key": "ProgressPopup_MyAttackIndication",
+      "text": "Afficher la portée précise d’attaque alliée"
+    },
+    {
+      "key": "ProgressPopup_Restore",
+      "text": "Restaurer le Point de Sauvegarde"
+    },
+    {
+      "key": "RestorePopup_Title",
+      "text": "Restaurer le Point de Sauvegarde"
+    },
+    {
+      "key": "RestorePopup_Checking",
+      "text": "Vérification…"
+    },
+    {
+      "key": "RestorePopup_FoundNoQuest",
+      "text": "Point de Sauvegarde Restaurable trouvé."
+    },
+    {
+      "key": "RestoreCompare_ColCurrent",
+      "text": "Dernier Point de Sauvegarde"
+    },
+    {
+      "key": "RestoreCompare_ColBackup",
+      "text": "Restaurer"
+    },
+    {
+      "key": "RestoreCompare_NoQuest",
+      "text": "Aucun"
+    },
+    {
+      "key": "RestoreCompare_Unknown",
+      "text": "Non Trouvé"
+    },
+    {
+      "key": "RestoreCompare_SavedAt",
+      "text": "Sauvegardé à : {0}"
+    },
+    {
+      "key": "RestorePopup_None",
+      "text": "Aucun Point de Sauvegarde restaurable trouvé."
+    },
+    {
+      "key": "RestorePopup_LoadFailed",
+      "text": "Impossible de vérifier l’information de sauvegarde automatique."
+    },
+    {
+      "key": "RestorePopup_Confirm",
+      "text": "Toute progression que vous avez effectué depuis ce point de sauvegarde sera effacé. Ce processus est irréversible. Restaurer quand même la sauvegarde ?"
+    },
+    {
+      "key": "RestorePopup_Running",
+      "text": "Restauration…"
+    },
+    {
+      "key": "RestorePopup_NeedRestart",
+      "text": "Restaurée. Tout progression effectuée après ce point ne sera pas sauvegardée. Veuillez redémarrer le jeu."
+    },
+    {
+      "key": "RestorePopup_Close",
+      "text": "Fermer"
+    },
+    {
+      "key": "Inventory_Empty",
+      "text": "Aucun objet dans l’inventaire."
+    },
+    {
+      "key": "Inventory_NotSelected",
+      "text": "Aucun objet sélectionné."
+    },
+    {
+      "key": "LogPopup_Title",
+      "text": "Historique"
+    },
+    {
+      "key": "LogPopup_Tab_Story",
+      "text": "Historique d’Histoire"
+    },
+    {
+      "key": "LogPopup_Tab_System",
+      "text": "Historique Système"
+    },
+    {
+      "key": "Setting_Tab_Sisyphus",
+      "text": "Sisyphe"
+    },
+    {
+      "key": "Setting_Sisyphus_UiSetting",
+      "text": "Paramètres IU"
+    },
+    {
+      "key": "Setting_Sisyphus_KeyManual",
+      "text": "Guide de raccourci clavier"
+    },
+    {
+      "key": "Setting_Sisyphus_CensorDeadscene",
+      "text": "Censurer les scènes de mort"
+    },
+    {
+      "key": "Setting_Sisyphus_LightMode",
+      "text": "Mode d’Éclairage"
+    },
+    {
+      "key": "Setting_Sisyphus_Brightness",
+      "text": "Régler la Luminosité"
+    },
+    {
+      "key": "Setting_Sisyphus_BrightnessCeiling",
+      "text": "Limite de Luminosité Maximale"
+    },
+    {
+      "key": "Setting_Sisyphus_MoveAssist",
+      "text": "Correction de Mouvement Directionnel"
+    },
+    {
+      "key": "Setting_Sisyphus_RunStartDelay",
+      "text": "Timer d’Auto-Sprint"
+    },
+    {
+      "key": "Setting_Sisyphus_VirtualPadWalkStart",
+      "text": "Seuil de Marche Joystick V."
+    },
+    {
+      "key": "Setting_Sisyphus_VirtualPadRunKeep",
+      "text": "Rayon de Maintien de Sprint Joystick V."
+    },
+    {
+      "key": "Setting_Sisyphus_VirtualPadRunStart",
+      "text": "Seuil de Sprint Joystick V."
+    },
+    {
+      "key": "Setting_Sisyphus_TurnAssist",
+      "text": "Ajustement du Seuil de Changement Directionnel"
+    },
+    {
+      "key": "Setting_Sisyphus_VirtualPadMode",
+      "text": "Pad Virtuel"
+    },
+    {
+      "key": "Setting_Sisyphus_VirtualPadModeFixed",
+      "text": "Fixe"
+    },
+    {
+      "key": "Setting_Sisyphus_VirtualPadModeFloating",
+      "text": "Flottant"
+    },
+    {
+      "key": "Setting_Sisyphus_RunStartDelayValue",
+      "text": "{0} Seconde(s)"
+    },
+    {
+      "key": "Setting_Sisyphus_Move",
+      "text": "Bouger"
+    },
+    {
+      "key": "Setting_Sisyphus_Interaction",
+      "text": "Interagir"
+    },
+    {
+      "key": "Setting_Sisyphus_Quest",
+      "text": "Journal : Quêtes"
+    },
+    {
+      "key": "Setting_Sisyphus_GauntletSuicide",
+      "text": "Retourner à la Source"
+    },
+    {
+      "key": "Setting_Sisyphus_Attack",
+      "text": "Attaquer"
+    },
+    {
+      "key": "Setting_Sisyphus_Guard",
+      "text": "Bloquer"
+    },
+    {
+      "key": "Setting_Sisyphus_Dodge",
+      "text": "Esquiver"
+    },
+    {
+      "key": "Setting_Sisyphus_Run",
+      "text": "Sprinter"
+    },
+    {
+      "key": "Setting_Sisyphus_LockedNeedItem",
+      "text": "※ Indisponible. Achetez l’objet correspondant pour débloquer."
+    },
+    {
+      "key": "Setting_Sisyphus_LanternToggle",
+      "text": "Lanterne ON/OFF"
+    },
+    {
+      "key": "Setting_Sisyphus_CloseWindowOrSetting",
+      "text": "Fermer ouvrir la fenêtre / Paramètres"
+    },
+    {
+      "key": "Setting_Sisyphus_Inventory",
+      "text": "Voir l’Inventaire"
+    },
+    {
+      "key": "Setting_Sisyphus_DialogueNext",
+      "text": "Procéder / Finaliser le choix de dialogue"
+    },
+    {
+      "key": "Setting_Sisyphus_DialogueChoice",
+      "text": "Défiler les choix de dialogue"
+    },
+    {
+      "key": "Setting_Sisyphus_DialogueSkip",
+      "text": "Sauter le dialogue"
+    },
+    {
+      "key": "Setting_Sisyphus_FullLog",
+      "text": "Voir l’historique"
+    },
+    {
+      "key": "Setting_Sisyphus_CreditFastForward",
+      "text": "Accélérer l’affichage des crédits"
+    },
+    {
+      "key": "Setting_Sisyphus_CreditSkip",
+      "text": "Sauter les crédits"
+    },
+    {
+      "key": "Setting_Sisyphus_QuestNavigation",
+      "text": "Activer la Flèche de Navigation de Quête"
+    },
+    {
+      "key": "Setting_Sisyphus_TabDefault",
+      "text": "Contrôles (Clavier)"
+    },
+    {
+      "key": "Setting_Sisyphus_TabMobile",
+      "text": "Contrôles (Mobile)"
+    },
+    {
+      "key": "WardenBigNail",
+      "text": "Clou à Deux Mains du Gardien"
+    },
+    {
+      "key": "FormationUI_AskToBack",
+      "text": "Quitter via le bouton “retour” comptera comme une défaite."
+    },
+    {
+      "key": "Setting_Sisyphus_Manual",
+      "text": "Manuel"
+    },
+    {
+      "key": "Setting_Sisyphus_BattleStatus",
+      "text": "Statut dans l’Ombragé"
+    },
+    {
+      "key": "TheaterTitle",
+      "text": "Cinéma"
+    },
+    {
+      "key": "SettingTitle",
+      "text": "Paramètres"
+    },
+    {
+      "key": "Setting_Sisyphus_MobileMenu",
+      "text": "Ouvrir le Menu"
+    },
+    {
+      "key": "Setting_Sisyphus_MobileAutoAttack",
+      "text": "Auto-attaque"
+    },
+    {
+      "key": "Setting_Sisyphus_MobileInteraction",
+      "text": "Interagir"
+    },
+    {
+      "key": "Setting_Sisyphus_MobileQuestNavigation",
+      "text": "Flèche de Nav. de Quête"
+    },
+    {
+      "key": "Setting_Sisyphus_MobileLantern",
+      "text": "Lanterne"
+    },
+    {
+      "key": "Setting_Sisyphus_MobileUnlockNotice",
+      "text": "Les fonctions marquées par “※” doivent être débloquées en acheter l’objet correspondant."
+    },
+    {
+      "key": "Rpg_Menu_Status_Ego_Resources_Owned",
+      "text": "Ressources E.G.O. Actuelles"
+    },
+    {
+      "key": "Rpg_Menu_Status_Character_Mental_Status",
+      "text": "Statut de PSM des Pécheur"
+    },
+    {
+      "key": "Rpg_Move_Floor_Ui_Current_Floor",
+      "text": "Étage Actuel"
+    }
+  ]
+}

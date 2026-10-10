@@ -2890,7 +2890,7 @@
     {
       "id": "ChargeBodyArt",
       "name": "Ingrédient Corpus",
-      "desc": "- Compte max : 20\n- Charge Unique\n- Interagit de la même manière qu’une Charge normale face aux effets qui augmentent ou réduisent l’Intensité et le Compte de Charge\n- Fin du Tour : perd 1 Compte",
+      "desc": "- Compte max : 20\n- Charge Unique\n- Interagit de la même manière qu’une Charge normale face aux effets qui augmentent ou réduisent l’Intensité et le Compte de Charge\n- Fin du Tour : perd 1 de Compte",
       "summary": "Consommé ou gagné en utilisant certaines Capacités",
       "undefined": "-"
     },
@@ -3475,6 +3475,215 @@
       "id": "DuelSousTemoinsEast",
       "name": "Témoigné - Cinq de l’Est",
       "desc": "- Instance max : 3\n- +(Instance) Niveaux Offensifs\n- À 2 Instances ou plus, les Capacités de Base gagnent +1 d’Intensité de Calme supplémentaire\n- À 3 Instances ou plus, les Capacités de Base gagnent +1 de Compte de Calme supplémentaire",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "NoirSuitAlly",
+      "name": "Le Noir : Pardessus en Gabardine",
+      "desc": "- Instance max : 100\n- +1 Niveau Défensif toutes les 25 Instances\n- Gagne +5 d’Aggro sur l’Emplacement le plus à gauche\n- Lorsque touché alors que cette unité a du Bouclier, gagne 5 Instances (10 par tour)\n- Fin du Tour : si cette unité a du Bouclier restant, gagne 10 Instances\n- Applique les suivants lorsque cette unité gagne ou consomme du Compte de Préservation suite à ses effets de Capacité ou de Passif :\n · Gagne de l’Instance égale au Compte de Préservation gagné (l’Instance de cet effet est gagné qu’importe le Compte max de Préservation)\n · Gagne de l’Instance égale à (Compte de Préservation consommé * 2)\n · Peut gagner jusqu’à 30 Instances par tour via cet effet\n- À 100 Instances, convertit cet effet en Armure Éveillée au prochain tour",
+      "summary": "Gagne du Niveau Défensif et de l’Aggro",
+      "flavor": "Un pardessus fait d’un tissu sergé, un type de tissage créé en filant plusieurs fils de trame par-dessus un nombre inférieur de fils de chaîne.\nSon tissage caractéristique à haute densité protège son porteur des traumas externes."
+    },
+    {
+      "id": "ChargeNoirAlly",
+      "name": "Préservation",
+      "desc": "- Charge Unique\n- Compte max : 20\n- Interagit de la même manière qu’une Charge normale face aux effets qui augmentent ou réduisent l’Intensité et le Compte de Charge\n- Fin du Tour : perd 1 de Compte",
+      "summary": "Charge Unique",
+      "flavor": "La force est compressée, rassemblée et fixée en place. Parfois, il faut plus de force pour empêcher le changement que pour le provoquer."
+    },
+    {
+      "id": "RealisationAlly",
+      "name": "Armure Éveillée",
+      "desc": "- Instance max : 100\n- +2 de Vitesse Min & Max\n- +1 Niveau Offensif et +1 Niveau Défensif toutes les 25 Instances\n- Convertit toutes les Pièces de Capacités Offensives de Base en Pièces Incassables\n- Début du Tour : regagne 8 PSM\n- À 0 Instance, convertit cet effet en “Le Noir : Pardessus en Gabardine”",
+      "summary": "Gagne du Niveau Offensif, du Niveau Défensif et de la Vitesse\nConvertit les Pièces de Capacités Offensives de Base en Pièces Incassables",
+      "flavor": "L’armure de tissu de Le Noir empêche la force externe d’atteindre son porteur. La raison pour laquelle elle s’éveille est d’éliminer le changement imposé par l’extérieur.\nLe tissu emmagasine l’énergie des attaques qu’il absorbe, puis expulse toute cette force en une unique rafale pour retirer la source extérieure de changement."
+    },
+    {
+      "id": "ChargeRougeAlly",
+      "name": "Pulsation",
+      "desc": "- Charge Unique\n- Compte max : 20\n- Interagit de la même manière qu’une Charge normale face aux effets qui augmentent ou réduisent l’Intensité et le Compte de Charge\n- Fin du Tour : perd 1 de Compte",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "RougeIshmaelCocoon",
+      "name": "Cabine d’Essayage",
+      "desc": "- Instance max : 2\n- Fixe la Vitesse de cette unité à 1\n- Subit -50% de dégâts de Capacités\n- Immédiatement après avoir gagné cet effet, retire les Seuils de Déséquilibre ; lorsque Déséquilibrée, se remet de Déséquilibre\n- Début du Tour : gagne 10 d’Aggro\n- Lorsque touchée, gagne +1 de Compte de Pulsation (20 fois par tour)\n- Fin du Tour : perd 1 Instance\n- Ne peut pas Battre en Retraite\n- Ne peut pas entrer en Érosion E.G.O. ; au lieu de ça, entre en état de Panique par défaut (est affectée par les effets de changement de Panique)\n- Lorsque dans cet état, à part sa Capacité exclusive “Comme le Dit la Voix, Je me Retranche Volontier en Moi-même”, ne peut pas équiper de Capacités Défensives ou de Capacités E.G.O.",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Bien qu’elle soit devenue plus robuste, elle est maintenant passive. Lorsque observée à travers les lentilles de Le Rouge, qu’importe combien quelque chose peut être devenu durable, ce qui est passif est toujours fragile.\n\nMais il faut d’abord s’arrêter afin d’ouvrir la voie au changement. Et voilà ce qui rend ce processus douloureux."
+    },
+    {
+      "id": "RougeIshmaelEclose",
+      "name": "Relooking Complet",
+      "desc": "- +1 de Vitesse Min & Max\n- PV max augmentés de 25%\n- Subit -10% de dégâts de Capacités\n- Les Capacités de Base infligent +1 d’Intensité de Saignement supplémentaire aux ennemis",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Bien qu’elle ait émergé du cocon, elle a échoué à véritablement se métamorphoser, puisque ce processus nécessite la désintégration de soi. Néanmoins, le processus est parvenu à renforcer ses capacités physiques."
+    },
+    {
+      "id": "EmpathicDistressAlly",
+      "name": "Fracturation des Sens",
+      "desc": "- Instance max : 5\n- Lorsque les autres alliés sont touchés, gagne +1 de Compte de Tremblement et perd 1 Instance (une fois par Capacité)\n- S’il n’y a pas d’autre alliés sur le terrain, gagne 2 d’Intensité de Tremblement lorsque touché et perd 1 Instance (une fois par Capacité)\n- Lorsque touché par une Attaque Critique, subit +(Intensité de Tremblement sur soi)% de dégâts (15% max)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "La fracturation se produit lorsque l’on échoue à reconnaître l’incohérence entre les formes du corps et du cœur."
+    },
+    {
+      "id": "PersonalityVibration",
+      "name": "Identité de Tremblement",
+      "desc": "Identités qui ont des Capacités Offensives de Base qui infligent de l’Intensité ou du Compte de Tremblement ou du Tremblement Unique",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "PersonalityBreath",
+      "name": "Identité de Calme",
+      "desc": "Identités qui ont des Capacités Offensives de Base qui appliquent ou gagnent de l’Intensité ou du Compte de Calme",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "PersonalityCharge",
+      "name": "Identité de Charge",
+      "desc": "Identités qui ont des Capacités Offensives de Base qui appliquent, gagnent ou consomment de la Charge ou de la Charge Unique",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "ChargeKhakiAlly",
+      "name": "Inertie de la Dérive",
+      "desc": "- Compte max : 20\n- Charge Unique\n- Interagit de la même manière qu’une Charge normale face aux effets qui augmentent ou réduisent l’Intensité et le Compte de Charge\n- Fin du Tour : perd 1 de Compte",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Ceux qui se font porter par la marée comme des bouées ne peuvent peut-être pas changer le cours des choses, mais ils peuvent tout de même accroître la marée et y commettre leurs actions."
+    },
+    {
+      "id": "NoirScissorAlly",
+      "name": "Marque de Cisaillement",
+      "desc": "- Instance max : 4\n- Lorsqu’une cible ayant cet effet est vaincue, l’unité ayant infligé cet effet regagne 5 PSM et gagne 1 Bonus de Niveau Offensif au prochain tour (3 fois par tour)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Une marque de coupure utilisée pour raccourcir le tissu et d’autres matériaux aux dimensions requises."
+    },
+    {
+      "id": "NoirScissorCut",
+      "name": "Ciseaux de Floraison",
+      "desc": "- Instance max : 2\n- Inflige +7% de dégâts par Instance",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Les ciseaux utilisés pour trancher les matériaux primordiaux produits en sous-sol sont plus grands et plus extraordinairement calmes. Ces ciseaux ont coupé et recoupé le tout premier vêtement qui fut tissé. Que des fleurs en jaillissent n’est que naturel, puisqu’ils ont toujours coupé des choses à la racine."
+    },
+    {
+      "id": "SupportAlly",
+      "name": "Dualité",
+      "desc": "Les Capacités peuvent cibler les Identités alliées\nLors de Capacités en ciblage automatique, ou lors d’Affrontements Normaux, priorise l’allié avec l’Ordre de Déploiement le plus tôt\n- Si la cible est un allié, l’attaque ne touche pas et ne déclenche pas de Capacité Défensive (inclut les Capacités Défensives Affrontables)\nSi la cible est un allié, active cette Capacité au Début du Combat",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "SupportEnemy",
+      "name": "Dualité",
+      "desc": "Les Capacités peuvent cibler les alliés\nLors de Capacités en ciblage automatique, ou lors d’Affrontements Normaux, cible des alliés aléatoires\n- Si la cible est un allié, l’attaque ne touche pas et ne déclenche pas de Capacité Défensive (inclut les Capacités Défensives Affrontables)\nSi la cible est un allié, active cette Capacité au Début du Combat",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "NoirScissorShield",
+      "name": "Ensuite vient la Découpe de Bienvenue",
+      "desc": "- Instance max : 1\n- +3 Niveaux Offensifs, +3 Niveaux Défensifs\n- À l’Usage de Capacité, regagne 5 PSM si cette unité est une Identité de Charge (une fois par tour)\n- En Touche de Capacité de Base, inflige des dégâts Tranchants égaux à 5% des dégâts finaux de chaque Pièce\n- Expire à la Fin du Tour",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Une paire de ciseaux devient un à travers deux et fabrique deux avec ce qui était un."
+    },
+    {
+      "id": "BlackWingHoleFaust",
+      "name": "Parapluie Noir",
+      "desc": "- Instance max : 5",
+      "summary": ""
+    },
+    {
+      "id": "BulletWoundHole",
+      "name": "Blessure par Balle",
+      "desc": "",
+      "summary": ""
+    },
+    {
+      "id": "BulletHole",
+      "name": "Balle Cendrée",
+      "desc": "- Munition Unique\n- Capacité max : 5\n- Cette Munition ne peut pas être gagnée ou augmentée par des effets externes, exclut la Capacité E.G.O. “Vide”",
+      "summary": ""
+    },
+    {
+      "id": "BlackWingHole",
+      "name": "Ailes Noires",
+      "desc": "- Instance max : 12\n- Début du Tour : gagne (Instance / 4) de Compte de Charge (arrondi à l’inférieur)\n- Début du Tour : gagne 1 Bonus de Niveau Offensif toutes les 4 Instances\n- Les Capacités ce cette unité qui gagnent ou consomment de la Charge ou du Calme infligent +(Instance)% de dégâts",
+      "summary": ""
+    },
+    {
+      "id": "OathFieldDonQuixote",
+      "name": "Sanctum de Conservation",
+      "desc": "- Instance max : 5\n- Applique l’effet suivant à toutes les Identités alliés :\n  · À l’Usage de Capacité, chaque allié gagne du Bouclier égal à (Intensité de Préservation sur Don Quichotte * 2)% de ses PV max respectifs (une fois par tour, 10% max)\n\n- Applique les effets suivants à toutes les Identités alliées “Le Noir” :\n  · +(Intensité de Préservation sur Don Quichotte / 3) Niveaux Offensifs (arrondi à l’inférieur ; 2 max)\n  · +(Intensité de Préservation sur Don Quichotte / 2) Niveaux Défensifs (arrondi à l’inférieur ; 3 max)\n\n- Applique les effets suivants à tous les ennemis :\n  · -1 de Vitesse Min & Max (cet effet ne peut pas réduire la Vitesse Min & Max en dessous de 1)\n  · +10% de Seuil de Déséquilibre augmenté par Sursaut de Tremblement\n  · Subit +10% de dégâts de Capacités qui consomment du Compte de Charge ou de la Charge Unique (pour les Capacités d’Identités alliées “Le Noir”, subit +20% de dégâts à la place)\n\n- Fin du Tour : perd 1 Instance",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Un sanctuaire dans lequel la valeur de la conservation poursuivie par Le Noir est préservée. En son sein, les actions préservatrices des Le Noir sont retenues pour leur bénéfice. Il s’agit d’un royaume de conservation éternelle, un lieu qui attise le besoin de s’approche infiniement de la mort."
+    },
+    {
+      "id": "NoirShieldUpDonQuixote",
+      "name": "Bénédiction du Dieu d’Obsidienne",
+      "desc": "- Instance max : 100\n- Début du Tour : gagne du Bouclier égal à (Instance / 5)% des PV max de cette unité (arrondi à l’inférieur)\n- À 25 Instances ou plus, À l’Usage de Capacité Offensive de Base, convertit toutes les Pièces en Pièces Incassables\n- À 40 Instances ou plus, cette unité ne peut pas être Déséquilibrée (exclut les Déséquilibres forcés)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Le Dieu d’Obsidienne. Le Géant d’Obsidienne. Le chapelain du Marteau. Le Dieu d’Obsidienne du Grand Magasin, dont le domaine est le pouvoir de la préservation, accorde sa bénédiction via contact direct. Le marteau est dur et sa teinte noire absorbe toutes choses et les fait s’arrêter… très similairement à la mort."
+    },
+    {
+      "id": "NoirNailDonQuixote",
+      "name": "Clou Promis",
+      "desc": "- Instance max : 30\n- En Sursaut de Tremblement suite à des effets de Capacité, subit 1 dégât de Paresse par Instance (10 max ; une fois par Capacité)\n- Fin du Tour : à 4 Instances ou plus, gagne 1 Ralentissement au prochain tour\n- Début du Tour : si Haute Couture::Directrice de Marque Le Noir Don Quichotte n’est pas sur le terrain, expire",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Le marteau promis est tenu par une promesse d’enfoncer un clou. En conséquence, chaque fois que le marteau s’abat, un clou doit y exister… Même s’il n’y en a aucun."
+    },
+    {
+      "id": "PersonalityCombustion",
+      "name": "Identité de Brûlure",
+      "desc": "",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "PersonalityLaceration",
+      "name": "Identité de Saignement",
+      "desc": "",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "PersonalityBurst",
+      "name": "Identité de Déchirure",
+      "desc": "",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "PersonalitySinking",
+      "name": "Identité de Lourdeur",
+      "desc": "",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Tiphereth_Heads",
+      "name": "Attentes de Tiphereth",
+      "desc": "- Toutes les Pièces de Capacité de cette unité ont 100% de chances de faire Pile (cet effet prime sur les effets de Capacités, Passifs et autres de cette unité)\n- Expire à la Fin du Tour",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Tiphereth_Tails",
+      "name": "Attentes de Tiphereth [Miroité]",
+      "desc": "- Toutes les Pièces de Capacité de cette unité ont 100% de chances de faire Face (cet effet prime sur les effets de Capacités, Passifs et autres de cette unité)\n- Expire à la Fin du Tour",
       "summary": "",
       "undefined": "-"
     }

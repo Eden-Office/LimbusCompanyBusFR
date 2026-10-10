@@ -1,0 +1,90 @@
+{
+  "dataList": [
+    {
+      "id": 9105901,
+      "name": "Les bouteilles en verre doivent être manipulées avec soin… !",
+      "desc": "Lorsque touché par une Capacité, gagne 3 [Laceration] (une fois par Capacité)\n\nLorsque l’effet ci-dessus s’active, gagne 1 [ResultEnhancement] au prochain tour (2 max)"
+    },
+    {
+      "id": 9105902,
+      "name": "Fiou, ma bouteille va bien",
+      "desc": "Fin du Tour : si cette unité n’a pas de [Laceration], regagne 5 PSM"
+    },
+    {
+      "id": 9105903,
+      "name": "Je dois remplir la bouteille",
+      "desc": "Si la cible touchée par la Capacité de cette unité a du [Laceration], et si cette unité n’est pas à PV max, regagne 2% de PV (2 fois par tour ; arrondi à l’inférieur)"
+    },
+    {
+      "id": 9106601,
+      "name": "Le Noir : Tissu",
+      "desc": "En entrant dans l’Affrontement pour la première fois, gagne 5 [NoirBindArmor]\n\nDébut du Tour : gagne du Bouclier égal à (10 + Instance de [NoirBindArmor])% des PV max de cette unité",
+      "flavor": "Le Worsted de Le Noir maintient le corps comme une armure, l’accentuant sous une ferme silhouette figée."
+    },
+    {
+      "id": 9106602,
+      "name": "Préservation",
+      "desc": "Gagne 1 [NoirBindArmor] tous les 5 de Compte de [ChargeNoir] consommés accumulés par cette unité dans cet Affrontement\nGagne 1 [ChargeNoir] tous les 10 de Compte de [ChargeNoir] consommés accumulés par cette unité dans cet Affrontement",
+      "flavor": "La force est compressée, rassemblée et fixée en place. Parfois, il faut plus de force pour empêcher le changement que pour le provoquer."
+    },
+    {
+      "id": 9106603,
+      "name": "Changer pour l’Inertie",
+      "desc": "Début du Tour : à 10 de Compte de [ChargeNoir] ou plus, utilise une Capacité puissante\n\nÀ l’Usage de Capacité, à 15 de Compte de [ChargeNoir] ou plus, consomme 3 de Compte de [ChargeNoir] pour infliger +20% de dégâts",
+      "flavor": "Cette nouvelle Voix me dit qu’elle m’aidera à changer… pour que je ne puisse jamais changer."
+    },
+    {
+      "id": 9106604,
+      "name": "Je l’entends… la Voix d’un autre dieu… !",
+      "desc": "En entrant dans l’Affrontement pour la première fois, gagne 2 [RisingMadnessNoir]\n- Début du Tour : lorsque les PV de cette unité tombent en dessous de 50% pour la première fois dans cet Affrontement, convertit [RisingMadnessNoir] en [RisingMadnessNoir2nd]\n\nEn Duel Perdu, gagne +2 de Compte de [ChargeNoir]",
+      "flavor": "Ils ont entendu la Voix chaleureuse, mais n’ont pas pu changer davantage. Avec l’esprit pris au piège dans la chair, le soi s’est clivé de lui-même et a sombré dans la folie."
+    },
+    {
+      "id": 9106001,
+      "name": "Fouiller",
+      "desc": "Début du Duel : gagne 2 d’Intensité de [Breath] au prochain tour par type d’effet sur la cible (10 max)\n- Si la cible a 3 types d’effet ou plus, gagne +3 de Compte de [Breath] au prochain tour",
+      "flavor": "Incapables de créer par eux-mêmes de la valeur ou du mérite, les Kakis fouillent les poches des valorisés de la grande surface, en quête de choses de valeur."
+    },
+    {
+      "id": 9106002,
+      "name": "En Attente de la Tendance Saisonnière",
+      "desc": "À 6 d’Intensité de [Breath] ou plus, +1 de Puissance de Pièce",
+      "flavor": "Alors, c’est quoi la grande tendance de cette saison ? Dis-le-moi avant que tout le monde en ait !"
+    },
+    {
+      "id": 9106003,
+      "name": "S’Accrocher au Peu qu’il Reste",
+      "desc": "Début du Tour : regagne 3 PSM tous les 10% de PV manquants sur soi (15 max)"
+    },
+    {
+      "id": 9106004,
+      "name": "Je l’entends… la Voix d’un autre dieu… !",
+      "desc": "En entrant dans l’Affrontement pour la première fois, gagne 2 [RisingMadnessSisyphe]\n- Début du Tour : lorsque les PV de cette unité tombent en dessous de 50% pour la première fois dans cet Affrontement, convertit [RisingMadnessSisyphe] en [RisingMadnessSisyphe2nd]",
+      "flavor": "Ils ont entendu la Voix chaleureuse, mais n’ont pas pu changer davantage. Avec l’esprit pris au piège dans la chair, le soi s’est clivé de lui-même et a sombré dans la folie."
+    },
+    {
+      "id": 9106301,
+      "name": "Coudre",
+      "desc": "Inflige +1 Instance de [NiddlePin] supplémentaire contre les cibles ayant 1.5 de Résist. Perçante ou Résist. d’Envie ou plus",
+      "flavor": "Chaîne par pouce, chasse par pouce, point par pouce. Important !"
+    },
+    {
+      "id": 9106302,
+      "name": "Une Petite Aiguille Aiguisée",
+      "desc": "En utilisant des Capacités qui infligent de l’Intensité de [Laceration] aux ennemis ayant [NiddlePin], inflige +(Instance de [NiddlePin] sur la cible) d’Intensité de [Laceration] supplémentaire (3 max)",
+      "flavor": "Une aiguille n’est pas différente d’un clou."
+    },
+    {
+      "id": 9106701,
+      "name": "Désespoir",
+      "desc": "Début du Tour : à 3 d’Intensité de [ChargeRouge] ou plus et 10 de Compte de [ChargeRouge] ou plus, utilise une Capacité puissante\n\nLes Capacités infligent +1% de dégâts par 1% de PV manquants sur soi",
+      "flavor": "Afin que je puisse être moi-même… Mon véritable moi, exprimé au-delà de ce que de simples vêtements peuvent exprimer !"
+    },
+    {
+      "id": 9106702,
+      "name": "Je l’entends… la Voix d’un autre dieu… !",
+      "desc": "Début de l’Affrontement : gagne [RisingMadnessRouge]\n- Début du Tour : lorsque les PV de cette unité tombent en dessous de 50% pour la première fois dans cet Affrontement, convertit [RisingMadnessRouge] en [RisingMadnessRouge2nd]\n\nEn Duel Perdu, gagne +2 de Compte de [ChargeRouge]",
+      "flavor": "Ils ont entendu la Voix chaleureuse, mais n’ont pas pu changer davantage. Avec l’esprit pris au piège dans la chair, le soi s’est clivé de lui-même et a sombré dans la folie."
+    }
+  ]
+}

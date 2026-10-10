@@ -1,0 +1,413 @@
+{
+  "dataList": [
+    {
+      "id": "NoirNoComply",
+      "name": "Irrespect des Instructions",
+      "desc": "- Instance max : 3\n- Subit +5% de dégâts par Instance",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Le non-respect des directives de la doctrine de la marque peut mener à des mesures correctrices afin de préserver l’intégrité directionnelle de la marque."
+    },
+    {
+      "id": "NoirBindArmor",
+      "name": "Le Noir : Worsted",
+      "desc": "- Instance max : 15\n- Toutes les 5 Instances, -1 de Vitesse Max, +1 Niveau Offensif, +1 Niveau Défensif\n- Fin du Tour : perd 1 Instance",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Le Worsted de Le Noir maintient le corps comme une armure, l’accentuant sous une ferme silhouette figée."
+    },
+    {
+      "id": "ChargeNoir",
+      "name": "Préservation",
+      "desc": "- Charge Unique\n- Compte max : 20\n- Interagit de la même manière qu’une Charge normale face aux effets qui augmentent ou réduisent l’Intensité et le Compte de Charge\n- Fin du Tour : perd 1 de Compte\n\n<color=#1aece7>Compte consommé cumulé : {2}</color>",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "La force est compressée, rassemblée et fixée en place. Parfois, il faut plus de force pour empêcher le changement que pour le provoquer."
+    },
+    {
+      "id": "ChargeRouge",
+      "name": "Pulsation",
+      "desc": "- Charge Unique\n- Compte max : 20\n- Interagit de la même manière qu’une Charge normale face aux effets qui augmentent ou réduisent l’Intensité et le Compte de Charge\n- Fin du Tour : perd 1 de Compte\n\n<color=#1aece7>Compte consommé cumulé : {2}</color>",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Contraction et relâchement de la chair. L’écoulement du sang. La force explosive dirigée par chacun d’eux."
+    },
+    {
+      "id": "RisingMadnessRouge",
+      "name": "Soleil",
+      "desc": "- Instance max : 2\n- Fin du Tour : perd 1 Instance\n- Début du Tour : à 0 Instance, applique les effets suivants :\n· Gagne 1 Bonus de Dégâts et 1 Vulnérabilité\n· Convertit les Pièces de toutes les Capacités en Pièces Incassables, en partant de la Pièce finale (le nombre de Pièces converties sur chaque Capacité est égal à l’Intensité de Pulsation sur soi)\n· Fin du Tour : restaure cet effet à Instance Max au prochain tour",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Tu peux être…"
+    },
+    {
+      "id": "RisingMadnessRouge2nd",
+      "name": "Soleil Piquant",
+      "desc": "- Instance max : 1\n- Fin du Tour : perd 1 Instance\n- Début du Tour : à 0 Instance, applique les effets suivants :\n· Gagne 2 Bonus de Puissance, 2 Bonus de Dégâts et 3 Vulnérabilités\n· Convertit les Pièces de toutes les Capacités en Pièces Incassables, en partant de la Pièce finale (le nombre de Pièces converties sur chaque Capacité est égal à l’Intensité de Pulsation sur soi)\n· Fin du Tour : restaure cet effet à Instance Max au prochain tour",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Le Soleil murmure à tous ceux qu’il touche, ne cessant de s’abattre tandis que sa chaleur grandit d’un simple picotement sur la peau à une brûlure douloureuse et insoutenable et que le sujet est cuit vivant."
+    },
+    {
+      "id": "RisingMadnessNoir",
+      "name": "Soleil",
+      "desc": "- Instance max : 2\n- Fin du Tour : perd 1 Instance\n- Début du Tour : à 0 Instance, applique les effets suivants :\n· Gagne 1 Bonus de Dégâts et 1 Vulnérabilité\n· Convertit les Pièces de toutes les Capacités en Pièces Incassables, en partant de la Pièce finale (le nombre de Pièces converties sur chaque Capacité est égal à l’Intensité de Préservation sur soi)\n· Fin du Tour : restaure cet effet à Instance Max au prochain tour",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Tu peux être…"
+    },
+    {
+      "id": "RisingMadnessNoir2nd",
+      "name": "Soleil Piquant",
+      "desc": "- Instance max : 1\n- Fin du Tour : perd 1 Instance\n- Début du Tour : à 0 Instance, applique les effets suivants :\n· Gagne 2 Bonus de Puissance, 2 Bonus de Dégâts et 3 Vulnérabilités\n· Convertit les Pièces de toutes les Capacités en Pièces Incassables, en partant de la Pièce finale (le nombre de Pièces converties sur chaque Capacité est égal à l’Intensité de Préservation sur soi)\n· Fin du Tour : restaure cet effet à Instance Max au prochain tour",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Le Soleil murmure à tous ceux qu’il touche, ne cessant de s’abattre tandis que sa chaleur grandit d’un simple picotement sur la peau à une brûlure douloureuse et insoutenable et que le sujet est cuit vivant."
+    },
+    {
+      "id": "RougeThreeNormal",
+      "name": "Boutique : Nouveautés",
+      "desc": "- Instance max : 20\n\nÀ l’Usage de Capacité, consomme 1% de PV max sur soi pour infliger +(PV consommés) dégâts de Capacité",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Suivre la voix chaleureuse… vers une nouvelle saison… !"
+    },
+    {
+      "id": "RougeThreeCocoon",
+      "name": "Cabine d’Essayage",
+      "desc": "- Instance max : 3\n- Ne subit pas de dégâts de PV\n- Lorsque touché, applique les effets suivants : (20 fois par tour)\n· Gagne +1 de Compte de Pulsation\n· Gagne 1 Bonus de Dégâts\n· Gagne 1 Malus de Niveau Défensif au prochain tour",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Attention : réparation d’une robe déformée. Nous connaissons tous l’étiquette des cabines d’essayage, n’est-ce pas ?"
+    },
+    {
+      "id": "RougeThreeCocoonHit",
+      "name": "Persécution",
+      "desc": "- Instance max : 20",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Déranger quelqu’un qui est dans une cabine d’essayage… ? Cela est de la persécution, de la persécution à l’encontre de ma foi… !"
+    },
+    {
+      "id": "SapsareeShield",
+      "name": "S’il vous plaît, mangez-moi…",
+      "desc": "- Lorsque Sous-Chef est sur le point de subir une Attaque à Sens Unique venant d’un ennemi, consomme 1 Instance pour rediriger le ciblage de l’ennemi vers soi ; puis, utilise une Capacité exclusive de Défense d’Assistance\n- Lorsqu’il y a plusieurs alliés ayant des Instances de Défense d’Assistance, l’allié ayant la plus haute Instance possède la plus haute priorité d’activation\n- Cet effet compte comme une Défense d’Assistance et est compté dans le calcul d’Instances de Défense d’Assistance\n- Expire à la Fin du Tour",
+      "summary": ""
+    },
+    {
+      "id": "SapsareeYammi",
+      "name": "Manger des friandises et se requinquer, compris ?",
+      "desc": "- Instance max : 5\n- +1 Niveau Offensif par Instance\n- Début du Tour : perd 1 Instance par “J’ai de l’appétit, compris ?” sur soi",
+      "summary": "",
+      "flavor": "Pas une satiété par le goût, mais par un rassasiement brut."
+    },
+    {
+      "id": "SapsareeCooking",
+      "name": "Ingrédients Hachés",
+      "desc": "- Instance max : 5\n- Expire à la Fin du Tour",
+      "summary": "",
+      "flavor": "Haché anarchiquement sans réel objectif autre que de le faire passer dans le gosier. Pas la moindre trace de philosophie ou de soin culinaire n’a accompagné chaque coupe."
+    },
+    {
+      "id": "SapsareeHungry",
+      "name": "J’ai de l’appétit, compris ?",
+      "desc": "- Instance max : 3\n- +1 Niveau Offensif par Instance\n- À 3 Instances, inflige +50% de dégâts\n- Expire lorsque Sous-Chef utilise la Capacité “Aah ! Je suis en pause-repas, compris ?”",
+      "summary": "",
+      "flavor": "Une faim satisfaite de tout ce qui est fourré dans l’estomac. Telle est la nature de ceux qui subsistent ici."
+    },
+    {
+      "id": "SapsareeSpices",
+      "name": "Sauce Explosive Brûleuse de Langue",
+      "desc": "- Instance max : 3\n- -1 Niveau Offensif par Instance",
+      "summary": "",
+      "flavor": "La solution d’un cuisinier feignant pour déguiser la qualité médiocre des ingrédients."
+    },
+    {
+      "id": "Sapsaree_LowMorale",
+      "name": "Aspiration Culinaire",
+      "desc": "- Moral Bas\n- +1 Niveau Offensif et subit +3% de dégâts par Instance de “J’ai de l’appétit, compris ?” sur soi",
+      "summary": "",
+      "flavor": "Ne vous faites pas d’illusions ; vous n’avez nul désir pour les “arts culinaires”. Vous voulez juste avoir l’impression de cuisiner et de prétendre dîner."
+    },
+    {
+      "id": "Sapsaree_Panic",
+      "name": "Aspiration Culinaire",
+      "desc": "- Panique\n- +2 Niveaux Offensifs et subit +5% de dégâts par Instance de “J’ai de l’appétit, compris ?” sur soi",
+      "summary": "",
+      "flavor": "Ne vous faites pas d’illusions ; vous n’avez nul désir pour les “arts culinaires”. Vous voulez juste avoir l’impression de cuisiner et de prétendre dîner."
+    },
+    {
+      "id": "HungryPeople_LowMorale",
+      "name": "FOMO",
+      "desc": "- Moral Bas\n- +1 Niveau Offensif tous les 20% de PV manquants sur soi (2 max)\n- Gagne 1 Vulnérabilité",
+      "summary": "",
+      "flavor": "Pas encore— Hors de question que je rate la mode de cette saison !"
+    },
+    {
+      "id": "HungryPeople_Panic",
+      "name": "FOMO",
+      "desc": "- Panique\n- +1 Niveau Offensif tous les 20% de PV manquants sur soi (2 max)\n- Gagne 1 Vulnérabilité",
+      "summary": "",
+      "flavor": "Pas encore— Hors de question que je rate la mode de cette saison !"
+    },
+    {
+      "id": "UnresolvedFeelings",
+      "name": "Patchwork Stratifié",
+      "desc": "- Instance max : 30\n- Gagne du Niveau Défensif égal à l’Instance\n- Lorsque touché par une cible ayant “Gratitude d’Écouter”, perd autant d’Instance que de “Gratitude d’Écouter” (2 fois par tour par Identité)\n- En Duel Perdu avec la Capacité “Merci… d’avoir écouté…”, perd 5 Instances",
+      "summary": "",
+      "flavor": "Ironiquement, il s’est assourdi à toutes voix en se cachant sous plusieurs couches d’épaisses couvertures."
+    },
+    {
+      "id": "Wariness",
+      "name": "Prudence Protégée",
+      "desc": "- Instance max : 10\n- Perd du Niveau Offensif et du Niveau Défensif égal à l’Instance\n- Si cette unité perd un Duel, perd 3 Instances",
+      "summary": "",
+      "flavor": "La méconnaissance de la Voix n’est pas ce qui rend méfiant ; c’est la Voix s’adressant au cœur qui le fait."
+    },
+    {
+      "id": "ReliefSense",
+      "name": "Gratitude d’Écouter",
+      "desc": "- Instance max : 3\n- Début du Tour : gagne 1 Instance et regagne 10 PSM\n- Les Capacités contre ce boss de Niveau infligent +(Instance * 50)% de dégâts ; puis, cet effet expire à la Fin de l’Attaque de la Capacité utilisée\n- À 3 Instances, les dégâts infligés par cette unité ignorent les effets de Niveau Défensif de Patchwork Stratifié",
+      "summary": "",
+      "flavor": "Merci… d’avoir écouté…"
+    },
+    {
+      "id": "HorribleTerror",
+      "name": "Relecture Horriblement Infinie",
+      "desc": "- Instance max : 1\n- Début du Tour : si cette unité est en état d’Érosion E.G.O., inflige -50% de dégâts à toutes les cibles ce tour\n- Fin du Tour : cette unité subit 50% de dégâts de PV ; puis, cet effet expire (arrondi à l’inférieur, cet effet ne peut pas Déséquilibrer cette unité)",
+      "summary": "",
+      "flavor": "Jusqu’à ce que vous écoutiez… jusqu’à ce que vous entendiez réellement l’annonce du Grand Magasin… encore… et encore… écoutez…"
+    },
+    {
+      "id": "HorribleEat",
+      "name": "Répétition en Répétition",
+      "desc": "- Instance max : 15\n- Gagne du Niveau Offensif égal à l’Instance",
+      "summary": "",
+      "flavor": "La diffusion est répétée jusqu’à ce que tout le monde l’entende. Elle devient un écho, et l’écho répète à son tour jusqu’à ce qu’il résonne."
+    },
+    {
+      "id": "NoirSuit",
+      "name": "Le Noir : Pardessus en Gabardine",
+      "desc": "- Instance max : 100\n- Début du Tour : gagne 1 Bonus de Niveau Défensif toutes les 20 Instances (4 max)\n- Gagne de l’Instance égale au Compte de Préservation que cette unité consomme ou gagne suite à ses effets de Capacité ou de Passif (30 par tour max ; l’Instance de cet effet est gagné qu’importe le Compte max de Préservation)\n- Lorsque touché pendant que cette unité a Bouclier, gagne 2 Instances (20 par tour)\n- Fin du Tour : si cette unité a Bouclier, gagne 10 Instances\n- À 100 Instances, convertit cet effet en “Armure Éveillée” au prochain tour",
+      "flavor": "Un pardessus fait d’un tissu sergé, un type de tissage créé en filant plusieurs fils de trame par-dessus un nombre inférieur de fils de chaîne.\nSon tissage caractéristique à haute densité protège son porteur des traumas externes.",
+      "summary": ""
+    },
+    {
+      "id": "Realisation",
+      "name": "Armure Éveillée",
+      "desc": "- Instance max : 100\n- Début du Tour : regagne 5 PSM toutes les 10 Instances\n- Début du Tour : gagne 1 Bonus de Niveau Offensif et 1 Bonus de Niveau Défensif toutes les 20 Instances (4 chacun max)\n- Convertit toutes les Pièces de Capacités Offensives de Base en Pièces Incassables\n- Après que cet effet soit converti, à partir de la fin du prochain tour, perd 10 Instances\n- À 0 Instance, convertit cet effet en “Le Noir : Pardessus en Gabardine”",
+      "flavor": "L’armure de tissu de Le Noir empêche la force externe d’atteindre son porteur. La raison pour laquelle elle s’éveille est d’éliminer le changement imposé par l’extérieur.\nLe tissu emmagasine l’énergie des attaques qu’il absorbe, puis expulse toute cette force en une unique rafale pour retirer la source extérieure de changement.",
+      "summary": ""
+    },
+    {
+      "id": "LaRouge_LowMorale",
+      "name": "Abandonnez le Cuir !",
+      "desc": "- Moral Bas\n- -3 Niveaux Défensifs\n- +1 Niveau Offensif",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Des organes qui devraient rester à l’intérieur gigotent avec une excitation impatiente, essayant de traverser la peau vers l’autre côté."
+    },
+    {
+      "id": "LaRouge_Panic",
+      "name": "Abandonnez le Cuir !",
+      "desc": "- Panique\n- -5 Niveaux Défensifs\n- +2 Niveaux Offensifs",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Des organes qui devraient rester à l’intérieur gigotent avec une excitation impatiente, essayant de traverser la peau vers l’autre côté."
+    },
+    {
+      "id": "LaNoir_LowMorale",
+      "name": "Retourner dans Ma Carapace…",
+      "desc": "- Moral Bas\n- -1 de Vitesse Max\n- +1 Niveau Défensif",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Se replier vers l’intérieur. Plus profondément. Plus fermement. Puisse la carapace se durcir autour de ce qui demeure."
+    },
+    {
+      "id": "LaNoir_Panic",
+      "name": "Retourner dans Ma Carapace…",
+      "desc": "- Panique\n- -5 de Vitesse Max\n- +3 Niveaux Défensifs",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Se replier vers l’intérieur. Plus profondément. Plus fermement. Puisse la carapace se durcir autour de ce qui demeure."
+    },
+    {
+      "id": "NiddlePinned",
+      "name": "Taxidermisé",
+      "desc": "- Instance max : 2\n\n- Lorsque touché, gagne +1 de Compte de Saignement (3 fois par tour)\n- Devient Immobilisé tant que cette unité a cet effet\n\n- Fin du Tour : perd 15 PV et 5 Clouguille sur soi\n- Fin du Tour : perd 1 Instance",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Comme vous le souhaitez… Fait à la main ! Sur mesure ! Cousu à la main !"
+    },
+    {
+      "id": "NiddleExpected",
+      "name": "Aiguille Cloueuse de Langue",
+      "desc": "- Si cette unité a équipé des Capacités Défensives :\n· Perd 1 Clouguille sur soi\n· Cet effet expire\n\n- Fin du Tour : gagne 3 Clouguille ; puis, cet effet expire",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Pour retirer un clou fixé, il faut d’abord s’arrêter brièvement."
+    },
+    {
+      "id": "HowlingCocoon",
+      "name": "Pleurs du Cocon - Frêle",
+      "desc": "- Le Cocon pleure par intermittence.\n- +2 de Puissance Finale de Capacité",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Ceux qui parlent en demi-vérités et en désinformation puisent leur confiance dans l’ignorance, ce qui les rend si convainquant."
+    },
+    {
+      "id": "HowlingCocoonTwo",
+      "name": "Pleurs du Cocon - Vicieux",
+      "desc": "- Le Cocon ne cesse pas ses pleurs.\n- +3 de Puissance Finale de Capacité",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Un denim rigide… et une lisière… ont rien à voir l’un avec l’autre… Gnnnngh… Vous le savez ! Vous essayez juste de me faire chier, c’est ça ?! Je le savais !!!"
+    },
+    {
+      "id": "MeursaultBuffet",
+      "name": "Celui Qui Cloue",
+      "desc": "- Dans cet Affrontement, si cette unité utilise ses Capacités, gagne 2 Ressources E.G.O. de l’Affinité correspondante (2 fois par tour)\n- Début du Tour : si un autre allié est sur le terrain, les dégâts subis par cette unité ne peuvent pas tuer cette unité ce tour\n- Ne peut pas Battre en Retraite",
+      "summary": "",
+      "flavor": "Agrippant le Clou Doré, il a ouvert le Berceau et cloue à présent un dieu sur un point."
+    },
+    {
+      "id": "Nutrition",
+      "name": "Un Quelque Chose Saisi.",
+      "desc": "- Instance max : 5\n- Fin du Tour : gagne +(Instance * 2) de Compte de Pulsation au prochain tour ; puis, cet effet expire\n- Si cet effet est à Instance max en expirant, toutes les Parties gagnent du Bouclier égal à 3% des PV du Noyau au prochain tour (le Bouclier gagné suite à cet effet n’expire pas à la Fin du Tour)",
+      "summary": "",
+      "flavor": "Tout ce qui est désirable et en la possession d’un autre aurait dû me revenir depuis le début. Ainsi, ce n’est pas du vol, mais une réappropriation légitime."
+    },
+    {
+      "id": "Gourmandise",
+      "name": "Carnage Incontrôlable",
+      "desc": "- Instance de Base : 3\n- Inflige +5% de dégâts tous les 3 Saignements sur soi (30% max)\n- Toutes les Parties ne peuvent pas être Déséquilibrées ; subit -75% de dégâts de Saignement\n- Fin du Tour : perd 1 Instance\n- Consomme tout le Compte de Pulsation lorsque cet effet expire",
+      "summary": "",
+      "flavor": "Tous les fragments disparates de son anatomie sursautent et convulsent, essayant de s’arracher. Ironiquement, un tel carnage incontrôlable rassemble le corps."
+    },
+    {
+      "id": "BuffetSick",
+      "name": "Sac de Souffrance",
+      "desc": "- Instance max : 30\n- Fin du Tour : cet effet expire lorsque l’effet Carnage Incontrôlable expire. Puis, cette unité gagne 1 Vulnérabilité au prochain tour toutes les 5 Instances",
+      "summary": "",
+      "flavor": "Cet organe est le terminus de toutes les entrées sensorielles douloureuses.\nLorsqu’il éclatera, il noiera toute raison et révèlera la douleur dans sa forme la plus pure."
+    },
+    {
+      "id": "SavePlacenta",
+      "name": "Auto-préservation",
+      "desc": "- Lorsque le Cordon de Vie est sur le point de subit une Attaque à Sens Unique ennemie, consomme 1 Instance pour rediriger le ciblage ennemi vers le Corps ; puis, utilise une Capacité exclusive de Défense d’Assistance\n- Fin du Tour : cet effet expire",
+      "summary": ""
+    },
+    {
+      "id": "BloodyMucus",
+      "name": "Baptême [Cramoisi]",
+      "desc": "- Instance max : 5\n- +1 Niveau Offensif toutes les 3 d’Intensité de Saignement sur soi (3 max)\n- À Instance max, double la quantité de dégâts subis de Saignement ; cette unité ne peut pas être vaincue par dégâts de Saignement\n- À l’Usage de Capacité Offensive de Base, gagne +(Instance * 2) de Compte de Saignement\n- À l’Usage de Capacité E.G.O. ou de Capacité Défensive, perd 3 Instances",
+      "summary": "",
+      "flavor": "“Puisse le sang baptiser la chair.”"
+    },
+    {
+      "id": "DeterioratingBody",
+      "name": "Accrochage Instinctif à la Vie",
+      "desc": "- Instance max : 5\n- Les PV ne descendent pas en dessous de 1\n- Lorsque touché, perd 1 Instance (2 fois par Capacité)\n- Fin du Tour : perd 1 Instance ; cette unité est vaincue lorsque cet effet expire",
+      "summary": "",
+      "flavor": "Effectivement, son instinct de s’accrocher à la vie est très tenace, mais au bout du compte, le moment vient où il faut lâcher prise."
+    },
+    {
+      "id": "BuffetFailed",
+      "name": "Épuisé",
+      "desc": "- Instance max : 3\n- -1 de Vitesse Min & Max par Instance\n- Début du Tour : gagne 1 Vulnérabilité\n- Fin du Tour : perd 1 Instance\n(S’applique à toutes les Parties)",
+      "summary": "",
+      "flavor": "Chaque déchaînement est suivi de limitations. Le monde prélève des paiements d’une forme proportionnée à la force et de la vélocité du déchaînement."
+    },
+    {
+      "id": "EarlyBuffet_LowMorale",
+      "name": "Schisme Intérieur",
+      "desc": "- Moral Bas\n- -3 Niveaux Défensifs\n- +3 Niveaux Offensifs\n- Dans un Duel contre des cibles ayant 5 Baptême [Cramoisi], +2 de Puissance de Duel",
+      "summary": "",
+      "flavor": "Pourquoi… ? Comment suis-je… venu à exister ? Que… suis-je ?"
+    },
+    {
+      "id": "EarlyBuffet_Panic",
+      "name": "Schisme Intérieur",
+      "desc": "- Panique\n- -5 Niveaux Défensifs \n- +3 Niveaux Offensifs\n- Inflige +10% de dégâts\n- Dans un Duel contre des cibles ayant 3 Baptême [Cramoisi] ou plus, +3 de Puissance de Duel",
+      "summary": "",
+      "flavor": "Pourquoi… ? Comment suis-je… venu à exister ? Que… suis-je ?"
+    },
+    {
+      "id": "SisyphusTopaz",
+      "name": "Topaze",
+      "desc": "- Aucun effet",
+      "summary": ""
+    },
+    {
+      "id": "SisyphusAmethyst",
+      "name": "Améthyste",
+      "desc": "- Les Capacités infligent 1 d’Intensité de Brûlure, de Saignement, de Tremblement, de Déchirure et de Lourdeur supplémentaire aux ennemis",
+      "summary": ""
+    },
+    {
+      "id": "SisyphusAmber",
+      "name": "Ambre",
+      "desc": "- Les Capacités infligent 1 d’Intensité de Brûlure, de Saignement, de Tremblement, de Déchirure et de Lourdeur supplémentaire aux ennemis\n- Gagne +1 de Compte supplémentaire en gagnant du Compte de Charge et du Compte de Calme",
+      "summary": ""
+    },
+    {
+      "id": "SisyphusEmerald",
+      "name": "Émeraude",
+      "desc": "- Les Capacités infligent 1 d’Intensité de Brûlure, de Saignement, de Tremblement, de Déchirure et de Lourdeur supplémentaire aux ennemis\n- Gagne +1 de Compte supplémentaire en gagnant du Compte de Charge et du Compte de Calme\n- Gagne +10 de Compte de Charge en gagnant cet effet (une fois par Affrontement)",
+      "summary": ""
+    },
+    {
+      "id": "SisyphusGold",
+      "name": "Or",
+      "desc": "- Les Capacités infligent 1 d’Intensité de Brûlure, de Saignement, de Tremblement, de Déchirure et de Lourdeur supplémentaire aux ennemis\n- Gagne +1 de Compte supplémentaire en gagnant du Compte de Charge et du Compte de Calme\n- Gagne +10 de Compte de Charge en gagnant cet effet (une fois par Affrontement)\n- +1 de Puissance de Duel",
+      "summary": ""
+    },
+    {
+      "id": "SisyphusRuby",
+      "name": "Rubis",
+      "desc": "- Les Capacités infligent 1 d’Intensité de Brûlure, de Saignement, de Tremblement, de Déchirure et de Lourdeur supplémentaire aux ennemis\n- Gagne +1 de Compte supplémentaire en gagnant du Compte de Charge et du Compte de Calme\n- Gagne +10 de Compte de Charge en gagnant cet effet (une fois par Affrontement)\n- +1 de Puissance de Duel\n- +1 de Puissance Finale",
+      "summary": ""
+    },
+    {
+      "id": "RougeThreeCocoonShield",
+      "name": "Dévotion",
+      "desc": "- Début du Tour : gagne du Bouclier égal à l’Instance\n- Perd de l’Instance en perdant du Bouclier",
+      "summary": "",
+      "flavor": "“Désormais, la foi est la substance des choses espérées, la          des choses invisibles.”"
+    },
+    {
+      "id": "RisingMadnessSisyphe",
+      "name": "Soleil",
+      "desc": "- Instance max : 2\n- Fin du Tour : perd 1 Instance\n- Début du Tour : à 0 Instance, applique les effets suivants :\n· Gagne 1 Bonus de Dégâts et 1 Vulnérabilité\n· Convertit les Pièces de toutes les Capacités en Pièces Incassables\n· Fin du Tour : restaure cet effet à Instance Max au prochain tour",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Tu peux être…"
+    },
+    {
+      "id": "RisingMadnessSisyphe2nd",
+      "name": "Soleil Piquant",
+      "desc": "- Instance max : 1\n- Fin du Tour : perd 1 Instance\n- Début du Tour : à 0 Instance, applique les effets suivants :\n· Gagne 2 Bonus de Puissance, 2 Bonus de Dégâts et 3 Vulnérabilités\n· Convertit les Pièces de toutes les Capacités en Pièces Incassables\n· Fin du Tour : restaure cet effet à Instance Max au prochain tour",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Le Soleil murmure à tous ceux qu’il touche, ne cessant de s’abattre tandis que sa chaleur grandit d’un simple picotement sur la peau à une brûlure douloureuse et insoutenable et que le sujet est cuit vivant."
+    },
+    {
+      "id": "WeakWithering_LowMorale",
+      "name": "Couture Désordonnée",
+      "desc": "- Moral Bas\n- Début du Tour : gagne 1 Malus de Niveau Offensif",
+      "summary": ""
+    },
+    {
+      "id": "WeakWithering_Panic",
+      "name": "Couture Désordonnée",
+      "desc": "- Moral Bas\n- Début du Tour : gagne 1 Malus de Niveau Offensif et 1 Malus de Dégâts",
+      "summary": ""
+    },
+    {
+      "id": "NiddlePin",
+      "name": "Clouguille",
+      "desc": "- Saignement Unique\n- En subissant des dégâts Perçants, gagne +1 de Compte de Saignement et réduit l’Instance de cet effet de 1\n- Fin du Tour : gagne 1 Saignement et réduit l’Instance de cet effet de 1",
+      "summary": ""
+    }
+  ]
+}

@@ -1,0 +1,2311 @@
+{
+  "dataList": [
+    {
+      "id": 146501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Par ici pour les chemises.",
+          "desc": "[WhenUse] Gagne +7 de Compte de [ChargeNoir]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +3 de Compte de [ChargeNoir] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Binding] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 146502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Le présentoir à pantalons est juste ici.",
+          "desc": "[WhenUse] Gagne +4 de Compte de [ChargeNoir]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +3 de Compte de [ChargeNoir] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Reduction] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 146503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "J’ai bien peur que cet article ne soit disponible à l’essage, Cher Client.",
+          "desc": "[CantChangeTarget]\n<color=#ff6000><mark=#ff000040><b><u>Si la cible a équipé une Capacité Défensive, annule cette Capacité</u></b></mark></color>\n[WhenUse] Inflige +10% de dégâts par [ChargeNoir] sur soi (50% max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [NoirNoComply]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Consomme 5 de Compte de [ChargeNoir] pour déclenche un [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 146504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Je vous en prie, soyez libre d’essayer quelque chose, Cher Client.",
+          "desc": "[CantChangeTarget]\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>Si la cible a équipé une Capacité Défensive, convertit toutes les Pièces de cette Capacité en [SuperCoin]s et gagnet +5 de Puissance Finale</u></b></mark></color>\n[WhenUse] Inflige +10% de dégâts par [ChargeNoir] sur soi (50% max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [NoirNoComply]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Consomme 5 de Compte de [ChargeNoir] pour déclenche un [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 146505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Veuillez faire attention à ne pas endommager la marchandise.",
+          "desc": "[CantChangeTarget]\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>Si la cible a équipé une Capacité Offensive, convertit toutes les Pièces de cette Capacité en [SuperCoin]s et gagnet +5 de Puissance Finale</u></b></mark></color>\n[WhenUse] Inflige +10% de dégâts par [ChargeNoir] sur soi (50% max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a équipé une Capacité Offensive, inflige 1 [NoirNoComply]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Consomme 5 de Compte de [ChargeNoir] pour déclenche un [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 146506,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Excusez-moi ! Veuillez essayer de ne pas froisser les vêtements !",
+          "desc": "[StartBattle] Si la cible n’a pas équipé de Capacité Défensive, inflige +([NoirNoComply] sur la cible * 100)% de dégâts, respectivement",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible a équipé une Capacité Défensive, elle perd 1 [NoirNoComply]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 146507,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Nous n’avons pas votre taille pour cet article. Permettez-moi de vérifier les stocks avec le siège social.",
+          "desc": "[StartBattle] Si l’Emplacement de Capacité utilisant cette Capacité est une cible principale de 3 Capacités ou plus, perd 3 [NoirBindArmor] et gagne 2 [Enhancement] au prochain tour",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Couture",
+          "desc": "[WhenUse] Gagne +6 de Compte de [ChargeRouge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [ChargeRouge]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Piétinement",
+          "desc": "[WhenUse] Gagne +4 de Compte de [ChargeRouge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [ChargeRouge]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vulnerable]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Triple Couture",
+          "desc": "[StartBattle] À moins de 50% de PV, convertit toutes les Pièces de cette Capacité en [SuperCoin]s\n[DefeatDuel] Les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible\n[EndSkill] Consomme 3 de Compte de [ChargeRouge] sur soi pour regagner 30 PV",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 4 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [ChargeRouge]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Regagne des PV égaux aux dégâts finaux de cette Pièce"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 4 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [ChargeRouge]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Regagne des PV égaux aux dégâts finaux de cette Pièce"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 4 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [ChargeRouge]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Regagne des PV égaux aux dégâts finaux de cette Pièce"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Marketing Agressif",
+          "desc": "[StartBattle] À moins de 50% de PV, convertit toutes les Pièces de cette Capacité en [SuperCoin]s, gagne 3 [DefenseDown] et +6 de Compte de [ChargeRouge]\n[DefeatDuel] Inflige -80% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible\n[WhenUse] Cette Capacité inflige +10% de dégâts par [ChargeRouge] sur soi (30% max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 4 [Laceration] et +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Regagne des PV égaux aux dégâts finaux de cette Pièce (100 PV par Capacité max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Consomme 3 de Compte de [ChargeRouge] sur soi pour Réutiliser cette Pièce (3 fois max)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Active le [Laceration] sur la cible. La cible perd 1 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Je coupe la viande, compris ?",
+          "desc": "[WhenUse] Si la cible a [SapsareeSpices], +1 de Puissance Finale",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Je coupe de gros morceaux, compris ?",
+          "desc": "[WhenUse] +1 de Puissance Finale par [SapsareeSpices] sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Couper, émincer, tailler, compris ?",
+          "desc": "[WhenUse] Si la cible a [SapsareeSpices], +1 de Puissance de Pièce\n[WhenUse] +1 de Puissance de Pièce tous les 6 [Laceration] sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ma maîtrise du couteau signature, compris ?",
+          "desc": "[WhenUse] +1 de Puissance de Pièce tous les 2 [SapsareeYammi] sur soi\n[WhenUse] Si la cible principale a [SapsareeSpices], +3 de Puissance Finale\n[DefeatDuel] Inflige -80% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible\n[EndSkill] Consomme tout [SapsareeYammi] sur soi",
+          "flavor": "Voici la technique qui l’a promue au poste de Sous-Chef.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147405,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Je récupère des ingrédients, compris ?",
+          "desc": "[CantDuel] [CantChangeTarget]\nPriorise les alliés ayant le plus de types d’effets\nDésactive les “Facteurs de base baissant la Santé Mentale” des alliés en utilisant cette Capacité",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Tue l’allié ciblé</u></b>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147406,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Venez tous tous, compris ?",
+          "desc": "[CanDuelGuard]\nInvoque tous les Portefeuilles de Cuir disponibles sur le terrain",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147407,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Miameuh ! Aspirez-ça, compris ?",
+          "desc": "Cette Capacité cible les alliés en cible principale et sous-cible\nEn ciblant un allié, inflige toujours 0 dégât",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible est un ennemi, inflige 1 [SapsareeSpices]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible est un allié, applique 2 [AttackUp] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible est un ennemi, inflige 1 [SapsareeSpices]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible est un allié, applique 2 [DefenseUp] au prochain tour"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Si la cible est un ennemi, inflige 1 [SapsareeSpices]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible est un allié, applique 1 [ParryingResultUp] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147408,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Aah ! Je suis en pause-repas, compris ?",
+          "desc": "[CantIdentify]\nCette Capacité ne touche pas et inflige 0 dégât\n[EndSkill] Pour chaque [SapsareeCooking] sur soi, regagne 1% de PV sur soi et gagne 1 [SapsareeYammi]\n[EndSkill] Pour chaque [SapsareeCooking] sur soi, tous les autres alliés regagnent 20% de PV et gagnent 1 [SapsareeYammi]\n[EndSkill] Consomme tous les [SapsareeCooking]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147409,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cuisiner !!! J’veux cuisiner, compris ?!",
+          "desc": "[CantIdentify]\nInvoque tous les Portefeuilles de Cuir disponibles sur le terrain\n[EndSkill] Consomme tout [SapsareeHungry] ; ne gagne pas de [SapsareeHungry] pour le reste de ce tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Nom Nom",
+          "desc": "[WhenUse] +1 de Puissance Finale tous les 4 [Laceration] sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Munch Munch",
+          "desc": "[WhenUse] +1 de Puissance de Pièce tous les 6 [Laceration] sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Buuuurp",
+          "desc": "[WhenUse] +2 de Puissance Finale tous les 4 [Laceration] sur la cible (4 max)\n[WhenUse] À 3 [SapsareeYammi] ou plus, convertit toutes les Pièces de cette Capacité en [SuperCoin]s\n[WhenUse] À 5 [SapsareeYammi] ou plus, gagne +2 de Poids d’Atq\n[WhenUse] Consomme tout [SapsareeYammi] sur soi",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 10 dégâts de PSM"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [SapsareeSpices]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Attente à la Cafétéria",
+          "desc": "[StartBattle] <color=#ff6000><mark=#ff000040><b><u>Gagne 1 [SapsareeShield]</u></b></mark></color>\n[WhenUse] Gagne (Intensité de [Laceration] sur la cible * 5) de Bouclier",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Je ne veux pas être cuisiné.",
+          "desc": "Capacité exclusive de [SupportProtect]\n[DefeatDuel] Gagne 5 [Vulnerable]\n<color=#ff6000><mark=#ff000040><b><u>[EndSkillAll] Si cette unité est vivante, Sous-Chef utilise “Je récupère des ingrédients, compris ?” sur elle</u></b></mark></color>\n(Ne se déclenche pas si Sous-Chef est Déséquilibrée)",
+          "flavor": "Il est temps pour la viande d’accomplir son rôle.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Buuuurp l’Estomac Vide",
+          "desc": "[WhenUse] +2 de Puissance Finale tous les 4 [Laceration] sur la cible (4 max)\n[WhenUse] À 3 types d’effets ou plus, convertit toutes les Pièces de cette Capacité en [SuperCoin]s\n[WhenUse] À 5 types d’effets ou plus, gagne +2 de Poids d’Atq",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 10 dégâts de PSM"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Traînasser",
+          "desc": "[WhenUse] Gagne (Intensité de [Laceration] sur la cible * 5) de Bouclier",
+          "flavor": "À moins qu’il y ait quelque chose à faire, la plupart des Le Kaki rêvassent et ne font rien.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Annonce à la Clientèle",
+          "desc": "Dans un Duel contre une Capacité Défensive Affrontable, +20 de Puissance de Duel\nCette Capacité ne déclenche pas la Capacité Défensive de la cible\nCette Capacité inflige 0 dégât\n<color=#ff6000><mark=#ff000040><b><u>[DefeatDuel] Inflige 10 [Wariness] à la cible</u></b></mark></color>",
+          "flavor": "Écoutez… Entendez la Voix…",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "<color=#ff6000><mark=#ff000040><b><u>[UnBrokenCoinOnSucceedAttack] Retire toute [Wariness] de la cible et applique 1 [ReliefSense] (une fois par Pécheur par tour)</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Annonce d’Avertissement",
+          "desc": "[CantChangeTarget]\n- Tout Pécheur ayant la même Instance de [Wariness] que le Pécheur ciblé peut rediriger cette Capacité vers lui, qu’importe la Vitesse\nPriorise les cibles ayant le plus d’Instances de [Wariness]\nCette Capacité ne déclenche pas la Capacité Défensive de la cible\n[EndSkill] Consomme toute [Wariness] sur la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Inflige (PSM de la cible + 45) dégâts de PSM ; puis, inflige 1 [HorribleTerror] au prochain tour</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Merci… d’avoir écouté…",
+          "desc": "[CantChangeTarget]\n- Tout Pécheur ayant la même Instance de [ReliefSense] que le Pécheur ciblé peut rediriger cette Capacité vers lui, qu’importe la Vitesse\nPriorise les cibles ayant le plus d’Instances de [ReliefSense]\n[DefeatDuel] Subit +150% de dégâts de la Capacité ayant affronté en Duel cette Capacité\n[EndSkill] Retire toute [ReliefSense] de la cible",
+          "flavor": "L’enchantement prend plusieurs formes, avec différents chemins et différentes fins. Néanmoins, l’état en lui-même est toujours le même ; le cœur s’ouvre et, en s’ouvrant, devient vulnérable.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ruée",
+          "desc": "[WhenUse] +1 de Puissance Finale tous les 4 ([Vibration] + [Sinking]) sur la cible (3 max)\n[WhenUse] À moins de 50% de PV, gagne les effets suivants :\n- Cette Capacité inflige +2 d’Intensité et de Compte de [Vibration] supplémentaire\n- Convertit la Pièce finale en [SuperCoin] ; En Touche, déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ruée Écrasante",
+          "desc": "[WhenUse] +1 de Puissance Finale tous les 4 ([Vibration] + [Sinking]) sur la cible (3 max)\n[WhenUse] À moins de 50% de PV, gagne les effets suivants :\n- Cette Capacité inflige +2 d’Intensité et de Compte de [Vibration] supplémentaire\n- Convertit les deuxième et troisième Pièces en [SuperCoin]s ; En Touche en utilisant la deuxième Pièce, déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148106,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Résonnement à Travers Tout l’Étage",
+          "desc": "[CantChangeTarget]\nPriorise les cibles qui sont en Panique\nLes Pécheurs ayant [ReliefSense] peuvent rediriger cette Capacité vers eux\n[WhenUse] Si la cible n’a pas [ReliefSense], gagne +2 de Poids d’Atq\n[WhenUse] +1 de Puissance Finale tous les 4 ([Vibration] + [Sinking]) sur la cible principale (4 max)\n[DefeatDuel] Gagne les effets suivants :\n- Inflige -50% de dégâts\n- Les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible ; En Touche, n’active pas l’effet de [Sinking] sur la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige de la [Sinking] égale à [UnresolvedFeelings] (15 max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148107,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "POUF ! BIM ! KRASH !",
+          "desc": "Peut affronter cette Capacité en Duel qu’importe la Vitesse\n[StartBattle] Gagne 100 de Bouclier\n- Gagne 4 de Bouclier supplémentaire par 1% de PV manquant (200 max)\n- Avant l’Attaque, si le Bouclier n’est pas brisé, Réutilise la Pièce finale une fois tous les 100 de Bouclier restants (2 fois max)\n[WhenUse] +1 de Puissance Finale et +1 de Puissance de Pièce tous les 6 ([Vibration] + [Sinking]) sur la cible principale (4 chacun max)\n[DefeatDuel] Gagne les effets suivants :\n- Inflige -75% de dégâts\n- Les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible ; En Touche, n’active pas l’effet de [Sinking] sur la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige ([UnresolvedFeelings] / 3) [Sinking] (10 max)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Si la cible n’a pas [ReliefSense], inflige 1 [Wariness]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148108,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Résonnement à Travers Tout l’Étage",
+          "desc": "[CantChangeTarget]\nPriorise les cibles qui sont en Panique\nLes Pécheurs ayant [ReliefSense] peuvent rediriger cette Capacité vers eux\nCette Capacité ne déclenche pas la Capacité Défensive de la cible\nPeut affronter cette Capacité en Duel qu’importe la Vitesse\n[WhenUse] Gagne +3 de Poids d’Atq\n- Réduit le gain de Poids d’Atq de 1 par [ReliefSense] sur la cible principale\n[WhenUse] Gagne les effets suivants :\n- +1 de Puissance Finale tous les 4 ([Vibration] + [Sinking]) sur la cible principale (4 max)\n- +1 de Puissance de Duel tous les 3 [Wariness] sur la cible principale (3 max)\n- Inflige +([Wariness] sur la cible * 10)% de dégâts (100% max ; calculé séparément pour chaque cible)\n[DefeatDuel] Gagne les effets suivants :\n- Inflige -50% de dégâts\n- Les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible ; En Touche, n’active pas l’effet de [Sinking] sur la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige +3 de Compte de [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige de la [Sinking] égale à [UnresolvedFeelings] (15 max)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige de la [Sinking] égale à [UnresolvedFeelings] (15 max)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148109,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "POUF ! BIM ! KRASH ! BOUM-CRASH !",
+          "desc": "Cette Capacité ne déclenche pas la Capacité Défensive de la cible\nPeut affronter cette Capacité en Duel qu’importe la Vitesse\n[StartBattle] Gagne 100 de Bouclier\n- Gagne 4 de Bouclier supplémentaire par 1% de PV manquant (400 max)\n- Avant l’Attaque, si le Bouclier n’est pas brisé, Réutilise la Pièce finale une fois tous les 100 de Bouclier restants (3 fois max)\n[WhenUse] Gagne les effets suivants :\n- +1 de Puissance Finale et +1 de Puissance de Pièce tous les 6 ([Vibration] + [Sinking]) sur la cible principale (4 chacun max)\n- +1 de Puissance de Duel tous les 2 [Wariness] sur la cible principale (5 max)\n- Inflige +([Wariness] sur la cible * 10)% de dégâts (100% max ; calculé séparément pour chaque cible)\n[DefeatDuel] Gagne les effets suivants :\n- Inflige -75% de dégâts\n- Les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible ; En Touche, n’active pas l’effet de [Sinking] sur la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige ([UnresolvedFeelings] / 2) [Sinking] (15 max)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Si la cible n’a pas [ReliefSense], inflige 1 [Wariness]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 146601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Je l’entends… Je peux l’entendre !",
+          "desc": "[WhenUse] Gagne +5 de Compte de [ChargeRouge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [ChargeRouge]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [ChargeRouge]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 146602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "On m’a accordé une nouvelle chance de changer mes vêtements !",
+          "desc": "[WhenUse] Gagne +5 de Compte de [ChargeRouge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [ChargeRouge]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [ChargeRouge]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 146603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ma foi n’était pas vaine !",
+          "desc": "[WhenUse] Inflige +10% de dégâts par [ChargeRouge] sur soi (50% max)\n[WhenUse] Consomme 5 de Compte de [ChargeRouge] pour gagner +2 de Puissance Finale",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 146604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Racler ! Écorcher ! Peler !",
+          "desc": "[StartBattle] À moins de 50% de PV, convertit toutes les Pièces de cette Capacité en [SuperCoin]s\n[WhenUse] Inflige +10% de dégâts par [ChargeRouge] sur soi (50% max)\n[WhenUse] Inflige +3% de dégâts par Compte de [ChargeRouge] sur soi (60% max)\n\n[BeforeAttack] -2 de Puissance de Base par Pièce Fissurée",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 146605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Alors, ce monde n’était finalement pas dénué de sens !",
+          "desc": "[StartBattle] Cette Capacité inflige -10% de dégâts par cible ayant équipé une Capacité Défensive\n[StartBattle] Gagne 1 [DefenseDown] au prochain tour par cible ayant équipé une Capacité Offensive\n\n[BeforeAttack] -1 de Puissance de Base par Pièce Fissurée",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 146606,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "La Voix est avec moi, je le sais !",
+          "desc": "[OnDirectAttack] Cette Capacité inflige -80% de dégâts",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[DefeatDuelAttack] Regagne des PV égaux aux dégâts finaux de cette Capacité"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 146607,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Être moi-même… Être absolument moi-même… !",
+          "desc": "[DuelCounter]\nCapacité exclusive de [RougeThreeCocoon]\n\n[DefeatDuel] Inflige -80% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 10 <color=#ff6000><mark=#ff000040><b><u>[RougeThreeCocoonHit] ou plus sur soi, Réutilise cette Pièce (une fois par Capacité)</u></b></mark></color>"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack]<color=#ff6000><mark=#ff000040><b><u> À 20 [RougeThreeCocoonHit] ou plus, Réutilise cette Pièce (une fois par Capacité)</u></b></mark></color>"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Gagne +1 de Compte de [ChargeRouge]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Clip-clop",
+          "desc": "[WhenUse]\n- +1 de Puissance Finale tous les 4 [Vibration] sur la cible (3 max)\n- À 8 de Compte de [ChargeNoir] ou plus, +1 de Puissance de Pièce\n[WhenUse] À moins de 15 de Compte de [ChargeNoir], gagne +2 de Compte de [ChargeNoir]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [ChargeNoir]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [ChargeNoir]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Clip-clop, Ruade !",
+          "desc": "[WhenUse]\n- +1 de Puissance Finale tous les 4 [Vibration] sur la cible (3 max)\n- À 8 de Compte de [ChargeNoir] ou plus, +1 de Puissance de Pièce\n[WhenUse]\n- Gagne +3 de Compte de [ChargeNoir]\n- À 3 [ChargeNoir] ou plus, convertit la Pièce finale en [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Vibration] et +2 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne +3 de Compte de [ChargeNoir]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [ChargeNoir]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] À 15 de Compte de [ChargeNoir] ou plus, consomme 3 de Compte de [ChargeNoir] pour déclencher un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "S’il vous plaît, coupez-les ! Je vous en supplie !",
+          "desc": "Peut affronter cette Capacité en Duel qu’importe la Vitesse\n[WhenUse]\n- À 10 de Compte de [ChargeNoir] ou plus, consomme 10 de Compte de [ChargeNoir] pour gagner +1 de Puissance de Base et +1 de Puissance de Pièce\n- À moins de 10 de Compte de [ChargeNoir], gagne +5 de Compte de [ChargeNoir]\n- À 3 [ChargeNoir] ou plus, convertit toutes les Pièces de cette Capacité en [SuperCoin]s",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la Capacité a consommé du Compte de [ChargeNoir], déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Clippety-clop, quel bruit ignoble…",
+          "desc": "[WideAreaRampage]\nInflige +3% de dégâts par [ChargeNoir] sur soi (15% max)\nEn Touche, déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible\n[StartBattle] Gagne ([ChargeNoir] sur soi - 2) [NoirBindArmor] (3 max)\n[WhenUse]\n- Inflige 3 [Vibration] et +3 de Compte de [Vibration] à toutes les cibles\n- À 10 de Compte de [ChargeNoir] ou plus, consomme 10 de Compte de [ChargeNoir] pour gagner +2 de Puissance de Base et +2 de Puissance de Pièce\n[DefeatDuel]\n- Inflige -50% de dégâts\n- Les dégâts et effets causés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chose Révoltante !",
+          "desc": "[WhenUse] À 50 [NoirSuit] ou plus, gagne 1 Bonus de Niveau Défensif\n[WhenUse] Si cette unité a [Realisation] :\n- Inflige +(Intensité de [ChargeNoir] sur soi * 8)% de dégâts (40% max)\n- Consomme 4 [Realisation]\n[WhenUse] À 12 de Compte de [ChargeNoir] ou plus, consomme 2 de Compte de [ChargeNoir] pour gagner +1 de Puissance de Duel\n[WhenUse] À moins de 10 de Compte de [ChargeNoir], gagne +2 de Compte de [ChargeNoir]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [ChargeNoir]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration] et +1 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [ChargeNoir]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "N’avez-vous pas honte de cette jambe supplémentaire ?",
+          "desc": "[WhenUse] Si cette unité a [NoirSuit] :\n- Gagne 1 [DefenseUp] toutes les 40 Instances (2 max)\n[WhenUse] Si cette unité a [Realisation] :\n- Inflige +(Intensité de [ChargeNoir] sur soi * 6)% de dégâts (30% max)\n- Consomme 6 [Realisation]\n[WhenUse] À 12 de Compte de [ChargeNoir] ou plus, consomme 2 de Compte de [ChargeNoir] pour gagner +1 de Puissance Finale\n[WhenUse] À moins de 15 de Compte de [ChargeNoir], gagne +3 de Compte de [ChargeNoir]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Vibration] et +2 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [ChargeNoir]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +1 de Compte de [ChargeNoir]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] À 3 d’Intensité de [ChargeNoir] ou plus, déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Je vais vous la couper. Voyez cela comme de la pitié.",
+          "flavor": "Vous êtes-vous déjà demandé comment celui-ci réagirait en rencontrant le Responsable de Marque de Le Noir ?",
+          "desc": "Peut affronter cette Capacité en Duel qu’importe la Vitesse\n[WhenUse] Si cette unité a [NoirSuit], +1 de Puissance de Duel toutes les 30 Instances (3 max)\n[WhenUse] Si cette unité a [Realisation], inflige +1% de dégâts toutes les 2 Instances (50% max)\n[WhenUse]\n- À 10 de Compte de [ChargeNoir] ou plus, consomme 10 de Compte de [ChargeNoir] pour gagner +2 de Puissance de Pièce\n- À moins de 10 de Compte de [ChargeNoir], gagne +5 de Compte de [ChargeNoir]\n[DefeatDuel]\n- Inflige -50% de dégâts\n- Augmente le Seuil de Déséquilibre de cette unité d’autant qu’elle a d’Instance de [DefenseUp]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si cette Capacité a consommé du Compte de [ChargeNoir], déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Simple Coup de Pied",
+          "desc": "[WhenUse] Si cette unité a [NoirSuit] :\n- Inflige +1% de dégâts toutes les 3 Instances (30% max)\n- Gagne 1 [DefenseUp] toutes les 15 Instances (5 max)\n[WhenUse] À 10 [ChargeNoir] ou plus, consomme 10 de Compte de [ChargeNoir] pour gagner +2 de Puissance de Pièce\n- À 50% de PV ou moins, consomme aussi jusqu’à 10 de Compte de [ChargeNoir] restant et inflige +(Compte de [ChargeNoir] consommé en plus * 2.5)% de dégâts (25% max)\n[WhenUse] À 3/5 d’Intensité de [ChargeNoir] ou plus, +1/+2 de Puissance de Pièce\n[DefeatDuel]\n- Inflige -75% de dégâts\n- Les dégâts et effets causés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Inflige +5% de dégâts par [DefenseUp] sur soi (100% max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] À 3/5 d’Intensité de [ChargeNoir] ou plus, déclenche un [VibrationExplosion] une/deux fois ; puis, réduit le Compte de [Vibration] de la cible de 1/2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Simple Coup de Pied - Couture Multiple",
+          "desc": "[WhenUse] Si cette unité a [Realisation] :\n- Inflige +1% de dégâts toutes les 2 Instances (50% max)\n- Inflige +(Intensité de [ChargeNoir] sur soi * 6)% de dégâts (30% max)\n- Consomme 15 [Realisation]\n[WhenUse] À 10 de Compte de [ChargeNoir] ou plus, consomme 10 de Compte de [ChargeNoir] pour gagner +2 de Puissance Finale et +1 de Puissance de Pièce\n[WhenUse] À 3/5 d’Intensité de [ChargeNoir] ou plus, +1/+2 de Puissance de Pièce\n[DefeatDuel]\n- Inflige -75% de dégâts\n- Les dégâts et effets causés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] À 3/5 d’Intensité de [ChargeNoir] ou plus, déclenche un [VibrationExplosion] une/deux fois ; puis, réduit le Compte de [Vibration] de la cible de 1/2"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige (20% des dégâts finaux de cette Pièce) dégâts Perçants"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Bla Bla Chaîne Bla",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +1 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Yap Yap Trame Yap",
+          "desc": "[WideAreaRampage]\n\nInflige +5% de dégâts par [NiddlePin] sur la cible (25% max)\n\n[DefeatDuel] Inflige -80% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [NiddlePin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [NiddlePin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [NiddlePin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Coudre ! Par ! Pouce !",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [NiddlePin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [NiddlePin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [NiddlePin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [NiddlePin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "20 coutures par pouce, minimum !!!",
+          "desc": "[DefeatDuel] Inflige -80% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [NiddlePin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Trop régulier, tu dis ? Pas de surpiqûre, tu dis ? Rassemblement !!!",
+          "desc": "[StartBattle] Invoque 3 Aiguividus au prochain tour",
+          "coinlist": []
+        }
+      ]
+    },
+    {
+      "id": 149606,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tu veux que je couds ça à la main ?! À LA MAIN ???!!!",
+          "desc": "¨Priorise les alliés qui ne sont pas Déséquilibrés ; inflige 0 dégât\nNe déclenche pas la Capacité Défensive de la cible\n\n[EndSkill] L’Aiguividu ciblé active une Capacité Offensive aléatoire (ignore le Déséquilibre)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Applique 1 Bonus de Puissance Offensive ce tour et au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149607,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Double couture dépassant la couture latérale ? Double-aiguille ! Rejeté !",
+          "desc": "[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Inflige +50% de dégâts par Aiguividu sur le terrain\n • S’il n’y a pas d’Aiguividu sur le terrain, annule cette Capacité</u></b></mark></color>\n\n[EndSkill] Tue tous les Aiguividus\n • Gagne 1 [Enhancement] au prochain tour par Aiguividu tué par cet effet",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +100% de dégâts contre les cibles [NiddlePinned]es"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149608,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Aucun bouton de point de croix ? Rejeté !",
+          "desc": "[DefeatDuel] Réduit le [NiddlePin] sur la cible de 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Consomme 1 [NiddlePin] sur la cible pour infliger 5 dégâts fixes"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Consomme 1 [NiddlePin] sur la cible pour infliger 5 dégâts fixes"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149609,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Le piqué est trop visible, tu dis ?! C’est ton cul que je vais piquer !",
+          "desc": "[CantDuel]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Inflige 2 [NiddlePinned] aux cibles ayant 5 [NiddlePin] ou plus</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149610,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Juste… Manger !!!",
+          "desc": "Priorise les ennemis [NiddlePinned]s\n- Priorise les cibles ayant le plus d’Instances de [NiddlePin]\nLes cibles ayant 5 Instances de [NiddlePin] ou plus ne peuvent pas rediriger cette Capacité vers eux\n\nInflige +10% de dégâts par [NiddlePin] sur la cible (50% max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Si la cible est [NiddlePinned]e, inflige des dégâts fixes égaux à 99% des PV max de la cible</u></b></mark></color>"
+                },
+                {
+                  "desc": "[EnemyKill] Regagne 5% de PV"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Hrgh…",
+          "desc": "[WhenUse] +1 de Puissance Finale tous les 4 [Laceration] sur la cible (2 max)\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] Si la cible n’a pas de [Laceration], inflige -80% de dégâts et convertit toutes les Pièces de cette Capacité en [SuperCoin]s</u></b></mark></color>\n[WinDuel] Retire 1 effet positif aléatoire de la cible (exclut la Charge et le Calme) ; puis, gagne 1 [Nutrition]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [BloodyMucus]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Nngh…",
+          "desc": "[WhenUse] +1 de Puissance Finale tous les 4 [Laceration] sur la cible (2 max)\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] Si la cible n’a pas de [Laceration], inflige -80% de dégâts et convertit toutes les Pièces de cette Capacité en [SuperCoin]s</u></b></mark></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [BloodyMucus]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Retire 1 effet positif aléatoire de la cible (exclut la Charge et le Calme) pour gagner 1 [Nutrition]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [BloodyMucus]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Pw… ffeh…",
+          "desc": "[WhenUse] +1 de Puissance Finale tous les 4 [Laceration] sur la cible principale (3 max)\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] Si la cible principale n’a pas de [Laceration], inflige -80% de dégâts et convertit toutes les Pièces de cette Capacité en [SuperCoin]s</u></b></mark></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [BloodyMucus]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Retire 1 effet positif aléatoire de la cible (exclut la Charge et le Calme) pour gagner 1 [Nutrition]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [BloodyMucus]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "J’ai… froid…",
+          "desc": "Priorise les cibles ayant le moins de PV actuels\nInflige +5% de dégâts par 1% de PV manquants sur la cible (250% max)\n[WhenUse] +2 de Puissance Finale tous les 4 [Laceration] sur la cible (4 max)\n[WhenUse] Si la cible a moins de 50% PV, +3 de Puissance de Base\n[WinDuel] Retire 1 effet positif aléatoire de la cible (exclut la Charge et le Calme) pour gagner 2 [Nutrition]\n[DefeatDuel] Inflige -80% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 4 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [BloodyMucus]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 2 [BloodyMucus]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148405,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ça fait mal… ! Mon corps… n’écoute pas…",
+          "desc": "Priorise les cibles ayant le moins de PV actuels comme cible principale\nInflige +5% de dégâts tous les 3% de PV manquants sur la cible (50% max)\n[WhenUse] +2 de Puissance Finale tous les 4 [Laceration] sur la cible principale (4 max)\n[WhenUse] Si la cible principale a moins de 50% de PV, +2 de Puissance de Base\n[WinDuel] Retire 1 effet positif aléatoire de la cible principale (exclut la Charge et le Calme) pour gagner 2 [Nutrition]\n[DefeatDuel] Inflige -80% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [BloodyMucus]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [BloodyMucus]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [BloodyMucus]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [BloodyMucus]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [BloodyMucus]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [BloodyMucus]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148406,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Faim… froid… mal… !",
+          "desc": "Priorise les cibles ayant le moins de PV actuels comme cible principale\nInflige +1% de dégâts par 1% de PV manquants sur la cible (30% max)\n[WhenUse] +1 de Puissance de Pièce tous les 6 [Laceration] sur la cible principale (2 max)\n[WhenUse] Si la cible principale a moins de 50% de PV, +2 de Puissance de Base\n[WhenUse] À 10 de Compte de [ChargeRouge] ou plus, consomme toute [ChargeRouge] sur soi et gagne +2 de Puissance de Pièce et +2 de Poids d’Atq\n[DefeatDuel] Inflige -95% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 6 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [BloodyMucus]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Active le [Laceration] de la cible une fois. La cible perd 1 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [BloodyMucus]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Active le [Laceration] de la cible une fois. La cible perd 1 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [BloodyMucus]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Active le [Laceration] de la cible une fois. La cible perd 1 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148407,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Allez… vous en…",
+          "desc": "[WhenUse] +1 de Puissance Finale tous les 4 [Laceration] sur la cible (2 max)\n[WinDuel] Gagne +3 de Compte de [ChargeRouge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Binding] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148408,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "J’ai… faim…",
+          "desc": "[WhenUse] +1 de Puissance Finale tous les 4 [Laceration] sur la cible (2 max)\n[WinDuel] Gagne +3 de Compte de [ChargeRouge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Binding] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148409,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Quelque chose… à manger… N’importe quoi…",
+          "desc": "[WhenUse] +1 de Puissance Finale tous les 4 [Laceration] sur la cible principale (2 max)\n[WinDuel] Gagne +3 de Compte de [ChargeRouge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Binding] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148410,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "J’entends… la Voix…",
+          "desc": "[WhenUse] +1 de Puissance de Pièce tous les 6 [Laceration] sur la cible principale (2 max)\n[WhenUse] À moins de 15 de Compte de [ChargeRouge], gagne jusqu’à 15 de Compte de [ChargeRouge] et gagne 1 [BuffetFailed] au prochain tour tous les 5 de Compte de [ChargeRouge] gagnés avec cet effet\n[DefeatDuel] Inflige -80% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "flavor": "Plusieurs Voix occupent cette grande surface. Laquelle est-elle ?",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148411,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ne faites… pas ça…",
+          "desc": "[CanDuelGuard]\nCapacité exclusive de [SupportProtect]\n[WhenUse] Gagne (Compte de [ChargeRouge] sur soi * 10) de Bouclier\n[WinDuel] Gagne +3 de Compte de [ChargeRouge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148412,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Je… veux…",
+          "desc": "À 6 [Laceration] ou plus, +1 de Puissance de Pièce\n[WhenUse] +2 de Puissance Finale tous les 4 [Laceration] sur la cible principale (4 max)\n[DefeatDuel] Perd 2 de Compte de [ChargeRouge]\n[DefeatDuel] Inflige -80% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148413,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Que… suis-je… ?",
+          "desc": "[WhenUse] +1 de Puissance Finale tous les 4 [Laceration] sur la cible principale (3 max)\n[WhenUse] À 10 de Compte de [ChargeRouge] ou plus, consomme 10 de Compte de [ChargeRouge] pour gagner +2 de Puissance de Pièce\n[DefeatDuel] Inflige -80% de dégâts et les dégâts infligés par cette Capacité ne peuvent pas Déséquilibrer la cible",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 4 [Binding] au prochain tour"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Appel Fébrile",
+          "desc": "",
+          "flavor": "… Prends-moi la main.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [BloodyMucus]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflige 1 [BloodyMucus]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

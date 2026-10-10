@@ -1515,7 +1515,7 @@
     {
       "id": 1090921,
       "name": "Arts Martiaux T Corp.",
-      "desc": "À 1 allié avec la plus haute Vitesse : +1 de Puissance de Duel en affrontant un Duel des cibles ayant 5 [Vibration] ou plus"
+      "desc": "À 1 allié avec la plus haute Vitesse : +1 de Puissance de Duel en affrontant en Duel des cibles ayant 5 [Vibration] ou plus"
     },
     {
       "id": 1051001,
@@ -3254,6 +3254,114 @@
       "id": 1061621,
       "name": "Par la Fonte, J’Ouvrirai le Chemin",
       "desc": "1 allié avec la Vitesse la plus rapide : En Duel Gagné contre des ennemis ayant [Combustion] ou une “Brûlure Unique”, inflige 1 [Binding] au prochain tour (une fois par tour)\n- Si la cible a 4 de Compte de [Combustion] ou moins, inflige également +1 de Compte de [Combustion] à ladite cible ce tour\n- Si la cible a 5 de Compte de [Combustion] ou plus, inflige également 3 [Combustion] à ladite cible ce tour"
+    },
+    {
+      "id": 1041601,
+      "name": "Impression",
+      "desc": "En déclenchant un [VibrationExplosion] sur l’ennemi, augmente l’augmentation de Seuil de Déséquilibre de +15%\n- À 12 de Compte de [ChargeNoirAlly] ou plus, consomme 1 de Compte de [ChargeNoirAlly] en déclenchant un [VibrationExplosion] pour augmenter l’augmentation de Seuil de Déséquilibre de +30% à la place (effet appliqué par cible)\n\nLorsque touché, si cette unité a du Bouclier, inflige 2 d’Intensité de [Vibration] à l’attaquant (2 fois par tour par ennemi)",
+      "summary": "Augmente l’augmentation de Seuil de Déséquilibre",
+      "flavor": "Les Le Noir pensent qu’ils peuvent faire s’effondrer la valeur de leurs adversaires en les soumettant à de violents tremblements. Plus la cible vibre violemment, plus elle doit traverser de changements d’instant en instant. Les techniques de combat des Le Noir furent bâties sur cette conviction.\n\nEt bien que les Le Noir ne s’en souviennent plus ou ne l’aient jamais vécu, par-delà le Grand Magasin Sisyphe existent des techniques de combat fondées sur ce même principe et ont été raffinées bien au-delà."
+    },
+    {
+      "id": 1041602,
+      "name": "Le Noir : Tissu Gabardine",
+      "desc": "En entrant sur le terrain, gagne 25 [NoirSuitAlly]\n\nDébut du Tour : gagne du Bouclier égal à (([NoirSuitAlly] + [RealisationAlly]) / 5)% des PV max de cette unité",
+      "summary": "Gagne du Bouclier"
+    },
+    {
+      "id": 1041603,
+      "name": "Le Noir : Tissu Gabardine",
+      "desc": "En entrant sur le terrain, gagne 25 [NoirSuitAlly]\n\nDébut du Tour :\n- Gagne du Bouclier égal à (([NoirSuitAlly] + [RealisationAlly]) / 5)% des PV max de cette unité\n- Si cette unité a [RealisationAlly], convertit “Triple Couture Piétinée” en “Simple Coup de Pied - Couture Multiple”",
+      "summary": "Gagne du Bouclier"
+    },
+    {
+      "id": 1041604,
+      "name": "Conservation",
+      "desc": "Gagne 1 d’Intensité de [ChargeNoirAlly] tous les 10 de Compte de [ChargeNoirAlly] cumulés consommés par cette unité dans cet Affrontement\n\nFin du Tour : à moins de 3 d’Intensité de [ChargeNoirAlly], consomme tout le Compte de [ChargeNoirAlly] pour gagner (Compte de [ChargeNoirAlly] consommé * 5) de Bouclier au prochain tour\n\nÀ 3 d’Intensité de [ChargeNoirAlly] ou plus, les Capacités de Base de cette unité gagnent +1 de Compte de [ChargeNoirAlly] lorsque cette unité a moins de 12 de Compte de [ChargeNoirAlly]\n\nÀ l’Usage de Capacité Offensive de Base,\n- Si la cible a 6 d’Intensité de [Vibration] ou plus, +1 de Puissance de Pièce\n- À 3 d’Intensité de [ChargeNoirAlly] ou plus, +1 de Puissance de Pièce\n- Inflige +(Intensité de [ChargeNoirAlly] * 2)% de dégâts (10% max)\n· Si ladite Capacité est “Triple Couture Piétinée” ou “Simple Coup de Pied - Couture Multiple”, inflige +(Intensité de [ChargeNoirAlly] * 4)% de dégâts à la place (20% max)",
+      "summary": "En dessous d’un certain nombre de Compte de Préservation, gagne plus de Compte de Préservation\nÀ l’Usage de Capacité Offensive de Base, gagne de la Puissance de Pièce et inflige plus de dégâts"
+    },
+    {
+      "id": 1041621,
+      "name": "La Vertu et la Valeur de Le Noir",
+      "desc": "Parmi les alliés ayant [Charge] ou une [Charge] Unique, lorsque 1 allié avec l’Ordre de Déploiement le plus tôt déclenche un [VibrationExplosion] en utilisant ses Capacités de Base, augmente l’augmentation de Seuil de Déséquilibre de +12.5%",
+      "summary": "Augmente le Seuil de Déséquilibre augmenté par Sursaut de Tremblement\nInflige de l’Intensité de Tremblement lorsque touché"
+    },
+    {
+      "id": 1081601,
+      "name": "Berceau du Changement",
+      "desc": "À l’Usage de Capacité de Base, à moins de 10 de Compte de [ChargeRougeAlly], +2 de Puissance de Duel\n\nSi cette unité est en état de [RougeIshmaelEclose], regagne 8% de PV En Touche avec les Capacités de Base (5 fois par tour)",
+      "flavor": "Bien que certains puissent appeler cela une “cabine d’essayage”, il serait plus approprié pour ceux de l’autre côté de l’appeler une “chrysalide” ou un “œuf”.\nElle fond et se déchire, se métamorphosant… Puis, le moment venu, elle brisera les coquilles et émergera vers le monde extérieur.\nMais si quelqu’un de l’extérieur déchire la coquille avant qu’elle ne soit prête… malheureusement, cette personne la brisera.\nCeci est son moment le plus vulnérable, et doit par conséquent être choyé et surveillé."
+    },
+    {
+      "id": 1081602,
+      "name": "Vers la Cabine d’Essayage…",
+      "desc": "Gagne 1 d’Intensité de [ChargeRougeAlly] tous les 10 de Compte de [ChargeRougeAlly] cumulés consommés par cette unité dans cet Affrontement\n\nLes effets de consommation de PV des Capacités de Base de cette unité ne Déséquilibre ou ne réduisent pas les PV de cette unité en dessous de 1\n(À 1 PV, les effets de Capacité de Base qui consomment des PV seront activés gratuitement)\n\nDans cet Affrontement, lorsque cette unité subit des dégâts amenant ses PV à 0, nullifie ces dégâts ; puis, gagne immédiatement 2 [RougeIshmaelCocoon] et entre en état de [RougeIshmaelCocoon] (une fois par Affrontement)\n- Si cette unité est entrée en état de [RougeIshmaelCocoon] via ses effets de Capacité Défensive, l’effet ci-dessus ne se déclenchera pas pour le reste de l’Affrontement\n\nEn entrant en état de [RougeIshmaelCocoon], gagne du Bouclier égal aux PV max de cette unité\n- Le Bouclier gagné avec cet effet n’expire pas à la Fin du Tour\n- Lorsque l’état de [RougeIshmaelCocoon] expire, le Bouclier gagné par l’effet ci-dessus expire\n\n- Lorsque en état de [RougeIshmaelCocoon], à part sa Capacité exclusive “Comme le Dit la Voix, Je me Retranche Volontier en Moi-même”, ne peut pas équiper de Capacités Défensives ou de Capacités E.G.O.\n\nFin du Tour : à 0 Instance de [RougeIshmaelCocoon], quitte l’état de [RougeIshmaelCocoon] et entre en état de [RougeIshmaelEclose] ; puis, gagne +5 de Compte de [ChargeRougeAlly]",
+      "flavor": "Je vais me faire un relooking ! Afin de pouvoir me rapprocher de mon véritable moi !"
+    },
+    {
+      "id": 1081621,
+      "name": "[Actrice de Haute Couture du Rouge] - Robes",
+      "desc": "Les alliés Déployés #1 et #2 regagnent +20% de PV supplémentaires venant d’effets de Passif, de Capacité et de Pièce\n\nEn Réson.-A de Luxure, les alliés #1 et #2 subissent -10% de dégâts de Capacités pour le tour",
+      "flavor": "Lorsqu’il est impossible de réécrire le sujet avec la forme exacte de l’Identité Miroitée, un “costume” adapté pour chaque acteur est conçu et enfilé.\n\nLa Haute Couture est une forme de réinterprétation cinématique ; elle remplace un être existant par une tenue et l’acteur, désormais réécrit, joue consciencieusement le rôle donné en immersion absolue.\n\nCette supercherie de la réalité est promptement acceptée par le public dans le théâtre tandis que l’acteur, au moins dans l’enceinte du récit, incarne l’existence originelle dans une reconstitution sincère."
+    },
+    {
+      "id": 1091701,
+      "name": "Découpant dans la Boutique d’Altération se trouvent des Ciseaux de Floraison",
+      "desc": "Fin du Tour : gagne du Bouclier au prochain tour égal au Compte d’[ChargeKhaki]\nÀ 2/3/5 d’Intensité d’[ChargeKhaki] ou plus, +1/+2/+3 de Puissance Finale de Capacité Offensive",
+      "summary": "Gagne de la Puissance Finale de Capacité de Base"
+    },
+    {
+      "id": 1091702,
+      "name": "Inertie de la Dérive",
+      "desc": "Gagne 1 d’Intensité d’[ChargeKhaki] tous les 10 de Compte d’[ChargeKhaki] cumulés consommés par cette unité dans cet Affrontement\n\nÀ la Fin de l’Attaque d’un autre allié ayant [NoirScissorShield], active “Traçage” contre la cible dudit allié (une fois par tour)\n- [BeforeUse] Si ledit allié a 2 [NoirScissorAlly] ou plus, active “Découpe” à la place (une fois par tour)",
+      "summary": "Active une attaque supplémentaire"
+    },
+    {
+      "id": 1091721,
+      "name": "D’abord vient la Découpe de Remerciement",
+      "desc": "1 allié avec la Vitesse la plus rapide inflige +10% de dégâts avec des Capacités Tranchants de Base",
+      "summary": "Dégâts Tranchants supplémentaires",
+      "flavor": "L’unique paire qui m’est la plus chère, par-dessus toutes les autres… sera aussi tienne."
+    },
+    {
+      "id": 1031501,
+      "name": "Alliance d’Obsidienne",
+      "desc": "Fin du Combat : si cette unité a [OathFieldDonQuixote], gagne 1 [Agility] au prochain tour\n\nLes Capacités Offensives de Base de cette unité infligent +(Intensité de [ChargeNoirAlly] sur soi * 3)% de dégâts contre la cible principale (15% max)",
+      "summary": "Si [OathFieldDonQuixote] est actif, gagne [Agility] au prochain tour\nLes Capacités Offensives de Base infligent plus de dégâts contre la cible principale",
+      "flavor": "J’ai entendu Sa voix, Sa promesse : “Tout ce qui existe a un sens.”"
+    },
+    {
+      "id": 1031502,
+      "name": "Malleus Promissionis",
+      "desc": "En entrant dans l’Affrontement pour la première fois, gagne +10 de Compte de [ChargeNoirAlly] et applique +2 de Compte de [Charge] aux autres Identités alliées “Le Noir”\n\nEn infligeant [NoirNailDonQuixote] avec des effets de Capacité :\n- À 12 de Compte de [ChargeNoirAlly] ou plus, inflige +1 [NoirNailDonQuixote] supplémentaire et consomme 4 de Compte de [ChargeNoirAlly]\n- À moins de 12 de Compte de [ChargeNoirAlly], consomme 2 de Compte de [ChargeNoirAlly]\n- À un Compte insuffisant de [ChargeNoirAlly], n’inflige pas [NoirNailDonQuixote]\n- Les Capacités qui infligent [NoirNailDonQuixote] suite à cet effet comptent comme des Capacités qui consomment du Compte de [Charge]\n\nGagne 1 d’Intensité de [ChargeNoirAlly] chaque fois que cette unité consomme 10 de Compte de [ChargeNoirAlly] cumulés dans cet Affrontement",
+      "summary": "Gagne du Compte de [ChargeNoirAlly] ; les alliés “Le Noir” gagnent du Compte de [Charge]\nConsomme du Compte de [ChargeNoirAlly] en infligeant [NoirNailDonQuixote] ; inflige plus de [NoirNailDonQuixote] en ayant assez de Compte de [ChargeNoirAlly]\nGagne de l’Intensité de [ChargeNoirAlly] en consommant du Compte de [ChargeNoirAlly]",
+      "flavor": "Un marteau enfonce les clous. Ce marteau ne frappe rien d'autre que des clous. Tout ce qu'il frappe est un clou. Voilà ce qui a été convenu."
+    },
+    {
+      "id": 1031503,
+      "name": "Mission de Conservation",
+      "desc": "En entrant dans l’Affrontement pour la première fois, gagne 25 [NoirShieldUpDonQuixote]\n\nEn consommant du Compte de [ChargeNoirAlly], ou en gagnant du Compte de [ChargeNoirAlly] dépassant son plafond max, gagne (Compte de [ChargeNoirAlly] consommé ou en surplus * 5) [NoirShieldUpDonQuixote] (30 par tour max)\n\nLorsqu’une Identité alliée ayant du Bouclier est touchée, cette unité gagne 2 [NoirShieldUpDonQuixote] (10 par tour max)\n- Si ladite Identité alliée est une [PersonalityCharge], gagne 5 [NoirShieldUpDonQuixote] à la place",
+      "summary": "Gagne [NoirShieldUpDonQuixote]"
+    },
+    {
+      "id": 1031504,
+      "name": "La Volition et les Valors du Seigneur Soient Avec Nos…",
+      "desc": "Avant l’Attaque d’une autre Identité alliée “Le Noir” sur un ennemi, cette unité utilise la Capacité “Jugement !” en Attaque à Sens Unique contre la cible principale (une fois par tour)\n\nAu Lancement de Pièce Finale d’une Capacité de Base, ladite Pièce gagne +(Intensité de [ChargeNoirAlly] sur soi + ([NoirNailDonQuixote] sur la cible / 2)) de Puissance Finale (5 max)\n\nSi cette unité a [OathFieldDonQuixote], la Capacité 1/2/3 de Base gagne +1/+2/+3 de Puissance de Duel\n\nLorsqu’un [VibrationExplosion] se déclenche sur une cible ayant [NoirNailDonQuixote], cette unité et 1 autre [PersonalityCharge] alliée ayant le plus bas Compte de [Charge] gagnent +2 de Compte de [Charge] (2 fois par tour)",
+      "summary": "Utilise la Capacité “Jugement !” avant les attaques d’un allié “Le Noir”\nPièces finales de Capacité de Base gagnent de la Puissance Finale\nSi [OathFieldDonQuixote] est actif, les Capacités de Base gagnent de la Puissance de Duel\nGagne du Compte de [Charge] en déclenchant [VibrationExplosion] sur les cibles ayant [NoirNailDonQuixote]",
+      "flavor": "Que les paroles du Dieu d’Obsidienne soient nostre phare, nostre armeure et nostre bouclier dans ce monde tourmenté d’incertitude ; que Sa Voix devienne le faisceau esclatant de lumière, noz acordant ainsi le sens si covoitié."
+    },
+    {
+      "id": 1031511,
+      "name": "Alliance d’Obsidienne",
+      "desc": "Fin du Combat : si cette unité a [OathFieldDonQuixote], gagne 2 [Agility] au prochain tour\n\nLes Capacités Offensives de Base de cette unité infligent +(Intensité de [ChargeNoirAlly] sur soi * 6)% de dégâts contre la cible principale (30% max)",
+      "summary": "Si [OathFieldDonQuixote] est actif, gagne [Agility] au prochain tour\nLes Capacités Offensives de Base infligent plus de dégâts contre la cible principale",
+      "flavor": "J’ai entendu Sa voix, Sa promesse : “Tout ce qui existe a un sens.”"
+    },
+    {
+      "id": 1031521,
+      "name": "Conservation de Formation",
+      "desc": "Toutes les [PersonalityCharge] alliées subissent -2% de dégâts ce tour par [PersonalityCharge] alliée sur le terrain au Début du Combat (-10% max)",
+      "summary": "[PersonalityCharge] alliées subissent moins de dégâts"
     }
   ]
 }
