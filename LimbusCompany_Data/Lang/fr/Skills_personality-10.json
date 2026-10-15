@@ -2396,6 +2396,797 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1101601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "La Pulsion",
+          "desc": "[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] Gagne +5 de Compte de [ChargeRougeAlly]\n- Si la cible est un allié, gagne +5 de Compte de [ChargeRougeAlly] supplémentaire",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Si la cible est un allié, applique les effets suivants (2 fois par tour) :\n- La cible regagne 10% de PV\n  · Si la cible est un allié “Le Rouge”, consomme 20% de ses PV max et applique 2 [ResultEnhancement] à la place\n- La cible regagne 10 PSM\n  · Si la cible est à PSM max, applique +4 de Compte de [Charge] à la place"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "La Pulsion",
+          "desc": "[CantChangeTarget]\n[SupportAlly]\n\n<style=\"highlight\">[WhenUse] +1 de Puissance de Duel tous les 4 [Laceration] sur la cible (2 max)</style>\n[WhenUse] Gagne +5 de Compte de [ChargeRougeAlly]\n- Si la cible est un allié, gagne +5 de Compte de [ChargeRougeAlly] supplémentaire",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Si la cible est un allié, applique les effets suivants (2 fois par tour) :\n- La cible regagne 10% de PV\n  · Si la cible est un allié “Le Rouge”, consomme 20% de ses PV max et applique 2 [ResultEnhancement] à la place\n- La cible regagne 10 PSM\n  · Si la cible est à PSM max, applique +4 de Compte de [Charge] à la place"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "La Pulsion",
+          "desc": "[CantChangeTarget]\n[SupportAlly]\n\n<style=\"highlight\">[WhenUse] Gagne +(Intensité de [ChargeRougeAlly] sur soi - 1) de Poids d’Atq (2 max)\n- Priorise les alliés “Le Rouge” comme sous-cible ; choisi par ordre ascendant de pourcentage de PV</style>\n\n[WhenUse] +1 de Puissance de Duel tous les 4 [Laceration] sur la cible (2 max)\n[WhenUse] Gagne +5 de Compte de [ChargeRougeAlly]\n- Si la cible est un allié, gagne +5 de Compte de [ChargeRougeAlly] supplémentaire",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Si la cible est un allié, applique les effets suivants (2 fois par tour) :\n- La cible regagne <style=\"highlight\">(10 + Intensité de [ChargeRougeAlly] sur soi)% de PV (15% max)</style>\n  · Si la cible est un allié “Le Rouge”, consomme 20% de ses PV max et applique 2 [ResultEnhancement] à la place\n- La cible regagne <style=\"highlight\">(10 + Intensité de [ChargeRougeAlly] sur soi) PSM (15 max)</style>\n  · Si la cible est à PSM max, applique +4 de Compte de [Charge] à la place"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Je vous aide",
+          "desc": "[CantDuel]\nCette Capacité ne déclenche pas de Capacité Défensive\n\nLorsqu’en état de [BuffetSinclair], inflige +50% de dégâts\n[WhenUse] Gagne 5 [HungrySinclair]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Je vous aide",
+          "desc": "[CantDuel]\nCette Capacité ne déclenche pas de Capacité Défensive\n\nLorsqu’en état de [BuffetSinclair], inflige +50% de dégâts\n<style=\"highlight\">[WhenUse] +1 de Puissance Finale tous les 4 [Laceration] sur la cible (4 max)</style>\n[WhenUse] Gagne 5 [HungrySinclair]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Je vous aide",
+          "desc": "[CantDuel]\nCette Capacité ne déclenche pas de Capacité Défensive\n\nLorsqu’en état de [BuffetSinclair], inflige +50% de dégâts\n<style=\"highlight\">Inflige +5% de dégâts par 1% de PV manquants sur la cible (100% max)</style>\n[WhenUse] +1 de Puissance Finale tous les 4 [Laceration] sur la cible (4 max)\n[WhenUse] Gagne 5 [HungrySinclair]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 1 [ScarletTakeDamageUp] (une fois par tour)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101606,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Je m’expulse",
+          "desc": "Capacité exclusive de [TransformSinclair]\n[WhenUse] Gagne +3 de Compte de [ChargeRougeAlly]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [BoneNailSinclair]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Je m’expulse",
+          "desc": "Capacité exclusive de [TransformSinclair]\n<style=\"highlight\">[WhenUse] Si la cible a 6 [Laceration] ou plus, +1 de Puissance de Pièce</style>\n[WhenUse] Gagne +3 de Compte de [ChargeRougeAlly]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 2 [BoneNailSinclair]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "L’Appétit",
+          "desc": "[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] Gagne +3 de Compte de [ChargeRougeAlly]\n[WhenUse] Si la cible est un allié, termine la Capacité après avoir activé les effets de la Pièce 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Si la cible est un allié, applique les effets suivants :\n- Applique 1 [BuffetThirst]\n- Si la cible est une [PersonalityCharge], applique +4 de Compte de [Charge]\n- Si la cible est un allié “Le Rouge”, consomme 10% de ses PV max et applique 2 [AttackUp]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "L’Appétit",
+          "desc": "[CantChangeTarget]\n[SupportAlly]\n\n<style=\"highlight\">[WhenUse] +1 de Puissance de Duel tous les 3 de Compte de [ChargeRougeAlly] sur soi (3 max)</style>\n[WhenUse] Gagne +3 de Compte de [ChargeRougeAlly]\n[WhenUse] Si la cible est un allié, termine la Capacité après avoir activé les effets de la Pièce 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Si la cible est un allié, applique les effets suivants :\n- Applique 1 [BuffetThirst]\n- Si la cible est une [PersonalityCharge], applique +4 de Compte de [Charge]\n- Si la cible est un allié “Le Rouge”, consomme 10% de ses PV max et applique 2 [AttackUp]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "L’Appétit",
+          "desc": "[CantChangeTarget]\n[SupportAlly]\n\n<style=\"highlight\">[WhenUse] Gagne +1 de Poids d’Atq toutes les 2 d’Intensité de [ChargeRougeAlly] sur soi (2 max)\n- Priorise les alliés “Le Rouge” comme sous-cible ; choisi par ordre descendant de pourcentage de PV</style>\n\n[WhenUse] +1 de Puissance de Duel tous les 3 de Compte de [ChargeRougeAlly] sur soi (3 max)\n[WhenUse] Gagne +3 de Compte de [ChargeRougeAlly]\n[WhenUse] Si la cible est un allié, termine la Capacité après avoir activé les effets de la Pièce 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Si la cible est un allié, applique les effets suivants :\n- Applique <style=\"highlight\">1 [ParryingResultUp] et</style> 1 [BuffetThirst]\n- Si la cible est une [PersonalityCharge], applique +4 de Compte de [Charge]\n- Si la cible est un allié “Le Rouge”, consomme 10% de ses PV max et applique 2 [AttackUp]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101607,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Je m’abjecte",
+          "desc": "Capacité exclusive de [TransformSinclair]\n[WhenUse] À 3 d’Intensité [ChargeRougeAlly], +1 de Puissance de Pièce\n\n[BeforeAttack] Consomme 15% des PV max de 2 autres alliés\n- Priorise les alliés “Le Rouge” ; choisi par ordre descendant des PV actuels\n- Inflige +15% de dégâts par allié dont les PV ont été consommés",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [BoneNailSinclair]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [BoneNailSinclair]\n- Lorsqu’en état de [BuffetSinclair], inflige 2 [BoneNailSinclair] à la place"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [ScarletTakeDamageUp] (une fois par tour)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Je m’abjecte",
+          "desc": "Capacité exclusive de [TransformSinclair]\n<style=\"highlight\">[WhenUse] Si la cible a 6 [Laceration] ou plus, +1 de Puissance de Pièce</style>\n[WhenUse] À 3 d’Intensité [ChargeRougeAlly], +1 de Puissance de Pièce\n\n[BeforeAttack] Consomme 15% des PV max de 2 autres alliés\n- Priorise les alliés “Le Rouge” ; choisi par ordre descendant des PV actuels\n- Inflige +15% de dégâts par allié dont les PV ont été consommés",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [BoneNailSinclair]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [BoneNailSinclair]\n- Lorsqu’en état de [BuffetSinclair], inflige 2 [BoneNailSinclair] à la place"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [ScarletTakeDamageUp] (une fois par tour)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101608,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "La Demande",
+          "desc": "[CantDuel]\nCapacité exclusive de [TransformSinclair]\nCette Capacité ne déclenche pas de Capacité Défensive\n\nInflige +5% de dégâts tous les 3 [Laceration] sur la cible (30% max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Retire tout [BoneNailSinclair] de la cible et inflige 1 [ScarletTakeDamageUp] au prochain tour (une fois par tour)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "La Demande",
+          "desc": "[CantDuel]\nCapacité exclusive de [TransformSinclair]\nCette Capacité ne déclenche pas de Capacité Défensive\n\nInflige +5% de dégâts tous les 3 [Laceration] sur la cible (30% max)\n<style=\"highlight\">[WhenUse] À 3 d’Intensité [ChargeRougeAlly], +1 de Puissance de Pièce</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Retire tout [BoneNailSinclair] de la cible et inflige <style=\"highlight\">2</style> [ScarletTakeDamageUp] au prochain tour (une fois par tour)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101603,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Le Baptême rouge",
+          "desc": "[StartBattle] Consomme 15% des PV max de 2 autres alliés et applique 3 [AttackUp]\n- Choisi par ordre descendant de PV actuels parmi les alliés ayant 50% de PV ou plus\n- Les alliés “Le Rouge” :\n  · Priorisés qu’importe leurs PV tant qu’ils ont 2 PV ou plus\n  · Consomme 25% de PV à la place de 15% ; applique 1 [Enhancement] supplémentaire\n\n[WhenUse] À 3 d’Intensité [ChargeRougeAlly], +1 de Puissance de Pièce\n\n[WhenUse] Lorsqu’en état de [BuffetSinclair], convertit toutes les Pièces en [SuperCoin]s\n- À 10 de Compte de [ChargeRougeAlly] ou plus, consomme jusqu’à 10 de Compte de [ChargeRougeAlly] pour gagner +2 de Poids d’Atq et +1 de Puissance de Pièce",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Le Baptême rouge",
+          "desc": "[StartBattle] Consomme 15% des PV max de 2 autres alliés et applique 3 [AttackUp]\n- Choisi par ordre descendant de PV actuels parmi les alliés ayant 50% de PV ou plus\n- Les alliés “Le Rouge” :\n  · Priorisés qu’importe leurs PV tant qu’ils ont 2 PV ou plus\n  · Consomme 25% de PV à la place de 15% ; applique 1 [Enhancement] supplémentaire\n\n<style=\"highlight\">[WhenUse] +1 de Puissance Finale tous les 4 [Laceration] sur la cible (2 max)</style>\n[WhenUse] À 3 d’Intensité [ChargeRougeAlly], +1 de Puissance de Pièce\n\n[WhenUse] Lorsqu’en état de [BuffetSinclair], convertit toutes les Pièces en [SuperCoin]s\n- À 10 de Compte de [ChargeRougeAlly] ou plus, consomme jusqu’à 10 de Compte de [ChargeRougeAlly] pour gagner +2 de Poids d’Atq et +1 de Puissance de Pièce\n<style=\"highlight\">[WhenUse] Inflige +50% de dégâts par Poids d’Atq en excès par rapport au # réel de cible (en Affrontements Ciblés, de Parties)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Gagne 3 [HungrySinclair]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Laceration]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Gagne 3 [HungrySinclair]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Gagne 3 [HungrySinclair]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101609,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Le Manque-à-être",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\nLes effets externes ne peuvent pas forcer cette Capacité à être Réutilisée\n\n[WhenUse] Gagne 5 [Binding] au prochain tour",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Remet la cible de Déséquilibre"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Le Manque-à-être",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\nLes effets externes ne peuvent pas forcer cette Capacité à être Réutilisée",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Remet la cible de Déséquilibre"
+                },
+                {
+                  "desc": "<style=\"highlight\">[EndCoin] Soigne la cible de 15% de ses PV max</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101610,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "La Voracité",
+          "desc": "Capacité exclusive de [TransformSinclair]\nDébut du Tour : à 150 [HungrySinclair], remplace cette Capacité par “La Castration” (une fois par tour)\n\n[WhenUse] Lorsqu’en état de [BuffetSinclair], convertit toutes les Pièces en [SuperCoin]s\n- À 10 de Compte de [ChargeRougeAlly] ou plus, consomme jusqu’à 10 de Compte de [ChargeRougeAlly] pour gagner +2 de Poids d’Atq et +1 de Puissance de Pièce\n\n[BeforeAttack] Consomme 15% des PV max de 3 autres alliés\n- Priorise les alliés “Le Rouge” ; choisi par ordre descendant des PV actuels\n- Inflige +10% de dégâts par allié dont les PV ont été consommés",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [BoneNailSinclair]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] S’il s’agit de la cible principale, inflige 1 [BoneNailSinclair] par Poids d’Atq en excès par rapport au # réel de cible"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Active le [Laceration] de la cible une fois. La cible perd 1 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "La Voracité",
+          "desc": "Capacité exclusive de [TransformSinclair]\nDébut du Tour : à 150 [HungrySinclair], remplace cette Capacité par “La Castration” (une fois par tour)\n\n<style=\"highlight\">[WhenUse] +1 de Puissance Finale tous les 4 [Laceration] sur la cible (2 max)\n[WhenUse] À 3 d’Intensité [ChargeRougeAlly], +1 de Puissance de Pièce</style>\n\n[WhenUse] Lorsqu’en état de [BuffetSinclair], convertit toutes les Pièces en [SuperCoin]s\n- À 10 de Compte de [ChargeRougeAlly] ou plus, consomme jusqu’à 10 de Compte de [ChargeRougeAlly] pour gagner +2 de Poids d’Atq et +1 de Puissance de Pièce\n<style=\"highlight\">[WhenUse] Inflige +50% de dégâts par Poids d’Atq en excès par rapport au # réel de cible (en Affrontement Ciblé, de Partie)</style>\n\n[BeforeAttack] Consomme 15% des PV max de 3 autres alliés\n- Priorise les alliés “Le Rouge” ; choisi par ordre descendant des PV actuels\n- Inflige +10% de dégâts par allié dont les PV ont été consommés",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [BoneNailSinclair]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] S’il s’agit de la cible principale, inflige 1 [BoneNailSinclair] par Poids d’Atq en excès par rapport au # réel de cible"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Active le [Laceration] de la cible une fois. La cible perd 1 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101611,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "La Castration",
+          "desc": "Capacité exclusive de [TransformSinclair]\n[BeforeUse] À moins de 150 [HungrySinclair], remplace cette Capacité par “La Voracité”\n\n[StartBattle] Consomme des PV de tous les autres alliés “Le Rouge” égaux à 50% de leurs PV respectifs et leur applique 3 [BuffetSinclair]\n\n[WhenUse] +1 de Puissance Finale tous les 4 [Laceration] sur la cible principale (2 max)\n[WhenUse] À 3 d’Intensité [ChargeRougeAlly], +1 de Puissance de Pièce\n[EndSkill] Consomme toute [HungrySinclair]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [BoneNailSinclair]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] S’il s’agit de la cible principale, inflige 1 [BoneNailSinclair] par Poids d’Atq en excès par rapport au # réel de cible"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Retire tout [BoneNailSinclair] de la cible et inflige ([BoneNailSinclair] retiré) [ScarletTakeDamageUp] au prochain tour (3 max)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Active le [Laceration] de la cible une fois. La cible perd 1 de Compte de [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "La Castration",
+          "desc": "Capacité exclusive de [TransformSinclair]\n[BeforeUse] À moins de 150 [HungrySinclair], remplace cette Capacité par “La Voracité”\n\n[StartBattle] Consomme des PV de tous les autres alliés “Le Rouge” égaux à 50% de leurs PV respectifs et leur applique 3 [BuffetSinclair]\n\n[WhenUse] +1 de Puissance Finale tous les 4 [Laceration] sur la cible principale (2 max)\n[WhenUse] À 3 d’Intensité [ChargeRougeAlly], +1 de Puissance de Pièce\n<style=\"highlight\">[WhenUse] Lorsqu’en état de [BuffetSinclair], +1 de Puissance de Pièce\n[WhenUse] Inflige +50% de dégâts par Poids d’Atq en excès par rapport au # réel de cible (en Affrontement Ciblé, de Partie)</style>\n\n[EndSkill] Consomme toute [HungrySinclair]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [BoneNailSinclair]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] S’il s’agit de la cible principale, inflige 1 [BoneNailSinclair] par Poids d’Atq en excès par rapport au # réel de cible"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Retire tout [BoneNailSinclair] de la cible et inflige ([BoneNailSinclair] removed) [ScarletTakeDamageUp] au prochain tour (3 max)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnStartCoin] Consomme jusqu’à 15 de Compte de [ChargeRougeAlly] sur soi et inflige +(Compte de [ChargeRougeAlly] consommé * 3)% de dégâts</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Active le [Laceration] de la cible une fois. La cible perd 1 de Compte de [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "La Fuite",
+          "desc": "[StartBattle] Si cette unité n’a pas [BuffetSinclair], et est à moins de 15 de Compte de [ChargeRougeAlly], consomme (15 - Compte de [ChargeRougeAlly] actuel)% de PV pour augmenter le Compte de [ChargeRougeAlly] jusqu’à 15 (une fois par tour)\n\n[OnSucceedEvade] Gagne +2 de Compte de [ChargeRougeAlly] (2 fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": []
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "La Fuite",
+          "desc": "[StartBattle] Si cette unité n’a pas [BuffetSinclair], et est à moins de 15 de Compte de [ChargeRougeAlly], consomme (15 - Compte de [ChargeRougeAlly] actuel)% de PV pour augmenter le Compte de [ChargeRougeAlly] jusqu’à 15 (une fois par tour)\n\n[OnSucceedEvade] Gagne +2 de Compte de [ChargeRougeAlly] (2 fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101612,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "La Garde",
+          "desc": "[CanDuelGuard]\nCette Capacité compte comme une <noparse>Défense d’Assistance</noparse> seulement pour l’unité qui utilise la Capacité\nLorsque l’utilisateur est touché en utilisant cette Capacité, Haute Couture::Le Dieu Cramoisi de Le Rouge Sinclair gagne 2 [HungrySinclair]\n\n[WhenUse] +1 de Puissance Finale tous les 4 [Laceration] sur la cible (3 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101613,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Le Trait unaire",
+          "desc": "[DuelCounter]\nCapacité exclusive de [TransformSinclair]\n[StartBattle] Si cette unité n’a pas [BuffetSinclair], et est à moins de 15 de Compte de [ChargeRougeAlly], consomme (15 - Compte de [ChargeRougeAlly] actuel)% de PV pour augmenter le Compte de [ChargeRougeAlly] jusqu’à 15 (une fois par tour)\n\n[WhenUse] +1 de Puissance Finale tous les 4 [Laceration] sur la cible (2 max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [BoneNailSinclair]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [BoneNailSinclair]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Le Trait unaire",
+          "desc": "[DuelCounter]\nCapacité exclusive de [TransformSinclair]\n[StartBattle] Si cette unité n’a pas [BuffetSinclair], et est à moins de 15 de Compte de [ChargeRougeAlly], consomme (15 - Compte de [ChargeRougeAlly] actuel)% de PV pour augmenter le Compte de [ChargeRougeAlly] jusqu’à 15 (une fois par tour)\n\n[WhenUse] +1 de Puissance Finale tous les 4 [Laceration] sur la cible (2 max)\n<style=\"highlight\">[WhenUse] À 3/5 d’Intensité de [ChargeRougeAlly] ou plus, +1/+2 de Puissance de Pièce</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [BoneNailSinclair]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [BoneNailSinclair]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Lorsqu’en état de [BuffetSinclair], inflige 1 [BoneNailSinclair]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

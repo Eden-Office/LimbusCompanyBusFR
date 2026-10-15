@@ -2567,7 +2567,7 @@
     {
       "id": "YesdragonNodie",
       "name": "Refus [不許]",
-      "desc": "Lorsque cette unité subit des dégâts amenant ses PV à 0 : les PV de cette unité ne descendent pas en-dessosu de 1 ; se remet du Déséquilibre causé par les dégâts.\nSi l’effet ci-dessus s’est activé, meurt à la Fin du Tour.\nExpire en mourrant, en Battant en Retraite ou à la Fin du Tour",
+      "desc": "Lorsque cette unité subit des dégâts amenant ses PV à 0 : les PV de cette unité ne descendent pas en-dessous de 1 ; se remet du Déséquilibre causé par les dégâts.\nSi l’effet ci-dessus s’est activé, meurt à la Fin du Tour.\nExpire en mourrant, en Battant en Retraite ou à la Fin du Tour",
       "summary": "",
       "undefined": "-"
     },
@@ -4242,7 +4242,7 @@
     {
       "id": "NoirNailDonQuixote",
       "name": "Clou Promis",
-      "desc": "- Instance max : 30\n- En Sursaut de Tremblement suite à des effets de Capacité, subit 1 dégât de Paresse par Instance (10 max ; une fois par Capacité)\n- Fin du Tour : à 4 Instances ou plus, gagne 1 Ralentissement au prochain tour\n- Début du Tour : si Haute Couture::Directrice de Marque Le Noir Don Quichotte n’est pas sur le terrain, expire",
+      "desc": "- Instance max : 30\n- En Sursaut de Tremblement suite à des effets de Capacité, subit 1 dégât de Paresse par Instance (10 max ; une fois par Capacité)\n- Fin du Tour : à 4 Instances ou plus, gagne 1 Ralentissement au prochain tour\n- Début du Tour : si Haute Couture::Responsable de Marque Le Noir Don Quichotte n’est pas sur le terrain, expire",
       "summary": "",
       "undefined": "-",
       "flavor": "Le marteau promis est tenu par une promesse d’enfoncer un clou. En conséquence, chaque fois que le marteau s’abat, un clou doit y exister… Même s’il n’y en a aucun."
@@ -4286,6 +4286,72 @@
       "id": "Tiphereth_Tails",
       "name": "Attentes de Tiphereth [Miroité]",
       "desc": "- Toutes les Pièces de Capacité de cette unité ont 100% de chances de faire Face (cet effet prime sur les effets de Capacités, Passifs et autres de cette unité)\n- Expire à la Fin du Tour",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "SewingKingMark",
+      "name": "Marque du Roi des Broderies",
+      "desc": "- Instance max : 1\n- Subit +20% de dégâts des Identités “Sisyphe”\n- Fin du Tour : gagne 1 Ralentissement au prochain tour\n- Fin du Tour : subit des dégâts fixes égaux à 5% des dégâts de PV (inclut les dégâts de Bouclier) subis des Capacités des Pécheurs\n- À la mort, inflige des dégâts fixes égaux à 10% des PV max de cette unité à 1 allié aléatoire (en Affrontement Ciblé, une Partie)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "HungrySinclair",
+      "name": "Appétence Inlassable",
+      "desc": "- Instance max : 150\n- Peut gagner jusqu’à 50 Instances par tour",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "TransformSinclair",
+      "name": "Noble Dignité",
+      "desc": "Gagne tous les effets suivants selon l’Intensité de Pulsation sur soi :\n- 2 ou plus : subit +25% de dégâts de Saignement\n- 3 ou plus : les Capacités de Base infligent +1 d’Intensité et de Compte de Saignement supplémentaire\n- 4 ou plus : +1 de Puissance de Base de Capacité de Base\n\n- +1 de Vitesse Min & Max\n- Lorsque cette unité subit des dégâts amenant ses PV à 0, les PV de cette unité ne tombent pas en dessous de 1 pour ce tour (une fois par Affrontement)\n\n- Applique les effets suivants aux Identités alliées “Le Rouge” (inclut cette unité) :\n  · +1 de Vitesse Min & Max\n  · S’il n’y a pas assez de Compte de Charge pour activer les effets de Capacités qui consomment du Compte de Charge, consomme 1 Buffet pour gagner 1 de Compte de Charge par Compte de Charge manquant nécessaire pour l’activation",
+      "summary": "Renforce les Capacités de Base sous certaines conditions",
+      "undefined": "-"
+    },
+    {
+      "id": "BoneNailSinclair",
+      "name": "L’Abject",
+      "desc": "- Saignement Unique\n- Instance max : 5\n- Subit +2% de dégâts des Identités “Le Rouge” par Instance (10% max)\n- Début du Tour : gagne +1 de Compte de Saignement\n- Fin du Tour : gagne (Instance / 2) Ralentissement au prochain tour (arrondi à l’inférieur)\n- Début du Tour : si Haute Couture::Le Dieu Cramoisi de Le Rouge Sinclair n’est pas sur le terrain, cet effet expire",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BuffetSinclair",
+      "name": "Carnage Incontrôlable",
+      "desc": "- Instance max : 3\n- +1 Niveau Offensif par Instance (3 max)\n- +1 de Vitesse Min & Max\n- Inflige +1% de dégâts par Saignement sur soi (15% max)\n\n- Ne peut pas devenir Déséquilibré (exclut les Déséquilibres forcés)\n- Subit -50% de dégâts de Saignement\n- Ne peut pas être vaincu par des dégâts de Saignement\n\n- À l’Usage de Capacité de Base, gagne +3 de Compte de Saignement\n- En Touche de Capacité Offensive de Base, gagne du Saignement égal à l’Instance de Carnage Incontrôlable\n\n- Fin du Tour : perd 1 de Compte",
+      "summary": "À l’Usage de Capacité de Base, gagne du Compte de Saignement\nEn Touche de Capacité Offensive de Base, gagne du Saignement égal à l’Instance de Carnage Incontrôlable",
+      "undefined": "-"
+    },
+    {
+      "id": "DinnerField",
+      "name": "Buffet",
+      "desc": "- Valeur max : 999\n- Cette valeur est augmentée de (PV véritablement soignés / 10) chaque fois que les PV d’alliés ou d’ennemis sont soignés sur le terrain\n · 100 max par instance de soin\n · Arrondi au supérieur pour chaque instance\n · Se soigner avec des Dons E.G.O. ne compte pas\n\n- Cette valeur est partagée par tous les personnages\n- Se réinitialise en changeant de zone",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Le buffet de chair et de viande est servi. Puisse-t-il être une salle de festin pour tous."
+    },
+    {
+      "id": "BuffetFriendShield",
+      "name": "Servir le Divin",
+      "desc": "- Défense d’Assistance Unique\n- Instance max : 1\n\n- Lorsque Haute Couture::Le Dieu Cramoisi de Le Rouge Sinclair est sur le point de subir une Attaque à Sens Unique d’un ennemi, consomme 1 Instance pour rediriger le ciblage de l’ennemi vers soi\n · Puis, copie et utilise “La Garde” de Haute Couture::Le Dieu Cramoisi de Le Rouge Sinclair\n- Lorsqu’il y a plusieurs alliés ayant des Instances de Défense d’Assistance, l’allié ayant la plus haute Instance possède la plus haute priorité d’activation\n- Cet effet compte comme une Défense d’Assistance et est compté dans le calcul d’Instances de Défense d’Assistance\n\n- Fin du Tour : cet effet expire",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Allons servir notre nouveau Dieu."
+    },
+    {
+      "id": "BuffetThirst",
+      "name": "Appétence Désespérée",
+      "desc": "- +2 Niveaux Offensifs\n\n- Au Début de Pièce d’une Capacité Offensive de Base utilisée contre un ennemi, consomme 1 de Compte de Charge pour infliger +5% de dégâts\n · Les Capacités qui infligent de l’Intensité ou du Compte de Saignement infligent +10% de dégâts à la place (inclut les Saignements Uniques)\n · À 1 de Valeur de Buffet ou plus sur le terrain, si cette unité n’est pas au Compte de Charge max, consomme 1 Buffet pour gagner +1 de Compte de Charge\n · Si le Compte de Charge et Buffet sont à 0, consomme 1% de PV sur soi à la place pour activer l’effet (arrondi à l’inférieur ; les dégâts infligés par cet effet ne Déséquilibrent pas ou ne réduisent pas les PV de cette unité en dessous de 1 ; s’active même à 1 PV)\n\n- Fin du Tour : cet effet expire",
+      "summary": "Consomme du Compte de Charge pour infliger plus de dégâts",
+      "undefined": "-",
+      "flavor": "Plus l’on famine avec netteté, plus la désespérance est féroce.\nPlus l’on est poussé, plus le besoin est profond."
+    },
+    {
+      "id": "RougeFamilySinclair",
+      "name": "Berceau Cramoisi",
+      "desc": "Lorsque les conditions sont remplies par les autres alliés “Le Rouge”, active les effets correspondants pour Haute Couture::Le Dieu Cramoisi de Le Rouge Sinclair\n- Les effets restent actifs même lorsque l’allié correspondant est vaincu",
       "summary": "",
       "undefined": "-"
     }

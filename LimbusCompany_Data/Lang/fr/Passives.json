@@ -3362,6 +3362,41 @@
       "name": "Conservation de Formation",
       "desc": "Toutes les [PersonalityCharge] alliées subissent -2% de dégâts ce tour par [PersonalityCharge] alliée sur le terrain au Début du Combat (-10% max)",
       "summary": "[PersonalityCharge] alliées subissent moins de dégâts"
+    },
+    {
+      "id": 1101602,
+      "name": "La Jouissance phallique",
+      "desc": "Gagne 1 de Compte de [ChargeRougeAlly] chaque fois que [Laceration] est activé dans cet Affrontement (10 fois par tour)\n\nFin du Combat : à 15 de Compte de [ChargeRougeAlly] ou plus, si cette unité n’est pas en état de [BuffetSinclair], consomme tout le Compte de [ChargeRougeAlly] pour gagner 3 [BuffetSinclair] au prochain tour\n- Regagne des PSM égaux à (3 * Compte de [ChargeRougeAlly] consommé au-dessus de 15) (15 max)\n\nLorsque [BuffetSinclair] expire, consomme tout le Compte de [ChargeRougeAlly] sur soi pour regagner des PV égaux à (Compte de [ChargeRougeAlly] consommé * 2)\n\nGagne 1 d’Intensité de [ChargeRougeAlly] tous les 10 de Compte de [ChargeRougeAlly] cumulés consommés par cette unité dans cet Affrontement\n\nLes Capacités Offensives de Base et les Capacités de Riposte Affrontables de cette unité sont considérées comme des Capacités qui gagnent du Compte de [Charge]",
+      "summary": "Gagne du Compte de [ChargeRougeAlly] chaque fois que [Laceration] est activé"
+    },
+    {
+      "id": 1101603,
+      "name": "La Fin de l’Enfance",
+      "desc": "Gagne de l’[HungrySinclair] selon les conditions suivantes (50 par tour) :\n- Lorsque cette unité consomme du Compte de [ChargeRougeAlly], gagne de l’Instance égale au Compte de [ChargeRougeAlly] consommé\n- Lorsque les Capacités de Base de cette unité soignent les PV d’autres alliés, gagne de l’Instance égale à la véritable quantité soignée\n- Gagne 1 Instance tous les 10 PV cumulés perdus par les alliés\n- En Touche de Capacité de Base d’une autre Identité alliée “Le Rouge”, gagne 2 Instances\n- Fin du Tour : gagne 5 Instances par autre Identité alliée “Le Rouge” sur le terrain\n\nFin du Tour : à 100 [HungrySinclair] ou plus, et si cette unité n’a pas [TransformSinclair], remplace la Capacité sur l’Emplacement de Capacité inférieur le plus à gauche par “La Voracité” au prochain Début de Tour\n\nDébut du Combat : si cette unité a équipé “La Voracité” ou “La Castration” pour la première fois dans cet Affrontement, gagne [BuffetThirst] et [TransformSinclair] ; puis, retire le Seuil de Déséquilibre de cette unité\n- Remplace les Capacités de Base par des Capacités exclusives de [TransformSinclair]\n- Les Capacités de Base qui ciblaient des alliés s’activent en Attaques à Sens Unique contre des ennemis aléatoires\n- À la Fin de l’Attaque de la Capacité activée par ledit effet, consomme toute l’[HungrySinclair]\n\nFin du Tour : à 150 [HungrySinclair], si cette unité a [TransformSinclair], et si cette unité n’a pas “La Voracité” sur son Tableau de Bord au prochain Début de Tour, remplace une Capacité de Base par “La Voracité” (priorise la Capacité sur l’Emplacement inférieur le plus à gauche)",
+      "summary": "Gagne [HungrySinclair] selon les conditions",
+      "flavor": "Qui décide de la fin de l’enfance ?\n\nL’enfant cramoisi se lance à l’aventure en solitaire.\nRetraçant les souvenirs, désirant ce qui fut perdu, l’enfant s’avançait avec des pas isolés… et en solitude, il fit ses adieux à l’enfance."
+    },
+    {
+      "id": 1101604,
+      "name": "La Moisson",
+      "desc": "Lorsque les effets de Capacité de Base de cette unité consomment les PV d’un allié, l’allié ne peut pas être Déséquilibré par lesdits effets et ses PV ne tombent pas en dessous de 1\n\nFin du Combat : à 3 Réson. de Luxure ou plus, applique [BuffetThirst] au prochain tour à (Réson. de Luxure / 3) autres alliés (arrondi au supérieur)\n- Priorise les alliés “Le Rouge” par ordre de Déploiement\n\nEn utilisant une Capacité de [SupportAlly] sur un allié, applique 1 [BuffetFriendShield] à un allié “Le Rouge” non-immobilisé avec les plus hauts PV actuels (une fois par tour)\nÀ la Fin d’Attaque de Base d’une autre [PersonalityCharge] alliée, si ladite Capacité n’a pas vaincu sa cible principale, utilise “Je vous aide” contre cet ennemi (une fois par tour)",
+      "summary": "En utilisant une Capacité de [SupportAlly] sur un allié, applique [BuffetFriendShield]\nApplique [BuffetThirst] à l’allié au prochain tour selon la Réson. de Luxure"
+    },
+    {
+      "id": 1101614,
+      "name": "La Moisson",
+      "desc": "Lorsque les effets de Capacité de Base de cette unité consomment les PV d’un allié, l’allié ne peut pas être Déséquilibré par lesdits effets et ses PV ne tombent pas en dessous de 1\n\nFin du Combat : à 3 Réson. de Luxure ou plus, applique [BuffetThirst] au prochain tour à (Réson. de Luxure / 3) autres alliés (arrondi au supérieur)\n- Priorise les alliés “Le Rouge” par ordre de Déploiement\n- Si cette unité a [TransformSinclair], applique cet effet à +1 allié supplémentaire (4 alliés max)\n\nSi cette unité n’a pas [TransformSinclair],\n- En utilisant une Capacité de [SupportAlly] sur un allié, applique 1 [BuffetFriendShield] à un allié “Le Rouge” non-immobilisé avec les plus hauts PV actuels (une fois par tour)\n- À la Fin d’Attaque de Base d’une autre [PersonalityCharge] alliée, si ladite Capacité n’a pas vaincu sa cible principale, utilise “Je vous aide” contre cet ennemi (une fois par tour)\n\nSi cette unité a [TransformSinclair],\n- Gagne [RougeFamilySinclair]\n- Active [DinnerField] sur le terrain actuel\n- Fin du Tour : gagne [BuffetThirst] au prochain tour\n- Début du Combat : applique 1 [BuffetFriendShield] à un allié “Le Rouge” non-immobilisé avec les plus hauts PV actuels\n- À la Fin de l’Attaque d’une Capacité Offensive de Base contre des ennemis, si la cible principale a 5 [BoneNailSinclair], utilise “La Demande” (une fois par tour)",
+      "summary": "En utilisant une Capacité de [SupportAlly] sur un allié, applique [BuffetFriendShield]\nApplique [BuffetThirst] à l’allié au prochain tour selon la Réson. de Luxure"
+    },
+    {
+      "id": 1101611,
+      "name": "Les Pouvoirs de la vie",
+      "desc": "Lorsqu’un allié “Le Rouge” devient Déséquilibré suite à des dégâts, utilise “Le Manque-à-être” sur ledit allié (une fois par tour, exclut les Déséquilibres forcés)\n\nSi cette unité n’a pas [TransformSinclair],\n- Lorsqu’un allié non-“Le Rouge” devient Déséquilibre suite à des dégâts, utilise “Le Manque-à-être” sur ledit allié (une fois par Affrontement, exclut les Déséquilibres forcés)\n\nSi cette unité a [TransformSinclair],\n- Lorsqu’un autre allié “Le Rouge” subit des dégâts faisant baisser ses PV à 0, les PV ne tombent pas en dessous de 1 et le dit allié regagne 50% de ses PV (arrondi au supérieur, une fois par Affrontement par Identité)"
+    },
+    {
+      "id": 1101621,
+      "name": "Surconsommation Vorace",
+      "desc": "Début du Combat : applique 2 [AttackUp] à l’allié avec les plus bas PV\nLedit allié regagne 5% de PV à la Fin de Capacité Offensive (1 min, une fois par tour)"
     }
   ]
 }

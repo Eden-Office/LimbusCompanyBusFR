@@ -1,0 +1,122 @@
+{
+  "dataList": [
+    {
+      "id": 9284,
+      "name": "Vêtement Démodé Rouge",
+      "desc": "Lorsque des alliés regagnent des PV grâce à des effets de Capacité ou de Pièces de Capacité Offensive de Base, regagne +50% de PV (3 fois par tour ; arrondi à l’inférieur)\n\n[Effet exclusif de Haute Couture::Boutique du Rouge Ishmaël]\nSi Haute Couture::Le Dieu Cramoisi de Le Rouge Sinclair est avec cette unité sur le terrain, gagne 1 [RougeIshmaelCocoon] au Début du Tour et entre en état de [RougeIshmaelCocoon] (une fois par Affrontement)\n- Si l’effet “Dans cet Affrontement, lorsque cette unité subit des dégâts amenant ses PV à 0, nullifie ces dégâts ; puis, gagne immédiatement 2 [RougeIshmaelCocoon] et entre en état de [RougeIshmaelCocoon] (une fois par Affrontement)” du Passif “Vers la <noparse>Cabine d’Essayage</noparse>…” s’est activé, l’effet exclusif ne s’active pas\n- Lorsque l’effet exclusif s’active, l’effet “Dans cet Affrontement, lorsque cette unité subit des dégâts amenant ses PV à 0, nullifie ces dégâts ; puis, gagne immédiatement 2 [RougeIshmaelCocoon] et entre en état de [RougeIshmaelCocoon] (une fois par Affrontement)” du Passif “Vers la <noparse>Cabine d’Essayage</noparse>…” ne s’active pas",
+      "simpleDesc": [
+        {
+          "abilityID": 9284,
+          "simpleDesc": "Entre immédiatement dans la [RougeIshmaelCocoon]"
+        },
+        {
+          "abilityID": 92841,
+          "simpleDesc": "Regagne plus de PV"
+        }
+      ]
+    },
+    {
+      "id": 9285,
+      "name": "Boisson Gazeuse",
+      "desc": "Les Pécheurs qui essayent de se soigner des PV ce tour en utilisant des effets de Capacité ou de Pièce gagnent les effets suivants au prochain tour :\n- Les Capacités infligent +10% de dégâts\n- Gagne du [AttackUp] égal à (somme des PV soignés durant le tour (inclut le soin en excès) / 10) (6 max ; arrondi à l’inférieur)\n\nS’il y a d’autres Identités sur le terrain qui sont de la même faction que les unités ayant activé l’effet ci-dessus, elles gagnent la moitié du [AttackUp] que les unités ci-dessus ont gagné (1 min, 3 max par tour ; arrondi à l’inférieur)",
+      "simpleDesc": [
+        {
+          "abilityID": 9285,
+          "simpleDesc": "Inflige plus de dégâts et gagne [AttackUp]"
+        }
+      ]
+    },
+    {
+      "id": 9286,
+      "name": "Pantalon de la Maison du Noir",
+      "desc": "Lorsque des alliés ayant 2 d’Intensité de [Charge] ou plus déclenchent un [VibrationExplosion], applique les effets suivants :\n- Inflige (Intensité de [Charge] sur soi * Compte de [Charge]) dégâts d’Envie (2 fois par Capacité, 100 dégâts max par déclenchement)\n- Toutes les 2 fois que l’effet ci-dessus inflige des dégâts d’Envie, inflige 3 [Binding] au prochain tour à la cible\n\nChaque fois qu’un allié déclenche un [VibrationExplosion] avec une Capacité, gagne (Intensité de [Charge] sur soi / 3) [AttackUp] au prochain tour (5 max par tour ; arrondi à l’inférieur)",
+      "simpleDesc": [
+        {
+          "abilityID": 9286,
+          "simpleDesc": "Inflige des dégâts d’Envie et inflige [Binding]"
+        },
+        {
+          "abilityID": 92861,
+          "simpleDesc": "Gagne [AttackUp]"
+        }
+      ]
+    },
+    {
+      "id": 9287,
+      "name": "Babies Charles IX Le Noir",
+      "desc": "Début du Combat : En Touche d’une Identité ayant le plus haut Bouclier, inflige (Bouclier actuel / 2) dégâts de Paresse (2 fois par Capacité, 100 dégâts max par déclenchement ; arrondi à l’inférieur)\n- Si 2 Identités ou plus ont les mêmes PV de Bouclier, s’applique à l’Identité ayant l’Ordre de Déploiement le plus tôt\n\nSi l’Identité affectée est une [PersonalityCharge], inflige des dégâts de Paresse égaux au Bouclier actuel à la place (3 fois par Capacité, 100 par déclenchement max ; arrondi à l’inférieur)",
+      "simpleDesc": [
+        {
+          "abilityID": 9287,
+          "simpleDesc": "Inflige des dégâts de Paresse selon le Bouclier"
+        }
+      ]
+    },
+    {
+      "id": 9288,
+      "name": "Épingle du Roi des Broderies",
+      "desc": "Début du Tour : si aucun ennemi a [SewingKingMark], inflige [SewingKingMark] à un ennemi aléatoire (en Affrontement Ciblé, une Partie)",
+      "simpleDesc": [
+        {
+          "abilityID": 9288,
+          "simpleDesc": "Inflige [SewingKingMark] ; inflige des dégâts fixes à la mort"
+        }
+      ]
+    },
+    {
+      "id": 9289,
+      "name": "Cartilage",
+      "desc": "Les Capacités qui consomment du Compte de [Charge] ou une [Charge] Unique infligent +(Intensité de [Charge] sur soi * 2)% de dégâts (10% max)\n\nFin du Tour : les unités qui ont consommé du Compte de [Charge] ou une [Charge] Unique ce tour gagnent 1 [Agility] au prochain tour\n\nSi la Vitesse d’une unité est plus rapide que celle de la cible, +1 de Puissance de Duel\n- Si ladite unité est une Identité “Sisyphe”, gagne +1 de Puissance Finale à la place",
+      "simpleDesc": [
+        {
+          "abilityID": 9289,
+          "simpleDesc": "Inflige plus de dégâts, gagne [Agility] et gagne de la Puissance de Duel/Finale"
+        }
+      ]
+    },
+    {
+      "id": 9290,
+      "name": "Couverture",
+      "desc": "Les Identités ayant équipé des Capacités Défensives ce tour subissent -20% de dégâts d’attaques ennemies\n- Fin du Combat : si l’Identité affectée est une [PersonalityCharge], gagne 2 [AttackUp] au prochain tour\n- Début du Combat : si l’Identité affectée est une Identité “Sisyphe”, gagne 1 [ResultEnhancement] au prochain tour",
+      "simpleDesc": [
+        {
+          "abilityID": 9290,
+          "simpleDesc": "Subit moins de dégâts et gagne [AttackUp]/[ResultEnhancement]"
+        }
+      ]
+    },
+    {
+      "id": 9291,
+      "name": "Ciseaux de Floraison",
+      "desc": "[Les effets s’appliquent uniquement à l’Identité Déployée #1]\n\nIdentité “Sisyphe” ou [PersonalityCharge] : En Touche de Pièce Finale de Capacité de Base, inflige des dégâts Tranchants égaux à 5% des dégâts finaux de ladite Pièce à la cible principale (une fois par Capacité)",
+      "simpleDesc": [
+        {
+          "abilityID": 9291,
+          "simpleDesc": "Inflige des dégâts Tranchants à la cible principale"
+        }
+      ]
+    },
+    {
+      "id": 19291,
+      "name": "Ciseaux de Floraison+",
+      "desc": "[Les effets s’appliquent uniquement à l’Identité Déployée #1]\n\nIdentité “Sisyphe” ou [PersonalityCharge] : En Touche de Pièce Finale de Capacité de Base, inflige des dégâts Tranchants égaux à <style=\"upgradeHighlight\">10%</style> des dégâts finaux de ladite Pièce à la cible principale (une fois par Capacité)",
+      "simpleDesc": [
+        {
+          "abilityID": 19291,
+          "simpleDesc": "Inflige des dégâts Tranchants à la cible principale"
+        }
+      ]
+    },
+    {
+      "id": 29291,
+      "name": "Ciseaux de Floraison++",
+      "desc": "[Les effets s’appliquent uniquement à l’Identité Déployée #1]\n\nIdentité “Sisyphe” ou [PersonalityCharge] : En Touche de Pièce Finale de Capacité de Base, inflige des dégâts Tranchants égaux à <style=\"upgradeHighlight\">15%</style> des dégâts finaux de ladite Pièce à la cible principale (une fois par Capacité)",
+      "simpleDesc": [
+        {
+          "abilityID": 29291,
+          "simpleDesc": "Inflige des dégâts Tranchants à la cible principale"
+        }
+      ]
+    }
+  ]
+}
