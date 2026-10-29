@@ -3749,7 +3749,78 @@
     {
       "id": "RougeFamilySinclair",
       "name": "Berceau Cramoisi",
-      "desc": "Lorsque les conditions sont remplies par les autres alliés “Le Rouge”, active les effets correspondants pour Haute Couture::Le Dieu Cramoisi de Le Rouge Sinclair\n- Les effets restent actifs même lorsque l’allié correspondant est vaincu\n\nLe Rouge Ishmaël\n- Si Ishmaël est en état de “Relooking Complet”, +10% de PV max de Sinclair ; Sinclair regagne 5% de PV max En Touche de Capacité de Base (arrondi au supérieur, 5 fois par tour)",
+      "desc": "Lorsque les conditions sont remplies par les autres alliés “Le Rouge”, active les effets correspondants pour Haute Couture::Le Dieu Cramoisi de Le Rouge Sinclair\n- Les effets restent actifs même lorsque l’allié correspondant est vaincu\n\nHaute Couture::Boutique du Rouge\n- Si Ishmaël est en état de “Relooking Complet”, +10% de PV max de Sinclair ; Sinclair regagne 5% de PV max En Touche de Capacité de Base (arrondi au supérieur, 5 fois par tour)\n\nHaute Couture::Roi des Broderies Le Rouge Heathcliff\n- En Touche en utilisant les Pièces de la Capacité “La Demande”, gagne +1 de Compte de Pulsation et regagne 5% de PV",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "NiddlePinGather",
+      "name": "Petits Clous Aiguisés",
+      "desc": "- Instance max : 30",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "NiddlePinAlly",
+      "name": "Clouguille",
+      "desc": "- Saignement Unique\n- Instance max : 10\n- Fin du Tour : perd 1 Instance\n\n- En perdant de l’Instance de cet effet, gagne 1 d’Intensité de Saignement et subit 3 dégâts de Luxure par Instance perdue\n\n- Fin du Tour : si l’ennemi Haute Couture::Le Dieu Cramoisi de Le Rouge Sinclair est sur le terrain et que cette unité a cet effet, cette unité gagne 1 L’Abject",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "NiddlePinnedAlly",
+      "name": "Taxidermisé",
+      "desc": "- Instance max : 1\n- -1 de Puissance Finale de Capacité\n- À l’Usage de Capacité Offensive, active le Saignement sur soi et perd 1 de Compte de Saignement (une fois par Capacité)\n- Fin du Tour : gagne +2 de Compte de Saignement, 1 Malus de Puissance et 2 Ralentissement au prochain tour\n- Fin du Tour : cet effet expire",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "NeedlekinAlly",
+      "name": "Aiguividu",
+      "desc": "- Instance max : 3\n- +1 Niveau Offensif par Instance",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Fermla ! Fermla !"
+    },
+    {
+      "id": "HowlingCocoonAlly",
+      "name": "Pleurs du Cocon - Frêle",
+      "desc": "- Instance max : 5\n- +1 de Puissance Finale de Capacité de Base\n- En Touche en utilisant des Capacités de Base, regagne 3% de PV (5 fois par tour)\n\n- Début du Tour : si l’allié Haute Couture::Le Dieu Cramoisi de Le Rouge Sinclair n’est pas sur le terrain, cet effet expire",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "HowlingCocoonTwoAlly",
+      "name": "Pleurs du Cocon - Vicieux",
+      "desc": "- Instance max : 1\n- +1 de Puissance Finale de Capacité de Base\n- Inflige +10% de dégâts en utilisant des Capacités de Base\n- En Touche en utilisant des Capacités de Base, regagne 6% de PV (5 fois par tour)\n\n- Début du Tour : si l’allié Haute Couture::Le Dieu Cramoisi de Le Rouge Sinclair n’est pas sur le terrain, cet effet expire",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "NoirBindArmorAlly",
+      "name": "Le Noir : Pardessus en Worsted",
+      "desc": "- Instance max : 15\n- +1 Niveau Offensif, +1 Niveau Défensif toutes les 5 Instances\n- Lorsque touché en ayant du Bouclier, gagne 1 Instance (5 Instances par tour)\n- Fin du Tour : au prochain tour, gagne (Instance * 5) de Bouclier et perd 1 Instance",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "ReadyToListenHonglu",
+      "name": "Prêt à Narrer",
+      "desc": "- Instance max : 2\n- Fin du Tour : gagne (Instance) Protection au prochain tour\n- Fin du Tour : à Instance max, consomme toutes les Instances pour gagner 2 Temps d’Écouter au prochain tour\n- Peut gagner jusqu’à 1 Instance par tour\n- Si cette unité a Temps d’Écouter, elle ne peut pas gagner Prêt à Narrer",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "TimeToListenHonglu",
+      "name": "Temps d’Écouter",
+      "desc": "- Instance max : 2\n- +1 de Puissance de Base de Capacité de Base\n- Début du Combat (une fois par tour par Pécheur) :\n  · Les Identités ayant équipé des Capacités à Pièce Positive dans leurs Emplacements les plus à gauche regagnent 4 PSM\n  · Les Identités ayant équipé des Capacités à Pièce Négative dans leurs Emplacements les plus à gauche perdent 4 PSM (cet effet ne peut pas faire descendre les PSM de l’unité en dessous de -40)\n- Début du Combat : applique 1 Bonus de DGT de Paresse aux Identités suivantes (une fois par tour par Identité) :\n  · Les Identités ayant équipé des Capacités à Pièce Positive et ayant 40 PSM ou plus ; les Identités Le Noir gagne 1 Bonus de Puissance de Base supplémentaire\n  · Les Identités ayant équipé des Capacités à Pièce Négative et ayant -40 PSM ou moins ; les Identités Le Noir gagne 1 Bonus de Puissance de Base supplémentaire\n- Fin du Tour : perd 1 Instance",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "WarinessHonglu",
+      "name": "Châtiment Auditif",
+      "desc": "- Instance max : 2\n- Perd du Niveau Offensif égal à l’Instance\n- S’il y a une Identité ayant Temps d’Écouter, subit +(Instance * 10)% de dégâts des Identités “Le Noir”\n- Fin du Tour : s’il y a une Identité ayant Temps d’Écouter, perd 1 Instance (si l’Identité ayant infligé cet effet a été vaincue ou a Battu en Retraite, expire)",
       "summary": "",
       "undefined": "-"
     }

@@ -3646,6 +3646,346 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1061701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "S’il Vous Plaît, Écoutez Moi",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +2 de Compte de [ChargeNoirAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "S’il Vous Plaît, Écoutez Moi",
+          "desc": "<style=\"highlight\">[WhenUse] Consomme 3 de Compte de [ChargeNoirAlly] pour gagner +1 de Puissance de Pièce (2 fois max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +<style=\"highlight\">3</style> de Compte de [ChargeNoirAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "S’il Vous Plaît, Écoutez Moi",
+          "desc": "<style=\"highlight\">Inflige +5% de dégâts toutes les 2 d’Intensité de [ChargeNoirAlly] sur soi (10% max)</style>\n[WhenUse] Consomme 3 de Compte de [ChargeNoirAlly] pour gagner +1 de Puissance de Pièce (2 fois max)\n<style=\"highlight\">[EndSkillAll] À moins de 10 de Compte de [ChargeNoirAlly], gagne +3 de Compte de [ChargeNoirAlly]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne +<style=\"highlight\">4</style> de Compte de [ChargeNoirAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">3</style> [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Boucle en Boucle",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne +3 de Compte de [ChargeNoirAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Si cette unité a [TimeToListenHonglu], Réutilise cette Pièce une fois (une fois par Capacité)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [WarinessHonglu]"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Inflige 3 dégâts de PSM"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Inflige 1 [AmberResistDown] au prochain tour (une fois par tour)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Boucle en Boucle",
+          "desc": "<style=\"highlight\">[WhenUse] Consomme 3 de Compte de [ChargeNoirAlly] pour gagner +1 de Puissance de Pièce (2 fois max)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">+3</style> de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne +<style=\"highlight\">4</style> de Compte de [ChargeNoirAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Si cette unité a [TimeToListenHonglu], Réutilise cette Pièce une fois (une fois par Capacité)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [WarinessHonglu]"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Inflige 3 dégâts de PSM"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Inflige 1 [AmberResistDown] au prochain tour (une fois par tour)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Boucle en Boucle",
+          "desc": "<style=\"highlight\">Inflige +10% de dégâts toutes les 2 d’Intensité de [ChargeNoirAlly] sur soi (20% max)</style>\n[WhenUse] Consomme 3 de Compte de [ChargeNoirAlly] pour gagner +1 de Puissance de Pièce (2 fois max)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne +<style=\"highlight\">5</style> de Compte de [ChargeNoirAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Si cette unité a [TimeToListenHonglu], Réutilise cette Pièce une fois (une fois par Capacité)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [WarinessHonglu]"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Inflige 3 dégâts de PSM"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Inflige 1 [AmberResistDown] <style=\"highlight\">ce tour et</style> au prochain tour (une fois par tour)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061703,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Rediffusion Horriblement Infinie",
+          "desc": "Inflige +10% de dégâts toutes les 2 d’Intensité de [ChargeNoirAlly] sur soi (30% max)\n[WhenUse] Gagne (Intensité de [ChargeNoirAlly] * 2) [NoirBindArmorAlly] (10 par Capacité max)\n[WhenUse] Consomme 5 de Compte de [ChargeNoirAlly] pour gagner +1 de Puissance de Pièce (3 fois max)\n[EndSkill] Si cette unité n’a pas [TimeToListenHonglu], gagne 1 [ReadyToListenHonglu] (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Si cette unité a [TimeToListenHonglu], Réutilise cette Pièce une fois (une fois par Capacité)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [WarinessHonglu]"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Inflige 5 dégâts de PSM"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Inflige des dégâts de Paresse égaux à 20% des dégâts finaux de cette Pièce"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Rediffusion Horriblement Infinie",
+          "desc": "Inflige +10% de dégâts toutes les 2 d’Intensité de [ChargeNoirAlly] sur soi (30% max)\n[WhenUse] Gagne (Intensité de [ChargeNoirAlly] * <style=\"highlight\">3</style>) [NoirBindArmorAlly] (<style=\"highlight\">15</style> par Capacité max)\n[WhenUse] Consomme 5 de Compte de [ChargeNoirAlly] pour gagner +1 de Puissance de Pièce (3 fois max)\n[EndSkill] Si cette unité n’a pas [TimeToListenHonglu], gagne 1 [ReadyToListenHonglu] (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Si cette unité a [TimeToListenHonglu], Réutilise cette Pièce une fois (une fois par Capacité)"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] À 2 d’Intensité de [ChargeNoirAlly] ou plus, déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [WarinessHonglu]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Inflige 5 dégâts de PSM<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Inflige des dégâts de Paresse égaux à <style=\"highlight\">30</style>% des dégâts finaux de cette Pièce"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Annonce à la Clientèle",
+          "desc": "[DuelCounter]\n[StartBattle] Si cette unité n’a pas [SupportProtect], gagne 1 [SupportProtect]\n[WhenUse] Gagne du [NoirBindArmorAlly] égal à l’Intensité de [ChargeNoirAlly] sur soi (5 par Capacité max)\n[WhenUse] Gagne +2 de Compte de [ChargeNoirAlly]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Annonce à la Clientèle",
+          "desc": "[DuelCounter]\n<style=\"highlight\">Inflige +25% de dégâts toutes les 2 d’Intensité de [ChargeNoirAlly] sur soi (75% max)</style>\n[StartBattle] Si cette unité n’a pas [SupportProtect], gagne 1 [SupportProtect]\n<style=\"highlight\">[BeforeUse] Si cette unité a [TimeToListenHonglu], active “Rediffusion Horriblement Infinie” à la place (une fois par Affrontement)\n[WhenUse] +1 de Puissance de Pièce toutes les 3 d’Intensité de [ChargeNoirAlly] sur soi (2 max)</style>\n[WhenUse] <style=\"highlight\">Gagne (Intensité de [ChargeNoirAlly] sur soi * 3) [NoirBindArmorAlly]</style> (<style=\"highlight\">15</style> par Capacité max)\n[WhenUse] Gagne +<style=\"highlight\">4</style> de Compte de [ChargeNoirAlly]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Annonce d’Avertissement",
+          "desc": "[CanDuelGuard]\nCapacité exclusive de [SupportProtect]\n[WhenUse] Consomme 6 de Compte de [ChargeNoirAlly] pour gagner 1 [SupportProtect] au prochain tour (une fois par tour)\n[WhenUse] Si cette unité n’a pas [TimeToListenHonglu], gagne 1 [ReadyToListenHonglu] (une fois par tour)\n[WinDuel] Gagne +2 de Compte de [ChargeNoirAlly]\n[WinDuel] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Annonce d’Avertissement",
+          "desc": "[CanDuelGuard]\nCapacité exclusive de [SupportProtect]\n<style=\"highlight\">+1 de Puissance Finale toutes les 2 d’Intensité de [ChargeNoirAlly] sur soi (3 max)</style>\n[WhenUse] Consomme 6 de Compte de [ChargeNoirAlly] pour gagner 1 [SupportProtect] au prochain tour (une fois par tour)\n[WhenUse] Si cette unité n’a pas [TimeToListenHonglu], gagne 1 [ReadyToListenHonglu] (une fois par tour)\n[WinDuel] Gagne +<style=\"highlight\">4</style> de Compte de [ChargeNoirAlly]\n[WinDuel] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

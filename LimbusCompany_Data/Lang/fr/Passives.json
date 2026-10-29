@@ -3397,6 +3397,51 @@
       "id": 1101621,
       "name": "Surconsommation Vorace",
       "desc": "Début du Combat : applique 2 [AttackUp] à l’allié avec les plus bas PV\nLedit allié regagne 5% de PV à la Fin de Capacité Offensive (1 min, une fois par tour)"
+    },
+    {
+      "id": 1071702,
+      "name": "Réclamations Client Qui Hantent les Oreilles",
+      "desc": "Gagne 1 d’Intensité de [ChargeRougeAlly] tous les 10 de Compte de [ChargeRougeAlly] cumulés consommés par cette unité dans cet Affrontement\n\nDébut du Tour : si l’allié Haute Couture::Le Dieu Cramoisi de Le Rouge Sinclair est sur le terrain, gagne 1 [HowlingCocoonAlly]\n\nDébut du Tour : à Instance max de [HowlingCocoonAlly], ou si l’allié Haute Couture::Le Dieu Cramoisi de Le Rouge Sinclair a [TransformSinclair], convertit [HowlingCocoonAlly] en [HowlingCocoonTwoAlly] ; puis, l’allié Haute Couture::Le Dieu Cramoisi de Le Rouge Sinclair gagne les effets suivants :\n- Gagne 1 [RougeFamilySinclair]\n- En Touche en utilisant les Pièces de la Capacité “La Demande”, gagne +1 de Compte de [ChargeRougeAlly] et regagne 5% de PV"
+    },
+    {
+      "id": 1071703,
+      "name": "Fait main ? Tu veux que je couse ça à la main ?! COUDRE À LA MAIN ???!!!",
+      "desc": "Chaque fois que cette unité perd 3% de PV, gagne +1 de Compte de [ChargeRougeAlly] (20 par tour max)\n\nChaque fois que cette unité perd 1.5% de PV, gagne 1 [NiddlePinGather]\n\nLes effets de consommation de PV des Capacités de Base de cette unité ne Déséquilibrent pas ou ne réduisent pas les PV de cette unité en dessous de 1 (à 1 PV, les effets de Capacité de Base qui consomment des PV seront activés gratuitement)"
+    },
+    {
+      "id": 1071713,
+      "name": "Fait main ? Tu veux que je couse ça à la main ?! COUDRE À LA MAIN ???!!!",
+      "desc": "Chaque fois que cette unité perd 3% de PV, gagne +1 de Compte de [ChargeRougeAlly] (20 par tour max)\n\nChaque fois que cette unité perd 1.5% de PV, gagne 1 [NiddlePinGather]\n\nLes effets de consommation de PV des Capacités de Base de cette unité ne Déséquilibrent pas ou ne réduisent pas les PV de cette unité en dessous de 1 (à 1 PV, les effets de Capacité de Base qui consomment des PV seront activés gratuitement)\n\nÀ 3 [NeedlekinAlly], utilise la Capacité “Double couture dépassant la couture latérale ? Double-aiguille ! Rejeté !” sur des ennemis aléatoires à la Fin de la Capacité Offensive"
+    },
+    {
+      "id": 1071701,
+      "name": "Trop régulier, tu dis ? Pas de surpiqûres, tu dis ? Rassemblement !!!",
+      "desc": "Fin du Tour : gagne 1 [NeedlekinAlly]"
+    },
+    {
+      "id": 1071721,
+      "name": "20 points par pouce, minimum !!!",
+      "desc": "1 allié avec la Vitesse la plus rapide : En Touche en utilisant des Capacités Offensives de Base, inflige 2 [Laceration] (une fois par tour)\n- Si ledit allié est une Identité “Le Rouge”, inflige 1 [NiddlePinAlly] supplémentaire"
+    },
+    {
+      "id": 1061701,
+      "name": "Le Noir : Worsted",
+      "desc": "+1 de Puissance de Duel des Capacités Défensives par Intensité de [ChargeNoirAlly] sur soi (5 max)\n\nÀ 8 [NoirBindArmorAlly] ou plus, après que cette unité ait consommé du Compte de [ChargeNoirAlly] en utilisant la Capacité “Annonce d’Avertissement”, gagne +(Compte de [ChargeNoirAlly] consommé par ladite Capacité) de Compte de [ChargeNoirAlly] à la Fin de la Capacité (une fois par tour)"
+    },
+    {
+      "id": 1061702,
+      "name": "Vous Devriez Écouter, Vous Savez ?",
+      "desc": "Gagne 1 d’Intensité de [ChargeNoirAlly] chaque fois que cette unité consomme 10 de Compte de [ChargeNoirAlly] cumulés dans cet Affrontement\n\nPeut gagner jusqu’à 1 [ReadyToListenHonglu] par tour\n- Si cette unité a [TimeToListenHonglu], cette unité ne peut pas gagner [ReadyToListenHonglu]\n\nFin du Tour : à 2 [ReadyToListenHonglu], consomme toutes les Instances et applique les effets suivants au prochain tour :\n- Gagne 2 [TimeToListenHonglu]\n- Inflige 2 [WarinessHonglu] à tous les ennemis sur le terrain (une fois par tour ; en Affrontement Ciblé, toutes les Parties)"
+    },
+    {
+      "id": 1061712,
+      "name": "Vous Devriez Écouter, Vous Savez ?",
+      "desc": "Gagne 1 d’Intensité de [ChargeNoirAlly] chaque fois que cette unité consomme 10 de Compte de [ChargeNoirAlly] cumulés dans cet Affrontement\n\nPeut gagner jusqu’à 1 [ReadyToListenHonglu] par tour\n- Si cette unité a [TimeToListenHonglu], cette unité ne peut pas gagner [ReadyToListenHonglu]\n\nFin du Tour : à 2 [ReadyToListenHonglu], consomme toutes les Instances et applique les effets suivants au prochain tour :\n- Gagne 2 [TimeToListenHonglu]\n- Inflige 2 [WarinessHonglu] à tous les ennemis sur le terrain (une fois par tour ; en Affrontement Ciblé, toutes les Parties)\n<style=\"highlight\">- Réinitialise la limite d’activation de l’effet “Avant l’Usage” de la Capacité “Annonce à la Clientèle”</style>"
+    },
+    {
+      "id": 1061721,
+      "name": "Bordez-les Sous une Couverture",
+      "desc": "La première Identité à utiliser une Capacité exclusive de [SupportProtect] lors d’un tour gagne 1 [Protection] à l’Usage de ladite Capacité (une fois par tour)"
     }
   ]
 }
