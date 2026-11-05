@@ -117,6 +117,72 @@
           "simpleDesc": "Inflige des dégâts Tranchants à la cible principale"
         }
       ]
+    },
+    {
+      "id": 9301,
+      "name": "Hauts de Hurlevent",
+      "desc": "Fin du Tour : lorsque Déséquilibré, se remet de Déséquilibre ; puis, au prochain Début de Tour, inflige 4 d’Intensité de [Sinking] et +4 de Compte de [Sinking] à tous les ennemis (une fois par Affrontement ; en Affrontement Ciblé, à toutes les Parties)\n- L’effet ci-dessus s’active ((Identités “Hauts de Hurlevent” déployées + Identités “Famille Edgar” déployée) / 2) fois supplémentaires par Affrontement (4 fois max par Affrontement ; inclut les Unités de Renfort)\n\nEn Tuant, 1 ennemi ayant le moins de Compte de [Sinking] gagne +2 de Compte de [Sinking] (en Affrontement Ciblé, la Partie)\n\nEn Touche contre des Unités à PSM, si la cible a -45 PSM, inflige des dégâts de Peine égaux à l’Intensité de [Sinking] de la cible\n\nEn Affrontement Ciblé, En Touche contre des ennemis ayant 10 (Intensité de [Sinking] + Compte de [Sinking]) ou plus :\nInflige ((Intensité de [Sinking] de la cible) / 2) dégâts de Peine (une fois par Capacité)\n\nSi la Capacité qui touche un ennemi inflige de la [Sinking] (inclut le Compte de [Sinking] et de la [Sinking] Unique), au lieu d’infliger (Intensité de [Sinking] de la cible / 2) dégâts de Peine, inflige (Intensité de [Sinking] de la cible) dégâts de Peine\n(Chaque tour, ceci ne s’applique qu’à la première Capacité infligeant de la Lourdeur qui touche)\n\n[Effet exclusif de <noparse>Chasse Sauvage</noparse> Heathcliff]\nDébut du Tour : si cette unité n’a pas [NightPathfinding], gagne 1 [NightPathfinding]\n- À 5/10 [Coffin], gagne 2/3 [NightPathfinding]\n- Applique 1 [SoundOfStorm] aux Identités “Hauts de Hurlevent” et “Famille Edgar” (3 fois par Identité par Affrontement)\n\nDouble la quantité de [Coffin] gagnée\n- Gagne 2 [Coffin] lorsque des Identités “Hauts de Hurlevent” ou “Famille Edgar” vainquent un ennemi\n\nEffets de la Capacité “Lamente-toi, Pleure et Désespère” :\n- Perd 15 PSM supplémentaire lors de l’effet “À l’Usage”\n  · Les effets de la Capacité ou de ce Don E.G.O. ne peuvent pas réduire les PSM de cette unité en dessous de -40\n- En Touche de Pièce finale, si l’ennemi a 20 [Sinking] ou plus, inflige des dégâts de Peine égaux à 100% des dégâts finaux de cette Pièce",
+      "simpleDesc": [
+        {
+          "abilityID": 9432,
+          "simpleDesc": "Inflige 4 d’Intensité et de Compte de [Sinking] à tous les ennemis au prochain tour"
+        },
+        {
+          "abilityID": 94321,
+          "simpleDesc": "L’ennemi ayant le moins de Compte de [Sinking] gagne +2 de Compte de [Sinking]"
+        },
+        {
+          "abilityID": 9436,
+          "simpleDesc": "Inflige des dégâts de Peine selon la [Sinking] de la cible"
+        },
+        {
+          "abilityID": 94361,
+          "simpleDesc": "Inflige des dégâts de Peine selon la [Sinking] de la cible"
+        },
+        {
+          "abilityID": 93011,
+          "simpleDesc": "Gagne [NightPathfinding] ; applique [SoundOfStorm] aux Identités ayant certains mots-clé de trait"
+        },
+        {
+          "abilityID": 93012,
+          "simpleDesc": "Double la quantité de [Coffin] gagnée"
+        },
+        {
+          "abilityID": 93013,
+          "simpleDesc": "Gagne [Coffin] lorsque des Identités ayant certains mots-clé de trait vainquent un ennemi"
+        },
+        {
+          "abilityID": 93014,
+          "simpleDesc": "“Lamente-toi, Pleure et Désespère” fait perdre plus de PSM À l’Usage"
+        },
+        {
+          "abilityID": 93015,
+          "simpleDesc": "“Lamente-toi, Pleure et Désespère” inflige des dégâts de Peine en Touche de Pièce finale"
+        }
+      ]
+    },
+    {
+      "id": 9302,
+      "name": "La Mesure du Givre",
+      "desc": "Début du Tour : à 40 PSM ou plus, ou à -40 PSM ou moins, gagne 1 [GainSinStockAdder]\n\n[Effet exclusif aux Identités ayant 2 Capacités à Pièces Négatives ou plus]\nDébut du Tour : perd 15 PSM (les PSM de cette unité ne peuvent pas descendre en dessous de -40 suite à cet effet)\n\nDans cet Affrontement, en subissant des dégâts de PSM qui réduiraient les PSM de cette unité à -45, les PSM de cette unité ne peuvent pas descendre en dessous de -44 pour le tour (une fois par Affrontement)\n(※ Ne s’applique qu’aux dégâts de PSM ; ne s’applique pas aux effets de changement de PSM ou de consommation de PSM tels que l’utilisation de Capacités E.G.O.)\n\nAvant l’Attaque d’une Capacité 3 ou d’une Capacité E.G.O., consomme jusqu’à 5 Ressources E.G.O. de la même Affinité que celle de ladite Capacité pour infliger +(Ressources E.G.O. consommées * 10)% de dégâts",
+      "simpleDesc": [
+        {
+          "abilityID": 9302,
+          "simpleDesc": "Gagne [GainSinStockAdder] lorsque les conditions de PSM sont remplies"
+        },
+        {
+          "abilityID": 93021,
+          "simpleDesc": "Début du Tour : perd des PSM"
+        },
+        {
+          "abilityID": 93022,
+          "simpleDesc": "Maintien les PSM à -44 une fois en subissant des dégâts de PSM qui réduiraient les PSM à -45"
+        },
+        {
+          "abilityID": 93023,
+          "simpleDesc": "Consomme des Ressources E.G.O. pour infliger plus de dégâts avec les Capacités 3 et E.G.O."
+        }
+      ]
     }
   ]
 }
