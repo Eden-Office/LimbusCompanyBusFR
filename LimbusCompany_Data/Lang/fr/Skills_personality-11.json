@@ -3209,6 +3209,474 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1111601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Coup de Lance à Grande Vitesse",
+          "desc": "[WhenUse] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige +1 de Compte de [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Coup de Lance à Grande Vitesse",
+          "desc": "<style=\"highlight\">[WhenUse] À 6 (Intensité de [Breath] sur soi + Intensité de [Vibration] sur la cible) ou plus, +1 de Puissance de Pièce</style>\n[WhenUse] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [Breath]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige +1 de Compte de [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Coup de Lance à Grande Vitesse",
+          "desc": "[WhenUse] À 6 (Intensité de [Breath] sur soi + Intensité de [Vibration] sur la cible) ou plus, +1 de Puissance de Pièce\n<style=\"highlight\">[WhenUse] À 3 [WedgeOffice], +1 de Puissance Finale</style>\n[WhenUse] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [Breath]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflige +1 de Compte de [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lance Étincelante",
+          "desc": "[StartBattle] Applique 1 [PenetrateDamageUp] à toutes les Identités “Bureau Fer-de-lance[TabExplain]” alliées, incluant cette unité (une fois par tour)\n[WhenUse] Si l’autre Capacité dans le même Emplacement de Capacité est “Coup de Lance à Grande Vitesse”, Défausse cette Capacité\n[WhenUse] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 3 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration] et +1 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Lance Étincelante",
+          "desc": "[StartBattle] Applique 1 [PenetrateDamageUp] à toutes les Identités “Bureau Fer-de-lance[TabExplain]” alliées, incluant cette unité (une fois par tour)\n[WhenUse] Si l’autre Capacité dans le même Emplacement de Capacité est “Coup de Lance à Grande Vitesse”, Défausse cette Capacité\n<style=\"highlight\">[WhenUse] À 6 (Intensité de [Breath] sur soi + Intensité de [Vibration] sur la cible) ou plus, +1 de Puissance de Pièce</style>\n<style=\"highlight\">[WhenUse] +1 de Puissance Finale par [WedgeOffice] sur soi (3 max)</style>\n[WhenUse] Gagne +2 de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 3 [Breath]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration] et +1 de Compte de [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Lance Étincelante",
+          "desc": "[StartBattle] Applique 1 [PenetrateDamageUp] à toutes les Identités “Bureau Fer-de-lance[TabExplain]” alliées, incluant cette unité (une fois par tour)\n[WhenUse] Si l’autre Capacité dans le même Emplacement de Capacité est “Coup de Lance à Grande Vitesse”, Défausse cette Capacité\n<style=\"highlight\">[WhenUse] +1 de Puissance de Pièce tous les 6 (Intensité de [Breath] sur soi + Intensité de [Vibration] sur la cible) (2 max)</style>\n[WhenUse] +1 de Puissance Finale par [WedgeOffice] sur soi (3 max)\n[WhenUse] Gagne +<style=\"highlight\">3</style> de Compte de [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 3 [Breath]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration] et +1 de Compte de [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111603,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Transpercer",
+          "desc": "[WhenUse] +1 de Puissance Finale tous les 4 (Intensité de [Breath] sur soi + Intensité de [Vibration] sur la cible) (3 max)\n[WhenUse] Gagne 2 [Breath]\n[WhenUse] Gagne +3 de Compte de [Breath]\n\n[ComboSkill] : Rep du Bureau de l’Aube[TabExplain] Gregor\n- [WhenUse] Gagne 1 [ComboWedgeDawn] (une fois par Capacité)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Si la cible est en état de [Switch_Vibration] ou d’[FusionVibration], cette Pièce inflige +50% de dégâts"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible n’est pas en état de [Switch_Vibration], déclenche une [Switch_Vibration] en [VibrationCollapse]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts Perçants égaux à 100% des dégâts finaux de cette Pièce"
+                },
+                {
+                  "desc": "[ComboSkill] : Rep du Bureau de l’Aube[TabExplain] Gregor\n- Inflige +30% de dégâts\n- [OnSucceedAttack] Inflige +2 de Compte de [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Transpercer",
+          "desc": "<style=\"highlight\">[WhenUse] Inflige +(Intensité * Compte de [Vibration] sur la cible)% de dégâts (100% max)</style>\n<style=\"highlight\">[WhenUse] Inflige +(Intensité * Compte de [Breath] sur soi)% de dégâts en Touche Critique (100% max)</style>\n[WhenUse] +1 de Puissance Finale tous les 4 (Intensité de [Breath] sur soi + Intensité de [Vibration] sur la cible) (<style=\"highlight\">5</style> max)\n<style=\"highlight\">[WhenUse] À 3 [WedgeOffice], +6 de Puissance de Duel</style>\n[WhenUse] Gagne 2 [Breath]\n[WhenUse] Gagne +3 de Compte de [Breath]\n\n[ComboSkill] : Rep du Bureau de l’Aube[TabExplain] Gregor\n- [WhenUse] Gagne 1 [ComboWedgeDawn] (une fois par Capacité)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "Si la cible est en état de [Switch_Vibration] ou d’[FusionVibration], cette Pièce inflige +50% de dégâts<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible n’est pas en état de [Switch_Vibration], déclenche une [Switch_Vibration] en [VibrationCollapse]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflige 2 [PenetrateTakeDamageUp] (une fois par tour)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts Perçants égaux à 100% des dégâts finaux de cette Pièce"
+                },
+                {
+                  "desc": "[ComboSkill] : Rep du Bureau de l’Aube[TabExplain] Gregor\n- Inflige +30% de dégâts\n- [OnSucceedAttack] Inflige +2 de Compte de [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Reprendre son Souffle",
+          "desc": "[StartBattle] Gagne 1 [SupportProtect] (2 fois par tour)\n[OnSucceedEvade] \n- Gagne 2 [Breath] (3 fois par tour)\n- Gagne 2 [Agility] au prochain tour (une fois par tour)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Reprendre son Souffle",
+          "desc": "[StartBattle] Gagne 1 [SupportProtect] (2 fois par tour)\n<style=\"highlight\">[WhenUse] +1 de Puissance de Pièce toutes les 3 d’Intensité de [Breath] sur soi (2 max)</style>\n[OnSucceedEvade] \n- Gagne 2 [Breath] (3 fois par tour)\n- Gagne 2 [Agility] au prochain tour (une fois par tour)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111605,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "En Formation Fer-de-lance",
+          "desc": "[CantDuel]\n[WhenUse] À 8 d’Intensité de [Breath] ou plus, +1 de Puissance de Pièce\n[WhenUse] Si la cible a 8 d’Intensité de [Vibration] ou plus, +1 de Puissance Finale\n[WhenUse] Gagne +3 de Compte de [Breath]\n[EndSkill]\n- Consomme 25 [ComboWedge] sur soi\n- Applique 1 [PenetrateResultUp] au prochain tour aux autres Identités “Bureau Fer-de-lance[TabExplain]” alliées\n- Gagne 1 [ComboWedgeDawn]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[ComboSkill] : Fixer du Bureau Fer-de-lance[TabExplain] Don Quichotte\n- Inflige +30% de dégâts\n- En Touche de Pièce finale, déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                },
+                {
+                  "desc": "[ComboSkill] : Fixer du Bureau Fer-de-lance[TabExplain] Sinclair\n- Inflige +30% de dégâts\n- En Touche de Pièce finale, déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +30% de dégâts en Touche Critique"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111606,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "… À toutes les unités, entrez en collision.",
+          "desc": "[WhenUse] +1 de Puissance de Pièce toutes les 8 d’Intensité de [Breath] sur soi (2 max)\n[WhenUse] +1 de Puissance Finale toutes les 8 d’Intensité de [Vibration] sur la cible (2 max)\n[WhenUse]\n- Gagne +3 de Compte de [Breath]\n- Gagne du Poids d’Atq égal au nombre d’autres Identités “Bureau Fer-de-lance[TabExplain]” alliées non immobilisées[TabExplain] (2 max)\n[WhenUse] Inflige +60% de dégâts par Poids d’Atq en excès par rapport au #de cibles réelles (en Affrontement Ciblé, la Partie)\n[EndSkill]\n- Consomme toute [ComboWedgeDawn] sur soi",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [FusionVibration] en [VibrationCollapse]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts Perçants égaux à 15% des dégâts finaux de cette Pièce"
+                },
+                {
+                  "desc": "[ComboSkill] : Fixer du Bureau de l’Aube[TabExplain] Faust\n- Inflige +20% de dégâts\n- [OnSucceedAttack] Inflige 3 [Combustion]\n- [OnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationIgnition]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts Perçants égaux à 15% des dégâts finaux de cette Pièce"
+                },
+                {
+                  "desc": "[ComboSkill]: Fixer du Bureau Fer-de-lance[TabExplain] Don Quichotte\n- Inflige +20% de dégâts en Touche Critique\n- [OnSucceedAttack] Inflige 2 [Vibration]"
+                },
+                {
+                  "desc": "[ComboSkill] : Fixer du Bureau Fer-de-lance[TabExplain] Sinclair\n- Inflige +20% de dégâts en Touche Critique\n- [OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts Perçants égaux à 15% des dégâts finaux de cette Pièce"
+                },
+                {
+                  "desc": "[ComboSkill] : Rep du Bureau de l’Aube[TabExplain] Gregor\n- Inflige +20% de dégâts\n- [OnSucceedAttack] Inflige 2 [Combustion]\n- [OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1\n- [OnSucceedAttack] Active la [Combustion] de la cible. La cible perd 1 de Compte de [Combustion]."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111608,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Le Fer-de-lance au Lendemain de l’Aube",
+          "desc": "[WhenUse] +1 de Puissance de Pièce toutes les 8 d’Intensité de [Breath] sur soi (2 max)\n[WhenUse] +1 de Puissance Finale toutes les 8 d’Intensité de [Vibration] sur la cible (2 max)\n[WhenUse]\n- Gagne +3 de Compte de [Breath]\n- Gagne du Poids d’Atq égal au nombre d’autres Identités “Bureau Fer-de-lance[TabExplain]” alliées non immobilisées[TabExplain] (2 max)\n[WhenUse] Inflige +60% de dégâts par Poids d’Atq en excès par rapport au #de cibles réelles (en Affrontement Ciblé, la Partie)\n[WinDuel] Déclenche un [FusionVibration] en [VibrationCollapse]\n[EndSkill]\n- Consomme toute [ComboWedgeDawn] sur soi",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts Perçants égaux à 20% des dégâts finaux de cette Pièce"
+                },
+                {
+                  "desc": "[ComboSkill] : Fixer du Bureau de l’Aube[TabExplain] Faust\n- Inflige +20% de dégâts\n- [OnSucceedAttack] Inflige 3 [Combustion]\n- [OnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationIgnition]"
+                },
+                {
+                  "desc": "[ComboSkill] : Rep du Bureau de l’Aube[TabExplain] Gregor\n- Inflige +20% de dégâts\n- [OnSucceedAttack] Inflige 2 [Combustion]\n- [OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1\n- [OnSucceedAttack] Active la [Combustion] de la cible. La cible perd 1 de Compte de [Combustion]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts Perçants égaux à 20% des dégâts finaux de cette Pièce"
+                },
+                {
+                  "desc": "[ComboSkill]: Fixer du Bureau Fer-de-lance[TabExplain] Don Quichotte\n- Inflige +20% de dégâts en Touche Critique\n- [OnSucceedAttack] Inflige 2 [Vibration]"
+                },
+                {
+                  "desc": "[ComboSkill] : Fixer du Bureau Fer-de-lance[TabExplain] Sinclair\n- Inflige +20% de dégâts en Touche Critique\n- [OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Inflige +100% de dégâts en Touche Critique"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts Perçants égaux à 20% des dégâts finaux de cette Pièce"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111607,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Écarte-toi.",
+          "desc": "[DuelCounter]\nCapacité Exclusive de [SupportProtect]\n[WhenUse] +1 de Puissance de Duel tous les 20% de PV manquants sur soi (4 max)\n[WhenUse]\n- Cette unité et l’allié sur lequel cette unité a utilisé [SupportProtect] regagnent 5 PSM\n- Gagne du Bouclier égal à 15% de PV (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [Breath]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

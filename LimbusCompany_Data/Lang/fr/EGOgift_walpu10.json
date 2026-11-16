@@ -1,0 +1,103 @@
+{
+  "dataList": [
+    {
+      "id": 9292,
+      "name": "Modèle à Suivre",
+      "desc": "S’il y a 2 Identités “Fixer” ou plus dans votre Composition d’Équipe, active l’effet suivant pour 1 “Fixer” allié le plus tard dans l’Ordre de Déploiement (exclut les Unités de Renfort) :\n- En entrant dans un Affrontement pour la première fois, gagne [Emulation]\n\nDébut du Tour : les Identités “Fixer” alliées regagne 2 PSM toutes les 2 Identités “Fixer” alliées sur le terrain\n\nS’il y a 3 Identités “Fixer” ou plus de la même faction sur le terrain, active l’effet suivant :\n- Capacités Offensives de Base des alliés ayant [Emulation] infligent +(# de “Fixer” alliés sur le terrain * 3)% de dégâts (15% max)\n\nS’il y a 3 Identités “Fixer” ou plus de factions différentes sur le terrain, active l’effet suivant :\n- À l’Usage de Capacité Offensive de Base par un allié ayant [Emulation], ledit allié gagne 1 [Enhancement] (2 fois par tour)\n- En Touche en utilisant une Capacité Offensive de Base par un allié ayant [Emulation], inflige 1 [Vulnerable] (2 fois par tour ; en Affrontement Ciblé, la Partie)",
+      "simpleDesc": [
+        {
+          "abilityID": 9292,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9293,
+      "name": "Herbes Médicinales Soigneusement Sélectionnées",
+      "desc": "Les Capacités Offensives déclenchées de façon supplémentaire par des Capacités ayant l’effet [ComboSkill] ou déclenchées par des effets de Capacité/Passif d’alliés infligent +10% de dégâts\n- Inflige +2% de dégâts supplémentaires chaque fois que l’effet ci-dessus s’active (10% max)\n- Pour les Capacités ayant l’effet [ComboSkill], gagne 1 [AttackDmgUp] chaque fois que lesdites Capacités sont utilisées (2 max par Identité)\n- Si l’allié est une Identité du “<noparse>Bureau de l’Aube</noparse>” ou du “<noparse>Bureau Fer-de-lance</noparse>”, ledit allié gagne 1 [Enhancement] (2 max par Identité)",
+      "simpleDesc": [
+        {
+          "abilityID": 9293,
+          "simpleDesc": "<noparse>Inflige plus de dégâts</noparse>, gagne [AttackDmgUp]. Gagne [Enhancement] en remplissant les conditions"
+        }
+      ]
+    },
+    {
+      "id": 9294,
+      "name": "Vaine Fierté",
+      "desc": "Début de l’Affrontement : applique [CursedBlessing] à 1 allié aléatoire\nCe Don E.G.O. se change en “Fierté de la Chevaleresse” après avoir gagné 6 Affrontements dans lesquels l’Identité ayant [CursedBlessing] survit\n{0}",
+      "simpleDesc": [
+        {
+          "abilityID": 9294,
+          "simpleDesc": "Applique [CursedBlessing]"
+        }
+      ]
+    },
+    {
+      "id": 9295,
+      "name": "Fierté de la Chevaleresse",
+      "desc": "[Les effets ne s’appliquent qu’à l’Identité Déployée #1]\nRetire tous les Seuils de Déséquilibre\nDébut de l’Affrontement : applique [BeyondDespair]",
+      "simpleDesc": [
+        {
+          "abilityID": 9295,
+          "simpleDesc": "Applique [BeyondDespair]"
+        }
+      ]
+    },
+    {
+      "id": 9296,
+      "name": "Épée Teintée de Chagrin",
+      "desc": "Les Capacités Perçantes de Base qui infligent de l’Intensité ou du Compte de [Sinking] ou une [Sinking] Unique gagnent +1 de Puissance Finale\n\nEn Touche par un allié utilisant une Capacité, si la cible a -20 PSM ou moins, inflige des dégâts de Peine égaux à l’Intensité de [Sinking] à la cible (une fois par Capacité)\n- Si ladite Capacité était une Capacité Perçante, inflige des dégâts fixes supplémentaires égaux à (Compte de [Sinking] sur la cible / 2) (une fois par Capacité)\n\n[Effet Exclusif de E.G.O. de Lobotomy::<noparse>L’Épée Aiguisée par les Larmes</noparse> Rodion]\nEn Touche contre un ennemi en utilisant la Pièce finale d’une Capacité de Base qui consomme de la [Charge] et a 1 de Poids d’Atq, inflige des dégâts d’Orgueil à tous les ennemis égaux à (Intensité de [Charge] consommée)% des dégâts finaux (inclut les [Charge]s Uniques)\n\n[Effet Exclusif de la Capacité E.G.O. <noparse>L’Épée Aiguisée par les Larmes</noparse> Hong Lu]\n+1 de Puissance Finale de Capacité E.G.O",
+      "simpleDesc": [
+        {
+          "abilityID": 9296,
+          "simpleDesc": "Les Capacités gagnent de la Puissance Finale, infligent des dégâts de Peine ; si la cible a peu de PSM, inflige des dégâts fixes"
+        }
+      ]
+    },
+    {
+      "id": 9297,
+      "name": "Foulard Blanc",
+      "desc": "Début du Tour : s’active lorsqu’il y a 3 Identités du “<noparse>Bureau Fer-de-lance</noparse>” ou plus (compte les Identités de Renfort)\n\n[Effet Exclusif de Rep du <noparse>Bureau Fer-de-lance</noparse> Outis]\n- Début du Tour : si les conditions ci-dessus sont remplies pour la première fois, gagne 20 [ComboWedge]\n- En utilisant “En Formation Fer-de-lance”, “… À toutes les unités, entrez en collision.”, “Le Fer-de-lance au Lendemain de l’Aube”, gagne 1 [ComboWedgeDawn] au prochain tour (2 fois par tour)\n- Si “En Formation Fer-de-lance” a été utilisée, regagne la moitié du [ComboWedge] consommé au prochain Début du Tour (une fois par tour, arrondi à l’inférieur)",
+      "simpleDesc": [
+        {
+          "abilityID": 9297,
+          "simpleDesc": "Gagne [ComboWedge] ou [ComboWedgeDawn]"
+        }
+      ]
+    },
+    {
+      "id": 9298,
+      "name": "Tricorne Noir",
+      "desc": "Dans un Duel, inflige 2 [Vibration] à l’ennemi par Clash (3 fois par Capacité)\n\nEn Critique par un allié utilisant une Capacité Offensive de Base sur des ennemis, si la cible principale a [Vibration], déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1 (une fois par Capacité)\n- Si l’ennemi est en état de [Switch_Vibration], inflige +10% de dégâts en Touche Critique\n- Si l’ennemi est en état de [VibrationNesting], inflige +5% de dégâts supplémentaires en Touche Critique par type de [Vibration] Unique <noparse>superposés</noparse> (25% max)",
+      "simpleDesc": [
+        {
+          "abilityID": 9298,
+          "simpleDesc": "Dans un Duel, inflige du Tremblement\nDéclenche un Sursaut de Tremblement lorsque les conditions sont remplies, les Capacités infligent plus de dégâts en Touche Critique"
+        }
+      ]
+    },
+    {
+      "id": 9299,
+      "name": "Dispositif d’Adaptation de Corps de Secours",
+      "desc": "En déclenchant un [VibrationExplosion] sur des ennemis ayant [VibrationCollapse], inflige des dégâts de Paresse à chaque cible égaux à (réduction de Niveau Offensif de chaque cible)% des dégâts infligés (15% max)",
+      "simpleDesc": [
+        {
+          "abilityID": 9299,
+          "simpleDesc": "Dégâts de Paresse"
+        }
+      ]
+    },
+    {
+      "id": 9300,
+      "name": "Fer de Lance Brisé",
+      "desc": "En Critique en utilisant des Capacités Offensives Perçantes de Base, inflige [EmbeddedSpearhead] à la cible à la Fin de l’Attaque (une fois par tour par Identité ; en Affrontement Ciblé, les Parties)",
+      "simpleDesc": [
+        {
+          "abilityID": 9300,
+          "simpleDesc": "Inflige [EmbeddedSpearhead]"
+        }
+      ]
+    }
+  ]
+}

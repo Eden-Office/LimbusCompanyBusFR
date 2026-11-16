@@ -1,0 +1,232 @@
+{
+  "dataList": [
+    {
+      "id": "Emulation",
+      "name": "Apprendre par l’Exemple",
+      "desc": "Instance max : 30\nGagne de l’Instance selon les conditions suivantes :\n- En Duel Gagné, gagne 2 Instances ; En Touche avec des Capacités Offensives de Base, gagne 1 Instance ; À la Fin de l’Attaque, si l’ennemi a été vaincu, gagne 3 Instances\n- En Duel Gagné d’autres alliés utilisant des Capacités Offensives de Base, gagne 2 Instances\n · En Duel Gagné d’autres alliés de la même faction que cette unité et utilisant des Capacités Offensives de Base, gagne 4 Instances à la place\n\nGagne cumulativement les effets suivants selon l’Instance :\n- Les Capacités Offensives de Base infligent +1% de dégâts par Instance (30% max)\n- 10 ou plus : +1 de Puissance de Duel pour les Capacités Offensives de Base\n- 20 ou plus : +1 de Puissance de Pièce pour les Capacités Offensives de Base",
+      "summary": "Gagne des Instances selon certaines conditions\nInflige plus de dégâts, gagne de la Puissance de Duel, gagne de la Puissance de Pièce selon l’Instance"
+    },
+    {
+      "id": "CursedBlessing",
+      "name": "Un Test de Désespoir",
+      "desc": "- Tous les Emplacements gagnent +20 d’Aggro\n- À l’Usage de Capacité Offensive, perd 20 PSM\n- À la Mort, tous les autres alliés perdent 20 PSM",
+      "summary": ""
+    },
+    {
+      "id": "BeyondDespair",
+      "name": "Celui Dépassant la Désillusion",
+      "desc": "- Début du Tour : gagne 2 Protection et 1 Bonus de Puissance Offensive\n- À l’Usage de Capacité Défensive, gagne 3 Bonus de Puissance Défensive (une fois par tour)\n- En Duel Gagné, regagne 5 PSM (2 fois par tour)\n · À PSM max, retire 1 effet négatif retirable appliqué sur soi\n- À la Fin de Capacité de Base, inflige des dégâts d’Orgueil égaux à 10% des dégâts infligés par ladite Capacité à chaque ennemi\n\n- Lorsque cette unité subit des dégâts amenant ses PV à 0, elle ne subit pas de dégâts pour le tour (une fois par Affrontement)\n · Après que l’effet ci-dessus se soit activé, regagne tous les PV au prochain tour ; puis, inflige +10% de dégâts par Protection sur soi jusqu’à la Fin du Combat (80% max)",
+      "summary": ""
+    },
+    {
+      "id": "EmbeddedSpearhead",
+      "name": "Fer de lance Incrusté",
+      "desc": "- Instance max : 1\n- En Critique en utilisant des Capacités Offensives Perçantes de Base par des cibles autres que la cible ayant infligé cet effet, subit +15% de dégâts\n- Lorsque touché par des Capacités ayant l’effet “Combo Commun”, subit +20% de dégâts supplémentaires\n- À la Fin de la Capacité ayant touché, expire",
+      "summary": ""
+    },
+    {
+      "id": "WalpuTenWedgeOffice",
+      "name": "Bureau Fer-de-lance",
+      "desc": "- Instance max : 3\n- +1 Niveau Offensif par Instance\n- Début du Tour : à 3 Instances, gagne 1 Bonus de DGT Perçant\n- Début du Tour : si tous les autres alliés ayant “Bureau Fer-de-lance” sont vaincus, cet effet expire",
+      "summary": ""
+    },
+    {
+      "id": "WalpuTenComboWedge",
+      "name": "Momentum",
+      "desc": "- Instance max : 30\n- Consommé par certaines Capacités\n- Peut gagner jusqu’à 20 Instances par tour",
+      "summary": ""
+    },
+    {
+      "id": "WalpuTenBattleFieldKnow",
+      "name": "Analyse du Terrain",
+      "desc": "- Instance max : 4\n- Gagne +2 de Compte de Calme en gagnant cet effet\n- Fin du Tour : gagne +(Instance * 2) de Compte de Calme\n- Les Capacités gagnent les effets suivants selon l’Instance :\n · 1 ou plus : inflige +(Instance * 2.5)% de dégâts aux ennemis\n · 2 ou plus : dans un Duel, +1 de Puissance de Duel tous les 2 Clash (2 max)\n · 3 ou plus : +1 de Puissance de Pièce, la Pièce finale devient une Pièce Incassable\n · 4 ou plus : +0.1 de Résist. Perçante de la cible jusqu’à la Fin de l’Attaque",
+      "summary": ""
+    },
+    {
+      "id": "WalpuTenWedgeMarkSilver",
+      "name": "Marque Argentée [Fer-de-lance]",
+      "desc": "- Instance max : 5\n- Fin du Tour : gagne +1 de Compte de Tremblement\n- Début du Tour : s’il n’y a pas d’ennemis “Bureau Fer-de-lance” sur le terrain, cet effet expire",
+      "summary": ""
+    },
+    {
+      "id": "WalpuTenWedgeMarkGold",
+      "name": "Marque Dorée [Fer-de-lance]",
+      "desc": "- Instance max : 5\n- Fin du Tour : gagne +1 de Compte de Tremblement\n- Début du Tour : s’il n’y a pas d’ennemis “Bureau Fer-de-lance” sur le terrain, cet effet expire",
+      "summary": ""
+    },
+    {
+      "id": "DawnOfficeStigmaSOne",
+      "name": "Lueur de l’Aube",
+      "desc": "- Instance max : 30\n- Début du Tour : gagne 1 Brûlure toutes les 5 Instances\n- Début du Tour : gagne +1 de Compte de Brûlure toutes les 10 Instances\n- À 10 Instances ou plus, inflige +1 d’Intensité de Brûlure supplémentaire en utilisant des Capacités de Base sur des ennemis\n- À 20 Instances ou plus, inflige +1 de Compte de Brûlure supplémentaire en utilisant des Capacités de Base sur des ennemis",
+      "summary": "",
+      "flavor": "La première lueur de l’aube n’est pas un feu qui carbonise, mais un feu qui projette sa lumière sur les gens."
+    },
+    {
+      "id": "DawnOfficeStigmaSTwo",
+      "name": "Lueur de l’Aube",
+      "desc": "- Instance max : 30\n- Début du Tour : gagne 1 Brûlure toutes les 5 Instances\n- Début du Tour : gagne +1 de Compte de Brûlure toutes les 10 Instances\n- À 10 Instances ou plus, inflige +1 d’Intensité de Brûlure supplémentaire en utilisant des Capacités de Base sur des ennemis\n- À 20 Instances ou plus, inflige +1 de Compte de Brûlure supplémentaire en utilisant des Capacités de Base sur des ennemis",
+      "summary": "",
+      "flavor": "La première lueur de l’aube n’est pas un feu qui carbonise, mais un feu qui projette sa lumière sur les gens."
+    },
+    {
+      "id": "DawnOfficeStigmaSThree",
+      "name": "Lueur de l’Aube",
+      "desc": "- Instance max : 30\n- Début du Tour : gagne 1 Brûlure toutes les 5 Instances\n- Début du Tour : gagne +1 de Compte de Brûlure toutes les 10 Instances\n- À 10 Instances ou plus, inflige +1 d’Intensité de Brûlure supplémentaire en utilisant des Capacités de Base sur des ennemis\n- À 20 Instances ou plus, inflige +1 de Compte de Brûlure supplémentaire en utilisant des Capacités de Base sur des ennemis",
+      "summary": "",
+      "flavor": "La première lueur de l’aube n’est pas un feu qui carbonise, mais un feu qui projette sa lumière sur les gens."
+    },
+    {
+      "id": "DawnOfficeStigmaYOne",
+      "name": "Cercueil Papillon de Feu",
+      "desc": "- Instance max : 30\n- En Touche avec des Capacités de Base, gagne 3 Instances\n · Si ladite Capacité est une Capacité 1 utilisée via le Passif “Bureau de l’Aube - Seonbae”, gagne 1 Instance supplémentaire\n · Si la cible a Brûlure, gagne 1 Instance supplémentaire\n- Fin du Tour : à moins de 20 Instances, gagne (Instance en excès / 2) Brûlure au prochain tour (arrondi à l’inférieur)\n · À 30 Instances, gagne 5 Brûlure et +2 de Compte de Brûlure à la place",
+      "summary": "",
+      "flavor": "Chauffés à une température incandescente au sein du cercueil sont des papillons, le kaléidoscope qui s’en déverse fait fondre et déchire la cible.\n\n“Ce type d’arme est encore trop prématuré à manier pour toi, Philip, mais ça ne te fera pas de mal d’au moins savoir comment elle fonctionne.”\n\n“Toutes ces lames à l’intérieur du cercueil facilitent la gestion de plusieurs adversaires en même temps. Comme ça, il est même possible de s’occuper de missions qui seraient normalement trop difficiles à gérer pour un seul Fixer.”"
+    },
+    {
+      "id": "DawnOfficeStigmaYTwo",
+      "name": "Cercueil Papillon de Feu",
+      "desc": "- Instance max : 30\n- En Touche avec des Capacités de Base, gagne 3 Instances\n · Si ladite Capacité est une Capacité 1 utilisée via le Passif “Bureau de l’Aube - Seonbae”, gagne 1 Instance supplémentaire\n · Si la cible a Brûlure, gagne 1 Instance supplémentaire\n- Fin du Tour : à moins de 20 Instances, gagne (Instance en excès / 2) Brûlure au prochain tour (arrondi à l’inférieur)\n · À 30 Instances, gagne 5 Brûlure et +2 de Compte de Brûlure à la place",
+      "summary": "",
+      "flavor": "Chauffés à une température incandescente au sein du cercueil sont des papillons, le kaléidoscope qui s’en déverse fait fondre et déchire la cible.\n\n“Ce type d’arme est encore trop prématuré à manier pour toi, Philip, mais ça ne te fera pas de mal d’au moins savoir comment elle fonctionne.”\n\n“Toutes ces lames à l’intérieur du cercueil facilitent la gestion de plusieurs adversaires en même temps. Comme ça, il est même possible de s’occuper de missions qui seraient normalement trop difficiles à gérer pour un seul Fixer.”"
+    },
+    {
+      "id": "DawnOfficeStigmaYThree",
+      "name": "Cercueil Papillon de Feu",
+      "desc": "- Instance max : 30\n- En Touche avec des Capacités de Base, gagne 3 Instances\n · Si ladite Capacité est une Capacité 1 utilisée via le Passif “Bureau de l’Aube - Seonbae”, gagne 1 Instance supplémentaire\n · Si la cible a Brûlure, gagne 1 Instance supplémentaire\n- Fin du Tour : à moins de 20 Instances, gagne (Instance en excès / 2) Brûlure au prochain tour (arrondi à l’inférieur)\n · À 30 Instances, gagne 5 Brûlure et +2 de Compte de Brûlure à la place",
+      "summary": "",
+      "flavor": "Chauffés à une température incandescente au sein du cercueil sont des papillons, le kaléidoscope qui s’en déverse fait fondre et déchire la cible.\n\n“Ce type d’arme est encore trop prématuré à manier pour toi, Philip, mais ça ne te fera pas de mal d’au moins savoir comment elle fonctionne.”\n\n“Toutes ces lames à l’intérieur du cercueil facilitent la gestion de plusieurs adversaires en même temps. Comme ça, il est même possible de s’occuper de missions qui seraient normalement trop difficiles à gérer pour un seul Fixer.”"
+    },
+    {
+      "id": "LoneFixer",
+      "name": "La Fixer Solitaire",
+      "desc": "- +3 de Puissance Finale\n- +3 Niveaux Offensifs\n- +3 Niveaux Défensifs",
+      "summary": ""
+    },
+    {
+      "id": "PhilipReady",
+      "name": "Préparation du Coup Embrasé",
+      "desc": "Utilise “Coup Embrasé” dans {0} tour(s)",
+      "summary": ""
+    },
+    {
+      "id": "PhilipShield",
+      "name": "Bouclier de Plumes",
+      "desc": "- Lorsque touché, inflige 2 Brûlure à l’attaquant\n- Subit -5% de dégâts de Capacités Offensives",
+      "summary": ""
+    },
+    {
+      "id": "PhilipSword",
+      "name": "Épée Ardente",
+      "desc": "En Touche, inflige 2 Brûlure",
+      "summary": ""
+    },
+    {
+      "id": "PhilipPower",
+      "name": "Se Remettre sur ses Pieds au Milieu de la Tristesse",
+      "desc": "- À la Fin de la Capacité, regagne 5 PSM\n- Inflige +20% de dégâts aux ennemis ayant Tremblement\n- Début du Tour : lorsque Déséquilibré, se remet de Déséquilibre ; puis, toutes les Résist. sur soi sont fixées à 1.5 pour le tour",
+      "summary": "",
+      "flavor": "“Pour moi, qui me sens plus triste que quiconque…”"
+    },
+    {
+      "id": "PhilipWax",
+      "name": "Émotion d’un Chagrin Incertain",
+      "desc": "- Instance max : 5\n- +10 de Plafond d’Intensité de Brûlure par Instance\n · Lorsque cet effet expire ou est réduit, l’Intensité de Brûlure en surplus expire\n- Subit +10% de dégâts d’activation de Brûlure par Instance\n- Lorsque Brûlure s’active, perd 1 Instance",
+      "summary": ""
+    },
+    {
+      "id": "PatronLibrarianofHistorysPage",
+      "name": "Bibliothécaire en Chef [Étage de l’Histoire]",
+      "desc": "- +1 Emplacement de Capacité, perd 1 usage de Capacité 1, gagne 1 usage de Capacité 3\n- Augmente de +1 la quantité de Brûlure, de Saignement, de Déchirure, de Lourdeur ou de Tremblement infligée en utilisant des Capacités (inclut les Effets de Statut Uniques)\n- Augmente de +1 la quantité de Calme ou de Charge (inclut les Charges Uniques) gagnées en utilisant des Capacités\n- Les Capacités Perçantes infligent +30% de dégâts À l’Usage\n- En Touche en utilisant des Capacités, gagne 1 ressource E.G.O. aléatoire la moins possédée (2 fois par Capacité)",
+      "summary": ""
+    },
+    {
+      "id": "EmotionLevelZero",
+      "name": "Niveau d’Émotion 0",
+      "desc": "- Instance max : 30\n- Subit -75% de dégâts d’effets de Brûlure (arrondi à l’inférieur)\n- Ne dépasse pas les 9 Instances tant que tous les alliés n’ont pas 9 Instances de Niveau d’Émotion\n- Gagne 3 Instances En Duel Gagné, En Touche Pile et En Tuant\n- Gagne 1 Instance En Duel Perdu, En Touche Face et lors de Mort Alliée\n- Fin du Tour : si tous les alliés ont 9 Instances de Niveau d’Émotion, gagne 1 Instance supplémentaire et augmente le Niveau d’Émotion",
+      "summary": ""
+    },
+    {
+      "id": "EmotionLevelOne",
+      "name": "Niveau d’Émotion 1",
+      "desc": "- Instance max : 30\n- +1 de Puissance Finale\n- Subit -75% de dégâts d’effets de Brûlure (arrondi à l’inférieur)\n- Ne dépasse pas les 19 Instances tant que tous les alliés n’ont pas 19 Instances de Niveau d’Émotion\n- Gagne 3 Instances En Duel Gagné, En Touche Pile et En Tuant\n- Gagne 1 Instance En Duel Perdu, En Touche Face et lors de Mort Alliée\n- Fin du Tour : si tous les alliés ont 19 Instances de Niveau d’Émotion, gagne 1 Instance supplémentaire et augmente le Niveau d’Émotion\n\n[Effet Exclusif du Bibliothécaire en Chef]\n- Cendres : lorsque touché, inflige 1~3 Brûlure à l’attaquant et a 40% de chances de gagner l’effet “En Touche avec des Capacités, inflige 1 Brûlure” pour le prochain tour (non cumulable)",
+      "summary": ""
+    },
+    {
+      "id": "EmotionLevelTwo",
+      "name": "Niveau d’Émotion 2",
+      "desc": "- Instance max : 30\n- +2 de Puissance Finale\n- Subit -75% de dégâts d’effets de Brûlure (arrondi à l’inférieur)\n- Ne dépasse pas les 29 Instances tant que tous les alliés n’ont pas 29 Instances de Niveau d’Émotion\n- Gagne 3 Instances En Duel Gagné, En Touche Pile et En Tuant\n- Gagne 1 Instance En Duel Perdu, En Touche Face et lors de Mort Alliée\n- Fin du Tour : si tous les alliés ont 29 Instances de Niveau d’Émotion, gagne 1 Instance supplémentaire et augmente le Niveau d’Émotion\n\n[Effet Exclusif du Bibliothécaire en Chef]\n- Cendres : lorsque touché, inflige 1~3 Brûlure à l’attaquant et a 40% de chances de gagner l’effet “En Touche avec des Capacités, inflige 1 Brûlure” pour le prochain tour (non cumulable)\n- Câlin du Bon Vieux Temps : En Duel Gagné, 20% de chances de déclencher un Sursaut de Tremblement sur la cible ; les chances augmentent à chaque Clash contre la même cible (2% par Clash, 50% max)",
+      "summary": ""
+    },
+    {
+      "id": "EmotionLevelThree",
+      "name": "Niveau d’Émotion 3",
+      "desc": "- Instance max : 30\n- +3 de Puissance Finale\n- Subit -75% de dégâts d’effets de Brûlure (arrondi à l’inférieur)\n\n[Effet Exclusif du Bibliothécaire en Chef]\n- Cendres : lorsque touché, inflige 1~3 Brûlure à l’attaquant et a 40% de chances de gagner l’effet “En Touche avec des Capacités, inflige 1 Brûlure” pour le prochain tour (non cumulable)\n- Câlin du Bon Vieux Temps : En Duel Gagné, 20% de chances de déclencher un Sursaut de Tremblement sur la cible ; les chances augmentent à chaque Clash contre la même cible (2% par Clash, 50% max)\n- Gourmandise : si la cible de cette unité a subi des dégâts ce tour, inflige 1~3 dégâts supplémentaires En Touche et regagne 2~5 PV",
+      "summary": ""
+    },
+    {
+      "id": "WalpuTenHard",
+      "name": "Difficulté Difficile",
+      "desc": "- +50% de PV max\n- Retire le premier Seuil de Déséquilibre\n- +3 Niveaux Offensifs\n- Plafond d’Intensité max de Brûlure, de Saignement, de Tremblement, de Déchirure et de Lourdeur : 30\n- Plafond de Compte max de Brûlure, de Saignement, de Tremblement, de Déchirure et de Lourdeur : 10\n- Subit -30% de dégâts de Saignement, de Tremblement, de Déchirure et de Lourdeur",
+      "summary": ""
+    },
+    {
+      "id": "HistoryAshes",
+      "name": "Pages de la Bibliothèque - Cendres",
+      "desc": "Lorsque touché, inflige 1~3 Brûlure à l’attaquant et a 40% de chances de gagner l’effet “En Touche avec des Capacités, inflige 1 Brûlure” pour le prochain tour (non cumulable)",
+      "summary": "",
+      "flavor": "“Le corps calciné représente l’espoir brisé de l’enfant, tandis que la flamme inextinguible représente son obsession pour l’affection.”"
+    },
+    {
+      "id": "HistoryNostalgicEmbraceOfTheOldDays",
+      "name": "Pages de la Bibliothèque - Câlin du Bon Vieux Temps",
+      "desc": "En Duel Gagné, 20% de chances de déclencher un Sursaut de Tremblement sur la cible ; les chances augmentent à chaque Clash contre la même cible (2% par Clash, 50% max)",
+      "summary": "",
+      "flavor": "L’Ourson serrait quelqu’un très fort. L’Ourson adore les câlins. Mais quelque chose clochait."
+    },
+    {
+      "id": "HistoryGluttony",
+      "name": "Pages de la Bibliothèque - Gourmandise",
+      "desc": "Si la cible de cette unité a subi des dégâts ce tour, inflige 1~3 dégâts supplémentaires En Touche et regagne 2~5 PV",
+      "summary": "",
+      "flavor": "Les fées ne sont rien de plus que des monstres carnivores, et leur “protection” n’est qu’un moyen de garder la viande fraîche."
+    },
+    {
+      "id": "DawnOffice_LowMorale",
+      "name": "Bureau de l’Aube",
+      "desc": "- Moral Bas\n- Inflige -5% de dégâts aux ennemis ayant Brûlure\n- +5% de Seuil de Déséquilibre augmenté contre les ennemis ayant Tremblement",
+      "summary": ""
+    },
+    {
+      "id": "DawnOffice_Panic",
+      "name": "Bureau de l’Aube",
+      "desc": "- Panique\n- Inflige -10% de dégâts aux ennemis ayant Brûlure\n- +10% de Seuil de Déséquilibre augmenté contre les ennemis ayant Tremblement",
+      "summary": ""
+    },
+    {
+      "id": "WedgeOffice_LowMorale",
+      "name": "Bureau Fer-de-lance",
+      "desc": "- Moral Bas\n- Inflige -5% de dégâts en Touche Critique\n- +5% de Seuil de Déséquilibre augmenté contre les ennemis ayant Tremblement",
+      "summary": ""
+    },
+    {
+      "id": "WedgeOffice_Panic",
+      "name": "Bureau Fer-de-lance",
+      "desc": "- Panique\n- Inflige -10% de dégâts en Touche Critique\n- +10% de Seuil de Déséquilibre augmenté contre les ennemis ayant Tremblement",
+      "summary": ""
+    },
+    {
+      "id": "WaxWing_LowMorale",
+      "name": "Penne de Cire",
+      "excludeAutoLink": true,
+      "desc": "- Moral Bas\n- Gagne 1 Vulnérabilité\n- Inflige +10% de dégâts aux ennemis ayant Brûlure",
+      "summary": ""
+    },
+    {
+      "id": "WaxWing_Panic",
+      "name": "Penne de Cire",
+      "excludeAutoLink": true,
+      "desc": "- Panique\n- Gagne 1 Vulnérabilité\n- Inflige +25% de dégâts aux ennemis ayant Brûlure",
+      "summary": ""
+    }
+  ]
+}

@@ -4014,6 +4014,7 @@
     {
       "id": "DawnTeam",
       "name": "Bureau de l’Aube",
+      "excludeAutoLink": true,
       "desc": "- Instance max : 3\n- Gagne 1 Niveau Offensif par Instance\n- Début du Tour : à 3 Instances, regagne 5 PSM\n- Début du Tour : si toutes les autres Identités alliées ayant “Bureau de l’Aube” sont vaincues, expire",
       "summary": "",
       "undefined": "-",
@@ -4250,28 +4251,28 @@
     {
       "id": "PersonalityCombustion",
       "name": "Identité de Brûlure",
-      "desc": "",
+      "desc": "Identités qui ont des Capacités Offensives de Base qui infligent de l’Intensité de Brûlure, du Compte de Brûlure ou une Brûlure Unique",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "PersonalityLaceration",
       "name": "Identité de Saignement",
-      "desc": "",
+      "desc": "Identités qui ont des Capacités Offensives de Base qui infligent de l’Intensité de Saignement, du Compte de Saignement ou un Saignement Unique",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "PersonalityBurst",
       "name": "Identité de Déchirure",
-      "desc": "",
+      "desc": "Identités qui ont des Capacités Offensives de Base qui infligent de l’Intensité de Déchirure, du Compte de Déchirure ou une Déchirure Unique",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "PersonalitySinking",
       "name": "Identité de Lourdeur",
-      "desc": "",
+      "desc": "Identités qui ont des Capacités Offensives de Base qui infligent de l’Intensité de Lourdeur, du Compte de Lourdeur ou une Lourdeur Unique",
       "summary": "",
       "undefined": "-"
     },
@@ -4423,6 +4424,94 @@
       "id": "WarinessHonglu",
       "name": "Châtiment Auditif",
       "desc": "- Instance max : 2\n- Perd du Niveau Offensif égal à l’Instance\n- S’il y a une Identité ayant Temps d’Écouter, subit +(Instance * 10)% de dégâts des Identités “Le Noir”\n- Fin du Tour : s’il y a une Identité ayant Temps d’Écouter, perd 1 Instance (si l’Identité ayant infligé cet effet a été vaincue ou a Battu en Retraite, expire)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "WedgeOffice",
+      "name": "Bureau Fer-de-lance",
+      "excludeAutoLink": true,
+      "desc": "- Instance max : 3\n- +1 Niveau Offensif par Instance\n- Début du Combat : à 3 Instances, gagne 1 Bonus de DGT Perçant\n- Expire à la Fin du Tour",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "ComboWedge",
+      "name": "Momentum",
+      "excludeAutoLink": true,
+      "desc": "- Instance max : 30\n- Peut gagner jusqu’à 20 Instances par tour\nDébut du Tour : si cette unité est Déséquilibrée, se remet de Déséquilibre (une fois par Affrontement ; exclut les Déséquilibres forcés)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "ComboWedgeDawn",
+      "name": "Camaraderie de l’Aube",
+      "excludeAutoLink": true,
+      "desc": "- Instance max : 5",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "DespairKnightEGOProtect",
+      "name": "Protection Loyale de la Chevaleresse",
+      "excludeAutoLink": true,
+      "desc": "Instance de Base : 3\nLes Résist. de Type Offensif de cette unité qui sont supérieures à 1.5 sont ajustées à 1.5 (sauf lorsque Déséquilibrée)\nSi cette unité est Déséquilibrée, subit -30% de dégâts (inclut les Déséquilibres forcés)\n\nFin du Tour : perd 1 Instance\nExpire lorsque le personnage ayant appliqué cet effet bat en retraite, est vaincu ou applique cet effet à une cible différente ; remplacé lorsqu’un autre personnage applique un effet équivalent\n\nSi cette unité est vaincue par un ennemi, inflige 2 Vulnérabilité à l’attaquant au prochain tour et l’unité ayant appliqué cet effet gagne 2 Bonus de Puissance Offensive et 3 Bonus de Dégâts au prochain tour (une fois par tour)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "DespairKnightEGOSword",
+      "name": "Épée Aiguisée par les Larmes",
+      "excludeAutoLink": true,
+      "desc": "- Instance max : 3\n- Les Capacités qui gagnent ou consomment de la Charge infligent +(Intensité de Charge * 2)% de dégâts (10% max)\n- Les Capacités Perçantes et les Capacités d’Orgueil infligent +(Instance * 5)% de dégâts\n- En Touche en utilisant les Capacités Perçantes ou d’Orgueil de cette unité, inflige des dégâts d’Orgueil égaux à ((Instance * 2) + (5% des dégâts finaux de la Pièce))\n- Fin de l’Attaque : si la cible principale est un ennemi, inflige de l’Intensité de Lourdeur égale à l’Instance",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "DespairKnightEGOMind",
+      "name": "Fierté Flétrie",
+      "excludeAutoLink": true,
+      "desc": "- Instance max : 999\n- Peut gagner jusqu’à 500 Instances par tour",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "DespairKnightEGOAlly",
+      "name": "Épée d’une Chevaleresse Oubliée",
+      "excludeAutoLink": true,
+      "desc": "- Instance max : 3\n- Lorsque touché par des Capacités Perçantes ou d’Orgueil, gagne 1 Instance (une fois par Capacité)\n · À Instance max, subit 50 dégâts d’Orgueil ; puis, cet effet expire. Gagne 1 Vulnérabilité Perçante ce tour et au prochain tour\n- Seul 1 personnage peut avoir cet effet au même moment (l’effet existant expire lorsque cet effet est appliqué à une autre cible)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BattleFieldKnow",
+      "name": "Analyse du Terrain",
+      "excludeAutoLink": true,
+      "desc": "- Instance max : 5\n- Gagne +1 de Compte de Calme en gagnant des Instances de cet effet\n- Fin du Tour : gagne +(Instance) de Compte de Calme\n- Début du Tour : si cette unité est Déséquilibrée au Début du Tour, se remet de Déséquilibre (2 fois par Affrontement ; exclut les Déséquilibres forcés)\n- Les Capacités Offensives de Base infligent les effets suivants selon l’Instance :\n  · 2 ou plus : À l’Usage de Capacité, inflige +(30 / # de Pièces)% de dégâts aux ennemis (arrondi à l’inférieur)\n  · 3 ou plus : +1 de Puissance de Pièce ; À l’Usage de Capacité, convertit la Pièce finale en Pièce Incassable\n  · 4 ou plus : À l’Usage de Capacité, inflige +(30 / # de Pièces)% de dégâts aux ennemis (arrondi à l’inférieur)\n  · 5 ou plus : +0.1 de Résist. Perçante de la cible du Début de l’Attaque à la Fin de l’Attaque\n- L’Instance immédiate avant l’Usage de Capacité est utilisée pour déterminer si les effets d’augmentation de dégâts et de conversion de Pièce Incassable sont activés",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "WedgeMarkYellow",
+      "name": "Fer-de-lance - Don Quichotte",
+      "excludeAutoLink": true,
+      "desc": "- Instance max : 8\n- À assez d’Instances, renforce une certaine Capacité de Fixer du Bureau Fer-de-lance Sinclair\n- Fin du Tour : gagne +1 de Compte de Tremblement\n- Début du Tour : s’il n’y a pas d’ennemi du “Bureau Fer-de-lance” sur le terrain, cet effet expire",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "WedgeMarkGreen",
+      "name": "Fer-de-lance - Sinclair",
+      "excludeAutoLink": true,
+      "desc": "- Instance max : 8\n- À assez d’Instances, renforce une certaine Capacité de Fixer du Bureau Fer-de-lance Don Quichotte\n- Fin du Tour : gagne +1 de Compte de Tremblement\n- Début du Tour : s’il n’y a pas d’ennemi du “Bureau Fer-de-lance” sur le terrain, cet effet expire",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "ComboSkill",
+      "name": "Combo Commun",
+      "excludeAutoLink": true,
+      "desc": "Si l’Identité concernée est sur le terrain, vivante et n’est pas immobilisée, active les effets liés (ne s’active pas si l’Identité concernée est dans l’un des états suivants : tout type d’état d’immobilisation, Érosion E.G.O. ou Déséquilibre)",
       "summary": "",
       "undefined": "-"
     }

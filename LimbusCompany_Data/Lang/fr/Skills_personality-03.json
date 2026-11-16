@@ -3693,6 +3693,371 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1031601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Collision",
+          "desc": "[WhenUse] Gagne 3 [Breath]\n[ComboSkill] : en Réson. avec les Capacités de Fixer du <noparse>Bureau Fer-de-lance</noparse> Sinclair, gagne les effets suivants (une fois par tour) :\n- [WhenUse] +1 de Puissance de Duel\n- [WhenUse] Gagne 1 [BattleFieldKnow]\n- [WhenUse] Réutilise la Pièce finale une fois\n[WinDuel] Gagne 1 [PenetrateDamageUp] au prochain tour (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 1 [Vibration]"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Inflige 1 [WedgeMarkGreen]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Collision",
+          "desc": "<style=\"highlight\">[WhenUse] +1 de Puissance Finale tous les 4 (Intensité de [Breath] sur soi + Intensité de [Vibration] sur la cible) (2 max)</style>\n[WhenUse] Gagne <style=\"highlight\">4</style> [Breath]\n[ComboSkill] : en Réson. avec les Capacités de Fixer du <noparse>Bureau Fer-de-lance</noparse> Sinclair, gagne les effets suivants (une fois par tour) :\n- [WhenUse] +<style=\"highlight\">2</style> de Puissance de Duel\n- [WhenUse] Gagne 1 [BattleFieldKnow]\n- [WhenUse] Réutilise la Pièce finale une fois\n[WinDuel] Gagne 1 [PenetrateDamageUp] au prochain tour (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige <style=\"highlight\">2</style> [Vibration]"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Inflige 1 [WedgeMarkGreen]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Collision",
+          "desc": "[WhenUse] +1 de Puissance Finale tous les 4 (Intensité de [Breath] sur soi + Intensité de [Vibration] sur la cible) (<style=\"highlight\">3</style> max)\n[WhenUse] Gagne 4 [Breath]\n[ComboSkill] : en Réson. avec les Capacités de Fixer du <noparse>Bureau Fer-de-lance</noparse> Sinclair, gagne les effets suivants (une fois par tour) :\n- [WhenUse] +2 de Puissance de Duel\n- [WhenUse] Gagne 1 [BattleFieldKnow]\n- [WhenUse] Réutilise la Pièce finale une fois\n[WinDuel] Gagne 1 [PenetrateDamageUp] au prochain tour (une fois par tour)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige 2 [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Inflige 1 [WedgeMarkGreen]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Frapper la Brèche",
+          "desc": "[WhenUse] Gagne 2 [Breath]\n[WinDuel] Inflige 1 [Vibration], puis déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 1 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Frapper la Brèche",
+          "desc": "<style=\"highlight\">[WhenUse] +1 de Puissance Finale tous les 4 (Intensité de [Breath] sur soi + Intensité de [Vibration] sur la cible) (2 max)</style>\n[WhenUse] Gagne <style=\"highlight\">3</style> [Breath]\n[WinDuel] Inflige 1 [Vibration], puis déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne <style=\"highlight\">2</style> [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnStartCoin] Cette Pièce gagne +1 de Puissance Finale par [BattleFieldKnow] sur soi (4 max)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Frapper la Brèche",
+          "desc": "[WhenUse] +1 de Puissance Finale tous les 4 (Intensité de [Breath] sur soi + Intensité de [Vibration] sur la cible) (<style=\"highlight\">3</style> max)\n[WhenUse] Gagne 3 [Breath]\n[WinDuel] Inflige 1 [Vibration], puis déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 2 [Breath]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] Cette Pièce gagne +1 de Puissance Finale par [BattleFieldKnow] sur soi (4 max)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +2 de Compte de [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031603,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Balayage à la Lance",
+          "desc": "[WhenUse] À 6 (Intensité de [Breath] sur soi + Intensité de [Vibration] sur la cible) ou plus, +1 de Puissance de Pièce\n[WhenUse] Gagne 2 [Breath]\n[ComboSkill] : en Réson. avec les Capacités de Fixer du <noparse>Bureau Fer-de-lance</noparse> Sinclair, gagne les effets suivants (une fois par tour) :\n- [WhenUse] +1 de Puissance de Duel\n- [WhenUse] Gagne 1 [BattleFieldKnow]\n- [WhenUse] Inflige +20% de dégâts\n[WinDuel] Inflige 2 [Vibration], puis déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 4 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Si la cible est en état de [Switch_Vibration] ou d’[FusionVibration], inflige +20% de dégâts"
+                },
+                {
+                  "desc": "[OnStartCoin] Cette Pièce gagne +1 de Puissance Finale par [BattleFieldKnow] sur soi (4 max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible n’est pas en état de [Switch_Vibration], déclenche une [Switch_Vibration] en [VibrationCollapse]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Balayage à la Lance",
+          "desc": "[WhenUse] À 6 (Intensité de [Breath] sur soi + Intensité de [Vibration] sur la cible) ou plus, +1 de Puissance de Pièce\n[WhenUse] Gagne 2 [Breath]\n[ComboSkill] : en Réson. avec les Capacités de Fixer du <noparse>Bureau Fer-de-lance</noparse> Sinclair, gagne les effets suivants (une fois par tour) :\n- [WhenUse] +<style=\"highlight\">3</style> de Puissance de Duel\n- [WhenUse] Gagne 1 [BattleFieldKnow]\n- [WhenUse] Inflige +<style=\"highlight\">40</style>% de dégâts\n[WinDuel] Inflige 2 [Vibration], puis déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gagne 4 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Si la cible est en état de [Switch_Vibration] ou d’[FusionVibration], inflige +<style=\"highlight\">30</style>% de dégâts"
+                },
+                {
+                  "desc": "[OnStartCoin] Cette Pièce gagne +1 de Puissance Finale par [BattleFieldKnow] sur soi (4 max)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible n’est pas en état de [Switch_Vibration], déclenche une [Switch_Vibration] en [VibrationCollapse]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] ; puis, réduit le Compte de [Vibration] de la cible de 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Reprendre son Souffle",
+          "desc": "[WhenUse] À 6 d’Intensité de [Breath] ou plus, +1 de Puissance de Pièce\n[OnSucceedEvade] Gagne 1 [Breath] (3 fois par tour)\n[OnBattleEnd] Si cette unité n’a pas gagné d’[BattleFieldKnow] avec des effets de Capacité pendant ce tour, gagne 1 [BattleFieldKnow] (une fois par tour)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Reprendre son Souffle",
+          "desc": "<style=\"highlight\">[StartBattle] Si la cible a 4 [WedgeMarkGreen] ou plus, active “Ma lance vos poinçonnera !” à la place (une fois par tour ; peut s’activer pour les Attaques à Sens Unique)</style>\n[WhenUse] À 6 d’Intensité de [Breath] ou plus, +1 de Puissance de Pièce\n[OnSucceedEvade] Gagne <style=\"highlight\">2</style> [Breath] (3 fois par tour)\n[OnBattleEnd] Si cette unité n’a pas gagné d’[BattleFieldKnow] avec des effets de Capacité pendant ce tour, gagne 1 [BattleFieldKnow] (une fois par tour)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Reprendre son Souffle",
+          "desc": "[StartBattle] Si la cible a 4 [WedgeMarkGreen] ou plus, active “Ma lance vos poinçonnera !” à la place (une fois par tour ; peut s’activer pour les Attaques à Sens Unique)\n[WhenUse] À 6 d’Intensité de [Breath] ou plus, +1 de Puissance de Pièce\n[OnSucceedEvade] Gagne 2 [Breath] (3 fois par tour)\n<style=\"highlight\">[OnSucceedEvade] Gagne 1 [Agility] au prochain tour (une fois par tour)</style>\n[OnBattleEnd] Si cette unité n’a pas gagné d’[BattleFieldKnow] avec des effets de Capacité pendant ce tour, gagne 1 [BattleFieldKnow] (une fois par tour)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031605,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Ma lance vos poinçonnera !",
+          "desc": "Cette Capacité compte comme une Capacité Offensive, même lorsqu’elle s’active à la place d’une Capacité Défensive ; cette Capacité n’est pas affectée par les effets de changement de Puissance Défensive et, à la place, est affectée par les effets de changement de Puissance Offensive\n+1 de Puissance de Duel tous les 2 [WedgeMarkGreen] sur la cible (4 max)\n[WhenUse] À 6 (Intensité de [Breath] sur soi + Intensité de [Vibration] sur la cible) ou plus, +1 de Puissance de Pièce\n[WhenUse] Gagne 2 [Breath]\n[ComboSkill] : en Réson. avec les Capacités de Fixer du <noparse>Bureau Fer-de-lance</noparse> Sinclair, gagne les effets suivants (une fois par tour) :\n- [WhenUse] +1 de Puissance de Duel\n- [WhenUse] Gagne 1 [BattleFieldKnow]\n- [WhenUse] Inflige +30% de dégâts\n[WinDuel] Inflige 4 [Vibration], puis déclenche un [VibrationExplosion]\n[EndSkill] Retire tout le [WedgeMarkGreen] sur la cible\n[EndSkill] L’Identité Rep du <noparse>Bureau Fer-de-lance</noparse> Outis alliée gagne 3 [ComboWedge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 4 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Inflige +20% de dégâts en Touche Critique",
+                  "summary": "Inflige plus de dégâts en Touche Critique"
+                },
+                {
+                  "desc": "Inflige +(40 / Résist. Perçante de la cible)% de dégâts (80% max ; arrondi à l’inférieur)",
+                  "summary": "Plus la Résist. Perçante de la cible est basse, plus les dégâts sont augmentés"
+                },
+                {
+                  "desc": "Si la cible est en état de [Switch_Vibration] ou d’[FusionVibration], inflige +30% de dégâts",
+                  "summary": "+30% de dégâts"
+                },
+                {
+                  "desc": "[OnStartCoin] Cette Pièce gagne +2 de Puissance Finale par [BattleFieldKnow] sur soi (8 max)",
+                  "summary": "[OnStartCoin] Gagne de la Puissance Finale selon [BattleFieldKnow]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible n’est pas en état de [Switch_Vibration], déclenche une [Switch_Vibration] en [VibrationCollapse]",
+                  "summary": "[OnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationCollapse]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts Perçants égaux à ([WedgeMarkGreen] sur la cible * 7)% des dégâts finaux de cette Pièce (56% max)",
+                  "summary": "[OnSucceedAttack] Inflige des dégâts Perçants selon le [WedgeMarkGreen] sur la cible"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] 2 fois ; puis, réduit le Compte de [Vibration] de la cible de 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ma lance vos poinçonnera !",
+          "desc": "Cette Capacité compte comme une Capacité Offensive, même lorsqu’elle s’active à la place d’une Capacité Défensive ; cette Capacité n’est pas affectée par les effets de changement de Puissance Défensive et, à la place, est affectée par les effets de changement de Puissance Offensive\n+1 de Puissance de Duel tous les 2 [WedgeMarkGreen] sur la cible (4 max)\n[WhenUse] À 6 (Intensité de [Breath] sur soi + Intensité de [Vibration] sur la cible) ou plus, +1 de Puissance de Pièce\n[WhenUse] Gagne 2 [Breath]\n[ComboSkill] : en Réson. avec les Capacités de Fixer du <noparse>Bureau Fer-de-lance</noparse> Sinclair, gagne les effets suivants (une fois par tour) :\n- [WhenUse] +<style=\"highlight\">3</style> de Puissance de Duel\n- [WhenUse] Gagne 1 [BattleFieldKnow]\n- [WhenUse] Inflige +<style=\"highlight\">50</style>% de dégâts\n[WinDuel] Inflige 4 [Vibration], puis déclenche un [VibrationExplosion]\n[EndSkill] Retire tout le [WedgeMarkGreen] sur la cible\n[EndSkill] L’Identité Rep du <noparse>Bureau Fer-de-lance</noparse> Outis alliée gagne 3 [ComboWedge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gagne 4 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige +3 de Compte de [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Inflige +<style=\"highlight\">40</style>% de dégâts en Touche Critique",
+                  "summary": "Inflige plus de dégâts en Touche Critique"
+                },
+                {
+                  "desc": "Inflige +(40 / Résist. Perçante de la cible)% de dégâts (80% max ; arrondi à l’inférieur)",
+                  "summary": "Plus la Résist. Perçante de la cible est basse, plus les dégâts sont augmentés"
+                },
+                {
+                  "desc": "Si la cible est en état de [Switch_Vibration] ou d’[FusionVibration], inflige +30% de dégâts",
+                  "summary": "+30% de dégâts"
+                },
+                {
+                  "desc": "[OnStartCoin] Cette Pièce gagne +2 de Puissance Finale par [BattleFieldKnow] sur soi (8 max)",
+                  "summary": "[OnStartCoin] Gagne de la Puissance Finale selon [BattleFieldKnow]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Si la cible n’est pas en état de [Switch_Vibration], déclenche une [Switch_Vibration] en [VibrationCollapse]",
+                  "summary": "[OnSucceedAttack] Déclenche une [Switch_Vibration] en [VibrationCollapse]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflige des dégâts Perçants égaux à ([WedgeMarkGreen] sur la cible * 7)% des dégâts finaux de cette Pièce (56% max)",
+                  "summary": "[OnSucceedAttack] Inflige des dégâts Perçants selon le [WedgeMarkGreen] sur la cible"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Déclenche un [VibrationExplosion] 2 fois ; puis, réduit le Compte de [Vibration] de la cible de 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

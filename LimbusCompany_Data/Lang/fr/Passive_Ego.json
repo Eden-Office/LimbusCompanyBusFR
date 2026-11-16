@@ -637,6 +637,24 @@
       "name": "L’Hémorragie interne",
       "desc": "[AlwaysUseEGOPassive]\nSi cette unité a 5 [BulletHole], ne consomme pas de Ressources E.G.O. en utilisant les Capacités de l’E.G.O. “Vide” (Éveil et Érosion)\n\nDébut du Tour : gagne 1 [BulletHole]\n\n[WhenUseEGOPassive]\nDébut du Tour : gagne 1 [BlackWingHole]\n\nRegagne 5 PSM chaque fois que cette unité consomme ou perd 3 [Bullet] cumulées et gagne 1 [ResultEnhancement] au prochain tour (inclut les [Bullet] Uniques ; compte jusqu’à 9 [Bullet] par tour)",
       "flavor": "Le regard d’un autre se cloue en moi, enfonçant un vide d’où jaillit la multitude.\nLa décharge est ensuite forgée en une balle qui poinçonne un vide en vous."
+    },
+    {
+      "id": 2061111,
+      "name": "Depuis les Profondeurs du Désespoir",
+      "desc": "Les Résist. de Type Offensif de cette unité qui sont supérieures à 1.5 sont ajustées à 1.5 (sauf lorsque Déséquilibrée)\nSi cette unité est Déséquilibrée, subit -30% de dégâts (inclut les Déséquilibres forcés)\n\nÀ 999 [DespairKnightEGOMind], ne consomme pas de ressource E.G.O. en utilisant la Capacité E.G.O. “L’Épée Aiguisée par les Larmes” (Éveil et Érosion)\n\nGagne de la [DespairKnightEGOMind] égale aux dégâts subis par les alliés (inclut cette unité ; inclut les dégâts de Bouclier)\nÀ la Mort d’un Allié, gagne 1 [DespairKnightEGOSword] (une fois par tour)\nLorsqu’un allié ayant [DespairKnightEGOProtect] est vaincu, gagne 1 [DespairKnightEGOSword] (une fois par tour)\n\n+1 Niveau Offensif et -1 Niveau Défensif tous les 2 alliés vaincus (5 max)",
+      "summary": "Renforce les Résist., subit moins de dégâts"
+    },
+    {
+      "id": 50001,
+      "name": "Arcane Magique",
+      "desc": "Active les effets suivants selon le nombre d’Identités “Magical Girl” ou d’E.G.O. “Magical Girl” sur le terrain (les Identités et les E.G.O. sont comptés ensemble)\n(2) Les Capacités d’Identités “Magical Girl” alliées ou les Capacités E.G.O. “Magical Girl” alliées infligent +10% de dégâts",
+      "summary": "(2) Les Identités / E.G.O. Magical Girl infligent +10% de dégâts en utilisant des Capacités"
+    },
+    {
+      "id": 50002,
+      "name": "Arcane Magique",
+      "desc": "(3) Toutes les Capacités à Pièces Négatives des alliés infligent +10% de dégâts\nÀ la Fin de l’Attaque contre la cible principale ennemie de la Capacité E.G.O. “L’Épée Aiguisée par les Larmes”, inflige 1 [DespairKnightEGOAlly] (une fois par tour)",
+      "summary": "(3) Toutes les Capacités à Pièces Négatives des alliés infligent +10% de dégâts\nFin de l’Attaque de “L’Épée Aiguisée par les Larmes” : inflige 1 [DespairKnightEGOAlly]"
     }
   ]
 }
